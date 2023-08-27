@@ -215,6 +215,8 @@
         var incorrectPoints = 0;
         var currentQuestionNumber = 0;
         var totalQuestions = quiz.length;
+        var falseTries = 0;
+        var alreadyAnsweredIncorrectly = false;
 
         document.addEventListener("DOMContentLoaded", function(event) { 
             btnProvideQuestion();
@@ -238,6 +240,7 @@
                 alert("All questions have been answered!");
                 return;
             }
+            alreadyAnsweredIncorrectly = false;
 
             var randomNumber = Math.floor(Math.random() * quiz.length);
             randomQuestion = quiz[randomNumber];
@@ -283,14 +286,20 @@
             if (isCorrect) {
                 currentScore++;
                 correctPoints++;
+                alreadyAnsweredIncorrectly = false;
             } else {
-                if (currentScore > 0) {
-                    currentScore--;
+                falseTries++;
+                if (!alreadyAnsweredIncorrectly) {
+                    if (currentScore > 0) {
+                        currentScore--;
+                    }
+                    incorrectPoints++;
+                    alreadyAnsweredIncorrectly = true;
                 }
-                incorrectPoints++;
             }
-            document.getElementById("score").innerHTML = "Correct: " + correctPoints + " | Incorrect: " + incorrectPoints;
+            document.getElementById("score").innerHTML = "Correct: " + correctPoints + " | Incorrect: " + incorrectPoints + " | False Tries: " + falseTries;
         }
+
 
         function checkAnswer(answer) {  
             if (answer == randomQuestion.rightAnswer) {
