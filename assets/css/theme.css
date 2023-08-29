@@ -1334,8 +1334,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-section {
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   color: #898798;
   overflow: hidden;
 }
@@ -1385,7 +1385,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 768px) {
   .page-banner.home-banner {
-    height: 540px;
+    min-height: 540px; /* Changed from fixed height */
   }
 }
 
@@ -1408,6 +1408,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .home-banner .row > *:first-child {
   padding-left: 8%;
+}
+
+@media (max-width: 767px) {
+  .home-banner .row > *:first-child {
+    padding-left: 5%;  /* Adjusted for smaller screens */
+  }
 }
 
 .subhead {
