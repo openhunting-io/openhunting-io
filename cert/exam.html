@@ -630,35 +630,107 @@ new Question("Which of the following methods help incident responders to reduce 
 ];
 
 
+// $('form').submit(function(event) {
+//     event.preventDefault();
+//     var msg = $('#message').val().toLowerCase().trim(); // Convert to lowercase for case-insensitive match
+//     $('#message').val('');
+
+//     // Check if the message is "clear" or "cls"
+//     if (msg === "clear" || msg === "cls") {
+//         $('#messages').empty(); // Clear the chat
+//         return; // Exit the function early
+//     }
+
+//     $('#messages').append($('<li>').html(msg));
+    
+//     // Search for a matching question
+//     var matchingQuestion = quiz.find(q => q.question.toLowerCase().includes(msg));
+    
+//     if(matchingQuestion) {
+//         var response = "Question: " + matchingQuestion.question + "<br>";
+//         response += "Answer: " + matchingQuestion.answer + "<br>";
+//         response += "Options: " + matchingQuestion.options.join(", ");
+//         $('#messages').append($('<li>').html(response));
+//     } else {
+//         $('#messages').append($('<li>').html("Sorry, I couldn't find a matching question."));
+//     }
+    
+//     $('#chat-messages').animate({
+//         scrollTop: $('#chat-messages').get(0).scrollHeight
+//     }, 250);
+// });
+
+var telegramMode = false; // Initial mode is chatbox mode
+
 $('form').submit(function(event) {
     event.preventDefault();
-    var msg = $('#message').val().toLowerCase().trim(); // Convert to lowercase for case-insensitive match
+    
+    var msg = $('#message').val().toLowerCase().trim();
     $('#message').val('');
 
-    // Check if the message is "clear" or "cls"
-    if (msg === "clear" || msg === "cls") {
-        $('#messages').empty(); // Clear the chat
-        return; // Exit the function early
+    if (msg === "telegram" || msg === "tele") {
+        telegramMode = true; // Enable Telegram mode
+        $('#messages').append($('<li>').html("Switched Mode"));
+        return; 
     }
 
-    $('#messages').append($('<li>').html(msg));
-    
-    // Search for a matching question
-    var matchingQuestion = quiz.find(q => q.question.toLowerCase().includes(msg));
-    
-    if(matchingQuestion) {
-        var response = "Question: " + matchingQuestion.question + "<br>";
-        response += "Answer: " + matchingQuestion.answer + "<br>";
-        response += "Options: " + matchingQuestion.options.join(", ");
-        $('#messages').append($('<li>').html(response));
-    } else {
-        $('#messages').append($('<li>').html("Sorry, I couldn't find a matching question."));
+    if (telegramMode && (msg === "clear" || msg === "cls" || msg === "end")) {
+        telegramMode = false; // Disable Telegram mode
+        $('#messages').append($('<li>').html("Normal Mode"));
+        return;
     }
-    
+
+    if (telegramMode) {
+        // If in Telegram mode, send the message to Telegram
+        sendMessageToTelegram(msg);
+    } else {
+        // Otherwise, process in chatbox mode
+        $('#messages').append($('<li>').html(msg));
+
+        if (msg === "clear" || msg === "cls") {
+            $('#messages').empty(); // Clear the chat
+            return; // Exit the function early
+        }
+        
+        var matchingQuestion = quiz.find(q => q.question.toLowerCase().includes(msg));
+        
+        if (matchingQuestion) {
+            var response = "Question: " + matchingQuestion.question + "<br>";
+            response += "Answer: " + matchingQuestion.answer + "<br>";
+            response += "Options: " + matchingQuestion.options.join(", ");
+            $('#messages').append($('<li>').html(response));
+        } else {
+            $('#messages').append($('<li>').html("Sorry, I couldn't find a matching question."));
+        }
+    }
+
     $('#chat-messages').animate({
         scrollTop: $('#chat-messages').get(0).scrollHeight
     }, 250);
 });
+
+function sendMessageToTelegram(msg) {
+    const BOT_TOKEN = '6611933092:AAFrKCmPJyjzdKYtAPwyDP91lXwZlY39es4';
+    const CHAT_ID = '-4027738339'; 
+    const endpoint = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
+    const formData = new FormData();
+
+    formData.append('chat_id', CHAT_ID);
+    formData.append('text', msg);
+
+    fetch(endpoint, {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
 
 
 
