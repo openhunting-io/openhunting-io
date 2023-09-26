@@ -107,12 +107,25 @@
 
 $(document).ready(function() {
     var table = $('#examples').DataTable({
-        "dom": 'lrtip'  // This removes the default search bar but keeps other elements.
+        "dom": 'lrtip',
+        "order": [[5, "desc"]],
+        "columnDefs": [
+           { "type": "date", "targets": 5 }
+        ]
     });
-
     // Custom search implementation
     $('#customSearchBox').on('keyup', function() {
         table.search(this.value).draw();
+    });
+    // Initialize the DataTable
+
+    $('.filter-label').on('click', function() {
+        var filterValue = $(this).text().trim().toLowerCase();
+        table.column(3).search(filterValue).draw();
+    });
+
+    $('#resetFilters').on('click', function() {
+        table.search('').columns().search('').draw();
     });
 });
 

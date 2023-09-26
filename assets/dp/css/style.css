@@ -9713,3 +9713,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
+.filter-label {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filter-label:hover {
+    background-color: #eee;
+}
+
+
