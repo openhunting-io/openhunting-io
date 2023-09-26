@@ -102,3 +102,38 @@
     
 })(jQuery);
 
+
+// CUSTOM SIDEBAR
+
+$(document).ready(function() {
+    var table = $('#examples').DataTable({
+        "dom": 'lrtip'  // This removes the default search bar but keeps other elements.
+    });
+
+    // Custom search implementation
+    $('#customSearchBox').on('keyup', function() {
+        table.search(this.value).draw();
+    });
+});
+
+
+
+const customSidebarSearch = document.getElementById('customSidebarSearch');
+const customSidebarMenu = document.getElementById('customSidebarMenu');
+
+customSidebarSearch.addEventListener('input', function() {
+    let filterValue = customSidebarSearch.value.toLowerCase();
+    let menuItems = customSidebarMenu.getElementsByClassName('customSidebarItem');
+
+    for (let item of menuItems) {
+        if (item.textContent.toLowerCase().includes(filterValue)) {
+            item.style.display = '';
+        } else {
+            item.style.display = 'none';
+        }
+    }
+});
+
+
+
+

@@ -9637,3 +9637,79 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
   text-decoration: none;
 }
+
+
+/* CUSTOM SIDEBAR */
+
+#customSidebar {
+  /* width: 250px;*/
+  /* height: 80vh;  */
+  /* background-color: #f4f4f4; */
+  padding: 20px;
+  /* box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); */
+}
+
+#customSidebarMenu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.customSidebarItem {
+  padding: 8px;
+  background-color: #eee;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 0.85em;
+  display: flex;
+  justify-content: space-between; /* To separate the item text and label */
+}
+
+.customSidebarItem:hover {
+  background-color: #ddd;
+}
+
+.label {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.malware {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.trojan {
+  background-color: #3498db;
+  color: white;
+}
+
+.ransomware {
+  background-color: #f39c12;
+  color: white;
+}
+
+.spyware {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.worm {
+  background-color: #9b59b6;
+  color: white;
+}
+
+
+.dataTables_length {
+  font-size: 0.8em;
+}
+.dataTables_info {
+  font-size: 0.8em;
+}
+.dataTables_length select {
+  width: auto;  /* Adjust width automatically based on content */
+  max-width: 60px;  /* Set a maximum width */
+}
+
+
