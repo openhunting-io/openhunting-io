@@ -62,7 +62,11 @@ body {
   color: #6F6F6F;
   text-align: left;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -9725,3 +9729,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
+.content-wrapper {
+  flex: 1;
+}
