@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Open Hunting - Threat Intelligence</title>
+    <title>Open Hunting - Threat Library</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -161,7 +161,7 @@
                     <div class="row px-xl-5">
                         <div class="col-lg-2 pb-5">
                             <div id="product-carousel" class="carousel slide" data-ride="carousel">
-                                <img class="w-50 h-50" src="assets/dp/img/product-2.jpg" alt="Image">
+                                <!-- <img class="w-50 h-50" src="assets/dp/img/product-2.jpg" alt="Image"> -->
                             </div>
                         </div>
 
@@ -306,7 +306,7 @@
                                         <div class="col-md-12">
                                             <h4 class="mb-4">1 review for "Colorful Stylish Shirt"</h4>
                                             <div class="media mb-4">
-                                                <img src="assets/dp/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                                                <!-- <img src="assets/dp/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;"> -->
                                                 <div class="media-body">
                                                     <h6>John Doe<small> - <i>01 Jan 2045</i></small></h6>
                                                     <div class="text-primary mb-2">
@@ -354,6 +354,7 @@
     <script src="assets/dp/mail/contact.js"></script>
 
 
+    <pre id="jsonData"></pre>
     <script>
         // This function will extract the 'data' parameter from the URL
         function getURLParameter(name) {
@@ -363,6 +364,8 @@
         // Fetch the 'data' parameter
         var dataFile = getURLParameter('data');
 
+
+        // console.log(dataFile)
         // If there's a 'data' parameter, dynamically load the related JS file
         if(dataFile) {
             var script = document.createElement('script');
@@ -376,7 +379,7 @@
     </script>
 
     <!-- Template Javascript -->
-    <script src="assets/dp/js/main.js"></script>
+    <!-- <script src="assets/dp/js/main.js"></script> -->
     <script src="assets/lp/vendor/wow/wow.min.js"></script>
 </body>
 
