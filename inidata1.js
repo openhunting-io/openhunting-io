@@ -1,4 +1,4 @@
-var inidata1 = {
+var threatdata = {
     "name": "ZXShell",
     "alias": "ZXShell, Sensocode",
     "category": "Malware",

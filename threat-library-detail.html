@@ -18,305 +18,219 @@
     <!-- Libraries Stylesheet -->
     <link href="assets/dp/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="assets/dp/css/style.css" rel="stylesheet">
+   
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/jpg" href="assets/lp/img/logo.png"/>
+    
+    <!-- external -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+
+     <!-- Customized Bootstrap Stylesheet -->
+     <link href="assets/dp/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
-          <div class="container">
-            <img src="assets/lp/img/logo.png" width="50px"><a href="#" class="navbar-brand" style="color: #ff5757;"><span class="text-primary">OPENHUNTING.IO - THREAT INTELLIGENCE</span></a>
-    
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="navbar-collapse collapse" id="navbarContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index">Home</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" style="color: #ff5757;" href="threat-intelligence">Threat Intelligence</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="architecture">Architecture</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="whois">Whois</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/openhunting-io">Github</a>
-                  </li>
-    
-              </ul>
-            </div>
-    
-          </div>
-        </nav>
-        <!-- <div class="container">
-          <div class="page-banner">
-            <div class="row justify-content-center align-items-center h-100">
-              <div class="col-md-12">
-                <h2 class="text-center">Openhunting Threat Intelligence</h2>
-              </div>
-            </div>
-          </div>
-        </div> -->
-      </header>
-    <!-- Shop Start -->
-    <div class="container-fluid pt-5">
-        <div class="row px-xl-5">
-            <!-- Shop Sidebar Start -->
-            <div class="col-lg-3 col-md-12">
-                <!-- Price Start -->
-                <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Group APT</h5>
-                    <form>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="price-all">
-                            <label class="custom-control-label" for="price-all">All Price</label>
-                            <span class="badge border font-weight-normal">1000</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-1">
-                            <label class="custom-control-label" for="price-1">$0 - $100</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-2">
-                            <label class="custom-control-label" for="price-2">$100 - $200</label>
-                            <span class="badge border font-weight-normal">295</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-3">
-                            <label class="custom-control-label" for="price-3">$200 - $300</label>
-                            <span class="badge border font-weight-normal">246</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="price-4">
-                            <label class="custom-control-label" for="price-4">$300 - $400</label>
-                            <span class="badge border font-weight-normal">145</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                            <input type="checkbox" class="custom-control-input" id="price-5">
-                            <label class="custom-control-label" for="price-5">$400 - $500</label>
-                            <span class="badge border font-weight-normal">168</span>
-                        </div>
-                    </form>
+    <div class="content-wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+            <div class="container">
+                <img src="assets/lp/img/logo.png" width="50px"><a href="#" class="navbar-brand" style="color: #ff5757;"><span class="text-primary">OPENHUNTING.IO - THREAT LIBRARY</span></a>
+        
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="navbar-collapse collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" style="color: #ff5757;" href="threat-library">Threat Library</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="architecture">Architecture</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="whois">Whois</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/openhunting-io">Github</a>
+                    </li>
+        
+                </ul>
                 </div>
-                <!-- Price End -->
-                
-                <!-- Color Start -->
-                <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Malware</h5>
-                    <form>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" checked id="color-all">
-                            <label class="custom-control-label" for="price-all">All Color</label>
-                            <span class="badge border font-weight-normal">1000</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-1">
-                            <label class="custom-control-label" for="color-1">Black</label>
-                            <span class="badge border font-weight-normal">150</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-2">
-                            <label class="custom-control-label" for="color-2">White</label>
-                            <span class="badge border font-weight-normal">295</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-3">
-                            <label class="custom-control-label" for="color-3">Red</label>
-                            <span class="badge border font-weight-normal">246</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="color-4">
-                            <label class="custom-control-label" for="color-4">Blue</label>
-                            <span class="badge border font-weight-normal">145</span>
-                        </div>
-                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
-                            <input type="checkbox" class="custom-control-input" id="color-5">
-                            <label class="custom-control-label" for="color-5">Green</label>
-                            <span class="badge border font-weight-normal">168</span>
-                        </div>
-                    </form>
-                </div>
-                <!-- Color End -->
-
-  
+        
             </div>
-            <!-- Shop Sidebar End -->
+            </nav>
 
-
-            <!-- Shop Product Start -->
-            <div class="col-lg-9 col-md-12">
-                <div class="container-fluid py-5">
-                    <div class="row px-xl-5">
-                        <div class="col-lg-2 pb-5">
-                            <div id="product-carousel" class="carousel slide" data-ride="carousel">
-                                <!-- <img class="w-50 h-50" src="assets/dp/img/product-2.jpg" alt="Image"> -->
-                            </div>
-                        </div>
-
-                        <div class="col-lg-10 pb-5">
-                            <h3 class="font-weight-semi-bold">Colorful Stylish Shirt</h3>
-                            <div class="d-flex mb-3">
-                                <div class="text-primary mr-2">
-                                    <small class="fas fa-star"></small>
-                                    <small class="fas fa-star"></small>
-                                    <small class="fas fa-star"></small>
-                                    <small class="fas fa-star-half-alt"></small>
-                                    <small class="far fa-star"></small>
-                                </div>
-                                <small class="pt-1">(50 Reviews)</small>
-                            </div>
+        </header>
+        <!-- Shop Start -->
+        <div class="container-fluid pt-5">
+            
+            <div class="row px-xl-5">
+                <div class="col-lg-12 col-md-12" style="margin-bottom: 20px;">
+                    <div class="customPage">
+                        <div id="customSearchContainer" style="text-align: center; margin-bottom: 20px;">
+                            <input type="text" id="customSearchBox" placeholder="Search..." style="width: 60%; padding: 10px; border-radius: 20px; border: 1px solid #ccc;"><br>
                         </div>
                     </div>
-                    <div class="row px-xl-5">
-                        <div class="col-lg-12 pb-5">
-                            <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut. Erat lorem duo dolor no sea nonumy. Accus labore stet, est lorem sit diam sea et justo, amet at lorem et eirmod ipsum diam et rebum kasd rebum.</p>
-                            <div class="d-flex mb-3">
-                                <p class="text-dark font-weight-medium mb-0 mr-3">Sizes:</p>
-                                <form>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="size-1" name="size">
-                                        <label class="custom-control-label" for="size-1">XS</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="size-2" name="size">
-                                        <label class="custom-control-label" for="size-2">S</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="size-3" name="size">
-                                        <label class="custom-control-label" for="size-3">M</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="size-4" name="size">
-                                        <label class="custom-control-label" for="size-4">L</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="size-5" name="size">
-                                        <label class="custom-control-label" for="size-5">XL</label>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="d-flex mb-4">
-                                <p class="text-dark font-weight-medium mb-0 mr-3">Colors:</p>
-                                <form>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="color-1" name="color">
-                                        <label class="custom-control-label" for="color-1">Black</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="color-2" name="color">
-                                        <label class="custom-control-label" for="color-2">White</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="color-3" name="color">
-                                        <label class="custom-control-label" for="color-3">Red</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="color-4" name="color">
-                                        <label class="custom-control-label" for="color-4">Blue</label>
-                                    </div>
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" class="custom-control-input" id="color-5" name="color">
-                                        <label class="custom-control-label" for="color-5">Green</label>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="d-flex align-items-center mb-4 pt-2">
-                                <div class="input-group quantity mr-3" style="width: 130px;">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-primary btn-minus" >
-                                        <i class="fa fa-minus"></i>
-                                        </button>
-                                    </div>
-                                    <input type="text" class="form-control bg-secondary text-center" value="1">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-primary btn-plus">
-                                            <i class="fa fa-plus"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row px-xl-5">
-                        <div class="col">
-                            <div class="nav nav-tabs justify-content-center border-secondary mb-4">
-                                <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">Description</a>
-                                <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Information</a>
-                                <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
-                            </div>
-                            <div class="tab-content">
-                                <div class="tab-pane fade show active" id="tab-pane-1">
-                                    <h4 class="mb-3">Product Description</h4>
-                                    <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
-                                    <p>Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
-                                </div>
-                                <div class="tab-pane fade" id="tab-pane-2">
-                                    <h4 class="mb-3">Additional Information</h4>
-                                    <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item px-0">
-                                                    Sit erat duo lorem duo ea consetetur, et eirmod takimata.
-                                                </li>
-                                                <li class="list-group-item px-0">
-                                                    Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
-                                                </li>
-                                                <li class="list-group-item px-0">
-                                                    Duo amet accusam eirmod nonumy stet et et stet eirmod.
-                                                </li>
-                                                <li class="list-group-item px-0">
-                                                    Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
-                                                </li>
-                                            </ul> 
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item px-0">
-                                                    Sit erat duo lorem duo ea consetetur, et eirmod takimata.
-                                                </li>
-                                                <li class="list-group-item px-0">
-                                                    Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
-                                                </li>
-                                                <li class="list-group-item px-0">
-                                                    Duo amet accusam eirmod nonumy stet et et stet eirmod.
-                                                </li>
-                                                <li class="list-group-item px-0">
-                                                    Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
-                                                </li>
-                                            </ul> 
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="row px-xl-5">
+                                    <div class="col-lg-12 pb-5">
+                                        <h3 class="font-weight-semi-bold" id="threatdataName"></h3>
+                                        <div class="d-flex mb-3">
+                                            <div class="text-primary mr-2">
+                                                <small class="fas fa-star"></small>
+                                                <small class="fas fa-star"></small>
+                                                <small class="fas fa-star"></small>
+                                                <small class="fas fa-star-half-alt"></small>
+                                                <small class="far fa-star"></small>
+                                            </div>
+                                            <small class="pt-1">(50 Reviews)</small>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="tab-pane-3">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h4 class="mb-4">1 review for "Colorful Stylish Shirt"</h4>
-                                            <div class="media mb-4">
-                                                <!-- <img src="assets/dp/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;"> -->
-                                                <div class="media-body">
-                                                    <h6>John Doe<small> - <i>01 Jan 2045</i></small></h6>
-                                                    <div class="text-primary mb-2">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star-half-alt"></i>
-                                                        <i class="far fa-star"></i>
+                                <div class="row px-xl-5">
+                                    <div class="col-lg-12 pb-5">
+                                        <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut. Erat lorem duo dolor no sea nonumy. Accus labore stet, est lorem sit diam sea et justo, amet at lorem et eirmod ipsum diam et rebum kasd rebum.</p>
+                                        <div class="d-flex mb-3">
+                                            <p class="text-dark font-weight-medium mb-0 mr-3">Sizes:</p>
+                                            <form>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="size-1" name="size">
+                                                    <label class="custom-control-label" for="size-1">XS</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="size-2" name="size">
+                                                    <label class="custom-control-label" for="size-2">S</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="size-3" name="size">
+                                                    <label class="custom-control-label" for="size-3">M</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="size-4" name="size">
+                                                    <label class="custom-control-label" for="size-4">L</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="size-5" name="size">
+                                                    <label class="custom-control-label" for="size-5">XL</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="d-flex mb-4">
+                                            <p class="text-dark font-weight-medium mb-0 mr-3">Colors:</p>
+                                            <form>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="color-1" name="color">
+                                                    <label class="custom-control-label" for="color-1">Black</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="color-2" name="color">
+                                                    <label class="custom-control-label" for="color-2">White</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="color-3" name="color">
+                                                    <label class="custom-control-label" for="color-3">Red</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="color-4" name="color">
+                                                    <label class="custom-control-label" for="color-4">Blue</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" class="custom-control-input" id="color-5" name="color">
+                                                    <label class="custom-control-label" for="color-5">Green</label>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 py-5">
+                                <div class="mb-4 pb-4">
+                                    <h5 class="font-weight-semi-bold mb-4" style="text-align: center;">Detection</h5>
+                                    <button type="button" class="btn btn-primary fullWidthButton" style="width: 100%; color: white;" data-toggle="modal" data-target="#codeModal"><i class="fa fa-eye mr-1"></i> Hunting Template</button>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="row px-xl-5">
+                            <div class="col">
+                                <div class="nav nav-tabs justify-content-center border-secondary mb-4">
+                                    <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">Description</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Information</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="tab-pane-1">
+                                        <h4 class="mb-3">Product Description</h4>
+                                        <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
+                                        <p>Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-pane-2">
+                                        <h4 class="mb-3">Additional Information</h4>
+                                        <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item px-0">
+                                                        Sit erat duo lorem duo ea consetetur, et eirmod takimata.
+                                                    </li>
+                                                    <li class="list-group-item px-0">
+                                                        Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
+                                                    </li>
+                                                    <li class="list-group-item px-0">
+                                                        Duo amet accusam eirmod nonumy stet et et stet eirmod.
+                                                    </li>
+                                                    <li class="list-group-item px-0">
+                                                        Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
+                                                    </li>
+                                                </ul> 
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item px-0">
+                                                        Sit erat duo lorem duo ea consetetur, et eirmod takimata.
+                                                    </li>
+                                                    <li class="list-group-item px-0">
+                                                        Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
+                                                    </li>
+                                                    <li class="list-group-item px-0">
+                                                        Duo amet accusam eirmod nonumy stet et et stet eirmod.
+                                                    </li>
+                                                    <li class="list-group-item px-0">
+                                                        Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
+                                                    </li>
+                                                </ul> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-pane-3">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 class="mb-4">1 review for "Colorful Stylish Shirt"</h4>
+                                                <div class="media mb-4">
+                                                    <!-- <img src="assets/dp/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;"> -->
+                                                    <div class="media-body">
+                                                        <h6>John Doe<small> - <i>01 Jan 2045</i></small></h6>
+                                                        <div class="text-primary mb-2">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </div>
+                                                        <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
                                                     </div>
-                                                    <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -326,16 +240,65 @@
                         </div>
                     </div>
                 </div>
+
             </div>
-            <!-- Shop Product End -->
         </div>
+        <!-- Shop End -->
     </div>
-    <!-- Shop End -->
+
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="codeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="detectionTitle">Code Viewer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal-fullheight">
+          <pre><code id="codeArea" class="yaml" contenteditable="false">
+id: a317f7b4
+info:
+    name: ' X-Files Stealer Malware Rule'
+    author: AndreGironda
+    date: '2022-08-02 16:52:11'
+    modified: Not Available
+    severity: Critical
+    category: botnet_cc
+    description: null
+    tags:
+    - XfilesStealer
+    - win.xfilesstealer
+    references:
+    - https://bazaar.abuse.ch/sample/bb6e3bb232cdd16773464d14e3f6ba292f9e2031c9b2eb46cfe86dfb352989e5/
+    reporter: AndreGironda
+    confidence_level: 100
+method:
+- query: select * from process_open_sockets
+    column_master: remote_address
+    signature:
+    - name: domain
+    indicator:
+    - 185.225.73.217
+    - 185.225.73.216
+            
+          </code></pre>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" style="color: white;" onclick="copyCode()">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
+<!--  -->
     <footer class="page-footer" style="background: #ff5757;">
         <div class="container" style="background: #ff5757; max-height: 50px;">
-          <p class="text-center" id="copyright" style="color: white;">Copyright &copy; 2023. Openhunting.io - Threat Intelligence</a></p>
+          <p class="text-center" id="copyright" style="color: white;">Copyright &copy; 2023. Openhunting.io - Threat Intelligence</p>
         </div>
       </footer>
 
@@ -353,34 +316,59 @@
     <script src="assets/dp/mail/jqBootstrapValidation.min.js"></script>
     <script src="assets/dp/mail/contact.js"></script>
 
-
-    <pre id="jsonData"></pre>
     <script>
         // This function will extract the 'data' parameter from the URL
         function getURLParameter(name) {
             return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20')) || null;
         }
-
         // Fetch the 'data' parameter
         var dataFile = getURLParameter('data');
-
-
         // console.log(dataFile)
         // If there's a 'data' parameter, dynamically load the related JS file
         if(dataFile) {
             var script = document.createElement('script');
             script.src = dataFile + '.js'; // Assuming the JS file has the same name as the data parameter value
             script.onload = function() {
-                // Once the script is loaded, the related JSON variable will be accessible. Display it.
-                document.getElementById('jsonData').textContent = JSON.stringify(window[dataFile], null, 4);
+                var threatname = threatdata['name'];
+
+                var threatdataName = document.getElementById('threatdataName');
+                threatdataName.textContent = threatname;
+
+                var detectionTitle = document.getElementById('detectionTitle');
+                detectionTitle.textContent = "Detection: "+threatname;
+                // 
+
+
+
             };
             document.body.appendChild(script);
+        } else{
+            window.location.href = "threat-library.html";
         }
+        
     </script>
 
     <!-- Template Javascript -->
     <!-- <script src="assets/dp/js/main.js"></script> -->
     <script src="assets/lp/vendor/wow/wow.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            hljs.highlightBlock(document.getElementById('codeArea'));
+        });
+
+        function copyCode() {
+            let range = document.createRange();
+            range.selectNode(document.getElementById('codeArea'));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand("copy");
+            window.getSelection().removeAllRanges();
+            // alert("Code copied to clipboard!");
+        }
+
+
+
+    </script>
 </body>
 
 </html>

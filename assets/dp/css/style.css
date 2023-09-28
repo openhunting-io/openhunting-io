@@ -50,7 +50,7 @@ html {
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
+  display: block; 
 }
 
 body {
@@ -9729,5 +9729,82 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .content-wrapper {
-  flex: 1;
+    /* min-height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column; */
+    flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+
+/* TEXT AREA MODALS */
+
+.modal-fullheight {
+  height: 70vh; /* or set it to your preferred value */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-content {
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: .5em;
+  background: black;
+}
+
+.hljs,.hljs-subst {
+  color: white;
+}
+
+.hljs-comment {
+  color: #888
+}
+
+.hljs-attribute,.hljs-doctag,.hljs-keyword,.hljs-meta-keyword,.hljs-name,.hljs-selector-tag {
+  font-weight: 700
+}
+
+.hljs-deletion,.hljs-number,.hljs-quote,.hljs-selector-class,.hljs-selector-id,.hljs-string,.hljs-template-tag,.hljs-type {
+  color: orange;
+}
+
+.hljs-section,.hljs-title {
+  color: orange;
+  font-weight: 700
+}
+
+.hljs-link,.hljs-regexp,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-symbol,.hljs-template-variable,.hljs-variable {
+  color: #bc6060
+}
+
+.hljs-literal {
+  color: #78a960
+}
+
+.hljs-addition,.hljs-built_in,.hljs-bullet,.hljs-code {
+  color: #397300
+}
+
+.hljs-meta {
+  color: #1f7199
+}
+
+.hljs-meta-string {
+  color: #4d99bf
+}
+
+.hljs-emphasis {
+  font-style: italic
+}
+
+.hljs-strong {
+  font-weight: 700
 }
