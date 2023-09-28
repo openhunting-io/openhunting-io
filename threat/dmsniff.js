@@ -1,0 +1,41 @@
+var threatdata = {
+    "name": "DMSniff",
+    "alias": "DMSniff",
+    "category": "Malware",
+    "type": "POS malware, Backdoor, Credential stealer, Botnet",
+    "modified": "2020-05-25",
+    "all_data": {
+        "tool": "DMSniff",
+        "names": [
+            {
+                "name": "DMSniff"
+            }
+        ],
+        "description": "(Flashpoint) Point-of-sale malware previously only privately sold has been used in breaches of small- and medium-sized businesses in the restaurant and entertainment industries. The malware, known as DMSniff, also uses a domain generation algorithm (DGA) to create lists of command-and-control domains on the fly. This technique is valuable to an attacker because if domains are taken down by law enforcement, technology companies, or hosting providers, the malware can still communicate and receive commands or share stolen data.",
+        "category": "Malware",
+        "type": [
+            "POS malware",
+            "Backdoor",
+            "Credential stealer",
+            "Botnet"
+        ],
+        "information": [
+            "https://www.flashpoint-intel.com/blog/dmsniff-pos-malware-actively-leveraged-target-medium-sized-businesses/",
+            "https://cis.verint.com/2019/05/07/the-awakening-of-pos-malware-or-has-it-really-been-dormant/"
+        ],
+        "malpedia": [
+            "https://malpedia.caad.fkie.fraunhofer.de/details/win.dmsniff"
+        ],
+        "alienvault-otx": [
+            "https://otx.alienvault.com/browse/pulses?q=tag:DMSniff"
+        ],
+        "uuid": "16da60d7-679d-44e6-b978-5256ee10f428",
+        "last-card-change": "2020-05-25",
+        "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
+    },
+    "ioc_data": [],
+    "last_ioc_update": null,
+    "mitre": [],
+    "file_name": "dmsniff",
+    "analysis": null
+};

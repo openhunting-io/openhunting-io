@@ -88,71 +88,14 @@
                                     <div class="col-lg-12 pb-5">
                                         <h3 class="font-weight-semi-bold" id="threatdataName"></h3>
                                         <div class="d-flex mb-3">
-                                            <div class="text-primary mr-2">
-                                                <small class="fas fa-star"></small>
-                                                <small class="fas fa-star"></small>
-                                                <small class="fas fa-star"></small>
-                                                <small class="fas fa-star-half-alt"></small>
-                                                <small class="far fa-star"></small>
-                                            </div>
-                                            <small class="pt-1">(50 Reviews)</small>
+                                            <span class="text-dark font-weight-medium mb-0 mr-3" id="infoAlias" ></span>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="row px-xl-5">
-                                    <div class="col-lg-12 pb-5">
-                                        <p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut. Erat lorem duo dolor no sea nonumy. Accus labore stet, est lorem sit diam sea et justo, amet at lorem et eirmod ipsum diam et rebum kasd rebum.</p>
                                         <div class="d-flex mb-3">
-                                            <p class="text-dark font-weight-medium mb-0 mr-3">Sizes:</p>
-                                            <form>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="size-1" name="size">
-                                                    <label class="custom-control-label" for="size-1">XS</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="size-2" name="size">
-                                                    <label class="custom-control-label" for="size-2">S</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="size-3" name="size">
-                                                    <label class="custom-control-label" for="size-3">M</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="size-4" name="size">
-                                                    <label class="custom-control-label" for="size-4">L</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="size-5" name="size">
-                                                    <label class="custom-control-label" for="size-5">XL</label>
-                                                </div>
-                                            </form>
+                                            <span id="informationType" style="color:black;font-size: 0.8rem;"></span>
                                         </div>
-                                        <div class="d-flex mb-4">
-                                            <p class="text-dark font-weight-medium mb-0 mr-3">Colors:</p>
-                                            <form>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="color-1" name="color">
-                                                    <label class="custom-control-label" for="color-1">Black</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="color-2" name="color">
-                                                    <label class="custom-control-label" for="color-2">White</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="color-3" name="color">
-                                                    <label class="custom-control-label" for="color-3">Red</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="color-4" name="color">
-                                                    <label class="custom-control-label" for="color-4">Blue</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" class="custom-control-input" id="color-5" name="color">
-                                                    <label class="custom-control-label" for="color-5">Green</label>
-                                                </div>
-                                            </form>
+                                        <div class="d-flex mb-3">
+                                            <p class="mb-4" id="informationDescription"></p>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +195,7 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="detectionTitle">Code Viewer</h5>
+          <h5 class="modal-title" id="detectionTitle"></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -288,7 +231,7 @@ method:
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" style="color: white;" onclick="copyCode()">Copy Code</button>
+          <button type="button" class="btn btn-primary" style="color: white;" onclick="copyCode()">Copy Template</button>
         </div>
       </div>
     </div>
@@ -327,15 +270,31 @@ method:
         // If there's a 'data' parameter, dynamically load the related JS file
         if(dataFile) {
             var script = document.createElement('script');
-            script.src = dataFile + '.js'; // Assuming the JS file has the same name as the data parameter value
+            script.src = 'threat/'+dataFile + '.js'; // Assuming the JS file has the same name as the data parameter value
             script.onload = function() {
-                var threatname = threatdata['name'];
+                var nameThreat = threatdata['name'];
+                var aliasThreat = threatdata['alias'];
+                var typeThreat = threatdata['type'];
+                var descriptionThreat = threatdata['all_data']['description']
 
-                var threatdataName = document.getElementById('threatdataName');
-                threatdataName.textContent = threatname;
+                var threatdataName_text = document.getElementById('threatdataName');
+                threatdataName_text.textContent = nameThreat;
 
-                var detectionTitle = document.getElementById('detectionTitle');
-                detectionTitle.textContent = "Detection: "+threatname;
+                var detectionTitle_text = document.getElementById('detectionTitle');
+                detectionTitle_text.textContent = "Detection: "+nameThreat;
+
+                var infoAlias_text = document.getElementById('infoAlias');
+                infoAlias_text.textContent = aliasThreat;
+
+                var informationType_text = document.getElementById('informationType');
+                informationType_text.textContent = "(Type: "+typeThreat+")";
+
+                // informationDescription
+                var informationDescription_text = document.getElementById('informationDescription');
+                informationDescription_text.textContent = descriptionThreat;
+                
+
+
                 // 
 
 
