@@ -9808,3 +9808,41 @@ footer {
 .hljs-strong {
   font-weight: 700
 }
+
+/* SEARCH BOX */
+#customSearchContainer {
+  position: relative;
+}
+
+#suggestionList {
+  position: absolute;
+  z-index: 100;
+  top: 100%; /* starts right below the input box */
+  left: 20%; /* adjust this if necessary to align with the input box */
+  width: 60%;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#suggestionList li {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+#suggestionList li:last-child {
+  border-bottom: none; 
+}
+
+#suggestionList li:hover {
+  background-color: #f0f0f0;
+}
+
+#suggestionList a:hover {
+  text-decoration: none; 
+}

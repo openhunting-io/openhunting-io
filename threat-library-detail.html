@@ -78,8 +78,10 @@
                         <center><a href="threat-library" style="color: #ff5757;">Openhunting Threat Library</a></center>
                         <div id="customSearchContainer" style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                             <input type="text" id="customSearchBox" placeholder="Search..." style="width: 60%; padding: 10px; border-radius: 20px; border: 1px solid #ccc;"><br>
-                            
+                            <ul id="suggestionList" style="display: none; width: 60%; margin: 0 auto; list-style-type: none; padding: 0;"></ul>
                         </div>
+                        
+                        
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12">
@@ -260,6 +262,7 @@ method:
     <!-- Contact Javascript File -->
     <script src="assets/dp/mail/jqBootstrapValidation.min.js"></script>
     <script src="assets/dp/mail/contact.js"></script>
+    <script src="searchbox.js"></script>
 
     <script>
         // This function will extract the 'data' parameter from the URL
@@ -325,6 +328,44 @@ method:
             document.execCommand("copy");
             window.getSelection().removeAllRanges();
             // alert("Code copied to clipboard!");
+        }
+
+        const searchBox = document.getElementById("customSearchBox");
+        const suggestionList = document.getElementById("suggestionList");
+
+        searchBox.addEventListener('input', function() {
+            const query = searchBox.value;
+            
+            if (query.length > 0) {
+                populateSuggestions(query);
+            } else {
+                suggestionList.style.display = "none";
+            }
+        });
+        function populateSuggestions(query) {
+            const lowerCaseQuery = query.toLowerCase();
+            
+            const filteredSuggestions = suggestions.filter(suggestion => 
+                suggestion.text.toLowerCase().includes(lowerCaseQuery)
+            ).slice(0, 5);
+
+            suggestionList.innerHTML = ''; // Clear current suggestions
+
+            filteredSuggestions.forEach(suggestion => {
+                const li = document.createElement("li");
+                const a = document.createElement("a");
+                a.href = suggestion.url;
+                a.innerText = suggestion.text;
+                a.style.textDecoration = "none"; // remove the underline from the link
+                a.style.color = "inherit"; // use the inherited color for the link
+                a.style.display = "block"; // make the link occupy the full space of the li
+                a.style.padding = "8px"; // Move the padding from li to a for full row clickable
+
+                li.appendChild(a);
+                suggestionList.appendChild(li);
+            });
+
+            suggestionList.style.display = filteredSuggestions.length > 0 ? "block" : "none";
         }
 
 
