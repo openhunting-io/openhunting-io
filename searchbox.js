@@ -1,7646 +1,7646 @@
 const suggestions = [
     {
         "text": "Dridex (Dridex, Bugat v5)",
-        "url": "threat-library-detail.html?data=dridex"
+        "url": "threat-library-detail?data=dridex"
     },
     {
         "text": "Cobalt Strike (Cobalt Strike, CobaltStrike, Agentemis, BEACON, cobeacon)",
-        "url": "threat-library-detail.html?data=cobalt_strike"
+        "url": "threat-library-detail?data=cobalt_strike"
     },
     {
         "text": "Amadey (Amadey)",
-        "url": "threat-library-detail.html?data=amadey"
+        "url": "threat-library-detail?data=amadey"
     },
     {
         "text": "AZORult (AZORult, PuffStealer, Rultazo)",
-        "url": "threat-library-detail.html?data=azorult"
+        "url": "threat-library-detail?data=azorult"
     },
     {
         "text": "TeamSpy (TeamSpy, TVSpy, TVRAT, SpY-Agent, TeamViewerENT)",
-        "url": "threat-library-detail.html?data=teamspy"
+        "url": "threat-library-detail?data=teamspy"
     },
     {
         "text": "Agent Tesla (Agent Tesla, AgentTesla, AgenTesla, Origin Logger, Negasteal)",
-        "url": "threat-library-detail.html?data=agent_tesla"
+        "url": "threat-library-detail?data=agent_tesla"
     },
     {
         "text": "Ave Maria (Ave Maria, AVE_MARIA, AveMariaRAT, avemaria)",
-        "url": "threat-library-detail.html?data=ave_maria"
+        "url": "threat-library-detail?data=ave_maria"
     },
     {
         "text": "AsyncRAT (AsyncRAT)",
-        "url": "threat-library-detail.html?data=asyncrat"
+        "url": "threat-library-detail?data=asyncrat"
     },
     {
         "text": "NanoCore RAT (NanoCore RAT, NanoCore, Nancrat, Zurten, Atros2.CKPN)",
-        "url": "threat-library-detail.html?data=nanocore_rat"
+        "url": "threat-library-detail?data=nanocore_rat"
     },
     {
         "text": "DarkCrystal RAT (DarkCrystal RAT, DCRat)",
-        "url": "threat-library-detail.html?data=darkcrystal_rat"
+        "url": "threat-library-detail?data=darkcrystal_rat"
     },
     {
         "text": "Get2 (Get2, FRIENDSPEAK, GetandGo)",
-        "url": "threat-library-detail.html?data=get2"
+        "url": "threat-library-detail?data=get2"
     },
     {
         "text": "Meterpreter (Meterpreter)",
-        "url": "threat-library-detail.html?data=meterpreter"
+        "url": "threat-library-detail?data=meterpreter"
     },
     {
         "text": "Sliver (Sliver)",
-        "url": "threat-library-detail.html?data=sliver"
+        "url": "threat-library-detail?data=sliver"
     },
     {
         "text": "Vjw0rm (Vjw0rm, Vengeance Justice Worm)",
-        "url": "threat-library-detail.html?data=vjw0rm"
+        "url": "threat-library-detail?data=vjw0rm"
     },
     {
         "text": "BlackNET RAT (BlackNET RAT)",
-        "url": "threat-library-detail.html?data=blacknet_rat"
+        "url": "threat-library-detail?data=blacknet_rat"
     },
     {
         "text": "njRAT (njRAT, Bladabindi, Jorik)",
-        "url": "threat-library-detail.html?data=njrat"
+        "url": "threat-library-detail?data=njrat"
     },
     {
         "text": "Responder (Responder, SpiderLabs Responder)",
-        "url": "threat-library-detail.html?data=responder"
+        "url": "threat-library-detail?data=responder"
     },
     {
         "text": "RMS (RMS, Remote Manipulator System, Gussdoor)",
-        "url": "threat-library-detail.html?data=rms"
+        "url": "threat-library-detail?data=rms"
     },
     {
         "text": "BumbleBee (BumbleBee)",
-        "url": "threat-library-detail.html?data=bumblebee"
+        "url": "threat-library-detail?data=bumblebee"
     },
     {
         "text": "VIDAR (VIDAR)",
-        "url": "threat-library-detail.html?data=vidar"
+        "url": "threat-library-detail?data=vidar"
     },
     {
         "text": "BitRAT (BitRAT)",
-        "url": "threat-library-detail.html?data=bitrat"
+        "url": "threat-library-detail?data=bitrat"
     },
     {
         "text": "Mekotio (Mekotio, Metamorfo, Casbaneiro)",
-        "url": "threat-library-detail.html?data=mekotio"
+        "url": "threat-library-detail?data=mekotio"
     },
     {
         "text": "Orcus RAT (Orcus RAT, Orcus, Schnorchel)",
-        "url": "threat-library-detail.html?data=orcus_rat"
+        "url": "threat-library-detail?data=orcus_rat"
     },
     {
         "text": "BazarBackdoor (BazarBackdoor, BazarLoader, BEERBOT, BazarCall, KEGTAP, Team9Backdoor, bazaloader)",
-        "url": "threat-library-detail.html?data=bazarbackdoor"
+        "url": "threat-library-detail?data=bazarbackdoor"
     },
     {
         "text": "Formbook (Formbook, win.xloader)",
-        "url": "threat-library-detail.html?data=formbook"
+        "url": "threat-library-detail?data=formbook"
     },
     {
         "text": "Crimson RAT (Crimson RAT, Crimson, SEEDOOR, Scarimson, MSIL, MSIL/Crimson)",
-        "url": "threat-library-detail.html?data=crimson_rat"
+        "url": "threat-library-detail?data=crimson_rat"
     },
     {
         "text": "Bisonal (Bisonal, Korlia)",
-        "url": "threat-library-detail.html?data=bisonal"
+        "url": "threat-library-detail?data=bisonal"
     },
     {
         "text": "Kimsuky (Kimsuky)",
-        "url": "threat-library-detail.html?data=kimsuky"
+        "url": "threat-library-detail?data=kimsuky"
     },
     {
         "text": "GodFather (GodFather)",
-        "url": "threat-library-detail.html?data=godfather"
+        "url": "threat-library-detail?data=godfather"
     },
     {
         "text": "Pony (Pony, Pony Loader, Siplog, Fareit)",
-        "url": "threat-library-detail.html?data=pony"
+        "url": "threat-library-detail?data=pony"
     },
     {
         "text": "SystemBC (SystemBC, Coroxy)",
-        "url": "threat-library-detail.html?data=systembc"
+        "url": "threat-library-detail?data=systembc"
     },
     {
         "text": "Cerberus (Cerberus)",
-        "url": "threat-library-detail.html?data=cerberus"
+        "url": "threat-library-detail?data=cerberus"
     },
     {
         "text": "Konni (Konni)",
-        "url": "threat-library-detail.html?data=konni"
+        "url": "threat-library-detail?data=konni"
     },
     {
         "text": "DOGCALL (DOGCALL)",
-        "url": "threat-library-detail.html?data=dogcall"
+        "url": "threat-library-detail?data=dogcall"
     },
     {
         "text": "RokRAT (RokRAT)",
-        "url": "threat-library-detail.html?data=rokrat"
+        "url": "threat-library-detail?data=rokrat"
     },
     {
         "text": "DarkComet (DarkComet, DarkKomet, Fynloski, FYNLOS, klovbot, Krademok, Breut)",
-        "url": "threat-library-detail.html?data=darkcomet"
+        "url": "threat-library-detail?data=darkcomet"
     },
     {
         "text": "LokiBot (LokiBot, Loki, LokiPWS, Loki.Rat, ForeIT)",
-        "url": "threat-library-detail.html?data=lokibot"
+        "url": "threat-library-detail?data=lokibot"
     },
     {
         "text": "Silence (Silence, Silence.Downloader, TrueBot)",
-        "url": "threat-library-detail.html?data=silence"
+        "url": "threat-library-detail?data=silence"
     },
     {
         "text": "NetWire RC (NetWire RC, NetWire RAT, NetWired RC, NetWire, NetWeird, Recam)",
-        "url": "threat-library-detail.html?data=netwire_rc"
+        "url": "threat-library-detail?data=netwire_rc"
     },
     {
         "text": "Loda (Loda, Loda RAT, LodaRAT, Nymeria)",
-        "url": "threat-library-detail.html?data=loda"
+        "url": "threat-library-detail?data=loda"
     },
     {
         "text": "SparkRAT (SparkRAT)",
-        "url": "threat-library-detail.html?data=sparkrat"
+        "url": "threat-library-detail?data=sparkrat"
     },
     {
         "text": "Adwind (Adwind, Adwind RAT, Frutas, jFrutas, UnReCoM, Alien Spy, AlienSpy, JSocket, Sockrat, jBiFrost, JBifrost RAT, Unknown RAT, jConnectPro RAT, Unrecom, Trojan.Maljava)",
-        "url": "threat-library-detail.html?data=adwind"
+        "url": "threat-library-detail?data=adwind"
     },
     {
         "text": "Emotet (Emotet, Geodo, Heodo)",
-        "url": "threat-library-detail.html?data=emotet"
+        "url": "threat-library-detail?data=emotet"
     },
     {
         "text": "ERMAC (ERMAC)",
-        "url": "threat-library-detail.html?data=ermac"
+        "url": "threat-library-detail?data=ermac"
     },
     {
         "text": "Spyder (Spyder)",
-        "url": "threat-library-detail.html?data=spyder"
+        "url": "threat-library-detail?data=spyder"
     },
     {
         "text": "LimeRAT (LimeRAT)",
-        "url": "threat-library-detail.html?data=limerat"
+        "url": "threat-library-detail?data=limerat"
     },
     {
         "text": "Magecart (Magecart)",
-        "url": "threat-library-detail.html?data=magecart"
+        "url": "threat-library-detail?data=magecart"
     },
     {
         "text": "QakBot (QakBot, QuakBot, QuackBot, Qbot, PinkSlip, Pinkslipbot, Oakboat)",
-        "url": "threat-library-detail.html?data=qakbot"
+        "url": "threat-library-detail?data=qakbot"
     },
     {
         "text": "XMRig (XMRig)",
-        "url": "threat-library-detail.html?data=xmrig"
+        "url": "threat-library-detail?data=xmrig"
     },
     {
         "text": "TrickBot (TrickBot, Trickster, The Trick, TheTrick, Totbrick, TrickLoader, TSPY_TRICKLOAD)",
-        "url": "threat-library-detail.html?data=trickbot"
+        "url": "threat-library-detail?data=trickbot"
     },
     {
         "text": "Mimikatz (Mimikatz)",
-        "url": "threat-library-detail.html?data=mimikatz"
+        "url": "threat-library-detail?data=mimikatz"
     },
     {
         "text": "DarkVNC (DarkVNC)",
-        "url": "threat-library-detail.html?data=darkvnc"
+        "url": "threat-library-detail?data=darkvnc"
     },
     {
         "text": "DIRTCLEANER (DIRTCLEANER, CCleaner Backdoor)",
-        "url": "threat-library-detail.html?data=dirtcleaner"
+        "url": "threat-library-detail?data=dirtcleaner"
     },
     {
         "text": "Bandook (Bandook, Bandok)",
-        "url": "threat-library-detail.html?data=bandook"
+        "url": "threat-library-detail?data=bandook"
     },
     {
         "text": "SharkBot (SharkBot)",
-        "url": "threat-library-detail.html?data=sharkbot"
+        "url": "threat-library-detail?data=sharkbot"
     },
     {
         "text": "DanaBot (DanaBot)",
-        "url": "threat-library-detail.html?data=danabot"
+        "url": "threat-library-detail?data=danabot"
     },
     {
         "text": "Gozi (Gozi, CRM, Gozi CRM, Papras, Ursnif, Snifula)",
-        "url": "threat-library-detail.html?data=gozi"
+        "url": "threat-library-detail?data=gozi"
     },
     {
         "text": "TinyNuke (TinyNuke, NukeBot, Nuclear Bot, MicroBankingTrojan, Xbot)",
-        "url": "threat-library-detail.html?data=tinynuke"
+        "url": "threat-library-detail?data=tinynuke"
     },
     {
         "text": "Grandoreiro (Grandoreiro)",
-        "url": "threat-library-detail.html?data=grandoreiro"
+        "url": "threat-library-detail?data=grandoreiro"
     },
     {
         "text": "HyperBro (HyperBro)",
-        "url": "threat-library-detail.html?data=hyperbro"
+        "url": "threat-library-detail?data=hyperbro"
     },
     {
         "text": "Bahamut (Bahamut)",
-        "url": "threat-library-detail.html?data=bahamut"
+        "url": "threat-library-detail?data=bahamut"
     },
     {
         "text": "Raspberry Robin (Raspberry Robin, RaspberryRobin, LINK_MSIEXEC, QNAP-Worm)",
-        "url": "threat-library-detail.html?data=raspberry_robin"
+        "url": "threat-library-detail?data=raspberry_robin"
     },
     {
         "text": "LockBit (LockBit, ABCD Ransomware, LockBit Black)",
-        "url": "threat-library-detail.html?data=lockbit"
+        "url": "threat-library-detail?data=lockbit"
     },
     {
         "text": "Z*Stealer (Z*Stealer, ZStealer)",
-        "url": "threat-library-detail.html?data=zstealer"
+        "url": "threat-library-detail?data=zstealer"
     },
     {
         "text": "JSSLoader (JSSLoader, FOWLGAZE)",
-        "url": "threat-library-detail.html?data=jssloader"
+        "url": "threat-library-detail?data=jssloader"
     },
     {
         "text": "AndroRAT (AndroRAT)",
-        "url": "threat-library-detail.html?data=androrat"
+        "url": "threat-library-detail?data=androrat"
     },
     {
         "text": "ROMCOM RAT (ROMCOM RAT, ROMCOM)",
-        "url": "threat-library-detail.html?data=romcom_rat"
+        "url": "threat-library-detail?data=romcom_rat"
     },
     {
         "text": "FASTCash (FASTCash)",
-        "url": "threat-library-detail.html?data=fastcash"
+        "url": "threat-library-detail?data=fastcash"
     },
     {
         "text": "BetaBot (BetaBot, Neurevt)",
-        "url": "threat-library-detail.html?data=betabot"
+        "url": "threat-library-detail?data=betabot"
     },
     {
         "text": "Conti (Conti)",
-        "url": "threat-library-detail.html?data=conti"
+        "url": "threat-library-detail?data=conti"
     },
     {
         "text": "PlugX (PlugX, Destroy RAT, DestroyRAT, Korplug, Sogu, Kaba, Xamtrav, Agent.dhwf, RedDelta, TIGERPLUG, Thoper, TVT)",
-        "url": "threat-library-detail.html?data=plugx"
+        "url": "threat-library-detail?data=plugx"
     },
     {
         "text": "Xenomorph (Xenomorph)",
-        "url": "threat-library-detail.html?data=xenomorph"
+        "url": "threat-library-detail?data=xenomorph"
     },
     {
         "text": "Anubis (Anubis, BankBot, Go_P00t, android.bankbot, android.bankspy)",
-        "url": "threat-library-detail.html?data=anubis"
+        "url": "threat-library-detail?data=anubis"
     },
     {
         "text": "S.O.V.A. (S.O.V.A.)",
-        "url": "threat-library-detail.html?data=s.o.v.a."
+        "url": "threat-library-detail?data=s.o.v.a."
     },
     {
         "text": "Clop (Clop, Cl0p)",
-        "url": "threat-library-detail.html?data=clop"
+        "url": "threat-library-detail?data=clop"
     },
     {
         "text": "Ficker Stealer (Ficker Stealer)",
-        "url": "threat-library-detail.html?data=ficker_stealer"
+        "url": "threat-library-detail?data=ficker_stealer"
     },
     {
         "text": "Colibri Loader (Colibri Loader)",
-        "url": "threat-library-detail.html?data=colibri_loader"
+        "url": "threat-library-detail?data=colibri_loader"
     },
     {
         "text": "ReverseRAT (ReverseRAT)",
-        "url": "threat-library-detail.html?data=reverserat"
+        "url": "threat-library-detail?data=reverserat"
     },
     {
         "text": "Titan (Titan)",
-        "url": "threat-library-detail.html?data=titan"
+        "url": "threat-library-detail?data=titan"
     },
     {
         "text": "BlackMatter (BlackMatter)",
-        "url": "threat-library-detail.html?data=blackmatter"
+        "url": "threat-library-detail?data=blackmatter"
     },
     {
         "text": "8.t Dropper (8.t Dropper, 8.t RTF exploit builder, 8t_dropper, RoyalRoad)",
-        "url": "threat-library-detail.html?data=8.t_dropper"
+        "url": "threat-library-detail?data=8.t_dropper"
     },
     {
         "text": "Nymaim (Nymaim, nymain)",
-        "url": "threat-library-detail.html?data=nymaim"
+        "url": "threat-library-detail?data=nymaim"
     },
     {
         "text": "GandCrab (GandCrab, GrandCrab)",
-        "url": "threat-library-detail.html?data=gandcrab"
+        "url": "threat-library-detail?data=gandcrab"
     },
     {
         "text": "Cutwail (Cutwail, Pushdo)",
-        "url": "threat-library-detail.html?data=cutwail"
+        "url": "threat-library-detail?data=cutwail"
     },
     {
         "text": "ASPXSpy (ASPXSpy, ASPXTool)",
-        "url": "threat-library-detail.html?data=aspxspy"
+        "url": "threat-library-detail?data=aspxspy"
     },
     {
         "text": "CryptoLocker (CryptoLocker)",
-        "url": "threat-library-detail.html?data=cryptolocker"
+        "url": "threat-library-detail?data=cryptolocker"
     },
     {
         "text": "PoshC2 (PoshC2)",
-        "url": "threat-library-detail.html?data=poshc2"
+        "url": "threat-library-detail?data=poshc2"
     },
     {
         "text": "Poison Ivy (Poison Ivy, pivy, poisonivy, Gen:Trojan.Heur.PT, Darkmoon, Chymine, SPIVY)",
-        "url": "threat-library-detail.html?data=poison_ivy"
+        "url": "threat-library-detail?data=poison_ivy"
     },
     {
         "text": "Ares (Ares)",
-        "url": "threat-library-detail.html?data=ares"
+        "url": "threat-library-detail?data=ares"
     },
     {
         "text": "ZeroCleare (ZeroCleare)",
-        "url": "threat-library-detail.html?data=zerocleare"
+        "url": "threat-library-detail?data=zerocleare"
     },
     {
         "text": "Confucius (Confucius, ChatSpy)",
-        "url": "threat-library-detail.html?data=confucius"
+        "url": "threat-library-detail?data=confucius"
     },
     {
         "text": "Brata (Brata, AmexTroll)",
-        "url": "threat-library-detail.html?data=brata"
+        "url": "threat-library-detail?data=brata"
     },
     {
         "text": "Winnti (Winnti, BleDoor, RbDoor, RibDoor)",
-        "url": "threat-library-detail.html?data=winnti"
+        "url": "threat-library-detail?data=winnti"
     },
     {
         "text": "DreamBot (DreamBot)",
-        "url": "threat-library-detail.html?data=dreambot"
+        "url": "threat-library-detail?data=dreambot"
     },
     {
         "text": "SmsSpy (SmsSpy)",
-        "url": "threat-library-detail.html?data=smsspy"
+        "url": "threat-library-detail?data=smsspy"
     },
     {
         "text": "OceanLotus (OceanLotus, OSX_OCEANLOTUS.D, Backdoor.MacOS.OCEANLOTUS.F)",
-        "url": "threat-library-detail.html?data=oceanlotus"
+        "url": "threat-library-detail?data=oceanlotus"
     },
     {
         "text": "Vadokrist (Vadokrist)",
-        "url": "threat-library-detail.html?data=vadokrist"
+        "url": "threat-library-detail?data=vadokrist"
     },
     {
         "text": "Evilnum (Evilnum, EVILNUM, Marvel)",
-        "url": "threat-library-detail.html?data=evilnum"
+        "url": "threat-library-detail?data=evilnum"
     },
     {
         "text": "DarkSide (DarkSide)",
-        "url": "threat-library-detail.html?data=darkside"
+        "url": "threat-library-detail?data=darkside"
     },
     {
         "text": "X-Agent (X-Agent, Xagent, Popr-d30, SPLM, CHOPSTICK, fysbis, Backdoor.SofacyX, webhp)",
-        "url": "threat-library-detail.html?data=x-agent"
+        "url": "threat-library-detail?data=x-agent"
     },
     {
         "text": "Roaming Mantis (Roaming Mantis, MoqHao, XLoader, Wroba)",
-        "url": "threat-library-detail.html?data=roaming_mantis"
+        "url": "threat-library-detail?data=roaming_mantis"
     },
     {
         "text": "BADNEWS (BADNEWS, JakyllHyde)",
-        "url": "threat-library-detail.html?data=badnews"
+        "url": "threat-library-detail?data=badnews"
     },
     {
         "text": "OLDBAIT (OLDBAIT, Sasfis)",
-        "url": "threat-library-detail.html?data=oldbait"
+        "url": "threat-library-detail?data=oldbait"
     },
     {
         "text": "Sasfis (Sasfis, Oficla)",
-        "url": "threat-library-detail.html?data=sasfis"
+        "url": "threat-library-detail?data=sasfis"
     },
     {
         "text": "PhantomNet (PhantomNet, SManager)",
-        "url": "threat-library-detail.html?data=phantomnet"
+        "url": "threat-library-detail?data=phantomnet"
     },
     {
         "text": "BadPatch (BadPatch, WelcomeChat)",
-        "url": "threat-library-detail.html?data=badpatch"
+        "url": "threat-library-detail?data=badpatch"
     },
     {
         "text": "EnvyScout (EnvyScout, ROOTSAW)",
-        "url": "threat-library-detail.html?data=envyscout"
+        "url": "threat-library-detail?data=envyscout"
     },
     {
         "text": "Hancitor (Hancitor, Chanitor)",
-        "url": "threat-library-detail.html?data=hancitor"
+        "url": "threat-library-detail?data=hancitor"
     },
     {
         "text": "Ramnit (Ramnit, Nimnul)",
-        "url": "threat-library-detail.html?data=ramnit"
+        "url": "threat-library-detail?data=ramnit"
     },
     {
         "text": "PLEAD (PLEAD, DRAWDOWN, GOODTIMES, Linopid, TSCookie)",
-        "url": "threat-library-detail.html?data=plead"
+        "url": "threat-library-detail?data=plead"
     },
     {
         "text": "BlackCat (BlackCat, ALPHV, ALPHVM, Noberus)",
-        "url": "threat-library-detail.html?data=blackcat"
+        "url": "threat-library-detail?data=blackcat"
     },
     {
         "text": "Machete (Machete, El Machete)",
-        "url": "threat-library-detail.html?data=machete"
+        "url": "threat-library-detail?data=machete"
     },
     {
         "text": "SUNBURST (SUNBURST, Solorigate)",
-        "url": "threat-library-detail.html?data=sunburst"
+        "url": "threat-library-detail?data=sunburst"
     },
     {
         "text": "HermeticWiper (HermeticWiper, DriveSlayer, FoxBlade, KillDisk.NCV, Trojan.Killdisk, NEARMISS)",
-        "url": "threat-library-detail.html?data=hermeticwiper"
+        "url": "threat-library-detail?data=hermeticwiper"
     },
     {
         "text": "CaddyWiper (CaddyWiper, KillDisk.NCX)",
-        "url": "threat-library-detail.html?data=caddywiper"
+        "url": "threat-library-detail?data=caddywiper"
     },
     {
         "text": "IsaacWiper (IsaacWiper, LASAINRAW)",
-        "url": "threat-library-detail.html?data=isaacwiper"
+        "url": "threat-library-detail?data=isaacwiper"
     },
     {
         "text": "ZLoader (ZLoader, Terdot, DELoader)",
-        "url": "threat-library-detail.html?data=zloader"
+        "url": "threat-library-detail?data=zloader"
     },
     {
         "text": "RedLeaves (RedLeaves, BUGJUICE)",
-        "url": "threat-library-detail.html?data=redleaves"
+        "url": "threat-library-detail?data=redleaves"
     },
     {
         "text": "Numando (Numando)",
-        "url": "threat-library-detail.html?data=numando"
+        "url": "threat-library-detail?data=numando"
     },
     {
         "text": "WhisperGate (WhisperGate, WhisperKill, PAYWIPE)",
-        "url": "threat-library-detail.html?data=whispergate"
+        "url": "threat-library-detail?data=whispergate"
     },
     {
         "text": "sLoad (sLoad, StarsLord)",
-        "url": "threat-library-detail.html?data=sload"
+        "url": "threat-library-detail?data=sload"
     },
     {
         "text": "Parallax RAT (Parallax RAT, ParallaxRAT, Parallax)",
-        "url": "threat-library-detail.html?data=parallax_rat"
+        "url": "threat-library-detail?data=parallax_rat"
     },
     {
         "text": "SpyMax (SpyMax)",
-        "url": "threat-library-detail.html?data=spymax"
+        "url": "threat-library-detail?data=spymax"
     },
     {
         "text": "Retefe (Retefe, Dok, Tsukuba, Werdlod)",
-        "url": "threat-library-detail.html?data=retefe"
+        "url": "threat-library-detail?data=retefe"
     },
     {
         "text": "Diavol (Diavol)",
-        "url": "threat-library-detail.html?data=diavol"
+        "url": "threat-library-detail?data=diavol"
     },
     {
         "text": "ServHelper (ServHelper)",
-        "url": "threat-library-detail.html?data=servhelper"
+        "url": "threat-library-detail?data=servhelper"
     },
     {
         "text": "Cuba (Cuba, COLDDRAW)",
-        "url": "threat-library-detail.html?data=cuba"
+        "url": "threat-library-detail?data=cuba"
     },
     {
         "text": "RagnarLocker (RagnarLocker, Ragnar Locker)",
-        "url": "threat-library-detail.html?data=ragnarlocker"
+        "url": "threat-library-detail?data=ragnarlocker"
     },
     {
         "text": "Avaddon (Avaddon)",
-        "url": "threat-library-detail.html?data=avaddon"
+        "url": "threat-library-detail?data=avaddon"
     },
     {
         "text": "MirrorBlast (MirrorBlast)",
-        "url": "threat-library-detail.html?data=mirrorblast"
+        "url": "threat-library-detail?data=mirrorblast"
     },
     {
         "text": "FlawedGrace (FlawedGrace, GraceWire)",
-        "url": "threat-library-detail.html?data=flawedgrace"
+        "url": "threat-library-detail?data=flawedgrace"
     },
     {
         "text": "Zeus (Zeus, ZeuS, Zbot, Trojan.Zbot, Wsnpoem, Gorhax, Kneber)",
-        "url": "threat-library-detail.html?data=zeus"
+        "url": "threat-library-detail?data=zeus"
     },
     {
         "text": "Sality (Sality, Sector, Kuku, SalLoad, Kookoo, SaliCode, Kukacka)",
-        "url": "threat-library-detail.html?data=sality"
+        "url": "threat-library-detail?data=sality"
     },
     {
         "text": "RDAT (RDAT, GREYSTUFF)",
-        "url": "threat-library-detail.html?data=rdat"
+        "url": "threat-library-detail?data=rdat"
     },
     {
         "text": "Griffon (Griffon, Harpy)",
-        "url": "threat-library-detail.html?data=griffon"
+        "url": "threat-library-detail?data=griffon"
     },
     {
         "text": "Kronos (Kronos)",
-        "url": "threat-library-detail.html?data=kronos"
+        "url": "threat-library-detail?data=kronos"
     },
     {
         "text": "Osiris (Osiris)",
-        "url": "threat-library-detail.html?data=osiris"
+        "url": "threat-library-detail?data=osiris"
     },
     {
         "text": "Mydoom (Mydoom, Novarg, Mimail)",
-        "url": "threat-library-detail.html?data=mydoom"
+        "url": "threat-library-detail?data=mydoom"
     },
     {
         "text": "Dexter (Dexter, LusyPOS, StarDust)",
-        "url": "threat-library-detail.html?data=dexter"
+        "url": "threat-library-detail?data=dexter"
     },
     {
         "text": "Micropsia (Micropsia)",
-        "url": "threat-library-detail.html?data=micropsia"
+        "url": "threat-library-detail?data=micropsia"
     },
     {
         "text": "Infy (Infy, Foudre)",
-        "url": "threat-library-detail.html?data=infy"
+        "url": "threat-library-detail?data=infy"
     },
     {
         "text": "Anchor (Anchor, Anchor_DNS)",
-        "url": "threat-library-detail.html?data=anchor"
+        "url": "threat-library-detail?data=anchor"
     },
     {
         "text": "Janeleiro (Janeleiro)",
-        "url": "threat-library-detail.html?data=janeleiro"
+        "url": "threat-library-detail?data=janeleiro"
     },
     {
         "text": "WellMail (WellMail)",
-        "url": "threat-library-detail.html?data=wellmail"
+        "url": "threat-library-detail?data=wellmail"
     },
     {
         "text": "Derusbi (Derusbi, PHOTO)",
-        "url": "threat-library-detail.html?data=derusbi"
+        "url": "threat-library-detail?data=derusbi"
     },
     {
         "text": "Imminent Monitor RAT (Imminent Monitor RAT, Imminent Monitor)",
-        "url": "threat-library-detail.html?data=imminent_monitor_rat"
+        "url": "threat-library-detail?data=imminent_monitor_rat"
     },
     {
         "text": "FlawedAmmyy (FlawedAmmyy, AmmyyRAT)",
-        "url": "threat-library-detail.html?data=flawedammyy"
+        "url": "threat-library-detail?data=flawedammyy"
     },
     {
         "text": "Nefilim (Nefilim, Nephilim)",
-        "url": "threat-library-detail.html?data=nefilim"
+        "url": "threat-library-detail?data=nefilim"
     },
     {
         "text": "ARTFULPIE (ARTFULPIE)",
-        "url": "threat-library-detail.html?data=artfulpie"
+        "url": "threat-library-detail?data=artfulpie"
     },
     {
         "text": "Qadars (Qadars)",
-        "url": "threat-library-detail.html?data=qadars"
+        "url": "threat-library-detail?data=qadars"
     },
     {
         "text": "Dustman (Dustman)",
-        "url": "threat-library-detail.html?data=dustman"
+        "url": "threat-library-detail?data=dustman"
     },
     {
         "text": "Cinobi (Cinobi)",
-        "url": "threat-library-detail.html?data=cinobi"
+        "url": "threat-library-detail?data=cinobi"
     },
     {
         "text": "WastedLocker (WastedLocker)",
-        "url": "threat-library-detail.html?data=wastedlocker"
+        "url": "threat-library-detail?data=wastedlocker"
     },
     {
         "text": "Ryuk (Ryuk)",
-        "url": "threat-library-detail.html?data=ryuk"
+        "url": "threat-library-detail?data=ryuk"
     },
     {
         "text": "MedusaLocker (MedusaLocker, AKO Doxware, AKO Ransomware, MedusaReborn)",
-        "url": "threat-library-detail.html?data=medusalocker"
+        "url": "threat-library-detail?data=medusalocker"
     },
     {
         "text": "SeDLL (SeDLL)",
-        "url": "threat-library-detail.html?data=sedll"
+        "url": "threat-library-detail?data=sedll"
     },
     {
         "text": "Albaniiutas (Albaniiutas, BlueTraveller)",
-        "url": "threat-library-detail.html?data=albaniiutas"
+        "url": "threat-library-detail?data=albaniiutas"
     },
     {
         "text": "StrongPity (StrongPity)",
-        "url": "threat-library-detail.html?data=strongpity"
+        "url": "threat-library-detail?data=strongpity"
     },
     {
         "text": "Locky (Locky)",
-        "url": "threat-library-detail.html?data=locky"
+        "url": "threat-library-detail?data=locky"
     },
     {
         "text": "RedXOR (RedXOR)",
-        "url": "threat-library-detail.html?data=redxor"
+        "url": "threat-library-detail?data=redxor"
     },
     {
         "text": "BlackRock (BlackRock, AmpleBot)",
-        "url": "threat-library-detail.html?data=blackrock"
+        "url": "threat-library-detail?data=blackrock"
     },
     {
         "text": "3102 RAT (3102 RAT)",
-        "url": "threat-library-detail.html?data=3102_rat"
+        "url": "threat-library-detail?data=3102_rat"
     },
     {
         "text": "3PARA RAT (3PARA RAT)",
-        "url": "threat-library-detail.html?data=3para_rat"
+        "url": "threat-library-detail?data=3para_rat"
     },
     {
         "text": "3proxy (3proxy)",
-        "url": "threat-library-detail.html?data=3proxy"
+        "url": "threat-library-detail?data=3proxy"
     },
     {
         "text": "3Rat Client (3Rat Client)",
-        "url": "threat-library-detail.html?data=3rat_client"
+        "url": "threat-library-detail?data=3rat_client"
     },
     {
         "text": "404-Input-shell web shell (404-Input-shell web shell)",
-        "url": "threat-library-detail.html?data=404-input-shell_web_shell"
+        "url": "threat-library-detail?data=404-input-shell_web_shell"
     },
     {
         "text": "4H RAT (4H RAT, 4h_rat)",
-        "url": "threat-library-detail.html?data=4h_rat"
+        "url": "threat-library-detail?data=4h_rat"
     },
     {
         "text": "7Logger (7Logger)",
-        "url": "threat-library-detail.html?data=7logger"
+        "url": "threat-library-detail?data=7logger"
     },
     {
         "text": "7-Zip (7-Zip)",
-        "url": "threat-library-detail.html?data=7-zip"
+        "url": "threat-library-detail?data=7-zip"
     },
     {
         "text": "888 RAT (888 RAT)",
-        "url": "threat-library-detail.html?data=888_rat"
+        "url": "threat-library-detail?data=888_rat"
     },
     {
         "text": "9002 RAT (9002 RAT, McRAT, MdmBot, Homux, Hydraq, HidraQ, HOMEUNIX, Aurora, Roarur)",
-        "url": "threat-library-detail.html?data=9002_rat"
+        "url": "threat-library-detail?data=9002_rat"
     },
     {
         "text": "AbaddonPOS (AbaddonPOS)",
-        "url": "threat-library-detail.html?data=abaddonpos"
+        "url": "threat-library-detail?data=abaddonpos"
     },
     {
         "text": "AceHash (AceHash)",
-        "url": "threat-library-detail.html?data=acehash"
+        "url": "threat-library-detail?data=acehash"
     },
     {
         "text": "AcidRain (AcidRain)",
-        "url": "threat-library-detail.html?data=acidrain"
+        "url": "threat-library-detail?data=acidrain"
     },
     {
         "text": "ActionRAT (ActionRAT)",
-        "url": "threat-library-detail.html?data=actionrat"
+        "url": "threat-library-detail?data=actionrat"
     },
     {
         "text": "ActionSpy (ActionSpy, AxeSpy)",
-        "url": "threat-library-detail.html?data=actionspy"
+        "url": "threat-library-detail?data=actionspy"
     },
     {
         "text": "Acunetix Web Vulnerability Scanner (Acunetix Web Vulnerability Scanner)",
-        "url": "threat-library-detail.html?data=acunetix_web_vulnerability_scanner"
+        "url": "threat-library-detail?data=acunetix_web_vulnerability_scanner"
     },
     {
         "text": "adbupd (adbupd)",
-        "url": "threat-library-detail.html?data=adbupd"
+        "url": "threat-library-detail?data=adbupd"
     },
     {
         "text": "AdFind (AdFind)",
-        "url": "threat-library-detail.html?data=adfind"
+        "url": "threat-library-detail?data=adfind"
     },
     {
         "text": "Adminer (Adminer)",
-        "url": "threat-library-detail.html?data=adminer"
+        "url": "threat-library-detail?data=adminer"
     },
     {
         "text": "AdobeARM (AdobeARM)",
-        "url": "threat-library-detail.html?data=adobearm"
+        "url": "threat-library-detail?data=adobearm"
     },
     {
         "text": "ADORE.XSEC (ADORE.XSEC)",
-        "url": "threat-library-detail.html?data=adore.xsec"
+        "url": "threat-library-detail?data=adore.xsec"
     },
     {
         "text": "Advanced Port Scanner (Advanced Port Scanner)",
-        "url": "threat-library-detail.html?data=advanced_port_scanner"
+        "url": "threat-library-detail?data=advanced_port_scanner"
     },
     {
         "text": "AdvisorsBot (AdvisorsBot)",
-        "url": "threat-library-detail.html?data=advisorsbot"
+        "url": "threat-library-detail?data=advisorsbot"
     },
     {
         "text": "Adzok (Adzok, Invisible Remote Administrator)",
-        "url": "threat-library-detail.html?data=adzok"
+        "url": "threat-library-detail?data=adzok"
     },
     {
         "text": "Agent.BTZ (Agent.BTZ, Minit, Chinch, Sun rootkit)",
-        "url": "threat-library-detail.html?data=agent.btz"
+        "url": "threat-library-detail?data=agent.btz"
     },
     {
         "text": "Agent.DNE (Agent.DNE)",
-        "url": "threat-library-detail.html?data=agent.dne"
+        "url": "threat-library-detail?data=agent.dne"
     },
     {
         "text": "agfSpy (agfSpy)",
-        "url": "threat-library-detail.html?data=agfspy"
+        "url": "threat-library-detail?data=agfspy"
     },
     {
         "text": "Aggah (Aggah)",
-        "url": "threat-library-detail.html?data=aggah"
+        "url": "threat-library-detail?data=aggah"
     },
     {
         "text": "AIRBREAK (AIRBREAK, Orz)",
-        "url": "threat-library-detail.html?data=airbreak"
+        "url": "threat-library-detail?data=airbreak"
     },
     {
         "text": "Alice (Alice, AliceATM, PrAlice, Project Alice)",
-        "url": "threat-library-detail.html?data=alice"
+        "url": "threat-library-detail?data=alice"
     },
     {
         "text": "Alina POS (Alina POS, Track, alina_eagle, alina_spark, aline_joker, katrina)",
-        "url": "threat-library-detail.html?data=alina_pos"
+        "url": "threat-library-detail?data=alina_pos"
     },
     {
         "text": "Allakore RAT (Allakore RAT, AllaKore)",
-        "url": "threat-library-detail.html?data=allakore_rat"
+        "url": "threat-library-detail?data=allakore_rat"
     },
     {
         "text": "Alma Communicator (Alma Communicator)",
-        "url": "threat-library-detail.html?data=alma_communicator"
+        "url": "threat-library-detail?data=alma_communicator"
     },
     {
         "text": "ALPC Local PrivEsc (ALPC Local PrivEsc)",
-        "url": "threat-library-detail.html?data=alpc_local_privesc"
+        "url": "threat-library-detail?data=alpc_local_privesc"
     },
     {
         "text": "Amavaldo (Amavaldo)",
-        "url": "threat-library-detail.html?data=amavaldo"
+        "url": "threat-library-detail?data=amavaldo"
     },
     {
         "text": "Amphibeon (Amphibeon)",
-        "url": "threat-library-detail.html?data=amphibeon"
+        "url": "threat-library-detail?data=amphibeon"
     },
     {
         "text": "AMTsol (AMTsol, Adupihan)",
-        "url": "threat-library-detail.html?data=amtsol"
+        "url": "threat-library-detail?data=amtsol"
     },
     {
         "text": "Andaratm (Andaratm)",
-        "url": "threat-library-detail.html?data=andaratm"
+        "url": "threat-library-detail?data=andaratm"
     },
     {
         "text": "AndoServer (AndoServer)",
-        "url": "threat-library-detail.html?data=andoserver"
+        "url": "threat-library-detail?data=andoserver"
     },
     {
         "text": "Android RAT (Android RAT)",
-        "url": "threat-library-detail.html?data=android_rat"
+        "url": "threat-library-detail?data=android_rat"
     },
     {
         "text": "Andromeda (Andromeda, Gamarue, B106-Gamarue, B67-SS-Gamarue, b66)",
-        "url": "threat-library-detail.html?data=andromeda"
+        "url": "threat-library-detail?data=andromeda"
     },
     {
         "text": "AndroMut (AndroMut)",
-        "url": "threat-library-detail.html?data=andromut"
+        "url": "threat-library-detail?data=andromut"
     },
     {
         "text": "Anel (Anel, lena, UpperCut)",
-        "url": "threat-library-detail.html?data=anel"
+        "url": "threat-library-detail?data=anel"
     },
     {
         "text": "Antak (Antak)",
-        "url": "threat-library-detail.html?data=antak"
+        "url": "threat-library-detail?data=antak"
     },
     {
         "text": "Antd (Antd, GreedyAntd)",
-        "url": "threat-library-detail.html?data=antd"
+        "url": "threat-library-detail?data=antd"
     },
     {
         "text": "AntSword (AntSword)",
-        "url": "threat-library-detail.html?data=antsword"
+        "url": "threat-library-detail?data=antsword"
     },
     {
         "text": "AnubisSpy (AnubisSpy)",
-        "url": "threat-library-detail.html?data=anubisspy"
+        "url": "threat-library-detail?data=anubisspy"
     },
     {
         "text": "AnyDesk (AnyDesk)",
-        "url": "threat-library-detail.html?data=anydesk"
+        "url": "threat-library-detail?data=anydesk"
     },
     {
         "text": "ApacheStealer (ApacheStealer)",
-        "url": "threat-library-detail.html?data=apachestealer"
+        "url": "threat-library-detail?data=apachestealer"
     },
     {
         "text": "APERETIF (APERETIF)",
-        "url": "threat-library-detail.html?data=aperetif"
+        "url": "threat-library-detail?data=aperetif"
     },
     {
         "text": "Apocalipto (Apocalipto)",
-        "url": "threat-library-detail.html?data=apocalipto"
+        "url": "threat-library-detail?data=apocalipto"
     },
     {
         "text": "Apostle (Apostle)",
-        "url": "threat-library-detail.html?data=apostle"
+        "url": "threat-library-detail?data=apostle"
     },
     {
         "text": "AppleJeus (AppleJeus)",
-        "url": "threat-library-detail.html?data=applejeus"
+        "url": "threat-library-detail?data=applejeus"
     },
     {
         "text": "AppleSeed (AppleSeed, JamBog)",
-        "url": "threat-library-detail.html?data=appleseed"
+        "url": "threat-library-detail?data=appleseed"
     },
     {
         "text": "APT3 Keylogger (APT3 Keylogger)",
-        "url": "threat-library-detail.html?data=apt3_keylogger"
+        "url": "threat-library-detail?data=apt3_keylogger"
     },
     {
         "text": "AresRAT (AresRAT)",
-        "url": "threat-library-detail.html?data=aresrat"
+        "url": "threat-library-detail?data=aresrat"
     },
     {
         "text": "ArguePatch (ArguePatch)",
-        "url": "threat-library-detail.html?data=arguepatch"
+        "url": "threat-library-detail?data=arguepatch"
     },
     {
         "text": "Aria-body (Aria-body, AR)",
-        "url": "threat-library-detail.html?data=aria-body"
+        "url": "threat-library-detail?data=aria-body"
     },
     {
         "text": "Aria-body loader (Aria-body loader)",
-        "url": "threat-library-detail.html?data=aria-body_loader"
+        "url": "threat-library-detail?data=aria-body_loader"
     },
     {
         "text": "ARL (ARL, Asset Reconnaissance Lighthouse)",
-        "url": "threat-library-detail.html?data=arl"
+        "url": "threat-library-detail?data=arl"
     },
     {
         "text": "ArtraDownloader (ArtraDownloader, Artra Downloader)",
-        "url": "threat-library-detail.html?data=artradownloader"
+        "url": "threat-library-detail?data=artradownloader"
     },
     {
         "text": "Aryan (Aryan)",
-        "url": "threat-library-detail.html?data=aryan"
+        "url": "threat-library-detail?data=aryan"
     },
     {
         "text": "Asacub (Asacub, Trojan-SMS.AndroidOS.Smaps)",
-        "url": "threat-library-detail.html?data=asacub"
+        "url": "threat-library-detail?data=asacub"
     },
     {
         "text": "Asruex (Asruex)",
-        "url": "threat-library-detail.html?data=asruex"
+        "url": "threat-library-detail?data=asruex"
     },
     {
         "text": "Astra (Astra)",
-        "url": "threat-library-detail.html?data=astra"
+        "url": "threat-library-detail?data=astra"
     },
     {
         "text": "ATI-Agent (ATI-Agent)",
-        "url": "threat-library-detail.html?data=ati-agent"
+        "url": "threat-library-detail?data=ati-agent"
     },
     {
         "text": "ATMDtrack (ATMDtrack)",
-        "url": "threat-library-detail.html?data=atmdtrack"
+        "url": "threat-library-detail?data=atmdtrack"
     },
     {
         "text": "ATMii (ATMii)",
-        "url": "threat-library-detail.html?data=atmii"
+        "url": "threat-library-detail?data=atmii"
     },
     {
         "text": "ATMitch (ATMitch)",
-        "url": "threat-library-detail.html?data=atmitch"
+        "url": "threat-library-detail?data=atmitch"
     },
     {
         "text": "Atmos (Atmos)",
-        "url": "threat-library-detail.html?data=atmos"
+        "url": "threat-library-detail?data=atmos"
     },
     {
         "text": "Atmosphere (Atmosphere)",
-        "url": "threat-library-detail.html?data=atmosphere"
+        "url": "threat-library-detail?data=atmosphere"
     },
     {
         "text": "ATMRipper (ATMRipper, Ripper, Ripper ATM)",
-        "url": "threat-library-detail.html?data=atmripper"
+        "url": "threat-library-detail?data=atmripper"
     },
     {
         "text": "ATMSpitter (ATMSpitter)",
-        "url": "threat-library-detail.html?data=atmspitter"
+        "url": "threat-library-detail?data=atmspitter"
     },
     {
         "text": "AtNow (AtNow)",
-        "url": "threat-library-detail.html?data=atnow"
+        "url": "threat-library-detail?data=atnow"
     },
     {
         "text": "AtomSilo (AtomSilo)",
-        "url": "threat-library-detail.html?data=atomsilo"
+        "url": "threat-library-detail?data=atomsilo"
     },
     {
         "text": "AuditCred (AuditCred, ROptimizer)",
-        "url": "threat-library-detail.html?data=auditcred"
+        "url": "threat-library-detail?data=auditcred"
     },
     {
         "text": "August Stealer (August Stealer)",
-        "url": "threat-library-detail.html?data=august_stealer"
+        "url": "threat-library-detail?data=august_stealer"
     },
     {
         "text": "AUMLIB (AUMLIB, yayih, bbsinfo, mswab, Graftor)",
-        "url": "threat-library-detail.html?data=aumlib"
+        "url": "threat-library-detail?data=aumlib"
     },
     {
         "text": "Auriga (Auriga, Riodrv)",
-        "url": "threat-library-detail.html?data=auriga"
+        "url": "threat-library-detail?data=auriga"
     },
     {
         "text": "AutoIt backdoor (AutoIt backdoor)",
-        "url": "threat-library-detail.html?data=autoit_backdoor"
+        "url": "threat-library-detail?data=autoit_backdoor"
     },
     {
         "text": "Avalanche (Avalanche)",
-        "url": "threat-library-detail.html?data=avalanche"
+        "url": "threat-library-detail?data=avalanche"
     },
     {
         "text": "Aversome infector (Aversome infector)",
-        "url": "threat-library-detail.html?data=aversome_infector"
+        "url": "threat-library-detail?data=aversome_infector"
     },
     {
         "text": "AWFULSHRED (AWFULSHRED)",
-        "url": "threat-library-detail.html?data=awfulshred"
+        "url": "threat-library-detail?data=awfulshred"
     },
     {
         "text": "Babar (Babar, SNOWBALL)",
-        "url": "threat-library-detail.html?data=babar"
+        "url": "threat-library-detail?data=babar"
     },
     {
         "text": "Babuk Locker (Babuk Locker, Babuk, Babyk, Vasa Locker)",
-        "url": "threat-library-detail.html?data=babuk_locker"
+        "url": "threat-library-detail?data=babuk_locker"
     },
     {
         "text": "BABYMETAL (BABYMETAL)",
-        "url": "threat-library-detail.html?data=babymetal"
+        "url": "threat-library-detail?data=babymetal"
     },
     {
         "text": "BabyShark (BabyShark)",
-        "url": "threat-library-detail.html?data=babyshark"
+        "url": "threat-library-detail?data=babyshark"
     },
     {
         "text": "BackBend (BackBend)",
-        "url": "threat-library-detail.html?data=backbend"
+        "url": "threat-library-detail?data=backbend"
     },
     {
         "text": "BackConfig (BackConfig)",
-        "url": "threat-library-detail.html?data=backconfig"
+        "url": "threat-library-detail?data=backconfig"
     },
     {
         "text": "Backdoor Batel (Backdoor Batel, Batel)",
-        "url": "threat-library-detail.html?data=backdoor_batel"
+        "url": "threat-library-detail?data=backdoor_batel"
     },
     {
         "text": "Backoff (Backoff, Backoff POS)",
-        "url": "threat-library-detail.html?data=backoff"
+        "url": "threat-library-detail?data=backoff"
     },
     {
         "text": "Backspace (Backspace, Lecna, ZRLnk)",
-        "url": "threat-library-detail.html?data=backspace"
+        "url": "threat-library-detail?data=backspace"
     },
     {
         "text": "Backswap (Backswap)",
-        "url": "threat-library-detail.html?data=backswap"
+        "url": "threat-library-detail?data=backswap"
     },
     {
         "text": "BadBazaar (BadBazaar)",
-        "url": "threat-library-detail.html?data=badbazaar"
+        "url": "threat-library-detail?data=badbazaar"
     },
     {
         "text": "BADCALL (BADCALL)",
-        "url": "threat-library-detail.html?data=badcall"
+        "url": "threat-library-detail?data=badcall"
     },
     {
         "text": "BADFLICK (BADFLICK)",
-        "url": "threat-library-detail.html?data=badflick"
+        "url": "threat-library-detail?data=badflick"
     },
     {
         "text": "BadHatch (BadHatch)",
-        "url": "threat-library-detail.html?data=badhatch"
+        "url": "threat-library-detail?data=badhatch"
     },
     {
         "text": "BadPotato (BadPotato)",
-        "url": "threat-library-detail.html?data=badpotato"
+        "url": "threat-library-detail?data=badpotato"
     },
     {
         "text": "BadRabbit (BadRabbit)",
-        "url": "threat-library-detail.html?data=badrabbit"
+        "url": "threat-library-detail?data=badrabbit"
     },
     {
         "text": "Baka (Baka)",
-        "url": "threat-library-detail.html?data=baka"
+        "url": "threat-library-detail?data=baka"
     },
     {
         "text": "Banatrix (Banatrix)",
-        "url": "threat-library-detail.html?data=banatrix"
+        "url": "threat-library-detail?data=banatrix"
     },
     {
         "text": "bangat (bangat)",
-        "url": "threat-library-detail.html?data=bangat"
+        "url": "threat-library-detail?data=bangat"
     },
     {
         "text": "Banjori (Banjori, BankPatch, BackPatcher, MultiBanker 2)",
-        "url": "threat-library-detail.html?data=banjori"
+        "url": "threat-library-detail?data=banjori"
     },
     {
         "text": "Bankshot (Bankshot, COPPERHEDGE, Trojan Manuscript)",
-        "url": "threat-library-detail.html?data=bankshot"
+        "url": "threat-library-detail?data=bankshot"
     },
     {
         "text": "BanSwift (BanSwift)",
-        "url": "threat-library-detail.html?data=banswift"
+        "url": "threat-library-detail?data=banswift"
     },
     {
         "text": "Barb(ie) Downloader (Barb(ie) Downloader)",
-        "url": "threat-library-detail.html?data=barb(ie)_downloader"
+        "url": "threat-library-detail?data=barb(ie)_downloader"
     },
     {
         "text": "BarbWire (BarbWire)",
-        "url": "threat-library-detail.html?data=barbwire"
+        "url": "threat-library-detail?data=barbwire"
     },
     {
         "text": "Barlaiy (Barlaiy, POISONPLUG)",
-        "url": "threat-library-detail.html?data=barlaiy"
+        "url": "threat-library-detail?data=barlaiy"
     },
     {
         "text": "Bart (Bart)",
-        "url": "threat-library-detail.html?data=bart"
+        "url": "threat-library-detail?data=bart"
     },
     {
         "text": "Bateleur (Bateleur)",
-        "url": "threat-library-detail.html?data=bateleur"
+        "url": "threat-library-detail?data=bateleur"
     },
     {
         "text": "BBSRAT (BBSRAT)",
-        "url": "threat-library-detail.html?data=bbsrat"
+        "url": "threat-library-detail?data=bbsrat"
     },
     {
         "text": "BeaconLoader (BeaconLoader)",
-        "url": "threat-library-detail.html?data=beaconloader"
+        "url": "threat-library-detail?data=beaconloader"
     },
     {
         "text": "BEATDROP (BEATDROP)",
-        "url": "threat-library-detail.html?data=beatdrop"
+        "url": "threat-library-detail?data=beatdrop"
     },
     {
         "text": "BeEF (BeEF)",
-        "url": "threat-library-detail.html?data=beef"
+        "url": "threat-library-detail?data=beef"
     },
     {
         "text": "beendoor (beendoor)",
-        "url": "threat-library-detail.html?data=beendoor"
+        "url": "threat-library-detail?data=beendoor"
     },
     {
         "text": "Behinder (Behinder)",
-        "url": "threat-library-detail.html?data=behinder"
+        "url": "threat-library-detail?data=behinder"
     },
     {
         "text": "BELLHOP (BELLHOP)",
-        "url": "threat-library-detail.html?data=bellhop"
+        "url": "threat-library-detail?data=bellhop"
     },
     {
         "text": "Bemstour (Bemstour)",
-        "url": "threat-library-detail.html?data=bemstour"
+        "url": "threat-library-detail?data=bemstour"
     },
     {
         "text": "BendyBear (BendyBear)",
-        "url": "threat-library-detail.html?data=bendybear"
+        "url": "threat-library-detail?data=bendybear"
     },
     {
         "text": "Benghazi.exe (Benghazi.exe)",
-        "url": "threat-library-detail.html?data=benghazi.exe"
+        "url": "threat-library-detail?data=benghazi.exe"
     },
     {
         "text": "BernhardPOS (BernhardPOS)",
-        "url": "threat-library-detail.html?data=bernhardpos"
+        "url": "threat-library-detail?data=bernhardpos"
     },
     {
         "text": "Bezigate (Bezigate)",
-        "url": "threat-library-detail.html?data=bezigate"
+        "url": "threat-library-detail?data=bezigate"
     },
     {
         "text": "BH_A006 (BH_A006)",
-        "url": "threat-library-detail.html?data=bh_a006"
+        "url": "threat-library-detail?data=bh_a006"
     },
     {
         "text": "BHUNT (BHUNT)",
-        "url": "threat-library-detail.html?data=bhunt"
+        "url": "threat-library-detail?data=bhunt"
     },
     {
         "text": "BIFROST (BIFROST, elf.bifrose)",
-        "url": "threat-library-detail.html?data=bifrost"
+        "url": "threat-library-detail?data=bifrost"
     },
     {
         "text": "BigpipeLoader (BigpipeLoader)",
-        "url": "threat-library-detail.html?data=bigpipeloader"
+        "url": "threat-library-detail?data=bigpipeloader"
     },
     {
         "text": "BINBASH (BINBASH)",
-        "url": "threat-library-detail.html?data=binbash"
+        "url": "threat-library-detail?data=binbash"
     },
     {
         "text": "Bioazih (Bioazih)",
-        "url": "threat-library-detail.html?data=bioazih"
+        "url": "threat-library-detail?data=bioazih"
     },
     {
         "text": "BIOLOAD (BIOLOAD)",
-        "url": "threat-library-detail.html?data=bioload"
+        "url": "threat-library-detail?data=bioload"
     },
     {
         "text": "BIOPASS RAT (BIOPASS RAT, BIOPASS)",
-        "url": "threat-library-detail.html?data=biopass_rat"
+        "url": "threat-library-detail?data=biopass_rat"
     },
     {
         "text": "BIRDWATCH (BIRDWATCH)",
-        "url": "threat-library-detail.html?data=birdwatch"
+        "url": "threat-library-detail?data=birdwatch"
     },
     {
         "text": "BISCUIT (BISCUIT, zxdosml)",
-        "url": "threat-library-detail.html?data=biscuit"
+        "url": "threat-library-detail?data=biscuit"
     },
     {
         "text": "BISTROMATH (BISTROMATH)",
-        "url": "threat-library-detail.html?data=bistromath"
+        "url": "threat-library-detail?data=bistromath"
     },
     {
         "text": "BitPaymer (BitPaymer, FriedEx, IEncrypt, wp_encrypt)",
-        "url": "threat-library-detail.html?data=bitpaymer"
+        "url": "threat-library-detail?data=bitpaymer"
     },
     {
         "text": "Bitsran (Bitsran, SHADYCAT)",
-        "url": "threat-library-detail.html?data=bitsran"
+        "url": "threat-library-detail?data=bitsran"
     },
     {
         "text": "BitterRAT (BitterRAT, Bitter RAT)",
-        "url": "threat-library-detail.html?data=bitterrat"
+        "url": "threat-library-detail?data=bitterrat"
     },
     {
         "text": "BITTERSWEET (BITTERSWEET)",
-        "url": "threat-library-detail.html?data=bittersweet"
+        "url": "threat-library-detail?data=bittersweet"
     },
     {
         "text": "Bizarro (Bizarro, Bizzaro)",
-        "url": "threat-library-detail.html?data=bizarro"
+        "url": "threat-library-detail?data=bizarro"
     },
     {
         "text": "BlackCoffee (BlackCoffee, PNGRAT, ZoxPNG, gresim)",
-        "url": "threat-library-detail.html?data=blackcoffee"
+        "url": "threat-library-detail?data=blackcoffee"
     },
     {
         "text": "BlackEnergy (BlackEnergy, Black Energy)",
-        "url": "threat-library-detail.html?data=blackenergy"
+        "url": "threat-library-detail?data=blackenergy"
     },
     {
         "text": "Black Lambert (Black Lambert)",
-        "url": "threat-library-detail.html?data=black_lambert"
+        "url": "threat-library-detail?data=black_lambert"
     },
     {
         "text": "BlackLotus (BlackLotus)",
-        "url": "threat-library-detail.html?data=blacklotus"
+        "url": "threat-library-detail?data=blacklotus"
     },
     {
         "text": "BlackMould (BlackMould)",
-        "url": "threat-library-detail.html?data=blackmould"
+        "url": "threat-library-detail?data=blackmould"
     },
     {
         "text": "BlackPOS (BlackPOS, FrameworkPOS, Kaptoxa, POSWDS, Reedum, MMon)",
-        "url": "threat-library-detail.html?data=blackpos"
+        "url": "threat-library-detail?data=blackpos"
     },
     {
         "text": "BlackRAT (BlackRAT, BlackRemote)",
-        "url": "threat-library-detail.html?data=blackrat"
+        "url": "threat-library-detail?data=blackrat"
     },
     {
         "text": "BLINDINGCAN (BLINDINGCAN, DRATzarus RAT)",
-        "url": "threat-library-detail.html?data=blindingcan"
+        "url": "threat-library-detail?data=blindingcan"
     },
     {
         "text": "BlindToad (BlindToad)",
-        "url": "threat-library-detail.html?data=blindtoad"
+        "url": "threat-library-detail?data=blindtoad"
     },
     {
         "text": "Blogspot (Blogspot)",
-        "url": "threat-library-detail.html?data=blogspot"
+        "url": "threat-library-detail?data=blogspot"
     },
     {
         "text": "BloodHound (BloodHound)",
-        "url": "threat-library-detail.html?data=bloodhound"
+        "url": "threat-library-detail?data=bloodhound"
     },
     {
         "text": "BlotchyQuasar (BlotchyQuasar)",
-        "url": "threat-library-detail.html?data=blotchyquasar"
+        "url": "threat-library-detail?data=blotchyquasar"
     },
     {
         "text": "BLUEAGAVE (BLUEAGAVE)",
-        "url": "threat-library-detail.html?data=blueagave"
+        "url": "threat-library-detail?data=blueagave"
     },
     {
         "text": "BlueCore (BlueCore)",
-        "url": "threat-library-detail.html?data=bluecore"
+        "url": "threat-library-detail?data=bluecore"
     },
     {
         "text": "BLUEHAZE (BLUEHAZE)",
-        "url": "threat-library-detail.html?data=bluehaze"
+        "url": "threat-library-detail?data=bluehaze"
     },
     {
         "text": "BLUELIGHT (BLUELIGHT)",
-        "url": "threat-library-detail.html?data=bluelight"
+        "url": "threat-library-detail?data=bluelight"
     },
     {
         "text": "BlueShell (BlueShell)",
-        "url": "threat-library-detail.html?data=blueshell"
+        "url": "threat-library-detail?data=blueshell"
     },
     {
         "text": "BLUESTEAL (BLUESTEAL)",
-        "url": "threat-library-detail.html?data=bluesteal"
+        "url": "threat-library-detail?data=bluesteal"
     },
     {
         "text": "Blue Lambert (Blue Lambert)",
-        "url": "threat-library-detail.html?data=blue_lambert"
+        "url": "threat-library-detail?data=blue_lambert"
     },
     {
         "text": "Bluether (Bluether, CAPGELD)",
-        "url": "threat-library-detail.html?data=bluether"
+        "url": "threat-library-detail?data=bluether"
     },
     {
         "text": "BokBot (BokBot, IcedID, IceID)",
-        "url": "threat-library-detail.html?data=bokbot"
+        "url": "threat-library-detail?data=bokbot"
     },
     {
         "text": "BONDUPDATER (BONDUPDATER, Poison Frog, Glimpse)",
-        "url": "threat-library-detail.html?data=bondupdater"
+        "url": "threat-library-detail?data=bondupdater"
     },
     {
         "text": "Bookcode (Bookcode)",
-        "url": "threat-library-detail.html?data=bookcode"
+        "url": "threat-library-detail?data=bookcode"
     },
     {
         "text": "Bookworm (Bookworm)",
-        "url": "threat-library-detail.html?data=bookworm"
+        "url": "threat-library-detail?data=bookworm"
     },
     {
         "text": "Boostwrite (Boostwrite)",
-        "url": "threat-library-detail.html?data=boostwrite"
+        "url": "threat-library-detail?data=boostwrite"
     },
     {
         "text": "BootWreck (BootWreck, MBRkiller)",
-        "url": "threat-library-detail.html?data=bootwreck"
+        "url": "threat-library-detail?data=bootwreck"
     },
     {
         "text": "Bouncer (Bouncer)",
-        "url": "threat-library-detail.html?data=bouncer"
+        "url": "threat-library-detail?data=bouncer"
     },
     {
         "text": "Bourbon (Bourbon)",
-        "url": "threat-library-detail.html?data=bourbon"
+        "url": "threat-library-detail?data=bourbon"
     },
     {
         "text": "Bozok (Bozok, Bozok RAT)",
-        "url": "threat-library-detail.html?data=bozok"
+        "url": "threat-library-detail?data=bozok"
     },
     {
         "text": "Brambul (Brambul, SierraBravo, SORRYBRUTE)",
-        "url": "threat-library-detail.html?data=brambul"
+        "url": "threat-library-detail?data=brambul"
     },
     {
         "text": "BrasDex (BrasDex)",
-        "url": "threat-library-detail.html?data=brasdex"
+        "url": "threat-library-detail?data=brasdex"
     },
     {
         "text": "Brave Prince (Brave Prince)",
-        "url": "threat-library-detail.html?data=brave_prince"
+        "url": "threat-library-detail?data=brave_prince"
     },
     {
         "text": "BreachRAT (BreachRAT)",
-        "url": "threat-library-detail.html?data=breachrat"
+        "url": "threat-library-detail?data=breachrat"
     },
     {
         "text": "Briba (Briba)",
-        "url": "threat-library-detail.html?data=briba"
+        "url": "threat-library-detail?data=briba"
     },
     {
         "text": "BrittleBush (BrittleBush)",
-        "url": "threat-library-detail.html?data=brittlebush"
+        "url": "threat-library-detail?data=brittlebush"
     },
     {
         "text": "BROKEYOLK (BROKEYOLK)",
-        "url": "threat-library-detail.html?data=brokeyolk"
+        "url": "threat-library-detail?data=brokeyolk"
     },
     {
         "text": "BroStealer (BroStealer)",
-        "url": "threat-library-detail.html?data=brostealer"
+        "url": "threat-library-detail?data=brostealer"
     },
     {
         "text": "BrowserGhost (BrowserGhost)",
-        "url": "threat-library-detail.html?data=browserghost"
+        "url": "threat-library-detail?data=browserghost"
     },
     {
         "text": "BrowsingHistoryView (BrowsingHistoryView)",
-        "url": "threat-library-detail.html?data=browsinghistoryview"
+        "url": "threat-library-detail?data=browsinghistoryview"
     },
     {
         "text": "Brute Ratel (Brute Ratel)",
-        "url": "threat-library-detail.html?data=brute_ratel"
+        "url": "threat-library-detail?data=brute_ratel"
     },
     {
         "text": "BrutishCommand (BrutishCommand)",
-        "url": "threat-library-detail.html?data=brutishcommand"
+        "url": "threat-library-detail?data=brutishcommand"
     },
     {
         "text": "BrutPOS (BrutPOS)",
-        "url": "threat-library-detail.html?data=brutpos"
+        "url": "threat-library-detail?data=brutpos"
     },
     {
         "text": "BS2005 (BS2005)",
-        "url": "threat-library-detail.html?data=bs2005"
+        "url": "threat-library-detail?data=bs2005"
     },
     {
         "text": "BTC Changer (BTC Changer)",
-        "url": "threat-library-detail.html?data=btc_changer"
+        "url": "threat-library-detail?data=btc_changer"
     },
     {
         "text": "BUBBLEWRAP (BUBBLEWRAP, Backdoor.APT.FakeWinHTTPHelper)",
-        "url": "threat-library-detail.html?data=bubblewrap"
+        "url": "threat-library-detail?data=bubblewrap"
     },
     {
         "text": "BUFFETLINE (BUFFETLINE)",
-        "url": "threat-library-detail.html?data=buffetline"
+        "url": "threat-library-detail?data=buffetline"
     },
     {
         "text": "Buhtrap (Buhtrap, Ratopak)",
-        "url": "threat-library-detail.html?data=buhtrap"
+        "url": "threat-library-detail?data=buhtrap"
     },
     {
         "text": "Buran (Buran, VegaLocker, Vega)",
-        "url": "threat-library-detail.html?data=buran"
+        "url": "threat-library-detail?data=buran"
     },
     {
         "text": "BUSTEDPIPE (BUSTEDPIPE)",
-        "url": "threat-library-detail.html?data=bustedpipe"
+        "url": "threat-library-detail?data=bustedpipe"
     },
     {
         "text": "Bvp47 (Bvp47)",
-        "url": "threat-library-detail.html?data=bvp47"
+        "url": "threat-library-detail?data=bvp47"
     },
     {
         "text": "Byeby (Byeby)",
-        "url": "threat-library-detail.html?data=byeby"
+        "url": "threat-library-detail?data=byeby"
     },
     {
         "text": "Bypass-UAC (Bypass-UAC)",
-        "url": "threat-library-detail.html?data=bypass-uac"
+        "url": "threat-library-detail?data=bypass-uac"
     },
     {
         "text": "C0d0so0 (C0d0so0)",
-        "url": "threat-library-detail.html?data=c0d0so0"
+        "url": "threat-library-detail?data=c0d0so0"
     },
     {
         "text": "Cachedump (Cachedump)",
-        "url": "threat-library-detail.html?data=cachedump"
+        "url": "threat-library-detail?data=cachedump"
     },
     {
         "text": "CACTUSTORCH (CACTUSTORCH)",
-        "url": "threat-library-detail.html?data=cactustorch"
+        "url": "threat-library-detail?data=cactustorch"
     },
     {
         "text": "Cadelspy (Cadelspy, Cadelle, WinSpy)",
-        "url": "threat-library-detail.html?data=cadelspy"
+        "url": "threat-library-detail?data=cadelspy"
     },
     {
         "text": "Cahnadr (Cahnadr, NDriver)",
-        "url": "threat-library-detail.html?data=cahnadr"
+        "url": "threat-library-detail?data=cahnadr"
     },
     {
         "text": "Cain & Abel (Cain & Abel)",
-        "url": "threat-library-detail.html?data=cain__abel"
+        "url": "threat-library-detail?data=cain__abel"
     },
     {
         "text": "CAKETAP (CAKETAP)",
-        "url": "threat-library-detail.html?data=caketap"
+        "url": "threat-library-detail?data=caketap"
     },
     {
         "text": "CALENDAR (CALENDAR)",
-        "url": "threat-library-detail.html?data=calendar"
+        "url": "threat-library-detail?data=calendar"
     },
     {
         "text": "Calfbot (Calfbot)",
-        "url": "threat-library-detail.html?data=calfbot"
+        "url": "threat-library-detail?data=calfbot"
     },
     {
         "text": "callCam (callCam)",
-        "url": "threat-library-detail.html?data=callcam"
+        "url": "threat-library-detail?data=callcam"
     },
     {
         "text": "CallMe (CallMe)",
-        "url": "threat-library-detail.html?data=callme"
+        "url": "threat-library-detail?data=callme"
     },
     {
         "text": "Calypso RAT (Calypso RAT)",
-        "url": "threat-library-detail.html?data=calypso_rat"
+        "url": "threat-library-detail?data=calypso_rat"
     },
     {
         "text": "CamCapture Plugin (CamCapture Plugin)",
-        "url": "threat-library-detail.html?data=camcapture_plugin"
+        "url": "threat-library-detail?data=camcapture_plugin"
     },
     {
         "text": "CamuBot (CamuBot)",
-        "url": "threat-library-detail.html?data=camubot"
+        "url": "threat-library-detail?data=camubot"
     },
     {
         "text": "Cannon (Cannon)",
-        "url": "threat-library-detail.html?data=cannon"
+        "url": "threat-library-detail?data=cannon"
     },
     {
         "text": "CapraRAT (CapraRAT)",
-        "url": "threat-library-detail.html?data=caprarat"
+        "url": "threat-library-detail?data=caprarat"
     },
     {
         "text": "Capriccio RAT (Capriccio RAT)",
-        "url": "threat-library-detail.html?data=capriccio_rat"
+        "url": "threat-library-detail?data=capriccio_rat"
     },
     {
         "text": "CapturaTela (CapturaTela)",
-        "url": "threat-library-detail.html?data=capturatela"
+        "url": "threat-library-detail?data=capturatela"
     },
     {
         "text": "Carbanak (Carbanak, Anunak, Sekur, Sekur RAT)",
-        "url": "threat-library-detail.html?data=carbanak"
+        "url": "threat-library-detail?data=carbanak"
     },
     {
         "text": "CarbonSteal (CarbonSteal)",
-        "url": "threat-library-detail.html?data=carbonsteal"
+        "url": "threat-library-detail?data=carbonsteal"
     },
     {
         "text": "Cardinal RAT (Cardinal RAT)",
-        "url": "threat-library-detail.html?data=cardinal_rat"
+        "url": "threat-library-detail?data=cardinal_rat"
     },
     {
         "text": "Careto (Careto, Mask, Appetite)",
-        "url": "threat-library-detail.html?data=careto"
+        "url": "threat-library-detail?data=careto"
     },
     {
         "text": "CARROTBALL (CARROTBALL)",
-        "url": "threat-library-detail.html?data=carrotball"
+        "url": "threat-library-detail?data=carrotball"
     },
     {
         "text": "CARROTBAT (CARROTBAT)",
-        "url": "threat-library-detail.html?data=carrotbat"
+        "url": "threat-library-detail?data=carrotbat"
     },
     {
         "text": "CASHY200 (CASHY200)",
-        "url": "threat-library-detail.html?data=cashy200"
+        "url": "threat-library-detail?data=cashy200"
     },
     {
         "text": "Casper (Casper)",
-        "url": "threat-library-detail.html?data=casper"
+        "url": "threat-library-detail?data=casper"
     },
     {
         "text": "Castov (Castov)",
-        "url": "threat-library-detail.html?data=castov"
+        "url": "threat-library-detail?data=castov"
     },
     {
         "text": "Catchamas (Catchamas)",
-        "url": "threat-library-detail.html?data=catchamas"
+        "url": "threat-library-detail?data=catchamas"
     },
     {
         "text": "Catelites Bot (Catelites Bot, Catelites)",
-        "url": "threat-library-detail.html?data=catelites_bot"
+        "url": "threat-library-detail?data=catelites_bot"
     },
     {
         "text": "Caterpillar (Caterpillar)",
-        "url": "threat-library-detail.html?data=caterpillar"
+        "url": "threat-library-detail?data=caterpillar"
     },
     {
         "text": "ccf32 (ccf32)",
-        "url": "threat-library-detail.html?data=ccf32"
+        "url": "threat-library-detail?data=ccf32"
     },
     {
         "text": "CDorked (CDorked, CDorked.A)",
-        "url": "threat-library-detail.html?data=cdorked"
+        "url": "threat-library-detail?data=cdorked"
     },
     {
         "text": "CEELOADER (CEELOADER)",
-        "url": "threat-library-detail.html?data=ceeloader"
+        "url": "threat-library-detail?data=ceeloader"
     },
     {
         "text": "CenterPOS (CenterPOS, Cerebrus)",
-        "url": "threat-library-detail.html?data=centerpos"
+        "url": "threat-library-detail?data=centerpos"
     },
     {
         "text": "certutil (certutil, certutil.exe)",
-        "url": "threat-library-detail.html?data=certutil"
+        "url": "threat-library-detail?data=certutil"
     },
     {
         "text": "CetaRAT (CetaRAT)",
-        "url": "threat-library-detail.html?data=cetarat"
+        "url": "threat-library-detail?data=cetarat"
     },
     {
         "text": "Chaes (Chaes)",
-        "url": "threat-library-detail.html?data=chaes"
+        "url": "threat-library-detail?data=chaes"
     },
     {
         "text": "CHAINSHOT (CHAINSHOT)",
-        "url": "threat-library-detail.html?data=chainshot"
+        "url": "threat-library-detail?data=chainshot"
     },
     {
         "text": "CHAIRSMACK (CHAIRSMACK)",
-        "url": "threat-library-detail.html?data=chairsmack"
+        "url": "threat-library-detail?data=chairsmack"
     },
     {
         "text": "ChChes (ChChes, HAYMAKER, Ham Backdoor, Scorpion)",
-        "url": "threat-library-detail.html?data=chches"
+        "url": "threat-library-detail?data=chches"
     },
     {
         "text": "CheckID (CheckID)",
-        "url": "threat-library-detail.html?data=checkid"
+        "url": "threat-library-detail?data=checkid"
     },
     {
         "text": "CheeseTray (CheeseTray, CROWDEDFLOUNDER)",
-        "url": "threat-library-detail.html?data=cheesetray"
+        "url": "threat-library-detail?data=cheesetray"
     },
     {
         "text": "Cherry Picker (Cherry Picker, Cherry Picker POS, CherryPicker POS, cherrypickerpos, cherrypicker, cherry_picker)",
-        "url": "threat-library-detail.html?data=cherry_picker"
+        "url": "threat-library-detail?data=cherry_picker"
     },
     {
         "text": "ChewBacca (ChewBacca)",
-        "url": "threat-library-detail.html?data=chewbacca"
+        "url": "threat-library-detail?data=chewbacca"
     },
     {
         "text": "China Chopper (China Chopper, CHINACHOPPER, SinoChopper)",
-        "url": "threat-library-detail.html?data=china_chopper"
+        "url": "threat-library-detail?data=china_chopper"
     },
     {
         "text": "Chinoxy (Chinoxy)",
-        "url": "threat-library-detail.html?data=chinoxy"
+        "url": "threat-library-detail?data=chinoxy"
     },
     {
         "text": "Chocopop (Chocopop)",
-        "url": "threat-library-detail.html?data=chocopop"
+        "url": "threat-library-detail?data=chocopop"
     },
     {
         "text": "ChromeCookiesView (ChromeCookiesView)",
-        "url": "threat-library-detail.html?data=chromecookiesview"
+        "url": "threat-library-detail?data=chromecookiesview"
     },
     {
         "text": "ChromePass (ChromePass)",
-        "url": "threat-library-detail.html?data=chromepass"
+        "url": "threat-library-detail?data=chromepass"
     },
     {
         "text": "chrome-passwords (chrome-passwords)",
-        "url": "threat-library-detail.html?data=chrome-passwords"
+        "url": "threat-library-detail?data=chrome-passwords"
     },
     {
         "text": "Chrommme (Chrommme)",
-        "url": "threat-library-detail.html?data=chrommme"
+        "url": "threat-library-detail?data=chrommme"
     },
     {
         "text": "Chthonic (Chthonic, AndroKINS)",
-        "url": "threat-library-detail.html?data=chthonic"
+        "url": "threat-library-detail?data=chthonic"
     },
     {
         "text": "Circles (Circles)",
-        "url": "threat-library-detail.html?data=circles"
+        "url": "threat-library-detail?data=circles"
     },
     {
         "text": "Citadel (Citadel)",
-        "url": "threat-library-detail.html?data=citadel"
+        "url": "threat-library-detail?data=citadel"
     },
     {
         "text": "CLAMBLING (CLAMBLING, Clambling)",
-        "url": "threat-library-detail.html?data=clambling"
+        "url": "threat-library-detail?data=clambling"
     },
     {
         "text": "Clayslide (Clayslide)",
-        "url": "threat-library-detail.html?data=clayslide"
+        "url": "threat-library-detail?data=clayslide"
     },
     {
         "text": "Cleaner (Cleaner)",
-        "url": "threat-library-detail.html?data=cleaner"
+        "url": "threat-library-detail?data=cleaner"
     },
     {
         "text": "CleanToad (CleanToad)",
-        "url": "threat-library-detail.html?data=cleantoad"
+        "url": "threat-library-detail?data=cleantoad"
     },
     {
         "text": "ClientTraficForwarder (ClientTraficForwarder)",
-        "url": "threat-library-detail.html?data=clienttraficforwarder"
+        "url": "threat-library-detail?data=clienttraficforwarder"
     },
     {
         "text": "CLOSEWATCH (CLOSEWATCH)",
-        "url": "threat-library-detail.html?data=closewatch"
+        "url": "threat-library-detail?data=closewatch"
     },
     {
         "text": "CloudDuke (CloudDuke, Cloud Duke, MiniDionis, CloudLook)",
-        "url": "threat-library-detail.html?data=cloudduke"
+        "url": "threat-library-detail?data=cloudduke"
     },
     {
         "text": "CLOUDSTATS (CLOUDSTATS)",
-        "url": "threat-library-detail.html?data=cloudstats"
+        "url": "threat-library-detail?data=cloudstats"
     },
     {
         "text": "CMD365 (CMD365)",
-        "url": "threat-library-detail.html?data=cmd365"
+        "url": "threat-library-detail?data=cmd365"
     },
     {
         "text": "CMDEmber (CMDEmber)",
-        "url": "threat-library-detail.html?data=cmdember"
+        "url": "threat-library-detail?data=cmdember"
     },
     {
         "text": "CmdSQL (CmdSQL)",
-        "url": "threat-library-detail.html?data=cmdsql"
+        "url": "threat-library-detail?data=cmdsql"
     },
     {
         "text": "Cmstar (Cmstar, meciv)",
-        "url": "threat-library-detail.html?data=cmstar"
+        "url": "threat-library-detail?data=cmstar"
     },
     {
         "text": "CobInt (CobInt, COOLPANTS)",
-        "url": "threat-library-detail.html?data=cobint"
+        "url": "threat-library-detail?data=cobint"
     },
     {
         "text": "Cobra Carbon System (Cobra Carbon System, Carbon, Pfinet)",
-        "url": "threat-library-detail.html?data=cobra_carbon_system"
+        "url": "threat-library-detail?data=cobra_carbon_system"
     },
     {
         "text": "Cobra DocGuard (Cobra DocGuard)",
-        "url": "threat-library-detail.html?data=cobra_docguard"
+        "url": "threat-library-detail?data=cobra_docguard"
     },
     {
         "text": "COLDCAT (COLDCAT)",
-        "url": "threat-library-detail.html?data=coldcat"
+        "url": "threat-library-detail?data=coldcat"
     },
     {
         "text": "COLDJAVA (COLDJAVA)",
-        "url": "threat-library-detail.html?data=coldjava"
+        "url": "threat-library-detail?data=coldjava"
     },
     {
         "text": "CollectionRAT (CollectionRAT)",
-        "url": "threat-library-detail.html?data=collectionrat"
+        "url": "threat-library-detail?data=collectionrat"
     },
     {
         "text": "Combos (Combos)",
-        "url": "threat-library-detail.html?data=combos"
+        "url": "threat-library-detail?data=combos"
     },
     {
         "text": "Comet (Comet, Meteor, Stardust)",
-        "url": "threat-library-detail.html?data=comet"
+        "url": "threat-library-detail?data=comet"
     },
     {
         "text": "Comfoo (Comfoo, Comfoo RAT)",
-        "url": "threat-library-detail.html?data=comfoo"
+        "url": "threat-library-detail?data=comfoo"
     },
     {
         "text": "Commix (Commix)",
-        "url": "threat-library-detail.html?data=commix"
+        "url": "threat-library-detail?data=commix"
     },
     {
         "text": "CommonMagic (CommonMagic)",
-        "url": "threat-library-detail.html?data=commonmagic"
+        "url": "threat-library-detail?data=commonmagic"
     },
     {
         "text": "Comnie (Comnie)",
-        "url": "threat-library-detail.html?data=comnie"
+        "url": "threat-library-detail?data=comnie"
     },
     {
         "text": "COMpfun (COMpfun, Reductor RAT)",
-        "url": "threat-library-detail.html?data=compfun"
+        "url": "threat-library-detail?data=compfun"
     },
     {
         "text": "Computrace (Computrace, LoJack)",
-        "url": "threat-library-detail.html?data=computrace"
+        "url": "threat-library-detail?data=computrace"
     },
     {
         "text": "ComRAT (ComRAT)",
-        "url": "threat-library-detail.html?data=comrat"
+        "url": "threat-library-detail?data=comrat"
     },
     {
         "text": "Concealment Troy (Concealment Troy, concealment_troy)",
-        "url": "threat-library-detail.html?data=concealment_troy"
+        "url": "threat-library-detail?data=concealment_troy"
     },
     {
         "text": "Contopee (Contopee, WHITEOUT)",
-        "url": "threat-library-detail.html?data=contopee"
+        "url": "threat-library-detail?data=contopee"
     },
     {
         "text": "CookieBag (CookieBag, TROJAN.COOKIES)",
-        "url": "threat-library-detail.html?data=cookiebag"
+        "url": "threat-library-detail?data=cookiebag"
     },
     {
         "text": "CookieTime (CookieTime)",
-        "url": "threat-library-detail.html?data=cookietime"
+        "url": "threat-library-detail?data=cookietime"
     },
     {
         "text": "CORALDECK (CORALDECK)",
-        "url": "threat-library-detail.html?data=coraldeck"
+        "url": "threat-library-detail?data=coraldeck"
     },
     {
         "text": "CordScan (CordScan)",
-        "url": "threat-library-detail.html?data=cordscan"
+        "url": "threat-library-detail?data=cordscan"
     },
     {
         "text": "CoreBot (CoreBot)",
-        "url": "threat-library-detail.html?data=corebot"
+        "url": "threat-library-detail?data=corebot"
     },
     {
         "text": "Corentry (Corentry, Fluxwire)",
-        "url": "threat-library-detail.html?data=corentry"
+        "url": "threat-library-detail?data=corentry"
     },
     {
         "text": "CoreLoader (CoreLoader)",
-        "url": "threat-library-detail.html?data=coreloader"
+        "url": "threat-library-detail?data=coreloader"
     },
     {
         "text": "CORESHELL (CORESHELL, SOURFACE, Sofacy)",
-        "url": "threat-library-detail.html?data=coreshell"
+        "url": "threat-library-detail?data=coreshell"
     },
     {
         "text": "Corkow (Corkow)",
-        "url": "threat-library-detail.html?data=corkow"
+        "url": "threat-library-detail?data=corkow"
     },
     {
         "text": "CosmicDuke (CosmicDuke, TinyBaron, BotgenStudios, NemesisGemina)",
-        "url": "threat-library-detail.html?data=cosmicduke"
+        "url": "threat-library-detail?data=cosmicduke"
     },
     {
         "text": "CostaBricks (CostaBricks)",
-        "url": "threat-library-detail.html?data=costabricks"
+        "url": "threat-library-detail?data=costabricks"
     },
     {
         "text": "Cotx RAT (Cotx RAT)",
-        "url": "threat-library-detail.html?data=cotx_rat"
+        "url": "threat-library-detail?data=cotx_rat"
     },
     {
         "text": "CoughingDown (CoughingDown)",
-        "url": "threat-library-detail.html?data=coughingdown"
+        "url": "threat-library-detail?data=coughingdown"
     },
     {
         "text": "CozyDuke (CozyDuke, CozyCar, CozyBear, Cozer, EuroAPT)",
-        "url": "threat-library-detail.html?data=cozyduke"
+        "url": "threat-library-detail?data=cozyduke"
     },
     {
         "text": "CrackMapExec (CrackMapExec)",
-        "url": "threat-library-detail.html?data=crackmapexec"
+        "url": "threat-library-detail?data=crackmapexec"
     },
     {
         "text": "Crackshot (Crackshot)",
-        "url": "threat-library-detail.html?data=crackshot"
+        "url": "threat-library-detail?data=crackshot"
     },
     {
         "text": "Creamsicle (Creamsicle)",
-        "url": "threat-library-detail.html?data=creamsicle"
+        "url": "threat-library-detail?data=creamsicle"
     },
     {
         "text": "CredRaptor (CredRaptor)",
-        "url": "threat-library-detail.html?data=credraptor"
+        "url": "threat-library-detail?data=credraptor"
     },
     {
         "text": "CREDRIVER (CREDRIVER)",
-        "url": "threat-library-detail.html?data=credriver"
+        "url": "threat-library-detail?data=credriver"
     },
     {
         "text": "CreepyDrive (CreepyDrive)",
-        "url": "threat-library-detail.html?data=creepydrive"
+        "url": "threat-library-detail?data=creepydrive"
     },
     {
         "text": "CreepySnail (CreepySnail)",
-        "url": "threat-library-detail.html?data=creepysnail"
+        "url": "threat-library-detail?data=creepysnail"
     },
     {
         "text": "Cridex (Cridex, Bugat, Feodo)",
-        "url": "threat-library-detail.html?data=cridex"
+        "url": "threat-library-detail?data=cridex"
     },
     {
         "text": "CLRLoad (CLRLoad)",
-        "url": "threat-library-detail.html?data=clrload"
+        "url": "threat-library-detail?data=clrload"
     },
     {
         "text": "CronBot (CronBot)",
-        "url": "threat-library-detail.html?data=cronbot"
+        "url": "threat-library-detail?data=cronbot"
     },
     {
         "text": "CrossRAT (CrossRAT, Trupto)",
-        "url": "threat-library-detail.html?data=crossrat"
+        "url": "threat-library-detail?data=crossrat"
     },
     {
         "text": "CrossWalk (CrossWalk, Motnug, ProxIP, TOMMYGUN)",
-        "url": "threat-library-detail.html?data=crosswalk"
+        "url": "threat-library-detail?data=crosswalk"
     },
     {
         "text": "CROWVIEW (CROWVIEW)",
-        "url": "threat-library-detail.html?data=crowview"
+        "url": "threat-library-detail?data=crowview"
     },
     {
         "text": "CroxLoader (CroxLoader)",
-        "url": "threat-library-detail.html?data=croxloader"
+        "url": "threat-library-detail?data=croxloader"
     },
     {
         "text": "Crutch (Crutch)",
-        "url": "threat-library-detail.html?data=crutch"
+        "url": "threat-library-detail?data=crutch"
     },
     {
         "text": "Crypta (Crypta)",
-        "url": "threat-library-detail.html?data=crypta"
+        "url": "threat-library-detail?data=crypta"
     },
     {
         "text": "Cryptcat (Cryptcat)",
-        "url": "threat-library-detail.html?data=cryptcat"
+        "url": "threat-library-detail?data=cryptcat"
     },
     {
         "text": "CrypticConvo (CrypticConvo)",
-        "url": "threat-library-detail.html?data=crypticconvo"
+        "url": "threat-library-detail?data=crypticconvo"
     },
     {
         "text": "CryptoMix (CryptoMix, CryptFile2, Zeta, CryptoShield)",
-        "url": "threat-library-detail.html?data=cryptomix"
+        "url": "threat-library-detail?data=cryptomix"
     },
     {
         "text": "CryptoWall (CryptoWall)",
-        "url": "threat-library-detail.html?data=cryptowall"
+        "url": "threat-library-detail?data=cryptowall"
     },
     {
         "text": "CryWiper (CryWiper)",
-        "url": "threat-library-detail.html?data=crywiper"
+        "url": "threat-library-detail?data=crywiper"
     },
     {
         "text": "CsExt (CsExt)",
-        "url": "threat-library-detail.html?data=csext"
+        "url": "threat-library-detail?data=csext"
     },
     {
         "text": "CSPY Downloader (CSPY Downloader)",
-        "url": "threat-library-detail.html?data=cspy_downloader"
+        "url": "threat-library-detail?data=cspy_downloader"
     },
     {
         "text": "Ctealer (Ctealer)",
-        "url": "threat-library-detail.html?data=ctealer"
+        "url": "threat-library-detail?data=ctealer"
     },
     {
         "text": "Cucky (Cucky)",
-        "url": "threat-library-detail.html?data=cucky"
+        "url": "threat-library-detail?data=cucky"
     },
     {
         "text": "Cuegoe (Cuegoe)",
-        "url": "threat-library-detail.html?data=cuegoe"
+        "url": "threat-library-detail?data=cuegoe"
     },
     {
         "text": "Cutlet Maker (Cutlet Maker, Cutlet)",
-        "url": "threat-library-detail.html?data=cutlet_maker"
+        "url": "threat-library-detail?data=cutlet_maker"
     },
     {
         "text": "CWoolger (CWoolger, Woolger, WoolenLogger)",
-        "url": "threat-library-detail.html?data=cwoolger"
+        "url": "threat-library-detail?data=cwoolger"
     },
     {
         "text": "Cyan Lambert (Cyan Lambert)",
-        "url": "threat-library-detail.html?data=cyan_lambert"
+        "url": "threat-library-detail?data=cyan_lambert"
     },
     {
         "text": "CyberGate RAT (CyberGate RAT, CyberGate, Rebhip)",
-        "url": "threat-library-detail.html?data=cybergate_rat"
+        "url": "threat-library-detail?data=cybergate_rat"
     },
     {
         "text": "Cyclops Blink (Cyclops Blink, CyclopsBlink)",
-        "url": "threat-library-detail.html?data=cyclops_blink"
+        "url": "threat-library-detail?data=cyclops_blink"
     },
     {
         "text": "Cyst Downloader (Cyst Downloader)",
-        "url": "threat-library-detail.html?data=cyst_downloader"
+        "url": "threat-library-detail?data=cyst_downloader"
     },
     {
         "text": "Dacls RAT (Dacls RAT, Dacls)",
-        "url": "threat-library-detail.html?data=dacls_rat"
+        "url": "threat-library-detail?data=dacls_rat"
     },
     {
         "text": "DADJOKE (DADJOKE)",
-        "url": "threat-library-detail.html?data=dadjoke"
+        "url": "threat-library-detail?data=dadjoke"
     },
     {
         "text": "Dadstache (Dadstache)",
-        "url": "threat-library-detail.html?data=dadstache"
+        "url": "threat-library-detail?data=dadstache"
     },
     {
         "text": "Dagger Three (Dagger Three)",
-        "url": "threat-library-detail.html?data=dagger_three"
+        "url": "threat-library-detail?data=dagger_three"
     },
     {
         "text": "Dairy (Dairy)",
-        "url": "threat-library-detail.html?data=dairy"
+        "url": "threat-library-detail?data=dairy"
     },
     {
         "text": "DanBot (DanBot)",
-        "url": "threat-library-detail.html?data=danbot"
+        "url": "threat-library-detail?data=danbot"
     },
     {
         "text": "DanderSpritz (DanderSpritz)",
-        "url": "threat-library-detail.html?data=danderspritz"
+        "url": "threat-library-detail?data=danderspritz"
     },
     {
         "text": "DanDrop (DanDrop)",
-        "url": "threat-library-detail.html?data=dandrop"
+        "url": "threat-library-detail?data=dandrop"
     },
     {
         "text": "Danfuan (Danfuan)",
-        "url": "threat-library-detail.html?data=danfuan"
+        "url": "threat-library-detail?data=danfuan"
     },
     {
         "text": "DARKDEW (DARKDEW)",
-        "url": "threat-library-detail.html?data=darkdew"
+        "url": "threat-library-detail?data=darkdew"
     },
     {
         "text": "DarkHotel (DarkHotel)",
-        "url": "threat-library-detail.html?data=darkhotel"
+        "url": "threat-library-detail?data=darkhotel"
     },
     {
         "text": "DarkPulsar (DarkPulsar)",
-        "url": "threat-library-detail.html?data=darkpulsar"
+        "url": "threat-library-detail?data=darkpulsar"
     },
     {
         "text": "DarkRAT (DarkRAT)",
-        "url": "threat-library-detail.html?data=darkrat"
+        "url": "threat-library-detail?data=darkrat"
     },
     {
         "text": "Dark Tequila (Dark Tequila, DarkTequila)",
-        "url": "threat-library-detail.html?data=dark_tequila"
+        "url": "threat-library-detail?data=dark_tequila"
     },
     {
         "text": "DarthPusher (DarthPusher)",
-        "url": "threat-library-detail.html?data=darthpusher"
+        "url": "threat-library-detail?data=darthpusher"
     },
     {
         "text": "Daserf (Daserf, Muirim, Nioupale)",
-        "url": "threat-library-detail.html?data=daserf"
+        "url": "threat-library-detail?data=daserf"
     },
     {
         "text": "Datper (Datper)",
-        "url": "threat-library-detail.html?data=datper"
+        "url": "threat-library-detail?data=datper"
     },
     {
         "text": "DAVESHELL (DAVESHELL)",
-        "url": "threat-library-detail.html?data=daveshell"
+        "url": "threat-library-detail?data=daveshell"
     },
     {
         "text": "DBoxAgent (DBoxAgent)",
-        "url": "threat-library-detail.html?data=dboxagent"
+        "url": "threat-library-detail?data=dboxagent"
     },
     {
         "text": "DbxDump Utility (DbxDump Utility)",
-        "url": "threat-library-detail.html?data=dbxdump_utility"
+        "url": "threat-library-detail?data=dbxdump_utility"
     },
     {
         "text": "DCSrv (DCSrv, DCrSrv)",
-        "url": "threat-library-detail.html?data=dcsrv"
+        "url": "threat-library-detail?data=dcsrv"
     },
     {
         "text": "DCSync (DCSync)",
-        "url": "threat-library-detail.html?data=dcsync"
+        "url": "threat-library-detail?data=dcsync"
     },
     {
         "text": "DDG (DDG)",
-        "url": "threat-library-detail.html?data=ddg"
+        "url": "threat-library-detail?data=ddg"
     },
     {
         "text": "DDKONG (DDKONG)",
-        "url": "threat-library-detail.html?data=ddkong"
+        "url": "threat-library-detail?data=ddkong"
     },
     {
         "text": "DEADEYE (DEADEYE)",
-        "url": "threat-library-detail.html?data=deadeye"
+        "url": "threat-library-detail?data=deadeye"
     },
     {
         "text": "DEADWOOD (DEADWOOD, Detbosit, DETBOSIT, Agrius, SQLShred)",
-        "url": "threat-library-detail.html?data=deadwood"
+        "url": "threat-library-detail?data=deadwood"
     },
     {
         "text": "DealersChoice (DealersChoice)",
-        "url": "threat-library-detail.html?data=dealerschoice"
+        "url": "threat-library-detail?data=dealerschoice"
     },
     {
         "text": "DeathRansom (DeathRansom, deathransom, DEATHRANSOM, wacatac)",
-        "url": "threat-library-detail.html?data=deathransom"
+        "url": "threat-library-detail?data=deathransom"
     },
     {
         "text": "DebugView (DebugView)",
-        "url": "threat-library-detail.html?data=debugview"
+        "url": "threat-library-detail?data=debugview"
     },
     {
         "text": "Decebal (Decebal)",
-        "url": "threat-library-detail.html?data=decebal"
+        "url": "threat-library-detail?data=decebal"
     },
     {
         "text": "Decrypt-RDCMan.ps1 (Decrypt-RDCMan.ps1)",
-        "url": "threat-library-detail.html?data=decrypt-rdcman.ps1"
+        "url": "threat-library-detail?data=decrypt-rdcman.ps1"
     },
     {
         "text": "DeepCreep (DeepCreep)",
-        "url": "threat-library-detail.html?data=deepcreep"
+        "url": "threat-library-detail?data=deepcreep"
     },
     {
         "text": "Deed RAT (Deed RAT)",
-        "url": "threat-library-detail.html?data=deed_rat"
+        "url": "threat-library-detail?data=deed_rat"
     },
     {
         "text": "Defray777 (Defray777, Defray, Defray 2018, Target777, Ransom X, RansomExx, Glushkov)",
-        "url": "threat-library-detail.html?data=defray777"
+        "url": "threat-library-detail?data=defray777"
     },
     {
         "text": "DELPHSTATS (DELPHSTATS)",
-        "url": "threat-library-detail.html?data=delphstats"
+        "url": "threat-library-detail?data=delphstats"
     },
     {
         "text": "DeltaCharlie (DeltaCharlie)",
-        "url": "threat-library-detail.html?data=deltacharlie"
+        "url": "threat-library-detail?data=deltacharlie"
     },
     {
         "text": "Dendroid (Dendroid)",
-        "url": "threat-library-detail.html?data=dendroid"
+        "url": "threat-library-detail?data=dendroid"
     },
     {
         "text": "DEPLOYLOG (DEPLOYLOG)",
-        "url": "threat-library-detail.html?data=deploylog"
+        "url": "threat-library-detail?data=deploylog"
     },
     {
         "text": "Depriz (Depriz)",
-        "url": "threat-library-detail.html?data=depriz"
+        "url": "threat-library-detail?data=depriz"
     },
     {
         "text": "DeputyDog (DeputyDog, Fexel)",
-        "url": "threat-library-detail.html?data=deputydog"
+        "url": "threat-library-detail?data=deputydog"
     },
     {
         "text": "Desert Scorpion (Desert Scorpion)",
-        "url": "threat-library-detail.html?data=desert_scorpion"
+        "url": "threat-library-detail?data=desert_scorpion"
     },
     {
         "text": "DessertDown (DessertDown)",
-        "url": "threat-library-detail.html?data=dessertdown"
+        "url": "threat-library-detail?data=dessertdown"
     },
     {
         "text": "Destover (Destover, Sierras)",
-        "url": "threat-library-detail.html?data=destover"
+        "url": "threat-library-detail?data=destover"
     },
     {
         "text": "DetaRAT (DetaRAT)",
-        "url": "threat-library-detail.html?data=detarat"
+        "url": "threat-library-detail?data=detarat"
     },
     {
         "text": "Dexbia (Dexbia, CONIME)",
-        "url": "threat-library-detail.html?data=dexbia"
+        "url": "threat-library-detail?data=dexbia"
     },
     {
         "text": "dfrgntfs5.sqt (dfrgntfs5.sqt)",
-        "url": "threat-library-detail.html?data=dfrgntfs5.sqt"
+        "url": "threat-library-detail?data=dfrgntfs5.sqt"
     },
     {
         "text": "DILLJUICE (DILLJUICE, FYAnti)",
-        "url": "threat-library-detail.html?data=dilljuice"
+        "url": "threat-library-detail?data=dilljuice"
     },
     {
         "text": "DILLWEED (DILLWEED)",
-        "url": "threat-library-detail.html?data=dillweed"
+        "url": "threat-library-detail?data=dillweed"
     },
     {
         "text": "DilongTrash (DilongTrash)",
-        "url": "threat-library-detail.html?data=dilongtrash"
+        "url": "threat-library-detail?data=dilongtrash"
     },
     {
         "text": "Dino (Dino)",
-        "url": "threat-library-detail.html?data=dino"
+        "url": "threat-library-detail?data=dino"
     },
     {
         "text": "DinoTrain (DinoTrain)",
-        "url": "threat-library-detail.html?data=dinotrain"
+        "url": "threat-library-detail?data=dinotrain"
     },
     {
         "text": "DirBuster (DirBuster)",
-        "url": "threat-library-detail.html?data=dirbuster"
+        "url": "threat-library-detail?data=dirbuster"
     },
     {
         "text": "Dirsearch (Dirsearch)",
-        "url": "threat-library-detail.html?data=dirsearch"
+        "url": "threat-library-detail?data=dirsearch"
     },
     {
         "text": "Distribute.exe (Distribute.exe)",
-        "url": "threat-library-detail.html?data=distribute.exe"
+        "url": "threat-library-detail?data=distribute.exe"
     },
     {
         "text": "DistTrack (DistTrack, Shamoon)",
-        "url": "threat-library-detail.html?data=disttrack"
+        "url": "threat-library-detail?data=disttrack"
     },
     {
         "text": "DKMC (DKMC)",
-        "url": "threat-library-detail.html?data=dkmc"
+        "url": "threat-library-detail?data=dkmc"
     },
     {
         "text": "DmaUp3.exe (DmaUp3.exe)",
-        "url": "threat-library-detail.html?data=dmaup3.exe"
+        "url": "threat-library-detail?data=dmaup3.exe"
     },
     {
         "text": "DMSniff (DMSniff)",
-        "url": "threat-library-detail.html?data=dmsniff"
+        "url": "threat-library-detail?data=dmsniff"
     },
     {
         "text": "dmsSpy (dmsSpy)",
-        "url": "threat-library-detail.html?data=dmsspy"
+        "url": "threat-library-detail?data=dmsspy"
     },
     {
         "text": "dneSpy (dneSpy)",
-        "url": "threat-library-detail.html?data=dnespy"
+        "url": "threat-library-detail?data=dnespy"
     },
     {
         "text": "DNSExfitrator (DNSExfitrator)",
-        "url": "threat-library-detail.html?data=dnsexfitrator"
+        "url": "threat-library-detail?data=dnsexfitrator"
     },
     {
         "text": "DNSMessenger (DNSMessenger, TEXTMATE)",
-        "url": "threat-library-detail.html?data=dnsmessenger"
+        "url": "threat-library-detail?data=dnsmessenger"
     },
     {
         "text": "DNSpionage (DNSpionage, Agent Drable, AgentDrable)",
-        "url": "threat-library-detail.html?data=dnspionage"
+        "url": "threat-library-detail?data=dnspionage"
     },
     {
         "text": "DNSRat (DNSRat, DNSbot)",
-        "url": "threat-library-detail.html?data=dnsrat"
+        "url": "threat-library-detail?data=dnsrat"
     },
     {
         "text": "Dolphin (Dolphin)",
-        "url": "threat-library-detail.html?data=dolphin"
+        "url": "threat-library-detail?data=dolphin"
     },
     {
         "text": "DoorMe (DoorMe)",
-        "url": "threat-library-detail.html?data=doorme"
+        "url": "threat-library-detail?data=doorme"
     },
     {
         "text": "DoppelPaymer (DoppelPaymer, Pay OR Grief)",
-        "url": "threat-library-detail.html?data=doppelpaymer"
+        "url": "threat-library-detail?data=doppelpaymer"
     },
     {
         "text": "Doraemon (Doraemon)",
-        "url": "threat-library-detail.html?data=doraemon"
+        "url": "threat-library-detail?data=doraemon"
     },
     {
         "text": "Dorshel (Dorshel)",
-        "url": "threat-library-detail.html?data=dorshel"
+        "url": "threat-library-detail?data=dorshel"
     },
     {
         "text": "DOSTEALER (DOSTEALER)",
-        "url": "threat-library-detail.html?data=dostealer"
+        "url": "threat-library-detail?data=dostealer"
     },
     {
         "text": "DoubleAgent (DoubleAgent)",
-        "url": "threat-library-detail.html?data=doubleagent"
+        "url": "threat-library-detail?data=doubleagent"
     },
     {
         "text": "DOUBLEFANTASY (DOUBLEFANTASY, DoubleFantasy, VALIDATOR)",
-        "url": "threat-library-detail.html?data=doublefantasy"
+        "url": "threat-library-detail?data=doublefantasy"
     },
     {
         "text": "DoubleFeature (DoubleFeature)",
-        "url": "threat-library-detail.html?data=doublefeature"
+        "url": "threat-library-detail?data=doublefeature"
     },
     {
         "text": "DoublePulsar (DoublePulsar)",
-        "url": "threat-library-detail.html?data=doublepulsar"
+        "url": "threat-library-detail?data=doublepulsar"
     },
     {
         "text": "DoubleZero (DoubleZero, FiberLake)",
-        "url": "threat-library-detail.html?data=doublezero"
+        "url": "threat-library-detail?data=doublezero"
     },
     {
         "text": "DoubleT (DoubleT)",
-        "url": "threat-library-detail.html?data=doublet"
+        "url": "threat-library-detail?data=doublet"
     },
     {
         "text": "Downdelph (Downdelph, Delphacy)",
-        "url": "threat-library-detail.html?data=downdelph"
+        "url": "threat-library-detail?data=downdelph"
     },
     {
         "text": "Downeks (Downeks)",
-        "url": "threat-library-detail.html?data=downeks"
+        "url": "threat-library-detail?data=downeks"
     },
     {
         "text": "DownPaper (DownPaper)",
-        "url": "threat-library-detail.html?data=downpaper"
+        "url": "threat-library-detail?data=downpaper"
     },
     {
         "text": "Dozer (Dozer, Mytob)",
-        "url": "threat-library-detail.html?data=dozer"
+        "url": "threat-library-detail?data=dozer"
     },
     {
         "text": "Dracarys (Dracarys)",
-        "url": "threat-library-detail.html?data=dracarys"
+        "url": "threat-library-detail?data=dracarys"
     },
     {
         "text": "DragonEgg (DragonEgg)",
-        "url": "threat-library-detail.html?data=dragonegg"
+        "url": "threat-library-detail?data=dragonegg"
     },
     {
         "text": "DRAWSTRING (DRAWSTRING)",
-        "url": "threat-library-detail.html?data=drawstring"
+        "url": "threat-library-detail?data=drawstring"
     },
     {
         "text": "DRIFTPIN (DRIFTPIN, Toshliph, Spy.Agent.ORM)",
-        "url": "threat-library-detail.html?data=driftpin"
+        "url": "threat-library-detail?data=driftpin"
     },
     {
         "text": "DRIGO (DRIGO)",
-        "url": "threat-library-detail.html?data=drigo"
+        "url": "threat-library-detail?data=drigo"
     },
     {
         "text": "Dripion (Dripion, Masson)",
-        "url": "threat-library-detail.html?data=dripion"
+        "url": "threat-library-detail?data=dripion"
     },
     {
         "text": "DroidJack (DroidJack)",
-        "url": "threat-library-detail.html?data=droidjack"
+        "url": "threat-library-detail?data=droidjack"
     },
     {
         "text": "DroidPlugin (DroidPlugin)",
-        "url": "threat-library-detail.html?data=droidplugin"
+        "url": "threat-library-detail?data=droidplugin"
     },
     {
         "text": "DropBook (DropBook)",
-        "url": "threat-library-detail.html?data=dropbook"
+        "url": "threat-library-detail?data=dropbook"
     },
     {
         "text": "Dropbox (Dropbox)",
-        "url": "threat-library-detail.html?data=dropbox"
+        "url": "threat-library-detail?data=dropbox"
     },
     {
         "text": "DropPhone (DropPhone)",
-        "url": "threat-library-detail.html?data=dropphone"
+        "url": "threat-library-detail?data=dropphone"
     },
     {
         "text": "Drovorub (Drovorub)",
-        "url": "threat-library-detail.html?data=drovorub"
+        "url": "threat-library-detail?data=drovorub"
     },
     {
         "text": "Drupalgeddon (Drupalgeddon)",
-        "url": "threat-library-detail.html?data=drupalgeddon"
+        "url": "threat-library-detail?data=drupalgeddon"
     },
     {
         "text": "Dtrack (Dtrack, TroyRAT)",
-        "url": "threat-library-detail.html?data=dtrack"
+        "url": "threat-library-detail?data=dtrack"
     },
     {
         "text": "Dudear (Dudear)",
-        "url": "threat-library-detail.html?data=dudear"
+        "url": "threat-library-detail?data=dudear"
     },
     {
         "text": "Dudell (Dudell)",
-        "url": "threat-library-detail.html?data=dudell"
+        "url": "threat-library-detail?data=dudell"
     },
     {
         "text": "Duqu (Duqu, Tilded)",
-        "url": "threat-library-detail.html?data=duqu"
+        "url": "threat-library-detail?data=duqu"
     },
     {
         "text": "DustySky (DustySky, NeD Worm)",
-        "url": "threat-library-detail.html?data=dustysky"
+        "url": "threat-library-detail?data=dustysky"
     },
     {
         "text": "Duuzer (Duuzer, Escad)",
-        "url": "threat-library-detail.html?data=duuzer"
+        "url": "threat-library-detail?data=duuzer"
     },
     {
         "text": "DvDupdate.dll (DvDupdate.dll)",
-        "url": "threat-library-detail.html?data=dvdupdate.dll"
+        "url": "threat-library-detail?data=dvdupdate.dll"
     },
     {
         "text": "DyePack (DyePack, swift)",
-        "url": "threat-library-detail.html?data=dyepack"
+        "url": "threat-library-detail?data=dyepack"
     },
     {
         "text": "Dyre (Dyre, Dyreza, Dyzap, Dyranges)",
-        "url": "threat-library-detail.html?data=dyre"
+        "url": "threat-library-detail?data=dyre"
     },
     {
         "text": "EarthWorm (EarthWorm)",
-        "url": "threat-library-detail.html?data=earthworm"
+        "url": "threat-library-detail?data=earthworm"
     },
     {
         "text": "EasyNight (EasyNight)",
-        "url": "threat-library-detail.html?data=easynight"
+        "url": "threat-library-detail?data=easynight"
     },
     {
         "text": "Ebury (Ebury)",
-        "url": "threat-library-detail.html?data=ebury"
+        "url": "threat-library-detail?data=ebury"
     },
     {
         "text": "EFSPotato (EFSPotato)",
-        "url": "threat-library-detail.html?data=efspotato"
+        "url": "threat-library-detail?data=efspotato"
     },
     {
         "text": "Egregor (Egregor)",
-        "url": "threat-library-detail.html?data=egregor"
+        "url": "threat-library-detail?data=egregor"
     },
     {
         "text": "EHAGBPSL (EHAGBPSL, EHAGBPSL Loader)",
-        "url": "threat-library-detail.html?data=ehagbpsl"
+        "url": "threat-library-detail?data=ehagbpsl"
     },
     {
         "text": "EHDevel (EHDevel)",
-        "url": "threat-library-detail.html?data=ehdevel"
+        "url": "threat-library-detail?data=ehdevel"
     },
     {
         "text": "Ecipekac (Ecipekac, DESLoader, SigLoader, HEAVYHAND)",
-        "url": "threat-library-detail.html?data=ecipekac"
+        "url": "threat-library-detail?data=ecipekac"
     },
     {
         "text": "EKANS (EKANS, Snake, SNAKEHOSE)",
-        "url": "threat-library-detail.html?data=ekans"
+        "url": "threat-library-detail?data=ekans"
     },
     {
         "text": "ELECTRICFISH (ELECTRICFISH, Alreay)",
-        "url": "threat-library-detail.html?data=electricfish"
+        "url": "threat-library-detail?data=electricfish"
     },
     {
         "text": "Elirks (Elirks)",
-        "url": "threat-library-detail.html?data=elirks"
+        "url": "threat-library-detail?data=elirks"
     },
     {
         "text": "Elise (Elise, BKDR_ESILE, EVILNEST, Page)",
-        "url": "threat-library-detail.html?data=elise"
+        "url": "threat-library-detail?data=elise"
     },
     {
         "text": "ELMER (ELMER, Elmost)",
-        "url": "threat-library-detail.html?data=elmer"
+        "url": "threat-library-detail?data=elmer"
     },
     {
         "text": "EmailStealer (EmailStealer)",
-        "url": "threat-library-detail.html?data=emailstealer"
+        "url": "threat-library-detail?data=emailstealer"
     },
     {
         "text": "EMASTEAL (EMASTEAL)",
-        "url": "threat-library-detail.html?data=emasteal"
+        "url": "threat-library-detail?data=emasteal"
     },
     {
         "text": "Emdivi (Emdivi, Newsripper)",
-        "url": "threat-library-detail.html?data=emdivi"
+        "url": "threat-library-detail?data=emdivi"
     },
     {
         "text": "Emissary (Emissary)",
-        "url": "threat-library-detail.html?data=emissary"
+        "url": "threat-library-detail?data=emissary"
     },
     {
         "text": "EmpireDNSAgent (EmpireDNSAgent, EDA)",
-        "url": "threat-library-detail.html?data=empirednsagent"
+        "url": "threat-library-detail?data=empirednsagent"
     },
     {
         "text": "EmpireProject (EmpireProject, Empire, EmPyre, PowerShell Empire)",
-        "url": "threat-library-detail.html?data=empireproject"
+        "url": "threat-library-detail?data=empireproject"
     },
     {
         "text": "Empoder (Empoder)",
-        "url": "threat-library-detail.html?data=empoder"
+        "url": "threat-library-detail?data=empoder"
     },
     {
         "text": "ENCODE MMC (ENCODE MMC)",
-        "url": "threat-library-detail.html?data=encode_mmc"
+        "url": "threat-library-detail?data=encode_mmc"
     },
     {
         "text": "Enfal (Enfal, Lurid)",
-        "url": "threat-library-detail.html?data=enfal"
+        "url": "threat-library-detail?data=enfal"
     },
     {
         "text": "Eomobi (Eomobi)",
-        "url": "threat-library-detail.html?data=eomobi"
+        "url": "threat-library-detail?data=eomobi"
     },
     {
         "text": "Epic (Epic, Epic Turla, Tavdig, Wipbot, WorldCupSec, TadjMakhal)",
-        "url": "threat-library-detail.html?data=epic"
+        "url": "threat-library-detail?data=epic"
     },
     {
         "text": "EpicenterRAT (EpicenterRAT)",
-        "url": "threat-library-detail.html?data=epicenterrat"
+        "url": "threat-library-detail?data=epicenterrat"
     },
     {
         "text": "EQUATIONDRUG (EQUATIONDRUG, EQUESTRE)",
-        "url": "threat-library-detail.html?data=equationdrug"
+        "url": "threat-library-detail?data=equationdrug"
     },
     {
         "text": "EQUATIONLASER (EQUATIONLASER)",
-        "url": "threat-library-detail.html?data=equationlaser"
+        "url": "threat-library-detail?data=equationlaser"
     },
     {
         "text": "Erebus (Erebus)",
-        "url": "threat-library-detail.html?data=erebus"
+        "url": "threat-library-detail?data=erebus"
     },
     {
         "text": "EternalBlue (EternalBlue)",
-        "url": "threat-library-detail.html?data=eternalblue"
+        "url": "threat-library-detail?data=eternalblue"
     },
     {
         "text": "EternalRomance (EternalRomance)",
-        "url": "threat-library-detail.html?data=eternalromance"
+        "url": "threat-library-detail?data=eternalromance"
     },
     {
         "text": "ETUMBOT (ETUMBOT, RIPTIDE, HIGHTIDE, Exploz, Specfix)",
-        "url": "threat-library-detail.html?data=etumbot"
+        "url": "threat-library-detail?data=etumbot"
     },
     {
         "text": "EvilBunny (EvilBunny)",
-        "url": "threat-library-detail.html?data=evilbunny"
+        "url": "threat-library-detail?data=evilbunny"
     },
     {
         "text": "EvilGnome (EvilGnome)",
-        "url": "threat-library-detail.html?data=evilgnome"
+        "url": "threat-library-detail?data=evilgnome"
     },
     {
         "text": "EvilGrab RAT (EvilGrab RAT, EvilGrab, Vidgrab, Wmonder, BKDR_HGDER, BKDR_EVILOGE, BKDR_NVICM)",
-        "url": "threat-library-detail.html?data=evilgrab_rat"
+        "url": "threat-library-detail?data=evilgrab_rat"
     },
     {
         "text": "EVILSUN (EVILSUN)",
-        "url": "threat-library-detail.html?data=evilsun"
+        "url": "threat-library-detail?data=evilsun"
     },
     {
         "text": "Exaramel (Exaramel)",
-        "url": "threat-library-detail.html?data=exaramel"
+        "url": "threat-library-detail?data=exaramel"
     },
     {
         "text": "Excalibur (Excalibur, Sabresac, Saber)",
-        "url": "threat-library-detail.html?data=excalibur"
+        "url": "threat-library-detail?data=excalibur"
     },
     {
         "text": "ExDudell (ExDudell)",
-        "url": "threat-library-detail.html?data=exdudell"
+        "url": "threat-library-detail?data=exdudell"
     },
     {
         "text": "ExileRAT (ExileRAT, Exile RAT)",
-        "url": "threat-library-detail.html?data=exilerat"
+        "url": "threat-library-detail?data=exilerat"
     },
     {
         "text": "ExoBot (ExoBot)",
-        "url": "threat-library-detail.html?data=exobot"
+        "url": "threat-library-detail?data=exobot"
     },
     {
         "text": "ExoBotCompact (ExoBotCompact, Coper, Octo)",
-        "url": "threat-library-detail.html?data=exobotcompact"
+        "url": "threat-library-detail?data=exobotcompact"
     },
     {
         "text": "Explosive (Explosive)",
-        "url": "threat-library-detail.html?data=explosive"
+        "url": "threat-library-detail?data=explosive"
     },
     {
         "text": "EYE (EYE)",
-        "url": "threat-library-detail.html?data=eye"
+        "url": "threat-library-detail?data=eye"
     },
     {
         "text": "EYService (EYService)",
-        "url": "threat-library-detail.html?data=eyservice"
+        "url": "threat-library-detail?data=eyservice"
     },
     {
         "text": "FakeFish (FakeFish)",
-        "url": "threat-library-detail.html?data=fakefish"
+        "url": "threat-library-detail?data=fakefish"
     },
     {
         "text": "FakeHighFive (FakeHighFive)",
-        "url": "threat-library-detail.html?data=fakehighfive"
+        "url": "threat-library-detail?data=fakehighfive"
     },
     {
         "text": "FakeM (FakeM, FakeM RAT, Terminator RAT)",
-        "url": "threat-library-detail.html?data=fakem"
+        "url": "threat-library-detail?data=fakem"
     },
     {
         "text": "FakeTC (FakeTC)",
-        "url": "threat-library-detail.html?data=faketc"
+        "url": "threat-library-detail?data=faketc"
     },
     {
         "text": "FALLCHILL (FALLCHILL, FallChill RAT)",
-        "url": "threat-library-detail.html?data=fallchill"
+        "url": "threat-library-detail?data=fallchill"
     },
     {
         "text": "FANNY (FANNY, DEMENTIAWHEEL)",
-        "url": "threat-library-detail.html?data=fanny"
+        "url": "threat-library-detail?data=fanny"
     },
     {
         "text": "Fantasy (Fantasy)",
-        "url": "threat-library-detail.html?data=fantasy"
+        "url": "threat-library-detail?data=fantasy"
     },
     {
         "text": "Farse (Farse)",
-        "url": "threat-library-detail.html?data=farse"
+        "url": "threat-library-detail?data=farse"
     },
     {
         "text": "Farseer (Farseer)",
-        "url": "threat-library-detail.html?data=farseer"
+        "url": "threat-library-detail?data=farseer"
     },
     {
         "text": "FastPOS (FastPOS)",
-        "url": "threat-library-detail.html?data=fastpos"
+        "url": "threat-library-detail?data=fastpos"
     },
     {
         "text": "FatDuke (FatDuke)",
-        "url": "threat-library-detail.html?data=fatduke"
+        "url": "threat-library-detail?data=fatduke"
     },
     {
         "text": "Felismus (Felismus)",
-        "url": "threat-library-detail.html?data=felismus"
+        "url": "threat-library-detail?data=felismus"
     },
     {
         "text": "Felixroot (Felixroot, GreyEnergy mini)",
-        "url": "threat-library-detail.html?data=felixroot"
+        "url": "threat-library-detail?data=felixroot"
     },
     {
         "text": "FighterPOS (FighterPOS)",
-        "url": "threat-library-detail.html?data=fighterpos"
+        "url": "threat-library-detail?data=fighterpos"
     },
     {
         "text": "Filerase (Filerase)",
-        "url": "threat-library-detail.html?data=filerase"
+        "url": "threat-library-detail?data=filerase"
     },
     {
         "text": "Filepak (Filepak)",
-        "url": "threat-library-detail.html?data=filepak"
+        "url": "threat-library-detail?data=filepak"
     },
     {
         "text": "FilepakMonitor (FilepakMonitor)",
-        "url": "threat-library-detail.html?data=filepakmonitor"
+        "url": "threat-library-detail?data=filepakmonitor"
     },
     {
         "text": "FileZilla (FileZilla)",
-        "url": "threat-library-detail.html?data=filezilla"
+        "url": "threat-library-detail?data=filezilla"
     },
     {
         "text": "Fimlis (Fimlis)",
-        "url": "threat-library-detail.html?data=fimlis"
+        "url": "threat-library-detail?data=fimlis"
     },
     {
         "text": "Final1stSpy (Final1stSpy)",
-        "url": "threat-library-detail.html?data=final1stspy"
+        "url": "threat-library-detail?data=final1stspy"
     },
     {
         "text": "FindPOS (FindPOS, PoSeidon)",
-        "url": "threat-library-detail.html?data=findpos"
+        "url": "threat-library-detail?data=findpos"
     },
     {
         "text": "FinFisher (FinFisher, FinFisher RAT, FinSpy)",
-        "url": "threat-library-detail.html?data=finfisher"
+        "url": "threat-library-detail?data=finfisher"
     },
     {
         "text": "fingerprintjs2 (fingerprintjs2)",
-        "url": "threat-library-detail.html?data=fingerprintjs2"
+        "url": "threat-library-detail?data=fingerprintjs2"
     },
     {
         "text": "Fire Chili (Fire Chili)",
-        "url": "threat-library-detail.html?data=fire_chili"
+        "url": "threat-library-detail?data=fire_chili"
     },
     {
         "text": "FireMalv (FireMalv)",
-        "url": "threat-library-detail.html?data=firemalv"
+        "url": "threat-library-detail?data=firemalv"
     },
     {
         "text": "FireMaster (FireMaster)",
-        "url": "threat-library-detail.html?data=firemaster"
+        "url": "threat-library-detail?data=firemaster"
     },
     {
         "text": "Fishmaster (Fishmaster, JollyJellyfish)",
-        "url": "threat-library-detail.html?data=fishmaster"
+        "url": "threat-library-detail?data=fishmaster"
     },
     {
         "text": "FIVEHANDS (FIVEHANDS, Thieflock)",
-        "url": "threat-library-detail.html?data=fivehands"
+        "url": "threat-library-detail?data=fivehands"
     },
     {
         "text": "FiXS (FiXS)",
-        "url": "threat-library-detail.html?data=fixs"
+        "url": "threat-library-detail?data=fixs"
     },
     {
         "text": "Flagpro (Flagpro, BUSYICE)",
-        "url": "threat-library-detail.html?data=flagpro"
+        "url": "threat-library-detail?data=flagpro"
     },
     {
         "text": "Flame (Flame, Flamer, sKyWIper, Skywiper)",
-        "url": "threat-library-detail.html?data=flame"
+        "url": "threat-library-detail?data=flame"
     },
     {
         "text": "Flapjack (Flapjack)",
-        "url": "threat-library-detail.html?data=flapjack"
+        "url": "threat-library-detail?data=flapjack"
     },
     {
         "text": "Flashflood (Flashflood)",
-        "url": "threat-library-detail.html?data=flashflood"
+        "url": "threat-library-detail?data=flashflood"
     },
     {
         "text": "FlipCreep (FlipCreep)",
-        "url": "threat-library-detail.html?data=flipcreep"
+        "url": "threat-library-detail?data=flipcreep"
     },
     {
         "text": "FLIPSIDE (FLIPSIDE)",
-        "url": "threat-library-detail.html?data=flipside"
+        "url": "threat-library-detail?data=flipside"
     },
     {
         "text": "FlokiBot (FlokiBot)",
-        "url": "threat-library-detail.html?data=flokibot"
+        "url": "threat-library-detail?data=flokibot"
     },
     {
         "text": "FlowCloud (FlowCloud)",
-        "url": "threat-library-detail.html?data=flowcloud"
+        "url": "threat-library-detail?data=flowcloud"
     },
     {
         "text": "FLOWERPIPE (FLOWERPIPE)",
-        "url": "threat-library-detail.html?data=flowerpipe"
+        "url": "threat-library-detail?data=flowerpipe"
     },
     {
         "text": "FlowerPippi (FlowerPippi)",
-        "url": "threat-library-detail.html?data=flowerpippi"
+        "url": "threat-library-detail?data=flowerpippi"
     },
     {
         "text": "FlowerPower (FlowerPower, BoBoStealer)",
-        "url": "threat-library-detail.html?data=flowerpower"
+        "url": "threat-library-detail?data=flowerpower"
     },
     {
         "text": "FlyingDutchman (FlyingDutchman)",
-        "url": "threat-library-detail.html?data=flyingdutchman"
+        "url": "threat-library-detail?data=flyingdutchman"
     },
     {
         "text": "Fobber (Fobber)",
-        "url": "threat-library-detail.html?data=fobber"
+        "url": "threat-library-detail?data=fobber"
     },
     {
         "text": "FoggyWeb (FoggyWeb)",
-        "url": "threat-library-detail.html?data=foggyweb"
+        "url": "threat-library-detail?data=foggyweb"
     },
     {
         "text": "Foozer (Foozer)",
-        "url": "threat-library-detail.html?data=foozer"
+        "url": "threat-library-detail?data=foozer"
     },
     {
         "text": "FORKBEARD (FORKBEARD)",
-        "url": "threat-library-detail.html?data=forkbeard"
+        "url": "threat-library-detail?data=forkbeard"
     },
     {
         "text": "FormerFirstRAT (FormerFirstRAT, FF-RAT, ffrat)",
-        "url": "threat-library-detail.html?data=formerfirstrat"
+        "url": "threat-library-detail?data=formerfirstrat"
     },
     {
         "text": "FoundCore (FoundCore, RainyDay)",
-        "url": "threat-library-detail.html?data=foundcore"
+        "url": "threat-library-detail?data=foundcore"
     },
     {
         "text": "FOXGRABBER (FOXGRABBER)",
-        "url": "threat-library-detail.html?data=foxgrabber"
+        "url": "threat-library-detail?data=foxgrabber"
     },
     {
         "text": "Fox Panel (Fox Panel)",
-        "url": "threat-library-detail.html?data=fox_panel"
+        "url": "threat-library-detail?data=fox_panel"
     },
     {
         "text": "FRAUDROP (FRAUDROP)",
-        "url": "threat-library-detail.html?data=fraudrop"
+        "url": "threat-library-detail?data=fraudrop"
     },
     {
         "text": "Freenki Loader (Freenki Loader)",
-        "url": "threat-library-detail.html?data=freenki_loader"
+        "url": "threat-library-detail?data=freenki_loader"
     },
     {
         "text": "FrozenCell (FrozenCell)",
-        "url": "threat-library-detail.html?data=frozencell"
+        "url": "threat-library-detail?data=frozencell"
     },
     {
         "text": "FRP (FRP, Fast Reverse Proxy)",
-        "url": "threat-library-detail.html?data=frp"
+        "url": "threat-library-detail?data=frp"
     },
     {
         "text": "FruityC2 (FruityC2)",
-        "url": "threat-library-detail.html?data=fruityc2"
+        "url": "threat-library-detail?data=fruityc2"
     },
     {
         "text": "fscan (fscan)",
-        "url": "threat-library-detail.html?data=fscan"
+        "url": "threat-library-detail?data=fscan"
     },
     {
         "text": "FullThrottle (FullThrottle)",
-        "url": "threat-library-detail.html?data=fullthrottle"
+        "url": "threat-library-detail?data=fullthrottle"
     },
     {
         "text": "FunnyDream (FunnyDream)",
-        "url": "threat-library-detail.html?data=funnydream"
+        "url": "threat-library-detail?data=funnydream"
     },
     {
         "text": "FunnySwitch (FunnySwitch, RouterGod)",
-        "url": "threat-library-detail.html?data=funnyswitch"
+        "url": "threat-library-detail?data=funnyswitch"
     },
     {
         "text": "FurBall (FurBall)",
-        "url": "threat-library-detail.html?data=furball"
+        "url": "threat-library-detail?data=furball"
     },
     {
         "text": "GamaPOS (GamaPOS, pios)",
-        "url": "threat-library-detail.html?data=gamapos"
+        "url": "threat-library-detail?data=gamapos"
     },
     {
         "text": "Gamaredon (Gamaredon)",
-        "url": "threat-library-detail.html?data=gamaredon"
+        "url": "threat-library-detail?data=gamaredon"
     },
     {
         "text": "GameOver Zeus (GameOver Zeus, Peer-to-Peer Zeus, P2P Zeus, GOZ)",
-        "url": "threat-library-detail.html?data=gameover_zeus"
+        "url": "threat-library-detail?data=gameover_zeus"
     },
     {
         "text": "Gazer (Gazer, WhiteBear)",
-        "url": "threat-library-detail.html?data=gazer"
+        "url": "threat-library-detail?data=gazer"
     },
     {
         "text": "Gcat (Gcat)",
-        "url": "threat-library-detail.html?data=gcat"
+        "url": "threat-library-detail?data=gcat"
     },
     {
         "text": "GCMAN (GCMAN)",
-        "url": "threat-library-detail.html?data=gcman"
+        "url": "threat-library-detail?data=gcman"
     },
     {
         "text": "GDOCUPLOAD (GDOCUPLOAD)",
-        "url": "threat-library-detail.html?data=gdocupload"
+        "url": "threat-library-detail?data=gdocupload"
     },
     {
         "text": "GearShift (GearShift)",
-        "url": "threat-library-detail.html?data=gearshift"
+        "url": "threat-library-detail?data=gearshift"
     },
     {
         "text": "GELCAPSULE (GELCAPSULE)",
-        "url": "threat-library-detail.html?data=gelcapsule"
+        "url": "threat-library-detail?data=gelcapsule"
     },
     {
         "text": "Gelsemine (Gelsemine)",
-        "url": "threat-library-detail.html?data=gelsemine"
+        "url": "threat-library-detail?data=gelsemine"
     },
     {
         "text": "Gelsenicine (Gelsenicine)",
-        "url": "threat-library-detail.html?data=gelsenicine"
+        "url": "threat-library-detail?data=gelsenicine"
     },
     {
         "text": "Gelsevirine (Gelsevirine)",
-        "url": "threat-library-detail.html?data=gelsevirine"
+        "url": "threat-library-detail?data=gelsevirine"
     },
     {
         "text": "Gelup (Gelup)",
-        "url": "threat-library-detail.html?data=gelup"
+        "url": "threat-library-detail?data=gelup"
     },
     {
         "text": "Gemcutter (Gemcutter)",
-        "url": "threat-library-detail.html?data=gemcutter"
+        "url": "threat-library-detail?data=gemcutter"
     },
     {
         "text": "GeminiDuke (GeminiDuke)",
-        "url": "threat-library-detail.html?data=geminiduke"
+        "url": "threat-library-detail?data=geminiduke"
     },
     {
         "text": "Geppei (Geppei)",
-        "url": "threat-library-detail.html?data=geppei"
+        "url": "threat-library-detail?data=geppei"
     },
     {
         "text": "Get-LAPSP.ps1 (Get-LAPSP.ps1)",
-        "url": "threat-library-detail.html?data=get-lapsp.ps1"
+        "url": "threat-library-detail?data=get-lapsp.ps1"
     },
     {
         "text": "get-logon-history.ps1 (get-logon-history.ps1)",
-        "url": "threat-library-detail.html?data=get-logon-history.ps1"
+        "url": "threat-library-detail?data=get-logon-history.ps1"
     },
     {
         "text": "GetMail (GetMail)",
-        "url": "threat-library-detail.html?data=getmail"
+        "url": "threat-library-detail?data=getmail"
     },
     {
         "text": "GetMyPass (GetMyPass, getmypos)",
-        "url": "threat-library-detail.html?data=getmypass"
+        "url": "threat-library-detail?data=getmypass"
     },
     {
         "text": "GetUserSPNS.vbs (GetUserSPNS.vbs)",
-        "url": "threat-library-detail.html?data=getuserspns.vbs"
+        "url": "threat-library-detail?data=getuserspns.vbs"
     },
     {
         "text": "Gh0stnet (Gh0stnet, Ghostnet, Remosh)",
-        "url": "threat-library-detail.html?data=gh0stnet"
+        "url": "threat-library-detail?data=gh0stnet"
     },
     {
         "text": "Gh0st RAT (Gh0st RAT, Ghost RAT, AngryRebel, Farfli, PCRat, Moudour, Mydoor)",
-        "url": "threat-library-detail.html?data=gh0st_rat"
+        "url": "threat-library-detail?data=gh0st_rat"
     },
     {
         "text": "Gh0stTimes (Gh0stTimes)",
-        "url": "threat-library-detail.html?data=gh0sttimes"
+        "url": "threat-library-detail?data=gh0sttimes"
     },
     {
         "text": "Ghambar (Ghambar)",
-        "url": "threat-library-detail.html?data=ghambar"
+        "url": "threat-library-detail?data=ghambar"
     },
     {
         "text": "Ghole (Ghole, Gholee, CoreImpact (Modified))",
-        "url": "threat-library-detail.html?data=ghole"
+        "url": "threat-library-detail?data=ghole"
     },
     {
         "text": "Gigabud (Gigabud, Gigabud RAT)",
-        "url": "threat-library-detail.html?data=gigabud"
+        "url": "threat-library-detail?data=gigabud"
     },
     {
         "text": "GlanceLove (GlanceLove, WinkChat)",
-        "url": "threat-library-detail.html?data=glancelove"
+        "url": "threat-library-detail?data=glancelove"
     },
     {
         "text": "GLASSES (GLASSES, Wordpress Bruteforcer)",
-        "url": "threat-library-detail.html?data=glasses"
+        "url": "threat-library-detail?data=glasses"
     },
     {
         "text": "GlitchPOS (GlitchPOS)",
-        "url": "threat-library-detail.html?data=glitchpos"
+        "url": "threat-library-detail?data=glitchpos"
     },
     {
         "text": "GlobeImposter (GlobeImposter, Fake Globe)",
-        "url": "threat-library-detail.html?data=globeimposter"
+        "url": "threat-library-detail?data=globeimposter"
     },
     {
         "text": "GLOOXMAIL (GLOOXMAIL, Trojan.GTALK)",
-        "url": "threat-library-detail.html?data=glooxmail"
+        "url": "threat-library-detail?data=glooxmail"
     },
     {
         "text": "glue30.dll (glue30.dll)",
-        "url": "threat-library-detail.html?data=glue30.dll"
+        "url": "threat-library-detail?data=glue30.dll"
     },
     {
         "text": "GnatSpy (GnatSpy)",
-        "url": "threat-library-detail.html?data=gnatspy"
+        "url": "threat-library-detail?data=gnatspy"
     },
     {
         "text": "GoBot2 (GoBot2)",
-        "url": "threat-library-detail.html?data=gobot2"
+        "url": "threat-library-detail?data=gobot2"
     },
     {
         "text": "GoBuster (GoBuster)",
-        "url": "threat-library-detail.html?data=gobuster"
+        "url": "threat-library-detail?data=gobuster"
     },
     {
         "text": "Godlua (Godlua)",
-        "url": "threat-library-detail.html?data=godlua"
+        "url": "threat-library-detail?data=godlua"
     },
     {
         "text": "Godzilla (Godzilla, Godzilla Loader)",
-        "url": "threat-library-detail.html?data=godzilla"
+        "url": "threat-library-detail?data=godzilla"
     },
     {
         "text": "GOGGLES (GOGGLES, TROJAN.FOXY)",
-        "url": "threat-library-detail.html?data=goggles"
+        "url": "threat-library-detail?data=goggles"
     },
     {
         "text": "GOLDBACKDOOR (GOLDBACKDOOR)",
-        "url": "threat-library-detail.html?data=goldbackdoor"
+        "url": "threat-library-detail?data=goldbackdoor"
     },
     {
         "text": "Gold Dragon (Gold Dragon, GoldDragon, Lovexxx)",
-        "url": "threat-library-detail.html?data=gold_dragon"
+        "url": "threat-library-detail?data=gold_dragon"
     },
     {
         "text": "GoldenEagle (GoldenEagle)",
-        "url": "threat-library-detail.html?data=goldeneagle"
+        "url": "threat-library-detail?data=goldeneagle"
     },
     {
         "text": "GoldenRAT (GoldenRAT)",
-        "url": "threat-library-detail.html?data=goldenrat"
+        "url": "threat-library-detail?data=goldenrat"
     },
     {
         "text": "GoldFinder (GoldFinder)",
-        "url": "threat-library-detail.html?data=goldfinder"
+        "url": "threat-library-detail?data=goldfinder"
     },
     {
         "text": "GoldMax (GoldMax, SUNSHUTTLE)",
-        "url": "threat-library-detail.html?data=goldmax"
+        "url": "threat-library-detail?data=goldmax"
     },
     {
         "text": "GolfSpy (GolfSpy)",
-        "url": "threat-library-detail.html?data=golfspy"
+        "url": "threat-library-detail?data=golfspy"
     },
     {
         "text": "GollumApp (GollumApp)",
-        "url": "threat-library-detail.html?data=gollumapp"
+        "url": "threat-library-detail?data=gollumapp"
     },
     {
         "text": "Gon (Gon)",
-        "url": "threat-library-detail.html?data=gon"
+        "url": "threat-library-detail?data=gon"
     },
     {
         "text": "Goodor (Goodor, Fuerboos)",
-        "url": "threat-library-detail.html?data=goodor"
+        "url": "threat-library-detail?data=goodor"
     },
     {
         "text": "GoogleDrive RAT (GoogleDrive RAT)",
-        "url": "threat-library-detail.html?data=googledrive_rat"
+        "url": "threat-library-detail?data=googledrive_rat"
     },
     {
         "text": "Goopy (Goopy)",
-        "url": "threat-library-detail.html?data=goopy"
+        "url": "threat-library-detail?data=goopy"
     },
     {
         "text": "Gootkit (Gootkit, Gootloader, Xswkit, talalpek, Waldek)",
-        "url": "threat-library-detail.html?data=gootkit"
+        "url": "threat-library-detail?data=gootkit"
     },
     {
         "text": "Gophe (Gophe)",
-        "url": "threat-library-detail.html?data=gophe"
+        "url": "threat-library-detail?data=gophe"
     },
     {
         "text": "Gopuram (Gopuram)",
-        "url": "threat-library-detail.html?data=gopuram"
+        "url": "threat-library-detail?data=gopuram"
     },
     {
         "text": "Gorynych (Gorynych, Gorynch, Diamond Fox, DiamondFox, Crystal)",
-        "url": "threat-library-detail.html?data=gorynych"
+        "url": "threat-library-detail?data=gorynych"
     },
     {
         "text": "GO Simple Tunnel (GO Simple Tunnel, GOST)",
-        "url": "threat-library-detail.html?data=go_simple_tunnel"
+        "url": "threat-library-detail?data=go_simple_tunnel"
     },
     {
         "text": "GotoHTTP (GotoHTTP)",
-        "url": "threat-library-detail.html?data=gotohttp"
+        "url": "threat-library-detail?data=gotohttp"
     },
     {
         "text": "Gozi ISFB (Gozi ISFB, ISFB, Pandemyia)",
-        "url": "threat-library-detail.html?data=gozi_isfb"
+        "url": "threat-library-detail?data=gozi_isfb"
     },
     {
         "text": "Gozi v2 (Gozi v2, Gozi Prinimalka, Prinimalka-Gozi)",
-        "url": "threat-library-detail.html?data=gozi_v2"
+        "url": "threat-library-detail?data=gozi_v2"
     },
     {
         "text": "GozNym (GozNym)",
-        "url": "threat-library-detail.html?data=goznym"
+        "url": "threat-library-detail?data=goznym"
     },
     {
         "text": "gpresult (gpresult, Group Policy Results Tool)",
-        "url": "threat-library-detail.html?data=gpresult"
+        "url": "threat-library-detail?data=gpresult"
     },
     {
         "text": "GpUpdates.exe (GpUpdates.exe)",
-        "url": "threat-library-detail.html?data=gpupdates.exe"
+        "url": "threat-library-detail?data=gpupdates.exe"
     },
     {
         "text": "GraphicalNeutrino (GraphicalNeutrino)",
-        "url": "threat-library-detail.html?data=graphicalneutrino"
+        "url": "threat-library-detail?data=graphicalneutrino"
     },
     {
         "text": "GraphicalProton (GraphicalProton)",
-        "url": "threat-library-detail.html?data=graphicalproton"
+        "url": "threat-library-detail?data=graphicalproton"
     },
     {
         "text": "Graphican (Graphican)",
-        "url": "threat-library-detail.html?data=graphican"
+        "url": "threat-library-detail?data=graphican"
     },
     {
         "text": "Graphiron (Graphiron)",
-        "url": "threat-library-detail.html?data=graphiron"
+        "url": "threat-library-detail?data=graphiron"
     },
     {
         "text": "Graphite (Graphite)",
-        "url": "threat-library-detail.html?data=graphite"
+        "url": "threat-library-detail?data=graphite"
     },
     {
         "text": "Graphon (Graphon)",
-        "url": "threat-library-detail.html?data=graphon"
+        "url": "threat-library-detail?data=graphon"
     },
     {
         "text": "GraphSteel (GraphSteel, Elephant Client)",
-        "url": "threat-library-detail.html?data=graphsteel"
+        "url": "threat-library-detail?data=graphsteel"
     },
     {
         "text": "Grateful POS (Grateful POS, TRINITY)",
-        "url": "threat-library-detail.html?data=grateful_pos"
+        "url": "threat-library-detail?data=grateful_pos"
     },
     {
         "text": "GRAYFISH (GRAYFISH)",
-        "url": "threat-library-detail.html?data=grayfish"
+        "url": "threat-library-detail?data=grayfish"
     },
     {
         "text": "Gray Lambert (Gray Lambert)",
-        "url": "threat-library-detail.html?data=gray_lambert"
+        "url": "threat-library-detail?data=gray_lambert"
     },
     {
         "text": "Grease (Grease)",
-        "url": "threat-library-detail.html?data=grease"
+        "url": "threat-library-detail?data=grease"
     },
     {
         "text": "GREENCAT (GREENCAT)",
-        "url": "threat-library-detail.html?data=greencat"
+        "url": "threat-library-detail?data=greencat"
     },
     {
         "text": "GreenDispenser (GreenDispenser)",
-        "url": "threat-library-detail.html?data=greendispenser"
+        "url": "threat-library-detail?data=greendispenser"
     },
     {
         "text": "Green Lambert (Green Lambert)",
-        "url": "threat-library-detail.html?data=green_lambert"
+        "url": "threat-library-detail?data=green_lambert"
     },
     {
         "text": "GreezeBackdoor (GreezeBackdoor)",
-        "url": "threat-library-detail.html?data=greezebackdoor"
+        "url": "threat-library-detail?data=greezebackdoor"
     },
     {
         "text": "GreyEnergy (GreyEnergy)",
-        "url": "threat-library-detail.html?data=greyenergy"
+        "url": "threat-library-detail?data=greyenergy"
     },
     {
         "text": "Grief (Grief, Pay or Grief)",
-        "url": "threat-library-detail.html?data=grief"
+        "url": "threat-library-detail?data=grief"
     },
     {
         "text": "GRILLMARK (GRILLMARK, Hellsing Backdoor)",
-        "url": "threat-library-detail.html?data=grillmark"
+        "url": "threat-library-detail?data=grillmark"
     },
     {
         "text": "GrimPlant (GrimPlant, Elephant Implant)",
-        "url": "threat-library-detail.html?data=grimplant"
+        "url": "threat-library-detail?data=grimplant"
     },
     {
         "text": "GROK (GROK)",
-        "url": "threat-library-detail.html?data=grok"
+        "url": "threat-library-detail?data=grok"
     },
     {
         "text": "gsecdump (gsecdump)",
-        "url": "threat-library-detail.html?data=gsecdump"
+        "url": "threat-library-detail?data=gsecdump"
     },
     {
         "text": "GuLoader (GuLoader, vbdropper, CloudEyE)",
-        "url": "threat-library-detail.html?data=guloader"
+        "url": "threat-library-detail?data=guloader"
     },
     {
         "text": "GUNTERS (GUNTERS)",
-        "url": "threat-library-detail.html?data=gunters"
+        "url": "threat-library-detail?data=gunters"
     },
     {
         "text": "GUP Proxy Tool (GUP Proxy Tool)",
-        "url": "threat-library-detail.html?data=gup_proxy_tool"
+        "url": "threat-library-detail?data=gup_proxy_tool"
     },
     {
         "text": "H1N1 Loader (H1N1 Loader, H1N1)",
-        "url": "threat-library-detail.html?data=h1n1_loader"
+        "url": "threat-library-detail?data=h1n1_loader"
     },
     {
         "text": "HackBrowserData (HackBrowserData)",
-        "url": "threat-library-detail.html?data=hackbrowserdata"
+        "url": "threat-library-detail?data=hackbrowserdata"
     },
     {
         "text": "Hackfase (Hackfase, Hacksfase)",
-        "url": "threat-library-detail.html?data=hackfase"
+        "url": "threat-library-detail?data=hackfase"
     },
     {
         "text": "Hades (Hades)",
-        "url": "threat-library-detail.html?data=hades"
+        "url": "threat-library-detail?data=hades"
     },
     {
         "text": "HALFBAKED (HALFBAKED, VB Flash)",
-        "url": "threat-library-detail.html?data=halfbaked"
+        "url": "threat-library-detail?data=halfbaked"
     },
     {
         "text": "HALFSHELL (HALFSHELL)",
-        "url": "threat-library-detail.html?data=halfshell"
+        "url": "threat-library-detail?data=halfshell"
     },
     {
         "text": "HammerDuke (HammerDuke, HAMMERTOSS, NetDuke, tDiscoverer)",
-        "url": "threat-library-detail.html?data=hammerduke"
+        "url": "threat-library-detail?data=hammerduke"
     },
     {
         "text": "Hannotog (Hannotog)",
-        "url": "threat-library-detail.html?data=hannotog"
+        "url": "threat-library-detail?data=hannotog"
     },
     {
         "text": "HAPPYWORK (HAPPYWORK)",
-        "url": "threat-library-detail.html?data=happywork"
+        "url": "threat-library-detail?data=happywork"
     },
     {
         "text": "HARDRAIN (HARDRAIN)",
-        "url": "threat-library-detail.html?data=hardrain"
+        "url": "threat-library-detail?data=hardrain"
     },
     {
         "text": "Harpoon (Harpoon, Garpun)",
-        "url": "threat-library-detail.html?data=harpoon"
+        "url": "threat-library-detail?data=harpoon"
     },
     {
         "text": "Havex RAT (Havex RAT, Havex, Oldrea, Backdoor.Oldrea, Fertger, PEACEPIPE)",
-        "url": "threat-library-detail.html?data=havex_rat"
+        "url": "threat-library-detail?data=havex_rat"
     },
     {
         "text": "Havij (Havij)",
-        "url": "threat-library-detail.html?data=havij"
+        "url": "threat-library-detail?data=havij"
     },
     {
         "text": "Hawup (Hawup, Hawup RAT)",
-        "url": "threat-library-detail.html?data=hawup"
+        "url": "threat-library-detail?data=hawup"
     },
     {
         "text": "hcdLoader (hcdLoader)",
-        "url": "threat-library-detail.html?data=hcdloader"
+        "url": "threat-library-detail?data=hcdloader"
     },
     {
         "text": "HDoor (HDoor, Custom HDoor)",
-        "url": "threat-library-detail.html?data=hdoor"
+        "url": "threat-library-detail?data=hdoor"
     },
     {
         "text": "HDRoot (HDRoot, HDD Rootkit)",
-        "url": "threat-library-detail.html?data=hdroot"
+        "url": "threat-library-detail?data=hdroot"
     },
     {
         "text": "Helauto (Helauto)",
-        "url": "threat-library-detail.html?data=helauto"
+        "url": "threat-library-detail?data=helauto"
     },
     {
         "text": "Hello EK (Hello EK, LightsOut 2.0)",
-        "url": "threat-library-detail.html?data=hello_ek"
+        "url": "threat-library-detail?data=hello_ek"
     },
     {
         "text": "HELLOKITTY (HELLOKITTY, HelloKitty, KittyCrypt)",
-        "url": "threat-library-detail.html?data=hellokitty"
+        "url": "threat-library-detail?data=hellokitty"
     },
     {
         "text": "Helminth (Helminth)",
-        "url": "threat-library-detail.html?data=helminth"
+        "url": "threat-library-detail?data=helminth"
     },
     {
         "text": "HenBox (HenBox)",
-        "url": "threat-library-detail.html?data=henbox"
+        "url": "threat-library-detail?data=henbox"
     },
     {
         "text": "Heriplor (Heriplor)",
-        "url": "threat-library-detail.html?data=heriplor"
+        "url": "threat-library-detail?data=heriplor"
     },
     {
         "text": "Hermes (Hermes)",
-        "url": "threat-library-detail.html?data=hermes"
+        "url": "threat-library-detail?data=hermes"
     },
     {
         "text": "HermeticRansom (HermeticRansom, PartyTicket, Elections GoRansom, SonicVote)",
-        "url": "threat-library-detail.html?data=hermeticransom"
+        "url": "threat-library-detail?data=hermeticransom"
     },
     {
         "text": "HermeticWizard (HermeticWizard)",
-        "url": "threat-library-detail.html?data=hermeticwizard"
+        "url": "threat-library-detail?data=hermeticwizard"
     },
     {
         "text": "HesperBot (HesperBot)",
-        "url": "threat-library-detail.html?data=hesperbot"
+        "url": "threat-library-detail?data=hesperbot"
     },
     {
         "text": "HiddenLotus (HiddenLotus)",
-        "url": "threat-library-detail.html?data=hiddenlotus"
+        "url": "threat-library-detail?data=hiddenlotus"
     },
     {
         "text": "HIDEDRV (HIDEDRV)",
-        "url": "threat-library-detail.html?data=hidedrv"
+        "url": "threat-library-detail?data=hidedrv"
     },
     {
         "text": "HighNoon (HighNoon)",
-        "url": "threat-library-detail.html?data=highnoon"
+        "url": "threat-library-detail?data=highnoon"
     },
     {
         "text": "HighNote (HighNote, ChyNode)",
-        "url": "threat-library-detail.html?data=highnote"
+        "url": "threat-library-detail?data=highnote"
     },
     {
         "text": "HiKit (HiKit)",
-        "url": "threat-library-detail.html?data=hikit"
+        "url": "threat-library-detail?data=hikit"
     },
     {
         "text": "Hisoka (Hisoka)",
-        "url": "threat-library-detail.html?data=hisoka"
+        "url": "threat-library-detail?data=hisoka"
     },
     {
         "text": "HKDOOR (HKDOOR)",
-        "url": "threat-library-detail.html?data=hkdoor"
+        "url": "threat-library-detail?data=hkdoor"
     },
     {
         "text": "Hodur (Hodur)",
-        "url": "threat-library-detail.html?data=hodur"
+        "url": "threat-library-detail?data=hodur"
     },
     {
         "text": "HomamDownloader (HomamDownloader)",
-        "url": "threat-library-detail.html?data=homamdownloader"
+        "url": "threat-library-detail?data=homamdownloader"
     },
     {
         "text": "HOMEFRY (HOMEFRY)",
-        "url": "threat-library-detail.html?data=homefry"
+        "url": "threat-library-detail?data=homefry"
     },
     {
         "text": "HOOKSHOT (HOOKSHOT)",
-        "url": "threat-library-detail.html?data=hookshot"
+        "url": "threat-library-detail?data=hookshot"
     },
     {
         "text": "HOPLIGHT (HOPLIGHT, HANGMAN)",
-        "url": "threat-library-detail.html?data=hoplight"
+        "url": "threat-library-detail?data=hoplight"
     },
     {
         "text": "HopperTick (HopperTick)",
-        "url": "threat-library-detail.html?data=hoppertick"
+        "url": "threat-library-detail?data=hoppertick"
     },
     {
         "text": "Hornbill (Hornbill)",
-        "url": "threat-library-detail.html?data=hornbill"
+        "url": "threat-library-detail?data=hornbill"
     },
     {
         "text": "HOTCROISSANT (HOTCROISSANT, HotCroissant)",
-        "url": "threat-library-detail.html?data=hotcroissant"
+        "url": "threat-library-detail?data=hotcroissant"
     },
     {
         "text": "HotelAlfa (HotelAlfa)",
-        "url": "threat-library-detail.html?data=hotelalfa"
+        "url": "threat-library-detail?data=hotelalfa"
     },
     {
         "text": "HOTLANE (HOTLANE)",
-        "url": "threat-library-detail.html?data=hotlane"
+        "url": "threat-library-detail?data=hotlane"
     },
     {
         "text": "Hotwax (Hotwax, HOTWAX)",
-        "url": "threat-library-detail.html?data=hotwax"
+        "url": "threat-library-detail?data=hotwax"
     },
     {
         "text": "HtDnDownLoader (HtDnDownLoader)",
-        "url": "threat-library-detail.html?data=htdndownloader"
+        "url": "threat-library-detail?data=htdndownloader"
     },
     {
         "text": "HTML5 Encoding (HTML5 Encoding)",
-        "url": "threat-library-detail.html?data=html5_encoding"
+        "url": "threat-library-detail?data=html5_encoding"
     },
     {
         "text": "HTran (HTran, HUC Packet Transmit Tool)",
-        "url": "threat-library-detail.html?data=htran"
+        "url": "threat-library-detail?data=htran"
     },
     {
         "text": "HTTPBrowser (HTTPBrowser, HttpBrowser RAT, HttpDump, TokenControl, Token Control)",
-        "url": "threat-library-detail.html?data=httpbrowser"
+        "url": "threat-library-detail?data=httpbrowser"
     },
     {
         "text": "httpclient (httpclient)",
-        "url": "threat-library-detail.html?data=httpclient"
+        "url": "threat-library-detail?data=httpclient"
     },
     {
         "text": "Http Dr0pper (Http Dr0pper, httpdr0pper, httpdropper)",
-        "url": "threat-library-detail.html?data=http_dr0pper"
+        "url": "threat-library-detail?data=http_dr0pper"
     },
     {
         "text": "HTTP Troy (HTTP Troy, http_troy)",
-        "url": "threat-library-detail.html?data=http_troy"
+        "url": "threat-library-detail?data=http_troy"
     },
     {
         "text": "HTTPTunnel (HTTPTunnel)",
-        "url": "threat-library-detail.html?data=httptunnel"
+        "url": "threat-library-detail?data=httptunnel"
     },
     {
         "text": "HUC Port Banner Scanner (HUC Port Banner Scanner)",
-        "url": "threat-library-detail.html?data=huc_port_banner_scanner"
+        "url": "threat-library-detail?data=huc_port_banner_scanner"
     },
     {
         "text": "HUI Loader (HUI Loader)",
-        "url": "threat-library-detail.html?data=hui_loader"
+        "url": "threat-library-detail?data=hui_loader"
     },
     {
         "text": "HummingBad (HummingBad)",
-        "url": "threat-library-detail.html?data=hummingbad"
+        "url": "threat-library-detail?data=hummingbad"
     },
     {
         "text": "HummingWhale (HummingWhale)",
-        "url": "threat-library-detail.html?data=hummingwhale"
+        "url": "threat-library-detail?data=hummingwhale"
     },
     {
         "text": "Hunter (Hunter)",
-        "url": "threat-library-detail.html?data=hunter"
+        "url": "threat-library-detail?data=hunter"
     },
     {
         "text": "Hupigon (Hupigon, Hupigon RAT, BKDR_HUPIGON, MFC Huner)",
-        "url": "threat-library-detail.html?data=hupigon"
+        "url": "threat-library-detail?data=hupigon"
     },
     {
         "text": "Hurix (Hurix)",
-        "url": "threat-library-detail.html?data=hurix"
+        "url": "threat-library-detail?data=hurix"
     },
     {
         "text": "Hussar (Hussar)",
-        "url": "threat-library-detail.html?data=hussar"
+        "url": "threat-library-detail?data=hussar"
     },
     {
         "text": "H-Worm (H-Worm, H-Worm RAT, Houdini RAT, Houdini, Hworm, Njw0rm, Iniduoh, Jenxcus, Kognito, WSHRAT, dinihou, dunihi)",
-        "url": "threat-library-detail.html?data=h-worm"
+        "url": "threat-library-detail?data=h-worm"
     },
     {
         "text": "HYPERSCRAPE (HYPERSCRAPE)",
-        "url": "threat-library-detail.html?data=hyperscrape"
+        "url": "threat-library-detail?data=hyperscrape"
     },
     {
         "text": "HyperStack (HyperStack, GoldenSky, SilentMoon, Turla SilentMoon, BigBoss, Cacao)",
-        "url": "threat-library-detail.html?data=hyperstack"
+        "url": "threat-library-detail?data=hyperstack"
     },
     {
         "text": "IAP (IAP)",
-        "url": "threat-library-detail.html?data=iap"
+        "url": "threat-library-detail?data=iap"
     },
     {
         "text": "IceCube (IceCube)",
-        "url": "threat-library-detail.html?data=icecube"
+        "url": "threat-library-detail?data=icecube"
     },
     {
         "text": "IcedCoffee (IcedCoffee)",
-        "url": "threat-library-detail.html?data=icedcoffee"
+        "url": "threat-library-detail?data=icedcoffee"
     },
     {
         "text": "Icefog (Icefog, Fucobha)",
-        "url": "threat-library-detail.html?data=icefog"
+        "url": "threat-library-detail?data=icefog"
     },
     {
         "text": "Ice IX (Ice IX)",
-        "url": "threat-library-detail.html?data=ice_ix"
+        "url": "threat-library-detail?data=ice_ix"
     },
     {
         "text": "IconDown (IconDown)",
-        "url": "threat-library-detail.html?data=icondown"
+        "url": "threat-library-detail?data=icondown"
     },
     {
         "text": "ICONICSTEALER (ICONICSTEALER)",
-        "url": "threat-library-detail.html?data=iconicstealer"
+        "url": "threat-library-detail?data=iconicstealer"
     },
     {
         "text": "IE PassView (IE PassView)",
-        "url": "threat-library-detail.html?data=ie_passview"
+        "url": "threat-library-detail?data=ie_passview"
     },
     {
         "text": "IGT supertool (IGT supertool, Information Gathering Tool)",
-        "url": "threat-library-detail.html?data=igt_supertool"
+        "url": "threat-library-detail?data=igt_supertool"
     },
     {
         "text": "IHEATE (IHEATE)",
-        "url": "threat-library-detail.html?data=iheate"
+        "url": "threat-library-detail?data=iheate"
     },
     {
         "text": "Imecab (Imecab)",
-        "url": "threat-library-detail.html?data=imecab"
+        "url": "threat-library-detail?data=imecab"
     },
     {
         "text": "Impacket (Impacket)",
-        "url": "threat-library-detail.html?data=impacket"
+        "url": "threat-library-detail?data=impacket"
     },
     {
         "text": "Inception (Inception)",
-        "url": "threat-library-detail.html?data=inception"
+        "url": "threat-library-detail?data=inception"
     },
     {
         "text": "Industrial Spy (Industrial Spy)",
-        "url": "threat-library-detail.html?data=industrial_spy"
+        "url": "threat-library-detail?data=industrial_spy"
     },
     {
         "text": "Industroyer (Industroyer, Crash, CrashOverride, CRASHOVERRIDE, Win32/Industroyer)",
-        "url": "threat-library-detail.html?data=industroyer"
+        "url": "threat-library-detail?data=industroyer"
     },
     {
         "text": "Industroyer2 (Industroyer2)",
-        "url": "threat-library-detail.html?data=industroyer2"
+        "url": "threat-library-detail?data=industroyer2"
     },
     {
         "text": "Infostealer (Infostealer, stereoversioncontrol)",
-        "url": "threat-library-detail.html?data=infostealer"
+        "url": "threat-library-detail?data=infostealer"
     },
     {
         "text": "Inveigh (Inveigh)",
-        "url": "threat-library-detail.html?data=inveigh"
+        "url": "threat-library-detail?data=inveigh"
     },
     {
         "text": "InvisiMole (InvisiMole)",
-        "url": "threat-library-detail.html?data=invisimole"
+        "url": "threat-library-detail?data=invisimole"
     },
     {
         "text": "Invoke-Ngrok (Invoke-Ngrok)",
-        "url": "threat-library-detail.html?data=invoke-ngrok"
+        "url": "threat-library-detail?data=invoke-ngrok"
     },
     {
         "text": "Invoke-SMBAutoBrute (Invoke-SMBAutoBrute)",
-        "url": "threat-library-detail.html?data=invoke-smbautobrute"
+        "url": "threat-library-detail?data=invoke-smbautobrute"
     },
     {
         "text": "Invoke the Hash (Invoke the Hash)",
-        "url": "threat-library-detail.html?data=invoke_the_hash"
+        "url": "threat-library-detail?data=invoke_the_hash"
     },
     {
         "text": "IPsec Helper (IPsec Helper)",
-        "url": "threat-library-detail.html?data=ipsec_helper"
+        "url": "threat-library-detail?data=ipsec_helper"
     },
     {
         "text": "IRAFAU (IRAFAU)",
-        "url": "threat-library-detail.html?data=irafau"
+        "url": "threat-library-detail?data=irafau"
     },
     {
         "text": "IRONHALO (IRONHALO)",
-        "url": "threat-library-detail.html?data=ironhalo"
+        "url": "threat-library-detail?data=ironhalo"
     },
     {
         "text": "IronNetInjector (IronNetInjector)",
-        "url": "threat-library-detail.html?data=ironnetinjector"
+        "url": "threat-library-detail?data=ironnetinjector"
     },
     {
         "text": "IronPython (IronPython)",
-        "url": "threat-library-detail.html?data=ironpython"
+        "url": "threat-library-detail?data=ironpython"
     },
     {
         "text": "IRONSQUIRREL (IRONSQUIRREL)",
-        "url": "threat-library-detail.html?data=ironsquirrel"
+        "url": "threat-library-detail?data=ironsquirrel"
     },
     {
         "text": "ISMAgent (ISMAgent)",
-        "url": "threat-library-detail.html?data=ismagent"
+        "url": "threat-library-detail?data=ismagent"
     },
     {
         "text": "ISMDoor (ISMDoor)",
-        "url": "threat-library-detail.html?data=ismdoor"
+        "url": "threat-library-detail?data=ismdoor"
     },
     {
         "text": "ISMInjector (ISMInjector, Agent Injector)",
-        "url": "threat-library-detail.html?data=isminjector"
+        "url": "threat-library-detail?data=isminjector"
     },
     {
         "text": "IsSpace (IsSpace, NfLog RAT)",
-        "url": "threat-library-detail.html?data=isspace"
+        "url": "threat-library-detail?data=isspace"
     },
     {
         "text": "Ivoke (Ivoke)",
-        "url": "threat-library-detail.html?data=ivoke"
+        "url": "threat-library-detail?data=ivoke"
     },
     {
         "text": "IXESHE (IXESHE)",
-        "url": "threat-library-detail.html?data=ixeshe"
+        "url": "threat-library-detail?data=ixeshe"
     },
     {
         "text": "JackalControl (JackalControl)",
-        "url": "threat-library-detail.html?data=jackalcontrol"
+        "url": "threat-library-detail?data=jackalcontrol"
     },
     {
         "text": "JackalPerInfo (JackalPerInfo)",
-        "url": "threat-library-detail.html?data=jackalperinfo"
+        "url": "threat-library-detail?data=jackalperinfo"
     },
     {
         "text": "JackalScreenWatcher (JackalScreenWatcher)",
-        "url": "threat-library-detail.html?data=jackalscreenwatcher"
+        "url": "threat-library-detail?data=jackalscreenwatcher"
     },
     {
         "text": "JackalSteal (JackalSteal)",
-        "url": "threat-library-detail.html?data=jackalsteal"
+        "url": "threat-library-detail?data=jackalsteal"
     },
     {
         "text": "JackalWorm (JackalWorm)",
-        "url": "threat-library-detail.html?data=jackalworm"
+        "url": "threat-library-detail?data=jackalworm"
     },
     {
         "text": "JackOfHearts (JackOfHearts, SLOTHFULMEDIA)",
-        "url": "threat-library-detail.html?data=jackofhearts"
+        "url": "threat-library-detail?data=jackofhearts"
     },
     {
         "text": "JackPOS (JackPOS)",
-        "url": "threat-library-detail.html?data=jackpos"
+        "url": "threat-library-detail?data=jackpos"
     },
     {
         "text": "JadeRAT (JadeRAT)",
-        "url": "threat-library-detail.html?data=jaderat"
+        "url": "threat-library-detail?data=jaderat"
     },
     {
         "text": "Jaff (Jaff, Rakhni)",
-        "url": "threat-library-detail.html?data=jaff"
+        "url": "threat-library-detail?data=jaff"
     },
     {
         "text": "Janicab (Janicab)",
-        "url": "threat-library-detail.html?data=janicab"
+        "url": "threat-library-detail?data=janicab"
     },
     {
         "text": "Jason (Jason)",
-        "url": "threat-library-detail.html?data=jason"
+        "url": "threat-library-detail?data=jason"
     },
     {
         "text": "Jasus (Jasus)",
-        "url": "threat-library-detail.html?data=jasus"
+        "url": "threat-library-detail?data=jasus"
     },
     {
         "text": "Javafog (Javafog)",
-        "url": "threat-library-detail.html?data=javafog"
+        "url": "threat-library-detail?data=javafog"
     },
     {
         "text": "JESTBOT (JESTBOT)",
-        "url": "threat-library-detail.html?data=jestbot"
+        "url": "threat-library-detail?data=jestbot"
     },
     {
         "text": "JhoneRAT (JhoneRAT)",
-        "url": "threat-library-detail.html?data=jhonerat"
+        "url": "threat-library-detail?data=jhonerat"
     },
     {
         "text": "JHUHUGIT (JHUHUGIT, Seduploader, JKEYSKW, Sednit, Downrage, GAMEFISH, carberplike, SofacyCarberp, Carberp, Trojan.Sofacy)",
-        "url": "threat-library-detail.html?data=jhuhugit"
+        "url": "threat-library-detail?data=jhuhugit"
     },
     {
         "text": "JLOGRAB (JLOGRAB)",
-        "url": "threat-library-detail.html?data=jlograb"
+        "url": "threat-library-detail?data=jlograb"
     },
     {
         "text": "JLORAT (JLORAT)",
-        "url": "threat-library-detail.html?data=jlorat"
+        "url": "threat-library-detail?data=jlorat"
     },
     {
         "text": "Joanap (Joanap, SierraJuliett-MikeOne, SierraJuliett-MikeTwo)",
-        "url": "threat-library-detail.html?data=joanap"
+        "url": "threat-library-detail?data=joanap"
     },
     {
         "text": "Jokra (Jokra, KillMBR, Dembr)",
-        "url": "threat-library-detail.html?data=jokra"
+        "url": "threat-library-detail?data=jokra"
     },
     {
         "text": "JpgRun (JpgRun, JpgRun Loader)",
-        "url": "threat-library-detail.html?data=jpgrun"
+        "url": "threat-library-detail?data=jpgrun"
     },
     {
         "text": "JPIN (JPIN)",
-        "url": "threat-library-detail.html?data=jpin"
+        "url": "threat-library-detail?data=jpin"
     },
     {
         "text": "JRat (JRat, Jacksbot)",
-        "url": "threat-library-detail.html?data=jrat"
+        "url": "threat-library-detail?data=jrat"
     },
     {
         "text": "JripBot (JripBot, Jiripbot)",
-        "url": "threat-library-detail.html?data=jripbot"
+        "url": "threat-library-detail?data=jripbot"
     },
     {
         "text": "JS Flash (JS Flash)",
-        "url": "threat-library-detail.html?data=js_flash"
+        "url": "threat-library-detail?data=js_flash"
     },
     {
         "text": "JsonCookies (JsonCookies)",
-        "url": "threat-library-detail.html?data=jsoncookies"
+        "url": "threat-library-detail?data=jsoncookies"
     },
     {
         "text": "jsp File browser (jsp File browser)",
-        "url": "threat-library-detail.html?data=jsp_file_browser"
+        "url": "threat-library-detail?data=jsp_file_browser"
     },
     {
         "text": "JSPRAT (JSPRAT)",
-        "url": "threat-library-detail.html?data=jsprat"
+        "url": "threat-library-detail?data=jsprat"
     },
     {
         "text": "JSPSPY (JSPSPY)",
-        "url": "threat-library-detail.html?data=jspspy"
+        "url": "threat-library-detail?data=jspspy"
     },
     {
         "text": "JuicyPotato (JuicyPotato)",
-        "url": "threat-library-detail.html?data=juicypotato"
+        "url": "threat-library-detail?data=juicypotato"
     },
     {
         "text": "Jumpall (Jumpall)",
-        "url": "threat-library-detail.html?data=jumpall"
+        "url": "threat-library-detail?data=jumpall"
     },
     {
         "text": "KAgent (KAgent)",
-        "url": "threat-library-detail.html?data=kagent"
+        "url": "threat-library-detail?data=kagent"
     },
     {
         "text": "KamiKakaBot (KamiKakaBot)",
-        "url": "threat-library-detail.html?data=kamikakabot"
+        "url": "threat-library-detail?data=kamikakabot"
     },
     {
         "text": "KARAE (KARAE)",
-        "url": "threat-library-detail.html?data=karae"
+        "url": "threat-library-detail?data=karae"
     },
     {
         "text": "Karagany (Karagany, Karagny, Trojan.Karagany, xFrost)",
-        "url": "threat-library-detail.html?data=karagany"
+        "url": "threat-library-detail?data=karagany"
     },
     {
         "text": "Karba (Karba, Trojan.Win32.Karba.e)",
-        "url": "threat-library-detail.html?data=karba"
+        "url": "threat-library-detail?data=karba"
     },
     {
         "text": "Karius (Karius)",
-        "url": "threat-library-detail.html?data=karius"
+        "url": "threat-library-detail?data=karius"
     },
     {
         "text": "Karkoff (Karkoff, MailDropper, DropperBackdoor, CACTUSPIPE)",
-        "url": "threat-library-detail.html?data=karkoff"
+        "url": "threat-library-detail?data=karkoff"
     },
     {
         "text": "KasperAgent (KasperAgent)",
-        "url": "threat-library-detail.html?data=kasperagent"
+        "url": "threat-library-detail?data=kasperagent"
     },
     {
         "text": "Kazuar (Kazuar)",
-        "url": "threat-library-detail.html?data=kazuar"
+        "url": "threat-library-detail?data=kazuar"
     },
     {
         "text": "KeeThief (KeeThief)",
-        "url": "threat-library-detail.html?data=keethief"
+        "url": "threat-library-detail?data=keethief"
     },
     {
         "text": "Kegotip (Kegotip)",
-        "url": "threat-library-detail.html?data=kegotip"
+        "url": "threat-library-detail?data=kegotip"
     },
     {
         "text": "Kelihos (Kelihos, Waledac, Hlux)",
-        "url": "threat-library-detail.html?data=kelihos"
+        "url": "threat-library-detail?data=kelihos"
     },
     {
         "text": "Kerberoast (Kerberoast)",
-        "url": "threat-library-detail.html?data=kerberoast"
+        "url": "threat-library-detail?data=kerberoast"
     },
     {
         "text": "Kerberods (Kerberods)",
-        "url": "threat-library-detail.html?data=kerberods"
+        "url": "threat-library-detail?data=kerberods"
     },
     {
         "text": "KerrDown (KerrDown)",
-        "url": "threat-library-detail.html?data=kerrdown"
+        "url": "threat-library-detail?data=kerrdown"
     },
     {
         "text": "Ketrican (Ketrican)",
-        "url": "threat-library-detail.html?data=ketrican"
+        "url": "threat-library-detail?data=ketrican"
     },
     {
         "text": "Ketrum (Ketrum)",
-        "url": "threat-library-detail.html?data=ketrum"
+        "url": "threat-library-detail?data=ketrum"
     },
     {
         "text": "KevDroid (KevDroid)",
-        "url": "threat-library-detail.html?data=kevdroid"
+        "url": "threat-library-detail?data=kevdroid"
     },
     {
         "text": "KeyBoy (KeyBoy, TSSL)",
-        "url": "threat-library-detail.html?data=keyboy"
+        "url": "threat-library-detail?data=keyboy"
     },
     {
         "text": "KEYMARBLE (KEYMARBLE)",
-        "url": "threat-library-detail.html?data=keymarble"
+        "url": "threat-library-detail?data=keymarble"
     },
     {
         "text": "KEYPLUG (KEYPLUG, ELFSHELF)",
-        "url": "threat-library-detail.html?data=keyplug"
+        "url": "threat-library-detail?data=keyplug"
     },
     {
         "text": "Keyrecord (Keyrecord)",
-        "url": "threat-library-detail.html?data=keyrecord"
+        "url": "threat-library-detail?data=keyrecord"
     },
     {
         "text": "KGH_SPY (KGH_SPY, KGH Spyware Suite)",
-        "url": "threat-library-detail.html?data=kgh_spy"
+        "url": "threat-library-detail?data=kgh_spy"
     },
     {
         "text": "KHRAT (KHRAT)",
-        "url": "threat-library-detail.html?data=khrat"
+        "url": "threat-library-detail?data=khrat"
     },
     {
         "text": "Kikothac (Kikothac)",
-        "url": "threat-library-detail.html?data=kikothac"
+        "url": "threat-library-detail?data=kikothac"
     },
     {
         "text": "KillDisk (KillDisk, Win32/KillDisk.NBI, Win32/KillDisk.NBH, Win32/KillDisk.NBD, Win32/KillDisk.NBC, Win32/KillDisk.NBB)",
-        "url": "threat-library-detail.html?data=killdisk"
+        "url": "threat-library-detail?data=killdisk"
     },
     {
         "text": "Killua (Killua)",
-        "url": "threat-library-detail.html?data=killua"
+        "url": "threat-library-detail?data=killua"
     },
     {
         "text": "KimJongRAT (KimJongRAT)",
-        "url": "threat-library-detail.html?data=kimjongrat"
+        "url": "threat-library-detail?data=kimjongrat"
     },
     {
         "text": "KingOfHearts (KingOfHearts)",
-        "url": "threat-library-detail.html?data=kingofhearts"
+        "url": "threat-library-detail?data=kingofhearts"
     },
     {
         "text": "KINS (KINS, Maple, Zeus.Maple, Kasper Internet Non-Security)",
-        "url": "threat-library-detail.html?data=kins"
+        "url": "threat-library-detail?data=kins"
     },
     {
         "text": "Kitkiot (Kitkiot)",
-        "url": "threat-library-detail.html?data=kitkiot"
+        "url": "threat-library-detail?data=kitkiot"
     },
     {
         "text": "KIVARS (KIVARS)",
-        "url": "threat-library-detail.html?data=kivars"
+        "url": "threat-library-detail?data=kivars"
     },
     {
         "text": "kl.ps1 (kl.ps1)",
-        "url": "threat-library-detail.html?data=kl.ps1"
+        "url": "threat-library-detail?data=kl.ps1"
     },
     {
         "text": "KLRD (KLRD)",
-        "url": "threat-library-detail.html?data=klrd"
+        "url": "threat-library-detail?data=klrd"
     },
     {
         "text": "Koadic (Koadic)",
-        "url": "threat-library-detail.html?data=koadic"
+        "url": "threat-library-detail?data=koadic"
     },
     {
         "text": "KOCTOPUS (KOCTOPUS)",
-        "url": "threat-library-detail.html?data=koctopus"
+        "url": "threat-library-detail?data=koctopus"
     },
     {
         "text": "Komplex (Komplex)",
-        "url": "threat-library-detail.html?data=komplex"
+        "url": "threat-library-detail?data=komplex"
     },
     {
         "text": "KOMPROGO (KOMPROGO, Splinter RAT)",
-        "url": "threat-library-detail.html?data=komprogo"
+        "url": "threat-library-detail?data=komprogo"
     },
     {
         "text": "KopiLuwak (KopiLuwak)",
-        "url": "threat-library-detail.html?data=kopiluwak"
+        "url": "threat-library-detail?data=kopiluwak"
     },
     {
         "text": "Koredos (Koredos)",
-        "url": "threat-library-detail.html?data=koredos"
+        "url": "threat-library-detail?data=koredos"
     },
     {
         "text": "Korkerds (Korkerds)",
-        "url": "threat-library-detail.html?data=korkerds"
+        "url": "threat-library-detail?data=korkerds"
     },
     {
         "text": "KPortScan (KPortScan)",
-        "url": "threat-library-detail.html?data=kportscan"
+        "url": "threat-library-detail?data=kportscan"
     },
     {
         "text": "KRBanker (KRBanker, Blackmoon)",
-        "url": "threat-library-detail.html?data=krbanker"
+        "url": "threat-library-detail?data=krbanker"
     },
     {
         "text": "KSL0T (KSL0T)",
-        "url": "threat-library-detail.html?data=ksl0t"
+        "url": "threat-library-detail?data=ksl0t"
     },
     {
         "text": "KsRemote (KsRemote)",
-        "url": "threat-library-detail.html?data=ksremote"
+        "url": "threat-library-detail?data=ksremote"
     },
     {
         "text": "Kurton (Kurton)",
-        "url": "threat-library-detail.html?data=kurton"
+        "url": "threat-library-detail?data=kurton"
     },
     {
         "text": "Kwampirs (Kwampirs)",
-        "url": "threat-library-detail.html?data=kwampirs"
+        "url": "threat-library-detail?data=kwampirs"
     },
     {
         "text": "LadonGo (LadonGo)",
-        "url": "threat-library-detail.html?data=ladongo"
+        "url": "threat-library-detail?data=ladongo"
     },
     {
         "text": "Lambert (Lambert, Plexor)",
-        "url": "threat-library-detail.html?data=lambert"
+        "url": "threat-library-detail?data=lambert"
     },
     {
         "text": "Lastacloud (Lastacloud)",
-        "url": "threat-library-detail.html?data=lastacloud"
+        "url": "threat-library-detail?data=lastacloud"
     },
     {
         "text": "LastConn (LastConn)",
-        "url": "threat-library-detail.html?data=lastconn"
+        "url": "threat-library-detail?data=lastconn"
     },
     {
         "text": "LATCHKEY (LATCHKEY)",
-        "url": "threat-library-detail.html?data=latchkey"
+        "url": "threat-library-detail?data=latchkey"
     },
     {
         "text": "LATELUNCH (LATELUNCH)",
-        "url": "threat-library-detail.html?data=latelunch"
+        "url": "threat-library-detail?data=latelunch"
     },
     {
         "text": "LaZagne (LaZagne)",
-        "url": "threat-library-detail.html?data=lazagne"
+        "url": "threat-library-detail?data=lazagne"
     },
     {
         "text": "Lazarus (Lazarus, HIDDEN COBRA RAT/Worm)",
-        "url": "threat-library-detail.html?data=lazarus"
+        "url": "threat-library-detail?data=lazarus"
     },
     {
         "text": "LazyCat (LazyCat)",
-        "url": "threat-library-detail.html?data=lazycat"
+        "url": "threat-library-detail?data=lazycat"
     },
     {
         "text": "lcx (lcx)",
-        "url": "threat-library-detail.html?data=lcx"
+        "url": "threat-library-detail?data=lcx"
     },
     {
         "text": "Leash (Leash)",
-        "url": "threat-library-detail.html?data=leash"
+        "url": "threat-library-detail?data=leash"
     },
     {
         "text": "LEMONSTICK (LEMONSTICK)",
-        "url": "threat-library-detail.html?data=lemonstick"
+        "url": "threat-library-detail?data=lemonstick"
     },
     {
         "text": "LEMPO (LEMPO)",
-        "url": "threat-library-detail.html?data=lempo"
+        "url": "threat-library-detail?data=lempo"
     },
     {
         "text": "Leo RAT (Leo RAT)",
-        "url": "threat-library-detail.html?data=leo_rat"
+        "url": "threat-library-detail?data=leo_rat"
     },
     {
         "text": "LEOUNCIA (LEOUNCIA, shoco)",
-        "url": "threat-library-detail.html?data=leouncia"
+        "url": "threat-library-detail?data=leouncia"
     },
     {
         "text": "Licat (Licat, Murofet)",
-        "url": "threat-library-detail.html?data=licat"
+        "url": "threat-library-detail?data=licat"
     },
     {
         "text": "liderc (liderc)",
-        "url": "threat-library-detail.html?data=liderc"
+        "url": "threat-library-detail?data=liderc"
     },
     {
         "text": "LIFEBOAT (LIFEBOAT)",
-        "url": "threat-library-detail.html?data=lifeboat"
+        "url": "threat-library-detail?data=lifeboat"
     },
     {
         "text": "LIGHTBOLT (LIGHTBOLT)",
-        "url": "threat-library-detail.html?data=lightbolt"
+        "url": "threat-library-detail?data=lightbolt"
     },
     {
         "text": "LightBot (LightBot)",
-        "url": "threat-library-detail.html?data=lightbot"
+        "url": "threat-library-detail?data=lightbot"
     },
     {
         "text": "LIGHTDART (LIGHTDART)",
-        "url": "threat-library-detail.html?data=lightdart"
+        "url": "threat-library-detail?data=lightdart"
     },
     {
         "text": "LightNeuron (LightNeuron, NETTRANS, XTRANS)",
-        "url": "threat-library-detail.html?data=lightneuron"
+        "url": "threat-library-detail?data=lightneuron"
     },
     {
         "text": "LIGHTSHIFT (LIGHTSHIFT)",
-        "url": "threat-library-detail.html?data=lightshift"
+        "url": "threat-library-detail?data=lightshift"
     },
     {
         "text": "LIGHTSHOW (LIGHTSHOW)",
-        "url": "threat-library-detail.html?data=lightshow"
+        "url": "threat-library-detail?data=lightshow"
     },
     {
         "text": "LightsOut EK (LightsOut EK)",
-        "url": "threat-library-detail.html?data=lightsout_ek"
+        "url": "threat-library-detail?data=lightsout_ek"
     },
     {
         "text": "lightSpy (lightSpy)",
-        "url": "threat-library-detail.html?data=lightspy"
+        "url": "threat-library-detail?data=lightspy"
     },
     {
         "text": "Lilith RAT (Lilith RAT, Lilith)",
-        "url": "threat-library-detail.html?data=lilith_rat"
+        "url": "threat-library-detail?data=lilith_rat"
     },
     {
         "text": "Limepad (Limepad)",
-        "url": "threat-library-detail.html?data=limepad"
+        "url": "threat-library-detail?data=limepad"
     },
     {
         "text": "Linfo (Linfo)",
-        "url": "threat-library-detail.html?data=linfo"
+        "url": "threat-library-detail?data=linfo"
     },
     {
         "text": "Listrix (Listrix)",
-        "url": "threat-library-detail.html?data=listrix"
+        "url": "threat-library-detail?data=listrix"
     },
     {
         "text": "LiteDuke (LiteDuke)",
-        "url": "threat-library-detail.html?data=liteduke"
+        "url": "threat-library-detail?data=liteduke"
     },
     {
         "text": "lite_more_eggs (lite_more_eggs)",
-        "url": "threat-library-detail.html?data=lite_more_eggs"
+        "url": "threat-library-detail?data=lite_more_eggs"
     },
     {
         "text": "Little Pig (Little Pig)",
-        "url": "threat-library-detail.html?data=little_pig"
+        "url": "threat-library-detail?data=little_pig"
     },
     {
         "text": "Living off the Land (Living off the Land, LOLBins, LOLBAS)",
-        "url": "threat-library-detail.html?data=living_off_the_land"
+        "url": "threat-library-detail?data=living_off_the_land"
     },
     {
         "text": "Lizar (Lizar, Tirion, DICELOADER)",
-        "url": "threat-library-detail.html?data=lizar"
+        "url": "threat-library-detail?data=lizar"
     },
     {
         "text": "LOADOUT (LOADOUT)",
-        "url": "threat-library-detail.html?data=loadout"
+        "url": "threat-library-detail?data=loadout"
     },
     {
         "text": "LockerGoga (LockerGoga)",
-        "url": "threat-library-detail.html?data=lockergoga"
+        "url": "threat-library-detail?data=lockergoga"
     },
     {
         "text": "LockFile (LockFile)",
-        "url": "threat-library-detail.html?data=lockfile"
+        "url": "threat-library-detail?data=lockfile"
     },
     {
         "text": "LockPOS (LockPOS)",
-        "url": "threat-library-detail.html?data=lockpos"
+        "url": "threat-library-detail?data=lockpos"
     },
     {
         "text": "LODEINFO (LODEINFO)",
-        "url": "threat-library-detail.html?data=lodeinfo"
+        "url": "threat-library-detail?data=lodeinfo"
     },
     {
         "text": "LOGBLEACH (LOGBLEACH)",
-        "url": "threat-library-detail.html?data=logbleach"
+        "url": "threat-library-detail?data=logbleach"
     },
     {
         "text": "Logger Module (Logger Module)",
-        "url": "threat-library-detail.html?data=logger_module"
+        "url": "threat-library-detail?data=logger_module"
     },
     {
         "text": "logon.dll (logon.dll)",
-        "url": "threat-library-detail.html?data=logon.dll"
+        "url": "threat-library-detail?data=logon.dll"
     },
     {
         "text": "LogPOS (LogPOS)",
-        "url": "threat-library-detail.html?data=logpos"
+        "url": "threat-library-detail?data=logpos"
     },
     {
         "text": "logsupport.dll (logsupport.dll)",
-        "url": "threat-library-detail.html?data=logsupport.dll"
+        "url": "threat-library-detail?data=logsupport.dll"
     },
     {
         "text": "LoJax (LoJax)",
-        "url": "threat-library-detail.html?data=lojax"
+        "url": "threat-library-detail?data=lojax"
     },
     {
         "text": "LONGRUN (LONGRUN)",
-        "url": "threat-library-detail.html?data=longrun"
+        "url": "threat-library-detail?data=longrun"
     },
     {
         "text": "LONGWATCH (LONGWATCH)",
-        "url": "threat-library-detail.html?data=longwatch"
+        "url": "threat-library-detail?data=longwatch"
     },
     {
         "text": "LOWBALL (LOWBALL)",
-        "url": "threat-library-detail.html?data=lowball"
+        "url": "threat-library-detail?data=lowball"
     },
     {
         "text": "Lowkey (Lowkey, PortReuse)",
-        "url": "threat-library-detail.html?data=lowkey"
+        "url": "threat-library-detail?data=lowkey"
     },
     {
         "text": "LSD (LSD)",
-        "url": "threat-library-detail.html?data=lsd"
+        "url": "threat-library-detail?data=lsd"
     },
     {
         "text": "Lslsass (Lslsass)",
-        "url": "threat-library-detail.html?data=lslsass"
+        "url": "threat-library-detail?data=lslsass"
     },
     {
         "text": "Lucky Cat (Lucky Cat, LuckyCat)",
-        "url": "threat-library-detail.html?data=lucky_cat"
+        "url": "threat-library-detail?data=lucky_cat"
     },
     {
         "text": "Luminosity RAT (Luminosity RAT, LuminosityLink)",
-        "url": "threat-library-detail.html?data=luminosity_rat"
+        "url": "threat-library-detail?data=luminosity_rat"
     },
     {
         "text": "LUNCHMONEY (LUNCHMONEY)",
-        "url": "threat-library-detail.html?data=lunchmoney"
+        "url": "threat-library-detail?data=lunchmoney"
     },
     {
         "text": "Lurk (Lurk)",
-        "url": "threat-library-detail.html?data=lurk"
+        "url": "threat-library-detail?data=lurk"
     },
     {
         "text": "LZ77 (LZ77)",
-        "url": "threat-library-detail.html?data=lz77"
+        "url": "threat-library-detail?data=lz77"
     },
     {
         "text": "Macaw Locker (Macaw Locker)",
-        "url": "threat-library-detail.html?data=macaw_locker"
+        "url": "threat-library-detail?data=macaw_locker"
     },
     {
         "text": "Madi (Madi)",
-        "url": "threat-library-detail.html?data=madi"
+        "url": "threat-library-detail?data=madi"
     },
     {
         "text": "Madness PRO DDoS (Madness PRO DDoS)",
-        "url": "threat-library-detail.html?data=madness_pro_ddos"
+        "url": "threat-library-detail?data=madness_pro_ddos"
     },
     {
         "text": "Magenta Lambert (Magenta Lambert)",
-        "url": "threat-library-detail.html?data=magenta_lambert"
+        "url": "threat-library-detail?data=magenta_lambert"
     },
     {
         "text": "MAGICDROP (MAGICDROP)",
-        "url": "threat-library-detail.html?data=magicdrop"
+        "url": "threat-library-detail?data=magicdrop"
     },
     {
         "text": "MagicRAT (MagicRAT)",
-        "url": "threat-library-detail.html?data=magicrat"
+        "url": "threat-library-detail?data=magicrat"
     },
     {
         "text": "MagicWeb (MagicWeb)",
-        "url": "threat-library-detail.html?data=magicweb"
+        "url": "threat-library-detail?data=magicweb"
     },
     {
         "text": "MailPassView (MailPassView)",
-        "url": "threat-library-detail.html?data=mailpassview"
+        "url": "threat-library-detail?data=mailpassview"
     },
     {
         "text": "MAILSLOT (MAILSLOT)",
-        "url": "threat-library-detail.html?data=mailslot"
+        "url": "threat-library-detail?data=mailslot"
     },
     {
         "text": "Maintools.js (Maintools.js)",
-        "url": "threat-library-detail.html?data=maintools.js"
+        "url": "threat-library-detail?data=maintools.js"
     },
     {
         "text": "MajikPOS (MajikPOS)",
-        "url": "threat-library-detail.html?data=majikpos"
+        "url": "threat-library-detail?data=majikpos"
     },
     {
         "text": "MalumPOS (MalumPOS)",
-        "url": "threat-library-detail.html?data=malumpos"
+        "url": "threat-library-detail?data=malumpos"
     },
     {
         "text": "ManItsMe (ManItsMe)",
-        "url": "threat-library-detail.html?data=manitsme"
+        "url": "threat-library-detail?data=manitsme"
     },
     {
         "text": "MAPIget (MAPIget)",
-        "url": "threat-library-detail.html?data=mapiget"
+        "url": "threat-library-detail?data=mapiget"
     },
     {
         "text": "Marcher (Marcher)",
-        "url": "threat-library-detail.html?data=marcher"
+        "url": "threat-library-detail?data=marcher"
     },
     {
         "text": "MargulasRAT (MargulasRAT)",
-        "url": "threat-library-detail.html?data=margulasrat"
+        "url": "threat-library-detail?data=margulasrat"
     },
     {
         "text": "MarkiRAT (MarkiRAT)",
-        "url": "threat-library-detail.html?data=markirat"
+        "url": "threat-library-detail?data=markirat"
     },
     {
         "text": "Marlin (Marlin)",
-        "url": "threat-library-detail.html?data=marlin"
+        "url": "threat-library-detail?data=marlin"
     },
     {
         "text": "MATA (MATA)",
-        "url": "threat-library-detail.html?data=mata"
+        "url": "threat-library-detail?data=mata"
     },
     {
         "text": "Matiex (Matiex)",
-        "url": "threat-library-detail.html?data=matiex"
+        "url": "threat-library-detail?data=matiex"
     },
     {
         "text": "Matrix Banker (Matrix Banker, RediModiUpd)",
-        "url": "threat-library-detail.html?data=matrix_banker"
+        "url": "threat-library-detail?data=matrix_banker"
     },
     {
         "text": "Matryoshka RAT (Matryoshka RAT, Matryoshka)",
-        "url": "threat-library-detail.html?data=matryoshka_rat"
+        "url": "threat-library-detail?data=matryoshka_rat"
     },
     {
         "text": "Maxtrilha (Maxtrilha)",
-        "url": "threat-library-detail.html?data=maxtrilha"
+        "url": "threat-library-detail?data=maxtrilha"
     },
     {
         "text": "Maze (Maze, ChaCha)",
-        "url": "threat-library-detail.html?data=maze"
+        "url": "threat-library-detail?data=maze"
     },
     {
         "text": "MBR Eraser (MBR Eraser)",
-        "url": "threat-library-detail.html?data=mbr_eraser"
+        "url": "threat-library-detail?data=mbr_eraser"
     },
     {
         "text": "MBS BTC Stealer (MBS BTC Stealer)",
-        "url": "threat-library-detail.html?data=mbs_btc_stealer"
+        "url": "threat-library-detail?data=mbs_btc_stealer"
     },
     {
         "text": "Md_client (Md_client)",
-        "url": "threat-library-detail.html?data=md_client"
+        "url": "threat-library-detail?data=md_client"
     },
     {
         "text": "MechaFlounder (MechaFlounder)",
-        "url": "threat-library-detail.html?data=mechaflounder"
+        "url": "threat-library-detail?data=mechaflounder"
     },
     {
         "text": "Mechanical (Mechanical, GoldStamp)",
-        "url": "threat-library-detail.html?data=mechanical"
+        "url": "threat-library-detail?data=mechanical"
     },
     {
         "text": "meek (meek)",
-        "url": "threat-library-detail.html?data=meek"
+        "url": "threat-library-detail?data=meek"
     },
     {
         "text": "MegaCreep (MegaCreep)",
-        "url": "threat-library-detail.html?data=megacreep"
+        "url": "threat-library-detail?data=megacreep"
     },
     {
         "text": "MEGAsync (MEGAsync)",
-        "url": "threat-library-detail.html?data=megasync"
+        "url": "threat-library-detail?data=megasync"
     },
     {
         "text": "Merdoor (Merdoor)",
-        "url": "threat-library-detail.html?data=merdoor"
+        "url": "threat-library-detail?data=merdoor"
     },
     {
         "text": "MessageTap (MessageTap)",
-        "url": "threat-library-detail.html?data=messagetap"
+        "url": "threat-library-detail?data=messagetap"
     },
     {
         "text": "METALJACK (METALJACK, denesRAT)",
-        "url": "threat-library-detail.html?data=metaljack"
+        "url": "threat-library-detail?data=metaljack"
     },
     {
         "text": "Metasploit (Metasploit)",
-        "url": "threat-library-detail.html?data=metasploit"
+        "url": "threat-library-detail?data=metasploit"
     },
     {
         "text": "Metasploit Stager (Metasploit Stager)",
-        "url": "threat-library-detail.html?data=metasploit_stager"
+        "url": "threat-library-detail?data=metasploit_stager"
     },
     {
         "text": "Metel (Metel)",
-        "url": "threat-library-detail.html?data=metel"
+        "url": "threat-library-detail?data=metel"
     },
     {
         "text": "MFC Keyloggers (MFC Keyloggers)",
-        "url": "threat-library-detail.html?data=mfc_keyloggers"
+        "url": "threat-library-detail?data=mfc_keyloggers"
     },
     {
         "text": "MgBot (MgBot, BLame, Mgmbot)",
-        "url": "threat-library-detail.html?data=mgbot"
+        "url": "threat-library-detail?data=mgbot"
     },
     {
         "text": "MiamiBeach (MiamiBeach)",
-        "url": "threat-library-detail.html?data=miamibeach"
+        "url": "threat-library-detail?data=miamibeach"
     },
     {
         "text": "Microolap Packet Sniffer (Microolap Packet Sniffer, TCPDUMP for Windows)",
-        "url": "threat-library-detail.html?data=microolap_packet_sniffer"
+        "url": "threat-library-detail?data=microolap_packet_sniffer"
     },
     {
         "text": "Microcin (Microcin, Mikroceen)",
-        "url": "threat-library-detail.html?data=microcin"
+        "url": "threat-library-detail?data=microcin"
     },
     {
         "text": "MIGLOGCLEANER (MIGLOGCLEANER)",
-        "url": "threat-library-detail.html?data=miglogcleaner"
+        "url": "threat-library-detail?data=miglogcleaner"
     },
     {
         "text": "Milan (Milan, James)",
-        "url": "threat-library-detail.html?data=milan"
+        "url": "threat-library-detail?data=milan"
     },
     {
         "text": "MILKDROP (MILKDROP)",
-        "url": "threat-library-detail.html?data=milkdrop"
+        "url": "threat-library-detail?data=milkdrop"
     },
     {
         "text": "Milkmaid (Milkmaid)",
-        "url": "threat-library-detail.html?data=milkmaid"
+        "url": "threat-library-detail?data=milkmaid"
     },
     {
         "text": "Milum (Milum)",
-        "url": "threat-library-detail.html?data=milum"
+        "url": "threat-library-detail?data=milum"
     },
     {
         "text": "MINEBRIDGE (MINEBRIDGE, MINEBRIDGE RAT, GazGolder)",
-        "url": "threat-library-detail.html?data=minebridge"
+        "url": "threat-library-detail?data=minebridge"
     },
     {
         "text": "MINEDOOR (MINEDOOR)",
-        "url": "threat-library-detail.html?data=minedoor"
+        "url": "threat-library-detail?data=minedoor"
     },
     {
         "text": "MiniASP (MiniASP)",
-        "url": "threat-library-detail.html?data=miniasp"
+        "url": "threat-library-detail?data=miniasp"
     },
     {
         "text": "MiniDuke (MiniDuke)",
-        "url": "threat-library-detail.html?data=miniduke"
+        "url": "threat-library-detail?data=miniduke"
     },
     {
         "text": "MiniWebCmdShell (MiniWebCmdShell)",
-        "url": "threat-library-detail.html?data=miniwebcmdshell"
+        "url": "threat-library-detail?data=miniwebcmdshell"
     },
     {
         "text": "Minzen (Minzen, XXMM, Wali, ShadowWali, ShadowWalker)",
-        "url": "threat-library-detail.html?data=minzen"
+        "url": "threat-library-detail?data=minzen"
     },
     {
         "text": "MirageFox (MirageFox)",
-        "url": "threat-library-detail.html?data=miragefox"
+        "url": "threat-library-detail?data=miragefox"
     },
     {
         "text": "MirrorStealer (MirrorStealer)",
-        "url": "threat-library-detail.html?data=mirrorstealer"
+        "url": "threat-library-detail?data=mirrorstealer"
     },
     {
         "text": "Misdat (Misdat)",
-        "url": "threat-library-detail.html?data=misdat"
+        "url": "threat-library-detail?data=misdat"
     },
     {
         "text": "MISTCLOAK (MISTCLOAK)",
-        "url": "threat-library-detail.html?data=mistcloak"
+        "url": "threat-library-detail?data=mistcloak"
     },
     {
         "text": "MiS-Type (MiS-Type)",
-        "url": "threat-library-detail.html?data=mis-type"
+        "url": "threat-library-detail?data=mis-type"
     },
     {
         "text": "Mivast (Mivast)",
-        "url": "threat-library-detail.html?data=mivast"
+        "url": "threat-library-detail?data=mivast"
     },
     {
         "text": "MIXLABEL (MIXLABEL)",
-        "url": "threat-library-detail.html?data=mixlabel"
+        "url": "threat-library-detail?data=mixlabel"
     },
     {
         "text": "MKL Pro Keylogger (MKL Pro Keylogger)",
-        "url": "threat-library-detail.html?data=mkl_pro_keylogger"
+        "url": "threat-library-detail?data=mkl_pro_keylogger"
     },
     {
         "text": "MMRat (MMRat)",
-        "url": "threat-library-detail.html?data=mmrat"
+        "url": "threat-library-detail?data=mmrat"
     },
     {
         "text": "Mobzsar (Mobzsar)",
-        "url": "threat-library-detail.html?data=mobzsar"
+        "url": "threat-library-detail?data=mobzsar"
     },
     {
         "text": "MobileOrder (MobileOrder)",
-        "url": "threat-library-detail.html?data=mobileorder"
+        "url": "threat-library-detail?data=mobileorder"
     },
     {
         "text": "ModPipe (ModPipe)",
-        "url": "threat-library-detail.html?data=modpipe"
+        "url": "threat-library-detail?data=modpipe"
     },
     {
         "text": "ModPOS (ModPOS, straxbot)",
-        "url": "threat-library-detail.html?data=modpos"
+        "url": "threat-library-detail?data=modpos"
     },
     {
         "text": "MoleNet (MoleNet)",
-        "url": "threat-library-detail.html?data=molenet"
+        "url": "threat-library-detail?data=molenet"
     },
     {
         "text": "Molerat Loader (Molerat Loader)",
-        "url": "threat-library-detail.html?data=molerat_loader"
+        "url": "threat-library-detail?data=molerat_loader"
     },
     {
         "text": "Moneybird (Moneybird)",
-        "url": "threat-library-detail.html?data=moneybird"
+        "url": "threat-library-detail?data=moneybird"
     },
     {
         "text": "MoneyTaker (MoneyTaker)",
-        "url": "threat-library-detail.html?data=moneytaker"
+        "url": "threat-library-detail?data=moneytaker"
     },
     {
         "text": "Mongall (Mongall)",
-        "url": "threat-library-detail.html?data=mongall"
+        "url": "threat-library-detail?data=mongall"
     },
     {
         "text": "MoonBounce (MoonBounce)",
-        "url": "threat-library-detail.html?data=moonbounce"
+        "url": "threat-library-detail?data=moonbounce"
     },
     {
         "text": "MOONSHINE (MOONSHINE)",
-        "url": "threat-library-detail.html?data=moonshine"
+        "url": "threat-library-detail?data=moonshine"
     },
     {
         "text": "MoonWind RAT (MoonWind RAT, MoonWind)",
-        "url": "threat-library-detail.html?data=moonwind_rat"
+        "url": "threat-library-detail?data=moonwind_rat"
     },
     {
         "text": "More_eggs (More_eggs, SpicyOmelette, Terra Loader, SKID)",
-        "url": "threat-library-detail.html?data=more_eggs"
+        "url": "threat-library-detail?data=more_eggs"
     },
     {
         "text": "Moriya (Moriya)",
-        "url": "threat-library-detail.html?data=moriya"
+        "url": "threat-library-detail?data=moriya"
     },
     {
         "text": "Mosquito (Mosquito)",
-        "url": "threat-library-detail.html?data=mosquito"
+        "url": "threat-library-detail?data=mosquito"
     },
     {
         "text": "Moudoor (Moudoor, SCAR)",
-        "url": "threat-library-detail.html?data=moudoor"
+        "url": "threat-library-detail?data=moudoor"
     },
     {
         "text": "MOVEit Freely (MOVEit Freely)",
-        "url": "threat-library-detail.html?data=moveit_freely"
+        "url": "threat-library-detail?data=moveit_freely"
     },
     {
         "text": "MPKBot (MPKBot, MPK)",
-        "url": "threat-library-detail.html?data=mpkbot"
+        "url": "threat-library-detail?data=mpkbot"
     },
     {
         "text": "MQsTTang (MQsTTang, QMAGENT)",
-        "url": "threat-library-detail.html?data=mqsttang"
+        "url": "threat-library-detail?data=mqsttang"
     },
     {
         "text": "MrPerfectInstaller (MrPerfectInstaller)",
-        "url": "threat-library-detail.html?data=mrperfectinstaller"
+        "url": "threat-library-detail?data=mrperfectinstaller"
     },
     {
         "text": "MS Exchange Tool (MS Exchange Tool)",
-        "url": "threat-library-detail.html?data=ms_exchange_tool"
+        "url": "threat-library-detail?data=ms_exchange_tool"
     },
     {
         "text": "msieckc.exe (msieckc.exe)",
-        "url": "threat-library-detail.html?data=msieckc.exe"
+        "url": "threat-library-detail?data=msieckc.exe"
     },
     {
         "text": "MSFvenom (MSFvenom)",
-        "url": "threat-library-detail.html?data=msfvenom"
+        "url": "threat-library-detail?data=msfvenom"
     },
     {
         "text": "MSUpdater (MSUpdater)",
-        "url": "threat-library-detail.html?data=msupdater"
+        "url": "threat-library-detail?data=msupdater"
     },
     {
         "text": "msvcrt58.sqt (msvcrt58.sqt)",
-        "url": "threat-library-detail.html?data=msvcrt58.sqt"
+        "url": "threat-library-detail?data=msvcrt58.sqt"
     },
     {
         "text": "Mudwater (Mudwater)",
-        "url": "threat-library-detail.html?data=mudwater"
+        "url": "threat-library-detail?data=mudwater"
     },
     {
         "text": "Multigrain (Multigrain, Multigrain POS)",
-        "url": "threat-library-detail.html?data=multigrain"
+        "url": "threat-library-detail?data=multigrain"
     },
     {
         "text": "MultiPipeLoader (MultiPipeLoader)",
-        "url": "threat-library-detail.html?data=multipipeloader"
+        "url": "threat-library-detail?data=multipipeloader"
     },
     {
         "text": "MumbaiDown (MumbaiDown)",
-        "url": "threat-library-detail.html?data=mumbaidown"
+        "url": "threat-library-detail?data=mumbaidown"
     },
     {
         "text": "MURKYTOP (MURKYTOP)",
-        "url": "threat-library-detail.html?data=murkytop"
+        "url": "threat-library-detail?data=murkytop"
     },
     {
         "text": "MY24 (MY24)",
-        "url": "threat-library-detail.html?data=my24"
+        "url": "threat-library-detail?data=my24"
     },
     {
         "text": "MyDogs (MyDogs)",
-        "url": "threat-library-detail.html?data=mydogs"
+        "url": "threat-library-detail?data=mydogs"
     },
     {
         "text": "MyKLoadClient (MyKLoadClient)",
-        "url": "threat-library-detail.html?data=mykloadclient"
+        "url": "threat-library-detail?data=mykloadclient"
     },
     {
         "text": "MysteryBot (MysteryBot)",
-        "url": "threat-library-detail.html?data=mysterybot"
+        "url": "threat-library-detail?data=mysterybot"
     },
     {
         "text": "MysterySnail RAT (MysterySnail RAT, MysterySnail)",
-        "url": "threat-library-detail.html?data=mysterysnail_rat"
+        "url": "threat-library-detail?data=mysterysnail_rat"
     },
     {
         "text": "MZCookiesView (MZCookiesView)",
-        "url": "threat-library-detail.html?data=mzcookiesview"
+        "url": "threat-library-detail?data=mzcookiesview"
     },
     {
         "text": "N1stAgent (N1stAgent)",
-        "url": "threat-library-detail.html?data=n1stagent"
+        "url": "threat-library-detail?data=n1stagent"
     },
     {
         "text": "NachoCheese (NachoCheese, NACHOCHEESE, Cyruslish, TWOPENCE, VIVACIOUSGIFT)",
-        "url": "threat-library-detail.html?data=nachocheese"
+        "url": "threat-library-detail?data=nachocheese"
     },
     {
         "text": "Naid (Naid, Trojan.Naid, Mdmbot.E, AGENT.GUNZ, AGENT.AQUP.DROPPER, AGENT.BMZA, MCRAT.A, AGENT.ABQMR)",
-        "url": "threat-library-detail.html?data=naid"
+        "url": "threat-library-detail?data=naid"
     },
     {
         "text": "Naikon (Naikon, XsFunction, Sacto)",
-        "url": "threat-library-detail.html?data=naikon"
+        "url": "threat-library-detail?data=naikon"
     },
     {
         "text": "NAILGUN (NAILGUN)",
-        "url": "threat-library-detail.html?data=nailgun"
+        "url": "threat-library-detail?data=nailgun"
     },
     {
         "text": "NanHaiShu (NanHaiShu)",
-        "url": "threat-library-detail.html?data=nanhaishu"
+        "url": "threat-library-detail?data=nanhaishu"
     },
     {
         "text": "Nautilus (Nautilus)",
-        "url": "threat-library-detail.html?data=nautilus"
+        "url": "threat-library-detail?data=nautilus"
     },
     {
         "text": "NavRAT (NavRAT, JinhoSpy)",
-        "url": "threat-library-detail.html?data=navrat"
+        "url": "threat-library-detail?data=navrat"
     },
     {
         "text": "NB65 (NB65)",
-        "url": "threat-library-detail.html?data=nb65"
+        "url": "threat-library-detail?data=nb65"
     },
     {
         "text": "Nbot (Nbot, TFC)",
-        "url": "threat-library-detail.html?data=nbot"
+        "url": "threat-library-detail?data=nbot"
     },
     {
         "text": "nbtscan (nbtscan, NBTscan)",
-        "url": "threat-library-detail.html?data=nbtscan"
+        "url": "threat-library-detail?data=nbtscan"
     },
     {
         "text": "nbtstat (nbtstat)",
-        "url": "threat-library-detail.html?data=nbtstat"
+        "url": "threat-library-detail?data=nbtstat"
     },
     {
         "text": "NCAT (NCAT)",
-        "url": "threat-library-detail.html?data=ncat"
+        "url": "threat-library-detail?data=ncat"
     },
     {
         "text": "NcFTPPut (NcFTPPut)",
-        "url": "threat-library-detail.html?data=ncftpput"
+        "url": "threat-library-detail?data=ncftpput"
     },
     {
         "text": "NDiskMonitor (NDiskMonitor)",
-        "url": "threat-library-detail.html?data=ndiskmonitor"
+        "url": "threat-library-detail?data=ndiskmonitor"
     },
     {
         "text": "Nebulae (Nebulae)",
-        "url": "threat-library-detail.html?data=nebulae"
+        "url": "threat-library-detail?data=nebulae"
     },
     {
         "text": "Necurs (Necurs, nucurs)",
-        "url": "threat-library-detail.html?data=necurs"
+        "url": "threat-library-detail?data=necurs"
     },
     {
         "text": "Nemim (Nemim, Nemain)",
-        "url": "threat-library-detail.html?data=nemim"
+        "url": "threat-library-detail?data=nemim"
     },
     {
         "text": "Nemty (Nemty)",
-        "url": "threat-library-detail.html?data=nemty"
+        "url": "threat-library-detail?data=nemty"
     },
     {
         "text": "NeoPocket (NeoPocket)",
-        "url": "threat-library-detail.html?data=neopocket"
+        "url": "threat-library-detail?data=neopocket"
     },
     {
         "text": "Neptun (Neptun)",
-        "url": "threat-library-detail.html?data=neptun"
+        "url": "threat-library-detail?data=neptun"
     },
     {
         "text": "Nerex (Nerex)",
-        "url": "threat-library-detail.html?data=nerex"
+        "url": "threat-library-detail?data=nerex"
     },
     {
         "text": "NestEgg (NestEgg)",
-        "url": "threat-library-detail.html?data=nestegg"
+        "url": "threat-library-detail?data=nestegg"
     },
     {
         "text": "netcat (netcat)",
-        "url": "threat-library-detail.html?data=netcat"
+        "url": "threat-library-detail?data=netcat"
     },
     {
         "text": "Net Crawler (Net Crawler, NetC)",
-        "url": "threat-library-detail.html?data=net_crawler"
+        "url": "threat-library-detail?data=net_crawler"
     },
     {
         "text": "NetEagle (NetEagle, ScoutEagle, scout, Neteagle_Scout, norton)",
-        "url": "threat-library-detail.html?data=neteagle"
+        "url": "threat-library-detail?data=neteagle"
     },
     {
         "text": "Netero (Netero)",
-        "url": "threat-library-detail.html?data=netero"
+        "url": "threat-library-detail?data=netero"
     },
     {
         "text": "NetExec (NetExec)",
-        "url": "threat-library-detail.html?data=netexec"
+        "url": "threat-library-detail?data=netexec"
     },
     {
         "text": "NetFlash (NetFlash)",
-        "url": "threat-library-detail.html?data=netflash"
+        "url": "threat-library-detail?data=netflash"
     },
     {
         "text": "NetHelp Infostealer (NetHelp Infostealer, NetHelp Striker)",
-        "url": "threat-library-detail.html?data=nethelp_infostealer"
+        "url": "threat-library-detail?data=nethelp_infostealer"
     },
     {
         "text": "NetPwdDump (NetPwdDump)",
-        "url": "threat-library-detail.html?data=netpwddump"
+        "url": "threat-library-detail?data=netpwddump"
     },
     {
         "text": "NetSess (NetSess)",
-        "url": "threat-library-detail.html?data=netsess"
+        "url": "threat-library-detail?data=netsess"
     },
     {
         "text": "NetSessionEnum (NetSessionEnum)",
-        "url": "threat-library-detail.html?data=netsessionenum"
+        "url": "threat-library-detail?data=netsessionenum"
     },
     {
         "text": "NetSupport Manager (NetSupport Manager, NetSupport Manager RAT, NetSupportManager RAT, NetSupport)",
-        "url": "threat-library-detail.html?data=netsupport_manager"
+        "url": "threat-library-detail?data=netsupport_manager"
     },
     {
         "text": "NetTraveler (NetTraveler, TravNet, Netfile)",
-        "url": "threat-library-detail.html?data=nettraveler"
+        "url": "threat-library-detail?data=nettraveler"
     },
     {
         "text": "NetUseEngine (NetUseEngine)",
-        "url": "threat-library-detail.html?data=netuseengine"
+        "url": "threat-library-detail?data=netuseengine"
     },
     {
         "text": "Netview (Netview)",
-        "url": "threat-library-detail.html?data=netview"
+        "url": "threat-library-detail?data=netview"
     },
     {
         "text": "NETVulture (NETVulture)",
-        "url": "threat-library-detail.html?data=netvulture"
+        "url": "threat-library-detail?data=netvulture"
     },
     {
         "text": "NetWalker (NetWalker, MailTo, Koko Ransomware)",
-        "url": "threat-library-detail.html?data=netwalker"
+        "url": "threat-library-detail?data=netwalker"
     },
     {
         "text": "NETWoolger (NETWoolger)",
-        "url": "threat-library-detail.html?data=netwoolger"
+        "url": "threat-library-detail?data=netwoolger"
     },
     {
         "text": "Network Password Recovery (Network Password Recovery)",
-        "url": "threat-library-detail.html?data=network_password_recovery"
+        "url": "threat-library-detail?data=network_password_recovery"
     },
     {
         "text": "Neuron (Neuron)",
-        "url": "threat-library-detail.html?data=neuron"
+        "url": "threat-library-detail?data=neuron"
     },
     {
         "text": "Neutrino (Neutrino, Neutrino Bot, Neutrino Exploit Kit, Kasidet)",
-        "url": "threat-library-detail.html?data=neutrino"
+        "url": "threat-library-detail?data=neutrino"
     },
     {
         "text": "Neutrino POS (Neutrino POS, Jimmy)",
-        "url": "threat-library-detail.html?data=neutrino_pos"
+        "url": "threat-library-detail?data=neutrino_pos"
     },
     {
         "text": "NewCore RAT (NewCore RAT)",
-        "url": "threat-library-detail.html?data=newcore_rat"
+        "url": "threat-library-detail?data=newcore_rat"
     },
     {
         "text": "NewCT (NewCT, CT)",
-        "url": "threat-library-detail.html?data=newct"
+        "url": "threat-library-detail?data=newct"
     },
     {
         "text": "NewCT2 (NewCT2)",
-        "url": "threat-library-detail.html?data=newct2"
+        "url": "threat-library-detail?data=newct2"
     },
     {
         "text": "NewPass (NewPass)",
-        "url": "threat-library-detail.html?data=newpass"
+        "url": "threat-library-detail?data=newpass"
     },
     {
         "text": "NewPosThings (NewPosThings)",
-        "url": "threat-library-detail.html?data=newposthings"
+        "url": "threat-library-detail?data=newposthings"
     },
     {
         "text": "NewsReels (NewsReels)",
-        "url": "threat-library-detail.html?data=newsreels"
+        "url": "threat-library-detail?data=newsreels"
     },
     {
         "text": "NFlog (NFlog)",
-        "url": "threat-library-detail.html?data=nflog"
+        "url": "threat-library-detail?data=nflog"
     },
     {
         "text": "Ngrok (Ngrok)",
-        "url": "threat-library-detail.html?data=ngrok"
+        "url": "threat-library-detail?data=ngrok"
     },
     {
         "text": "Nibatad (Nibatad)",
-        "url": "threat-library-detail.html?data=nibatad"
+        "url": "threat-library-detail?data=nibatad"
     },
     {
         "text": "Nidiran (Nidiran, Backdoor.Nidiran)",
-        "url": "threat-library-detail.html?data=nidiran"
+        "url": "threat-library-detail?data=nidiran"
     },
     {
         "text": "NIGHTJAR (NIGHTJAR)",
-        "url": "threat-library-detail.html?data=nightjar"
+        "url": "threat-library-detail?data=nightjar"
     },
     {
         "text": "NightSky (NightSky, Night Sky)",
-        "url": "threat-library-detail.html?data=nightsky"
+        "url": "threat-library-detail?data=nightsky"
     },
     {
         "text": "NimbleMamba (NimbleMamba)",
-        "url": "threat-library-detail.html?data=nimblemamba"
+        "url": "threat-library-detail?data=nimblemamba"
     },
     {
         "text": "Nimcy (Nimcy)",
-        "url": "threat-library-detail.html?data=nimcy"
+        "url": "threat-library-detail?data=nimcy"
     },
     {
         "text": "NineBlog (NineBlog)",
-        "url": "threat-library-detail.html?data=nineblog"
+        "url": "threat-library-detail?data=nineblog"
     },
     {
         "text": "Ninja (Ninja)",
-        "url": "threat-library-detail.html?data=ninja"
+        "url": "threat-library-detail?data=ninja"
     },
     {
         "text": "Nishang (Nishang)",
-        "url": "threat-library-detail.html?data=nishang"
+        "url": "threat-library-detail?data=nishang"
     },
     {
         "text": "Niteris EK (Niteris EK, CottonCastle)",
-        "url": "threat-library-detail.html?data=niteris_ek"
+        "url": "threat-library-detail?data=niteris_ek"
     },
     {
         "text": "NitlovePOS (NitlovePOS, nitlove)",
-        "url": "threat-library-detail.html?data=nitlovepos"
+        "url": "threat-library-detail?data=nitlovepos"
     },
     {
         "text": "nmap (nmap)",
-        "url": "threat-library-detail.html?data=nmap"
+        "url": "threat-library-detail?data=nmap"
     },
     {
         "text": "Nokki (Nokki)",
-        "url": "threat-library-detail.html?data=nokki"
+        "url": "threat-library-detail?data=nokki"
     },
     {
         "text": "Non-sucking Service Manager (Non-sucking Service Manager, NSSM)",
-        "url": "threat-library-detail.html?data=non-sucking_service_manager"
+        "url": "threat-library-detail?data=non-sucking_service_manager"
     },
     {
         "text": "NotPetya (NotPetya, EternalPetya, ExPetr, Pnyetya, Petna, Nyetya, NonPetya, nPetya, Petrwrap, Diskcoder.C, GoldenEye)",
-        "url": "threat-library-detail.html?data=notpetya"
+        "url": "threat-library-detail?data=notpetya"
     },
     {
         "text": "NPS (NPS)",
-        "url": "threat-library-detail.html?data=nps"
+        "url": "threat-library-detail?data=nps"
     },
     {
         "text": "NSIS (NSIS, Nullsoft Scriptable Install System)",
-        "url": "threat-library-detail.html?data=nsis"
+        "url": "threat-library-detail?data=nsis"
     },
     {
         "text": "NTDSDump (NTDSDump)",
-        "url": "threat-library-detail.html?data=ntdsdump"
+        "url": "threat-library-detail?data=ntdsdump"
     },
     {
         "text": "NukeSped (NukeSped)",
-        "url": "threat-library-detail.html?data=nukesped"
+        "url": "threat-library-detail?data=nukesped"
     },
     {
         "text": "ObfuBerry (ObfuBerry)",
-        "url": "threat-library-detail.html?data=obfuberry"
+        "url": "threat-library-detail?data=obfuberry"
     },
     {
         "text": "ObfuMerry (ObfuMerry)",
-        "url": "threat-library-detail.html?data=obfumerry"
+        "url": "threat-library-detail?data=obfumerry"
     },
     {
         "text": "ObliqueRAT (ObliqueRAT, Oblique RAT)",
-        "url": "threat-library-detail.html?data=obliquerat"
+        "url": "threat-library-detail?data=obliquerat"
     },
     {
         "text": "Oceansalt (Oceansalt)",
-        "url": "threat-library-detail.html?data=oceansalt"
+        "url": "threat-library-detail?data=oceansalt"
     },
     {
         "text": "Octopus (Octopus)",
-        "url": "threat-library-detail.html?data=octopus"
+        "url": "threat-library-detail?data=octopus"
     },
     {
         "text": "OddJob (OddJob)",
-        "url": "threat-library-detail.html?data=oddjob"
+        "url": "threat-library-detail?data=oddjob"
     },
     {
         "text": "Odinaff (Odinaff)",
-        "url": "threat-library-detail.html?data=odinaff"
+        "url": "threat-library-detail?data=odinaff"
     },
     {
         "text": "OilRig (OilRig)",
-        "url": "threat-library-detail.html?data=oilrig"
+        "url": "threat-library-detail?data=oilrig"
     },
     {
         "text": "Okrum (Okrum)",
-        "url": "threat-library-detail.html?data=okrum"
+        "url": "threat-library-detail?data=okrum"
     },
     {
         "text": "OKSOLO (OKSOLO)",
-        "url": "threat-library-detail.html?data=oksolo"
+        "url": "threat-library-detail?data=oksolo"
     },
     {
         "text": "Olympic Destroyer (Olympic Destroyer, SOURGRAPE)",
-        "url": "threat-library-detail.html?data=olympic_destroyer"
+        "url": "threat-library-detail?data=olympic_destroyer"
     },
     {
         "text": "OnionDuke (OnionDuke)",
-        "url": "threat-library-detail.html?data=onionduke"
+        "url": "threat-library-detail?data=onionduke"
     },
     {
         "text": "OopsIE (OopsIE)",
-        "url": "threat-library-detail.html?data=oopsie"
+        "url": "threat-library-detail?data=oopsie"
     },
     {
         "text": "OpBlockBuster (OpBlockBuster)",
-        "url": "threat-library-detail.html?data=opblockbuster"
+        "url": "threat-library-detail?data=opblockbuster"
     },
     {
         "text": "OpenDoc (OpenDoc)",
-        "url": "threat-library-detail.html?data=opendoc"
+        "url": "threat-library-detail?data=opendoc"
     },
     {
         "text": "OPENSHACKLE (OPENSHACKLE)",
-        "url": "threat-library-detail.html?data=openshackle"
+        "url": "threat-library-detail?data=openshackle"
     },
     {
         "text": "OperaPassView (OperaPassView)",
-        "url": "threat-library-detail.html?data=operapassview"
+        "url": "threat-library-detail?data=operapassview"
     },
     {
         "text": "OpGhoul (OpGhoul)",
-        "url": "threat-library-detail.html?data=opghoul"
+        "url": "threat-library-detail?data=opghoul"
     },
     {
         "text": "Orangeade (Orangeade)",
-        "url": "threat-library-detail.html?data=orangeade"
+        "url": "threat-library-detail?data=orangeade"
     },
     {
         "text": "Orat (Orat)",
-        "url": "threat-library-detail.html?data=orat"
+        "url": "threat-library-detail?data=orat"
     },
     {
         "text": "oRAT (oRAT)",
-        "url": "threat-library-detail.html?data=orat"
+        "url": "threat-library-detail?data=orat"
     },
     {
         "text": "ORCSHRED (ORCSHRED)",
-        "url": "threat-library-detail.html?data=orcshred"
+        "url": "threat-library-detail?data=orcshred"
     },
     {
         "text": "OS_Check_445 (OS_Check_445)",
-        "url": "threat-library-detail.html?data=os_check_445"
+        "url": "threat-library-detail?data=os_check_445"
     },
     {
         "text": "OSInfo (OSInfo)",
-        "url": "threat-library-detail.html?data=osinfo"
+        "url": "threat-library-detail?data=osinfo"
     },
     {
         "text": "OutLoader (OutLoader)",
-        "url": "threat-library-detail.html?data=outloader"
+        "url": "threat-library-detail?data=outloader"
     },
     {
         "text": "Outlook Backdoor (Outlook Backdoor, FACADE)",
-        "url": "threat-library-detail.html?data=outlook_backdoor"
+        "url": "threat-library-detail?data=outlook_backdoor"
     },
     {
         "text": "OutSteel (OutSteel)",
-        "url": "threat-library-detail.html?data=outsteel"
+        "url": "threat-library-detail?data=outsteel"
     },
     {
         "text": "OwaAuth (OwaAuth, luckyowa)",
-        "url": "threat-library-detail.html?data=owaauth"
+        "url": "threat-library-detail?data=owaauth"
     },
     {
         "text": "Owowa (Owowa)",
-        "url": "threat-library-detail.html?data=owowa"
+        "url": "threat-library-detail?data=owowa"
     },
     {
         "text": "OwlProxy (OwlProxy)",
-        "url": "threat-library-detail.html?data=owlproxy"
+        "url": "threat-library-detail?data=owlproxy"
     },
     {
         "text": "P0wnyshell (P0wnyshell)",
-        "url": "threat-library-detail.html?data=p0wnyshell"
+        "url": "threat-library-detail?data=p0wnyshell"
     },
     {
         "text": "P8RAT (P8RAT, GreetCake)",
-        "url": "threat-library-detail.html?data=p8rat"
+        "url": "threat-library-detail?data=p8rat"
     },
     {
         "text": "PACMAN (PACMAN)",
-        "url": "threat-library-detail.html?data=pacman"
+        "url": "threat-library-detail?data=pacman"
     },
     {
         "text": "PAExec (PAExec)",
-        "url": "threat-library-detail.html?data=paexec"
+        "url": "threat-library-detail?data=paexec"
     },
     {
         "text": "Pagoda (Pagoda)",
-        "url": "threat-library-detail.html?data=pagoda"
+        "url": "threat-library-detail?data=pagoda"
     },
     {
         "text": "Paladin RAT (Paladin RAT, Paladin)",
-        "url": "threat-library-detail.html?data=paladin_rat"
+        "url": "threat-library-detail?data=paladin_rat"
     },
     {
         "text": "Pallas (Pallas)",
-        "url": "threat-library-detail.html?data=pallas"
+        "url": "threat-library-detail?data=pallas"
     },
     {
         "text": "Pandora (Pandora)",
-        "url": "threat-library-detail.html?data=pandora"
+        "url": "threat-library-detail?data=pandora"
     },
     {
         "text": "PapaCreep (PapaCreep)",
-        "url": "threat-library-detail.html?data=papacreep"
+        "url": "threat-library-detail?data=papacreep"
     },
     {
         "text": "Paperbug (Paperbug)",
-        "url": "threat-library-detail.html?data=paperbug"
+        "url": "threat-library-detail?data=paperbug"
     },
     {
         "text": "P.A.S. (P.A.S., PAS, Fobushell)",
-        "url": "threat-library-detail.html?data=p.a.s."
+        "url": "threat-library-detail?data=p.a.s."
     },
     {
         "text": "Pasam (Pasam)",
-        "url": "threat-library-detail.html?data=pasam"
+        "url": "threat-library-detail?data=pasam"
     },
     {
         "text": "PassKillDisk (PassKillDisk)",
-        "url": "threat-library-detail.html?data=passkilldisk"
+        "url": "threat-library-detail?data=passkilldisk"
     },
     {
         "text": "Pass-The-Hash Toolkit (Pass-The-Hash Toolkit)",
-        "url": "threat-library-detail.html?data=pass-the-hash_toolkit"
+        "url": "threat-library-detail?data=pass-the-hash_toolkit"
     },
     {
         "text": "PasswordFox (PasswordFox)",
-        "url": "threat-library-detail.html?data=passwordfox"
+        "url": "threat-library-detail?data=passwordfox"
     },
     {
         "text": "Patao (Patao)",
-        "url": "threat-library-detail.html?data=patao"
+        "url": "threat-library-detail?data=patao"
     },
     {
         "text": "Pay2Key (Pay2Key, Cobalt)",
-        "url": "threat-library-detail.html?data=pay2key"
+        "url": "threat-library-detail?data=pay2key"
     },
     {
         "text": "PayloadBIN (PayloadBIN)",
-        "url": "threat-library-detail.html?data=payloadbin"
+        "url": "threat-library-detail?data=payloadbin"
     },
     {
         "text": "pcaudit.bat (pcaudit.bat)",
-        "url": "threat-library-detail.html?data=pcaudit.bat"
+        "url": "threat-library-detail?data=pcaudit.bat"
     },
     {
         "text": "PCClient (PCClient)",
-        "url": "threat-library-detail.html?data=pcclient"
+        "url": "threat-library-detail?data=pcclient"
     },
     {
         "text": "PCHUNTER (PCHUNTER)",
-        "url": "threat-library-detail.html?data=pchunter"
+        "url": "threat-library-detail?data=pchunter"
     },
     {
         "text": "PCShare (PCShare)",
-        "url": "threat-library-detail.html?data=pcshare"
+        "url": "threat-library-detail?data=pcshare"
     },
     {
         "text": "PEBBLEDASH (PEBBLEDASH)",
-        "url": "threat-library-detail.html?data=pebbledash"
+        "url": "threat-library-detail?data=pebbledash"
     },
     {
         "text": "Pegasus (Pegasus, Q Suite, Chrysaor, JigglyPuff)",
-        "url": "threat-library-detail.html?data=pegasus"
+        "url": "threat-library-detail?data=pegasus"
     },
     {
         "text": "Penquin Turla (Penquin Turla)",
-        "url": "threat-library-detail.html?data=penquin_turla"
+        "url": "threat-library-detail?data=penquin_turla"
     },
     {
         "text": "Peppy RAT (Peppy RAT, Peppy Trojan)",
-        "url": "threat-library-detail.html?data=peppy_rat"
+        "url": "threat-library-detail?data=peppy_rat"
     },
     {
         "text": "pgift (pgift, ReRol)",
-        "url": "threat-library-detail.html?data=pgift"
+        "url": "threat-library-detail?data=pgift"
     },
     {
         "text": "PhanDoor (PhanDoor)",
-        "url": "threat-library-detail.html?data=phandoor"
+        "url": "threat-library-detail?data=phandoor"
     },
     {
         "text": "PhantomLance (PhantomLance, PWNDROID1, Android.Backdoor.736.origin)",
-        "url": "threat-library-detail.html?data=phantomlance"
+        "url": "threat-library-detail?data=phantomlance"
     },
     {
         "text": "Philadelphia (Philadelphia, Philadephia Ransom)",
-        "url": "threat-library-detail.html?data=philadelphia"
+        "url": "threat-library-detail?data=philadelphia"
     },
     {
         "text": "Phishery (Phishery, Trojan.Phisherly)",
-        "url": "threat-library-detail.html?data=phishery"
+        "url": "threat-library-detail?data=phishery"
     },
     {
         "text": "Phoenix (Phoenix, Phoenix Locker)",
-        "url": "threat-library-detail.html?data=phoenix"
+        "url": "threat-library-detail?data=phoenix"
     },
     {
         "text": "PhonyC2 (PhonyC2)",
-        "url": "threat-library-detail.html?data=phonyc2"
+        "url": "threat-library-detail?data=phonyc2"
     },
     {
         "text": "PHOREAL (PHOREAL, Rizzo)",
-        "url": "threat-library-detail.html?data=phoreal"
+        "url": "threat-library-detail?data=phoreal"
     },
     {
         "text": "PHPMailer (PHPMailer)",
-        "url": "threat-library-detail.html?data=phpmailer"
+        "url": "threat-library-detail?data=phpmailer"
     },
     {
         "text": "PhpSpy (PhpSpy)",
-        "url": "threat-library-detail.html?data=phpspy"
+        "url": "threat-library-detail?data=phpspy"
     },
     {
         "text": "PICKPOCKET (PICKPOCKET)",
-        "url": "threat-library-detail.html?data=pickpocket"
+        "url": "threat-library-detail?data=pickpocket"
     },
     {
         "text": "Pierogi (Pierogi)",
-        "url": "threat-library-detail.html?data=pierogi"
+        "url": "threat-library-detail?data=pierogi"
     },
     {
         "text": "PiggyBack (PiggyBack)",
-        "url": "threat-library-detail.html?data=piggyback"
+        "url": "threat-library-detail?data=piggyback"
     },
     {
         "text": "PinchDuke (PinchDuke)",
-        "url": "threat-library-detail.html?data=pinchduke"
+        "url": "threat-library-detail?data=pinchduke"
     },
     {
         "text": "PINEFLOWER (PINEFLOWER, CORRUPT KITTEN)",
-        "url": "threat-library-detail.html?data=pineflower"
+        "url": "threat-library-detail?data=pineflower"
     },
     {
         "text": "PingPull (PingPull)",
-        "url": "threat-library-detail.html?data=pingpull"
+        "url": "threat-library-detail?data=pingpull"
     },
     {
         "text": "PinkKite (PinkKite)",
-        "url": "threat-library-detail.html?data=pinkkite"
+        "url": "threat-library-detail?data=pinkkite"
     },
     {
         "text": "Pink Lambert (Pink Lambert)",
-        "url": "threat-library-detail.html?data=pink_lambert"
+        "url": "threat-library-detail?data=pink_lambert"
     },
     {
         "text": "Pioneer (Pioneer, Virus.Win32.Pioneer.dx, igfxext.exe)",
-        "url": "threat-library-detail.html?data=pioneer"
+        "url": "threat-library-detail?data=pioneer"
     },
     {
         "text": "PipeMon (PipeMon)",
-        "url": "threat-library-detail.html?data=pipemon"
+        "url": "threat-library-detail?data=pipemon"
     },
     {
         "text": "Pirpi (Pirpi, SHOTPUT, Badey, EXL, CookieCutter, Backdoor.APT.CookieCutter)",
-        "url": "threat-library-detail.html?data=pirpi"
+        "url": "threat-library-detail?data=pirpi"
     },
     {
         "text": "Pisloader (Pisloader, Roseam)",
-        "url": "threat-library-detail.html?data=pisloader"
+        "url": "threat-library-detail?data=pisloader"
     },
     {
         "text": "Pitty (Pitty, PittyTiger RAT)",
-        "url": "threat-library-detail.html?data=pitty"
+        "url": "threat-library-detail?data=pitty"
     },
     {
         "text": "PixPirate (PixPirate)",
-        "url": "threat-library-detail.html?data=pixpirate"
+        "url": "threat-library-detail?data=pixpirate"
     },
     {
         "text": "PixStealer (PixStealer, BrazKing)",
-        "url": "threat-library-detail.html?data=pixstealer"
+        "url": "threat-library-detail?data=pixstealer"
     },
     {
         "text": "PLAINTEE (PLAINTEE)",
-        "url": "threat-library-detail.html?data=plaintee"
+        "url": "threat-library-detail?data=plaintee"
     },
     {
         "text": "PLANKWALK (PLANKWALK)",
-        "url": "threat-library-detail.html?data=plankwalk"
+        "url": "threat-library-detail?data=plankwalk"
     },
     {
         "text": "Plink (Plink, PuTTY Link)",
-        "url": "threat-library-detail.html?data=plink"
+        "url": "threat-library-detail?data=plink"
     },
     {
         "text": "Ploutus (Ploutus, Ploutus ATM, Plotus)",
-        "url": "threat-library-detail.html?data=ploutus"
+        "url": "threat-library-detail?data=ploutus"
     },
     {
         "text": "PluginPhantom (PluginPhantom)",
-        "url": "threat-library-detail.html?data=pluginphantom"
+        "url": "threat-library-detail?data=pluginphantom"
     },
     {
         "text": "pngdowner (pngdowner)",
-        "url": "threat-library-detail.html?data=pngdowner"
+        "url": "threat-library-detail?data=pngdowner"
     },
     {
         "text": "PNGLoad (PNGLoad)",
-        "url": "threat-library-detail.html?data=pngload"
+        "url": "threat-library-detail?data=pngload"
     },
     {
         "text": "PocoDown (PocoDown, Blitz, PocoDownloader)",
-        "url": "threat-library-detail.html?data=pocodown"
+        "url": "threat-library-detail?data=pocodown"
     },
     {
         "text": "PoisonCarp (PoisonCarp, INSOMNIA)",
-        "url": "threat-library-detail.html?data=poisoncarp"
+        "url": "threat-library-detail?data=poisoncarp"
     },
     {
         "text": "Poldat (Poldat, Zlib, KABOB)",
-        "url": "threat-library-detail.html?data=poldat"
+        "url": "threat-library-detail?data=poldat"
     },
     {
         "text": "PolyglotDuke (PolyglotDuke)",
-        "url": "threat-library-detail.html?data=polyglotduke"
+        "url": "threat-library-detail?data=polyglotduke"
     },
     {
         "text": "PoohMilk Loader (PoohMilk Loader, PoohMilk)",
-        "url": "threat-library-detail.html?data=poohmilk_loader"
+        "url": "threat-library-detail?data=poohmilk_loader"
     },
     {
         "text": "POOLRAT (POOLRAT)",
-        "url": "threat-library-detail.html?data=poolrat"
+        "url": "threat-library-detail?data=poolrat"
     },
     {
         "text": "POORAIM (POORAIM, Backdoor.APT.POORAIM)",
-        "url": "threat-library-detail.html?data=pooraim"
+        "url": "threat-library-detail?data=pooraim"
     },
     {
         "text": "POPFLASH (POPFLASH)",
-        "url": "threat-library-detail.html?data=popflash"
+        "url": "threat-library-detail?data=popflash"
     },
     {
         "text": "Port.exe (Port.exe)",
-        "url": "threat-library-detail.html?data=port.exe"
+        "url": "threat-library-detail?data=port.exe"
     },
     {
         "text": "PORTHOLE (PORTHOLE)",
-        "url": "threat-library-detail.html?data=porthole"
+        "url": "threat-library-detail?data=porthole"
     },
     {
         "text": "PortQry (PortQry)",
-        "url": "threat-library-detail.html?data=portqry"
+        "url": "threat-library-detail?data=portqry"
     },
     {
         "text": "PortScan (PortScan)",
-        "url": "threat-library-detail.html?data=portscan"
+        "url": "threat-library-detail?data=portscan"
     },
     {
         "text": "PosCardStealer (PosCardStealer)",
-        "url": "threat-library-detail.html?data=poscardstealer"
+        "url": "threat-library-detail?data=poscardstealer"
     },
     {
         "text": "PoshAdvisor (PoshAdvisor)",
-        "url": "threat-library-detail.html?data=poshadvisor"
+        "url": "threat-library-detail?data=poshadvisor"
     },
     {
         "text": "POSHSPY (POSHSPY)",
-        "url": "threat-library-detail.html?data=poshspy"
+        "url": "threat-library-detail?data=poshspy"
     },
     {
         "text": "PoSlurp (PoSlurp, PUNCHTRACK, PSVC)",
-        "url": "threat-library-detail.html?data=poslurp"
+        "url": "threat-library-detail?data=poslurp"
     },
     {
         "text": "POTROAST (POTROAST)",
-        "url": "threat-library-detail.html?data=potroast"
+        "url": "threat-library-detail?data=potroast"
     },
     {
         "text": "POWBAT (POWBAT)",
-        "url": "threat-library-detail.html?data=powbat"
+        "url": "threat-library-detail?data=powbat"
     },
     {
         "text": "PowerBand (PowerBand)",
-        "url": "threat-library-detail.html?data=powerband"
+        "url": "threat-library-detail?data=powerband"
     },
     {
         "text": "PowerBrace (PowerBrace)",
-        "url": "threat-library-detail.html?data=powerbrace"
+        "url": "threat-library-detail?data=powerbrace"
     },
     {
         "text": "PowerDuke (PowerDuke)",
-        "url": "threat-library-detail.html?data=powerduke"
+        "url": "threat-library-detail?data=powerduke"
     },
     {
         "text": "PowerDump (PowerDump)",
-        "url": "threat-library-detail.html?data=powerdump"
+        "url": "threat-library-detail?data=powerdump"
     },
     {
         "text": "Powerkatz (Powerkatz)",
-        "url": "threat-library-detail.html?data=powerkatz"
+        "url": "threat-library-detail?data=powerkatz"
     },
     {
         "text": "PowerLess Backdoor (PowerLess Backdoor)",
-        "url": "threat-library-detail.html?data=powerless_backdoor"
+        "url": "threat-library-detail?data=powerless_backdoor"
     },
     {
         "text": "PowerMagic (PowerMagic)",
-        "url": "threat-library-detail.html?data=powermagic"
+        "url": "threat-library-detail?data=powermagic"
     },
     {
         "text": "Powermud (Powermud)",
-        "url": "threat-library-detail.html?data=powermud"
+        "url": "threat-library-detail?data=powermud"
     },
     {
         "text": "PowerPepper (PowerPepper)",
-        "url": "threat-library-detail.html?data=powerpepper"
+        "url": "threat-library-detail?data=powerpepper"
     },
     {
         "text": "POWERPIPE (POWERPIPE)",
-        "url": "threat-library-detail.html?data=powerpipe"
+        "url": "threat-library-detail?data=powerpipe"
     },
     {
         "text": "POWERPLANT (POWERPLANT, KillACK)",
-        "url": "threat-library-detail.html?data=powerplant"
+        "url": "threat-library-detail?data=powerplant"
     },
     {
         "text": "POWERPOST (POWERPOST)",
-        "url": "threat-library-detail.html?data=powerpost"
+        "url": "threat-library-detail?data=powerpost"
     },
     {
         "text": "PowerPunch (PowerPunch)",
-        "url": "threat-library-detail.html?data=powerpunch"
+        "url": "threat-library-detail?data=powerpunch"
     },
     {
         "text": "PowerRatankba (PowerRatankba, QUICKRIDE.POWER)",
-        "url": "threat-library-detail.html?data=powerratankba"
+        "url": "threat-library-detail?data=powerratankba"
     },
     {
         "text": "PowerShell RAT (PowerShell RAT)",
-        "url": "threat-library-detail.html?data=powershell_rat"
+        "url": "threat-library-detail?data=powershell_rat"
     },
     {
         "text": "PowerShellRunner-based RPC backdoor (PowerShellRunner-based RPC backdoor, PowerShellRunner)",
-        "url": "threat-library-detail.html?data=powershellrunner-based_rpc_backdoor"
+        "url": "threat-library-detail?data=powershellrunner-based_rpc_backdoor"
     },
     {
         "text": "PowerShower (PowerShower)",
-        "url": "threat-library-detail.html?data=powershower"
+        "url": "threat-library-detail?data=powershower"
     },
     {
         "text": "Powersing (Powersing)",
-        "url": "threat-library-detail.html?data=powersing"
+        "url": "threat-library-detail?data=powersing"
     },
     {
         "text": "POWERSOURCE (POWERSOURCE)",
-        "url": "threat-library-detail.html?data=powersource"
+        "url": "threat-library-detail?data=powersource"
     },
     {
         "text": "PowerSploit (PowerSploit)",
-        "url": "threat-library-detail.html?data=powersploit"
+        "url": "threat-library-detail?data=powersploit"
     },
     {
         "text": "PowerSpritz (PowerSpritz)",
-        "url": "threat-library-detail.html?data=powerspritz"
+        "url": "threat-library-detail?data=powerspritz"
     },
     {
         "text": "PowerStallion (PowerStallion)",
-        "url": "threat-library-detail.html?data=powerstallion"
+        "url": "threat-library-detail?data=powerstallion"
     },
     {
         "text": "POWERSTAR (POWERSTAR, CharmPower)",
-        "url": "threat-library-detail.html?data=powerstar"
+        "url": "threat-library-detail?data=powerstar"
     },
     {
         "text": "POWERSTATS (POWERSTATS, Valyria)",
-        "url": "threat-library-detail.html?data=powerstats"
+        "url": "threat-library-detail?data=powerstats"
     },
     {
         "text": "PowerTask (PowerTask)",
-        "url": "threat-library-detail.html?data=powertask"
+        "url": "threat-library-detail?data=powertask"
     },
     {
         "text": "POWERTON (POWERTON)",
-        "url": "threat-library-detail.html?data=powerton"
+        "url": "threat-library-detail?data=powerton"
     },
     {
         "text": "PowerTrick (PowerTrick)",
-        "url": "threat-library-detail.html?data=powertrick"
+        "url": "threat-library-detail?data=powertrick"
     },
     {
         "text": "PowerView (PowerView)",
-        "url": "threat-library-detail.html?data=powerview"
+        "url": "threat-library-detail?data=powerview"
     },
     {
         "text": "PowGoop (PowGoop)",
-        "url": "threat-library-detail.html?data=powgoop"
+        "url": "threat-library-detail?data=powgoop"
     },
     {
         "text": "PowHeartBeat (PowHeartBeat)",
-        "url": "threat-library-detail.html?data=powheartbeat"
+        "url": "threat-library-detail?data=powheartbeat"
     },
     {
         "text": "POWRUNER (POWRUNER)",
-        "url": "threat-library-detail.html?data=powruner"
+        "url": "threat-library-detail?data=powruner"
     },
     {
         "text": "POWSSHNET (POWSSHNET)",
-        "url": "threat-library-detail.html?data=powsshnet"
+        "url": "threat-library-detail?data=powsshnet"
     },
     {
         "text": "PRB-Backdoor (PRB-Backdoor, prb_backdoor)",
-        "url": "threat-library-detail.html?data=prb-backdoor"
+        "url": "threat-library-detail?data=prb-backdoor"
     },
     {
         "text": "Prikormka (Prikormka)",
-        "url": "threat-library-detail.html?data=prikormka"
+        "url": "threat-library-detail?data=prikormka"
     },
     {
         "text": "Prilex (Prilex)",
-        "url": "threat-library-detail.html?data=prilex"
+        "url": "threat-library-detail?data=prilex"
     },
     {
         "text": "PRIVATELOG (PRIVATELOG)",
-        "url": "threat-library-detail.html?data=privatelog"
+        "url": "threat-library-detail?data=privatelog"
     },
     {
         "text": "ProcDump (ProcDump)",
-        "url": "threat-library-detail.html?data=procdump"
+        "url": "threat-library-detail?data=procdump"
     },
     {
         "text": "ProduKey (ProduKey)",
-        "url": "threat-library-detail.html?data=produkey"
+        "url": "threat-library-detail?data=produkey"
     },
     {
         "text": "ProLock (ProLock, PwndLocker)",
-        "url": "threat-library-detail.html?data=prolock"
+        "url": "threat-library-detail?data=prolock"
     },
     {
         "text": "Pro-Ocean (Pro-Ocean)",
-        "url": "threat-library-detail.html?data=pro-ocean"
+        "url": "threat-library-detail?data=pro-ocean"
     },
     {
         "text": "Pro POS (Pro POS)",
-        "url": "threat-library-detail.html?data=pro_pos"
+        "url": "threat-library-detail?data=pro_pos"
     },
     {
         "text": "Protected Storage PassView (Protected Storage PassView)",
-        "url": "threat-library-detail.html?data=protected_storage_passview"
+        "url": "threat-library-detail?data=protected_storage_passview"
     },
     {
         "text": "Protux (Protux)",
-        "url": "threat-library-detail.html?data=protux"
+        "url": "threat-library-detail?data=protux"
     },
     {
         "text": "ProxyBot (ProxyBot)",
-        "url": "threat-library-detail.html?data=proxybot"
+        "url": "threat-library-detail?data=proxybot"
     },
     {
         "text": "ProxyChains (ProxyChains)",
-        "url": "threat-library-detail.html?data=proxychains"
+        "url": "threat-library-detail?data=proxychains"
     },
     {
         "text": "Proxysvc (Proxysvc)",
-        "url": "threat-library-detail.html?data=proxysvc"
+        "url": "threat-library-detail?data=proxysvc"
     },
     {
         "text": "ProxyT (ProxyT)",
-        "url": "threat-library-detail.html?data=proxyt"
+        "url": "threat-library-detail?data=proxyt"
     },
     {
         "text": "PseudoManuscrypt (PseudoManuscrypt)",
-        "url": "threat-library-detail.html?data=pseudomanuscrypt"
+        "url": "threat-library-detail?data=pseudomanuscrypt"
     },
     {
         "text": "PsExec (PsExec)",
-        "url": "threat-library-detail.html?data=psexec"
+        "url": "threat-library-detail?data=psexec"
     },
     {
         "text": "psinstrc.ps1 (psinstrc.ps1)",
-        "url": "threat-library-detail.html?data=psinstrc.ps1"
+        "url": "threat-library-detail?data=psinstrc.ps1"
     },
     {
         "text": "PsiXBot (PsiXBot, PsiX)",
-        "url": "threat-library-detail.html?data=psixbot"
+        "url": "threat-library-detail?data=psixbot"
     },
     {
         "text": "PsList (PsList)",
-        "url": "threat-library-detail.html?data=pslist"
+        "url": "threat-library-detail?data=pslist"
     },
     {
         "text": "PSLogger (PSLogger, ECCENTRICBANDWAGON)",
-        "url": "threat-library-detail.html?data=pslogger"
+        "url": "threat-library-detail?data=pslogger"
     },
     {
         "text": "Psylo (Psylo)",
-        "url": "threat-library-detail.html?data=psylo"
+        "url": "threat-library-detail?data=psylo"
     },
     {
         "text": "Pteranodon (Pteranodon, Pterodo)",
-        "url": "threat-library-detail.html?data=pteranodon"
+        "url": "threat-library-detail?data=pteranodon"
     },
     {
         "text": "PubFantacy (PubFantacy)",
-        "url": "threat-library-detail.html?data=pubfantacy"
+        "url": "threat-library-detail?data=pubfantacy"
     },
     {
         "text": "PUBLOAD (PUBLOAD)",
-        "url": "threat-library-detail.html?data=pubload"
+        "url": "threat-library-detail?data=pubload"
     },
     {
         "text": "PunchBuggy (PunchBuggy, ShellTea, Powersniff)",
-        "url": "threat-library-detail.html?data=punchbuggy"
+        "url": "threat-library-detail?data=punchbuggy"
     },
     {
         "text": "Punkey (Punkey, PunkeyPOS, Punkey POS, pospunk)",
-        "url": "threat-library-detail.html?data=punkey"
+        "url": "threat-library-detail?data=punkey"
     },
     {
         "text": "PuppetLoader (PuppetLoader)",
-        "url": "threat-library-detail.html?data=puppetloader"
+        "url": "threat-library-detail?data=puppetloader"
     },
     {
         "text": "PupyRAT (PupyRAT, Pupy, pupy)",
-        "url": "threat-library-detail.html?data=pupyrat"
+        "url": "threat-library-detail?data=pupyrat"
     },
     {
         "text": "Purple Lambert (Purple Lambert)",
-        "url": "threat-library-detail.html?data=purple_lambert"
+        "url": "threat-library-detail?data=purple_lambert"
     },
     {
         "text": "PuTTY (PuTTY)",
-        "url": "threat-library-detail.html?data=putty"
+        "url": "threat-library-detail?data=putty"
     },
     {
         "text": "PVE Find AD Users (PVE Find AD Users)",
-        "url": "threat-library-detail.html?data=pve_find_ad_users"
+        "url": "threat-library-detail?data=pve_find_ad_users"
     },
     {
         "text": "PVZ-In (PVZ-In)",
-        "url": "threat-library-detail.html?data=pvz-in"
+        "url": "threat-library-detail?data=pvz-in"
     },
     {
         "text": "PVZ-Out (PVZ-Out, PvzOut)",
-        "url": "threat-library-detail.html?data=pvz-out"
+        "url": "threat-library-detail?data=pvz-out"
     },
     {
         "text": "pwdump (pwdump)",
-        "url": "threat-library-detail.html?data=pwdump"
+        "url": "threat-library-detail?data=pwdump"
     },
     {
         "text": "PwnPOS (PwnPOS)",
-        "url": "threat-library-detail.html?data=pwnpos"
+        "url": "threat-library-detail?data=pwnpos"
     },
     {
         "text": "Pyark (Pyark)",
-        "url": "threat-library-detail.html?data=pyark"
+        "url": "threat-library-detail?data=pyark"
     },
     {
         "text": "PyDCrypt (PyDCrypt)",
-        "url": "threat-library-detail.html?data=pydcrypt"
+        "url": "threat-library-detail?data=pydcrypt"
     },
     {
         "text": "PyFlash (PyFlash)",
-        "url": "threat-library-detail.html?data=pyflash"
+        "url": "threat-library-detail?data=pyflash"
     },
     {
         "text": "Pylot (Pylot, Travle)",
-        "url": "threat-library-detail.html?data=pylot"
+        "url": "threat-library-detail?data=pylot"
     },
     {
         "text": "PyMICROPSIA (PyMICROPSIA)",
-        "url": "threat-library-detail.html?data=pymicropsia"
+        "url": "threat-library-detail?data=pymicropsia"
     },
     {
         "text": "PythocyDbg (PythocyDbg)",
-        "url": "threat-library-detail.html?data=pythocydbg"
+        "url": "threat-library-detail?data=pythocydbg"
     },
     {
         "text": "PyVil RAT (PyVil RAT, PyVil)",
-        "url": "threat-library-detail.html?data=pyvil_rat"
+        "url": "threat-library-detail?data=pyvil_rat"
     },
     {
         "text": "PyXie (PyXie, PyXie RAT)",
-        "url": "threat-library-detail.html?data=pyxie"
+        "url": "threat-library-detail?data=pyxie"
     },
     {
         "text": "QCRat (QCRat)",
-        "url": "threat-library-detail.html?data=qcrat"
+        "url": "threat-library-detail?data=qcrat"
     },
     {
         "text": "QUADAGENT (QUADAGENT)",
-        "url": "threat-library-detail.html?data=quadagent"
+        "url": "threat-library-detail?data=quadagent"
     },
     {
         "text": "Quant Loader (Quant Loader, QuantLoader)",
-        "url": "threat-library-detail.html?data=quant_loader"
+        "url": "threat-library-detail?data=quant_loader"
     },
     {
         "text": "QuarkBandit (QuarkBandit)",
-        "url": "threat-library-detail.html?data=quarkbandit"
+        "url": "threat-library-detail?data=quarkbandit"
     },
     {
         "text": "Quarks PwDump (Quarks PwDump)",
-        "url": "threat-library-detail.html?data=quarks_pwdump"
+        "url": "threat-library-detail?data=quarks_pwdump"
     },
     {
         "text": "QuasarRAT (QuasarRAT, Quasar RAT, CinaRAT, Yggdrasil)",
-        "url": "threat-library-detail.html?data=quasarrat"
+        "url": "threat-library-detail?data=quasarrat"
     },
     {
         "text": "QueenOfClubs (QueenOfClubs, SlothfulMedia)",
-        "url": "threat-library-detail.html?data=queenofclubs"
+        "url": "threat-library-detail?data=queenofclubs"
     },
     {
         "text": "QueenOfHearts (QueenOfHearts)",
-        "url": "threat-library-detail.html?data=queenofhearts"
+        "url": "threat-library-detail?data=queenofhearts"
     },
     {
         "text": "Quickcafe (Quickcafe)",
-        "url": "threat-library-detail.html?data=quickcafe"
+        "url": "threat-library-detail?data=quickcafe"
     },
     {
         "text": "QUIETEXIT (QUIETEXIT)",
-        "url": "threat-library-detail.html?data=quietexit"
+        "url": "threat-library-detail?data=quietexit"
     },
     {
         "text": "QuietSieve (QuietSieve)",
-        "url": "threat-library-detail.html?data=quietsieve"
+        "url": "threat-library-detail?data=quietsieve"
     },
     {
         "text": "QuiteRAT (QuiteRAT)",
-        "url": "threat-library-detail.html?data=quiterat"
+        "url": "threat-library-detail?data=quiterat"
     },
     {
         "text": "RADIOSTAR (RADIOSTAR)",
-        "url": "threat-library-detail.html?data=radiostar"
+        "url": "threat-library-detail?data=radiostar"
     },
     {
         "text": "Ragnatela (Ragnatela, Ragnatela RAT)",
-        "url": "threat-library-detail.html?data=ragnatela"
+        "url": "threat-library-detail?data=ragnatela"
     },
     {
         "text": "RaidBase (RaidBase)",
-        "url": "threat-library-detail.html?data=raidbase"
+        "url": "threat-library-detail?data=raidbase"
     },
     {
         "text": "RAINDROP (RAINDROP)",
-        "url": "threat-library-detail.html?data=raindrop"
+        "url": "threat-library-detail?data=raindrop"
     },
     {
         "text": "Rambo (Rambo, brebsd)",
-        "url": "threat-library-detail.html?data=rambo"
+        "url": "threat-library-detail?data=rambo"
     },
     {
         "text": "Ramsay (Ramsay)",
-        "url": "threat-library-detail.html?data=ramsay"
+        "url": "threat-library-detail?data=ramsay"
     },
     {
         "text": "Rana (Rana)",
-        "url": "threat-library-detail.html?data=rana"
+        "url": "threat-library-detail?data=rana"
     },
     {
         "text": "Ranbyus (Ranbyus)",
-        "url": "threat-library-detail.html?data=ranbyus"
+        "url": "threat-library-detail?data=ranbyus"
     },
     {
         "text": "RansomBoggs (RansomBoggs)",
-        "url": "threat-library-detail.html?data=ransomboggs"
+        "url": "threat-library-detail?data=ransomboggs"
     },
     {
         "text": "RapidStealer (RapidStealer)",
-        "url": "threat-library-detail.html?data=rapidstealer"
+        "url": "threat-library-detail?data=rapidstealer"
     },
     {
         "text": "rarstar (rarstar)",
-        "url": "threat-library-detail.html?data=rarstar"
+        "url": "threat-library-detail?data=rarstar"
     },
     {
         "text": "RARSTONE (RARSTONE)",
-        "url": "threat-library-detail.html?data=rarstone"
+        "url": "threat-library-detail?data=rarstone"
     },
     {
         "text": "Ratankba (Ratankba, Ratabanka, QUICKRIDE)",
-        "url": "threat-library-detail.html?data=ratankba"
+        "url": "threat-library-detail?data=ratankba"
     },
     {
         "text": "RatankbaPOS (RatankbaPOS, RatabankaPOS)",
-        "url": "threat-library-detail.html?data=ratankbapos"
+        "url": "threat-library-detail?data=ratankbapos"
     },
     {
         "text": "RATel (RATel)",
-        "url": "threat-library-detail.html?data=ratel"
+        "url": "threat-library-detail?data=ratel"
     },
     {
         "text": "RatSnif (RatSnif)",
-        "url": "threat-library-detail.html?data=ratsnif"
+        "url": "threat-library-detail?data=ratsnif"
     },
     {
         "text": "RawDisk (RawDisk)",
-        "url": "threat-library-detail.html?data=rawdisk"
+        "url": "threat-library-detail?data=rawdisk"
     },
     {
         "text": "RawPOS (RawPOS, FIENDCRY, DUEBREW, DRIFTWOOD)",
-        "url": "threat-library-detail.html?data=rawpos"
+        "url": "threat-library-detail?data=rawpos"
     },
     {
         "text": "RCLONE (RCLONE, Rclone)",
-        "url": "threat-library-detail.html?data=rclone"
+        "url": "threat-library-detail?data=rclone"
     },
     {
         "text": "RCSession (RCSession)",
-        "url": "threat-library-detail.html?data=rcsession"
+        "url": "threat-library-detail?data=rcsession"
     },
     {
         "text": "RCS Galileo (RCS Galileo)",
-        "url": "threat-library-detail.html?data=rcs_galileo"
+        "url": "threat-library-detail?data=rcs_galileo"
     },
     {
         "text": "RC SHELL (RC SHELL)",
-        "url": "threat-library-detail.html?data=rc_shell"
+        "url": "threat-library-detail?data=rc_shell"
     },
     {
         "text": "Rdasrv (Rdasrv)",
-        "url": "threat-library-detail.html?data=rdasrv"
+        "url": "threat-library-detail?data=rdasrv"
     },
     {
         "text": "RDFSNIFFER (RDFSNIFFER)",
-        "url": "threat-library-detail.html?data=rdfsniffer"
+        "url": "threat-library-detail?data=rdfsniffer"
     },
     {
         "text": "RDP (RDP, Remote Desktop Protocol)",
-        "url": "threat-library-detail.html?data=rdp"
+        "url": "threat-library-detail?data=rdp"
     },
     {
         "text": "RDPWrap (RDPWrap)",
-        "url": "threat-library-detail.html?data=rdpwrap"
+        "url": "threat-library-detail?data=rdpwrap"
     },
     {
         "text": "Recon (Recon)",
-        "url": "threat-library-detail.html?data=recon"
+        "url": "threat-library-detail?data=recon"
     },
     {
         "text": "ReconModule (ReconModule)",
-        "url": "threat-library-detail.html?data=reconmodule"
+        "url": "threat-library-detail?data=reconmodule"
     },
     {
         "text": "ReconShark (ReconShark)",
-        "url": "threat-library-detail.html?data=reconshark"
+        "url": "threat-library-detail?data=reconshark"
     },
     {
         "text": "Red Alert (Red Alert, Red Alert 2.0)",
-        "url": "threat-library-detail.html?data=red_alert"
+        "url": "threat-library-detail?data=red_alert"
     },
     {
         "text": "RedAlpha (RedAlpha)",
-        "url": "threat-library-detail.html?data=redalpha"
+        "url": "threat-library-detail?data=redalpha"
     },
     {
         "text": "RedCore (RedCore)",
-        "url": "threat-library-detail.html?data=redcore"
+        "url": "threat-library-detail?data=redcore"
     },
     {
         "text": "RedPepper (RedPepper, Adupib)",
-        "url": "threat-library-detail.html?data=redpepper"
+        "url": "threat-library-detail?data=redpepper"
     },
     {
         "text": "RedSalt (RedSalt, Dipsind)",
-        "url": "threat-library-detail.html?data=redsalt"
+        "url": "threat-library-detail?data=redsalt"
     },
     {
         "text": "RedShawl (RedShawl)",
-        "url": "threat-library-detail.html?data=redshawl"
+        "url": "threat-library-detail?data=redshawl"
     },
     {
         "text": "ReflectiveGnome (ReflectiveGnome)",
-        "url": "threat-library-detail.html?data=reflectivegnome"
+        "url": "threat-library-detail?data=reflectivegnome"
     },
     {
         "text": "RegDuke (RegDuke)",
-        "url": "threat-library-detail.html?data=regduke"
+        "url": "threat-library-detail?data=regduke"
     },
     {
         "text": "reGeorg (reGeorg)",
-        "url": "threat-library-detail.html?data=regeorg"
+        "url": "threat-library-detail?data=regeorg"
     },
     {
         "text": "Regin (Regin, Prax, WarriorPride)",
-        "url": "threat-library-detail.html?data=regin"
+        "url": "threat-library-detail?data=regin"
     },
     {
         "text": "Remcom (Remcom, RemoteCommandExecution)",
-        "url": "threat-library-detail.html?data=remcom"
+        "url": "threat-library-detail?data=remcom"
     },
     {
         "text": "RemcosRAT (RemcosRAT, Remcos, Remvio, Socmer)",
-        "url": "threat-library-detail.html?data=remcosrat"
+        "url": "threat-library-detail?data=remcosrat"
     },
     {
         "text": "Remexi (Remexi, CACHEMONEY)",
-        "url": "threat-library-detail.html?data=remexi"
+        "url": "threat-library-detail?data=remexi"
     },
     {
         "text": "remote-access-c3 (remote-access-c3)",
-        "url": "threat-library-detail.html?data=remote-access-c3"
+        "url": "threat-library-detail?data=remote-access-c3"
     },
     {
         "text": "RemoteCMD (RemoteCMD)",
-        "url": "threat-library-detail.html?data=remotecmd"
+        "url": "threat-library-detail?data=remotecmd"
     },
     {
         "text": "Remote CMD/PowerShell terminal (Remote CMD/PowerShell terminal)",
-        "url": "threat-library-detail.html?data=remote_cmdpowershell_terminal"
+        "url": "threat-library-detail?data=remote_cmdpowershell_terminal"
     },
     {
         "text": "Remote Control System (Remote Control System, RCS, Crisis)",
-        "url": "threat-library-detail.html?data=remote_control_system"
+        "url": "threat-library-detail?data=remote_control_system"
     },
     {
         "text": "Remote Desktop PassView (Remote Desktop PassView)",
-        "url": "threat-library-detail.html?data=remote_desktop_passview"
+        "url": "threat-library-detail?data=remote_desktop_passview"
     },
     {
         "text": "Remsec (Remsec, Backdoor.Remsec, ProjectSauron)",
-        "url": "threat-library-detail.html?data=remsec"
+        "url": "threat-library-detail?data=remsec"
     },
     {
         "text": "RemShell (RemShell)",
-        "url": "threat-library-detail.html?data=remshell"
+        "url": "threat-library-detail?data=remshell"
     },
     {
         "text": "RemShell Downloader (RemShell Downloader)",
-        "url": "threat-library-detail.html?data=remshell_downloader"
+        "url": "threat-library-detail?data=remshell_downloader"
     },
     {
         "text": "Remy (Remy, Remy RAT, WINDSHIELD)",
-        "url": "threat-library-detail.html?data=remy"
+        "url": "threat-library-detail?data=remy"
     },
     {
         "text": "Resetter (Resetter)",
-        "url": "threat-library-detail.html?data=resetter"
+        "url": "threat-library-detail?data=resetter"
     },
     {
         "text": "Retefe (Android) (Retefe (Android))",
-        "url": "threat-library-detail.html?data=retefe_(android)"
+        "url": "threat-library-detail?data=retefe_(android)"
     },
     {
         "text": "Retro (Retro)",
-        "url": "threat-library-detail.html?data=retro"
+        "url": "threat-library-detail?data=retro"
     },
     {
         "text": "Revealer Keylogger (Revealer Keylogger)",
-        "url": "threat-library-detail.html?data=revealer_keylogger"
+        "url": "threat-library-detail?data=revealer_keylogger"
     },
     {
         "text": "RevengeRAT (RevengeRAT, Revenge RAT, Revenge, Revetrat)",
-        "url": "threat-library-detail.html?data=revengerat"
+        "url": "threat-library-detail?data=revengerat"
     },
     {
         "text": "ReZer0 (ReZer0)",
-        "url": "threat-library-detail.html?data=rezer0"
+        "url": "threat-library-detail?data=rezer0"
     },
     {
         "text": "RGDoor (RGDoor)",
-        "url": "threat-library-detail.html?data=rgdoor"
+        "url": "threat-library-detail?data=rgdoor"
     },
     {
         "text": "RICECURRY (RICECURRY, Exploit.APT.RICECURRY)",
-        "url": "threat-library-detail.html?data=ricecurry"
+        "url": "threat-library-detail?data=ricecurry"
     },
     {
         "text": "Rifdoor (Rifdoor)",
-        "url": "threat-library-detail.html?data=rifdoor"
+        "url": "threat-library-detail?data=rifdoor"
     },
     {
         "text": "Rikamanu (Rikamanu)",
-        "url": "threat-library-detail.html?data=rikamanu"
+        "url": "threat-library-detail?data=rikamanu"
     },
     {
         "text": "Rising Sun (Rising Sun)",
-        "url": "threat-library-detail.html?data=rising_sun"
+        "url": "threat-library-detail?data=rising_sun"
     },
     {
         "text": "RoboSki (RoboSki)",
-        "url": "threat-library-detail.html?data=roboski"
+        "url": "threat-library-detail?data=roboski"
     },
     {
         "text": "ROCK (ROCK, yellowalbatross)",
-        "url": "threat-library-detail.html?data=rock"
+        "url": "threat-library-detail?data=rock"
     },
     {
         "text": "ROCKBOOT (ROCKBOOT)",
-        "url": "threat-library-detail.html?data=rockboot"
+        "url": "threat-library-detail?data=rockboot"
     },
     {
         "text": "RocketMan (RocketMan)",
-        "url": "threat-library-detail.html?data=rocketman"
+        "url": "threat-library-detail?data=rocketman"
     },
     {
         "text": "RockLoader (RockLoader)",
-        "url": "threat-library-detail.html?data=rockloader"
+        "url": "threat-library-detail?data=rockloader"
     },
     {
         "text": "RogueRobin (RogueRobin, RogueRobinNET)",
-        "url": "threat-library-detail.html?data=roguerobin"
+        "url": "threat-library-detail?data=roguerobin"
     },
     {
         "text": "Roland (Roland, Roland RAT)",
-        "url": "threat-library-detail.html?data=roland"
+        "url": "threat-library-detail?data=roland"
     },
     {
         "text": "Romeos (Romeos, RomeoCore, Romeo-CoreOne, R-C1)",
-        "url": "threat-library-detail.html?data=romeos"
+        "url": "threat-library-detail?data=romeos"
     },
     {
         "text": "RomeoAlfa (RomeoAlfa, AlphaNC)",
-        "url": "threat-library-detail.html?data=romeoalfa"
+        "url": "threat-library-detail?data=romeoalfa"
     },
     {
         "text": "RomeoBravo (RomeoBravo, BravoNC)",
-        "url": "threat-library-detail.html?data=romeobravo"
+        "url": "threat-library-detail?data=romeobravo"
     },
     {
         "text": "RomeoCharlie (RomeoCharlie)",
-        "url": "threat-library-detail.html?data=romeocharlie"
+        "url": "threat-library-detail?data=romeocharlie"
     },
     {
         "text": "RomeoDelta (RomeoDelta, DeltaNC)",
-        "url": "threat-library-detail.html?data=romeodelta"
+        "url": "threat-library-detail?data=romeodelta"
     },
     {
         "text": "RomeoEcho (RomeoEcho)",
-        "url": "threat-library-detail.html?data=romeoecho"
+        "url": "threat-library-detail?data=romeoecho"
     },
     {
         "text": "RomeoFoxtrot (RomeoFoxtrot)",
-        "url": "threat-library-detail.html?data=romeofoxtrot"
+        "url": "threat-library-detail?data=romeofoxtrot"
     },
     {
         "text": "RomeoGolf (RomeoGolf)",
-        "url": "threat-library-detail.html?data=romeogolf"
+        "url": "threat-library-detail?data=romeogolf"
     },
     {
         "text": "RomeoHotel (RomeoHotel)",
-        "url": "threat-library-detail.html?data=romeohotel"
+        "url": "threat-library-detail?data=romeohotel"
     },
     {
         "text": "RomeoMike (RomeoMike)",
-        "url": "threat-library-detail.html?data=romeomike"
+        "url": "threat-library-detail?data=romeomike"
     },
     {
         "text": "RomeoNovember (RomeoNovember)",
-        "url": "threat-library-detail.html?data=romeonovember"
+        "url": "threat-library-detail?data=romeonovember"
     },
     {
         "text": "RomeoWhiskey (RomeoWhiskey, Winsec)",
-        "url": "threat-library-detail.html?data=romeowhiskey"
+        "url": "threat-library-detail?data=romeowhiskey"
     },
     {
         "text": "Rook (Rook)",
-        "url": "threat-library-detail.html?data=rook"
+        "url": "threat-library-detail?data=rook"
     },
     {
         "text": "Roopy (Roopy)",
-        "url": "threat-library-detail.html?data=roopy"
+        "url": "threat-library-detail?data=roopy"
     },
     {
         "text": "RottenPotato (RottenPotato)",
-        "url": "threat-library-detail.html?data=rottenpotato"
+        "url": "threat-library-detail?data=rottenpotato"
     },
     {
         "text": "ROUTERSCAN (ROUTERSCAN)",
-        "url": "threat-library-detail.html?data=routerscan"
+        "url": "threat-library-detail?data=routerscan"
     },
     {
         "text": "RoyalCli (RoyalCli)",
-        "url": "threat-library-detail.html?data=royalcli"
+        "url": "threat-library-detail?data=royalcli"
     },
     {
         "text": "RoyalDNS (RoyalDNS, Royal DNS)",
-        "url": "threat-library-detail.html?data=royaldns"
+        "url": "threat-library-detail?data=royaldns"
     },
     {
         "text": "RTM (RTM, RTM Banker, Redaman)",
-        "url": "threat-library-detail.html?data=rtm"
+        "url": "threat-library-detail?data=rtm"
     },
     {
         "text": "RtPOS (RtPOS)",
-        "url": "threat-library-detail.html?data=rtpos"
+        "url": "threat-library-detail?data=rtpos"
     },
     {
         "text": "Rubeus (Rubeus)",
-        "url": "threat-library-detail.html?data=rubeus"
+        "url": "threat-library-detail?data=rubeus"
     },
     {
         "text": "RUHAPPY (RUHAPPY)",
-        "url": "threat-library-detail.html?data=ruhappy"
+        "url": "threat-library-detail?data=ruhappy"
     },
     {
         "text": "Ruler (Ruler)",
-        "url": "threat-library-detail.html?data=ruler"
+        "url": "threat-library-detail?data=ruler"
     },
     {
         "text": "RunningRAT (RunningRAT, Running RAT, running_rat)",
-        "url": "threat-library-detail.html?data=runningrat"
+        "url": "threat-library-detail?data=runningrat"
     },
     {
         "text": "RURansom (RURansom)",
-        "url": "threat-library-detail.html?data=ruransom"
+        "url": "threat-library-detail?data=ruransom"
     },
     {
         "text": "RustBucket (RustBucket)",
-        "url": "threat-library-detail.html?data=rustbucket"
+        "url": "threat-library-detail?data=rustbucket"
     },
     {
         "text": "S3BROWSER (S3BROWSER)",
-        "url": "threat-library-detail.html?data=s3browser"
+        "url": "threat-library-detail?data=s3browser"
     },
     {
         "text": "Safe (Safe)",
-        "url": "threat-library-detail.html?data=safe"
+        "url": "threat-library-detail?data=safe"
     },
     {
         "text": "SafetyKatz (SafetyKatz)",
-        "url": "threat-library-detail.html?data=safetykatz"
+        "url": "threat-library-detail?data=safetykatz"
     },
     {
         "text": "SAGEHIRE (SAGEHIRE)",
-        "url": "threat-library-detail.html?data=sagehire"
+        "url": "threat-library-detail?data=sagehire"
     },
     {
         "text": "Sagerunex (Sagerunex)",
-        "url": "threat-library-detail.html?data=sagerunex"
+        "url": "threat-library-detail?data=sagerunex"
     },
     {
         "text": "SaintBot (SaintBot, Saint Bot)",
-        "url": "threat-library-detail.html?data=saintbot"
+        "url": "threat-library-detail?data=saintbot"
     },
     {
         "text": "Saitama (Saitama, Saitama Backdoor)",
-        "url": "threat-library-detail.html?data=saitama"
+        "url": "threat-library-detail?data=saitama"
     },
     {
         "text": "Sakabota (Sakabota)",
-        "url": "threat-library-detail.html?data=sakabota"
+        "url": "threat-library-detail?data=sakabota"
     },
     {
         "text": "Sakula RAT (Sakula RAT, Sakula, Sakurel, VIPER)",
-        "url": "threat-library-detail.html?data=sakula_rat"
+        "url": "threat-library-detail?data=sakula_rat"
     },
     {
         "text": "Salgorea (Salgorea, BadCake)",
-        "url": "threat-library-detail.html?data=salgorea"
+        "url": "threat-library-detail?data=salgorea"
     },
     {
         "text": "SALTLICK (SALTLICK)",
-        "url": "threat-library-detail.html?data=saltlick"
+        "url": "threat-library-detail?data=saltlick"
     },
     {
         "text": "SamSam (SamSam, Samas)",
-        "url": "threat-library-detail.html?data=samsam"
+        "url": "threat-library-detail?data=samsam"
     },
     {
         "text": "Samurai (Samurai)",
-        "url": "threat-library-detail.html?data=samurai"
+        "url": "threat-library-detail?data=samurai"
     },
     {
         "text": "Sandboxie (Sandboxie)",
-        "url": "threat-library-detail.html?data=sandboxie"
+        "url": "threat-library-detail?data=sandboxie"
     },
     {
         "text": "SandroRAT (SandroRAT)",
-        "url": "threat-library-detail.html?data=sandrorat"
+        "url": "threat-library-detail?data=sandrorat"
     },
     {
         "text": "Sardonic (Sardonic)",
-        "url": "threat-library-detail.html?data=sardonic"
+        "url": "threat-library-detail?data=sardonic"
     },
     {
         "text": "Satellite Turla (Satellite Turla)",
-        "url": "threat-library-detail.html?data=satellite_turla"
+        "url": "threat-library-detail?data=satellite_turla"
     },
     {
         "text": "scanbox (scanbox)",
-        "url": "threat-library-detail.html?data=scanbox"
+        "url": "threat-library-detail?data=scanbox"
     },
     {
         "text": "ScanPOS (ScanPOS)",
-        "url": "threat-library-detail.html?data=scanpos"
+        "url": "threat-library-detail?data=scanpos"
     },
     {
         "text": "ScarCruft (ScarCruft, StarCruft)",
-        "url": "threat-library-detail.html?data=scarcruft"
+        "url": "threat-library-detail?data=scarcruft"
     },
     {
         "text": "Scieron (Scieron)",
-        "url": "threat-library-detail.html?data=scieron"
+        "url": "threat-library-detail?data=scieron"
     },
     {
         "text": "Scotch (Scotch)",
-        "url": "threat-library-detail.html?data=scotch"
+        "url": "threat-library-detail?data=scotch"
     },
     {
         "text": "Scote (Scote)",
-        "url": "threat-library-detail.html?data=scote"
+        "url": "threat-library-detail?data=scote"
     },
     {
         "text": "SCRAPMINT (SCRAPMINT)",
-        "url": "threat-library-detail.html?data=scrapmint"
+        "url": "threat-library-detail?data=scrapmint"
     },
     {
         "text": "ScreenCap (ScreenCap)",
-        "url": "threat-library-detail.html?data=screencap"
+        "url": "threat-library-detail?data=screencap"
     },
     {
         "text": "Screenshotter (Screenshotter)",
-        "url": "threat-library-detail.html?data=screenshotter"
+        "url": "threat-library-detail?data=screenshotter"
     },
     {
         "text": "sctrls (sctrls)",
-        "url": "threat-library-detail.html?data=sctrls"
+        "url": "threat-library-detail?data=sctrls"
     },
     {
         "text": "SDBbot (SDBbot)",
-        "url": "threat-library-detail.html?data=sdbbot"
+        "url": "threat-library-detail?data=sdbbot"
     },
     {
         "text": "SDelete (SDelete)",
-        "url": "threat-library-detail.html?data=sdelete"
+        "url": "threat-library-detail?data=sdelete"
     },
     {
         "text": "SeaDuke (SeaDuke, SeaDaddy, SeaDesk, SeaDask)",
-        "url": "threat-library-detail.html?data=seaduke"
+        "url": "threat-library-detail?data=seaduke"
     },
     {
         "text": "Seasalt (Seasalt)",
-        "url": "threat-library-detail.html?data=seasalt"
+        "url": "threat-library-detail?data=seasalt"
     },
     {
         "text": "SEAWEED (SEAWEED)",
-        "url": "threat-library-detail.html?data=seaweed"
+        "url": "threat-library-detail?data=seaweed"
     },
     {
         "text": "SecHack (SecHack)",
-        "url": "threat-library-detail.html?data=sechack"
+        "url": "threat-library-detail?data=sechack"
     },
     {
         "text": "SecreetsDump (SecreetsDump)",
-        "url": "threat-library-detail.html?data=secreetsdump"
+        "url": "threat-library-detail?data=secreetsdump"
     },
     {
         "text": "Secure FTP Client (Secure FTP Client)",
-        "url": "threat-library-detail.html?data=secure_ftp_client"
+        "url": "threat-library-detail?data=secure_ftp_client"
     },
     {
         "text": "Secure Socket Funneling (Secure Socket Funneling, SSF)",
-        "url": "threat-library-detail.html?data=secure_socket_funneling"
+        "url": "threat-library-detail?data=secure_socket_funneling"
     },
     {
         "text": "Sedkit (Sedkit)",
-        "url": "threat-library-detail.html?data=sedkit"
+        "url": "threat-library-detail?data=sedkit"
     },
     {
         "text": "Sedreco (Sedreco, AZZY, EVILTOSS, ADVSTORESHELL, NETUI)",
-        "url": "threat-library-detail.html?data=sedreco"
+        "url": "threat-library-detail?data=sedreco"
     },
     {
         "text": "Separ (Separ)",
-        "url": "threat-library-detail.html?data=separ"
+        "url": "threat-library-detail?data=separ"
     },
     {
         "text": "Sepulcher (Sepulcher)",
-        "url": "threat-library-detail.html?data=sepulcher"
+        "url": "threat-library-detail?data=sepulcher"
     },
     {
         "text": "SerialVlogger (SerialVlogger)",
-        "url": "threat-library-detail.html?data=serialvlogger"
+        "url": "threat-library-detail?data=serialvlogger"
     },
     {
         "text": "Serveo (Serveo)",
-        "url": "threat-library-detail.html?data=serveo"
+        "url": "threat-library-detail?data=serveo"
     },
     {
         "text": "SessionGopher (SessionGopher)",
-        "url": "threat-library-detail.html?data=sessiongopher"
+        "url": "threat-library-detail?data=sessiongopher"
     },
     {
         "text": "ShadowHammer (ShadowHammer, DAYJOB)",
-        "url": "threat-library-detail.html?data=shadowhammer"
+        "url": "threat-library-detail?data=shadowhammer"
     },
     {
         "text": "ShadowNet (ShadowNet)",
-        "url": "threat-library-detail.html?data=shadownet"
+        "url": "threat-library-detail?data=shadownet"
     },
     {
         "text": "ShadowPad Winnti (ShadowPad Winnti, POISONPLUG.SHADOW, XShellGhost)",
-        "url": "threat-library-detail.html?data=shadowpad_winnti"
+        "url": "threat-library-detail?data=shadowpad_winnti"
     },
     {
         "text": "ShadyRAT (ShadyRAT)",
-        "url": "threat-library-detail.html?data=shadyrat"
+        "url": "threat-library-detail?data=shadyrat"
     },
     {
         "text": "SHAPESHIFT (SHAPESHIFT)",
-        "url": "threat-library-detail.html?data=shapeshift"
+        "url": "threat-library-detail?data=shapeshift"
     },
     {
         "text": "shareip (shareip, remotecmd)",
-        "url": "threat-library-detail.html?data=shareip"
+        "url": "threat-library-detail?data=shareip"
     },
     {
         "text": "Shark (Shark)",
-        "url": "threat-library-detail.html?data=shark"
+        "url": "threat-library-detail?data=shark"
     },
     {
         "text": "SHARPEXT (SHARPEXT)",
-        "url": "threat-library-detail.html?data=sharpext"
+        "url": "threat-library-detail?data=sharpext"
     },
     {
         "text": "SharpHound (SharpHound)",
-        "url": "threat-library-detail.html?data=sharphound"
+        "url": "threat-library-detail?data=sharphound"
     },
     {
         "text": "SHARPKNOT (SHARPKNOT, Bitrep)",
-        "url": "threat-library-detail.html?data=sharpknot"
+        "url": "threat-library-detail?data=sharpknot"
     },
     {
         "text": "Sharp-SMBExec (Sharp-SMBExec)",
-        "url": "threat-library-detail.html?data=sharp-smbexec"
+        "url": "threat-library-detail?data=sharp-smbexec"
     },
     {
         "text": "SharpSploit (SharpSploit)",
-        "url": "threat-library-detail.html?data=sharpsploit"
+        "url": "threat-library-detail?data=sharpsploit"
     },
     {
         "text": "SharpStage (SharpStage)",
-        "url": "threat-library-detail.html?data=sharpstage"
+        "url": "threat-library-detail?data=sharpstage"
     },
     {
         "text": "SHARPSTATS (SHARPSTATS)",
-        "url": "threat-library-detail.html?data=sharpstats"
+        "url": "threat-library-detail?data=sharpstats"
     },
     {
         "text": "SharpToken (SharpToken)",
-        "url": "threat-library-detail.html?data=sharptoken"
+        "url": "threat-library-detail?data=sharptoken"
     },
     {
         "text": "SharpView (SharpView)",
-        "url": "threat-library-detail.html?data=sharpview"
+        "url": "threat-library-detail?data=sharpview"
     },
     {
         "text": "SharPyShell (SharPyShell)",
-        "url": "threat-library-detail.html?data=sharpyshell"
+        "url": "threat-library-detail?data=sharpyshell"
     },
     {
         "text": "SheepRAT (SheepRAT)",
-        "url": "threat-library-detail.html?data=sheeprat"
+        "url": "threat-library-detail?data=sheeprat"
     },
     {
         "text": "ShellClient (ShellClient)",
-        "url": "threat-library-detail.html?data=shellclient"
+        "url": "threat-library-detail?data=shellclient"
     },
     {
         "text": "SHELLSWEEP (SHELLSWEEP)",
-        "url": "threat-library-detail.html?data=shellsweep"
+        "url": "threat-library-detail?data=shellsweep"
     },
     {
         "text": "Shifu (Shifu)",
-        "url": "threat-library-detail.html?data=shifu"
+        "url": "threat-library-detail?data=shifu"
     },
     {
         "text": "ShimRAT (ShimRAT, Shim RAT)",
-        "url": "threat-library-detail.html?data=shimrat"
+        "url": "threat-library-detail?data=shimrat"
     },
     {
         "text": "Shipshape (Shipshape)",
-        "url": "threat-library-detail.html?data=shipshape"
+        "url": "threat-library-detail?data=shipshape"
     },
     {
         "text": "Shootback (Shootback)",
-        "url": "threat-library-detail.html?data=shootback"
+        "url": "threat-library-detail?data=shootback"
     },
     {
         "text": "SHORTBENCH (SHORTBENCH)",
-        "url": "threat-library-detail.html?data=shortbench"
+        "url": "threat-library-detail?data=shortbench"
     },
     {
         "text": "SHUTTERSPEED (SHUTTERSPEED)",
-        "url": "threat-library-detail.html?data=shutterspeed"
+        "url": "threat-library-detail?data=shutterspeed"
     },
     {
         "text": "Shylock (Shylock, Caphaw)",
-        "url": "threat-library-detail.html?data=shylock"
+        "url": "threat-library-detail?data=shylock"
     },
     {
         "text": "Sibot (Sibot)",
-        "url": "threat-library-detail.html?data=sibot"
+        "url": "threat-library-detail?data=sibot"
     },
     {
         "text": "SIDESHOW (SIDESHOW)",
-        "url": "threat-library-detail.html?data=sideshow"
+        "url": "threat-library-detail?data=sideshow"
     },
     {
         "text": "SideTwist (SideTwist)",
-        "url": "threat-library-detail.html?data=sidetwist"
+        "url": "threat-library-detail?data=sidetwist"
     },
     {
         "text": "SideWalk (SideWalk, ScrambleCross)",
-        "url": "threat-library-detail.html?data=sidewalk"
+        "url": "threat-library-detail?data=sidewalk"
     },
     {
         "text": "SierraAlfa (SierraAlfa)",
-        "url": "threat-library-detail.html?data=sierraalfa"
+        "url": "threat-library-detail?data=sierraalfa"
     },
     {
         "text": "SierraCharlie (SierraCharlie)",
-        "url": "threat-library-detail.html?data=sierracharlie"
+        "url": "threat-library-detail?data=sierracharlie"
     },
     {
         "text": "SIGFLIP (SIGFLIP)",
-        "url": "threat-library-detail.html?data=sigflip"
+        "url": "threat-library-detail?data=sigflip"
     },
     {
         "text": "SIGTRANslator (SIGTRANslator)",
-        "url": "threat-library-detail.html?data=sigtranslator"
+        "url": "threat-library-detail?data=sigtranslator"
     },
     {
         "text": "SilentCMD (SilentCMD)",
-        "url": "threat-library-detail.html?data=silentcmd"
+        "url": "threat-library-detail?data=silentcmd"
     },
     {
         "text": "Silent Night (Silent Night)",
-        "url": "threat-library-detail.html?data=silent_night"
+        "url": "threat-library-detail?data=silent_night"
     },
     {
         "text": "SILENTUPLOADER (SILENTUPLOADER)",
-        "url": "threat-library-detail.html?data=silentuploader"
+        "url": "threat-library-detail?data=silentuploader"
     },
     {
         "text": "SilkBean (SilkBean)",
-        "url": "threat-library-detail.html?data=silkbean"
+        "url": "threat-library-detail?data=silkbean"
     },
     {
         "text": "SilverHawk (SilverHawk)",
-        "url": "threat-library-detail.html?data=silverhawk"
+        "url": "threat-library-detail?data=silverhawk"
     },
     {
         "text": "Silver Lambert (Silver Lambert)",
-        "url": "threat-library-detail.html?data=silver_lambert"
+        "url": "threat-library-detail?data=silver_lambert"
     },
     {
         "text": "Sima (Sima)",
-        "url": "threat-library-detail.html?data=sima"
+        "url": "threat-library-detail?data=sima"
     },
     {
         "text": "SimplexTea (SimplexTea)",
-        "url": "threat-library-detail.html?data=simplextea"
+        "url": "threat-library-detail?data=simplextea"
     },
     {
         "text": "Sinowal (Sinowal, Anserin, Mebroot, Quarian, Theola, Torpig)",
-        "url": "threat-library-detail.html?data=sinowal"
+        "url": "threat-library-detail?data=sinowal"
     },
     {
         "text": "sip_telephone (sip_telephone)",
-        "url": "threat-library-detail.html?data=sip_telephone"
+        "url": "threat-library-detail?data=sip_telephone"
     },
     {
         "text": "Sisfader (Sisfader, Sisfader RAT)",
-        "url": "threat-library-detail.html?data=sisfader"
+        "url": "threat-library-detail?data=sisfader"
     },
     {
         "text": "Sisron (Sisron)",
-        "url": "threat-library-detail.html?data=sisron"
+        "url": "threat-library-detail?data=sisron"
     },
     {
         "text": "SIXPACK (SIXPACK)",
-        "url": "threat-library-detail.html?data=sixpack"
+        "url": "threat-library-detail?data=sixpack"
     },
     {
         "text": "SkeletonKeyInjector (SkeletonKeyInjector)",
-        "url": "threat-library-detail.html?data=skeletonkeyinjector"
+        "url": "threat-library-detail?data=skeletonkeyinjector"
     },
     {
         "text": "SkiBoot (SkiBoot)",
-        "url": "threat-library-detail.html?data=skiboot"
+        "url": "threat-library-detail?data=skiboot"
     },
     {
         "text": "Skimer (Skimer)",
-        "url": "threat-library-detail.html?data=skimer"
+        "url": "threat-library-detail?data=skimer"
     },
     {
         "text": "SkinnyBoy (SkinnyBoy)",
-        "url": "threat-library-detail.html?data=skinnyboy"
+        "url": "threat-library-detail?data=skinnyboy"
     },
     {
         "text": "Skip-2.0 (Skip-2.0)",
-        "url": "threat-library-detail.html?data=skip-2.0"
+        "url": "threat-library-detail?data=skip-2.0"
     },
     {
         "text": "Skipper (Skipper, Kotel)",
-        "url": "threat-library-detail.html?data=skipper"
+        "url": "threat-library-detail?data=skipper"
     },
     {
         "text": "SLAPSTICK (SLAPSTICK)",
-        "url": "threat-library-detail.html?data=slapstick"
+        "url": "threat-library-detail?data=slapstick"
     },
     {
         "text": "SLICKSHOES (SLICKSHOES)",
-        "url": "threat-library-detail.html?data=slickshoes"
+        "url": "threat-library-detail?data=slickshoes"
     },
     {
         "text": "Slingshot (Slingshot)",
-        "url": "threat-library-detail.html?data=slingshot"
+        "url": "threat-library-detail?data=slingshot"
     },
     {
         "text": "SLOWDRIFT (SLOWDRIFT)",
-        "url": "threat-library-detail.html?data=slowdrift"
+        "url": "threat-library-detail?data=slowdrift"
     },
     {
         "text": "SLOWROLL (SLOWROLL)",
-        "url": "threat-library-detail.html?data=slowroll"
+        "url": "threat-library-detail?data=slowroll"
     },
     {
         "text": "SLRat (SLRat)",
-        "url": "threat-library-detail.html?data=slrat"
+        "url": "threat-library-detail?data=slrat"
     },
     {
         "text": "SLUB (SLUB)",
-        "url": "threat-library-detail.html?data=slub"
+        "url": "threat-library-detail?data=slub"
     },
     {
         "text": "SMBExec (SMBExec)",
-        "url": "threat-library-detail.html?data=smbexec"
+        "url": "threat-library-detail?data=smbexec"
     },
     {
         "text": "Smbmap (Smbmap)",
-        "url": "threat-library-detail.html?data=smbmap"
+        "url": "threat-library-detail?data=smbmap"
     },
     {
         "text": "smbscan (smbscan)",
-        "url": "threat-library-detail.html?data=smbscan"
+        "url": "threat-library-detail?data=smbscan"
     },
     {
         "text": "smbtool (smbtool)",
-        "url": "threat-library-detail.html?data=smbtool"
+        "url": "threat-library-detail?data=smbtool"
     },
     {
         "text": "SMBTouch (SMBTouch)",
-        "url": "threat-library-detail.html?data=smbtouch"
+        "url": "threat-library-detail?data=smbtouch"
     },
     {
         "text": "SMBTrap (SMBTrap)",
-        "url": "threat-library-detail.html?data=smbtrap"
+        "url": "threat-library-detail?data=smbtrap"
     },
     {
         "text": "Smoke Loader (Smoke Loader, SmokeLoader, Smoke, Dofoil, Sharik)",
-        "url": "threat-library-detail.html?data=smoke_loader"
+        "url": "threat-library-detail?data=smoke_loader"
     },
     {
         "text": "Snatch (Snatch)",
-        "url": "threat-library-detail.html?data=snatch"
+        "url": "threat-library-detail?data=snatch"
     },
     {
         "text": "Sneepy (Sneepy, ByeByeShell)",
-        "url": "threat-library-detail.html?data=sneepy"
+        "url": "threat-library-detail?data=sneepy"
     },
     {
         "text": "SniffPass (SniffPass)",
-        "url": "threat-library-detail.html?data=sniffpass"
+        "url": "threat-library-detail?data=sniffpass"
     },
     {
         "text": "SnifLite (SnifLite)",
-        "url": "threat-library-detail.html?data=sniflite"
+        "url": "threat-library-detail?data=sniflite"
     },
     {
         "text": "SNUGRIDE (SNUGRIDE)",
-        "url": "threat-library-detail.html?data=snugride"
+        "url": "threat-library-detail?data=snugride"
     },
     {
         "text": "Snugy (Snugy)",
-        "url": "threat-library-detail.html?data=snugy"
+        "url": "threat-library-detail?data=snugy"
     },
     {
         "text": "SocksBot (SocksBot, BIRDDOG, Nadrac)",
-        "url": "threat-library-detail.html?data=socksbot"
+        "url": "threat-library-detail?data=socksbot"
     },
     {
         "text": "SocGholish (SocGholish, FAKEUPDATES, FakeUpdate)",
-        "url": "threat-library-detail.html?data=socgholish"
+        "url": "threat-library-detail?data=socgholish"
     },
     {
         "text": "SodaMaster (SodaMaster, DelfsCake, dfls, DARKTOWN, HEAVYPOT)",
-        "url": "threat-library-detail.html?data=sodamaster"
+        "url": "threat-library-detail?data=sodamaster"
     },
     {
         "text": "Sodinokibi (Sodinokibi, Sodin, REvil)",
-        "url": "threat-library-detail.html?data=sodinokibi"
+        "url": "threat-library-detail?data=sodinokibi"
     },
     {
         "text": "SodomMain (SodomMain, SodomMain RAT)",
-        "url": "threat-library-detail.html?data=sodommain"
+        "url": "threat-library-detail?data=sodommain"
     },
     {
         "text": "SodomNormal (SodomNormal)",
-        "url": "threat-library-detail.html?data=sodomnormal"
+        "url": "threat-library-detail?data=sodomnormal"
     },
     {
         "text": "SoftEther VPN (SoftEther VPN)",
-        "url": "threat-library-detail.html?data=softether_vpn"
+        "url": "threat-library-detail?data=softether_vpn"
     },
     {
         "text": "SoftPerfect Network Scanner (SoftPerfect Network Scanner)",
-        "url": "threat-library-detail.html?data=softperfect_network_scanner"
+        "url": "threat-library-detail?data=softperfect_network_scanner"
     },
     {
         "text": "Sojax (Sojax)",
-        "url": "threat-library-detail.html?data=sojax"
+        "url": "threat-library-detail?data=sojax"
     },
     {
         "text": "SOLOSHRED (SOLOSHRED)",
-        "url": "threat-library-detail.html?data=soloshred"
+        "url": "threat-library-detail?data=soloshred"
     },
     {
         "text": "SombRAT (SombRAT)",
-        "url": "threat-library-detail.html?data=sombrat"
+        "url": "threat-library-detail?data=sombrat"
     },
     {
         "text": "SoreFang (SoreFang)",
-        "url": "threat-library-detail.html?data=sorefang"
+        "url": "threat-library-detail?data=sorefang"
     },
     {
         "text": "Sorgu (Sorgu)",
-        "url": "threat-library-detail.html?data=sorgu"
+        "url": "threat-library-detail?data=sorgu"
     },
     {
         "text": "Soraya (Soraya)",
-        "url": "threat-library-detail.html?data=soraya"
+        "url": "threat-library-detail?data=soraya"
     },
     {
         "text": "SOUNDBITE (SOUNDBITE, Denis)",
-        "url": "threat-library-detail.html?data=soundbite"
+        "url": "threat-library-detail?data=soundbite"
     },
     {
         "text": "SOUNDWAVE (SOUNDWAVE)",
-        "url": "threat-library-detail.html?data=soundwave"
+        "url": "threat-library-detail?data=soundwave"
     },
     {
         "text": "Spaceship (Spaceship)",
-        "url": "threat-library-detail.html?data=spaceship"
+        "url": "threat-library-detail?data=spaceship"
     },
     {
         "text": "Spark (Spark)",
-        "url": "threat-library-detail.html?data=spark"
+        "url": "threat-library-detail?data=spark"
     },
     {
         "text": "SPARKLOG (SPARKLOG)",
-        "url": "threat-library-detail.html?data=sparklog"
+        "url": "threat-library-detail?data=sparklog"
     },
     {
         "text": "SparrowDoor (SparrowDoor, FamousSparrow)",
-        "url": "threat-library-detail.html?data=sparrowdoor"
+        "url": "threat-library-detail?data=sparrowdoor"
     },
     {
         "text": "Speculoos (Speculoos)",
-        "url": "threat-library-detail.html?data=speculoos"
+        "url": "threat-library-detail?data=speculoos"
     },
     {
         "text": "Spedear (Spedear)",
-        "url": "threat-library-detail.html?data=spedear"
+        "url": "threat-library-detail?data=spedear"
     },
     {
         "text": "Spindest (Spindest, Backdoor.Apocalipto)",
-        "url": "threat-library-detail.html?data=spindest"
+        "url": "threat-library-detail?data=spindest"
     },
     {
         "text": "SPINOFF (SPINOFF)",
-        "url": "threat-library-detail.html?data=spinoff"
+        "url": "threat-library-detail?data=spinoff"
     },
     {
         "text": "SPINNER (SPINNER)",
-        "url": "threat-library-detail.html?data=spinner"
+        "url": "threat-library-detail?data=spinner"
     },
     {
         "text": "SPOONBEARD (SPOONBEARD)",
-        "url": "threat-library-detail.html?data=spoonbeard"
+        "url": "threat-library-detail?data=spoonbeard"
     },
     {
         "text": "spwebmember (spwebmember)",
-        "url": "threat-library-detail.html?data=spwebmember"
+        "url": "threat-library-detail?data=spwebmember"
     },
     {
         "text": "SpyEye (SpyEye)",
-        "url": "threat-library-detail.html?data=spyeye"
+        "url": "threat-library-detail?data=spyeye"
     },
     {
         "text": "SpyNote RAT (SpyNote RAT, SpyNote)",
-        "url": "threat-library-detail.html?data=spynote_rat"
+        "url": "threat-library-detail?data=spynote_rat"
     },
     {
         "text": "SpyWaller (SpyWaller)",
-        "url": "threat-library-detail.html?data=spywaller"
+        "url": "threat-library-detail?data=spywaller"
     },
     {
         "text": "sqllauncher.dll (sqllauncher.dll)",
-        "url": "threat-library-detail.html?data=sqllauncher.dll"
+        "url": "threat-library-detail?data=sqllauncher.dll"
     },
     {
         "text": "sqlmap (sqlmap)",
-        "url": "threat-library-detail.html?data=sqlmap"
+        "url": "threat-library-detail?data=sqlmap"
     },
     {
         "text": "SQLRAT (SQLRAT)",
-        "url": "threat-library-detail.html?data=sqlrat"
+        "url": "threat-library-detail?data=sqlrat"
     },
     {
         "text": "SScan (SScan)",
-        "url": "threat-library-detail.html?data=sscan"
+        "url": "threat-library-detail?data=sscan"
     },
     {
         "text": "SSHMinion (SSHMinion)",
-        "url": "threat-library-detail.html?data=sshminion"
+        "url": "threat-library-detail?data=sshminion"
     },
     {
         "text": "SslMM (SslMM)",
-        "url": "threat-library-detail.html?data=sslmm"
+        "url": "threat-library-detail?data=sslmm"
     },
     {
         "text": "SSLove RAT (SSLove RAT)",
-        "url": "threat-library-detail.html?data=sslove_rat"
+        "url": "threat-library-detail?data=sslove_rat"
     },
     {
         "text": "StarLoader (StarLoader)",
-        "url": "threat-library-detail.html?data=starloader"
+        "url": "threat-library-detail?data=starloader"
     },
     {
         "text": "StarsyPound (StarsyPound)",
-        "url": "threat-library-detail.html?data=starsypound"
+        "url": "threat-library-detail?data=starsypound"
     },
     {
         "text": "STASHLOG (STASHLOG)",
-        "url": "threat-library-detail.html?data=stashlog"
+        "url": "threat-library-detail?data=stashlog"
     },
     {
         "text": "Stealer (Stealer)",
-        "url": "threat-library-detail.html?data=stealer"
+        "url": "threat-library-detail?data=stealer"
     },
     {
         "text": "StealthFalcon (StealthFalcon)",
-        "url": "threat-library-detail.html?data=stealthfalcon"
+        "url": "threat-library-detail?data=stealthfalcon"
     },
     {
         "text": "Stealth Mango (Stealth Mango)",
-        "url": "threat-library-detail.html?data=stealth_mango"
+        "url": "threat-library-detail?data=stealth_mango"
     },
     {
         "text": "STEELCORGI (STEELCORGI)",
-        "url": "threat-library-detail.html?data=steelcorgi"
+        "url": "threat-library-detail?data=steelcorgi"
     },
     {
         "text": "STEELHOUND (STEELHOUND)",
-        "url": "threat-library-detail.html?data=steelhound"
+        "url": "threat-library-detail?data=steelhound"
     },
     {
         "text": "StickyFingers (StickyFingers, QUICKBALL)",
-        "url": "threat-library-detail.html?data=stickyfingers"
+        "url": "threat-library-detail?data=stickyfingers"
     },
     {
         "text": "Stink (Stink)",
-        "url": "threat-library-detail.html?data=stink"
+        "url": "threat-library-detail?data=stink"
     },
     {
         "text": "StoneDrill (StoneDrill, DROPSHOT)",
-        "url": "threat-library-detail.html?data=stonedrill"
+        "url": "threat-library-detail?data=stonedrill"
     },
     {
         "text": "StreamEx (StreamEx)",
-        "url": "threat-library-detail.html?data=streamex"
+        "url": "threat-library-detail?data=streamex"
     },
     {
         "text": "StrifeWater (StrifeWater, StrifeWater RAT)",
-        "url": "threat-library-detail.html?data=strifewater"
+        "url": "threat-library-detail?data=strifewater"
     },
     {
         "text": "StrongPity2 (StrongPity2)",
-        "url": "threat-library-detail.html?data=strongpity2"
+        "url": "threat-library-detail?data=strongpity2"
     },
     {
         "text": "StrongPity3 (StrongPity3)",
-        "url": "threat-library-detail.html?data=strongpity3"
+        "url": "threat-library-detail?data=strongpity3"
     },
     {
         "text": "STSRCheck (STSRCheck)",
-        "url": "threat-library-detail.html?data=stsrcheck"
+        "url": "threat-library-detail?data=stsrcheck"
     },
     {
         "text": "Stunnel (Stunnel)",
-        "url": "threat-library-detail.html?data=stunnel"
+        "url": "threat-library-detail?data=stunnel"
     },
     {
         "text": "Stuxnet (Stuxnet, W32.Stuxnet)",
-        "url": "threat-library-detail.html?data=stuxnet"
+        "url": "threat-library-detail?data=stuxnet"
     },
     {
         "text": "S-Type (S-Type)",
-        "url": "threat-library-detail.html?data=s-type"
+        "url": "threat-library-detail?data=s-type"
     },
     {
         "text": "Subbrute (Subbrute)",
-        "url": "threat-library-detail.html?data=subbrute"
+        "url": "threat-library-detail?data=subbrute"
     },
     {
         "text": "Sublist3r (Sublist3r)",
-        "url": "threat-library-detail.html?data=sublist3r"
+        "url": "threat-library-detail?data=sublist3r"
     },
     {
         "text": "SubtractThis (SubtractThis)",
-        "url": "threat-library-detail.html?data=subtractthis"
+        "url": "threat-library-detail?data=subtractthis"
     },
     {
         "text": "SUCEFUL (SUCEFUL)",
-        "url": "threat-library-detail.html?data=suceful"
+        "url": "threat-library-detail?data=suceful"
     },
     {
         "text": "SUDDENICON (SUDDENICON)",
-        "url": "threat-library-detail.html?data=suddenicon"
+        "url": "threat-library-detail?data=suddenicon"
     },
     {
         "text": "SUN4ME (SUN4ME)",
-        "url": "threat-library-detail.html?data=sun4me"
+        "url": "threat-library-detail?data=sun4me"
     },
     {
         "text": "SunBird (SunBird)",
-        "url": "threat-library-detail.html?data=sunbird"
+        "url": "threat-library-detail?data=sunbird"
     },
     {
         "text": "SunCrypt (SunCrypt)",
-        "url": "threat-library-detail.html?data=suncrypt"
+        "url": "threat-library-detail?data=suncrypt"
     },
     {
         "text": "SUNSPOT (SUNSPOT)",
-        "url": "threat-library-detail.html?data=sunspot"
+        "url": "threat-library-detail?data=sunspot"
     },
     {
         "text": "SUPERNOVA (SUPERNOVA)",
-        "url": "threat-library-detail.html?data=supernova"
+        "url": "threat-library-detail?data=supernova"
     },
     {
         "text": "SVCMONDR (SVCMONDR)",
-        "url": "threat-library-detail.html?data=svcmondr"
+        "url": "threat-library-detail?data=svcmondr"
     },
     {
         "text": "SWEARJAR (SWEARJAR)",
-        "url": "threat-library-detail.html?data=swearjar"
+        "url": "threat-library-detail?data=swearjar"
     },
     {
         "text": "SWEETCANDLE (SWEETCANDLE)",
-        "url": "threat-library-detail.html?data=sweetcandle"
+        "url": "threat-library-detail?data=sweetcandle"
     },
     {
         "text": "SWEETDROP (SWEETDROP)",
-        "url": "threat-library-detail.html?data=sweetdrop"
+        "url": "threat-library-detail?data=sweetdrop"
     },
     {
         "text": "SweetPotato (SweetPotato)",
-        "url": "threat-library-detail.html?data=sweetpotato"
+        "url": "threat-library-detail?data=sweetpotato"
     },
     {
         "text": "SwiftSlicer (SwiftSlicer, JaguarBlade)",
-        "url": "threat-library-detail.html?data=swiftslicer"
+        "url": "threat-library-detail?data=swiftslicer"
     },
     {
         "text": "swissknife2 (swissknife2)",
-        "url": "threat-library-detail.html?data=swissknife2"
+        "url": "threat-library-detail?data=swissknife2"
     },
     {
         "text": "Sword (Sword)",
-        "url": "threat-library-detail.html?data=sword"
+        "url": "threat-library-detail?data=sword"
     },
     {
         "text": "Sword2033 (Sword2033)",
-        "url": "threat-library-detail.html?data=sword2033"
+        "url": "threat-library-detail?data=sword2033"
     },
     {
         "text": "Sykipot (Sykipot, Getkys, Wkysol)",
-        "url": "threat-library-detail.html?data=sykipot"
+        "url": "threat-library-detail?data=sykipot"
     },
     {
         "text": "Symatic Loader (Symatic Loader)",
-        "url": "threat-library-detail.html?data=symatic_loader"
+        "url": "threat-library-detail?data=symatic_loader"
     },
     {
         "text": "SymonLoader (SymonLoader)",
-        "url": "threat-library-detail.html?data=symonloader"
+        "url": "threat-library-detail?data=symonloader"
     },
     {
         "text": "SynFlooder (SynFlooder)",
-        "url": "threat-library-detail.html?data=synflooder"
+        "url": "threat-library-detail?data=synflooder"
     },
     {
         "text": "Sys10 (Sys10)",
-        "url": "threat-library-detail.html?data=sys10"
+        "url": "threat-library-detail?data=sys10"
     },
     {
         "text": "Syscon (Syscon, SYSCON, Sanny)",
-        "url": "threat-library-detail.html?data=syscon"
+        "url": "threat-library-detail?data=syscon"
     },
     {
         "text": "SysGet (SysGet, HelloBridge)",
-        "url": "threat-library-detail.html?data=sysget"
+        "url": "threat-library-detail?data=sysget"
     },
     {
         "text": "SysInternals (SysInternals)",
-        "url": "threat-library-detail.html?data=sysinternals"
+        "url": "threat-library-detail?data=sysinternals"
     },
     {
         "text": "SysKit (SysKit, IvizTech, MANGOPUNCH)",
-        "url": "threat-library-detail.html?data=syskit"
+        "url": "threat-library-detail?data=syskit"
     },
     {
         "text": "Sysmain (Sysmain)",
-        "url": "threat-library-detail.html?data=sysmain"
+        "url": "threat-library-detail?data=sysmain"
     },
     {
         "text": "SysUpdate (SysUpdate, FOCUSFJORD, HyperSSL, Soldier)",
-        "url": "threat-library-detail.html?data=sysupdate"
+        "url": "threat-library-detail?data=sysupdate"
     },
     {
         "text": "TABBYCAT (TABBYCAT)",
-        "url": "threat-library-detail.html?data=tabbycat"
+        "url": "threat-library-detail?data=tabbycat"
     },
     {
         "text": "TabMsgSQL (TabMsgSQL, LETSGO)",
-        "url": "threat-library-detail.html?data=tabmsgsql"
+        "url": "threat-library-detail?data=tabmsgsql"
     },
     {
         "text": "Tafacalou (Tafacalou)",
-        "url": "threat-library-detail.html?data=tafacalou"
+        "url": "threat-library-detail?data=tafacalou"
     },
     {
         "text": "Taidoor (Taidoor, simbot)",
-        "url": "threat-library-detail.html?data=taidoor"
+        "url": "threat-library-detail?data=taidoor"
     },
     {
         "text": "TAINTEDSCRIBE (TAINTEDSCRIBE)",
-        "url": "threat-library-detail.html?data=taintedscribe"
+        "url": "threat-library-detail?data=taintedscribe"
     },
     {
         "text": "TAMECAT (TAMECAT)",
-        "url": "threat-library-detail.html?data=tamecat"
+        "url": "threat-library-detail?data=tamecat"
     },
     {
         "text": "Tapaoux (Tapaoux)",
-        "url": "threat-library-detail.html?data=tapaoux"
+        "url": "threat-library-detail?data=tapaoux"
     },
     {
         "text": "Tarsip (Tarsip)",
-        "url": "threat-library-detail.html?data=tarsip"
+        "url": "threat-library-detail?data=tarsip"
     },
     {
         "text": "Taurus Loader (Taurus Loader, Taurus Builder, Taurus Builder Kit)",
-        "url": "threat-library-detail.html?data=taurus_loader"
+        "url": "threat-library-detail?data=taurus_loader"
     },
     {
         "text": "TAXHAUL (TAXHAUL)",
-        "url": "threat-library-detail.html?data=taxhaul"
+        "url": "threat-library-detail?data=taxhaul"
     },
     {
         "text": "TcpBridge (TcpBridge)",
-        "url": "threat-library-detail.html?data=tcpbridge"
+        "url": "threat-library-detail?data=tcpbridge"
     },
     {
         "text": "TCP Port Scanner (TCP Port Scanner)",
-        "url": "threat-library-detail.html?data=tcp_port_scanner"
+        "url": "threat-library-detail?data=tcp_port_scanner"
     },
     {
         "text": "Tcp_transfer (Tcp_transfer)",
-        "url": "threat-library-detail.html?data=tcp_transfer"
+        "url": "threat-library-detail?data=tcp_transfer"
     },
     {
         "text": "Tdrop (Tdrop)",
-        "url": "threat-library-detail.html?data=tdrop"
+        "url": "threat-library-detail?data=tdrop"
     },
     {
         "text": "Tdrop2 (Tdrop2)",
-        "url": "threat-library-detail.html?data=tdrop2"
+        "url": "threat-library-detail?data=tdrop2"
     },
     {
         "text": "TDTESS (TDTESS)",
-        "url": "threat-library-detail.html?data=tdtess"
+        "url": "threat-library-detail?data=tdtess"
     },
     {
         "text": "TeaBot (TeaBot, Anatsa, Toddler, ReBot)",
-        "url": "threat-library-detail.html?data=teabot"
+        "url": "threat-library-detail?data=teabot"
     },
     {
         "text": "TeamViewer (TeamViewer)",
-        "url": "threat-library-detail.html?data=teamviewer"
+        "url": "threat-library-detail?data=teamviewer"
     },
     {
         "text": "TEARDROP (TEARDROP)",
-        "url": "threat-library-detail.html?data=teardrop"
+        "url": "threat-library-detail?data=teardrop"
     },
     {
         "text": "TechnoCreep (TechnoCreep)",
-        "url": "threat-library-detail.html?data=technocreep"
+        "url": "threat-library-detail?data=technocreep"
     },
     {
         "text": "TeleBot (TeleBot)",
-        "url": "threat-library-detail.html?data=telebot"
+        "url": "threat-library-detail?data=telebot"
     },
     {
         "text": "TeleDoor (TeleDoor)",
-        "url": "threat-library-detail.html?data=teledoor"
+        "url": "threat-library-detail?data=teledoor"
     },
     {
         "text": "Telemiris (Telemiris)",
-        "url": "threat-library-detail.html?data=telemiris"
+        "url": "threat-library-detail?data=telemiris"
     },
     {
         "text": "TelePowerBot (TelePowerBot)",
-        "url": "threat-library-detail.html?data=telepowerbot"
+        "url": "threat-library-detail?data=telepowerbot"
     },
     {
         "text": "Tempting Cedar Spyware (Tempting Cedar Spyware, TemptingCedar Spyware)",
-        "url": "threat-library-detail.html?data=tempting_cedar_spyware"
+        "url": "threat-library-detail?data=tempting_cedar_spyware"
     },
     {
         "text": "TERA (TERA)",
-        "url": "threat-library-detail.html?data=tera"
+        "url": "threat-library-detail?data=tera"
     },
     {
         "text": "Termite (Termite)",
-        "url": "threat-library-detail.html?data=termite"
+        "url": "threat-library-detail?data=termite"
     },
     {
         "text": "Terracotta VPN (Terracotta VPN)",
-        "url": "threat-library-detail.html?data=terracotta_vpn"
+        "url": "threat-library-detail?data=terracotta_vpn"
     },
     {
         "text": "TerraCrypt (TerraCrypt, PureLocker)",
-        "url": "threat-library-detail.html?data=terracrypt"
+        "url": "threat-library-detail?data=terracrypt"
     },
     {
         "text": "TerraPreter (TerraPreter)",
-        "url": "threat-library-detail.html?data=terrapreter"
+        "url": "threat-library-detail?data=terrapreter"
     },
     {
         "text": "TerraRecon (TerraRecon, Taurus Loader Reconnaissance Module)",
-        "url": "threat-library-detail.html?data=terrarecon"
+        "url": "threat-library-detail?data=terrarecon"
     },
     {
         "text": "TerraStealer (TerraStealer, Taurus Loader Stealer Module, StealerOne, SONE)",
-        "url": "threat-library-detail.html?data=terrastealer"
+        "url": "threat-library-detail?data=terrastealer"
     },
     {
         "text": "TerraTV (TerraTV, Taurus Loader TeamViewer Module)",
-        "url": "threat-library-detail.html?data=terratv"
+        "url": "threat-library-detail?data=terratv"
     },
     {
         "text": "TerraWiper (TerraWiper)",
-        "url": "threat-library-detail.html?data=terrawiper"
+        "url": "threat-library-detail?data=terrawiper"
     },
     {
         "text": "TeslaGun (TeslaGun)",
-        "url": "threat-library-detail.html?data=teslagun"
+        "url": "threat-library-detail?data=teslagun"
     },
     {
         "text": "TFlower (TFlower)",
-        "url": "threat-library-detail.html?data=tflower"
+        "url": "threat-library-detail?data=tflower"
     },
     {
         "text": "THC Hydra (THC Hydra)",
-        "url": "threat-library-detail.html?data=thc_hydra"
+        "url": "threat-library-detail?data=thc_hydra"
     },
     {
         "text": "THOR (THOR)",
-        "url": "threat-library-detail.html?data=thor"
+        "url": "threat-library-detail?data=thor"
     },
     {
         "text": "ThreatNeedle (ThreatNeedle)",
-        "url": "threat-library-detail.html?data=threatneedle"
+        "url": "threat-library-detail?data=threatneedle"
     },
     {
         "text": "ThreatKit (ThreatKit)",
-        "url": "threat-library-detail.html?data=threatkit"
+        "url": "threat-library-detail?data=threatkit"
     },
     {
         "text": "THREEBYTE (THREEBYTE)",
-        "url": "threat-library-detail.html?data=threebyte"
+        "url": "threat-library-detail?data=threebyte"
     },
     {
         "text": "ThreeDollars (ThreeDollars)",
-        "url": "threat-library-detail.html?data=threedollars"
+        "url": "threat-library-detail?data=threedollars"
     },
     {
         "text": "TidePool (TidePool)",
-        "url": "threat-library-detail.html?data=tidepool"
+        "url": "threat-library-detail?data=tidepool"
     },
     {
         "text": "TIDYELF (TIDYELF)",
-        "url": "threat-library-detail.html?data=tidyelf"
+        "url": "threat-library-detail?data=tidyelf"
     },
     {
         "text": "TigerRAT (TigerRAT, Tiger RAT)",
-        "url": "threat-library-detail.html?data=tigerrat"
+        "url": "threat-library-detail?data=tigerrat"
     },
     {
         "text": "Tinba (Tinba, Tiny Banker, TinyBanker, Tina, Illi, Zusy)",
-        "url": "threat-library-detail.html?data=tinba"
+        "url": "threat-library-detail?data=tinba"
     },
     {
         "text": "TinyCryptor (TinyCryptor)",
-        "url": "threat-library-detail.html?data=tinycryptor"
+        "url": "threat-library-detail?data=tinycryptor"
     },
     {
         "text": "TinyLoader (TinyLoader)",
-        "url": "threat-library-detail.html?data=tinyloader"
+        "url": "threat-library-detail?data=tinyloader"
     },
     {
         "text": "TinyMet (TinyMet, TiniMet)",
-        "url": "threat-library-detail.html?data=tinymet"
+        "url": "threat-library-detail?data=tinymet"
     },
     {
         "text": "TinyNode (TinyNode)",
-        "url": "threat-library-detail.html?data=tinynode"
+        "url": "threat-library-detail?data=tinynode"
     },
     {
         "text": "TinyNote (TinyNote)",
-        "url": "threat-library-detail.html?data=tinynote"
+        "url": "threat-library-detail?data=tinynote"
     },
     {
         "text": "TinyPOS (TinyPOS)",
-        "url": "threat-library-detail.html?data=tinypos"
+        "url": "threat-library-detail?data=tinypos"
     },
     {
         "text": "TinyPosh (TinyPosh)",
-        "url": "threat-library-detail.html?data=tinyposh"
+        "url": "threat-library-detail?data=tinyposh"
     },
     {
         "text": "Tiny SHell (Tiny SHell, tsh)",
-        "url": "threat-library-detail.html?data=tiny_shell"
+        "url": "threat-library-detail?data=tiny_shell"
     },
     {
         "text": "TinyTurla (TinyTurla)",
-        "url": "threat-library-detail.html?data=tinyturla"
+        "url": "threat-library-detail?data=tinyturla"
     },
     {
         "text": "TINYTYPHON (TINYTYPHON)",
-        "url": "threat-library-detail.html?data=tinytyphon"
+        "url": "threat-library-detail?data=tinytyphon"
     },
     {
         "text": "TinyZBot (TinyZBot)",
-        "url": "threat-library-detail.html?data=tinyzbot"
+        "url": "threat-library-detail?data=tinyzbot"
     },
     {
         "text": "Titanium (Titanium)",
-        "url": "threat-library-detail.html?data=titanium"
+        "url": "threat-library-detail?data=titanium"
     },
     {
         "text": "TManger (TManger, LuckyBack)",
-        "url": "threat-library-detail.html?data=tmanger"
+        "url": "threat-library-detail?data=tmanger"
     },
     {
         "text": "Tofu Backdoor (Tofu Backdoor)",
-        "url": "threat-library-detail.html?data=tofu_backdoor"
+        "url": "threat-library-detail?data=tofu_backdoor"
     },
     {
         "text": "TOITOIN (TOITOIN)",
-        "url": "threat-library-detail.html?data=toitoin"
+        "url": "threat-library-detail?data=toitoin"
     },
     {
         "text": "Tomiris (Tomiris)",
-        "url": "threat-library-detail.html?data=tomiris"
+        "url": "threat-library-detail?data=tomiris"
     },
     {
         "text": "TOM-Skype (TOM-Skype)",
-        "url": "threat-library-detail.html?data=tom-skype"
+        "url": "threat-library-detail?data=tom-skype"
     },
     {
         "text": "TONEDEAF (TONEDEAF)",
-        "url": "threat-library-detail.html?data=tonedeaf"
+        "url": "threat-library-detail?data=tonedeaf"
     },
     {
         "text": "TONEDEAF 2.0 (TONEDEAF 2.0)",
-        "url": "threat-library-detail.html?data=tonedeaf_2.0"
+        "url": "threat-library-detail?data=tonedeaf_2.0"
     },
     {
         "text": "TONEINS (TONEINS)",
-        "url": "threat-library-detail.html?data=toneins"
+        "url": "threat-library-detail?data=toneins"
     },
     {
         "text": "TONESHELL (TONESHELL)",
-        "url": "threat-library-detail.html?data=toneshell"
+        "url": "threat-library-detail?data=toneshell"
     },
     {
         "text": "Tonnerre (Tonnerre)",
-        "url": "threat-library-detail.html?data=tonnerre"
+        "url": "threat-library-detail?data=tonnerre"
     },
     {
         "text": "Topinambour (Topinambour)",
-        "url": "threat-library-detail.html?data=topinambour"
+        "url": "threat-library-detail?data=topinambour"
     },
     {
         "text": "Torn RAT (Torn RAT)",
-        "url": "threat-library-detail.html?data=torn_rat"
+        "url": "threat-library-detail?data=torn_rat"
     },
     {
         "text": "TOUCHKEY (TOUCHKEY)",
-        "url": "threat-library-detail.html?data=touchkey"
+        "url": "threat-library-detail?data=touchkey"
     },
     {
         "text": "TOUCHMOVE (TOUCHMOVE)",
-        "url": "threat-library-detail.html?data=touchmove"
+        "url": "threat-library-detail?data=touchmove"
     },
     {
         "text": "TOUCHSHIFT (TOUCHSHIFT)",
-        "url": "threat-library-detail.html?data=touchshift"
+        "url": "threat-library-detail?data=touchshift"
     },
     {
         "text": "TOUCHSHOT (TOUCHSHOT)",
-        "url": "threat-library-detail.html?data=touchshot"
+        "url": "threat-library-detail?data=touchshot"
     },
     {
         "text": "TrailBlazer (TrailBlazer)",
-        "url": "threat-library-detail.html?data=trailblazer"
+        "url": "threat-library-detail?data=trailblazer"
     },
     {
         "text": "TreasureHunter (TreasureHunter, TREASUREHUNT, huntpos)",
-        "url": "threat-library-detail.html?data=treasurehunter"
+        "url": "threat-library-detail?data=treasurehunter"
     },
     {
         "text": "TriangleDB (TriangleDB)",
-        "url": "threat-library-detail.html?data=triangledb"
+        "url": "threat-library-detail?data=triangledb"
     },
     {
         "text": "TrickMo (TrickMo)",
-        "url": "threat-library-detail.html?data=trickmo"
+        "url": "threat-library-detail?data=trickmo"
     },
     {
         "text": "TRIPLEFANTASY (TRIPLEFANTASY)",
-        "url": "threat-library-detail.html?data=triplefantasy"
+        "url": "threat-library-detail?data=triplefantasy"
     },
     {
         "text": "Triton (Triton, TRITON, Trisis, TRISIS, HatMan)",
-        "url": "threat-library-detail.html?data=triton"
+        "url": "threat-library-detail?data=triton"
     },
     {
         "text": "TriFive (TriFive)",
-        "url": "threat-library-detail.html?data=trifive"
+        "url": "threat-library-detail?data=trifive"
     },
     {
         "text": "Trochilus RAT (Trochilus RAT)",
-        "url": "threat-library-detail.html?data=trochilus_rat"
+        "url": "threat-library-detail?data=trochilus_rat"
     },
     {
         "text": "Troy (Troy)",
-        "url": "threat-library-detail.html?data=troy"
+        "url": "threat-library-detail?data=troy"
     },
     {
         "text": "Truvasys (Truvasys)",
-        "url": "threat-library-detail.html?data=truvasys"
+        "url": "threat-library-detail?data=truvasys"
     },
     {
         "text": "TTCalc (TTCalc)",
-        "url": "threat-library-detail.html?data=ttcalc"
+        "url": "threat-library-detail?data=ttcalc"
     },
     {
         "text": "Tunnus (Tunnus, QUIETCANARY)",
-        "url": "threat-library-detail.html?data=tunnus"
+        "url": "threat-library-detail?data=tunnus"
     },
     {
         "text": "Turian (Turian)",
-        "url": "threat-library-detail.html?data=turian"
+        "url": "threat-library-detail?data=turian"
     },
     {
         "text": "TurlaChopper (TurlaChopper)",
-        "url": "threat-library-detail.html?data=turlachopper"
+        "url": "threat-library-detail?data=turlachopper"
     },
     {
         "text": "TURNEDUP (TURNEDUP, Notestuk)",
-        "url": "threat-library-detail.html?data=turnedup"
+        "url": "threat-library-detail?data=turnedup"
     },
     {
         "text": "TwoFace (TwoFace, Minion, HighShell, HyperShell, SEASHARPEE)",
-        "url": "threat-library-detail.html?data=twoface"
+        "url": "threat-library-detail?data=twoface"
     },
     {
         "text": "TypeConfig (TypeConfig, SafeDisk)",
-        "url": "threat-library-detail.html?data=typeconfig"
+        "url": "threat-library-detail?data=typeconfig"
     },
     {
         "text": "TYPEFRAME (TYPEFRAME)",
-        "url": "threat-library-detail.html?data=typeframe"
+        "url": "threat-library-detail?data=typeframe"
     },
     {
         "text": "Tyupkin (Tyupkin, Padpin)",
-        "url": "threat-library-detail.html?data=tyupkin"
+        "url": "threat-library-detail?data=tyupkin"
     },
     {
         "text": "UDPoS (UDPoS)",
-        "url": "threat-library-detail.html?data=udpos"
+        "url": "threat-library-detail?data=udpos"
     },
     {
         "text": "UltraVNC (UltraVNC)",
-        "url": "threat-library-detail.html?data=ultravnc"
+        "url": "threat-library-detail?data=ultravnc"
     },
     {
         "text": "Underground (Underground)",
-        "url": "threat-library-detail.html?data=underground"
+        "url": "threat-library-detail?data=underground"
     },
     {
         "text": "UNITEDRAKE (UNITEDRAKE)",
-        "url": "threat-library-detail.html?data=unitedrake"
+        "url": "threat-library-detail?data=unitedrake"
     },
     {
         "text": "Unknown Logger (Unknown Logger)",
-        "url": "threat-library-detail.html?data=unknown_logger"
+        "url": "threat-library-detail?data=unknown_logger"
     },
     {
         "text": "Upatre (Upatre)",
-        "url": "threat-library-detail.html?data=upatre"
+        "url": "threat-library-detail?data=upatre"
     },
     {
         "text": "updater.mod (updater.mod)",
-        "url": "threat-library-detail.html?data=updater.mod"
+        "url": "threat-library-detail?data=updater.mod"
     },
     {
         "text": "UPDATESEE (UPDATESEE)",
-        "url": "threat-library-detail.html?data=updatesee"
+        "url": "threat-library-detail?data=updatesee"
     },
     {
         "text": "UpDocX (UpDocX)",
-        "url": "threat-library-detail.html?data=updocx"
+        "url": "threat-library-detail?data=updocx"
     },
     {
         "text": "UPXShell (UPXShell)",
-        "url": "threat-library-detail.html?data=upxshell"
+        "url": "threat-library-detail?data=upxshell"
     },
     {
         "text": "URLZone (URLZone, Bebloh, Shiotob)",
-        "url": "threat-library-detail.html?data=urlzone"
+        "url": "threat-library-detail?data=urlzone"
     },
     {
         "text": "Uroburos (Uroburos, Urouros, Turla, Snake)",
-        "url": "threat-library-detail.html?data=uroburos"
+        "url": "threat-library-detail?data=uroburos"
     },
     {
         "text": "USBCulprit (USBCulprit)",
-        "url": "threat-library-detail.html?data=usbculprit"
+        "url": "threat-library-detail?data=usbculprit"
     },
     {
         "text": "UsbDoc (UsbDoc)",
-        "url": "threat-library-detail.html?data=usbdoc"
+        "url": "threat-library-detail?data=usbdoc"
     },
     {
         "text": "UsbExe (UsbExe)",
-        "url": "threat-library-detail.html?data=usbexe"
+        "url": "threat-library-detail?data=usbexe"
     },
     {
         "text": "USBferry (USBferry)",
-        "url": "threat-library-detail.html?data=usbferry"
+        "url": "threat-library-detail?data=usbferry"
     },
     {
         "text": "USBStealer (USBStealer, Win32/USBStealer, USB Stealer)",
-        "url": "threat-library-detail.html?data=usbstealer"
+        "url": "threat-library-detail?data=usbstealer"
     },
     {
         "text": "USBWorm (USBWorm)",
-        "url": "threat-library-detail.html?data=usbworm"
+        "url": "threat-library-detail?data=usbworm"
     },
     {
         "text": "Valak (Valak, Valek)",
-        "url": "threat-library-detail.html?data=valak"
+        "url": "threat-library-detail?data=valak"
     },
     {
         "text": "ValeforBeta (ValeforBeta)",
-        "url": "threat-library-detail.html?data=valeforbeta"
+        "url": "threat-library-detail?data=valeforbeta"
     },
     {
         "text": "VALUEVAULT (VALUEVAULT)",
-        "url": "threat-library-detail.html?data=valuevault"
+        "url": "threat-library-detail?data=valuevault"
     },
     {
         "text": "VAMP (VAMP, android.micropsia)",
-        "url": "threat-library-detail.html?data=vamp"
+        "url": "threat-library-detail?data=vamp"
     },
     {
         "text": "Vasport (Vasport)",
-        "url": "threat-library-detail.html?data=vasport"
+        "url": "threat-library-detail?data=vasport"
     },
     {
         "text": "Vatet (Vatet)",
-        "url": "threat-library-detail.html?data=vatet"
+        "url": "threat-library-detail?data=vatet"
     },
     {
         "text": "Vawtrak (Vawtrak, Catch, grabnew, NeverQuest)",
-        "url": "threat-library-detail.html?data=vawtrak"
+        "url": "threat-library-detail?data=vawtrak"
     },
     {
         "text": "VBREVSHELL (VBREVSHELL)",
-        "url": "threat-library-detail.html?data=vbrevshell"
+        "url": "threat-library-detail?data=vbrevshell"
     },
     {
         "text": "VBShower (VBShower)",
-        "url": "threat-library-detail.html?data=vbshower"
+        "url": "threat-library-detail?data=vbshower"
     },
     {
         "text": "Vcrodat (Vcrodat)",
-        "url": "threat-library-detail.html?data=vcrodat"
+        "url": "threat-library-detail?data=vcrodat"
     },
     {
         "text": "Veil (Veil)",
-        "url": "threat-library-detail.html?data=veil"
+        "url": "threat-library-detail?data=veil"
     },
     {
         "text": "VEILEDSIGNAL (VEILEDSIGNAL)",
-        "url": "threat-library-detail.html?data=veiledsignal"
+        "url": "threat-library-detail?data=veiledsignal"
     },
     {
         "text": "VENOMBITE (VENOMBITE)",
-        "url": "threat-library-detail.html?data=venombite"
+        "url": "threat-library-detail?data=venombite"
     },
     {
         "text": "VenomKit (VenomKit)",
-        "url": "threat-library-detail.html?data=venomkit"
+        "url": "threat-library-detail?data=venomkit"
     },
     {
         "text": "VenomLNK (VenomLNK)",
-        "url": "threat-library-detail.html?data=venomlnk"
+        "url": "threat-library-detail?data=venomlnk"
     },
     {
         "text": "VenomRAT (VenomRAT)",
-        "url": "threat-library-detail.html?data=venomrat"
+        "url": "threat-library-detail?data=venomrat"
     },
     {
         "text": "VHD (VHD, VHD Ransomware)",
-        "url": "threat-library-detail.html?data=vhd"
+        "url": "threat-library-detail?data=vhd"
     },
     {
         "text": "ViceLeaker (ViceLeaker, Triout)",
-        "url": "threat-library-detail.html?data=viceleaker"
+        "url": "threat-library-detail?data=viceleaker"
     },
     {
         "text": "VIDEOKILLER (VIDEOKILLER)",
-        "url": "threat-library-detail.html?data=videokiller"
+        "url": "threat-library-detail?data=videokiller"
     },
     {
         "text": "VileRAT (VileRAT)",
-        "url": "threat-library-detail.html?data=vilerat"
+        "url": "threat-library-detail?data=vilerat"
     },
     {
         "text": "VINETHORN (VINETHORN)",
-        "url": "threat-library-detail.html?data=vinethorn"
+        "url": "threat-library-detail?data=vinethorn"
     },
     {
         "text": "Violet Lambert (Violet Lambert)",
-        "url": "threat-library-detail.html?data=violet_lambert"
+        "url": "threat-library-detail?data=violet_lambert"
     },
     {
         "text": "Viper (Viper)",
-        "url": "threat-library-detail.html?data=viper"
+        "url": "threat-library-detail?data=viper"
     },
     {
         "text": "ViperRAT (ViperRAT, Viper RAT)",
-        "url": "threat-library-detail.html?data=viperrat"
+        "url": "threat-library-detail?data=viperrat"
     },
     {
         "text": "Vizom (Vizom)",
-        "url": "threat-library-detail.html?data=vizom"
+        "url": "threat-library-detail?data=vizom"
     },
     {
         "text": "Vminst (Vminst)",
-        "url": "threat-library-detail.html?data=vminst"
+        "url": "threat-library-detail?data=vminst"
     },
     {
         "text": "VNC (VNC, Virtual Network Computing)",
-        "url": "threat-library-detail.html?data=vnc"
+        "url": "threat-library-detail?data=vnc"
     },
     {
         "text": "Voice Massege.apk (Voice Massege.apk)",
-        "url": "threat-library-detail.html?data=voice_massege.apk"
+        "url": "threat-library-detail?data=voice_massege.apk"
     },
     {
         "text": "Volgmer (Volgmer, Manuscrypt)",
-        "url": "threat-library-detail.html?data=volgmer"
+        "url": "threat-library-detail?data=volgmer"
     },
     {
         "text": "VolatileVenom (VolatileVenom)",
-        "url": "threat-library-detail.html?data=volatilevenom"
+        "url": "threat-library-detail?data=volatilevenom"
     },
     {
         "text": "VPNFilter (VPNFilter)",
-        "url": "threat-library-detail.html?data=vpnfilter"
+        "url": "threat-library-detail?data=vpnfilter"
     },
     {
         "text": "VSingle (VSingle)",
-        "url": "threat-library-detail.html?data=vsingle"
+        "url": "threat-library-detail?data=vsingle"
     },
     {
         "text": "vSkimmer (vSkimmer)",
-        "url": "threat-library-detail.html?data=vskimmer"
+        "url": "threat-library-detail?data=vskimmer"
     },
     {
         "text": "Vyveva (Vyveva)",
-        "url": "threat-library-detail.html?data=vyveva"
+        "url": "threat-library-detail?data=vyveva"
     },
     {
         "text": "w32times (w32times)",
-        "url": "threat-library-detail.html?data=w32times"
+        "url": "threat-library-detail?data=w32times"
     },
     {
         "text": "Wadhrama (Wadhrama)",
-        "url": "threat-library-detail.html?data=wadhrama"
+        "url": "threat-library-detail?data=wadhrama"
     },
     {
         "text": "Waizsar RAT (Waizsar RAT)",
-        "url": "threat-library-detail.html?data=waizsar_rat"
+        "url": "threat-library-detail?data=waizsar_rat"
     },
     {
         "text": "WannaCry (WannaCry, WannaCrypt, WannaCryptor, Wcry, WanaCry, WanaCrypt, WanaCrypt0r, Wana Decrypt0r)",
-        "url": "threat-library-detail.html?data=wannacry"
+        "url": "threat-library-detail?data=wannacry"
     },
     {
         "text": "WARP (WARP)",
-        "url": "threat-library-detail.html?data=warp"
+        "url": "threat-library-detail?data=warp"
     },
     {
         "text": "WARPRISM (WARPRISM)",
-        "url": "threat-library-detail.html?data=warprism"
+        "url": "threat-library-detail?data=warprism"
     },
     {
         "text": "Warzone RAT (Warzone RAT, Warzone)",
-        "url": "threat-library-detail.html?data=warzone_rat"
+        "url": "threat-library-detail?data=warzone_rat"
     },
     {
         "text": "WastedLoader (WastedLoader)",
-        "url": "threat-library-detail.html?data=wastedloader"
+        "url": "threat-library-detail?data=wastedloader"
     },
     {
         "text": "WaterSpout (WaterSpout)",
-        "url": "threat-library-detail.html?data=waterspout"
+        "url": "threat-library-detail?data=waterspout"
     },
     {
         "text": "WbBot (WbBot)",
-        "url": "threat-library-detail.html?data=wbbot"
+        "url": "threat-library-detail?data=wbbot"
     },
     {
         "text": "WebBrowserPassView (WebBrowserPassView)",
-        "url": "threat-library-detail.html?data=webbrowserpassview"
+        "url": "threat-library-detail?data=webbrowserpassview"
     },
     {
         "text": "WebC2 (WebC2, WebC2-AdSpace, WebC2-Ausov, WebC2-Bolid, WebC2-Cson, WebC2-DIV, WebC2-GreenCat, WebC2-Head, WebC2-Kt3, WebC2-Qbp, WebC2-Rave, WebC2-Table, WebC2-UGX, WebC2-Yahoo)",
-        "url": "threat-library-detail.html?data=webc2"
+        "url": "threat-library-detail?data=webc2"
     },
     {
         "text": "Webmask (Webmask)",
-        "url": "threat-library-detail.html?data=webmask"
+        "url": "threat-library-detail?data=webmask"
     },
     {
         "text": "WellMess (WellMess, elf.wellmess)",
-        "url": "threat-library-detail.html?data=wellmess"
+        "url": "threat-library-detail?data=wellmess"
     },
     {
         "text": "WHEATSCAN (WHEATSCAN)",
-        "url": "threat-library-detail.html?data=wheatscan"
+        "url": "threat-library-detail?data=wheatscan"
     },
     {
         "text": "WhiskerSpy (WhiskerSpy)",
-        "url": "threat-library-detail.html?data=whiskerspy"
+        "url": "threat-library-detail?data=whiskerspy"
     },
     {
         "text": "Whisky (Whisky)",
-        "url": "threat-library-detail.html?data=whisky"
+        "url": "threat-library-detail?data=whisky"
     },
     {
         "text": "WhiteAtlas (WhiteAtlas)",
-        "url": "threat-library-detail.html?data=whiteatlas"
+        "url": "threat-library-detail?data=whiteatlas"
     },
     {
         "text": "Whitebird (Whitebird)",
-        "url": "threat-library-detail.html?data=whitebird"
+        "url": "threat-library-detail?data=whitebird"
     },
     {
         "text": "White Lambert (White Lambert)",
-        "url": "threat-library-detail.html?data=white_lambert"
+        "url": "threat-library-detail?data=white_lambert"
     },
     {
         "text": "Wiarp (Wiarp)",
-        "url": "threat-library-detail.html?data=wiarp"
+        "url": "threat-library-detail?data=wiarp"
     },
     {
         "text": "WIDETONE (WIDETONE)",
-        "url": "threat-library-detail.html?data=widetone"
+        "url": "threat-library-detail?data=widetone"
     },
     {
         "text": "Wii (Wii)",
-        "url": "threat-library-detail.html?data=wii"
+        "url": "threat-library-detail?data=wii"
     },
     {
         "text": "Windows Credentials Editor (Windows Credentials Editor, Windows Credential Editor, WCE)",
-        "url": "threat-library-detail.html?data=windows_credentials_editor"
+        "url": "threat-library-detail?data=windows_credentials_editor"
     },
     {
         "text": "WindTail (WindTail)",
-        "url": "threat-library-detail.html?data=windtail"
+        "url": "threat-library-detail?data=windtail"
     },
     {
         "text": "WINERACK (WINERACK)",
-        "url": "threat-library-detail.html?data=winerack"
+        "url": "threat-library-detail?data=winerack"
     },
     {
         "text": "Winexe (Winexe)",
-        "url": "threat-library-detail.html?data=winexe"
+        "url": "threat-library-detail?data=winexe"
     },
     {
         "text": "Wingbird (Wingbird)",
-        "url": "threat-library-detail.html?data=wingbird"
+        "url": "threat-library-detail?data=wingbird"
     },
     {
         "text": "WINGCRACK (WINGCRACK)",
-        "url": "threat-library-detail.html?data=wingcrack"
+        "url": "threat-library-detail?data=wingcrack"
     },
     {
         "text": "WINGHOOK (WINGHOOK)",
-        "url": "threat-library-detail.html?data=winghook"
+        "url": "threat-library-detail?data=winghook"
     },
     {
         "text": "WinIDS (WinIDS)",
-        "url": "threat-library-detail.html?data=winids"
+        "url": "threat-library-detail?data=winids"
     },
     {
         "text": "WinMM (WinMM)",
-        "url": "threat-library-detail.html?data=winmm"
+        "url": "threat-library-detail?data=winmm"
     },
     {
         "text": "WINNKIT (WINNKIT)",
-        "url": "threat-library-detail.html?data=winnkit"
+        "url": "threat-library-detail?data=winnkit"
     },
     {
         "text": "WinorDLL64 (WinorDLL64)",
-        "url": "threat-library-detail.html?data=winordll64"
+        "url": "threat-library-detail?data=winordll64"
     },
     {
         "text": "WinPot (WinPot, ATMPot)",
-        "url": "threat-library-detail.html?data=winpot"
+        "url": "threat-library-detail?data=winpot"
     },
     {
         "text": "WinRAR (WinRAR)",
-        "url": "threat-library-detail.html?data=winrar"
+        "url": "threat-library-detail?data=winrar"
     },
     {
         "text": "WinSCP (WinSCP)",
-        "url": "threat-library-detail.html?data=winscp"
+        "url": "threat-library-detail?data=winscp"
     },
     {
         "text": "Winsloader (Winsloader)",
-        "url": "threat-library-detail.html?data=winsloader"
+        "url": "threat-library-detail?data=winsloader"
     },
     {
         "text": "WINTERLOVE (WINTERLOVE)",
-        "url": "threat-library-detail.html?data=winterlove"
+        "url": "threat-library-detail?data=winterlove"
     },
     {
         "text": "WispRider (WispRider)",
-        "url": "threat-library-detail.html?data=wisprider"
+        "url": "threat-library-detail?data=wisprider"
     },
     {
         "text": "WinZip (WinZip)",
-        "url": "threat-library-detail.html?data=winzip"
+        "url": "threat-library-detail?data=winzip"
     },
     {
         "text": "WIPERIGHT (WIPERIGHT)",
-        "url": "threat-library-detail.html?data=wiperight"
+        "url": "threat-library-detail?data=wiperight"
     },
     {
         "text": "WITCHCOVEN (WITCHCOVEN)",
-        "url": "threat-library-detail.html?data=witchcoven"
+        "url": "threat-library-detail?data=witchcoven"
     },
     {
         "text": "WmiExec (WmiExec)",
-        "url": "threat-library-detail.html?data=wmiexec"
+        "url": "threat-library-detail?data=wmiexec"
     },
     {
         "text": "WMI Ghost (WMI Ghost, Wimmie, Syndicasec)",
-        "url": "threat-library-detail.html?data=wmi_ghost"
+        "url": "threat-library-detail?data=wmi_ghost"
     },
     {
         "text": "WndTest (WndTest)",
-        "url": "threat-library-detail.html?data=wndtest"
+        "url": "threat-library-detail?data=wndtest"
     },
     {
         "text": "WolfRAT (WolfRAT, W1_RAT)",
-        "url": "threat-library-detail.html?data=wolfrat"
+        "url": "threat-library-detail?data=wolfrat"
     },
     {
         "text": "Wormhole (Wormhole)",
-        "url": "threat-library-detail.html?data=wormhole"
+        "url": "threat-library-detail?data=wormhole"
     },
     {
         "text": "Wpscan (Wpscan)",
-        "url": "threat-library-detail.html?data=wpscan"
+        "url": "threat-library-detail?data=wpscan"
     },
     {
         "text": "WSCSPL (WSCSPL)",
-        "url": "threat-library-detail.html?data=wscspl"
+        "url": "threat-library-detail?data=wscspl"
     },
     {
         "text": "WSO (WSO, Webshell by Orb)",
-        "url": "threat-library-detail.html?data=wso"
+        "url": "threat-library-detail?data=wso"
     },
     {
         "text": "WyrmSpy (WyrmSpy)",
-        "url": "threat-library-detail.html?data=wyrmspy"
+        "url": "threat-library-detail?data=wyrmspy"
     },
     {
         "text": "Xbash (Xbash)",
-        "url": "threat-library-detail.html?data=xbash"
+        "url": "threat-library-detail?data=xbash"
     },
     {
         "text": "XBOT-POS (XBOT-POS, XBot POS)",
-        "url": "threat-library-detail.html?data=xbot-pos"
+        "url": "threat-library-detail?data=xbot-pos"
     },
     {
         "text": "XBOW (XBOW)",
-        "url": "threat-library-detail.html?data=xbow"
+        "url": "threat-library-detail?data=xbow"
     },
     {
         "text": "XDDown (XDDown)",
-        "url": "threat-library-detail.html?data=xddown"
+        "url": "threat-library-detail?data=xddown"
     },
     {
         "text": "xDll (xDll)",
-        "url": "threat-library-detail.html?data=xdll"
+        "url": "threat-library-detail?data=xdll"
     },
     {
         "text": "XDOOR (XDOOR, X-Door)",
-        "url": "threat-library-detail.html?data=xdoor"
+        "url": "threat-library-detail?data=xdoor"
     },
     {
         "text": "XDList (XDList)",
-        "url": "threat-library-detail.html?data=xdlist"
+        "url": "threat-library-detail?data=xdlist"
     },
     {
         "text": "XDLoc (XDLoc)",
-        "url": "threat-library-detail.html?data=xdloc"
+        "url": "threat-library-detail?data=xdloc"
     },
     {
         "text": "XDMonitor (XDMonitor)",
-        "url": "threat-library-detail.html?data=xdmonitor"
+        "url": "threat-library-detail?data=xdmonitor"
     },
     {
         "text": "XDPass (XDPass)",
-        "url": "threat-library-detail.html?data=xdpass"
+        "url": "threat-library-detail?data=xdpass"
     },
     {
         "text": "XDRecon (XDRecon)",
-        "url": "threat-library-detail.html?data=xdrecon"
+        "url": "threat-library-detail?data=xdrecon"
     },
     {
         "text": "XDUpload (XDUpload)",
-        "url": "threat-library-detail.html?data=xdupload"
+        "url": "threat-library-detail?data=xdupload"
     },
     {
         "text": "xfs-disp.exe (xfs-disp.exe)",
-        "url": "threat-library-detail.html?data=xfs-disp.exe"
+        "url": "threat-library-detail?data=xfs-disp.exe"
     },
     {
         "text": "xPack (xPack, NERAPACK)",
-        "url": "threat-library-detail.html?data=xpack"
+        "url": "threat-library-detail?data=xpack"
     },
     {
         "text": "xRAT (xRAT)",
-        "url": "threat-library-detail.html?data=xrat"
+        "url": "threat-library-detail?data=xrat"
     },
     {
         "text": "XServer (XServer, Filesnfer)",
-        "url": "threat-library-detail.html?data=xserver"
+        "url": "threat-library-detail?data=xserver"
     },
     {
         "text": "XSLCmd (XSLCmd)",
-        "url": "threat-library-detail.html?data=xslcmd"
+        "url": "threat-library-detail?data=xslcmd"
     },
     {
         "text": "xsPlus (xsPlus, xsControl, nokian)",
-        "url": "threat-library-detail.html?data=xsplus"
+        "url": "threat-library-detail?data=xsplus"
     },
     {
         "text": "XtremeRAT (XtremeRAT, Xtreme RAT, ExtRat)",
-        "url": "threat-library-detail.html?data=xtremerat"
+        "url": "threat-library-detail?data=xtremerat"
     },
     {
         "text": "X-Tunnel (X-Tunnel, XTunnel, Shunnael, Trojan.Shunnael, XAPS)",
-        "url": "threat-library-detail.html?data=x-tunnel"
+        "url": "threat-library-detail?data=x-tunnel"
     },
     {
         "text": "Yahoyah (Yahoyah, W32/Seeav)",
-        "url": "threat-library-detail.html?data=yahoyah"
+        "url": "threat-library-detail?data=yahoyah"
     },
     {
         "text": "YamaBot (YamaBot, Kaos)",
-        "url": "threat-library-detail.html?data=yamabot"
+        "url": "threat-library-detail?data=yamabot"
     },
     {
         "text": "Yispecter (Yispecter, ZxxZ)",
-        "url": "threat-library-detail.html?data=yispecter"
+        "url": "threat-library-detail?data=yispecter"
     },
     {
         "text": "Yort (Yort)",
-        "url": "threat-library-detail.html?data=yort"
+        "url": "threat-library-detail?data=yort"
     },
     {
         "text": "yty (yty, Jaca)",
-        "url": "threat-library-detail.html?data=yty"
+        "url": "threat-library-detail?data=yty"
     },
     {
         "text": "ZAP (ZAP)",
-        "url": "threat-library-detail.html?data=zap"
+        "url": "threat-library-detail?data=zap"
     },
     {
         "text": "Zebrocy (Zebrocy, Zekapab)",
-        "url": "threat-library-detail.html?data=zebrocy"
+        "url": "threat-library-detail?data=zebrocy"
     },
     {
         "text": "ZeGhost (ZeGhost, BackDoor-FBZT!52D84425CDF2, Trojan.Win32.Staser.ytq, Win32/Zegost.BW)",
-        "url": "threat-library-detail.html?data=zeghost"
+        "url": "threat-library-detail?data=zeghost"
     },
     {
         "text": "ZE Loader (ZE Loader)",
-        "url": "threat-library-detail.html?data=ze_loader"
+        "url": "threat-library-detail?data=ze_loader"
     },
     {
         "text": "ZeroT (ZeroT)",
-        "url": "threat-library-detail.html?data=zerot"
+        "url": "threat-library-detail?data=zerot"
     },
     {
         "text": "Zeus OpenSSL (Zeus OpenSSL, Zeus Sphinx, XSphinx)",
-        "url": "threat-library-detail.html?data=zeus_openssl"
+        "url": "threat-library-detail?data=zeus_openssl"
     },
     {
         "text": "Zeus Panda (Zeus Panda, ZeusPanda, PandaBanker)",
-        "url": "threat-library-detail.html?data=zeus_panda"
+        "url": "threat-library-detail?data=zeus_panda"
     },
     {
         "text": "ZeusPOS (ZeusPOS)",
-        "url": "threat-library-detail.html?data=zeuspos"
+        "url": "threat-library-detail?data=zeuspos"
     },
     {
         "text": "ZeusVM (ZeusVM, VM Zeus, VMzeus, Zberp)",
-        "url": "threat-library-detail.html?data=zeusvm"
+        "url": "threat-library-detail?data=zeusvm"
     },
     {
         "text": "zhCat (zhCat)",
-        "url": "threat-library-detail.html?data=zhcat"
+        "url": "threat-library-detail?data=zhcat"
     },
     {
         "text": "zhMimikatz (zhMimikatz)",
-        "url": "threat-library-detail.html?data=zhmimikatz"
+        "url": "threat-library-detail?data=zhmimikatz"
     },
     {
         "text": "ZitMo (ZitMo, ZeuS-in-the-Mobile)",
-        "url": "threat-library-detail.html?data=zitmo"
+        "url": "threat-library-detail?data=zitmo"
     },
     {
         "text": "zl4vq.sqt (zl4vq.sqt)",
-        "url": "threat-library-detail.html?data=zl4vq.sqt"
+        "url": "threat-library-detail?data=zl4vq.sqt"
     },
     {
         "text": "ZMsg (ZMsg)",
-        "url": "threat-library-detail.html?data=zmsg"
+        "url": "threat-library-detail?data=zmsg"
     },
     {
         "text": "ZooPark (ZooPark)",
-        "url": "threat-library-detail.html?data=zoopark"
+        "url": "threat-library-detail?data=zoopark"
     },
     {
         "text": "ZoxRPC (ZoxRPC, Gresim)",
-        "url": "threat-library-detail.html?data=zoxrpc"
+        "url": "threat-library-detail?data=zoxrpc"
     },
     {
         "text": "XPCTRA (XPCTRA, Expectra)",
-        "url": "threat-library-detail.html?data=xpctra"
+        "url": "threat-library-detail?data=xpctra"
     },
     {
         "text": "ZPP (ZPP)",
-        "url": "threat-library-detail.html?data=zpp"
+        "url": "threat-library-detail?data=zpp"
     },
     {
         "text": "ZUMKONG (ZUMKONG)",
-        "url": "threat-library-detail.html?data=zumkong"
+        "url": "threat-library-detail?data=zumkong"
     },
     {
         "text": "Zupdax (Zupdax)",
-        "url": "threat-library-detail.html?data=zupdax"
+        "url": "threat-library-detail?data=zupdax"
     },
     {
         "text": "zwShell (zwShell)",
-        "url": "threat-library-detail.html?data=zwshell"
+        "url": "threat-library-detail?data=zwshell"
     },
     {
         "text": "ZXPortMap (ZXPortMap)",
-        "url": "threat-library-detail.html?data=zxportmap"
+        "url": "threat-library-detail?data=zxportmap"
     },
     {
         "text": "ZXShell (ZXShell, Sensocode)",
-        "url": "threat-library-detail.html?data=zxshell"
+        "url": "threat-library-detail?data=zxshell"
     }
 ];
