@@ -252,12 +252,12 @@ method:
                 // Articles Tab
                 const articlesContainer = document.getElementById('articlesContainer');
 
-                if(threatdata['articles'].length > 0) {
+                if (threatdata && threatdata['articles'] && threatdata['articles'].length > 0) {
                     var title_newsarticle = document.getElementById('title_newsarticle');
                     title_newsarticle.innerHTML = 'News Article (Credit @<a href="https://malpedia.caad.fkie.fraunhofer.de/">Malpedia</a>)';
                 }
 
-            // Iterate through each article in the threatdata['articles'] array
+                // Iterate through each article in the threatdata['articles'] array
                 threatdata['articles'].forEach(article => {
                     // Create a new div for the article
                     const articleDiv = document.createElement('div');
