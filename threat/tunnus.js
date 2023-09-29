@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Tunnus, QUIETCANARY",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-02-15",
+    "modified": "2023-04-24",
     "all_data": {
         "tool": "Tunnus",
         "names": [
@@ -31,5 +31,41 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "tunnus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
+            "date": "2023-04-24",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "Tomiris called, they want their Turla malware back",
+            "categories": [
+                "KopiLuwak",
+                "Andromeda",
+                "Ave Maria",
+                "GoldMax",
+                "JLORAT",
+                "Kazuar",
+                "Meterpreter",
+                "QUIETCANARY",
+                "RATel",
+                "Roopy",
+                "Telemiris",
+                "tomiris",
+                "Topinambour"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/turla-galaxy-opportunity",
+            "date": "2023-01-05",
+            "organization": "Mandiant",
+            "author": "Sarah Hawley",
+            "title": "Turla: A Galaxy of Opportunity",
+            "categories": [
+                "KopiLuwak",
+                "Andromeda",
+                "QUIETCANARY"
+            ]
+        }
+    ]
 };

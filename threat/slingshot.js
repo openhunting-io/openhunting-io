@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Slingshot",
     "category": "Malware",
     "type": "Loader",
-    "modified": "2021-04-24",
+    "modified": "2022-01-11",
     "all_data": {
         "tool": "Slingshot",
         "names": [
@@ -31,5 +31,51 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "slingshot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2022/01/11/signed-kernel-drivers-unguarded-gateway-windows-core/",
+            "date": "2022-01-11",
+            "organization": "ESET Research",
+            "author": "Michal Poslu\u0161n\u00fd",
+            "title": "Signed kernel drivers \u2013 Unguarded gateway to Windows\u2019 core",
+            "categories": [
+                "InvisiMole",
+                "LoJax",
+                "RobinHood",
+                "Slingshot"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberscoop.com/kaspersky-slingshot-isis-operation-socom-five-eyes/",
+            "date": "2018-03-20",
+            "organization": "CyberScoop",
+            "author": "Chris Bing",
+            "title": "Kaspersky's 'Slingshot' report burned an ISIS-focused intelligence operation",
+            "categories": [
+                "Slingshot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-slingshot/84312/",
+            "date": "2018-03-09",
+            "organization": "Kaspersky Labs",
+            "author": "Alexey Shulmin",
+            "title": "The Slingshot APT FAQ",
+            "categories": [
+                "Slingshot",
+                "Slingshot"
+            ]
+        },
+        {
+            "data_url": "https://s3-eu-west-1.amazonaws.com/khub-media/wp-content/uploads/sites/43/2018/03/09133534/The-Slingshot-APT_report_ENG_final.pdf",
+            "date": "2018-03-09",
+            "organization": "Kaspersky Labs",
+            "author": "Alexey Shulmin",
+            "title": "The Slingshot APT",
+            "categories": [
+                "Slingshot"
+            ]
+        }
+    ]
 };

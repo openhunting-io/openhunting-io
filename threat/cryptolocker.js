@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "CryptoLocker",
     "category": "Malware",
     "type": "Ransomware",
-    "modified": "2020-04-23",
+    "modified": "2021-09-14",
     "all_data": {
         "tool": "CryptoLocker",
         "names": [
@@ -99,5 +99,160 @@ var threatdata = {
     "last_ioc_update": "2022-10-20 05:13:44",
     "mitre": [],
     "file_name": "cryptolocker",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.crowdstrike.com/blog/how-big-game-hunting-ttps-shifted-after-darkside-pipeline-attack/",
+            "date": "2021-09-14",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike Intelligence Team",
+            "title": "Big Game Hunting TTPs Continue to Shift After DarkSide Pipeline Attack",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "REvil",
+                "Avaddon",
+                "BlackMatter",
+                "Clop",
+                "Conti",
+                "CryptoLocker",
+                "DarkSide",
+                "DoppelPaymer",
+                "Hades",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-evergreen",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD EVERGREEN",
+            "categories": [
+                "CryptoLocker",
+                "Pony",
+                "Zeus",
+                "GOLD EVERGREEN"
+            ]
+        },
+        {
+            "data_url": "https://sites.temple.edu/care/ci-rw-attacks/",
+            "date": "2020-08",
+            "organization": "Temple University",
+            "author": "CARE",
+            "title": "Critical Infrastructure Ransomware Attacks",
+            "categories": [
+                "CryptoLocker",
+                "Cryptowall",
+                "DoppelPaymer",
+                "FriedEx",
+                "Mailto",
+                "Maze",
+                "REvil",
+                "Ryuk",
+                "SamSam",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-008.pdf",
+            "date": "2020-07-17",
+            "organization": "CERT-FR",
+            "author": "CERT-FR",
+            "title": "The Malware Dridex: Origins and Uses",
+            "categories": [
+                "Andromeda",
+                "CryptoLocker",
+                "Cutwail",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FriedEx",
+                "Gameover P2P",
+                "Gandcrab",
+                "ISFB",
+                "Murofet",
+                "Necurs",
+                "Predator The Thief",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-evergreen",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD EVERGREEN",
+            "categories": [
+                "CryptoLocker",
+                "Pony",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/evolution-of-the-gold-evergreen-threat-group",
+            "date": "2017-05-15",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "Evolution of the GOLD EVERGREEN Threat Group",
+            "categories": [
+                "CryptoLocker",
+                "Dridex",
+                "Dyre",
+                "Gameover P2P",
+                "Murofet",
+                "TrickBot",
+                "Zeus",
+                "GOLD EVERGREEN"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
+            "date": "2015-02-06",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "CrowdStrike Global Threat Intel Report 2014",
+            "categories": [
+                "BlackPOS",
+                "CryptoLocker",
+                "Derusbi",
+                "Elise",
+                "Enfal",
+                "EvilGrab",
+                "Gameover P2P",
+                "HttpBrowser",
+                "Medusa",
+                "Mirage",
+                "Naikon",
+                "NetTraveler",
+                "pirpi",
+                "PlugX",
+                "Poison Ivy",
+                "Sakula RAT",
+                "Sinowal",
+                "sykipot",
+                "taidoor"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/pr/us-leads-multi-national-action-against-gameover-zeus-botnet-and-cryptolocker-ransomware",
+            "date": "2014-02-02",
+            "organization": "Department of Justice",
+            "author": "Office of Public Affairs",
+            "title": "U.S. Leads Multi-National Action Against \u201cGameover Zeus\u201d Botnet and \u201cCryptolocker\u201d Ransomware, Charges Botnet Administrator",
+            "categories": [
+                "CryptoLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/cryptolocker-ransomware",
+            "date": "2013-12-18",
+            "organization": "Secureworks",
+            "author": "Keith Jarvis",
+            "title": "CryptoLocker Ransomware",
+            "categories": [
+                "CryptoLocker"
+            ]
+        }
+    ]
 };

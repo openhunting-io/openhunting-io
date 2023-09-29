@@ -48,5 +48,6 @@ var threatdata = {
     "last_ioc_update": "2021-04-28 16:02:43",
     "mitre": [],
     "file_name": "dustman",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

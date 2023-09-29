@@ -30,5 +30,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "gopuram",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/gopuram-backdoor-deployed-through-3cx-supply-chain-attack/109344",
+            "date": "2023-04-03",
+            "organization": "Kaspersky Labs",
+            "author": "Georgy Kucherin",
+            "title": "Not just an infostealer: Gopuram backdoor deployed through 3CX supply chain attack",
+            "categories": [
+                "Gopuram"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/kucher1n/status/1642886340105601029?t=3GCn-ZhDjqWEMXya_PKseg",
+            "date": "2023-04-03",
+            "organization": "Twitter (@kucher1n)",
+            "author": "Georgy Kucherin",
+            "title": "Tweet on an alternative Guporam sample",
+            "categories": [
+                "Gopuram"
+            ]
+        }
+    ]
 };

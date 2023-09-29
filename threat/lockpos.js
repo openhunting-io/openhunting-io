@@ -36,5 +36,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "lockpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cylance.com/en_us/blog/threat-spotlight-lockpos-point-of-sale-malware.html",
+            "date": "2018-01-16",
+            "organization": "Cylance",
+            "author": "Cylance Threat Research Team",
+            "title": "Threat Spotlight: LockPOS Point of Sale Malware",
+            "categories": [
+                "LockPOS"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberbit.com/new-lockpos-malware-injection-technique/",
+            "date": "2018-01-03",
+            "organization": "Cyberbit",
+            "author": "Hod Gavriel",
+            "title": "New LockPoS Malware Injection Technique",
+            "categories": [
+                "LockPOS"
+            ]
+        },
+        {
+            "data_url": "https://www.arbornetworks.com/blog/asert/lockpos-joins-flock/",
+            "date": "2017-07-12",
+            "organization": "NetScout",
+            "author": "Dennis Schwarz",
+            "title": "LockPoS Joins the Flock",
+            "categories": [
+                "LockPOS"
+            ]
+        }
+    ]
 };

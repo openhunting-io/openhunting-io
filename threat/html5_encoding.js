@@ -27,5 +27,33 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "html5_encoding",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://kindredsec.wordpress.com/2019/08/12/an-overview-of-public-platform-c2s/",
+            "date": "2019-08-12",
+            "organization": "Kindred Security",
+            "author": "Kindred Security",
+            "title": "An Overview of Public Platform C2\u2019s",
+            "categories": [
+                "HTML5 Encoding",
+                "LOWBALL",
+                "Makadocs",
+                "MiniDuke",
+                "RogueRobinNET",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/06/06/turlas-watering-hole-campaign-updated-firefox-extension-abusing-instagram/",
+            "date": "2017-06-06",
+            "organization": "ESET Research",
+            "author": "Jean-Ian Boutin",
+            "title": "Turla\u2019s watering hole campaign: An updated Firefox extension abusing Instagram",
+            "categories": [
+                "HTML5 Encoding",
+                "Skipper"
+            ]
+        }
+    ]
 };

@@ -9846,3 +9846,24 @@ footer {
 #suggestionList a:hover {
   text-decoration: none; 
 }
+
+/* MITRE TECHNIQUE */
+.technique-title {
+  font-size: 0.9em;
+}
+
+.technique-description,
+.procedure-description {
+  font-size: 0.8em;
+}
+
+.details-link {
+  font-size: 0.8em;
+  color: #ff5757; /* The typical color for hyperlinks */
+  text-decoration: none; /* Removes underline */
+  margin-left: 5px; /* Little space before the link */
+}
+
+.details-link:hover {
+  text-decoration: underline; /* Adds underline when hovered */
+}

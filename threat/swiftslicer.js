@@ -33,5 +33,45 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "swiftslicer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.microsoft.com/en-us/security/business/security-insider/wp-content/uploads/2023/03/A-year-of-Russian-hybrid-warfare-in-Ukraine_MS-Threat-Intelligence-1.pdf",
+            "date": "2023-03-15",
+            "organization": "Microsoft",
+            "author": "Microsoft Threat Intelligence",
+            "title": "A year of Russian hybrid warfare in Ukraine",
+            "categories": [
+                "CaddyWiper",
+                "DesertBlade",
+                "DoubleZero",
+                "HermeticWiper",
+                "INDUSTROYER2",
+                "IsaacWiper",
+                "PartyTicket",
+                "SwiftSlicer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1618960022150729728",
+            "date": "2023-01-27",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Tweets on SwiftSlicer",
+            "categories": [
+                "SwiftSlicer"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2023/01/27/swiftslicer-new-destructive-wiper-malware-ukraine/",
+            "date": "2023-01-27",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "SwiftSlicer: New destructive wiper malware strikes Ukraine",
+            "categories": [
+                "SwiftSlicer"
+            ]
+        }
+    ]
 };

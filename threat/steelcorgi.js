@@ -32,5 +32,39 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "steelcorgi",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/unc2891-overview",
+            "date": "2022-03-16",
+            "organization": "Mandiant",
+            "author": "Mathew Potaczek",
+            "title": "Have Your Cake and Eat it Too? An Overview of UNC2891",
+            "categories": [
+                "SLAPSTICK",
+                "STEELCORGI"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/opening-steelcorgi-a-sophisticated-apt-swiss-army-knife/",
+            "date": "2021-01-12",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Opening \u201cSTEELCORGI\u201d: A Sophisticated APT Swiss Army Knife",
+            "categories": [
+                "STEELCORGI"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2020/11/live-off-the-land-an-overview-of-unc1945.html",
+            "date": "2020-11-02",
+            "organization": "FireEye",
+            "author": "Justin Moore",
+            "title": "Live off the Land? How About Bringing Your Own Island? An Overview of UNC1945",
+            "categories": [
+                "SLAPSTICK",
+                "STEELCORGI"
+            ]
+        }
+    ]
 };

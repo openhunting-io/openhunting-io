@@ -36,5 +36,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "tempting_cedar_spyware",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.avast.com/avast-tracks-down-tempting-cedar-spyware",
+            "date": "2018-02-21",
+            "organization": "Avast",
+            "author": "Threat Intelligence Team",
+            "title": "Avast tracks down Tempting Cedar Spyware",
+            "categories": [
+                "TemptingCedar Spyware"
+            ]
+        }
+    ]
 };

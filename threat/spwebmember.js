@@ -28,26 +28,29 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": {
-        "procedure_name": "spwebmember",
-        "procedure_code": "s0227",
-        "procedure_type": "software",
-        "procedure_link": "https://attack.mitre.org/software/S0227",
-        "techniques": [
-            {
-                "tactic_code": "ta0009",
-                "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                "tactic_name": "collection",
-                "tactic_alias": "collection",
-                "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                "technique_code": "t1213.002",
-                "technique_link": "https://attack.mitre.org/techniques/T1213/002",
-                "technique_name": "data from information repositories : sharepoint",
-                "technique_description": "adversaries may leverage the sharepoint repository as a source to mine valuable information. sharepoint will often contain useful information for an adversary to learn about the structure and functionality of the internal network and systems. for example, the following is a list of example information that may hold potential value to an adversary and may also be found on sharepoint:",
-                "procedure_description": "spwebmember is used to enumerate and dump information from microsoft sharepoint.[3]"
-            }
-        ]
-    },
+    "mitre": [
+        {
+            "procedure_name": "spwebmember",
+            "procedure_code": "s0227",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0227",
+            "techniques": [
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1213.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1213/002",
+                    "technique_name": "data from information repositories : sharepoint",
+                    "technique_description": "adversaries may leverage the sharepoint repository as a source to mine valuable information. sharepoint will often contain useful information for an adversary to learn about the structure and functionality of the internal network and systems. for example, the following is a list of example information that may hold potential value to an adversary and may also be found on sharepoint:",
+                    "procedure_description": "spwebmember is used to enumerate and dump information from microsoft sharepoint.[3]"
+                }
+            ]
+        }
+    ],
     "file_name": "spwebmember",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Microcin, Mikroceen",
     "category": "Malware",
     "type": "Backdoor, Info stealer, Exfiltration",
-    "modified": "2020-05-18",
+    "modified": "2021-03-10",
     "all_data": {
         "tool": "Microcin",
         "names": [
@@ -39,5 +39,217 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "microcin",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/",
+            "date": "2021-03-10",
+            "organization": "ESET Research",
+            "author": "Thomas Dupuy",
+            "title": "Exchange servers under siege from at least 10 APT groups",
+            "categories": [
+                "Microcin",
+                "MimiKatz",
+                "PlugX",
+                "Winnti",
+                "APT27",
+                "APT41",
+                "Calypso",
+                "Tick",
+                "ToddyCat",
+                "Tonto Team",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/07/ESET_Threat_Report_Q22020.pdf",
+            "date": "2020-07-29",
+            "organization": "ESET Research",
+            "author": "welivesecurity",
+            "title": "THREAT REPORT Q2 2020",
+            "categories": [
+                "DEFENSOR ID",
+                "HiddenAd",
+                "Bundlore",
+                "Pirrit",
+                "Agent.BTZ",
+                "Cerber",
+                "ClipBanker",
+                "CROSSWALK",
+                "Cryptowall",
+                "CTB Locker",
+                "DanaBot",
+                "Dharma",
+                "Formbook",
+                "Gandcrab",
+                "Grandoreiro",
+                "Houdini",
+                "ISFB",
+                "LockBit",
+                "Locky",
+                "Mailto",
+                "Maze",
+                "Microcin",
+                "Nemty",
+                "NjRAT",
+                "Phobos",
+                "PlugX",
+                "Pony",
+                "REvil",
+                "Socelars",
+                "STOP",
+                "Tinba",
+                "TrickBot",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://st.drweb.com/static/new-www/news/2020/july/Study_of_the_APT_attacks_on_state_institutions_in_Kazakhstan_and_Kyrgyzstan_en.pdf",
+            "date": "2020-07-20",
+            "organization": "Dr.Web",
+            "author": "Dr.Web",
+            "title": "Study of the APT attacks on state institutions in Kazakhstan and Kyrgyzstan",
+            "categories": [
+                "Microcin",
+                "Mirage",
+                "PlugX",
+                "WhiteBird"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/microcin-is-here/97353/",
+            "date": "2020-06-19",
+            "organization": "Kaspersky Labs",
+            "author": "Denis Legezo",
+            "title": "Microcin is here With asynchronous sockets, steganography, GitLab ban and a sock",
+            "categories": [
+                "Microcin"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/microcin-is-here/97353",
+            "date": "2020-06-19",
+            "organization": "Kaspersky Labs",
+            "author": "Denis Legezo",
+            "title": "Microcin is here",
+            "categories": [
+                "Microcin",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://github.com/dlegezo/common",
+            "date": "2020-05-18",
+            "organization": "Github (dlegezo)",
+            "author": "Denis Legezo",
+            "title": "Microcin Decryptor",
+            "categories": [
+                "Microcin"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/05/14/mikroceen-spying-backdoor-high-profile-networks-central-asia/",
+            "date": "2020-05-14",
+            "organization": "ESET Research",
+            "author": "Peter K\u00e1lnai",
+            "title": "Mikroceen: Spying backdoor leveraged in high\u2011profile networks in Central Asia",
+            "categories": [
+                "BYEBY",
+                "Microcin"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/luigicamastra/apt-group-planted-backdoors-targeting-high-profile-networks-in-central-asia/",
+            "date": "2020-05-14",
+            "organization": "Avast Decoded",
+            "author": "Luigino Camastra",
+            "title": "APT Group Planted Backdoors Targeting High Profile Networks in Central Asia",
+            "categories": [
+                "BYEBY",
+                "Microcin"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/luigicamastra/apt-group-planted-backdoors-targeting-high-profile-networks-in-central-asia",
+            "date": "2020-05-14",
+            "organization": "Avast Decoded",
+            "author": "Luigino Camastra",
+            "title": "APT Group Planted Backdoors Targeting High Profile Networks in Central Asia",
+            "categories": [
+                "BYEBY",
+                "Ghost RAT",
+                "Microcin",
+                "MimiKatz",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/05/14/mikroceen-spying-backdoor-high-profile-networks-central-asia",
+            "date": "2020-05-14",
+            "organization": "ESET Research",
+            "author": "Peter K\u00e1lnai",
+            "title": "Mikroceen: Spying backdoor leveraged in high\u2011profile networks in Central Asia",
+            "categories": [
+                "Microcin",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
+            "date": "2019-08-01",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2019",
+            "categories": [
+                "ZooPark",
+                "magecart",
+                "POWERSTATS",
+                "Chaperone",
+                "COMpfun",
+                "EternalPetya",
+                "FinFisher RAT",
+                "HawkEye Keylogger",
+                "HOPLIGHT",
+                "Microcin",
+                "NjRAT",
+                "Olympic Destroyer",
+                "PLEAD",
+                "RokRAT",
+                "Triton",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07170759/Microcin_Technical_4PDF_eng_final_s.pdf",
+            "date": "2017-11-25",
+            "organization": "Kaspersky Labs",
+            "author": "Vasily Berdnikov",
+            "title": "MICROCIN MALWARE: TECHNICAL DETAILS AND INDICATORS OF COMPROMISE",
+            "categories": [
+                "Microcin",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/a-simple-example-of-a-complex-cyberattack/82636",
+            "date": "2017-09-25",
+            "organization": "Kaspersky Labs",
+            "author": "Vasily Berdnikov",
+            "title": "A simple example of a complex cyberattack",
+            "categories": [
+                "Microcin",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/a-simple-example-of-a-complex-cyberattack/82636/",
+            "date": "2017-09-25",
+            "organization": "Kaspersky Labs",
+            "author": "Vasily Berdnikov",
+            "title": "A simple example of a complex cyberattack",
+            "categories": [
+                "Microcin"
+            ]
+        }
+    ]
 };

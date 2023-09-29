@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "SideWalk, ScrambleCross",
     "category": "Malware",
     "type": "Reconnaissance, Backdoor",
-    "modified": "2021-12-28",
+    "modified": "2023-07-18",
     "all_data": {
         "tool": "SideWalk",
         "names": [
@@ -36,5 +36,70 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "sidewalk",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/chinese-espionage-tactics",
+            "date": "2023-07-18",
+            "organization": "Mandiant",
+            "author": "Mandiant Intelligence",
+            "title": "Stealth Mode: Chinese Cyber Espionage Actors Continue to Evolve Tactics to Avoid Detection",
+            "categories": [
+                "BPFDoor",
+                "SALTWATER",
+                "SEASPY",
+                "SideWalk",
+                "ZuoRAT",
+                "Daxin",
+                "HyperBro",
+                "HyperSSL",
+                "Waterbear"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2022/09/14/you-never-walk-alone-sidewalk-backdoor-linux-variant/",
+            "date": "2022-09-14",
+            "organization": "ESET Research",
+            "author": "Vladislav Hr\u010dka",
+            "title": "You never walk alone: The SideWalk backdoor gets a Linux variant",
+            "categories": [
+                "SideWalk"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/grayfly-china-sidewalk-malware",
+            "date": "2021-09-09",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Grayfly: Chinese Threat Actor Uses Newly-discovered Sidewalk Malware",
+            "categories": [
+                "CROSSWALK",
+                "MimiKatz",
+                "SideWalk"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-earth-baku-an-apt-group-targeting-indo-pacific-countries.pdf",
+            "date": "2021-08-25",
+            "organization": "Trend Micro",
+            "author": "Hara Hiroaki",
+            "title": "Earth Baku An APT Group Targeting Indo-Pacific Countries  With New Stealth Loaders and Backdoor",
+            "categories": [
+                "Cobalt Strike",
+                "SideWalk"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2021/08/24/sidewalk-may-be-as-dangerous-as-crosswalk/",
+            "date": "2021-08-24",
+            "organization": "ESET Research",
+            "author": "Thibaut Passilly",
+            "title": "The SideWalk may be as dangerous as the CROSSWALK",
+            "categories": [
+                "Cobalt Strike",
+                "CROSSWALK",
+                "SideWalk"
+            ]
+        }
+    ]
 };

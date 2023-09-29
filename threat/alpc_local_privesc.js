@@ -31,5 +31,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "alpc_local_privesc",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2018/09/05/powerpool-malware-exploits-zero-day-vulnerability/",
+            "date": "2018-09-05",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "PowerPool malware exploits ALPC LPE zero\u2011day vulnerability",
+            "categories": [
+                "ALPC Local PrivEsc",
+                "PowerPool"
+            ]
+        }
+    ]
 };

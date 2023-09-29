@@ -36,5 +36,34 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "zupdax",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/space-pirates-tools-and-connections/",
+            "date": "2022-05-17",
+            "organization": "Positive Technologies",
+            "author": "Positive Technologies",
+            "title": "Space Pirates: analyzing the tools and connections of a new hacker group",
+            "categories": [
+                "FormerFirstRAT",
+                "PlugX",
+                "Poison Ivy",
+                "Rovnix",
+                "ShadowPad",
+                "Zupdax"
+            ]
+        },
+        {
+            "data_url": "https://www.nortonlifelock.com/sites/default/files/2021-10/OPERATION%20EXORCIST%20White%20Paper.pdf",
+            "date": "2021-10-18",
+            "organization": "NortonLifeLock",
+            "author": "Norton Labs",
+            "title": "Operation Exorcist - 7 Years of Targeted Attacks against the Roman Catholic Church",
+            "categories": [
+                "NewBounce",
+                "PlugX",
+                "Zupdax"
+            ]
+        }
+    ]
 };

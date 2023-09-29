@@ -39,5 +39,34 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "marcher",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/mobile-malware-evolution-2019/96280/",
+            "date": "2020-02-25",
+            "organization": "Kaspersky Labs",
+            "author": "Victor Chebyshev",
+            "title": "Mobile malware evolution 2019",
+            "categories": [
+                "Anubis",
+                "Asacub",
+                "Dvmap",
+                "FlexNet",
+                "HiddenAd",
+                "Marcher",
+                "Svpeng",
+                "Triada"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.de/blogs/research/android-marcher-continuously-evolving-mobile-malware",
+            "date": "2016-08-10",
+            "organization": "Zscaler",
+            "author": "Viral Gandhi",
+            "title": "Android Marcher: Continuously Evolving Mobile Malware",
+            "categories": [
+                "Marcher"
+            ]
+        }
+    ]
 };

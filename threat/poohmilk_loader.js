@@ -37,5 +37,31 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "poohmilk_loader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+            "date": "2018-01-16",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Korea In The Crosshairs",
+            "categories": [
+                "Freenki Loader",
+                "PoohMilk Loader",
+                "RokRAT",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/10/unit42-freemilk-highly-targeted-spear-phishing-campaign/",
+            "date": "2017-10-05",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Juan Cortes",
+            "title": "FreeMilk: A Highly Targeted Spear Phishing Campaign",
+            "categories": [
+                "Freenki Loader",
+                "PoohMilk Loader"
+            ]
+        }
+    ]
 };

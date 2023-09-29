@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Freenki Loader",
     "category": "Malware",
     "type": "Downloader",
-    "modified": "2020-05-13",
+    "modified": "2020-12-15",
     "all_data": {
         "tool": "Freenki Loader",
         "names": [
@@ -34,5 +34,54 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "freenki_loader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/20/l/who-is-the-threat-actor-behind-operation-earth-kitsune-.html",
+            "date": "2020-12-15",
+            "organization": "Trend Micro",
+            "author": "William Gamazo Sanchez",
+            "title": "Who is the Threat Actor Behind Operation Earth Kitsune?",
+            "categories": [
+                "Freenki Loader",
+                "SLUB"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+            "date": "2018-01-16",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Korea In The Crosshairs",
+            "categories": [
+                "Freenki Loader",
+                "RokRAT",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+            "date": "2018-01-16",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Korea In The Crosshairs",
+            "categories": [
+                "Freenki Loader",
+                "PoohMilk Loader",
+                "RokRAT",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/10/unit42-freemilk-highly-targeted-spear-phishing-campaign/",
+            "date": "2017-10-05",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Juan Cortes",
+            "title": "FreeMilk: A Highly Targeted Spear Phishing Campaign",
+            "categories": [
+                "Freenki Loader",
+                "PoohMilk Loader"
+            ]
+        }
+    ]
 };

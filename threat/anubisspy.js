@@ -36,5 +36,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "anubisspy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/cyberespionage-campaign-sphinx-goes-mobile-anubisspy/",
+            "date": "2017-12-19",
+            "organization": "Trend Micro",
+            "author": "Mobile Threat Response Team",
+            "title": "Cyberespionage Campaign Sphinx Goes Mobile With AnubisSpy",
+            "categories": [
+                "AnubisSpy"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/tech-brief-cyberespionage-campaign-sphinx-goes-mobile-with-anubisspy.pdf",
+            "date": "2017-12",
+            "organization": "Trend Micro",
+            "author": "Ecular Xu",
+            "title": "Cyberespionage Campaign Sphinx Goes Mobile With AnubisSpy",
+            "categories": [
+                "AnubisSpy"
+            ]
+        }
+    ]
 };

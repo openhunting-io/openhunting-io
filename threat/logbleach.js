@@ -24,5 +24,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "logbleach",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

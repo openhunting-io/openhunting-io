@@ -35,5 +35,44 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "rambo",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-overbrook",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE OVERBROOK",
+            "categories": [
+                "Aveo",
+                "DDKONG",
+                "IsSpace",
+                "PLAINTEE",
+                "PlugX",
+                "Rambo",
+                "DragonOK"
+            ]
+        },
+        {
+            "data_url": "https://github.com/m0n0ph1/APT_CyberCriminal_Campagin_Collections-1/blob/master/2017/2017.02.15.deep-dive-dragonok-rambo-backdoor/Deep%20Dive%20on%20the%20DragonOK%20Rambo%20Backdoor%20_%20Morphick%20Cyber%20Security.pdf",
+            "date": "2017-02-15",
+            "organization": "Morphick",
+            "author": "Nick Hoffman",
+            "title": "Deep Dive on the DragonOK Rambo Backdoor",
+            "categories": [
+                "Rambo",
+                "DragonOK"
+            ]
+        },
+        {
+            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2017-02-15-the-rambo-backdoor.md",
+            "date": "2017-02-15",
+            "organization": "Adventures in Security",
+            "author": "Nick Hoffman",
+            "title": "The Rambo Backdoor",
+            "categories": [
+                "Rambo"
+            ]
+        }
+    ]
 };

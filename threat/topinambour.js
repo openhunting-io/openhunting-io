@@ -33,5 +33,29 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "topinambour",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
+            "date": "2023-04-24",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "Tomiris called, they want their Turla malware back",
+            "categories": [
+                "KopiLuwak",
+                "Andromeda",
+                "Ave Maria",
+                "GoldMax",
+                "JLORAT",
+                "Kazuar",
+                "Meterpreter",
+                "QUIETCANARY",
+                "RATel",
+                "Roopy",
+                "Telemiris",
+                "tomiris",
+                "Topinambour"
+            ]
+        }
+    ]
 };

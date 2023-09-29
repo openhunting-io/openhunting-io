@@ -36,5 +36,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "excalibur",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.cylance.com/digitally-signed-malware-targeting-gaming-companies",
+            "date": "2016-10-18",
+            "organization": "Cylance",
+            "author": "Cylance Threat Research Team",
+            "title": "Digitally Signed Malware Targeting Gaming Companies",
+            "categories": [
+                "Excalibur"
+            ]
+        }
+    ]
 };

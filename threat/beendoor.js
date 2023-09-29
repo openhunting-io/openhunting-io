@@ -31,5 +31,22 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "beendoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/sites/default/files/proofpoint-operation-transparent-tribe-threat-insight-en.pdf",
+            "date": "2016-03-01",
+            "organization": "Proofpoint",
+            "author": "Darien Huss",
+            "title": "Operation Transparent Tribe",
+            "categories": [
+                "Andromeda",
+                "beendoor",
+                "Bezigate",
+                "Crimson RAT",
+                "Luminosity RAT",
+                "Operation C-Major"
+            ]
+        }
+    ]
 };

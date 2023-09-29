@@ -35,5 +35,30 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "newposthings",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/operation-black-atlas-endangers-in-store-card-payments-and-smbs-worldwide-switches-between-blackpos-and-other-tools/",
+            "date": "2015-12-01",
+            "organization": "Trend Micro",
+            "author": "Jay Yaneza",
+            "title": "Operation Black Atlas Endangers In-Store Card Payments and SMBs Worldwide; Switches between BlackPOS and Other Tools",
+            "categories": [
+                "Alina POS",
+                "BlackPOS",
+                "Kronos",
+                "NewPosThings"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/newposthings-has-new-pos-things/",
+            "date": "2015-04-01",
+            "organization": "Trend Micro",
+            "author": "Jay Yaneza",
+            "title": "NewPosThings Has New PoS Things",
+            "categories": [
+                "NewPosThings"
+            ]
+        }
+    ]
 };

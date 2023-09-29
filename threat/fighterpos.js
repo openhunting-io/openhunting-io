@@ -32,5 +32,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "fighterpos",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

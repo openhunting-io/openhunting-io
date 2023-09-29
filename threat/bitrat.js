@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BitRAT",
     "category": "Malware",
     "type": "Backdoor, Info stealer, Credential stealer, Keylogger",
-    "modified": "2023-02-15",
+    "modified": "2023-09-08",
     "all_data": {
         "tool": "BitRAT",
         "names": [
@@ -3796,7 +3796,445 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-25 12:00:14",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "bitrat",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
+            "date": "2023-09-08",
+            "organization": "",
+            "author": "Gi7w0rm",
+            "title": "Uncovering DDGroup \u2014 A long-time threat actor",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "DBatLoader",
+                "NetWire RC",
+                "Quasar RAT",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/nodestealer-2-targets-facebook-business/",
+            "date": "2023-08-01",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Lior Rochberger",
+            "title": "NodeStealer 2.0 \u2013 The Python Version: Stealing Facebook Business Accounts",
+            "categories": [
+                "BitRAT",
+                "NodeStealer",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://blog.qualys.com/vulnerabilities-threat-research/2023/01/03/bitrat-now-sharing-sensitive-bank-data-as-a-lure",
+            "date": "2023-01-03",
+            "organization": "Qualys",
+            "author": "Akshat Pradhan",
+            "title": "BitRAT Now Sharing Sensitive Bank Data as a Lure",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/forums/diary/A+Zip+Bomb+to+Bypass+Security+Controls+Sandboxes/28670/",
+            "date": "2022-05-20",
+            "organization": "SANS ISC",
+            "author": "Xavier Mertens",
+            "title": "A 'Zip Bomb' to Bypass Security Controls & Sandboxes",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/phishing-campaign-delivering-fileless-malware",
+            "date": "2022-05-12",
+            "organization": "FortiGuard Labs",
+            "author": "Xiaopeng Zhang",
+            "title": "Phishing Campaign Delivering Three Fileless Malware: AveMariaRAT / BitRAT / PandoraHVNC \u2013 Part I",
+            "categories": [
+                "Ave Maria",
+                "BitRAT",
+                "Pandora RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.checkpoint.com/2022/05/10/a-german-car-attack-on-german-vehicle-businesses/",
+            "date": "2022-05-10",
+            "organization": "Checkpoint",
+            "author": "Checkpoint",
+            "title": "Info-stealer Campaign targets German Car Dealerships and Manufacturers",
+            "categories": [
+                "Azorult",
+                "BitRAT",
+                "Raccoon"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/blog/hotforsecurity/bitrat-malware-seen-spreading-through-unofficial-microsoft-windows-activators/",
+            "date": "2022-03-22",
+            "organization": "Bitdefender",
+            "author": "Vlad Constantinescu",
+            "title": "BitRAT Malware Seen Spreading Through Unofficial Microsoft Windows Activators",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/32781/",
+            "date": "2022-03-21",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "BitRAT Disguised as Windows Product Key Verification Tool Being Distributed",
+            "categories": [
+                "BitRAT",
+                "TinyNuke"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/bitrat-malware-now-spreading-as-a-windows-10-license-activator/",
+            "date": "2022-03-21",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "BitRAT malware now spreading as a Windows 10 license activator",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/nft-lure-used-to-distribute-bitrat",
+            "date": "2022-02-14",
+            "organization": "Fortinet",
+            "author": "Shunichi Imano",
+            "title": "NFT Lure Used to Distribute BitRAT",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/hubfs/Journey%20of%20a%20Crypto%20Scammer%20-%20NFT-001%20%7C%20Morphisec%20%7C%20Threat%20Report.pdf",
+            "date": "2022-02-14",
+            "organization": "Morphisec",
+            "author": "Hido Cohen",
+            "title": "Journey of a Crypto Scammer - NFT-001",
+            "categories": [
+                "AsyncRAT",
+                "BitRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/ade260c6",
+            "date": "2022-02-07",
+            "organization": "RiskIQ",
+            "author": "RiskIQ",
+            "title": "RiskIQ: Malicious Infrastructure Connected to Particular Windows Host Certificates",
+            "categories": [
+                "AsyncRAT",
+                "BitRAT",
+                "Nanocore RAT"
+            ]
+        },
+        {
+            "data_url": "https://forensicitguy.github.io/hcrypt-injecting-bitrat-analysis/",
+            "date": "2022-01-23",
+            "organization": "forensicitguy",
+            "author": "Tony Lambert",
+            "title": "HCrypt Injecting BitRAT using PowerShell, HTAs, and .NET",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=CYm3g4zkQdw",
+            "date": "2022-01-09",
+            "organization": "YouTube (0xca7)",
+            "author": "0xca7",
+            "title": "Cat vs. RAT II - Bitrat",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/the-babadeda-crypter-targeting-crypto-nft-defi-communities",
+            "date": "2021-11-23",
+            "organization": "Morphisec",
+            "author": "Hido Cohen",
+            "title": "Babadeda Crypter targeting crypto, NFT, and DeFi communities",
+            "categories": [
+                "Babadeda",
+                "BitRAT",
+                "LockBit",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/Water-Basilisk-Uses-New-HCrypt-Variant-to-Flood-Victims-with-RAT-Payloads.html",
+            "date": "2021-09-20",
+            "organization": "Trend Micro",
+            "author": "Aliakbar Zahravi",
+            "title": "Water Basilisk Uses New HCrypt Variant to Flood Victims with RAT Payloads",
+            "categories": [
+                "Ave Maria",
+                "BitRAT",
+                "LimeRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-american-entities-with-commodity-rats/BlindEagleIOCList.txt",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs (IOCs)",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "IBM",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "Cipher Tech Solutions",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/03/HP_Bromium_Threat_Insights_Report_Q4_2020.pdf",
+            "date": "2021-03-17",
+            "organization": "HP",
+            "author": "HP Bromium",
+            "title": "Threat Insights Report Q4-2020",
+            "categories": [
+                "Agent Tesla",
+                "BitRAT",
+                "ComodoSec",
+                "Dridex",
+                "Emotet",
+                "Ficker Stealer",
+                "Formbook",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2021/apomacrosploit-apocalyptical-fud-race/",
+            "date": "2021-02-16",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "ApoMacroSploit: Apocalyptical FUD race",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/Finch4/Malware-Analysis-Reports/blob/main/13e0f258cfbe3aece8a7e6d29ceb5697/README.md",
+            "date": "2021-01-22",
+            "organization": "Github (Finch4)",
+            "author": "Finch",
+            "title": "Malware Analysis Report No2",
+            "categories": [
+                "BitRAT"
+            ]
+        },
+        {
+            "data_url": "https://krabsonsecurity.com/2020/09/04/bitrat-pt-2-hidden-browser-socks5-proxy-and-unknownproducts-unmasked/",
+            "date": "2020-09-04",
+            "organization": "KrabsOnSecurity",
+            "author": "Mr. Krabs",
+            "title": "BitRAT pt. 2: Hidden Browser, SOCKS5 proxy, and UnknownProducts Unmasked",
+            "categories": [
+                "BitRAT",
+                "WebMonitor RAT"
+            ]
+        },
+        {
+            "data_url": "https://krabsonsecurity.com/2020/08/22/bitrat-the-latest-in-copy-pasted-malware-by-incompetent-developers/",
+            "date": "2020-08-22",
+            "organization": "KrabsOnSecurity",
+            "author": "Mr. Krabs",
+            "title": "BitRAT \u2013 The Latest in Copy-pasted Malware by Incompetent Developers",
+            "categories": [
+                "BitRAT"
+            ]
+        }
+    ]
 };

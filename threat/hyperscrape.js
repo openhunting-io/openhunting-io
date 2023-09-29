@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hyperscrape",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.google/threat-analysis-group/new-iranian-apt-data-extraction-tool/",
+            "date": "2022-08-23",
+            "organization": "Google",
+            "author": "Ajax Bash",
+            "title": "New Iranian APT data extraction tool",
+            "categories": [
+                "HYPERSCRAPE"
+            ]
+        }
+    ]
 };

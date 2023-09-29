@@ -34,5 +34,49 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "speculoos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/apt41-using-new-speculoos-backdoor-to-target-organizations-globally/",
+            "date": "2020-04-13",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "APT41 Using New Speculoos Backdoor to Target Organizations Globally",
+            "categories": [
+                "Speculoos",
+                "APT41"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html",
+            "date": "2020-03-25",
+            "organization": "FireEye",
+            "author": "Christopher Glyer",
+            "title": "This Is Not a Test: APT41 Initiates Global Intrusion Campaign Using Multiple Exploits",
+            "categories": [
+                "Speculoos",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-atlas",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE ATLAS",
+            "categories": [
+                "Speculoos",
+                "Winnti",
+                "ACEHASH",
+                "CCleaner Backdoor",
+                "CHINACHOPPER",
+                "Empire Downloader",
+                "HTran",
+                "MimiKatz",
+                "PlugX",
+                "Winnti",
+                "APT41"
+            ]
+        }
+    ]
 };

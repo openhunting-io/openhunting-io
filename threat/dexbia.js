@@ -36,5 +36,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "dexbia",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://vblocalhost.com/uploads/VB2020-Lunghi-Horejsi.pdf",
+            "date": "2020-10-03",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Earth Akhlut: Exploring the Tools, Tactics, and Procedures of an Advanced Threat Actor Operating a Large Infrastructure",
+            "categories": [
+                "Dexbia",
+                "TypeHash"
+            ]
+        }
+    ]
 };

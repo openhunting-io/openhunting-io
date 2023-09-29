@@ -36,5 +36,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "silent_night",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

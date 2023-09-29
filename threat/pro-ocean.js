@@ -31,5 +31,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pro-ocean",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://seguranca-informatica.pt/new-cryptojacking-malware-called-pro-ocean-is-now-attacking-apache-oracle-and-redis-servers/",
+            "date": "2021-02-03",
+            "organization": "Seguranca Informatica",
+            "author": "Pedro Tavares",
+            "title": "New cryptojacking malware called Pro-Ocean is now attacking Apache, Oracle and Redis servers",
+            "categories": [
+                "Pro-Ocean"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/pro-ocean-rocke-groups-new-cryptojacking-malware/",
+            "date": "2021-01-28",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Aviv Sasson",
+            "title": "Pro-Ocean: Rocke Group\u2019s New Cryptojacking Malware",
+            "categories": [
+                "Pro-Ocean"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "WSO, Webshell by Orb",
     "category": "Tools",
     "type": "Reconnaissance, Backdoor, Info stealer, Credential stealer, Exfiltration",
-    "modified": "2020-05-13",
+    "modified": "2022-05-04",
     "all_data": {
         "tool": "WSO",
         "names": [
@@ -38,5 +38,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "wso",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/cloud-metadata-abuse-unc2903",
+            "date": "2022-05-04",
+            "organization": "Mandiant",
+            "author": "Brandan Schondorfer",
+            "title": "Old Services, New Tricks: Cloud Metadata Abuse by UNC2903",
+            "categories": [
+                "WSO"
+            ]
+        }
+    ]
 };

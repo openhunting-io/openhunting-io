@@ -39,5 +39,43 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "cwoolger",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+            "date": "2015-11",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "ROCKET KIT TEN: A CAMPAIGN WITH 9 LIVES",
+            "categories": [
+                "FireMalv",
+                "MPKBot",
+                "Woolger",
+                "Cleaver",
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "http://www.trendmicro.it/media/wp/operation-woolen-goldfish-whitepaper-en.pdf",
+            "date": "2015-03-24",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "Operation Woolen-Goldfish: When Kittens Go Phishing",
+            "categories": [
+                "Ghole",
+                "Woolger"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/wp/wp-operation-woolen-goldfish.pdf",
+            "date": "2015-03-19",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "Operation WOOLEN-GOLDFISH: When Kittens Go Phishing",
+            "categories": [
+                "Ghole",
+                "Woolger"
+            ]
+        }
+    ]
 };

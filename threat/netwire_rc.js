@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "NetWire RC, NetWire RAT, NetWired RC, NetWire, NetWeird, Recam",
     "category": "Malware",
     "type": "POS malware, Backdoor, Keylogger, Credential stealer",
-    "modified": "2022-12-28",
+    "modified": "2023-09-08",
     "all_data": {
         "tool": "NetWire RC",
         "names": [
@@ -2016,7 +2016,1677 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-10 22:41:29",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "netwire",
+            "procedure_code": "s0198",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0198",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
+                    "technique_name": "phishing : spearphishing attachment",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "netwire has been spread via e-mail campaigns utilizing malicious attachments.[162][163]"
+                },
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/002",
+                    "technique_name": "phishing : spearphishing link",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. spearphishing with a link is a specific variant of spearphishing. it is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "netwire has been spread via e-mail campaigns utilizing malicious links.[56]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
+                    "technique_name": "command and scripting interpreter : powershell",
+                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
+                    "procedure_description": "the netwire binary has been executed via powershell script.[166]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "netwire can issue commands using cmd.exe.[235][236]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/004",
+                    "technique_name": "command and scripting interpreter : unix shell",
+                    "technique_description": "adversaries may abuse unix shell commands and scripts for execution. unix shells are the primary command prompt on linux and macos systems, though many variations of the unix shell exist (e.g. sh, bash, zsh, etc.) depending on the specific os or distribution. unix shells can control every aspect of a system, with certain commands requiring elevated privileges.",
+                    "procedure_description": "netwire has the ability to use /bin/bash and /bin/sh to execute commands.[28][29]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/005",
+                    "technique_name": "command and scripting interpreter : visual basic",
+                    "technique_description": "adversaries may abuse visual basic (vb) for execution. vb is a programming language created by microsoft with interoperability with many windows technologies such as component object model and the native api through the windows api. although tagged as legacy with no planned future evolutions, vb is integrated and supported in the .net framework and cross-platform .net core.",
+                    "procedure_description": "netwire has been executed through use of vbscripts.[103][104]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "netwire can use native api including createprocess getprocessbyid, and writeprocessmemory.[128]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "netwire can use crontabs to establish persistence.[9]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "netwire can create a scheduled task to establish persistence.[117]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/001",
+                    "technique_name": "user execution : malicious link",
+                    "technique_description": "an adversary may rely upon a user clicking a malicious link in order to gain execution. users may be subjected to social engineering to get them to click on a link that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing link. clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via exploitation for client execution. links may also lead users to download files that require execution via malicious file.",
+                    "procedure_description": "netwire has been executed through convincing victims into clicking malicious links.[64][43]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "netwire has been executed through luring victims into opening malicious documents.[167][105][168]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "netwire creates a registry start-up entry to establish persistence.[178][179][112][180]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.013",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/013",
+                    "technique_name": "boot or logon autostart execution : xdg autostart entries",
+                    "technique_description": "adversaries may modify xdg autostart entries to execute programs or commands during system boot. linux desktop environments that are xdg compliant implement functionality for xdg autostart entries. these entries will allow an application to automatically start during the startup of a desktop environment after user logon. by default, xdg autostart entries are stored within the /etc/xdg/autostart or ~/.config/autostart directories and have a .desktop file extension.",
+                    "procedure_description": "netwire can use xdg autostart entries to establish persistence.[4]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.015",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/015",
+                    "technique_name": "boot or logon autostart execution : login items",
+                    "technique_description": "adversaries may add login items to execute upon user login to gain persistence or escalate privileges. login items are applications, documents, folders, or server connections that are automatically launched when a user logs in. login items can be added via a shared file list or service management framework. shared file list login items can be set using scripting languages such as applescript, whereas the service management framework uses the api call smloginitemsetenabled.",
+                    "procedure_description": "netwire can persist via startup options for login items.[15]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/001",
+                    "technique_name": "create or modify system process : launch agent",
+                    "technique_description": "adversaries may create or modify launch agents to repeatedly execute malicious payloads as part of persistence. when a user logs in, a per-user launchd process is started which loads the parameters for each launch-on-demand user agent from the property list (.plist) file found in /system/library/launchagents, /library/launchagents, and ~/library/launchagents.  property list files use the label, programarguments , and runatload keys to identify the launch agent's name, executable location, and execution time. launch agents are often installed to perform updates to programs, launch user specified programs at login, or to conduct other developer tasks.",
+                    "procedure_description": "netwire can use launch agents for persistence.[24]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "netwire can use crontabs to establish persistence.[9]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "netwire can create a scheduled task to establish persistence.[117]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "netwire creates a registry start-up entry to establish persistence.[178][179][112][180]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.013",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/013",
+                    "technique_name": "boot or logon autostart execution : xdg autostart entries",
+                    "technique_description": "adversaries may modify xdg autostart entries to execute programs or commands during system boot. linux desktop environments that are xdg compliant implement functionality for xdg autostart entries. these entries will allow an application to automatically start during the startup of a desktop environment after user logon. by default, xdg autostart entries are stored within the /etc/xdg/autostart or ~/.config/autostart directories and have a .desktop file extension.",
+                    "procedure_description": "netwire can use xdg autostart entries to establish persistence.[4]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.015",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/015",
+                    "technique_name": "boot or logon autostart execution : login items",
+                    "technique_description": "adversaries may add login items to execute upon user login to gain persistence or escalate privileges. login items are applications, documents, folders, or server connections that are automatically launched when a user logs in. login items can be added via a shared file list or service management framework. shared file list login items can be set using scripting languages such as applescript, whereas the service management framework uses the api call smloginitemsetenabled.",
+                    "procedure_description": "netwire can persist via startup options for login items.[15]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1543.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/001",
+                    "technique_name": "create or modify system process : launch agent",
+                    "technique_description": "adversaries may create or modify launch agents to repeatedly execute malicious payloads as part of persistence. when a user logs in, a per-user launchd process is started which loads the parameters for each launch-on-demand user agent from the property list (.plist) file found in /system/library/launchagents, /library/launchagents, and ~/library/launchagents.  property list files use the label, programarguments , and runatload keys to identify the launch agent's name, executable location, and execution time. launch agents are often installed to perform updates to programs, launch user specified programs at login, or to conduct other developer tasks.",
+                    "procedure_description": "netwire can use launch agents for persistence.[24]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "netwire can inject code into system processes including notepad.exe, svchost.exe, and vbc.exe.[40]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "the netwire payload has been injected into benign microsoft executables via process hollowing.[27][28]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "netwire can use crontabs to establish persistence.[9]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "netwire can create a scheduled task to establish persistence.[117]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
+                    "technique_name": "hide artifacts : hidden files and directories",
+                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
+                    "procedure_description": "netwire can copy itself to and launch itself from hidden folders.[34]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/001",
+                    "technique_name": "masquerading : invalid code signature",
+                    "technique_description": "adversaries may attempt to mimic features of valid code signatures to increase the chance of deceiving a user, analyst, or tool. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with. adversaries can copy the metadata and signature information from a signed program, then use it as a template for an unsigned program. files with invalid code signatures will fail digital signature validation checks, but they may appear more legitimate to users and security tools may improperly handle these files.",
+                    "procedure_description": "the netwire client has been signed by fake and invalid digital certificates.[5]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
+                    "technique_name": "masquerading : match legitimate name or location",
+                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
+                    "procedure_description": "netwire has masqueraded as legitimate software including teamviewer and macos finder.[107]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "netwire can modify the registry to store its configuration information.[104]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "netwire has used a custom obfuscation algorithm to hide strings including registry keys, apis, and dll names.[228]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/002",
+                    "technique_name": "obfuscated files or information : software packing",
+                    "technique_description": "adversaries may perform software packing or virtual machine software protection to conceal their code. software packing is a method of compressing or encrypting an executable. packing an executable changes the file signature in an attempt to avoid signature-based detection. most decompression techniques decompress the executable code in memory. virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. a virtual machine is then called to run this code.",
+                    "procedure_description": "netwire has used .net packer tools to evade detection.[60]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.011",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/011",
+                    "technique_name": "obfuscated files or information : fileless storage",
+                    "technique_description": "adversaries may store data in \"fileless\" formats to conceal malicious activity from defenses. fileless storage can be broadly defined as any format other than a file. common examples of non-volatile fileless storage include the windows registry, event logs, or wmi repository.",
+                    "procedure_description": "netwire can store its configuration information in the registry under hkcu:\\software\\netwire.[13]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "netwire can inject code into system processes including notepad.exe, svchost.exe, and vbc.exe.[40]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "the netwire payload has been injected into benign microsoft executables via process hollowing.[27][28]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555",
+                    "technique_name": "credentials from password stores",
+                    "technique_description": "adversaries may search for common password storage locations to obtain user credentials. passwords are stored in several places on a system, depending on the operating system or application holding the credentials. there are also specific applications that store passwords to make it easier for users manage and maintain. once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
+                    "procedure_description": "netwire can retrieve passwords from messaging and mail client applications.[25]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555/003",
+                    "technique_name": "credentials from password stores : credentials from web browsers",
+                    "technique_description": "adversaries may acquire credentials from web browsers by reading files specific to the target browser. web browsers commonly save credentials such as website usernames and passwords so that they do not need to be entered manually in the future. web browsers typically store the credentials in an encrypted format within a credential store; however, methods exist to extract plaintext credentials from web browsers.",
+                    "procedure_description": "netwire has the ability to steal credentials from web browsers including internet explorer, opera, yandex, and chrome.[56][57][58]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1056.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
+                    "technique_name": "input capture : keylogging",
+                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
+                    "procedure_description": "netwire can perform keylogging.[122][123][124][125][126]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1010",
+                    "technique_link": "https://attack.mitre.org/techniques/T1010",
+                    "technique_name": "application window discovery",
+                    "technique_description": "adversaries may attempt to get a listing of open application windows. window listings could convey information about how the system is used. for example, information about application windows could be used identify potential data to collect as well as identifying security tooling (security software discovery) to evade.",
+                    "procedure_description": "netwire can discover and close windows on controlled systems.[22]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "netwire has the ability to search for files on the compromised host.[205]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "netwire can discover processes on compromised hosts.[181]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "netwire can discover and collect victim system information.[251]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "netwire can collect the ip address of a compromised host.[156][157]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1049",
+                    "technique_link": "https://attack.mitre.org/techniques/T1049",
+                    "technique_name": "system network connections discovery",
+                    "technique_description": "adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network.",
+                    "procedure_description": "netwire can capture session logon details from a compromised host.[58]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1560",
+                    "technique_link": "https://attack.mitre.org/techniques/T1560",
+                    "technique_name": "archive collected data",
+                    "technique_description": "an adversary may compress and/or encrypt data that is collected prior to exfiltration. compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender.",
+                    "procedure_description": "netwire has the ability to compress archived screenshots.[40]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1560.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1560/003",
+                    "technique_name": "archive collected data : archive via custom method",
+                    "technique_description": "an adversary may compress or encrypt data that is collected prior to exfiltration using a custom method. adversaries may choose to use custom archival methods, such as encryption with xor or stream ciphers implemented with no external library or utility references. custom implementations of well-known compression algorithms have also been used.",
+                    "procedure_description": "netwire has used a custom encryption algorithm to encrypt collected data.[25]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1119",
+                    "technique_link": "https://attack.mitre.org/techniques/T1119",
+                    "technique_name": "automated collection",
+                    "technique_description": "once established within a system or network, an adversary may use automated techniques for collecting internal data. methods for performing this technique could include use of a command and scripting interpreter to search for and copy information fitting set criteria such as file type, location, or name at specific time intervals. in cloud-based environments, adversaries may also use cloud apis, command line interfaces, or extract, transform, and load (etl) services to automatically collect data. this functionality could also be built into remote access tools.",
+                    "procedure_description": "netwire can automatically archive collected data.[29]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1074.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1074/001",
+                    "technique_name": "data staged : local data staging",
+                    "technique_description": "adversaries may stage collected data in a central location or directory on the local system prior to exfiltration. data may be kept in separate files or combined into one file through techniques such as archive collected data. interactive command shells may be used, and common functionality within cmd and bash may be used to copy data into a staging location.",
+                    "procedure_description": "netwire has the ability to write collected data to a file created in the ./logs directory.[67]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1056.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
+                    "technique_name": "input capture : keylogging",
+                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
+                    "procedure_description": "netwire can perform keylogging.[122][123][124][125][126]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1113",
+                    "technique_link": "https://attack.mitre.org/techniques/T1113",
+                    "technique_name": "screen capture",
+                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
+                    "procedure_description": "netwire can capture the victim's screen.[110][111][112][113]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "netwire has the ability to communicate over http.[223][224]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573",
+                    "technique_name": "encrypted channel",
+                    "technique_description": "adversaries may employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if secret keys are encoded and/or generated within malware samples/configuration files.",
+                    "procedure_description": "netwire can encrypt c2 communications.[10]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/001",
+                    "technique_name": "encrypted channel : symmetric cryptography",
+                    "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
+                    "procedure_description": "netwire can use aes encryption for c2 data transferred.[99]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "netwire can downloaded payloads from c2 to the compromised host.[314][315]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1095",
+                    "technique_link": "https://attack.mitre.org/techniques/T1095",
+                    "technique_name": "non-application layer protocol",
+                    "technique_description": "adversaries may use an osi non-application layer protocol for communication between host and c2 server or among infected hosts within a network. the list of possible protocols is extensive. specific examples include use of network layer protocols, such as the internet control message protocol (icmp), transport layer protocols, such as the user datagram protocol (udp), session layer protocols, such as socket secure (socks), as well as redirected/tunneled protocols, such as serial over lan (sol).",
+                    "procedure_description": "netwire can use tcp in c2 communications.[43][44]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090",
+                    "technique_name": "proxy",
+                    "technique_description": "adversaries may use a connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. many tools exist that enable traffic redirection through proxies or port redirection, including htran, zxproxy, and zxportmap.  adversaries use these types of proxies to manage command and control communications, reduce the number of simultaneous outbound network connections, provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between victims to avoid suspicion. adversaries may chain together multiple proxies to further disguise the source of malicious traffic.",
+                    "procedure_description": "netwire can implement use of proxies to pivot traffic.[30]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1102",
+                    "technique_link": "https://attack.mitre.org/techniques/T1102",
+                    "technique_name": "web service",
+                    "technique_description": "adversaries may use an existing, legitimate external web service as a means for relaying data to/from a compromised system. popular websites and social media acting as a mechanism for c2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. using common services, such as those offered by google or twitter, makes it easier for adversaries to hide in expected noise. web service providers commonly use ssl/tls encryption, giving adversaries an added level of protection.",
+                    "procedure_description": "netwire has used web services including paste.ee to host payloads.[26]"
+                }
+            ]
+        },
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        },
+        {
+            "procedure_name": "net",
+            "procedure_code": "s0039",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0039",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1569.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1569/002",
+                    "technique_name": "system services : service execution",
+                    "technique_description": "adversaries may abuse the windows service control manager to execute malicious commands or payloads. the windows service control manager (services.exe) is an interface to manage and manipulate services. the service control manager is accessible to users via gui components as well as system utilities such as sc.exe and net.",
+                    "procedure_description": "the net start and net stop commands can be used in net to execute or stop windows services.[36]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1136.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1136/001",
+                    "technique_name": "create account : local account",
+                    "technique_description": "adversaries may create a local account to maintain access to victim systems. local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service. with a sufficient level of access, the net user /add command can be used to create a local account. on macos systems the dscl -create command can be used to create a local account. local accounts may also be added to network devices, often via common network device cli commands such as username.",
+                    "procedure_description": "the net user username \\password commands in net can be used to create a local account.[20]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1136.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1136/002",
+                    "technique_name": "create account : domain account",
+                    "technique_description": "adversaries may create a domain account to maintain access to victim systems. domain accounts are those managed by active directory domain services where access and permissions are configured across systems and services that are part of that domain. domain accounts can cover user, administrator, and service accounts. with a sufficient level of access, the net user /add /domain command can be used to create a domain account.",
+                    "procedure_description": "the net user username \\password \\domain commands in net can be used to create a domain account.[6]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/005",
+                    "technique_name": "indicator removal : network share connection removal",
+                    "technique_description": "adversaries may remove share connections that are no longer useful in order to clean up traces of their operation. windows shared drive and smb/windows admin shares connections can be removed when no longer needed. net is an example utility that can be used to remove network share connections with the net use \\system\\share /delete command.",
+                    "procedure_description": "the net use \\system\\share /delete command can be used in net to remove an established connection to a network share.[1]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1087.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1087/001",
+                    "technique_name": "account discovery : local account",
+                    "technique_description": "adversaries may attempt to get a listing of local system accounts. this information can help adversaries determine which local accounts exist on a system to aid in follow-on behavior.",
+                    "procedure_description": "commands under net user can be used in net to gather information about and manipulate user accounts.[27]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1087.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1087/002",
+                    "technique_name": "account discovery : domain account",
+                    "technique_description": "adversaries may attempt to get a listing of domain accounts. this information can help adversaries determine which domain accounts exist to aid in follow-on behavior such as targeting specific accounts which possess particular privileges.",
+                    "procedure_description": "net commands used with the /domain flag can be used to gather information about and manipulate user accounts on the current domain.[32]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1135",
+                    "technique_link": "https://attack.mitre.org/techniques/T1135",
+                    "technique_name": "network share discovery",
+                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
+                    "procedure_description": "the net view \\remotesystem and net share commands in net can be used to find shared drives and directories on remote and local systems respectively.[38]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1201",
+                    "technique_link": "https://attack.mitre.org/techniques/T1201",
+                    "technique_name": "password policy discovery",
+                    "technique_description": "adversaries may attempt to access detailed information about the password policy used within an enterprise network or cloud environment. password policies are a way to enforce complex passwords that are difficult to guess or crack through brute force. this information may help the adversary to create a list of common passwords and launch dictionary and/or brute force attacks which adheres to the policy (e.g. if the minimum password length should be 8, then not trying passwords such as 'pass123'; not checking for more than 3-4 passwords per account if the lockout is set to 6 as to not lock out accounts).",
+                    "procedure_description": "the net accounts and net accounts /domain commands with net can be used to obtain password policy information.[9]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1069.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1069/001",
+                    "technique_name": "permission groups discovery : local groups",
+                    "technique_description": "adversaries may attempt to find local system groups and permission settings. the knowledge of local system permission groups can help adversaries determine which groups exist and which users belong to a particular group. adversaries may use this information to determine which users have elevated permissions, such as the users found within the local administrators group.",
+                    "procedure_description": "commands such as net group and net localgroup can be used in net to gather information about and manipulate groups.[17]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1069.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1069/002",
+                    "technique_name": "permission groups discovery : domain groups",
+                    "technique_description": "adversaries may attempt to find domain-level groups and permission settings. the knowledge of domain-level permission groups can help adversaries determine which groups exist and which users belong to a particular group. adversaries may use this information to determine which users have elevated permissions, such as domain administrators.",
+                    "procedure_description": "commands such as net group /domain can be used in net to gather information about and manipulate groups.[21]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1018",
+                    "technique_link": "https://attack.mitre.org/techniques/T1018",
+                    "technique_name": "remote system discovery",
+                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
+                    "procedure_description": "commands such as net view can be used in net to gather information about available remote systems.[62]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1049",
+                    "technique_link": "https://attack.mitre.org/techniques/T1049",
+                    "technique_name": "system network connections discovery",
+                    "technique_description": "adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network.",
+                    "procedure_description": "commands such as net use and net session can be used in net to gather information about network connections from a particular host.[56]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1007",
+                    "technique_link": "https://attack.mitre.org/techniques/T1007",
+                    "technique_name": "system service discovery",
+                    "technique_description": "adversaries may try to gather information about registered local system services. adversaries may obtain information about services using tools as well as os utility commands such as sc query, tasklist /svc, systemctl --type=service, and net start.",
+                    "procedure_description": "the net start command can be used in net to find information about windows services.[37]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1124",
+                    "technique_link": "https://attack.mitre.org/techniques/T1124",
+                    "technique_name": "system time discovery",
+                    "technique_description": "an adversary may gather the system time and/or time zone from a local or remote system. the system time is set and stored by the windows time service within a domain to maintain time synchronization between systems and services in an enterprise network.",
+                    "procedure_description": "the net time command can be used in net to determine the local or remote system time.[52]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/002",
+                    "technique_name": "remote services : smb/windows admin shares",
+                    "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
+                    "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
+                }
+            ]
+        }
+    ],
     "file_name": "netwire_rc",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
+            "date": "2023-09-08",
+            "organization": "",
+            "author": "Gi7w0rm",
+            "title": "Uncovering DDGroup \u2014 A long-time threat actor",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "DBatLoader",
+                "NetWire RC",
+                "Quasar RAT",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://research.loginsoft.com/threat-research/from-innocence-to-malice-the-onenote-malware-campaign-uncovered/",
+            "date": "2023-03-30",
+            "organization": "loginsoft",
+            "author": "Saharsh Agrawal",
+            "title": "From Innocence to Malice: The OneNote Malware Campaign Uncovered",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "DOUBLEBACK",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "NetWire RC",
+                "QakBot",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://www.intego.com/mac-security-blog/fbi-shuts-down-11-year-old-netwire-rat-malware/",
+            "date": "2023-03-16",
+            "organization": "Intego",
+            "author": "Joshua Long",
+            "title": "FBI shuts down 11-year-old NetWire RAT malware",
+            "categories": [
+                "NetWire"
+            ]
+        },
+        {
+            "data_url": "https://www.theregister.com/2023/03/10/fbi_netwire_seizure/",
+            "date": "2023-03-10",
+            "organization": "The Register",
+            "author": "Jessica Lyons Hardcastle",
+            "title": "FBI and international cops catch a NetWire RAT",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/following-the-scent-of-trickgate-6-year-old-packer-used-to-deploy-the-most-wanted-malware/",
+            "date": "2023-01-30",
+            "organization": "Checkpoint",
+            "author": "Arie Olshtein",
+            "title": "Following the Scent of TrickGate: 6-Year-Old Packer Used to Deploy the Most Wanted Malware",
+            "categories": [
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Maze",
+                "NetWire RC",
+                "Remcos",
+                "REvil",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/file/d/13prt2ve_sHNRRiGthB07qtfuinftJX35/view",
+            "date": "2022-12-18",
+            "organization": "ZAYOTEM",
+            "author": "Enes \u015eakir \u00c7olak",
+            "title": "NetWire Technical Analysis Report",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://lmntrix.com/lab/analysis-of-netwire-rat/",
+            "date": "2022-11-06",
+            "organization": "LMNTRIX",
+            "author": "LMNTRIX",
+            "title": "Analysis Of Netwire RAT",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2022-10-13",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2022",
+            "categories": [
+                "FluBot",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "Emotet",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Socelars",
+                "Tofsee",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/threat-actors-prey-on-eager-travelers",
+            "date": "2022-06-02",
+            "organization": "FortiGuard Labs",
+            "author": "Fred Gutierrez",
+            "title": "Threat Actors Prey on Eager Travelers",
+            "categories": [
+                "AsyncRAT",
+                "NetWire RC",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=TeQdZxP0RYY",
+            "date": "2022-02-18",
+            "organization": "YouTube (John Hammond)",
+            "author": "John Hammond",
+            "title": "Uncovering NETWIRE Malware - Discovery & Deobfuscation",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/ta2541-apt-rats-aviation/178422/",
+            "date": "2022-02-15",
+            "organization": "Threat Post",
+            "author": "Elizabeth Montalbano",
+            "title": "TA2541: APT Has Been Shooting RATs at Aviation for Years",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "NetWire RC",
+                "Parallax RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/unskilled-hacker-linked-to-years-of-attacks-on-aviation-transport-sectors/",
+            "date": "2022-02-15",
+            "organization": "BleepingComputer",
+            "author": "Ionut Ilascu",
+            "title": "Unskilled hacker linked to years of attacks on aviation, transport sectors",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "NetWire RC",
+                "Parallax RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence/",
+            "date": "2022-02-09",
+            "organization": "Sentinel LABS",
+            "author": "Tom Hegel",
+            "title": "ModifiedElephant APT and a Decade of Fabricating Evidence",
+            "categories": [
+                "DarkComet",
+                "Incubator",
+                "NetWire RC",
+                "ModifiedElephant"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/wp-content/uploads/2022/02/Modified-Elephant-APT-and-a-Decade-of-Fabricating-Evidence-SentinelLabs.pdf",
+            "date": "2022-02-09",
+            "organization": "SentinelOne",
+            "author": "Tom Hegel",
+            "title": "Modified Elephant APT and a Decade of Fabricating Evidence",
+            "categories": [
+                "DarkComet",
+                "Incubator",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/01/nanocore-netwire-and-asyncrat-spreading.html",
+            "date": "2022-01-12",
+            "organization": "Cisco",
+            "author": "Chetan Raghuprasad",
+            "title": "Nanocore, Netwire and AsyncRAT spreading campaign uses public cloud infrastructure",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/24759ad2",
+            "date": "2021-12-13",
+            "organization": "RiskIQ",
+            "author": "Jordan Herman",
+            "title": "RiskIQ: Connections between Nanocore, Netwire, and AsyncRAT and Vjw0rm dynamic DNS C2 infrastructure",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/10/HP-Wolf-Security-Threat-Insights-Report-Q3-2021.pdf",
+            "date": "2021-10",
+            "organization": "HP",
+            "author": "HP Wolf Security",
+            "title": "Threat Insights  Report Q3 - 2021",
+            "categories": [
+                "STRRAT",
+                "CloudEyE",
+                "NetWire RC",
+                "Remcos",
+                "TrickBot",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/09/operation-armor-piercer.html",
+            "date": "2021-09-23",
+            "organization": "Talos",
+            "author": "Asheer Malhotra",
+            "title": "Operation \u201cArmor Piercer:\u201d Targeted attacks in the Indian subcontinent using commercial RATs",
+            "categories": [
+                "Ave Maria",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/09/threat-thursday-netwire-rat-is-coming-down-the-line",
+            "date": "2021-09-16",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Threat Thursday: NetWire RAT is Coming Down the Line",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/xUM2x89GuB8uP6otN612Fg",
+            "date": "2021-09-01",
+            "organization": "360 Threat Intelligence Center",
+            "author": "Advanced Threat Institute",
+            "title": "APT-C-56 (Transparent Tribe) Latest Attack Analysis and Associated Suspected Gorgon Group Attack Analysis Alert",
+            "categories": [
+                "Crimson RAT",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/yrDzybPVTbu_9SrZPlSNKA",
+            "date": "2021-08-05",
+            "organization": "Twitter (@BaoshengbinCumt)",
+            "author": "2ero",
+            "title": "Attacks on NCGSA, MOITT, MOD, NSCP and SCO in Pakistan",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "IBM",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "Cipher Tech Solutions",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/file/d/1dD2sWYES_hrPsoql4G0aVF9ILIxAS4Fd/view",
+            "date": "2021-06-10",
+            "organization": "ZAYOTEM",
+            "author": "Fatma Nur G\u00f6z\u00fck\u00fc\u00e7\u00fck",
+            "title": "NetWire Technical Analysis Report",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader",
+            "date": "2021-05-07",
+            "organization": "Morphisec",
+            "author": "Nadav Lorber",
+            "title": "Revealing the \u2018Snip3\u2019 Crypter, a Highly Evasive RAT Loader",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "NetWire RC",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/catching-rats-over-custom-protocols",
+            "date": "2021-05-05",
+            "organization": "Zscaler",
+            "author": "Aniruddha Dolas",
+            "title": "Catching RATs Over Custom Protocols Analysis of top non-HTTP/S threats",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "Crimson RAT",
+                "CyberGate",
+                "Ghost RAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/04/a-year-of-fajan-evolution-and-bloomberg.html",
+            "date": "2021-04-21",
+            "organization": "Talos",
+            "author": "Vanja Svajcer",
+            "title": "A year of Fajan evolution and Bloomberg themed campaigns",
+            "categories": [
+                "MASS Logger",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Revenge RAT",
+                "XpertRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/look-hydrojiin-campaign",
+            "date": "2021-04-14",
+            "organization": "Zscaler",
+            "author": "Rohit Chaturvedi",
+            "title": "A look at HydroJiin campaign",
+            "categories": [
+                "NetWire RC",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/cybereason-exposes-malware-targeting-us-taxpayers",
+            "date": "2021-03-18",
+            "organization": "Cybereason",
+            "author": "Daniel Frank",
+            "title": "Cybereason Exposes Campaign Targeting US Taxpayers with NetWire and Remcos Malware",
+            "categories": [
+                "NetWire RC",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://context-cdn.washingtonpost.com/notes/prod/default/documents/b19a6f2e-55a1-4915-9c2d-5fae0110418c/note/b463d38b-2384-4bb0-a94b-b1b17223ffd0.",
+            "date": "2021-02-08",
+            "organization": "Arsenal Consulting",
+            "author": "Arsenal Consulting",
+            "title": "National Investigation Agency VS Sudhir Pralhad Dhawale & others Report 1",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2021/01/09/c2-traffic-patterns-personal-notes/",
+            "date": "2021-01-09",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Command and Control Traffic Patterns",
+            "categories": [
+                "ostap",
+                "LaZagne",
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cobalt Strike",
+                "DanaBot",
+                "DarkComet",
+                "Dridex",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "ISFB",
+                "NetWire RC",
+                "PlugX",
+                "Quasar RAT",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/global-pandemic-remcos-tesla-netwire",
+            "date": "2020-11-18",
+            "organization": "G Data",
+            "author": "G-Data",
+            "title": "Business as usual: Criminal Activities in Times of a Global Pandemic",
+            "categories": [
+                "Agent Tesla",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
+            "date": "2020-07-30",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2020",
+            "categories": [
+                "AdWind",
+                "Agent Tesla",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "KPOT Stealer",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Pony",
+                "Raccoon",
+                "RedLine Stealer",
+                "Remcos",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/07/14/raticate-rats-as-service-with-commercial-crypter/?cmp=30728",
+            "date": "2020-07-14",
+            "organization": "SophosLabs Uncut",
+            "author": "Markel Picado",
+            "title": "RATicate upgrades \u201cRATs as a Service\u201d attacks with commercial \u201ccrypter\u201d",
+            "categories": [
+                "LokiBot",
+                "BetaBot",
+                "CloudEyE",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/",
+            "date": "2020-06-15",
+            "organization": "Amnesty International",
+            "author": "Amnesty International",
+            "title": "India: Human Rights Defenders Targeted by a Coordinated Spyware Operation",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://resources.malwarebytes.com/files/2020/05/CTNT_Q1_2020_COVID-Report_Final.pdf",
+            "date": "2020-05-21",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Cybercrime tactics and techniques",
+            "categories": [
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/05/14/raticate/",
+            "date": "2020-05-14",
+            "organization": "SophosLabs",
+            "author": "Markel Picado",
+            "title": "RATicate: an attacker\u2019s waves of information-stealing malware",
+            "categories": [
+                "Agent Tesla",
+                "BetaBot",
+                "BlackRemote",
+                "Formbook",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/new-cyber-operation-targets-italy-digging-into-the-netwire-attack-chain/",
+            "date": "2020-05-06",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "New Cyber Operation Targets Italy: Digging Into the Netwire Attack Chain",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/guloader-installing-netwire-rat/",
+            "date": "2020-04-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "GuLoader: Malspam Campaign Installing NetWire RAT",
+            "categories": [
+                "CloudEyE",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/navigating-cybersecurity-during-a-pandemic-latest-malware-and-threat-actors",
+            "date": "2020-04-01",
+            "organization": "Cisco",
+            "author": "Shyam Sundar Ramaswami",
+            "title": "Navigating Cybersecurity During a Pandemic: Latest Malware and Threat Actors",
+            "categories": [
+                "Azorult",
+                "CloudEyE",
+                "Formbook",
+                "KPOT Stealer",
+                "Metamorfo",
+                "Nanocore RAT",
+                "NetWire RC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.vincss.net/2020/03/re011-unpack-crypter-cua-malware-netwire-bang-x64dbg.html",
+            "date": "2020-03-05",
+            "organization": "VinCSS",
+            "author": "Dang Dinh Phuong",
+            "title": "[RE011] Unpack crypter c\u1ee7a malware Netwire b\u1eb1ng x64dbg",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT TRINITY",
+            "categories": [
+                "POWERTON",
+                "pupy",
+                "Imminent Monitor RAT",
+                "Koadic",
+                "Nanocore RAT",
+                "NetWire RC",
+                "PoshC2",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+            "date": "2019-11-19",
+            "organization": "FireEye",
+            "author": "Kelli Vanderlee",
+            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
+            "categories": [
+                "MESSAGETAP",
+                "TSCookie",
+                "ACEHASH",
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "Derusbi",
+                "Empire Downloader",
+                "Ghost RAT",
+                "HIGHNOON",
+                "HTran",
+                "MimiKatz",
+                "NetWire RC",
+                "poisonplug",
+                "Poison Ivy",
+                "pupy",
+                "Quasar RAT",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/new-whiteshadow-downloader-uses-microsoft-sql-retrieve-malware",
+            "date": "2019-09-26",
+            "organization": "Proofpoint",
+            "author": "Bryan Campbell",
+            "title": "New WhiteShadow downloader uses Microsoft SQL to retrieve malware",
+            "categories": [
+                "WhiteShadow",
+                "Agent Tesla",
+                "Azorult",
+                "Crimson RAT",
+                "Formbook",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/adolfstreda/the-tangle-of-wiryjmpers-obfuscation/",
+            "date": "2019-09-12",
+            "organization": "Avast",
+            "author": "Adolf St\u0159eda",
+            "title": "The tangle of WiryJMPer\u2019s obfuscation",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://news.drweb.ru/show/?i=13281&c=23",
+            "date": "2019-05-08",
+            "organization": "Dr.Web",
+            "author": "Dr.Web",
+            "title": "A new threat for macOS spreads as WhatsApp",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/elfin-apt33-espionage",
+            "date": "2019-03-27",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
+            "categories": [
+                "DarkComet",
+                "MimiKatz",
+                "Nanocore RAT",
+                "NetWire RC",
+                "pupy",
+                "Quasar RAT",
+                "Remcos",
+                "StoneDrill",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://maskop9.wordpress.com/2019/01/30/analysis-of-netwiredrc-trojan/",
+            "date": "2019-01-30",
+            "organization": "",
+            "author": "Samip Pokharel",
+            "title": "Analysis of NetWiredRC trojan",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/12/recam-redux-deconfusing-confuserex.html",
+            "date": "2017-12-06",
+            "organization": "Cisco",
+            "author": "Holger Unterbrink",
+            "title": "Recam Redux - DeConfusing ConfuserEx",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+            "date": "2017-09-20",
+            "organization": "FireEye",
+            "author": "Jacqueline O\u2019Leary",
+            "title": "Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware",
+            "categories": [
+                "DROPSHOT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "SHAPESHIFT",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/netwire-rat-steals-payment-card-data",
+            "date": "2016-11-28",
+            "organization": "Secureworks",
+            "author": "Incident Reponse Team",
+            "title": "NetWire RAT Steals Payment Card Data",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.circl.lu/pub/tr-23/",
+            "date": "2014-11-26",
+            "organization": "CIRCL",
+            "author": "CIRCL",
+            "title": "TR-23 Analysis - NetWiredRC malware",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2014/08/new-release-decrypting-netwire-c2-traffic/",
+            "date": "2014-08-04",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Phil Da Silva",
+            "title": "New Release: Decrypting NetWire C2 Traffic",
+            "categories": [
+                "NetWire RC"
+            ]
+        }
+    ]
 };

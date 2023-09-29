@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Kegotip",
     "category": "Malware",
     "type": "Info stealer",
-    "modified": "2020-04-23",
+    "modified": "2020-05-21",
     "all_data": {
         "tool": "Kegotip",
         "names": [
@@ -33,5 +33,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "kegotip",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://intel471.com/blog/a-brief-history-of-ta505",
+            "date": "2020-05-21",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "A brief history of TA505",
+            "categories": [
+                "AndroMut",
+                "Bart",
+                "Dridex",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Jaff",
+                "Kegotip",
+                "Locky",
+                "Necurs",
+                "Philadephia Ransom",
+                "Pony",
+                "QuantLoader",
+                "Rockloader",
+                "SDBbot",
+                "ServHelper",
+                "Shifu",
+                "Snatch",
+                "TrickBot"
+            ]
+        }
+    ]
 };

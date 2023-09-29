@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "PseudoManuscrypt",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-27",
+    "modified": "2023-04-13",
     "all_data": {
         "tool": "PseudoManuscrypt",
         "names": [
@@ -31,5 +31,84 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pseudomanuscrypt",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.youtube.com/watch?v=uakw2HMGZ-I",
+            "date": "2023-04-13",
+            "organization": "Intel 471",
+            "author": "Souhail Hammou",
+            "title": "From GhostNet to PseudoManuscrypt - The evolution of Gh0st RAT",
+            "categories": [
+                "BBSRAT",
+                "Gh0stTimes",
+                "Ghost RAT",
+                "PseudoManuscrypt"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@lcam/updates-from-the-maas-new-threats-delivered-through-nullmixer-d45defc260d1",
+            "date": "2023-03-26",
+            "organization": "",
+            "author": "Luca Mella",
+            "title": "Updates from the MaaS: new threats delivered through NullMixer",
+            "categories": [
+                "Fabookie",
+                "Nullmixer",
+                "PseudoManuscrypt",
+                "Raccoon",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.bitsight.com/blog/zero-50k-infections-pseudomanuscrypt-sinkholing-part-1",
+            "date": "2022-10-05",
+            "organization": "BitSight",
+            "author": "Stanislas Arnoud",
+            "title": "Sinkholing PseudoManuscrypt: From Zero To 50k Infections - Part 1",
+            "categories": [
+                "PrivateLoader",
+                "PseudoManuscrypt"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/nullmixer-oodles-of-trojans-in-a-single-dropper/107498/",
+            "date": "2022-09-26",
+            "organization": "Kaspersky",
+            "author": "Haim Zigel",
+            "title": "NullMixer: oodles of Trojans in a single dropper",
+            "categories": [
+                "ColdStealer",
+                "DanaBot",
+                "GCleaner",
+                "Nullmixer",
+                "PrivateLoader",
+                "PseudoManuscrypt",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/31683/",
+            "date": "2022-02-18",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "PseudoManuscrypt Being Distributed in the Same Method as Cryptbot",
+            "categories": [
+                "CryptBot",
+                "PseudoManuscrypt"
+            ]
+        },
+        {
+            "data_url": "https://ics-cert.kaspersky.com/reports/2021/12/16/pseudomanuscrypt-a-mass-scale-spyware-attack-campaign/",
+            "date": "2021-12-16",
+            "organization": "",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "PseudoManuscrypt: a mass-scale spyware attack campaign",
+            "categories": [
+                "PseudoManuscrypt"
+            ]
+        }
+    ]
 };

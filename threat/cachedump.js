@@ -28,7 +28,29 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "cachedump",
+            "procedure_code": "s0119",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0119",
+            "techniques": [
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1003.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1003/005",
+                    "technique_name": "os credential dumping : cached domain credentials",
+                    "technique_description": "adversaries may attempt to access cached domain credentials used to allow authentication to occur in the event a domain controller is unavailable.",
+                    "procedure_description": "cachedump can extract cached password hashes from cache entry information.[6]"
+                }
+            ]
+        }
+    ],
     "file_name": "cachedump",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

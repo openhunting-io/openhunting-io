@@ -45,5 +45,58 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "zeus_openssl",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securityintelligence.com/posts/zeus-sphinx-back-in-business-some-core-modifications-arise/",
+            "date": "2020-05-11",
+            "organization": "SecurityIntelligence",
+            "author": "Nir Shwarts",
+            "title": "Zeus Sphinx Back in Business: Some Core Modifications Arise",
+            "categories": [
+                "Zeus Sphinx"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/zeus-sphinx-trojan-awakens-amidst-coronavirus-spam-frenzy/",
+            "date": "2020-03-30",
+            "organization": "IBM",
+            "author": "Amir Gandler",
+            "title": "Zeus Sphinx Trojan Awakens Amidst Coronavirus Spam Frenzy",
+            "categories": [
+                "Zeus OpenSSL",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/brazil-cant-catch-a-break-after-panda-comes-the-sphinx/",
+            "date": "2016-08-16",
+            "organization": "SecurityIntelligence",
+            "author": "Limor Kessem",
+            "title": "Brazil Can\u2019t Catch a Break: After Panda Comes the Sphinx",
+            "categories": [
+                "Zeus OpenSSL"
+            ]
+        },
+        {
+            "data_url": "https://securityaffairs.co/wordpress/39592/cyber-crime/sphinx-variant-zeus-trojan.html",
+            "date": "2015-08-26",
+            "organization": "Security Affairs",
+            "author": "Pierluigi Paganini",
+            "title": "Sphinx, a new variant of Zeus available for sale in the underground",
+            "categories": [
+                "Zeus Sphinx"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20160130165709/http://darkmatters.norsecorp.com/2015/08/24/sphinx-new-zeus-variant-for-sale-on-the-black-market/",
+            "date": "2015-08-24",
+            "organization": "DarkMatters",
+            "author": "Bev Robb",
+            "title": "Sphinx: New Zeus Variant for Sale on the Black Market",
+            "categories": [
+                "Zeus Sphinx"
+            ]
+        }
+    ]
 };

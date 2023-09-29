@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BlueShell",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-02-17",
+    "modified": "2023-09-05",
     "all_data": {
         "tool": "BlueShell",
         "names": [
@@ -27,5 +27,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "blueshell",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/ko/56715/",
+            "date": "2023-09-05",
+            "organization": "AhnLab",
+            "author": "Sanseo",
+            "title": "BlueShell malware used in APT attacks targeting Korea and Thailand",
+            "categories": [
+                "BlueShell",
+                "SparkRAT"
+            ]
+        }
+    ]
 };

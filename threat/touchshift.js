@@ -30,5 +30,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "touchshift",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/lightshow-north-korea-unc2970",
+            "date": "2023-03-09",
+            "organization": "Mandiant",
+            "author": "Mandiant Intelligence",
+            "title": "Stealing the LIGHTSHOW (Part One) \u2014 North Korea's UNC2970",
+            "categories": [
+                "CLOUDBURST",
+                "TOUCHMOVE",
+                "TOUCHSHIFT"
+            ]
+        }
+    ]
 };

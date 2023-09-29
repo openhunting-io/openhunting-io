@@ -32,5 +32,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "secure_socket_funneling",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

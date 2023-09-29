@@ -21,5 +21,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "popflash",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

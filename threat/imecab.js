@@ -30,5 +30,32 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "imecab",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/leafminer-espionage-middle-east",
+            "date": "2018-07-25",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions",
+            "categories": [
+                "Imecab",
+                "Sorgu",
+                "RASPITE"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/leafminer-espionage-middle-east",
+            "date": "2018-07-25",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Leafminer: New Espionage Campaigns Targeting Middle Eastern Regions",
+            "categories": [
+                "Imecab",
+                "MimiKatz",
+                "Sorgu",
+                "RASPITE"
+            ]
+        }
+    ]
 };

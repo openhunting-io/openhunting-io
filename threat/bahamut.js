@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Bahamut",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2020-05-13",
+    "modified": "2022-11-23",
     "all_data": {
         "tool": "Bahamut",
         "names": [
@@ -54,5 +54,83 @@ var threatdata = {
     "last_ioc_update": "2023-06-09 23:48:11",
     "mitre": [],
     "file_name": "bahamut",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2022/11/23/bahamut-cybermercenary-group-targets-android-users-fake-vpn-apps/",
+            "date": "2022-11-23",
+            "organization": "ESET Research",
+            "author": "Luk\u00e1\u0161 \u0160tefanko",
+            "title": "Bahamut cybermercenary group targets Android users with fake VPN apps",
+            "categories": [
+                "Bahamut"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/06/29/bahamut-android-malware-returns-with-new-spying-capabilities/",
+            "date": "2022-06-29",
+            "organization": "cyble",
+            "author": "Cyble Research Labs",
+            "title": "Bahamut Android Malware Returns With New Spying Capabilities",
+            "categories": [
+                "Bahamut"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/YAAybJBAvxqrQWYDg31BBw",
+            "date": "2022-04-12",
+            "organization": "360 Threat Intelligence Center",
+            "author": "360 Beacon Lab",
+            "title": "Recent attacks by Bahamut group revealed",
+            "categories": [
+                "Bahamut"
+            ]
+        },
+        {
+            "data_url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-spark-bahamut.pdf",
+            "date": "2020-10-06",
+            "organization": "Blackberry",
+            "author": "Blackberry Research",
+            "title": "BAHAMUT: Hack-for-Hire Masters of Phishing, Fake News, and Fake Apps",
+            "categories": [
+                "Bahamut",
+                "Bahamut"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/the-urpage-connection-to-bahamut-confucius-and-patchwork/",
+            "date": "2018-08-29",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "The Urpage Connection to Bahamut, Confucius and Patchwork",
+            "categories": [
+                "AndroRAT",
+                "Bahamut"
+            ]
+        },
+        {
+            "data_url": "https://www.bellingcat.com/resources/case-studies/2017/10/27/bahamut-revisited-cyber-espionage-middle-east-south-asia/",
+            "date": "2017-10-27",
+            "organization": "Bellingcat",
+            "author": "Collin Anderson",
+            "title": "Bahamut Revisited, More Cyber Espionage in the Middle East and South Asia",
+            "categories": [
+                "Bahamut",
+                "Bahamut",
+                "Bahamut"
+            ]
+        },
+        {
+            "data_url": "https://www.bellingcat.com/news/mena/2017/06/12/bahamut-pursuing-cyber-espionage-actor-middle-east/",
+            "date": "2017-06-12",
+            "organization": "Bellingcat",
+            "author": "Collin Anderson",
+            "title": "Bahamut, Pursuing a Cyber Espionage Actor in the Middle East",
+            "categories": [
+                "Bahamut",
+                "Bahamut",
+                "Bahamut"
+            ]
+        }
+    ]
 };

@@ -32,5 +32,61 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "rustbucket",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sentinelone.com/blog/bluenoroff-how-dprks-macos-rustbucket-seeks-to-evade-analysis-and-detection/",
+            "date": "2023-07-05",
+            "organization": "SentinelOne",
+            "author": "Phil Stokes",
+            "title": "BlueNoroff | How DPRK\u2019s macOS RustBucket Seeks to Evade Analysis and Detection",
+            "categories": [
+                "RustBucket"
+            ]
+        },
+        {
+            "data_url": "https://www.elastic.co/security-labs/DPRK-strikes-using-a-new-variant-of-rustbucket",
+            "date": "2023-06-29",
+            "organization": "Elastic",
+            "author": "Colson Wilhoit",
+            "title": "The DPRK strikes using a new variant of RUSTBUCKET",
+            "categories": [
+                "RustBucket"
+            ]
+        },
+        {
+            "data_url": "https://blog.sekoia.io/bluenoroffs-rustbucket-campaign/",
+            "date": "2023-05-22",
+            "organization": "Sekoia",
+            "author": "Jamila B.",
+            "title": "Bluenoroff\u2019s RustBucket campaign",
+            "categories": [
+                "RustBucket",
+                "WebbyTea"
+            ]
+        },
+        {
+            "data_url": "https://blogs.jpcert.or.jp/ja/2023/05/dangerouspassword.html",
+            "date": "2023-05-01",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "Attack trends related to the attack campaign DangerousPassword",
+            "categories": [
+                "RustBucket",
+                "CageyChameleon",
+                "Cur1Downloader",
+                "SnatchCrypto"
+            ]
+        },
+        {
+            "data_url": "https://www.jamf.com/blog/bluenoroff-apt-targets-macos-rustbucket-malware/",
+            "date": "2023-04-21",
+            "organization": "Jamf Blog",
+            "author": "Ferdous Saljooki",
+            "title": "BlueNoroff APT group targets macOS with \u2018RustBucket\u2019 Malware",
+            "categories": [
+                "RustBucket"
+            ]
+        }
+    ]
 };

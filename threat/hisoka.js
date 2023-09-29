@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hisoka",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/xhunt-campaign-attacks-on-kuwait-shipping-and-transportation-organizations/",
+            "date": "2019-09-23",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "xHunt Campaign: Attacks on Kuwait Shipping and Transportation Organizations",
+            "categories": [
+                "Hisoka"
+            ]
+        }
+    ]
 };

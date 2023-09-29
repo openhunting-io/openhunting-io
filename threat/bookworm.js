@@ -32,5 +32,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "bookworm",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/bookworm-trojan-a-model-of-modular-architecture/",
+            "date": "2015-11-10",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Bookworm Trojan: A Model of Modular Architecture",
+            "categories": [
+                "Bookworm"
+            ]
+        }
+    ]
 };

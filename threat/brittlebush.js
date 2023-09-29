@@ -30,5 +30,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "brittlebush",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/ugg-boots-4-sale-tale-palestinian-aligned-espionage",
+            "date": "2022-02-08",
+            "organization": "Proofpoint",
+            "author": "Konstantin Klinger",
+            "title": "Ugg Boots 4 Sale: A Tale of Palestinian-Aligned Espionage",
+            "categories": [
+                "BrittleBush",
+                "NimbleMamba"
+            ]
+        }
+    ]
 };

@@ -28308,5 +28308,6 @@ var threatdata = {
     "last_ioc_update": "2023-09-25 15:58:42",
     "mitre": [],
     "file_name": "vidar",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

@@ -48,7 +48,41 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "riptide",
+            "procedure_code": "s0003",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0003",
+            "techniques": [
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "apt12 has used riptide, a rat that uses http to communicate.[286]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/001",
+                    "technique_name": "encrypted channel : symmetric cryptography",
+                    "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
+                    "procedure_description": "apt12 has used the riptide rat, which communicates over http with a payload encrypted with rc4.[116]"
+                }
+            ]
+        }
+    ],
     "file_name": "etumbot",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

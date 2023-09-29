@@ -37,5 +37,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pocodown",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/inside-the-apt28-dll-backdoor-blitz.html",
+            "date": "2019-08-28",
+            "organization": "Cylance",
+            "author": "Cylance Threat Research Team",
+            "title": "Inside the APT28 DLL Backdoor Blitz",
+            "categories": [
+                "PocoDown"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/flirting-with-ida-and-apt28.html",
+            "date": "2019-07-10",
+            "organization": "Cylance",
+            "author": "Cylance Threat Research Team",
+            "title": "Flirting With IDA and APT28",
+            "categories": [
+                "PocoDown"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/cyb3rops/status/1129653190444703744",
+            "date": "2019-05-18",
+            "organization": "Twitter (@cyb3rops)",
+            "author": "Florian Roth",
+            "title": "Tweet on YARA and APT28",
+            "categories": [
+                "PocoDown"
+            ]
+        }
+    ]
 };

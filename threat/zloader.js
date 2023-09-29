@@ -2528,5 +2528,6 @@ var threatdata = {
     "last_ioc_update": "2022-03-07 17:56:47",
     "mitre": [],
     "file_name": "zloader",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

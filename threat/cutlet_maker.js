@@ -36,5 +36,45 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "cutlet_maker",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.talosintelligence.com/2019/05/10-years-of-virtual-dynamite.html",
+            "date": "2019-05-30",
+            "organization": "Talos Intelligence",
+            "author": "Vanja Svajcer",
+            "title": "10 years of virtual dynamite: A high-level retrospective of ATM malware",
+            "categories": [
+                "FastCash",
+                "Project Alice",
+                "Cutlet",
+                "Ploutus ATM",
+                "Skimer",
+                "Tyupkin"
+            ]
+        },
+        {
+            "data_url": "https://explore.group-ib.com/htct/hi-tech_crime_2018",
+            "date": "2018-10",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "Hi-Tech Crime Trends 2018",
+            "categories": [
+                "BackSwap",
+                "Cobalt Strike",
+                "Cutlet",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "http://www.vkremez.com/2017/12/lets-learn-cutlet-atm-malware-internals.html",
+            "date": "2017-12-27",
+            "organization": "",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: Cutlet ATM Malware Internals",
+            "categories": [
+                "Cutlet"
+            ]
+        }
+    ]
 };

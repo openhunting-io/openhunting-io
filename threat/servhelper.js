@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "ServHelper",
     "category": "Malware",
     "type": "Backdoor, Credential stealer, Downloader",
-    "modified": "2020-05-14",
+    "modified": "2022-09-06",
     "all_data": {
         "tool": "ServHelper",
         "names": [
@@ -341,7 +341,602 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-12-18 08:10:07",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "servhelper",
+            "procedure_code": "s0382",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0382",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
+                    "technique_name": "command and scripting interpreter : powershell",
+                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
+                    "procedure_description": "servhelper has the ability to execute a powershell script to get information from the infected host.[205]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "servhelper can execute shell commands against cmd.[298][299]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1098",
+                    "technique_link": "https://attack.mitre.org/techniques/T1098",
+                    "technique_name": "account manipulation",
+                    "technique_description": "adversaries may manipulate accounts to maintain access to victim systems. account manipulation may consist of any action that preserves adversary access to a compromised account, such as modifying credentials or permission groups. these actions could also include account activity designed to subvert security policies, such as performing iterative password updates to bypass password duration policies and preserve the life of compromised credentials.",
+                    "procedure_description": "servhelper has added a user named \"supportaccount\" to the remote desktop users and administrators groups.[13]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "servhelper may attempt to establish persistence via the hkcu\\software\\microsoft\\windows\\currentversion\\run\\ run key.[239]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1136.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1136/001",
+                    "technique_name": "create account : local account",
+                    "technique_description": "adversaries may create a local account to maintain access to victim systems. local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service. with a sufficient level of access, the net user /add command can be used to create a local account. on macos systems the dscl -create command can be used to create a local account. local accounts may also be added to network devices, often via common network device cli commands such as username.",
+                    "procedure_description": "servhelper has created a new user named \"supportaccount\".[22]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "servhelper may attempt to establish persistence via the hkcu\\software\\microsoft\\windows\\currentversion\\run\\ run key.[239]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "servhelper has a module to delete itself from the infected machine.[213][214]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.011",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/011",
+                    "technique_name": "system binary proxy execution : rundll32",
+                    "technique_description": "adversaries may abuse rundll32.exe to proxy execution of malicious code. using rundll32.exe, vice executing directly (i.e. shared modules), may avoid triggering security tools that may not monitor execution of the rundll32.exe process because of allowlists or false positives from normal operations. rundll32.exe is commonly associated with executing dll payloads (ex: rundll32.exe {dllname, dllfunction}).",
+                    "procedure_description": "servhelper contains a module for downloading and executing dlls that leverages rundll32.exe.[89]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "servhelper will attempt to enumerate windows version and system architecture.[327]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "servhelper will attempt to enumerate the username of the victim.[165]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/001",
+                    "technique_name": "remote services : remote desktop protocol",
+                    "technique_description": "adversaries may use valid accounts to log into a computer using the remote desktop protocol (rdp). the adversary may then perform actions as the logged-on user.",
+                    "procedure_description": "servhelper has commands for adding a remote desktop user and sending rdp traffic to the attacker through a reverse ssh tunnel.[50]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "servhelper uses http for c2.[297]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
+                    "technique_name": "encrypted channel : asymmetric cryptography",
+                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
+                    "procedure_description": "servhelper may set up a reverse ssh tunnel to give the attacker access to services running on the victim, such as rdp.[47]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "servhelper may download additional files to execute.[400][401]"
+                }
+            ]
+        }
+    ],
     "file_name": "servhelper",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.prodaft.com/m/reports/TeslaGun_TLPWHITE.pdf",
+            "date": "2022-09-06",
+            "organization": "PRODAFT",
+            "author": "PRODAFT",
+            "title": "TA505 Group\u2019s TeslaGun In-Depth Analysis",
+            "categories": [
+                "Clop",
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://prodaft.com/m/reports/TeslaGun_TLPWHITE.pdf",
+            "date": "2022-09-05",
+            "organization": "PRODAFT",
+            "author": "PRODAFT",
+            "title": "TA505 Group\u2019s TeslaGun In-Depth Analysis",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/08/raccoon-and-amadey-install-servhelper.html",
+            "date": "2021-08-12",
+            "organization": "Cisco Talos",
+            "author": "Vanja Svajcer",
+            "title": "Signed MSI files, Raccoon and Amadey are used for installing ServHelper RAT",
+            "categories": [
+                "Amadey",
+                "Raccoon",
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/ta505-adds-golang-crypter-for-delivering-miners-and-servhelper-af70b26a6e56",
+            "date": "2021-07-06",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "TA505 adds GoLang crypter for delivering miners and ServHelper",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://insights.oem.avira.com/ta505-apt-group-targets-americas/",
+            "date": "2020-10-03",
+            "organization": "Avira",
+            "author": "Avira Protection Labs",
+            "title": "TA505 targets the Americas in a new campaign",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-009.pdf",
+            "date": "2020-08-20",
+            "organization": "CERT-FR",
+            "author": "CERT-FR",
+            "title": "Development of the Activity of the TA505 Cybercriminal Group",
+            "categories": [
+                "AndroMut",
+                "Bart",
+                "Clop",
+                "Dridex",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Locky",
+                "Marap",
+                "QuantLoader",
+                "SDBbot",
+                "ServHelper",
+                "tRat",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2020/07/36122-hidden-miners",
+            "date": "2020-07-09",
+            "organization": "Gdata",
+            "author": "G DATA Security Lab",
+            "title": "ServHelper: Hidden Miners",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-006.pdf",
+            "date": "2020-06-22",
+            "organization": "CERT-FR",
+            "author": "CERT-FR",
+            "title": "\u00c9volution De Lactivit\u00e9 du Groupe Cybercriminel TA505",
+            "categories": [
+                "Amadey",
+                "AndroMut",
+                "Bart",
+                "Clop",
+                "Dridex",
+                "FlawedGrace",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Jaff",
+                "Locky",
+                "Marap",
+                "Philadephia Ransom",
+                "QuantLoader",
+                "Scarab Ransomware",
+                "SDBbot",
+                "ServHelper",
+                "Silence",
+                "tRat",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/operation-ta505-part2/",
+            "date": "2020-05-22",
+            "organization": "Positive Technologies",
+            "author": "PT ESC Threat Intelligence",
+            "title": "Operation TA505: investigating the ServHelper backdoor with NetSupport RAT. Part 2.",
+            "categories": [
+                "NetSupportManager RAT",
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/a-brief-history-of-ta505",
+            "date": "2020-05-21",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "A brief history of TA505",
+            "categories": [
+                "AndroMut",
+                "Bart",
+                "Dridex",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Jaff",
+                "Kegotip",
+                "Locky",
+                "Necurs",
+                "Philadephia Ransom",
+                "Pony",
+                "QuantLoader",
+                "Rockloader",
+                "SDBbot",
+                "ServHelper",
+                "Shifu",
+                "Snatch",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://securitynews.sonicwall.com/xmlpost/servhelper-2-0-enriched-with-bot-capabilities-and-allow-remote-desktop-access/",
+            "date": "2020-01-09",
+            "organization": "SonicWall",
+            "author": "SonicWall",
+            "title": "ServHelper 2.0: Enriched with bot capabilities and allow remote desktop access",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-tahoe",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD TAHOE",
+            "categories": [
+                "Clop",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "SDBbot",
+                "ServHelper",
+                "TA505"
+            ]
+        },
+        {
+            "data_url": "https://www.binarydefense.com/an-updated-servhelper-tunnel-variant/",
+            "date": "2019-12-20",
+            "organization": "Binary Defense",
+            "author": "James Quinn",
+            "title": "An Updated ServHelper Tunnel Variant",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://www.blueliv.com/cyber-security-and-cyber-threat-intelligence-blog-blueliv/research/servhelper-evolution-and-new-ta505-campaigns/",
+            "date": "2019-12-17",
+            "organization": "Blueliv",
+            "author": "Adri\u00e1n Ruiz",
+            "title": "TA505 evolves ServHelper, uses Predator The Thief and Team Viewer Hijacking",
+            "categories": [
+                "ServHelper",
+                "TA505"
+            ]
+        },
+        {
+            "data_url": "https://threatrecon.nshc.net/2019/08/29/sectorj04-groups-increased-activity-in-2019/",
+            "date": "2019-08-29",
+            "organization": "ThreatRecon",
+            "author": "ThreatRecon Team",
+            "title": "SectorJ04 Group\u2019s Increased Activity in 2019",
+            "categories": [
+                "FlawedAmmyy",
+                "ServHelper",
+                "TA505"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/ta505-at-it-again-variety-is-the-spice-of-servhelper-and-flawedammyy/",
+            "date": "2019-08-27",
+            "organization": "Trend Micro",
+            "author": "Hara Hiroaki",
+            "title": "TA505 At It Again: Variety is the Spice of ServHelper and FlawedAmmyy",
+            "categories": [
+                "FlawedAmmyy",
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/threat-actor-ta505-targets-financial-enterprises-using-lolbins-and-a-new-backdoor-malware",
+            "date": "2019-04-25",
+            "organization": "Cybereason",
+            "author": "Cybereason Nocturnus",
+            "title": "Threat Actor TA505 Targets Financial Enterprises Using LOLBins and a New Backdoor Malware",
+            "categories": [
+                "ServHelper",
+                "TA505"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/2019/04/02/new-servhelper-variant-employs-excel-4-0-macro-to-drop-signed-payload/",
+            "date": "2019-04-02",
+            "organization": "DeepInstinct",
+            "author": "Shaul Vilkomir-Preisman",
+            "title": "New ServHelper Variant Employs Excel 4.0 Macro to Drop Signed Payload",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://ti.360.net/blog/articles/excel-4.0-macro-utilized-by-ta505-to-target-financial-institutions-recently-en/",
+            "date": "2019-01-24",
+            "organization": "\u5947\u5b89\u4fe1\u5a01\u80c1\u60c5\u62a5\u4e2d\u5fc3",
+            "author": "\u4e8b\u4ef6\u8ffd\u8e2a",
+            "title": "Excel 4.0 Macro Utilized by TA505 to Target Financial Institutions Recently",
+            "categories": [
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505",
+            "date": "2019-01-09",
+            "organization": "Proofpoint",
+            "author": "Dennis Schwarz",
+            "title": "ServHelper and FlawedGrace - New malware introduced by TA505",
+            "categories": [
+                "FlawedGrace",
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://e.cyberint.com/hubfs/Report%20Legit%20Remote%20Access%20Tools%20Turn%20Into%20Threat%20Actors%20Tools/CyberInt_Legit%20Remote%20Access%20Tools%20Turn%20Into%20Threat%20Actors'%20Tools_Report.pdf",
+            "date": "2019",
+            "organization": "CyberInt",
+            "author": "CyberInt",
+            "title": "Legit Remote Admin Tools Turn into Threat Actors' Tools",
+            "categories": [
+                "RMS",
+                "ServHelper",
+                "TA505"
+            ]
+        }
+    ]
 };

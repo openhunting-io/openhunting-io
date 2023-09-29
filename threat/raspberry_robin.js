@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Raspberry Robin, RaspberryRobin, LINK_MSIEXEC, QNAP-Worm",
     "category": "Malware",
     "type": "Backdoor, Worm",
-    "modified": "2022-12-27",
+    "modified": "2023-09-07",
     "all_data": {
         "tool": "Raspberry Robin",
         "names": [
@@ -1096,5 +1096,174 @@ var threatdata = {
     "last_ioc_update": "2023-06-01 19:07:07",
     "mitre": [],
     "file_name": "raspberry_robin",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.huntress.com/blog/evolution-of-usb-borne-malware-raspberry-robin",
+            "date": "2023-09-07",
+            "organization": "Huntress Labs",
+            "author": "Harlan Carvey",
+            "title": "Evolution of USB-Borne Malware, Raspberry Robin",
+            "categories": [
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/raspberry-robin-anti-evasion-how-to-exploit-analysis/",
+            "date": "2023-04-18",
+            "organization": "Check Point Research",
+            "author": "Shavit Yosef",
+            "title": "Raspberry Robin: Anti-Evasion How-To & Exploit Analysis",
+            "categories": [
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/raspberry-robin-anti-evasion-how-to-exploit-analysis",
+            "date": "2023-04-18",
+            "organization": "Checkpoint",
+            "author": "Shavit Yosef",
+            "title": "Raspberry Robin: Anti-Evasion How-To & Exploit Analysis",
+            "categories": [
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://www.securityjoes.com/post/raspberry-robin-detected-itw-targeting-insurance-financial-institutes-in-europe",
+            "date": "2023-01-03",
+            "organization": "Security Joes",
+            "author": "SecurityJoes",
+            "title": "Raspberry Robin Detected ITW Targeting Insurance & Financial Institutes In Europe",
+            "categories": [
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/fr_fr/research/22/l/raspberry-robin-malware-targets-telecom-governments.html",
+            "date": "2022-12-20",
+            "organization": "Trend Micro",
+            "author": "Christopher Daniel So",
+            "title": "Raspberry Robin Malware Targets Telecom, Governments",
+            "categories": [
+                "Raspberry Robin",
+                "Roshtyak"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/breaking-the-silence-recent-truebot-activity/",
+            "date": "2022-12-08",
+            "organization": "Cisco Talos",
+            "author": "Tiago Pereira",
+            "title": "Breaking the silence - Recent Truebot activity",
+            "categories": [
+                "Clop",
+                "Cobalt Strike",
+                "FlawedGrace",
+                "Raspberry Robin",
+                "Silence",
+                "Teleport"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/microsoft-links-raspberry-robin-worm-to-clop-ransomware-attacks/",
+            "date": "2022-10-27",
+            "organization": "Bleeping Computer",
+            "author": "Sergiu Gatlan",
+            "title": "Microsoft links Raspberry Robin worm to Clop ransomware attacks",
+            "categories": [
+                "Clop",
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/en-us/security/blog/2022/10/27/raspberry-robin-worm-part-of-larger-ecosystem-facilitating-pre-ransomware-activity/",
+            "date": "2022-10-27",
+            "organization": "Microsoft",
+            "author": "Microsoft Security Threat Intelligence",
+            "title": "Raspberry Robin worm part of larger ecosystem facilitating pre-ransomware activity",
+            "categories": [
+                "FAKEUPDATES",
+                "BumbleBee",
+                "Fauppod",
+                "PhotoLoader",
+                "Raspberry Robin",
+                "Roshtyak"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unsigned-dlls/",
+            "date": "2022-09-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Daniela Shalev",
+            "title": "Hunting for Unsigned DLLs to Find APTs",
+            "categories": [
+                "PlugX",
+                "Raspberry Robin",
+                "Roshtyak"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/janvojtesek/raspberry-robins-roshtyak-a-little-lesson-in-trickery/",
+            "date": "2022-09-22",
+            "organization": "Avast",
+            "author": "Jan Vojt\u011b\u0161ek",
+            "title": "Raspberry Robin\u2019s Roshtyak: A Little Lesson in Trickery",
+            "categories": [
+                "Raspberry Robin",
+                "Roshtyak"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/raspberry-robin-worm-dridex-malware/",
+            "date": "2022-09-01",
+            "organization": "IBM",
+            "author": "Kevin Henson",
+            "title": "Raspberry Robin and Dridex: Two Birds of a Feather",
+            "categories": [
+                "Dridex",
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://blogs.cisco.com/security/raspberry-robin-highly-evasive-worm-spreads-over-external-disks",
+            "date": "2022-08-09",
+            "organization": "Cisco",
+            "author": "Onur Mustafa Erdogan",
+            "title": "Raspberry Robin: Highly Evasive Worm Spreads over External Disks",
+            "categories": [
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/07/microsoft-links-raspberry-robin-usb.html?_m=3n%2e009a%2e2800%2ejp0ao0cjb8%2e1shm",
+            "date": "2022-07-30",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Microsoft Links Raspberry Robin USB Worm to Russian Evil Corp Hackers",
+            "categories": [
+                "FAKEUPDATES",
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/threat-alert-raspberry-robin-worm-abuses-windows-installer-and-qnap-devices",
+            "date": "2022-07-07",
+            "organization": "Cybereason",
+            "author": "Lo\u00efc Castel",
+            "title": "THREAT ALERT: Raspberry Robin Worm Abuses Windows Installer and QNAP Devices",
+            "categories": [
+                "Raspberry Robin"
+            ]
+        },
+        {
+            "data_url": "https://redcanary.com/blog/raspberry-robin/",
+            "date": "2022-05-05",
+            "organization": "Red Canary",
+            "author": "Lauren Podber",
+            "title": "Raspberry Robin gets the worm early",
+            "categories": [
+                "Raspberry Robin"
+            ]
+        }
+    ]
 };

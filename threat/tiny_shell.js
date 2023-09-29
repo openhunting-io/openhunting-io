@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "tiny_shell",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/creaktive/tsh",
+            "date": "2018-05-21",
+            "organization": "Github (creaktive)",
+            "author": "creaktive",
+            "title": "Tiny SHell",
+            "categories": [
+                "tsh"
+            ]
+        }
+    ]
 };

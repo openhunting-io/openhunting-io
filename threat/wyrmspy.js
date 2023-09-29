@@ -31,5 +31,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "wyrmspy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.lookout.com/threat-intelligence/article/wyrmspy-dragonegg-surveillanceware-apt41",
+            "date": "2023-07-19",
+            "organization": "Lookout",
+            "author": "Kristina Balaam",
+            "title": "Lookout Attributes Advanced Android Surveillanceware to Chinese Espionage Group APT41",
+            "categories": [
+                "DragonEgg",
+                "WyrmSpy"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Erebus",
     "category": "Exploits",
     "type": "Ransomware",
-    "modified": "2020-05-13",
+    "modified": "2022-02-09",
     "all_data": {
         "tool": "Erebus",
         "names": [
@@ -36,5 +36,50 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "erebus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmw-exposing-malware-in-linux-based-multi-cloud-environments.pdf",
+            "date": "2022-02-09",
+            "organization": "vmware",
+            "author": "VMWare",
+            "title": "Exposing Malware in Linux-Based Multi-Cloud Environments",
+            "categories": [
+                "ACBackdoor",
+                "BlackMatter",
+                "DarkSide",
+                "Erebus",
+                "HelloKitty",
+                "Kinsing",
+                "PLEAD",
+                "QNAPCrypt",
+                "RansomEXX",
+                "REvil",
+                "Sysrv-hello",
+                "TeamTNT",
+                "Vermilion Strike",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/erebus-resurfaces-as-linux-ransomware/",
+            "date": "2017-06-19",
+            "organization": "Trend Micro",
+            "author": "Ziv Chang",
+            "title": "Erebus Resurfaces as Linux Ransomware",
+            "categories": [
+                "Erebus"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/erebus-ransomware-utilizes-a-uac-bypass-and-request-a-90-ransom-payment/",
+            "date": "2017-02-07",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Erebus Ransomware Utilizes a UAC Bypass and Request a $90 Ransom Payment",
+            "categories": [
+                "Erebus"
+            ]
+        }
+    ]
 };

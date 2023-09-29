@@ -29,5 +29,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "nineblog",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

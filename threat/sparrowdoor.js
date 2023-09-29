@@ -33,5 +33,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "sparrowdoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.ncsc.gov.uk/files/NCSC-MAR-SparrowDoor.pdf",
+            "date": "2022-02-28",
+            "organization": "NCSC UK",
+            "author": "NCSC UK",
+            "title": "Malware Analysis Report: SparrowDoor",
+            "categories": [
+                "SparrowDoor"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2021/09/23/famoussparrow-suspicious-hotel-guest/",
+            "date": "2021-09-23",
+            "organization": "ESET Research",
+            "author": "Tahseen Bin Taj",
+            "title": "FamousSparrow: A suspicious hotel guest",
+            "categories": [
+                "SparrowDoor"
+            ]
+        }
+    ]
 };

@@ -744,7 +744,279 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-02 14:20:07",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "limerat",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://any.run/cybersecurity-blog/limerat-malware-analysis/",
+            "date": "2023-03-28",
+            "organization": "ANY.RUN",
+            "author": "ANY.RUN",
+            "title": "LimeRAT Malware Analysis: Extracting the Config",
+            "categories": [
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://felipetarijon.github.io/2022-12-12-limerat-infecting-unskilled-threat-actors/",
+            "date": "2022-12-12",
+            "organization": "Felipe Tarijon",
+            "author": "Felipe Tarijon",
+            "title": "LimeRAT Malware Is Used For Targeting Unskilled Threat Actors",
+            "categories": [
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/targeted-attack-on-government-agencies.html",
+            "date": "2022-07-13",
+            "organization": "Trellix",
+            "author": "Sushant Kumar Arya",
+            "title": "Targeted Attack on Government Agencies",
+            "categories": [
+                "AsyncRAT",
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/04/asyncrat-3losh-update.html",
+            "date": "2022-04-05",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "Threat Spotlight: AsyncRAT campaigns feature new version of 3LOSH crypter",
+            "categories": [
+                "AsyncRAT",
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-APT-attacks-on-industrial-organizations-in-H1-2021-En.pdf",
+            "date": "2021-10-26",
+            "organization": "Kaspersky",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "APT attacks  on industrial  organizations  in H1 2021",
+            "categories": [
+                "8.t Dropper",
+                "AllaKore",
+                "AsyncRAT",
+                "GoldMax",
+                "LimeRAT",
+                "NjRAT",
+                "NoxPlayer",
+                "Raindrop",
+                "ReverseRAT",
+                "ShadowPad",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/Water-Basilisk-Uses-New-HCrypt-Variant-to-Flood-Victims-with-RAT-Payloads.html",
+            "date": "2021-09-20",
+            "organization": "Trend Micro",
+            "author": "Aliakbar Zahravi",
+            "title": "Water Basilisk Uses New HCrypt Variant to Flood Victims with RAT Payloads",
+            "categories": [
+                "Ave Maria",
+                "BitRAT",
+                "LimeRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-american-entities-with-commodity-rats/BlindEagleIOCList.txt",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs (IOCs)",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://lab52.io/blog/literature-lover-targeting-colombia-with-limerat/",
+            "date": "2021-05-17",
+            "organization": "Lab52",
+            "author": "Th3spis",
+            "title": "Literature lover targeting Colombia with LimeRAT",
+            "categories": [
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/tracking-hcrypt-an-active-crypter-as-a-service",
+            "date": "2021-03-16",
+            "organization": "Morphisec",
+            "author": "Nadav Lorber",
+            "title": "Tracking HCrypt: An Active Crypter as a Service",
+            "categories": [
+                "AsyncRAT",
+                "LimeRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blogs.juniper.net/en-us/threat-research/new-pastebin-like-service-used-in-multiple-malware-campaigns",
+            "date": "2020-10-05",
+            "organization": "Juniper",
+            "author": "Paul Kimayong",
+            "title": "New pastebin-like service used in multiple malware campaigns",
+            "categories": [
+                "Agent Tesla",
+                "LimeRAT",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/rats-in-the-library",
+            "date": "2020-01-31",
+            "organization": "ReversingLabs",
+            "author": "Robert Simmons",
+            "title": "RATs in the Library: Remote Access Trojans Hide in Plain \"Public\" Site",
+            "categories": [
+                "CyberGate",
+                "LimeRAT",
+                "NjRAT",
+                "Quasar RAT",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://lab52.io/blog/apt-c-36-recent-activity-analysis/",
+            "date": "2020-01-15",
+            "organization": "Lab52",
+            "author": "ml10",
+            "title": "APT-C-36 recent activity analysis",
+            "categories": [
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=x-g-ZLeX8GM",
+            "date": "2019-10-16",
+            "organization": "",
+            "author": "LimeRat",
+            "title": "LimeRat",
+            "categories": [
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/NYAN-x-CAT/Lime-RAT/",
+            "date": "2019-06-24",
+            "organization": "Github (NYAN-x-CAT)",
+            "author": "NYAN-x-CAT",
+            "title": "LimeRAT | Simple, yet powerful remote administration tool for Windows (RAT)",
+            "categories": [
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.yoroi.company/research/limerat-spreads-in-the-wild/",
+            "date": "2019-04-09",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "LimeRAT spreads in the wild",
+            "categories": [
+                "LimeRAT"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ksl0t",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://0ffset.net/reverse-engineering/malware-analysis/analyzing-turlas-keylogger-2/",
+            "date": "2019-07-08",
+            "organization": "0ffset Blog",
+            "author": "0verfl0w_",
+            "title": "Analyzing KSL0T (Turla\u2019s Keylogger), Part 2 \u2013 Reupload",
+            "categories": [
+                "KSL0T"
+            ]
+        },
+        {
+            "data_url": "https://0ffset.net/reverse-engineering/malware-analysis/analyzing-turlas-keylogger-1/",
+            "date": "2019-07-08",
+            "organization": "0ffset Blog",
+            "author": "0verfl0w_",
+            "title": "Analyzing KSL0T (Turla\u2019s Keylogger), Part 1 \u2013 Reupload",
+            "categories": [
+                "KSL0T"
+            ]
+        },
+        {
+            "data_url": "https://0ffset.wordpress.com/2018/10/05/post-0x17-2-turla-keylogger/",
+            "date": "2018-10-05",
+            "organization": "",
+            "author": "_",
+            "title": "Post 0x17.2: Analyzing Turla\u2019s Keylogger",
+            "categories": [
+                "KSL0T"
+            ]
+        }
+    ]
 };

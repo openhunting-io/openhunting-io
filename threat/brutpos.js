@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "brutpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2014/07/brutpos-rdp-bruteforcing-botnet-targeting-pos-systems.html",
+            "date": "2014-07-09",
+            "organization": "FireEye",
+            "author": "Nart Villeneuve",
+            "title": "BrutPOS: RDP Bruteforcing Botnet Targeting POS Systems",
+            "categories": [
+                "BrutPOS"
+            ]
+        }
+    ]
 };

@@ -35,5 +35,29 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "elirks",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2016/09/mile-tea-cyber-espionage-campaign-targets-asia-pacific-businesses-and-government-agencies/",
+            "date": "2016-09-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kaoru Hayashi",
+            "title": "MILE TEA: Cyber Espionage Campaign Targets Asia Pacific Businesses and Government Agencies",
+            "categories": [
+                "Elirks",
+                "Logedrut",
+                "Micrass"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-tracking-elirks-variants-in-japan-similarities-to-previous-attacks/",
+            "date": "2016-06-23",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kaoru Hayashi",
+            "title": "Tracking Elirks Variants in Japan: Similarities to Previous Attacks",
+            "categories": [
+                "Elirks"
+            ]
+        }
+    ]
 };

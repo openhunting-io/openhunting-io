@@ -36,5 +36,33 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "buffetline",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://labs.sentinelone.com/dprk-hidden-cobra-update-north-korean-malicious-cyber-activity/",
+            "date": "2020-02-25",
+            "organization": "SentinelOne",
+            "author": "Jim Walter",
+            "title": "DPRK Hidden Cobra Update: North Korean Malicious Cyber Activity",
+            "categories": [
+                "ARTFULPIE",
+                "BISTROMATH",
+                "BUFFETLINE",
+                "CHEESETRAY",
+                "HOPLIGHT",
+                "HOTCROISSANT",
+                "SLICKSHOES"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-045f",
+            "date": "2020-02-14",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR20-045F): MAR-10271944-3.v1 - North Korean Trojan: BUFFETLINE",
+            "categories": [
+                "BUFFETLINE"
+            ]
+        }
+    ]
 };

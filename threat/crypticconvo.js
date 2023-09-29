@@ -33,5 +33,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "crypticconvo",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/scarlet-mimic-years-long-espionage-targets-minority-activists/",
+            "date": "2016-01-24",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Scarlet Mimic: Years-Long Espionage Campaign Targets Minority Activists",
+            "categories": [
+                "CrypticConvo",
+                "Scarlet Mimic"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "winsloader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/11/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/",
+            "date": "2016-11-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Vicky Ray",
+            "title": "Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy",
+            "categories": [
+                "Winsloader",
+                "Yahoyah",
+                "APT23"
+            ]
+        }
+    ]
 };

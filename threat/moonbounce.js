@@ -31,5 +31,48 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "moonbounce",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://habr.com/ru/amp/post/668154/",
+            "date": "2022-05-27",
+            "organization": "PTSecurity",
+            "author": "Anton Belousov",
+            "title": "How bootkits are implemented in modern firmware and how UEFI differs from Legacy BIOS",
+            "categories": [
+                "LoJax",
+                "MoonBounce"
+            ]
+        },
+        {
+            "data_url": "https://www.binarly.io/posts/A_deeper_UEFI_dive_into_MoonBounce/index.html",
+            "date": "2022-01-21",
+            "organization": "binarly",
+            "author": "Binarly Team",
+            "title": "A deeper UEFI dive into MoonBounce",
+            "categories": [
+                "MoonBounce"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2022/01/19115831/MoonBounce_technical-details_eng.pdf",
+            "date": "2022-01-20",
+            "organization": "Kaspersky Labs",
+            "author": "Mark Lechtik",
+            "title": "Technical details of MoonBounce\u2019s implementation",
+            "categories": [
+                "MoonBounce"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/",
+            "date": "2022-01-20",
+            "organization": "Kaspersky",
+            "author": "Mark Lechtik",
+            "title": "MoonBounce: the dark side of UEFI firmware",
+            "categories": [
+                "MoonBounce"
+            ]
+        }
+    ]
 };

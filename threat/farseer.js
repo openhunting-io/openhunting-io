@@ -33,5 +33,42 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "farseer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-pulling-pkplug-adversary-playbook-long-standing-espionage-activity-chinese-nation-state-adversary/",
+            "date": "2020-03-02",
+            "organization": "Virus Bulletin",
+            "author": "Alex Hinchliffe",
+            "title": "Pulling the PKPLUG: the adversary playbook for the long-standing espionage activity of a Chinese nation-state adversary",
+            "categories": [
+                "HenBox",
+                "Farseer",
+                "PlugX",
+                "Poison Ivy"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/pkplug_chinese_cyber_espionage_group_attacking_asia/",
+            "date": "2019-10-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Alex Hinchliffe",
+            "title": "PKPLUG: Chinese Cyber Espionage Group Attacking Asia",
+            "categories": [
+                "HenBox",
+                "Farseer",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/farseer-previously-unknown-malware-family-bolsters-the-chinese-armoury/",
+            "date": "2019-02-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Alex Hinchliffe",
+            "title": "Farseer: Previously Unknown Malware Family bolsters the Chinese armoury",
+            "categories": [
+                "Farseer"
+            ]
+        }
+    ]
 };

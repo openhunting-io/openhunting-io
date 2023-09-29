@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Ave Maria, AVE_MARIA, AveMariaRAT, avemaria",
     "category": "Malware",
     "type": "Backdoor, Info stealer",
-    "modified": "2022-12-30",
+    "modified": "2023-09-08",
     "all_data": {
         "tool": "Ave Maria",
         "names": [
@@ -7728,7 +7728,815 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-26 13:26:06",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "ave_maria",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
+            "date": "2023-09-08",
+            "organization": "",
+            "author": "Gi7w0rm",
+            "title": "Uncovering DDGroup \u2014 A long-time threat actor",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "DBatLoader",
+                "NetWire RC",
+                "Quasar RAT",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://github.com/muha2xmad/Python/blob/bdc7a711d5a775f8ae47b591f20fdd2e1360b77b/warzonerat/warzonerat_config_extraction.ipynb",
+            "date": "2023-08-25",
+            "organization": "Github (muha2xmad)",
+            "author": "Muhammad Hasan Ali",
+            "title": "Warzone RAT configuration extractor",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://muha2xmad.github.io/malware-analysis/warzonerat/",
+            "date": "2023-08-25",
+            "organization": "Github (muha2xmad)",
+            "author": "Muhammad Hasan Ali",
+            "title": "Technical analysis of WarZoneRAT malware",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q2%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-07-11",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2023",
+            "categories": [
+                "Hydra",
+                "AsyncRAT",
+                "Aurora Stealer",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee"
+            ]
+        },
+        {
+            "data_url": "https://www.securonix.com/securonix-threat-labs-security-advisory-multistorm-leverages-python-based-loader-as-onedrive-utilities-to-drop-rat-payloads/",
+            "date": "2023-06-23",
+            "organization": "Securonix",
+            "author": "Den Iyzvyk",
+            "title": "Detecting New MULTI#STORM Attack Campaign Involving Python-based Loader Masquerading as OneDrive Utilities to Drop Multiple RAT Payloads With Security Analytics",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
+            "date": "2023-04-24",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "Tomiris called, they want their Turla malware back",
+            "categories": [
+                "KopiLuwak",
+                "Andromeda",
+                "Ave Maria",
+                "GoldMax",
+                "JLORAT",
+                "Kazuar",
+                "Meterpreter",
+                "QUIETCANARY",
+                "RATel",
+                "Roopy",
+                "Telemiris",
+                "tomiris",
+                "Topinambour"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-04-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2023",
+            "categories": [
+                "FluBot",
+                "Amadey",
+                "AsyncRAT",
+                "Aurora",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://kienmanowar.wordpress.com/2023/03/25/quicknote-decrypting-the-c2-configuration-of-warzone-rat/",
+            "date": "2023-03-25",
+            "organization": "kienmanowar Blog",
+            "author": "Tran Trung Kien",
+            "title": "[QuickNote] Decrypting the C2 configuration of Warzone RAT",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.huntress.com/blog/ave-maria-and-the-chambers-of-warzone-rat",
+            "date": "2023-02-03",
+            "organization": "Huntress Labs",
+            "author": "Chad Hudson",
+            "title": "Ave Maria and the Chambers of Warzone RAT",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/blog/articles/Kasablanka-Group-Probably-Conducted-Compaigns-Targeting-Russia/",
+            "date": "2023-01-17",
+            "organization": "Qianxin",
+            "author": "Red Raindrop Team",
+            "title": "Kasablanka Group Probably Conducted Compaigns Targeting Russia",
+            "categories": [
+                "Ave Maria",
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://exploitreversing.files.wordpress.com/2022/11/mas_6-1.pdf",
+            "date": "2022-11-24",
+            "organization": "ExploitReversing",
+            "author": "Alexandre Borges",
+            "title": "Malware Analysis Series (MAS): Article 6",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2022-10-13",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2022",
+            "categories": [
+                "FluBot",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "Emotet",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Socelars",
+                "Tofsee",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0919.pdf",
+            "date": "2022-09-19",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Russia-Nexus UAC-0113  Emulating Telecommunication  Providers in Ukraine",
+            "categories": [
+                "Ave Maria",
+                "Colibri Loader",
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/36629/",
+            "date": "2022-07-21",
+            "organization": "ASEC",
+            "author": "ASEC Analysis Team",
+            "title": "Malware Being Distributed by Disguising Itself as Icon of V3 Lite",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.uptycs.com/blog/warzonerat-can-now-evade-with-process-hollowing",
+            "date": "2022-05-31",
+            "organization": "Uptycs",
+            "author": "Pritam Salunkhe",
+            "title": "WarzoneRAT Can Now Evade Detection With Process Hollowing",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/syk-crypter-discord",
+            "date": "2022-05-12",
+            "organization": "Morphisec",
+            "author": "Hido Cohen",
+            "title": "New SYK Crypter Distributed Via Discord",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "Nanocore RAT",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/phishing-campaign-delivering-fileless-malware",
+            "date": "2022-05-12",
+            "organization": "FortiGuard Labs",
+            "author": "Xiaopeng Zhang",
+            "title": "Phishing Campaign Delivering Three Fileless Malware: AveMariaRAT / BitRAT / PandoraHVNC \u2013 Part I",
+            "categories": [
+                "Ave Maria",
+                "BitRAT",
+                "Pandora RAT"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/02/malware-pers-3.html",
+            "date": "2022-05-02",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 3. COM DLL hijack. Simple C++ example",
+            "categories": [
+                "Agent.BTZ",
+                "Ave Maria",
+                "Konni",
+                "Mosquito",
+                "TurlaRPC"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/12/threat-thursday-warzone-rat-breeds-a-litter-of-scriptkiddies",
+            "date": "2021-12-16",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Threat Thursday: Warzone RAT Breeds a Litter of ScriptKiddies",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.netskope.com/blog/dbatloader-abusing-discord-to-deliver-warzone-rat",
+            "date": "2021-10-21",
+            "organization": "Netskope",
+            "author": "Gustavo Palazolo",
+            "title": "DBatLoader: Abusing Discord to Deliver Warzone RAT",
+            "categories": [
+                "Ave Maria",
+                "DBatLoader"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/09/operation-armor-piercer.html",
+            "date": "2021-09-23",
+            "organization": "Talos",
+            "author": "Asheer Malhotra",
+            "title": "Operation \u201cArmor Piercer:\u201d Targeted attacks in the Indian subcontinent using commercial RATs",
+            "categories": [
+                "Ave Maria",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/Water-Basilisk-Uses-New-HCrypt-Variant-to-Flood-Victims-with-RAT-Payloads.html",
+            "date": "2021-09-20",
+            "organization": "Trend Micro",
+            "author": "Aliakbar Zahravi",
+            "title": "Water Basilisk Uses New HCrypt Variant to Flood Victims with RAT Payloads",
+            "categories": [
+                "Ave Maria",
+                "BitRAT",
+                "LimeRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-american-entities-with-commodity-rats/BlindEagleIOCList.txt",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs (IOCs)",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=-G82xh9m4hc",
+            "date": "2021-07-21",
+            "organization": "Youtube (OALabs)",
+            "author": "OALabs",
+            "title": "Warzone RAT Config Extraction With Python and IDA Pro",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "IBM",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "Cipher Tech Solutions",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blogs.quickheal.com/warzone-rat-beware-of-the-trojan-malware-stealing-data-triggering-from-various-office-documents/",
+            "date": "2021-07-01",
+            "organization": "Quick Heal",
+            "author": "Ayush Puri",
+            "title": "WARZONE RAT \u2013 Beware Of The Trojan Malware Stealing Data Triggering From Various Office Documents",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=81fdvmGmRvM",
+            "date": "2021-05-19",
+            "organization": "Youtube (OALabs)",
+            "author": "Sergei Frankoff",
+            "title": "Reverse Engineering Warzone RAT - Part 1",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/fsesosMnKIfAi_I9I0wKSA",
+            "date": "2021-02-06",
+            "organization": "Clairvoyance Security Lab",
+            "author": "Advanced threat research team",
+            "title": "Mo Luoxiu (Confucius) organizes a new round of secret theft attacks on South Asian military enterprises",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=T0tdj1WDioM",
+            "date": "2021-01-27",
+            "organization": "Youtube (OALabs)",
+            "author": "Sergei Frankoff",
+            "title": "IDA Pro Decompiler Basics Microcode and x86 Calling Conventions",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/C09P0al1nhsyyujHRp0FAw",
+            "date": "2021-01-21",
+            "organization": "360 Threat Intelligence Center",
+            "author": "Advanced Threat Institute",
+            "title": "Disclosure of Manling Flower Organization (APT-C-08) using Warzone RAT attack",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+            "date": "2021-01-12",
+            "organization": "Uptycs",
+            "author": "Abhijit Mohanta",
+            "title": "Confucius APT deploys Warzone RAT",
+            "categories": [
+                "Ave Maria",
+                "Confucius"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/insomniacs/do-you-want-to-bake-a-donut-come-on-lets-go-update-go-away-maria-e8e2b33683b1",
+            "date": "2020-11-30",
+            "organization": "Medium Asuna Amawaka",
+            "author": "Asuna Amawaka",
+            "title": "Do you want to bake a donut? Come on, let\u2019s go update~ Go away, Maria.",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.uptycs.com/blog/warzone-rat-comes-with-uac-bypass-technique",
+            "date": "2020-11-25",
+            "organization": "Uptycs",
+            "author": "Shilpesh Trivedi",
+            "title": "Warzone RAT comes with UAC bypass technique",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
+            "date": "2020-11-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q3 2020",
+            "categories": [
+                "WellMail",
+                "EVILNUM",
+                "Janicab",
+                "Poet RAT",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "Crimson RAT",
+                "CROSSWALK",
+                "Dtrack",
+                "LODEINFO",
+                "MoriAgent",
+                "Okrum",
+                "PlugX",
+                "poisonplug",
+                "Rover",
+                "ShadowPad",
+                "SoreFang",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/09/salfram-robbing-place-without-removing.html",
+            "date": "2020-09-02",
+            "organization": "Cisco Talos",
+            "author": "Holger Unterbrink",
+            "title": "Salfram: Robbing the place without removing your name tag",
+            "categories": [
+                "Ave Maria",
+                "ISFB",
+                "SmokeLoader",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
+            "date": "2020-07-30",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2020",
+            "categories": [
+                "AdWind",
+                "Agent Tesla",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "KPOT Stealer",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Pony",
+                "Raccoon",
+                "RedLine Stealer",
+                "Remcos",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://resources.malwarebytes.com/files/2020/05/CTNT_Q1_2020_COVID-Report_Final.pdf",
+            "date": "2020-05-21",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Cybercrime tactics and techniques",
+            "categories": [
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2020/warzone-behind-the-enemy-lines/",
+            "date": "2020-02-03",
+            "organization": "Check Point Research",
+            "author": "Yaroslav Harakhavik",
+            "title": "Warzone: Behind the enemy lines",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://blog.team-cymru.com/2019/07/25/unmasking-ave_maria/",
+            "date": "2019-07-25",
+            "organization": "Team Cymru",
+            "author": "Team Cymru",
+            "title": "Unmasking AVE_MARIA",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://www.kaspersky.com/about/press-releases/2019_fin7-hacking-group-targets-more-than-130-companies-after-leaders-arrest",
+            "date": "2019-05-08",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky Labs",
+            "title": "Fin7 hacking group targets more than 130 companies after leaders\u2019 arrest",
+            "categories": [
+                "Ave Maria",
+                "ANTHROPOID SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/",
+            "date": "2019-05-08",
+            "organization": "Kaspersky Labs",
+            "author": "Yury Namestnikov",
+            "title": "FIN7.5: the infamous cybercrime rig \u201cFIN7\u201d continues its activities",
+            "categories": [
+                "Griffon",
+                "Ave Maria",
+                "FIN7"
+            ]
+        },
+        {
+            "data_url": "https://reaqta.com/2019/04/ave_maria-malware-part1/",
+            "date": "2019-04-11",
+            "organization": "Reaqta",
+            "author": "Reaqta",
+            "title": "Ave_Maria Malware: there's more than meets the eye",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "http://blog.morphisec.com/threat-alert-ave-maria-infostealer-on-the-rise-with-new-stealthier-delivery",
+            "date": "2019-03-01",
+            "organization": "Morphisec",
+            "author": "Alon Groisman",
+            "title": "Threat Alert: AVE Maria infostealer on the rise",
+            "categories": [
+                "Ave Maria"
+            ]
+        },
+        {
+            "data_url": "https://blog.yoroi.company/research/the-ave_maria-malware/",
+            "date": "2019-01-11",
+            "organization": "Cybaze-Yorio Z-Lab",
+            "author": "Antonio Farina",
+            "title": "The \u201cAVE_MARIA\u201d Malware",
+            "categories": [
+                "Ave Maria"
+            ]
+        }
+    ]
 };

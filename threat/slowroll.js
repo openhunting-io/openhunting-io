@@ -24,5 +24,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "slowroll",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

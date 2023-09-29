@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Xenomorph",
     "category": "Malware",
     "type": "Banking trojan",
-    "modified": "2022-12-27",
+    "modified": "2023-03-10",
     "all_data": {
         "tool": "Xenomorph",
         "names": [
@@ -74,5 +74,68 @@ var threatdata = {
     "last_ioc_update": "2023-03-29 14:03:58",
     "mitre": [],
     "file_name": "xenomorph",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/xenomorph-v3-new-variant-with-ats.html",
+            "date": "2023-03-10",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "Xenomorph v3: a new variant with ATS targeting more than 400 institutions",
+            "categories": [
+                "Xenomorph"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/zombinder-ermac-and-desktop-stealers.html",
+            "date": "2022-12-08",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "Zombinder: new obfuscation service used by Ermac, now distributed next to desktop stealers",
+            "categories": [
+                "ERMAC",
+                "Xenomorph"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/rise-banking-trojan-dropper-google-play-0",
+            "date": "2022-11-10",
+            "organization": "Zscaler",
+            "author": "ThreatLabZ research team",
+            "title": "Rise of Banking Trojan Dropper in Google Play",
+            "categories": [
+                "Xenomorph"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/bugdrop-new-dropper-bypassing-google-security-measures.html",
+            "date": "2022-08-16",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "BugDrop: the first malware trying to circumvent Google's security Controls",
+            "categories": [
+                "Xenomorph"
+            ]
+        },
+        {
+            "data_url": "https://cryptax.medium.com/unpacking-a-jsonpacker-packed-sample-4038e12119f5",
+            "date": "2022-06-27",
+            "organization": "Medium (Cryptax)",
+            "author": "Axelle Apvrille",
+            "title": "Unpacking a JsonPacker-packed sample",
+            "categories": [
+                "Xenomorph"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/xenomorph-a-newly-hatched-banking-trojan.html",
+            "date": "2022-02",
+            "organization": "",
+            "author": "ThreatFabric",
+            "title": "Xenomorph: A newly hatched Banking Trojan",
+            "categories": [
+                "Xenomorph"
+            ]
+        }
+    ]
 };

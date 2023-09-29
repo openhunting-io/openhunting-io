@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "camubot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securityintelligence.com/camubot-new-financial-malware-targets-brazilian-banking-customers/",
+            "date": "2018-09-04",
+            "organization": "SecurityIntelligence",
+            "author": "Limor Kessem",
+            "title": "CamuBot: New Financial Malware Targets Brazilian Banking Customers",
+            "categories": [
+                "CamuBot"
+            ]
+        }
+    ]
 };

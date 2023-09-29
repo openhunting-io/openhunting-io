@@ -30,5 +30,41 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "powermagic",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/cloudwizard-apt/109722/",
+            "date": "2023-05-19",
+            "organization": "Kaspersky Labs",
+            "author": "Leonid Bezvershenko",
+            "title": "CloudWizard APT: the bad magic story goes on",
+            "categories": [
+                "PowerMagic",
+                "CloudWizard",
+                "CommonMagic",
+                "Prikormka"
+            ]
+        },
+        {
+            "data_url": "https://www.malwarebytes.com/blog/threat-intelligence/2023/05/redstinger",
+            "date": "2023-05-10",
+            "organization": "Malwarebytes",
+            "author": "Roberto Santos",
+            "title": "Uncovering RedStinger - Undetected APT cyber operations in Eastern Europe since 2020",
+            "categories": [
+                "PowerMagic"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/bad-magic-apt/109087/?s=31",
+            "date": "2023-03-21",
+            "organization": "Kaspersky Labs",
+            "author": "Leonid Bezvershenko",
+            "title": "Bad magic: new APT found in the area of Russo-Ukrainian conflict",
+            "categories": [
+                "PowerMagic",
+                "CommonMagic"
+            ]
+        }
+    ]
 };

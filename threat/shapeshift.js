@@ -30,5 +30,22 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "shapeshift",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+            "date": "2017-09-20",
+            "organization": "FireEye",
+            "author": "Jacqueline O\u2019Leary",
+            "title": "Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware",
+            "categories": [
+                "DROPSHOT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "SHAPESHIFT",
+                "TURNEDUP",
+                "APT33"
+            ]
+        }
+    ]
 };

@@ -34,5 +34,34 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "odinaff",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+            "date": "2016-10-11",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Odinaff: New Trojan used in high level financial attacks",
+            "categories": [
+                "Cobalt Strike",
+                "KLRD",
+                "MimiKatz",
+                "Odinaff"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20161223002016/https://www.symantec.com/connect/blogs/odinaff-new-trojan-used-high-level-financial-attacks",
+            "date": "2016-10-11",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Odinaff: New Trojan used in high level financial attacks",
+            "categories": [
+                "Batel",
+                "FlawedAmmyy",
+                "Odinaff",
+                "RMS",
+                "FIN7"
+            ]
+        }
+    ]
 };

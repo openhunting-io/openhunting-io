@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BetaBot, Neurevt",
     "category": "Malware",
     "type": "Banking trojan, Backdoor, Info stealer, Credential stealer, DDoS, Downloader",
-    "modified": "2021-11-01",
+    "modified": "2022-08-08",
     "all_data": {
         "tool": "BetaBot",
         "names": [
@@ -309,5 +309,157 @@ var threatdata = {
     "last_ioc_update": "2023-04-26 18:30:05",
     "mitre": [],
     "file_name": "betabot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://medium.com/csis-techblog/inside-view-of-brazzzersff-infrastructure-89b9188fd145",
+            "date": "2022-08-08",
+            "organization": "Medium CSIS Techblog",
+            "author": "Beno\u00eet Ancel",
+            "title": "An inside view of domain anonymization as-a-service \u2014 the BraZZZerSFF infrastructure",
+            "categories": [
+                "Riltok",
+                "magecart",
+                "Anubis",
+                "Azorult",
+                "BetaBot",
+                "Buer",
+                "CoalaBot",
+                "CryptBot",
+                "DiamondFox",
+                "DreamBot",
+                "GCleaner",
+                "ISFB",
+                "Loki Password Stealer (PWS)",
+                "MedusaLocker",
+                "MeguminTrojan",
+                "Nemty",
+                "PsiX",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "STOP",
+                "TinyNuke",
+                "Vidar",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://krabsonsecurity.com/2022/03/28/betabot-in-the-rearview-mirror/",
+            "date": "2022-03-28",
+            "organization": "KrabsOnSecurity",
+            "author": "Mr. Krabs",
+            "title": "Betabot in the Rearview Mirror",
+            "categories": [
+                "BetaBot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
+            "date": "2021-03-31",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "Financial Cyberthreats in 2020",
+            "categories": [
+                "BetaBot",
+                "DanaBot",
+                "Emotet",
+                "Gozi",
+                "Ramnit",
+                "RTM",
+                "SpyEye",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/07/14/raticate-rats-as-service-with-commercial-crypter/?cmp=30728",
+            "date": "2020-07-14",
+            "organization": "SophosLabs Uncut",
+            "author": "Markel Picado",
+            "title": "RATicate upgrades \u201cRATs as a Service\u201d attacks with commercial \u201ccrypter\u201d",
+            "categories": [
+                "LokiBot",
+                "BetaBot",
+                "CloudEyE",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/05/14/raticate/",
+            "date": "2020-05-14",
+            "organization": "SophosLabs",
+            "author": "Markel Picado",
+            "title": "RATicate: an attacker\u2019s waves of information-stealing malware",
+            "categories": [
+                "Agent Tesla",
+                "BetaBot",
+                "BlackRemote",
+                "Formbook",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ccn-cert.cni.es/seguridad-al-dia/comunicados-ccn-cert/6087-betabot-y-fleercivet-dos-nuevos-informes-de-codigo-danino-del-ccn-cert.html",
+            "date": "2018-11-04",
+            "organization": "CCN-CERT",
+            "author": "CCN-CERT",
+            "title": "BetaBot y Fleercivet, dos nuevos informes de c\u00f3digo da\u00f1ino del CCN-CERT",
+            "categories": [
+                "BetaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/betabot-banking-trojan-neurevt",
+            "date": "2018-10-03",
+            "organization": "Cybereason",
+            "author": "Assaf Dahan",
+            "title": "New Betabot campaign under the microscope",
+            "categories": [
+                "BetaBot"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@woj_ciech/betabot-still-alive-with-multi-stage-packing-fbe8ef211d39",
+            "date": "2018-06-15",
+            "organization": "Medium woj_ciech",
+            "author": "Wojciech",
+            "title": "Betabot still alive with multi-stage packing",
+            "categories": [
+                "BetaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/BetaBot.pdf?la=en",
+            "date": "2017-02-27",
+            "organization": "Sophos",
+            "author": "Ted Heppner",
+            "title": "Betabot: Configuration Data Extraction",
+            "categories": [
+                "BetaBot"
+            ]
+        },
+        {
+            "data_url": "http://www.xylibox.com/2015/04/betabot-retrospective.html",
+            "date": "2015-04-15",
+            "organization": "XyliBox",
+            "author": "Xylitol",
+            "title": "Betabot retrospective",
+            "categories": [
+                "BetaBot"
+            ]
+        },
+        {
+            "data_url": "http://www.malwaredigger.com/2013/09/how-to-extract-betabot-config-info.html",
+            "date": "2013-09-24",
+            "organization": "",
+            "author": "Hanan Natan",
+            "title": "How to extract BetaBot config info",
+            "categories": [
+                "BetaBot"
+            ]
+        }
+    ]
 };

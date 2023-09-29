@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "DMSniff",
     "category": "Malware",
     "type": "POS malware, Backdoor, Credential stealer, Botnet",
-    "modified": "2020-05-25",
+    "modified": "2023-08-30",
     "all_data": {
         "tool": "DMSniff",
         "names": [
@@ -37,5 +37,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "dmsniff",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://medium.com/walmartglobaltech/gazavat-expiro-dmsniff-connection-and-dga-analysis-8b965cc0221d",
+            "date": "2023-08-30",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "Gazavat / Expiro DMSniff connection and DGA analysis",
+            "categories": [
+                "DMSniff",
+                "Expiro"
+            ]
+        },
+        {
+            "data_url": "https://www.flashpoint-intel.com/blog/dmsniff-pos-malware-actively-leveraged-target-medium-sized-businesses/",
+            "date": "2019-03-13",
+            "organization": "Flashpoint",
+            "author": "Jason Reaves",
+            "title": "\u2018DMSniff\u2019 POS Malware Actively Leveraged to Target Small-, Medium-Sized Businesses",
+            "categories": [
+                "DMSniff"
+            ]
+        }
+    ]
 };

@@ -27,5 +27,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "thc_hydra",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "HUI Loader",
     "category": "Malware",
     "type": "Loader",
-    "modified": "2022-12-27",
+    "modified": "2023-08-17",
     "all_data": {
         "tool": "HUI Loader",
         "names": [
@@ -30,5 +30,73 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hui_loader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sentinelone.com/labs/chinese-entanglement-dll-hijacking-in-the-asian-gambling-sector/",
+            "date": "2023-08-17",
+            "organization": "SentinelOne",
+            "author": "Aleksandar Milenkoski",
+            "title": "Chinese Entanglement | DLL Hijacking in the Asian Gambling Sector",
+            "categories": [
+                "Cobalt Strike",
+                "HUI Loader"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@morimolymoly/hui-loader-malware-analysis-note-4fa0e1c791d3",
+            "date": "2023-08-02",
+            "organization": "Medium (@morimolymoly)",
+            "author": "morimolymoly",
+            "title": "HUI Loader \u2014 Malware Analysis Note",
+            "categories": [
+                "HUI Loader"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader",
+            "date": "2022-06-23",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "BRONZE STARLIGHT Ransomware Operations Use HUI Loader",
+            "categories": [
+                "ATOMSILO",
+                "Cobalt Strike",
+                "HUI Loader",
+                "LockFile",
+                "NightSky",
+                "Pandora",
+                "PlugX",
+                "Quasar RAT",
+                "Rook",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://blogs.jpcert.or.jp/ja/2022/05/HUILoader.html",
+            "date": "2022-05-16",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "Analysis of HUI Loader",
+            "categories": [
+                "HUI Loader",
+                "PlugX",
+                "Poison Ivy",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://jsac.jpcert.or.jp/archive/2022/pdf/JSAC2022_9_yanagishita-tamada-nakatsuru-ishimaru_en.pdf",
+            "date": "2022-01-27",
+            "organization": "JSAC 2021",
+            "author": "Hajime Yanagishita",
+            "title": "What We Can Do against the Chaotic  A41APT Campaign",
+            "categories": [
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "HUI Loader",
+                "SodaMaster"
+            ]
+        }
+    ]
 };

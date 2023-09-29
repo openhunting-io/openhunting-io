@@ -32,5 +32,65 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "eyservice",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://research.checkpoint.com/2020/nazar-spirits-of-the-past/",
+            "date": "2020-05-05",
+            "organization": "Checkpoint",
+            "author": "Check Point Research",
+            "title": "Nazar: Spirits of the Past",
+            "categories": [
+                "EYService"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarelab.pl/posts/nazar_eyservice_comm/",
+            "date": "2020-04-27",
+            "organization": "MalwareLab.pl",
+            "author": "Maciej Kotowicz",
+            "title": "Quick look at Nazar's backdoor - Network Communication",
+            "categories": [
+                "EYService"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarelab.pl/posts/nazar_eyservice/",
+            "date": "2020-04-23",
+            "organization": "MalwareLab.pl",
+            "author": "Maciej Kotowicz",
+            "title": "Quick look at Nazar backdoor - Capabilities",
+            "categories": [
+                "EYService"
+            ]
+        },
+        {
+            "data_url": "https://www.epicturla.com/blog/the-lost-nazar",
+            "date": "2020-04-22",
+            "organization": "EpicTurla",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "Nazar: A Lost Amulet",
+            "categories": [
+                "EYService",
+                "Nazar"
+            ]
+        },
+        {
+            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
+            "date": "2018-03",
+            "organization": "CrySyS Lab",
+            "author": "Boldizsar Bencsath",
+            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
+            "categories": [
+                "9002 RAT",
+                "Agent.BTZ",
+                "DuQu",
+                "EYService",
+                "Flame",
+                "FlowerShop",
+                "Stuxnet",
+                "Uroburos"
+            ]
+        }
+    ]
 };

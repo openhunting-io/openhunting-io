@@ -68,5 +68,6 @@ var threatdata = {
     "last_ioc_update": "2021-09-03 13:45:33",
     "mitre": [],
     "file_name": "mydoom",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

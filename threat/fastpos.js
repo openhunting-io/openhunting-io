@@ -39,5 +39,57 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "fastpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.justice.gov/opa/pr/malware-author-pleads-guilty-role-transnational-cybercrime-organization-responsible-more-568",
+            "date": "2020-07-31",
+            "organization": "Department of Justice",
+            "author": "Department of Justice",
+            "title": "Malware Author Pleads Guilty for Role in Transnational Cybercrime Organization Responsible for more than $568 Million in Losses",
+            "categories": [
+                "FastPOS"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fastpos-updates-in-time-for-retail-sale-season/",
+            "date": "2016-10-05",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Cyber Safety Solutions Team",
+            "title": "FastPOS Updates in Time for the Retail Sale Season",
+            "categories": [
+                "FastPOS"
+            ]
+        },
+        {
+            "data_url": "http://documents.trendmicro.com/assets/Appendix%20-%20FastPOS%20Updates%20in%20Time%20for%20the%20Retail%20Sale%20Season.pdf",
+            "date": "2016-10-04",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "FastPOS Updates in Time for the Retail Sale Season (Appendix)",
+            "categories": [
+                "FastPOS"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fastpos-quick-and-easy-credit-card-theft/",
+            "date": "2016-06-02",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Cyber Safety Solutions Team",
+            "title": "FastPOS: Quick and Easy Credit Card Theft",
+            "categories": [
+                "FastPOS"
+            ]
+        },
+        {
+            "data_url": "http://documents.trendmicro.com/assets/fastPOS-quick-and-easy-credit-card-theft.pdf",
+            "date": "2016-06",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Cyber Safety Solutions Team",
+            "title": "FastPOS: Quick and Easy Credit Card Theft",
+            "categories": [
+                "FastPOS"
+            ]
+        }
+    ]
 };

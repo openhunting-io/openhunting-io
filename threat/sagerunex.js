@@ -33,5 +33,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "sagerunex",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/espionage-asia-governments-cert-authority",
+            "date": "2022-11-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Billbug: State-sponsored Actor Targets Cert Authority, Government Agencies in Multiple Asian Countries",
+            "categories": [
+                "Sagerunex"
+            ]
+        }
+    ]
 };

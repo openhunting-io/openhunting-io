@@ -33,5 +33,52 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "contopee",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://content.fireeye.com/apt/rpt-apt38",
+            "date": "2018",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT38",
+            "categories": [
+                "Bitsran",
+                "BLINDTOAD",
+                "BOOTWRECK",
+                "Contopee",
+                "DarkComet",
+                "DYEPACK",
+                "HOTWAX",
+                "NESTEGG",
+                "PowerRatankba",
+                "REDSHAWL",
+                "WORMHOLE",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/swift-attackers-malware-linked-more-financial-attacks",
+            "date": "2016-05-26",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "SWIFT attackers\u2019 malware linked to more financial attacks",
+            "categories": [
+                "Contopee",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20160527050022/https://www.symantec.com/connect/blogs/swift-attackers-malware-linked-more-financial-attacks",
+            "date": "2016-05-26",
+            "organization": "Symantec",
+            "author": "Security Response",
+            "title": "SWIFT attackers\u2019 malware linked to more financial attacks",
+            "categories": [
+                "Contopee",
+                "DYEPACK",
+                "Sierra(Alfa,Bravo, ...)",
+                "Lazarus Group"
+            ]
+        }
+    ]
 };

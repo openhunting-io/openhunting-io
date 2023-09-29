@@ -27,5 +27,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "mkl_pro_keylogger",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

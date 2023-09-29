@@ -167,5 +167,221 @@ var threatdata = {
     "last_ioc_update": "2021-09-04 12:30:30",
     "mitre": [],
     "file_name": "kronos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/banking-trojan-techniques/",
+            "date": "2022-10-31",
+            "organization": "paloalto Netoworks: Unit42",
+            "author": "Or Chechik",
+            "title": "Banking Trojan Techniques: How Financially Motivated Malware Became Infrastructure",
+            "categories": [
+                "Dridex",
+                "Kronos",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/g/gootkit-loaders-updated-tactics-and-fileless-delivery-of-cobalt-strike.html",
+            "date": "2022-07-27",
+            "organization": "Trend Micro",
+            "author": "Buddy Tancio",
+            "title": "Gootkit Loader\u2019s Updated Tactics and Fileless Delivery of Cobalt Strike",
+            "categories": [
+                "Cobalt Strike",
+                "GootKit",
+                "Kronos",
+                "REvil",
+                "SunCrypt"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/privateloader-malware",
+            "date": "2022-02-08",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "PrivateLoader: The first step in many malware schemes",
+            "categories": [
+                "Dridex",
+                "Kronos",
+                "LockBit",
+                "Nanocore RAT",
+                "NjRAT",
+                "PrivateLoader",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos",
+                "SmokeLoader",
+                "STOP",
+                "Tofsee",
+                "TrickBot",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/osiris-banking-trojan-shuts-down-as-new-ares-variant-emerges/",
+            "date": "2021-05-11",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Osiris banking trojan shuts down as new Ares variant emerges",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/ares-malware-grandson-kronos-banking-trojan",
+            "date": "2021-03-30",
+            "organization": "Zscaler",
+            "author": "Brett Stone-Gross",
+            "title": "Ares Malware: The Grandson of the Kronos Banking Trojan",
+            "categories": [
+                "Ares",
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/long-live-osiris-banking-trojan-targets-german-ip-addresses",
+            "date": "2021-02-08",
+            "organization": "Morphisec",
+            "author": "Michael Dereviashkin",
+            "title": "Long Live, Osiris; Banking Trojan Targets German IP Addresses",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/3xp0rtblog/status/1294157781415743488",
+            "date": "2020-08-14",
+            "organization": "Twitter (@3xp0rtblog)",
+            "author": "3xp0rt",
+            "title": "Tweet on Osiris",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://dissectingmalwa.re/osiris-the-god-of-afterlifeand-banking-malware.html",
+            "date": "2019-10-29",
+            "organization": "Dissecting Malware",
+            "author": "Marius Genheimer",
+            "title": "Osiris, the god of afterlife...and banking malware?!",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/security-researcher-malwaretech-pleads-guilty/",
+            "date": "2019-04-19",
+            "organization": "ZDNet",
+            "author": "Catalin Cimpanu",
+            "title": "Security researcher MalwareTech pleads guilty",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/kronos-reborn",
+            "date": "2018-07-24",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Kronos Reborn",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://vx-underground.org/archive/APTs/2017/2017.12.11/Money%20Taker.pdf",
+            "date": "2017-12-11",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "MoneyTaker 1.5 YEARS OF SILENT OPERATIONS",
+            "categories": [
+                "Citadel",
+                "Kronos",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/cybercrime/2017/08/inside-kronos-malware-p2/",
+            "date": "2017-08-29",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Inside the Kronos malware \u2013 part 2",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/cybercrime/2017/08/inside-kronos-malware/",
+            "date": "2017-08-18",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Inside the Kronos malware \u2013 part 1",
+            "categories": [
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/kronos-banking-trojan-used-to-deliver-new-point-of-sale-malware",
+            "date": "2016-11-15",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Kronos Banking Trojan Used to Deliver New Point-of-Sale Malware",
+            "categories": [
+                "Kronos",
+                "ScanPOS"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2016/10/new-looking-sundown-ek-drops-smoke-loader-kronos-banker/",
+            "date": "2016-10-17",
+            "organization": "Malwarebytes",
+            "author": "J\u00e9r\u00f4me Segura",
+            "title": "New-looking Sundown EK drops Smoke Loader, Kronos banker",
+            "categories": [
+                "Kronos",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/operation-black-atlas-endangers-in-store-card-payments-and-smbs-worldwide-switches-between-blackpos-and-other-tools/",
+            "date": "2015-12-01",
+            "organization": "Trend Micro",
+            "author": "Jay Yaneza",
+            "title": "Operation Black Atlas Endangers In-Store Card Payments and SMBs Worldwide; Switches between BlackPOS and Other Tools",
+            "categories": [
+                "Alina POS",
+                "BlackPOS",
+                "Kronos",
+                "NewPosThings"
+            ]
+        }
+    ]
 };

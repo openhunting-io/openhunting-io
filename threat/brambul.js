@@ -39,5 +39,182 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "brambul",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://swanleesec.github.io/posts/Malware-Lazarus-group's-Brambul-worm-of-the-former-Wannacry-1",
+            "date": "2020-02-26",
+            "organization": "MetaSwan's Lab",
+            "author": "MetaSwan",
+            "title": "Lazarus group's Brambul worm of the former Wannacry - 1",
+            "categories": [
+                "Brambul",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://swanleesec.github.io/posts/Malware-Lazarus-group's-Brambul-worm-of-the-former-Wannacry-2",
+            "date": "2020-02-26",
+            "organization": "MetaSwan's Lab",
+            "author": "MetaSwan",
+            "title": "Lazarus group's Brambul worm of the former Wannacry - 2",
+            "categories": [
+                "Brambul"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/nickel-academy",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "NICKEL ACADEMY",
+            "categories": [
+                "Brambul",
+                "Duuzer",
+                "HOPLIGHT",
+                "Joanap",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer"
+            ]
+        },
+        {
+            "data_url": "https://www.acalvio.com/lateral-movement-technique-employed-by-hidden-cobra/",
+            "date": "2018-06-13",
+            "organization": "Acalvio",
+            "author": "Team Acalvio",
+            "title": "Lateral Movement Technique Employed by Hidden Cobra",
+            "categories": [
+                "Brambul",
+                "Joanap"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/alerts/TA18-149A",
+            "date": "2018-05-29",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Alert (TA18-149A): HIDDEN COBRA \u2013 Joanap Backdoor Trojan and Brambul Server Message Block Worm",
+            "categories": [
+                "Brambul",
+                "Joanap"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/AR18-149A",
+            "date": "2018-05-29",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "MAR-10135536-3 - HIDDEN COBRA RAT/Worm",
+            "categories": [
+                "Brambul",
+                "Joanap"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=5b9850b9-0fdd-48a9-b595-9234207ae7df&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2015-10-26",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Duuzer back door Trojan targets South Korea to take over computers",
+            "categories": [
+                "Brambul",
+                "Duuzer",
+                "Joanap",
+                "Lazarus Group"
+            ]
+        }
+    ]
 };

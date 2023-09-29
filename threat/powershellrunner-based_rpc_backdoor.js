@@ -33,5 +33,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "powershellrunner-based_rpc_backdoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2019/05/29/turla-powershell-usage/",
+            "date": "2019-05-29",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "A dive into Turla PowerShell usage",
+            "categories": [
+                "PowerShellRunner",
+                "TurlaRPC"
+            ]
+        },
+        {
+            "data_url": "https://raw.githubusercontent.com/k-vitali/Malware-Misc-RE/master/2019-04-13-Possible-Turla-PowerShell-Implant.ps1",
+            "date": "2019-04-13",
+            "organization": "GitHub",
+            "author": "Vitali Kremez",
+            "title": "Decoded Turla Powershell Implant",
+            "categories": [
+                "PowerShellRunner"
+            ]
+        }
+    ]
 };

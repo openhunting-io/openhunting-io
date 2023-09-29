@@ -30,5 +30,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "barb(ie)_downloader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cybereason.com/blog/operation-bearded-barbie-apt-c-23-campaign-targeting-israeli-officials",
+            "date": "2022-04-06",
+            "organization": "Cybereason",
+            "author": "Cybereason Nocturnus",
+            "title": "Operation Bearded Barbie: APT-C-23 Campaign Targeting Israeli Officials",
+            "categories": [
+                "Barb(ie) Downloader",
+                "BarbWire"
+            ]
+        }
+    ]
 };

@@ -41,5 +41,31 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "jripbot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/10/20114955/Bartholomew-GuerreroSaade-VB2016.pdf",
+            "date": "2016-09-07",
+            "organization": "Virus Bulletin",
+            "author": "Brian Bartholomew",
+            "title": "Wave Your False Flags! Deception Tactics Muddying Attribution in Targeted Attacks",
+            "categories": [
+                "DuQu",
+                "JripBot",
+                "Sinowal",
+                "Stuxnet",
+                "Wipbot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/research/71275/wild-neutron-economic-espionage-threat-actor-returns-with-new-tricks/",
+            "date": "2015-07-08",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Wild Neutron \u2013 Economic espionage threat actor returns with new tricks",
+            "categories": [
+                "JripBot"
+            ]
+        }
+    ]
 };

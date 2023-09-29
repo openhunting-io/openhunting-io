@@ -39,5 +39,49 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "careto",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/careto",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "Careto",
+            "categories": [
+                "Careto"
+            ]
+        },
+        {
+            "data_url": "https://www.alienvault.com/blogs/labs-research/os-x-malware-samples-analyzed",
+            "date": "2016-03-21",
+            "organization": "AT&T Cybersecurity",
+            "author": "Eddie Lee",
+            "title": "OS X Malware Samples Analyzed",
+            "categories": [
+                "Careto",
+                "CoinThief",
+                "FlashBack"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-caretomask-apt-frequently-asked-questions/58254/",
+            "date": "2014-02-10",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "The Careto/Mask APT: Frequently Asked Questions",
+            "categories": [
+                "Careto"
+            ]
+        },
+        {
+            "data_url": "https://d2538mqrb7brka.cloudfront.net/wp-content/uploads/sites/43/2018/03/20133638/unveilingthemask_v1.0.pdf",
+            "date": "2014-02",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky",
+            "title": "Unveiling \u201cCareto\u201d - The Masked APT",
+            "categories": [
+                "Careto"
+            ]
+        }
+    ]
 };

@@ -31,5 +31,29 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "snugy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/hunter-serpens/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Hunter Serpens",
+            "categories": [
+                "CASHY200",
+                "Snugy",
+                "COBALT KATANA"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/xhunt-campaign-backdoors/",
+            "date": "2020-11-09",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "xHunt Campaign: Newly Discovered Backdoors Using Deleted Email Drafts and DNS Tunneling for Command and Control",
+            "categories": [
+                "Snugy"
+            ]
+        }
+    ]
 };

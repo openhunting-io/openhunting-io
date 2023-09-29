@@ -34,5 +34,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pvz-out",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
+            "date": "2016-04-06",
+            "organization": "Cylance",
+            "author": "Cylance",
+            "title": "Operation Cleaver",
+            "categories": [
+                "CsExt",
+                "Jasus",
+                "KAgent",
+                "NetC",
+                "PvzOut",
+                "SynFlooder",
+                "TinyZbot",
+                "WndTest",
+                "ZhCat",
+                "ZhMimikatz",
+                "Cleaver"
+            ]
+        }
+    ]
 };

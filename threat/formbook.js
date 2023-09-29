@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Formbook, win.xloader",
     "category": "Malware",
     "type": "Backdoor, Keylogger, Info stealer, Credential stealer",
-    "modified": "2023-04-26",
+    "modified": "2023-07-06",
     "all_data": {
         "tool": "Formbook",
         "names": [
@@ -13762,5 +13762,857 @@ var threatdata = {
     "last_ioc_update": "2023-09-21 15:11:18",
     "mitre": [],
     "file_name": "formbook",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://kienmanowar.wordpress.com/2023/07/06/quicknote-examining-formbook-campaign-via-phishing-emails/",
+            "date": "2023-07-06",
+            "organization": "kienmanowar Blog",
+            "author": "Tran Trung Kien",
+            "title": "[QuickNote] Examining Formbook Campaign via Phishing Emails",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://github.com/itaymigdal/malware-analysis-writeups/blob/main/FormBook/FormBook.md",
+            "date": "2023-06-30",
+            "organization": "Github (itaymigdal)",
+            "author": "Itay Migdal",
+            "title": "Formbook unpacking",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.malware-traffic-analysis.net/2023/06/05/index.html",
+            "date": "2023-06-05",
+            "organization": "Malware Traffic Analysis",
+            "author": "Brad Duncan",
+            "title": "30 DAYS OF FORMBOOK: DAY 1, MONDAY 2023-06-05",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blog.checkpoint.com/security/march-2023s-most-wanted-malware-new-emotet-campaign-bypasses-microsoft-blocks-to-distribute-malicious-onenote-files/",
+            "date": "2023-04-10",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "March 2023\u2019s Most Wanted Malware: New Emotet Campaign Bypasses Microsoft Blocks to Distribute Malicious OneNote Files",
+            "categories": [
+                "Agent Tesla",
+                "CloudEyE",
+                "Emotet",
+                "Formbook",
+                "Nanocore RAT",
+                "NjRAT",
+                "QakBot",
+                "Remcos",
+                "Tofsee"
+            ]
+        },
+        {
+            "data_url": "https://research.loginsoft.com/threat-research/from-innocence-to-malice-the-onenote-malware-campaign-uncovered/",
+            "date": "2023-03-30",
+            "organization": "loginsoft",
+            "author": "Saharsh Agrawal",
+            "title": "From Innocence to Malice: The OneNote Malware Campaign Uncovered",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "DOUBLEBACK",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "NetWire RC",
+                "QakBot",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/technical-analysis-xloaders-code-obfuscation-version-43",
+            "date": "2023-03-30",
+            "organization": "Zscaler",
+            "author": "Javier Vicente",
+            "title": "Technical Analysis of Xloader\u2019s Code Obfuscation in Version 4.3",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/ipfs-a-new-data-frontier-or-a-new-cybercriminal-hideout",
+            "date": "2023-03-16",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "IPFS: A New Data Frontier or a New Cybercriminal Hideout?",
+            "categories": [
+                "Agent Tesla",
+                "Formbook",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://any.run/cybersecurity-blog/xloader-formbook-encryption-analysis-and-malware-decryption/",
+            "date": "2023-02-28",
+            "organization": "ANY.RUN",
+            "author": "ANY.RUN",
+            "title": "XLoader/FormBook: Encryption Analysis and Malware Decryption",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/following-the-scent-of-trickgate-6-year-old-packer-used-to-deploy-the-most-wanted-malware/",
+            "date": "2023-01-30",
+            "organization": "Checkpoint",
+            "author": "Arie Olshtein",
+            "title": "Following the Scent of TrickGate: 6-Year-Old Packer Used to Deploy the Most Wanted Malware",
+            "categories": [
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Maze",
+                "NetWire RC",
+                "Remcos",
+                "REvil",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/research/cyberattacks-targeting-ukraine-increase.html",
+            "date": "2023-01-24",
+            "organization": "Trellix",
+            "author": "Daksh Kapur",
+            "title": "Cyberattacks Targeting Ukraine Increase 20-fold at End of 2022 Fueled by Russia-linked Gamaredon Activity",
+            "categories": [
+                "Andromeda",
+                "Formbook",
+                "Houdini",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/trojanized-onenote-document-leads-to-formbook-malware/",
+            "date": "2022-12-08",
+            "organization": "Trustwave",
+            "author": "Rodel Mendrez",
+            "title": "Trojanized OneNote Document Leads to Formbook Malware",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.malwarebytes.com/blog/threat-intelligence/2022/20221121-threat-intel-report-final.pdf",
+            "date": "2022-11-21",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes",
+            "title": "2022-11-21 Threat Intel Report",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "Formbook",
+                "Hive",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/excel-document-delivers-multiple-malware-exploiting-cve-2017-11882-part-two",
+            "date": "2022-10-05",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Excel Document Delivers Multiple Malware by Exploiting CVE-2017-11882 \u2013 Part II",
+            "categories": [
+                "Formbook",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/excel-document-delivers-malware-by-exploiting-cve-2017-11882",
+            "date": "2022-09-19",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Excel Document Delivers Multiple Malware By Exploiting CVE-2017-11882 \u2013 Part I",
+            "categories": [
+                "Formbook",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://blog.netlab.360.com/purecrypter",
+            "date": "2022-08-29",
+            "organization": "360 netlab",
+            "author": "wanghao",
+            "title": "PureCrypter Loader continues to be active and has spread to more than 10 other families",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Formbook",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.connectwise.com/resources/formbook-remcos-rat",
+            "date": "2022-08-04",
+            "organization": "ConnectWise",
+            "author": "Stu Gonzalez",
+            "title": "Formbook and Remcos Backdoor RAT by ConnectWise CRU",
+            "categories": [
+                "Formbook",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://cert.gov.ua/article/955924",
+            "date": "2022-07-25",
+            "organization": "Cert-UA",
+            "author": "Cert-UA",
+            "title": "Mass distribution of desktops (Formbook, Snake Keylogger) and use of Malware RelicRace/RelicSource as a means of delivery (CERT-UA#5056)",
+            "categories": [
+                "404 Keylogger",
+                "Formbook",
+                "RelicRace"
+            ]
+        },
+        {
+            "data_url": "https://www.cyren.com/blog/articles/example-analysis-of-multi-component-malware",
+            "date": "2022-07-12",
+            "organization": "Cyren",
+            "author": "Kervin Alintanahin",
+            "title": "Example Analysis of Multi-Component Malware",
+            "categories": [
+                "Emotet",
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/07/01/xloader-returns-with-new-infection-technique/",
+            "date": "2022-07-01",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "Xloader Returns With New Infection Technique",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.netskope.com/blog/new-formbook-campaign-delivered-through-phishing-emails",
+            "date": "2022-03-11",
+            "organization": "Netskope",
+            "author": "Gustavo Palazolo",
+            "title": "New Formbook Campaign Delivered Through Phishing Emails",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.lac.co.jp/lacwatch/report/20220307_002893.html",
+            "date": "2022-03-07",
+            "organization": "LAC WATCH",
+            "author": "Cyber \u200b\u200bEmergency Center",
+            "title": "I CAN'T HEAR YOU NOW! INTERNAL BEHAVIOR OF INFORMATION-STEALING MALWARE AND JSOC DETECTION TRENDS",
+            "categories": [
+                "Xloader",
+                "Agent Tesla",
+                "Formbook",
+                "Loki Password Stealer (PWS)"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/32149/",
+            "date": "2022-02-28",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Change in Distribution Method of Malware Disguised as Estimate (VBS Script)",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://forensicitguy.github.io/xloader-formbook-velvetsweatshop-spreadsheet/",
+            "date": "2022-02-11",
+            "organization": "forensicitguy",
+            "author": "Tony Lambert",
+            "title": "XLoader/Formbook Distributed by Encrypted VelvetSweatshop Spreadsheets",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/analysis-xloaders-c2-network-encryption",
+            "date": "2022-01-21",
+            "organization": "Zscaler",
+            "author": "Javier Vicente",
+            "title": "Analysis of Xloader\u2019s C2 Network Encryption",
+            "categories": [
+                "Xloader",
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://elastic.github.io/security-research/intelligence/2022/01/01.formbook-adopts-cabless-approach/article/",
+            "date": "2022-01-18",
+            "organization": "Elastic",
+            "author": "Derek Ditch",
+            "title": "FORMBOOK Adopts CAB-less Approach",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/javascript-malware-dispensing-rats-into-the-wild/",
+            "date": "2021-11-23",
+            "organization": "HP",
+            "author": "Patrick Schl\u00e4pfer",
+            "title": "RATDispenser: Stealthy JavaScript Loader Dispensing RATs into the Wild",
+            "categories": [
+                "AdWind",
+                "Ratty",
+                "STRRAT",
+                "CloudEyE",
+                "Formbook",
+                "Houdini",
+                "Panda Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/office-documents-may-the-xll-technique-change-the-threat-landscape-in-2022/",
+            "date": "2021-11-16",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Office Documents: May the XLL technique change the threat Landscape in 2022?",
+            "categories": [
+                "Agent Tesla",
+                "Dridex",
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/09/threat-thursday-xloader-infostealer",
+            "date": "2021-09-30",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Threat Thursday: xLoader Infostealer",
+            "categories": [
+                "Xloader",
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/formbook-adds-latest-office-365-0-day-vulnerability-cve-2021-404.html",
+            "date": "2021-09-29",
+            "organization": "Trend Micro",
+            "author": "Aliakbar Zahravi",
+            "title": "FormBook Adds Latest Office 365 0-Day Vulnerability (CVE-2021-40444) to Its Arsenal",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blogs.quickheal.com/formbook-malware-returns-new-variant-uses-steganography-and-in-memory-loading-of-multiple-stages-to-steal-data/",
+            "date": "2021-07-21",
+            "organization": "Quick Heal",
+            "author": "Rumana Siddiqui",
+            "title": "FormBook Malware Returns: New Variant Uses Steganography and In-Memory Loading of multiple stages to steal data",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "IBM",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "Cipher Tech Solutions",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/deep-analysis-formbook-new-variant-delivered-phishing-campaign-part-ii",
+            "date": "2021-04-22",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Deep Analysis: FormBook New Variant Delivered in Phishing Campaign \u2013 Part II",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/deep-analysis-new-formbook-variant-delivered-phishing-campaign-part-I",
+            "date": "2021-04-12",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Deep Analysis: New FormBook Variant Delivered in Phishing Campaign \u2013 Part I",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/03/HP_Bromium_Threat_Insights_Report_Q4_2020.pdf",
+            "date": "2021-03-17",
+            "organization": "HP",
+            "author": "HP Bromium",
+            "title": "Threat Insights Report Q4-2020",
+            "categories": [
+                "Agent Tesla",
+                "BitRAT",
+                "ComodoSec",
+                "Dridex",
+                "Emotet",
+                "Ficker Stealer",
+                "Formbook",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://youtu.be/aQwnHIlGSBM",
+            "date": "2021-03-11",
+            "organization": "YouTube ( Malware_Analyzing_&_RE_Tips_Tricks)",
+            "author": "Ji\u0159\u00ed Vinopal",
+            "title": "Formbook Reversing - Part1 [Formbook .NET loader/injector analyzing, decrypting, unpacking, patching]",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2021/01/09/c2-traffic-patterns-personal-notes/",
+            "date": "2021-01-09",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Command and Control Traffic Patterns",
+            "categories": [
+                "ostap",
+                "LaZagne",
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cobalt Strike",
+                "DanaBot",
+                "DarkComet",
+                "Dridex",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "ISFB",
+                "NetWire RC",
+                "PlugX",
+                "Quasar RAT",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/26806",
+            "date": "2020-11-19",
+            "organization": "SANS ISC InfoSec Forums",
+            "author": "Xavier Mertens",
+            "title": "PowerShell Dropper Delivering Formbook",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://tccontre.blogspot.com/2020/11/interesting-formbook-crypter.html",
+            "date": "2020-11-05",
+            "organization": "tccontre Blog",
+            "author": "tcontre",
+            "title": "Interesting FormBook Crypter - unconventional way to store encrypted data",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.hornetsecurity.com/en/threat-research/vba-purging-malspam-campaigns/",
+            "date": "2020-10-16",
+            "organization": "Hornetsecurity",
+            "author": "Hornetsecurity Security Lab",
+            "title": "VBA Purging Malspam Campaigns",
+            "categories": [
+                "Agent Tesla",
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/07/ESET_Threat_Report_Q22020.pdf",
+            "date": "2020-07-29",
+            "organization": "ESET Research",
+            "author": "welivesecurity",
+            "title": "THREAT REPORT Q2 2020",
+            "categories": [
+                "DEFENSOR ID",
+                "HiddenAd",
+                "Bundlore",
+                "Pirrit",
+                "Agent.BTZ",
+                "Cerber",
+                "ClipBanker",
+                "CROSSWALK",
+                "Cryptowall",
+                "CTB Locker",
+                "DanaBot",
+                "Dharma",
+                "Formbook",
+                "Gandcrab",
+                "Grandoreiro",
+                "Houdini",
+                "ISFB",
+                "LockBit",
+                "Locky",
+                "Mailto",
+                "Maze",
+                "Microcin",
+                "Nemty",
+                "NjRAT",
+                "Phobos",
+                "PlugX",
+                "Pony",
+                "REvil",
+                "Socelars",
+                "STOP",
+                "Tinba",
+                "TrickBot",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/file/d/1oxINyIJfMtv_upJqRK9vLSchIBaU8wiU/view",
+            "date": "2020-07-22",
+            "organization": "S2W LAB Inc.",
+            "author": "S2W LAB INTELLIGENCE TEAM",
+            "title": "'FormBook Tracker' unveiled on the Dark Web",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2021/05/revisiting-the-nsis-based-crypter/",
+            "date": "2020-05-31",
+            "organization": "Malwarebytes",
+            "author": "hasherezade",
+            "title": "Revisiting the NSIS-based crypter",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/05/14/raticate/",
+            "date": "2020-05-14",
+            "organization": "SophosLabs",
+            "author": "Markel Picado",
+            "title": "RATicate: an attacker\u2019s waves of information-stealing malware",
+            "categories": [
+                "Agent Tesla",
+                "BetaBot",
+                "BlackRemote",
+                "Formbook",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/navigating-cybersecurity-during-a-pandemic-latest-malware-and-threat-actors",
+            "date": "2020-04-01",
+            "organization": "Cisco",
+            "author": "Shyam Sundar Ramaswami",
+            "title": "Navigating Cybersecurity During a Pandemic: Latest Malware and Threat Actors",
+            "categories": [
+                "Azorult",
+                "CloudEyE",
+                "Formbook",
+                "KPOT Stealer",
+                "Metamorfo",
+                "Nanocore RAT",
+                "NetWire RC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://insights.oem.avira.com/a-new-technique-to-analyze-formbook-malware-infections/",
+            "date": "2020-03-24",
+            "organization": "Avira",
+            "author": "Avira Protection Labs",
+            "title": "A new technique to analyze FormBook malware infections",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blog.360totalsecurity.com/en/bayworld-event-cyber-attack-against-foreign-trade-industry/",
+            "date": "2020-01-19",
+            "organization": "360",
+            "author": "kate",
+            "title": "BayWorld event, Cyber Attack Against Foreign Trade Industry",
+            "categories": [
+                "Azorult",
+                "Formbook",
+                "Nanocore RAT",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
+            "date": "2019-12-12",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
+            "categories": [
+                "Cerberus",
+                "TSCookie",
+                "Cobalt Strike",
+                "Dtrack",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "Icefog",
+                "IRONHALO",
+                "Loki Password Stealer (PWS)",
+                "PandaBanker",
+                "PLEAD",
+                "poisonplug",
+                "TrickBot",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/new-whiteshadow-downloader-uses-microsoft-sql-retrieve-malware",
+            "date": "2019-09-26",
+            "organization": "Proofpoint",
+            "author": "Bryan Campbell",
+            "title": "New WhiteShadow downloader uses Microsoft SQL to retrieve malware",
+            "categories": [
+                "WhiteShadow",
+                "Agent Tesla",
+                "Azorult",
+                "Crimson RAT",
+                "Formbook",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2019/07/sweed-agent-tesla.html",
+            "date": "2019-07-15",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "SWEED: Exposing years of Agent Tesla campaigns",
+            "categories": [
+                "Agent Tesla",
+                "Formbook",
+                "Loki Password Stealer (PWS)",
+                "SWEED"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberbit.com/formbook-research-hints-large-data-theft-attack-brewing/",
+            "date": "2019-06-12",
+            "organization": "Cyberbit",
+            "author": "Hod Gavriel",
+            "title": "Formbook Research Hints Large Data Theft Attack Brewing",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://usualsuspect.re/article/formbook-hiding-in-plain-sight",
+            "date": "2019-05-02",
+            "organization": "Usual Suspect RE",
+            "author": "Johann Aydinbas",
+            "title": "FormBook - Hiding in plain sight",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2019/01/vb2018-paper-inside-formbook-infostealer/",
+            "date": "2019-01",
+            "organization": "Virus Bulletin",
+            "author": "Gabriela Nicolao",
+            "title": "Inside Formbook infostealer",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.botconf.eu/wp-content/uploads/2018/12/2018-R-Jullian-In-depth-Formbook-Malware-Analysis.pdf",
+            "date": "2018-12-05",
+            "organization": "Botconf",
+            "author": "R\u00e9mi Jullian",
+            "title": "FORMBOOK In-depth malware analysis",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.peerlyst.com/posts/how-to-analyse-formbook-a-new-malware-as-a-service-sudhendu?trk=explore_page_resources_recent",
+            "date": "2018-11-01",
+            "organization": "Peerlyst",
+            "author": "Sudhendu",
+            "title": "How to Analyse FormBook - A New Malware-as-a-Service",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.peerlyst.com/posts/how-to-understand-formbook-a-new-malware-as-a-service-sudhendu?",
+            "date": "2018-10-16",
+            "organization": "Peerlyst",
+            "author": "Sudhendu",
+            "title": "How to understand FormBook - A New Malware-as-a-Service",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "http://blog.inquest.net/blog/2018/06/22/a-look-at-formbook-stealer/",
+            "date": "2018-06-22",
+            "organization": "InQuest",
+            "author": "Aswanda",
+            "title": "FormBook stealer: Data theft made easy",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2018/06/my-little-formbook.html",
+            "date": "2018-06-20",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "My Little FormBook",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://thisissecurity.stormshield.com/2018/03/29/in-depth-formbook-malware-analysis-obfuscation-and-process-injection/",
+            "date": "2018-03-29",
+            "organization": "Stormshield",
+            "author": "R\u00e9mi Jullian",
+            "title": "In-depth Formbook malware analysis \u2013 Obfuscation and process injection",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "http://www.vkremez.com/2018/01/lets-learn-dissecting-formbook.html",
+            "date": "2018-01-29",
+            "organization": "Vitali Kremez Blog",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: Dissecting FormBook Infostealer Malware: Crypter & \"RunLib.dll\"",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/10/formbook-malware-distribution-campaigns.html",
+            "date": "2017-10-05",
+            "organization": "FireEye",
+            "author": "Nart Villeneuve",
+            "title": "Significant FormBook Distribution Campaigns Impacting the U.S. and South Korea",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://www.arbornetworks.com/blog/asert/formidable-formbook-form-grabber/",
+            "date": "2017-09-20",
+            "organization": "NetScout",
+            "author": "Dennis Schwarz",
+            "title": "The Formidable FormBook Form Grabber",
+            "categories": [
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "http://cambuz.blogspot.de/2016/06/form-grabber-2016-cromeffoperathunderbi.html",
+            "date": "2016-06",
+            "organization": "Safety First Blog",
+            "author": "SL4ID3R",
+            "title": "Form Grabber 2016 [Crome,FF,Opera,Thunderbird, Outlook IE Safari] Hack the world",
+            "categories": [
+                "Formbook"
+            ]
+        }
+    ]
 };

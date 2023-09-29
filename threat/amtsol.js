@@ -33,5 +33,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "amtsol",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.technet.microsoft.com/mmpc/2017/06/07/platinum-continues-to-evolve-find-ways-to-maintain-invisibility/",
+            "date": "2017-06-07",
+            "organization": "Microsoft",
+            "author": "Microsoft Defender ATP Research Team",
+            "title": "PLATINUM continues to evolve, find ways to maintain invisibility",
+            "categories": [
+                "AMTsol"
+            ]
+        },
+        {
+            "data_url": "http://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf",
+            "date": "2016-04-26",
+            "organization": "Microsoft",
+            "author": "Windows Defender Advanced Threat Hunting Team",
+            "title": "PLATINUM Targeted attacks in South and Southeast Asia",
+            "categories": [
+                "AMTsol",
+                "PLATINUM"
+            ]
+        }
+    ]
 };

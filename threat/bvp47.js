@@ -31,5 +31,69 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "bvp47",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://exatrack.com/public/Tricephalic_Hellkeeper.pdf",
+            "date": "2022-05-11",
+            "organization": "ExaTrack",
+            "author": "Tristan Pourcelot",
+            "title": "Tricephalic Hellkeeper: a tale of a passive backdoor",
+            "categories": [
+                "BPFDoor",
+                "Bvp47",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.pangulab.cn/files/The_Bvp47_a_top-tier_backdoor_of_us_nsa_equation_group_ii.en.pdf",
+            "date": "2022-04-11",
+            "organization": "Pangu Lab",
+            "author": "Pangu Lab",
+            "title": "Bvp47 Technical Details Report II",
+            "categories": [
+                "Bvp47"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/02/chinese-experts-uncover-details-of.html",
+            "date": "2022-02-23",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Chinese Experts Uncover Details of Equation Group's Bvp47 Covert Hacking Tool",
+            "categories": [
+                "Bvp47"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/nsa-linked-bvp47-linux-backdoor-widely-undetected-for-10-years/",
+            "date": "2022-02-23",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "NSA-linked Bvp47 Linux backdoor widely undetected for 10 years",
+            "categories": [
+                "Bvp47"
+            ]
+        },
+        {
+            "data_url": "https://www.pangulab.cn/en/post/the_bvp47_a_top-tier_backdoor_of_us_nsa_equation_group/",
+            "date": "2022-02-23",
+            "organization": "Pangu Lab",
+            "author": "Pangu Lab",
+            "title": "The Bvp47 - a Top-tier Backdoor of US NSA Equation Group",
+            "categories": [
+                "Bvp47"
+            ]
+        },
+        {
+            "data_url": "https://www.pangulab.cn/files/The_Bvp47_a_top-tier_backdoor_of_us_nsa_equation_group.en.pdf",
+            "date": "2022-02-22",
+            "organization": "Pangu Lab",
+            "author": "Pangu Lab",
+            "title": "Bvp47 - Top-tier Backdoor of US NSA Equation Group",
+            "categories": [
+                "Bvp47"
+            ]
+        }
+    ]
 };

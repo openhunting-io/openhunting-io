@@ -152,5 +152,6 @@ var threatdata = {
     "last_ioc_update": "2021-09-04 12:30:30",
     "mitre": [],
     "file_name": "osiris",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

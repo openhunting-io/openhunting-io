@@ -39,5 +39,61 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "xsplus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/analysis/publications/69953/the-naikon-apt/",
+            "date": "2015-05-14",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "The Naikon APT",
+            "categories": [
+                "Naikon",
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus",
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/TheNaikonAPT-MsnMM1.pdf",
+            "date": "2015-05",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "The MsnMM Campaigns - The Earliest Naikon APTCampaigns",
+            "categories": [
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus"
+            ]
+        },
+        {
+            "data_url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
+            "date": "2015-04",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION",
+            "categories": [
+                "BACKBEND",
+                "backspace",
+                "CREAMSICLE",
+                "FLASHFLOOD",
+                "GEMCUTTER",
+                "MILKMAID",
+                "Naikon",
+                "NETEAGLE",
+                "ORANGEADE",
+                "SHIPSHAPE",
+                "SPACESHIP",
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus",
+                "APT30"
+            ]
+        }
+    ]
 };

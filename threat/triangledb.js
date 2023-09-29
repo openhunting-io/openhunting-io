@@ -29,5 +29,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "triangledb",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/triangledb-triangulation-implant/110050/",
+            "date": "2023-06-21",
+            "organization": "Kaspersky Labs",
+            "author": "Georgy Kucherin",
+            "title": "Dissecting TriangleDB, a Triangulation spyware implant",
+            "categories": [
+                "TriangleDB"
+            ]
+        }
+    ]
 };

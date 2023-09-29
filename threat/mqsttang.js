@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "MQsTTang, QMAGENT",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-06-22",
+    "modified": "2023-09-07",
     "all_data": {
         "tool": "MQsTTang",
         "names": [
@@ -33,5 +33,34 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "mqsttang",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.sekoia.io/my-teas-not-cold-an-overview-of-china-cyber-threat/",
+            "date": "2023-09-07",
+            "organization": "Sekoia",
+            "author": "Jamila B.",
+            "title": "My Tea\u2019s not cold. An overview of China\u2019s cyber threat",
+            "categories": [
+                "Melofee",
+                "PingPull",
+                "SoWaT",
+                "Sword2033",
+                "MgBot",
+                "MQsTTang",
+                "PlugX",
+                "TONESHELL"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2023/03/02/mqsttang-mustang-panda-latest-backdoor-treads-new-ground-qt-mqtt/",
+            "date": "2023-03-02",
+            "organization": "ESET Research",
+            "author": "Alexandre C\u00f4t\u00e9 Cyr",
+            "title": "MQsTTang: Mustang Panda\u2019s latest backdoor treads new ground with Qt and MQTT",
+            "categories": [
+                "MQsTTang"
+            ]
+        }
+    ]
 };

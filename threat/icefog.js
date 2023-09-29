@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Icefog, Fucobha",
     "category": "Malware",
     "type": "Backdoor, Info stealer",
-    "modified": "2020-05-13",
+    "modified": "2021-06-16",
     "all_data": {
         "tool": "Icefog",
         "names": [
@@ -38,5 +38,100 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "icefog",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0616.pdf",
+            "date": "2021-06-16",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Threat Activity Group RedFoxtrot Linked to China\u2019s PLA Unit 69010;  Targets Bordering Asian Countries",
+            "categories": [
+                "Icefog",
+                "PcShare",
+                "PlugX",
+                "Poison Ivy",
+                "QuickHeal",
+                "DAGGER PANDA"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0228.pdf",
+            "date": "2021-02-28",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "China-Linked Group RedEcho Targets the Indian Power Sector Amid Heightened Border Tensions",
+            "categories": [
+                "Icefog",
+                "PlugX",
+                "ShadowPad"
+            ]
+        },
+        {
+            "data_url": "https://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html",
+            "date": "2020-01-29",
+            "organization": "nao_sec blog",
+            "author": "nao_sec",
+            "title": "An Overhead View of the Royal Road",
+            "categories": [
+                "BLACKCOFFEE",
+                "Cotx RAT",
+                "Datper",
+                "DDKONG",
+                "Derusbi",
+                "Icefog",
+                "Korlia",
+                "NewCore RAT",
+                "PLAINTEE",
+                "Poison Ivy",
+                "Sisfader"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
+            "date": "2019-12-12",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
+            "categories": [
+                "Cerberus",
+                "TSCookie",
+                "Cobalt Strike",
+                "Dtrack",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "Icefog",
+                "IRONHALO",
+                "Loki Password Stealer (PWS)",
+                "PandaBanker",
+                "PLEAD",
+                "poisonplug",
+                "TrickBot",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://speakerdeck.com/ashley920/into-the-fog-the-return-of-icefog-apt",
+            "date": "2019-06-03",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Into the Fog - The Return of ICEFOG APT",
+            "categories": [
+                "Icefog",
+                "PlugX",
+                "Sarhust"
+            ]
+        },
+        {
+            "data_url": "http://www.kz-cert.kz/page/502",
+            "date": "2016-09-06",
+            "organization": "KZ CERT",
+            "author": "KZ CERT",
+            "title": "KZ-CERT has analyzed another sample of malicious software, which is a component of targeted attacks (Targeted attacks, Advanced Persistent Threats (APT))",
+            "categories": [
+                "Icefog"
+            ]
+        }
+    ]
 };

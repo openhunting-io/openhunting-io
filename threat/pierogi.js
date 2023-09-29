@@ -33,5 +33,33 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pierogi",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cybereason.com/hubfs/dam/collateral/reports/Molerats-in-the-Cloud-New-Malware-Arsenal-Abuses-Cloud-Platforms-in-Middle-East-Espionage-Campaign.pdf",
+            "date": "2020-12-09",
+            "organization": "Cybereason",
+            "author": "Cybereason Nocturnus Team",
+            "title": "MOLERATS IN THE CLOUD: New Malware Arsenal Abuses Cloud Platforms in Middle East Espionage Campaign",
+            "categories": [
+                "DropBook",
+                "JhoneRAT",
+                "Molerat Loader",
+                "Pierogi",
+                "Quasar RAT",
+                "SharpStage",
+                "Spark"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/new-cyber-espionage-campaigns-targeting-palestinians-part-2-the-discovery-of-the-new-mysterious-pierogi-backdoor",
+            "date": "2020-02-13",
+            "organization": "Cybereason",
+            "author": "Cybereason Nocturnus",
+            "title": "New Cyber Espionage Campaigns Targeting Palestinians - Part 2: The Discovery of the New, Mysterious Pierogi Backdoor",
+            "categories": [
+                "Pierogi"
+            ]
+        }
+    ]
 };

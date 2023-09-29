@@ -27,5 +27,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "w32times",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/wiki/Group/G0022",
+            "date": "2017-05-31",
+            "organization": "MITRE ATT&CK",
+            "author": "Various",
+            "title": "Group Description: APT3",
+            "categories": [
+                "w32times"
+            ]
+        }
+    ]
 };

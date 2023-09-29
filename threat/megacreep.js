@@ -30,5 +30,33 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "megacreep",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2022/10/11/polonium-targets-israel-creepy-malware/",
+            "date": "2022-10-11",
+            "organization": "ESET Research",
+            "author": "Mat\u00edas Porolli",
+            "title": "POLONIUM targets Israel with Creepy malware",
+            "categories": [
+                "CreepySnail",
+                "CreepExfil",
+                "DeepCreep",
+                "MegaCreep",
+                "Unidentified 097 (Polonium Keylogger)"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/hacking-group-polonium-uses-creepy-malware-against-israel/",
+            "date": "2022-10-11",
+            "organization": "BleepingComputer",
+            "author": "Bill Toulas",
+            "title": "Hacking group POLONIUM uses \u2018Creepy\u2019 malware against Israel",
+            "categories": [
+                "DeepCreep",
+                "MegaCreep",
+                "Unidentified 097 (Polonium Keylogger)"
+            ]
+        }
+    ]
 };

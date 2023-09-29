@@ -42,5 +42,34 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "asacub",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/mobile-malware-evolution-2019/96280/",
+            "date": "2020-02-25",
+            "organization": "Kaspersky Labs",
+            "author": "Victor Chebyshev",
+            "title": "Mobile malware evolution 2019",
+            "categories": [
+                "Anubis",
+                "Asacub",
+                "Dvmap",
+                "FlexNet",
+                "HiddenAd",
+                "Marcher",
+                "Svpeng",
+                "Triada"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-rise-of-mobile-banker-asacub/87591/",
+            "date": "2018-08-28",
+            "organization": "Kaspersky Labs",
+            "author": "Tatyana Shishkova",
+            "title": "The rise of mobile banker Asacub",
+            "categories": [
+                "Asacub"
+            ]
+        }
+    ]
 };

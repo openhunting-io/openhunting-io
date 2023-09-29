@@ -1425,7 +1425,924 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-07-18 16:45:33",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "ursnif",
+            "procedure_code": "s0386",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0386",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1091",
+                    "technique_link": "https://attack.mitre.org/techniques/T1091",
+                    "technique_name": "replication through removable media",
+                    "technique_description": "adversaries may move onto systems, possibly those on disconnected or air-gapped networks, by copying malware to removable media and taking advantage of autorun features when the media is inserted into a system and executes. in the case of lateral movement, this may occur through modification of executable files stored on removable media or by copying malware and renaming it to look like a legitimate file to trick users into executing it on a separate system. in the case of initial access, this may occur through manual manipulation of the media, modification of systems used to initially format the media, or modification to the media's firmware itself.",
+                    "procedure_description": "ursnif has copied itself to and infected removable drives for propagation.[28][29]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
+                    "technique_name": "command and scripting interpreter : powershell",
+                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
+                    "procedure_description": "ursnif droppers have used powershell in download cradles to download and execute the malware's full executable payload.[234]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/005",
+                    "technique_name": "command and scripting interpreter : visual basic",
+                    "technique_description": "adversaries may abuse visual basic (vb) for execution. vb is a programming language created by microsoft with interoperability with many windows technologies such as component object model and the native api through the windows api. although tagged as legacy with no planned future evolutions, vb is integrated and supported in the .net framework and cross-platform .net core.",
+                    "procedure_description": "ursnif droppers have used vba macros to download and execute the malware's full executable payload.[162]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1559.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1559/001",
+                    "technique_name": "inter-process communication : component object model",
+                    "technique_description": "adversaries may use the windows component object model (com) for local code execution. com is an inter-process communication (ipc) component of the native windows application programming interface (api) that enables interaction between software objects, or executable code that implements one or more interfaces. through com, a client object can call methods of server objects, which are typically binary dynamic link libraries (dll) or executables (exe). remote com execution is facilitated by remote services such as  distributed component object model (dcom).",
+                    "procedure_description": "ursnif droppers have used com objects to execute the malware's full executable payload.[19]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "ursnif has used createprocessw to create child processes.[178]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1047",
+                    "technique_link": "https://attack.mitre.org/techniques/T1047",
+                    "technique_name": "windows management instrumentation",
+                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
+                    "procedure_description": "ursnif droppers have used wmi classes to execute powershell commands.[127]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "ursnif has used registry run keys to establish automatic execution at system startup.[270][271]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "ursnif has registered itself as a system service in the registry for automatic execution at system startup.[129]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "ursnif has used registry run keys to establish automatic execution at system startup.[270][271]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "ursnif has registered itself as a system service in the registry for automatic execution at system startup.[129]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/005",
+                    "technique_name": "process injection : thread local storage",
+                    "technique_description": "adversaries may inject malicious code into processes via thread local storage (tls) callbacks in order to evade process-based defenses as well as possibly elevate privileges. tls callback injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "ursnif has injected code into target processes via thread local storage callbacks.[2][3][4]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "ursnif has used process hollowing to inject into child processes.[43]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "ursnif has used crypto key information stored in the registry to decrypt tor clients dropped to disk.[242]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/003",
+                    "technique_name": "hide artifacts : hidden window",
+                    "technique_description": "adversaries may use hidden windows to conceal malicious activity from the plain sight of users. in some cases, windows that would typically be displayed when an application carries out an operation can be hidden. this may be utilized by system administrators to avoid disrupting user work environments when carrying out administrative tasks.",
+                    "procedure_description": "ursnif droppers have used com properties to execute malware in hidden windows.[38]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "ursnif has deleted data staged in tmp files after exfiltration.[245]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
+                    "technique_name": "masquerading : match legitimate name or location",
+                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
+                    "procedure_description": "ursnif has used strings from legitimate system files and existing folders for its file, folder, and registry entry names.[173]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "ursnif has used registry modifications as part of its installation routine.[169][170]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "ursnif has used an xor-based algorithm to encrypt tor clients dropped to disk.[341] ursnif droppers have also been delivered as password-protected zip files that execute base64 encoded powershell commands.[342]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.010",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/010",
+                    "technique_name": "obfuscated files or information : command obfuscation",
+                    "technique_description": "adversaries may obfuscate content during command execution to impede detection. command-line obfuscation is a method of making strings and patterns within commands and scripts more difficult to signature and analyze. this type of obfuscation can be included within commands executed by delivered payloads (e.g., phishing and drive-by compromise) or interactively via command and scripting interpreter.",
+                    "procedure_description": "ursnif droppers execute base64 encoded powershell commands.[86]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/005",
+                    "technique_name": "process injection : thread local storage",
+                    "technique_description": "adversaries may inject malicious code into processes via thread local storage (tls) callbacks in order to evade process-based defenses as well as possibly elevate privileges. tls callback injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "ursnif has injected code into target processes via thread local storage callbacks.[2][3][4]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "ursnif has used process hollowing to inject into child processes.[43]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "ursnif has used a 30 minute delay after execution to evade sandbox monitoring tools.[43]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1056.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/004",
+                    "technique_name": "input capture : credential api hooking",
+                    "technique_description": "adversaries may hook into windows application programming interface (api) functions to collect user credentials. malicious hooking mechanisms may capture api calls that include parameters that reveal user authentication credentials. unlike keylogging,  this technique focuses specifically on api functions that include parameters that reveal user credentials. hooking involves redirecting calls to these functions and can be implemented via:",
+                    "procedure_description": "ursnif has hooked apis to perform a wide variety of information theft, such as monitoring traffic from browsers.[14]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "ursnif has gathered information about running processes.[264][265]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1012",
+                    "technique_name": "query registry",
+                    "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
+                    "procedure_description": "ursnif has used reg to query the registry for installed programs.[97][98]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "ursnif has used systeminfo to gather system information.[385]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1007",
+                    "technique_link": "https://attack.mitre.org/techniques/T1007",
+                    "technique_name": "system service discovery",
+                    "technique_description": "adversaries may try to gather information about registered local system services. adversaries may obtain information about services using tools as well as os utility commands such as sc query, tasklist /svc, systemctl --type=service, and net start.",
+                    "procedure_description": "ursnif has gathered information about running services.[58]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "ursnif has used a 30 minute delay after execution to evade sandbox monitoring tools.[43]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1091",
+                    "technique_link": "https://attack.mitre.org/techniques/T1091",
+                    "technique_name": "replication through removable media",
+                    "technique_description": "adversaries may move onto systems, possibly those on disconnected or air-gapped networks, by copying malware to removable media and taking advantage of autorun features when the media is inserted into a system and executes. in the case of lateral movement, this may occur through modification of executable files stored on removable media or by copying malware and renaming it to look like a legitimate file to trick users into executing it on a separate system. in the case of initial access, this may occur through manual manipulation of the media, modification of systems used to initially format the media, or modification to the media's firmware itself.",
+                    "procedure_description": "ursnif has copied itself to and infected removable drives for propagation.[28][29]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1080",
+                    "technique_link": "https://attack.mitre.org/techniques/T1080",
+                    "technique_name": "taint shared content",
+                    "technique_description": "adversaries may deliver payloads to remote systems by adding content to shared storage locations, such as network drives or internal code repositories. content stored on network drives or in other shared locations may be tainted by adding malicious programs, scripts, or exploit code to otherwise valid files. once a user opens the shared tainted content, the malicious portion can be executed to run the adversary's code on a remote system. adversaries may use tainted shared content to move laterally.",
+                    "procedure_description": "ursnif has copied itself to and infected files in network drives for propagation.[12][13]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1185",
+                    "technique_link": "https://attack.mitre.org/techniques/T1185",
+                    "technique_name": "browser session hijacking",
+                    "technique_description": "adversaries may take advantage of security vulnerabilities and inherent functionality in browser software to change content, modify user-behaviors, and intercept information as part of various browser session hijacking techniques.",
+                    "procedure_description": "ursnif has injected html codes into banking sites to steal sensitive online banking information (ex: usernames and passwords).[22]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1005",
+                    "technique_name": "data from local system",
+                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
+                    "procedure_description": "ursnif has collected files from victim machines, including certificates and cookies.[188]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1074.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1074/001",
+                    "technique_name": "data staged : local data staging",
+                    "technique_description": "adversaries may stage collected data in a central location or directory on the local system prior to exfiltration. data may be kept in separate files or combined into one file through techniques such as archive collected data. interactive command shells may be used, and common functionality within cmd and bash may be used to copy data into a staging location.",
+                    "procedure_description": "ursnif has used tmp files to stage gathered information.[96]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1056.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/004",
+                    "technique_name": "input capture : credential api hooking",
+                    "technique_description": "adversaries may hook into windows application programming interface (api) functions to collect user credentials. malicious hooking mechanisms may capture api calls that include parameters that reveal user authentication credentials. unlike keylogging,  this technique focuses specifically on api functions that include parameters that reveal user credentials. hooking involves redirecting calls to these functions and can be implemented via:",
+                    "procedure_description": "ursnif has hooked apis to perform a wide variety of information theft, such as monitoring traffic from browsers.[14]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1113",
+                    "technique_link": "https://attack.mitre.org/techniques/T1113",
+                    "technique_name": "screen capture",
+                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
+                    "procedure_description": "ursnif has used hooked apis to take screenshots.[174][175]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "ursnif has used https for c2.[354][355][356]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1132",
+                    "technique_link": "https://attack.mitre.org/techniques/T1132",
+                    "technique_name": "data encoding",
+                    "technique_description": "adversaries may encode data to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system. use of data encoding may adhere to existing protocol specifications and includes use of ascii, unicode, base64, mime, or other binary-to-text and character encoding systems.  some data encoding systems may also result in data compression, such as gzip.",
+                    "procedure_description": "ursnif has used encoded data in http urls for c2.[7]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1568.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1568/002",
+                    "technique_name": "dynamic resolution : domain generation algorithms",
+                    "technique_description": "adversaries may make use of domain generation algorithms (dgas) to dynamically identify a destination domain for command and control traffic rather than relying on a list of static ip addresses or domains. this has the advantage of making it much harder for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.",
+                    "procedure_description": "ursnif has used a dga to generate domain names for c2.[31]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "ursnif has dropped payload and configuration files to disk. ursnif has also been used to download and execute additional payloads.[457][458]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090",
+                    "technique_name": "proxy",
+                    "technique_description": "adversaries may use a connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. many tools exist that enable traffic redirection through proxies or port redirection, including htran, zxproxy, and zxportmap.  adversaries use these types of proxies to manage command and control communications, reduce the number of simultaneous outbound network connections, provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between victims to avoid suspicion. adversaries may chain together multiple proxies to further disguise the source of malicious traffic.",
+                    "procedure_description": "ursnif has used a peer-to-peer (p2p) network for c2.[48][49]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090/003",
+                    "technique_name": "proxy : multi-hop proxy",
+                    "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
+                    "procedure_description": "ursnif has used tor for c2.[22][23]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1041",
+                    "technique_link": "https://attack.mitre.org/techniques/T1041",
+                    "technique_name": "exfiltration over c2 channel",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
+                    "procedure_description": "ursnif has used http posts to exfil gathered information.[137][138][139]"
+                }
+            ]
+        }
+    ],
     "file_name": "gozi",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://kostas-ts.medium.com/ursnif-vs-italy-il-pdf-del-destino-5c83d6281072",
+            "date": "2023-07-18",
+            "organization": "Kostas TS",
+            "author": "Kostas",
+            "title": "Ursnif VS Italy: Il PDF del Destino",
+            "categories": [
+                "Gozi",
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://0xtoxin.github.io/threat%20breakdown/Gozi-Italy-Campaign/",
+            "date": "2023-03-19",
+            "organization": "0xToxin Labs",
+            "author": "@0xToxin",
+            "title": "Gozi - Italian ShellCode Dance",
+            "categories": [
+                "Gozi",
+                "ISFB"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/csis-techblog/chapter-1-from-gozi-to-isfb-the-history-of-a-mythical-malware-family-82e592577fef",
+            "date": "2022-10-24",
+            "organization": "Medium CSIS Techblog",
+            "author": "Beno\u00eet Ancel",
+            "title": "Chapter 1 \u2014 From Gozi to ISFB: The history of a mythical malware family.",
+            "categories": [
+                "Gozi",
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+            "date": "2022-05-09",
+            "organization": "Microsoft Security",
+            "author": "Microsoft Threat Intelligence Center",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "Griffon",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Gozi",
+                "LockBit",
+                "Pandora",
+                "Rook",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/gozi-malware-gang-member-arrested-in-colombia/",
+            "date": "2021-06-30",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Gozi malware gang member arrested in Colombia",
+            "categories": [
+                "Gozi",
+                "ISFB"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/2021/05/26/deep-dive-packing-software-cryptone/",
+            "date": "2021-05-26",
+            "organization": "DeepInstinct",
+            "author": "Ron Ben Yizhak",
+            "title": "A Deep Dive into Packing Software CryptOne",
+            "categories": [
+                "Cobalt Strike",
+                "Dridex",
+                "Emotet",
+                "Gozi",
+                "ISFB",
+                "Mailto",
+                "QakBot",
+                "SmokeLoader",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://mal-eats.net/en/2021/05/11/campo_new_attack_campaign_targeting_japan/",
+            "date": "2021-05-11",
+            "organization": "Mal-Eats",
+            "author": "mal_eats",
+            "title": "Campo, a New Attack Campaign Targeting Japan",
+            "categories": [
+                "AnchorDNS",
+                "BazarBackdoor",
+                "campoloader",
+                "Cobalt Strike",
+                "Phobos",
+                "Snifula",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
+            "date": "2021-03-31",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "Financial Cyberthreats in 2020",
+            "categories": [
+                "BetaBot",
+                "DanaBot",
+                "Emotet",
+                "Gozi",
+                "Ramnit",
+                "RTM",
+                "SpyEye",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/ursnif-trojan-has-targeted-over-100-italian-banks/",
+            "date": "2021-02-03",
+            "organization": "ZDNet",
+            "author": "Charlie Osborne",
+            "title": "Ursnif Trojan has targeted over 100 Italian banks",
+            "categories": [
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://malware.love/malware_analysis/reverse_engineering/2020/11/27/analyzing-a-vbs-dropper.html",
+            "date": "2020-11-27",
+            "organization": "malware.love",
+            "author": "Robert Giczewski",
+            "title": "Having fun with a Ursnif VBS dropper",
+            "categories": [
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.darktrace.com/en/blog/the-resurgence-of-the-ursnif-banking-trojan/",
+            "date": "2020-07-23",
+            "organization": "Darktrace",
+            "author": "Max Heinemeyer",
+            "title": "The resurgence of the Ursnif banking trojan",
+            "categories": [
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://github.com/mlodic/ursnif_beacon_decryptor",
+            "date": "2020-05-07",
+            "organization": "Github (mlodic)",
+            "author": "Matteo Lodi",
+            "title": "Ursnif beacon decryptor",
+            "categories": [
+                "Gozi",
+                "ISFB"
+            ]
+        },
+        {
+            "data_url": "https://0xc0decafe.com/malware-analyst-guide-to-pe-timestamps/",
+            "date": "2020-01-22",
+            "organization": "",
+            "author": "Thomas Barabosch",
+            "title": "The malware analyst\u2019s guide to PE timestamps",
+            "categories": [
+                "Azorult",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "LOLSnif",
+                "SUNBURST",
+                "TEARDROP"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-swathmore",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD SWATHMORE",
+            "categories": [
+                "GlobeImposter",
+                "Gozi",
+                "IcedID",
+                "TrickBot",
+                "LUNAR SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://lokalhost.pl/gozi_tree.txt",
+            "date": "2017-05-29",
+            "organization": "Lokalhost.pl",
+            "author": "Maciej Kotowicz",
+            "title": "Gozi Tree",
+            "categories": [
+                "DreamBot",
+                "Gozi",
+                "ISFB",
+                "Powersniff"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-banking-trojans-ursnif-global-distribution-networks-identified/",
+            "date": "2017-02-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kaoru Hayashi",
+            "title": "Banking Trojans: Ursnif Global Distribution Networks Identified",
+            "categories": [
+                "Gozi"
+            ]
+        },
+        {
+            "data_url": "https://blog.gdatasoftware.com/2016/11/29325-analysis-ursnif-spying-on-your-data-since-2007",
+            "date": "2016-11-23",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "Analysis: Ursnif - spying on your data since 2007",
+            "categories": [
+                "Gozi"
+            ]
+        },
+        {
+            "data_url": "https://www.circl.lu/assets/files/tr-13/tr-13-snifula-analysis-report-v1.3.pdf",
+            "date": "2013-05-29",
+            "organization": "CIRCL",
+            "author": "CIRCL",
+            "title": "Malware analysis report of a Backdoor.Snifula variant",
+            "categories": [
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "http://blog.malwaremustdie.org/2013/02/the-infection-of-styx-exploit-kit.html",
+            "date": "2013-02-03",
+            "organization": "Malware Must Die!",
+            "author": "Malware Must Die!",
+            "title": "The infection of Styx Exploit Kit (Landing page: painterinvoice.ru + Payload: PWS/Ursnif Variant)",
+            "categories": [
+                "Gozi"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/gozi",
+            "date": "2007-03-20",
+            "organization": "Secureworks",
+            "author": "Don Jackson",
+            "title": "Gozi Trojan",
+            "categories": [
+                "Gozi"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "CASHY200",
     "category": "Malware",
     "type": "Backdoor, Tunneling",
-    "modified": "2021-04-24",
+    "modified": "2022-07-18",
     "all_data": {
         "tool": "CASHY200",
         "names": [
@@ -31,5 +31,29 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "cashy200",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/hunter-serpens/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Hunter Serpens",
+            "categories": [
+                "CASHY200",
+                "Snugy",
+                "COBALT KATANA"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/more-xhunt-new-powershell-backdoor-blocked-through-dns-tunnel-detection/",
+            "date": "2019-10-10",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "xHunt Campaign: New PowerShell Backdoor Blocked Through DNS Tunnel Detection",
+            "categories": [
+                "CASHY200"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,32 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "touchmove",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/lightshow-north-korea-unc2970",
+            "date": "2023-03-09",
+            "organization": "Mandiant",
+            "author": "Mandiant Intelligence",
+            "title": "Stealing the LIGHTSHOW (Part One) \u2014 North Korea's UNC2970",
+            "categories": [
+                "CLOUDBURST",
+                "TOUCHMOVE",
+                "TOUCHSHIFT"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2022/09/30/amazon-themed-campaigns-lazarus-netherlands-belgium/",
+            "date": "2022-09-30",
+            "organization": "ESET Research",
+            "author": "Peter K\u00e1lnai",
+            "title": "Amazon\u2011themed campaigns of Lazarus in the Netherlands and Belgium",
+            "categories": [
+                "BLINDINGCAN",
+                "FudModule",
+                "HTTP(S) uploader",
+                "TOUCHMOVE"
+            ]
+        }
+    ]
 };

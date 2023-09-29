@@ -35,5 +35,47 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ice_ix",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2012/08/inside-ice-ix-bot-descendent-zeus",
+            "date": "2012-08-01",
+            "organization": "Virus Bulletin",
+            "author": "Aditya K. Sood",
+            "title": "Inside the ICE IX bot, descendent of Zeus",
+            "categories": [
+                "Ice IX"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/ice-ix-not-cool-at-all/29111/",
+            "date": "2011-09-14",
+            "organization": "Kaspersky Labs",
+            "author": "Dmitry Tarakanov",
+            "title": "Ice IX: not cool at all",
+            "categories": [
+                "Ice IX"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/zeus-gets-another-update/",
+            "date": "2011-09-02",
+            "organization": "Trend Micro",
+            "author": "Jasper Manuel",
+            "title": "ZeuS Gets Another Update",
+            "categories": [
+                "Ice IX"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/ice-ix-the-first-crimeware-based-on-the-leaked-zeus-sources/29577/",
+            "date": "2011-08-24",
+            "organization": "Kaspersky Labs",
+            "author": "Jorge Mieres",
+            "title": "Ice IX, the first crimeware based on the leaked ZeuS sources",
+            "categories": [
+                "Ice IX"
+            ]
+        }
+    ]
 };

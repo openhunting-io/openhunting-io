@@ -32,5 +32,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "terracrypt",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/albertzsigovits/malware-notes/blob/master/PureLocker.md",
+            "date": "2019-11-21",
+            "organization": "Github (albertzsigovits)",
+            "author": "Albert Zsigovits",
+            "title": "PureLocker ransomware",
+            "categories": [
+                "PureLocker"
+            ]
+        },
+        {
+            "data_url": "https://exchange.xforce.ibmcloud.com/collection/99c7156cff70e1d8e1687ab7dadc8c0e",
+            "date": "2019-11-18",
+            "organization": "IBM",
+            "author": "Megan Roddie",
+            "title": "New Ransomware Available for Targeted Attacks",
+            "categories": [
+                "PureLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.intezer.com/blog-purelocker-ransomware-being-used-in-targeted-attacks-against-servers/",
+            "date": "2019-11-12",
+            "organization": "Intezer",
+            "author": "Michael Kajiloti",
+            "title": "PureLocker: New Ransomware-as-a-Service Being Used in Targeted Attacks Against Servers",
+            "categories": [
+                "PureLocker"
+            ]
+        }
+    ]
 };

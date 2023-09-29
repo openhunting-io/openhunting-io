@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "icondown",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.jpcert.or.jp/en/2019/11/icondown-downloader-used-by-blacktech.html",
+            "date": "2019-11-21",
+            "organization": "JPCERT/CC",
+            "author": "\u7530\u4e2d \u4fe1\u592a\u90ce\uff08Shintaro Tanaka)",
+            "title": "IconDown \u2013 Downloader Used by BlackTech",
+            "categories": [
+                "IconDown"
+            ]
+        }
+    ]
 };

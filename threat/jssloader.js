@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "JSSLoader, FOWLGAZE",
     "category": "Malware",
     "type": "Backdoor, Downloader, Exfiltration",
-    "modified": "2022-04-05",
+    "modified": "2023-09-12",
     "all_data": {
         "tool": "JSSLoader",
         "names": [
@@ -390,5 +390,207 @@ var threatdata = {
     "last_ioc_update": "2023-05-11 17:22:47",
     "mitre": [],
     "file_name": "jssloader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.microsoft.com/en-us/security/blog/2023/09/12/malware-distributor-storm-0324-facilitates-ransomware-access/",
+            "date": "2023-09-12",
+            "organization": "Microsoft",
+            "author": "Microsoft Threat Intelligence",
+            "title": "Malware distributor Storm-0324 facilitates ransomware access",
+            "categories": [
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://malwarebytes.app.box.com/s/ym6r7o5hq0rx2nxjbctfv2sw5vx386ni",
+            "date": "2022-08-15",
+            "organization": "Malwarebytes",
+            "author": "Threat Intelligence Team",
+            "title": "Threat Intelligence - JSSLoader: the shellcode edition",
+            "categories": [
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.malwarebytes.com/blog/threat-intelligence/2022/08/jssloader-the-shellcode-edition",
+            "date": "2022-08-15",
+            "organization": "Malwarebytes",
+            "author": "Threat Intelligence Team",
+            "title": "JSSLoader: the shellcode edition",
+            "categories": [
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/vmware-identity-manager-attack-backdoor",
+            "date": "2022-04-25",
+            "organization": "Morphisec",
+            "author": "Morphisec Labs",
+            "title": "New Core Impact Backdoor Delivered Via VMware Vulnerability",
+            "categories": [
+                "Cobalt Strike",
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/evolution-of-fin7",
+            "date": "2022-04-04",
+            "organization": "Mandiant",
+            "author": "Bryce Abdo",
+            "title": "FIN7 Power Hour: Adversary Archaeology and the Evolution of FIN7",
+            "categories": [
+                "Griffon",
+                "BABYMETAL",
+                "Carbanak",
+                "Cobalt Strike",
+                "JSSLoader",
+                "Termite"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/malicious-microsoft-excel-add-ins-used-to-deliver-rat-malware/",
+            "date": "2022-03-24",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "Malicious Microsoft Excel add-ins used to deliver RAT malware",
+            "categories": [
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/new-jssloader-trojan-delivered-through-xll-files",
+            "date": "2022-03-23",
+            "organization": "Morphisec",
+            "author": "Hido Cohen",
+            "title": "New JSSLoader Trojan Delivered Through XLL Files",
+            "categories": [
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/excel-add-ins-deliver-jssloader-malware",
+            "date": "2022-03-08",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "Excel Add-ins Deliver JSSLoader Malware",
+            "categories": [
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/fin7-tools-resurface-in-the-field-splinter-or-copycat.html",
+            "date": "2021-11-11",
+            "organization": "splunk",
+            "author": "Splunk Threat Research Team",
+            "title": "FIN7 Tools Resurface in the Field \u2013 Splinter or Copycat?",
+            "categories": [
+                "JSSLoader",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-2/",
+            "date": "2021-11-04",
+            "organization": "CrowdStrike",
+            "author": "Eric Loui",
+            "title": "CARBON SPIDER Embraces Big Game Hunting, Part 2",
+            "categories": [
+                "BlackMatter",
+                "Griffon",
+                "BlackMatter",
+                "DarkSide",
+                "HiddenTear",
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+            "date": "2021-08-30",
+            "organization": "CrowdStrike",
+            "author": "Eric Loui",
+            "title": "CARBON SPIDER Embraces Big Game Hunting, Part 1",
+            "categories": [
+                "Bateleur",
+                "Griffon",
+                "Carbanak",
+                "DarkSide",
+                "JSSLoader",
+                "PILLOWMINT",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded",
+            "date": "2021-06-24",
+            "organization": "Proofpoint",
+            "author": "Dennis Schwarz",
+            "title": "JSSLoader: Recoded and Reloaded",
+            "categories": [
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.morphisec.com/hubfs/eBooks_and_Whitepapers/FIN7%20JSSLOADER%20FINAL%20WEB.pdf",
+            "date": "2021-01-04",
+            "organization": "Morphisec",
+            "author": "Arnold Osipov",
+            "title": "Threat Profile the Evolution of the FIN7 JSSLoader",
+            "categories": [
+                "JSSLoader"
+            ]
+        }
+    ]
 };

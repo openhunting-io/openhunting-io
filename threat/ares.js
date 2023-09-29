@@ -60,5 +60,39 @@ var threatdata = {
     "last_ioc_update": "2022-09-16 15:03:04",
     "mitre": [],
     "file_name": "ares",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/ares-banking-trojan-learns-old-tricks-adds-defunct-qakbot-dga",
+            "date": "2022-09-06",
+            "organization": "Zscaler",
+            "author": "Brett Stone-Gross",
+            "title": "The Ares Banking Trojan Learns Old Tricks: Adds the Defunct Qakbot DGA",
+            "categories": [
+                "Ares",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/ares-malware-grandson-kronos-banking-trojan",
+            "date": "2021-03-30",
+            "organization": "Zscaler",
+            "author": "Brett Stone-Gross",
+            "title": "Ares Malware: The Grandson of the Kronos Banking Trojan",
+            "categories": [
+                "Ares",
+                "Kronos"
+            ]
+        },
+        {
+            "data_url": "https://github.com/sweetsoftware/Ares",
+            "date": "2017-12-07",
+            "organization": "Github (sweetsoftware)",
+            "author": "sweetsoftware",
+            "title": "Ares",
+            "categories": [
+                "Ares"
+            ]
+        }
+    ]
 };

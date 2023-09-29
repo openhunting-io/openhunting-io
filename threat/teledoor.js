@@ -31,5 +31,43 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "teledoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON VIKING",
+            "categories": [
+                "BlackEnergy",
+                "EternalPetya",
+                "GreyEnergy",
+                "Industroyer",
+                "KillDisk",
+                "TeleBot",
+                "TeleDoor"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/07/the-medoc-connection.html",
+            "date": "2017-07-05",
+            "organization": "Cisco Talos",
+            "author": "David Maynor",
+            "title": "The MeDoc Connection",
+            "categories": [
+                "TeleDoor"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/07/04/analysis-of-telebots-cunning-backdoor/",
+            "date": "2017-07-04",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "Analysis of TeleBots\u2019 cunning backdoor",
+            "categories": [
+                "TeleDoor"
+            ]
+        }
+    ]
 };

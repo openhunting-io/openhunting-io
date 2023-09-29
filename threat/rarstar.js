@@ -30,5 +30,21 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "rarstar",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+            "date": "2017-10-12",
+            "organization": "Secureworks",
+            "author": "CTU Research Team",
+            "title": "BRONZE BUTLER Targets Japanese Enterprises",
+            "categories": [
+                "Daserf",
+                "Datper",
+                "rarstar",
+                "xxmm",
+                "Tick"
+            ]
+        }
+    ]
 };

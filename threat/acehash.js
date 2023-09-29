@@ -31,5 +31,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "acehash",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

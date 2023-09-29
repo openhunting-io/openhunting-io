@@ -33,5 +33,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "xserver",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://resources.fox-it.com/rs/170-CAK-271/images/201912_Report_Operation_Wocao.pdf",
+            "date": "2019-12-19",
+            "organization": "Fox-IT",
+            "author": "Maarten van Dantzig",
+            "title": "Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups",
+            "categories": [
+                "XServer"
+            ]
+        },
+        {
+            "data_url": "https://norfolkinfosec.com/filesnfer-tool-c-python/",
+            "date": "2019-05-07",
+            "organization": "One Night in Norfolk",
+            "author": "Kevin Perlow",
+            "title": "\u201cFilesnfer\u201d Tool (C#, Python)",
+            "categories": [
+                "XServer"
+            ]
+        }
+    ]
 };

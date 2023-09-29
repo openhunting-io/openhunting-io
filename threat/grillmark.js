@@ -33,5 +33,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "grillmark",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://content.fireeye.com/m-trends/rpt-m-trends-2019",
+            "date": "2019-04-11",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "M-Trend 2019",
+            "categories": [
+                "GRILLMARK"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-chronicles-of-the-hellsing-apt-the-empire-strikes-back/69567/",
+            "date": "2015-04-15",
+            "organization": "Kaspersky Labs",
+            "author": "Costin Raiu",
+            "title": "The Chronicles of the Hellsing APT: the Empire Strikes Back",
+            "categories": [
+                "GRILLMARK",
+                "Hellsing"
+            ]
+        }
+    ]
 };

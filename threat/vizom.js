@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "vizom",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securityintelligence.com/posts/vizom-malware-targets-brazilian-bank-customers-remote-overlay/",
+            "date": "2020-10-19",
+            "organization": "IBM Security",
+            "author": "Chen Nahman",
+            "title": "New Vizom Malware Discovered Targets Brazilian Bank Customers with Remote Overlay Attacks",
+            "categories": [
+                "Vizom"
+            ]
+        }
+    ]
 };

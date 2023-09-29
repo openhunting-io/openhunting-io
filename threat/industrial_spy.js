@@ -24,5 +24,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "industrial_spy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/technical-analysis-industrial-spy-ransomware",
+            "date": "2022-08-01",
+            "organization": "Zscaler",
+            "author": "Atinderpal Singh",
+            "title": "Technical Analysis of Industrial Spy Ransomware",
+            "categories": [
+                "Industrial Spy"
+            ]
+        }
+    ]
 };

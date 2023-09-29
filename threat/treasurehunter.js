@@ -44,5 +44,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "treasurehunter",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.flashpoint-intel.com/blog/treasurehunter-source-code-leaked/",
+            "date": "2018-05-10",
+            "organization": "Flashpoint",
+            "author": "Flashpoint",
+            "title": "TreasureHunter Point-of-Sale Malware and Builder Source Code Leaked",
+            "categories": [
+                "TreasureHunter"
+            ]
+        },
+        {
+            "data_url": "http://adelmas.com/blog/treasurehunter.php",
+            "date": "2017-02-26",
+            "organization": "",
+            "author": "Arnaud Delmas",
+            "title": "TreasureHunter : A POS Malware Case Study",
+            "categories": [
+                "TreasureHunter"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2016/03/treasurehunt_a_cust.html",
+            "date": "2016-03-28",
+            "organization": "FireEye",
+            "author": "Nart Villeneuve",
+            "title": "TREASUREHUNT: A Custom POS Malware Tool",
+            "categories": [
+                "TreasureHunter"
+            ]
+        }
+    ]
 };

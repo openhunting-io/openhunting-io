@@ -37,5 +37,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "leouncia",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

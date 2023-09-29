@@ -57,5 +57,109 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "gorynych",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://medium.com/csis-techblog/inside-view-of-brazzzersff-infrastructure-89b9188fd145",
+            "date": "2022-08-08",
+            "organization": "Medium CSIS Techblog",
+            "author": "Beno\u00eet Ancel",
+            "title": "An inside view of domain anonymization as-a-service \u2014 the BraZZZerSFF infrastructure",
+            "categories": [
+                "Riltok",
+                "magecart",
+                "Anubis",
+                "Azorult",
+                "BetaBot",
+                "Buer",
+                "CoalaBot",
+                "CryptBot",
+                "DiamondFox",
+                "DreamBot",
+                "GCleaner",
+                "ISFB",
+                "Loki Password Stealer (PWS)",
+                "MedusaLocker",
+                "MeguminTrojan",
+                "Nemty",
+                "PsiX",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "STOP",
+                "TinyNuke",
+                "Vidar",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://github.com/samoceyn/Diamondfox-Technical-Analysis-Report/blob/6375314ccecdf3fe450f975a384bcc1b16f068a8/D%C4%B0AMONDFOX%20Technical%20Analysis%20Report.PDF",
+            "date": "2021-07-27",
+            "organization": "ZAYOTEM",
+            "author": "Abdulsamet Akinci",
+            "title": "Diamondfox Technical Analysis Report",
+            "categories": [
+                "DiamondFox"
+            ]
+        },
+        {
+            "data_url": "https://fr3d.hk/blog/diamondfox-bank-robbers-will-be-replaced",
+            "date": "2020-08-10",
+            "organization": "FR3D.HK",
+            "author": "Fred HK",
+            "title": "DiamondFox - Bank Robbers will be replaced",
+            "categories": [
+                "DiamondFox"
+            ]
+        },
+        {
+            "data_url": "http://blog.checkpoint.com/2017/05/10/diamondfox-modular-malware-one-stop-shop/",
+            "date": "2017-05-10",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "DiamondFox modular malware \u2013 a one-stop shop",
+            "categories": [
+                "DiamondFox"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/04/diamond-fox-p2/",
+            "date": "2017-04-06",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Diamond Fox \u2013 part 2: let\u2019s dive in the code",
+            "categories": [
+                "DiamondFox"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/03/diamond-fox-p1/",
+            "date": "2017-03-17",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Diamond Fox \u2013 part 1: introduction and unpacking",
+            "categories": [
+                "DiamondFox"
+            ]
+        },
+        {
+            "data_url": "https://www.scmagazine.com/inside-diamondfox/article/578478/",
+            "date": "2016-12-12",
+            "organization": "SC Magazine",
+            "author": "SC Magazine",
+            "title": "Inside DiamondFox",
+            "categories": [
+                "DiamondFox"
+            ]
+        },
+        {
+            "data_url": "https://blog.cylance.com/a-study-in-bots-diamondfox",
+            "date": "2015-10-08",
+            "organization": "Cylance",
+            "author": "Brian Wallace",
+            "title": "A Study in Bots: DiamondFox",
+            "categories": [
+                "DiamondFox"
+            ]
+        }
+    ]
 };

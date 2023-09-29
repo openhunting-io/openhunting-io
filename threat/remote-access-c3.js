@@ -28,5 +28,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "remote-access-c3",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

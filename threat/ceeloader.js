@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ceeloader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/russian-targeting-gov-business",
+            "date": "2022-11-29",
+            "organization": "Mandiant",
+            "author": "Luke Jenkins",
+            "title": "Suspected Russian Activity Targeting Government and Business Entities Around the Globe",
+            "categories": [
+                "CEELOADER"
+            ]
+        }
+    ]
 };

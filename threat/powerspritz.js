@@ -31,5 +31,20 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "powerspritz",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/sites/default/files/pfpt-us-wp-north-korea-bitten-by-bitcoin-bug.pdf",
+            "date": "2017-12-19",
+            "organization": "Proofpoint",
+            "author": "Darien Huss",
+            "title": "North Korea Bitten by  Bitcoin Bug",
+            "categories": [
+                "QUICKCAFE",
+                "PowerSpritz",
+                "Ghost RAT",
+                "PowerRatankba"
+            ]
+        }
+    ]
 };

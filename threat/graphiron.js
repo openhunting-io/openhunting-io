@@ -33,5 +33,34 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "graphiron",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/the-growing-threat-from-infostealers",
+            "date": "2023-05-16",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "The Growing Threat from Infostealers",
+            "categories": [
+                "Graphiron",
+                "GraphSteel",
+                "Raccoon",
+                "RedLine Stealer",
+                "Rhadamanthys",
+                "Taurus Stealer",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/nodaria-ukraine-infostealer",
+            "date": "2023-02-08",
+            "organization": "Broadcom",
+            "author": "Threat Hunter Team",
+            "title": "Graphiron: New Russian Information Stealing Malware Deployed Against Ukraine",
+            "categories": [
+                "Graphiron",
+                "SaintBear"
+            ]
+        }
+    ]
 };

@@ -42,5 +42,99 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "psixbot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://medium.com/csis-techblog/inside-view-of-brazzzersff-infrastructure-89b9188fd145",
+            "date": "2022-08-08",
+            "organization": "Medium CSIS Techblog",
+            "author": "Beno\u00eet Ancel",
+            "title": "An inside view of domain anonymization as-a-service \u2014 the BraZZZerSFF infrastructure",
+            "categories": [
+                "Riltok",
+                "magecart",
+                "Anubis",
+                "Azorult",
+                "BetaBot",
+                "Buer",
+                "CoalaBot",
+                "CryptBot",
+                "DiamondFox",
+                "DreamBot",
+                "GCleaner",
+                "ISFB",
+                "Loki Password Stealer (PWS)",
+                "MedusaLocker",
+                "MeguminTrojan",
+                "Nemty",
+                "PsiX",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "STOP",
+                "TinyNuke",
+                "Vidar",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blog.comodo.com/comodo-news/versions-of-psixbot/",
+            "date": "2020-11-03",
+            "organization": "Comodo",
+            "author": "Comodo",
+            "title": "Versions of PsiXBot",
+            "categories": [
+                "PsiX"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/psixbot-now-using-google-dns-over-https-and-possible-new-sexploitation-module",
+            "date": "2019-09-06",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Threat Insight Team",
+            "title": "PsiXBot Now Using Google DNS over HTTPS and Possible New Sexploitation Module",
+            "categories": [
+                "PsiX"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/seckle_ch/status/1169558035649433600",
+            "date": "2019-09-05",
+            "organization": "Twitter (@seckle_ch)",
+            "author": "Daniel Stirnimann",
+            "title": "Tweet on DoH",
+            "categories": [
+                "PsiX"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/psixbot-continues-evolve-updated-dns-infrastructure",
+            "date": "2019-08-12",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Threat Insight Team",
+            "title": "PsiXBot Continues to Evolve with Updated DNS Infrastructure",
+            "categories": [
+                "PsiX"
+            ]
+        },
+        {
+            "data_url": "https://blog.fox-it.com/2019/03/27/psixbot-the-evolution-of-a-modular-net-bot/",
+            "date": "2019-03-27",
+            "organization": "Fox-IT",
+            "author": "Stefano Antenucci",
+            "title": "PsiXBot: The Evolution Of A Modular .NET Bot",
+            "categories": [
+                "PsiX"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/mesa_matt/status/1035211747957923840",
+            "date": "2018-08-30",
+            "organization": "Twitter (@mesa_matt)",
+            "author": "Matthew Mesa",
+            "title": "Tweet on PsiX",
+            "categories": [
+                "PsiX"
+            ]
+        }
+    ]
 };

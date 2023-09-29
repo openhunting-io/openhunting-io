@@ -33,5 +33,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pluginphantom",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

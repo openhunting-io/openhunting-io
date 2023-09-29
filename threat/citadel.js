@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Citadel",
     "category": "Malware",
     "type": "Banking trojan, POS malware, Info stealer, Credential stealer",
-    "modified": "2020-05-25",
+    "modified": "2021-05-07",
     "all_data": {
         "tool": "Citadel",
         "names": [
@@ -41,5 +41,87 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "citadel",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.justice.gov/opa/pr/four-individuals-plead-guilty-rico-conspiracy-involving-bulletproof-hosting-cybercriminals",
+            "date": "2021-05-07",
+            "organization": "Department of Justice",
+            "author": "Office of Public Affairs",
+            "title": "Four Individuals Plead Guilty to RICO Conspiracy Involving \u201cBulletproof Hosting\u201d for Cybercriminals",
+            "categories": [
+                "Citadel",
+                "SpyEye",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://vx-underground.org/archive/APTs/2017/2017.12.11/Money%20Taker.pdf",
+            "date": "2017-12-11",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "MoneyTaker 1.5 YEARS OF SILENT OPERATIONS",
+            "categories": [
+                "Citadel",
+                "Kronos",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "http://www.xylibox.com/2016/02/citadel-0011-atmos.html",
+            "date": "2016-02-19",
+            "organization": "XyliBox",
+            "author": "Xylitol",
+            "title": "Citadel 0.0.1.1 (Atmos)",
+            "categories": [
+                "Citadel"
+            ]
+        },
+        {
+            "data_url": "http://blog.jpcert.or.jp/2016/02/banking-trojan--27d6.html",
+            "date": "2016-02-16",
+            "organization": "JPCERT/CC",
+            "author": "JPCert",
+            "title": "Banking Trojan \u201cCitadel\u201d Returns",
+            "categories": [
+                "Citadel"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2012/11/citadel-a-cyber-criminals-ultimate-weapon/",
+            "date": "2012-11-05",
+            "organization": "Malwarebytes",
+            "author": "J\u00e9r\u00f4me Segura",
+            "title": "Citadel: a cyber-criminal\u2019s ultimate weapon?",
+            "categories": [
+                "Citadel"
+            ]
+        }
+    ]
 };

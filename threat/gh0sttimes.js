@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Gh0stTimes",
     "category": "Malware",
     "type": "Reconnaissance, Backdoor, Keylogger, Info stealer",
-    "modified": "2021-12-28",
+    "modified": "2023-04-13",
     "all_data": {
         "tool": "Gh0stTimes",
         "names": [
@@ -33,5 +33,47 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "gh0sttimes",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.youtube.com/watch?v=uakw2HMGZ-I",
+            "date": "2023-04-13",
+            "organization": "Intel 471",
+            "author": "Souhail Hammou",
+            "title": "From GhostNet to PseudoManuscrypt - The evolution of Gh0st RAT",
+            "categories": [
+                "BBSRAT",
+                "Gh0stTimes",
+                "Ghost RAT",
+                "PseudoManuscrypt"
+            ]
+        },
+        {
+            "data_url": "https://jp.security.ntt/resources/EN-BlackTech_2021.pdf",
+            "date": "2022-09-29",
+            "organization": "NTT",
+            "author": "NTT Security Holdings Corporation",
+            "title": "Report on APT Attacks by  BlackTech",
+            "categories": [
+                "Bifrost",
+                "PLEAD",
+                "TSCookie",
+                "Flagpro",
+                "Gh0stTimes",
+                "SelfMake Loader",
+                "SPIDERPIG RAT"
+            ]
+        },
+        {
+            "data_url": "https://blogs.jpcert.or.jp/en/2021/10/gh0sttimes.html",
+            "date": "2021-10-04",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "Malware Gh0stTimes Used by BlackTech",
+            "categories": [
+                "Gh0stTimes",
+                "Ghost RAT"
+            ]
+        }
+    ]
 };

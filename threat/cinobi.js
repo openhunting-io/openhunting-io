@@ -58,5 +58,47 @@ var threatdata = {
     "last_ioc_update": "2021-04-15 00:31:25",
     "mitre": [],
     "file_name": "cinobi",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/h/cinobi-banking-trojan-targets-users-of-cryptocurrency-exchanges-.html",
+            "date": "2021-08-09",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Cinobi Banking Trojan Targets Cryptocurrency Exchange Users via Malvertising",
+            "categories": [
+                "Cinobi"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/pdf/Tech%20Brief_Operation%20Overtrap%20Targets%20Japanese%20Online%20Banking%20Users.pdf",
+            "date": "2020-03-11",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Operation Overtrap Targets Japanese Online Banking Users Via Bottle Exploit Kit and Brand-New Cinobi Banking Trojan: Technical Brief",
+            "categories": [
+                "Cinobi"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/operation-overtrap-targets-japanese-online-banking-users-via-bottle-exploit-kit-and-brand-new-cinobi-banking-trojan/",
+            "date": "2020-03-11",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Operation Overtrap Targets Japanese Online Banking Users Via Bottle Exploit Kit and Brand-New Cinobi Banking Trojan",
+            "categories": [
+                "Cinobi"
+            ]
+        },
+        {
+            "data_url": "http://www.pwncode.io/2019/12/unpacking-payload-used-in-bottle-ek.html",
+            "date": "2019-12-24",
+            "organization": "pwncode.io blog",
+            "author": "c0d3inj3cT",
+            "title": "Unpacking Payload used in Bottle EK",
+            "categories": [
+                "Cinobi"
+            ]
+        }
+    ]
 };

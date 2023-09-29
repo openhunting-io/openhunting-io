@@ -38,5 +38,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "centerpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2016/01/centerpos_an_evolvi.html",
+            "date": "2016-01-28",
+            "organization": "FireEye",
+            "author": "FireEye Threat Intelligence",
+            "title": "CenterPOS: An Evolving POS Threat",
+            "categories": [
+                "CenterPOS"
+            ]
+        }
+    ]
 };

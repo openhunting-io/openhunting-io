@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "bernhardpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2015-07-14-bernhardpos.md",
+            "date": "2015-07-14",
+            "organization": "",
+            "author": "Nick Hoffman",
+            "title": "BernhardPOS",
+            "categories": [
+                "BernhardPOS"
+            ]
+        }
+    ]
 };

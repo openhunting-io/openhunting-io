@@ -38,5 +38,57 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "cdorked",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.sucuri.net/2014/03/windigo-linux-analysis-ebury-and-cdorked.html",
+            "date": "2014-03-18",
+            "organization": "",
+            "author": "Daniel B. Cid",
+            "title": "Windigo Linux Analysis \u2013 Ebury and Cdorked",
+            "categories": [
+                "CDorked"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2013/05/02/the-stealthiness-of-linuxcdorked-a-clarification/",
+            "date": "2013-05-02",
+            "organization": "ESET Research",
+            "author": "Stephen Cobb",
+            "title": "The stealthiness of Linux/Cdorked: a clarification",
+            "categories": [
+                "CDorked"
+            ]
+        },
+        {
+            "data_url": "https://blogs.cisco.com/security/linuxcdorked-faqs",
+            "date": "2013-05-01",
+            "organization": "Cisco",
+            "author": "Mary Landesman",
+            "title": "Linux/CDorked FAQs",
+            "categories": [
+                "CDorked"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/security-center/writeup/2013-050214-5501-99",
+            "date": "2013-04-30",
+            "organization": "Symantec",
+            "author": "Kaoru Hayashi",
+            "title": "Linux.Cdorked",
+            "categories": [
+                "CDorked"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2013/04/26/linuxcdorked-new-apache-backdoor-in-the-wild-serves-blackhole/",
+            "date": "2013-04-26",
+            "organization": "ESET Research",
+            "author": "Pierre-Marc Bureau",
+            "title": "Linux/Cdorked.A: New Apache backdoor being used in the wild to serve Blackhole",
+            "categories": [
+                "CDorked"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "graphon",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/harvester-new-apt-attacks-asia",
+            "date": "2021-10-18",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Harvester: Nation-state-backed group uses new toolset to target victims in South Asia",
+            "categories": [
+                "Cobalt Strike",
+                "Graphon"
+            ]
+        }
+    ]
 };

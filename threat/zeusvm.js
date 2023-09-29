@@ -45,5 +45,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "zeusvm",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securityintelligence.com/new-zberp-trojan-discovered-zeus-zbot-carberp/",
+            "date": "2014-05-22",
+            "organization": "SecurityIntelligence",
+            "author": "Dana Tamir",
+            "title": "Meet the Zberp Trojan",
+            "categories": [
+                "VM Zeus"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2014/02/hiding-in-plain-sight-a-story-about-a-sneaky-banking-trojan/",
+            "date": "2014-02-17",
+            "organization": "Malwarebytes",
+            "author": "J\u00e9r\u00f4me Segura",
+            "title": "Hiding in plain sight: a story about a sneaky banking Trojan",
+            "categories": [
+                "KINS",
+                "VM Zeus"
+            ]
+        }
+    ]
 };

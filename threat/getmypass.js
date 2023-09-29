@@ -36,5 +36,47 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "getmypass",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2015-01-08-getmypass-point-of-sale-malware-update.md",
+            "date": "2015-01-08",
+            "organization": "SecurityKitten Blog",
+            "author": "Nick Hoffman",
+            "title": "Getmypass Point of Sale Malware Update",
+            "categories": [
+                "GetMyPass"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/the-evolution-of-point-of-sale-pos-malware",
+            "date": "2014-12-11",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "The Evolution of Point-of-Sale (PoS) Malware",
+            "categories": [
+                "GetMyPass"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-pos-malware-kicks-off-holiday-shopping-weekend/",
+            "date": "2014-11-27",
+            "organization": "Trend Micro",
+            "author": "Anthony Joe Melgarejo",
+            "title": "New PoS Malware Kicks off Holiday Shopping Weekend",
+            "categories": [
+                "GetMyPass"
+            ]
+        },
+        {
+            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2014-11-26-getmypass-point-of-sale-malware.md",
+            "date": "2014-11-26",
+            "organization": "",
+            "author": "Nick Hoffman",
+            "title": "Getmypass Point of Sale Malware",
+            "categories": [
+                "GetMyPass"
+            ]
+        }
+    ]
 };

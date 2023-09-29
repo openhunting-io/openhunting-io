@@ -34,5 +34,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hummingwhale",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "casper",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2015/03/05/casper-malware-babar-bunny-another-espionage-cartoon/",
+            "date": "2015-03-05",
+            "organization": "ESET Research",
+            "author": "Joan Calvet",
+            "title": "Casper Malware: After Babar and Bunny, Another Espionage Cartoon",
+            "categories": [
+                "Casper"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "powerpepper",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/what-did-deathstalker-hide-between-two-ferns/99616/",
+            "date": "2020-12-03",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "What did DeathStalker hide between two ferns?",
+            "categories": [
+                "PowerPepper",
+                "Evilnum"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/InQuest/status/1285295975347650562",
+            "date": "2020-07-20",
+            "organization": "Twitter (@InQuest)",
+            "author": "InQuest",
+            "title": "Tweets on PowerPepper decryption",
+            "categories": [
+                "PowerPepper"
+            ]
+        }
+    ]
 };

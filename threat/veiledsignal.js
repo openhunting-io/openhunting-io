@@ -27,5 +27,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "veiledsignal",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/xtrader-3cx-supply-chain",
+            "date": "2023-04-21",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "X_Trader Supply Chain Attack Affects Critical Infrastructure Organizations in U.S. and Europe",
+            "categories": [
+                "VEILEDSIGNAL"
+            ]
+        }
+    ]
 };

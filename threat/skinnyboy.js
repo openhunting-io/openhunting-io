@@ -32,5 +32,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "skinnyboy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cybergeeks.tech/skinnyboy-apt28/",
+            "date": "2021-08-03",
+            "organization": "Cyber Geeks",
+            "author": "CyberMasterV",
+            "title": "A step-by-step analysis of the new malware used by APT28/Sofacy called SkinnyBoy",
+            "categories": [
+                "SkinnyBoy"
+            ]
+        },
+        {
+            "data_url": "https://cluster25.io/wp-content/uploads/2021/05/2021-05_FancyBear.pdf",
+            "date": "2021-05",
+            "organization": "Cluster25",
+            "author": "Cluster25",
+            "title": "A Not So Fancy Game: Exploring the New SkinnyBoy Bear's Backdoor",
+            "categories": [
+                "SkinnyBoy"
+            ]
+        }
+    ]
 };

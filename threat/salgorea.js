@@ -34,5 +34,38 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "salgorea",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://research.checkpoint.com/deobfuscating-apt32-flow-graphs-with-cutter-and-radare2/",
+            "date": "2019-04-24",
+            "organization": "Check Point Research",
+            "author": "Itay Cohen",
+            "title": "Deobfuscating APT32 Flow Graphs with Cutter and Radare2",
+            "categories": [
+                "Salgorea"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/us-en/blogs/blogs-pond-loach-delivers-badcake-malware",
+            "date": "2019-01-17",
+            "organization": "Accenture",
+            "author": "Matthew Brady",
+            "title": "Pond Loach delivers BadCake malware",
+            "categories": [
+                "Salgorea",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/03/ESET_OceanLotus.pdf",
+            "date": "2018-03",
+            "organization": "ESET Research",
+            "author": "OceanLotus: Old techniques, new backdoor",
+            "title": "OceanLotus: Old techniques, new backdoor",
+            "categories": [
+                "Salgorea"
+            ]
+        }
+    ]
 };

@@ -39,5 +39,70 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "emdivi",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/05/vb2019-paper-apt-cases-exploiting-vulnerabilities-regionspecific-software/",
+            "date": "2019-11-11",
+            "organization": "Virus Bulletin",
+            "author": "Shusei Tomonaga",
+            "title": "APT cases exploiting vulnerabilities in region\u2011specific software",
+            "categories": [
+                "NodeRAT",
+                "Emdivi",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/chessmaster-cyber-espionage-campaign/",
+            "date": "2017-07-27",
+            "organization": "Trend Micro",
+            "author": "Benson Sy",
+            "title": "ChessMaster Makes its Move: A Look into the Campaign\u2019s Cyberespionage Arsenal",
+            "categories": [
+                "Emdivi"
+            ]
+        },
+        {
+            "data_url": "https://www.macnica.net/file/security_report_20160613.pdf",
+            "date": "2016-06-13",
+            "organization": "Macnica Networks",
+            "author": "Macnica Networks",
+            "title": "Survey of the actual situation of the large-scale cyber spy activity that hit Japan | 1st edition",
+            "categories": [
+                "Emdivi",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "http://blog.jpcert.or.jp/2015/11/decrypting-strings-in-emdivi.html",
+            "date": "2015-11-19",
+            "organization": "JPCERT/CC",
+            "author": "You Nakatsuru",
+            "title": "Decrypting Strings in Emdivi",
+            "categories": [
+                "Emdivi"
+            ]
+        },
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/attackers-target-organizations-in-japan-transform-local-sites-into-cc-servers-for-emdivi-backdoor/",
+            "date": "2015-09-01",
+            "organization": "Trend Micro",
+            "author": "Benson Sy",
+            "title": "Attackers Target Organizations in Japan; Transform Local Sites into C&C Servers for EMDIVI Backdoor",
+            "categories": [
+                "Emdivi"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/new-activity-of-the-blue-termite-apt/71876/",
+            "date": "2015-08-20",
+            "organization": "Kaspersky Labs",
+            "author": "Suguru Ishimaru",
+            "title": "New activity of the Blue Termite APT",
+            "categories": [
+                "Emdivi"
+            ]
+        }
+    ]
 };

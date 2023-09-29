@@ -37,5 +37,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "vskimmer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://vkremez.weebly.com/cyber-security/-backdoor-win32hesetoxa-vskimmer-pos-malware-analysis",
+            "date": "2015-12-26",
+            "organization": "Flashpoint",
+            "author": "Vitali Kremez",
+            "title": "Backdoor: Win32/Hesetox.A: vSkimmer POS Malware Analysis \ufeff",
+            "categories": [
+                "vSkimmer"
+            ]
+        },
+        {
+            "data_url": "https://securingtomorrow.mcafee.com/mcafee-labs/vskimmer-botnet-targets-credit-card-payment-terminals/",
+            "date": "2013-03-21",
+            "organization": "McAfee",
+            "author": "McAfee",
+            "title": "VSkimmer Botnet Targets Credit Card Payment Terminals",
+            "categories": [
+                "vSkimmer"
+            ]
+        },
+        {
+            "data_url": "http://www.xylibox.com/2013/01/vskimmer.html",
+            "date": "2013-01-25",
+            "organization": "",
+            "author": "Xylitol",
+            "title": "vSkimmer, Another POS malware",
+            "categories": [
+                "vSkimmer"
+            ]
+        }
+    ]
 };

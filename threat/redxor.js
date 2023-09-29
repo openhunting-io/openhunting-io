@@ -50,5 +50,18 @@ var threatdata = {
     "last_ioc_update": "2021-03-11 20:48:11",
     "mitre": [],
     "file_name": "redxor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.intezer.com/blog/malware-analysis/new-linux-backdoor-redxor-likely-operated-by-chinese-nation-state-actor/",
+            "date": "2021-03-10",
+            "organization": "Intezer",
+            "author": "Avigayil Mechtinger",
+            "title": "New Linux Backdoor RedXOR Likely Operated by Chinese Nation-State Actor",
+            "categories": [
+                "RedXOR",
+                "XOR DDoS"
+            ]
+        }
+    ]
 };

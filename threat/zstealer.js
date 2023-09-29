@@ -71,5 +71,29 @@ var threatdata = {
     "last_ioc_update": "2023-05-23 23:48:12",
     "mitre": [],
     "file_name": "zstealer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://twitter.com/Arkbird_SOLG/status/1458973883068043264",
+            "date": "2021-11-12",
+            "organization": "Twitter (@Arkbird_SOLG)",
+            "author": "Arkbird",
+            "title": "Tweets on Void Balaur using QuantLoader and ZStealer",
+            "categories": [
+                "QuantLoader",
+                "ZStealer"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-void-balaur-tracking-a-cybermercenarys-activities.pdf",
+            "date": "2021-11-10",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Research",
+            "title": "Void Balaur and the Rise of the Cybermercenary Industry",
+            "categories": [
+                "ZStealer",
+                "Void Balaur"
+            ]
+        }
+    ]
 };

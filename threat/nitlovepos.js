@@ -37,5 +37,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "nitlovepos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/05/nitlovepos_another.html",
+            "date": "2015-05-23",
+            "organization": "FireEye",
+            "author": "Nart Villeneuve",
+            "title": "NitlovePOS: Another New POS Malware",
+            "categories": [
+                "nitlove"
+            ]
+        }
+    ]
 };

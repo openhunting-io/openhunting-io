@@ -32,5 +32,21 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "rikamanu",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets",
+            "date": "2018-06-19",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Thrip: Espionage Group Hits Satellite, Telecoms, and Defense Companies",
+            "categories": [
+                "Catchamas",
+                "Rikamanu",
+                "Spedear",
+                "WMI Ghost",
+                "Thrip"
+            ]
+        }
+    ]
 };

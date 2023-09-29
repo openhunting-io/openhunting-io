@@ -79,5 +79,27 @@ var threatdata = {
     "last_ioc_update": "2022-03-02 17:29:53",
     "mitre": [],
     "file_name": "numando",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2021/09/17/numando-latam-banking-trojan/",
+            "date": "2021-09-17",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Numando: Count once, code twice",
+            "categories": [
+                "Numando"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/10/01/latam-financial-cybercrime-competitors-crime-sharing-ttps/",
+            "date": "2020-10-01",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "LATAM financial cybercrime: Competitors\u2011in\u2011crime sharing TTPs",
+            "categories": [
+                "Numando"
+            ]
+        }
+    ]
 };

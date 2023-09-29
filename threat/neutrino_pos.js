@@ -35,5 +35,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "neutrino_pos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/jimmy-nukebot-from-neutrino-with-love/81667/",
+            "date": "2017-08-29",
+            "organization": "Kaspersky Labs",
+            "author": "Sergey Yunakovsky",
+            "title": "Jimmy Nukebot: from Neutrino with love",
+            "categories": [
+                "Jimmy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/neutrino-modification-for-pos-terminals/78839/",
+            "date": "2017-06-27",
+            "organization": "Kaspersky Labs",
+            "author": "Sergey Yunakovsky",
+            "title": "Neutrino modification for POS-terminals",
+            "categories": [
+                "Neutrino POS"
+            ]
+        }
+    ]
 };

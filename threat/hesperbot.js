@@ -36,5 +36,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hesperbot",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

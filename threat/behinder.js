@@ -30,5 +30,38 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "behinder",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/hktalent/MyDocs/blob/main/BehinderShell.md",
+            "date": "2022-11-04",
+            "organization": "Github (hktalent)",
+            "author": "51pwn",
+            "title": "Behinder Mem Shell",
+            "categories": [
+                "Behinder"
+            ]
+        },
+        {
+            "data_url": "https://blog.gigamon.com/2022/09/28/investigating-web-shells/",
+            "date": "2022-09-28",
+            "organization": "Gigamon",
+            "author": "Roman Kroshinsky",
+            "title": "Investigating Web Shells",
+            "categories": [
+                "Godzilla Webshell",
+                "Behinder"
+            ]
+        },
+        {
+            "data_url": "https://cyberandramen.net/2022/02/18/a-tale-of-two-shells/",
+            "date": "2022-02-18",
+            "organization": "Cyber And Ramen blog",
+            "author": "Mike R",
+            "title": "A Tale of Two Shells",
+            "categories": [
+                "Behinder"
+            ]
+        }
+    ]
 };

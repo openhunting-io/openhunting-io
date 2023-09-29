@@ -30,5 +30,20 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "leash",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
+            "date": "2017-02-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "Magic Hound Campaign Attacks Saudi Targets",
+            "categories": [
+                "Leash",
+                "MPKBot",
+                "pupy",
+                "Rocket Kitten"
+            ]
+        }
+    ]
 };

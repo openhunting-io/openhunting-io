@@ -38,5 +38,41 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "cuegoe",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+            "date": "2017-05-14",
+            "organization": "FireEye",
+            "author": "Nick Carr",
+            "title": "Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations",
+            "categories": [
+                "OceanLotus",
+                "Cuegoe",
+                "KOMPROGO",
+                "SOUNDBITE",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "http://blog.malwaremustdie.org/2014/08/another-country-sponsored-malware.html",
+            "date": "2014-08-24",
+            "organization": "Malware Must Die!",
+            "author": "unixfreaxjp",
+            "title": "Another country-sponsored #malware: Vietnam APT Campaign",
+            "categories": [
+                "Cuegoe"
+            ]
+        },
+        {
+            "data_url": "https://www.eff.org/deeplinks/2014/01/vietnamese-malware-gets-personal",
+            "date": "2014-01-19",
+            "organization": "Electronic Frontier Foundation",
+            "author": "Eva Galperin",
+            "title": "Vietnamese Malware Gets Very Personal",
+            "categories": [
+                "Cuegoe"
+            ]
+        }
+    ]
 };

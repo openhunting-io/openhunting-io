@@ -34,5 +34,20 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "flyingdutchman",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/calypso-apt-2019/",
+            "date": "2019-10-31",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "Calypso APT: new group attacking state institutions",
+            "categories": [
+                "BYEBY",
+                "FlyingDutchman",
+                "Hussar",
+                "PlugX"
+            ]
+        }
+    ]
 };

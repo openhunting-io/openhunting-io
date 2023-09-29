@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "AsyncRAT",
     "category": "Tools",
     "type": "Backdoor, Keylogger",
-    "modified": "2023-02-17",
+    "modified": "2023-09-08",
     "all_data": {
         "tool": "AsyncRAT",
         "names": [
@@ -24881,7 +24881,1298 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-26 13:24:58",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "asyncrat",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
+            "date": "2023-09-08",
+            "organization": "",
+            "author": "Gi7w0rm",
+            "title": "Uncovering DDGroup \u2014 A long-time threat actor",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "DBatLoader",
+                "NetWire RC",
+                "Quasar RAT",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q2%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-07-11",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2023",
+            "categories": [
+                "Hydra",
+                "AsyncRAT",
+                "Aurora Stealer",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee"
+            ]
+        },
+        {
+            "data_url": "https://embee-research.ghost.io/shodan-censys-queries/",
+            "date": "2023-06-08",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Practical Queries for Identifying Malware Infrastructure: An informal page for storing Censys/Shodan queries",
+            "categories": [
+                "Amadey",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "QakBot",
+                "Quasar RAT",
+                "Sliver",
+                "solarmarker"
+            ]
+        },
+        {
+            "data_url": "https://mssplab.github.io/threat-hunting/2023/05/19/malware-src-asyncrat.html",
+            "date": "2023-05-19",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware source code investigation: AsyncRAT",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.huntress.com/blog/advanced-cyberchef-tips-asyncrat-loader",
+            "date": "2023-05-09",
+            "organization": "Huntress Labs",
+            "author": "Matthew Brennan",
+            "title": "Advanced Cyberchef Tips - AsyncRAT Loader",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-04-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2023",
+            "categories": [
+                "FluBot",
+                "Amadey",
+                "AsyncRAT",
+                "Aurora",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://kienmanowar.wordpress.com/2023/04/08/quicknote-uncovering-suspected-malware-distributed-by-individuals-from-vietnam/",
+            "date": "2023-04-08",
+            "organization": "kienmanowar Blog",
+            "author": "Tran Trung Kien",
+            "title": "[QuickNote] Uncovering Suspected Malware Distributed By Individuals from Vietnam",
+            "categories": [
+                "AsyncRAT",
+                "DCRat",
+                "WorldWind"
+            ]
+        },
+        {
+            "data_url": "https://research.loginsoft.com/threat-research/from-innocence-to-malice-the-onenote-malware-campaign-uncovered/",
+            "date": "2023-03-30",
+            "organization": "loginsoft",
+            "author": "Saharsh Agrawal",
+            "title": "From Innocence to Malice: The OneNote Malware Campaign Uncovered",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "DOUBLEBACK",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "NetWire RC",
+                "QakBot",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/asyncrat-crusade-detections-and-defense.html",
+            "date": "2023-03-27",
+            "organization": "splunk",
+            "author": "Splunk Threat Research Team",
+            "title": "AsyncRAT Crusade: Detections and Defense",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/onenote-growing-threat-malware-distribution",
+            "date": "2023-03-01",
+            "organization": "Zscaler",
+            "author": "Meghraj Nandanwar",
+            "title": "OneNote: A Growing Threat for Malware Distribution",
+            "categories": [
+                "AsyncRAT",
+                "Cobalt Strike",
+                "IcedID",
+                "QakBot",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://0xtoxin-labs.gitbook.io/malware-analysis/malware-analysis/asyncrat-onenote-dropper",
+            "date": "2023-02-11",
+            "organization": "",
+            "author": "@0xToxin",
+            "title": "AsyncRAT OneNote Dropper",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@hcksyd/asyncrat-analysing-the-three-stages-of-execution-378b343216bf",
+            "date": "2023-02-08",
+            "organization": "Huntress Labs",
+            "author": "Michael Elford",
+            "title": "AsyncRAT: Analysing the Three Stages of Execution",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/01/04/malware-tricks-26.html",
+            "date": "2023-01-04",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware development tricks: part 26. Mutex. C++ example.",
+            "categories": [
+                "AsyncRAT",
+                "Conti",
+                "HelloKitty"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/J_A12SOX0k5TOYFAegBv_w",
+            "date": "2022-12-06",
+            "organization": "360 Threat Intelligence Center",
+            "author": "360 Beacon Lab",
+            "title": "Analysis of suspected APT-C-56 (Transparent Tribe) attacks against terrorism",
+            "categories": [
+                "AhMyth",
+                "Meterpreter",
+                "SpyNote",
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2022-10-13",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2022",
+            "categories": [
+                "FluBot",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "Emotet",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Socelars",
+                "Tofsee",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/dangeroussavanna-two-year-long-campaign-targets-financial-institutions-in-french-speaking-africa/",
+            "date": "2022-09-06",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "DangerousSavanna: Two-year long campaign targets financial institutions in French-speaking Africa",
+            "categories": [
+                "AsyncRAT",
+                "Meterpreter",
+                "PoshC2",
+                "DangerousSavanna"
+            ]
+        },
+        {
+            "data_url": "https://www.netskope.com/blog/asyncrat-using-fully-undetected-downloader",
+            "date": "2022-08-29",
+            "organization": "Netskope",
+            "author": "Gustavo Palazolo",
+            "title": "AsyncRAT: Using Fully Undetected Downloader",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.netlab.360.com/purecrypter",
+            "date": "2022-08-29",
+            "organization": "360 netlab",
+            "author": "wanghao",
+            "title": "PureCrypter Loader continues to be active and has spread to more than 10 other families",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Formbook",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/reservations-requested-ta558-targets-hospitality-and-travel",
+            "date": "2022-08-18",
+            "organization": "Proofpoint",
+            "author": "Joe Wise",
+            "title": "Reservations Requested: TA558 Targets Hospitality and Travel",
+            "categories": [
+                "AsyncRAT",
+                "Loda",
+                "NjRAT",
+                "Ozone RAT",
+                "Revenge RAT",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/darktortilla-malware-analysis",
+            "date": "2022-08-17",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "DarkTortilla Malware Analysis",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "DarkTortilla",
+                "Nanocore RAT",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://blog.qualys.com/vulnerabilities-threat-research/2022/08/16/asyncrat-c2-framework-overview-technical-analysis-and-detection",
+            "date": "2022-08-16",
+            "organization": "Qualys",
+            "author": "Pawan Kumar N",
+            "title": "AsyncRAT C2 Framework: Overview, Technical Analysis & Detection",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://resecurity.com/blog/article/shortcut-based-lnk-attacks-delivering-malicious-code-on-the-rise",
+            "date": "2022-07-17",
+            "organization": "Resecurity",
+            "author": "Resecurity",
+            "title": "Shortcut-Based (LNK) Attacks Delivering Malicious Code On The Rise",
+            "categories": [
+                "AsyncRAT",
+                "BumbleBee",
+                "Emotet",
+                "IcedID",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/stealthy-opendocument-malware-targets-latin-american-hotels/#",
+            "date": "2022-07-15",
+            "organization": "HP",
+            "author": "Patrick Schl\u00e4pfer",
+            "title": "Stealthy OpenDocument Malware Deployed Against Latin American Hotels",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/targeted-attack-on-government-agencies.html",
+            "date": "2022-07-13",
+            "organization": "Trellix",
+            "author": "Sushant Kumar Arya",
+            "title": "Targeted Attack on Government Agencies",
+            "categories": [
+                "AsyncRAT",
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/follina-msdt-exploit-malware",
+            "date": "2022-06-08",
+            "organization": "Symantec",
+            "author": "Karthikeyan C Kasiviswanathan",
+            "title": "Attackers Exploit MSDT Follina Bug to Drop RAT, Infostealer",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/threatintel/outbreak-of-follina-in-australia",
+            "date": "2022-06-03",
+            "organization": "Avast Decoded",
+            "author": "Threat Intelligence Team",
+            "title": "Outbreak of Follina in Australia",
+            "categories": [
+                "AsyncRAT",
+                "APT40"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/threatintel/outbreak-of-follina-in-australia/",
+            "date": "2022-06-03",
+            "organization": "Avast",
+            "author": "Threat Intelligence Team",
+            "title": "Outbreak of Follina in Australia",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/threat-actors-prey-on-eager-travelers",
+            "date": "2022-06-02",
+            "organization": "FortiGuard Labs",
+            "author": "Fred Gutierrez",
+            "title": "Threat Actors Prey on Eager Travelers",
+            "categories": [
+                "AsyncRAT",
+                "NetWire RC",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://jstnk9.github.io/jstnk9/research/AsyncRAT-Analysis/",
+            "date": "2022-06-01",
+            "organization": "Github (jstnk9)",
+            "author": "Jose Luis S\u00e1nchez Mart\u00ednez",
+            "title": "Analyzing AsyncRAT distributed in Colombia",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/syk-crypter-discord",
+            "date": "2022-05-12",
+            "organization": "Morphisec",
+            "author": "Hido Cohen",
+            "title": "New SYK Crypter Distributed Via Discord",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "Nanocore RAT",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/HP-Wolf-Security-Threat-Insights-Report-Q1-2022.pdf",
+            "date": "2022-05-11",
+            "organization": "HP",
+            "author": "HP Wolf Security",
+            "title": "Threat Insights Report Q1 - 2022",
+            "categories": [
+                "AsyncRAT",
+                "Emotet",
+                "Mekotio",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://aidenmitchell.ca/asyncrat-via-vbs/",
+            "date": "2022-05-06",
+            "organization": "Mitchell's Musings",
+            "author": "Aiden Mitchell",
+            "title": "Attempted AsyncRAT via .vbs",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.esentire.com/blog/asyncrat-activity",
+            "date": "2022-05-02",
+            "organization": "eSentire",
+            "author": "eSentire Threat Response Unit (TRU)",
+            "title": "AsyncRAT Activity",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/vxunderground/status/1519632014361640960",
+            "date": "2022-04-28",
+            "organization": "vx-underground",
+            "author": "Twitter (@vxunderground)",
+            "title": "Tweet on leaked Prynt Stealer source code and similarity to AyncRAT",
+            "categories": [
+                "AsyncRAT",
+                "Prynt Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/d/new-apt-group-earth-berberoka-targets-gambling-websites-with-old.html",
+            "date": "2022-04-27",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "New APT Group Earth Berberoka Targets Gambling Websites With Old and New Malware",
+            "categories": [
+                "HelloBot",
+                "AsyncRAT",
+                "Ghost RAT",
+                "HelloBot",
+                "PlugX",
+                "Quasar RAT",
+                "Earth Berberoka"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/targeted-attack-thailand-pass-customers-delivers-asyncrat",
+            "date": "2022-04-27",
+            "organization": "Zscaler",
+            "author": "Dennis Schwarz",
+            "title": "Targeted attack on Thailand Pass customers delivers AsyncRAT",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.botconf.eu/wp-content/uploads/2022/05/Botconf2022-40-LunghiHorejsi.pdf",
+            "date": "2022-04-27",
+            "organization": "Trendmicro",
+            "author": "Daniel Lunghi",
+            "title": "Operation Gambling Puppet",
+            "categories": [
+                "reptile",
+                "oRAT",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "DCRat",
+                "Ghost RAT",
+                "PlugX",
+                "Quasar RAT",
+                "Trochilus RAT",
+                "Earth Berberoka"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/txt/earth-berberoka-windows-iocs-2.txt",
+            "date": "2022-04-27",
+            "organization": "Trendmicro",
+            "author": "Trendmicro",
+            "title": "IOCs for Earth Berberoka - Windows",
+            "categories": [
+                "AsyncRAT",
+                "Cobalt Strike",
+                "PlugX",
+                "Quasar RAT",
+                "Earth Berberoka"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/how-cybercriminals-abuse-cloud-tunneling-services",
+            "date": "2022-04-26",
+            "organization": "Trend Micro",
+            "author": "Ryan Flores",
+            "title": "How Cybercriminals Abuse Cloud Tunneling Services",
+            "categories": [
+                "AsyncRAT",
+                "Cobalt Strike",
+                "DarkComet",
+                "Meterpreter",
+                "Nanocore RAT"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/3929ede0/description",
+            "date": "2022-04-19",
+            "organization": "RiskIQ",
+            "author": "Jennifer Grob",
+            "title": "RiskIQ: Legitimate WordPress Site Hosts Malicious Content",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/04/asyncrat-3losh-update.html",
+            "date": "2022-04-05",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "Threat Spotlight: AsyncRAT campaigns feature new version of 3LOSH crypter",
+            "categories": [
+                "AsyncRAT",
+                "LimeRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.esentire.com/blog/suspected-asyncrat-delivered-via-iso-files-using-html-smuggling-technique",
+            "date": "2022-03-31",
+            "organization": "eSentire",
+            "author": "eSentire Threat Response Unit (TRU)",
+            "title": "Suspected AsyncRAT Delivered via ISO Files Using HTML Smuggling Technique",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://brianstadnicki.github.io/posts/vulnerability-asyncrat-rce/",
+            "date": "2022-03-12",
+            "organization": "",
+            "author": "Brian Stadnicki",
+            "title": "AsyncRAT RCE vulnerability",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://assets.virustotal.com/reports/2021trends.pdf",
+            "date": "2022-03",
+            "organization": "VirusTotal",
+            "author": "VirusTotal",
+            "title": "VirusTotal's 2021 Malware Trends Report",
+            "categories": [
+                "Anubis",
+                "AsyncRAT",
+                "BlackMatter",
+                "Cobalt Strike",
+                "DanaBot",
+                "Dridex",
+                "Khonsari",
+                "MimiKatz",
+                "Mirai",
+                "Nanocore RAT",
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.ncsc.admin.ch/ncsc/en/home/aktuell/im-fokus/2022/wochenrueckblick_7.html",
+            "date": "2022-02-22",
+            "organization": "NCSC Switzerland",
+            "author": "NCSC Switzerland",
+            "title": "Week 7: Supposed order confirmation delivers malware and new variants in fake extortion emails",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://eln0ty.github.io/malware%20analysis/asyncRAT/",
+            "date": "2022-02-16",
+            "organization": "",
+            "author": "Abdallah Elnoty",
+            "title": "Playing with AsyncRAT",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight",
+            "date": "2022-02-15",
+            "organization": "Proofpoint",
+            "author": "Selena Larson",
+            "title": "Charting TA2541's Flight",
+            "categories": [
+                "AsyncRAT",
+                "TA2541"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/ta2541-apt-rats-aviation/178422/",
+            "date": "2022-02-15",
+            "organization": "Threat Post",
+            "author": "Elizabeth Montalbano",
+            "title": "TA2541: APT Has Been Shooting RATs at Aviation for Years",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "NetWire RC",
+                "Parallax RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/unskilled-hacker-linked-to-years-of-attacks-on-aviation-transport-sectors/",
+            "date": "2022-02-15",
+            "organization": "BleepingComputer",
+            "author": "Ionut Ilascu",
+            "title": "Unskilled hacker linked to years of attacks on aviation, transport sectors",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "NetWire RC",
+                "Parallax RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/hubfs/Journey%20of%20a%20Crypto%20Scammer%20-%20NFT-001%20%7C%20Morphisec%20%7C%20Threat%20Report.pdf",
+            "date": "2022-02-14",
+            "organization": "Morphisec",
+            "author": "Hido Cohen",
+            "title": "Journey of a Crypto Scammer - NFT-001",
+            "categories": [
+                "AsyncRAT",
+                "BitRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/ade260c6",
+            "date": "2022-02-07",
+            "organization": "RiskIQ",
+            "author": "RiskIQ",
+            "title": "RiskIQ: Malicious Infrastructure Connected to Particular Windows Host Certificates",
+            "categories": [
+                "AsyncRAT",
+                "BitRAT",
+                "Nanocore RAT"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/01/hackers-using-new-evasive-technique-to.html",
+            "date": "2022-01-26",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Hackers Using New Evasive Technique to Deliver AsyncRAT Malware",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/asyncrat-new-delivery-technique-new-threat-campaign",
+            "date": "2022-01-25",
+            "organization": "Morphisec",
+            "author": "Michael Dereviashkin",
+            "title": "New Threat Campaign Identified: AsyncRAT Introduces a New Delivery Technique",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/01/nanocore-netwire-and-asyncrat-spreading.html",
+            "date": "2022-01-12",
+            "organization": "Cisco",
+            "author": "Chetan Raghuprasad",
+            "title": "Nanocore, Netwire and AsyncRAT spreading campaign uses public cloud infrastructure",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://github.com/jeFF0Falltrades/Tutorials/tree/master/asyncrat_config_parser",
+            "date": "2021-12-29",
+            "organization": "Github (jeFF0Falltrades)",
+            "author": "Jeff Archer",
+            "title": "AsyncRAT Configuration Parser",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/24759ad2",
+            "date": "2021-12-13",
+            "organization": "RiskIQ",
+            "author": "Jordan Herman",
+            "title": "RiskIQ: Connections between Nanocore, Netwire, and AsyncRAT and Vjw0rm dynamic DNS C2 infrastructure",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/k/campaign-abusing-rats-uses-fake-websites.html",
+            "date": "2021-11-29",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Campaign Abusing Legitimate Remote Administrator Tools Uses Fake Cryptocurrency Websites",
+            "categories": [
+                "AsyncRAT",
+                "Azorult",
+                "Nanocore RAT",
+                "NjRAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2021/11/11/html-smuggling-surges-highly-evasive-loader-technique-increasingly-used-in-banking-malware-targeted-attacks/",
+            "date": "2021-11-11",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "HTML smuggling surges: Highly evasive loader technique increasingly used in banking malware, targeted attacks",
+            "categories": [
+                "AsyncRAT",
+                "Mekotio",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-APT-attacks-on-industrial-organizations-in-H1-2021-En.pdf",
+            "date": "2021-10-26",
+            "organization": "Kaspersky",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "APT attacks  on industrial  organizations  in H1 2021",
+            "categories": [
+                "8.t Dropper",
+                "AllaKore",
+                "AsyncRAT",
+                "GoldMax",
+                "LimeRAT",
+                "NjRAT",
+                "NoxPlayer",
+                "Raindrop",
+                "ReverseRAT",
+                "ShadowPad",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1449132020613922828",
+            "date": "2021-10-15",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Tweet on a malicious campaign targeting governmental and education entities in Colombia using multiple stages to drop AsyncRAT or njRAT Keylogger on their victims",
+            "categories": [
+                "AsyncRAT",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/09/operation-layover-how-we-tracked-attack.html",
+            "date": "2021-09-16",
+            "organization": "Cisco",
+            "author": "Tiago Pereira",
+            "title": "Operation Layover: How we tracked an attack on the aviation industry to five years of compromise",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-american-entities-with-commodity-rats/BlindEagleIOCList.txt",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs (IOCs)",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html",
+            "date": "2021-09-13",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "APT-C-36 Updates Its Spam Campaign Against South American Entities With Commodity RATs",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "Imminent Monitor RAT",
+                "LimeRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/08/rat-campaign-targets-latin-america.html",
+            "date": "2021-08-19",
+            "organization": "Talos",
+            "author": "Asheer Malhotra",
+            "title": "Malicious Campaign Targets Latin America: The seller, The operator and a curious link",
+            "categories": [
+                "AsyncRAT",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.menlosecurity.com/blog/isomorph-infection-in-depth-analysis-of-a-new-html-smuggling-campaign/",
+            "date": "2021-07-30",
+            "organization": "Menlo Security",
+            "author": "MENLO Security",
+            "title": "ISOMorph Infection: In-Depth Analysis of a New HTML Smuggling Campaign",
+            "categories": [
+                "AsyncRAT",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/400/Bitdefender-PR-Whitepaper-MosaicLoader-creat5540-en-EN.pdf",
+            "date": "2021-07-19",
+            "organization": "Bitdefender",
+            "author": "Bitdefender",
+            "title": "Debugging MosaicLoader, One Step at a Time",
+            "categories": [
+                "AsyncRAT",
+                "Glupteba"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "IBM",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "Cipher Tech Solutions",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/spear-phishing-campaign-with-new-techniques-aimed-at-aviation-companies",
+            "date": "2021-06-27",
+            "organization": "Fortinet",
+            "author": "Gayathri Thirugnanasambandam",
+            "title": "Spear Phishing Campaign with New Techniques Aimed at Aviation Companies",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/ahk-rat-loader-leveraged-in-unique-delivery-campaigns",
+            "date": "2021-05-14",
+            "organization": "Morphisec",
+            "author": "Arnold Osipov",
+            "title": "AHK RAT Loader Used in Unique Delivery Campaigns",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/MsftSecIntel/status/1392219299696152578",
+            "date": "2021-05-11",
+            "organization": "Twitter (@MsftSecIntel)",
+            "author": "Microsoft Security Intelligence",
+            "title": "Tweet on Snip3 crypter delivering AsyncRAT or AgentTesla",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader",
+            "date": "2021-05-07",
+            "organization": "Morphisec",
+            "author": "Nadav Lorber",
+            "title": "Revealing the \u2018Snip3\u2019 Crypter, a Highly Evasive RAT Loader",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "NetWire RC",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/catching-rats-over-custom-protocols",
+            "date": "2021-05-05",
+            "organization": "Zscaler",
+            "author": "Aniruddha Dolas",
+            "title": "Catching RATs Over Custom Protocols Analysis of top non-HTTP/S threats",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "Crimson RAT",
+                "CyberGate",
+                "Ghost RAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/tracking-hcrypt-an-active-crypter-as-a-service",
+            "date": "2021-03-16",
+            "organization": "Morphisec",
+            "author": "Nadav Lorber",
+            "title": "Tracking HCrypt: An Active Crypter as a Service",
+            "categories": [
+                "AsyncRAT",
+                "LimeRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.intezer.com/wp-content/uploads/2021/02/Intezer-2020-Go-Malware-Round-Up.pdf",
+            "date": "2021-02-25",
+            "organization": "Intezer",
+            "author": "Intezer",
+            "title": "Year of the Gopher A 2020 Go Malware Round-Up",
+            "categories": [
+                "NiuB",
+                "WellMail",
+                "elf.wellmess",
+                "ArdaMax",
+                "AsyncRAT",
+                "CyberGate",
+                "DarkComet",
+                "Glupteba",
+                "Nanocore RAT",
+                "Nefilim",
+                "NjRAT",
+                "Quasar RAT",
+                "WellMess",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://labs.k7computing.com/?p=21759",
+            "date": "2021-02-19",
+            "organization": "K7 Security",
+            "author": "Partheeban J",
+            "title": "GitHub \u2013 Home to AsyncRAT Backdoor",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2021/01/12/operation-spalax-targeted-malware-attacks-colombia/",
+            "date": "2021-01-11",
+            "organization": "ESET Research",
+            "author": "Mat\u00edas Porolli",
+            "title": "Operation Spalax: Targeted malware attacks in Colombia",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blogs.jpcert.or.jp/en/2020/12/quasar-family.html",
+            "date": "2020-12-10",
+            "organization": "JPCERT/CC",
+            "author": "Kota Kino",
+            "title": "Attack Activities by Quasar Family",
+            "categories": [
+                "AsyncRAT",
+                "Quasar RAT",
+                "Venom RAT",
+                "XPCTRA"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/china-cybercrime-undergrond-deepmix-tea-horse-road-great-firewall/",
+            "date": "2020-12-10",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "No pandas, just people: The current state of China\u2019s cybercrime underground",
+            "categories": [
+                "Anubis",
+                "SpyNote",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "Ghost RAT",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
+            "date": "2020-11-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q3 2020",
+            "categories": [
+                "WellMail",
+                "EVILNUM",
+                "Janicab",
+                "Poet RAT",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "Crimson RAT",
+                "CROSSWALK",
+                "Dtrack",
+                "LODEINFO",
+                "MoriAgent",
+                "Okrum",
+                "PlugX",
+                "poisonplug",
+                "Rover",
+                "ShadowPad",
+                "SoreFang",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://redskyalliance.org/xindustry/possible-identity-of-a-kuwaiti-hacker-nyanxcat",
+            "date": "2020-10-19",
+            "organization": "Red Sky Alliance",
+            "author": "Yury Polozov",
+            "title": "Possible Identity of a Kuwaiti Hacker NYANxCAT",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/09/17/69da886eecc7087e9dac2d3ea4c66ba8.pdf",
+            "date": "2020-09-21",
+            "organization": "Qianxin",
+            "author": "RedDrip Team",
+            "title": "Operation Tibo: A retaliatory targeted attack from the South Asian APT organization \"Mo Luo Suo\"",
+            "categories": [
+                "AsyncRAT",
+                "Darktrack RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/threat-actor-profile-ta2719-uses-colorful-lures-deliver-rats-local-languages",
+            "date": "2020-08-26",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Threat Research Team",
+            "title": "Threat Actor Profile: TA2719 Uses Colorful Lures to Deliver RATs in Local Languages",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
+            "date": "2020-07-30",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2020",
+            "categories": [
+                "AdWind",
+                "Agent Tesla",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "KPOT Stealer",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Pony",
+                "Raccoon",
+                "RedLine Stealer",
+                "Remcos",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blogs.vmware.com/security/2019/11/threat-analysis-unit-tau-threat-intelligence-notification-asyncrat.html",
+            "date": "2019-11-19",
+            "organization": "VMWare Carbon Black",
+            "author": "VMWare",
+            "title": "Threat Analysis Unit (TAU) Threat Intelligence Notification: AsyncRAT",
+            "categories": [
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/",
+            "date": "2019-01-19",
+            "organization": "Github (NYAN-x-CAT)",
+            "author": "NYAN-x-CAT",
+            "title": "AsyncRAT: Open-Source Remote Administration Tool For Windows C# (RAT)",
+            "categories": [
+                "AsyncRAT"
+            ]
+        }
+    ]
 };

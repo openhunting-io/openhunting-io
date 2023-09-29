@@ -33,5 +33,41 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pickpocket",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
+            "date": "2019-08-22",
+            "organization": "Cyware",
+            "author": "Cyware",
+            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
+            "categories": [
+                "TwoFace",
+                "BONDUPDATER",
+                "POWRUNER",
+                "QUADAGENT",
+                "Helminth",
+                "ISMAgent",
+                "Karkoff",
+                "LONGWATCH",
+                "OopsIE",
+                "PICKPOCKET",
+                "RGDoor",
+                "VALUEVAULT"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2019/07/hard-pass-declining-apt34-invite-to-join-their-professional-network.html",
+            "date": "2019-07-18",
+            "organization": "FireEye",
+            "author": "Matt Bromiley",
+            "title": "Hard Pass: Declining APT34\u2019s Invite to Join Their Professional Network",
+            "categories": [
+                "LONGWATCH",
+                "PICKPOCKET",
+                "TONEDEAF",
+                "VALUEVAULT"
+            ]
+        }
+    ]
 };

@@ -31,5 +31,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "graphite",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.cluster25.duskrise.com/2022/09/23/in-the-footsteps-of-the-fancy-bear-powerpoint-graphite/",
+            "date": "2022-09-23",
+            "organization": "Cluster25",
+            "author": "Cluster25",
+            "title": "In the footsteps of the Fancy Bear: PowerPoint mouse-over event abused to deliver Graphite implants",
+            "categories": [
+                "Graphite"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-gb/about/newsroom/stories/threat-labs/prime-ministers-office-compromised.html",
+            "date": "2022-01-25",
+            "organization": "Trellix",
+            "author": "Marc Elias",
+            "title": "Prime Minister\u2019s Office Compromised: Details of Recent Espionage Campaign",
+            "categories": [
+                "Graphite"
+            ]
+        }
+    ]
 };

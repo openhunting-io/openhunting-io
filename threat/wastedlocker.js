@@ -95,6 +95,1120 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-04-06 13:14:40",
-    "mitre": [],
-    "file_name": "wastedlocker"
+    "mitre": [
+        {
+            "procedure_name": "wastedlocker",
+            "procedure_code": "s0612",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0612",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "wastedlocker has used cmd to execute commands on the system.[348]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "wastedlocker's custom crypter, cryptone, leveraged the virtualalloc() api function to help execute the payload.[181]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1569.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1569/002",
+                    "technique_name": "system services : service execution",
+                    "technique_description": "adversaries may abuse the windows service control manager to execute malicious commands or payloads. the windows service control manager (services.exe) is an interface to manage and manipulate services. the service control manager is accessible to users via gui components as well as system utilities such as sc.exe and net.",
+                    "procedure_description": "wastedlocker can execute itself as a service.[60]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "wastedlocker created and established a service that runs until the encryption process is complete.[135]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1574.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1574/001",
+                    "technique_name": "hijack execution flow : dll search order hijacking",
+                    "technique_description": "adversaries may execute their own malicious payloads by hijacking the search order used to load dlls. windows systems use a common method to look for required dlls to load into a program.  hijacking dll loads may be for the purpose of establishing persistence as well as elevating privileges and/or evading restrictions on file execution.",
+                    "procedure_description": "wastedlocker has performed dll hijacking before execution.[37]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1548.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1548/002",
+                    "technique_name": "abuse elevation control mechanism : bypass user account control",
+                    "technique_description": "adversaries may bypass uac mechanisms to elevate process privileges on system. windows user account control (uac) allows a program to elevate its privileges (tracked as integrity levels ranging from low to high) to perform a task under administrator-level permissions, possibly by prompting the user for confirmation. the impact to the user ranges from denying the operation under high enforcement to allowing the user to perform the action if they are in the local administrators group and click through the prompt or allowing them to enter an administrator password to complete the action.",
+                    "procedure_description": "wastedlocker can perform a uac bypass if it is not executed with administrator rights or if the infected host runs windows vista or later.[63]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "wastedlocker created and established a service that runs until the encryption process is complete.[135]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1574.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1574/001",
+                    "technique_name": "hijack execution flow : dll search order hijacking",
+                    "technique_description": "adversaries may execute their own malicious payloads by hijacking the search order used to load dlls. windows systems use a common method to look for required dlls to load into a program.  hijacking dll loads may be for the purpose of establishing persistence as well as elevating privileges and/or evading restrictions on file execution.",
+                    "procedure_description": "wastedlocker has performed dll hijacking before execution.[37]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1548.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1548/002",
+                    "technique_name": "abuse elevation control mechanism : bypass user account control",
+                    "technique_description": "adversaries may bypass uac mechanisms to elevate process privileges on system. windows user account control (uac) allows a program to elevate its privileges (tracked as integrity levels ranging from low to high) to perform a task under administrator-level permissions, possibly by prompting the user for confirmation. the impact to the user ranges from denying the operation under high enforcement to allowing the user to perform the action if they are in the local administrators group and click through the prompt or allowing them to enter an administrator password to complete the action.",
+                    "procedure_description": "wastedlocker can perform a uac bypass if it is not executed with administrator rights or if the infected host runs windows vista or later.[63]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "wastedlocker's custom cryptor, cryptone, used an xor based algorithm to decrypt the payload.[248]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1222.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1222/001",
+                    "technique_name": "file and directory permissions modification : windows file and directory permissions modification",
+                    "technique_description": "adversaries may modify file or directory permissions/attributes to evade access control lists (acls) and access protected files. file and directory permissions are commonly managed by acls configured by the file or directory owner, or users with the appropriate permissions. file and directory acl implementations vary by platform, but generally explicitly designate which users or groups can perform which actions (read, write, execute, etc.).",
+                    "procedure_description": "wastedlocker has a command to take ownership of a file and reset the acl permissions using the takeown.exe /f filepath command.[12]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
+                    "technique_name": "hide artifacts : hidden files and directories",
+                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
+                    "procedure_description": "wastedlocker has copied a random file from the windows system32 folder to the %appdata% location under a different hidden filename.[52]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/004",
+                    "technique_name": "hide artifacts : ntfs file attributes",
+                    "technique_description": "adversaries may use ntfs file attributes to hide their malicious data in order to evade detection. every new technology file system (ntfs) formatted partition contains a master file table (mft) that maintains a record for every file/directory on the partition.  within mft entries are file attributes,  such as extended attributes (ea) and data [known as alternate data streams (adss) when more than one data attribute is present], that can be used to store arbitrary data (and even complete files).",
+                    "procedure_description": "wastedlocker has the ability to save and execute files as an alternate data stream (ads).[22]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1574.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1574/001",
+                    "technique_name": "hijack execution flow : dll search order hijacking",
+                    "technique_description": "adversaries may execute their own malicious payloads by hijacking the search order used to load dlls. windows systems use a common method to look for required dlls to load into a program.  hijacking dll loads may be for the purpose of establishing persistence as well as elevating privileges and/or evading restrictions on file execution.",
+                    "procedure_description": "wastedlocker has performed dll hijacking before execution.[37]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "wastedlocker can modify registry values within the software\\microsoft\\windows\\currentversion\\internet settings\\zonemap registry key.[178]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "the wastedlocker payload includes encrypted strings stored within the .bss section of the binary file.[349]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/001",
+                    "technique_name": "obfuscated files or information : binary padding",
+                    "technique_description": "adversaries may use binary padding to add junk data and change the on-disk representation of malware. this can be done without affecting the functionality or behavior of a binary, but can increase the size of the binary beyond what some security tools are capable of handling due to file size limitations.",
+                    "procedure_description": "wastedlocker contains junk code to increase its entropy and hide the actual code.[37]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
+                    "technique_name": "virtualization/sandbox evasion : system checks",
+                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "wastedlocker checked if ucomienumconnections and iactivescriptparseprocedure32 registry keys were detected as part of its anti-analysis technique.[60]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "wastedlocker can enumerate files and directories just prior to encryption.[319]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1135",
+                    "technique_link": "https://attack.mitre.org/techniques/T1135",
+                    "technique_name": "network share discovery",
+                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
+                    "procedure_description": "wastedlocker can identify network adjacent and accessible drives.[59]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1120",
+                    "technique_link": "https://attack.mitre.org/techniques/T1120",
+                    "technique_name": "peripheral device discovery",
+                    "technique_description": "adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system. peripheral devices could include auxiliary resources that support a variety of functionalities such as keyboards, printers, cameras, smart card readers, or removable storage. the information may be used to enhance their awareness of the system and network environment or may be used for further actions.",
+                    "procedure_description": "wastedlocker can enumerate removable drives prior to the encryption process.[51]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1012",
+                    "technique_name": "query registry",
+                    "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
+                    "procedure_description": "wastedlocker checks for specific registry keys related to the ucomienumconnections and iactivescriptparseprocedure32 interfaces.[101]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
+                    "technique_name": "virtualization/sandbox evasion : system checks",
+                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "wastedlocker checked if ucomienumconnections and iactivescriptparseprocedure32 registry keys were detected as part of its anti-analysis technique.[60]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "wastedlocker can encrypt data and leave a ransom note.[90][91][92]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1490",
+                    "technique_link": "https://attack.mitre.org/techniques/T1490",
+                    "technique_name": "inhibit system recovery",
+                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
+                    "procedure_description": "wastedlocker can delete shadow volumes.[63][64][65]"
+                }
+            ]
+        }
+    ],
+    "file_name": "wastedlocker",
+    "articles": [
+        {
+            "data_url": "https://blog.bushidotoken.net/2022/07/space-invaders-cyber-threats-that-are.html",
+            "date": "2022-07-31",
+            "organization": "BushidoToken Blog",
+            "author": "BushidoToken",
+            "title": "Space Invaders: Cyber Threats That Are Out Of This World",
+            "categories": [
+                "Poison Ivy",
+                "Raindrop",
+                "SUNBURST",
+                "TEARDROP",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://killingthebear.jorgetesta.tech/actors/evil-corp",
+            "date": "2022-06-13",
+            "organization": "Jorge Testa",
+            "author": "Jorge Testa",
+            "title": "Killing The Bear - Evil Corp",
+            "categories": [
+                "FAKEUPDATES",
+                "Babuk",
+                "Blister",
+                "DoppelPaymer",
+                "Dridex",
+                "Entropy",
+                "FriedEx",
+                "Hades",
+                "Macaw",
+                "Phoenix Locker",
+                "WastedLoader",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/unc2165-shifts-to-evade-sanctions",
+            "date": "2022-06-02",
+            "organization": "Mandiant",
+            "author": "Mandiant Intelligence",
+            "title": "To HADES and Back: UNC2165 Shifts to LOCKBIT to Evade Sanctions",
+            "categories": [
+                "FAKEUPDATES",
+                "Blister",
+                "Cobalt Strike",
+                "DoppelPaymer",
+                "Dridex",
+                "FriedEx",
+                "Hades",
+                "LockBit",
+                "Macaw",
+                "MimiKatz",
+                "Phoenix Locker",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2022/03/17/the-ransomware-threat-intelligence-center/",
+            "date": "2022-03-17",
+            "organization": "Sophos",
+            "author": "Tilly Travers",
+            "title": "The Ransomware Threat Intelligence Center",
+            "categories": [
+                "ATOMSILO",
+                "Avaddon",
+                "AvosLocker",
+                "BlackKingdom Ransomware",
+                "BlackMatter",
+                "Conti",
+                "Cring",
+                "DarkSide",
+                "dearcry",
+                "Dharma",
+                "Egregor",
+                "Entropy",
+                "Epsilon Red",
+                "Gandcrab",
+                "Karma",
+                "LockBit",
+                "LockFile",
+                "Mailto",
+                "Maze",
+                "Nefilim",
+                "RagnarLocker",
+                "Ragnarok",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SamSam",
+                "Snatch",
+                "WannaCryptor",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.broadcom.com/hubfs/SED/SED_Threat_Hunter_Reports_Alerts/SED_FY22Q2_SES_Ransomware-Threat-Landscape_WP.pdf",
+            "date": "2022-03-16",
+            "organization": "Symantec",
+            "author": "Symantec Threat Hunter Team",
+            "title": "The Ransomware Threat Landscape: What to Expect in 2022",
+            "categories": [
+                "AvosLocker",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Emotet",
+                "Hive",
+                "Karma",
+                "Mespinoza",
+                "Nemty",
+                "Squirrelwaffle",
+                "VegaLocker",
+                "WastedLocker",
+                "Yanluowang",
+                "Zeppelin"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/labs/sanctions-be-damned-from-dridex-to-macaw-the-evolution-of-evil-corp/",
+            "date": "2022-02-23",
+            "organization": "Sentinel LABS",
+            "author": "Antonio Pirozzi",
+            "title": "Sanctions Be Damned | From Dridex to Macaw, The Evolution of Evil Corp",
+            "categories": [
+                "Dridex",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/wp-content/uploads/2022/02/S1_-SentinelLabs_SanctionsBeDamned_final_02.pdf",
+            "date": "2022-02",
+            "organization": "Sentinel LABS",
+            "author": "Antonio Pirozzi",
+            "title": "Sanctions be Damned | From Dridex To Macaw, The Evolution of Evil Corp",
+            "categories": [
+                "Dridex",
+                "FriedEx",
+                "Hades",
+                "Phoenix Locker",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://seguranca-informatica.pt/wastedlocker-malware-analysis/#.YfAaIRUITTY.twitter",
+            "date": "2022-01-25",
+            "organization": "Seguranca Informatica",
+            "author": "Pedro Tavares",
+            "title": "WastedLocker malware analysis",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/cycraft/the-road-to-ransomware-resilience-c1ca37036efd",
+            "date": "2022-01-24",
+            "organization": "CyCraft",
+            "author": "CyCraft AI",
+            "title": "The Road to Ransomware Resilience, Part 2: Behavior Analysis",
+            "categories": [
+                "Conti",
+                "Prometheus",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/The_Ransomware_Threat_September_2021.pdf",
+            "date": "2021-08-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "The Ransomware Threat",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "DarkSide",
+                "Avaddon",
+                "Babuk",
+                "BADHATCH",
+                "BazarBackdoor",
+                "BlackMatter",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Egregor",
+                "Emotet",
+                "FiveHands",
+                "FriedEx",
+                "Hades",
+                "IcedID",
+                "LockBit",
+                "Maze",
+                "MegaCortex",
+                "MimiKatz",
+                "QakBot",
+                "RagnarLocker",
+                "REvil",
+                "Ryuk",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/first-step-initial-access-leads-ransomware",
+            "date": "2021-06-16",
+            "organization": "Proofpoint",
+            "author": "Selena Larson",
+            "title": "The First Step: Initial Access Leads to Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Egregor",
+                "IcedID",
+                "Maze",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/new-evil-corp-ransomware-mimics-payloadbin-gang-to-evade-us-sanctions/",
+            "date": "2021-06-06",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "New Evil Corp ransomware mimics PayloadBin gang to evade US sanctions",
+            "categories": [
+                "Babuk",
+                "FriedEx",
+                "PayloadBIN",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/2021/05/26/deep-dive-packing-software-cryptone/",
+            "date": "2021-05-26",
+            "organization": "DeepInstinct",
+            "author": "Ron Ben Yizhak",
+            "title": "A Deep Dive into Packing Software CryptOne",
+            "categories": [
+                "Cobalt Strike",
+                "Dridex",
+                "Emotet",
+                "Gozi",
+                "ISFB",
+                "Mailto",
+                "QakBot",
+                "SmokeLoader",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
+            "date": "2021-05-20",
+            "organization": "Github (microsoft)",
+            "author": "Microsoft",
+            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
+            "categories": [
+                "STRRAT",
+                "OceanLotus",
+                "BabyShark",
+                "Elise",
+                "Revenge RAT",
+                "WastedLocker",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/397/Bitdefender-PR-Whitepaper-RIG-creat5362-en-EN.pdf",
+            "date": "2021-05-18",
+            "organization": "Bitdefender",
+            "author": "Mihai Neagu",
+            "title": "New WastedLoader Campaign Delivered Through RIG Exploit Kit",
+            "categories": [
+                "WastedLoader",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://blog.truesec.com/2021/05/05/are-the-notorious-cyber-criminals-evil-corp-actually-russian-spies/",
+            "date": "2021-05-05",
+            "organization": "TRUESEC",
+            "author": "Mattias W\u00e5hl\u00e9n",
+            "title": "Are The Notorious Cyber Criminals Evil Corp actually Russian Spies?",
+            "categories": [
+                "Cobalt Strike",
+                "Hades",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/evil-corp-switches-to-hades-ransomware-to-evade-sanctions/",
+            "date": "2021-03-25",
+            "organization": "Bleeping Computer",
+            "author": "Sergiu Gatlan",
+            "title": "Evil Corp switches to Hades ransomware to evade sanctions",
+            "categories": [
+                "Hades",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/insurance-giant-cna-hit-by-new-phoenix-cryptolocker-ransomware/",
+            "date": "2021-03-25",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Insurance giant CNA hit by new Phoenix CryptoLocker ransomware",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/03/ctir-trends-winter-2020-21.html",
+            "date": "2021-03-24",
+            "organization": "Cisco",
+            "author": "David Liebenberg",
+            "title": "Quarterly Report: Incident Response trends from Winter 2020-21",
+            "categories": [
+                "Egregor",
+                "REvil",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/hades-ransomware-successor-to-indrik-spiders-wastedlocker/",
+            "date": "2021-03-17",
+            "organization": "CrowdStrike",
+            "author": "Adam Podlosky",
+            "title": "INDRIK SPIDER Supersedes WastedLocker with Hades Ransomware to Circumvent OFAC Sanctions",
+            "categories": [
+                "FriedEx",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/Unit_42/unit42-ransomware-threat-report-2021.pdf",
+            "date": "2021-03-17",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit42",
+            "title": "Ransomware Threat Report 2021",
+            "categories": [
+                "RansomEXX",
+                "Dharma",
+                "DoppelPaymer",
+                "Gandcrab",
+                "Mailto",
+                "Maze",
+                "Phobos",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+            "date": "2021-02-23",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2021 Global Threat Report",
+            "categories": [
+                "RansomEXX",
+                "Amadey",
+                "Anchor",
+                "Avaddon",
+                "BazarBackdoor",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "Cutwail",
+                "DanaBot",
+                "DarkSide",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Hakbit",
+                "IcedID",
+                "JSOutProx",
+                "KerrDown",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "NedDnLoader",
+                "Nemty",
+                "Pay2Key",
+                "PlugX",
+                "Pushdo",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "Quasar RAT",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Sekhmet",
+                "ShadowPad",
+                "SmokeLoader",
+                "Snake",
+                "SUNBURST",
+                "SunCrypt",
+                "TEARDROP",
+                "TrickBot",
+                "WastedLocker",
+                "Winnti",
+                "Zloader",
+                "KNOCKOUT SPIDER",
+                "OUTLAW SPIDER",
+                "RIDDLE SPIDER",
+                "SOLAR SPIDER",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-drake",
+            "date": "2021",
+            "organization": "",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD DRAKE",
+            "categories": [
+                "Cobalt Strike",
+                "Dridex",
+                "FriedEx",
+                "Koadic",
+                "MimiKatz",
+                "WastedLocker",
+                "Evil Corp"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-services/insights/what-is-behind-ransomware-attacks-increase.html",
+            "date": "2020-09-29",
+            "organization": "PWC UK",
+            "author": "Andy Auld",
+            "title": "What's behind the increase in ransomware attacks this year?",
+            "categories": [
+                "DarkSide",
+                "Avaddon",
+                "Clop",
+                "Conti",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FriedEx",
+                "Mailto",
+                "PwndLocker",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "SMAUG",
+                "SunCrypt",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/double-trouble-ransomware-data-leak-extortion-part-1/",
+            "date": "2020-09-25",
+            "organization": "CrowdStrike",
+            "author": "The Crowdstrike Intel Team",
+            "title": "Double Trouble: Ransomware with Data Leak Extortion, Part 1",
+            "categories": [
+                "DoppelPaymer",
+                "FriedEx",
+                "LockBit",
+                "Maze",
+                "MedusaLocker",
+                "RagnarLocker",
+                "REvil",
+                "RobinHood",
+                "SamSam",
+                "WastedLocker",
+                "MIMIC SPIDER",
+                "PIZZO SPIDER",
+                "TA2101",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/SED-Threats-Financial-Sector.pdf",
+            "date": "2020-08-31",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Sophisticated Groups and Cyber Criminals Set Sights on Lucrative Financial Sector",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://kc.mcafee.com/corporate/index?page=content&id=KB93302&locale=en_US",
+            "date": "2020-08-28",
+            "organization": "McAfee",
+            "author": "McAfee",
+            "title": "MVISION Insights: Wastedlocker Ransomware",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://ioc.hatenablog.com/entry/2020/08/16/132853",
+            "date": "2020-08-16",
+            "organization": "Hatena Blog",
+            "author": "\u8c37\u5ddd\u54f2\u53f8",
+            "title": "WastedLocker IoC collection",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/08/04/wastedlocker-techniques-point-to-a-familiar-heritage/",
+            "date": "2020-08-04",
+            "organization": "SophosLabs Uncut",
+            "author": "Mark Loman",
+            "title": "WastedLocker\u2019s techniques point to a familiar heritage",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/wastedlocker-technical-analysis/97944/",
+            "date": "2020-07-31",
+            "organization": "Kaspersky Labs",
+            "author": "Fedor Sinitsyn",
+            "title": "WastedLocker: technical analysis",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/wastedlocker/",
+            "date": "2020-07-30",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Alex Hinchliffe",
+            "title": "Threat Assessment: WastedLocker Ransomware",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.securonix.com/web/wp-content/uploads/2020/08/Securonix_Threat_Research_WastedLocker_Ransomware.pdf",
+            "date": "2020-07-28",
+            "organization": "Securonix",
+            "author": "Oleg Kolesnikov",
+            "title": "Detecting WastedLocker Ransomware Using Security Analytics",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/garmin-outage-caused-by-confirmed-wastedlocker-ransomware-attack/",
+            "date": "2020-07-24",
+            "organization": "BleepingComputer",
+            "author": "Sergiu Gatlan",
+            "title": "Garmin outage caused by confirmed WastedLocker ransomware attack",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/wastedlocker-ransomware-abusing-ads-and-ntfs-file-attributes/",
+            "date": "2020-07-23",
+            "organization": "Sentinel LABS",
+            "author": "Jim Walter",
+            "title": "WastedLocker Ransomware: Abusing ADS and NTFS File Attributes",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-spotlight/2020/07/threat-spotlight-wastedlocker-customized-ransomware/",
+            "date": "2020-07-10",
+            "organization": "Malwarebytes",
+            "author": "Pieter Arntz",
+            "title": "Threat spotlight: WastedLocker, customized ransomware",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/07/wastedlocker-emerges.html",
+            "date": "2020-07-06",
+            "organization": "Cisco Talos",
+            "author": "Ben Baker",
+            "title": "WastedLocker Goes \"Big-Game Hunting\" in 2020",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://areteir.com/wp-content/uploads/2020/07/Ransomware-WastedLocker-1.pdf",
+            "date": "2020-07",
+            "organization": "Arete",
+            "author": "Arete Incident Response",
+            "title": "WastedLocker Ransomware Insights",
+            "categories": [
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/wastedlocker-ransomware-us",
+            "date": "2020-06-26",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "WastedLocker: Symantec Identifies Wave of Attacks Against U.S. Organizations",
+            "categories": [
+                "donut_injector",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.bbc.com/news/world-us-canada-53195749",
+            "date": "2020-06-26",
+            "organization": "BBC",
+            "author": "BBC News",
+            "title": "Russian hacker group Evil Corp targets US workers at home",
+            "categories": [
+                "WastedLocker",
+                "Evil Corp"
+            ]
+        },
+        {
+            "data_url": "https://research.nccgroup.com/2020/06/23/wastedlocker-a-new-ransomware-variant-developed-by-the-evil-corp-group/",
+            "date": "2020-06-23",
+            "organization": "NCC Group",
+            "author": "Nikolaos Pantazopoulos",
+            "title": "WastedLocker: A New Ransomware Variant Developed By The Evil Corp Group",
+            "categories": [
+                "Cobalt Strike",
+                "ISFB",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/wastedloader-or-dridexloader-4f47c9b3ae77",
+            "date": "2020-05-31",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "WastedLoader or DridexLoader?",
+            "categories": [
+                "Dridex",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/wastedlocker-ransomware/",
+            "date": "2020",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit42",
+            "title": "Wastedlocker-ransomware",
+            "categories": [
+                "WastedLocker"
+            ]
+        }
+    ]
 };

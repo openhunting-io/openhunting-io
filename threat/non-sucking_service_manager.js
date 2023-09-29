@@ -27,5 +27,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "non-sucking_service_manager",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

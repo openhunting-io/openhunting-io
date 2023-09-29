@@ -32,5 +32,49 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "goznym",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.europol.europa.eu/newsroom/news/goznym-malware-cybercriminal-network-dismantled-in-international-operation",
+            "date": "2019-05-16",
+            "organization": "Europol",
+            "author": "Europol",
+            "title": "GOZNYM MALWARE: CYBERCRIMINAL NETWORK DISMANTLED IN INTERNATIONAL OPERATION",
+            "categories": [
+                "GozNym"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/goznym-banking-trojan-targeting-german-banks/120075/",
+            "date": "2016-08-23",
+            "organization": "Threatpost",
+            "author": "Chris Brook",
+            "title": "GozNym Banking Trojan Targeting German Banks",
+            "categories": [
+                "GozNym"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/attackers-behind-goznym-trojan-set-sights-on-europe/117647/",
+            "date": "2016-04-25",
+            "organization": "Threat Post",
+            "author": "Chris Brook",
+            "title": "Attackers Behind GozNym Trojan Set Sights on Europe",
+            "categories": [
+                "GozNym"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/meet-goznym-the-banking-malware-offspring-of-gozi-isfb-and-nymaim/",
+            "date": "2016-04-14",
+            "organization": "SecurityIntelligence",
+            "author": "Limor Kessem",
+            "title": "Meet GozNym: The Banking Malware Offspring of Gozi ISFB and Nymaim",
+            "categories": [
+                "ISFB",
+                "Nymaim",
+                "GozNym"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Ficker Stealer",
     "category": "Malware",
     "type": "Info stealer, Credential stealer",
-    "modified": "2021-04-24",
+    "modified": "2022-01-19",
     "all_data": {
         "tool": "Ficker Stealer",
         "names": [
@@ -368,5 +368,121 @@ var threatdata = {
     "last_ioc_update": "2023-03-21 23:48:21",
     "mitre": [],
     "file_name": "ficker_stealer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/01/kraken-the-code-on-prometheus",
+            "date": "2022-01-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Kraken the Code on Prometheus",
+            "categories": [
+                "Prometheus Backdoor",
+                "BlackMatter",
+                "Cerber",
+                "Cobalt Strike",
+                "DCRat",
+                "Ficker Stealer",
+                "QakBot",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/08/threat-thursday-ficker-infostealer-malware",
+            "date": "2021-08-12",
+            "organization": "Blackberry",
+            "author": "BlackBerry Research & Intelligence Team",
+            "title": "Threat Thursday: Ficker Infostealer Malware",
+            "categories": [
+                "Ficker Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberark.com/resources/threat-research-blog/fickerstealer-a-new-rust-player-in-the-market",
+            "date": "2021-07-19",
+            "organization": "CyberArk",
+            "author": "Ben Cohen",
+            "title": "FickerStealer: A New Rust Player in the Market",
+            "categories": [
+                "Ficker Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.binarydefense.com/analysis-of-hancitor-when-boring-begets-beacon",
+            "date": "2021-06-17",
+            "organization": "Binary Defense",
+            "author": "Brandon George",
+            "title": "Analysis of Hancitor \u2013 When Boring Begets Beacon",
+            "categories": [
+                "Cobalt Strike",
+                "Ficker Stealer",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.com/custom-content/uploads/2021/04/Botnet-update-Q1-2021.pdf",
+            "date": "2021-04-22",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2021",
+            "categories": [
+                "Emotet",
+                "Ficker Stealer",
+                "Raccoon"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/fake-microsoft-store-spotify-sites-spread-info-stealing-malware/",
+            "date": "2021-04-20",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Fake Microsoft Store, Spotify sites spread info-stealing malware",
+            "categories": [
+                "Ficker Stealer"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/03/HP_Bromium_Threat_Insights_Report_Q4_2020.pdf",
+            "date": "2021-03-17",
+            "organization": "HP",
+            "author": "HP Bromium",
+            "title": "Threat Insights Report Q4-2020",
+            "categories": [
+                "Agent Tesla",
+                "BitRAT",
+                "ComodoSec",
+                "Dridex",
+                "Emotet",
+                "Ficker Stealer",
+                "Formbook",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/csis-techblog/gcleaner-garbage-provider-since-2019-2708e7c87a8a",
+            "date": "2021-01-18",
+            "organization": "Medium csis-techblog",
+            "author": "Beno\u00eet Ancel",
+            "title": "GCleaner \u2014 Garbage Provider Since 2019",
+            "categories": [
+                "Amadey",
+                "Ficker Stealer",
+                "Raccoon",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "STOP"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/3xp0rtblog/status/1321209656774135810",
+            "date": "2020-10-27",
+            "organization": "Twitter (@3xp0rtblog)",
+            "author": "3xp0rt",
+            "title": "Tweet on Ficker Stealer",
+            "categories": [
+                "Ficker Stealer"
+            ]
+        }
+    ]
 };

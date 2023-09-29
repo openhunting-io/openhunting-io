@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Ranbyus",
     "category": "Malware",
     "type": "Banking trojan, Backdoor, Info stealer, Credential stealer, Botnet",
-    "modified": "2020-05-22",
+    "modified": "2022-04-27",
     "all_data": {
         "tool": "Ranbyus",
         "names": [
@@ -37,5 +37,87 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ranbyus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
+            "date": "2022-04-27",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "LE GROUPE CYBERCRIMINEL FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "SQLRat",
+                "POWERSOURCE",
+                "Andromeda",
+                "BABYMETAL",
+                "BlackCat",
+                "BlackMatter",
+                "BOOSTWRITE",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "Dridex",
+                "DRIFTPIN",
+                "Gameover P2P",
+                "MimiKatz",
+                "Murofet",
+                "Qadars",
+                "Ranbyus",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.group-ib.ru/brochures/Group-IB-Corkow-Report-EN.pdf",
+            "date": "2016",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "Analysis of Attacks against Trading and Bank Card Systems",
+            "categories": [
+                "Ranbyus"
+            ]
+        },
+        {
+            "data_url": "https://bin.re/blog/the-dga-of-ranbyus/",
+            "date": "2015-05-22",
+            "organization": "Johannes Bader Blog",
+            "author": "Johannes Bader",
+            "title": "The DGA of Ranbyus",
+            "categories": [
+                "Ranbyus"
+            ]
+        },
+        {
+            "data_url": "http://www.xylibox.com/2013/01/trojanwin32spyranbyus.html",
+            "date": "2013-01-27",
+            "organization": "Xylibox Blog",
+            "author": "Xylitol",
+            "title": "Trojan.Win32/Spy.Ranbyus",
+            "categories": [
+                "Ranbyus"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2012/12/19/win32spy-ranbyus-modifying-java-code-in-rbs/",
+            "date": "2012-12-19",
+            "organization": "ESET Research",
+            "author": "Aleksandr Matrosov",
+            "title": "Win32/Spy.Ranbyus modifying Java code in RBS Ukraine systems",
+            "categories": [
+                "Ranbyus"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2012/06/05/smartcard-vulnerabilities-in-modern-banking-malware/",
+            "date": "2012-06-05",
+            "organization": "ESET Research",
+            "author": "Aleksandr Matrosov",
+            "title": "Smartcard vulnerabilities in modern banking malware",
+            "categories": [
+                "Ranbyus"
+            ]
+        }
+    ]
 };

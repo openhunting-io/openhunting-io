@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "apocalipto",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.visakorea.com/dam/VCOM/download/merchants/Grocery_Malware_04242013.pdf",
+            "date": "2013-04",
+            "organization": "VISA",
+            "author": "VISA",
+            "title": "Payment Processing Threats Impacting Grocery Store Merchants",
+            "categories": [
+                "Apocalipto"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "dboxagent",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.malwarebytes.com/blog/threat-intelligence/2022/winnti-apt-group-docks-in-sri-lanka-for-new-campaign-final.pdf",
+            "date": "2020-10-12",
+            "organization": "Malwarebytes Labs",
+            "author": "Roberto Santos",
+            "title": "Winnti APT group docks in Sri Lanka for new campaign",
+            "categories": [
+                "DBoxAgent",
+                "SerialVlogger",
+                "Winnti"
+            ]
+        }
+    ]
 };

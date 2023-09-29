@@ -33,5 +33,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "gophe",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/strictlymike/presentations/tree/master/2020/2020.02.08_BSidesHuntsville",
+            "date": "2020-02-08",
+            "organization": "FireEye",
+            "author": "Michael Bailey",
+            "title": "Reversing the Gophe SPambot: Confronting COM Code and Surmounting STL Snags",
+            "categories": [
+                "Gophe"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/dyre-malware-campaigners-innovate-distribution-techniques",
+            "date": "2015-10-08",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Dyre Malware Campaigners Innovate with Distribution Techniques",
+            "categories": [
+                "Gophe"
+            ]
+        }
+    ]
 };

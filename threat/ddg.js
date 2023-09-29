@@ -37,5 +37,57 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ddg",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.netlab.360.com/ddg-a-mining-botnet-aiming-at-database-servers/",
+            "date": "2021-02-01",
+            "organization": "Netlab",
+            "author": "JiaYu",
+            "title": "DDG: A Mining Botnet Aiming at Database Servers",
+            "categories": [
+                "DDG"
+            ]
+        },
+        {
+            "data_url": "https://blog.netlab.360.com/ddg-botnet-round-x-is-there-an-ending/",
+            "date": "2020-04-08",
+            "organization": "Netlab",
+            "author": "JiaYu",
+            "title": "DDG botnet, round X, is there an ending?",
+            "categories": [
+                "DDG"
+            ]
+        },
+        {
+            "data_url": "https://blog.netlab.360.com/threat-alert-ddg-3013-is-out/",
+            "date": "2018-08-01",
+            "organization": "Netlab",
+            "author": "JiaYu",
+            "title": "Threat Alert: DDG 3013 is Out",
+            "categories": [
+                "DDG"
+            ]
+        },
+        {
+            "data_url": "https://blog.netlab.360.com/old-botnets-never-die-and-ddg-refuse-to-fade-away/",
+            "date": "2018-07-12",
+            "organization": "Netlab",
+            "author": "JiaYu",
+            "title": "Old Botnets never Die, and DDG REFUSE to Fade Away",
+            "categories": [
+                "DDG"
+            ]
+        },
+        {
+            "data_url": "https://blog.netlab.360.com/ddg-mining-botnet-jin-qi-huo-dong-fen-xi/",
+            "date": "2018-06-13",
+            "organization": "Netlab",
+            "author": "JiaYu",
+            "title": "DDG.Mining.Botnet \u8fd1\u671f\u6d3b\u52a8\u5206\u6790",
+            "categories": [
+                "DDG"
+            ]
+        }
+    ]
 };

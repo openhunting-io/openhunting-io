@@ -31,5 +31,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "wscspl",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://ti.qianxin.com/blog/articles/analysis-of-targeted-attack-against-pakistan-by-exploiting-inpage-vulnerability-and-related-apt-groups-english/",
+            "date": "2018-11-29",
+            "organization": "360 Threat Intelligence",
+            "author": "Threat Intelligence Center",
+            "title": "Analysis Of Targeted Attack Against Pakistan By Exploiting InPage Vulnerability And Related APT Groups",
+            "categories": [
+                "BioData",
+                "Bitter RAT",
+                "WSCSPL"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "QUIETEXIT",
     "category": "Malware",
     "type": "Backdoor, Tunneling",
-    "modified": "2022-12-27",
+    "modified": "2023-04-18",
     "all_data": {
         "tool": "QUIETEXIT",
         "names": [
@@ -31,5 +31,47 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "quietexit",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://mandiant.widen.net/s/pkffwrbjlz/m-trends-2023",
+            "date": "2023-04-18",
+            "organization": "Mandiant",
+            "author": "Mandiant",
+            "title": "M-Trends 2023",
+            "categories": [
+                "QUIETEXIT",
+                "AppleJeus",
+                "Black Basta",
+                "BlackCat",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "Dharma",
+                "HermeticWiper",
+                "Hive",
+                "INDUSTROYER2",
+                "Ladon",
+                "LockBit",
+                "Meterpreter",
+                "PartyTicket",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Royal Ransom",
+                "SystemBC",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/unc3524-eye-spy-email",
+            "date": "2022-05-02",
+            "organization": "Mandiant",
+            "author": "Doug Bienstock",
+            "title": "UNC3524: Eye Spy on Your Email",
+            "categories": [
+                "QUIETEXIT",
+                "UNC3524"
+            ]
+        }
+    ]
 };

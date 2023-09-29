@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "godlua",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.netlab.360.com/an-analysis-of-godlua-backdoor-en/",
+            "date": "2019-07-01",
+            "organization": "360 netlab",
+            "author": "Alex Turing",
+            "title": "An Analysis of Godlua Backdoor",
+            "categories": [
+                "Godlua"
+            ]
+        }
+    ]
 };

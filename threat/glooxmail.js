@@ -37,7 +37,29 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "glooxmail",
+            "procedure_code": "s0026",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0026",
+            "techniques": [
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1102.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1102/002",
+                    "technique_name": "web service : bidirectional communication",
+                    "technique_description": "adversaries may use an existing, legitimate external web service as a means for sending commands to and receiving output from a compromised system over the web service channel. compromised systems may leverage popular websites and social media to host command and control (c2) instructions. those infected systems can then send the output from those commands back over that web service channel. the return traffic may occur in a variety of ways, depending on the web service being utilized. for example, the return traffic may take the form of the compromised system posting a comment on a forum, issuing a pull request to development project, updating a document hosted on a web service, or by sending a tweet.",
+                    "procedure_description": "glooxmail communicates to servers operated by google using the jabber/xmpp protocol.[13][28]"
+                }
+            ]
+        }
+    ],
     "file_name": "glooxmail",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

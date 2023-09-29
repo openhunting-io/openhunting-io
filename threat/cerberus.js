@@ -321,5 +321,235 @@ var threatdata = {
     "last_ioc_update": "2023-09-15 06:16:17",
     "mitre": [],
     "file_name": "cerberus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://resecurity.com/blog/article/in-the-box-mobile-malware-webinjects-marketplace",
+            "date": "2022-11-25",
+            "organization": "Resecurity",
+            "author": "Resecurity",
+            "title": "\"In The Box\" - Mobile Malware Webinjects Marketplace",
+            "categories": [
+                "Alien",
+                "Cerberus",
+                "Coper",
+                "ERMAC",
+                "Hydra"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-state-of-stalkerware-in-2021/106193/",
+            "date": "2022-04-12",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "The State of Stalkerware in 2021",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2022/04/12075509/EN_The-State-of-Stalkerware-2021.pdf",
+            "date": "2022-04-01",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "The State of Stalkerware in 2021",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html",
+            "date": "2021-09-22",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "ERMAC - another Cerberus reborn",
+            "categories": [
+                "AmpleBot",
+                "Cerberus",
+                "ERMAC"
+            ]
+        },
+        {
+            "data_url": "https://nur.pub/cerberus-analysis",
+            "date": "2021-06-16",
+            "organization": "nur.pub",
+            "author": "Twitter (@1umos_)",
+            "title": "Cerberus Analysis - Android Banking Trojan",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/85b3db8c",
+            "date": "2021-02-24",
+            "organization": "RiskIQ",
+            "author": "Jordan Herman",
+            "title": "Turkey Dog: Cerberus and Anubis Banking Trojans Target Turkish Speakers",
+            "categories": [
+                "Anubis",
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyberint.com/cerberus-is-dead-long-live-cerberus",
+            "date": "2020-11-05",
+            "organization": "CyberInt",
+            "author": "CyberInt",
+            "title": "Cerberus is Dead, Long Live Cerberus?",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2020-1016.pdf",
+            "date": "2020-10-16",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Banking Web Injects Are Top Cyber Threat For Financial Sector",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://preyproject.com/blog/en/cerberus-and-alien-the-malware-that-has-put-android-in-a-tight-spot/",
+            "date": "2020-09-29",
+            "organization": "The Missing Report",
+            "author": "Norman Guti\u00e9rrez",
+            "title": "Cerberus and Alien: the malware that has put Android in a tight spot",
+            "categories": [
+                "Alien",
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://labs.bitdefender.com/2020/09/apps-on-google-play-tainted-with-cerberus-banker-malware/",
+            "date": "2020-09-24",
+            "organization": "Bitdefender",
+            "author": "Alexandra Bocereg",
+            "title": "Apps on Google Play Tainted with Cerberus Banker Malware",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/alien_the_story_of_cerberus_demise.html",
+            "date": "2020-09-24",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "Alien - the story of Cerberus' demise",
+            "categories": [
+                "Alien",
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://github.com/ics-iot-bootcamp/cerberus_research",
+            "date": "2020-08-31",
+            "organization": "Github (ics-iot-bootcamp)",
+            "author": "Ali R\u0131za \u015eahinkaya",
+            "title": "Cerberus Banking Trojan Research",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://www.biznet.com.tr/wp-content/uploads/2020/08/Cerberus.pdf",
+            "date": "2020-08-28",
+            "organization": "CYBERWISE",
+            "author": "Ali R\u0131za \u015eahinkaya",
+            "title": "Cerberus Banking Trojan Analysis",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://bushidotoken.blogspot.com/2020/05/turkey-targeted-by-cerberus-and-anubis.html",
+            "date": "2020-05-09",
+            "organization": "BushidoToken",
+            "author": "BushidoToken",
+            "title": "Turkey targeted by Cerberus and Anubis Android banking Trojan campaigns",
+            "categories": [
+                "Anubis",
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://insights.oem.avira.com/in-depth-analysis-of-a-cerberus-trojan-variant/",
+            "date": "2020-03-28",
+            "organization": "Avira",
+            "author": "Avira Protection Labs",
+            "title": "In-depth analysis of a Cerberus trojan variant",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/2020_year_of_the_rat.html",
+            "date": "2020-02",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "2020 - Year of the RAT",
+            "categories": [
+                "Anubis",
+                "Cerberus",
+                "Ginp",
+                "Gustuff",
+                "Hydra"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
+            "date": "2019-12-12",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
+            "categories": [
+                "Cerberus",
+                "TSCookie",
+                "Cobalt Strike",
+                "Dtrack",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "Icefog",
+                "IRONHALO",
+                "Loki Password Stealer (PWS)",
+                "PandaBanker",
+                "PLEAD",
+                "poisonplug",
+                "TrickBot",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://www.forbes.com/sites/zakdoffman/2019/08/16/dangerous-new-android-trojan-hides-from-malware-researchers-and-taunts-them-on-twitter/",
+            "date": "2019-08-16",
+            "organization": "Forbes",
+            "author": "Zak Doffman",
+            "title": "Warning As Devious New Android Malware Hides In Fake Adobe Flash Player Installations (Updated)",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/cerberus-a-new-banking-trojan-from-the-underworld.html",
+            "date": "2019-08",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "Cerberus - A new banking Trojan from the underworld",
+            "categories": [
+                "Cerberus"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/AndroidCerberus",
+            "date": "2019-06",
+            "organization": "Twitter (@AndroidCerberus)",
+            "author": "Android Cerberus",
+            "title": "Twitter Account of Android Cerberus",
+            "categories": [
+                "Cerberus"
+            ]
+        }
+    ]
 };

@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "aperetif",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sentinelone.com/labs/winter-vivern-uncovering-a-wave-of-global-espionage/",
+            "date": "2023-03-16",
+            "organization": "SentinelOne",
+            "author": "Tom Hegel",
+            "title": "Winter Vivern | Uncovering a Wave of Global Espionage",
+            "categories": [
+                "APERETIF"
+            ]
+        }
+    ]
 };

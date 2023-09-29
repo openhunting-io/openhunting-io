@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "SystemBC, Coroxy",
     "category": "Malware",
     "type": "Backdoor, Tunneling",
-    "modified": "2022-12-28",
+    "modified": "2023-09-12",
     "all_data": {
         "tool": "SystemBC",
         "names": [
@@ -1681,5 +1681,519 @@ var threatdata = {
     "last_ioc_update": "2023-09-18 06:30:22",
     "mitre": [],
     "file_name": "systembc",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-007.pdf",
+            "date": "2023-09-12",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "FIN12: A Cybercriminal Group with Multiple Ransomware",
+            "categories": [
+                "BlackCat",
+                "Cobalt Strike",
+                "Conti",
+                "Hive",
+                "MimiKatz",
+                "Nokoyawa Ransomware",
+                "PLAY",
+                "Royal Ransom",
+                "Ryuk",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.logpoint.com/en/blog/emerging-threat/defending-against-8base/",
+            "date": "2023-08-23",
+            "organization": "Logpoint",
+            "author": "Anish Bogati",
+            "title": "Defending Against 8base: Uncovering Their Arsenal and Crafting Responses",
+            "categories": [
+                "8Base",
+                "SmokeLoader",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/focus-on-droxidat-systembc/110302/",
+            "date": "2023-08-10",
+            "organization": "Kaspersky",
+            "author": "Kurt Baumgartner",
+            "title": "Focus on DroxiDat/SystemBC",
+            "categories": [
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://blogs.vmware.com/security/2023/06/8base-ransomware-a-heavy-hitting-player.html",
+            "date": "2023-06-28",
+            "organization": "vmware",
+            "author": "Deborah Snyder",
+            "title": "8Base Ransomware: A Heavy Hitting Player",
+            "categories": [
+                "8Base",
+                "Phobos",
+                "SmokeLoader",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-conti-crypters-where-are-they-now/",
+            "date": "2023-06-27",
+            "organization": "SecurityIntelligence",
+            "author": "Charlotte Hammond",
+            "title": "The Trickbot/Conti Crypters: Where Are They Now?",
+            "categories": [
+                "Black Basta",
+                "Conti",
+                "Mount Locker",
+                "PhotoLoader",
+                "Royal Ransom",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.reliaquest.com/blog/gootloader-infection-credential-access/",
+            "date": "2023-06-22",
+            "organization": "Reliaquest",
+            "author": "Caroline Fenstermacher",
+            "title": "Goot to Loot - How a Gootloader Infection Led to Credential Access",
+            "categories": [
+                "GootLoader",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/hypervisor-jackpotting-lack-of-antivirus-support-opens-the-door-to-adversaries/",
+            "date": "2023-05-15",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "Hypervisor Jackpotting, Part 3: Lack of Antivirus Support Opens the Door to Adversary Attacks",
+            "categories": [
+                "BlackCat",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/play-ransomware-volume-shadow-copy",
+            "date": "2023-04-19",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Play Ransomware Group Using New Custom Data-Gathering Tools",
+            "categories": [
+                "PLAY",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://mandiant.widen.net/s/pkffwrbjlz/m-trends-2023",
+            "date": "2023-04-18",
+            "organization": "Mandiant",
+            "author": "Mandiant",
+            "title": "M-Trends 2023",
+            "categories": [
+                "QUIETEXIT",
+                "AppleJeus",
+                "Black Basta",
+                "BlackCat",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "Dharma",
+                "HermeticWiper",
+                "Hive",
+                "INDUSTROYER2",
+                "Ladon",
+                "LockBit",
+                "Meterpreter",
+                "PartyTicket",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Royal Ransom",
+                "SystemBC",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.esentire.com/blog/esentire-threat-intelligence-malware-analysis-batloader",
+            "date": "2023-03-30",
+            "organization": "eSentire",
+            "author": "eSentire Threat Response Unit (TRU)",
+            "title": "eSentire Threat Intelligence Malware Analysis: BatLoader",
+            "categories": [
+                "BATLOADER",
+                "Cobalt Strike",
+                "ISFB",
+                "SystemBC",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20230209123148/https://www.cybereason.com/hubfs/THREAT%20ALERT%20GootLoader%20-%20Large%20payload%20leading%20to%20compromise%20(BLOG).pdf",
+            "date": "2023-02-14",
+            "organization": "Cybereason",
+            "author": "Cybereason Incident Response (IR) team",
+            "title": "GootLoader - SEO Poisoning and Large Payloads Leading to Compromise",
+            "categories": [
+                "GootLoader",
+                "Cobalt Strike",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://cyber.wtf/2023/02/09/defeating-vmprotects-latest-tricks/",
+            "date": "2023-02-09",
+            "organization": "cyber.wtf blog",
+            "author": "Hendrik Eckardt",
+            "title": "Defeating VMProtect\u2019s Latest Tricks",
+            "categories": [
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.kroll.com/en/insights/publications/cyber/black-basta-technical-analysis",
+            "date": "2023-01-23",
+            "organization": "Kroll",
+            "author": "Stephen Green",
+            "title": "Black Basta \u2013 Technical Analysis",
+            "categories": [
+                "Black Basta",
+                "Cobalt Strike",
+                "MimiKatz",
+                "QakBot",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.intrinsec.com/proxynotshell-owassrf-merry-xchange/",
+            "date": "2023-01-16",
+            "organization": "Intrinsec",
+            "author": "Intrinsec",
+            "title": "ProxyNotShell \u2013 OWASSRF \u2013 Merry Xchange",
+            "categories": [
+                "Cobalt Strike",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://docs.velociraptor.app/exchange/artifacts/pages/systembc/",
+            "date": "2022-10-28",
+            "organization": "velociraptor",
+            "author": "Matt Green",
+            "title": "Windows.Carving.SystemBC - SystemBC RAT configuration Purser for Velociraptor",
+            "categories": [
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/47766fbd",
+            "date": "2022-10-10",
+            "organization": "RiskIQ",
+            "author": "Microsoft Threat Intelligence Center (MSTIC)",
+            "title": "DEV-0832 Leverages Commodity Tools in Opportunistic Ransomware Campaigns",
+            "categories": [
+                "BlackCat",
+                "Mount Locker",
+                "SystemBC",
+                "Zeppelin"
+            ]
+        },
+        {
+            "data_url": "https://www.bitsight.com/blog/systembc-multipurpose-proxy-bot-still-breathes",
+            "date": "2022-09-21",
+            "organization": "BitSight",
+            "author": "Jo\u00e3o Batista",
+            "title": "SystemBC: The Multipurpose Proxy Bot Still Breathes",
+            "categories": [
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-249a",
+            "date": "2022-09-06",
+            "organization": "CISA",
+            "author": "US-CERT",
+            "title": "Alert (AA22-249A) #StopRansomware: Vice Society",
+            "categories": [
+                "Cobalt Strike",
+                "Empire Downloader",
+                "FiveHands",
+                "HelloKitty",
+                "SystemBC",
+                "Zeppelin"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/08/modernloader-delivers-multiple-stealers.html",
+            "date": "2022-08-30",
+            "organization": "Cisco",
+            "author": "Vanja Svajcer",
+            "title": "ModernLoader delivers multiple stealers, cryptominers and RATs",
+            "categories": [
+                "Coinminer",
+                "DCRat",
+                "ModernLoader",
+                "RedLine Stealer",
+                "SapphireMiner",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.elastic.co/security-labs/cuba-ransomware-campaign-analysis",
+            "date": "2022-06-01",
+            "organization": "Elastic",
+            "author": "Daniel Stepanic",
+            "title": "CUBA Ransomware Campaign Analysis",
+            "categories": [
+                "Cobalt Strike",
+                "Cuba",
+                "Meterpreter",
+                "MimiKatz",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.bitsight.com/blog/emotet-botnet-rises-again",
+            "date": "2022-05-24",
+            "organization": "BitSight",
+            "author": "Jo\u00e3o Batista",
+            "title": "Emotet Botnet Rises Again",
+            "categories": [
+                "Cobalt Strike",
+                "Emotet",
+                "QakBot",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+            "date": "2022-05-09",
+            "organization": "Microsoft Security",
+            "author": "Microsoft Threat Intelligence Center",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "Griffon",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Gozi",
+                "LockBit",
+                "Pandora",
+                "Rook",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/33600/",
+            "date": "2022-04-12",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "SystemBC Being Used by Various Attackers",
+            "categories": [
+                "Emotet",
+                "SmokeLoader",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/systembc-powershell-version-68c9aad0f85c",
+            "date": "2022-03-04",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "SystemBC, PowerShell version",
+            "categories": [
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/chasing-avaddon-ransomware",
+            "date": "2022-01-19",
+            "organization": "Mandiant",
+            "author": "Adrian Sanchez Hernandez",
+            "title": "One Source to Rule Them All: Chasing AVADDON Ransomware",
+            "categories": [
+                "BlackMatter",
+                "Avaddon",
+                "BlackMatter",
+                "MedusaLocker",
+                "SystemBC",
+                "ThunderX"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/inside-the-systembc-malware-as-a-service-9aa03afd09c6",
+            "date": "2021-06-07",
+            "organization": "Medium walmartglobaltech",
+            "author": "Joshua Platt",
+            "title": "Inside the SystemBC Malware-As-A-Service",
+            "categories": [
+                "Ryuk",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.intel471.com/blog/Cobalt-strike-cybercriminals-trickbot-qbot-hancitor",
+            "date": "2021-05-19",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Look how many cybercriminals love Cobalt Strike",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Hancitor",
+                "QakBot",
+                "SmokeLoader",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.f-secure.com/blog/prelude-to-ransomware-systembc/",
+            "date": "2021-05-10",
+            "organization": "F-Secure",
+            "author": "Callum Roxan",
+            "title": "Prelude to Ransomware: SystemBC",
+            "categories": [
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/04/21/nearly-half-of-malware-now-use-tls-to-conceal-communications/",
+            "date": "2021-04-21",
+            "organization": "SophosLabs Uncut",
+            "author": "Sean Gallagher",
+            "title": "Nearly half of malware now use TLS to conceal communications",
+            "categories": [
+                "Agent Tesla",
+                "Cobalt Strike",
+                "Dridex",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/code-reuse-across-packers-and-dll-loaders",
+            "date": "2021-04-01",
+            "organization": "Reversing Labs",
+            "author": "Robert Simmons",
+            "title": "Code Reuse Across Packers and DLL Loaders",
+            "categories": [
+                "IcedID",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2021/02/melting-unc2198-icedid-to-ransomware-operations.html",
+            "date": "2021-02-25",
+            "organization": "FireEye",
+            "author": "Bryce Abdo",
+            "title": "So Unchill: Melting UNC2198 ICEDID to Ransomware Operations",
+            "categories": [
+                "MOUSEISLAND",
+                "Cobalt Strike",
+                "Egregor",
+                "IcedID",
+                "Maze",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/forums/diary/Excel+spreadsheets+push+SystemBC+malware/27060/",
+            "date": "2021-02-03",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Brad Duncan",
+            "title": "Excel spreadsheets push SystemBC malware",
+            "categories": [
+                "Cobalt Strike",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/12/16/systembc/",
+            "date": "2020-12-16",
+            "organization": "SophosLabs Uncut",
+            "author": "Sean Gallagher",
+            "title": "Ransomware operators use SystemBC RAT as off-the-shelf Tor backdoor",
+            "categories": [
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/",
+            "date": "2020-10-14",
+            "organization": "Sophos",
+            "author": "Sean Gallagher",
+            "title": "They\u2019re back: inside a new Ryuk ransomware attack",
+            "categories": [
+                "Cobalt Strike",
+                "Ryuk",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/systembc-christmas-july-socks5-malware-and-exploit-kits",
+            "date": "2019-07-31",
+            "organization": "Proofpoint",
+            "author": "Kade Harmon",
+            "title": "SystemBC is like Christmas in July for SOCKS5 Malware and Exploit Kits",
+            "categories": [
+                "SystemBC"
+            ]
+        }
+    ]
 };

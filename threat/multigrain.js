@@ -38,5 +38,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "multigrain",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.pandasecurity.com/mediacenter/malware/multigrain-malware-pos/",
+            "date": "2016-08-04",
+            "organization": "Panda Security",
+            "author": "Panda Security",
+            "title": "What is Multigrain? Learn what makes this PoS malware different",
+            "categories": [
+                "Multigrain POS"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2016/04/multigrain_pointo.html",
+            "date": "2016-04-19",
+            "organization": "FireEye",
+            "author": "Cian Lynch",
+            "title": "MULTIGRAIN \u2013 Point of Sale Attackers Make an Unhealthy Addition to the Pantry",
+            "categories": [
+                "Multigrain POS"
+            ]
+        }
+    ]
 };

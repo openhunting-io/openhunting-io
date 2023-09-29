@@ -33,5 +33,50 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "manitsme",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/securitykitten/malware_references/blob/master/Appendix%20C%20(Digital)%20-%20The%20Malware%20Arsenal.pdf",
+            "date": "2018",
+            "organization": "Mandiant",
+            "author": "Mandiant",
+            "title": "APT1",
+            "categories": [
+                "Auriga",
+                "Biscuit",
+                "Bouncer",
+                "Combos",
+                "CookieBag",
+                "Dairy",
+                "GetMail",
+                "GlooxMail",
+                "Goggles",
+                "Hacksfase",
+                "Helauto",
+                "Kurton",
+                "ManItsMe",
+                "MAPIget",
+                "MiniASP",
+                "NewsReels",
+                "SeaSalt",
+                "StarsyPound",
+                "Sword",
+                "TabMsgSQL",
+                "Tarsip",
+                "WebC2-AdSpace",
+                "WebC2-Ausov",
+                "WebC2-Bolid",
+                "WebC2-Cson",
+                "WebC2-DIV",
+                "WebC2-GreenCat",
+                "WebC2-Head",
+                "WebC2-Kt3",
+                "WebC2-Qbp",
+                "WebC2-Rave",
+                "WebC2-Table",
+                "WebC2-UGX",
+                "WebC2-Yahoo"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,31 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "commonmagic",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/cloudwizard-apt/109722/",
+            "date": "2023-05-19",
+            "organization": "Kaspersky Labs",
+            "author": "Leonid Bezvershenko",
+            "title": "CloudWizard APT: the bad magic story goes on",
+            "categories": [
+                "PowerMagic",
+                "CloudWizard",
+                "CommonMagic",
+                "Prikormka"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/bad-magic-apt/109087/?s=31",
+            "date": "2023-03-21",
+            "organization": "Kaspersky Labs",
+            "author": "Leonid Bezvershenko",
+            "title": "Bad magic: new APT found in the area of Russo-Ukrainian conflict",
+            "categories": [
+                "PowerMagic",
+                "CommonMagic"
+            ]
+        }
+    ]
 };

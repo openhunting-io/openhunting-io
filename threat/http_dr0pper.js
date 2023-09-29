@@ -38,5 +38,39 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "http_dr0pper",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sans.org/reading-room/whitepapers/critical/tracing-lineage-darkseoul-36787",
+            "date": "2016-03-04",
+            "organization": "SANS",
+            "author": "David Martin",
+            "title": "Tracing the Lineage of DarkSeoul",
+            "categories": [
+                "httpdropper"
+            ]
+        },
+        {
+            "data_url": "http://www.malware-reversing.com/2013/04/5-south-korea-incident-new-malware.html",
+            "date": "2013-04-24",
+            "organization": "",
+            "author": "R136a1",
+            "title": "South Korea Incident - New Malware samples",
+            "categories": [
+                "concealment_troy",
+                "httpdropper",
+                "http_troy"
+            ]
+        },
+        {
+            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2013/dissecting-operation-troy.pdf",
+            "date": "2013",
+            "organization": "McAfee",
+            "author": "Ryan Sherstobitoff",
+            "title": "Dissecting Operation Troy:  Cyberespionage in South Korea",
+            "categories": [
+                "httpdropper"
+            ]
+        }
+    ]
 };

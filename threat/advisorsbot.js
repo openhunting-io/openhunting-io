@@ -33,5 +33,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "advisorsbot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.bromium.com/second-stage-attack-analysis/",
+            "date": "2018-11-05",
+            "organization": "Bromium",
+            "author": "Josh Stroschein",
+            "title": "Data Talks: Deeper Down the Rabbit Hole: Second-Stage Attack and a Fileless Finale",
+            "categories": [
+                "AdvisorsBot"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/new-modular-downloaders-fingerprint-systems-part-2-advisorsbot",
+            "date": "2018-08-23",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "New modular downloaders fingerprint systems - Part 2: AdvisorsBot",
+            "categories": [
+                "AdvisorsBot"
+            ]
+        }
+    ]
 };

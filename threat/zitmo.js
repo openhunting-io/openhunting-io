@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "ZitMo, ZeuS-in-the-Mobile",
     "category": "Malware",
     "type": "Banking trojan, Backdoor, Info stealer, Credential stealer",
-    "modified": "2021-04-24",
+    "modified": "2021-05-14",
     "all_data": {
         "tool": "ZitMo",
         "names": [
@@ -36,5 +36,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "zitmo",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://mobisec.reyammer.io/slides",
+            "date": "2021-05-14",
+            "organization": "MOBISEC",
+            "author": "Yanick Fratantonio",
+            "title": "Slides & Recordings for Mobile security trainings",
+            "categories": [
+                "FlexiSpy",
+                "ZitMo"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/zeus-in-the-mobile-facts-and-theories/36424/",
+            "date": "2011-10-06",
+            "organization": "Kaspersky Labs",
+            "author": "Denis Maslennikov",
+            "title": "ZeuS-in-the-Mobile \u2013 Facts and Theories",
+            "categories": [
+                "ZitMo"
+            ]
+        }
+    ]
 };

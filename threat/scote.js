@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "scote",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/01/unit42-the-tophat-campaign-attacks-within-the-middle-east-region-using-popular-third-party-services/",
+            "date": "2018-01-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Josh Grunzweig",
+            "title": "The TopHat Campaign: Attacks Within The Middle East Region Using Popular Third-Party Services",
+            "categories": [
+                "Scote"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Termite",
     "category": "Tools",
     "type": "Backdoor, Tunneling, Exfiltration, Downloader",
-    "modified": "2020-05-14",
+    "modified": "2022-04-04",
     "all_data": {
         "tool": "Termite",
         "names": [
@@ -35,5 +35,43 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "termite",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/evolution-of-fin7",
+            "date": "2022-04-04",
+            "organization": "Mandiant",
+            "author": "Bryce Abdo",
+            "title": "FIN7 Power Hour: Adversary Archaeology and the Evolution of FIN7",
+            "categories": [
+                "Griffon",
+                "BABYMETAL",
+                "Carbanak",
+                "Cobalt Strike",
+                "JSSLoader",
+                "Termite"
+            ]
+        },
+        {
+            "data_url": "https://threatrecon.nshc.net/2019/03/19/sectorm04-targeting-singapore-custom-malware-analysis/",
+            "date": "2019-03-19",
+            "organization": "NSHC",
+            "author": "ThreatRecon Team",
+            "title": "SectorM04 Targeting Singapore \u2013 An Analysis",
+            "categories": [
+                "PlugX",
+                "Termite"
+            ]
+        },
+        {
+            "data_url": "https://www.alienvault.com/blogs/labs-research/internet-of-termites",
+            "date": "2019-03-06",
+            "organization": "AT&T",
+            "author": "Chris Doman",
+            "title": "Internet of Termites",
+            "categories": [
+                "Termite"
+            ]
+        }
+    ]
 };

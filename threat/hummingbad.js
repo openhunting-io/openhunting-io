@@ -35,5 +35,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hummingbad",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://blog.checkpoint.com/wp-content/uploads/2016/07/HummingBad-Research-report_FINAL-62916.pdf",
+            "date": "2016-07",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "From HummingBad to Worse",
+            "categories": [
+                "HummingBad"
+            ]
+        }
+    ]
 };

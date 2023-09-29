@@ -40,5 +40,57 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "fobber",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.govcert.admin.ch/blog/12/analysing-a-new-ebanking-trojan-called-fobber",
+            "date": "2015-09-11",
+            "organization": "GovCERT.ch",
+            "author": "GovCERT.ch",
+            "title": "Analysing a new eBanking Trojan called Fobber",
+            "categories": [
+                "Fobber"
+            ]
+        },
+        {
+            "data_url": "http://www.govcert.admin.ch/downloads/whitepapers/govcertch_fobber_analysis.pdf",
+            "date": "2015-09-11",
+            "organization": "GovCERT.ch",
+            "author": "GovCERT.ch",
+            "title": "Fobber Analysis",
+            "categories": [
+                "Fobber"
+            ]
+        },
+        {
+            "data_url": "http://byte-atlas.blogspot.ch/2015/08/knowledge-fragment-unwrapping-fobber.html",
+            "date": "2015-08-18",
+            "organization": "ByteAtlas",
+            "author": "Daniel Plohmann",
+            "title": "Knowledge Fragment: Unwrapping Fobber",
+            "categories": [
+                "Fobber"
+            ]
+        },
+        {
+            "data_url": "http://blog.wizche.ch/fobber/malware/analysis/2015/08/10/fobber-encryption.html",
+            "date": "2015-08-10",
+            "organization": "Coding Stuffs",
+            "author": "Sergio Paganoni",
+            "title": "Fobber Code Decryption",
+            "categories": [
+                "Fobber"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2015/06/elusive-hanjuan-ek-caught-in-new-malvertising-campaign/",
+            "date": "2015-06-24",
+            "organization": "Malwarebytes",
+            "author": "J\u00e9r\u00f4me Segura",
+            "title": "Elusive HanJuan EK Drops New Tinba Version (updated)",
+            "categories": [
+                "Fobber"
+            ]
+        }
+    ]
 };

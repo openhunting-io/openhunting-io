@@ -33,5 +33,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "mysterybot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/mysterybot__a_new_android_banking_trojan_ready_for_android_7_and_8.html",
+            "date": "2018-06",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "MysteryBot; a new Android banking Trojan ready for Android 7 and 8",
+            "categories": [
+                "MysteryBot"
+            ]
+        }
+    ]
 };

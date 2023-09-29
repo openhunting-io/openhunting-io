@@ -35,5 +35,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "lurk",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/malware-analysis-of-the-lurk-downloader",
+            "date": "2014-08-07",
+            "organization": "Secureworks",
+            "author": "Brett Stone-Gross",
+            "title": "Malware Analysis of the Lurk Downloader",
+            "categories": [
+                "Lurk"
+            ]
+        }
+    ]
 };

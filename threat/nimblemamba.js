@@ -33,5 +33,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "nimblemamba",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://thehackernews.com/2022/02/palestinian-hackers-using-new.html",
+            "date": "2022-02-08",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Palestinian Hackers Use New NimbleMamba Implant in Recent Attacks",
+            "categories": [
+                "NimbleMamba"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/ugg-boots-4-sale-tale-palestinian-aligned-espionage",
+            "date": "2022-02-08",
+            "organization": "Proofpoint",
+            "author": "Konstantin Klinger",
+            "title": "Ugg Boots 4 Sale: A Tale of Palestinian-Aligned Espionage",
+            "categories": [
+                "BrittleBush",
+                "NimbleMamba"
+            ]
+        }
+    ]
 };

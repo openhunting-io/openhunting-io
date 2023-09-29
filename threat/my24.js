@@ -30,5 +30,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "my24",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

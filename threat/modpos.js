@@ -40,5 +40,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "modpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://twitter.com/physicaldrive0/status/670258429202530306",
+            "date": "2015-11-27",
+            "organization": "Twitter (@PhysicalDrive0)",
+            "author": "PhysicalDrive0",
+            "title": "Tweet on ModPOS",
+            "categories": [
+                "ModPOS"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/11/modpos.html",
+            "date": "2015-11-24",
+            "organization": "FireEye",
+            "author": "Stephen Ward",
+            "title": "ModPOS: Highly-Sophisticated, Stealthy Malware Targeting US POS Systems with High Likelihood of Broader Campaigns",
+            "categories": [
+                "ModPOS"
+            ]
+        }
+    ]
 };

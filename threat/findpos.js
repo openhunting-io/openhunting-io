@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "FindPOS, PoSeidon",
     "category": "Malware",
     "type": "POS malware, Backdoor, Keylogger, Credential stealer",
-    "modified": "2020-05-25",
+    "modified": "2021-09-03",
     "all_data": {
         "tool": "FindPOS",
         "names": [
@@ -40,5 +40,67 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "findpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blogs.cisco.com/security/talos/poseidon",
+            "date": "2015-03-20",
+            "organization": "Cisco Talos",
+            "author": "Andrea Allievi",
+            "title": "Threat Spotlight: PoSeidon, A Deep Dive Into Point of Sale Malware",
+            "categories": [
+                "FindPOS"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2015/03/findpos-new-pos-malware-family-discovered/",
+            "date": "2015-03-19",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Josh Grunzweig",
+            "title": "FindPOS: New POS Malware Family Discovered",
+            "categories": [
+                "FindPOS"
+            ]
+        }
+    ]
 };

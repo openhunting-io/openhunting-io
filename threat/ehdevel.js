@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ehdevel",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://labs.bitdefender.com/2017/09/ehdevel-the-story-of-a-continuously-improving-advanced-threat-creation-toolkit/",
+            "date": "2017-09-01",
+            "organization": "Bitdefender",
+            "author": "Alexandru Maximciuc",
+            "title": "EHDevel \u2013 The story of a continuously improving advanced threat creation toolkit",
+            "categories": [
+                "EHDevel"
+            ]
+        }
+    ]
 };

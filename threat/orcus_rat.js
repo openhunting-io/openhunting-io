@@ -391,7 +391,237 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-22 05:58:19",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "orcus_rat",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/en/45462/",
+            "date": "2023-01-13",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "Orcus RAT Being Distributed Disguised as a Hangul Word Processor Crack",
+            "categories": [
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://any.run/cybersecurity-blog/orcus-rat-malware-analysis/",
+            "date": "2022-11-03",
+            "organization": "ANY.RUN",
+            "author": "ANY.RUN",
+            "title": "What is Orcus RAT? Technical Analysis and Malware Configuration",
+            "categories": [
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://assets.virustotal.com/reports/2021trends.pdf",
+            "date": "2022-03",
+            "organization": "VirusTotal",
+            "author": "VirusTotal",
+            "title": "VirusTotal's 2021 Malware Trends Report",
+            "categories": [
+                "Anubis",
+                "AsyncRAT",
+                "BlackMatter",
+                "Cobalt Strike",
+                "DanaBot",
+                "Dridex",
+                "Khonsari",
+                "MimiKatz",
+                "Mirai",
+                "Nanocore RAT",
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/log4j-vulnerabilities-attacks",
+            "date": "2021-12-23",
+            "organization": "Symantec",
+            "author": "Siddhesh Chandrayan",
+            "title": "Log4j Vulnerabilities: Attack Insights",
+            "categories": [
+                "Tsunami",
+                "Conti",
+                "Dridex",
+                "Khonsari",
+                "Orcus RAT",
+                "TellYouThePass"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2019/08/rat-ratatouille-revrat-orcus.html",
+            "date": "2019-08-28",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "RAT Ratatouille: Backdooring PCs with leaked RATs",
+            "categories": [
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2019/04/canadian-police-raid-orcus-rat-author/",
+            "date": "2019-04-02",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Canadian Police Raid \u2018Orcus RAT\u2019 Author",
+            "categories": [
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.checkpoint.com/2019/02/27/protecting-against-winrar-vulnerabilities/",
+            "date": "2019-02-27",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "Protecting Against WinRAR Vulnerabilities",
+            "categories": [
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.fortinet.com/2017/12/07/a-peculiar-case-of-orcus-rat-targeting-bitcoin-investors",
+            "date": "2017-12-07",
+            "organization": "Fortinet",
+            "author": "Floser Bacurio",
+            "title": "A Peculiar Case of Orcus RAT Targeting Bitcoin Investors",
+            "categories": [
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/08/unit42-orcus-birth-of-an-unusual-plugin-builder-rat/",
+            "date": "2016-08-02",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Vicky Ray",
+            "title": "Orcus \u2013 Birth of an unusual plugin builder RAT",
+            "categories": [
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2016/07/canadian-man-is-author-of-popular-orcus-rat/",
+            "date": "2016-07-21",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Canadian Man Behind Popular \u2018Orcus RAT\u2019",
+            "categories": [
+                "Orcus RAT"
+            ]
+        }
+    ]
 };

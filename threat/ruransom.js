@@ -31,5 +31,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ruransom",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.vmware.com/security/2022/04/ruransom-a-retaliatory-wiper.html",
+            "date": "2022-04-12",
+            "organization": "vmware",
+            "author": "Sudhir Devkar",
+            "title": "RuRansom \u2013 A Retaliatory Wiper",
+            "categories": [
+                "RURansom"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/03/11/new-wiper-malware-attacking-russia-deep-dive-into-ruransom-malware/",
+            "date": "2022-03-11",
+            "organization": "",
+            "author": "Cyble",
+            "title": "New Wiper Malware Attacking Russia: Deep-Dive Into RURansom Malware",
+            "categories": [
+                "RURansom"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/c/new-ruransom-wiper-targets-russia.html",
+            "date": "2022-03-08",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "New RURansom Wiper Targets Russia",
+            "categories": [
+                "RURansom"
+            ]
+        }
+    ]
 };

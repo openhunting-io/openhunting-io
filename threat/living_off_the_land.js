@@ -40,5 +40,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "living_off_the_land",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

@@ -34,5 +34,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "newpass",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.telsy.com/turla-venomous-bear-updates-its-arsenal-newpass-appears-on-the-apt-threat-scene/",
+            "date": "2020-07-14",
+            "organization": "Telsy",
+            "author": "Telsy",
+            "title": "Turla / Venomous Bear updates its arsenal: \u201cNewPass\u201d appears on the APT threat scene",
+            "categories": [
+                "NewPass",
+                "Turla"
+            ]
+        }
+    ]
 };

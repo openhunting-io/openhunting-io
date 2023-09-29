@@ -39,5 +39,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hdroot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/i-am-hdroot-part-2/72356/",
+            "date": "2015-10-13",
+            "organization": "Kaspersky Labs",
+            "author": "Dmitry Tarakanov",
+            "title": "I am HDRoot! Part 2",
+            "categories": [
+                "HDRoot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/i-am-hdroot-part-1/72275/",
+            "date": "2015-10-06",
+            "organization": "Kaspersky Labs",
+            "author": "Dmitry Tarakanov",
+            "title": "I am HDRoot! Part 1",
+            "categories": [
+                "HDRoot"
+            ]
+        }
+    ]
 };

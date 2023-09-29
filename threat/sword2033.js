@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Sword2033",
     "category": "Malware",
     "type": "Backdoor, Downloader, Exfiltration",
-    "modified": "2023-06-22",
+    "modified": "2023-09-07",
     "all_data": {
         "tool": "Sword2033",
         "names": [
@@ -32,5 +32,35 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "sword2033",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.sekoia.io/my-teas-not-cold-an-overview-of-china-cyber-threat/",
+            "date": "2023-09-07",
+            "organization": "Sekoia",
+            "author": "Jamila B.",
+            "title": "My Tea\u2019s not cold. An overview of China\u2019s cyber threat",
+            "categories": [
+                "Melofee",
+                "PingPull",
+                "SoWaT",
+                "Sword2033",
+                "MgBot",
+                "MQsTTang",
+                "PlugX",
+                "TONESHELL"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/alloy-taurus/",
+            "date": "2023-04-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Chinese Alloy Taurus Updates PingPull Malware",
+            "categories": [
+                "PingPull",
+                "Sword2033"
+            ]
+        }
+    ]
 };

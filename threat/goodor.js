@@ -34,5 +34,42 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "goodor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://norfolkinfosec.com/a-new-look-at-old-dragonfly-malware-goodor/",
+            "date": "2020-03-30",
+            "organization": "One Night in Norfolk",
+            "author": "Kevin Perlow",
+            "title": "A New Look at Old Dragonfly Malware (Goodor)",
+            "categories": [
+                "Goodor"
+            ]
+        },
+        {
+            "data_url": "https://www.ncsc.gov.uk/alerts/hostile-state-actors-compromising-uk-organisations-focus-engineering-and-industrial-control",
+            "date": "2018-04-04",
+            "organization": "NCSC UK",
+            "author": "NCSC UK",
+            "title": "Hostile state actors compromising UK organisations with focus on engineering and industrial control companies",
+            "categories": [
+                "Goodor"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+            "date": "2017-10-20",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Dragonfly: Western energy sector targeted by sophisticated attack group",
+            "categories": [
+                "Dorshel",
+                "Goodor",
+                "Heriplor",
+                "Karagany",
+                "Listrix",
+                "ENERGETIC BEAR"
+            ]
+        }
+    ]
 };

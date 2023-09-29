@@ -54,7 +54,29 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "p2p zeus",
+            "procedure_code": "s0016",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0016",
+            "techniques": [
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1001.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1001/001",
+                    "technique_name": "data obfuscation : junk data",
+                    "technique_description": "adversaries may add junk data to protocols used for command and control to make detection more difficult. by adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. examples may include appending/prepending data with junk characters or writing junk characters between significant characters.",
+                    "procedure_description": "p2p zeus added junk data to outgoing udp packets to peer implants.[8]"
+                }
+            ]
+        }
+    ],
     "file_name": "gameover_zeus",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

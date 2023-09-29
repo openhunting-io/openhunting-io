@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "logpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2015-11-16-logpos-new-point-of-sale-malware-using-mailslots.md",
+            "date": "2015-11-16",
+            "organization": "",
+            "author": "Nick Hoffman",
+            "title": "Introducing LogPOS",
+            "categories": [
+                "LogPOS"
+            ]
+        }
+    ]
 };

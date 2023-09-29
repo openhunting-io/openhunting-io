@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BlackMatter",
     "category": "Malware",
     "type": "Ransomware, Big Game Hunting",
-    "modified": "2022-04-03",
+    "modified": "2022-09-28",
     "all_data": {
         "tool": "BlackMatter",
         "names": [
@@ -413,7 +413,953 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-12-28 18:02:59",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "blackmatter",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.vmware.com/security/2022/09/esxi-targeting-ransomware-the-threats-that-are-after-your-virtual-machines-part-1.html",
+            "date": "2022-09-28",
+            "organization": "vmware",
+            "author": "Giovanni Vigna",
+            "title": "ESXi-Targeting Ransomware: The Threats That Are After Your Virtual Machines (Part 1)",
+            "categories": [
+                "Avoslocker",
+                "Babuk",
+                "Black Basta",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "Luna",
+                "RansomEXX",
+                "RedAlert Ransomware",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/noberus-blackcat-ransomware-ttps",
+            "date": "2022-09-22",
+            "organization": "Broadcom",
+            "author": "Symantec Threat Hunter Team",
+            "title": "Noberus Ransomware: Darkside and BlackMatter Successor Continues to Evolve its Tactics",
+            "categories": [
+                "BlackCat",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0802.pdf",
+            "date": "2022-08-02",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "Initial Access Brokers Are Key to Rise in Ransomware Attacks",
+            "categories": [
+                "Azorult",
+                "BlackMatter",
+                "Conti",
+                "Mars Stealer",
+                "Raccoon",
+                "RedLine Stealer",
+                "Taurus Stealer",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/g/lockbit-ransomware-group-augments-its-latest-variant--lockbit-3-.html",
+            "date": "2022-07-25",
+            "organization": "Trend Micro",
+            "author": "Ivan Nicole Chavez",
+            "title": "LockBit Ransomware Group Augments Its Latest Variant, LockBit 3.0, With BlackMatter Capabilities",
+            "categories": [
+                "BlackMatter",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.glimps.fr/lockbit3-0/",
+            "date": "2022-07-13",
+            "organization": "GLIMPS",
+            "author": "GLIMPS",
+            "title": "Lockbit 3.0",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+            "date": "2022-05-09",
+            "organization": "Microsoft Security",
+            "author": "Microsoft Threat Intelligence Center",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "Griffon",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Gozi",
+                "LockBit",
+                "Pandora",
+                "Rook",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
+            "date": "2022-04-27",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "LE GROUPE CYBERCRIMINEL FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "SQLRat",
+                "POWERSOURCE",
+                "Andromeda",
+                "BABYMETAL",
+                "BlackCat",
+                "BlackMatter",
+                "BOOSTWRITE",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "Dridex",
+                "DRIFTPIN",
+                "Gameover P2P",
+                "MimiKatz",
+                "Murofet",
+                "Qadars",
+                "Ranbyus",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/04/13/dismantling-zloader-how-malicious-ads-led-to-disabled-security-tools-and-ransomware/",
+            "date": "2022-04-13",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Dismantling ZLoader: How malicious ads led to disabled security tools and ransomware",
+            "categories": [
+                "BlackMatter",
+                "Cobalt Strike",
+                "DarkSide",
+                "Ryuk",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/04/researchers-connect-blackcat-ransomware.html",
+            "date": "2022-04-08",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Researchers Connect BlackCat Ransomware with Past BlackMatter Malware Activity",
+            "categories": [
+                "BlackCat",
+                "BlackMatter",
+                "BlackCat",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://raw.githubusercontent.com/antonioCoco/infosec-talks/main/InsomniHack_2022_Ransomware_Encryption_Internals.pdf",
+            "date": "2022-03-24",
+            "organization": "SentinelOne",
+            "author": "Antonio Cocomazzi",
+            "title": "Ransomware Encryption Internals: A Behavioral Characterization",
+            "categories": [
+                "Babuk",
+                "Babuk",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/gone-in-52-seconds-and-42-minutes-a-comparative-analysis-of-ransomware-encryption-speed.html",
+            "date": "2022-03-23",
+            "organization": "splunk",
+            "author": "Shannon Davis",
+            "title": "Gone in 52 Seconds\u2026and 42 Minutes: A Comparative Analysis of Ransomware Encryption Speed",
+            "categories": [
+                "Avaddon",
+                "Babuk",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "LockBit",
+                "Maze",
+                "Mespinoza",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.theregister.com/2022/03/22/talos-ransomware-blackcat/",
+            "date": "2022-03-22",
+            "organization": "The Register",
+            "author": "Jeff Burt",
+            "title": "This is a BlackCat you don't want crossing your path",
+            "categories": [
+                "BlackCat",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2022/03/17/the-ransomware-threat-intelligence-center/",
+            "date": "2022-03-17",
+            "organization": "Sophos",
+            "author": "Tilly Travers",
+            "title": "The Ransomware Threat Intelligence Center",
+            "categories": [
+                "ATOMSILO",
+                "Avaddon",
+                "AvosLocker",
+                "BlackKingdom Ransomware",
+                "BlackMatter",
+                "Conti",
+                "Cring",
+                "DarkSide",
+                "dearcry",
+                "Dharma",
+                "Egregor",
+                "Entropy",
+                "Epsilon Red",
+                "Gandcrab",
+                "Karma",
+                "LockBit",
+                "LockFile",
+                "Mailto",
+                "Maze",
+                "Nefilim",
+                "RagnarLocker",
+                "Ragnarok",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SamSam",
+                "Snatch",
+                "WannaCryptor",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/03/from-blackmatter-to-blackcat-analyzing.html",
+            "date": "2022-03-17",
+            "organization": "Cisco",
+            "author": "Tiago Pereira",
+            "title": "From BlackMatter to BlackCat: Analyzing two attacks from one affiliate",
+            "categories": [
+                "BlackCat",
+                "BlackMatter",
+                "BlackCat",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.broadcom.com/hubfs/SED/SED_Threat_Hunter_Reports_Alerts/SED_FY22Q2_SES_Ransomware-Threat-Landscape_WP.pdf",
+            "date": "2022-03-16",
+            "organization": "Symantec",
+            "author": "Symantec Threat Hunter Team",
+            "title": "The Ransomware Threat Landscape: What to Expect in 2022",
+            "categories": [
+                "AvosLocker",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Emotet",
+                "Hive",
+                "Karma",
+                "Mespinoza",
+                "Nemty",
+                "Squirrelwaffle",
+                "VegaLocker",
+                "WastedLocker",
+                "Yanluowang",
+                "Zeppelin"
+            ]
+        },
+        {
+            "data_url": "https://assets.virustotal.com/reports/2021trends.pdf",
+            "date": "2022-03",
+            "organization": "VirusTotal",
+            "author": "VirusTotal",
+            "title": "VirusTotal's 2021 Malware Trends Report",
+            "categories": [
+                "Anubis",
+                "AsyncRAT",
+                "BlackMatter",
+                "Cobalt Strike",
+                "DanaBot",
+                "Dridex",
+                "Khonsari",
+                "MimiKatz",
+                "Mirai",
+                "Nanocore RAT",
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/pdfs/resources/whitepaper/an-empirically-comparative-analysis-of-ransomware-binaries.pdf",
+            "date": "2022-02-23",
+            "organization": "splunk",
+            "author": "Shannon Davis",
+            "title": "An Empirically Comparative Analysis of Ransomware Binaries",
+            "categories": [
+                "Avaddon",
+                "Babuk",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "LockBit",
+                "Maze",
+                "Mespinoza",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmw-exposing-malware-in-linux-based-multi-cloud-environments.pdf",
+            "date": "2022-02-09",
+            "organization": "vmware",
+            "author": "VMWare",
+            "title": "Exposing Malware in Linux-Based Multi-Cloud Environments",
+            "categories": [
+                "ACBackdoor",
+                "BlackMatter",
+                "DarkSide",
+                "Erebus",
+                "HelloKitty",
+                "Kinsing",
+                "PLEAD",
+                "QNAPCrypt",
+                "RansomEXX",
+                "REvil",
+                "Sysrv-hello",
+                "TeamTNT",
+                "Vermilion Strike",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/chasing-avaddon-ransomware",
+            "date": "2022-01-19",
+            "organization": "Mandiant",
+            "author": "Adrian Sanchez Hernandez",
+            "title": "One Source to Rule Them All: Chasing AVADDON Ransomware",
+            "categories": [
+                "BlackMatter",
+                "Avaddon",
+                "BlackMatter",
+                "MedusaLocker",
+                "SystemBC",
+                "ThunderX"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/01/kraken-the-code-on-prometheus",
+            "date": "2022-01-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Kraken the Code on Prometheus",
+            "categories": [
+                "Prometheus Backdoor",
+                "BlackMatter",
+                "Cerber",
+                "Cobalt Strike",
+                "DCRat",
+                "Ficker Stealer",
+                "QakBot",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/s2wblog/blackcat-new-rust-based-ransomware-borrowing-blackmatters-configuration-31c8d330a809",
+            "date": "2021-12-10",
+            "organization": "Medium s2wlab",
+            "author": "S2W TALON",
+            "title": "BlackCat: New Rust based ransomware borrowing BlackMatter\u2019s configuration",
+            "categories": [
+                "BlackCat",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://services.google.com/fh/files/misc/gcat_threathorizons_full_nov2021.pdf",
+            "date": "2021-11-24",
+            "organization": "Google",
+            "author": "Google Cybersecurity Action Team",
+            "title": "Threat Horizons Cloud Threat Intelligence November 2021. Issue 1",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/cybersecurity-threat-spotlight-blackmatter-lockbit-thor",
+            "date": "2021-11-18",
+            "organization": "Cisco",
+            "author": "Josh Pyorre",
+            "title": "BlackMatter, LockBit, and THOR",
+            "categories": [
+                "BlackMatter",
+                "LockBit",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-2/",
+            "date": "2021-11-04",
+            "organization": "CrowdStrike",
+            "author": "Eric Loui",
+            "title": "CARBON SPIDER Embraces Big Game Hunting, Part 2",
+            "categories": [
+                "BlackMatter",
+                "Griffon",
+                "BlackMatter",
+                "DarkSide",
+                "HiddenTear",
+                "JSSLoader"
+            ]
+        },
+        {
+            "data_url": "https://blog.group-ib.com/blackmatter2",
+            "date": "2021-11-03",
+            "organization": "Group-IB",
+            "author": "Andrey Zhdanov",
+            "title": "The Darker Things BlackMatter and their victims",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/blackmatter-ransomware-says-its-shutting-down-due-to-pressure-from-local-authorities/",
+            "date": "2021-11-03",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "BlackMatter ransomware says its shutting down due to pressure from local authorities",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/blackmatter-ransomware-moves-victims-to-lockbit-after-shutdown/",
+            "date": "2021-11-03",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "BlackMatter ransomware moves victims to LockBit after shutdown",
+            "categories": [
+                "BlackMatter",
+                "BlackMatter",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.varonis.com/blog/blackmatter-ransomware/",
+            "date": "2021-11-02",
+            "organization": "Varonis",
+            "author": "Dvir Sason",
+            "title": "BlackMatter Ransomware: In-Depth Analysis & Recommendations",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/darkside-ransomware-rushes-to-cash-out-7-million-in-bitcoin/",
+            "date": "2021-10-22",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "DarkSide ransomware rushes to cash out $7 million in Bitcoin",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://www.elliptic.co/blog/darkside-bitcoins-on-the-move-following-government-cyberattack-against-revil-ransomware-group",
+            "date": "2021-10-22",
+            "organization": "Elliptic",
+            "author": "Elliptic Intel",
+            "title": "DarkSide bitcoins on the move following government cyberattack against REvil ransomware group",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/darkside-ransomware-gang-moves-some-of-its-bitcoin-after-revil-got-hit-by-law-enforcement/",
+            "date": "2021-10-22",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "DarkSide ransomware gang moves some of its Bitcoin after REvil got hit by law enforcement",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/GelosSnake/status/1451465959894667275",
+            "date": "2021-10-22",
+            "organization": "Twitter (@GelosSnake)",
+            "author": "Omri Segev Moyal",
+            "title": "Tweet on List of wallets used by Darkside/Blackmatter Operator to split out the money",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/cryptography-blackmatter-ransomware",
+            "date": "2021-10-20",
+            "organization": "Mandiant",
+            "author": "Jacob Thompson",
+            "title": "Hidden in Plain Sight: Identifying Cryptography in BLACKMATTER Ransomware",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa21-291a",
+            "date": "2021-10-18",
+            "organization": "CISA",
+            "author": "US-CERT",
+            "title": "Alert (AA21-291A): BlackMatter Ransomware",
+            "categories": [
+                "BlackMatter",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=NIiEcOryLpI",
+            "date": "2021-10-14",
+            "organization": "YouTube (Uriel Kosayev)",
+            "author": "Uriel Kosayev",
+            "title": "DarkSide Ransomware Reverse Engineering",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/big-game-hunting-on-the-rise-again-according-to-ecrime-index/",
+            "date": "2021-10-12",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike Intelligence Team",
+            "title": "ECX: Big Game Hunting on the Rise Following a Notable Reduction in Activity",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "DarkSide",
+                "REvil",
+                "Avaddon",
+                "Babuk",
+                "BlackMatter",
+                "DarkSide",
+                "LockBit",
+                "Mailto",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/09/threat-thursday-blackmatter-ransomware-as-a-service",
+            "date": "2021-09-23",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Threat Thursday: BlackMatter RaaS - Darker Than DarkSide?",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/blogs/enterprise/blackmatter-ransomware-analysis-the-dark-side-returns/",
+            "date": "2021-09-22",
+            "organization": "McAfee",
+            "author": "Alexandre Mundo",
+            "title": "BlackMatter Ransomware Analysis; The Dark Side Returns",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.nozominetworks.com/blog/blackmatter-ransomware-technical-analysis-and-tools-from-nozomi-networks-labs/",
+            "date": "2021-09-21",
+            "organization": "Nozomi Networks",
+            "author": "Nozomi Networks Labs",
+            "title": "BlackMatter Ransomware Technical Analysis and Tools from Nozomi Networks Labs",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/how-big-game-hunting-ttps-shifted-after-darkside-pipeline-attack/",
+            "date": "2021-09-14",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike Intelligence Team",
+            "title": "Big Game Hunting TTPs Continue to Shift After DarkSide Pipeline Attack",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "REvil",
+                "Avaddon",
+                "BlackMatter",
+                "Clop",
+                "Conti",
+                "CryptoLocker",
+                "DarkSide",
+                "DoppelPaymer",
+                "Hades",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/s2wlab/groove-x-ramp-the-relation-between-groove-babuk-ramp-and-blackmatter-f75644f8f92d",
+            "date": "2021-09-10",
+            "organization": "S2W LAB Inc.",
+            "author": "S2W TALON",
+            "title": "Groove x RAMP : The relation between Groove, Babuk, Payload.bin, RAMP, and BlackMatter",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "Babuk",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/rapidly-evolving-blackmatter-ransomware-tactics/",
+            "date": "2021-09-08",
+            "organization": "Ciper Tech Solutions",
+            "author": "Cipher Tech ACCE Team",
+            "title": "Rapidly Evolving BlackMatter Ransomware Tactics",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/s2wlab/grooves-thoughts-on-blackmatter-babuk-and-interruption-in-the-supply-of-cheese-in-the-b5328bc764f2",
+            "date": "2021-09-08",
+            "organization": "Medium s2wlab",
+            "author": "S2W TALON",
+            "title": "Groove\u2019s thoughts on Blackmatter, Babuk, and cheese shortages in the Netherlands",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "Babuk",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/blogs/enterprise/mcafee-enterprise-atr/how-groove-gang-is-shaking-up-the-ransomware-as-a-service-market-to-empower-affiliates/",
+            "date": "2021-09-08",
+            "organization": "McAfee",
+            "author": "Max Kersten",
+            "title": "How Groove Gang is Shaking up the Ransomware-as-a-Service Market to Empower Affiliates",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "Babuk",
+                "BlackMatter",
+                "CTB Locker"
+            ]
+        },
+        {
+            "data_url": "https://ke-la.com/the-ideal-ransomware-victim-what-attackers-are-looking-for/",
+            "date": "2021-09-06",
+            "organization": "KELA",
+            "author": "Victoria Kivilevich",
+            "title": "The Ideal Ransomware Victim: What Attackers Are Looking For",
+            "categories": [
+                "BlackMatter",
+                "Cryakl"
+            ]
+        },
+        {
+            "data_url": "https://chuongdong.com/reverse%20engineering/2021/09/05/BlackMatterRansomware/",
+            "date": "2021-09-05",
+            "organization": "Chuongdong blog",
+            "author": "Chuong Dong",
+            "title": "BlackMatter Ransomware v2.0",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.hhs.gov/sites/default/files/demystifying-blackmatter.pdf",
+            "date": "2021-09-02",
+            "organization": "US Department of Health and Human Services",
+            "author": "Health Sector Cybersecurity Coordination Center (HC3)",
+            "title": "Demystifying BlackMatter",
+            "categories": [
+                "BlackMatter",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/s2wlab/blackmatter-x-babuk-using-the-same-web-server-for-sharing-leaked-files-d01c20a74751",
+            "date": "2021-09-01",
+            "organization": "Medium s2wlab",
+            "author": "S2W LAB INTELLIGENCE TEAM",
+            "title": "BlackMatter x Babuk : Using the same web server for sharing leaked files",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "Babuk",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://blog.minerva-labs.com/blackmatter",
+            "date": "2021-08-31",
+            "organization": "Minerva Labs",
+            "author": "Minerva Labs",
+            "title": "BlackMatter - The New Star Of Ransomware",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.netskope.com/blog/netskope-threat-coverage-blackmatter",
+            "date": "2021-08-23",
+            "organization": "Netskope",
+            "author": "Gustavo Palazolo",
+            "title": "Netskope Threat Coverage: BlackMatter",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/The_Ransomware_Threat_September_2021.pdf",
+            "date": "2021-08-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "The Ransomware Threat",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "DarkSide",
+                "Avaddon",
+                "Babuk",
+                "BADHATCH",
+                "BazarBackdoor",
+                "BlackMatter",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Egregor",
+                "Emotet",
+                "FiveHands",
+                "FriedEx",
+                "Hades",
+                "IcedID",
+                "LockBit",
+                "Maze",
+                "MegaCortex",
+                "MimiKatz",
+                "QakBot",
+                "RagnarLocker",
+                "REvil",
+                "Ryuk",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/08/09/blackmatter-ransomware-emerges-from-the-shadow-of-darkside/",
+            "date": "2021-08-09",
+            "organization": "Sophos",
+            "author": "Mark Loman",
+            "title": "BlackMatter ransomware emerges from the shadow of DarkSide",
+            "categories": [
+                "BlackMatter",
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://blog.group-ib.com/blackmatter#",
+            "date": "2021-08-06",
+            "organization": "Group-IB",
+            "author": "Andrey Zhdanov",
+            "title": "It's alive! The story behind the BlackMatter ransomware strain",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "BlackMatter",
+                "DarkSide"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/linux-version-of-blackmatter-ransomware-targets-vmware-esxi-servers/",
+            "date": "2021-08-05",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Linux version of BlackMatter ransomware targets VMware ESXi servers",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://www.tesorion.nl/en/posts/analysis-of-the-blackmatter-ransomware/",
+            "date": "2021-08-05",
+            "organization": "Tesorion",
+            "author": "Gijs Rijnders",
+            "title": "Analysis of the BlackMatter ransomware",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/VK_Intel/status/1423188690126266370",
+            "date": "2021-08-05",
+            "organization": "Twitter (@VK_intel)",
+            "author": "Vitali Kremez",
+            "title": "Tweet on Linux variant of BlackMatter",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://blog.digital-investigations.info/2021-08-05-understanding-blackmatters-api-hashing.html",
+            "date": "2021-08-04",
+            "organization": "",
+            "author": "Jan Gruber",
+            "title": "Understanding BlackMatter's API Hashing",
+            "categories": [
+                "BlackMatter"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/MTP-2021-0804.pdf",
+            "date": "2021-08-04",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Protect Against  BlackMatter Ransomware Before It\u2019s Offered",
+            "categories": [
+                "BlackMatter",
+                "DarkSide"
+            ]
+        }
+    ]
 };

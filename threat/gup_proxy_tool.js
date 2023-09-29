@@ -30,5 +30,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "gup_proxy_tool",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/lookback-malware-targets-united-states-utilities-sector-phishing-attacks",
+            "date": "2019-08-01",
+            "organization": "Proofpoint",
+            "author": "Michael Raggi",
+            "title": "LookBack Malware Targets the United States Utilities Sector with Phishing Attacks Impersonating Engineering Licensing Boards",
+            "categories": [
+                "GUP Proxy Tool",
+                "Lookback",
+                "TA410"
+            ]
+        }
+    ]
 };

@@ -39,5 +39,39 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "actionspy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://about.fb.com/news/2021/03/taking-action-against-hackers-in-china/",
+            "date": "2021-03-24",
+            "organization": "Facebook",
+            "author": "Mike Dvilyanski",
+            "title": "Taking Action Against Hackers in China",
+            "categories": [
+                "ActionSpy"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/20/f/new-android-spyware-actionspy-revealed-via-phishing-attacks-from-earth-empusa.html",
+            "date": "2020-06-11",
+            "organization": "Trend Micro",
+            "author": "Ecular Xu",
+            "title": "Phishing Attacks from Earth Empusa Reveal ActionSpy",
+            "categories": [
+                "ActionSpy",
+                "POISON CARP"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-android-spyware-actionspy-revealed-via-phishing-attacks-from-earth-empusa/",
+            "date": "2020-06-11",
+            "organization": "Trend Micro",
+            "author": "Ecular Xu",
+            "title": "New Android Spyware ActionSpy Revealed via Phishing Attacks from Earth Empusa",
+            "categories": [
+                "ActionSpy",
+                "PoisonCarp"
+            ]
+        }
+    ]
 };

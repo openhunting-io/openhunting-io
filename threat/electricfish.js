@@ -38,5 +38,150 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "electricfish",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://adeo.com.tr/wp-content/uploads/2020/05/ADEO-Lazarus-APT38.pdf",
+            "date": "2020-05-04",
+            "organization": "ADEO DFIR",
+            "author": "ADEO DFIR",
+            "title": "APT38 Lazarus Threat Analysis Report",
+            "categories": [
+                "BLINDTOAD",
+                "ELECTRICFISH"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/AR19-129A",
+            "date": "2019-05-09",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Malware Analysis Report (AR19-129A)",
+            "categories": [
+                "ELECTRICFISH",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/lazarus-under-the-hood/77908/",
+            "date": "2017-04-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Lazarus under the Hood",
+            "categories": [
+                "Alreay",
+                "DYEPACK",
+                "HOTWAX",
+                "NESTEGG",
+                "RatankbaPOS",
+                "REDSHAWL",
+                "WORMHOLE",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/sas/77908/lazarus-under-the-hood/",
+            "date": "2017-04-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Lazarus under the Hood",
+            "categories": [
+                "Alreay",
+                "DYEPACK"
+            ]
+        }
+    ]
 };

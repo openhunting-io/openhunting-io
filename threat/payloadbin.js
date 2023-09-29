@@ -31,5 +31,20 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "payloadbin",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/new-evil-corp-ransomware-mimics-payloadbin-gang-to-evade-us-sanctions/",
+            "date": "2021-06-06",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "New Evil Corp ransomware mimics PayloadBin gang to evade US sanctions",
+            "categories": [
+                "Babuk",
+                "FriedEx",
+                "PayloadBIN",
+                "WastedLocker"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "USBCulprit",
     "category": "Malware",
     "type": "Info stealer, Worm",
-    "modified": "2021-05-15",
+    "modified": "2021-12-01",
     "all_data": {
         "tool": "USBCulprit",
         "names": [
@@ -34,5 +34,52 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "usbculprit",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
+            "date": "2021-12-01",
+            "organization": "ESET Research",
+            "author": "Alexis Dorais-Joncas",
+            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
+            "categories": [
+                "Agent.BTZ",
+                "Fanny",
+                "Flame",
+                "Gauss",
+                "PlugX",
+                "Ramsay",
+                "Retro",
+                "Stuxnet",
+                "USBCulprit",
+                "USBferry"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/file/d/11otA_VmL061KcFC5MhDYuNdIKHYbpyrd/view",
+            "date": "2020-09-24",
+            "organization": "CARO",
+            "author": "Mark Lechtik",
+            "title": "Cycldek aka Goblin Panda: Chronicles of the Goblin",
+            "categories": [
+                "NewCore RAT",
+                "USBCulprit"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/cycldek-bridging-the-air-gap/97157/",
+            "date": "2020-06-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Cycldek: Bridging the (air) gap",
+            "categories": [
+                "8.t Dropper",
+                "NewCore RAT",
+                "PlugX",
+                "USBCulprit",
+                "GOBLIN PANDA",
+                "Hellsing"
+            ]
+        }
+    ]
 };

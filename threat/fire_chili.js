@@ -31,5 +31,29 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "fire_chili",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://thehackernews.com/2022/04/chinese-hackers-target-vmware-horizon.html",
+            "date": "2022-04-01",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Chinese Hackers Target VMware Horizon Servers with Log4Shell to Deploy Rootkit",
+            "categories": [
+                "Fire Chili",
+                "Ghost RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/deep-panda-log4shell-fire-chili-rootkits",
+            "date": "2022-03-30",
+            "organization": "Fortinet",
+            "author": "Rotem Sde-Or",
+            "title": "New Milestones for Deep Panda: Log4Shell and Digitally Signed Fire Chili Rootkits",
+            "categories": [
+                "Fire Chili",
+                "Ghost RAT"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,47 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "nautilus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hunter",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON HUNTER",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "LightNeuron",
+                "Mosquito",
+                "Nautilus",
+                "Neuron",
+                "Skipper",
+                "Uroburos",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.ncsc.gov.uk/news/turla-group-exploits-iran-apt-to-expand-coverage-of-victims",
+            "date": "2019-10-21",
+            "organization": "NCSC UK",
+            "author": "NCSC UK",
+            "title": "Advisory: Turla group exploits Iranian APT to expand coverage of victims",
+            "categories": [
+                "Nautilus",
+                "Neuron"
+            ]
+        },
+        {
+            "data_url": "https://www.ncsc.gov.uk/alerts/turla-group-malware",
+            "date": "2018-01-17",
+            "organization": "NCSC UK",
+            "author": "NCSC UK",
+            "title": "Turla group malware",
+            "categories": [
+                "Nautilus",
+                "Neuron"
+            ]
+        }
+    ]
 };

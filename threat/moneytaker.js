@@ -27,5 +27,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "moneytaker",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/moneytaker-hacker-group-steals-millions-from-us-and-russian-banks/",
+            "date": "2017-12-12",
+            "organization": "Bleeping Computer",
+            "author": "Catalin Cimpanu",
+            "title": "MoneyTaker Hacker Group Steals Millions from US and Russian Banks",
+            "categories": [
+                "MoneyTaker"
+            ]
+        },
+        {
+            "data_url": "https://www.group-ib.com/blog/moneytaker",
+            "date": "2017-12-11",
+            "organization": "Group-IB",
+            "author": "Dmitry Volkov",
+            "title": "MoneyTaker: in pursuit of the invisible",
+            "categories": [
+                "MoneyTaker"
+            ]
+        }
+    ]
 };

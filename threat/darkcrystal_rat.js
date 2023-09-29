@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "DarkCrystal RAT, DCRat",
     "category": "Malware",
     "type": "Backdoor, Reconnaissance, Info stealer, DDoS",
-    "modified": "2022-12-27",
+    "modified": "2023-09-04",
     "all_data": {
         "tool": "DarkCrystal RAT",
         "names": [
@@ -8965,7 +8965,471 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-26 13:15:27",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "darkcrystal_rat",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://muha2xmad.github.io/malware-analysis/dcrat/",
+            "date": "2023-09-04",
+            "organization": "Github (muha2xmad)",
+            "author": "Muhammad Hasan Ali",
+            "title": "A deep dive into DCRAT/DarkCrystalRAT malware",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q2%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-07-11",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2023",
+            "categories": [
+                "Hydra",
+                "AsyncRAT",
+                "Aurora Stealer",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-04-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2023",
+            "categories": [
+                "FluBot",
+                "Amadey",
+                "AsyncRAT",
+                "Aurora",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://kienmanowar.wordpress.com/2023/04/08/quicknote-uncovering-suspected-malware-distributed-by-individuals-from-vietnam/",
+            "date": "2023-04-08",
+            "organization": "kienmanowar Blog",
+            "author": "Tran Trung Kien",
+            "title": "[QuickNote] Uncovering Suspected Malware Distributed By Individuals from Vietnam",
+            "categories": [
+                "AsyncRAT",
+                "DCRat",
+                "WorldWind"
+            ]
+        },
+        {
+            "data_url": "https://embee-research.ghost.io/dcrat-manual-de-obfuscation/",
+            "date": "2023-04-08",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Dcrat - Manual De-obfuscation of .NET Malware",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/snip3-crypter-reveals-new-ttps-over-time",
+            "date": "2023-02-24",
+            "organization": "Zscaler",
+            "author": "Niraj Shivtarkar",
+            "title": "Snip3 Crypter Reveals New TTPs Over Time",
+            "categories": [
+                "DCRat",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2022-10-13",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2022",
+            "categories": [
+                "FluBot",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "Emotet",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Socelars",
+                "Tofsee",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0919.pdf",
+            "date": "2022-09-19",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Russia-Nexus UAC-0113  Emulating Telecommunication  Providers in Ukraine",
+            "categories": [
+                "Ave Maria",
+                "Colibri Loader",
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://blog.sekoia.io/privateloader-the-loader-of-the-prevalent-ruzki-ppi-service/",
+            "date": "2022-09-15",
+            "organization": "Sekoia",
+            "author": "Threat & Detection Research Team",
+            "title": "PrivateLoader: the loader of the prevalent ruzki PPI service",
+            "categories": [
+                "Agent Tesla",
+                "Coinminer",
+                "DanaBot",
+                "DCRat",
+                "Eternity Stealer",
+                "Glupteba",
+                "Mars Stealer",
+                "NetSupportManager RAT",
+                "Nymaim",
+                "Nymaim2",
+                "Phoenix Keylogger",
+                "PrivateLoader",
+                "Raccoon",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "Socelars",
+                "STOP",
+                "Vidar",
+                "YTStealer"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/08/modernloader-delivers-multiple-stealers.html",
+            "date": "2022-08-30",
+            "organization": "Cisco",
+            "author": "Vanja Svajcer",
+            "title": "ModernLoader delivers multiple stealers, cryptominers and RATs",
+            "categories": [
+                "Coinminer",
+                "DCRat",
+                "ModernLoader",
+                "RedLine Stealer",
+                "SapphireMiner",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/overview-of-the-cyber-weapons-used-in-the-ukraine-russia-war/",
+            "date": "2022-08-18",
+            "organization": "Trustwave",
+            "author": "Pawel Knapczyk",
+            "title": "Overview of the Cyber Weapons Used in the Ukraine - Russia War",
+            "categories": [
+                "AcidRain",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "CredoMap",
+                "DCRat",
+                "DoubleZero",
+                "GraphSteel",
+                "GrimPlant",
+                "HermeticWiper",
+                "INDUSTROYER2",
+                "InvisiMole",
+                "IsaacWiper",
+                "PartyTicket"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/overview-of-the-cyber-weapons-used-in-the-ukraine-russia-war",
+            "date": "2022-08-18",
+            "organization": "Trustwave",
+            "author": "Pawel Knapczyk",
+            "title": "Overview of the Cyber Weapons Used in the Ukraine - Russia War",
+            "categories": [
+                "AcidRain",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "CredoMap",
+                "DCRat",
+                "DoubleZero",
+                "GraphSteel",
+                "GrimPlant",
+                "HermeticWiper",
+                "INDUSTROYER2",
+                "InvisiMole",
+                "IsaacWiper",
+                "PartyTicket"
+            ]
+        },
+        {
+            "data_url": "https://cert.gov.ua/article/405538",
+            "date": "2022-06-24",
+            "organization": "Cert-UA",
+            "author": "Cert-UA",
+            "title": "Cyberattack against Ukrainian telecommunications operators using DarkCrystal RAT malware (CERT-UA # 4874)",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://cert.gov.ua/article/160530",
+            "date": "2022-06-10",
+            "organization": "Cert-UA",
+            "author": "Cert-UA",
+            "title": "Massive cyberattack on Media Organizations of Ukraine using crescentImp malware (CERT-UA#4797)",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dirty-deeds-done-dirt-cheap-russian-rat-offers-backdoor-bargains",
+            "date": "2022-05-09",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Dirty Deeds Done Dirt Cheap: Russian RAT Offers Backdoor Bargains",
+            "categories": [
+                "DCRat",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.botconf.eu/wp-content/uploads/2022/05/Botconf2022-40-LunghiHorejsi.pdf",
+            "date": "2022-04-27",
+            "organization": "Trendmicro",
+            "author": "Daniel Lunghi",
+            "title": "Operation Gambling Puppet",
+            "categories": [
+                "reptile",
+                "oRAT",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "DCRat",
+                "Ghost RAT",
+                "PlugX",
+                "Quasar RAT",
+                "Trochilus RAT",
+                "Earth Berberoka"
+            ]
+        },
+        {
+            "data_url": "https://forensicitguy.github.io/snip3-crypter-dcrat-vbs/",
+            "date": "2022-04-16",
+            "organization": "forensicitguy",
+            "author": "Tony Lambert",
+            "title": "Snip3 Crypter used with DCRat via VBScript",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/50c77491",
+            "date": "2022-03-02",
+            "organization": "RiskIQ",
+            "author": "Jennifer Grob",
+            "title": "RiskIQ: Malware Linked to Upwork Post Seeking Content Writer for a \"Newly Developed Application\" Deploys DCRat",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/freecryptoscam-new-cryptocurrency-scam-leads-installation-backdoors-and",
+            "date": "2022-02-17",
+            "organization": "Zscaler",
+            "author": "Stuti Chaturvedi",
+            "title": "FreeCryptoScam - A New Cryptocurrency Scam That Leads to Installation of Backdoors and Stealers",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/01/kraken-the-code-on-prometheus",
+            "date": "2022-01-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Kraken the Code on Prometheus",
+            "categories": [
+                "Prometheus Backdoor",
+                "BlackMatter",
+                "Cerber",
+                "Cobalt Strike",
+                "DCRat",
+                "Ficker Stealer",
+                "QakBot",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/10/crimeware-targets-afghanistan-india.html",
+            "date": "2021-10-19",
+            "organization": "Cisco Talos",
+            "author": "Asheer Malhotra",
+            "title": "Malicious campaign uses a barrage of commodity RATs to target Afghanistan and India",
+            "categories": [
+                "DCRat",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/malspam-campaign-delivers-dark-crystal-rat-dcrat/",
+            "date": "2021-10-12",
+            "organization": "Infoblox",
+            "author": "Avinash Shende",
+            "title": "Malspam Campaign Delivers Dark Crystal RAT (dcRAT)",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=ElqmQDySy48",
+            "date": "2021-09-22",
+            "organization": "YouTube (John Hammond)",
+            "author": "John Hammond",
+            "title": "Snip3 Crypter/RAT Loader - DcRat MALWARE ANALYSIS",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2020/05/analyzing-dark-crystal-rat-backdoor.html",
+            "date": "2020-05-12",
+            "organization": "FireEye",
+            "author": "Jacob Thompson",
+            "title": "Analyzing Dark Crystal RAT, a C# backdoor",
+            "categories": [
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://tccontre.blogspot.com/2019/10/dcrat-malware-evades-sandbox-that-use.html",
+            "date": "2019-10-02",
+            "organization": "",
+            "author": "tcontre",
+            "title": "DCRAT malware Evades SandBox that use Fake Internet by using the Google public DNS IP address",
+            "categories": [
+                "DCRat"
+            ]
+        }
+    ]
 };

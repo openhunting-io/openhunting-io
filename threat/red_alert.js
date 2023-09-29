@@ -37,5 +37,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "red_alert",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://twitter.com/JaromirHorejsi/status/816237293073797121",
+            "date": "2017-01-03",
+            "organization": "Twitter (@JaromirHorejsi)",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Tweet on Red Alert",
+            "categories": [
+                "Red Alert"
+            ]
+        }
+    ]
 };

@@ -36,5 +36,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "dark_tequila",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/dark-tequila-anejo/87528/",
+            "date": "2018-08-21",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Dark Tequila A\u00f1ejo",
+            "categories": [
+                "DarkTequila"
+            ]
+        }
+    ]
 };

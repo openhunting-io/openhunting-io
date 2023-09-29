@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "DanaBot",
     "category": "Malware",
     "type": "Banking trojan, Keylogger, Credential stealer, Info stealer",
-    "modified": "2021-04-19",
+    "modified": "2023-07-17",
     "all_data": {
         "tool": "DanaBot",
         "names": [
@@ -5452,5 +5452,749 @@ var threatdata = {
     "last_ioc_update": "2023-07-31 21:02:53",
     "mitre": [],
     "file_name": "danabot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://flashpoint.io/blog/danabot-version-3-what-you-need-to-know/",
+            "date": "2023-07-17",
+            "organization": "Flashpoint",
+            "author": "Flashpoint",
+            "title": "The New Release of Danabot Version 3: What You Need to Know",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/technical-analysis-danabot-obfuscation-techniques",
+            "date": "2022-12-06",
+            "organization": "Zscaler",
+            "author": "Dennis Schwarz",
+            "title": "Technical Analysis of DanaBot Obfuscation Techniques",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/nullmixer-oodles-of-trojans-in-a-single-dropper/107498/",
+            "date": "2022-09-26",
+            "organization": "Kaspersky",
+            "author": "Haim Zigel",
+            "title": "NullMixer: oodles of Trojans in a single dropper",
+            "categories": [
+                "ColdStealer",
+                "DanaBot",
+                "GCleaner",
+                "Nullmixer",
+                "PrivateLoader",
+                "PseudoManuscrypt",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://blog.sekoia.io/privateloader-the-loader-of-the-prevalent-ruzki-ppi-service/",
+            "date": "2022-09-15",
+            "organization": "Sekoia",
+            "author": "Threat & Detection Research Team",
+            "title": "PrivateLoader: the loader of the prevalent ruzki PPI service",
+            "categories": [
+                "Agent Tesla",
+                "Coinminer",
+                "DanaBot",
+                "DCRat",
+                "Eternity Stealer",
+                "Glupteba",
+                "Mars Stealer",
+                "NetSupportManager RAT",
+                "Nymaim",
+                "Nymaim2",
+                "Phoenix Keylogger",
+                "PrivateLoader",
+                "Raccoon",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "Socelars",
+                "STOP",
+                "Vidar",
+                "YTStealer"
+            ]
+        },
+        {
+            "data_url": "https://malverse.it/costruiamo-un-config-extractor-per-danabot-parte-1",
+            "date": "2022-08-07",
+            "organization": "Malverse",
+            "author": "greenplan",
+            "title": "Config Extractor per DanaBot (PARTE 1)",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "AA22-110A Joint CSA: Russian State-Sponsored and Criminal Cyber  Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Alert (AA22-110A): Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader",
+                "Killnet"
+            ]
+        },
+        {
+            "data_url": "https://security-soup.net/decoding-a-danabot-downloader/",
+            "date": "2022-03-15",
+            "organization": "Security Soup Blog",
+            "author": "Ryan Campbell",
+            "title": "Decoding a DanaBot Downloader",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/danabot-launches-ddos-attack-against-ukrainian-ministry-defense",
+            "date": "2022-03-02",
+            "organization": "Zscaler",
+            "author": "Dennis Schwarz",
+            "title": "DanaBot Launches DDoS Attack Against the Ukrainian Ministry of Defense",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://assets.virustotal.com/reports/2021trends.pdf",
+            "date": "2022-03",
+            "organization": "VirusTotal",
+            "author": "VirusTotal",
+            "title": "VirusTotal's 2021 Malware Trends Report",
+            "categories": [
+                "Anubis",
+                "AsyncRAT",
+                "BlackMatter",
+                "Cobalt Strike",
+                "DanaBot",
+                "Dridex",
+                "Khonsari",
+                "MimiKatz",
+                "Mirai",
+                "Nanocore RAT",
+                "Orcus RAT"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/30445/",
+            "date": "2022-01-03",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Distribution of Redline Stealer Disguised as Software Crack",
+            "categories": [
+                "DanaBot",
+                "RedLine Stealer",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/supply-chain-node-js",
+            "date": "2021-12-15",
+            "organization": "Mandiant",
+            "author": "Alessandro Parilli",
+            "title": "No Unaccompanied Miners: Supply Chain Compromises Through Node.js Packages (UNC3379)",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/11/threat-thursday-danabot-malware-as-a-service",
+            "date": "2021-11-18",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Threat Thursday: DanaBot\u2019s Evolution from Bank Fraud to DDos Attacks",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/f0wlsec/status/1459892481760411649",
+            "date": "2021-11-14",
+            "organization": "Twitter (@f0wlsec)",
+            "author": "Marius Genheimer",
+            "title": "A static config extractor for the main component of DanaBot",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/blog/hotforsecurity/popular-npm-repositories-compromised-in-man-in-the-middle-attack/",
+            "date": "2021-11-08",
+            "organization": "Bitdefender",
+            "author": "Silviu Stahie",
+            "title": "Popular NPM Repositories Compromised in Man-in-the-Middle Attack",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/spike-danabot-malware-activity",
+            "date": "2021-11-05",
+            "organization": "Zscaler",
+            "author": "Dennis Schwarz",
+            "title": "Spike in DanaBot Malware Activity",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/10/24/node-poisoning-hijacked-package-delivers-coin-miner-and-credential-stealing-backdoor",
+            "date": "2021-10-24",
+            "organization": "Sophos",
+            "author": "Sean Gallagher",
+            "title": "Node poisoning: hijacked package delivers coin miner and credential-stealing backdoor",
+            "categories": [
+                "DanaBot",
+                "Monero Miner"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/danabot-malware.html",
+            "date": "2021-09-20",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "DanaBot Communications Update",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
+            "date": "2021-03-31",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "Financial Cyberthreats in 2020",
+            "categories": [
+                "BetaBot",
+                "DanaBot",
+                "Emotet",
+                "Gozi",
+                "Ramnit",
+                "RTM",
+                "SpyEye",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+            "date": "2021-02-23",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2021 Global Threat Report",
+            "categories": [
+                "RansomEXX",
+                "Amadey",
+                "Anchor",
+                "Avaddon",
+                "BazarBackdoor",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "Cutwail",
+                "DanaBot",
+                "DarkSide",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Hakbit",
+                "IcedID",
+                "JSOutProx",
+                "KerrDown",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "NedDnLoader",
+                "Nemty",
+                "Pay2Key",
+                "PlugX",
+                "Pushdo",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "Quasar RAT",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Sekhmet",
+                "ShadowPad",
+                "SmokeLoader",
+                "Snake",
+                "SUNBURST",
+                "SunCrypt",
+                "TEARDROP",
+                "TrickBot",
+                "WastedLocker",
+                "Winnti",
+                "Zloader",
+                "KNOCKOUT SPIDER",
+                "OUTLAW SPIDER",
+                "RIDDLE SPIDER",
+                "SOLAR SPIDER",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.cronup.com/post/de-ataque-con-malware-a-incidente-de-ransomware",
+            "date": "2021-02-02",
+            "organization": "CRONUP",
+            "author": "Germ\u00e1n Fern\u00e1ndez",
+            "title": "De ataque con Malware a incidente de Ransomware",
+            "categories": [
+                "Avaddon",
+                "BazarBackdoor",
+                "Buer",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DanaBot",
+                "Dharma",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Empire Downloader",
+                "FriedEx",
+                "GootKit",
+                "IcedID",
+                "MegaCortex",
+                "Nemty",
+                "Phorpiex",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "SDBbot",
+                "SmokeLoader",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/new-year-new-version-danabot",
+            "date": "2021-01-26",
+            "organization": "Proofpoint",
+            "author": "Dennis Schwarz",
+            "title": "New Year, New Version of DanaBot",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2021/01/09/c2-traffic-patterns-personal-notes/",
+            "date": "2021-01-09",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Command and Control Traffic Patterns",
+            "categories": [
+                "ostap",
+                "LaZagne",
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cobalt Strike",
+                "DanaBot",
+                "DarkComet",
+                "Dridex",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "ISFB",
+                "NetWire RC",
+                "PlugX",
+                "Quasar RAT",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
+            "date": "2020-07-30",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2020",
+            "categories": [
+                "AdWind",
+                "Agent Tesla",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "KPOT Stealer",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Pony",
+                "Raccoon",
+                "RedLine Stealer",
+                "Remcos",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/07/ESET_Threat_Report_Q22020.pdf",
+            "date": "2020-07-29",
+            "organization": "ESET Research",
+            "author": "welivesecurity",
+            "title": "THREAT REPORT Q2 2020",
+            "categories": [
+                "DEFENSOR ID",
+                "HiddenAd",
+                "Bundlore",
+                "Pirrit",
+                "Agent.BTZ",
+                "Cerber",
+                "ClipBanker",
+                "CROSSWALK",
+                "Cryptowall",
+                "CTB Locker",
+                "DanaBot",
+                "Dharma",
+                "Formbook",
+                "Gandcrab",
+                "Grandoreiro",
+                "Houdini",
+                "ISFB",
+                "LockBit",
+                "Locky",
+                "Mailto",
+                "Maze",
+                "Microcin",
+                "Nemty",
+                "NjRAT",
+                "Phobos",
+                "PlugX",
+                "Pony",
+                "REvil",
+                "Socelars",
+                "STOP",
+                "Tinba",
+                "TrickBot",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://malwareandstuff.com/deobfuscating-danabots-api-hashing/",
+            "date": "2020-07-12",
+            "organization": "Malware and Stuff",
+            "author": "Andreas Klopsch",
+            "title": "Deobfuscating DanaBot\u2019s API Hashing",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.lastline.com/labsblog/evolution-of-excel-4-0-macro-weaponization/",
+            "date": "2020-06-02",
+            "organization": "Lastline Labs",
+            "author": "James Haughom",
+            "title": "Evolution of Excel 4.0 Macro Weaponization",
+            "categories": [
+                "Agent Tesla",
+                "DanaBot",
+                "ISFB",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://resources.malwarebytes.com/files/2020/05/CTNT_Q1_2020_COVID-Report_Final.pdf",
+            "date": "2020-05-21",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Cybercrime tactics and techniques",
+            "categories": [
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+            "date": "2020-03-04",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2020 CrowdStrike Global Threat Report",
+            "categories": [
+                "MESSAGETAP",
+                "More_eggs",
+                "8.t Dropper",
+                "Anchor",
+                "BabyShark",
+                "BadNews",
+                "Clop",
+                "Cobalt Strike",
+                "CobInt",
+                "Cobra Carbon System",
+                "Cutwail",
+                "DanaBot",
+                "Dharma",
+                "DoppelDridex",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FlawedAmmyy",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "IcedID",
+                "ISFB",
+                "KerrDown",
+                "LightNeuron",
+                "LockerGoga",
+                "Maze",
+                "MECHANICAL",
+                "Necurs",
+                "Nokki",
+                "Outlook Backdoor",
+                "Phobos",
+                "Predator The Thief",
+                "QakBot",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SDBbot",
+                "Skipper",
+                "SmokeLoader",
+                "TerraRecon",
+                "TerraStealer",
+                "TerraTV",
+                "TinyLoader",
+                "TrickBot",
+                "Vidar",
+                "Winnti",
+                "ANTHROPOID SPIDER",
+                "APT23",
+                "APT31",
+                "APT39",
+                "APT40",
+                "BlackTech",
+                "BuhTrap",
+                "Charming Kitten",
+                "CLOCKWORK SPIDER",
+                "DOPPEL SPIDER",
+                "FIN7",
+                "Gamaredon Group",
+                "GOBLIN PANDA",
+                "MONTY SPIDER",
+                "MUSTANG PANDA",
+                "NARWHAL SPIDER",
+                "NOCTURNAL SPIDER",
+                "PINCHY SPIDER",
+                "SALTY SPIDER",
+                "SCULLY SPIDER",
+                "SMOKY SPIDER",
+                "Thrip",
+                "VENOM SPIDER",
+                "VICEROY TIGER"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/danabot-demands-a-ransom-payment/",
+            "date": "2019-06-20",
+            "organization": "Check Point",
+            "author": "Yaroslav Harakhavik",
+            "title": "DanaBot Demands a Ransom Payment",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2019/05/31695-strange-bits-smuggling-malware-github",
+            "date": "2019-05-09",
+            "organization": "G Data",
+            "author": "G-Data",
+            "title": "Strange Bits: HTML Smuggling and GitHub Hosted Malware",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report.pdf",
+            "date": "2019-05-08",
+            "organization": "Verizon Communications Inc.",
+            "author": "Verizon Communications Inc.",
+            "title": "2019 Data Breach Investigations Report",
+            "categories": [
+                "BlackEnergy",
+                "Cobalt Strike",
+                "DanaBot",
+                "Gandcrab",
+                "GreyEnergy",
+                "Mirai",
+                "Olympic Destroyer",
+                "SamSam"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/danabot-control-panel-revealed",
+            "date": "2019-03-13",
+            "organization": "Proofpoint",
+            "author": "Dennis Schwarz",
+            "title": "DanaBot control panel revealed",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/breakdown-of-a-targeted-danabot-attack.html",
+            "date": "2019-03-01",
+            "organization": "Fortinet",
+            "author": "FortiGuard SE Team",
+            "title": "Breakdown of a Targeted DanaBot Attack",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2019/02/07/danabot-updated-new-cc-communication/",
+            "date": "2019-02-07",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "DanaBot updated with new C&C communication",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.yoroi.company/research/dissecting-the-danabot-paylaod-targeting-italy/",
+            "date": "2018-12-20",
+            "organization": "Yoroi",
+            "author": "Davide Testa",
+            "title": "Dissecting the Danabot Payload Targeting Italy",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2018/12/06/danabot-evolves-beyond-banking-trojan-new-spam/",
+            "date": "2018-12-06",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "DanaBot evolves beyond banking Trojan with new spam\u2011sending capability",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/danabot-gains-popularity-and-targets-us-organizations-large-campaigns",
+            "date": "2018-10-02",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "DanaBot Gains Popularity and Targets US Organizations in Large Campaigns",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2018/09/21/danabot-targeting-europe-adds-new-features/",
+            "date": "2018-09-21",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "DanaBot shifts its targeting to Europe, adds new features",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/DanaBot-Riding-Fake-MYOB-Invoice-Emails/",
+            "date": "2018-07-16",
+            "organization": "SpiderLabs Blog",
+            "author": "Fahim Abbasi",
+            "title": "DanaBot Riding Fake MYOB Invoice Emails",
+            "categories": [
+                "DanaBot"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/danabot-new-banking-trojan-surfaces-down-under-0",
+            "date": "2018-05-31",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "DanaBot - A new banking Trojan surfaces Down Under",
+            "categories": [
+                "DanaBot"
+            ]
+        }
+    ]
 };

@@ -34,5 +34,31 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "http_troy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mcafee.com/enterprise/en-us/assets/white-papers/wp-dissecting-operation-troy.pdf",
+            "date": "2018-05-03",
+            "organization": "McAfee",
+            "author": "Ryan Sherstobitoff",
+            "title": "Dissecting Operation Troy: Cyberespionage in South Korea",
+            "categories": [
+                "concealment_troy",
+                "http_troy",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "http://www.malware-reversing.com/2013/04/5-south-korea-incident-new-malware.html",
+            "date": "2013-04-24",
+            "organization": "",
+            "author": "R136a1",
+            "title": "South Korea Incident - New Malware samples",
+            "categories": [
+                "concealment_troy",
+                "httpdropper",
+                "http_troy"
+            ]
+        }
+    ]
 };

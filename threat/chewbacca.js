@@ -36,5 +36,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "chewbacca",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://vinsula.com/2014/03/01/chewbacca-tor-based-pos-malware/",
+            "date": "2014-03-01",
+            "organization": "Vinsula",
+            "author": "Ivo Ivanov",
+            "title": "ChewBacca \u2013 A TOR Based POS Malware",
+            "categories": [
+                "ChewBacca"
+            ]
+        }
+    ]
 };

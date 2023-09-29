@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "ISMAgent",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2020-05-14",
+    "modified": "2022-07-18",
     "all_data": {
         "tool": "ISMAgent",
         "names": [
@@ -35,5 +35,78 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ismagent",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/evasive-serpens/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Evasive Serpens",
+            "categories": [
+                "TwoFace",
+                "ISMAgent",
+                "ISMDoor",
+                "OopsIE",
+                "RDAT",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/greenbug-espionage-telco-south-asia",
+            "date": "2020-05-19",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Sophisticated Espionage Group Turns Attention to Telecom Providers in South Asia",
+            "categories": [
+                "ISMAgent",
+                "ISMDoor"
+            ]
+        },
+        {
+            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
+            "date": "2019-08-22",
+            "organization": "Cyware",
+            "author": "Cyware",
+            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
+            "categories": [
+                "TwoFace",
+                "BONDUPDATER",
+                "POWRUNER",
+                "QUADAGENT",
+                "Helminth",
+                "ISMAgent",
+                "Karkoff",
+                "LONGWATCH",
+                "OopsIE",
+                "PICKPOCKET",
+                "RGDoor",
+                "VALUEVAULT"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
+            "date": "2019-04-16",
+            "organization": "",
+            "author": "Robert Falcone",
+            "title": "DNS Tunneling in the Wild: Overview of OilRig\u2019s DNS Tunneling",
+            "categories": [
+                "BONDUPDATER",
+                "QUADAGENT",
+                "Alma Communicator",
+                "Helminth",
+                "ISMAgent"
+            ]
+        },
+        {
+            "data_url": "http://www.clearskysec.com/ismagent/",
+            "date": "2017-08-28",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Recent ISMAgent Samples and Infrastructure by Iranian Threat Group GreenBug",
+            "categories": [
+                "ISMAgent"
+            ]
+        }
+    ]
 };

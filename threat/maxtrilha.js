@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "maxtrilha",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://seguranca-informatica.pt/the-new-maxtrilha-trojan-is-being-disseminated-and-targeting-several-banks/#.YT3_VfwzaKN",
+            "date": "2021-09-10",
+            "organization": "Seguranca Informatica",
+            "author": "Pedro Tavares",
+            "title": "The new maxtrilha trojan is being disseminated and targeting several banks",
+            "categories": [
+                "Maxtrilha"
+            ]
+        }
+    ]
 };

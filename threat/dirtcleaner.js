@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "DIRTCLEANER, CCleaner Backdoor",
     "category": "Malware",
     "type": "Loader",
-    "modified": "2020-05-13",
+    "modified": "2021-10-27",
     "all_data": {
         "tool": "DIRTCLEANER",
         "names": [
@@ -169,5 +169,233 @@ var threatdata = {
     "last_ioc_update": "2023-08-11 00:00:38",
     "mitre": [],
     "file_name": "dirtcleaner",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/pe-file-infecting-malware-ot",
+            "date": "2021-10-27",
+            "organization": "Mandiant",
+            "author": "Ken Proska",
+            "title": "Portable Executable File Infecting Malware Is Increasingly Found in OT Networks",
+            "categories": [
+                "CCleaner Backdoor",
+                "Floxif",
+                "neshta",
+                "Ramnit",
+                "Sality",
+                "Virut"
+            ]
+        },
+        {
+            "data_url": "https://stmxcsr.com/persistence/print-processor.html",
+            "date": "2021-10-20",
+            "organization": "Twitter (@lampnout)",
+            "author": "Lampros Noutsos",
+            "title": "Persistence and Privilege Escalation on Windows via Print Processors",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/upload/corporate/ww-en/pt-esc/winnti-2020-eng.pdf",
+            "date": "2020-09-08",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "ShadowPad: new activity from the Winnti group",
+            "categories": [
+                "CCleaner Backdoor",
+                "Korlia",
+                "ShadowPad",
+                "TypeHash"
+            ]
+        },
+        {
+            "data_url": "https://risky.biz/whatiswinnti/",
+            "date": "2020-07-20",
+            "organization": "Risky.biz",
+            "author": "Daniel Gordon",
+            "title": "What even is Winnti?",
+            "categories": [
+                "CCleaner Backdoor",
+                "Ghost RAT",
+                "PlugX",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/big-threats-using-code-similarity-part-1/97239/",
+            "date": "2020-06-09",
+            "organization": "Kaspersky Labs",
+            "author": "Costin Raiu",
+            "title": "Looking at Big Threats Using Code Similarity. Part 1",
+            "categories": [
+                "Penquin Turla",
+                "CCleaner Backdoor",
+                "EternalPetya",
+                "Regin",
+                "WannaCryptor",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-atlas",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE ATLAS",
+            "categories": [
+                "Speculoos",
+                "Winnti",
+                "ACEHASH",
+                "CCleaner Backdoor",
+                "CHINACHOPPER",
+                "Empire Downloader",
+                "HTran",
+                "MimiKatz",
+                "PlugX",
+                "Winnti",
+                "APT41"
+            ]
+        },
+        {
+            "data_url": "https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer",
+            "date": "2018-04-17",
+            "organization": "Avast",
+            "author": "Ondrej Vlcek",
+            "title": "Recent findings from CCleaner APT investigation reveal that attackers entered the Piriform network via TeamViewer",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://blog.avast.com/new-investigations-in-ccleaner-incident-point-to-a-possible-third-stage-that-had-keylogger-capacities",
+            "date": "2018-03-08",
+            "organization": "Avast",
+            "author": "Threat Intelligence Team",
+            "title": "New investigations into the CCleaner incident point to a possible third stage that had keylogger capacities",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/in-depth-analysis-of-the-ccleaner-backdoor-stage-2-dropper-and-its-payload/",
+            "date": "2017-11-10",
+            "organization": "CrowdStrike",
+            "author": "Karan Sood",
+            "title": "CCleaner Stage 2: In-Depth Analysis of the Payload",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/protecting-software-supply-chain-deep-insights-ccleaner-backdoor/",
+            "date": "2017-10-04",
+            "organization": "CrowdStrike",
+            "author": "Karan Sood",
+            "title": "Protecting the Software Supply Chain: Deep Insights into the CCleaner Backdoor",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "http://www.intezer.com/evidence-aurora-operation-still-active-part-2-more-ties-uncovered-between-ccleaner-hack-chinese-hackers/",
+            "date": "2017-10-02",
+            "organization": "Intezer",
+            "author": "Jay Rosenberg",
+            "title": "Evidence Aurora Operation Still Active Part 2: More Ties Uncovered Between CCleaner Hack & Chinese Hackers",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://blog.avast.com/additional-information-regarding-the-recent-ccleaner-apt-security-incident",
+            "date": "2017-09-25",
+            "organization": "Avast",
+            "author": "Threat Intelligence Team",
+            "title": "Additional information regarding the recent CCleaner APT security incident",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://blog.avast.com/avast-threat-labs-analysis-of-ccleaner-incident",
+            "date": "2017-09-21",
+            "organization": "Avast",
+            "author": "Threat Intelligence Team",
+            "title": "Avast Threat Labs analysis of CCleaner incident",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "http://www.intezer.com/evidence-aurora-operation-still-active-supply-chain-attack-through-ccleaner/",
+            "date": "2017-09-20",
+            "organization": "Intezer",
+            "author": "Jay Rosenberg",
+            "title": "Evidence Aurora Operation Still Active: Supply Chain Attack Through CCleaner",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/09/ccleaner-c2-concern.html",
+            "date": "2017-09-20",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "CCleaner Command and Control Causes Concern",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://blog.avast.com/progress-on-ccleaner-investigation",
+            "date": "2017-09-20",
+            "organization": "Avast",
+            "author": "Vince Steckler",
+            "title": "Progress on CCleaner Investigation",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://www.wired.com/story/ccleaner-malware-targeted-tech-firms",
+            "date": "2017-09-20",
+            "organization": "Wired",
+            "author": "Andy Greenberg",
+            "title": "The CCleaner Malware Fiasco Targeted at Least 18 Specific Tech Firms",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/craiu/status/910148928796061696",
+            "date": "2017-09-19",
+            "organization": "Twitter (@craiu)",
+            "author": "Costin Raiu",
+            "title": "Tweet on Shared Code between CCleaner and APT17 Missl backdoor",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "http://blog.morphisec.com/morphisec-discovers-ccleaner-backdoor",
+            "date": "2017-09-18",
+            "organization": "Morphisec",
+            "author": "Michael Gorelik",
+            "title": "Morphisec Discovers CCleaner Backdoor Saving Millions of Avast Users",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/09/avast-distributes-malware.html",
+            "date": "2017-09-18",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "CCleanup: A Vast Number of Machines at Risk",
+            "categories": [
+                "CCleaner Backdoor"
+            ]
+        }
+    ]
 };

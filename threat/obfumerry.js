@@ -28,5 +28,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "obfumerry",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

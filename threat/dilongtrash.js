@@ -31,5 +31,21 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "dilongtrash",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+            "date": "2022-02-04",
+            "organization": "Microsoft",
+            "author": "Microsoft Threat Intelligence Center (MSTIC)",
+            "title": "ACTINIUM targets Ukrainian organizations",
+            "categories": [
+                "DilongTrash",
+                "DinoTrain",
+                "Pteranodon",
+                "QuietSieve",
+                "Gamaredon Group"
+            ]
+        }
+    ]
 };

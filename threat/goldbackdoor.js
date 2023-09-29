@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "goldbackdoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://stairwell.com/wp-content/uploads/2022/04/Stairwell-threat-report-The-ink-stained-trail-of-GOLDBACKDOOR.pdf",
+            "date": "2022-04-21",
+            "organization": "Stairwell",
+            "author": "Silas Cutler",
+            "title": "The ink-stained trail of GOLDBACKDOOR",
+            "categories": [
+                "GOLDBACKDOOR"
+            ]
+        }
+    ]
 };

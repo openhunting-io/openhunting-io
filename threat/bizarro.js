@@ -39,5 +39,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "bizarro",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/bizarro-banking-trojan-expands-its-attacks-to-europe/102258/",
+            "date": "2021-05-17",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "Bizarro banking Trojan expands its attacks to Europe",
+            "categories": [
+                "Bizzaro"
+            ]
+        }
+    ]
 };

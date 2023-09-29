@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "hiddenlotus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/12/interesting-disguise-employed-by-new-mac-malware/",
+            "date": "2017-12-08",
+            "organization": "Malwarebytes",
+            "author": "Thomas Reed",
+            "title": "Interesting disguise employed by new Mac malware HiddenLotus",
+            "categories": [
+                "HiddenLotus"
+            ]
+        }
+    ]
 };

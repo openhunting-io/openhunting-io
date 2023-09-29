@@ -131,5 +131,58 @@ var threatdata = {
     "last_ioc_update": "2021-11-17 00:04:13",
     "mitre": [],
     "file_name": "mirrorblast",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/whatta-ta-ta505-ramps-activity-delivers-new-flawedgrace-variant",
+            "date": "2021-10-19",
+            "organization": "Proofpoint",
+            "author": "Zydeca Cass",
+            "title": "Whatta TA: TA505 Ramps Up Activity, Delivers New FlawedGrace Variant",
+            "categories": [
+                "FlawedGrace",
+                "MirrorBlast"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/explosive-new-mirrorblast-campaign-targets-financial-companies",
+            "date": "2021-10-14",
+            "organization": "Morphisec",
+            "author": "Arnold Osipov",
+            "title": "Explosive New MirrorBlast Campaign Targets Financial Companies",
+            "categories": [
+                "MirrorBlast"
+            ]
+        },
+        {
+            "data_url": "https://frsecure.com/blog/the-rebol-yell-new-rebol-exploit/",
+            "date": "2021-10-05",
+            "organization": "FRSecure",
+            "author": "Oscar Minks",
+            "title": "The REBOL Yell: A New Novel REBOL Exploit",
+            "categories": [
+                "MirrorBlast"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/daily-ruleset-update-summary-20210924",
+            "date": "2021-09-24",
+            "organization": "Proofpoint",
+            "author": "Proofpoint",
+            "title": "Daily Ruleset Update Summary 2021/09/24",
+            "categories": [
+                "MirrorBlast"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/mirrorblast-and-ta505-examining-similarities-in-tactics-techniques-and-procedures/",
+            "date": "2021-09-19",
+            "organization": "HP",
+            "author": "Patrick Schl\u00e4pfer",
+            "title": "MirrorBlast and TA505: Examining Similarities in Tactics, Techniques and Procedures",
+            "categories": [
+                "MirrorBlast"
+            ]
+        }
+    ]
 };

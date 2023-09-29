@@ -35,5 +35,40 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "lightspy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/ios-exploit-chain-deploys-lightspy-malware/96407/",
+            "date": "2020-03-26",
+            "organization": "Kaspersky Labs",
+            "author": "Alexey Firsh",
+            "title": "iOS exploit chain deploys LightSpy feature-rich malware",
+            "categories": [
+                "dmsSpy",
+                "lightSpy"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/Tech-Brief-Operation-Poisoned-News-Hong-Kong-Users-Targeted-with-Mobile-Malware-via-Local-News-Links.pdf",
+            "date": "2020-03-24",
+            "organization": "Trend Micro",
+            "author": "Elliot Cao",
+            "title": "Technical Brief: Operation Poisoned News: Hong Kong Users Targeted with Mobile Malware via Local News Links",
+            "categories": [
+                "dmsSpy",
+                "lightSpy"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/operation-poisoned-news-hong-kong-users-targeted-with-mobile-malware-via-local-news-links/",
+            "date": "2020-03-24",
+            "organization": "Trend Micro",
+            "author": "Elliot Cao",
+            "title": "Operation Poisoned News: Hong Kong Users Targeted With Mobile Malware via Local News Links",
+            "categories": [
+                "dmsSpy",
+                "lightSpy"
+            ]
+        }
+    ]
 };

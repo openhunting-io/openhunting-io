@@ -30,5 +30,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "bluehaze",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/china-nexus-espionage-southeast-asia",
+            "date": "2022-11-28",
+            "organization": "Mandiant",
+            "author": "Ryan Tomcik",
+            "title": "Always Another Secret: Lifting the Haze on China-nexus Espionage in Southeast Asia",
+            "categories": [
+                "BLUEHAZE",
+                "DARKDEW",
+                "MISTCLOAK"
+            ]
+        }
+    ]
 };

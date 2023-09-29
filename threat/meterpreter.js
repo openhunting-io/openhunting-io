@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Meterpreter",
     "category": "Tools",
     "type": "Loader",
-    "modified": "2022-12-29",
+    "modified": "2023-09-07",
     "all_data": {
         "tool": "Meterpreter",
         "names": [
@@ -842,5 +842,568 @@ var threatdata = {
     "last_ioc_update": "2023-09-26 10:47:01",
     "mitre": [],
     "file_name": "meterpreter",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cisa.gov/sites/default/files/2023-09/aa23-250a-apt-actors-exploit-cve-2022-47966-and-cve-2022-42475.pdf",
+            "date": "2023-09-07",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Multiple Nation-State Threat Actors Exploit CVE-2022-47966 and CVE-2022-42475",
+            "categories": [
+                "Meterpreter",
+                "MimiKatz"
+            ]
+        },
+        {
+            "data_url": "https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Staubmann-Busy-Bees.pptx",
+            "date": "2023-06-08",
+            "organization": "VMRay",
+            "author": "Patrick Staubmann",
+            "title": "Busy Bees - The Transformation of BumbleBee",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti",
+                "Meterpreter",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/53046/",
+            "date": "2023-05-22",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "Kimsuky Group Using Meterpreter to Attack Web Servers",
+            "categories": [
+                "Kimsuky",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
+            "date": "2023-04-24",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "Tomiris called, they want their Turla malware back",
+            "categories": [
+                "KopiLuwak",
+                "Andromeda",
+                "Ave Maria",
+                "GoldMax",
+                "JLORAT",
+                "Kazuar",
+                "Meterpreter",
+                "QUIETCANARY",
+                "RATel",
+                "Roopy",
+                "Telemiris",
+                "tomiris",
+                "Topinambour"
+            ]
+        },
+        {
+            "data_url": "https://mandiant.widen.net/s/pkffwrbjlz/m-trends-2023",
+            "date": "2023-04-18",
+            "organization": "Mandiant",
+            "author": "Mandiant",
+            "title": "M-Trends 2023",
+            "categories": [
+                "QUIETEXIT",
+                "AppleJeus",
+                "Black Basta",
+                "BlackCat",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "Dharma",
+                "HermeticWiper",
+                "Hive",
+                "INDUSTROYER2",
+                "Ladon",
+                "LockBit",
+                "Meterpreter",
+                "PartyTicket",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Royal Ransom",
+                "SystemBC",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/J_A12SOX0k5TOYFAegBv_w",
+            "date": "2022-12-06",
+            "organization": "360 Threat Intelligence Center",
+            "author": "360 Beacon Lab",
+            "title": "Analysis of suspected APT-C-56 (Transparent Tribe) attacks against terrorism",
+            "categories": [
+                "AhMyth",
+                "Meterpreter",
+                "SpyNote",
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/bumblebee-increasing-its-capacity-and-evolving-its-ttps/",
+            "date": "2022-10-03",
+            "organization": "Check Point",
+            "author": "Marc Salinas Fernandez",
+            "title": "Bumblebee: increasing its capacity and evolving its TTPs",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Meterpreter",
+                "Sliver",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2022/09/26/bumblebee-round-two/",
+            "date": "2022-09-26",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "BumbleBee: Round Two",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/threat-analysis-report-abusing-notepad-plugins-for-evasion-and-persistence",
+            "date": "2022-09-14",
+            "organization": "Cybereason",
+            "author": "Derrick Masters",
+            "title": "THREAT ANALYSIS REPORT: Abusing Notepad++ Plugins for Evasion and Persistence",
+            "categories": [
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://cybersecurity.att.com/blogs/labs-research/shikitega-new-stealthy-malware-targeting-linux",
+            "date": "2022-09-06",
+            "organization": "AT&T",
+            "author": "Ofer Caspi",
+            "title": "Shikitega - New stealthy malware targeting Linux",
+            "categories": [
+                "BotenaGo",
+                "EnemyBot",
+                "Meterpreter",
+                "Monero Miner"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/dangeroussavanna-two-year-long-campaign-targets-financial-institutions-in-french-speaking-africa/",
+            "date": "2022-09-06",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "DangerousSavanna: Two-year long campaign targets financial institutions in French-speaking Africa",
+            "categories": [
+                "AsyncRAT",
+                "Meterpreter",
+                "PoshC2",
+                "DangerousSavanna"
+            ]
+        },
+        {
+            "data_url": "https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f",
+            "date": "2022-09-01",
+            "organization": "Medium michaelkoczwara",
+            "author": "Michael Koczwara",
+            "title": "Hunting C2/Adversaries Infrastructure with Shodan and Censys",
+            "categories": [
+                "Brute Ratel C4",
+                "Cobalt Strike",
+                "Deimos",
+                "GRUNT",
+                "IcedID",
+                "Merlin",
+                "Meterpreter",
+                "Nighthawk",
+                "PoshC2",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/chasing-currents-espionage-south-china-sea",
+            "date": "2022-08-30",
+            "organization": "Proofpoint",
+            "author": "Michael Raggi",
+            "title": "Rising Tide: Chasing the Currents of Espionage in the South China Sea",
+            "categories": [
+                "scanbox",
+                "Meterpreter",
+                "APT40"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2022/08/18/cookie-stealing-the-new-perimeter-bypass",
+            "date": "2022-08-18",
+            "organization": "Sophos",
+            "author": "Sean Gallagher",
+            "title": "Cookie stealing: the new perimeter bypass",
+            "categories": [
+                "Cobalt Strike",
+                "Meterpreter",
+                "MimiKatz",
+                "Phoenix Keylogger",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/obscureserpens/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Obscure Serpens",
+            "categories": [
+                "Cobalt Strike",
+                "Empire Downloader",
+                "Meterpreter",
+                "MimiKatz",
+                "DarkHydrus"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-group-systematically-attacking-ukraine",
+            "date": "2022-07-07",
+            "organization": "IBM",
+            "author": "Ole Villadsen",
+            "title": "Unprecedented Shift: The Trickbot Group is Systematically Attacking Ukraine",
+            "categories": [
+                "AnchorMail",
+                "BumbleBee",
+                "Cobalt Strike",
+                "IcedID",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://www.elastic.co/security-labs/cuba-ransomware-campaign-analysis",
+            "date": "2022-06-01",
+            "organization": "Elastic",
+            "author": "Daniel Stepanic",
+            "title": "CUBA Ransomware Campaign Analysis",
+            "categories": [
+                "Cobalt Strike",
+                "Cuba",
+                "Meterpreter",
+                "MimiKatz",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/05/mustang-panda-targets-europe.html",
+            "date": "2022-05-05",
+            "organization": "Cisco Talos",
+            "author": "Jung soo An",
+            "title": "Mustang Panda deploys a new wave of malware targeting Europe",
+            "categories": [
+                "Cobalt Strike",
+                "Meterpreter",
+                "PlugX",
+                "Unidentified 094"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/how-cybercriminals-abuse-cloud-tunneling-services",
+            "date": "2022-04-26",
+            "organization": "Trend Micro",
+            "author": "Ryan Flores",
+            "title": "How Cybercriminals Abuse Cloud Tunneling Services",
+            "categories": [
+                "AsyncRAT",
+                "Cobalt Strike",
+                "DarkComet",
+                "Meterpreter",
+                "Nanocore RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.cynet.com/attack-techniques-hands-on/threats-looming-over-the-horizon/",
+            "date": "2022-01-25",
+            "organization": "Cynet",
+            "author": "Orion Threat Research and Intelligence Team",
+            "title": "Threats Looming Over the Horizon",
+            "categories": [
+                "Cobalt Strike",
+                "Meterpreter",
+                "NightSky"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/log4j-vulnerability-now-used-to-install-dridex-banking-malware/",
+            "date": "2021-12-20",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Log4j vulnerability now used to install Dridex banking malware",
+            "categories": [
+                "DoppelDridex",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://blog.lumen.com/no-longer-just-theory-black-lotus-labs-uncovers-linux-executables-deployed-as-stealth-windows-loaders/",
+            "date": "2021-09-16",
+            "organization": "Lumen",
+            "author": "Black Lotus Labs",
+            "title": "No Longer Just Theory: Black Lotus Labs Uncovers Linux Executables Deployed as Stealth Windows Loaders",
+            "categories": [
+                "PrivetSanya",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://www.countercraftsec.com/blog/post/shellcode-detection-using-realtime-kernel-monitoring/",
+            "date": "2021-09-07",
+            "organization": "Counter Craft",
+            "author": "Counter Craft",
+            "title": "Shellcode Detection Using Real-Time Kernel Monitoring",
+            "categories": [
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/ko/26705/",
+            "date": "2021-09-02",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Attacks using metasploit meterpreter",
+            "categories": [
+                "Appleseed",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/06/02/amsi-bypasses-remain-tricks-of-the-malware-trade/",
+            "date": "2021-06-02",
+            "organization": "Sophos",
+            "author": "Sean Gallagher",
+            "title": "AMSI bypasses remain tricks of the malware trade",
+            "categories": [
+                "Agent Tesla",
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://www.recordedfuture.com/chinese-group-calypso-exploiting-microsoft-exchange/",
+            "date": "2021-03-25",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Suspected Chinese Group Calypso APT Exploiting Vulnerable Microsoft Exchange Servers",
+            "categories": [
+                "Meterpreter",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0107.pdf",
+            "date": "2021-01-07",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Aversary Infrastructure Report 2020: A Defender's View",
+            "categories": [
+                "Octopus",
+                "pupy",
+                "Cobalt Strike",
+                "Empire Downloader",
+                "Meterpreter",
+                "PoshC2"
+            ]
+        },
+        {
+            "data_url": "https://redcanary.com/blog/getsystem-offsec/",
+            "date": "2021-01-06",
+            "organization": "Red Canary",
+            "author": "Tony Lambert",
+            "title": "Hunting for GetSystem in offensive security tools",
+            "categories": [
+                "Cobalt Strike",
+                "Empire Downloader",
+                "Meterpreter",
+                "PoshC2"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-franklin",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD FRANKLIN",
+            "categories": [
+                "Grateful POS",
+                "Meterpreter",
+                "MimiKatz",
+                "RemCom",
+                "FIN6"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-winter",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD WINTER",
+            "categories": [
+                "Cobalt Strike",
+                "Hades",
+                "Meterpreter",
+                "GOLD WINTER"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/20/l/sidewinder-leverages-south-asian-territorial-issues-for-spear-ph.html",
+            "date": "2020-12-09",
+            "organization": "Trend Micro",
+            "author": "Joseph C Chen",
+            "title": "SideWinder Leverages South Asian Territorial Issues for Spear Phishing and Mobile Device Attacks",
+            "categories": [
+                "Meterpreter",
+                "SideWinder",
+                "RAZOR TIGER"
+            ]
+        },
+        {
+            "data_url": "https://cybleinc.com/2020/11/17/oceanlotus-continues-with-its-cyber-espionage-operations/",
+            "date": "2020-11-17",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "OceanLotus Continues With Its Cyber Espionage Operations",
+            "categories": [
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+            "date": "2020-10-27",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Alert (AA20-301A): North Korean Advanced Persistent Threat Focus: Kimsuky",
+            "categories": [
+                "BabyShark",
+                "GREASE",
+                "MECHANICAL",
+                "Meterpreter",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/China/APT/Chimera/Analysis.md",
+            "date": "2020-10-11",
+            "organization": "Github (StrangerealIntel)",
+            "author": "StrangerealIntel",
+            "title": "Chimera, APT19 under the radar ?",
+            "categories": [
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://www.wired.com/story/russias-fancy-bear-hack-us-federal-agency/",
+            "date": "2020-10-01",
+            "organization": "Wired",
+            "author": "Andy Greenberg",
+            "title": "Russia\u2019s Fancy Bear Hackers Likely Penetrated a US Federal Agency",
+            "categories": [
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@cryptax/into-android-meterpreter-and-how-the-malware-launches-it-part-2-ef5aad2ebf12",
+            "date": "2020-09-25",
+            "organization": "Medium cryptax",
+            "author": "Axelle Apvrille",
+            "title": "Into Android Meterpreter and how the malware launches it - part 2",
+            "categories": [
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-268a",
+            "date": "2020-09-24",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Analysis Report (AR20-268A): Federal Agency Compromised by Malicious Cyber Actor",
+            "categories": [
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@cryptax/locating-the-trojan-inside-an-infected-covid-19-contact-tracing-app-21e23f90fbfe",
+            "date": "2020-09-18",
+            "organization": "Medium cryptax",
+            "author": "Axelle Apvrille",
+            "title": "Locating the Trojan inside an infected COVID-19 contact tracing app",
+            "categories": [
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/shedding-skin-turlas-fresh-faces/88069/",
+            "date": "2018-10-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Shedding Skin \u2013 Turla\u2019s Fresh Faces",
+            "categories": [
+                "KopiLuwak",
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Gazer",
+                "Meterpreter",
+                "Mosquito",
+                "Skipper"
+            ]
+        },
+        {
+            "data_url": "https://explore.group-ib.com/htct/hi-tech_crime_2018",
+            "date": "2018-10",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "Hi-Tech Crime Trends 2018",
+            "categories": [
+                "BackSwap",
+                "Cobalt Strike",
+                "Cutlet",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://vx-underground.org/archive/APTs/2017/2017.12.11/Money%20Taker.pdf",
+            "date": "2017-12-11",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "MoneyTaker 1.5 YEARS OF SILENT OPERATIONS",
+            "categories": [
+                "Citadel",
+                "Kronos",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/fin7-attacks-restaurant-industry",
+            "date": "2017-06-09",
+            "organization": "Morphisec",
+            "author": "Michael Gorelik",
+            "title": "FIN7 Takes Another Bite at the Restaurant Industry",
+            "categories": [
+                "Meterpreter",
+                "FIN7"
+            ]
+        },
+        {
+            "data_url": "http://schierlm.users.sourceforge.net/avevasion.html",
+            "date": "2011-07-10",
+            "organization": "",
+            "author": "Michael Schierl",
+            "title": "Facts and myths about antivirus evasion with Metasploit",
+            "categories": [
+                "Meterpreter"
+            ]
+        }
+    ]
 };

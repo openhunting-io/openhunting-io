@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Vjw0rm, Vengeance Justice Worm",
     "category": "Malware",
     "type": "Backdoor, Worm, Info stealer, DDoS",
-    "modified": "2022-09-12",
+    "modified": "2023-01-10",
     "all_data": {
         "tool": "Vjw0rm",
         "names": [
@@ -1502,5 +1502,157 @@ var threatdata = {
     "last_ioc_update": "2023-09-26 02:25:20",
     "mitre": [],
     "file_name": "vjw0rm",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://resources.securityscorecard.com/research/acasestudyofVjw0rm#page=1",
+            "date": "2023-01-10",
+            "organization": "SecurityScorecard",
+            "author": "Vlad Pasca",
+            "title": "How to Analyze JavaScript Malware \u2013 A Case Study of Vjw0rm",
+            "categories": [
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2022-10-13",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2022",
+            "categories": [
+                "FluBot",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "Emotet",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Socelars",
+                "Tofsee",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/reservations-requested-ta558-targets-hospitality-and-travel",
+            "date": "2022-08-18",
+            "organization": "Proofpoint",
+            "author": "Joe Wise",
+            "title": "Reservations Requested: TA558 Targets Hospitality and Travel",
+            "categories": [
+                "AsyncRAT",
+                "Loda",
+                "NjRAT",
+                "Ozone RAT",
+                "Revenge RAT",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/HP-Wolf-Security-Threat-Insights-Report-Q1-2022.pdf",
+            "date": "2022-05-11",
+            "organization": "HP",
+            "author": "HP Wolf Security",
+            "title": "Threat Insights Report Q1 - 2022",
+            "categories": [
+                "AsyncRAT",
+                "Emotet",
+                "Mekotio",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/24759ad2",
+            "date": "2021-12-13",
+            "organization": "RiskIQ",
+            "author": "Jordan Herman",
+            "title": "RiskIQ: Connections between Nanocore, Netwire, and AsyncRAT and Vjw0rm dynamic DNS C2 infrastructure",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/tccontre18/status/1461386178528264204",
+            "date": "2021-11-18",
+            "organization": "Twitter (@tccontre18)",
+            "author": "Br3akp0int",
+            "title": "Tweet on how to decrypt 4 layers of encryption & obfuscation of vjw0rm",
+            "categories": [
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape",
+            "date": "2021-11-04",
+            "organization": "Deep instinct",
+            "author": "Shaul Vilkomir-Preisman",
+            "title": "Understanding the Windows JavaScript Threat Landscape",
+            "categories": [
+                "STRRAT",
+                "Griffon",
+                "BlackByte",
+                "Houdini",
+                "Vjw0rm",
+                "FIN7"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/10/HP-Wolf-Security-Threat-Insights-Report-Q3-2021.pdf",
+            "date": "2021-10",
+            "organization": "HP",
+            "author": "HP Wolf Security",
+            "title": "Threat Insights  Report Q3 - 2021",
+            "categories": [
+                "STRRAT",
+                "CloudEyE",
+                "NetWire RC",
+                "Remcos",
+                "TrickBot",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://lifars.com/wp-content/uploads/2021/09/Vjw0rm-.pdf",
+            "date": "2021-09-02",
+            "organization": "LIFARS",
+            "author": "Vlad Pasca",
+            "title": "Vjw0rm Worm/RAT",
+            "categories": [
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://bazaar.abuse.ch/browse/signature/Vjw0rm/",
+            "date": "2021-03-21",
+            "organization": "abuse.ch",
+            "author": "abuse.ch",
+            "title": "Vjw0rm malware samples",
+            "categories": [
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://appriver.com/resources/blog/november-2020/vjw0rm-back-new-tactics",
+            "date": "2020-11",
+            "organization": "AppRiver",
+            "author": "Chris Lee",
+            "title": "Vjw0rm Is Back With New Tactics",
+            "categories": [
+                "Vjw0rm"
+            ]
+        }
+    ]
 };

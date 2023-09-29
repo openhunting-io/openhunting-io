@@ -27,5 +27,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "phonyc2",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.deepinstinct.com/blog/phonyc2-revealing-a-new-malicious-command-control-framework-by-muddywater",
+            "date": "2023-06-29",
+            "organization": "DeepInstinct",
+            "author": "Simon Kenin",
+            "title": "PhonyC2: Revealing a New Malicious Command & Control Framework by MuddyWater",
+            "categories": [
+                "PhonyC2",
+                "POWERSTATS"
+            ]
+        }
+    ]
 };

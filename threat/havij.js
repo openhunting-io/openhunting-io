@@ -32,7 +32,29 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "havij",
+            "procedure_code": "s0224",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0224",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1190",
+                    "technique_link": "https://attack.mitre.org/techniques/T1190",
+                    "technique_name": "exploit public-facing application",
+                    "technique_description": "adversaries may attempt to exploit a weakness in an internet-facing host or system to initially access a network. the weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.",
+                    "procedure_description": "havij is used to automate sql injection.[37]"
+                }
+            ]
+        }
+    ],
     "file_name": "havij",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

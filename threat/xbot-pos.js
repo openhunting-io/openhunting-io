@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "xbot-pos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://benkowlab.blogspot.de/2017/08/quick-look-at-another-alina-fork-xbot.html",
+            "date": "2017-08-16",
+            "organization": "Benkow Lab",
+            "author": "Beno\u00eet Ancel",
+            "title": "Quick look at another Alina fork: XBOT-POS",
+            "categories": [
+                "XBot POS"
+            ]
+        }
+    ]
 };

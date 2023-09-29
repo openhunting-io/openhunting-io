@@ -37,5 +37,30 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "sepulcher",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/ta413-leverages-new-friarfox-browser-extension-target-gmail-accounts-global",
+            "date": "2021-02-25",
+            "organization": "Proofpoint",
+            "author": "Michael Raggi",
+            "title": "TA413 Leverages New FriarFox Browser Extension to Target the Gmail Accounts of Global Tibetan Organizations",
+            "categories": [
+                "scanbox",
+                "Sepulcher",
+                "Lucky Cat"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/chinese-apt-ta413-resumes-targeting-tibet-following-covid-19-themed-economic",
+            "date": "2020-09-02",
+            "organization": "Proofpoint",
+            "author": "Proofpoint",
+            "title": "Chinese APT TA413 Resumes Targeting of Tibet Following COVID-19 Themed Economic Espionage Campaign Delivering Sepulcher Malware Targeting Europe",
+            "categories": [
+                "Sepulcher",
+                "Lucky Cat"
+            ]
+        }
+    ]
 };

@@ -38,5 +38,34 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "mpkbot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
+            "date": "2017-02-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "Magic Hound Campaign Attacks Saudi Targets",
+            "categories": [
+                "Leash",
+                "MPKBot",
+                "pupy",
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+            "date": "2015-11",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "ROCKET KIT TEN: A CAMPAIGN WITH 9 LIVES",
+            "categories": [
+                "FireMalv",
+                "MPKBot",
+                "Woolger",
+                "Cleaver",
+                "Rocket Kitten"
+            ]
+        }
+    ]
 };

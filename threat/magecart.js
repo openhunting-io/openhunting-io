@@ -719,5 +719,6 @@ var threatdata = {
     "last_ioc_update": "2023-08-30 18:45:25",
     "mitre": [],
     "file_name": "magecart",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

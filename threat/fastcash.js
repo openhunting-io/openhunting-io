@@ -96,5 +96,6 @@ var threatdata = {
     "last_ioc_update": "2023-04-26 18:30:06",
     "mitre": [],
     "file_name": "fastcash",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

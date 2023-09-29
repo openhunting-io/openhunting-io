@@ -36,5 +36,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pixstealer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securityintelligence.com/posts/brazking-android-malware-upgraded-targeting-brazilian-banks/",
+            "date": "2021-11-17",
+            "organization": "IBM",
+            "author": "Shahar Tavor",
+            "title": "BrazKing Android Malware Upgraded and Targeting Brazilian Banks",
+            "categories": [
+                "PixStealer"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2021/pixstealer-a-new-wave-of-android-banking-trojans-abusing-accessibility-services/",
+            "date": "2021-09-29",
+            "organization": "Check Point Research",
+            "author": "Israel Wernik",
+            "title": "PixStealer: a new wave of Android banking Trojans abusing Accessibility Services",
+            "categories": [
+                "PixStealer"
+            ]
+        }
+    ]
 };

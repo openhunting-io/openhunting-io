@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Amadey",
     "category": "Malware",
     "type": "Reconnaissance, Dropper",
-    "modified": "2022-12-30",
+    "modified": "2023-08-31",
     "all_data": {
         "tool": "Amadey",
         "names": [
@@ -5582,7 +5582,814 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-26 13:36:13",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "amadey",
+            "procedure_code": "s1025",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S1025",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "amadey has used a variety of windows api calls, including getcomputernamea, getusernamea, and createprocessa.[16]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "amadey has changed the startup folder to the one containing its executable by overwriting the registry keys.[10][11]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "amadey has changed the startup folder to the one containing its executable by overwriting the registry keys.[10][11]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "amadey has decoded antivirus name strings.[7]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "amadey has overwritten registry keys for persistence.[9]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "amadey has obfuscated strings such as antivirus vendor names, domains, files, and others.[13]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1553.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1553/005",
+                    "technique_name": "subvert trust controls : mark-of-the-web bypass",
+                    "technique_description": "adversaries may abuse specific file formats to subvert mark-of-the-web (motw) controls. in windows, when files are downloaded from the internet, they are tagged with a hidden ntfs alternate data stream (ads) named zone.identifier with a specific value known as the motw. files that are tagged with motw are protected and cannot perform certain actions. for example, starting in ms office 10, if a ms office file has the motw, it will open in protected view. executables tagged with the motw will be processed by windows defender smartscreen that compares files with an allowlist of well-known executables. if the file is not known/trusted, smartscreen will prevent the execution and warn the user not to run it.",
+                    "procedure_description": "amadey has modified the :zone.identifier in the ads area to zero.[5]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has searched for folders associated with antivirus software.[8]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1518.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1518/001",
+                    "technique_name": "software discovery : security software discovery",
+                    "technique_description": "adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. this may include things such as firewall rules and anti-virus. adversaries may use the information from security software discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has checked for a variety of antivirus products.[5][6]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has collected the computer name and os version from a compromised machine.[15][16]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1614",
+                    "technique_link": "https://attack.mitre.org/techniques/T1614",
+                    "technique_name": "system location discovery",
+                    "technique_description": "adversaries may gather information in an attempt to calculate the geographical location of a victim host. adversaries may use the information from system location discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey does not run any tasks or install additional malware if the victim machine is based in russia.[7]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "amadey can identify the ip address of a victim machine.[11]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has collected the user name from a compromised host using getusernamea.[8]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1005",
+                    "technique_name": "data from local system",
+                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
+                    "procedure_description": "amadey can collect information from a compromised host.[3]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "amadey has used http for c2 communications.[8]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1568.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1568/001",
+                    "technique_name": "dynamic resolution : fast flux dns",
+                    "technique_description": "adversaries may use fast flux dns to hide a command and control channel behind an array of rapidly changing ip addresses linked to a single domain resolution. this technique uses a fully qualified domain name, with multiple ip addresses assigned to it which are swapped with high frequency, using a combination of round robin ip addressing and short time-to-live (ttl) for a dns resource record.",
+                    "procedure_description": "amadey has used fast flux dns for its c2.[4]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "amadey can download and execute files to further infect a host machine with additional malware.[9]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1041",
+                    "technique_link": "https://attack.mitre.org/techniques/T1041",
+                    "technique_name": "exfiltration over c2 channel",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
+                    "procedure_description": "amadey has sent victim data to its c2 servers.[2]"
+                }
+            ]
+        }
+    ],
     "file_name": "amadey",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.rapid7.com/blog/post/2023/08/31/fake-update-utilizes-new-idat-loader-to-execute-stealc-and-lumma-infostealers/",
+            "date": "2023-08-31",
+            "organization": "Rapid7 Labs",
+            "author": "Natalie Zargarov",
+            "title": "Fake Update Utilizes New IDAT Loader To Execute StealC and Lumma Infostealers",
+            "categories": [
+                "FAKEUPDATES",
+                "Amadey",
+                "IDAT Loader",
+                "Lumma Stealer",
+                "SectopRAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/muha2xmad/Python/blob/bdc7a711d5a775f8ae47b591f20fdd2e1360b77b/Amadey/amadey_config_extractor.ipynb",
+            "date": "2023-08-10",
+            "organization": "Github (muha2xmad)",
+            "author": "Muhammad Hasan Ali",
+            "title": "Amadey configuration extractor",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://github.com/muha2xmad/Python/blob/bdc7a711d5a775f8ae47b591f20fdd2e1360b77b/Amadey/amadey_string_decryptor.py",
+            "date": "2023-08-10",
+            "organization": "Github (muha2xmad)",
+            "author": "Muhammad Hasan Ali",
+            "title": "Amadey string decryptor",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/amadey-threat-analysis-and-detections.html",
+            "date": "2023-07-25",
+            "organization": "splunk",
+            "author": "Splunk Threat Research Team",
+            "title": "Amadey Threat Analysis and Detections",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://embee-research.ghost.io/shodan-censys-queries/",
+            "date": "2023-06-08",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Practical Queries for Identifying Malware Infrastructure: An informal page for storing Censys/Shodan queries",
+            "categories": [
+                "Amadey",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "QakBot",
+                "Quasar RAT",
+                "Sliver",
+                "solarmarker"
+            ]
+        },
+        {
+            "data_url": "https://embee-research.ghost.io/amadey-bot-infrastructure/",
+            "date": "2023-05-19",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Analysis of Amadey Bot Infrastructure Using Shodan",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/chain-reaction-rokrats-missing-link/",
+            "date": "2023-05-01",
+            "organization": "Check Point Research",
+            "author": "Check Point Research",
+            "title": "Chain Reaction: RokRAT's Missing Link",
+            "categories": [
+                "Amadey",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-04-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2023",
+            "categories": [
+                "FluBot",
+                "Amadey",
+                "AsyncRAT",
+                "Aurora",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://embee-research.ghost.io/redline-stealer-basic-static-analysis-and-c2-extraction/",
+            "date": "2023-04-10",
+            "organization": "Twitter (@embee_research)",
+            "author": "Matthew",
+            "title": "Redline Stealer - Static Analysis and C2 Extraction",
+            "categories": [
+                "Amadey",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://thecyberexpress.com/amadey-botnet-back-via-phishing-sites/",
+            "date": "2023-01-27",
+            "organization": "cyble",
+            "author": "The Cyber Express",
+            "title": "Old Bot in New Bottle: Amadey Botnet Back in Action Via Phishing Sites",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2023/01/25/the-rise-of-amadey-bot-a-growing-concern-for-internet-security/",
+            "date": "2023-01-25",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "The Rise of Amadey Bot: A Growing Concern for Internet Security",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/44504/",
+            "date": "2022-12-22",
+            "organization": "AhnLab",
+            "author": "Sanseo",
+            "title": "Nitol DDoS Malware Installing Amadey Bot",
+            "categories": [
+                "Amadey",
+                "Nitol"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/41450/",
+            "date": "2022-11-08",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "LockBit 3.0 Being Distributed via Amadey Bot",
+            "categories": [
+                "Amadey",
+                "Gandcrab",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.team-cymru.com/post/seychelles-seychelles-on-the-c-2-shore",
+            "date": "2022-09-29",
+            "organization": "Team Cymru",
+            "author": "S2 Research Team",
+            "title": "Seychelles, Seychelles, on the C(2) Shore: An overview of a bulletproof hosting provider named ELITETEAM.",
+            "categories": [
+                "Amadey",
+                "Raccoon",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "STOP"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/07/smokeloader-malware-used-to-augment-amadey-infostealer",
+            "date": "2022-07-29",
+            "organization": "Blackberry",
+            "author": "BlackBerry Research & Intelligence Team",
+            "title": "SmokeLoader Malware Used to Augment Amadey Infostealer",
+            "categories": [
+                "Amadey",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/36634/",
+            "date": "2022-07-21",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "Amadey Bot Being Distributed Through SmokeLoader",
+            "categories": [
+                "Amadey",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/20/malware-pers-1.html",
+            "date": "2022-04-20",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 1. Registry run keys. C++ example.",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "BlackEnergy",
+                "Cobian RAT",
+                "COZYDUKE",
+                "Emotet",
+                "Empire Downloader",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/conti-leaks-examining-the-panama-papers-of-ransomware.html",
+            "date": "2022-03-31",
+            "organization": "Trellix",
+            "author": "John Fokker",
+            "title": "Conti Leaks: Examining the Panama Papers of Ransomware",
+            "categories": [
+                "LockBit",
+                "Amadey",
+                "Buer",
+                "Conti",
+                "IcedID",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "PhotoLoader",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.minerva-labs.com/underminer-exploit-kit-the-more-you-check-the-more-evasive-you-become",
+            "date": "2021-11-02",
+            "organization": "Minerva",
+            "author": "Natalie Zargarov",
+            "title": "Underminer Exploit Kit: The More You Check The More Evasive You Become",
+            "categories": [
+                "Amadey",
+                "Oski Stealer",
+                "RedLine Stealer",
+                "UnderminerEK"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
+            "date": "2021-09-06",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "AV engines evasion for C++ simple malware: part 2",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "Anchor",
+                "AnchorMTea",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Felixroot",
+                "Konni",
+                "Loki Password Stealer (PWS)",
+                "Maze"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/08/raccoon-and-amadey-install-servhelper.html",
+            "date": "2021-08-12",
+            "organization": "Cisco Talos",
+            "author": "Vanja Svajcer",
+            "title": "Signed MSI files, Raccoon and Amadey are used for installing ServHelper RAT",
+            "categories": [
+                "Amadey",
+                "Raccoon",
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/amadey-stealer-plugin-adds-mikrotik-and-outlook-harvesting-518efe724ce4",
+            "date": "2021-07-08",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "Amadey stealer plugin adds Mikrotik and Outlook harvesting",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/paas-or-how-hackers-evade-antivirus-software/",
+            "date": "2021-04-12",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "PaaS, or how hackers evade antivirus software",
+            "categories": [
+                "Amadey",
+                "Bunitu",
+                "Cerber",
+                "Dridex",
+                "ISFB",
+                "KPOT Stealer",
+                "Mailto",
+                "Nemty",
+                "Phobos",
+                "Pony",
+                "Predator The Thief",
+                "QakBot",
+                "Raccoon",
+                "RTM",
+                "SmokeLoader",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/27264",
+            "date": "2021-03-31",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Xavier Mertens",
+            "title": "Quick Analysis of a Modular InfoStealer",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+            "date": "2021-02-23",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2021 Global Threat Report",
+            "categories": [
+                "RansomEXX",
+                "Amadey",
+                "Anchor",
+                "Avaddon",
+                "BazarBackdoor",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "Cutwail",
+                "DanaBot",
+                "DarkSide",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Hakbit",
+                "IcedID",
+                "JSOutProx",
+                "KerrDown",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "NedDnLoader",
+                "Nemty",
+                "Pay2Key",
+                "PlugX",
+                "Pushdo",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "Quasar RAT",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Sekhmet",
+                "ShadowPad",
+                "SmokeLoader",
+                "Snake",
+                "SUNBURST",
+                "SunCrypt",
+                "TEARDROP",
+                "TrickBot",
+                "WastedLocker",
+                "Winnti",
+                "Zloader",
+                "KNOCKOUT SPIDER",
+                "OUTLAW SPIDER",
+                "RIDDLE SPIDER",
+                "SOLAR SPIDER",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-decrypt-strings-in-amadey-1-09/",
+            "date": "2021-02-09",
+            "organization": "Max Kersten's Blog",
+            "author": "Max Kersten",
+            "title": "Ghidra script to decrypt strings in Amadey 1.09",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://www.anquanke.com/post/id/230116",
+            "date": "2021-02-01",
+            "organization": "Microstep Intelligence Bureau",
+            "author": "Microstep online research response team",
+            "title": "Analysis of the attack activity organized by Konni APT using the topic of North Korean epidemic materials as bait",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/csis-techblog/gcleaner-garbage-provider-since-2019-2708e7c87a8a",
+            "date": "2021-01-18",
+            "organization": "Medium csis-techblog",
+            "author": "Beno\u00eet Ancel",
+            "title": "GCleaner \u2014 Garbage Provider Since 2019",
+            "categories": [
+                "Amadey",
+                "Ficker Stealer",
+                "Raccoon",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "STOP"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-006.pdf",
+            "date": "2020-06-22",
+            "organization": "CERT-FR",
+            "author": "CERT-FR",
+            "title": "\u00c9volution De Lactivit\u00e9 du Groupe Cybercriminel TA505",
+            "categories": [
+                "Amadey",
+                "AndroMut",
+                "Bart",
+                "Clop",
+                "Dridex",
+                "FlawedGrace",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Jaff",
+                "Locky",
+                "Marap",
+                "Philadephia Ransom",
+                "QuantLoader",
+                "Scarab Ransomware",
+                "SDBbot",
+                "ServHelper",
+                "Silence",
+                "tRat",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.telekom.com/en/blog/group/article/cybersecurity-ta505-s-box-of-chocolate-597672",
+            "date": "2020-03-26",
+            "organization": "Telekom",
+            "author": "Thomas Barabosch",
+            "title": "TA505's Box of Chocolate - On Hidden Gems packed with the TA505 Packer",
+            "categories": [
+                "Amadey",
+                "Azorult",
+                "Clop",
+                "FlawedGrace",
+                "Get2",
+                "SDBbot",
+                "Silence",
+                "TinyMet",
+                "TA505"
+            ]
+        },
+        {
+            "data_url": "https://www.fsec.or.kr/common/proc/fsec/bbs/163/fileDownLoad/2297.do",
+            "date": "2020-02-28",
+            "organization": "Financial Security Institute",
+            "author": "Financial Security Institute",
+            "title": "Profiling of TA505 Threat Group That Continues to Attack the Financial Sector",
+            "categories": [
+                "Amadey",
+                "Clop",
+                "FlawedAmmyy",
+                "Rapid Ransom",
+                "SDBbot",
+                "TinyMet"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/the-hole-in-the-bucket-attackers-abuse-bitbucket-to-deliver-an-arsenal-of-malware",
+            "date": "2020-02-05",
+            "organization": "Cybereason",
+            "author": "Lior Rochberger",
+            "title": "The Hole in the Bucket: Attackers Abuse Bitbucket to Deliver an Arsenal of Malware",
+            "categories": [
+                "Amadey",
+                "Azorult",
+                "Predator The Thief",
+                "STOP",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2020/01/threat-spotlight-amadey-bot",
+            "date": "2020-01-08",
+            "organization": "Blackberry",
+            "author": "Masaki Kasuya",
+            "title": "Threat Spotlight: Amadey Bot Targets Non-Russian Users",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://nao-sec.org/2019/04/Analyzing-amadey.html",
+            "date": "2019-04-27",
+            "organization": "nao_sec",
+            "author": "nao_sec",
+            "title": "Analyzing Amadey",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://krabsonsecurity.com/2019/02/13/analyzing-amadey-a-simple-native-malware/",
+            "date": "2019-02-13",
+            "organization": "KrabsOnSecurity",
+            "author": "Mr. Krabs",
+            "title": "Analyzing Amadey \u2013 a simple native malware",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/0xffff0800/status/1062948406266642432",
+            "date": "2018-11-14",
+            "organization": "Twitter (@0xffff0800)",
+            "author": "0xffff0800",
+            "title": "Tweet on Amadey C2",
+            "categories": [
+                "Amadey"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ViriBack/status/1062405363457118210",
+            "date": "2018-11-13",
+            "organization": "Twitter (@ViriBack)",
+            "author": "Dee",
+            "title": "Tweet on Amadey Malware",
+            "categories": [
+                "Amadey"
+            ]
+        }
+    ]
 };

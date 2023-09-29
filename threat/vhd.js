@@ -38,5 +38,91 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "vhd",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-sound-of-malware.html",
+            "date": "2022-06-23",
+            "organization": "Trellix",
+            "author": "Christiaan Beek",
+            "title": "The Sound of Malware",
+            "categories": [
+                "Conti",
+                "VHD Ransomware"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-hermit-kingdoms-ransomware-play.html",
+            "date": "2022-05-03",
+            "organization": "Trellix",
+            "author": "Christiaan Beek",
+            "title": "The Hermit Kingdom\u2019s Ransomware play",
+            "categories": [
+                "VHD Ransomware"
+            ]
+        },
+        {
+            "data_url": "https://seguranca-informatica.pt/secrets-behind-the-lazaruss-vhd-ransomware/",
+            "date": "2021-08-17",
+            "organization": "Seguranca Informatica",
+            "author": "Pedro Tavares",
+            "title": "Secrets behind the Lazarus\u2019s VHD ransomware",
+            "categories": [
+                "VHD Ransomware"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2020/97937/",
+            "date": "2020-07-29",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2020",
+            "categories": [
+                "PhantomLance",
+                "Dacls",
+                "Penquin Turla",
+                "elf.wellmess",
+                "AppleJeus",
+                "Dacls",
+                "AcidBox",
+                "Cobalt Strike",
+                "Dacls",
+                "EternalPetya",
+                "Godlike12",
+                "Olympic Destroyer",
+                "PlugX",
+                "shadowhammer",
+                "ShadowPad",
+                "Sinowal",
+                "VHD Ransomware",
+                "Volgmer",
+                "WellMess",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/lazarus-on-the-hunt-for-big-game/97757/",
+            "date": "2020-07-28",
+            "organization": "Kaspersky Labs",
+            "author": "Ivan Kwiatkowski",
+            "title": "Lazarus on the hunt for big game",
+            "categories": [
+                "Dacls",
+                "Dacls",
+                "Dacls",
+                "VHD Ransomware"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/GrujaRS/status/1241657443282825217",
+            "date": "2020-03-22",
+            "organization": "",
+            "author": "GrujaRS",
+            "title": "New #VHD (virtual hard disk)#Ransomware extension .vhd!",
+            "categories": [
+                "VHD Ransomware"
+            ]
+        }
+    ]
 };

@@ -27,5 +27,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "graphican",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/flea-backdoor-microsoft-graph-apt15",
+            "date": "2023-06-21",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Graphican: Flea Uses New Backdoor in Attacks Targeting Foreign Ministries",
+            "categories": [
+                "Graphican"
+            ]
+        }
+    ]
 };

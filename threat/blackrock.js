@@ -61,5 +61,19 @@ var threatdata = {
     "last_ioc_update": "2021-03-08 20:45:28",
     "mitre": [],
     "file_name": "blackrock",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html",
+            "date": "2021-09-22",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "ERMAC - another Cerberus reborn",
+            "categories": [
+                "AmpleBot",
+                "Cerberus",
+                "ERMAC"
+            ]
+        }
+    ]
 };

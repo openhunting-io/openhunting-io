@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "scanbox",
     "category": "Malware",
     "type": "Reconnaissance, Info stealer, Keylogger, Downloader",
-    "modified": "2020-04-23",
+    "modified": "2022-08-30",
     "all_data": {
         "tool": "scanbox",
         "names": [
@@ -36,5 +36,91 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "scanbox",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/chasing-currents-espionage-south-china-sea",
+            "date": "2022-08-30",
+            "organization": "Proofpoint",
+            "author": "Michael Raggi",
+            "title": "Rising Tide: Chasing the Currents of Espionage in the South China Sea",
+            "categories": [
+                "scanbox",
+                "Meterpreter",
+                "APT40"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/ta413-leverages-new-friarfox-browser-extension-target-gmail-accounts-global",
+            "date": "2021-02-25",
+            "organization": "Proofpoint",
+            "author": "Michael Raggi",
+            "title": "TA413 Leverages New FriarFox Browser Extension to Target the Gmail Accounts of Global Tibetan Organizations",
+            "categories": [
+                "scanbox",
+                "Sepulcher",
+                "Lucky Cat"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-mohawk",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE MOHAWK",
+            "categories": [
+                "AIRBREAK",
+                "scanbox",
+                "BLACKCOFFEE",
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "Derusbi",
+                "homefry",
+                "murkytop",
+                "SeDll",
+                "APT40"
+            ]
+        },
+        {
+            "data_url": "https://www.volexity.com/blog/2019/09/02/digital-crackdown-large-scale-surveillance-and-exploitation-of-uyghurs/",
+            "date": "2019-09-02",
+            "organization": "Volexity",
+            "author": "Andrew Case",
+            "title": "Digital Crackdown: Large-Scale Surveillance and Exploitation of Uyghurs",
+            "categories": [
+                "scanbox",
+                "POISON CARP"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/attacker-tracking-users-seeking-pakistani-passport/",
+            "date": "2019-03-14",
+            "organization": "Trustwave",
+            "author": "Simon Kenin",
+            "title": "Attacker Tracking Users Seeking Pakistani Passport",
+            "categories": [
+                "scanbox"
+            ]
+        },
+        {
+            "data_url": "http://resources.infosecinstitute.com/scanbox-framework/",
+            "date": "2015-02-27",
+            "organization": "InfoSec Institute",
+            "author": "Ryan Mazerik",
+            "title": "ScanBox Framework",
+            "categories": [
+                "scanbox"
+            ]
+        },
+        {
+            "data_url": "https://www.alienvault.com/blogs/labs-research/scanbox-a-reconnaissance-framework-used-on-watering-hole-attacks",
+            "date": "2014-08-28",
+            "organization": "AT&T",
+            "author": "Jaime Blasco",
+            "title": "Scanbox: A Reconnaissance Framework Used with Watering Hole Attacks",
+            "categories": [
+                "scanbox"
+            ]
+        }
+    ]
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BELLHOP",
     "category": "Malware",
     "type": "Backdoor, Downloader",
-    "modified": "2020-05-13",
+    "modified": "2022-04-27",
     "all_data": {
         "tool": "BELLHOP",
         "names": [
@@ -31,5 +31,74 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "bellhop",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
+            "date": "2022-04-27",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "LE GROUPE CYBERCRIMINEL FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "SQLRat",
+                "POWERSOURCE",
+                "Andromeda",
+                "BABYMETAL",
+                "BlackCat",
+                "BlackMatter",
+                "BOOSTWRITE",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "Dridex",
+                "DRIFTPIN",
+                "Gameover P2P",
+                "MimiKatz",
+                "Murofet",
+                "Qadars",
+                "Ranbyus",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s05-att&cking-fin7.pdf",
+            "date": "2018-10-01",
+            "organization": "FireEye",
+            "author": "Regina Elwell",
+            "title": "ATT&CKing FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "ANTAK",
+                "POWERPIPE",
+                "POWERSOURCE",
+                "HALFBAKED",
+                "BABYMETAL",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "DRIFTPIN",
+                "PILLOWMINT",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html",
+            "date": "2018-08-01",
+            "organization": "FireEye",
+            "author": "Nick Carr",
+            "title": "On the Hunt for FIN7: Pursuing an Enigmatic and Evasive Global Criminal Operation",
+            "categories": [
+                "BELLHOP",
+                "POWERPIPE",
+                "BABYMETAL",
+                "SocksBot",
+                "FIN7"
+            ]
+        }
+    ]
 };

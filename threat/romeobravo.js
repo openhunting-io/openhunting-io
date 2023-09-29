@@ -34,5 +34,21 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "romeobravo",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/wannacry-ransomware-attacks-show-strong-links-lazarus-group",
+            "date": "2017-05-22",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "WannaCry: Ransomware attacks show strong links to Lazarus group",
+            "categories": [
+                "AlphaNC",
+                "BravoNC",
+                "Duuzer",
+                "Sierra(Alfa,Bravo, ...)",
+                "WannaCryptor"
+            ]
+        }
+    ]
 };

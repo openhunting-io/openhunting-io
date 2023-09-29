@@ -72,5 +72,40 @@ var threatdata = {
     "last_ioc_update": "2023-08-14 06:07:11",
     "mitre": [],
     "file_name": "darkvnc",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/28934",
+            "date": "2022-08-12",
+            "organization": "SANS ISC",
+            "author": "Brad Duncan",
+            "title": "Monster Libra (TA551/Shathak) pushes IcedID (Bokbot) with Dark VNC and Cobalt Strike",
+            "categories": [
+                "Cobalt Strike",
+                "DarkVNC",
+                "IcedID"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28884",
+            "date": "2022-07-27",
+            "organization": "SANS ISC",
+            "author": "Brad Duncan",
+            "title": "IcedID (Bokbot) with Dark VNC and Cobalt Strike",
+            "categories": [
+                "DarkVNC",
+                "IcedID"
+            ]
+        },
+        {
+            "data_url": "https://reaqta.com/2017/11/short-journey-darkvnc/",
+            "date": "2017-11-08",
+            "organization": "Reaqta",
+            "author": "Reaqta",
+            "title": "A short journey into DarkVNC attack chain",
+            "categories": [
+                "DarkVNC"
+            ]
+        }
+    ]
 };

@@ -25,5 +25,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "scrapmint",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

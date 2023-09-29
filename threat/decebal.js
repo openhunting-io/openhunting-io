@@ -34,5 +34,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "decebal",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.wired.com/wp-content/uploads/2014/09/wp-pos-ram-scraper-malware.pdf",
+            "date": "2014-09",
+            "organization": "Wired",
+            "author": "Numaan Huq",
+            "title": "PoS RAM Scraper Malware",
+            "categories": [
+                "Decebal",
+                "rdasrv"
+            ]
+        }
+    ]
 };

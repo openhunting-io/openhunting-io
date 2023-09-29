@@ -27,5 +27,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pve_find_ad_users",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

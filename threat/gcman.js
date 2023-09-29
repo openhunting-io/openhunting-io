@@ -32,7 +32,63 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "gcman",
+            "procedure_code": "g0036",
+            "procedure_type": "apt-group",
+            "procedure_link": "https://attack.mitre.org/groups/G0036",
+            "techniques": [
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/004",
+                    "technique_name": "remote services : ssh",
+                    "technique_description": "adversaries may use valid accounts to log into remote machines using secure shell (ssh). the adversary may then perform actions as the logged-on user.",
+                    "procedure_description": "gcman uses putty for lateral movement.[8]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/005",
+                    "technique_name": "remote services : vnc",
+                    "technique_description": "adversaries may use valid accounts to remotely control machines using virtual network computing (vnc).  vnc is a platform-independent desktop sharing system that uses the rfb (\"remote framebuffer\") protocol to enable users to remotely control another computer\u2019s display by relaying the screen, mouse, and keyboard inputs over the network.",
+                    "procedure_description": "gcman uses vnc for lateral movement.[17]"
+                }
+            ]
+        }
+    ],
     "file_name": "gcman",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/groups/G0036/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: GCMAN",
+            "categories": [
+                "GCMAN"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/",
+            "date": "2016-02-08",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT-style bank robberies increase with Metel, GCMAN and Carbanak 2.0 attacks",
+            "categories": [
+                "gcman",
+                "GCMAN"
+            ]
+        }
+    ]
 };

@@ -35,5 +35,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "udpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.forcepoint.com/blog/x-labs/udpos-exfiltrating-credit-card-data-dns",
+            "date": "2018-02-08",
+            "organization": "Forcepoint",
+            "author": "Robert Neumann",
+            "title": "UDPoS - exfiltrating credit card data via DNS",
+            "categories": [
+                "UDPoS"
+            ]
+        }
+    ]
 };

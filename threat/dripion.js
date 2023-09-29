@@ -34,5 +34,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "dripion",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/taiwan-targeted-new-cyberespionage-back-door-trojan",
+            "date": "2016-03-29",
+            "organization": "Symantec",
+            "author": "Jon DiMaggio",
+            "title": "Taiwan targeted with new cyberespionage back door Trojan",
+            "categories": [
+                "Dripion",
+                "Budminer"
+            ]
+        }
+    ]
 };

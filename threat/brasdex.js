@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "brasdex",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/brasdex-a-new-brazilian-ats-malware.html",
+            "date": "2022-12-15",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "BrasDex: A new Brazilian ATS Android Banker with ties to Desktop malware",
+            "categories": [
+                "BrasDex"
+            ]
+        }
+    ]
 };

@@ -54,5 +54,29 @@ var threatdata = {
     "last_ioc_update": "2021-07-22 17:22:41",
     "mitre": [],
     "file_name": "janeleiro",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/05/eset_threat_report_t12021.pdf",
+            "date": "2021-06-03",
+            "organization": "ESET Research",
+            "author": "roman kovac",
+            "title": "ESET Threat Report T\u200a1 2021",
+            "categories": [
+                "Kobalos",
+                "Janeleiro",
+                "Vadokrist"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2021/04/06/janeleiro-time-traveler-new-old-banking-trojan-brazil/",
+            "date": "2021-04-06",
+            "organization": "ESET Research",
+            "author": "Facundo Mu\u00f1oz",
+            "title": "Janeleiro, the time traveler: A new old banking trojan in Brazil",
+            "categories": [
+                "Janeleiro"
+            ]
+        }
+    ]
 };

@@ -36,5 +36,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "august_stealer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://hazmalware.blogspot.de/2016/12/analysis-of-august-stealer-malware.html",
+            "date": "2016-12-27",
+            "organization": "",
+            "author": "Hazmalware",
+            "title": "ANALYSIS OF AUGUST STEALER MALWARE",
+            "categories": [
+                "August Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/august-in-december-new-information-stealer-hits-the-scene",
+            "date": "2016-12-06",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "August in November: New Information Stealer Hits the Scene",
+            "categories": [
+                "August Stealer"
+            ]
+        }
+    ]
 };

@@ -36,5 +36,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "viceleaker",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/fanning-the-flames-viceleaker-operation/90877/",
+            "date": "2019-06-26",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "ViceLeaker Operation: mobile espionage targeting Middle East",
+            "categories": [
+                "ViceLeaker"
+            ]
+        }
+    ]
 };

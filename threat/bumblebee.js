@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BumbleBee",
     "category": "Malware",
     "type": "Backdoor, Downloader, Exfiltration",
-    "modified": "2023-04-26",
+    "modified": "2023-09-07",
     "all_data": {
         "tool": "BumbleBee",
         "names": [
@@ -6556,7 +6556,1331 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-25 17:15:01",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "bumblebee",
+            "procedure_code": "s1039",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S1039",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
+                    "technique_name": "phishing : spearphishing attachment",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "bumblebee has gained execution through luring users into opening malicious attachments.[50][51][52][53]"
+                },
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/002",
+                    "technique_name": "phishing : spearphishing link",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. spearphishing with a link is a specific variant of spearphishing. it is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "bumblebee has been spread through e-mail campaigns with malicious links.[28][29]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
+                    "technique_name": "command and scripting interpreter : powershell",
+                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
+                    "procedure_description": "bumblebee can use powershell for execution.[41]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "bumblebee can use cmd.exe to drop and run files.[57][58]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/005",
+                    "technique_name": "command and scripting interpreter : visual basic",
+                    "technique_description": "adversaries may abuse visual basic (vb) for execution. vb is a programming language created by microsoft with interoperability with many windows technologies such as component object model and the native api through the windows api. although tagged as legacy with no planned future evolutions, vb is integrated and supported in the .net framework and cross-platform .net core.",
+                    "procedure_description": "bumblebee can create a visual basic script to enable persistence.[22][23]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1559.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1559/001",
+                    "technique_name": "inter-process communication : component object model",
+                    "technique_description": "adversaries may use the windows component object model (com) for local code execution. com is an inter-process communication (ipc) component of the native windows application programming interface (api) that enables interaction between software objects, or executable code that implements one or more interfaces. through com, a client object can call methods of server objects, which are typically binary dynamic link libraries (dll) or executables (exe). remote com execution is facilitated by remote services such as  distributed component object model (dcom).",
+                    "procedure_description": "bumblebee can use a com object to execute queries to gather system information.[4]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "bumblebee can use multiple native apis.[47][48]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "bumblebee can achieve persistence by copying its dll to a subdirectory of %appdata% and creating a visual basic script that will load the dll via a scheduled task.[33][34]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1129",
+                    "technique_link": "https://attack.mitre.org/techniques/T1129",
+                    "technique_name": "shared modules",
+                    "technique_description": "adversaries may execute malicious payloads via loading shared modules. the windows module loader can be instructed to load dlls from arbitrary local paths and arbitrary universal naming convention (unc) network paths. this functionality resides in ntdll.dll and is part of the windows native api which is called from functions like createprocess, loadlibrary, etc. of the win32 api.",
+                    "procedure_description": "bumblebee can use loadlibrary to attempt to execute gdiplus.dll.[6]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/001",
+                    "technique_name": "user execution : malicious link",
+                    "technique_description": "an adversary may rely upon a user clicking a malicious link in order to gain execution. users may be subjected to social engineering to get them to click on a link that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing link. clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via exploitation for client execution. links may also lead users to download files that require execution via malicious file.",
+                    "procedure_description": "bumblebee has relied upon a user downloading a file from a onedrive link for execution.[19][20]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "bumblebee has relied upon a user opening an iso file to enable execution of malicious shortcut files and dlls.[49][50][51][52]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1047",
+                    "technique_link": "https://attack.mitre.org/techniques/T1047",
+                    "technique_name": "windows management instrumentation",
+                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
+                    "procedure_description": "bumblebee can use wmi to gather system information and to spawn processes for code injection.[20][21][22]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "bumblebee can achieve persistence by copying its dll to a subdirectory of %appdata% and creating a visual basic script that will load the dll via a scheduled task.[33][34]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1548.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1548/002",
+                    "technique_name": "abuse elevation control mechanism : bypass user account control",
+                    "technique_description": "adversaries may bypass uac mechanisms to elevate process privileges on system. windows user account control (uac) allows a program to elevate its privileges (tracked as integrity levels ranging from low to high) to perform a task under administrator-level permissions, possibly by prompting the user for confirmation. the impact to the user ranges from denying the operation under high enforcement to allowing the user to perform the action if they are in the local administrators group and click through the prompt or allowing them to enter an administrator password to complete the action.",
+                    "procedure_description": "bumblebee has the ability to bypass uac to deploy post exploitation tools with elevated privileges.[20]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "bumblebee can inject code into multiple processes on infected endpoints.[11]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "the bumblebee loader can support the dij command which gives it the ability to inject dlls into the memory of other processes.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/004",
+                    "technique_name": "process injection : asynchronous procedure call",
+                    "technique_description": "adversaries may inject malicious code into processes via the asynchronous procedure call (apc) queue in order to evade process-based defenses as well as possibly elevate privileges. apc injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "bumblebee can use asynchronous procedure call (apc) injection to execute commands received from c2.[6]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "bumblebee can achieve persistence by copying its dll to a subdirectory of %appdata% and creating a visual basic script that will load the dll via a scheduled task.[33][34]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1548.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1548/002",
+                    "technique_name": "abuse elevation control mechanism : bypass user account control",
+                    "technique_description": "adversaries may bypass uac mechanisms to elevate process privileges on system. windows user account control (uac) allows a program to elevate its privileges (tracked as integrity levels ranging from low to high) to perform a task under administrator-level permissions, possibly by prompting the user for confirmation. the impact to the user ranges from denying the operation under high enforcement to allowing the user to perform the action if they are in the local administrators group and click through the prompt or allowing them to enter an administrator password to complete the action.",
+                    "procedure_description": "bumblebee has the ability to bypass uac to deploy post exploitation tools with elevated privileges.[20]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1622",
+                    "technique_link": "https://attack.mitre.org/techniques/T1622",
+                    "technique_name": "debugger evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid debuggers. debuggers are typically used by defenders to trace and/or analyze the execution of potential malware payloads.",
+                    "procedure_description": "bumblebee can search for tools used in static analysis.[8]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "bumblebee can deobfuscate c2 server responses and unpack its code on targeted hosts.[40][41]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "bumblebee can uninstall its loader through the use of a sdl command.[34]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
+                    "technique_name": "masquerading : match legitimate name or location",
+                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
+                    "procedure_description": "bumblebee has named component dlls \"rapportgp.dll\" to match those used by the security company trusteer.[30]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "bumblebee has been delivered as password-protected zipped iso files and used control-flow-flattening to obfuscate the flow of functions.[63][64][65]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "bumblebee can inject code into multiple processes on infected endpoints.[11]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "the bumblebee loader can support the dij command which gives it the ability to inject dlls into the memory of other processes.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/004",
+                    "technique_name": "process injection : asynchronous procedure call",
+                    "technique_description": "adversaries may inject malicious code into processes via the asynchronous procedure call (apc) queue in order to evade process-based defenses as well as possibly elevate privileges. apc injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "bumblebee can use asynchronous procedure call (apc) injection to execute commands received from c2.[6]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.008",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/008",
+                    "technique_name": "system binary proxy execution : odbcconf",
+                    "technique_description": "adversaries may abuse odbcconf.exe to proxy execution of malicious payloads. odbcconf.exe is a windows utility that allows you to configure open database connectivity (odbc) drivers and data source names. the odbcconf.exe binary may be digitally signed by microsoft.",
+                    "procedure_description": "bumblebee can use odbcconf.exe to run dlls on targeted hosts.[5]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.011",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/011",
+                    "technique_name": "system binary proxy execution : rundll32",
+                    "technique_description": "adversaries may abuse rundll32.exe to proxy execution of malicious code. using rundll32.exe, vice executing directly (i.e. shared modules), may avoid triggering security tools that may not monitor execution of the rundll32.exe process because of allowlists or false positives from normal operations. rundll32.exe is commonly associated with executing dll payloads (ex: rundll32.exe {dllname, dllfunction}).",
+                    "procedure_description": "bumblebee has used rundll32 for execution of the loader component.[25][26]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "bumblebee has the ability to perform anti-virtualization checks.[7]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
+                    "technique_name": "virtualization/sandbox evasion : system checks",
+                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "bumblebee has the ability to search for designated file paths and registry keys that indicate a virtualized environment from multiple products.[10]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "bumblebee has the ability to set a hardcoded and randomized sleep interval.[15]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1622",
+                    "technique_link": "https://attack.mitre.org/techniques/T1622",
+                    "technique_name": "debugger evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid debuggers. debuggers are typically used by defenders to trace and/or analyze the execution of potential malware payloads.",
+                    "procedure_description": "bumblebee can search for tools used in static analysis.[8]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "bumblebee can identify processes associated with analytical tools.[43][44][45]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1012",
+                    "technique_name": "query registry",
+                    "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
+                    "procedure_description": "bumblebee can check the registry for specific keys.[17]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1518.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1518/001",
+                    "technique_name": "software discovery : security software discovery",
+                    "technique_description": "adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. this may include things such as firewall rules and anti-virus. adversaries may use the information from security software discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "bumblebee can identify specific analytical tools based on running processes.[14][15][16]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "bumblebee can enumerate the os version and domain on a targeted system.[69][70][71]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "bumblebee has the ability to identify the user name.[29]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "bumblebee has the ability to perform anti-virtualization checks.[7]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
+                    "technique_name": "virtualization/sandbox evasion : system checks",
+                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "bumblebee has the ability to search for designated file paths and registry keys that indicate a virtualized environment from multiple products.[10]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "bumblebee has the ability to set a hardcoded and randomized sleep interval.[15]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1560",
+                    "technique_link": "https://attack.mitre.org/techniques/T1560",
+                    "technique_name": "archive collected data",
+                    "technique_description": "an adversary may compress and/or encrypt data that is collected prior to exfiltration. compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender.",
+                    "procedure_description": "bumblebee can compress data stolen from the registry and volume shadow copies prior to exfiltration.[12]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1005",
+                    "technique_name": "data from local system",
+                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
+                    "procedure_description": "bumblebee can capture and compress stolen credentials from the registry and volume shadow copies.[32]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1132.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1132/001",
+                    "technique_name": "data encoding : standard encoding",
+                    "technique_description": "adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. common data encoding schemes include ascii, unicode, hexadecimal, base64, and mime. some data encoding systems may also result in data compression, such as gzip.",
+                    "procedure_description": "bumblebee has the ability to base64 encode c2 server responses.[17]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/001",
+                    "technique_name": "encrypted channel : symmetric cryptography",
+                    "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
+                    "procedure_description": "bumblebee can encrypt c2 requests and responses with rc4[21]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1008",
+                    "technique_link": "https://attack.mitre.org/techniques/T1008",
+                    "technique_name": "fallback channels",
+                    "technique_description": "adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
+                    "procedure_description": "bumblebee can use backup c2 servers if the primary server fails.[8]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "bumblebee can download and execute additional payloads including through the use of a dex command.[79][80][81]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1102",
+                    "technique_link": "https://attack.mitre.org/techniques/T1102",
+                    "technique_name": "web service",
+                    "technique_description": "adversaries may use an existing, legitimate external web service as a means for relaying data to/from a compromised system. popular websites and social media acting as a mechanism for c2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. using common services, such as those offered by google or twitter, makes it easier for adversaries to hide in expected noise. web service providers commonly use ssl/tls encryption, giving adversaries an added level of protection.",
+                    "procedure_description": "bumblebee has been downloaded to victim's machines from onedrive.[6]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1041",
+                    "technique_link": "https://attack.mitre.org/techniques/T1041",
+                    "technique_name": "exfiltration over c2 channel",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
+                    "procedure_description": "bumblebee can send collected data in json format to c2.[19]"
+                }
+            ]
+        }
+    ],
     "file_name": "bumblebee",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://twitter.com/Intrinsec/status/1699779830294970856",
+            "date": "2023-09-07",
+            "organization": "Twitter (@Intrisec)",
+            "author": "CTI Intrinsec",
+            "title": "Tweets on Bumblebee campaign spreading via Html smuggling downloading RAR archive with European Central Bank PDF lure and folder containing Bumblebee EXE payload.",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q2%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-07-11",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2023",
+            "categories": [
+                "Hydra",
+                "AsyncRAT",
+                "Aurora Stealer",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/blog/pindos-new-javascript-dropper-delivering-bumblebee-and-icedid",
+            "date": "2023-06-22",
+            "organization": "DeepInstinct",
+            "author": "Shaul Vilkomir-Preisman",
+            "title": "PindOS: New JavaScript Dropper Delivering Bumblebee and IcedID",
+            "categories": [
+                "PindOS",
+                "BumbleBee",
+                "PhotoLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Staubmann-Busy-Bees.pptx",
+            "date": "2023-06-08",
+            "organization": "VMRay",
+            "author": "Patrick Staubmann",
+            "title": "Busy Bees - The Transformation of BumbleBee",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti",
+                "Meterpreter",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/bumblebee-malware-distributed-via-trojanized-installer-downloads",
+            "date": "2023-04-20",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "Bumblebee Malware Distributed Via Trojanized Installer Downloads",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/threatinsight/status/1648330456364883968",
+            "date": "2023-04-18",
+            "organization": "Twitter (@threatinsight)",
+            "author": "Threat Insight",
+            "title": "Tweet on TA581 using Keitaro TDS URL to download a .MSI file to deliver BumbleBee malware",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=JoKJNfLAc0Y",
+            "date": "2023-04-16",
+            "organization": "YouTube (botconf eu)",
+            "author": "Suweera De Souza",
+            "title": "Tracking Bumblebee\u2019s Development",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://www.botconf.eu/wp-content/uploads/formidable/2/2023_4889_DESOUZA.pdf",
+            "date": "2023-04-16",
+            "organization": "Botconf",
+            "author": "Suweera De Souza",
+            "title": "Tracking Bumblebee\u2019s Development",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-04-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2023",
+            "categories": [
+                "FluBot",
+                "Amadey",
+                "AsyncRAT",
+                "Aurora",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://sec-consult.com/blog/detail/bumblebee-hunting-with-a-velociraptor/",
+            "date": "2023-04-11",
+            "organization": "SEC Consult",
+            "author": "Angelo Violetti",
+            "title": "BumbleBee hunting with a Velociraptor",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://blog.krakz.fr/articles/bumblebee/",
+            "date": "2023-03-29",
+            "organization": "Krakz",
+            "author": "Pierre Le Bourhis",
+            "title": "BumbleBee notes",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://blog.cerbero.io/?p=2617",
+            "date": "2023-03-28",
+            "organization": "Cerbero",
+            "author": "Erik Pistelli",
+            "title": "Reversing Complex PowerShell Malware",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://0xtoxin.github.io/malware%20analysis/Bumblebee-DocuSign-Campaign/",
+            "date": "2023-03-04",
+            "organization": "0xToxin Labs",
+            "author": "@0xToxin",
+            "title": "Bumblebee DocuSign Campaign",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=pIXl79IPkLI",
+            "date": "2023-02-03",
+            "organization": "Mandiant",
+            "author": "Kimberly Goody",
+            "title": "Float Like a Butterfly Sting Like a Bee",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/following-the-lnk-metadata-trail",
+            "date": "2023-01-19",
+            "organization": "Cisco",
+            "author": "Guilherme Venere",
+            "title": "Following the LNK metadata trail",
+            "categories": [
+                "BumbleBee",
+                "PhotoLoader",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://www.intrinsec.com/emotet-returns-and-deploys-loaders/",
+            "date": "2023-01-09",
+            "organization": "Intrinsec",
+            "author": "Intrinsec",
+            "title": "Emotet returns and deploys loaders",
+            "categories": [
+                "BumbleBee",
+                "Emotet",
+                "IcedID",
+                "PHOTOLITE"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/comprehensive-look-emotets-fall-2022-return",
+            "date": "2022-11-16",
+            "organization": "Proofpoint",
+            "author": "Pim Trouerbach",
+            "title": "A Comprehensive Look at Emotet Virus\u2019 Fall 2022 Return",
+            "categories": [
+                "BumbleBee",
+                "Emotet",
+                "PHOTOLITE"
+            ]
+        },
+        {
+            "data_url": "https://www.intezer.com/blog/malware-analysis/how-threat-actors-abuse-lnk-files/",
+            "date": "2022-11-10",
+            "organization": "Intezer",
+            "author": "Nicole Fishbein",
+            "title": "How LNK Files Are Abused by Threat Actors",
+            "categories": [
+                "BumbleBee",
+                "Emotet",
+                "Mount Locker",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/en-us/security/blog/2022/10/27/raspberry-robin-worm-part-of-larger-ecosystem-facilitating-pre-ransomware-activity/",
+            "date": "2022-10-27",
+            "organization": "Microsoft",
+            "author": "Microsoft Security Threat Intelligence",
+            "title": "Raspberry Robin worm part of larger ecosystem facilitating pre-ransomware activity",
+            "categories": [
+                "FAKEUPDATES",
+                "BumbleBee",
+                "Fauppod",
+                "PhotoLoader",
+                "Raspberry Robin",
+                "Roshtyak"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2022-10-13",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2022",
+            "categories": [
+                "FluBot",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "Emotet",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Socelars",
+                "Tofsee",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1577963080096555008",
+            "date": "2022-10-06",
+            "organization": "Twitter (@ESETresearch)",
+            "author": "ESET Research",
+            "title": "Tweet on Bumblebee being modularized like trickbot",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/bumblebee-increasing-its-capacity-and-evolving-its-ttps/",
+            "date": "2022-10-03",
+            "organization": "Check Point",
+            "author": "Marc Salinas Fernandez",
+            "title": "Bumblebee: increasing its capacity and evolving its TTPs",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Meterpreter",
+                "Sliver",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2022/09/26/bumblebee-round-two/",
+            "date": "2022-09-26",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "BumbleBee: Round Two",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/09/07/bumblebee-returns-with-new-infection-technique/",
+            "date": "2022-09-07",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "Bumblebee Returns With New Infection Technique",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://www.infinitumit.com.tr/bumblebee-loader-malware-analysis/",
+            "date": "2022-09-05",
+            "organization": "Infinitum IT",
+            "author": "Arda B\u00fcy\u00fckkaya",
+            "title": "Bumblebee Loader Malware Analysis",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/08/24/looking-for-the-sliver-lining-hunting-for-emerging-command-and-control-frameworks",
+            "date": "2022-08-24",
+            "organization": "Microsoft",
+            "author": "Microsoft Security Experts",
+            "title": "Looking for the \u2018Sliver\u2019 lining: Hunting for emerging command-and-control frameworks",
+            "categories": [
+                "BumbleBee",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/blog/the-dark-side-of-bumblebee-malware-loader",
+            "date": "2022-08-24",
+            "organization": "Deep instinct",
+            "author": "Deep Instinct Threat Lab",
+            "title": "The Dark Side of Bumblebee Malware Loader",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/from-ramnit-to-bumblebee-via-neverquest",
+            "date": "2022-08-18",
+            "organization": "IBM",
+            "author": "Charlotte Hammond",
+            "title": "From Ramnit To Bumblebee (via NeverQuest): Similarities and Code Overlap Shed Light On Relationships Between Malware Developers",
+            "categories": [
+                "BumbleBee",
+                "Karius",
+                "Ramnit",
+                "TrickBot",
+                "Vawtrak"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/threat-analysis-report-bumblebee-loader-the-high-road-to-enterprise-domain-control",
+            "date": "2022-08-17",
+            "organization": "Cybereason",
+            "author": "Cybereason Global SOC Team",
+            "title": "Bumblebee Loader \u2013 The High Road to Enterprise Domain Control",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/cGS8FocPnUdBconLbbaG-g",
+            "date": "2022-08-10",
+            "organization": "Weixin",
+            "author": "Red Raindrop Team",
+            "title": "Operation(\u0432\u0435\u0440\u043d\u043e\u0441\u0442\u044c) mercenary: a torrent of steel trapped in the plains of Eastern Europe",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/",
+            "date": "2022-08-08",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "BumbleBee Roasts Its Way to Domain Admin",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://cloudsek.com/technical-analysis-of-bumblebee-malware-loader/",
+            "date": "2022-08-04",
+            "organization": "Cloudsek",
+            "author": "Anandeshwar Unnikrishnan",
+            "title": "Technical Analysis of Bumblebee Malware Loader",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/bumblebee-malware-projector-libra/",
+            "date": "2022-08-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Flight of the Bumblebee: Email Lures and File Sharing Services Lead to Malware",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://resecurity.com/blog/article/shortcut-based-lnk-attacks-delivering-malicious-code-on-the-rise",
+            "date": "2022-07-17",
+            "organization": "Resecurity",
+            "author": "Resecurity",
+            "title": "Shortcut-Based (LNK) Attacks Delivering Malicious Code On The Rise",
+            "categories": [
+                "AsyncRAT",
+                "BumbleBee",
+                "Emotet",
+                "IcedID",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-group-systematically-attacking-ukraine",
+            "date": "2022-07-07",
+            "organization": "IBM",
+            "author": "Ole Villadsen",
+            "title": "Unprecedented Shift: The Trickbot Group is Systematically Attacking Ukraine",
+            "categories": [
+                "AnchorMail",
+                "BumbleBee",
+                "Cobalt Strike",
+                "IcedID",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/notable-droppers-emerge-in-recent-threat-campaigns",
+            "date": "2022-07-07",
+            "organization": "Fortinet",
+            "author": "Erin Lin",
+            "title": "Notable Droppers Emerge in Recent Threat Campaigns",
+            "categories": [
+                "BumbleBee",
+                "Emotet",
+                "PhotoLoader",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/bumblebee-loader-cybercrime",
+            "date": "2022-06-28",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Bumblebee: New Loader Rapidly Assuming Central Position in Cyber-crime Ecosystem",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/0b211905/description",
+            "date": "2022-06-14",
+            "organization": "RiskIQ",
+            "author": "Jordan Herman",
+            "title": "RiskIQ: Identifying BumbleBee Command and Control Servers",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://blog.sekoia.io/bumblebee-a-new-trendy-loader-for-initial-access-brokers/",
+            "date": "2022-06-13",
+            "organization": "Sekoia",
+            "author": "Threat & Detection Research Team",
+            "title": "BumbleBee: a new trendy loader for Initial Access Brokers",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/06/07/bumblebee-loader-on-the-rise/",
+            "date": "2022-06-07",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "Bumblebee Loader on The Rise",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://team-cymru.com/blog/2022/05/25/bablosoft-lowering-the-barrier-of-entry-for-malicious-actors/",
+            "date": "2022-05-25",
+            "organization": "Team Cymru",
+            "author": "S2 Research Team",
+            "title": "Bablosoft; Lowering the Barrier of Entry for Malicious Actors",
+            "categories": [
+                "BlackGuard",
+                "BumbleBee",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.logpoint.com/wp-content/uploads/2022/05/buzz-of-the-bumblebee-a-new-malicious-loader-threat-report-no-3.pdf",
+            "date": "2022-05-25",
+            "organization": "Logpoint",
+            "author": "Logpoint",
+            "title": "Buzz of the Bumblebee \u2013 A new malicious loader",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/Bumblebee+Malware+from+TransferXL+URLs/28664",
+            "date": "2022-05-19",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Brad Duncan",
+            "title": "Bumblebee Malware from TransferXL URLs",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/28664",
+            "date": "2022-05-19",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Brad Duncan",
+            "title": "Bumblebee Malware from TransferXL URLs",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://research.openanalysis.net/bumblebee/malware/loader/unpacking/2022/05/12/bumblebee_loader.html",
+            "date": "2022-05-12",
+            "organization": "OALabs",
+            "author": "Sergei Frankoff",
+            "title": "Taking a look at Bumblebee loader",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/malware-before-ransomware-trojan-information-stealer-cobalt-strike",
+            "date": "2022-05-12",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "What malware to look for if you want to prevent a ransomware attack",
+            "categories": [
+                "Conti",
+                "BumbleBee",
+                "Cobalt Strike",
+                "IcedID",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/28636",
+            "date": "2022-05-11",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Brad Duncan",
+            "title": "TA578 using thread-hijacked emails to push ISO files for Bumblebee malware",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "IcedID",
+                "PhotoLoader"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/28636",
+            "date": "2022-05-11",
+            "organization": "SANS ISC",
+            "author": "Brad Duncan",
+            "title": "TA578 using thread-hijacked emails to push ISO files for Bumblebee malware",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://threathunt.blog/bzz-bzz-bumblebee-loader",
+            "date": "2022-05-08",
+            "organization": "Threat hunting with hints of incident response",
+            "author": "Jouni Mikkola",
+            "title": "Bzz.. Bzz.. Bumblebee loader",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://research.nccgroup.com/2022/04/29/adventures-in-the-land-of-bumblebee-a-new-malicious-loader/",
+            "date": "2022-04-29",
+            "organization": "NCC Group",
+            "author": "Mike Stokkel",
+            "title": "Adventures in the land of BumbleBee \u2013 a new malicious loader",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/bumblebee-is-still-transforming",
+            "date": "2022-04-28",
+            "organization": "Proofpoint",
+            "author": "Kelsey Merriman",
+            "title": "This isn't Optimus Prime's Bumblebee but it's Still Transforming",
+            "categories": [
+                "BumbleBee",
+                "TA578",
+                "TA579"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/new-bumblebee-malware-replaces-contis-bazarloader-in-cyberattacks/",
+            "date": "2022-04-28",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "New Bumblebee malware replaces Conti's BazarLoader in cyberattacks",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://elis531989.medium.com/the-chronicles-of-bumblebee-the-hook-the-bee-and-the-trickbot-connection-686379311056",
+            "date": "2022-04-27",
+            "organization": "Medium elis531989",
+            "author": "Eli Salem",
+            "title": "The chronicles of Bumblebee: The Hook, the Bee, and the Trickbot connection",
+            "categories": [
+                "BumbleBee",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cynet.com/orion-threat-alert-flight-of-the-bumblebee/",
+            "date": "2022-04-14",
+            "organization": "Cynet",
+            "author": "Max Malyutin",
+            "title": "Orion Threat Alert: Flight of the BumbleBee",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/",
+            "date": "2022-03-17",
+            "organization": "Google",
+            "author": "Vladislav Stolyarov",
+            "title": "Exposing initial access broker with ties to Conti",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti",
+            "date": "2022-03-17",
+            "organization": "Google",
+            "author": "Vladislav Stolyarov",
+            "title": "Exposing initial access broker with ties to Conti",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Conti",
+                "EXOTIC LILY"
+            ]
+        },
+        {
+            "data_url": "https://www.aspirets.com/blog/bumblebee-malware-loader-threat-analysis/",
+            "date": "2022",
+            "organization": "aspirets",
+            "author": "Michael Lamb",
+            "title": "Bumblebee Malware Loader: Threat Analysis",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
+        {
+            "data_url": "https://blog.gigamon.com/2021/09/10/rendering-threats-a-network-perspective/",
+            "date": "2021-09-10",
+            "organization": "Gigamon",
+            "author": "Joe Slowik",
+            "title": "Rendering Threats: A Network Perspective",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/i/remote-code-execution-zero-day--cve-2021-40444--hits-windows--tr.html",
+            "date": "2021-09-09",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Remote Code Execution 0-Day (CVE-2021-40444) Hits Windows, Triggered Via Office Docs",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike"
+            ]
+        }
+    ]
 };

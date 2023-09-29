@@ -35,5 +35,43 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "xpack",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://thehackernews.com/2022/02/chinese-hackers-target-taiwanese.html",
+            "date": "2022-02-06",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Chinese Hackers Target Taiwanese Financial Institutions with a new Stealthy Backdoor",
+            "categories": [
+                "xPack"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/china-apt-antlion-taiwan-financial-attacks",
+            "date": "2022-02-03",
+            "organization": "Symantec",
+            "author": "Symantec Threat Hunter Team",
+            "title": "Antlion: Chinese APT Uses Custom Backdoor to Target Financial Institutions in Taiwan",
+            "categories": [
+                "MimiKatz",
+                "xPack",
+                "Antlion"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/l/collecting-in-the-dark-tropic-trooper-targets-transportation-and-government-organizations.html",
+            "date": "2021-12-14",
+            "organization": "Trend Micro",
+            "author": "Nick Dai",
+            "title": "Collecting In the Dark: Tropic Trooper Targets Transportation and Government",
+            "categories": [
+                "ChiserClient",
+                "Ghost RAT",
+                "Lilith",
+                "Quasar RAT",
+                "xPack"
+            ]
+        }
+    ]
 };

@@ -114,5 +114,74 @@ var threatdata = {
     "last_ioc_update": "2023-09-06 13:29:54",
     "mitre": [],
     "file_name": "ermac",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/zombinder-ermac-and-desktop-stealers.html",
+            "date": "2022-12-08",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "Zombinder: new obfuscation service used by Ermac, now distributed next to desktop stealers",
+            "categories": [
+                "ERMAC",
+                "Xenomorph"
+            ]
+        },
+        {
+            "data_url": "https://resecurity.com/blog/article/in-the-box-mobile-malware-webinjects-marketplace",
+            "date": "2022-11-25",
+            "organization": "Resecurity",
+            "author": "Resecurity",
+            "title": "\"In The Box\" - Mobile Malware Webinjects Marketplace",
+            "categories": [
+                "Alien",
+                "Cerberus",
+                "Coper",
+                "ERMAC",
+                "Hydra"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/rmac-2-0-perfecting-the-art-of-account-takeover",
+            "date": "2022-08-31",
+            "organization": "Intel 471",
+            "author": "Intel 471 Malware Intelligence team",
+            "title": "ERMAC 2.0: Perfecting the Account Takeover",
+            "categories": [
+                "ERMAC"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/05/25/ermac-back-in-action/",
+            "date": "2022-05-25",
+            "organization": "cyble",
+            "author": "Cyble Research Labs",
+            "title": "ERMAC Back In Action: Latest Version Of Android Banking Trojan Targets Over 400 Applications",
+            "categories": [
+                "ERMAC"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1445618031464357888",
+            "date": "2021-10-06",
+            "organization": "Twitter (@ESETresearch)",
+            "author": "ESET Research",
+            "title": "Tweet on ERMAC android malware",
+            "categories": [
+                "ERMAC"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html",
+            "date": "2021-09-22",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "ERMAC - another Cerberus reborn",
+            "categories": [
+                "AmpleBot",
+                "Cerberus",
+                "ERMAC"
+            ]
+        }
+    ]
 };

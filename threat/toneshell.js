@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "TONESHELL",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-06-22",
+    "modified": "2023-09-07",
     "all_data": {
         "tool": "TONESHELL",
         "names": [
@@ -30,5 +30,36 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "toneshell",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.sekoia.io/my-teas-not-cold-an-overview-of-china-cyber-threat/",
+            "date": "2023-09-07",
+            "organization": "Sekoia",
+            "author": "Jamila B.",
+            "title": "My Tea\u2019s not cold. An overview of China\u2019s cyber threat",
+            "categories": [
+                "Melofee",
+                "PingPull",
+                "SoWaT",
+                "Sword2033",
+                "MgBot",
+                "MQsTTang",
+                "PlugX",
+                "TONESHELL"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/k/earth-preta-spear-phishing-governments-worldwide.html",
+            "date": "2022-11-18",
+            "organization": "Trend Micro",
+            "author": "Nick Dai",
+            "title": "Earth Preta Spear-Phishing Governments Worldwide",
+            "categories": [
+                "TONESHELL",
+                "Unidentified 094",
+                "MUSTANG PANDA"
+            ]
+        }
+    ]
 };

@@ -41,5 +41,39 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ghole",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://www.trendmicro.it/media/wp/operation-woolen-goldfish-whitepaper-en.pdf",
+            "date": "2015-03-24",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "Operation Woolen-Goldfish: When Kittens Go Phishing",
+            "categories": [
+                "Ghole",
+                "Woolger"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/wp/wp-operation-woolen-goldfish.pdf",
+            "date": "2015-03-19",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "Operation WOOLEN-GOLDFISH: When Kittens Go Phishing",
+            "categories": [
+                "Ghole",
+                "Woolger"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/gholee-a-protective-edge-themed-spear-phishing-campaign/",
+            "date": "2014-09-04",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Gholee \u2013 a \u201cprotective edge\u201d themed spear phishing campaign",
+            "categories": [
+                "Ghole"
+            ]
+        }
+    ]
 };

@@ -31,5 +31,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "rapidstealer",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://pwc.blogs.com/cyber_security_updates/2014/09/malware-microevolution.html",
+            "date": "2014-09-19",
+            "organization": "PWC",
+            "author": "Tom Lancaster",
+            "title": "Malware microevolution",
+            "categories": [
+                "RapidStealer"
+            ]
+        }
+    ]
 };

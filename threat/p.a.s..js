@@ -37,5 +37,67 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "p.a.s.",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
+            "date": "2021-04-27",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "APT trends report Q1 2021",
+            "categories": [
+                "PAS",
+                "Artra Downloader",
+                "BadNews",
+                "Bozok",
+                "DILLJUICE",
+                "Kazuar",
+                "Quasar RAT",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://www.domaintools.com/resources/blog/centreon-to-exim-and-back-on-the-trail-of-sandworm",
+            "date": "2021-03-03",
+            "organization": "DomainTools",
+            "author": "Joe Slowik",
+            "title": "Centreon to Exim and Back: On the Trail of Sandworm",
+            "categories": [
+                "Exaramel",
+                "PAS"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-005.pdf",
+            "date": "2021-01-27",
+            "organization": "CERT-FR",
+            "author": "CERT-FR",
+            "title": "Sandword Intrusion Set: Campaign Targeting Centreon Ssystems",
+            "categories": [
+                "Exaramel",
+                "PAS",
+                "Exaramel"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/security-publications/GRIZZLY-STEPPE-Russian-Malicious-Cyber-Activity",
+            "date": "2016-12-29",
+            "organization": "Department of Homeland Security",
+            "author": "Department of Homeland Security",
+            "title": "GRIZZLY STEPPE \u2013 Russian Malicious Cyber Activity",
+            "categories": [
+                "PAS"
+            ]
+        },
+        {
+            "data_url": "https://blog.erratasec.com/2016/12/some-notes-on-iocs.html",
+            "date": "2016-12-29",
+            "organization": "Errata Security",
+            "author": "Robert Graham",
+            "title": "Some notes on IoCs",
+            "categories": [
+                "PAS"
+            ]
+        }
+    ]
 };

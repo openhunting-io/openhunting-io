@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "whiskerspy",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/23/b/earth-kitsune-delivers-new-whiskerspy-backdoor.html",
+            "date": "2023-02-17",
+            "organization": "Trend Micro",
+            "author": "Joseph C Chen",
+            "title": "Earth Kitsune Delivers New WhiskerSpy Backdoor via Watering Hole Attack",
+            "categories": [
+                "WhiskerSpy"
+            ]
+        }
+    ]
 };

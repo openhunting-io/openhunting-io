@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Nemim, Nemain",
     "category": "Malware",
     "type": "-",
-    "modified": "2020-04-23",
+    "modified": "2020-09-08",
     "all_data": {
         "tool": "Nemim",
         "names": [
@@ -30,5 +30,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "nemim",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://blog.nsfocus.net/darkhotel-3-0908/",
+            "date": "2020-09-08",
+            "organization": "NSFOCUS",
+            "author": "NSFOCUS",
+            "title": "APT GROUP\u7cfb\u5217\u2014\u2014DARKHOTEL\u4e4b\u7a83\u5bc6\u4e0eRAT\u7bc7",
+            "categories": [
+                "Nemim"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/tungsten-bridge",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "TUNGSTEN BRIDGE",
+            "categories": [
+                "Nemim",
+                "DarkHotel"
+            ]
+        }
+    ]
 };

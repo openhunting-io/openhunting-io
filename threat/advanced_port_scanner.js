@@ -27,5 +27,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "advanced_port_scanner",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

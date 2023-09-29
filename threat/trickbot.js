@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "TrickBot, Trickster, The Trick, TheTrick, Totbrick, TrickLoader, TSPY_TRICKLOAD",
     "category": "Malware",
     "type": "Banking trojan, Backdoor, Info stealer, Credential stealer, Worm",
-    "modified": "2022-12-28",
+    "modified": "2023-09-07",
     "all_data": {
         "tool": "TrickBot",
         "names": [
@@ -6691,6 +6691,4506 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-08-24 07:15:31",
-    "mitre": [],
-    "file_name": "trickbot"
+    "mitre": [
+        {
+            "procedure_name": "trickbot",
+            "procedure_code": "s0266",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0266",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
+                    "technique_name": "phishing : spearphishing attachment",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "trickbot has used an email with an excel sheet containing a malicious macro to deploy the malware[233]"
+                },
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/002",
+                    "technique_name": "phishing : spearphishing link",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. spearphishing with a link is a specific variant of spearphishing. it is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "trickbot has been delivered via malicious links in phishing e-mails.[105]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
+                    "technique_name": "command and scripting interpreter : powershell",
+                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
+                    "procedure_description": "trickbot has been known to use powershell to download new payloads, open documents, and upload data to command and control servers.  [231]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "trickbot has used macros in excel documents to download and deploy the malware on the user\u2019s machine.[334]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1559.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1559/001",
+                    "technique_name": "inter-process communication : component object model",
+                    "technique_description": "adversaries may use the windows component object model (com) for local code execution. com is an inter-process communication (ipc) component of the native windows application programming interface (api) that enables interaction between software objects, or executable code that implements one or more interfaces. through com, a client object can call methods of server objects, which are typically binary dynamic link libraries (dll) or executables (exe). remote com execution is facilitated by remote services such as  distributed component object model (dcom).",
+                    "procedure_description": "trickbot used com to setup scheduled task for persistence.[18]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "trickbot uses the windows api call, createprocessw(), to manage execution flow.[174] trickbot has also used nt* api functions to perform process injection.[175]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "trickbot creates a scheduled task on the system that provides persistence.[172][173][174]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "trickbot has attempted to get users to launch malicious documents to deliver its payload. [244][245]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "trickbot establishes persistence in the startup folder.[262]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "trickbot establishes persistence by creating an autostart service that allows it to run whenever the machine boots.[126]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1542.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1542/003",
+                    "technique_name": "pre-os boot : bootkit",
+                    "technique_description": "adversaries may use bootkits to persist on systems. bootkits reside at a layer below the operating system and may make it difficult to perform full remediation unless an organization suspects one was used and can act accordingly.",
+                    "procedure_description": "trickbot can implant malicious code into a compromised device's firmware.[12]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "trickbot creates a scheduled task on the system that provides persistence.[172][173][174]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "trickbot establishes persistence in the startup folder.[262]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "trickbot establishes persistence by creating an autostart service that allows it to run whenever the machine boots.[126]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "trickbot has used nt* native api functions to inject code into legitimate processes such as wermgr.exe.[63]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "trickbot injects into the svchost.exe process.[39][40][41][42]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "trickbot creates a scheduled task on the system that provides persistence.[172][173][174]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "trickbot decodes the configuration data and modules.[233][234][235]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1562.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
+                    "technique_name": "impair defenses : disable or modify tools",
+                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
+                    "procedure_description": "trickbot can disable windows defender.[90]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036",
+                    "technique_name": "masquerading",
+                    "technique_description": "adversaries may attempt to manipulate features of their artifacts to make them appear legitimate or benign to users and/or security tools. masquerading occurs when the name or location of an object, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. this may include manipulating file metadata, tricking users into misidentifying the file type, and giving legitimate task or service names.",
+                    "procedure_description": "the trickbot downloader has used an icon to appear as a microsoft word document.[43]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "trickbot can modify registry entries.[165]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "trickbot uses non-descriptive names to hide functionality and uses an aes cbc (256 bits) encryption algorithm for its loader and configuration files.[335]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/002",
+                    "technique_name": "obfuscated files or information : software packing",
+                    "technique_description": "adversaries may perform software packing or virtual machine software protection to conceal their code. software packing is a method of compressing or encrypting an executable. packing an executable changes the file signature in an attempt to avoid signature-based detection. most decompression techniques decompress the executable code in memory. virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. a virtual machine is then called to run this code.",
+                    "procedure_description": "trickbot leverages a custom packer to obfuscate its functionality.[86]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1542.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1542/003",
+                    "technique_name": "pre-os boot : bootkit",
+                    "technique_description": "adversaries may use bootkits to persist on systems. bootkits reside at a layer below the operating system and may make it difficult to perform full remediation unless an organization suspects one was used and can act accordingly.",
+                    "procedure_description": "trickbot can implant malicious code into a compromised device's firmware.[12]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "trickbot has used nt* native api functions to inject code into legitimate processes such as wermgr.exe.[63]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "trickbot injects into the svchost.exe process.[39][40][41][42]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1553.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1553/002",
+                    "technique_name": "subvert trust controls : code signing",
+                    "technique_description": "adversaries may create, acquire, or steal code signing materials to sign their malware or tools. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with.  the certificates used during an operation may be created, acquired, or stolen by the adversary.   unlike invalid code signature, this activity will result in a valid signature.",
+                    "procedure_description": "trickbot has come with a signed downloader component.[5]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "trickbot has used printf and file i/o loops to delay process execution as part of api hammering.[5]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1110.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1110/004",
+                    "technique_name": "brute force : credential stuffing",
+                    "technique_description": "adversaries may use credentials obtained from breach dumps of unrelated accounts to gain access to target accounts through credential overlap. occasionally, large numbers of username and password pairs are dumped online when a website or service is compromised and the user account credentials accessed. the information may be useful to an adversary attempting to compromise accounts by taking advantage of the tendency for users to use the same passwords across personal and business accounts.",
+                    "procedure_description": "trickbot uses brute-force attack against rdp with rdpscandll module.[3][4]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555/003",
+                    "technique_name": "credentials from password stores : credentials from web browsers",
+                    "technique_description": "adversaries may acquire credentials from web browsers by reading files specific to the target browser. web browsers commonly save credentials such as website usernames and passwords so that they do not need to be entered manually in the future. web browsers typically store the credentials in an encrypted format within a credential store; however, methods exist to extract plaintext credentials from web browsers.",
+                    "procedure_description": "trickbot can obtain passwords stored in files from web browsers such as chrome, firefox, internet explorer, and microsoft edge, sometimes using esentutl.[87][88][89]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555/005",
+                    "technique_name": "credentials from password stores : password managers",
+                    "technique_description": "adversaries may acquire user credentials from third-party password managers. password managers are applications designed to store user credentials, normally in an encrypted database. credentials are typically accessible after a user provides a master password that unlocks the database. after the database is unlocked, these credentials may be copied to memory. these databases can be stored as files on disk.",
+                    "procedure_description": "trickbot can steal passwords from the keepass open source password manager.[5]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1056.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/004",
+                    "technique_name": "input capture : credential api hooking",
+                    "technique_description": "adversaries may hook into windows application programming interface (api) functions to collect user credentials. malicious hooking mechanisms may capture api calls that include parameters that reveal user authentication credentials. unlike keylogging,  this technique focuses specifically on api functions that include parameters that reveal user credentials. hooking involves redirecting calls to these functions and can be implemented via:",
+                    "procedure_description": "trickbot has the ability to capture rdp credentials by capturing the credenumeratea api[13]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/001",
+                    "technique_name": "unsecured credentials : credentials in files",
+                    "technique_description": "adversaries may search local file systems and remote file shares for files containing insecurely stored credentials. these can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.",
+                    "procedure_description": "trickbot can obtain passwords stored in files from several applications such as outlook, filezilla, openssh, openvpn and winscp.[38][39] additionally, it searches for the \".vnc.lnk\" affix to steal vnc credentials.[40]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/002",
+                    "technique_name": "unsecured credentials : credentials in registry",
+                    "technique_description": "adversaries may search the registry on compromised systems for insecurely stored credentials. the windows registry stores configuration information that can be used by the system or other programs. adversaries may query the registry looking for credentials and passwords that have been stored for use by other programs or services. sometimes these credentials are used for automatic logons.",
+                    "procedure_description": "trickbot has retrieved putty credentials by querying the software\\simontatham\\putty\\sessions registry key [6]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1087.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1087/001",
+                    "technique_name": "account discovery : local account",
+                    "technique_description": "adversaries may attempt to get a listing of local system accounts. this information can help adversaries determine which local accounts exist on a system to aid in follow-on behavior.",
+                    "procedure_description": "trickbot collects the users of the system.[46][47]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1087.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1087/003",
+                    "technique_name": "account discovery : email account",
+                    "technique_description": "adversaries may attempt to get a listing of email addresses and accounts. adversaries may try to dump exchange address lists such as global address lists (gals).",
+                    "procedure_description": "trickbot collects email addresses from outlook.[15]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1482",
+                    "technique_link": "https://attack.mitre.org/techniques/T1482",
+                    "technique_name": "domain trust discovery",
+                    "technique_description": "adversaries may attempt to gather information on domain trust relationships that may be used to identify lateral movement opportunities in windows multi-domain/forest environments. domain trusts provide a mechanism for a domain to allow access to resources based on the authentication procedures of another domain. domain trusts allow the users of the trusted domain to access resources in the trusting domain. the information discovered may help the adversary conduct sid-history injection, pass the ticket, and kerberoasting. domain trusts can be enumerated using the dsenumeratedomaintrusts() win32 api call, .net methods, and ldap. the windows utility nltest is known to be used by adversaries to enumerate domain trusts.",
+                    "procedure_description": "trickbot can gather information about domain trusts by utilizing nltest.[21][31]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "trickbot searches the system for all of the following file extensions: .avi, .mov, .mkv, .mpeg, .mpeg4, .mp4, .mp3, .wav, .ogg, .jpeg, .jpg, .png, .bmp, .gif, .tiff, .ico, .xlsx, and .zip. it can also obtain browsing history, cookies, and plug-in information.[303][304]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1135",
+                    "technique_link": "https://attack.mitre.org/techniques/T1135",
+                    "technique_name": "network share discovery",
+                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
+                    "procedure_description": "trickbot module sharedll/msharedll discovers network shares via the wnetopenenuma api.[56][57]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1069",
+                    "technique_link": "https://attack.mitre.org/techniques/T1069",
+                    "technique_name": "permission groups discovery",
+                    "technique_description": "adversaries may attempt to discover group and permission settings. this information can help adversaries determine which user accounts and groups are available, the membership of users in particular groups, and which users and groups have elevated permissions.",
+                    "procedure_description": "trickbot can identify the groups the user on a compromised host belongs to.[11]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "trickbot uses module networkdll for process list discovery.[257][258]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1018",
+                    "technique_link": "https://attack.mitre.org/techniques/T1018",
+                    "technique_name": "remote system discovery",
+                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
+                    "procedure_description": "trickbot can enumerate computers and network devices.[87]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "trickbot gathers the os version, machine name, cpu type, amount of ram available, and uefi/bios firmware information from the victim\u2019s machine.[371][372][373][374]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "trickbot obtains the ip address, location, and other relevant network information from the victim\u2019s machine.[232][233][57]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "trickbot can identify the user and groups the user belongs to on a compromised host.[189]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1007",
+                    "technique_link": "https://attack.mitre.org/techniques/T1007",
+                    "technique_name": "system service discovery",
+                    "technique_description": "adversaries may try to gather information about registered local system services. adversaries may obtain information about services using tools as well as os utility commands such as sc query, tasklist /svc, systemctl --type=service, and net start.",
+                    "procedure_description": "trickbot collects a list of install programs and services on the system\u2019s machine.[57]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "trickbot has used printf and file i/o loops to delay process execution as part of api hammering.[5]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1210",
+                    "technique_link": "https://attack.mitre.org/techniques/T1210",
+                    "technique_name": "exploitation of remote services",
+                    "technique_description": "adversaries may exploit remote services to gain unauthorized access to internal systems once inside of a network. exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code.\u00a0a common goal for post-compromise exploitation of remote services is for lateral movement to enable access to a remote system.",
+                    "procedure_description": "trickbot utilizes eternalblue and eternalromance exploits for lateral movement in the modules wormwindll, wormdll, mwormdll, nwormdll, tabdll.[35]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/005",
+                    "technique_name": "remote services : vnc",
+                    "technique_description": "adversaries may use valid accounts to remotely control machines using virtual network computing (vnc).  vnc is a platform-independent desktop sharing system that uses the rfb (\"remote framebuffer\") protocol to enable users to remotely control another computer\u2019s display by relaying the screen, mouse, and keyboard inputs over the network.",
+                    "procedure_description": "trickbot has used a vnc module to monitor the victim and collect information to pivot to valuable systems on the network [19][20]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1185",
+                    "technique_link": "https://attack.mitre.org/techniques/T1185",
+                    "technique_name": "browser session hijacking",
+                    "technique_description": "adversaries may take advantage of security vulnerabilities and inherent functionality in browser software to change content, modify user-behaviors, and intercept information as part of various browser session hijacking techniques.",
+                    "procedure_description": "trickbot uses web injects and browser redirection to trick the user into providing their login credentials on a fake or modified web page.[18][19][20][21]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1005",
+                    "technique_name": "data from local system",
+                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
+                    "procedure_description": "trickbot collects local files and information from the victim\u2019s local machine.[186]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1056.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/004",
+                    "technique_name": "input capture : credential api hooking",
+                    "technique_description": "adversaries may hook into windows application programming interface (api) functions to collect user credentials. malicious hooking mechanisms may capture api calls that include parameters that reveal user authentication credentials. unlike keylogging,  this technique focuses specifically on api functions that include parameters that reveal user credentials. hooking involves redirecting calls to these functions and can be implemented via:",
+                    "procedure_description": "trickbot has the ability to capture rdp credentials by capturing the credenumeratea api[13]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "trickbot uses https to communicate with its c2 servers, to get malware updates, modules that perform most of the malware logic and various configuration files.[343][9]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1132.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1132/001",
+                    "technique_name": "data encoding : standard encoding",
+                    "technique_description": "adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. common data encoding schemes include ascii, unicode, hexadecimal, base64, and mime. some data encoding systems may also result in data compression, such as gzip.",
+                    "procedure_description": "trickbot can base64-encode c2 commands.[93]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/001",
+                    "technique_name": "encrypted channel : symmetric cryptography",
+                    "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
+                    "procedure_description": "trickbot uses a custom crypter leveraging microsoft\u2019s cryptoapi to encrypt c2 traffic.[137]newer versions of trickbot have been known to use bcrypt to encrypt and digitally sign responses to their c2 server. [138]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1008",
+                    "technique_link": "https://attack.mitre.org/techniques/T1008",
+                    "technique_name": "fallback channels",
+                    "technique_description": "adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
+                    "procedure_description": "trickbot can use secondary c2 servers for communication after establishing connectivity and relaying victim information to primary c2 servers.[1]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "trickbot downloads several additional files and saves them to the victim's machine.[446][447]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1571",
+                    "technique_link": "https://attack.mitre.org/techniques/T1571",
+                    "technique_name": "non-standard port",
+                    "technique_description": "adversaries may communicate using a protocol and port pairing that are typically not associated. for example, https over port 8088 or port 587 as opposed to the traditional port 443. adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.",
+                    "procedure_description": "some trickbot samples have used http over ports 447 and 8082 for c2.[39][40][41] newer versions of trickbot have been known to use a custom communication protocol which sends the data unencrypted over port 443. [42]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090/002",
+                    "technique_name": "proxy : external proxy",
+                    "technique_description": "adversaries may use an external proxy to act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. many tools exist that enable traffic redirection through proxies or port redirection, including htran, zxproxy, and zxportmap.  adversaries use these types of proxies to manage command and control communications, to provide resiliency in the face of connection loss, or to ride over existing trusted communications paths to avoid suspicion.",
+                    "procedure_description": "trickbot has been known to reach a command and control server via one of nine proxy ip addresses. [26] [27]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1219",
+                    "technique_link": "https://attack.mitre.org/techniques/T1219",
+                    "technique_name": "remote access software",
+                    "technique_description": "an adversary may use legitimate desktop support and remote access software, such as team viewer, anydesk, go2assist, logmein, ammyyadmin, etc, to establish an interactive command and control channel to target systems within networks. these services are commonly used as legitimate technical support software, and may be allowed by application control within a target environment. remote access tools like vnc, ammyy, and teamviewer are used frequently when compared with other legitimate software commonly used by adversaries.",
+                    "procedure_description": "trickbot uses vncdll module to remote control the victim machine.[30][31]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1041",
+                    "technique_link": "https://attack.mitre.org/techniques/T1041",
+                    "technique_name": "exfiltration over c2 channel",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
+                    "procedure_description": "trickbot can send information about the compromised host and upload data to a hardcoded c2 server.[135][136]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1495",
+                    "technique_link": "https://attack.mitre.org/techniques/T1495",
+                    "technique_name": "firmware corruption",
+                    "technique_description": "adversaries may overwrite or corrupt the flash memory contents of system bios or other firmware in devices attached to a system in order to render them inoperable or unable to boot, thus denying the availability to use the devices and/or the system. firmware is software that is loaded and executed from non-volatile memory on hardware devices in order to initialize and manage device functionality. these devices may include the motherboard, hard drive, or video cards.",
+                    "procedure_description": "trickbot module \"trickboot\" can write or erase the uefi/bios firmware of a compromised device.[5]"
+                }
+            ]
+        }
+    ],
+    "file_name": "trickbot",
+    "articles": [
+        {
+            "data_url": "https://www.justice.gov/opa/pr/multiple-foreign-nationals-charged-connection-trickbot-malware-and-conti-ransomware",
+            "date": "2023-09-07",
+            "organization": "Department of Justice",
+            "author": "Office of Public Affairs",
+            "title": "Multiple Foreign Nationals Charged in Connection with Trickbot Malware and Conti Ransomware Conspiracies",
+            "categories": [
+                "Conti",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.nisos.com/research/trickbot-trickleaks-data-analysis/",
+            "date": "2023-08-30",
+            "organization": "Nisos",
+            "author": "Vincas \u010ci\u017ei\u016bnas",
+            "title": "Trickbot in Light of Trickleaks Data",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-conti-crypters-where-are-they-now/",
+            "date": "2023-06-27",
+            "organization": "SecurityIntelligence",
+            "author": "Charlotte Hammond",
+            "title": "The Trickbot/Conti Crypters: Where Are They Now?",
+            "categories": [
+                "Black Basta",
+                "Conti",
+                "Mount Locker",
+                "PhotoLoader",
+                "Royal Ransom",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://home.treasury.gov/news/press-releases/jy1256",
+            "date": "2023-02-09",
+            "organization": "U.S. Department of the Treasury",
+            "author": "U.S. Department of the Treasury",
+            "title": "United States and United Kingdom Sanction Members of Russia-Based Trickbot Cybercrime Gang",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/following-the-scent-of-trickgate-6-year-old-packer-used-to-deploy-the-most-wanted-malware/",
+            "date": "2023-01-30",
+            "organization": "Checkpoint",
+            "author": "Arie Olshtein",
+            "title": "Following the Scent of TrickGate: 6-Year-Old Packer Used to Deploy the Most Wanted Malware",
+            "categories": [
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Maze",
+                "NetWire RC",
+                "Remcos",
+                "REvil",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/sandbox-evasion-memory-detection/",
+            "date": "2022-12-27",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Esmid Idrizovic",
+            "title": "Navigating the Vast Ocean of Sandbox Evasions",
+            "categories": [
+                "TrickBot",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/banking-trojan-techniques/",
+            "date": "2022-10-31",
+            "organization": "paloalto Netoworks: Unit42",
+            "author": "Or Chechik",
+            "title": "Banking Trojan Techniques: How Financially Motivated Malware Became Infrastructure",
+            "categories": [
+                "Dridex",
+                "Kronos",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/advintel-s-state-of-emotet-aka-spmtools-displays-over-million-compromised-machines-through-2022",
+            "date": "2022-09-13",
+            "organization": "AdvIntel",
+            "author": "Advanced Intelligence",
+            "title": "AdvIntel's State of Emotet aka \"SpmTools\" Displays Over Million Compromised Machines Through 2022",
+            "categories": [
+                "Conti",
+                "Cobalt Strike",
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/from-ramnit-to-bumblebee-via-neverquest",
+            "date": "2022-08-18",
+            "organization": "IBM",
+            "author": "Charlotte Hammond",
+            "title": "From Ramnit To Bumblebee (via NeverQuest): Similarities and Code Overlap Shed Light On Relationships Between Malware Developers",
+            "categories": [
+                "BumbleBee",
+                "Karius",
+                "Ramnit",
+                "TrickBot",
+                "Vawtrak"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/blog/detecting-a-rogue-domain-controller-dcshadow-attack/",
+            "date": "2022-08-15",
+            "organization": "SentinelOne",
+            "author": "Vikram Navali",
+            "title": "Detecting a Rogue Domain Controller \u2013 DCShadow Attack",
+            "categories": [
+                "MimiKatz",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://attackiq.com/2022/06/15/attack-graph-emulating-the-conti-ransomware-teams-behaviors/",
+            "date": "2022-06-15",
+            "organization": "AttackIQ",
+            "author": "Jackson Wells",
+            "title": "Attack Graph Emulating the Conti Ransomware Team\u2019s Behaviors",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://eclypsium.com/2022/06/02/conti-targets-critical-firmware/",
+            "date": "2022-06-02",
+            "organization": "Eclypsium",
+            "author": "Eclypsium",
+            "title": "Conti Targets Critical Firmware",
+            "categories": [
+                "Conti",
+                "HermeticWiper",
+                "TrickBot",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/05/malware-analysis-trickbot.html",
+            "date": "2022-05-24",
+            "organization": "The Hacker News",
+            "author": "Florian Goutin",
+            "title": "Malware Analysis: Trickbot",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-ransomexx",
+            "date": "2022-05-17",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Research",
+            "title": "Ransomware Spotlight: RansomEXX",
+            "categories": [
+                "LaZagne",
+                "Cobalt Strike",
+                "IcedID",
+                "MimiKatz",
+                "PyXie",
+                "RansomEXX",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+            "date": "2022-05-09",
+            "organization": "Microsoft Security",
+            "author": "Microsoft Threat Intelligence Center",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "Griffon",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Gozi",
+                "LockBit",
+                "Pandora",
+                "Rook",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=Brx4cygfmg8",
+            "date": "2022-05-05",
+            "organization": "YouTube (Chris Greer)",
+            "author": "Chris Greer",
+            "title": "MALWARE Analysis with Wireshark // TRICKBOT Infection",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ransomware-hive-conti-avoslocker",
+            "date": "2022-04-28",
+            "organization": "Symantec",
+            "author": "Karthikeyan C Kasiviswanathan",
+            "title": "Ransomware: How Attackers are Breaching Corporate Networks",
+            "categories": [
+                "AvosLocker",
+                "Conti",
+                "Emotet",
+                "Hive",
+                "IcedID",
+                "PhotoLoader",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://elis531989.medium.com/the-chronicles-of-bumblebee-the-hook-the-bee-and-the-trickbot-connection-686379311056",
+            "date": "2022-04-27",
+            "organization": "Medium elis531989",
+            "author": "Eli Salem",
+            "title": "The chronicles of Bumblebee: The Hook, the Bee, and the Trickbot connection",
+            "categories": [
+                "BumbleBee",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/conti-emotet-ransomware-conti-leaks",
+            "date": "2022-04-26",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Conti and Emotet: A constantly destructive duo",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "AA22-110A Joint CSA: Russian State-Sponsored and Criminal Cyber  Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Alert (AA22-110A): Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader",
+                "Killnet"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/04ec92f4",
+            "date": "2022-04-18",
+            "organization": "RiskIQ",
+            "author": "Jennifer Grob",
+            "title": "RiskIQ: Trickbot Rickroll",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.bushidotoken.net/2022/04/lessons-from-conti-leaks.html",
+            "date": "2022-04-17",
+            "organization": "BushidoToken Blog",
+            "author": "BushidoToken",
+            "title": "Lessons from the Conti Leaks",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/karakurt-revealed-as-data-extortion-arm-of-conti-cybercrime-syndicate/",
+            "date": "2022-04-15",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Karakurt revealed as data extortion arm of Conti cybercrime syndicate",
+            "categories": [
+                "Anchor",
+                "BazarBackdoor",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://arcticwolf.com/resources/blog/karakurt-web",
+            "date": "2022-04-15",
+            "organization": "Arctic Wolf",
+            "author": "Arctic Wolf",
+            "title": "The Karakurt Web: Threat Intel and Blockchain Analysis Reveals Extension of Conti Business Model",
+            "categories": [
+                "Conti",
+                "Diavol",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/conversinglabs-ep-2-conti-pivots-as-ransomware-as-a-service-struggles",
+            "date": "2022-04-08",
+            "organization": "ReversingLabs",
+            "author": "Paul Roberts",
+            "title": "ConversingLabs Ep. 2: Conti pivots as ransomware as a service struggles",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/conti-leaks-ransomware-development",
+            "date": "2022-04-05",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Move fast and commit crimes: Conti\u2019s development teams mirror corporate tech",
+            "categories": [
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/conti-leaks-examining-the-panama-papers-of-ransomware.html",
+            "date": "2022-03-31",
+            "organization": "Trellix",
+            "author": "John Fokker",
+            "title": "Conti Leaks: Examining the Panama Papers of Ransomware",
+            "categories": [
+                "LockBit",
+                "Amadey",
+                "Buer",
+                "Conti",
+                "IcedID",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "PhotoLoader",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/gold-ulrick-leaks-reveal-organizational-structure-and-relationships",
+            "date": "2022-03-23",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "GOLD ULRICK Leaks Reveal Organizational Structure and Relationships",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://content.secureworks.com/-/media/Files/US/Reports/Monthly%20Threat%20Intelligence/Secureworks_ECO1_ThreatIntelligenceExecutiveReport2022Vol2.ashx",
+            "date": "2022-03-23",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "Threat Intelligence Executive Report Volume 2022, Number 2",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/conti-ransomware-v-3-including-decryptor-leaked/179006/",
+            "date": "2022-03-21",
+            "organization": "Threat Post",
+            "author": "Lisa Vaas",
+            "title": "Conti Ransomware V. 3, Including Decryptor, Leaked",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/martinhron/meris-and-trickbot-standing-on-the-shoulders-of-giants/",
+            "date": "2022-03-18",
+            "organization": "Avast",
+            "author": "Martin Hron",
+            "title": "M\u0113ris and TrickBot standing on the shoulders of giants",
+            "categories": [
+                "Glupteba Proxy",
+                "Glupteba",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/03/16/uncovering-trickbots-use-of-iot-devices-in-command-and-control-infrastructure/",
+            "date": "2022-03-16",
+            "organization": "Microsoft",
+            "author": "Microsoft Defender for IoT Research Team",
+            "title": "Uncovering Trickbot\u2019s use of IoT devices in command-and-control infrastructure",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/111d6005/description",
+            "date": "2022-03-15",
+            "organization": "RiskIQ",
+            "author": "RiskIQ",
+            "title": "RiskIQ: Trickbot Abuse of Compromised MikroTik Routers for Command and Control",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.breachquest.com/conti-leaks-insight-into-a-ransomware-unicorn/",
+            "date": "2022-03-09",
+            "organization": "BreachQuest",
+            "author": "Marco Figueroa",
+            "title": "The Conti Leaks | Insight into a Ransomware Unicorn",
+            "categories": [
+                "Cobalt Strike",
+                "MimiKatz",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/cisa-updates-conti-ransomware-alert-with-nearly-100-domain-names/",
+            "date": "2022-03-09",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "CISA updates Conti ransomware alert with nearly 100 domain names",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.reuters.com/technology/details-another-big-ransomware-group-trickbot-leak-online-experts-say-2022-03-04/",
+            "date": "2022-03-04",
+            "organization": "Reuters",
+            "author": "Raphael Satter",
+            "title": "Details of another big ransomware group 'Trickbot' leak online, experts say",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/conti-ransomware-decryptor-trickbot-source-code-leaked/178727/",
+            "date": "2022-03-02",
+            "organization": "Threatpost",
+            "author": "Lisa Vaas",
+            "title": "Conti Ransomware Decryptor, TrickBot Source Code Leaked",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberark.com/resources/threat-research-blog/conti-group-leaked",
+            "date": "2022-03-02",
+            "organization": "CyberArk",
+            "author": "CyberArk Labs",
+            "title": "Conti Group Leaked!",
+            "categories": [
+                "TeamTNT",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2022/03/conti-ransomware-group-diaries-part-ii-the-office/",
+            "date": "2022-03-02",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Conti Ransomware Group Diaries, Part II: The Office",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://share.vx-underground.org/Conti/",
+            "date": "2022-03-01",
+            "organization": "",
+            "author": "VX-Underground",
+            "title": "Leaks: Conti / Trickbot",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberscoop.com/trickbot-shutdown-conti-emotet/",
+            "date": "2022-02-25",
+            "organization": "CyberScoop",
+            "author": "Joe Warminsky",
+            "title": "TrickBot malware suddenly got quiet, researchers say, but it's hardly the end for its operators",
+            "categories": [
+                "BazarBackdoor",
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/02/notorious-trickbot-malware-gang-shuts.html",
+            "date": "2022-02-24",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Notorious TrickBot Malware Gang Shuts Down its Botnet Infrastructure",
+            "categories": [
+                "BazarBackdoor",
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/02/trickbot-gang-likely-shifting.html",
+            "date": "2022-02-24",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "TrickBot Gang Likely Shifting Operations to Switch to New Malware",
+            "categories": [
+                "BazarBackdoor",
+                "Emotet",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/trickbot-gang-shuts-down-botnet-after-months-of-inactivity/",
+            "date": "2022-02-24",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "TrickBot gang shuts down botnet after months of inactivity",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bankinfosecurity.com/cybercrime-moves-conti-ransomware-absorbs-trickbot-malware-a-18573",
+            "date": "2022-02-22",
+            "organization": "Bankinfo Security",
+            "author": "Matthew J. Schwartz",
+            "title": "Cybercrime Moves: Conti Ransomware Absorbs TrickBot Malware",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityaffairs.co/wordpress/128190/cyber-crime/conti-ransomware-takes-over-trickbot.html",
+            "date": "2022-02-20",
+            "organization": "Security Affairs",
+            "author": "Pierluigi Paganini",
+            "title": "The Conti ransomware group takes over TrickBot malware operation and plans to replace it with BazarBackdoor malware.",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-takes-over-trickbot-malware-operation/",
+            "date": "2022-02-18",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Conti ransomware gang takes over TrickBot malware operation",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/trickbot-amazon-paypal-top-brands/178483/",
+            "date": "2022-02-16",
+            "organization": "Threat Post",
+            "author": "Tara Seals",
+            "title": "TrickBot Ravages Customers of Amazon, PayPal and Other Top Brands",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/the-trickbot-saga-s-finale-has-aired-but-a-spinoff-is-already-in-the-works",
+            "date": "2022-02-16",
+            "organization": "Advanced Intelligence",
+            "author": "Yelisey Boguslavskiy",
+            "title": "The TrickBot Saga\u2019s Finale Has Aired: Spinoff is Already in the Works",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/a-modern-ninja-evasive-trickbot-attacks-customers-of-60-high-profile-companies/",
+            "date": "2022-02-16",
+            "organization": "Check Point Research",
+            "author": "Aliaksandr Trafimchuk",
+            "title": "A Modern Ninja: Evasive Trickbot Attacks Customers of 60 High-Profile Companies",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/privateloader-malware",
+            "date": "2022-02-08",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "PrivateLoader: The first step in many malware schemes",
+            "categories": [
+                "Dridex",
+                "Kronos",
+                "LockBit",
+                "Nanocore RAT",
+                "NjRAT",
+                "PrivateLoader",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos",
+                "SmokeLoader",
+                "STOP",
+                "Tofsee",
+                "TrickBot",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-gang-template-based-metaprogramming-bazar-malware/",
+            "date": "2022-02-02",
+            "organization": "IBM",
+            "author": "Kevin Henson",
+            "title": "TrickBot Gang Uses Template-Based Metaprogramming in Bazar Malware",
+            "categories": [
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.wired.co.uk/article/trickbot-malware-group-internal-messages",
+            "date": "2022-02-01",
+            "organization": "Wired",
+            "author": "Matt Burgess",
+            "title": "Inside Trickbot, Russia\u2019s Notorious Ransomware Gang",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.wired.com/story/trickbot-malware-group-internal-messages/",
+            "date": "2022-02-01",
+            "organization": "Wired",
+            "author": "Matt Burgess",
+            "title": "Inside Trickbot, Russia\u2019s Notorious Ransomware Gang",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-bolsters-layered-defenses-prevent-injection/",
+            "date": "2022-01-24",
+            "organization": "IBM",
+            "author": "Michael Gal",
+            "title": "TrickBot Bolsters Layered Defenses to Prevent Injection Research",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.kryptoslogic.com/blog/2022/01/deep-dive-into-trickbots-web-injection/",
+            "date": "2022-01-24",
+            "organization": "Kryptos Logic",
+            "author": "Kryptos Logic Vantage Team",
+            "title": "Deep Dive into Trickbot's Web Injection",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.ic3.gov/Media/News/2022/220120.pdf",
+            "date": "2022-01-19",
+            "organization": "FBI",
+            "author": "FBI",
+            "title": "CU-000161-MW: Indicators of Compromise Associated with Diavol Ransomware",
+            "categories": [
+                "Diavol",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0118.pdf",
+            "date": "2022-01-18",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "2021 Adversary Infrastructure Report",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Dridex",
+                "IcedID",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2021/when-old-friends-meet-again-why-emotet-chose-trickbot-for-rebirth/",
+            "date": "2021-12-08",
+            "organization": "Check Point Research",
+            "author": "Raman Ladutska",
+            "title": "When old friends meet again: why Emotet chose Trickbot for rebirth",
+            "categories": [
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.gosecure.net/blog/2021/12/03/trickbot-leverages-zoom-work-from-home-interview-malspam-heavens-gate-and-spamhaus/",
+            "date": "2021-12-03",
+            "organization": "GoSecure",
+            "author": "GoSecure Titan Labs",
+            "title": "TrickBot Leverages Zoom Work from Home Interview Malspam, Heaven\u2019s Gate and\u2026 Spamhaus?",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-intelligence/2021/11/trickbot-helps-emotet-come-back-from-the-dead/",
+            "date": "2021-11-16",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Threat Intelligence Team",
+            "title": "TrickBot helps Emotet come back from the dead",
+            "categories": [
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-1112.pdf",
+            "date": "2021-11-12",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "The Business of Fraud: Botnet Malware Dissemination",
+            "categories": [
+                "Mozi",
+                "Dridex",
+                "IcedID",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.npu.gov.ua/news/kiberzlochini/kiberpolicziya-vikrila-transnaczionalne-zlochinne-ugrupovannya-u-nanesenni-inozemnim-kompaniyam-120-miljoniv-dolariv-zbitkiv/",
+            "date": "2021-10-29",
+            "organization": "\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043f\u043e\u043b\u0456\u0446\u0456\u044f \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+            "author": "\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0430 \u043f\u043e\u043b\u0456\u0446\u0456\u044f \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+            "title": "Cyberpolice exposes transnational criminal group in causing $ 120 million in damage to foreign companies",
+            "categories": [
+                "Cobalt Strike",
+                "Dharma",
+                "LockerGoga",
+                "MegaCortex",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.europol.europa.eu/newsroom/news/12-targeted-for-involvement-in-ransomware-attacks-against-critical-infrastructure",
+            "date": "2021-10-29",
+            "organization": "Europol",
+            "author": "Europol",
+            "title": "12 targeted for involvement in ransomware attacks against critical infrastructure",
+            "categories": [
+                "Cobalt Strike",
+                "Dharma",
+                "LockerGoga",
+                "MegaCortex",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/press-release/file/1445241/download",
+            "date": "2021-10-28",
+            "organization": "Department of Justice",
+            "author": "Department of Justice",
+            "title": "Indictment: Russian National (Vladimir Dunaev) Extradited to United States to Face Charges for Alleged Role in Cybercriminal Organization",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/pr/russian-national-extradited-united-states-face-charges-alleged-role-cybercriminal",
+            "date": "2021-10-28",
+            "organization": "Department of Justice",
+            "author": "Department of Justice",
+            "title": "Russian National (Vladimir Dunaev) Extradited to United States to Face Charges for Alleged Role in Cybercriminal Organization",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.vincss.net/2021/10/re025-trickbot-many-tricks.html",
+            "date": "2021-10-27",
+            "organization": "VinCSS",
+            "author": "m4n0w4r",
+            "title": "[RE025] TrickBot ... many tricks",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/trickbot-module-descriptions/104603/",
+            "date": "2021-10-19",
+            "organization": "Kaspersky",
+            "author": "Oleg Kupreev",
+            "title": "Trickbot module descriptions",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-gang-doubles-down-enterprise-infection/",
+            "date": "2021-10-13",
+            "organization": "IBM",
+            "author": "Ole Villadsen",
+            "title": "Trickbot Rising \u2014 Gang Doubles Down on Infection Efforts to Amass Network Footholds",
+            "categories": [
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/new-trickbot-and-bazarloader-campaigns-use-multiple-delivery-vectors",
+            "date": "2021-10-08",
+            "organization": "Zscaler",
+            "author": "Tarun Dewan",
+            "title": "New Trickbot and BazarLoader campaigns use multiple delivery vectorsi",
+            "categories": [
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/media/12596/download",
+            "date": "2021-10-07",
+            "organization": "Mandiant",
+            "author": "Mandiant Research Team",
+            "title": "FIN12 Group Profile: FIN12 Priotizes Speed to Deploy Ransomware Aginst High-Value Targets",
+            "categories": [
+                "Cobalt Strike",
+                "Empire Downloader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/10/threat-hunting-in-large-datasets-by.html",
+            "date": "2021-10-04",
+            "organization": "Cisco",
+            "author": "Tiago Pereira",
+            "title": "Threat hunting in large datasets by clustering security events",
+            "categories": [
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/10/HP-Wolf-Security-Threat-Insights-Report-Q3-2021.pdf",
+            "date": "2021-10",
+            "organization": "HP",
+            "author": "HP Wolf Security",
+            "title": "Threat Insights  Report Q3 - 2021",
+            "categories": [
+                "STRRAT",
+                "CloudEyE",
+                "NetWire RC",
+                "Remcos",
+                "TrickBot",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/trickbot-gang-developer-arrested-when-trying-to-leave-korea/",
+            "date": "2021-09-06",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "TrickBot gang developer arrested when trying to leave Korea",
+            "categories": [
+                "Diavol",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/The_Ransomware_Threat_September_2021.pdf",
+            "date": "2021-08-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "The Ransomware Threat",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "DarkSide",
+                "Avaddon",
+                "Babuk",
+                "BADHATCH",
+                "BazarBackdoor",
+                "BlackMatter",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Egregor",
+                "Emotet",
+                "FiveHands",
+                "FriedEx",
+                "Hades",
+                "IcedID",
+                "LockBit",
+                "Maze",
+                "MegaCortex",
+                "MimiKatz",
+                "QakBot",
+                "RagnarLocker",
+                "REvil",
+                "Ryuk",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/",
+            "date": "2021-08-01",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "BazarCall to Conti Ransomware via Trickbot and Cobalt Strike",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/detecting-trickbots.html",
+            "date": "2021-07-21",
+            "organization": "splunk",
+            "author": "Splunk Threat Research Team",
+            "title": "Detecting Trickbot with Splunk",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/399/Bitdefender-PR-Whitepaper-Trickbot-creat5515-en-EN.pdf",
+            "date": "2021-07-12",
+            "organization": "Bitdefender",
+            "author": "Radu Tudorica",
+            "title": "A Fresh Look at Trickbot\u2019s Ever-Improving VNC Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/trickbot-new-attacks-see-the-botnet-deploy-new-banking-module-new-ransomware/",
+            "date": "2021-07-02",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "TrickBot: New attacks see the botnet deploy new banking module, new ransomware",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.kryptoslogic.com/blog/2021/07/trickbot-and-zeus/",
+            "date": "2021-07-01",
+            "organization": "Kryptos Logic",
+            "author": "Kryptos Logic Vantage Team",
+            "title": "TrickBot and Zeus",
+            "categories": [
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/first-step-initial-access-leads-ransomware",
+            "date": "2021-06-16",
+            "organization": "Proofpoint",
+            "author": "Selena Larson",
+            "title": "The First Step: Initial Access Leads to Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Egregor",
+                "IcedID",
+                "Maze",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/inside-the-systembc-malware-as-a-service-9aa03afd09c6",
+            "date": "2021-06-07",
+            "organization": "Medium walmartglobaltech",
+            "author": "Joshua Platt",
+            "title": "Inside the SystemBC Malware-As-A-Service",
+            "categories": [
+                "Ryuk",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/us-arrests-latvian-woman-who-worked-on-trickbot-malware-source-code/",
+            "date": "2021-06-04",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "US arrests Latvian woman who worked on Trickbot malware source code",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/pr/latvian-national-charged-alleged-role-transnational-cybercrime-organization",
+            "date": "2021-06-04",
+            "organization": "Department of Justice",
+            "author": "Office of Public Affairs",
+            "title": "Latvian National Charged for Alleged Role in Transnational Cybercrime Organization",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.intel471.com/blog/Cobalt-strike-cybercriminals-trickbot-qbot-hancitor",
+            "date": "2021-05-19",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Look how many cybercriminals love Cobalt Strike",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Hancitor",
+                "QakBot",
+                "SmokeLoader",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://mal-eats.net/en/2021/05/11/campo_new_attack_campaign_targeting_japan/",
+            "date": "2021-05-11",
+            "organization": "Mal-Eats",
+            "author": "mal_eats",
+            "title": "Campo, a New Attack Campaign Targeting Japan",
+            "categories": [
+                "AnchorDNS",
+                "BazarBackdoor",
+                "campoloader",
+                "Cobalt Strike",
+                "Phobos",
+                "Snifula",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://mal-eats.net/2021/05/10/campo_new_attack_campaign_targeting_japan/",
+            "date": "2021-05-10",
+            "organization": "Mal-Eats",
+            "author": "mal_eats",
+            "title": "Overview of Campo, a new attack campaign targeting Japan",
+            "categories": [
+                "AnchorDNS",
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "ISFB",
+                "Phobos",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/298c9fc9",
+            "date": "2021-05-05",
+            "organization": "RiskIQ",
+            "author": "Kelsey Clapp",
+            "title": "Viruses to Violations - TrickBot's Shift in Tactics During the Pandemic",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/05/02/trickbot-brief-creds-and-beacons/",
+            "date": "2021-05-02",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "Trickbot Brief: Creds and Beacons",
+            "categories": [
+                "Cobalt Strike",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/security-briefs/threat-actors-pair-tax-themed-lures-covid-19-healthcare-themes",
+            "date": "2021-04-15",
+            "organization": "Proofpoint",
+            "author": "Selena Larson",
+            "title": "Threat Actors Pair Tax-Themed Lures With COVID-19, Healthcare Themes",
+            "categories": [
+                "Dridex",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/ettersilent-maldoc-builder-macro-trickbot-qbot/",
+            "date": "2021-04-06",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "EtterSilent: the underground\u2019s new favorite maldoc builder",
+            "categories": [
+                "BazarBackdoor",
+                "ISFB",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/trickbot-crews-new-cobaltstrike-loader-32c72b78e81c",
+            "date": "2021-04-05",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "TrickBot Crews New CobaltStrike Loader",
+            "categories": [
+                "Cobalt Strike",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
+            "date": "2021-03-31",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "Financial Cyberthreats in 2020",
+            "categories": [
+                "BetaBot",
+                "DanaBot",
+                "Emotet",
+                "Gozi",
+                "Ramnit",
+                "RTM",
+                "SpyEye",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://resource.redcanary.com/rs/003-YRU-314/images/2021-Threat-Detection-Report.pdf",
+            "date": "2021-03-31",
+            "organization": "Red Canary",
+            "author": "Red Canary",
+            "title": "2021 Threat Detection Report",
+            "categories": [
+                "Shlayer",
+                "Andromeda",
+                "Cobalt Strike",
+                "Dridex",
+                "Emotet",
+                "IcedID",
+                "MimiKatz",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.blackberry.com/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-2021-threat-report.pdf",
+            "date": "2021-03-21",
+            "organization": "Blackberry",
+            "author": "Blackberry Research",
+            "title": "2021 Threat Report",
+            "categories": [
+                "Bashlite",
+                "FritzFrog",
+                "IPStorm",
+                "Mirai",
+                "Tsunami",
+                "elf.wellmess",
+                "AppleJeus",
+                "Dacls",
+                "EvilQuest",
+                "Manuscrypt",
+                "Astaroth",
+                "BazarBackdoor",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "FinFisher RAT",
+                "Kwampirs",
+                "MimiKatz",
+                "NjRAT",
+                "Ryuk",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa21-076a",
+            "date": "2021-03-17",
+            "organization": "CISA",
+            "author": "US-CERT",
+            "title": "Alert (AA21-076A): TrickBot Malware",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20210305181115/https://cisoclub.ru/doc/otchet-kompanii-group-ib-ransomware-uncovered-2020-2021/?bp-attachment=group-ib_ransomware_uncovered_2020-2021.pdf",
+            "date": "2021-03",
+            "organization": "Group-IB",
+            "author": "Oleg Skulkin",
+            "title": "Ransomware Uncovered 2020/2021",
+            "categories": [
+                "RansomEXX",
+                "BazarBackdoor",
+                "Buer",
+                "Clop",
+                "Conti",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "IcedID",
+                "Maze",
+                "PwndLocker",
+                "QakBot",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "SDBbot",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-006.pdf",
+            "date": "2021-02-25",
+            "organization": "ANSSI",
+            "author": "CERT-FR",
+            "title": "Ryuk Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Buer",
+                "Conti",
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://ibm.ent.box.com/s/hs5pcayhbbhjvj8di5sqdpbbd88tsh89",
+            "date": "2021-02-24",
+            "organization": "IBM",
+            "author": "IBM SECURITY X-FORCE",
+            "title": "X-Force Threat Intelligence Index 2021",
+            "categories": [
+                "Emotet",
+                "QakBot",
+                "Ramnit",
+                "REvil",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+            "date": "2021-02-23",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2021 Global Threat Report",
+            "categories": [
+                "RansomEXX",
+                "Amadey",
+                "Anchor",
+                "Avaddon",
+                "BazarBackdoor",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "Cutwail",
+                "DanaBot",
+                "DarkSide",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Hakbit",
+                "IcedID",
+                "JSOutProx",
+                "KerrDown",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "NedDnLoader",
+                "Nemty",
+                "Pay2Key",
+                "PlugX",
+                "Pushdo",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "Quasar RAT",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Sekhmet",
+                "ShadowPad",
+                "SmokeLoader",
+                "Snake",
+                "SUNBURST",
+                "SunCrypt",
+                "TEARDROP",
+                "TrickBot",
+                "WastedLocker",
+                "Winnti",
+                "Zloader",
+                "KNOCKOUT SPIDER",
+                "OUTLAW SPIDER",
+                "RIDDLE SPIDER",
+                "SOLAR SPIDER",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/02/ESET_Threat_Report_Q42020.pdf",
+            "date": "2021-02-08",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "THREAT REPORT Q4 2020",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cronup.com/post/de-ataque-con-malware-a-incidente-de-ransomware",
+            "date": "2021-02-02",
+            "organization": "CRONUP",
+            "author": "Germ\u00e1n Fern\u00e1ndez",
+            "title": "De ataque con Malware a incidente de Ransomware",
+            "categories": [
+                "Avaddon",
+                "BazarBackdoor",
+                "Buer",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DanaBot",
+                "Dharma",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Empire Downloader",
+                "FriedEx",
+                "GootKit",
+                "IcedID",
+                "MegaCortex",
+                "Nemty",
+                "Phorpiex",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "SDBbot",
+                "SmokeLoader",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.kryptoslogic.com/blog/2021/02/trickbot-masrv-module/",
+            "date": "2021-02-01",
+            "organization": "Kryptos Logic",
+            "author": "Kryptos Logic Vantage Team",
+            "title": "Trickbot masrv Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2021/02/01/what-tracking-an-attacker-email-infrastructure-tells-us-about-persistent-cybercriminal-operations/",
+            "date": "2021-02-01",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "What tracking an attacker email infrastructure tells us about persistent cybercriminal operations",
+            "categories": [
+                "Dridex",
+                "Emotet",
+                "Makop Ransomware",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=EyDiIAt__dI",
+            "date": "2021-01-28",
+            "organization": "Youtube (Virus Bulletin)",
+            "author": "Beno\u00eet Ancel",
+            "title": "The Bagsu banker case",
+            "categories": [
+                "Azorult",
+                "DreamBot",
+                "Emotet",
+                "Pony",
+                "TrickBot",
+                "ZeusAction"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-survival-instinct-trickboot-version/",
+            "date": "2021-01-26",
+            "organization": "IBM",
+            "author": "Nir Shwarts",
+            "title": "TrickBot\u2019s Survival Instinct Prevails \u2014 What\u2019s Different About the TrickBoot Version?",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/anchor-and-lazarus-together-again-24744e516607",
+            "date": "2021-01-20",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "Anchor and Lazarus together again?",
+            "categories": [
+                "Anchor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/wireshark-tutorial-emotet-infection/",
+            "date": "2021-01-19",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Wireshark Tutorial: Examining Emotet Infection Traffic",
+            "categories": [
+                "Emotet",
+                "GootKit",
+                "IcedID",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/01/11/trickbot-still-alive-and-well/",
+            "date": "2021-01-11",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "Trickbot Still Alive and Well",
+            "categories": [
+                "Cobalt Strike",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2021/01/09/c2-traffic-patterns-personal-notes/",
+            "date": "2021-01-09",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Command and Control Traffic Patterns",
+            "categories": [
+                "ostap",
+                "LaZagne",
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cobalt Strike",
+                "DanaBot",
+                "DarkComet",
+                "Dridex",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "ISFB",
+                "NetWire RC",
+                "PlugX",
+                "Quasar RAT",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.domaintools.com/resources/blog/tracking-a-trickbot-related-ransomware-incident",
+            "date": "2021-01-06",
+            "organization": "DomainTools",
+            "author": "Joe Slowik",
+            "title": "Holiday Bazar: Tracking a TrickBot-Related Ransomware Incident",
+            "categories": [
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/building-a-custom-malware-analysis-lab-environment/",
+            "date": "2021-01-04",
+            "organization": "SentinelOne",
+            "author": "Marco Figueroa",
+            "title": "Building a Custom Malware Analysis Lab Environment",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD BLACKBURN",
+            "categories": [
+                "Buer",
+                "Dyre",
+                "TrickBot",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://blogs.keysight.com/blogs/tech/nwvs.entry.html/2020/12/21/trickbot_a_closerl-TpQ0.html",
+            "date": "2020-12-21",
+            "organization": "KEYSIGHT TECHNOLOGIES",
+            "author": "Edsel Valle",
+            "title": "TrickBot: A Closer Look",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/cybereason-vs.-ryuk-ransomware",
+            "date": "2020-12-10",
+            "organization": "Cybereason",
+            "author": "Joakim Kandefelt",
+            "title": "Cybereason vs. Ryuk Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyberint.com/ryuk-crypto-ransomware",
+            "date": "2020-12-10",
+            "organization": "CyberInt",
+            "author": "CyberInt",
+            "title": "Ryuk Crypto-Ransomware",
+            "categories": [
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://eclypsium.com/2020/12/03/trickbot-now-offers-trickboot-persist-brick-profit/",
+            "date": "2020-12-03",
+            "organization": "Eclypsium",
+            "author": "Eclypsium",
+            "title": "TrickBot Now Offers \u2018TrickBoot\u2019: Persist, Brick, Profit",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.bitdefender.com/2020/11/trickbot-is-dead-long-live-trickbot/",
+            "date": "2020-11-23",
+            "organization": "Bitdefender",
+            "author": "Liviu Arsene",
+            "title": "TrickBot is Dead. Long Live TrickBot!",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://malware.love/trickbot/malware_analysis/reverse_engineering/2020/11/22/trickbot-fake-ips-part2.html",
+            "date": "2020-11-22",
+            "organization": "malware.love",
+            "author": "Robert Giczewski",
+            "title": "Trickbot tricks again [UPDATE]",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/the-malware-that-usually-installs-ransomware-and-you-need-to-remove-right-away/",
+            "date": "2020-11-20",
+            "organization": "ZDNet",
+            "author": "Catalin Cimpanu",
+            "title": "The malware that usually installs ransomware and you need to remove right away",
+            "categories": [
+                "Avaddon",
+                "BazarBackdoor",
+                "Buer",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "FriedEx",
+                "MegaCortex",
+                "Phorpiex",
+                "PwndLocker",
+                "QakBot",
+                "Ryuk",
+                "SDBbot",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/lightbot-trickbot-s-new-reconnaissance-malware-for-high-value-targets/",
+            "date": "2020-11-20",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "LightBot: TrickBot\u2019s new reconnaissance malware for high-value targets",
+            "categories": [
+                "LightBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.sophos.com/en-us/medialibrary/pdfs/technical-papers/sophos-2021-threat-report.pdf",
+            "date": "2020-11-18",
+            "organization": "Sophos",
+            "author": "Sophos",
+            "title": "SOPHOS 2021 THREAT REPORT Navigating cybersecurity in an uncertain world",
+            "categories": [
+                "Agent Tesla",
+                "Dridex",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/VK_Intel/status/1328578336021483522",
+            "date": "2020-11-17",
+            "organization": "Twitter (@VK_intel)",
+            "author": "Vitali Kremez",
+            "title": "Tweet on a new fileless TrickBot loading method using code from MemoryModule",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://malware.love/trickbot/malware_analysis/reverse_engineering/2020/11/17/trickbots-latest-trick.html",
+            "date": "2020-11-17",
+            "organization": "malware.love",
+            "author": "Robert Giczewski",
+            "title": "Trickbot tricks again",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://engineering.salesforce.com/easily-identify-malicious-servers-on-the-internet-with-jarm-e095edac525a",
+            "date": "2020-11-17",
+            "organization": "Salesforce Engineering",
+            "author": "John Althouse",
+            "title": "Easily Identify Malicious Servers on the Internet with JARM",
+            "categories": [
+                "Cobalt Strike",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://hurricanelabs.com/splunk-tutorials/splunking-with-sysmon-part-4-detecting-trickbot/",
+            "date": "2020-11-12",
+            "organization": "Hurricane Labs",
+            "author": "Dusty Miller",
+            "title": "Splunking with Sysmon Part 4: Detecting Trickbot",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://public.intel471.com/blog/trickbot-update-november-2020-bazar-loader-microsoft/",
+            "date": "2020-11-10",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Trickbot down, but is it out?",
+            "categories": [
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blogs.vmware.com/networkvirtualization/2020/11/trick-or-threat-ryuk-ransomware-targets-the-health-care-industry.html/",
+            "date": "2020-11-04",
+            "organization": "VMRay",
+            "author": "Giovanni Vigna",
+            "title": "Trick or Threat: Ryuk ransomware targets the health care industry",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/anthomsec/status/1321865315513520128",
+            "date": "2020-10-29",
+            "organization": "Twitter (@anthomsec)",
+            "author": "Andrew Thompson",
+            "title": "Tweet on UNC1878 activity",
+            "categories": [
+                "BazarBackdoor",
+                "Ryuk",
+                "TrickBot",
+                "UNC1878"
+            ]
+        },
+        {
+            "data_url": "https://redcanary.com/blog/how-one-hospital-thwarted-a-ryuk-ransomware-outbreak/",
+            "date": "2020-10-29",
+            "organization": "Red Canary",
+            "author": "The Red Canary Team",
+            "title": "A Bazar start: How one hospital thwarted a Ryuk ransomware outbreak",
+            "categories": [
+                "Cobalt Strike",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/ryuk-ransomware/",
+            "date": "2020-10-29",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brittany Barbehenn",
+            "title": "Threat Assessment: Ryuk Ransomware and Trickbot Targeting U.S. Healthcare and Public Health Sector",
+            "categories": [
+                "Anchor",
+                "BazarBackdoor",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.netscout.com/blog/asert/dropping-anchor",
+            "date": "2020-10-26",
+            "organization": "Arbor Networks",
+            "author": "Suweera De Souza",
+            "title": "Dropping the Anchor",
+            "categories": [
+                "AnchorDNS",
+                "Anchor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Lageberichte/Lagebericht2020.pdf?__blob=publicationFile&v=2",
+            "date": "2020-10-20",
+            "organization": "Bundesamt f\u00fcr Sicherheit in der Informationstechnik",
+            "author": "BSI",
+            "title": "Die Lage der IT-Sicherheit in Deutschland 2020",
+            "categories": [
+                "Clop",
+                "Emotet",
+                "REvil",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blogs.microsoft.com/on-the-issues/2020/10/20/trickbot-ransomware-disruption-update/",
+            "date": "2020-10-20",
+            "organization": "Microsoft",
+            "author": "Tom Burt",
+            "title": "An update on disruption of Trickbot",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://public.intel471.com/blog/global-trickbot-disruption-operation-shows-promise/",
+            "date": "2020-10-20",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Global Trickbot disruption operation shows promise",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/",
+            "date": "2020-10-16",
+            "organization": "CrowdStrike",
+            "author": "The Crowdstrike Intel Team",
+            "title": "WIZARD SPIDER Update: Resilient, Reactive and Resolute",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://duo.com/decipher/trickbot-up-to-its-old-tricks",
+            "date": "2020-10-16",
+            "organization": "Duo",
+            "author": "Dennis Fisher",
+            "title": "Trickbot Up to Its Old Tricks",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/pr/officials-announce-international-operation-targeting-transnational-criminal-organization",
+            "date": "2020-10-15",
+            "organization": "Department of Justice",
+            "author": "Department of Justice",
+            "title": "Officials Announce International Operation Targeting Transnational Criminal Organization QQAAZZ that Provided Money Laundering Services to High-Level Cybercriminals",
+            "categories": [
+                "Dridex",
+                "ISFB",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://public.intel471.com/blog/trickbot-online-emotet-microsoft-cyber-command-disruption-attempts/",
+            "date": "2020-10-15",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "That was quick: Trickbot is back after disruption attempts",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blogs.microsoft.com/on-the-issues/2020/10/12/trickbot-ransomware-cyberthreat-us-elections/",
+            "date": "2020-10-12",
+            "organization": "Microsoft",
+            "author": "Tom Burt",
+            "title": "New action to combat ransomware ahead of U.S. elections",
+            "categories": [
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/10/12/eset-takes-part-global-operation-disrupt-trickbot/",
+            "date": "2020-10-12",
+            "organization": "ESET Research",
+            "author": "Jean-Ian Boutin",
+            "title": "ESET takes part in global operation to disrupt Trickbot",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.lumen.com/a-look-inside-the-trickbot-botnet/",
+            "date": "2020-10-12",
+            "organization": "Lumen",
+            "author": "Black Lotus Labs",
+            "title": "A Look Inside The TrickBot Botnet",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/trickbot-botnet-ransomware-disruption",
+            "date": "2020-10-12",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Trickbot: U.S. Court Order Hits Botnet\u2019s Infrastructure",
+            "categories": [
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://noticeofpleadings.com/trickbot/files/Complaint%20and%20Summons/2020-10-06%20Trickbot%201%20Complaint%20with%20exs.pdf",
+            "date": "2020-10-12",
+            "organization": "",
+            "author": "US District Court for the Eastern District of Virginia",
+            "title": "TRICKBOT complaint",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2020/10/12/trickbot-disrupted/",
+            "date": "2020-10-12",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Trickbot disrupted",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.washingtonpost.com/national-security/cyber-command-trickbot-disrupt/2020/10/09/19587aae-0a32-11eb-a166-dc429b380d10_story.html",
+            "date": "2020-10-10",
+            "organization": "The Washington Post",
+            "author": "Ellen Nakashima",
+            "title": "Cyber Command has sought to disrupt the world\u2019s largest botnet, hoping to reduce its potential impact on the election",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/detecting-a-stealthy-trickbot-campaign/",
+            "date": "2020-10-08",
+            "organization": "Bromium",
+            "author": "Alex Holland",
+            "title": "Droppers, Downloaders and TrickBot: Detecting a Stealthy COVID-19-themed Campaign using Toolmarks",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2020/10/attacks-aimed-at-disrupting-the-trickbot-botnet/",
+            "date": "2020-10-02",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Attacks Aimed at Disrupting the Trickbot Botnet",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.hhs.gov/sites/default/files/bazarloader.pdf",
+            "date": "2020-10-02",
+            "organization": "Health Sector Cybersecurity Coordination Center (HC3)",
+            "author": "Health Sector Cybersecurity Coordination Center (HC3)",
+            "title": "Report 202010021600: Recent Bazarloader Use in Ransomware Campaigns",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-services/insights/what-is-behind-ransomware-attacks-increase.html",
+            "date": "2020-09-29",
+            "organization": "PWC UK",
+            "author": "Andy Auld",
+            "title": "What's behind the increase in ransomware attacks this year?",
+            "categories": [
+                "DarkSide",
+                "Avaddon",
+                "Clop",
+                "Conti",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FriedEx",
+                "Mailto",
+                "PwndLocker",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "SMAUG",
+                "SunCrypt",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://download.microsoft.com/download/f/8/1/f816b8b6-bee3-41e5-b6cc-e925a5688f61/Microsoft_Digital_Defense_Report_2020_September.pdf",
+            "date": "2020-09-29",
+            "organization": "Microsoft",
+            "author": "Microsoft",
+            "title": "Microsoft Digital Defense Report",
+            "categories": [
+                "Emotet",
+                "IcedID",
+                "Mailto",
+                "Maze",
+                "QakBot",
+                "REvil",
+                "RobinHood",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://osint.fans/service-nsw-russia-association",
+            "date": "2020-09-22",
+            "organization": "OSINT Fans",
+            "author": "Gabor Szathmari",
+            "title": "What Service NSW has to do with Russia?",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://public.intel471.com/blog/partners-in-crime-north-koreans-and-elite-russian-speaking-cybercriminals/",
+            "date": "2020-09-16",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Partners in crime: North Koreans and elite Russian-speaking cybercriminals",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://cyber.wtf/2020/08/31/trickbot-rdpscandll-password-transof/",
+            "date": "2020-08-31",
+            "organization": "cyber.wtf blog",
+            "author": "Luca Ebach",
+            "title": "Trickbot rdpscanDll \u2013 Transforming Candidate Credentials for Brute-Forcing RDP Servers",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-009.pdf",
+            "date": "2020-08-20",
+            "organization": "CERT-FR",
+            "author": "CERT-FR",
+            "title": "Development of the Activity of the TA505 Cybercriminal Group",
+            "categories": [
+                "AndroMut",
+                "Bart",
+                "Clop",
+                "Dridex",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Locky",
+                "Marap",
+                "QuantLoader",
+                "SDBbot",
+                "ServHelper",
+                "tRat",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/07/ESET_Threat_Report_Q22020.pdf",
+            "date": "2020-07-29",
+            "organization": "ESET Research",
+            "author": "welivesecurity",
+            "title": "THREAT REPORT Q2 2020",
+            "categories": [
+                "DEFENSOR ID",
+                "HiddenAd",
+                "Bundlore",
+                "Pirrit",
+                "Agent.BTZ",
+                "Cerber",
+                "ClipBanker",
+                "CROSSWALK",
+                "Cryptowall",
+                "CTB Locker",
+                "DanaBot",
+                "Dharma",
+                "Formbook",
+                "Gandcrab",
+                "Grandoreiro",
+                "Houdini",
+                "ISFB",
+                "LockBit",
+                "Locky",
+                "Mailto",
+                "Maze",
+                "Microcin",
+                "Nemty",
+                "NjRAT",
+                "Phobos",
+                "PlugX",
+                "Pony",
+                "REvil",
+                "Socelars",
+                "STOP",
+                "Tinba",
+                "TrickBot",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/enter-the-maze-demystifying-an-affiliate-involved-in-maze-snow/",
+            "date": "2020-07-22",
+            "organization": "SentinelOne",
+            "author": "Jason Reaves",
+            "title": "Enter the Maze: Demystifying an Affiliate Involved in Maze (SNOW)",
+            "categories": [
+                "ISFB",
+                "Maze",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/emotet-trickbot-malware-duo-is-back-infecting-windows-machines/",
+            "date": "2020-07-20",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Emotet-TrickBot malware duo is back infecting Windows machines",
+            "categories": [
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.joesecurity.org/blog/498839998833561473",
+            "date": "2020-07-13",
+            "organization": "JoeSecurity",
+            "author": "Joe Security",
+            "title": "TrickBot's new API-Hammering explained",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/trickbot-malware-mistakenly-warns-victims-that-they-are-infected/",
+            "date": "2020-07-11",
+            "organization": "BleepingComputer",
+            "author": "Lawrence Abrams",
+            "title": "TrickBot malware mistakenly warns victims that they are infected",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.advanced-intel.com/post/trickbot-group-launches-test-module-alerting-on-fraud-activity",
+            "date": "2020-07-11",
+            "organization": "Advanced Intelligence",
+            "author": "Vitali Kremez",
+            "title": "TrickBot Group Launches Test Module Alerting on Fraud Activity",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://hello.global.ntt/en-us/insights/blog/trickbot-variant-communicating-over-dns",
+            "date": "2020-07-06",
+            "organization": "NTT",
+            "author": "Security division of NTT Ltd.",
+            "title": "TrickBot variant \u201cAnchor_DNS\u201d communicating over DNS",
+            "categories": [
+                "AnchorDNS",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-006.pdf",
+            "date": "2020-06-22",
+            "organization": "CERT-FR",
+            "author": "CERT-FR",
+            "title": "\u00c9volution De Lactivit\u00e9 du Groupe Cybercriminel TA505",
+            "categories": [
+                "Amadey",
+                "AndroMut",
+                "Bart",
+                "Clop",
+                "Dridex",
+                "FlawedGrace",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Jaff",
+                "Locky",
+                "Marap",
+                "Philadephia Ransom",
+                "QuantLoader",
+                "Scarab Ransomware",
+                "SDBbot",
+                "ServHelper",
+                "Silence",
+                "tRat",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/inside-a-trickbot-cobaltstrike-attack-server/",
+            "date": "2020-06-22",
+            "organization": "Sentinel LABS",
+            "author": "Joshua Platt",
+            "title": "Inside a TrickBot Cobalt Strike Attack Server",
+            "categories": [
+                "Cobalt Strike",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://redcanary.com/resources/webinars/deep-dive-process-injection/",
+            "date": "2020-06-17",
+            "organization": "Youtube (Red Canary)",
+            "author": "Erika Noerenberg",
+            "title": "ATT&CK\u00ae Deep Dive: Process Injection",
+            "categories": [
+                "ISFB",
+                "Ramnit",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/global-malicious-spam-campaign-using-black-lives-matter-as-a-lure",
+            "date": "2020-06-15",
+            "organization": "Fortinet",
+            "author": "Val Saengphaibul",
+            "title": "Global Malicious Spam Campaign Using Black Lives Matter as a Lure",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.hornetsecurity.com/en/security-information/trickbot-malspam-leveraging-black-lives-matter-as-lure/",
+            "date": "2020-06-12",
+            "organization": "Hornetsecurity",
+            "author": "Security Lab",
+            "title": "Trickbot Malspam Leveraging Black Lives Matter as Lure",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://cofenselabs.com/all-you-need-is-text-second-wave/",
+            "date": "2020-06-11",
+            "organization": "Cofense",
+            "author": "Jason Meurer",
+            "title": "All You Need Is Text: Second Wave",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.lastline.com/labsblog/evolution-of-excel-4-0-macro-weaponization/",
+            "date": "2020-06-02",
+            "organization": "Lastline Labs",
+            "author": "James Haughom",
+            "title": "Evolution of Excel 4.0 Macro Weaponization",
+            "categories": [
+                "Agent Tesla",
+                "DanaBot",
+                "ISFB",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/goodbye-mworm-hello-nworm-trickbot-updates-propagation-module/",
+            "date": "2020-05-28",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Goodbye Mworm, Hello Nworm: TrickBot Updates Propagation Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/a-brief-history-of-ta505",
+            "date": "2020-05-21",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "A brief history of TA505",
+            "categories": [
+                "AndroMut",
+                "Bart",
+                "Dridex",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Jaff",
+                "Kegotip",
+                "Locky",
+                "Necurs",
+                "Philadephia Ransom",
+                "Pony",
+                "QuantLoader",
+                "Rockloader",
+                "SDBbot",
+                "ServHelper",
+                "Shifu",
+                "Snatch",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://cybersecurity.att.com/blogs/labs-research/trickbot-bazarloader-in-depth",
+            "date": "2020-05-19",
+            "organization": "AlienLabs",
+            "author": "Ofer Caspi",
+            "title": "TrickBot BazarLoader In-Depth",
+            "categories": [
+                "Anchor",
+                "BazarBackdoor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/deep-dive-into-trickbot-executor-module-mexec-reversing-the-dropper-variant/",
+            "date": "2020-05-14",
+            "organization": "SentinelOne",
+            "author": "Jason Reaves",
+            "title": "Deep Dive Into TrickBot Executor Module \u201cmexec\u201d: Reversing the Dropper Variant",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.intel471.com/2020/04/14/understanding-the-relationship-between-emotet-ryuk-and-trickbot/",
+            "date": "2020-04-14",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Understanding the relationship between Emotet, Ryuk and TrickBot",
+            "categories": [
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.intrinsec.com/deobfuscating-hunting-ostap/",
+            "date": "2020-04-14",
+            "organization": "Intrinsec",
+            "author": "Jean Bichet",
+            "title": "Deobfuscating and hunting for OSTAP, Trickbot\u2019s dropper and best friend",
+            "categories": [
+                "ostap",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/research/trickbot-emerges-few-new-tricks",
+            "date": "2020-04-09",
+            "organization": "Zscaler",
+            "author": "Atinderpal Singh",
+            "title": "TrickBot Emerges with a Few New Tricks",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/deep-dive-into-trickbot-executor-module-mexec-hidden-anchor-bot-nexus-operations/",
+            "date": "2020-04-08",
+            "organization": "SentinelOne",
+            "author": "Jason Reaves",
+            "title": "Deep Dive Into TrickBot Executor Module \u201cmexec\u201d: Hidden \u201cAnchor\u201d Bot Nexus Operations",
+            "categories": [
+                "Anchor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/itg08-aka-fin6-partners-with-trickbot-gang-uses-anchor-framework/",
+            "date": "2020-04-07",
+            "organization": "SecurityIntelligence",
+            "author": "Ole Villadsen",
+            "title": "ITG08 (aka FIN6) Partners With TrickBot Gang, Uses Anchor Framework",
+            "categories": [
+                "More_eggs",
+                "Anchor",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/navigating-cybersecurity-during-a-pandemic-latest-malware-and-threat-actors",
+            "date": "2020-04-01",
+            "organization": "Cisco",
+            "author": "Shyam Sundar Ramaswami",
+            "title": "Navigating Cybersecurity During a Pandemic: Latest Malware and Threat Actors",
+            "categories": [
+                "Azorult",
+                "CloudEyE",
+                "Formbook",
+                "KPOT Stealer",
+                "Metamorfo",
+                "Nanocore RAT",
+                "NetWire RC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2020/03/the-cycle-of-adversary-pursuit.html",
+            "date": "2020-03-31",
+            "organization": "FireEye",
+            "author": "Van Ta",
+            "title": "It\u2019s Your Money and They Want It Now - The Cycle of Adversary Pursuit",
+            "categories": [
+                "Ryuk",
+                "TrickBot",
+                "UNC1878"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/03/trickbot-primer.html",
+            "date": "2020-03-31",
+            "organization": "Cisco Talos",
+            "author": "Chris Neal",
+            "title": "Trickbot: A primer",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intezer.com/blog/intezer-analyze/fantastic-payloads-and-where-we-find-them",
+            "date": "2020-03-30",
+            "organization": "Intezer",
+            "author": "Michael Kajiloti",
+            "title": "Fantastic payloads and where we find them",
+            "categories": [
+                "Dridex",
+                "Emotet",
+                "ISFB",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.wilbursecurity.com/2020/03/trickbot-to-ryuk-in-two-hours/",
+            "date": "2020-03-25",
+            "organization": "Wilbur Security",
+            "author": "JW",
+            "title": "Trickbot to Ryuk in Two Hours",
+            "categories": [
+                "Cobalt Strike",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/316/Bitdefender-Whitepaper-TrickBot-en-EN-interactive.pdf",
+            "date": "2020-03-18",
+            "organization": "Bitdefender",
+            "author": "Liviu Arsene",
+            "title": "New TrickBot Module Bruteforces RDP Connections, Targets Select Telecommunication Services in US and Hong Kong",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/new-variant-of-trickbot-being-spread-by-word-document.html",
+            "date": "2020-03-09",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "New Variant of TrickBot Being Spread by Word Document",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/",
+            "date": "2020-03-05",
+            "organization": "Microsoft",
+            "author": "Microsoft Threat Protection Intelligence Team",
+            "title": "Human-operated ransomware attacks: A preventable disaster",
+            "categories": [
+                "Dharma",
+                "DoppelPaymer",
+                "Dridex",
+                "EternalPetya",
+                "Gandcrab",
+                "Hermes",
+                "LockerGoga",
+                "MegaCortex",
+                "MimiKatz",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SamSam",
+                "TrickBot",
+                "WannaCryptor",
+                "PARINACOTA"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+            "date": "2020-03-04",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2020 CrowdStrike Global Threat Report",
+            "categories": [
+                "MESSAGETAP",
+                "More_eggs",
+                "8.t Dropper",
+                "Anchor",
+                "BabyShark",
+                "BadNews",
+                "Clop",
+                "Cobalt Strike",
+                "CobInt",
+                "Cobra Carbon System",
+                "Cutwail",
+                "DanaBot",
+                "Dharma",
+                "DoppelDridex",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FlawedAmmyy",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "IcedID",
+                "ISFB",
+                "KerrDown",
+                "LightNeuron",
+                "LockerGoga",
+                "Maze",
+                "MECHANICAL",
+                "Necurs",
+                "Nokki",
+                "Outlook Backdoor",
+                "Phobos",
+                "Predator The Thief",
+                "QakBot",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SDBbot",
+                "Skipper",
+                "SmokeLoader",
+                "TerraRecon",
+                "TerraStealer",
+                "TerraTV",
+                "TinyLoader",
+                "TrickBot",
+                "Vidar",
+                "Winnti",
+                "ANTHROPOID SPIDER",
+                "APT23",
+                "APT31",
+                "APT39",
+                "APT40",
+                "BlackTech",
+                "BuhTrap",
+                "Charming Kitten",
+                "CLOCKWORK SPIDER",
+                "DOPPEL SPIDER",
+                "FIN7",
+                "Gamaredon Group",
+                "GOBLIN PANDA",
+                "MONTY SPIDER",
+                "MUSTANG PANDA",
+                "NARWHAL SPIDER",
+                "NOCTURNAL SPIDER",
+                "PINCHY SPIDER",
+                "SALTY SPIDER",
+                "SCULLY SPIDER",
+                "SMOKY SPIDER",
+                "Thrip",
+                "VENOM SPIDER",
+                "VICEROY TIGER"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-attacked-epiq-global-via-trickbot-infection/",
+            "date": "2020-03-04",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Ryuk Ransomware Attacked Epiq Global Via TrickBot Infection",
+            "categories": [
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+            "date": "2020-03-03",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2019:A Year in Retrospect",
+            "categories": [
+                "KevDroid",
+                "MESSAGETAP",
+                "magecart",
+                "AndroMut",
+                "Cobalt Strike",
+                "CobInt",
+                "Crimson RAT",
+                "DNSpionage",
+                "Dridex",
+                "Dtrack",
+                "Emotet",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Grateful POS",
+                "ISFB",
+                "Kazuar",
+                "LockerGoga",
+                "Nokki",
+                "QakBot",
+                "Ramnit",
+                "REvil",
+                "Rifdoor",
+                "RokRAT",
+                "Ryuk",
+                "shadowhammer",
+                "ShadowPad",
+                "Shifu",
+                "Skipper",
+                "StoneDrill",
+                "Stuxnet",
+                "TrickBot",
+                "Winnti",
+                "ZeroCleare",
+                "APT41",
+                "MUSTANG PANDA",
+                "Sea Turtle"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/trickbot-delivery-method-gets-a-new-upgrade-focusing-on-windows",
+            "date": "2020-02-28",
+            "organization": "Morphisec",
+            "author": "Michael Gorelik",
+            "title": "Trickbot Delivery Method Gets a New Upgrade Focusing on Windows 10",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/revealing-the-trick-a-deep-dive-into-trickloader-obfuscation/",
+            "date": "2020-02-26",
+            "organization": "SentinelOne",
+            "author": "Jason Reaves",
+            "title": "Revealing the Trick | A Deep Dive into TrickLoader Obfuscation",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://content.fireeye.com/m-trends/rpt-m-trends-2020",
+            "date": "2020-02-19",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "M-Trends 2020",
+            "categories": [
+                "Cobalt Strike",
+                "Grateful POS",
+                "LockerGoga",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/02/18/nearly-a-quarter-of-malware-now-communicates-using-tls/",
+            "date": "2020-02-18",
+            "organization": "Sophos Labs",
+            "author": "Luca Nagy",
+            "title": "Nearly a quarter of malware now communicates using TLS",
+            "categories": [
+                "Dridex",
+                "IcedID",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://resources.malwarebytes.com/files/2020/02/2020_State-of-Malware-Report.pdf",
+            "date": "2020-02-10",
+            "organization": "Malwarebytes",
+            "author": "Adam Kujawa",
+            "title": "2020 State of Malware Report",
+            "categories": [
+                "magecart",
+                "Emotet",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "TrickBot",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/trickbot-uses-a-new-windows-10-uac-bypass",
+            "date": "2020-01-30",
+            "organization": "Morphisec",
+            "author": "Arnold Osipov",
+            "title": "Trickbot Trojan Leveraging a New Windows 10 UAC Bypass",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/trickbot-uses-a-new-windows-10-uac-bypass-to-launch-quietly/",
+            "date": "2020-01-30",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "TrickBot Uses a New Windows 10 UAC Bypass to Launch Quietly",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/malware-tries-to-trump-security-software-with-potus-impeachment/",
+            "date": "2020-01-29",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Malware Tries to Trump Security Software With POTUS Impeachment",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.berlin.de/sen/justva/presse/pressemitteilungen/2020/pm-11-2020-t-systems-forensik_bericht_public_v1.pdf",
+            "date": "2020-01-27",
+            "organization": "T-Systems",
+            "author": "T-Systems",
+            "title": "Vorl\u00e4ufiger forensischer Abschlussbericht zur Untersuchung des Incidents beim Berliner Kammergericht",
+            "categories": [
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/trickbot-now-steals-windows-active-directory-credentials/",
+            "date": "2020-01-23",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "TrickBot Now Steals Windows Active Directory Credentials",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://jsac.jpcert.or.jp/archive/2020/pdf/JSAC2020_5_sajo-takeda-niwa_en.pdf",
+            "date": "2020-01-17",
+            "organization": "",
+            "author": "Ken Sajo",
+            "title": "Battle Against Ursnif Malspam Campaign targeting Japan",
+            "categories": [
+                "Cutwail",
+                "ISFB",
+                "TrickBot",
+                "UrlZone"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/trickbot-now-uses-a-windows-10-uac-bypass-to-evade-detection/",
+            "date": "2020-01-16",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "TrickBot Now Uses a Windows 10 UAC Bypass to Evade Detection",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://gallery.mailchimp.com/c35aef82661dad887b8162a4f/files/e24e8206-a157-4796-a8cb-2b7262cc76e8/CSIS_Threat_Matrix_H1_2019.pdf",
+            "date": "2020-01-10",
+            "organization": "CSIS",
+            "author": "CSIS",
+            "title": "Threat Matrix H1 2019",
+            "categories": [
+                "Gustuff",
+                "magecart",
+                "Emotet",
+                "Gandcrab",
+                "Ramnit",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/top-tier-russian-organized-cybercrime-group-unveils-fileless-stealthy-powertrick-backdoor-for-high-value-targets/",
+            "date": "2020-01-09",
+            "organization": "SentinelOne",
+            "author": "Vitali Kremez",
+            "title": "Top-Tier Russian Organized Cybercrime Group Unveils Fileless Stealthy \u201cPowerTrick\u201d Backdoor for High-Value Targets",
+            "categories": [
+                "TrickBot",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-blackburn",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD BLACKBURN",
+            "categories": [
+                "Dyre",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-swathmore",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD SWATHMORE",
+            "categories": [
+                "GlobeImposter",
+                "Gozi",
+                "IcedID",
+                "TrickBot",
+                "LUNAR SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-ulrick",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD ULRICK",
+            "categories": [
+                "Empire Downloader",
+                "Ryuk",
+                "TrickBot",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
+            "date": "2019-12-12",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
+            "categories": [
+                "Cerberus",
+                "TSCookie",
+                "Cobalt Strike",
+                "Dtrack",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "Icefog",
+                "IRONHALO",
+                "Loki Password Stealer (PWS)",
+                "PandaBanker",
+                "PLEAD",
+                "poisonplug",
+                "TrickBot",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/trickbot-campaign-uses-fake-payroll-emails-to-conduct-phishing-attacks/",
+            "date": "2019-12-09",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "TrickBot Campaign Uses Fake Payroll Emails to Conduct Phishing Attacks",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/trickbot-updates-password-grabber-module/",
+            "date": "2019-11-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Trickbot Updates Password Grabber Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://na.eventscloud.com/file_uploads/6568237bca6dc156e5c5557c5989e97c_CrowdStrikeFal.Con2019_ThroughEyesOfAdversary_J.Ayers.pdf",
+            "date": "2019-11-13",
+            "organization": "CrowdStrike",
+            "author": "Jen Ayers",
+            "title": "Through the Eyes of the Adversary",
+            "categories": [
+                "TrickBot",
+                "CLOCKWORK SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/wireshark-tutorial-examining-trickbot-infections/",
+            "date": "2019-11-08",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Wireshark Tutorial: Examining Trickbot Infections",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.heise.de/security/artikel/Emotet-Trickbot-Ryuk-ein-explosiver-Malware-Cocktail-4573848.html",
+            "date": "2019-11-06",
+            "organization": "Heise Security",
+            "author": "Thomas Hungenberg",
+            "title": "Emotet, Trickbot, Ryuk \u2013 ein explosiver Malware-Cocktail",
+            "categories": [
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.sneakymonkey.net/2019/10/29/trickbot-analysis-part-ii/",
+            "date": "2019-10-29",
+            "organization": "SneakyMonkey Blog",
+            "author": "SneakyMonkey",
+            "title": "TRICKBOT - Analysis Part II",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/how-trickbot-hooking-engine-targets-windows-10-browsers/",
+            "date": "2019-10-24",
+            "organization": "Sentinel LABS",
+            "author": "Vitali Kremez",
+            "title": "How TrickBot Malware Hooking Engine Targets Windows 10 Browsers",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.govcert.ch/blog/37/trickbot-an-analysis-of-data-collected-from-the-botnet",
+            "date": "2019-09-25",
+            "organization": "GovCERT.ch",
+            "author": "GovCERT.ch",
+            "title": "Trickbot - An analysis of data collected from the botnet",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/trickbot-modifications-target-us-mobile-users",
+            "date": "2019-08-27",
+            "organization": "Secureworks",
+            "author": "CTU Research Team",
+            "title": "TrickBot Modifications Target U.S. Mobile Users",
+            "categories": [
+                "TrickBot",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://inquest.net/blog/2019/08/26/TrickBot-Memory-Analysis",
+            "date": "2019-08-26",
+            "organization": "InQuest",
+            "author": "Josiah Smith",
+            "title": "Memory Analysis of TrickBot",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/latest-trickbot-campaign-delivered-via-highly-obfuscated-js-file/",
+            "date": "2019-08-05",
+            "organization": "Trend Micro",
+            "author": "Noel Anthony Llimos",
+            "title": "Latest Trickbot Campaign Delivered via Highly Obfuscated JS File",
+            "categories": [
+                "ostap",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/2019/07/12/trickbooster-trickbots-email-based-infection-module/",
+            "date": "2019-07-12",
+            "organization": "DeepInstinct",
+            "author": "Shaul Vilkomir-Preisman",
+            "title": "TrickBooster \u2013 TrickBot\u2019s Email-Based Infection Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://technical.nttsecurity.com/post/102fnog/targeted-trickbot-activity-drops-powerbrace-backdoor",
+            "date": "2019-07-11",
+            "organization": "NTT Security",
+            "author": "NTT Security",
+            "title": "Targeted TrickBot activity drops 'PowerBrace' backdoor",
+            "categories": [
+                "PowerBrace",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/proidea_conferences/inside-cybercrime-groups-harvesting-active-directory-for-fun-and-profit-vitali-kremez",
+            "date": "2019-06-04",
+            "organization": "SlideShare",
+            "author": "Vitali Kremez",
+            "title": "Inside Cybercrime Groups Harvesting Active Directory for Fun and Profit - Vitali Kremez",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.sneakymonkey.net/2019/05/22/trickbot-analysis/",
+            "date": "2019-05-22",
+            "organization": "",
+            "author": "sneakymonk3y (Mark)",
+            "title": "TRICKBOT - Analysis",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.govcert.admin.ch/blog/36/severe-ransomware-attacks-against-swiss-smes",
+            "date": "2019-05-09",
+            "organization": "GovCERT.ch",
+            "author": "GovCERT.ch",
+            "title": "Severe Ransomware Attacks Against Swiss SMEs",
+            "categories": [
+                "Emotet",
+                "LockerGoga",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.pl/en/news/single/detricking-trickbot-loader/",
+            "date": "2019-05-02",
+            "organization": "CERT.PL",
+            "author": "Micha\u0142 Praszmo",
+            "title": "Detricking TrickBot Loader",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@vishal_29486/trickbot-a-concise-treatise-d7e4cc97f737",
+            "date": "2019-04-05",
+            "organization": "Medium vishal_thakur",
+            "author": "Vishal Thakur",
+            "title": "Trickbot \u2014 a concise treatise",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/triple-threat-emotet-deploys-trickbot-to-steal-data-spread-ryuk-ransomware",
+            "date": "2019-04-02",
+            "organization": "Cybereason",
+            "author": "Noa Pinkas",
+            "title": "Triple Threat: Emotet Deploys Trickbot to Steal Data & Spread Ryuk",
+            "categories": [
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.peppermalware.com/2019/03/quick-analysis-of-trickbot-sample-with.html",
+            "date": "2019-03-05",
+            "organization": "PepperMalware Blog",
+            "author": "Pepper Potts",
+            "title": "Quick Analysis of a Trickbot Sample with NSA's Ghidra SRE Framework",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web/",
+            "date": "2019-02-15",
+            "organization": "CrowdStrike",
+            "author": "Brendon Feeley",
+            "title": "\u201cSin\u201d-ful SPIDERS: WIZARD SPIDER and LUNAR SPIDER Sharing the Same Web",
+            "categories": [
+                "Dyre",
+                "IcedID",
+                "TrickBot",
+                "Vawtrak",
+                "LUNAR SPIDER",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-adds-remote-application-credential-grabbing-capabilities-to-its-repertoire/",
+            "date": "2019-02-12",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Trickbot Adds Remote Application Credential-Grabbing Capabilities to Its Repertoire",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2019/01/a-nasty-trick-from-credential-theft-malware-to-business-disruption.html",
+            "date": "2019-01-11",
+            "organization": "FireEye",
+            "author": "Kimberly Goody",
+            "title": "A Nasty Trick: From Credential Theft Malware to Business Disruption",
+            "categories": [
+                "Ryuk",
+                "TrickBot",
+                "GRIM SPIDER",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.infosecurity-magazine.com/blogs/trickbot-mikrotik-connection/",
+            "date": "2018-12-12",
+            "organization": "SecureData",
+            "author": "Wicus Ross",
+            "title": "The TrickBot and MikroTik connection",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.vipre.com/trickbots-tricks/",
+            "date": "2018-12-05",
+            "organization": "VIPRE",
+            "author": "VIPRE Labs",
+            "title": "Trickbot\u2019s Tricks",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/malware-threat-analysis/2018/11/whats-new-trickbot-deobfuscating-elements/",
+            "date": "2018-11-12",
+            "organization": "Malwarebytes",
+            "author": "hasherezade",
+            "title": "What\u2019s new in TrickBot? Deobfuscating elements",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/deep-analysis-of-trickbot-new-module-pwgrab.html",
+            "date": "2018-11-08",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Deep Analysis of TrickBot New Module pwgrab",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/trickbot-shows-off-new-trick-password-grabber-module",
+            "date": "2018-11-01",
+            "organization": "Trend Micro",
+            "author": "Noel Anthony Llimos",
+            "title": "Trickbot Shows Off New Trick: Password Grabber Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberbit.com/latest-trickbot-variant-has-new-tricks-up-its-sleeve/",
+            "date": "2018-08-14",
+            "organization": "Cyberbit",
+            "author": "Hod Gavriel",
+            "title": "Latest Trickbot Variant has New Tricks Up Its Sleeve",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2018/07/smoking-guns-smoke-loader-learned-new.html",
+            "date": "2018-07-03",
+            "organization": "Talos Intelligence",
+            "author": "Ben Baker",
+            "title": "Smoking Guns - Smoke Loader learned new tricks",
+            "categories": [
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=EdchPEHnohw",
+            "date": "2018-06-20",
+            "organization": "",
+            "author": "OALabs",
+            "title": "Unpacking and Extracting TrickBot Malware Configuration With x64dbg and Python",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://github.com/JR0driguezB/malware_configs/tree/master/TrickBot",
+            "date": "2018-06-13",
+            "organization": "Github (JR0driguezB)",
+            "author": "Jorge Rodriguez",
+            "title": "TrickBot config files",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://sysopfb.github.io/malware/2018/04/16/trickbot-uacme.html",
+            "date": "2018-04-16",
+            "organization": "Random RE",
+            "author": "sysopfb",
+            "title": "TrickBot & UACME",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.vkremez.com/2018/04/lets-learn-trickbot-implements-network.html",
+            "date": "2018-04-03",
+            "organization": "Vitali Kremez Blog",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: Trickbot Implements Network Collector Module Leveraging CMD, WMI & LDAP",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=KMcSAlS9zGE",
+            "date": "2018-03-31",
+            "organization": "Youtube (hasherezade)",
+            "author": "hasherezade",
+            "title": "Deobfuscating TrickBot's strings with libPeConv",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/evolving-trickbot-adds-detection-evasion-and-screen-locking-features",
+            "date": "2018-03-27",
+            "organization": "Trend Micro",
+            "author": "Trendmicro",
+            "title": "Evolving Trickbot Adds Detection Evasion and Screen-Locking Features",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.webroot.com/blog/2018/03/21/trickbot-banking-trojan-adapts-new-module/",
+            "date": "2018-03-21",
+            "organization": "Webroot",
+            "author": "Jason Davison",
+            "title": "TrickBot Banking Trojan Adapts with New Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/trickbots-cryptocurrency-hunger-tricking-the-bitcoin-out-of-wallets/",
+            "date": "2018-02-15",
+            "organization": "SecurityIntelligence",
+            "author": "Ophir Harpaz",
+            "title": "TrickBot\u2019s Cryptocurrency Hunger: Tricking the Bitcoin Out of Wallets",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.malware-traffic-analysis.net/2018/02/01/",
+            "date": "2018-02-01",
+            "organization": "Malware Traffic Analysis",
+            "author": "Brad Duncan",
+            "title": "Quick Test Drive of Trickbot (It now has a Monero Module)",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=lTywPmZEU1A",
+            "date": "2017-12-30",
+            "organization": "Youtube (hasherezade)",
+            "author": "hasherezade",
+            "title": "Unpacking TrickBot with PE-sieve",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.vkremez.com/2017/12/lets-learn-introducing-new-trickbot.html",
+            "date": "2017-12-19",
+            "organization": "Vitali Kremez Blog",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: Introducing New Trickbot LDAP \"DomainGrabber\" Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.flashpoint-intel.com/blog/trickbot-account-checking-hybrid-attack-model/",
+            "date": "2017-11-22",
+            "organization": "Flashpoint",
+            "author": "Vitali Kremez",
+            "title": "Trickbot Gang Evolves, Incorporates Account Checking Into Hybrid Attack Model",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.vkremez.com/2017/11/lets-learn-trickbot-socks5-backconnect.html",
+            "date": "2017-11-21",
+            "organization": "",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: Trickbot Socks5 Backconnect Module In Detail",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.blueliv.com/research/trickbot-banking-trojan-using-eflags-as-an-anti-hook-technique/",
+            "date": "2017-10-06",
+            "organization": "Blueliv",
+            "author": "Blueliv",
+            "title": "TrickBot banking trojan using EFLAGS as an anti-hook technique",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/08/trickbot-comes-with-new-tricks-attacking-outlook-and-browsing-data/",
+            "date": "2017-08-01",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "TrickBot comes up with new tricks: attacking Outlook and browsing data",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.flashpoint-intel.com/blog/new-version-trickbot-adds-worm-propagation-module/",
+            "date": "2017-07-27",
+            "organization": "Flashpoint",
+            "author": "Flashpoint",
+            "title": "New Version of \u201cTrickbot\u201d Adds Worm Propagation Module",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.ringzerolabs.com/2017/07/trickbot-banking-trojan-doc00039217doc.html",
+            "date": "2017-07",
+            "organization": "Ring Zero Labs",
+            "author": "Ring Zero Labs",
+            "title": "TrickBot Banking Trojan - DOC00039217.doc",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://f5.com/labs/articles/threat-intelligence/malware/trickbot-expands-global-targets-beyond-banks-and-payment-processors-to-crms",
+            "date": "2017-06-15",
+            "organization": "F5",
+            "author": "Sara Boddy",
+            "title": "Trickbot Expands Global Targets Beyond Banks and Payment Processors to CRMs",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.securityartwork.es/wp-content/uploads/2017/06/Informe_Evoluci%C3%B3n_Trickbot.pdf",
+            "date": "2017-06-12",
+            "organization": "Security Art Work",
+            "author": "Marc Salinas",
+            "title": "Evoluci\u00f3n de Trickbot",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.pwc.co.uk/issues/cyber-security-data-privacy/research/trickbots-bag-of-tricks.html",
+            "date": "2017-05-26",
+            "organization": "PWC",
+            "author": "Bart Parys",
+            "title": "TrickBot\u2019s bag of tricks",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/evolution-of-the-gold-evergreen-threat-group",
+            "date": "2017-05-15",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "Evolution of the GOLD EVERGREEN Threat Group",
+            "categories": [
+                "CryptoLocker",
+                "Dridex",
+                "Dyre",
+                "Gameover P2P",
+                "Murofet",
+                "TrickBot",
+                "Zeus",
+                "GOLD EVERGREEN"
+            ]
+        },
+        {
+            "data_url": "https://blog.fraudwatchinternational.com/malware/trickbot-malware-works",
+            "date": "2017-03-01",
+            "organization": "FraudWatch International",
+            "author": "FraudWatch International",
+            "title": "How Does the Trickbot Malware Work?",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.botconf.eu/wp-content/uploads/2016/11/2016-LT09-TrickBot-Adams.pdf",
+            "date": "2016-12-07",
+            "organization": "Botconf",
+            "author": "Joshua Adams",
+            "title": "The TrickBot Evolution",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://blog.fortinet.com/2016/12/06/deep-analysis-of-the-online-banking-botnet-trickbot",
+            "date": "2016-12-06",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Deep Analysis of the Online Banking Botnet TrickBot",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/tricks-of-the-trade-a-deeper-look-into-trickbots-machinations/",
+            "date": "2016-11-09",
+            "organization": "",
+            "author": "Lior Keshet",
+            "title": "Tricks of the Trade: A Deeper Look Into TrickBot\u2019s Machinations",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://f5.com/labs/articles/threat-intelligence/malware/little-trickbot-growing-up-new-campaign-24412",
+            "date": "2016-11-07",
+            "organization": "F5 Labs",
+            "author": "Julia Karpin",
+            "title": "Little Trickbot Growing Up: New Campaign",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.arbornetworks.com/blog/asert/trickbot-banker-insights/",
+            "date": "2016-10-25",
+            "organization": "NetScout",
+            "author": "ASERT Team",
+            "title": "TrickBot Banker Insights",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2016/10/trick-bot-dyrezas-successor/",
+            "date": "2016-10-24",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Introducing TrickBot, Dyreza\u2019s successor",
+            "categories": [
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fidelissecurity.com/threatgeek/2016/10/trickbot-we-missed-you-dyre",
+            "date": "2016-10-15",
+            "organization": "Fidelis Cybersecurity",
+            "author": "Threat Research Team",
+            "title": "TrickBot: We Missed you, Dyre",
+            "categories": [
+                "TrickBot"
+            ]
+        }
+    ]
 };

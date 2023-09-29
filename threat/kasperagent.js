@@ -34,5 +34,29 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "kasperagent",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.threatconnect.com/blog/kasperagent-malware-campaign/",
+            "date": "2017-06-14",
+            "organization": "ThreatConnect",
+            "author": "ThreatConnect Research Team",
+            "title": "Phantom of the Opaera: New KASPERAGENT Malware Campaign",
+            "categories": [
+                "KasperAgent",
+                "AridViper"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/04/unit42-targeted-attacks-middle-east-using-kasperagent-micropsia/",
+            "date": "2017-04-05",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Tomer Bar",
+            "title": "Targeted Attacks in the Middle East Using KASPERAGENT and MICROPSIA",
+            "categories": [
+                "KasperAgent",
+                "Micropsia"
+            ]
+        }
+    ]
 };

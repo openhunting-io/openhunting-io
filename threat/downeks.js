@@ -33,5 +33,30 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "downeks",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/molerats-delivers-spark-backdoor/",
+            "date": "2020-03-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Molerats Delivers Spark Backdoor to Government and Telecommunications Organizations",
+            "categories": [
+                "Downeks",
+                "JhoneRAT",
+                "Molerat Loader",
+                "Spark"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/01/unit42-downeks-and-quasar-rat-used-in-recent-targeted-attacks-against-governments/?adbsc=social69739136&adbid=826218465723756545&adbpl=tw&adbpr=4487645412",
+            "date": "2017-01-30",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Mashav Sapir",
+            "title": "Downeks and Quasar RAT Used in Recent Targeted Attacks Against Governments",
+            "categories": [
+                "Downeks"
+            ]
+        }
+    ]
 };

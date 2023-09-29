@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Buran, VegaLocker, Vega",
     "category": "Malware",
     "type": "Ransomware",
-    "modified": "2021-04-24",
+    "modified": "2022-03-16",
     "all_data": {
         "tool": "Buran",
         "names": [
@@ -37,5 +37,75 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "buran",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.broadcom.com/hubfs/SED/SED_Threat_Hunter_Reports_Alerts/SED_FY22Q2_SES_Ransomware-Threat-Landscape_WP.pdf",
+            "date": "2022-03-16",
+            "organization": "Symantec",
+            "author": "Symantec Threat Hunter Team",
+            "title": "The Ransomware Threat Landscape: What to Expect in 2022",
+            "categories": [
+                "AvosLocker",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Emotet",
+                "Hive",
+                "Karma",
+                "Mespinoza",
+                "Nemty",
+                "Squirrelwaffle",
+                "VegaLocker",
+                "WastedLocker",
+                "Yanluowang",
+                "Zeppelin"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/man1-moskal-hancitor-and-a-side-of-ransomware-d77b4d991618",
+            "date": "2021-01-10",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "MAN1, Moskal, Hancitor and a side of Ransomware",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor",
+                "SendSafe",
+                "VegaLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/buran-ransomware-the-evolution-of-vegalocker/",
+            "date": "2019-11-05",
+            "organization": "McAfee",
+            "author": "Alexandre Mundo",
+            "title": "Buran Ransomware; the Evolution of VegaLocker",
+            "categories": [
+                "VegaLocker"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/malwrhunterteam/status/1095024267459284992",
+            "date": "2019-02-11",
+            "organization": "Twitter (@malwrhunterteam)",
+            "author": "malwrhunterteam",
+            "title": "Tweet on VegaLocker",
+            "categories": [
+                "VegaLocker"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/malwrhunterteam/status/1093136163836174339",
+            "date": "2019-02-06",
+            "organization": "Twitter (@malwrhunterteam)",
+            "author": "MalwareHunterTeam",
+            "title": "Tweet on Ransomware Sample",
+            "categories": [
+                "VegaLocker"
+            ]
+        }
+    ]
 };

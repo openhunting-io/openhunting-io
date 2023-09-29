@@ -1895,7 +1895,522 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-18 11:00:22",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "pony",
+            "procedure_code": "s0453",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0453",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
+                    "technique_name": "phishing : spearphishing attachment",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "pony has been delivered via spearphishing attachments.[180]"
+                },
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/002",
+                    "technique_name": "phishing : spearphishing link",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. spearphishing with a link is a specific variant of spearphishing. it is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "pony has been delivered via spearphishing emails which contained malicious links.[87]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "pony has used batch scripts to delete itself after execution.[265]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "pony has used several windows functions for various purposes.[138]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/001",
+                    "technique_name": "user execution : malicious link",
+                    "technique_description": "an adversary may rely upon a user clicking a malicious link in order to gain execution. users may be subjected to social engineering to get them to click on a link that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing link. clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via exploitation for client execution. links may also lead users to download files that require execution via malicious file.",
+                    "procedure_description": "pony has attempted to lure targets into clicking links in spoofed emails from legitimate banks.[78]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "pony has attempted to lure targets into downloading an attached executable (zip, rar, or cab archives) or document (pdf or other ms office format).[187]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "pony has used scripts to delete itself after execution.[179]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
+                    "technique_name": "masquerading : match legitimate name or location",
+                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
+                    "procedure_description": "pony has used the adobe reader icon for the downloaded file to look more trustworthy.[124]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "pony attachments have been delivered via compressed archive files. pony also obfuscates the memory flow by adding junk instructions when executing to make analysis more difficult.[254]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "pony has delayed execution using a built-in function to avoid detection and analysis.[33]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1110.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1110/001",
+                    "technique_name": "brute force : password guessing",
+                    "technique_description": "adversaries with no prior knowledge of legitimate credentials within the system or environment may guess passwords to attempt access to accounts. without knowledge of the password for an account, an adversary may opt to systematically guess the password using a repetitive or iterative mechanism. an adversary may guess login credentials without prior knowledge of system or environment passwords during an operation by using a list of common passwords. password guessing may or may not take into account the target's policies on password complexity or use policies that may lock accounts out after a number of failed attempts.",
+                    "procedure_description": "pony has used a small dictionary of common passwords against a collected list of local accounts.[17]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1087.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1087/001",
+                    "technique_name": "account discovery : local account",
+                    "technique_description": "adversaries may attempt to get a listing of local system accounts. this information can help adversaries determine which local accounts exist on a system to aid in follow-on behavior.",
+                    "procedure_description": "pony has used the netuserenum function to enumerate local accounts.[31]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "pony has collected the service pack, language, and region information to send to the c2.[280]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "pony has delayed execution using a built-in function to avoid detection and analysis.[33]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "pony has sent collected information to the c2 via http post request.[249]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "pony can download additional files onto the infected system.[352]"
+                }
+            ]
+        }
+    ],
     "file_name": "pony",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.youtube.com/watch?v=y8Z9KnL8s8s",
+            "date": "2021-09-01",
+            "organization": "YouTube (Black Hat)",
+            "author": "Tsuyoshi Taniguchi",
+            "title": "How Did the Adversaries Abusing the Bitcoin Blockchain Evade Our Takeover?",
+            "categories": [
+                "Cerber",
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://i.blackhat.com/asia-21/Thursday-Handouts/as21-Taniguchi-How-Did-The-Adversaries-Abusing-The-Bitcoin-Blockchain-Evade-Our-Takeover.pdf",
+            "date": "2021-05-06",
+            "organization": "Black Hat",
+            "author": "Tsuyoshi Taniguchi",
+            "title": "How Did the Adversaries  Abusing Bitcoin Blockchain  Evade Our Takeover",
+            "categories": [
+                "Cerber",
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=42yldTQ-fWA",
+            "date": "2021-05-04",
+            "organization": "YouTube (0xca7)",
+            "author": "0xca7",
+            "title": "Malware - Anti-Analysis",
+            "categories": [
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/paas-or-how-hackers-evade-antivirus-software/",
+            "date": "2021-04-12",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "PaaS, or how hackers evade antivirus software",
+            "categories": [
+                "Amadey",
+                "Bunitu",
+                "Cerber",
+                "Dridex",
+                "ISFB",
+                "KPOT Stealer",
+                "Mailto",
+                "Nemty",
+                "Phobos",
+                "Pony",
+                "Predator The Thief",
+                "QakBot",
+                "Raccoon",
+                "RTM",
+                "SmokeLoader",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=EyDiIAt__dI",
+            "date": "2021-01-28",
+            "organization": "Youtube (Virus Bulletin)",
+            "author": "Beno\u00eet Ancel",
+            "title": "The Bagsu banker case",
+            "categories": [
+                "Azorult",
+                "DreamBot",
+                "Emotet",
+                "Pony",
+                "TrickBot",
+                "ZeusAction"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-galleon",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD GALLEON",
+            "categories": [
+                "Agent Tesla",
+                "HawkEye Keylogger",
+                "Pony",
+                "GOLD GALLEON"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-evergreen",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD EVERGREEN",
+            "categories": [
+                "CryptoLocker",
+                "Pony",
+                "Zeus",
+                "GOLD EVERGREEN"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
+            "date": "2020-07-30",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2020",
+            "categories": [
+                "AdWind",
+                "Agent Tesla",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "KPOT Stealer",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Pony",
+                "Raccoon",
+                "RedLine Stealer",
+                "Remcos",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/07/ESET_Threat_Report_Q22020.pdf",
+            "date": "2020-07-29",
+            "organization": "ESET Research",
+            "author": "welivesecurity",
+            "title": "THREAT REPORT Q2 2020",
+            "categories": [
+                "DEFENSOR ID",
+                "HiddenAd",
+                "Bundlore",
+                "Pirrit",
+                "Agent.BTZ",
+                "Cerber",
+                "ClipBanker",
+                "CROSSWALK",
+                "Cryptowall",
+                "CTB Locker",
+                "DanaBot",
+                "Dharma",
+                "Formbook",
+                "Gandcrab",
+                "Grandoreiro",
+                "Houdini",
+                "ISFB",
+                "LockBit",
+                "Locky",
+                "Mailto",
+                "Maze",
+                "Microcin",
+                "Nemty",
+                "NjRAT",
+                "Phobos",
+                "PlugX",
+                "Pony",
+                "REvil",
+                "Socelars",
+                "STOP",
+                "Tinba",
+                "TrickBot",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/a-brief-history-of-ta505",
+            "date": "2020-05-21",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "A brief history of TA505",
+            "categories": [
+                "AndroMut",
+                "Bart",
+                "Dridex",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Jaff",
+                "Kegotip",
+                "Locky",
+                "Necurs",
+                "Philadephia Ransom",
+                "Pony",
+                "QuantLoader",
+                "Rockloader",
+                "SDBbot",
+                "ServHelper",
+                "Shifu",
+                "Snatch",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-essex",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD ESSEX",
+            "categories": [
+                "Cutwail",
+                "Pony",
+                "Pushdo",
+                "NARWHAL SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-evergreen",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD EVERGREEN",
+            "categories": [
+                "CryptoLocker",
+                "Pony",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-galleon",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD GALLEON",
+            "categories": [
+                "Agent Tesla",
+                "HawkEye Keylogger",
+                "Pony",
+                "Predator The Thief"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2019/select-code_execution-from-using-sqlite/",
+            "date": "2019-08-10",
+            "organization": "Check Point",
+            "author": "Omer Gull",
+            "title": "SELECT code_execution FROM * USING SQLite;",
+            "categories": [
+                "Azorult",
+                "Loki Password Stealer (PWS)",
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://int0xcc.svbtle.com/practical-threat-hunting-and-incidence-response-a-case-of-a-pony-malware-infection",
+            "date": "2019-07-30",
+            "organization": "int 0xcc blog",
+            "author": "Raashid Bhat",
+            "title": "Practical Threat Hunting and Incidence Response : A Case of A Pony Malware Infection",
+            "categories": [
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/gold-galleon-how-a-nigerian-cyber-crew-plunders-the-shipping-industry",
+            "date": "2018-04-18",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "GOLD GALLEON: How a Nigerian Cyber Crew Plunders the Shipping Industry",
+            "categories": [
+                "Agent Tesla",
+                "HawkEye Keylogger",
+                "Pony",
+                "GOLD GALLEON"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/us/resources/reports/rp-quarterly-threats-jun-2017.pdf",
+            "date": "2017-06",
+            "organization": "McAfee",
+            "author": "McAfee",
+            "title": "McAfee Labs Threats Report",
+            "categories": [
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://www.uperesia.com/analysis-of-a-packed-pony-downloader",
+            "date": "2016-08",
+            "organization": "Uperesia",
+            "author": "Felix Weyne",
+            "title": "Analysis of a packed Pony downloader",
+            "categories": [
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://www.knowbe4.com/pony-stealer",
+            "date": "2015-09-09",
+            "organization": "KnowBe4",
+            "author": "KnowBe4",
+            "title": "Pony Stealer Malware",
+            "categories": [
+                "Pony"
+            ]
+        },
+        {
+            "data_url": "https://github.com/nyx0/Pony",
+            "date": "2015-02-25",
+            "organization": "Github (nyx0)",
+            "author": "nyx0",
+            "title": "Pony Sourcecode",
+            "categories": [
+                "Pony"
+            ]
+        }
+    ]
 };

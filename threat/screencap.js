@@ -30,5 +30,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "screencap",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sentinelone.com/labs/wip19-espionage-new-chinese-apt-targets-it-service-providers-and-telcos-with-signed-malware/",
+            "date": "2022-10-12",
+            "organization": "SentinelOne",
+            "author": "Joey Chen",
+            "title": "WIP19 Espionage | New Chinese APT Targets IT Service Providers and Telcos With Signed Malware",
+            "categories": [
+                "Maggie",
+                "ScreenCap"
+            ]
+        }
+    ]
 };

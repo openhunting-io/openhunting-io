@@ -58,5 +58,50 @@ var threatdata = {
     "last_ioc_update": "2022-01-25 11:39:25",
     "mitre": [],
     "file_name": "spymax",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/spynote-rat-targeting-financial-institutions",
+            "date": "2023-01-05",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "SpyNote: Spyware with RAT capabilities targeting Financial Institutions",
+            "categories": [
+                "SpyMax",
+                "SpyNote"
+            ]
+        },
+        {
+            "data_url": "https://www.stratosphereips.org/blog/2020/11/10/android-mischief-rats-dataset",
+            "date": "2020-11-18",
+            "organization": "Stratosphere Lab",
+            "author": "Stratosphere Labs",
+            "title": "Android Mischief Dataset",
+            "categories": [
+                "AhMyth",
+                "AndroRAT",
+                "SpyMax"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/research/android-spyware-targeting-tanzania-premier-league",
+            "date": "2020-07-29",
+            "organization": "Zscaler",
+            "author": "Shivang Desai",
+            "title": "Android Spyware Targeting Tanzania Premier League",
+            "categories": [
+                "SpyMax"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/malwrhunterteam/status/1250412485808717826",
+            "date": "2020-04-15",
+            "organization": "Twitter (MalwareHunterTeam)",
+            "author": "MalwareHunterTeam",
+            "title": "Tweet on SpyMax sample",
+            "categories": [
+                "SpyMax"
+            ]
+        }
+    ]
 };

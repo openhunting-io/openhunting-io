@@ -30,5 +30,20 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "grok",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/",
+            "date": "2015-02-16",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Equation: The Death Star of Malware Galaxy",
+            "categories": [
+                "DoubleFantasy",
+                "EquationDrug",
+                "Fanny",
+                "GROK"
+            ]
+        }
+    ]
 };

@@ -31,5 +31,30 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "yort",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://objective-see.com/blog/blog_0x53.html",
+            "date": "2020-01-01",
+            "organization": "Objective-See",
+            "author": "Patrick Wardle",
+            "title": "The Mac Malware of 2019",
+            "categories": [
+                "Gmera",
+                "Mokes",
+                "Yort"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/cryptocurrency-businesses-still-being-targeted-by-lazarus/90019/",
+            "date": "2019-03-26",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Cryptocurrency businesses still being targeted by Lazarus",
+            "categories": [
+                "Yort",
+                "Lazarus Group"
+            ]
+        }
+    ]
 };

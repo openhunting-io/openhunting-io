@@ -31,5 +31,64 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ironhalo",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
+            "date": "2019-12-12",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
+            "categories": [
+                "Cerberus",
+                "TSCookie",
+                "Cobalt Strike",
+                "Dtrack",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "Icefog",
+                "IRONHALO",
+                "Loki Password Stealer (PWS)",
+                "PandaBanker",
+                "PLEAD",
+                "poisonplug",
+                "TrickBot",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/security-center/writeup/2015-122210-5128-99",
+            "date": "2015-12-21",
+            "organization": "Symantec",
+            "author": "Kevin Savage",
+            "title": "Downloader.Ironhalo",
+            "categories": [
+                "IRONHALO"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html",
+            "date": "2015-12-21",
+            "organization": "FireEye",
+            "author": "Ryann Winters",
+            "title": "The EPS Awakens - Part 2",
+            "categories": [
+                "ELMER",
+                "IRONHALO",
+                "EvilPost"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/12/the_eps_awakens.html",
+            "date": "2015-12-16",
+            "organization": "FireEye",
+            "author": "Genwei Jiang",
+            "title": "The EPS Awakens",
+            "categories": [
+                "IRONHALO",
+                "APT16"
+            ]
+        }
+    ]
 };

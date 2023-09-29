@@ -40,5 +40,47 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "computrace",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON TWILIGHT",
+            "categories": [
+                "X-Agent",
+                "X-Agent",
+                "X-Agent",
+                "Computrace",
+                "HideDRV",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "Zebrocy",
+                "Zebrocy (AutoIT)"
+            ]
+        },
+        {
+            "data_url": "https://asert.arbornetworks.com/lojack-becomes-a-double-agent/",
+            "date": "2018-05-01",
+            "organization": "NetScout",
+            "author": "ASERT Team",
+            "title": "Lojack Becomes a Double-Agent",
+            "categories": [
+                "Computrace"
+            ]
+        },
+        {
+            "data_url": "https://bartblaze.blogspot.de/2014/11/thoughts-on-absolute-computrace.html",
+            "date": "2014-11-10",
+            "organization": "Blaze's Security Blog",
+            "author": "BartBlaze",
+            "title": "Thoughts on Absolute Computrace",
+            "categories": [
+                "Computrace"
+            ]
+        }
+    ]
 };

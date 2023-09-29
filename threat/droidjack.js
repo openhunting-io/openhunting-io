@@ -37,5 +37,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "droidjack",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.stratosphereips.org/blog/2021/1/22/analysis-of-droidjack-v44-rat-network-traffic",
+            "date": "2021-02-03",
+            "organization": "Stratosphere Lab",
+            "author": "Kamila Babayeva",
+            "title": "Dissecting a RAT. Analysis of DroidJack v4.4 RAT network traffic.",
+            "categories": [
+                "DroidJack"
+            ]
+        }
+    ]
 };

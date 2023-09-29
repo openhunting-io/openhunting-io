@@ -5107,7 +5107,90 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-25 18:49:33",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "responder",
+            "procedure_code": "s0174",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0174",
+            "techniques": [
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1557.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1557/001",
+                    "technique_name": "adversary-in-the-middle : llmnr/nbt-ns poisoning and smb relay",
+                    "technique_description": "by responding to llmnr/nbt-ns network traffic, adversaries may spoof an authoritative source for name resolution to force communication with an adversary controlled system. this activity may be used to collect or relay authentication materials.",
+                    "procedure_description": "responder is used to poison name services to gather hashes and credentials from systems within a local network.[7]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1040",
+                    "technique_link": "https://attack.mitre.org/techniques/T1040",
+                    "technique_name": "network sniffing",
+                    "technique_description": "adversaries may sniff network traffic to capture information about an environment, including authentication material passed over the network. network sniffing refers to using the network interface on a system to monitor or capture information sent over a wired or wireless connection. an adversary may place a network interface into promiscuous mode to passively access data in transit over the network, or use span ports to capture a larger amount of data.",
+                    "procedure_description": "responder captures hashes and credentials that are sent to the system after the name services have been poisoned.[26]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1040",
+                    "technique_link": "https://attack.mitre.org/techniques/T1040",
+                    "technique_name": "network sniffing",
+                    "technique_description": "adversaries may sniff network traffic to capture information about an environment, including authentication material passed over the network. network sniffing refers to using the network interface on a system to monitor or capture information sent over a wired or wireless connection. an adversary may place a network interface into promiscuous mode to passively access data in transit over the network, or use span ports to capture a larger amount of data.",
+                    "procedure_description": "responder captures hashes and credentials that are sent to the system after the name services have been poisoned.[26]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1557.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1557/001",
+                    "technique_name": "adversary-in-the-middle : llmnr/nbt-ns poisoning and smb relay",
+                    "technique_description": "by responding to llmnr/nbt-ns network traffic, adversaries may spoof an authoritative source for name resolution to force communication with an adversary controlled system. this activity may be used to collect or relay authentication materials.",
+                    "procedure_description": "responder is used to poison name services to gather hashes and credentials from systems within a local network.[7]"
+                }
+            ]
+        }
+    ],
     "file_name": "responder",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://yoroi.company/research/shadows-from-the-past-threaten-italian-enterprises/",
+            "date": "2020-11-30",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Shadows From The Past Threaten Italian Enterprises",
+            "categories": [
+                "Rekoobe",
+                "LaZagne",
+                "Responder",
+                "MimiKatz",
+                "win.rekoobe"
+            ]
+        },
+        {
+            "data_url": "https://github.com/lgandx/Responder",
+            "date": "2020-08-19",
+            "organization": "Github (lgandx)",
+            "author": "Laurent Gaffie",
+            "title": "Responder/MultiRelay",
+            "categories": [
+                "Responder"
+            ]
+        }
+    ]
 };

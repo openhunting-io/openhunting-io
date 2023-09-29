@@ -37,5 +37,43 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "tonedeaf",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://research.checkpoint.com/2021/irans-apt34-returns-with-an-updated-arsenal/",
+            "date": "2021-04-08",
+            "organization": "Checkpoint",
+            "author": "Check Point Research",
+            "title": "Iran\u2019s APT34 Returns with an Updated Arsenal",
+            "categories": [
+                "DNSpionage",
+                "SideTwist",
+                "TONEDEAF"
+            ]
+        },
+        {
+            "data_url": "https://intezer.com/blog-new-iranian-campaign-tailored-to-us-companies-uses-updated-toolset/",
+            "date": "2020-01-30",
+            "organization": "Intezer",
+            "author": "Paul Litvak",
+            "title": "New Iranian Campaign Tailored to US Companies Utilizes an Updated Toolset",
+            "categories": [
+                "TONEDEAF",
+                "VALUEVAULT"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2019/07/hard-pass-declining-apt34-invite-to-join-their-professional-network.html",
+            "date": "2019-07-18",
+            "organization": "FireEye",
+            "author": "Matt Bromiley",
+            "title": "Hard Pass: Declining APT34\u2019s Invite to Join Their Professional Network",
+            "categories": [
+                "LONGWATCH",
+                "PICKPOCKET",
+                "TONEDEAF",
+                "VALUEVAULT"
+            ]
+        }
+    ]
 };

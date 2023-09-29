@@ -32,5 +32,40 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "tflower",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sygnia.co/mata-framework",
+            "date": "2021-03-03",
+            "organization": "SYGNIA",
+            "author": "Amitai Ben Shushan",
+            "title": "Lazarus Group\u2019s MATA Framework Leveraged to Deploy TFlower Ransomware",
+            "categories": [
+                "Dacls",
+                "Dacls",
+                "Dacls",
+                "TFlower"
+            ]
+        },
+        {
+            "data_url": "https://cyber.gc.ca/en/alerts/tflower-ransomware-campaign",
+            "date": "2019-09-20",
+            "organization": "Canadian Centre for Cyber Security",
+            "author": "Canadian Centre for Cyber Security",
+            "title": "TFlower Ransomware Campaign",
+            "categories": [
+                "TFlower"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/tflower-ransomware-the-latest-attack-targeting-businesses/",
+            "date": "2019-09-17",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "TFlower Ransomware - The Latest Attack Targeting Businesses",
+            "categories": [
+                "TFlower"
+            ]
+        }
+    ]
 };

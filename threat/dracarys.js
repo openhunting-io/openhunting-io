@@ -32,5 +32,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "dracarys",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.cyble.com/2022/08/09/bitter-apt-group-using-dracarys-android-spyware/",
+            "date": "2022-08-09",
+            "organization": "cyble",
+            "author": "Cyble Research Labs",
+            "title": "Bitter APT Group Using \u201cDracarys\u201d Android Spyware",
+            "categories": [
+                "Dracarys"
+            ]
+        }
+    ]
 };

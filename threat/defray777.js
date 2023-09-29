@@ -58,5 +58,127 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "defray777",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/20/k/weaponizing-open-source-software-for-targeted-attacks.html",
+            "date": "2020-11-20",
+            "organization": "Trend Micro",
+            "author": "Abraham Camba",
+            "title": "Weaponizing Open Source Software for Targeted Attacks",
+            "categories": [
+                "LaZagne",
+                "Defray",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/vatet-pyxie-defray777/2/",
+            "date": "2020-11-06",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Ryan Tracey",
+            "title": "Next Up: \u201cPyXie Lite\u201d",
+            "categories": [
+                "Defray",
+                "PyXie"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/government-software-provider-tyler-technologies-hit-by-ransomware/",
+            "date": "2020-09-23",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Government software provider Tyler Technologies hit by ransomware",
+            "categories": [
+                "Defray"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=LUxOcpIRxmg",
+            "date": "2020-02-25",
+            "organization": "RSA Conference",
+            "author": "Joel DeCapua",
+            "title": "Feds Fighting Ransomware: How the FBI Investigates and How You Can Help",
+            "categories": [
+                "FastCash",
+                "Cerber",
+                "Defray",
+                "Dharma",
+                "FriedEx",
+                "Gandcrab",
+                "GlobeImposter",
+                "Mamba",
+                "Phobos",
+                "Rapid Ransom",
+                "REvil",
+                "Ryuk",
+                "SamSam",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://jsac.jpcert.or.jp/archive/2020/pdf/JSAC2020_1_tamada-yamazaki-nakatsuru_en.pdf",
+            "date": "2020-01-17",
+            "organization": "Secureworks",
+            "author": "Tamada Kiyotaka",
+            "title": "Is It Wrong to Try to Find APT Techniques in Ransomware Attack?",
+            "categories": [
+                "Defray",
+                "Dharma",
+                "FriedEx",
+                "Gandcrab",
+                "GlobeImposter",
+                "Matrix Ransom",
+                "MedusaLocker",
+                "Phobos",
+                "REvil",
+                "Ryuk",
+                "SamSam",
+                "Scarab Ransomware"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-dupont",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD DUPONT",
+            "categories": [
+                "Cobalt Strike",
+                "Defray",
+                "PyXie",
+                "GOLD DUPONT"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-defray-ransomware-hits-healthcare-and-education.html",
+            "date": "2017-09-26",
+            "organization": "Threat Vector",
+            "author": "Cylance Threat Research Team",
+            "title": "Defray Ransomware Hits Healthcare and Education",
+            "categories": [
+                "Defray"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/new-defray-ransomware-targets-education-and-healthcare-verticals",
+            "date": "2017-08-24",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "New Defray Ransomware Targets Education and Healthcare Verticals",
+            "categories": [
+                "Defray"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/defray-new-ransomware-targeting-education-and-healthcare-verticals",
+            "date": "2017-08-24",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Defray - New Ransomware Targeting Education and Healthcare Verticals",
+            "categories": [
+                "Defray"
+            ]
+        }
+    ]
 };

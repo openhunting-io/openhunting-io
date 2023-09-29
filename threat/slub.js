@@ -40,5 +40,61 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "slub",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/20/l/who-is-the-threat-actor-behind-operation-earth-kitsune-.html",
+            "date": "2020-12-15",
+            "organization": "Trend Micro",
+            "author": "William Gamazo Sanchez",
+            "title": "Who is the Threat Actor Behind Operation Earth Kitsune?",
+            "categories": [
+                "Freenki Loader",
+                "SLUB"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/20/j/operation-earth-kitsune-a-dance-of-two-new-backdoors.html",
+            "date": "2020-10-28",
+            "organization": "Trend Micro",
+            "author": "William Gamazo Sanchez",
+            "title": "Operation Earth Kitsune: A Dance of Two New Backdoors",
+            "categories": [
+                "AgfSpy",
+                "DneSpy",
+                "SLUB"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-operation-earth-kitsune.pdf",
+            "date": "2020-10-19",
+            "organization": "Trend Micro",
+            "author": "Nelson William Gamazo Sanchez",
+            "title": "Operation Earth Kitsune: Tracking SLUB\u2019s Current Operations",
+            "categories": [
+                "SLUB"
+            ]
+        },
+        {
+            "data_url": "https://www.virusbulletin.com/uploads/pdf/conference_slides/2019/VB2019-LunghiHorejsi.pdf",
+            "date": "2019-10-02",
+            "organization": "Virus Bulletin",
+            "author": "Daniel Lunghi",
+            "title": "Abusing third-party cloud services in targeted attacks",
+            "categories": [
+                "BadNews",
+                "SLUB"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-slub-backdoor-uses-github-communicates-via-slack/",
+            "date": "2019-03-07",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "New SLUB Backdoor Uses GitHub, Communicates via Slack",
+            "categories": [
+                "SLUB"
+            ]
+        }
+    ]
 };

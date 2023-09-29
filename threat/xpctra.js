@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "XPCTRA, Expectra",
     "category": "Malware",
     "type": "Banking trojan, Backdoor, Info stealer, Credential stealer",
-    "modified": "2020-05-24",
+    "modified": "2020-12-10",
     "all_data": {
         "tool": "XPCTRA",
         "names": [
@@ -39,5 +39,40 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "xpctra",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.jpcert.or.jp/en/2020/12/quasar-family.html",
+            "date": "2020-12-10",
+            "organization": "JPCERT/CC",
+            "author": "Kota Kino",
+            "title": "Attack Activities by Quasar Family",
+            "categories": [
+                "AsyncRAT",
+                "Quasar RAT",
+                "Venom RAT",
+                "XPCTRA"
+            ]
+        },
+        {
+            "data_url": "https://www.buguroo.com/en/blog/bank-malware-in-brazil-xpctra-rat-analysis",
+            "date": "2017-11-21",
+            "organization": "bugaroo",
+            "author": "Oscar Ju\u00e1rez",
+            "title": "New banking malware in Brazil - XPCTRA RAT ANALYSIS",
+            "categories": [
+                "XPCTRA"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/forums/diary/XPCTRA+Malware+Steals+Banking+and+Digital+Wallet+Users+Credentials/22868/",
+            "date": "2017-09-26",
+            "organization": "ISC",
+            "author": "Renato Marinho",
+            "title": "XPCTRA Malware Steals Banking and Digital Wallet User's Credentials",
+            "categories": [
+                "XPCTRA"
+            ]
+        }
+    ]
 };

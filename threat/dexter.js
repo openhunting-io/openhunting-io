@@ -69,5 +69,37 @@ var threatdata = {
     "last_ioc_update": "2021-08-16 12:09:56",
     "mitre": [],
     "file_name": "dexter",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://contagiodump.blogspot.com/2012/12/dexter-pos-infostealer-samples-and.html",
+            "date": "2012-12-23",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "Dec 2012 Dexter - POS Infostealer samples and information",
+            "categories": [
+                "Dexter"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/infostealer-dexter-targets-checkout-systems/",
+            "date": "2012-12-21",
+            "organization": "Trend Micro",
+            "author": "Jason Pantig",
+            "title": "Infostealer Dexter Targets Checkout Systems",
+            "categories": [
+                "Dexter"
+            ]
+        },
+        {
+            "data_url": "https://volatility-labs.blogspot.com/2012/12/unpacking-dexter-pos-memory-dump.html",
+            "date": "2012-12-12",
+            "organization": "Volatility Labs",
+            "author": "Michael Hale Ligh",
+            "title": "Unpacking Dexter POS \"Memory Dump Parsing\" Malware",
+            "categories": [
+                "Dexter"
+            ]
+        }
+    ]
 };

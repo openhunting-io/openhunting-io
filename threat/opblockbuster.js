@@ -27,5 +27,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "opblockbuster",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/04/unit42-the-blockbuster-sequel/",
+            "date": "2017-04-07",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Anthony Kasza",
+            "title": "The Blockbuster Sequel",
+            "categories": [
+                "OpBlockBuster"
+            ]
+        }
+    ]
 };

@@ -33,5 +33,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "rana",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/rana-android-malware",
+            "date": "2020-12-07",
+            "organization": "Reversing Labs",
+            "author": "Karlo Zanki",
+            "title": "Rana Android Malware Your past catches up, sooner or later...",
+            "categories": [
+                "Rana"
+            ]
+        }
+    ]
 };

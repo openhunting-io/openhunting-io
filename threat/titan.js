@@ -47,5 +47,28 @@ var threatdata = {
     "last_ioc_update": "2023-01-31 12:01:55",
     "mitre": [],
     "file_name": "titan",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.alienvault.com/blogs/labs-research/delivery-keyboy",
+            "date": "2018-10-08",
+            "organization": "AT&T Cybersecurity",
+            "author": "Chris Doman",
+            "title": "Delivery (Key)Boy",
+            "categories": [
+                "Titan"
+            ]
+        },
+        {
+            "data_url": "https://blog.lookout.com/titan-mobile-threat",
+            "date": "2017-11-16",
+            "organization": "Lookout",
+            "author": "Michael Flossman",
+            "title": "Tropic Trooper goes mobile with Titan surveillanceware",
+            "categories": [
+                "Titan",
+                "APT23"
+            ]
+        }
+    ]
 };

@@ -33,5 +33,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "phandoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://global.ahnlab.com/global/upload/download/techreport/[AhnLab]Andariel_a_Subgroup_of_Lazarus%20(3).pdf",
+            "date": "2018-06-23",
+            "organization": "AhnLab",
+            "author": "AhnLab",
+            "title": "Full Discloser of Andariel, A Subgroup of Lazarus Threat Group",
+            "categories": [
+                "PhanDoor",
+                "Rifdoor"
+            ]
+        }
+    ]
 };

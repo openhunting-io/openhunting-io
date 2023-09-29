@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "opghoul",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/blog/research/75718/operation-ghoul-targeted-attacks-on-industrial-and-engineering-organizations/",
+            "date": "2016-08-17",
+            "organization": "Kaspersky Labs",
+            "author": "Mohamad Amin Hasbini",
+            "title": "Operation Ghoul: targeted attacks on industrial and engineering organizations",
+            "categories": [
+                "OpGhoul"
+            ]
+        }
+    ]
 };

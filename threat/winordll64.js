@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "winordll64",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2023/02/23/winordll64-backdoor-vast-lazarus-arsenal/",
+            "date": "2023-02-23",
+            "organization": "ESET Research",
+            "author": "Vladislav Hr\u010dka",
+            "title": "WinorDLL64: A backdoor from the vast Lazarus arsenal?",
+            "categories": [
+                "WinorDLL64"
+            ]
+        }
+    ]
 };

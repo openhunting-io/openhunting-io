@@ -76,5 +76,71 @@ var threatdata = {
     "last_ioc_update": "2023-02-13 10:45:28",
     "mitre": [],
     "file_name": "colibri_loader",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.bitsight.com/blog/unpacking-colibri-loader-russian-apt-linked-campaign",
+            "date": "2022-11-30",
+            "organization": "BitSight",
+            "author": "Andr\u00e9 Tavares",
+            "title": "Unpacking Colibri Loader: A Russian APT linked Campaign",
+            "categories": [
+                "Colibri Loader",
+                "PrivateLoader"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0919.pdf",
+            "date": "2022-09-19",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Russia-Nexus UAC-0113  Emulating Telecommunication  Providers in Ukraine",
+            "categories": [
+                "Ave Maria",
+                "Colibri Loader",
+                "DCRat"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-intelligence/2022/04/colibri-loader-combines-task-scheduler-and-powershell-in-clever-persistence-technique/",
+            "date": "2022-04-05",
+            "organization": "Malwarebytes Labs",
+            "author": "Ankur Saini",
+            "title": "Colibri Loader combines Task Scheduler and PowerShell in clever persistence technique",
+            "categories": [
+                "Colibri Loader",
+                "Mars Stealer"
+            ]
+        },
+        {
+            "data_url": "https://cloudsek.com/in-depth-technical-analysis-of-colibri-loader-malware/",
+            "date": "2022-03-11",
+            "organization": "Cloudsek",
+            "author": "Marah Aboud",
+            "title": "In-depth Technical Analysis of Colibri Loader Malware",
+            "categories": [
+                "Colibri Loader"
+            ]
+        },
+        {
+            "data_url": "https://github.com/Casperinous/colibri_loader",
+            "date": "2022-02-19",
+            "organization": "Github (Casperinous)",
+            "author": "Casperinous",
+            "title": "IDA scripts for analysis of Colibri Loader",
+            "categories": [
+                "Colibri Loader"
+            ]
+        },
+        {
+            "data_url": "https://fr3d.hk/blog/colibri-loader-back-to-basics",
+            "date": "2022-02-13",
+            "organization": "FR3D.HK",
+            "author": "FR3D.HK",
+            "title": "Colibri Loader - Back to basics",
+            "categories": [
+                "Colibri Loader"
+            ]
+        }
+    ]
 };

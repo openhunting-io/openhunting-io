@@ -34,5 +34,33 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "suceful",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-cashing-in-on-atm-malware.pdf",
+            "date": "2018-03-30",
+            "organization": "Trend Micro",
+            "author": "David Sancho",
+            "title": "Cashing in on ATM Malware: A Comprehensive Look at Various Attack Types",
+            "categories": [
+                "Project Alice",
+                "ATMitch",
+                "Ploutus ATM",
+                "Ripper ATM",
+                "Skimer",
+                "SUCEFUL",
+                "Tyupkin"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/09/suceful_next_genera.html",
+            "date": "2015-09-11",
+            "organization": "FireEye",
+            "author": "Daniel Regalado",
+            "title": "SUCEFUL: Next Generation ATM Malware",
+            "categories": [
+                "SUCEFUL"
+            ]
+        }
+    ]
 };

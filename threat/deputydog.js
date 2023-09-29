@@ -36,5 +36,46 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "deputydog",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-keystone",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE KEYSTONE",
+            "categories": [
+                "9002 RAT",
+                "BLACKCOFFEE",
+                "DeputyDog",
+                "Derusbi",
+                "HiKit",
+                "PlugX",
+                "Poison Ivy",
+                "ZXShell",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20130924130243/https://www.fireeye.com/blog/technical/cyber-exploits/2013/09/operation-deputydog-zero-day-cve-2013-3893-attack-against-japanese-targets.html",
+            "date": "2013-09-21",
+            "organization": "FireEye",
+            "author": "Ned Moran",
+            "title": "Operation DeputyDog: Zero-Day (CVE-2013-3893) Attack Against Japanese Targets",
+            "categories": [
+                "DeputyDog",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2013/09/operation-deputydog-zero-day-cve-2013-3893-attack-against-japanese-targets.html",
+            "date": "2013-09-21",
+            "organization": "FireEye",
+            "author": "Nart Villeneuve",
+            "title": "Operation DeputyDog: Zero-Day (CVE-2013-3893) Attack Against Japanese Targets",
+            "categories": [
+                "DeputyDog"
+            ]
+        }
+    ]
 };

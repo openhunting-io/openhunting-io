@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Conti",
     "category": "Malware",
     "type": "Ransomware, Big Game Hunting",
-    "modified": "2023-09-05",
+    "modified": "2023-09-12",
     "all_data": {
         "tool": "Conti",
         "names": [
@@ -958,6 +958,2999 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-04-25 18:49:31",
-    "mitre": [],
-    "file_name": "conti"
+    "mitre": [
+        {
+            "procedure_name": "conti",
+            "procedure_code": "s0575",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0575",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "conti can utilize command line options to allow an attacker control over how it scans and encrypts files.[89][59]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "conti has used api calls during execution.[60][61]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "conti has loaded an encrypted dll into memory and then executes it.[17][18]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "conti has decrypted its payload using a hardcoded aes-256 key.[61][62]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "conti can use compiler-based obfuscation for its code, encrypt dlls, and hide windows api calls.[86][87][48]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "conti has loaded an encrypted dll into memory and then executes it.[17][18]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "conti can discover files on a local system.[82]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1135",
+                    "technique_link": "https://attack.mitre.org/techniques/T1135",
+                    "technique_name": "network share discovery",
+                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
+                    "procedure_description": "conti can enumerate remote open smb network shares using netshareenum().[23][24]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "conti can enumerate through all open processes to search for any that have the string \"sql\" in their process name.[65]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1018",
+                    "technique_link": "https://attack.mitre.org/techniques/T1018",
+                    "technique_name": "remote system discovery",
+                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
+                    "procedure_description": "conti has the ability to discover hosts on a target network.[29]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "conti can retrieve the arp cache from the local system by using the getipnettable() api call and check to ensure ip addresses it connects to are for local, non-internet, systems.[60]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1049",
+                    "technique_link": "https://attack.mitre.org/techniques/T1049",
+                    "technique_name": "system network connections discovery",
+                    "technique_description": "adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network.",
+                    "procedure_description": "conti can enumerate routine network connections from a compromised host.[25]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/002",
+                    "technique_name": "remote services : smb/windows admin shares",
+                    "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
+                    "procedure_description": "conti can spread via smb and encrypts files on different hosts, potentially compromising an entire network.[21][22]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1080",
+                    "technique_link": "https://attack.mitre.org/techniques/T1080",
+                    "technique_name": "taint shared content",
+                    "technique_description": "adversaries may deliver payloads to remote systems by adding content to shared storage locations, such as network drives or internal code repositories. content stored on network drives or in other shared locations may be tainted by adding malicious programs, scripts, or exploit code to otherwise valid files. once a user opens the shared tainted content, the malicious portion can be executed to run the adversary's code on a remote system. adversaries may use tainted shared content to move laterally.",
+                    "procedure_description": "conti can spread itself by infecting other remote machines via network shared drives.[3][4]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "conti can use createiocompletionport(), postqueuedcompletionstatus(), and getqueuedcompletionport() to rapidly encrypt files, excluding those with the extensions of .exe, .dll, and .lnk. it has used a different aes-256 encryption key per file with a bundled ras-4096 public encryption key that is unique for each victim. conti can use \"windows restart manager\" to ensure files are unlocked and open for encryption.[36][5][37][38][31]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1490",
+                    "technique_link": "https://attack.mitre.org/techniques/T1490",
+                    "technique_name": "inhibit system recovery",
+                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
+                    "procedure_description": "conti can delete windows volume shadow copies using vssadmin.[24]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1489",
+                    "technique_link": "https://attack.mitre.org/techniques/T1489",
+                    "technique_name": "service stop",
+                    "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
+                    "procedure_description": "conti can stop up to 146 windows services related to security, backup, database, and email solutions through the use of net stop.[13]"
+                }
+            ]
+        }
+    ],
+    "file_name": "conti",
+    "articles": [
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-007.pdf",
+            "date": "2023-09-12",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "FIN12: A Cybercriminal Group with Multiple Ransomware",
+            "categories": [
+                "BlackCat",
+                "Cobalt Strike",
+                "Conti",
+                "Hive",
+                "MimiKatz",
+                "Nokoyawa Ransomware",
+                "PLAY",
+                "Royal Ransom",
+                "Ryuk",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/pr/multiple-foreign-nationals-charged-connection-trickbot-malware-and-conti-ransomware",
+            "date": "2023-09-07",
+            "organization": "Department of Justice",
+            "author": "Office of Public Affairs",
+            "title": "Multiple Foreign Nationals Charged in Connection with Trickbot Malware and Conti Ransomware Conspiracies",
+            "categories": [
+                "Conti",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://arcticwolf.com/resources/blog/conti-and-akira-chained-together/",
+            "date": "2023-07-26",
+            "organization": "Arctic Wolf",
+            "author": "Steven Campbell",
+            "title": "Conti and Akira: Chained Together",
+            "categories": [
+                "Akira",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/trickbot-conti-crypters-where-are-they-now/",
+            "date": "2023-06-27",
+            "organization": "SecurityIntelligence",
+            "author": "Charlotte Hammond",
+            "title": "The Trickbot/Conti Crypters: Where Are They Now?",
+            "categories": [
+                "Black Basta",
+                "Conti",
+                "Mount Locker",
+                "PhotoLoader",
+                "Royal Ransom",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://github.com/EmissarySpider/ransomware-descendants",
+            "date": "2023-06-17",
+            "organization": "Github (EmissarySpider)",
+            "author": "EmissarySpider",
+            "title": "ransomware-descendants",
+            "categories": [
+                "Babuk",
+                "Conti",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Staubmann-Busy-Bees.pptx",
+            "date": "2023-06-08",
+            "organization": "VMRay",
+            "author": "Patrick Staubmann",
+            "title": "Busy Bees - The Transformation of BumbleBee",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti",
+                "Meterpreter",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/from-royal-with-love-88fa05ff7f65",
+            "date": "2023-03-10",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "From Royal With Love",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "PLAY",
+                "Royal Ransom",
+                "Somnia"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/02/10/malware-analysis-8.html",
+            "date": "2023-02-10",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware analysis: part 8. Yara rule example for MurmurHash2. MurmurHash2 in Conti ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://securityaffairs.com/141666/cyber-crime/lockbit-green-ransomware-variant.html",
+            "date": "2023-02-01",
+            "organization": "Security Affairs",
+            "author": "Pierluigi Paganini",
+            "title": "New LockBit Green ransomware variant borrows code from Conti ransomware",
+            "categories": [
+                "Conti",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/01/04/malware-tricks-26.html",
+            "date": "2023-01-04",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware development tricks: part 26. Mutex. C++ example.",
+            "categories": [
+                "AsyncRAT",
+                "Conti",
+                "HelloKitty"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/luna-moth-callback-phishing/",
+            "date": "2022-11-21",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kristopher Russo",
+            "title": "Threat Assessment: Luna Moth Callback Phishing Campaign",
+            "categories": [
+                "BazarBackdoor",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://blogs.vmware.com/security/2022/09/esxi-targeting-ransomware-the-threats-that-are-after-your-virtual-machines-part-1.html",
+            "date": "2022-09-28",
+            "organization": "vmware",
+            "author": "Giovanni Vigna",
+            "title": "ESXi-Targeting Ransomware: The Threats That Are After Your Virtual Machines (Part 1)",
+            "categories": [
+                "Avoslocker",
+                "Babuk",
+                "Black Basta",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "Luna",
+                "RansomEXX",
+                "RedAlert Ransomware",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://blogs.vmware.com/security/2022/09/threat-report-illuminating-volume-shadow-deletion.html",
+            "date": "2022-09-20",
+            "organization": "vmware",
+            "author": "Dana Behling",
+            "title": "Threat Report: Illuminating Volume Shadow Deletion",
+            "categories": [
+                "Conti",
+                "HelloKitty"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/advintel-s-state-of-emotet-aka-spmtools-displays-over-million-compromised-machines-through-2022",
+            "date": "2022-09-13",
+            "organization": "AdvIntel",
+            "author": "Advanced Intelligence",
+            "title": "AdvIntel's State of Emotet aka \"SpmTools\" Displays Over Million Compromised Machines Through 2022",
+            "categories": [
+                "Conti",
+                "Cobalt Strike",
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/conti-vs-monti-a-reinvention-or-just-a-simple-rebranding",
+            "date": "2022-09-07",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Conti vs. Monti: A Reinvention or Just a Simple Rebranding?",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/09/the-curious-case-of-monti-ransomware-a-real-world-doppelganger",
+            "date": "2022-09-07",
+            "organization": "Blackberry",
+            "author": "Anuj Soni",
+            "title": "The Curious Case of \u201cMonti\u201d Ransomware: A Real-World Doppelganger",
+            "categories": [
+                "Conti",
+                "MimiKatz",
+                "Veeam Dumper"
+            ]
+        },
+        {
+            "data_url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE54L7v",
+            "date": "2022-08-22",
+            "organization": "Microsoft",
+            "author": "Microsoft",
+            "title": "Extortion Economics - Ransomware\u2019s new business model",
+            "categories": [
+                "BlackCat",
+                "Conti",
+                "Hive",
+                "REvil",
+                "AgendaCrypt",
+                "Black Basta",
+                "BlackCat",
+                "Brute Ratel C4",
+                "Cobalt Strike",
+                "Conti",
+                "Hive",
+                "Mount Locker",
+                "Nokoyawa Ransomware",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/bumblebee-malware-projector-libra/",
+            "date": "2022-08-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Flight of the Bumblebee: Email Lures and File Sharing Services Lead to Malware",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0802.pdf",
+            "date": "2022-08-02",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "Initial Access Brokers Are Key to Rise in Ransomware Attacks",
+            "categories": [
+                "Azorult",
+                "BlackMatter",
+                "Conti",
+                "Mars Stealer",
+                "Raccoon",
+                "RedLine Stealer",
+                "Taurus Stealer",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/luna-black-basta-ransomware/106950",
+            "date": "2022-07-20",
+            "organization": "Kaspersky",
+            "author": "Marc Rivero L\u00f3pez",
+            "title": "Luna and Black Basta \u2014 new ransomware for Windows, Linux and ESXi",
+            "categories": [
+                "Black Basta",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/modern-ransomware-groups-ttps/106824/",
+            "date": "2022-06-23",
+            "organization": "Kaspersky",
+            "author": "Nikita Nazarov",
+            "title": "The hateful eight: Kaspersky\u2019s guide to modern ransomware groups\u2019 TTPs (Download Form)",
+            "categories": [
+                "BlackByte",
+                "BlackCat",
+                "Clop",
+                "Conti",
+                "Hive",
+                "LockBit",
+                "Mespinoza",
+                "RagnarLocker"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2022/06/23093553/Common-TTPs-of-the-modern-ransomware_low-res.pdf",
+            "date": "2022-06-23",
+            "organization": "Kaspersky",
+            "author": "Nikita Nazarov",
+            "title": "The hateful eight: Kaspersky\u2019s guide to modern ransomware groups\u2019 TTPs",
+            "categories": [
+                "Conti",
+                "Hive",
+                "BlackByte",
+                "BlackCat",
+                "Clop",
+                "LockBit",
+                "Mespinoza",
+                "Ragnarok"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/the-sound-of-malware.html",
+            "date": "2022-06-23",
+            "organization": "Trellix",
+            "author": "Christiaan Beek",
+            "title": "The Sound of Malware",
+            "categories": [
+                "Conti",
+                "VHD Ransomware"
+            ]
+        },
+        {
+            "data_url": "https://attackiq.com/2022/06/15/attack-graph-emulating-the-conti-ransomware-teams-behaviors/",
+            "date": "2022-06-15",
+            "organization": "AttackIQ",
+            "author": "Jackson Wells",
+            "title": "Attack Graph Emulating the Conti Ransomware Team\u2019s Behaviors",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.threatstop.com/blog/first-conti-then-hive-costa-rica-gets-hit-with-ransomware-again",
+            "date": "2022-06-15",
+            "organization": "ThreatStop",
+            "author": "Ofir Ashman",
+            "title": "First Conti, then Hive: Costa Rica gets hit with ransomware again",
+            "categories": [
+                "Conti",
+                "Hive",
+                "Conti",
+                "Hive"
+            ]
+        },
+        {
+            "data_url": "https://eclypsium.com/2022/06/02/conti-targets-critical-firmware/",
+            "date": "2022-06-02",
+            "organization": "Eclypsium",
+            "author": "Eclypsium",
+            "title": "Conti Targets Critical Firmware",
+            "categories": [
+                "Conti",
+                "HermeticWiper",
+                "TrickBot",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://thehackernews.com/2022/05/malware-analysis-trickbot.html",
+            "date": "2022-05-24",
+            "organization": "The Hacker News",
+            "author": "Florian Goutin",
+            "title": "Malware Analysis: Trickbot",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/pdf/datasheet-ransomware-in-Q1-2022.pdf",
+            "date": "2022-05-23",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Research",
+            "title": "LockBit, Conti, and BlackCat Lead Pack  Amid Rise in Active RaaS and Extortion Groups: Ransomware in Q1 2022 (PDF)",
+            "categories": [
+                "BlackCat",
+                "Conti",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-by-the-numbers/lockbit-conti-and-blackcat-lead-pack-amid-rise-in-active-raas-and-extortion-groups-ransomware-in-q1-2022",
+            "date": "2022-05-23",
+            "organization": "Trend Micro",
+            "author": "Matsugaya Shingo",
+            "title": "LockBit, Conti, and BlackCat Lead Pack Amid Rise in Active RaaS and Extortion Groups: Ransomware in Q1 2022",
+            "categories": [
+                "BlackCat",
+                "Conti",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/discontinued-the-end-of-conti-s-brand-marks-new-chapter-for-cybercrime-landscape",
+            "date": "2022-05-20",
+            "organization": "AdvIntel",
+            "author": "Yelisey Boguslavskiy",
+            "title": "DisCONTInued: The End of Conti\u2019s Brand Marks New Chapter For Cybercrime Landscape",
+            "categories": [
+                "AvosLocker",
+                "Black Basta",
+                "BlackByte",
+                "BlackCat",
+                "Conti",
+                "HelloKitty",
+                "Hive"
+            ]
+        },
+        {
+            "data_url": "https://www.prodaft.com/m/reports/WizardSpider_TLPWHITE_v.1.4.pdf",
+            "date": "2022-05-18",
+            "organization": "PRODAFT Threat Intelligence",
+            "author": "PRODAFT",
+            "title": "Wizard Spider In-Depth Analysis",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/hydra-with-three-heads-blackbyte-the-future-of-ransomware-subsidiary-groups",
+            "date": "2022-05-17",
+            "organization": "Advanced Intelligence",
+            "author": "Vitali Kremez",
+            "title": "Hydra with Three Heads: BlackByte & The Future of Ransomware Subsidiary Groups",
+            "categories": [
+                "BlackByte",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/malware-before-ransomware-trojan-information-stealer-cobalt-strike",
+            "date": "2022-05-12",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "What malware to look for if you want to prevent a ransomware attack",
+            "categories": [
+                "Conti",
+                "BumbleBee",
+                "Cobalt Strike",
+                "IcedID",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/new-ransomware-trends-in-2022/106457/",
+            "date": "2022-05-11",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "New ransomware trends in 2022",
+            "categories": [
+                "BlackCat",
+                "Conti",
+                "DEADBOLT",
+                "DoubleZero",
+                "LockBit",
+                "PartyTicket",
+                "StealBit"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=cYx7sQRbjGA",
+            "date": "2022-05-05",
+            "organization": "YouTube (The Vertex Project)",
+            "author": "Ryan Hallbeck",
+            "title": "Contileaks: Identifying, Extracting, & Modeling Bitcoin Addresses",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/787/original/ransomware-chats.pdf?1651576098",
+            "date": "2022-05-03",
+            "organization": "Cisco",
+            "author": "Kendall McKay",
+            "title": "Conti and Hive ransomware operations: Leveraging victim chats for insights",
+            "categories": [
+                "Conti",
+                "Hive"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/05/conti-and-hive-ransomware-operations.html",
+            "date": "2022-05-03",
+            "organization": "Talos Intelligence",
+            "author": "JON MUNSHAW",
+            "title": "Conti and Hive ransomware operations: What we learned from these groups' victim chats",
+            "categories": [
+                "Conti",
+                "Hive"
+            ]
+        },
+        {
+            "data_url": "https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/787/original/ransomware-chats.pdf",
+            "date": "2022-05-02",
+            "organization": "Cisco Talos",
+            "author": "Kendall McKay",
+            "title": "Conti and Hive  ransomware operations: Leveraging victim chats for insights",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "Hive"
+            ]
+        },
+        {
+            "data_url": "https://research.nccgroup.com/2022/04/29/adventures-in-the-land-of-bumblebee-a-new-malicious-loader/",
+            "date": "2022-04-29",
+            "organization": "NCC Group",
+            "author": "Mike Stokkel",
+            "title": "Adventures in the land of BumbleBee \u2013 a new malicious loader",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+            "date": "2022-04-28",
+            "organization": "PWC",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2021: A Year in Retrospect (Annex)",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "PlugX",
+                "RokRAT",
+                "Inception Framework",
+                "Red Menshen"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ransomware-hive-conti-avoslocker",
+            "date": "2022-04-28",
+            "organization": "Symantec",
+            "author": "Karthikeyan C Kasiviswanathan",
+            "title": "Ransomware: How Attackers are Breaching Corporate Networks",
+            "categories": [
+                "AvosLocker",
+                "Conti",
+                "Emotet",
+                "Hive",
+                "IcedID",
+                "PhotoLoader",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/conti-emotet-ransomware-conti-leaks",
+            "date": "2022-04-26",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Conti and Emotet: A constantly destructive duo",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "QakBot",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/gold-ulrick-continues-conti-operations-despite-public-disclosures",
+            "date": "2022-04-21",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "GOLD ULRICK Continues Conti Operations Despite Public Disclosures",
+            "categories": [
+                "Conti",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-to-deploy-hive-ransomware/",
+            "date": "2022-04-20",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "Microsoft Exchange servers hacked to deploy Hive ransomware",
+            "categories": [
+                "Babuk",
+                "BlackByte",
+                "Conti",
+                "Hive",
+                "LockFile"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/conti-group-targets-esxi-hypervisors-with-its-linux-variant.html",
+            "date": "2022-04-18",
+            "organization": "Trellix",
+            "author": "Marc Elias",
+            "title": "Conti Group Targets ESXi Hypervisors With its Linux Variant",
+            "categories": [
+                "Conti",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://blog.bushidotoken.net/2022/04/lessons-from-conti-leaks.html",
+            "date": "2022-04-17",
+            "organization": "BushidoToken Blog",
+            "author": "BushidoToken",
+            "title": "Lessons from the Conti Leaks",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/karakurt-revealed-as-data-extortion-arm-of-conti-cybercrime-syndicate/",
+            "date": "2022-04-15",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Karakurt revealed as data extortion arm of Conti cybercrime syndicate",
+            "categories": [
+                "Anchor",
+                "BazarBackdoor",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://arcticwolf.com/resources/blog/karakurt-web",
+            "date": "2022-04-15",
+            "organization": "Arctic Wolf",
+            "author": "Arctic Wolf",
+            "title": "The Karakurt Web: Threat Intel and Blockchain Analysis Reveals Extension of Conti Business Model",
+            "categories": [
+                "Conti",
+                "Diavol",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.connectwise.com/resources/conti-profile",
+            "date": "2022-04-12",
+            "organization": "ConnectWise",
+            "author": "ConnectWise CRU",
+            "title": "Threat Profile: Conti",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/investigation/2022/04/11/malw-inv-conti-2.html",
+            "date": "2022-04-11",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Conti ransomware source code investigation - part 2",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/hackers-use-contis-leaked-ransomware-to-attack-russian-companies/",
+            "date": "2022-04-09",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Hackers use Conti's leaked ransomware to attack Russian companies",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/conversinglabs-ep-2-conti-pivots-as-ransomware-as-a-service-struggles",
+            "date": "2022-04-08",
+            "organization": "ReversingLabs",
+            "author": "Paul Roberts",
+            "title": "ConversingLabs Ep. 2: Conti pivots as ransomware as a service struggles",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trmlabs.com/post/analysis-corroborates-suspected-ties-between-conti-and-ryuk-ransomware-groups-and-wizard-spider",
+            "date": "2022-04-06",
+            "organization": "TRM Labs",
+            "author": "TRM Labs",
+            "title": "TRM Analysis Corroborates Suspected Ties Between Conti and Ryuk Ransomware Groups and Wizard Spider",
+            "categories": [
+                "Conti",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2022/04/04/stolen-images-campaign-ends-in-conti-ransomware/",
+            "date": "2022-04-04",
+            "organization": "The DFIR Report",
+            "author": "@0xtornado",
+            "title": "Stolen Images Campaign Ends in Conti Ransomware",
+            "categories": [
+                "Conti",
+                "IcedID"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/02/malware-injection-18.html",
+            "date": "2022-04-02",
+            "organization": "Github (cocomelonc)",
+            "author": "cocomelonc",
+            "title": "Malware development tricks. Find kernel32.dll base: asm style. C++ example.",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.trellix.com/en-us/about/newsroom/stories/threat-labs/conti-leaks-examining-the-panama-papers-of-ransomware.html",
+            "date": "2022-03-31",
+            "organization": "Trellix",
+            "author": "John Fokker",
+            "title": "Conti Leaks: Examining the Panama Papers of Ransomware",
+            "categories": [
+                "LockBit",
+                "Amadey",
+                "Buer",
+                "Conti",
+                "IcedID",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "PhotoLoader",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://research.nccgroup.com/2022/03/31/conti-nuation-methods-and-techniques-observed-in-operations-post-the-leaks/",
+            "date": "2022-03-31",
+            "organization": "nccgroup",
+            "author": "Nikolaos Pantazopoulos",
+            "title": "Conti-nuation: methods and techniques observed in operations post the leaks",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/investigation/2022/03/27/malw-inv-conti-1.html",
+            "date": "2022-03-27",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Conti ransomware source code investigation - part 1",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/conti-ransomware-attacks-persist-updated-version-despite-leaks",
+            "date": "2022-03-25",
+            "organization": "Zscaler",
+            "author": "Brett Stone-Gross",
+            "title": "Conti Ransomware Attacks Persist With an Updated Version Despite Leaks",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/gone-in-52-seconds-and-42-minutes-a-comparative-analysis-of-ransomware-encryption-speed.html",
+            "date": "2022-03-23",
+            "organization": "splunk",
+            "author": "Shannon Davis",
+            "title": "Gone in 52 Seconds\u2026and 42 Minutes: A Comparative Analysis of Ransomware Encryption Speed",
+            "categories": [
+                "Avaddon",
+                "Babuk",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "LockBit",
+                "Maze",
+                "Mespinoza",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/gold-ulrick-leaks-reveal-organizational-structure-and-relationships",
+            "date": "2022-03-23",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "GOLD ULRICK Leaks Reveal Organizational Structure and Relationships",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://content.secureworks.com/-/media/Files/US/Reports/Monthly%20Threat%20Intelligence/Secureworks_ECO1_ThreatIntelligenceExecutiveReport2022Vol2.ashx",
+            "date": "2022-03-23",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "Threat Intelligence Executive Report Volume 2022, Number 2",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "IcedID",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/conti-leaks-cybercrime-fire-team",
+            "date": "2022-03-23",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Conti puts the \u2018organized\u2019 in organized crime",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.threatstop.com/blog/conti-ransomware-source-code-leaked",
+            "date": "2022-03-22",
+            "organization": "ThreatStop",
+            "author": "Ofir Ashman",
+            "title": "Conti ransomware leaks - what happens when hackers support Russia",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.esentire.com/blog/conti-affiliate-exposed-new-domain-names-ip-addresses-and-email-addresses-uncovered-by-esentire",
+            "date": "2022-03-21",
+            "organization": "eSentire",
+            "author": "eSentire Threat Response Unit (TRU)",
+            "title": "Conti Affiliate Exposed: New Domain Names, IP Addresses and Email Addresses Uncovered",
+            "categories": [
+                "HelloKitty",
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti",
+                "FiveHands",
+                "HelloKitty",
+                "IcedID"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/conti-ransomware-v-3-including-decryptor-leaked/179006/",
+            "date": "2022-03-21",
+            "organization": "Threat Post",
+            "author": "Lisa Vaas",
+            "title": "Conti Ransomware V. 3, Including Decryptor, Leaked",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.esentire.com/blog/analysis-of-leaked-conti-intrusion-procedures-by-esentires-threat-response-unit-tru",
+            "date": "2022-03-18",
+            "organization": "eSentire",
+            "author": "eSentire Threat Response Unit (TRU)",
+            "title": "Analysis of Leaked Conti Intrusion Procedures by eSentire\u2019s Threat Response Unit (TRU)",
+            "categories": [
+                "Conti",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2022/03/17/the-ransomware-threat-intelligence-center/",
+            "date": "2022-03-17",
+            "organization": "Sophos",
+            "author": "Tilly Travers",
+            "title": "The Ransomware Threat Intelligence Center",
+            "categories": [
+                "ATOMSILO",
+                "Avaddon",
+                "AvosLocker",
+                "BlackKingdom Ransomware",
+                "BlackMatter",
+                "Conti",
+                "Cring",
+                "DarkSide",
+                "dearcry",
+                "Dharma",
+                "Egregor",
+                "Entropy",
+                "Epsilon Red",
+                "Gandcrab",
+                "Karma",
+                "LockBit",
+                "LockFile",
+                "Mailto",
+                "Maze",
+                "Nefilim",
+                "RagnarLocker",
+                "Ragnarok",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SamSam",
+                "Snatch",
+                "WannaCryptor",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/",
+            "date": "2022-03-17",
+            "organization": "Google",
+            "author": "Vladislav Stolyarov",
+            "title": "Exposing initial access broker with ties to Conti",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti",
+            "date": "2022-03-17",
+            "organization": "Google",
+            "author": "Vladislav Stolyarov",
+            "title": "Exposing initial access broker with ties to Conti",
+            "categories": [
+                "BazarBackdoor",
+                "BumbleBee",
+                "Conti",
+                "EXOTIC LILY"
+            ]
+        },
+        {
+            "data_url": "https://www.dragos.com/blog/industry-news/suspected-conti-ransomware-activity-in-the-auto-manufacturing-sector/",
+            "date": "2022-03-16",
+            "organization": "Dragos",
+            "author": "Josh Hanrahan",
+            "title": "Suspected Conti Ransomware Activity in the Auto Manufacturing Sector",
+            "categories": [
+                "Conti",
+                "Emotet"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.broadcom.com/hubfs/SED/SED_Threat_Hunter_Reports_Alerts/SED_FY22Q2_SES_Ransomware-Threat-Landscape_WP.pdf",
+            "date": "2022-03-16",
+            "organization": "Symantec",
+            "author": "Symantec Threat Hunter Team",
+            "title": "The Ransomware Threat Landscape: What to Expect in 2022",
+            "categories": [
+                "AvosLocker",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Emotet",
+                "Hive",
+                "Karma",
+                "Mespinoza",
+                "Nemty",
+                "Squirrelwaffle",
+                "VegaLocker",
+                "WastedLocker",
+                "Yanluowang",
+                "Zeppelin"
+            ]
+        },
+        {
+            "data_url": "https://www.prevailion.com/what-wicked-webs-we-unweave/",
+            "date": "2022-03-15",
+            "organization": "Prevailion",
+            "author": "Matt Stafford",
+            "title": "What Wicked Webs We Un-weave",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/leaks-of-conti-ransomware-group-paint-picture-of-a-surprisingly-normal-tech-start-up-sort-of/",
+            "date": "2022-03-10",
+            "organization": "",
+            "author": "Check Point Research",
+            "title": "Leaks of Conti Ransomware Group Paint Picture of a Surprisingly Normal Tech Start-Up\u2026 Sort Of",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/cisa-updates-conti-ransomware-alert-with-nearly-100-domain-names/",
+            "date": "2022-03-09",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "CISA updates Conti ransomware alert with nearly 100 domain names",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/conti-ransomware-source-code-a-well-designed-cots-ransomware/",
+            "date": "2022-03-08",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Conti Ransomware source code: a well-designed COTS ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.mbsd.jp/2022/03/08/assets/images/MBSD_Summary_of_ContiLeaks_Rev3.pdf",
+            "date": "2022-03-08",
+            "organization": "MBSD",
+            "author": "MBSD",
+            "title": "ContiLeaks",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/conti-leaks-the-panama-papers-of-ransomware/",
+            "date": "2022-03-08",
+            "organization": "The Record",
+            "author": "Dina Temple-Raston",
+            "title": "Inside Conti leaks: The Panama Papers of ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://github.com/whichbuffer/Conti-Ransomware-IOC",
+            "date": "2022-03-08",
+            "organization": "Github (whichbuffer)",
+            "author": "Arda B\u00fcy\u00fckkaya",
+            "title": "Conti-Ransomware-IOC",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberscoop.com/ransomware-gang-conti-bounced-back/",
+            "date": "2022-03-07",
+            "organization": "CyberScoop",
+            "author": "Suzanne Smalley",
+            "title": "Ransomware gang Conti has already bounced back from damage caused by chat leaks, experts say",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/cyberattacks-are-prominent-in-the-russia-ukraine-conflict/IOC%20Resource%20for%20Russia-Ukraine%20Conflict-Related%20Cyberattacks-03032022.pdf",
+            "date": "2022-03-03",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Research",
+            "title": "IOC Resource for Russia-Ukraine  Conflict-Related Cyberattacks",
+            "categories": [
+                "ClipBanker",
+                "Conti",
+                "HermeticWiper",
+                "PartyTicket",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/c/cyberattacks-are-prominent-in-the-russia-ukraine-conflict.html",
+            "date": "2022-03-03",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Research",
+            "title": "Cyberattacks are Prominent in the Russia-Ukraine Conflict",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti",
+                "Emotet",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://cluster25.io/2022/03/02/contis-source-code-deep-dive-into/",
+            "date": "2022-03-02",
+            "organization": "Cluster25",
+            "author": "Cluster25",
+            "title": "Conti's Source Code: Deep-Dive Into",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.eldiario.es/tecnologia/capos-cibercrimen-avisan-contratacaran-si-hackea-rusia_1_8795458.html",
+            "date": "2022-03-02",
+            "organization": "elDiario",
+            "author": "Carlos del Castillo",
+            "title": "Cybercrime bosses warn that they will \"fight back\" if Russia is hacked",
+            "categories": [
+                "Conti",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=uORuVVQzZ0A",
+            "date": "2022-03-02",
+            "organization": "Youtube (OALabs)",
+            "author": "Sergei Frankoff",
+            "title": "Botleggers Exposed - Analysis of The Conti Leaks Malware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/conti-ransomware-decryptor-trickbot-source-code-leaked/178727/",
+            "date": "2022-03-02",
+            "organization": "Threatpost",
+            "author": "Lisa Vaas",
+            "title": "Conti Ransomware Decryptor, TrickBot Source Code Leaked",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberark.com/resources/threat-research-blog/conti-group-leaked",
+            "date": "2022-03-02",
+            "organization": "CyberArk",
+            "author": "CyberArk Labs",
+            "title": "Conti Group Leaked!",
+            "categories": [
+                "TeamTNT",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2022/03/conti-ransomware-group-diaries-part-ii-the-office/",
+            "date": "2022-03-02",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Conti Ransomware Group Diaries, Part II: The Office",
+            "categories": [
+                "Conti",
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://arcticwolf.com/resources/blog/conti-ransomware-leak-analyzed",
+            "date": "2022-03",
+            "organization": "Arctic Wolf",
+            "author": "Arctic Wolf",
+            "title": "Conti Ransomware: An Analysis of Key Findings",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-source-code-leaked-by-ukrainian-researcher/",
+            "date": "2022-03-01",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Conti Ransomware source code leaked by Ukrainian researcher",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/TheDFIRReport/status/1498642512935800833",
+            "date": "2022-03-01",
+            "organization": "Twitter (@TheDFIRReport)",
+            "author": "The DFIR Report",
+            "title": "Twitter thread with highlights from conti leaks",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://share.vx-underground.org/Conti/",
+            "date": "2022-03-01",
+            "organization": "",
+            "author": "VX-Underground",
+            "title": "Leaks: Conti / Trickbot",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@whickey000/how-i-cracked-conti-ransomware-groups-leaked-source-code-zip-file-e15d54663a8",
+            "date": "2022-03-01",
+            "organization": "Medium whickey000",
+            "author": "Wade Hickey",
+            "title": "How I Cracked CONTI Ransomware Group\u2019s Leaked Source Code ZIP File",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2022/02/28/conti-and-karma-actors-attack-healthcare-provider-at-same-time-through-proxyshell-exploits/?cmp=30728",
+            "date": "2022-02-28",
+            "organization": "Sophos",
+            "author": "Sean Gallagher",
+            "title": "Conti and Karma actors attack healthcare provider at same time through ProxyShell exploits",
+            "categories": [
+                "Conti",
+                "Karma"
+            ]
+        },
+        {
+            "data_url": "https://github.com/TheParmak/conti-leaks-englished",
+            "date": "2022-02-28",
+            "organization": "Github (TheParmak)",
+            "author": "TheParmak",
+            "title": "conti-leaks-englished",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@arnozobec/analyzing-conti-leaks-without-speaking-russian-only-methodology-f5aecc594d1b",
+            "date": "2022-02-28",
+            "organization": "Medium arnozobec",
+            "author": "Arnaud Zobec",
+            "title": "Analyzing conti-leaks without speaking russian \u2014 only methodology",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/conti-ransomwares-internal-chats-leaked-after-siding-with-russia/",
+            "date": "2022-02-27",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Conti ransomware's internal chats leaked after siding with Russia",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/conti-ransomware-gang-chats-leaked-by-pro-ukraine-member/",
+            "date": "2022-02-27",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Conti ransomware gang chats leaked by pro-Ukraine member",
+            "categories": [
+                "Conti",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.redhotcyber.com/post/il-ransomware-conti-si-schiera-a-favore-della-russia",
+            "date": "2022-02-25",
+            "organization": "Red Hot Cyber",
+            "author": "Red Hot Cyber",
+            "title": "Il ransomware Conti si schiera a favore della Russia.",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/pdfs/resources/whitepaper/an-empirically-comparative-analysis-of-ransomware-binaries.pdf",
+            "date": "2022-02-23",
+            "organization": "splunk",
+            "author": "Shannon Davis",
+            "title": "An Empirically Comparative Analysis of Ransomware Binaries",
+            "categories": [
+                "Avaddon",
+                "Babuk",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "LockBit",
+                "Maze",
+                "Mespinoza",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/24-hours-from-log4shell-to-local-admin-deep-dive-into-conti-gang-attack-on-fortune-500-dfir",
+            "date": "2022-02-23",
+            "organization": "AdvIntel",
+            "author": "Vitali Kremez",
+            "title": "24 Hours From Log4Shell to Local Admin: Deep-Dive Into Conti Gang Attack on Fortune 500 (DFIR)",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2022/02/22/cyberthreats-during-russian-ukrainian-tensions-what-can-we-learn-from-history-to-be-prepared/",
+            "date": "2022-02-22",
+            "organization": "Sophos",
+            "author": "Chester Wisniewski",
+            "title": "Cyberthreats during Russian-Ukrainian tensions: what can we learn from history to be prepared?",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.bankinfosecurity.com/cybercrime-moves-conti-ransomware-absorbs-trickbot-malware-a-18573",
+            "date": "2022-02-22",
+            "organization": "Bankinfo Security",
+            "author": "Matthew J. Schwartz",
+            "title": "Cybercrime Moves: Conti Ransomware Absorbs TrickBot Malware",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://securityaffairs.co/wordpress/128190/cyber-crime/conti-ransomware-takes-over-trickbot.html",
+            "date": "2022-02-20",
+            "organization": "Security Affairs",
+            "author": "Pierluigi Paganini",
+            "title": "The Conti ransomware group takes over TrickBot malware operation and plans to replace it with BazarBackdoor malware.",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-takes-over-trickbot-malware-operation/",
+            "date": "2022-02-18",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Conti ransomware gang takes over TrickBot malware operation",
+            "categories": [
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://cyware.com/news/ransomware-becomes-deadlier-conti-makes-the-most-money-39e17bae/",
+            "date": "2022-02-14",
+            "organization": "",
+            "author": "Cyware",
+            "title": "Ransomware Becomes Deadlier, Conti Makes the Most Money",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.dragos.com/blog/industry-news/dragos-ics-ot-ransomware-analysis-q4-2021/",
+            "date": "2022-02-09",
+            "organization": "Dragos",
+            "author": "Anna Skelton",
+            "title": "Dragos ICS/OT Ransomware Analysis: Q4 2021",
+            "categories": [
+                "LockBit",
+                "Conti",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/hhs-conti-ransomware-encrypted-80-percent-of-irelands-hse-it-systems/",
+            "date": "2022-02-04",
+            "organization": "Bleeping Computer",
+            "author": "Sergiu Gatlan",
+            "title": "HHS: Conti ransomware encrypted 80% of Ireland's HSE IT systems",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.coveware.com/blog/2022/1/26/ransomware-as-a-service-innovation-curve",
+            "date": "2022-01-27",
+            "organization": "",
+            "author": "CoveWare",
+            "title": "Ransomware as a Service Innovation Curve",
+            "categories": [
+                "Conti",
+                "LockBit"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/taiwanese-apple-and-tesla-contractor-hit-by-conti-ransomware/",
+            "date": "2022-01-27",
+            "organization": "BleepingComputer",
+            "author": "Sergiu Gatlan",
+            "title": "Taiwanese Apple and Tesla contractor hit by Conti ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/cycraft/the-road-to-ransomware-resilience-c1ca37036efd",
+            "date": "2022-01-24",
+            "organization": "CyCraft",
+            "author": "CyCraft AI",
+            "title": "The Road to Ransomware Resilience, Part 2: Behavior Analysis",
+            "categories": [
+                "Conti",
+                "Prometheus",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://damonmccoy.com/papers/Ransomware_eCrime22.pdf",
+            "date": "2022",
+            "organization": "Symposium on Electronic Crime Research",
+            "author": "Ian W. Gray",
+            "title": "Money Over Morals: A Business Analysis of Conti Ransomware",
+            "categories": [
+                "Conti",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.silentpush.com/blog/consequences-the-conti-leaks-and-future-problems",
+            "date": "2022",
+            "organization": "Silent Push",
+            "author": "Silent Push",
+            "title": "Consequences- The Conti Leaks and future problems",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/log4j-vulnerabilities-attacks",
+            "date": "2021-12-23",
+            "organization": "Symantec",
+            "author": "Siddhesh Chandrayan",
+            "title": "Log4j Vulnerabilities: Attack Insights",
+            "categories": [
+                "Tsunami",
+                "Conti",
+                "Dridex",
+                "Khonsari",
+                "Orcus RAT",
+                "TellYouThePass"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/ransomware-advisory-log4shell-exploitation-for-initial-access-lateral-movement",
+            "date": "2021-12-17",
+            "organization": "Advanced Intelligence",
+            "author": "Vitali Kremez",
+            "title": "Ransomware Advisory: Log4Shell Exploitation for Initial Access & Lateral Movement",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/12/13/diavol-ransomware/",
+            "date": "2021-12-13",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "Diavol Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.darktrace.com/en/blog/the-double-extortion-business-conti-ransomware-gang-finds-new-avenues-of-negotiation/",
+            "date": "2021-12-08",
+            "organization": "Darktrace",
+            "author": "Justin Fier",
+            "title": "The double extortion business: Conti Ransomware Gang finds new avenues of negotiation",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.hse.ie/eng/services/publications/conti-cyber-attack-on-the-hse-full-report.pdf",
+            "date": "2021-12-03",
+            "organization": "HSE",
+            "author": "HSE",
+            "title": "Conti cyber attack on the HSE",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-conti",
+            "date": "2021-12-01",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Ransomware Spotlight: Conti",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/",
+            "date": "2021-11-29",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "CONTInuing the Bazar Ransomware Story",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://redcanary.com/blog/intelligence-insights-november-2021/",
+            "date": "2021-11-18",
+            "organization": "Red Canary",
+            "author": "The Red Canary Team",
+            "title": "Intelligence Insights: November 2021",
+            "categories": [
+                "Andromeda",
+                "Conti",
+                "LockBit",
+                "QakBot",
+                "Squirrelwaffle"
+            ]
+        },
+        {
+            "data_url": "https://blog.qualys.com/vulnerabilities-threat-research/2021/11/18/conti-ransomware",
+            "date": "2021-11-18",
+            "organization": "Qualys",
+            "author": "Ghanshyam More",
+            "title": "Conti Ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.prodaft.com/m/reports/Conti_TLPWHITE_v1.6_WVcSEtc.pdf",
+            "date": "2021-11-18",
+            "organization": "PRODAFT Threat Intelligence",
+            "author": "PRODAFT",
+            "title": "Conti Ransomware Group In-Depth Analysis",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.elliptic.co/blog/conti-ransomware-nets-at-least-25.5-million-in-four-months",
+            "date": "2021-11-18",
+            "organization": "Elliptic",
+            "author": "Elliptic Intel",
+            "title": "Conti Ransomware Nets at Least $25.5 Million in Four Months",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.ironnet.com/blog/ransomware-graphic-blog",
+            "date": "2021-11-16",
+            "organization": "IronNet",
+            "author": "IronNet Threat Research",
+            "title": "How IronNet's Behavioral Analytics Detect REvil and Conti Ransomware",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "IcedID",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://www.truesec.com/hub/blog/proxyshell-qbot-and-conti-ransomware-combined-in-a-series-of-cyber-attacks",
+            "date": "2021-11-15",
+            "organization": "TRUESEC",
+            "author": "Fabio Viggiani",
+            "title": "ProxyShell, QBot, and Conti Ransomware Combined in a Series of Cyberattacks",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://cybersecurity.att.com/blogs/security-essentials/stories-from-the-soc-powershell-proxyshell-conti-ttps-oh-my",
+            "date": "2021-11-10",
+            "organization": "AT&T",
+            "author": "Josh Gomez",
+            "title": "Stories from the SOC - Powershell, Proxyshell, Conti TTPs OH MY!",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/threat-analysis-report-from-shatak-emails-to-the-conti-ransomware",
+            "date": "2021-11-09",
+            "organization": "Cybereason",
+            "author": "Aleksandar Milenkoski",
+            "title": "THREAT ANALYSIS REPORT: From Shatak Emails to the Conti Ransomware",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2021/11/07/conti-ransomware-cheat-sheet/",
+            "date": "2021-11-07",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "CONTI Ransomware: Cheat Sheet",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.unh4ck.com/detection-engineering-and-threat-hunting/lateral-movement/detecting-conti-cobaltstrike-lateral-movement-techniques-part-2",
+            "date": "2021-11-02",
+            "organization": "unh4ck",
+            "author": "Cyb3rSn0rlax",
+            "title": "Detecting CONTI CobaltStrike Lateral Movement Techniques - Part 2",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/shipping-companies-ransomware-credentials",
+            "date": "2021-11-02",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Cybercrime underground flush with shipping companies\u2019 credentials",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.unh4ck.com/detection-engineering-and-threat-hunting/lateral-movement/detecting-conti-cobaltstrike-lateral-movement-techniques-part-1",
+            "date": "2021-10-26",
+            "organization": "unh4ck",
+            "author": "Hamza OUADIA",
+            "title": "Detecting CONTI CobaltStrike Lateral Movement Techniques - Part 1",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2021/10/conti-ransom-gang-starts-selling-access-to-victims/",
+            "date": "2021-10-25",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Conti Ransom Gang Starts Selling Access to Victims",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.huntandhackett.com/blog/advanced-ip-scanner-the-preferred-scanner-in-the-apt-toolbox",
+            "date": "2021-10-22",
+            "organization": "HUNT & HACKETT",
+            "author": "Krijn de Mik",
+            "title": "Advanced IP Scanner: the preferred scanner in the A(P)T toolbox",
+            "categories": [
+                "Conti",
+                "DarkSide",
+                "Dharma",
+                "Egregor",
+                "Hades",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/ransomware-as-a-service-enabler-of-widespread-attacks",
+            "date": "2021-10-05",
+            "organization": "Trend Micro",
+            "author": "Fyodor Yarochkin",
+            "title": "Ransomware as a Service: Enabler of Widespread Attacks",
+            "categories": [
+                "Cerber",
+                "Conti",
+                "DarkSide",
+                "Gandcrab",
+                "Locky",
+                "Nefilim",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/10/04/bazarloader-and-the-conti-leaks/",
+            "date": "2021-10-04",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "BazarLoader and the Conti Leaks",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/backup-removal-solutions-from-conti-ransomware-with-love",
+            "date": "2021-09-29",
+            "organization": "Advanced Intelligence",
+            "author": "Vitali Kremez",
+            "title": "Backup \u201cRemoval\u201d Solutions - From Conti Ransomware With Love",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa21-265a",
+            "date": "2021-09-22",
+            "organization": "CISA",
+            "author": "US-CERT",
+            "title": "Alert (AA21-265A) Conti Ransomware",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/how-big-game-hunting-ttps-shifted-after-darkside-pipeline-attack/",
+            "date": "2021-09-14",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike Intelligence Team",
+            "title": "Big Game Hunting TTPs Continue to Shift After DarkSide Pipeline Attack",
+            "categories": [
+                "BlackMatter",
+                "DarkSide",
+                "REvil",
+                "Avaddon",
+                "BlackMatter",
+                "Clop",
+                "Conti",
+                "CryptoLocker",
+                "DarkSide",
+                "DoppelPaymer",
+                "Hades",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/09/13/bazarloader-to-conti-ransomware-in-32-hours/",
+            "date": "2021-09-13",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "BazarLoader to Conti Ransomware in 32 Hours",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/09/03/conti-affiliates-use-proxyshell-exchange-exploit-in-ransomware-attacks/",
+            "date": "2021-09-03",
+            "organization": "Sophos",
+            "author": "Sean Gallagher",
+            "title": "Conti affiliates use ProxyShell Exchange exploit in ransomware attacks",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/09/Conti-leak-translation.html",
+            "date": "2021-09-02",
+            "organization": "Talos",
+            "author": "Caitlin Huey",
+            "title": "Translated: Talos' insights from the recently leaked Conti ransomware playbook",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.sekoia.io/en/an-insider-insights-into-conti-operations-part-two/",
+            "date": "2021-08-19",
+            "organization": "Sekoia",
+            "author": "sekoia",
+            "title": "An insider insights into Conti operations \u2013 Part two",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.advanced-intel.com/post/hunting-for-corporate-insurance-policies-indicators-of-ransom-exfiltrations",
+            "date": "2021-08-17",
+            "organization": "Advanced Intelligence",
+            "author": "Vitali Kremez",
+            "title": "Hunting for Corporate Insurance Policies: Indicators of [Ransom] Exfiltration",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.sekoia.io/en/an-insider-insights-into-conti-operations-part-one",
+            "date": "2021-08-17",
+            "organization": "Sekoia",
+            "author": "sekoia",
+            "title": "An insider insights into Conti operations \u2013 Part one",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/The_Ransomware_Threat_September_2021.pdf",
+            "date": "2021-08-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "The Ransomware Threat",
+            "categories": [
+                "Babuk",
+                "BlackMatter",
+                "DarkSide",
+                "Avaddon",
+                "Babuk",
+                "BADHATCH",
+                "BazarBackdoor",
+                "BlackMatter",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Egregor",
+                "Emotet",
+                "FiveHands",
+                "FriedEx",
+                "Hades",
+                "IcedID",
+                "LockBit",
+                "Maze",
+                "MegaCortex",
+                "MimiKatz",
+                "QakBot",
+                "RagnarLocker",
+                "REvil",
+                "Ryuk",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.advanced-intel.com/post/secret-backdoor-behind-conti-ransomware-operation-introducing-atera-agent",
+            "date": "2021-08-11",
+            "organization": "Advanced Intelligence",
+            "author": "Vitali Kremez",
+            "title": "Secret \"Backdoor\" Behind Conti Ransomware Operation: Introducing Atera Agent",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=hmaWy9QIC7c",
+            "date": "2021-08-10",
+            "organization": "Youtube (OALabs)",
+            "author": "OALabs",
+            "title": "Leaked Conti Ransomware Playbook - Red Team Reacts",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://lifars.com/wp-content/uploads/2021/10/ContiRansomware_Whitepaper.pdf",
+            "date": "2021-08-10",
+            "organization": "LIFARS",
+            "author": "Vlad Pasca",
+            "title": "A Detailed Analysis of The Last  Version of Conti Ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/affiliate-leaks-conti-ransomware-playbook/168442/",
+            "date": "2021-08-06",
+            "organization": "Threat Post",
+            "author": "Elizabeth Montalbano",
+            "title": "Angry Affiliate Leaks Conti Ransomware Gang Playbook",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://nakedsecurity.sophos.com/2021/08/06/conti-ransomware-affiliate-goes-rogue-leaks-company-data/",
+            "date": "2021-08-06",
+            "organization": "Sophos Naked Security",
+            "author": "Paul Ducklin",
+            "title": "Conti ransomware affiliate goes rogue, leaks \u201cgang data\u201d",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/disgruntled-ransomware-affiliate-leaks-the-conti-gangs-technical-manuals/",
+            "date": "2021-08-05",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Disgruntled ransomware affiliate leaks the Conti gang\u2019s technical manuals",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/AltShiftPrtScn/status/1423188974298861571",
+            "date": "2021-08-05",
+            "organization": "Twitter (@AltShiftPrtScn)",
+            "author": "Peter Mackenzie",
+            "title": "Tweet on Conti ransomware affiliates using AnyDesk, Atera, Splashtop, Remote Utilities and ScreenConnect to maintain network access",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/angry-conti-ransomware-affiliate-leaks-gangs-attack-playbook/",
+            "date": "2021-08-05",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Angry Conti ransomware affiliate leaks gang's attack playbook",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2021/08/ransomware-gangs-and-the-name-game-distraction/",
+            "date": "2021-08-05",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Ransomware Gangs and the Name Game Distraction",
+            "categories": [
+                "DarkSide",
+                "RansomEXX",
+                "Babuk",
+                "Cerber",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Egregor",
+                "FriedEx",
+                "Gandcrab",
+                "Hermes",
+                "Maze",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Sekhmet"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/",
+            "date": "2021-08-01",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "BazarCall to Conti Ransomware via Trickbot and Cobalt Strike",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Conti",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/AltShiftPrtScn/status/1417849181012647938",
+            "date": "2021-07-21",
+            "organization": "Twitter (@AltShiftPrtScn)",
+            "author": "Peter Mackenzie",
+            "title": "Tweet on Conti ransomware actor installing AnyDesk for remote access in victim environment",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://assets.sentinelone.com/ransomware-enterprise/conti-ransomware-unpacked",
+            "date": "2021-07-08",
+            "organization": "SentinelOne",
+            "author": "Idan Weizman",
+            "title": "Conti Unpacked: Understanding Ransomware Development as a Response to Detection - A Detailed Technical Analysis",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/diavol-new-ransomware-used-by-wizard-spider",
+            "date": "2021-07-01",
+            "organization": "Fortinet",
+            "author": "Dor Neemani",
+            "title": "Diavol - A New Ransomware Used By Wizard Spider?",
+            "categories": [
+                "Conti",
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.domaintools.com/resources/blog/the-most-prolific-ransomware-families-a-defenders-guide",
+            "date": "2021-07-01",
+            "organization": "DomainTools",
+            "author": "Chad Anderson",
+            "title": "The Most Prolific Ransomware Families: A Defenders Guide",
+            "categories": [
+                "REvil",
+                "Conti",
+                "Egregor",
+                "Maze",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://www.cynet.com/attack-techniques-hands-on/shelob-moonlight-spinning-a-larger-web/",
+            "date": "2021-06-30",
+            "organization": "Cynet",
+            "author": "Max Malyutin",
+            "title": "Shelob Moonlight \u2013 Spinning a Larger Web From IcedID to CONTI, a Trojan and Ransomware collaboration",
+            "categories": [
+                "Conti",
+                "IcedID"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/conti-ransomware-gang/",
+            "date": "2021-06-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Richard Hickman",
+            "title": "Conti Ransomware Gang: An Overview",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/ransomware-double-extortion-and-beyond-revil-clop-and-conti",
+            "date": "2021-06-15",
+            "organization": "Trend Micro",
+            "author": "Janus Agcaoili",
+            "title": "Ransomware Double Extortion and Beyond: REvil, Clop, and Conti",
+            "categories": [
+                "Clop",
+                "Conti",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/how-to-defend-against-conti-darkside-revil-and-other-ransomware/",
+            "date": "2021-06-02",
+            "organization": "CrowdStrike",
+            "author": "Josh Dalman",
+            "title": "Under Attack: Protecting Against Conti, DarkSide, REvil and Other Ransomware",
+            "categories": [
+                "DarkSide",
+                "Conti",
+                "DarkSide",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://www.ic3.gov/Media/News/2021/210521.pdf",
+            "date": "2021-05-20",
+            "organization": "FBI",
+            "author": "FBI",
+            "title": "Alert Number CP-000147-MW: Conti Ransomware Attacks Impact Healthcare and First Responder Networks",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.ncsc.gov.ie/pdfs/HSE_Conti_140521_UPDATE.pdf",
+            "date": "2021-05-16",
+            "organization": "NCSC Ireland",
+            "author": "NCSC Ireland",
+            "title": "Ransomware Attack on Health Sector - UPDATE 2021-05-16",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/05/12/conti-ransomware/",
+            "date": "2021-05-12",
+            "organization": "",
+            "author": "The DFIR Report",
+            "title": "Conti Ransomware",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "IcedID"
+            ]
+        },
+        {
+            "data_url": "https://docs.google.com/spreadsheets/d/1MI8Z2tBhmqQ5X8Wf_ozv3dVjz5sJOs-3",
+            "date": "2021-05-10",
+            "organization": "DarkTracer",
+            "author": "DarkTracer",
+            "title": "Intelligence Report on Ransomware Gangs on the DarkWeb: List of victim organizations attacked by ransomware gangs released on the DarkWeb",
+            "categories": [
+                "RansomEXX",
+                "Avaddon",
+                "Babuk",
+                "Clop",
+                "Conti",
+                "Cuba",
+                "DarkSide",
+                "DoppelPaymer",
+                "Egregor",
+                "Hades",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "Nefilim",
+                "Nemty",
+                "Pay2Key",
+                "PwndLocker",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Sekhmet",
+                "SunCrypt",
+                "ThunderX"
+            ]
+        },
+        {
+            "data_url": "https://www.cyborgsecurity.com/cyborg_labs/hunting-ransomware-inhibiting-system-backup-or-recovery/",
+            "date": "2021-05-06",
+            "organization": "Cyborg Security",
+            "author": "Brandon Denker",
+            "title": "Ransomware: Hunting for Inhibiting System Backup or Recovery",
+            "categories": [
+                "Avaddon",
+                "Conti",
+                "DarkSide",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "Mespinoza",
+                "Nemty",
+                "PwndLocker",
+                "RagnarLocker",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Snatch",
+                "ThunderX"
+            ]
+        },
+        {
+            "data_url": "https://securityandtechnology.org/wp-content/uploads/2021/04/IST-Ransomware-Task-Force_Final_Report.pdf",
+            "date": "2021-04-29",
+            "organization": "The Institute for Security and Technology",
+            "author": "The Institute for Security and Technology",
+            "title": "Combating Ransomware A Comprehensive Framework for Action: Key Recommendations from the  Ransomware Task Force",
+            "categories": [
+                "Conti",
+                "EternalPetya"
+            ]
+        },
+        {
+            "data_url": "https://www.coveware.com/blog/ransomware-attack-vectors-shift-as-new-software-vulnerability-exploits-abound",
+            "date": "2021-04-26",
+            "organization": "CoveWare",
+            "author": "CoveWare",
+            "title": "Ransomware Attack Vectors Shift as New Software Vulnerability Exploits Abound",
+            "categories": [
+                "Avaddon",
+                "Clop",
+                "Conti",
+                "DarkSide",
+                "Egregor",
+                "LockBit",
+                "Mailto",
+                "Phobos",
+                "REvil",
+                "Ryuk",
+                "SunCrypt"
+            ]
+        },
+        {
+            "data_url": "https://vulnerability.ch/2021/04/ransomware-and-date-leak-site-publication-time-analysis/",
+            "date": "2021-04-25",
+            "organization": "Vulnerability.ch Blog",
+            "author": "Corsin Camichel",
+            "title": "Ransomware and Data Leak Site Publication Time Analysis",
+            "categories": [
+                "Avaddon",
+                "Babuk",
+                "Clop",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Mespinoza",
+                "Nefilim",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://www.mbsd.jp/research/20210413/conti-ransomware/",
+            "date": "2021-04-13",
+            "organization": "MBSD",
+            "author": "Takashi Yoshikawa",
+            "title": "Unraveling the internal structure of the Conti Ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://analyst1.com/blog/ransom-mafia-analysis-of-the-worlds-first-ransomware-cartel",
+            "date": "2021-04-07",
+            "organization": "ANALYST1",
+            "author": "Jon DiMaggio",
+            "title": "Ransom Mafia - Analysis of the World's First Ransomware Cartel",
+            "categories": [
+                "Conti",
+                "Egregor",
+                "LockBit",
+                "Maze",
+                "RagnarLocker",
+                "SunCrypt",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://analyst1.com/file-assets/RANSOM-MAFIA-ANALYSIS-OF-THE-WORLD%E2%80%99S-FIRST-RANSOMWARE-CARTEL.pdf",
+            "date": "2021-04-07",
+            "organization": "ANALYST1",
+            "author": "Jon DiMaggio",
+            "title": "Ransom Mafia Analysis of the World's First Ransomware Cartel",
+            "categories": [
+                "Conti",
+                "Egregor",
+                "LockBit",
+                "Maze",
+                "RagnarLocker",
+                "Ryuk",
+                "SunCrypt",
+                "TA2101",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20210305181115/https://cisoclub.ru/doc/otchet-kompanii-group-ib-ransomware-uncovered-2020-2021/?bp-attachment=group-ib_ransomware_uncovered_2020-2021.pdf",
+            "date": "2021-03",
+            "organization": "Group-IB",
+            "author": "Oleg Skulkin",
+            "title": "Ransomware Uncovered 2020/2021",
+            "categories": [
+                "RansomEXX",
+                "BazarBackdoor",
+                "Buer",
+                "Clop",
+                "Conti",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "IcedID",
+                "Maze",
+                "PwndLocker",
+                "QakBot",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "SDBbot",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2021-CTI-006.pdf",
+            "date": "2021-02-25",
+            "organization": "ANSSI",
+            "author": "CERT-FR",
+            "title": "Ryuk Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Buer",
+                "Conti",
+                "Emotet",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+            "date": "2021-02-23",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2021 Global Threat Report",
+            "categories": [
+                "RansomEXX",
+                "Amadey",
+                "Anchor",
+                "Avaddon",
+                "BazarBackdoor",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "Cutwail",
+                "DanaBot",
+                "DarkSide",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Hakbit",
+                "IcedID",
+                "JSOutProx",
+                "KerrDown",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "NedDnLoader",
+                "Nemty",
+                "Pay2Key",
+                "PlugX",
+                "Pushdo",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "Quasar RAT",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Sekhmet",
+                "ShadowPad",
+                "SmokeLoader",
+                "Snake",
+                "SUNBURST",
+                "SunCrypt",
+                "TEARDROP",
+                "TrickBot",
+                "WastedLocker",
+                "Winnti",
+                "Zloader",
+                "KNOCKOUT SPIDER",
+                "OUTLAW SPIDER",
+                "RIDDLE SPIDER",
+                "SOLAR SPIDER",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/02/16/conti-ransomware-evasive-by-nature/",
+            "date": "2021-02-16",
+            "organization": "SophosLabs Uncut",
+            "author": "Andrew Brandt",
+            "title": "Conti ransomware: Evasive by nature",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/02/16/conti-ransomware-attack-day-by-day/",
+            "date": "2021-02-16",
+            "organization": "SophosLabs Uncut",
+            "author": "Michael Heller",
+            "title": "A Conti ransomware attack day-by-day",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/02/16/what-to-expect-when-youve-been-hit-with-conti-ransomware/",
+            "date": "2021-02-16",
+            "organization": "SophosLabs Uncut",
+            "author": "Peter Mackenzie",
+            "title": "What to expect when you\u2019ve been hit with Conti ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://cti-league.com/wp-content/uploads/2021/02/CTI-League-Darknet-Report-2021.pdf",
+            "date": "2021-02-11",
+            "organization": "CTI LEAGUE",
+            "author": "CTI LEAGUE",
+            "title": "CTIL Darknet Report \u2013 2021",
+            "categories": [
+                "Conti",
+                "Mailto",
+                "Maze",
+                "REvil",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/wp-content/uploads/2021/02/Conti-Ransomware.pdf",
+            "date": "2021-02-04",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "CONTI Modus Operandi and Bitcoin Tracking",
+            "categories": [
+                "Conti",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.cronup.com/post/de-ataque-con-malware-a-incidente-de-ransomware",
+            "date": "2021-02-02",
+            "organization": "CRONUP",
+            "author": "Germ\u00e1n Fern\u00e1ndez",
+            "title": "De ataque con Malware a incidente de Ransomware",
+            "categories": [
+                "Avaddon",
+                "BazarBackdoor",
+                "Buer",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DanaBot",
+                "Dharma",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Empire Downloader",
+                "FriedEx",
+                "GootKit",
+                "IcedID",
+                "MegaCortex",
+                "Nemty",
+                "Phorpiex",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "SDBbot",
+                "SmokeLoader",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/AltShiftPrtScn/status/1350755169965924352",
+            "date": "2021-01-17",
+            "organization": "Twitter (@AltShiftPrtScn)",
+            "author": "Peter Mackenzie",
+            "title": "Tweet on Conti Ransomware group exploiting FortiGate VPNs to drop in CobaltStrike loaders",
+            "categories": [
+                "Cobalt Strike",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/cybereason-vs.-conti-ransomware",
+            "date": "2021-01-12",
+            "organization": "Cybereason",
+            "author": "Lior Rochberger",
+            "title": "Cybereason vs. Conti Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "http://chuongdong.com/reverse%20engineering/2020/12/15/ContiRansomware/",
+            "date": "2020-12-15",
+            "organization": "Chuongdong blog",
+            "author": "Chuong Dong",
+            "title": "Conti Ransomware v2",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://0xthreatintel.medium.com/reversing-conti-ransomware-bfce15019e74",
+            "date": "2020-12-15",
+            "organization": "Medium 0xthreatintel",
+            "author": "0xthreatintel",
+            "title": "Reversing Conti Ransomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://github.com/cdong1012/ContiUnpacker",
+            "date": "2020-12-12",
+            "organization": "Github (cdong1012)",
+            "author": "Chuong Dong",
+            "title": "ContiUnpacker: An automatic unpacker for Conti rasnomware",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/the-malware-that-usually-installs-ransomware-and-you-need-to-remove-right-away/",
+            "date": "2020-11-20",
+            "organization": "ZDNet",
+            "author": "Catalin Cimpanu",
+            "title": "The malware that usually installs ransomware and you need to remove right away",
+            "categories": [
+                "Avaddon",
+                "BazarBackdoor",
+                "Buer",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "FriedEx",
+                "MegaCortex",
+                "Phorpiex",
+                "PwndLocker",
+                "QakBot",
+                "Ryuk",
+                "SDBbot",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://ke-la.com/zooming-into-darknet-threats-targeting-jp-orgs-kela/",
+            "date": "2020-11-18",
+            "organization": "KELA",
+            "author": "Victoria Kivilevich",
+            "title": "Zooming into Darknet Threats Targeting Japanese Organizations",
+            "categories": [
+                "Conti",
+                "DoppelPaymer",
+                "Egregor",
+                "LockBit",
+                "Maze",
+                "REvil",
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://public.intel471.com/blog/ransomware-as-a-service-2020-ryuk-maze-revil-egregor-doppelpaymer/",
+            "date": "2020-11-16",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Ransomware-as-a-service: The pandemic within a pandemic",
+            "categories": [
+                "Avaddon",
+                "Clop",
+                "Conti",
+                "DoppelPaymer",
+                "Egregor",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "Mespinoza",
+                "RagnarLocker",
+                "REvil",
+                "Ryuk",
+                "SunCrypt",
+                "ThunderX"
+            ]
+        },
+        {
+            "data_url": "https://www.hornetsecurity.com/en/security-informationen-en/leakware-ransomware-hybrid-attacks/",
+            "date": "2020-10-23",
+            "organization": "Hornetsecurity",
+            "author": "Hornetsecurity Security Lab",
+            "title": "Leakware-Ransomware-Hybrid Attacks",
+            "categories": [
+                "Avaddon",
+                "Clop",
+                "Conti",
+                "DarkSide",
+                "DoppelPaymer",
+                "Mailto",
+                "Maze",
+                "Mespinoza",
+                "Nefilim",
+                "RagnarLocker",
+                "REvil",
+                "Sekhmet",
+                "SunCrypt"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/",
+            "date": "2020-10-16",
+            "organization": "CrowdStrike",
+            "author": "The Crowdstrike Intel Team",
+            "title": "WIZARD SPIDER Update: Resilient, Reactive and Resolute",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://ke-la.com/to-attack-or-not-to-attack-targeting-the-healthcare-sector-in-the-underground-ecosystem/",
+            "date": "2020-10-01",
+            "organization": "KELA",
+            "author": "Victoria Kivilevich",
+            "title": "To Attack or Not to Attack: Targeting the Healthcare Sector in the Underground Ecosystem",
+            "categories": [
+                "Conti",
+                "DoppelPaymer",
+                "Mailto",
+                "Maze",
+                "REvil",
+                "Ryuk",
+                "SunCrypt"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-services/insights/what-is-behind-ransomware-attacks-increase.html",
+            "date": "2020-09-29",
+            "organization": "PWC UK",
+            "author": "Andy Auld",
+            "title": "What's behind the increase in ransomware attacks this year?",
+            "categories": [
+                "DarkSide",
+                "Avaddon",
+                "Clop",
+                "Conti",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FriedEx",
+                "Mailto",
+                "PwndLocker",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "SMAUG",
+                "SunCrypt",
+                "TrickBot",
+                "WastedLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/ryuk-successor-conti-ransomware-releases-data-leak-site/",
+            "date": "2020-08-25",
+            "organization": "BleepingComputer",
+            "author": "Lawrence Abrams",
+            "title": "Ryuk successor Conti Ransomware releases data leak site",
+            "categories": [
+                "Conti"
+            ]
+        },
+        {
+            "data_url": "https://areteir.com/wp-content/uploads/2020/08/Arete_Insight_Is-Conti-the-new-Ryuk_August2020.pdf",
+            "date": "2020-08-18",
+            "organization": "Arete",
+            "author": "Arete Incident Response",
+            "title": "Is Conti the New Ryuk?",
+            "categories": [
+                "Conti",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://www.carbonblack.com/blog/tau-threat-discovery-conti-ransomware/",
+            "date": "2020-07-08",
+            "organization": "VMWare Carbon Black",
+            "author": "Brian Baskin",
+            "title": "TAU Threat Discovery: Conti Ransomware",
+            "categories": [
+                "Conti"
+            ]
+        }
+    ]
 };

@@ -40,5 +40,80 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "exobot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/new-android-banking-malware-remotely-takes-control-of-your-device/",
+            "date": "2022-04-09",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "New Android banking malware remotely takes control of your device",
+            "categories": [
+                "Coper",
+                "ExoBot"
+            ]
+        },
+        {
+            "data_url": "https://threatfabric.com/blogs/octo-new-odf-banking-trojan.html",
+            "date": "2022-04-08",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "Look out for Octo's tentacles! A new on-device fraud Android Banking Trojan with a rich legacy",
+            "categories": [
+                "Coper",
+                "ExoBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/03/24/coper-banking-trojan/",
+            "date": "2022-03-24",
+            "organization": "Cybleinc",
+            "author": "Cyble",
+            "title": "Coper Banking Trojan: Android Malware Posing As Google Play Store App Installer",
+            "categories": [
+                "Coper",
+                "ExoBot"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/ibm-x-force-delves-into-exobots-leaked-source-code/",
+            "date": "2018-09-10",
+            "organization": "SecurityIntelligence",
+            "author": "Shahar Tavor",
+            "title": "IBM X-Force Delves Into ExoBot\u2019s Leaked Source Code",
+            "categories": [
+                "ExoBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/source-code-for-exobot-android-banking-trojan-leaked-online/",
+            "date": "2018-07-23",
+            "organization": "Bleeping Computer",
+            "author": "Catalin Cimpanu",
+            "title": "Source Code for Exobot Android Banking Trojan Leaked Online",
+            "categories": [
+                "ExoBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/exobot-author-calls-it-quits-and-sells-off-banking-trojan-source-code/",
+            "date": "2018-01-17",
+            "organization": "Bleeping Computer",
+            "author": "Catalin Cimpanu",
+            "title": "Exobot Author Calls It Quits and Sells Off Banking Trojan Source Code",
+            "categories": [
+                "ExoBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/new-exo-android-trojan-sold-on-hacking-forums-dark-web/",
+            "date": "2016-12-09",
+            "organization": "Bleeping Computer",
+            "author": "Catalin Cimpanu",
+            "title": "New Exo Android Trojan Sold on Hacking Forums, Dark Web",
+            "categories": [
+                "ExoBot"
+            ]
+        }
+    ]
 };

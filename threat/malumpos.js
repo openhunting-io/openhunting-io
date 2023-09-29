@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "malumpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://documents.trendmicro.com/images/tex/pdf/MalumPOS%20Technical%20Brief.pdf",
+            "date": "2015-06",
+            "organization": "Trend Micro",
+            "author": "Jay Yaneza",
+            "title": "MalumPOS History and Characteristics",
+            "categories": [
+                "MalumPOS"
+            ]
+        }
+    ]
 };

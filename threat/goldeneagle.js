@@ -39,5 +39,20 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "goldeneagle",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.lookout.com/documents/threat-reports/us/lookout-uyghur-malware-tr-us.pdf",
+            "date": "2020-06",
+            "organization": "Lookout",
+            "author": "Apurva Kumar",
+            "title": "Mobile APT SurveillanceCampaigns Targeting Uyghurs A collection of long-running Android tooling connected to a Chinese mAPT actor",
+            "categories": [
+                "CarbonSteal",
+                "DoubleAgent",
+                "GoldenEagle",
+                "SilkBean"
+            ]
+        }
+    ]
 };

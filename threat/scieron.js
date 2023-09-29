@@ -35,5 +35,59 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "scieron",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://inquest.net/blog/2022/04/07/ukraine-cyberwar-overview",
+            "date": "2022-04-07",
+            "organization": "InQuest",
+            "author": "Will MacArthur",
+            "title": "Ukraine CyberWar Overview",
+            "categories": [
+                "CyclopsBlink",
+                "Cobalt Strike",
+                "GraphSteel",
+                "GrimPlant",
+                "HermeticWiper",
+                "HermeticWizard",
+                "MicroBackdoor",
+                "PartyTicket",
+                "Saint Bot",
+                "Scieron",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/labs/chinese-threat-actor-scarab-targeting-ukraine",
+            "date": "2022-03-24",
+            "organization": "Sentinel LABS",
+            "author": "Tom Hegel",
+            "title": "Chinese Threat Actor Scarab Targeting Ukraine",
+            "categories": [
+                "Scieron",
+                "Scarab"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/labs/chinese-threat-actor-scarab-targeting-ukraine/",
+            "date": "2022-03-24",
+            "organization": "Sentinel LABS",
+            "author": "Tom Hegel",
+            "title": "Chinese Threat Actor Scarab Targeting Ukraine",
+            "categories": [
+                "HeaderTip",
+                "Scieron"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=8bfa7311-fdd9-4f8d-b813-1ab6c9d2c363",
+            "date": "2015-01-22",
+            "organization": "Symantec",
+            "author": "Yi Li",
+            "title": "Scarab attackers took aim at select Russian targets since 2012",
+            "categories": [
+                "Scieron"
+            ]
+        }
+    ]
 };

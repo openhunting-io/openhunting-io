@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "NewCT, CT",
     "category": "Malware",
     "type": "Loader",
-    "modified": "2020-04-23",
+    "modified": "2022-07-18",
     "all_data": {
         "tool": "NewCT",
         "names": [
@@ -36,5 +36,63 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "newct",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/shallowtaurus/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Shallow Taurus",
+            "categories": [
+                "FormerFirstRAT",
+                "IsSpace",
+                "NewCT",
+                "PlugX",
+                "Poison Ivy",
+                "Tidepool",
+                "DragonOK"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-express",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE EXPRESS",
+            "categories": [
+                "9002 RAT",
+                "CHINACHOPPER",
+                "IsSpace",
+                "NewCT",
+                "PlugX",
+                "smac",
+                "APT26"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/wp-operation-quantum-entanglement.pdf",
+            "date": "2014-09-30",
+            "organization": "FireEye",
+            "author": "Thoufique Haq",
+            "title": "OPERATION QUANTUM ENTANGLEMENT",
+            "categories": [
+                "NewCT",
+                "DragonOK"
+            ]
+        },
+        {
+            "data_url": "http://csecybsec.com/download/zlab/20180713_CSE_APT28_X-Agent_Op-Roman%20Holiday-Report_v6_1.pdf",
+            "date": "2014",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "Operation Quantum Entanglement",
+            "categories": [
+                "IsSpace",
+                "NewCT",
+                "Poison Ivy",
+                "SysGet"
+            ]
+        }
+    ]
 };

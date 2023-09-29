@@ -34,5 +34,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "darkpulsar",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://labs.nettitude.com/blog/a-quick-analysis-of-the-latest-shadow-brokers-dump/",
+            "date": "2014-04-17",
+            "organization": "Nettitude Labs",
+            "author": "Nettitude Labs",
+            "title": "A quick analysis of the latest Shadow Brokers dump",
+            "categories": [
+                "DarkPulsar"
+            ]
+        }
+    ]
 };

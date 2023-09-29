@@ -30,5 +30,30 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "darkdew",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/china-nexus-espionage-southeast-asia",
+            "date": "2022-11-28",
+            "organization": "Mandiant",
+            "author": "Ryan Tomcik",
+            "title": "Always Another Secret: Lifting the Haze on China-nexus Espionage in Southeast Asia",
+            "categories": [
+                "BLUEHAZE",
+                "DARKDEW",
+                "MISTCLOAK"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2022/11/03/family-tree-dll-sideloading-cases-may-be-related/",
+            "date": "2022-11-03",
+            "organization": "Sophos",
+            "author": "Gabor Szappanos",
+            "title": "Family Tree: DLL-Sideloading Cases May Be Related",
+            "categories": [
+                "DARKDEW",
+                "MISTCLOAK"
+            ]
+        }
+    ]
 };

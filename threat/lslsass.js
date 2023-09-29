@@ -28,7 +28,29 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "lslsass",
+            "procedure_code": "s0121",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0121",
+            "techniques": [
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1003.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1003/001",
+                    "technique_name": "os credential dumping : lsass memory",
+                    "technique_description": "adversaries may attempt to access credential material stored in the process memory of the local security authority subsystem service (lsass). after a user logs on, the system generates and stores a variety of credential materials in lsass process memory. these credential materials can be harvested by an administrative user or system and used to conduct lateral movement using use alternate authentication material.",
+                    "procedure_description": "lslsass can dump active logon session password hashes from the lsass process.[6]"
+                }
+            ]
+        }
+    ],
     "file_name": "lslsass",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

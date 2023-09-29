@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Spyder",
     "category": "Malware",
     "type": "Backdoor, Loader",
-    "modified": "2022-07-19",
+    "modified": "2023-08-07",
     "all_data": {
         "tool": "Spyder",
         "names": [
@@ -91,5 +91,120 @@ var threatdata = {
     "last_ioc_update": "2023-09-02 23:48:09",
     "mitre": [],
     "file_name": "spyder",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0808.pdf",
+            "date": "2023-08-07",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "RedHotel: A Prolific, Chinese State-Sponsored Group Operating at a Global Scale",
+            "categories": [
+                "Winnti",
+                "Brute Ratel C4",
+                "Cobalt Strike",
+                "FunnySwitch",
+                "PlugX",
+                "ShadowPad",
+                "Spyder"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/operation-cuckoobees-deep-dive-into-stealthy-winnti-techniques",
+            "date": "2022-05-04",
+            "organization": "Cybereason",
+            "author": "Chen Erlich",
+            "title": "Operation CuckooBees: Deep-Dive into Stealthy Winnti Techniques",
+            "categories": [
+                "PRIVATELOG",
+                "Spyder",
+                "STASHLOG",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/operation-cuckoobees-a-winnti-malware-arsenal-deep-dive",
+            "date": "2022-05-04",
+            "organization": "Cybereason",
+            "author": "Chen Erlich",
+            "title": "Operation CuckooBees: A Winnti Malware Arsenal Deep-Dive",
+            "categories": [
+                "PRIVATELOG",
+                "Spyder",
+                "STASHLOG",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://speakerdeck.com/aragorntseng/winnti-is-coming-evolution-after-prosecution-at-hitcon2021",
+            "date": "2021-12-16",
+            "organization": "TEAMT5",
+            "author": "Charles Li",
+            "title": "Winnti is Coming - Evolution after Prosecution",
+            "categories": [
+                "Cobalt Strike",
+                "FishMaster",
+                "FunnySwitch",
+                "HIGHNOON",
+                "ShadowPad",
+                "Spyder"
+            ]
+        },
+        {
+            "data_url": "https://www.recordedfuture.com/chinese-group-tag-22-targets-nepal-philippines-taiwan/",
+            "date": "2021-07-08",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Chinese State-Sponsored Activity Group TAG-22 Targets Nepal, the Philippines, and Taiwan Using Winnti and Other Tooling",
+            "categories": [
+                "ShadowPad",
+                "Spyder",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://hello.global.ntt/-/media/ntt/global/insights/white-papers/the-operations-of-winnti-group.pdf",
+            "date": "2021-04-29",
+            "organization": "NTT",
+            "author": "Threat Detection NTT Ltd.",
+            "title": "The Operations of Winnti group",
+            "categories": [
+                "Cobalt Strike",
+                "ShadowPad",
+                "Spyder",
+                "Winnti",
+                "Earth Lusca"
+            ]
+        },
+        {
+            "data_url": "https://securitynews.sonicwall.com/xmlpost/chinas-winnti-spyder-module/",
+            "date": "2021-03-26",
+            "organization": "SonicWall",
+            "author": "SonicWall CaptureLabs Threats Research Team",
+            "title": "China\u2019s \u201cWinnti\u201d Spyder Module",
+            "categories": [
+                "Spyder"
+            ]
+        },
+        {
+            "data_url": "https://st.drweb.com/static/new-www/news/2021/march/BackDoor.Spyder.1_en.pdf",
+            "date": "2021-03-01",
+            "organization": "Dr.Web",
+            "author": "Dr.Web",
+            "title": "Study of the Spyder modularbackdoor for targeted attacks",
+            "categories": [
+                "Spyder"
+            ]
+        },
+        {
+            "data_url": "https://vms.drweb.com/virus/?i=23648386",
+            "date": "2020-03-01",
+            "organization": "Dr.Web",
+            "author": "Dr.Web",
+            "title": "BackDoor.Spyder.1",
+            "categories": [
+                "Spyder"
+            ]
+        }
+    ]
 };

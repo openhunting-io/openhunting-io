@@ -27,5 +27,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "maintools.js",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://twitter.com/JohnLaTwC/status/915590893155098629",
+            "date": "2017-10-04",
+            "organization": "Twitter (@JohnLaTwC)",
+            "author": "John Lambert",
+            "title": "Tweet on Turla JS backdoor",
+            "categories": [
+                "Maintools.js"
+            ]
+        }
+    ]
 };

@@ -35,5 +35,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "glitchpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.talosintelligence.com/2019/03/glitchpos-new-pos-malware-for-sale.html",
+            "date": "2019-03-13",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "GlitchPOS: New PoS malware for sale",
+            "categories": [
+                "GlitchPOS"
+            ]
+        }
+    ]
 };

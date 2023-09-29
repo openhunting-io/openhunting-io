@@ -39747,7 +39747,2193 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-26 13:36:08",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "agent tesla",
+            "procedure_code": "s0331",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0331",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
+                    "technique_name": "phishing : spearphishing attachment",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "the primary delivered mechanism for agent tesla is through email phishing messages.[2]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1203",
+                    "technique_link": "https://attack.mitre.org/techniques/T1203",
+                    "technique_name": "exploitation for client execution",
+                    "technique_description": "adversaries may exploit software vulnerabilities in client applications to execute code. vulnerabilities can exist in software due to unsecure coding practices that can lead to unanticipated behavior. adversaries can take advantage of certain vulnerabilities through targeted exploitation for the purpose of arbitrary code execution. oftentimes the most valuable exploits to an offensive toolkit are those that can be used to obtain code execution on a remote system because they can be used to gain access to that system. users will expect to see files related to the applications they commonly used to do work, so they are a useful target for exploit research and development because of their high utility.",
+                    "procedure_description": "agent tesla has exploited office vulnerabilities such as cve-2017-11882 and cve-2017-8570 for execution during delivery.[2]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "agent tesla has been executed through malicious e-mail attachments [3]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1047",
+                    "technique_link": "https://attack.mitre.org/techniques/T1047",
+                    "technique_name": "windows management instrumentation",
+                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
+                    "procedure_description": "agent tesla has used wmi queries to gather information from the system.[6]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "agent tesla can add itself to the registry as a startup program to establish persistence.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "agent tesla can add itself to the registry as a startup program to establish persistence.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "agent tesla can inject into known, vulnerable binaries on targeted hosts.[2]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "agent tesla has used process hollowing to create and manipulate processes through sections of unmapped memory by reallocating that space with its malicious code.[3]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "agent tesla has the ability to decrypt strings encrypted with the rijndael symmetric encryption algorithm.[6]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
+                    "technique_name": "hide artifacts : hidden files and directories",
+                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
+                    "procedure_description": "agent tesla has created hidden folders.[4]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/003",
+                    "technique_name": "hide artifacts : hidden window",
+                    "technique_description": "adversaries may use hidden windows to conceal malicious activity from the plain sight of users. in some cases, windows that would typically be displayed when an application carries out an operation can be hidden. this may be utilized by system administrators to avoid disrupting user work environments when carrying out administrative tasks.",
+                    "procedure_description": "agent tesla has used processwindowstyle.hidden to hide windows.[3]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1562.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
+                    "technique_name": "impair defenses : disable or modify tools",
+                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
+                    "procedure_description": "agent tesla has the capability to kill any running analysis processes and av software.[10]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "agent tesla can achieve persistence by modifying registry key entries.[8]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "agent tesla has had its code obfuscated in an apparent attempt to make analysis difficult.[11] agent tesla has used the rijndael symmetric encryption algorithm to encrypt strings.[12]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "agent tesla can inject into known, vulnerable binaries on targeted hosts.[2]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "agent tesla has used process hollowing to create and manipulate processes through sections of unmapped memory by reallocating that space with its malicious code.[3]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.009",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/009",
+                    "technique_name": "system binary proxy execution : regsvcs/regasm",
+                    "technique_description": "adversaries may abuse regsvcs and regasm to proxy execution of code through a trusted windows utility. regsvcs and regasm are windows command-line utilities that are used to register .net component object model (com) assemblies. both are binaries that may be digitally signed by microsoft.",
+                    "procedure_description": "agent tesla has dropped regasm.exe onto systems for performing malicious activity.[5]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "agent tesla has he ability to perform anti-sandboxing and anti-virtualization checks.[3]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555",
+                    "technique_name": "credentials from password stores",
+                    "technique_description": "adversaries may search for common password storage locations to obtain user credentials. passwords are stored in several places on a system, depending on the operating system or application holding the credentials. there are also specific applications that store passwords to make it easier for users manage and maintain. once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
+                    "procedure_description": "agent tesla has the ability to steal credentials from ftp clients and wireless profiles.[1]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555/003",
+                    "technique_name": "credentials from password stores : credentials from web browsers",
+                    "technique_description": "adversaries may acquire credentials from web browsers by reading files specific to the target browser. web browsers commonly save credentials such as website usernames and passwords so that they do not need to be entered manually in the future. web browsers typically store the credentials in an encrypted format within a credential store; however, methods exist to extract plaintext credentials from web browsers.",
+                    "procedure_description": "agent tesla can gather credentials from a number of browsers.[6]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1056.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
+                    "technique_name": "input capture : keylogging",
+                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
+                    "procedure_description": "agent tesla can log keystrokes on the victim\u2019s machine.[5][6][7][8][9]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/001",
+                    "technique_name": "unsecured credentials : credentials in files",
+                    "technique_description": "adversaries may search local file systems and remote file shares for files containing insecurely stored credentials. these can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.",
+                    "procedure_description": "agent tesla has the ability to extract credentials from configuration or support files.[7]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/002",
+                    "technique_name": "unsecured credentials : credentials in registry",
+                    "technique_description": "adversaries may search the registry on compromised systems for insecurely stored credentials. the windows registry stores configuration information that can be used by the system or other programs. adversaries may query the registry looking for credentials and passwords that have been stored for use by other programs or services. sometimes these credentials are used for automatic logons.",
+                    "procedure_description": "agent tesla has the ability to extract credentials from the registry.[2]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1087.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1087/001",
+                    "technique_name": "account discovery : local account",
+                    "technique_description": "adversaries may attempt to get a listing of local system accounts. this information can help adversaries determine which local accounts exist on a system to aid in follow-on behavior.",
+                    "procedure_description": "agent tesla can collect account information from the victim\u2019s machine.[2]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "agent tesla can list the current running processes on the system.[5]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "agent tesla can collect the system's computer name and also has the capability to collect information on the processor, memory, os, and video card from the system.[12][13][14]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "agent tesla can collect the ip address of the victim machine and spawn instances of netsh.exe to enumerate wireless settings.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "agent tesla can collect the username from the victim\u2019s machine.[4][5][6]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1124",
+                    "technique_link": "https://attack.mitre.org/techniques/T1124",
+                    "technique_name": "system time discovery",
+                    "technique_description": "an adversary may gather the system time and/or time zone from a local or remote system. the system time is set and stored by the windows time service within a domain to maintain time synchronization between systems and services in an enterprise network.",
+                    "procedure_description": "agent tesla can collect the timestamp from the victim\u2019s machine.[6]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "agent tesla has he ability to perform anti-sandboxing and anti-virtualization checks.[3]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1560",
+                    "technique_link": "https://attack.mitre.org/techniques/T1560",
+                    "technique_name": "archive collected data",
+                    "technique_description": "an adversary may compress and/or encrypt data that is collected prior to exfiltration. compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender.",
+                    "procedure_description": "agent tesla can encrypt data with 3des before sending it over to a c2 server.[2]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1185",
+                    "technique_link": "https://attack.mitre.org/techniques/T1185",
+                    "technique_name": "browser session hijacking",
+                    "technique_description": "adversaries may take advantage of security vulnerabilities and inherent functionality in browser software to change content, modify user-behaviors, and intercept information as part of various browser session hijacking techniques.",
+                    "procedure_description": "agent tesla has the ability to use form-grabbing to extract data from web data forms.[5]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1115",
+                    "technique_link": "https://attack.mitre.org/techniques/T1115",
+                    "technique_name": "clipboard data",
+                    "technique_description": "adversaries may collect data stored in the clipboard from users copying information within or between applications.",
+                    "procedure_description": "agent tesla can steal data from the victim\u2019s clipboard.[6][7][8][9]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1056.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
+                    "technique_name": "input capture : keylogging",
+                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
+                    "procedure_description": "agent tesla can log keystrokes on the victim\u2019s machine.[5][6][7][8][9]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1113",
+                    "technique_link": "https://attack.mitre.org/techniques/T1113",
+                    "technique_name": "screen capture",
+                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
+                    "procedure_description": "agent tesla can capture screenshots of the victim\u2019s desktop.[3][4][5][6][7]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1125",
+                    "technique_link": "https://attack.mitre.org/techniques/T1125",
+                    "technique_name": "video capture",
+                    "technique_description": "an adversary can leverage a computer's peripheral devices (e.g., integrated cameras or webcams) or applications (e.g., video call services) to capture video recordings for the purpose of gathering information. images may also be captured from devices or applications, potentially in specified intervals, in lieu of video files.",
+                    "procedure_description": "agent tesla can access the victim\u2019s webcam and record video.[2][3]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "agent tesla has used http for c2 communications.[6][7]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/003",
+                    "technique_name": "application layer protocol : mail protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with electronic mail delivery to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "agent tesla has used smtp for c2 communications.[1][2][3]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "agent tesla can download additional files for execution on the victim\u2019s machine.[5][6]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1048.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1048/003",
+                    "technique_name": "exfiltration over alternative protocol : exfiltration over unencrypted non-c2 protocol",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
+                    "procedure_description": "agent tesla has routines for exfiltration over smtp, ftp, and http.[2][3][4]"
+                }
+            ]
+        }
+    ],
     "file_name": "agent_tesla",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://embee-research.ghost.io/agenttesla-full-analysis-api-hashing/",
+            "date": "2023-05-07",
+            "organization": "Twitter (@embee_research)",
+            "author": "Matthew",
+            "title": "AgentTesla - Full Loader Analysis - Resolving API Hashes Using Conditional Breakpoints",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://research.openanalysis.net/dotnet/xorstringsnet/agenttesla/2023/04/16/xorstringsnet.html",
+            "date": "2023-04-16",
+            "organization": "OALabs",
+            "author": "Sergei Frankoff",
+            "title": "XORStringsNet",
+            "categories": [
+                "Agent Tesla",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://blog.checkpoint.com/security/march-2023s-most-wanted-malware-new-emotet-campaign-bypasses-microsoft-blocks-to-distribute-malicious-onenote-files/",
+            "date": "2023-04-10",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "March 2023\u2019s Most Wanted Malware: New Emotet Campaign Bypasses Microsoft Blocks to Distribute Malicious OneNote Files",
+            "categories": [
+                "Agent Tesla",
+                "CloudEyE",
+                "Emotet",
+                "Formbook",
+                "Nanocore RAT",
+                "NjRAT",
+                "QakBot",
+                "Remcos",
+                "Tofsee"
+            ]
+        },
+        {
+            "data_url": "https://www.elastic.co/security-labs/attack-chain-leads-to-xworm-and-agenttesla",
+            "date": "2023-04-07",
+            "organization": "Elastic",
+            "author": "Salim Bitam",
+            "title": "Attack chain leads to XWORM and AGENTTESLA",
+            "categories": [
+                "Agent Tesla",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://research.loginsoft.com/threat-research/from-innocence-to-malice-the-onenote-malware-campaign-uncovered/",
+            "date": "2023-03-30",
+            "organization": "loginsoft",
+            "author": "Saharsh Agrawal",
+            "title": "From Innocence to Malice: The OneNote Malware Campaign Uncovered",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "DOUBLEBACK",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "NetWire RC",
+                "QakBot",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://www.logpoint.com/en/blog/agentteslas-capabilities-review-detection-strategies/",
+            "date": "2023-03-23",
+            "organization": "Logpoint",
+            "author": "Anish Bogati",
+            "title": "Emerging Threats: AgentTesla \u2013 A Review and Detection Strategies",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/ipfs-a-new-data-frontier-or-a-new-cybercriminal-hideout",
+            "date": "2023-03-16",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "IPFS: A New Data Frontier or a New Cybercriminal Hideout?",
+            "categories": [
+                "Agent Tesla",
+                "Formbook",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/following-the-scent-of-trickgate-6-year-old-packer-used-to-deploy-the-most-wanted-malware/",
+            "date": "2023-01-30",
+            "organization": "Checkpoint",
+            "author": "Arie Olshtein",
+            "title": "Following the Scent of TrickGate: 6-Year-Old Packer Used to Deploy the Most Wanted Malware",
+            "categories": [
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Maze",
+                "NetWire RC",
+                "Remcos",
+                "REvil",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.difesaesicurezza.com/cyber/cybercrime-rfq-dalla-turchia-veicola-agenttesla-e-zgrat/",
+            "date": "2023-01-16",
+            "organization": "Difesa & Sicurezza",
+            "author": "Francesco Bussoletti",
+            "title": "Cybercrime, RFQ from Turkey carries AgentTesla and zgRAT",
+            "categories": [
+                "Agent Tesla",
+                "zgRAT"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/Infostealer+Malware+with+Double+Extension/29354",
+            "date": "2022-12-18",
+            "organization": "SANS ISC",
+            "author": "Guy Bruneau",
+            "title": "Infostealer Malware with Double Extension",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.malwarebytes.com/blog/threat-intelligence/2022/20221121-threat-intel-report-final.pdf",
+            "date": "2022-11-21",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes",
+            "title": "2022-11-21 Threat Intel Report",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "Formbook",
+                "Hive",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/inside-the-mind-of-a-rat-agent-tesla-detection-and-analysis.html",
+            "date": "2022-11-16",
+            "organization": "splunk",
+            "author": "Splunk Threat Research Team",
+            "title": "Inside the Mind of a \u2018Rat\u2019 - Agent Tesla Detection and Analysis",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/ipfs-abuse/",
+            "date": "2022-11-09",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "Threat Spotlight: Cyber Criminal Adoption of IPFS for Phishing, Malware Campaigns",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/agent-tesla-malicious-spam-campaign/107478/",
+            "date": "2022-09-23",
+            "organization": "Kaspersky",
+            "author": "Roman Dedenok",
+            "title": "Mass email campaign with a pinch of targeted spam",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://blog.sekoia.io/privateloader-the-loader-of-the-prevalent-ruzki-ppi-service/",
+            "date": "2022-09-15",
+            "organization": "Sekoia",
+            "author": "Threat & Detection Research Team",
+            "title": "PrivateLoader: the loader of the prevalent ruzki PPI service",
+            "categories": [
+                "Agent Tesla",
+                "Coinminer",
+                "DanaBot",
+                "DCRat",
+                "Eternity Stealer",
+                "Glupteba",
+                "Mars Stealer",
+                "NetSupportManager RAT",
+                "Nymaim",
+                "Nymaim2",
+                "Phoenix Keylogger",
+                "PrivateLoader",
+                "Raccoon",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "Socelars",
+                "STOP",
+                "Vidar",
+                "YTStealer"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/originlogger/",
+            "date": "2022-09-13",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jeff White",
+            "title": "OriginLogger: A Look at Agent Tesla\u2019s Successor",
+            "categories": [
+                "Agent Tesla",
+                "OriginLogger"
+            ]
+        },
+        {
+            "data_url": "https://blog.netlab.360.com/purecrypter",
+            "date": "2022-08-29",
+            "organization": "360 netlab",
+            "author": "wanghao",
+            "title": "PureCrypter Loader continues to be active and has spread to more than 10 other families",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Formbook",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/darktortilla-malware-analysis",
+            "date": "2022-08-17",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "DarkTortilla Malware Analysis",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "DarkTortilla",
+                "Nanocore RAT",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2022/07/30/malware-av-evasion-8.html",
+            "date": "2022-07-30",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware AV evasion - part 8. Encode payload via Z85",
+            "categories": [
+                "Agent Tesla",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Cobalt Strike",
+                "donut_injector"
+            ]
+        },
+        {
+            "data_url": "https://cert.gov.ua/article/861292",
+            "date": "2022-07-20",
+            "organization": "Cert-UA",
+            "author": "Cert-UA",
+            "title": "Cyberattack on State Organizations of Ukraine using the topic OK \"South\" and the malicious program AgentTesla (CERT-UA#4987)",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://team-cymru.com/blog/2022/07/12/an-analysis-of-infrastructure-linked-to-the-hagga-threat-actor",
+            "date": "2022-07-12",
+            "organization": "Team Cymru",
+            "author": "Kyle Krejci",
+            "title": "An Analysis of Infrastructure linked to the Hagga Threat Actor",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord (PureCrypter)",
+            "categories": [
+                "Aberebot",
+                "AbstractEmu",
+                "AdoBot",
+                "404 Keylogger",
+                "Agent Tesla",
+                "Amadey",
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "BluStealer",
+                "Formbook",
+                "LimeRAT",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "Quasar RAT",
+                "Raccoon",
+                "RedLine Stealer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2022/05/dot-net-stubs-sowing-the-seeds-of-discord?",
+            "date": "2022-05-19",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": ".NET Stubs: Sowing the Seeds of Discord",
+            "categories": [
+                "Agent Tesla",
+                "Quasar RAT",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/malicious-compiled-html-help-file-agent-tesla/",
+            "date": "2022-05-12",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Tyler Halfpop",
+            "title": "Harmful Help: Analyzing a Malicious Compiled HTML Help File Delivering Agent Tesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-intelligence/2022/05/nigerian-tesla-419-scammer-gone-malware-distributor-unmasked/",
+            "date": "2022-05-05",
+            "organization": "Malwarebytes Labs",
+            "author": "Threat Intelligence Team",
+            "title": "Nigerian Tesla: 419 scammer gone malware distributor unmasked",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/20/malware-pers-1.html",
+            "date": "2022-04-20",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 1. Registry run keys. C++ example.",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "BlackEnergy",
+                "Cobian RAT",
+                "COZYDUKE",
+                "Emotet",
+                "Empire Downloader",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.cisecurity.org/insights/blog/top-10-malware-march-2022",
+            "date": "2022-04-15",
+            "organization": "Center for Internet Security",
+            "author": "CIS",
+            "title": "Top 10 Malware March 2022",
+            "categories": [
+                "Mirai",
+                "Shlayer",
+                "Agent Tesla",
+                "Ghost RAT",
+                "Nanocore RAT",
+                "SectopRAT",
+                "solarmarker",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.checkpoint.com/press/2022/march-2022s-most-wanted-malware-easter-phishing-scams-help-emotet-assert-its-dominance/",
+            "date": "2022-04-12",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "March 2022\u2019s Most Wanted Malware: Easter Phishing Scams Help Emotet Assert its Dominance",
+            "categories": [
+                "Alien",
+                "FluBot",
+                "Agent Tesla",
+                "Emotet"
+            ]
+        },
+        {
+            "data_url": "https://blog.apnic.net/2022/03/31/how-to-detect-and-prevent-common-data-exfiltration-attacks/",
+            "date": "2022-03-31",
+            "organization": "APNIC",
+            "author": "Debashis Pal",
+            "title": "How to: Detect and prevent common data exfiltration attacks",
+            "categories": [
+                "Agent Tesla",
+                "DNSMessenger",
+                "PingBack",
+                "Rising Sun"
+            ]
+        },
+        {
+            "data_url": "https://forensicitguy.github.io/agenttesla-vba-certutil-download/",
+            "date": "2022-03-26",
+            "organization": "forensicitguy",
+            "author": "Tony Lambert",
+            "title": "An AgentTesla Sample Using VBA Macros and Certutil",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://cip.gov.ua/en/news/khto-stoyit-za-kiberatakami-na-ukrayinsku-kritichnu-informaciinu-infrastrukturu-statistika-15-22-bereznya",
+            "date": "2022-03-25",
+            "organization": "GOV.UA",
+            "author": "State Service of Special Communication and Information Protection of Ukraine (CIP)",
+            "title": "Who is behind the Cyberattacks on Ukraine's Critical Information Infrastructure: Statistics for March 15-22",
+            "categories": [
+                "Xloader",
+                "Agent Tesla",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "DoubleZero",
+                "GraphSteel",
+                "GrimPlant",
+                "HeaderTip",
+                "HermeticWiper",
+                "IsaacWiper",
+                "MicroBackdoor",
+                "Pandora RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/fake-purchase-order-used-to-deliver-agent-tesla",
+            "date": "2022-03-07",
+            "organization": "Fortinet",
+            "author": "James Slaughter",
+            "title": "Fake Purchase Order Used to Deliver Agent Tesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.lac.co.jp/lacwatch/report/20220307_002893.html",
+            "date": "2022-03-07",
+            "organization": "LAC WATCH",
+            "author": "Cyber \u200b\u200bEmergency Center",
+            "title": "I CAN'T HEAR YOU NOW! INTERNAL BEHAVIOR OF INFORMATION-STEALING MALWARE AND JSOC DETECTION TRENDS",
+            "categories": [
+                "Xloader",
+                "Agent Tesla",
+                "Formbook",
+                "Loki Password Stealer (PWS)"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/blog/hotforsecurity/bitdefender-labs-sees-increased-malicious-and-scam-activity-exploiting-the-war-in-ukraine",
+            "date": "2022-03-04",
+            "organization": "Bitdefender",
+            "author": "Alina Bizga",
+            "title": "Bitdefender Labs Sees Increased Malicious and Scam Activity Exploiting the War in Ukraine",
+            "categories": [
+                "Agent Tesla",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/russia-ukraine-war-exploited-as-lure-for-malware-distribution/",
+            "date": "2022-03-04",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "Russia-Ukraine war exploited as lure for malware distribution",
+            "categories": [
+                "Agent Tesla",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/X0kAIHOSldiFDthb4IsmbQ",
+            "date": "2022-02-23",
+            "organization": "Weixin",
+            "author": "360 Threat Intelligence Center",
+            "title": "APT-C-58 (Gorgon Group) attack warning",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://forensicitguy.github.io/agenttesla-rtf-dotnet-tradecraft/",
+            "date": "2022-02-06",
+            "organization": "forensicitguy",
+            "author": "Tony Lambert",
+            "title": "AgentTesla From RTF Exploitation to .NET Tradecraft",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://blog.qualys.com/vulnerabilities-threat-research/2022/02/02/catching-the-rat-called-agent-tesla",
+            "date": "2022-02-02",
+            "organization": "Qualys",
+            "author": "Ghanshyam More",
+            "title": "Catching the RAT called Agent Tesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/excel-add-ins-malicious-xll-files-agent-tesla/",
+            "date": "2022-01-25",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Yaron Samuel",
+            "title": "Weaponization of Excel Add-Ins Part 1: Malicious XLL Files and Agent Tesla Case Studies",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.netskope.com/blog/infected-powerpoint-files-using-cloud-services-to-deliver-multiple-malware",
+            "date": "2022-01-24",
+            "organization": "Netskope",
+            "author": "Gustavo Palazolo",
+            "title": "Infected PowerPoint Files Using Cloud Services to Deliver Multiple Malware",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/dtpacker-net-packer-curious-password-1",
+            "date": "2022-01-24",
+            "organization": "Proofpoint",
+            "author": "Proofpoint",
+            "title": "DTPacker \u2013 a .NET Packer with a Curious Password",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://malgamy.github.io/malware-analysis/Deep-Analysis-Agent-Tesla/",
+            "date": "2022-01-21",
+            "organization": "MalGamy",
+            "author": "Gameel Ali",
+            "title": "Deep Analysis Agent Tesla Malware",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://malgamy.github.io/malware-analysis/Deep-Analysis-Agent-Tesla/",
+            "date": "2022-01-12",
+            "organization": "",
+            "author": "MalGamy",
+            "title": "Deep analysis agent tesla malware",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://guillaumeorlando.github.io/GorgonInfectionchain",
+            "date": "2022-01-12",
+            "organization": "",
+            "author": "Guillaume Orlando",
+            "title": "2021 Gorgon Group APT Operation",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://forensicitguy.github.io/a-tale-of-two-dropper-scripts/",
+            "date": "2022-01-03",
+            "organization": "forensicitguy",
+            "author": "Tony Lambert",
+            "title": "A Tale of Two Dropper Scripts for Agent Tesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/28202",
+            "date": "2021-12-31",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Jan Kopriva",
+            "title": "Do you want your Agent Tesla in the 300 MB or 8 kB package?",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/28190",
+            "date": "2021-12-30",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Brad Duncan",
+            "title": "Agent Tesla Updates SMTP Data Exfiltration Technique",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/forums/diary/PowerPoint+attachments+Agent+Tesla+and+code+reuse+in+malware/28154/",
+            "date": "2021-12-20",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Jan Kopriva",
+            "title": "PowerPoint attachments, Agent Tesla and code reuse in malware",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/serverless-infostealer-delivered-in-est-european-countries/",
+            "date": "2021-12-17",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Serverless InfoStealer delivered in Est European Countries",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://youtu.be/QQuRp7Qiuzg",
+            "date": "2021-12-08",
+            "organization": "YouTube ( DuMp-GuY TrIcKsTeR)",
+            "author": "Ji\u0159\u00ed Vinopal",
+            "title": "Full malware analysis Work-Flow of AgentTesla Malware",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://malwarebookreports.com/agent-teslaggah/",
+            "date": "2021-12-06",
+            "organization": "MalwareBookReports",
+            "author": "muzi",
+            "title": "AGENT TESLAGGAH",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/ko/29133/",
+            "date": "2021-12-02",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Spreading AgentTesla through more sophisticated malicious PPT",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://youtu.be/hxaeWyK8gMI",
+            "date": "2021-11-22",
+            "organization": "YouTube ( DuMp-GuY TrIcKsTeR)",
+            "author": "Ji\u0159\u00ed Vinopal",
+            "title": "Powershell and DnSpy tricks in .NET reversing \u2013 AgentTesla [Part1]",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://youtu.be/BM38OshcozE",
+            "date": "2021-11-22",
+            "organization": "YouTube ( DuMp-GuY TrIcKsTeR)",
+            "author": "Ji\u0159\u00ed Vinopal",
+            "title": "Powershell and DnSpy tricks in .NET reversing \u2013 AgentTesla [Part2]",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/office-documents-may-the-xll-technique-change-the-threat-landscape-in-2022/",
+            "date": "2021-11-16",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Office Documents: May the XLL technique change the threat Landscape in 2022?",
+            "categories": [
+                "Agent Tesla",
+                "Dridex",
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "http://l1v1ngc0d3.wordpress.com/2021/11/12/agenttesla-dropped-via-nsis-installer/",
+            "date": "2021-11-12",
+            "organization": "Living Code",
+            "author": "Dominik Degroot",
+            "title": "AgentTesla dropped via NSIS installer",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://inquest.net/blog/2021/11/02/adults-only-malware-lures",
+            "date": "2021-11-02",
+            "organization": "InQuest",
+            "author": "Dmitry Melikov",
+            "title": "Adults Only Malware Lures",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/56e28880",
+            "date": "2021-10-06",
+            "organization": "zimperium",
+            "author": "Jordan Herman",
+            "title": "Malware Distribution with Mana Tools",
+            "categories": [
+                "Agent Tesla",
+                "Azorult"
+            ]
+        },
+        {
+            "data_url": "https://www.telsy.com/download/4832/",
+            "date": "2021-09-15",
+            "organization": "Telsy",
+            "author": "Telsy",
+            "title": "REMCOS and Agent Tesla loaded into memory with Rezer0 loader",
+            "categories": [
+                "Agent Tesla",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blogs.juniper.net/en-us/security/aggah-malware-campaign-expands-to-zendesk-and-github-to-host-its-malware",
+            "date": "2021-09-08",
+            "organization": "Juniper",
+            "author": "Paul Kimayong",
+            "title": "Aggah Malware Campaign Expands to Zendesk and GitHub to Host Its Malware",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
+            "date": "2021-09-06",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "AV engines evasion for C++ simple malware: part 2",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "Anchor",
+                "AnchorMTea",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Felixroot",
+                "Konni",
+                "Loki Password Stealer (PWS)",
+                "Maze"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/40000d46",
+            "date": "2021-07-28",
+            "organization": "RiskIQ",
+            "author": "Jennifer Grob",
+            "title": "Use of XAMPP Web Component to Identify Agent Tesla Infrastructure",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/27666",
+            "date": "2021-07-24",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Xavier Mertens",
+            "title": "Agent.Tesla Dropped via a .daa Image and Talking to Telegram",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "IBM",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "Cipher Tech Solutions",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/the-wayback-campaign-a-large-scale-operation-hiding-in-plain-sight/",
+            "date": "2021-06-29",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "The \"WayBack\u201d Campaign: a Large Scale Operation Hiding in Plain Sight",
+            "categories": [
+                "Agent Tesla",
+                "Cobian RAT",
+                "Oski Stealer"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/another-archive-format-smuggling-malware/",
+            "date": "2021-06-24",
+            "organization": "Trustwave",
+            "author": "Diana Lopera",
+            "title": "Yet Another Archive Format Smuggling Malware",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/06/threat-thursday-agent-tesla-infostealer-malware",
+            "date": "2021-06-24",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research and Intelligence Team",
+            "title": "Threat Thursday: Agent Tesla Infostealer",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "http://blog.nsfocus.net/sweed-611/",
+            "date": "2021-06-11",
+            "organization": "NSFOCUS",
+            "author": "Fuying Laboratory",
+            "title": "Nigerian Hacker Organization SWEED is Distributing Phishing Documents Targeting the Logistics Industry",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/phishing-malware-hijacks-bitcoin-addresses-delivers-new-agent-tesla-variant",
+            "date": "2021-06-04",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Phishing Malware Hijacks Bitcoin Addresses and Delivers New Agent Tesla Variant",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/06/02/amsi-bypasses-remain-tricks-of-the-malware-trade/",
+            "date": "2021-06-02",
+            "organization": "Sophos",
+            "author": "Sean Gallagher",
+            "title": "AMSI bypasses remain tricks of the malware trade",
+            "categories": [
+                "Agent Tesla",
+                "Cobalt Strike",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=Q9_1xNbVQPY",
+            "date": "2021-05-18",
+            "organization": "Youtube (AhmedS Kasmani)",
+            "author": "AhmedS Kasmani",
+            "title": "Malware Analysis: Agent Tesla Part 1/2 Extraction of final payload from dropper.",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.vmray.com/cyber-security-blog/threat-bulletin-agent-tesla/",
+            "date": "2021-05-11",
+            "organization": "VMRay",
+            "author": "VMRay Labs Team",
+            "title": "Threat Bulletin: Exploring the Differences and Similarities of Agent Tesla v2 & v3",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/MsftSecIntel/status/1392219299696152578",
+            "date": "2021-05-11",
+            "organization": "Twitter (@MsftSecIntel)",
+            "author": "Microsoft Security Intelligence",
+            "title": "Tweet on Snip3 crypter delivering AsyncRAT or AgentTesla",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader",
+            "date": "2021-05-07",
+            "organization": "Morphisec",
+            "author": "Nadav Lorber",
+            "title": "Revealing the \u2018Snip3\u2019 Crypter, a Highly Evasive RAT Loader",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "NetWire RC",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/catching-rats-over-custom-protocols",
+            "date": "2021-05-05",
+            "organization": "Zscaler",
+            "author": "Aniruddha Dolas",
+            "title": "Catching RATs Over Custom Protocols Analysis of top non-HTTP/S threats",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "Crimson RAT",
+                "CyberGate",
+                "Ghost RAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/04/21/nearly-half-of-malware-now-use-tls-to-conceal-communications/",
+            "date": "2021-04-21",
+            "organization": "SophosLabs Uncut",
+            "author": "Sean Gallagher",
+            "title": "Nearly half of malware now use TLS to conceal communications",
+            "categories": [
+                "Agent Tesla",
+                "Cobalt Strike",
+                "Dridex",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://menshaway.blogspot.com/2021/04/agenttesla-malware.html",
+            "date": "2021-04-04",
+            "organization": "menshaway blogspot",
+            "author": "Mahmoud Morsy",
+            "title": "Technical report of AgentTesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/03/HP_Bromium_Threat_Insights_Report_Q4_2020.pdf",
+            "date": "2021-03-17",
+            "organization": "HP",
+            "author": "HP Bromium",
+            "title": "Threat Insights Report Q4-2020",
+            "categories": [
+                "Agent Tesla",
+                "BitRAT",
+                "ComodoSec",
+                "Dridex",
+                "Emotet",
+                "Ficker Stealer",
+                "Formbook",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://blog.minerva-labs.com/preventing-agenttesla",
+            "date": "2021-02-25",
+            "organization": "Minerva",
+            "author": "Minerva Labs",
+            "title": "Preventing AgentTelsa Infiltration",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/the-many-roads-leading-to-agent-tesla/",
+            "date": "2021-02-12",
+            "organization": "Trustwave",
+            "author": "Rodel Mendrez",
+            "title": "The Many Roads Leading To Agent Tesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/27092",
+            "date": "2021-02-12",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Xavier Mertens",
+            "title": "AgentTesla Dropped Through Automatic Click in Microsoft Help File",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/27088",
+            "date": "2021-02-11",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Jan Kopriva",
+            "title": "Agent Tesla hidden in a historical anti-malware tool",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.denexus.io/wp-content/uploads/2021/02/Threat-actor-targeting-gas-oil-supply-chains_public.pdf",
+            "date": "2021-01-21",
+            "organization": "DENEXUS",
+            "author": "Markel Picado",
+            "title": "Spear Phishing Targeting ICS Supply Chain - Analysis",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2021/01/12/operation-spalax-targeted-malware-attacks-colombia/",
+            "date": "2021-01-11",
+            "organization": "ESET Research",
+            "author": "Mat\u00edas Porolli",
+            "title": "Operation Spalax: Targeted malware attacks in Colombia",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2021/01/09/c2-traffic-patterns-personal-notes/",
+            "date": "2021-01-09",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Command and Control Traffic Patterns",
+            "categories": [
+                "ostap",
+                "LaZagne",
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cobalt Strike",
+                "DanaBot",
+                "DarkComet",
+                "Dridex",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "ISFB",
+                "NetWire RC",
+                "PlugX",
+                "Quasar RAT",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-galleon",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD GALLEON",
+            "categories": [
+                "Agent Tesla",
+                "HawkEye Keylogger",
+                "Pony",
+                "GOLD GALLEON"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/negasteal-uses-hastebin-for-fileless-delivery-of-crysis-ransomware",
+            "date": "2020-12-18",
+            "organization": "Trend Micro",
+            "author": "Matthew Camacho",
+            "title": "Negasteal Uses Hastebin for Fileless Delivery of Crysis Ransomware",
+            "categories": [
+                "Agent Tesla",
+                "Dharma"
+            ]
+        },
+        {
+            "data_url": "https://cofense.com/strategic-analysis-agent-tesla-expands-targeting-and-networking-capabilities/",
+            "date": "2020-12-15",
+            "organization": "Cofense",
+            "author": "Aaron Riley",
+            "title": "Strategic Analysis: Agent Tesla Expands Targeting and Networking Capabilities",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-345a",
+            "date": "2020-12-10",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Alert (AA20-345A): Cyber Actors Target K-12 Distance Learning Education to Cause Disruptions and Steal Data",
+            "categories": [
+                "PerlBot",
+                "Shlayer",
+                "Agent Tesla",
+                "Cerber",
+                "Dridex",
+                "Ghost RAT",
+                "Kovter",
+                "Maze",
+                "MedusaLocker",
+                "Nanocore RAT",
+                "Nefilim",
+                "REvil",
+                "Ryuk",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/commodity-net-packers-use-embedded-images-hide-payloads",
+            "date": "2020-12-07",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Threat Research Team",
+            "title": "Commodity .NET Packers use Embedded Images to Hide Payloads",
+            "categories": [
+                "Agent Tesla",
+                "Loki Password Stealer (PWS)",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.inde.nz/blog/inside-agenttesla",
+            "date": "2020-12-04",
+            "organization": "Inde",
+            "author": "Chris Campbell",
+            "title": "Inside a .NET Stealer: AgentTesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.telsy.com/wp-content/uploads/ATR_82599-1.pdf",
+            "date": "2020-12-03",
+            "organization": "Telsy",
+            "author": "Telsy Research Team",
+            "title": "When a false flagdoesn\u2019t work: Exploring the digital-crimeunderground at campaign preparation stage",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/aggah-campaigns-latest-tactics-victimology-powerpoint-dropper-and-cryptocurrency-stealer/",
+            "date": "2020-11-27",
+            "organization": "HP",
+            "author": "Alex Holland",
+            "title": "Aggah Campaign\u2019s Latest Tactics: Victimology, PowerPoint Dropper and Cryptocurrency Stealer",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/global-pandemic-remcos-tesla-netwire",
+            "date": "2020-11-18",
+            "organization": "G Data",
+            "author": "G-Data",
+            "title": "Business as usual: Criminal Activities in Times of a Global Pandemic",
+            "categories": [
+                "Agent Tesla",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.sophos.com/en-us/medialibrary/pdfs/technical-papers/sophos-2021-threat-report.pdf",
+            "date": "2020-11-18",
+            "organization": "Sophos",
+            "author": "Sophos",
+            "title": "SOPHOS 2021 THREAT REPORT Navigating cybersecurity in an uncertain world",
+            "categories": [
+                "Agent Tesla",
+                "Dridex",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/agent-tesla-a-day-in-a-life-of-ir",
+            "date": "2020-11-05",
+            "organization": "Morphisec",
+            "author": "Michael Gorelik",
+            "title": "Agent Tesla: A Day in a Life of IR",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.hornetsecurity.com/en/threat-research/vba-purging-malspam-campaigns/",
+            "date": "2020-10-16",
+            "organization": "Hornetsecurity",
+            "author": "Hornetsecurity Security Lab",
+            "title": "VBA Purging Malspam Campaigns",
+            "categories": [
+                "Agent Tesla",
+                "Formbook"
+            ]
+        },
+        {
+            "data_url": "https://blogs.juniper.net/en-us/threat-research/new-pastebin-like-service-used-in-multiple-malware-campaigns",
+            "date": "2020-10-05",
+            "organization": "Juniper",
+            "author": "Paul Kimayong",
+            "title": "New pastebin-like service used in multiple malware campaigns",
+            "categories": [
+                "Agent Tesla",
+                "LimeRAT",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@mariohenkel/decrypting-agenttesla-strings-and-config-b9000b18c996?sk=fcead9538516eeb3daa7b53cb537f6f4",
+            "date": "2020-09-03",
+            "organization": "Medium mariohenkel",
+            "author": "Mario Henkel",
+            "title": "Decrypting AgentTesla strings and config",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://malwatch.github.io/posts/agent-tesla-malware-analysis/",
+            "date": "2020-08-27",
+            "organization": "MalWatch",
+            "author": "MalWatch",
+            "title": "Win.Trojan.AgentTesla - Malware analysis & threat intelligence report",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://lab52.io/blog/a-twisted-malware-infection-chain/",
+            "date": "2020-08-26",
+            "organization": "Lab52",
+            "author": "Jagaimo Kawaii",
+            "title": "A twisted malware infection chain",
+            "categories": [
+                "Agent Tesla",
+                "Loki Password Stealer (PWS)"
+            ]
+        },
+        {
+            "data_url": "https://www.seqrite.com/blog/gorgon-apt-targeting-msme-sector-in-india/",
+            "date": "2020-08-10",
+            "organization": "Seqrite",
+            "author": "Pavankumar Chaudhari",
+            "title": "Gorgon APT targeting MSME sector in India",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/agent-tesla-old-rat-uses-new-tricks-to-stay-on-top/",
+            "date": "2020-08-10",
+            "organization": "SentinelOne",
+            "author": "Jim Walter",
+            "title": "Agent Tesla | Old RAT Uses New Tricks to Stay on Top",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
+            "date": "2020-07-30",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2020",
+            "categories": [
+                "AdWind",
+                "Agent Tesla",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "KPOT Stealer",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Pony",
+                "Raccoon",
+                "RedLine Stealer",
+                "Remcos",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.lastline.com/labsblog/evolution-of-excel-4-0-macro-weaponization/",
+            "date": "2020-06-02",
+            "organization": "Lastline Labs",
+            "author": "James Haughom",
+            "title": "Evolution of Excel 4.0 Macro Weaponization",
+            "categories": [
+                "Agent Tesla",
+                "DanaBot",
+                "ISFB",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/forums/diary/AgentTesla+Delivered+via+a+Malicious+PowerPoint+AddIn/26162/",
+            "date": "2020-05-23",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Xavier Mertens",
+            "title": "AgentTesla Delivered via a Malicious PowerPoint Add-In",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/cyber-criminal-espionage-operation-insists-on-italian-manufacturing/",
+            "date": "2020-05-22",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Cyber-Criminal espionage Operation insists on Italian Manufacturing",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/05/14/raticate/",
+            "date": "2020-05-14",
+            "organization": "SophosLabs",
+            "author": "Markel Picado",
+            "title": "RATicate: an attacker\u2019s waves of information-stealing malware",
+            "categories": [
+                "Agent Tesla",
+                "BetaBot",
+                "BlackRemote",
+                "Formbook",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/cybercrime/2020/04/new-agenttesla-variant-steals-wifi-credentials/",
+            "date": "2020-04-16",
+            "organization": "Malwarebytes",
+            "author": "Hossein Jazi",
+            "title": "New AgentTesla variant steals WiFi credentials",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://mrt4ntr4.github.io/How-Analysing-an-AgentTesla-Could-Lead-To-Attackers-Inbox-2/",
+            "date": "2020-04-15",
+            "organization": "",
+            "author": "Suraj Malhotra",
+            "title": "How Analysing an AgentTesla Could Lead To Attackers Inbox - Part II",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/covid-19-themed-cyber-attacks-target-government-and-medical-organizations/",
+            "date": "2020-04-14",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Adrian McCabe",
+            "title": "Malicious Attackers Target Government and Medical Organizations With COVID-19 Themed Phishing Campaigns",
+            "categories": [
+                "Agent Tesla",
+                "EDA2"
+            ]
+        },
+        {
+            "data_url": "https://mrt4ntr4.github.io/How-Analysing-an-AgentTesla-Could-Lead-To-Attackers-Inbox-1/",
+            "date": "2020-04-13",
+            "organization": "",
+            "author": "Suraj Malhotra",
+            "title": "How Analysing an AgentTesla Could Lead To Attackers Inbox - Part I",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://malwr-analysis.com/2020/04/05/trojan-agent-tesla-malware-analysis/",
+            "date": "2020-04-05",
+            "organization": "MalwrAnalysis",
+            "author": "Anurag",
+            "title": "Trojan Agent Tesla \u2013 Malware Analysis",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/6337984e",
+            "date": "2020-03-24",
+            "organization": "RiskIQ",
+            "author": "Wes Smiley",
+            "title": "Exploring Agent Tesla Infrastructure",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/coronavirus-threat-landscape-update",
+            "date": "2020-03-18",
+            "organization": "Proofpoint",
+            "author": "Axel F",
+            "title": "Coronavirus Threat Landscape Update",
+            "categories": [
+                "Agent Tesla",
+                "Get2",
+                "ISFB",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarelab.pl/posts/basfu_aggah/",
+            "date": "2020-02-26",
+            "organization": "MalwareLab.pl",
+            "author": "Maciej Kotowicz",
+            "title": "(Ab)using bash-fu to analyze recent Aggah sample",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2021/02/02/agent-tesla-amps-up-information-stealing-attacks/",
+            "date": "2020-02-02",
+            "organization": "Sophos Labs",
+            "author": "Sean Gallagher",
+            "title": "Agent Tesla amps up information stealing attacks",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-galleon",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD GALLEON",
+            "categories": [
+                "Agent Tesla",
+                "HawkEye Keylogger",
+                "Pony",
+                "Predator The Thief"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/new-whiteshadow-downloader-uses-microsoft-sql-retrieve-malware",
+            "date": "2019-09-26",
+            "organization": "Proofpoint",
+            "author": "Bryan Campbell",
+            "title": "New WhiteShadow downloader uses Microsoft SQL to retrieve malware",
+            "categories": [
+                "WhiteShadow",
+                "Agent Tesla",
+                "Azorult",
+                "Crimson RAT",
+                "Formbook",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2019/07/sweed-agent-tesla.html",
+            "date": "2019-07-15",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "SWEED: Exposing years of Agent Tesla campaigns",
+            "categories": [
+                "Agent Tesla",
+                "Formbook",
+                "Loki Password Stealer (PWS)",
+                "SWEED"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/gold-galleon-how-a-nigerian-cyber-crew-plunders-the-shipping-industry",
+            "date": "2018-04-18",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "GOLD GALLEON: How a Nigerian Cyber Crew Plunders the Shipping Industry",
+            "categories": [
+                "Agent Tesla",
+                "HawkEye Keylogger",
+                "Pony",
+                "GOLD GALLEON"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/analysis-of-new-agent-tesla-spyware-variant.html",
+            "date": "2018-04-05",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "Analysis of New Agent Tesla Spyware Variant",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://thisissecurity.stormshield.com/2018/01/12/agent-tesla-campaign/",
+            "date": "2018-01-12",
+            "organization": "Stormshield",
+            "author": "R\u00e9mi Jullian",
+            "title": "Analyzing an Agent Tesla campaign: from a word document to the attacker credentials",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/09/unit42-analyzing-various-layers-agentteslas-packing/",
+            "date": "2017-09-25",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jeff White",
+            "title": "Analyzing the Various Layers of AgentTesla\u2019s Packing",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://blog.fortinet.com/2017/06/28/in-depth-analysis-of-net-malware-javaupdtr",
+            "date": "2017-06-28",
+            "organization": "Fortinet",
+            "author": "Xiaopeng Zhang",
+            "title": "In-Depth Analysis of A New Variant of .NET Malware AgentTesla",
+            "categories": [
+                "Agent Tesla"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/research/agent-tesla-keylogger-delivered-using-cybersquatting",
+            "date": "2016-08",
+            "organization": "Zscaler",
+            "author": "Deepen Desai",
+            "title": "Agent Tesla Keylogger delivered using cybersquatting",
+            "categories": [
+                "Agent Tesla"
+            ]
+        }
+    ]
 };

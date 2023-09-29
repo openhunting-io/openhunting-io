@@ -39,5 +39,49 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "babar",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/09/unit42-analysing-10-year-old-snowball/",
+            "date": "2017-09-06",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Dominik Reichel",
+            "title": "Analysing a 10-Year-Old SNOWBALL",
+            "categories": [
+                "Babar"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/a/cyphort.com/file/d/0B9Mrr-en8FX4dzJqLWhDblhseTA/",
+            "date": "2015-02-18",
+            "organization": "Cyphort",
+            "author": "Marion Marschalek",
+            "title": "Shooting Elephants",
+            "categories": [
+                "Babar"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20150218192803/http://www.cyphort.com/babar-suspected-nation-state-spyware-spotlight/",
+            "date": "2015-02-18",
+            "organization": "Cyphort",
+            "author": "Marion Marschalek",
+            "title": "Babar: Suspected Nation State Spyware In The Spotlight",
+            "categories": [
+                "Babar",
+                "Evilbunny",
+                "SNOWGLOBE"
+            ]
+        },
+        {
+            "data_url": "http://www.spiegel.de/media/media-35683.pdf",
+            "date": "2011",
+            "organization": "Spiegel Online",
+            "author": "CSE Canada",
+            "title": "SNOWGLOBE: From Discovery to Attribution",
+            "categories": [
+                "Babar"
+            ]
+        }
+    ]
 };

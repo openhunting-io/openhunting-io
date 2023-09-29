@@ -2344,5 +2344,6 @@ var threatdata = {
     "last_ioc_update": "2022-08-14 11:07:54",
     "mitre": [],
     "file_name": "smsspy",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

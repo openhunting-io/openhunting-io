@@ -30,5 +30,21 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "firemalv",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+            "date": "2015-11",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "ROCKET KIT TEN: A CAMPAIGN WITH 9 LIVES",
+            "categories": [
+                "FireMalv",
+                "MPKBot",
+                "Woolger",
+                "Cleaver",
+                "Rocket Kitten"
+            ]
+        }
+    ]
 };

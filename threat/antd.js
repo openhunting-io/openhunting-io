@@ -33,5 +33,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "antd",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.intezer.com/blog-technical-analysis-cryptocurrency-mining-war-on-the-cloud/",
+            "date": "2019-05-09",
+            "organization": "Intezer",
+            "author": "Ignacio Sanmillan",
+            "title": "Technical Analysis: Pacha Group Competing against Rocke Group for Cryptocurrency Mining Foothold on the Cloud",
+            "categories": [
+                "GreedyAntd",
+                "Pacha Group",
+                "Rocke"
+            ]
+        }
+    ]
 };

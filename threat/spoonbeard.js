@@ -24,5 +24,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "spoonbeard",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

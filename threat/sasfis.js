@@ -221,5 +221,78 @@ var threatdata = {
     "last_ioc_update": "2022-07-14 20:12:39",
     "mitre": [],
     "file_name": "sasfis",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2012/11/tracking-2012-sasfis-campaign",
+            "date": "2012-11-01",
+            "organization": "Virus Bulletin",
+            "author": "Micky Pun",
+            "title": "Tracking the 2012 Sasfis campaign",
+            "categories": [
+                "Asprox",
+                "Sasfis"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/sasfis",
+            "date": "2012-10-09",
+            "organization": "Trend Micro",
+            "author": "Dianne Lagrimas",
+            "title": "SASFIS",
+            "categories": [
+                "Sasfis"
+            ]
+        },
+        {
+            "data_url": "https://www.sophos.com/en-us/threat-center/threat-analyses/viruses-and-spyware/Troj~Sasfis-O/detailed-analysis.aspx",
+            "date": "2011-04-16",
+            "organization": "Sophos",
+            "author": "Sophos",
+            "title": "Troj/Sasfis-O",
+            "categories": [
+                "Sasfis"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/sasfis-malware-uses-a-new-trick/",
+            "date": "2010-05-31",
+            "organization": "Trend Micro",
+            "author": "Joseph Cepe",
+            "title": "SASFIS Malware Uses a New Trick",
+            "categories": [
+                "Sasfis"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/forums/diary/Sasfis+Propagation/8860/",
+            "date": "2010-05-27",
+            "organization": "SANS ISC InfoSec Forums",
+            "author": "Kevin Liston",
+            "title": "Sasfis Propagation",
+            "categories": [
+                "Sasfis"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/security-center/writeup/2010-020210-5440-99",
+            "date": "2010-02-02",
+            "organization": "Symantec",
+            "author": "\u00c9amonn Young",
+            "title": "Trojan.Sasfis",
+            "categories": [
+                "Sasfis"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/sasfis-fizzles-in-the-background/",
+            "date": "2010-01-21",
+            "organization": "Trend Micro",
+            "author": "Loucif Kharouni",
+            "title": "SASFIS Fizzles in the Background",
+            "categories": [
+                "Sasfis"
+            ]
+        }
+    ]
 };

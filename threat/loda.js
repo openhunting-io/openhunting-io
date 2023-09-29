@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Loda, Loda RAT, LodaRAT, Nymeria",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-28",
+    "modified": "2023-03-14",
     "all_data": {
         "tool": "Loda",
         "names": [
@@ -194,7 +194,164 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-10 22:08:44",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ],
     "file_name": "loda",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.talosintelligence.com/yorotrooper-espionage-campaign-cis-turkey-europe/",
+            "date": "2023-03-14",
+            "organization": "Cisco Talos",
+            "author": "Asheer Malhotra",
+            "title": "Talos uncovers espionage campaigns targeting CIS countries, embassies and EU health care agency",
+            "categories": [
+                "Poet RAT",
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/blog/articles/Kasablanka-Group-Probably-Conducted-Compaigns-Targeting-Russia/",
+            "date": "2023-01-17",
+            "organization": "Qianxin",
+            "author": "Red Raindrop Team",
+            "title": "Kasablanka Group Probably Conducted Compaigns Targeting Russia",
+            "categories": [
+                "Ave Maria",
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/reservations-requested-ta558-targets-hospitality-and-travel",
+            "date": "2022-08-18",
+            "organization": "Proofpoint",
+            "author": "Joe Wise",
+            "title": "Reservations Requested: TA558 Targets Hospitality and Travel",
+            "categories": [
+                "AsyncRAT",
+                "Loda",
+                "NjRAT",
+                "Ozone RAT",
+                "Revenge RAT",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/mstwBMkS0G3Et4GOji2mwA",
+            "date": "2022-08-17",
+            "organization": "360",
+            "author": "360 Threat Intelligence Center",
+            "title": "Kasablanka organizes attacks against political groups and non-profit organizations in the Middle East",
+            "categories": [
+                "SpyNote",
+                "Loda",
+                "Nanocore RAT",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.silentpush.com/blog/more-lodarat-infrastructure-targeting-bangladesh-uncovered",
+            "date": "2021-02-15",
+            "organization": "Silent Push",
+            "author": "Martijn Grooten",
+            "title": "More LodaRAT infrastructure targeting Bangladesh uncovered",
+            "categories": [
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/02/kasablanka-lodarat.html",
+            "date": "2021-02-09",
+            "organization": "Talos",
+            "author": "Warren Mercer",
+            "title": "Kasablanka Group's LodaRAT improves espionage capabilities on Android and Windows",
+            "categories": [
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/09/lodarat-update-alive-and-well.html",
+            "date": "2020-09-29",
+            "organization": "Cisco Talos",
+            "author": "Chris Neal",
+            "title": "LodaRAT Update: Alive and Well",
+            "categories": [
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/02/loda-rat-grows-up.html",
+            "date": "2020-02-12",
+            "organization": "Cisco Talos",
+            "author": "Chris Neal",
+            "title": "Loda RAT Grows Up",
+            "categories": [
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://zerophagemalware.com/2018/01/23/maldoc-rtf-drop-loda-logger/",
+            "date": "2018-01-23",
+            "organization": "",
+            "author": "Zerophage",
+            "title": "Maldoc (RTF) drops Loda Logger",
+            "categories": [
+                "Loda"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/introducing-loda-malware",
+            "date": "2017-05-10",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Introducing Loda Malware",
+            "categories": [
+                "Loda"
+            ]
+        }
+    ]
 };

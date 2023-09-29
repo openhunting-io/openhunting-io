@@ -52,5 +52,6 @@ var threatdata = {
     "ioc_data": [],
     "last_ioc_update": null,
     "mitre": [],
-    "file_name": "gon"
+    "file_name": "gon",
+    "articles": []
 };

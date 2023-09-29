@@ -35,5 +35,74 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "zoopark",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-juno",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT JUNO",
+            "categories": [
+                "ZooPark",
+                "COBALT JUNO"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
+            "date": "2019-08-01",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2019",
+            "categories": [
+                "ZooPark",
+                "magecart",
+                "POWERSTATS",
+                "Chaperone",
+                "COMpfun",
+                "EternalPetya",
+                "FinFisher RAT",
+                "HawkEye Keylogger",
+                "HOPLIGHT",
+                "Microcin",
+                "NjRAT",
+                "Olympic Destroyer",
+                "PLEAD",
+                "RokRAT",
+                "Triton",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/whos-who-in-the-zoo/85394/",
+            "date": "2018-05-03",
+            "organization": "Kaspersky Labs",
+            "author": "Alexey Firsh",
+            "title": "Who\u2019s who in the Zoo",
+            "categories": [
+                "ZooPark",
+                "ZooPark"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/05/03114450/ZooPark_for_public_final_edit.pdf",
+            "date": "2018-05-03",
+            "organization": "Kaspersky Labs",
+            "author": "Alexey Firsh",
+            "title": "WHO\u2019S WHO IN THEZOO. CYBERESPIONAGE OPERATION TARGETS ANDROID USERS IN THE MIDDLE EAST.",
+            "categories": [
+                "ZooPark"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/whos-who-in-the-zoo/85394",
+            "date": "2018-05-03",
+            "organization": "Kaspersky Labs",
+            "author": "Alexey Firsh",
+            "title": "Who\u2019s who in the Zoo",
+            "categories": [
+                "ZooPark"
+            ]
+        }
+    ]
 };

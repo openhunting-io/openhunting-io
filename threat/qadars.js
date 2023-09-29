@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Qadars",
     "category": "Malware",
     "type": "Banking trojan, Backdoor, Credential stealer, Botnet",
-    "modified": "2020-05-24",
+    "modified": "2022-04-27",
     "all_data": {
         "tool": "Qadars",
         "names": [
@@ -79,5 +79,127 @@ var threatdata = {
     "last_ioc_update": "2021-04-30 12:55:36",
     "mitre": [],
     "file_name": "qadars",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
+            "date": "2022-04-27",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "LE GROUPE CYBERCRIMINEL FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "SQLRat",
+                "POWERSOURCE",
+                "Andromeda",
+                "BABYMETAL",
+                "BlackCat",
+                "BlackMatter",
+                "BOOSTWRITE",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "Dridex",
+                "DRIFTPIN",
+                "Gameover P2P",
+                "MimiKatz",
+                "Murofet",
+                "Qadars",
+                "Ranbyus",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://info.phishlabs.com/blog/dissecting-the-qadars-banking-trojan",
+            "date": "2017-02-22",
+            "organization": "PhishLabs",
+            "author": "Raashid Bhat",
+            "title": "Dissecting the Qadars Banking Trojan",
+            "categories": [
+                "Qadars"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/meanwhile-britain-qadars-v3-hardens-evasion-targets-18-uk-banks/",
+            "date": "2016-09-20",
+            "organization": "SecurityIntelligence",
+            "author": "Limor Kessem",
+            "title": "Meanwhile in Britain, Qadars v3 Hardens Evasion, Targets 18 UK Banks",
+            "categories": [
+                "Qadars"
+            ]
+        },
+        {
+            "data_url": "https://www.johannesbader.ch/2016/04/the-dga-of-qadars/",
+            "date": "2016-04-12",
+            "organization": "",
+            "author": "Johannes Bader",
+            "title": "The DGA of Qadars v3",
+            "categories": [
+                "Qadars"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/an-analysis-of-the-qadars-trojan/",
+            "date": "2015-07-23",
+            "organization": "SecurityIntelligence",
+            "author": "Igor Aronov",
+            "title": "An Analysis of the Qadars Banking Trojan",
+            "categories": [
+                "Qadars"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2013/12/18/qadars-a-banking-trojan-with-the-netherlands-in-its-sights/",
+            "date": "2013-12-18",
+            "organization": "ESET Research",
+            "author": "Jean-Ian Boutin",
+            "title": "Qadars \u2013 a banking Trojan with the Netherlands in its sights",
+            "categories": [
+                "Qadars"
+            ]
+        }
+    ]
 };

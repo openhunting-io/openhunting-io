@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "DoublePulsar",
     "category": "Malware",
     "type": "Loader",
-    "modified": "2020-05-13",
+    "modified": "2021-06-10",
     "all_data": {
         "tool": "DoublePulsar",
         "names": [
@@ -38,5 +38,31 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "doublepulsar",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/",
+            "date": "2021-06-10",
+            "organization": "ESET Research",
+            "author": "Adam Burgher",
+            "title": "BackdoorDiplomacy: Upgrading from Quarian to Turian",
+            "categories": [
+                "CHINACHOPPER",
+                "DoublePulsar",
+                "EternalRocks",
+                "turian",
+                "BackdoorDiplomacy"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/buckeye-windows-zero-day-exploit",
+            "date": "2019-05-07",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Buckeye: Espionage Outfit Used Equation Group Tools Prior to Shadow Brokers Leak",
+            "categories": [
+                "DoublePulsar"
+            ]
+        }
+    ]
 };

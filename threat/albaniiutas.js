@@ -54,5 +54,58 @@ var threatdata = {
     "last_ioc_update": "2021-03-24 15:29:16",
     "mitre": [],
     "file_name": "albaniiutas",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.group-ib.com/task",
+            "date": "2021-08-03",
+            "organization": "Group-IB",
+            "author": "Anastasia Tikhonova",
+            "title": "The Art of Cyberwarfare Chinese APTs attack Russia",
+            "categories": [
+                "Albaniiutas",
+                "Mail-O",
+                "SManager",
+                "TA428"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia/",
+            "date": "2020-12-09",
+            "organization": "Avast Decoded",
+            "author": "Luigino Camastra",
+            "title": "APT Group Targeting Governmental Agencies in East Asia",
+            "categories": [
+                "Albaniiutas",
+                "HyperBro",
+                "PlugX",
+                "PolPo",
+                "Tmanger"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/luigicamastra/apt-group-targeting-governmental-agencies-in-east-asia",
+            "date": "2020-12-09",
+            "organization": "Avast Decoded",
+            "author": "Luigino Camastra",
+            "title": "APT Group Targeting Governmental Agencies in East Asia",
+            "categories": [
+                "Albaniiutas",
+                "HyperBro",
+                "PlugX",
+                "Tmanger",
+                "TA428"
+            ]
+        },
+        {
+            "data_url": "https://insight-jp.nttsecurity.com/post/102gkfp/pandas-new-arsenal-part-2-albaniiutas",
+            "date": "2020-11-18",
+            "organization": "NTT Security",
+            "author": "Hiroki Hada",
+            "title": "Panda\u2019s New Arsenal: Part 2 Albaniiutas",
+            "categories": [
+                "Albaniiutas"
+            ]
+        }
+    ]
 };

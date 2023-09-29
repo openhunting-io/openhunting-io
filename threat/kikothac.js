@@ -30,5 +30,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "kikothac",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.group-ib.com/resources/threat-research/silence.html",
+            "date": "2019-08",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "Attacks by Silence",
+            "categories": [
+                "Silence DDoS",
+                "Kikothac",
+                "Silence"
+            ]
+        }
+    ]
 };

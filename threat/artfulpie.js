@@ -51,5 +51,33 @@ var threatdata = {
     "last_ioc_update": "2021-05-03 14:05:06",
     "mitre": [],
     "file_name": "artfulpie",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://labs.sentinelone.com/dprk-hidden-cobra-update-north-korean-malicious-cyber-activity/",
+            "date": "2020-02-25",
+            "organization": "SentinelOne",
+            "author": "Jim Walter",
+            "title": "DPRK Hidden Cobra Update: North Korean Malicious Cyber Activity",
+            "categories": [
+                "ARTFULPIE",
+                "BISTROMATH",
+                "BUFFETLINE",
+                "CHEESETRAY",
+                "HOPLIGHT",
+                "HOTCROISSANT",
+                "SLICKSHOES"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-045e",
+            "date": "2020-02-14",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR20-045E): MAR-10271944-2.v1 - North Korean Trojan: ARTFULPIE",
+            "categories": [
+                "ARTFULPIE"
+            ]
+        }
+    ]
 };

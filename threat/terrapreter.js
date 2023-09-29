@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "TerraPreter",
     "category": "Malware",
     "type": "Loader",
-    "modified": "2021-04-24",
+    "modified": "2023-01-24",
     "all_data": {
         "tool": "TerraPreter",
         "names": [
@@ -30,5 +30,49 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "terrapreter",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.esentire.com/web-native-pages/unmasking-venom-spider",
+            "date": "2023-01-24",
+            "organization": "eSentire",
+            "author": "Joe Stewart",
+            "title": "Unmasking Venom Spider",
+            "categories": [
+                "More_eggs",
+                "TerraPreter",
+                "TerraLoader",
+                "VenomLNK"
+            ]
+        },
+        {
+            "data_url": "https://www.esentire.com/security-advisories/hackers-spearphish-professionals-on-linkedin-with-fake-job-offers-infecting-them-with-malware-warns-esentire",
+            "date": "2021-04-05",
+            "organization": "eSentire",
+            "author": "eSentire",
+            "title": "Hackers Spearphish Professionals on LinkedIn with Fake Job Offers, Infecting them with Malware, Warns eSentire",
+            "categories": [
+                "More_eggs",
+                "TerraPreter",
+                "TerraLoader",
+                "VenomLNK"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/",
+            "date": "2020-07-09",
+            "organization": "ESET Research",
+            "author": "Mat\u00edas Porolli",
+            "title": "More evil: A deep look at Evilnum and its toolset",
+            "categories": [
+                "EVILNUM",
+                "More_eggs",
+                "EVILNUM",
+                "TerraPreter",
+                "TerraStealer",
+                "TerraTV",
+                "Evilnum"
+            ]
+        }
+    ]
 };

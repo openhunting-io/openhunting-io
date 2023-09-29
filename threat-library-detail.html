@@ -98,7 +98,7 @@
                                             <span id="informationType" style="color:black;font-size: 0.8rem;"></span>
                                         </div>
                                         <div class="d-flex mb-3">
-                                            <p class="mb-4" id="informationDescription"></p>
+                                            <p class="mb-4" id="informationDescription" style="text-align: justify;"></p>
                                         </div>
                                     </div>
                                 </div>
@@ -113,74 +113,25 @@
                         <div class="row px-xl-5">
                             <div class="col">
                                 <div class="nav nav-tabs justify-content-center border-secondary mb-4">
-                                    <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">Description</a>
-                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Information</a>
-                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
+                                    <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">News</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Indicator of Compromise</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Mitre</a>
                                 </div>
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tab-pane-1">
-                                        <h4 class="mb-3">Product Description</h4>
-                                        <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
-                                        <p>Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
+                                        <h4 class="mb-3" id="title_newsarticle"></h4>
+                                        <!-- Container for the list of articles -->
+                                        <div id="articlesContainer"></div>
                                     </div>
                                     <div class="tab-pane fade" id="tab-pane-2">
-                                        <h4 class="mb-3">Additional Information</h4>
-                                        <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item px-0">
-                                                        Sit erat duo lorem duo ea consetetur, et eirmod takimata.
-                                                    </li>
-                                                    <li class="list-group-item px-0">
-                                                        Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
-                                                    </li>
-                                                    <li class="list-group-item px-0">
-                                                        Duo amet accusam eirmod nonumy stet et et stet eirmod.
-                                                    </li>
-                                                    <li class="list-group-item px-0">
-                                                        Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
-                                                    </li>
-                                                </ul> 
-                                            </div>
-                                            <div class="col-md-6">
-                                                <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item px-0">
-                                                        Sit erat duo lorem duo ea consetetur, et eirmod takimata.
-                                                    </li>
-                                                    <li class="list-group-item px-0">
-                                                        Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
-                                                    </li>
-                                                    <li class="list-group-item px-0">
-                                                        Duo amet accusam eirmod nonumy stet et et stet eirmod.
-                                                    </li>
-                                                    <li class="list-group-item px-0">
-                                                        Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
-                                                    </li>
-                                                </ul> 
-                                            </div>
-                                        </div>
+                                        <h4 class="mb-3" id="title_ioc"></h4>
+                                        <!-- Container for the list of articles -->
+                                        <div id="iocContainer"></div>
                                     </div>
                                     <div class="tab-pane fade" id="tab-pane-3">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h4 class="mb-4">1 review for "Colorful Stylish Shirt"</h4>
-                                                <div class="media mb-4">
-                                                    <!-- <img src="assets/dp/img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;"> -->
-                                                    <div class="media-body">
-                                                        <h6>John Doe<small> - <i>01 Jan 2045</i></small></h6>
-                                                        <div class="text-primary mb-2">
-                                                            <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star-half-alt"></i>
-                                                            <i class="far fa-star"></i>
-                                                        </div>
-                                                        <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <h4 class="mb-3" id="title_mitre"></h4>
+                                        <!-- Container for the list of articles -->
+                                        <div id="mitreContainer"></div>
                                     </div>
                                 </div>
                             </div>
@@ -297,10 +248,124 @@ method:
                 // informationDescription
                 var informationDescription_text = document.getElementById('informationDescription');
                 informationDescription_text.textContent = descriptionThreat;
+            
+                // Articles Tab
+                const articlesContainer = document.getElementById('articlesContainer');
+
+                if(threatdata['articles'].length > 0) {
+                    var title_newsarticle = document.getElementById('title_newsarticle');
+                    title_newsarticle.innerHTML = 'News Article (Credit @<a href="https://malpedia.caad.fkie.fraunhofer.de/">Malpedia</a>)';
+                }
+
+            // Iterate through each article in the threatdata['articles'] array
+                threatdata['articles'].forEach(article => {
+                    // Create a new div for the article
+                    const articleDiv = document.createElement('div');
+                    articleDiv.classList.add('single-article');  // Optional: add a class for styling
+
+                    // Add the title with a link
+                    const articleTitle = document.createElement('a');
+                    articleTitle.href = article.data_url;
+                    articleTitle.innerText = article.title;
+                    articleTitle.target = "_blank";  // Open in new tab
+
+                    // Add the date, organization, and author
+                    const articleInfo = document.createElement('p');
+                    articleInfo.innerText = `${article.date} by ${article.author} from ${article.organization}`;
+
+                    // Append the title and info to the articleDiv
+                    articleDiv.appendChild(articleTitle);
+                    articleDiv.appendChild(articleInfo);
+
+                    // Append the articleDiv to the articlesContainer
+                    articlesContainer.appendChild(articleDiv);
+                });
+
+            //Iterate though each IOC
+            if(threatdata['ioc_data'] && threatdata['ioc_data'].length > 0) {
+                var title_ioc = document.getElementById('title_ioc');
+                title_ioc.innerHTML = 'Indicators of Compromise (Credit @<a href="https://threatfox.abuse.ch">ThreatFox</a>)';
+
+                var iocContainer = document.getElementById('iocContainer');
                 
+                // Create a dictionary to organize the IOCs by their types
+                var categorizedIOCs = {};
+                threatdata['ioc_data'].forEach(data => {
+                    for (var type in data.ioc) {
+                        if (!categorizedIOCs[type]) {
+                            categorizedIOCs[type] = [];
+                        }
+                        data.ioc[type].forEach(iocDetail => {
+                            categorizedIOCs[type].push(iocDetail.value);
+                        });
+                    }
+                });
 
+                // Display each category of IOC
+                for (var type in categorizedIOCs) {
+                    var typeHeader = document.createElement('h5');
+                    typeHeader.innerHTML = type.toUpperCase();
+                    iocContainer.appendChild(typeHeader);
 
-                // 
+                    var iocList = document.createElement('ul');
+                    categorizedIOCs[type].forEach(iocValue => {
+                        var iocItem = document.createElement('li');
+                        iocItem.innerHTML = iocValue;
+                        iocList.appendChild(iocItem);
+                    });
+                    iocContainer.appendChild(iocList);
+                }
+            }
+
+            // Iterate Trough Mitre
+            if(threatdata['mitre'] && threatdata['mitre'].length > 0) {
+                var title_mitre = document.getElementById('title_mitre');
+                title_mitre.innerHTML = 'MITRE Techniques (Credit @<a href="https://attack.mitre.org/">Mitre</a>)';
+
+                var mitreContainer = document.getElementById('mitreContainer');
+
+                threatdata['mitre'].forEach(mitreEntry => {
+                    mitreEntry['techniques'].forEach(technique => {
+                        // Create a header with the technique link, code, and name
+                        var techniqueHeader = document.createElement('p');
+                        techniqueHeader.className = "technique-title";
+                        
+                        var techniqueLink = document.createElement('a');
+                        techniqueLink.href = technique['technique_link'];
+                        techniqueLink.innerText = '[' + technique['technique_code'] + '] ' + technique['technique_name'];
+                        techniqueHeader.appendChild(techniqueLink);
+                        mitreContainer.appendChild(techniqueHeader);
+
+                        // Add the procedure description and the details link
+                        var procedureDesc = document.createElement('p');
+                        procedureDesc.className = "procedure-description";
+                        procedureDesc.innerText = technique['procedure_description'].replace(/\[\d+\]/g, "");
+
+                        var detailsLink = document.createElement('a');
+                        detailsLink.href = "#"; // Link to the source or just use '#' to do nothing on click
+                        detailsLink.className = "details-link";
+                        detailsLink.innerText = "[details]";
+                        detailsLink.addEventListener('click', function(e) {
+                            e.preventDefault(); // Prevent default action
+                            if (techniqueDesc.style.display === "none") {
+                                techniqueDesc.style.display = "block";
+                            } else {
+                                techniqueDesc.style.display = "none";
+                            }
+                        });
+
+                        procedureDesc.appendChild(detailsLink);
+                        mitreContainer.appendChild(procedureDesc);
+
+                        // Add the technique description (initially hidden)
+                        var techniqueDesc = document.createElement('p');
+                        techniqueDesc.className = "technique-description";
+                        techniqueDesc.innerText = technique['technique_description'];
+                        techniqueDesc.style.display = "none";
+                        mitreContainer.appendChild(techniqueDesc);
+                    });
+                });
+            }
 
 
 
@@ -367,6 +432,8 @@ method:
 
             suggestionList.style.display = filteredSuggestions.length > 0 ? "block" : "none";
         }
+
+
 
 
 

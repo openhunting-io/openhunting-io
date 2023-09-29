@@ -36,5 +36,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "gozi_v2",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

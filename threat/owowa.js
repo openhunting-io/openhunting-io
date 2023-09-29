@@ -30,5 +30,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "owowa",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/owowa-credential-stealer-and-remote-access/105219/",
+            "date": "2021-12-14",
+            "organization": "Kaspersky Labs",
+            "author": "Paul Rascagn\u00e8res",
+            "title": "Owowa: the add-on that turns your OWA into a credential stealer and remote access panel",
+            "categories": [
+                "Owowa"
+            ]
+        }
+    ]
 };

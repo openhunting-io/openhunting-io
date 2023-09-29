@@ -33,5 +33,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "desert_scorpion",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

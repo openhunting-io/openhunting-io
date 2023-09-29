@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "ModPipe",
     "category": "Malware",
     "type": "POS malware, Backdoor, Info stealer, Credential stealer, Exfiltration",
-    "modified": "2021-04-24",
+    "modified": "2022-06-02",
     "all_data": {
         "tool": "ModPipe",
         "names": [
@@ -34,5 +34,37 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "modpipe",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.kroll.com/en/insights/publications/cyber/modpipe-pos-malware-new-hooking-targets-extract-card-data",
+            "date": "2022-06-02",
+            "organization": "Kroll",
+            "author": "Sean Straw",
+            "title": "ModPipe POS Malware: New Hooking Targets Extract Card Data",
+            "categories": [
+                "ModPipe"
+            ]
+        },
+        {
+            "data_url": "https://www.foregenix.com/blog/modpipe-malware-has-a-new-module-that-siphons-payment-card-data",
+            "date": "2021-03-23",
+            "organization": "Foregenix",
+            "author": "Niall Newman",
+            "title": "ModPipe Malware has a new module that siphons Credit Card Data",
+            "categories": [
+                "ModPipe"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/11/12/hungry-data-modpipe-backdoor-hits-pos-software-hospitality-sector/",
+            "date": "2020-11-12",
+            "organization": "ESET Research",
+            "author": "Martin Smol\u00e1r",
+            "title": "Hungry for data, ModPipe backdoor hits POS software used in hospitality sector",
+            "categories": [
+                "ModPipe"
+            ]
+        }
+    ]
 };

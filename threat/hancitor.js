@@ -22220,7 +22220,646 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-07-04 11:00:16",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "hancitor",
+            "procedure_code": "s0499",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0499",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
+                    "technique_name": "phishing : spearphishing attachment",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "hancitor has been delivered via phishing emails with malicious attachments.[111]"
+                },
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/002",
+                    "technique_name": "phishing : spearphishing link",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. spearphishing with a link is a specific variant of spearphishing. it is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "hancitor has been delivered via phishing emails which contained malicious links.[57]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
+                    "technique_name": "command and scripting interpreter : powershell",
+                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
+                    "procedure_description": "hancitor has used powershell to execute commands.[113]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "hancitor has used callwindowproc and enumresourcetypesa to interpret and execute shellcode.[88]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/001",
+                    "technique_name": "user execution : malicious link",
+                    "technique_description": "an adversary may rely upon a user clicking a malicious link in order to gain execution. users may be subjected to social engineering to get them to click on a link that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing link. clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via exploitation for client execution. links may also lead users to download files that require execution via malicious file.",
+                    "procedure_description": "hancitor has relied upon users clicking on a malicious link delivered through phishing.[44]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "hancitor has used malicious microsoft word documents, sent via email, which prompted the victim to enable macros.[106]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "hancitor  has added registry run keys to establish persistence.[113]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "hancitor  has added registry run keys to establish persistence.[113]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "hancitor has decoded base64 encoded urls to insert a recipient\u2019s name into the filename of the word document. hancitor has also extracted executables from zip files.[105][106]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "hancitor has deleted files using the vba kill function.[96]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "hancitor has used base64 to encode malicious links. hancitor has also delivered compressed payloads in zip files to victims.[147][148]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/012",
+                    "technique_name": "system binary proxy execution : verclsid",
+                    "technique_description": "adversaries may abuse verclsid.exe to proxy execution of malicious code. verclsid.exe is known as the extension clsid verification host and is responsible for verifying each shell extension before they are used by windows explorer or the windows shell.",
+                    "procedure_description": "hancitor has used verclsid.exe to download and execute a malicious script.[3]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "hancitor has used a macro to check that an activedocument shape object in the lure message is present. if this object is not found, the macro will exit without downloading additional payloads.[15]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "hancitor has used a macro to check that an activedocument shape object in the lure message is present. if this object is not found, the macro will exit without downloading additional payloads.[15]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "hancitor has the ability to download additional files from c2.[209]"
+                }
+            ]
+        },
+        {
+            "procedure_name": "tor",
+            "procedure_code": "s0183",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0183",
+            "techniques": [
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
+                    "technique_name": "encrypted channel : asymmetric cryptography",
+                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
+                    "procedure_description": "tor encapsulates traffic in multiple layers of encryption, using tls by default.[59]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090/003",
+                    "technique_name": "proxy : multi-hop proxy",
+                    "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
+                    "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
+                }
+            ]
+        }
+    ],
     "file_name": "hancitor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.group-ib.com/switching-side-jobs",
+            "date": "2022-08-17",
+            "organization": "Group-IB",
+            "author": "Victor Okorokov",
+            "title": "Switching side jobs Links between ATMZOW JS-sniffer and Hancitor",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://muha2xmad.github.io/malware-analysis/fullHancitor/",
+            "date": "2022-02-12",
+            "organization": "muha2xmad",
+            "author": "Muhammad Hasan Ali",
+            "title": "Full Hancitor malware analysis",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://muha2xmad.github.io/unpacking/hancitor/",
+            "date": "2022-01-08",
+            "organization": "muha2xmad",
+            "author": "Muhammad Hasan Ali",
+            "title": "Unpacking Hancitor malware",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.0ffset.net/reverse-engineering/malware-analysis/hancitor-analysing-the-main-loader/",
+            "date": "2021-12-31",
+            "organization": "0ffset Blog",
+            "author": "Chuong Dong",
+            "title": "HANCITOR: Analysing The Main Loader",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@crovax/extracting-hancitors-configuration-with-ghidra-7963900494b5",
+            "date": "2021-12-28",
+            "organization": "Medium Crovax",
+            "author": "Crovax",
+            "title": "Extracting Hancitor\u2019s Configuration with Ghidra part 1",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.0ffset.net/reverse-engineering/malware-analysis/hancitor-maldoc-analysis/",
+            "date": "2021-11-23",
+            "organization": "0ffset Blog",
+            "author": "Chuong Dong",
+            "title": "HANCITOR: Analysing The Malicious Document",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/",
+            "date": "2021-11-01",
+            "organization": "The DFIR Report",
+            "author": "@iiamaleks",
+            "title": "From Zero to Domain Admin",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://pid4.io/posts/how_to_write_a_hancitor_extractor/",
+            "date": "2021-10-04",
+            "organization": "pid4.io",
+            "author": "James Hovious",
+            "title": "How to Write a Hancitor Extractor in Go",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://github.com/OALabs/Lab-Notes/blob/main/Hancitor/hancitor.ipynb",
+            "date": "2021-10-04",
+            "organization": "Github (OALabs)",
+            "author": "OALabs",
+            "title": "Reverse engineered the Hancitor DLL and built a static config extractor",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.malware-traffic-analysis.net/2021/09/29/index.html",
+            "date": "2021-09-29",
+            "organization": "Malware Traffic Analysis",
+            "author": "Brad Duncan",
+            "title": "Hancitor with Cobalt Strike",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://malware-traffic-analysis.net/2021/09/29/index.html",
+            "date": "2021-09-29",
+            "organization": "Malware Traffic Analysis",
+            "author": "Brad Duncan",
+            "title": "2021-09-29 (Wednesday) - Hancitor with Cobalt Strike",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://cyber-anubis.github.io/malware%20analysis/hancitor/",
+            "date": "2021-09-09",
+            "organization": "Cyber-Anubis",
+            "author": "Nidal Fikri",
+            "title": "Hancitor Loader | RE & Config Extraction",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://blog.group-ib.com/prometheus-tds",
+            "date": "2021-08-05",
+            "organization": "Group-IB",
+            "author": "Viktor Okorokov",
+            "title": "Prometheus TDS The key to success for Campo Loader, Hancitor, IcedID, and QBot",
+            "categories": [
+                "Prometheus Backdoor",
+                "Buer",
+                "campoloader",
+                "Hancitor",
+                "IcedID",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://www.vmray.com/cyber-security-blog/hancitor-multi-step-delivery-process-malware-analysis-spotlight/",
+            "date": "2021-07-20",
+            "organization": "VMRay",
+            "author": "Mateusz Lukaszewski",
+            "title": "Hancitor\u2019s Multi-Step Delivery Process",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/27618",
+            "date": "2021-07-09",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Brad Duncan",
+            "title": "Hancitor tries XLL as initial malware file",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/hancitor-making-use-of-cookies-to-prevent-url-scraping",
+            "date": "2021-07-08",
+            "organization": "McAfee",
+            "author": "McAfee Labs",
+            "title": "Hancitor Making Use of Cookies to Prevent URL Scraping",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/06/28/hancitor-continues-to-push-cobalt-strike/",
+            "date": "2021-06-28",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "Hancitor Continues to Push Cobalt Strike",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://elis531989.medium.com/dissecting-and-automating-hancitors-config-extraction-1a6ed85d99b8",
+            "date": "2021-06-21",
+            "organization": "Medium elis531989",
+            "author": "Eli Salem",
+            "title": "Dissecting and automating Hancitor\u2019s config extraction",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.binarydefense.com/analysis-of-hancitor-when-boring-begets-beacon",
+            "date": "2021-06-17",
+            "organization": "Binary Defense",
+            "author": "Brandon George",
+            "title": "Analysis of Hancitor \u2013 When Boring Begets Beacon",
+            "categories": [
+                "Cobalt Strike",
+                "Ficker Stealer",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.intel471.com/blog/Cobalt-strike-cybercriminals-trickbot-qbot-hancitor",
+            "date": "2021-05-19",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "Look how many cybercriminals love Cobalt Strike",
+            "categories": [
+                "BazarBackdoor",
+                "Cobalt Strike",
+                "Hancitor",
+                "QakBot",
+                "SmokeLoader",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.group-ib.com/hancitor-cuba-ransomware",
+            "date": "2021-05-07",
+            "organization": "Group-IB",
+            "author": "Oleg Skulkin",
+            "title": "Connecting the Bots Hancitor fuels Cuba Ransomware Operations",
+            "categories": [
+                "Cuba",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://inquest.net/blog/2021/04/16/unearthing-hancitor-infrastructure",
+            "date": "2021-04-16",
+            "organization": "InQuest",
+            "author": "Dmitry Melikov",
+            "title": "Unearthing Hancitor Infrastructure",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/wireshark-tutorial-hancitor-followup-malware/",
+            "date": "2021-04-07",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Wireshark Tutorial: Examining Traffic from Hancitor Infections",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/hancitor-infections-cobalt-strike/",
+            "date": "2021-04-01",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Hancitor\u2019s Use of Cobalt Strike and a Noisy Network Ping Tool",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/TheDFIRReport/status/1359669513520873473",
+            "date": "2021-02-11",
+            "organization": "Twitter (@TheDFIRReport)",
+            "author": "The DFIR Report",
+            "title": "Tweet on Hancitor Activity followed by cobaltsrike beacon",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.silentpush.com/blog/pivoting-finding-malware-domains-without-seeing-malicious-activity",
+            "date": "2021-02-01",
+            "organization": "Silent Push",
+            "author": "Martijn Grooten",
+            "title": "Pivoting: finding malware domains without seeing malicious activity",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/forums/diary/Hancitor+activity+resumes+after+a+hoilday+break/26980/",
+            "date": "2021-01-13",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Brad Duncan",
+            "title": "Hancitor activity resumes after a hoilday break",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/man1-moskal-hancitor-and-a-side-of-ransomware-d77b4d991618",
+            "date": "2021-01-10",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "MAN1, Moskal, Hancitor and a side of Ransomware",
+            "categories": [
+                "Cobalt Strike",
+                "Hancitor",
+                "SendSafe",
+                "VegaLocker"
+            ]
+        },
+        {
+            "data_url": "https://www.dodgethissecurity.com/2019/11/01/hancitor-evasive-new-waves-and-how-com-objects-can-use-cached-credentials-for-proxy-authentication/",
+            "date": "2019-11-01",
+            "organization": "Dodge This Security",
+            "author": "Dodge This Security",
+            "title": "Hancitor. Evasive new waves, and how COM objects can use Cached Credentials for Proxy Authentication",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.uperesia.com/hancitor-packer-demystified",
+            "date": "2019-05",
+            "organization": "",
+            "author": "Felix Weyne",
+            "title": "Hancitor's Packer Damystified",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.vkremez.com/2018/11/lets-learn-in-depth-reversing-of.html",
+            "date": "2018-11-05",
+            "organization": "",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: In-Depth Reversing of Hancitor Dropper/Loader: 2016 vs 2018 Malware Progression",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-dissecting-hancitors-latest-2018-packer/",
+            "date": "2018-02-27",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jeff White",
+            "title": "Dissecting Hancitor\u2019s Latest 2018 Packer",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-compromised-servers-fraud-accounts-recent-hancitor-attacks/",
+            "date": "2018-02-07",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Vicky Ray",
+            "title": "Compromised Servers & Fraud Accounts: Recent Hancitor Attacks",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2016/09/hancitor_aka_chanit.html",
+            "date": "2016-09-23",
+            "organization": "FireEye",
+            "author": "Ankit Anubhav",
+            "title": "Hancitor (AKA Chanitor) observed using multiple attack approaches",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2016/08/unit42-vb-dropper-and-shellcode-for-hancitor-reveal-new-techniques-behind-uptick/",
+            "date": "2016-08-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jeff White",
+            "title": "VB Dropper and Shellcode for Hancitor Reveal New Techniques Behind Uptick",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://blog.minerva-labs.com/new-hancitor-pimp-my-downloader",
+            "date": "2016-08-19",
+            "organization": "Minerva Labs",
+            "author": "Minerva Labs Research Team",
+            "title": "New Hancitor Malware: Pimp my Downloaded",
+            "categories": [
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://fidelissecurity.com/threatgeek/archive/me-and-mr-robot-tracking-actor-behind-man1-crypter/",
+            "date": "2016-07-12",
+            "organization": "Fidelis Cybersecurity",
+            "author": "Threat Research Team",
+            "title": "Me and Mr. Robot: Tracking the Actor Behind the MAN1 Crypter",
+            "categories": [
+                "Hancitor",
+                "Vawtrak"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/hancitor-ruckguv-reappear",
+            "date": "2016-05-12",
+            "organization": "Proofpoint",
+            "author": "Axel F",
+            "title": "Hancitor and Ruckguv Reappear, Updated and With Vawtrak On Deck",
+            "categories": [
+                "Hancitor",
+                "Ruckguv"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/research/chanitor-downloader-actively-installing-vawtrak",
+            "date": "2015-01-09",
+            "organization": "Zscaler",
+            "author": "Zscaler",
+            "title": "Chanitor Downloader Actively Installing Vawtrak",
+            "categories": [
+                "Hancitor"
+            ]
+        }
+    ]
 };

@@ -30,5 +30,18 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "scarcruft",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/operation-daybreak/75100/",
+            "date": "2016-06-17",
+            "organization": "Kaspersky Labs",
+            "author": "Costin Raiu",
+            "title": "Operation Daybreak",
+            "categories": [
+                "StarCruft",
+                "APT37"
+            ]
+        }
+    ]
 };

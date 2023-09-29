@@ -34,5 +34,31 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "asruex",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.bushidotoken.net/2020/06/deep-dive-darkhotel-apt.html",
+            "date": "2020-06-14",
+            "organization": "BushidoToken",
+            "author": "BushidoToken",
+            "title": "Deep-dive: The DarkHotel APT",
+            "categories": [
+                "Asruex",
+                "Ghost RAT",
+                "Ramsay",
+                "Retro",
+                "Unidentified 076 (Higaisa LNK to Shellcode)"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/asruex-backdoor-variant-infects-word-documents-and-pdfs-through-old-ms-office-and-adobe-vulnerabilities/",
+            "date": "2019-08-22",
+            "organization": "Trend Micro",
+            "author": "Ian Mercado",
+            "title": "Asruex Backdoor Variant Infects Word Documents and PDFs Through Old MS Office and Adobe Vulnerabilities",
+            "categories": [
+                "Asruex"
+            ]
+        }
+    ]
 };

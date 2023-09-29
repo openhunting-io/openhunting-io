@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Milum",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2021-04-24",
+    "modified": "2021-07-07",
     "all_data": {
         "tool": "Milum",
         "names": [
@@ -30,5 +30,44 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "milum",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/wildpressure-targets-macos/103072/",
+            "date": "2021-07-07",
+            "organization": "Kaspersky",
+            "author": "Denis Legezo",
+            "title": "WildPressure targets the macOS platform",
+            "categories": [
+                "Guard",
+                "Milum"
+            ]
+        },
+        {
+            "data_url": "https://ics-cert.kaspersky.com/media/KASPERSKY_H1_2020_ICS_REPORT_EN.pdf",
+            "date": "2020-09-24",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "Threat landscape for industrial automation systems - H1 2020",
+            "categories": [
+                "Poet RAT",
+                "Mailto",
+                "Milum",
+                "RagnarLocker",
+                "REvil",
+                "Ryuk",
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/wildpressure-targets-industrial-in-the-middle-east/96360/",
+            "date": "2020-03-24",
+            "organization": "Kaspersky Labs",
+            "author": "Denis Legezo",
+            "title": "WildPressure targets industrial-related entities in the Middle East",
+            "categories": [
+                "Milum"
+            ]
+        }
+    ]
 };

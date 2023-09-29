@@ -37,5 +37,31 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "sysget",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/01/unit42-dragonok-updates-toolset-targets-multiple-geographic-regions/",
+            "date": "2017-01-05",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Josh Grunzweig",
+            "title": "DragonOK Updates Toolset and Targets Multiple Geographic Regions",
+            "categories": [
+                "IsSpace",
+                "SysGet"
+            ]
+        },
+        {
+            "data_url": "http://csecybsec.com/download/zlab/20180713_CSE_APT28_X-Agent_Op-Roman%20Holiday-Report_v6_1.pdf",
+            "date": "2014",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "Operation Quantum Entanglement",
+            "categories": [
+                "IsSpace",
+                "NewCT",
+                "Poison Ivy",
+                "SysGet"
+            ]
+        }
+    ]
 };

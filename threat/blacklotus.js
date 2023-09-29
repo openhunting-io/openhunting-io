@@ -34,5 +34,57 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "blacklotus",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://mssplab.github.io/threat-hunting/2023/07/15/malware-src-blacklotus.html",
+            "date": "2023-07-15",
+            "organization": "MSSP Lab",
+            "author": "cocomelonc",
+            "title": "Malware source code investigation: BlackLotus - part 1",
+            "categories": [
+                "BlackLotus"
+            ]
+        },
+        {
+            "data_url": "https://kn0s-organization.gitbook.io/blacklotus-analysis-stage2-bootkit-rootkit-stage/",
+            "date": "2023-05-29",
+            "organization": "",
+            "author": "kn0s-organization",
+            "title": "BlackLotus stage 2 bootkit-rootkit analysis",
+            "categories": [
+                "BlackLotus"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/en-us/security/blog/2023/04/11/guidance-for-investigating-attacks-using-cve-2022-21894-the-blacklotus-campaign/",
+            "date": "2023-04-11",
+            "organization": "Microsoft",
+            "author": "Microsoft Incident Response",
+            "title": "Guidance for investigating attacks using CVE-2022-21894: The BlackLotus campaign",
+            "categories": [
+                "BlackLotus"
+            ]
+        },
+        {
+            "data_url": "https://www.binarly.io/posts/The_Untold_Story_of_the_BlackLotus_UEFI_Bootkit/index.html",
+            "date": "2023-03-09",
+            "organization": "binarly",
+            "author": "Aleksandr Matrosov",
+            "title": "The Untold Story of the BlackLotus UEFI Bootkit",
+            "categories": [
+                "BlackLotus"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2023/03/01/blacklotus-uefi-bootkit-myth-confirmed/",
+            "date": "2023-03-01",
+            "organization": "ESET Research",
+            "author": "Martin Smol\u00e1r",
+            "title": "BlackLotus UEFI bootkit: Myth confirmed",
+            "categories": [
+                "BlackLotus"
+            ]
+        }
+    ]
 };

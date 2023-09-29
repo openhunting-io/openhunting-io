@@ -28,5 +28,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "tofu_backdoor",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Karius",
     "category": "Malware",
     "type": "Banking trojan, Info stealer, Credential stealer",
-    "modified": "2020-05-23",
+    "modified": "2022-08-18",
     "all_data": {
         "tool": "Karius",
         "names": [
@@ -33,5 +33,41 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "karius",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securityintelligence.com/posts/from-ramnit-to-bumblebee-via-neverquest",
+            "date": "2022-08-18",
+            "organization": "IBM",
+            "author": "Charlotte Hammond",
+            "title": "From Ramnit To Bumblebee (via NeverQuest): Similarities and Code Overlap Shed Light On Relationships Between Malware Developers",
+            "categories": [
+                "BumbleBee",
+                "Karius",
+                "Ramnit",
+                "TrickBot",
+                "Vawtrak"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/banking-trojans-development/",
+            "date": "2018-06-06",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "Banking Trojans Under Development",
+            "categories": [
+                "Karius"
+            ]
+        },
+        {
+            "data_url": "https://dissectmalware.wordpress.com/2018/03/28/multi-stage-powershell-script/",
+            "date": "2018-03-28",
+            "organization": "",
+            "author": "Malwrologist",
+            "title": "Multi-stage Powershell script (Brownies)",
+            "categories": [
+                "Karius"
+            ]
+        }
+    ]
 };

@@ -4774,7 +4774,459 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-26 10:46:33",
-    "mitre": [],
+    "mitre": [
+        {
+            "procedure_name": "sliver",
+            "procedure_code": "s0633",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0633",
+            "techniques": [
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1134",
+                    "technique_link": "https://attack.mitre.org/techniques/T1134",
+                    "technique_name": "access token manipulation",
+                    "technique_description": "adversaries may modify access tokens to operate under a different user or system security context to perform actions and bypass access controls. windows uses access tokens to determine the ownership of a running process. a user can manipulate access tokens to make a running process appear as though it is the child of a different process or belongs to someone other than the user that started the process. when this occurs, the process also takes on the security context associated with the new token.",
+                    "procedure_description": "sliver has the ability to manipulate user tokens on targeted windows systems.[22][23]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "sliver can inject code into local and remote processes.[58][59]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1134",
+                    "technique_link": "https://attack.mitre.org/techniques/T1134",
+                    "technique_name": "access token manipulation",
+                    "technique_description": "adversaries may modify access tokens to operate under a different user or system security context to perform actions and bypass access controls. windows uses access tokens to determine the ownership of a running process. a user can manipulate access tokens to make a running process appear as though it is the child of a different process or belongs to someone other than the user that started the process. when this occurs, the process also takes on the security context associated with the new token.",
+                    "procedure_description": "sliver has the ability to manipulate user tokens on targeted windows systems.[22][23]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "sliver can encrypt strings at compile time.[301][302]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "sliver can inject code into local and remote processes.[58][59]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "sliver can enumerate files on a target system.[278]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "sliver has the ability to gather network configuration information.[212]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1049",
+                    "technique_link": "https://attack.mitre.org/techniques/T1049",
+                    "technique_name": "system network connections discovery",
+                    "technique_description": "adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network.",
+                    "procedure_description": "sliver can collect network connection information.[80]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1113",
+                    "technique_link": "https://attack.mitre.org/techniques/T1113",
+                    "technique_name": "screen capture",
+                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
+                    "procedure_description": "sliver can take screenshots of the victim\u2019s active display.[157]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "sliver has the ability to support c2 communications over http/s.[306][307][308]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/004",
+                    "technique_name": "application layer protocol : dns",
+                    "technique_description": "adversaries may communicate using the domain name system (dns) application layer protocol to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "sliver can support c2 communications over dns.[60][61][62]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1132.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1132/001",
+                    "technique_name": "data encoding : standard encoding",
+                    "technique_description": "adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. common data encoding schemes include ascii, unicode, hexadecimal, base64, and mime. some data encoding systems may also result in data compression, such as gzip.",
+                    "procedure_description": "sliver can use standard encoding techniques like gzip and hex to ascii to encode the c2 communication payload.[83]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1001.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1001/002",
+                    "technique_name": "data obfuscation : steganography",
+                    "technique_description": "adversaries may use steganographic techniques to hide command and control traffic to make detection efforts more difficult. steganographic techniques can be used to hide data in digital messages that are transferred between systems. this hidden information can be used for command and control of compromised systems. in some cases, the passing of files embedded using steganography, such as image or document files, can be used for command and control.",
+                    "procedure_description": "sliver can encode binary data into a .png file for c2 communication.[8]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/001",
+                    "technique_name": "encrypted channel : symmetric cryptography",
+                    "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
+                    "procedure_description": "sliver can use aes-gcm-256 to encrypt a session key for c2 message exchange.[122]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
+                    "technique_name": "encrypted channel : asymmetric cryptography",
+                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
+                    "procedure_description": "sliver can use mutual tls and rsa  cryptography to exchange a session key.[48][49][50]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "sliver can upload files from the c2 server to the victim machine using the upload command.[414]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1041",
+                    "technique_link": "https://attack.mitre.org/techniques/T1041",
+                    "technique_name": "exfiltration over c2 channel",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
+                    "procedure_description": "sliver can exfiltrate files from the victim using the download command.[115]"
+                }
+            ]
+        }
+    ],
     "file_name": "sliver",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/en/55652/",
+            "date": "2023-08-01",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "Sliver C2 Being Distributed Through Korean Program Development Company",
+            "categories": [
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q2%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-07-11",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2023",
+            "categories": [
+                "Hydra",
+                "AsyncRAT",
+                "Aurora Stealer",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee"
+            ]
+        },
+        {
+            "data_url": "https://embee-research.ghost.io/shodan-censys-queries/",
+            "date": "2023-06-08",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Practical Queries for Identifying Malware Infrastructure: An informal page for storing Censys/Shodan queries",
+            "categories": [
+                "Amadey",
+                "AsyncRAT",
+                "Cobalt Strike",
+                "QakBot",
+                "Quasar RAT",
+                "Sliver",
+                "solarmarker"
+            ]
+        },
+        {
+            "data_url": "https://www.first.org/resources/papers/conf2023/FIRSTCON23-TLPCLEAR-Staubmann-Busy-Bees.pptx",
+            "date": "2023-06-08",
+            "organization": "VMRay",
+            "author": "Patrick Staubmann",
+            "title": "Busy Bees - The Transformation of BumbleBee",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Conti",
+                "Meterpreter",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.immersivelabs.com/blog/detecting-and-decrypting-sliver-c2-a-threat-hunters-guide/",
+            "date": "2023-04-24",
+            "organization": "Immersive Labs",
+            "author": "Kevin Breen",
+            "title": "Detecting and decrypting Sliver C2 \u2013 a threat hunter\u2019s guide",
+            "categories": [
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-04-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2023",
+            "categories": [
+                "FluBot",
+                "Amadey",
+                "AsyncRAT",
+                "Aurora",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/47088/",
+            "date": "2023-02-06",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "Sliver Malware With BYOVD Distributed Through Sunlogin Vulnerability Exploitations",
+            "categories": [
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://github.com/chronicle/GCTI",
+            "date": "2022-11-03",
+            "organization": "Github (chronicle)",
+            "author": "Chronicle",
+            "title": "GCTI Open Source Detection Signatures",
+            "categories": [
+                "Cobalt Strike",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/bumblebee-increasing-its-capacity-and-evolving-its-ttps/",
+            "date": "2022-10-03",
+            "organization": "Check Point",
+            "author": "Marc Salinas Fernandez",
+            "title": "Bumblebee: increasing its capacity and evolving its TTPs",
+            "categories": [
+                "BumbleBee",
+                "Cobalt Strike",
+                "Meterpreter",
+                "Sliver",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://michaelkoczwara.medium.com/hunting-c2-with-shodan-223ca250d06f",
+            "date": "2022-09-01",
+            "organization": "Medium michaelkoczwara",
+            "author": "Michael Koczwara",
+            "title": "Hunting C2/Adversaries Infrastructure with Shodan and Censys",
+            "categories": [
+                "Brute Ratel C4",
+                "Cobalt Strike",
+                "Deimos",
+                "GRUNT",
+                "IcedID",
+                "Merlin",
+                "Meterpreter",
+                "Nighthawk",
+                "PoshC2",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/08/24/looking-for-the-sliver-lining-hunting-for-emerging-command-and-control-frameworks",
+            "date": "2022-08-24",
+            "organization": "Microsoft",
+            "author": "Microsoft Security Experts",
+            "title": "Looking for the \u2018Sliver\u2019 lining: Hunting for emerging command-and-control frameworks",
+            "categories": [
+                "BumbleBee",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/",
+            "date": "2022-06-15",
+            "organization": "Volexity",
+            "author": "Steven Adair",
+            "title": "DriftingCloud: Zero-Day Sophos Firewall Exploitation and an Insidious Breach",
+            "categories": [
+                "pupy",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://intel471.com/blog/malware-before-ransomware-trojan-information-stealer-cobalt-strike",
+            "date": "2022-05-12",
+            "organization": "Intel 471",
+            "author": "Intel 471",
+            "title": "What malware to look for if you want to prevent a ransomware attack",
+            "categories": [
+                "Conti",
+                "BumbleBee",
+                "Cobalt Strike",
+                "IcedID",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.team-cymru.com/post/sliver-case-study-assessing-common-offensive-security-tools",
+            "date": "2022-04-29",
+            "organization": "Team Cymru",
+            "author": "Joshua Picolet",
+            "title": "Sliver Case Study: Assessing Common Offensive Security Tools The Use of the Sliver C2 Framework for Malicious Purposes",
+            "categories": [
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.telsy.com/download/5900/?uid=b797afdcfb",
+            "date": "2021-12-07",
+            "organization": "Telsy",
+            "author": "Telsy Research Team",
+            "title": "NOBELIUM again or eCrime operation?",
+            "categories": [
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://www.ncsc.gov.uk/files/Advisory%20Further%20TTPs%20associated%20with%20SVR%20cyber%20actors.pdf",
+            "date": "2021-05-07",
+            "organization": "NCSC UK",
+            "author": "NCSC UK",
+            "title": "Further TTPs associated with SVR cyber actors",
+            "categories": [
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://github.com/BishopFox/sliver",
+            "date": "2019-01-17",
+            "organization": "Github (BishopFox)",
+            "author": "BishopFox",
+            "title": "Sliver Implant Framework",
+            "categories": [
+                "Sliver"
+            ]
+        }
+    ]
 };

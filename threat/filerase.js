@@ -30,5 +30,30 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "filerase",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-attackers-employ-new-tool-kit-to-wipe-infected-systems",
+            "date": "2018-12-19",
+            "organization": "McAfee",
+            "author": "Thomas Roccia",
+            "title": "Shamoon Attackers Employ New Tool Kit to Wipe Infected Systems",
+            "categories": [
+                "Filerase"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/shamoon-destructive-threat-re-emerges-new-sting-its-tail",
+            "date": "2018-12-14",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Shamoon: Destructive Threat Re-Emerges with New Sting in its Tail",
+            "categories": [
+                "DistTrack",
+                "Filerase",
+                "StoneDrill",
+                "OilRig"
+            ]
+        }
+    ]
 };

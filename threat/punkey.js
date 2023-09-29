@@ -44,5 +44,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "punkey",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.pandasecurity.com/mediacenter/malware/punkeypos/",
+            "date": "2016-06-23",
+            "organization": "Panda Security",
+            "author": "Panda Security",
+            "title": "POS and Credit Cards: In the Line of Fire with \u201cPunkeyPOS\u201d",
+            "categories": [
+                "Punkey POS"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/New-POS-Malware-Emerges---Punkey/",
+            "date": "2015-04-15",
+            "organization": "Trustwave",
+            "author": "Eric Merritt",
+            "title": "New POS Malware Emerges - Punkey",
+            "categories": [
+                "Punkey POS"
+            ]
+        }
+    ]
 };

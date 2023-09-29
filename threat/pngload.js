@@ -30,5 +30,21 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pngload",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2022/09/06/worok-big-picture/",
+            "date": "2022-09-06",
+            "organization": "ESET Research",
+            "author": "Thibaut Passilly",
+            "title": "Worok: The big picture",
+            "categories": [
+                "MimiKatz",
+                "PNGLoad",
+                "reGeorg",
+                "ShadowPad",
+                "Worok"
+            ]
+        }
+    ]
 };

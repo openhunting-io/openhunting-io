@@ -35,5 +35,19 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "ketrum",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.intezer.com/blog/research/the-evolution-of-apt15s-codebase-2020/",
+            "date": "2020-05-21",
+            "organization": "Intezer",
+            "author": "Paul Litvak",
+            "title": "The Evolution of APT15\u2019s Codebase 2020",
+            "categories": [
+                "Ketrican",
+                "Ketrum",
+                "Okrum"
+            ]
+        }
+    ]
 };

@@ -34,5 +34,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "powerbrace",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://technical.nttsecurity.com/post/102fnog/targeted-trickbot-activity-drops-powerbrace-backdoor",
+            "date": "2019-07-11",
+            "organization": "NTT Security",
+            "author": "NTT Security",
+            "title": "Targeted TrickBot activity drops 'PowerBrace' backdoor",
+            "categories": [
+                "PowerBrace",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://norfolkinfosec.com/osint-reporting-on-dprk-and-ta505-overlap/",
+            "date": "2019-04-10",
+            "organization": "One Night in Norfolk",
+            "author": "Norfolk",
+            "title": "OSINT Reporting Regarding DPRK and TA505 Overlap",
+            "categories": [
+                "PowerBrace"
+            ]
+        }
+    ]
 };

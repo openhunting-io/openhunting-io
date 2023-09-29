@@ -33,5 +33,29 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "tonnerre",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/393/Bitdefender-Whitepaper-Iranian-APT-Makes-a-Comeback-with-Thunder-and-Lightning-Backdoor-and-Espionage-Combo.pdf",
+            "date": "2021-02-18",
+            "organization": "Bitdefender",
+            "author": "Gheorghe Adrian Schipor",
+            "title": "Iranian APT Makes a Comeback with \u201cThunder and Lightning\u201d Backdoor and Espionage Combo",
+            "categories": [
+                "Infy",
+                "Tonnerre"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2021/after-lightning-comes-thunder/",
+            "date": "2021-02-08",
+            "organization": "Checkpoint",
+            "author": "Safebreach Labs",
+            "title": "After Lightning Comes Thunder",
+            "categories": [
+                "Infy",
+                "Tonnerre"
+            ]
+        }
+    ]
 };

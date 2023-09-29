@@ -33,5 +33,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "prb-backdoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://sec0wn.blogspot.com/2018/05/prb-backdoor-fully-loaded-powershell.html",
+            "date": "2018-05-12",
+            "organization": "Security 0wnage",
+            "author": "UnknownUnknown",
+            "title": "PRB-Backdoor - A Fully Loaded PowerShell Backdoor with Evil Intentions",
+            "categories": [
+                "prb_backdoor"
+            ]
+        }
+    ]
 };

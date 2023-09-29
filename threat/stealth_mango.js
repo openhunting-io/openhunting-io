@@ -35,5 +35,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "stealth_mango",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.lookout.com/blog/stealth-mango",
+            "date": "2018-05-18",
+            "organization": "Lookout",
+            "author": "Andrew Blaich",
+            "title": "Stealth Mango and Tangelo: Nation state mobile surveillanceware stealing data from military & government officials",
+            "categories": [
+                "Stealth Mango",
+                "Stealth Mango and Tangelo"
+            ]
+        },
+        {
+            "data_url": "https://www.lookout.com/info/stealth-mango-report-ty",
+            "date": "2018-05-14",
+            "organization": "Lookout",
+            "author": "Lookout",
+            "title": "Stealth Mango & Tangelo Technical Report",
+            "categories": [
+                "Stealth Mango"
+            ]
+        }
+    ]
 };

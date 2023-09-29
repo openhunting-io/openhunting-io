@@ -35,5 +35,23 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pineflower",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/media/17826",
+            "date": "2022-09-07",
+            "organization": "Mandiant",
+            "author": "Mandiant Intelligence",
+            "title": "APT42: Crooked Charms, Cons  and Compromises",
+            "categories": [
+                "PINEFLOWER",
+                "VINETHORN",
+                "VBREVSHELL",
+                "BROKEYOLK",
+                "DOSTEALER",
+                "GHAMBAR",
+                "SILENTUPLOADER"
+            ]
+        }
+    ]
 };

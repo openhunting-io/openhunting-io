@@ -30,5 +30,35 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "listrix",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+            "date": "2017-10-20",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Dragonfly: Western energy sector targeted by sophisticated attack group",
+            "categories": [
+                "Dorshel",
+                "Goodor",
+                "Heriplor",
+                "Karagany",
+                "Listrix",
+                "ENERGETIC BEAR"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group",
+            "date": "2017-10-20",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Dragonfly: Western energy sector targeted by sophisticated attack group",
+            "categories": [
+                "Dorshel",
+                "Heriplor",
+                "Karagany",
+                "Listrix"
+            ]
+        }
+    ]
 };

@@ -266,5 +266,68 @@ var threatdata = {
     "last_ioc_update": "2023-03-24 09:04:51",
     "mitre": [],
     "file_name": "s.o.v.a.",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://liansecurity.com/#/main/news/RWt_ZocBrFZDfCElFqw_/detail",
+            "date": "2023-04-09",
+            "organization": "LianSecurity",
+            "author": "LianSecurity",
+            "title": "Nexus Android Trojan Analysis Report",
+            "categories": [
+                "Nexus",
+                "S.O.V.A."
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2023/03/09/nexus-the-latest-android-banking-trojan-with-sova-connections",
+            "date": "2023-03-09",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "Nexus: The Latest Android Banking Trojan with SOVA Connections",
+            "categories": [
+                "S.O.V.A."
+            ]
+        },
+        {
+            "data_url": "https://muha2xmad.github.io/malware-analysis/sova/",
+            "date": "2022-09-01",
+            "organization": "muha2xmad",
+            "author": "Muhammad Hasan Ali",
+            "title": "Technical analysis of SOVA android malware",
+            "categories": [
+                "S.O.V.A."
+            ]
+        },
+        {
+            "data_url": "https://www.cleafy.com/cleafy-labs/sova-malware-is-back-and-is-evolving-rapidly",
+            "date": "2022-08-11",
+            "organization": "Cleafy",
+            "author": "Francesco Iubatti",
+            "title": "SOVA malware is back and is evolving rapidly",
+            "categories": [
+                "S.O.V.A."
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2021/09/14/deep-dive-analysis-of-s-o-v-a-android-banking-trojan/",
+            "date": "2021-09-14",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "Deep-dive Analysis of S.O.V.A. Android Banking Trojan",
+            "categories": [
+                "S.O.V.A."
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/sova-new-trojan-with-fowl-intentions.html",
+            "date": "2021-09-10",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "S.O.V.A. - A new Android Banking trojan with fowl intentions",
+            "categories": [
+                "S.O.V.A."
+            ]
+        }
+    ]
 };

@@ -28,5 +28,20 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "merdoor",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lancefly-merdoor-zxshell-custom-backdoor",
+            "date": "2023-05-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Lancefly: Group Uses Custom Backdoor to Target Orgs in Government, Aviation, Other Sectors",
+            "categories": [
+                "Merdoor",
+                "PlugX",
+                "ShadowPad",
+                "ZXShell"
+            ]
+        }
+    ]
 };

@@ -32,5 +32,28 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "scanpos",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2016-11-15-scanpos.md",
+            "date": "2016-11-15",
+            "organization": "",
+            "author": "Nick Hoffman",
+            "title": "ScanPOS, new POS malware being distributed by Kronos",
+            "categories": [
+                "ScanPOS"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/kronos-banking-trojan-used-to-deliver-new-point-of-sale-malware",
+            "date": "2016-11-15",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Kronos Banking Trojan Used to Deliver New Point-of-Sale Malware",
+            "categories": [
+                "Kronos",
+                "ScanPOS"
+            ]
+        }
+    ]
 };

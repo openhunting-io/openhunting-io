@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "YamaBot, Kaos",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-28",
+    "modified": "2023-05-25",
     "all_data": {
         "tool": "YamaBot",
         "names": [
@@ -33,5 +33,58 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "yamabot",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.youtube.com/watch?v=nUjxH1gW53s",
+            "date": "2023-05-25",
+            "organization": "YouTube (BSidesCharm)",
+            "author": "Asheer Malhotra",
+            "title": "it\u2019s all Magic(RAT) \u2013 A look into recent North Korean nation-state attacks",
+            "categories": [
+                "MagicRAT",
+                "VSingle",
+                "YamaBot"
+            ]
+        },
+        {
+            "data_url": "https://media.defense.gov/2023/Feb/09/2003159161/-1/-1/0/CSA_RANSOMWARE_ATTACKS_ON_CI_FUND_DPRK_ACTIVITIES.PDF",
+            "date": "2023-02-09",
+            "organization": "",
+            "author": "NSA",
+            "title": "#StopRansomware: Ransomware Attacks on Critical Infrastructure Fund DPRK Malicious Cyber Activities",
+            "categories": [
+                "Dtrack",
+                "MagicRAT",
+                "Maui Ransomware",
+                "SiennaBlue",
+                "SiennaPurple",
+                "Tiger RAT",
+                "YamaBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/09/lazarus-three-rats.html",
+            "date": "2022-09-08",
+            "organization": "Cisco Talos",
+            "author": "Jung soo An",
+            "title": "Lazarus and the tale of three RATs",
+            "categories": [
+                "MagicRAT",
+                "MimiKatz",
+                "VSingle",
+                "YamaBot"
+            ]
+        },
+        {
+            "data_url": "https://blogs.jpcert.or.jp/en/2022/07/yamabot.html",
+            "date": "2022-07-07",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "YamaBot Malware Used by Lazarus",
+            "categories": [
+                "YamaBot"
+            ]
+        }
+    ]
 };

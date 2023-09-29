@@ -40,5 +40,17 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "backoff",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/sinkholing-the-backoff-pos-trojan/66305/",
+            "date": "2014-08-29",
+            "organization": "Kaspersky Labs",
+            "author": "Costin Raiu",
+            "title": "Sinkholing the Backoff POS Trojan",
+            "categories": [
+                "Backoff POS"
+            ]
+        }
+    ]
 };

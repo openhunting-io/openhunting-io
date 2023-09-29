@@ -33,5 +33,27 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "faketc",
-    "analysis": null
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://www.welivesecurity.com/2015/07/30/operation-potao-express/",
+            "date": "2015-07-30",
+            "organization": "ESET Research",
+            "author": "Robert Lipovsky",
+            "title": "Operation Potao Express: Analysis of a cyber\u2011espionage toolkit",
+            "categories": [
+                "FakeTC"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2015/07/Operation-Potao-Express_final_v2.pdf",
+            "date": "2015-07-30",
+            "organization": "ESET Research",
+            "author": "Robert Lipovsky",
+            "title": "Operation Potao Express: Analysis of a cyber\u2011espionage toolkit",
+            "categories": [
+                "FakeTC"
+            ]
+        }
+    ]
 };

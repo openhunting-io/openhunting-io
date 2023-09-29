@@ -35,5 +35,6 @@ var threatdata = {
     "last_ioc_update": null,
     "mitre": [],
     "file_name": "pyark",
-    "analysis": null
+    "analysis": null,
+    "articles": []
 };
