@@ -108,7 +108,7 @@
 $(document).ready(function() {
     var table = $('#examples').DataTable({
         "dom": 'lrtip',
-        "order": [[5, "desc"]],
+        "order": [[4, "desc"]],
         "columnDefs": [
            { "type": "date", "targets": 5 }
         ]
