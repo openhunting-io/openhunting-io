@@ -27,8 +27,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
      <!-- Customized Bootstrap Stylesheet -->
      <link href="assets/dp/css/style.css" rel="stylesheet">
+     
 
 </head>
 
@@ -117,11 +120,19 @@
                             </div>
                         </div>
                         <div class="row px-xl-5">
-                            <h3>News Analysis Trends (Based on Article):</h3>
+                            
                             <div class="col-lg-12">
+                                <h3>[Analysis News] Trends:</h3>
                                 <div class="citation-chart"></div>
                             </div>
                                 <!--  -->
+                        </div><br><br><br>
+                        <div class="row px-xl-5">
+                            <h3>[Analysis News] Related Category to Other Threat:</h3>
+                            <div class="col-lg-12">
+                                <!-- <svg width="800" height="600"></svg> -->
+                                <svg id="graphSvg" style="border: 2px solid black;" width="90%" height="600" viewBox="0 0 [naturalWidth] [naturalHeight]" preserveAspectRatio="xMidYMid meet"></svg>
+                            </div>
                         </div>
                         <br><br>
 
@@ -452,6 +463,175 @@ method:
                 barContainerDiv.appendChild(labelDiv);
                 chartDiv.appendChild(barContainerDiv);
             });
+
+
+            /////////////////////////////////////////
+            /////////START NETWORK GRAPH/////////////
+            /////////////////////////////////////////
+            function transformDataToGraph(threatdata) {
+                let nodes = [];
+                let links = [];
+                let allCategories = new Set(); // For checking unique categories across all articles
+                let nodeDegree = {}; // For tracking the degree of nodes
+
+                threatdata.articles.forEach(article => {
+                    let uniqueCategories = [...new Set(article.categories)]; // Remove duplicates within a single article
+
+                    // Extract categories and form links
+                    for (let i = 0; i < uniqueCategories.length; i++) {
+                        for (let j = i + 1; j < uniqueCategories.length; j++) {
+                            let linkExists = links.some(link => 
+                                (link.source === uniqueCategories[i] && link.target === uniqueCategories[j]) || 
+                                (link.source === uniqueCategories[j] && link.target === uniqueCategories[i])
+                            );
+
+                            if (!linkExists) {
+                                links.push({
+                                    source: uniqueCategories[i],
+                                    target: uniqueCategories[j]
+                                });
+
+                                // Count the degree for nodes
+                                nodeDegree[uniqueCategories[i]] = (nodeDegree[uniqueCategories[i]] || 0) + 1;
+                                nodeDegree[uniqueCategories[j]] = (nodeDegree[uniqueCategories[j]] || 0) + 1;
+                            }
+                        }
+                        allCategories.add(uniqueCategories[i]);
+                    }
+                });
+
+                let maxDegree = Math.max(...Object.values(nodeDegree));
+                let minDegree = Math.min(...Object.values(nodeDegree));
+
+                // Function to normalize the degree to determine node size
+                function normalizeSize(degree) {
+                    let normalized = (degree - minDegree) / (maxDegree - minDegree);
+                    return 10 + normalized * 20; // this will give a size between 10 and 30 based on the node degree
+                }
+
+                // Extract nodes
+                [...allCategories].forEach(category => {
+                    nodes.push({
+                        id: category,
+                        degree: nodeDegree[category] || 0,
+                        normalizedSize: normalizeSize(nodeDegree[category] || 0)
+                    });
+                });
+
+                return {
+                    nodes: nodes,
+                    links: links
+                };
+            }
+
+
+            var graphData = transformDataToGraph(threatdata);
+
+            // 1. Sort the nodes by their degree.
+            const sortedNodes = [...graphData.nodes].sort((a, b) => b.degree - a.degree);
+
+            // 2. Take the top N nodes (in this case, 3).
+            const topNodes = sortedNodes.slice(0, 10);
+
+            // 3. Include any additional nodes that have the same degree as the Nth node.
+            const thresholdDegree = topNodes[topNodes.length - 1].degree;
+            const extraNodes = sortedNodes.slice(3).filter(node => node.degree === thresholdDegree);
+
+            // Combine the two arrays to get the final list of top nodes.
+            const finalTopNodes = [...topNodes, ...extraNodes].map(node => node.id);
+
+
+            const svg = d3.select("svg");
+            // const width = +svg.attr("width");
+            const width = +svg.node().getBoundingClientRect().width;
+
+            const height = +svg.attr("height");
+
+            const container = svg.append("g");
+
+            const zoom = d3.zoom()
+                .scaleExtent([0.1, 5]) 
+                .on("zoom", zoomed);
+
+            svg.call(zoom);
+
+            function zoomed(event) {
+                container.attr("transform", event.transform);
+            }
+
+            const simulation = d3.forceSimulation()
+                .force("link", d3.forceLink().id(d => d.id).distance(150))
+                .force("charge", d3.forceManyBody().strength(-800))
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            const link = container.append("g")
+                .selectAll("line")
+                .data(graphData.links)
+                .enter().append("line")
+                .attr("class", "d3graph-link");
+
+            const nodeGroup = container.append("g")
+                .selectAll(".d3graph-nodeGroup")
+                .data(graphData.nodes)
+                .enter().append("g")
+                .attr("class", "d3graph-nodeGroup")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+            nodeGroup.append("circle")
+                .attr("class", "d3graph-node")
+                .attr("r", d => d.normalizedSize); 
+
+            nodeGroup.append("text")
+                .attr("class", "d3graph-text")
+                .text(d => `${d.degree} - ${d.id}`)
+                .attr("dx", 12)
+                .attr("dy", 4);
+
+            simulation
+                .nodes(graphData.nodes)
+                .on("tick", ticked);
+
+            simulation.force("link")
+                .links(graphData.links);
+
+            function ticked() {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                nodeGroup
+                    .attr("transform", d => `translate(${d.x}, ${d.y})`);
+
+                nodeGroup.select("circle")
+                    .style("fill", d => finalTopNodes.includes(d.id) ? "red" : "#333");  // change 'red' to the desired color for top nodes
+            }
+
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+
+            //////////////////////////////////////////
+            //////////END NETWORK GRAPH///////////////
+            //////////////////////////////////////////
 
 
             // Remove loading

@@ -9944,3 +9944,18 @@ footer {
   margin-bottom: 5px;
 }
 
+/* NETWORK GRAPH */
+.d3graph-link {
+  stroke: #e8e6e6;
+}
+
+.d3graph-node {
+  fill: #d1212f;
+  stroke: #d1212f;
+  stroke-width: 1.5px;
+}
+
+.d3graph-text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
