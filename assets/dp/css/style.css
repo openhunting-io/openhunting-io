@@ -9886,7 +9886,7 @@ footer {
   width: 200px;
   border-radius: 50%;
   border: 10px solid #ddd;
-  border-top-color: #216780;
+  border-top-color: #ff5757;
   animation: rotate 1s infinite linear;
 
   /* Centering the loader */
