@@ -107,6 +107,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                             <div class="col-lg-3 py-5">
                                 <div class="mb-4 pb-4">
@@ -116,6 +117,16 @@
                             </div>
                         </div>
                         <div class="row px-xl-5">
+                            <h3>News Analysis Trends (Based on Article):</h3>
+                            <div class="col-lg-12">
+                                <div class="citation-chart"></div>
+                            </div>
+                                <!--  -->
+                        </div>
+                        <br><br>
+
+                        <div class="row px-xl-5 py-5" >
+                            <h3>References:</h3>
                             <div class="col">
                                 <div class="nav nav-tabs justify-content-center border-secondary mb-4">
                                     <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">News</a>
@@ -371,6 +382,79 @@ method:
                     });
                 });
             }
+
+            // Bar Chart
+            const rawData = threatdata['articles'];
+
+            // console.log(rawData)
+            function formatDate(dateString) {
+                const months = [
+                    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                ];
+                
+                // Check if the dateString contains a '-'. If not, return the year directly.
+                if (!dateString.includes('-')) {
+                    return dateString;
+                }
+
+                const [year, month] = dateString.split('-');
+                return `${months[parseInt(month) - 1]} ${year}`;
+            }
+
+
+            const dataMap = rawData.reduce((acc, item) => {
+                const monthYear = item.date.slice(0, 7);
+                if (!acc[monthYear]) {
+                    acc[monthYear] = 1;
+                } else {
+                    acc[monthYear]++;
+                }
+                return acc;
+            }, {});
+
+            const data = Object.keys(dataMap).sort().map(monthYear => {
+                return { date: monthYear, count: dataMap[monthYear] };
+            });
+
+            const maxCount = Math.max(...data.map(item => item.count));
+            const chartDiv = document.querySelector('.citation-chart');
+
+            data.forEach(item => {
+                const barContainerDiv = document.createElement('div');
+                barContainerDiv.className = 'citation-bar-container';
+                const labelDiv = document.createElement('div');
+
+                
+
+                const countLabelDiv = document.createElement('div');
+                countLabelDiv.className = 'citation-count-label';
+                countLabelDiv.textContent = item.count;
+
+                const barDiv = document.createElement('div');
+                barDiv.className = 'citation-bar';
+                const normalizedHeight = (item.count / maxCount) * 200;
+                barDiv.style.height = `${normalizedHeight}px`;
+                barDiv.title = `${item.date}: ${item.count} citations`;
+
+                labelDiv.className = 'citation-label';
+                labelDiv.textContent = formatDate(item.date);
+
+                // Check the length of the date text and adjust the style if necessary
+                if (labelDiv.textContent.length <= 4) { // i.e., it's just a year
+                    labelDiv.style.fontSize = "9px";
+                    labelDiv.style.marginLeft = "-20px"; // Adjust the margin
+                    // Add more style adjustments if needed
+                }
+
+                barContainerDiv.appendChild(countLabelDiv);
+                barContainerDiv.appendChild(barDiv);
+                barContainerDiv.appendChild(labelDiv);
+                chartDiv.appendChild(barContainerDiv);
+            });
+
+
+            // Remove loading
             document.getElementById('loader').style.display = 'none';
 
             };

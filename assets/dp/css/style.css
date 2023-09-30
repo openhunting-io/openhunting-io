@@ -9902,3 +9902,45 @@ footer {
       transform: rotate(360deg);
   }
 }
+
+/* CHART */
+.citation-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start; /* This aligns the items to the left of the container */
+  align-self: flex-start;
+  margin-top: 50px;
+}
+
+.citation-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2px;
+}
+
+.citation-bar {
+  width: 10px;
+  background-color: #ff5757;
+  transition: background-color 0.3s;
+}
+
+.citation-bar:hover {
+  background-color: #d1212f;
+}
+
+.citation-label {
+  font-size: 9px;
+  text-align: center;
+  margin-left: -35px;
+  transform: rotate(-90deg);
+  transform-origin: right center;
+  white-space: nowrap;
+}
+
+.citation-count-label {
+  font-size: 9px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+

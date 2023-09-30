@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Graph with D3.js</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .link {
+            stroke: gray;
+        }
+
+        .node {
+            fill: #d1212f;  <!-- Change color of the node's fill -->
+            stroke: #d1212f;
+            stroke-width: 1.5px;
+        }
+
+        text {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<svg width="600" height="400"></svg>
+
+<script>
+    const svg = d3.select("svg");
+    const width = +svg.attr("width");
+    const height = +svg.attr("height");
+
+    const simulation = d3.forceSimulation()
+        .force("link", d3.forceLink().id(d => d.id))
+        .force("charge", d3.forceManyBody())
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
+    const data = {
+        nodes: [
+            {id: "Node A"},
+            {id: "Node B"},
+            {id: "Node C"},
+            {id: "Node D"}
+        ],
+        links: [
+            {source: "Node A", target: "Node B"},
+            {source: "Node B", target: "Node C"},
+            {source: "Node C", target: "Node D"},
+            {source: "Node D", target: "Node A"}
+        ]
+    };
+
+    const link = svg.append("g")
+        .selectAll("line")
+        .data(data.links)
+        .enter().append("line")
+        .attr("class", "link");
+
+    const nodeGroup = svg.append("g")
+        .selectAll(".nodeGroup")
+        .data(data.nodes)
+        .enter().append("g")
+        .attr("class", "nodeGroup")
+        .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
+
+    // Adding circles to the group
+    nodeGroup.append("circle")
+        .attr("class", "node")
+        .attr("r", 5);
+
+    // Adding node labels to the group
+    nodeGroup.append("text")
+        .text(d => d.id)
+        .attr("dx", 12)
+        .attr("dy", 4);
+
+    simulation
+        .nodes(data.nodes)
+        .on("tick", ticked);
+
+    simulation.force("link")
+        .links(data.links);
+
+    function ticked() {
+        link
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
+
+        nodeGroup
+            .attr("transform", d => `translate(${d.x}, ${d.y})`);
+    }
+
+    function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+
+</script>
+
+</body>
+</html>
