@@ -9867,3 +9867,38 @@ footer {
 .details-link:hover {
   text-decoration: underline; /* Adds underline when hovered */
 }
+
+/* LOADING */
+/* Full screen overlay with a blur effect */
+.content-overlay {
+  filter: blur(10px);
+  pointer-events: none; /* Prevent interactions with the content while loading */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Keep content below loader */
+}
+
+#loader {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid #ddd;
+  border-top-color: #216780;
+  animation: rotate 1s infinite linear;
+
+  /* Centering the loader */
+  position: fixed;
+  top: 50%;
+  left: 43%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 2; /* Make sure the loader is above the content */
+}
+
+@keyframes rotate {
+  100% {
+      transform: rotate(360deg);
+  }
+}
