@@ -131,22 +131,6 @@ $(document).ready(function() {
 
 
 
-const customSidebarSearch = document.getElementById('customSidebarSearch');
-const customSidebarMenu = document.getElementById('customSidebarMenu');
-
-customSidebarSearch.addEventListener('input', function() {
-    let filterValue = customSidebarSearch.value.toLowerCase();
-    let menuItems = customSidebarMenu.getElementsByClassName('customSidebarItem');
-
-    for (let item of menuItems) {
-        if (item.textContent.toLowerCase().includes(filterValue)) {
-            item.style.display = '';
-        } else {
-            item.style.display = 'none';
-        }
-    }
-});
-
 
 
 

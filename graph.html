@@ -11,7 +11,7 @@
         }
 
         .node {
-            fill: #d1212f;  <!-- Change color of the node's fill -->
+            fill: #d1212f;
             stroke: #d1212f;
             stroke-width: 1.5px;
         }
@@ -32,8 +32,8 @@
     const height = +svg.attr("height");
 
     const simulation = d3.forceSimulation()
-        .force("link", d3.forceLink().id(d => d.id))
-        .force("charge", d3.forceManyBody())
+        .force("link", d3.forceLink().id(d => d.id).distance(100))  // Adjusted link distance
+        .force("charge", d3.forceManyBody().strength(-500))  // Adjusted repulsion strength to avoid overlap
         .force("center", d3.forceCenter(width / 2, height / 2));
 
     const data = {
