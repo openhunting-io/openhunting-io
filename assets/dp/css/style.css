@@ -9944,6 +9944,48 @@ footer {
   margin-bottom: 5px;
 }
 
+/* CHART YEAR*/
+.citation-chart-year {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start; /* This aligns the items to the left of the container */
+  align-self: flex-start;
+  margin-top: 50px;
+}
+
+.citation-bar-container-year {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2px;
+}
+
+.citation-bar-year {
+  width: 10px;
+  background-color: #ff5757;
+  transition: background-color 0.3s;
+}
+
+.citation-bar-year:hover {
+  background-color: #d1212f;
+}
+
+.citation-label-year {
+  font-size: 9px;
+  text-align: center;
+  margin-left: -35px;
+  transform: rotate(-90deg);
+  transform-origin: right center;
+  white-space: nowrap;
+}
+
+.citation-count-label-year {
+  font-size: 9px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
 /* NETWORK GRAPH */
 .d3graph-link {
   stroke: #e8e6e6;
