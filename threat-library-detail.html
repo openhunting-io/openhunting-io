@@ -1122,10 +1122,11 @@ method:
 
         function createRows(data, type) {
             return data.map(entry => {
+                let formattedTimestamp = new Date(entry.timestamp).toISOString().split('T')[0];
                 if (type === 'top') {
-                    return `<tr><td>${entry.value}</td><td>${entry.timestamp}</td></tr>`;
+                    return `<tr><td class="unique-td">${entry.value}</td><td class="unique-td">${formattedTimestamp}</td></tr>`;
                 } else {
-                    return `<tr><td colspan="2">${entry.value}</td></tr>`;
+                    return `<tr><td class="unique-td" colspan="2">${entry.value}</td></tr>`;
                 }
             }).join("");
         }

@@ -10116,24 +10116,38 @@ footer {
   font-size: 10px;
 }
 
+.unique-th, .unique-td {
+  word-wrap: break-word; /* memecah kata yang terlalu panjang */
+  white-space: normal; /* memastikan teks bisa pindah ke baris baru */
+  overflow: hidden; /* menyembunyikan konten yang berlebihan */
+  max-width: 150px; /* Anda bisa menyesuaikan lebar maksimum sesuai kebutuhan */
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
 .unique-th {
   background-color: #ff5757;
   color: white;
-  border: 1px solid black;
-  padding: 8px;
-  text-align: center;
-}
-
-.unique-td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: center;
 }
 
 .unique-table-div {
-  overflow-x: auto;
   padding: 10px;
 }
+
+.unique-data-table tbody {
+  display: block;
+  max-height: 350px;
+  overflow-y: scroll; /* Selalu menampilkan scrollbar vertikal */
+}
+
+.unique-data-table thead, .unique-data-table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;  /* allows the table to respect widths of columns */
+}
+
+
 
 /* Adjustments for small screens */
 @media (max-width: 768px) {
@@ -10141,5 +10155,6 @@ footer {
       padding: 5px 0;
   }
 }
+
 
 /*  */
