@@ -10074,7 +10074,7 @@ footer {
 
 /*  PROGRESS BAR MITRE*/
 #attack-techniques-detail {
-  width: 600px;
+  width: 40%;
   padding: 10px;
 }
 
@@ -10108,3 +10108,4 @@ footer {
 }
 
 /* UPDATE */
+/*  */
