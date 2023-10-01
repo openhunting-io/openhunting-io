@@ -9973,7 +9973,7 @@ footer {
 .citation-label-year {
   font-size: 9px;
   text-align: center;
-  margin-left: -35px;
+  margin-left: -20px;
   transform: rotate(-90deg);
   transform-origin: right center;
   white-space: nowrap;
@@ -10107,5 +10107,37 @@ footer {
   width: 10%;
 }
 
-/* UPDATE */
-/*  */
+/* TOP 10 TABLE FILTER */
+.unique-data-table {
+  width: 100%; 
+  max-width: 100%; 
+  border-collapse: collapse;
+  border: 1px solid black;
+  font-size: 10px;
+}
+
+.unique-th {
+  background-color: #ff5757;
+  color: white;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.unique-td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.unique-table-div {
+  overflow-x: auto;
+  padding: 10px;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .unique-table-div {
+      padding: 5px 0;
+  }
+}

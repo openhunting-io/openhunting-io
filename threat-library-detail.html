@@ -196,6 +196,68 @@
                         </div>
                         <br><br>
 
+                        <div class="row px-xl-5">
+                            <h3 class="text-center">[Infrastructure Analysis] Based on Related IOC:</h3>
+                            <div class="container-fluid">
+                                
+                                <!-- Filter -->
+                                <div class="d-flex justify-content-center mb-3">
+                                    <select id="filterType" class="mx-1">
+                                        <option value="top">Top</option>
+                                        <option value="day">Day</option>
+                                        <option value="month">Month</option>
+                                        <option value="year">Year</option>
+                                    </select>
+                                    <input type="number" id="filterValue" placeholder="Value" class="mx-1" />
+                                    <button onclick="applyFilter()" class="mx-1">Apply</button>
+                                </div>
+                        
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="unique-table-div" id="ipPortDiv">
+                                            <table class="unique-data-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="unique-th">IP:Port</th>
+                                                        <th class="unique-th">Timestamp</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="ipPortTable"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="unique-table-div" id="domainDiv">
+                                            <table class="unique-data-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="unique-th">Domain</th>
+                                                        <th class="unique-th">Timestamp</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="domainTable"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="unique-table-div" id="urlDiv">
+                                            <table class="unique-data-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="unique-th">URL</th>
+                                                        <th class="unique-th">Timestamp</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="urlTable"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="row px-xl-5 py-5" >
                             <h3>References:</h3>
                             <div class="col">
@@ -962,6 +1024,13 @@ method:
             var uniqueDivElement = uniqueConvertToJsonToHtml(threatdata);
             targetDiv.appendChild(uniqueDivElement);
 
+            //////////////////////////////////
+            ///////// TOP 10 Infra ///////////
+            //////////////////////////////////
+
+            // Initially populate tables with top 10 data
+            populateTable(threatdata.ioc_data, 'top', 10);
+
 
             ///////////////////////////////////
             ////////// Remove loading//////////
@@ -1035,8 +1104,87 @@ method:
             suggestionList.style.display = filteredSuggestions.length > 0 ? "block" : "none";
         }
 
+        ///////////////////////////////
+        ///////// TOP 10 INFRA ////////
+        ///////////////////////////////
 
+        function applyFilter() {
+            const filterType = document.getElementById("filterType").value;
+            const filterValue = parseInt(document.getElementById("filterValue").value, 10);
+            
+            if(filterType === 'top') {
+                populateTable(threatdata.ioc_data, 'top', filterValue);
+            } else {
+                const filteredData = filterByTime(filterType, filterValue);
+                populateTable(filteredData, filterType);
+            }
+        }
 
+        function createRows(data, type) {
+            return data.map(entry => {
+                if (type === 'top') {
+                    return `<tr><td>${entry.value}</td><td>${entry.timestamp}</td></tr>`;
+                } else {
+                    return `<tr><td colspan="2">${entry.value}</td></tr>`;
+                }
+            }).join("");
+        }
+
+        function populateTable(data, type = 'top', value = 10) {
+            // Adjust visibility of the timestamp headers
+            const timestampHeaders = document.querySelectorAll('.unique-data-table thead tr th:last-child');
+            if (type === 'top') {
+                timestampHeaders.forEach(th => th.style.display = '');
+            } else {
+                timestampHeaders.forEach(th => th.style.display = 'none');
+            }
+
+            // Populate the tables
+            if (type === 'top') {
+                const ipPortData = topNFilter(data, "ip:port", value);
+                const domainData = topNFilter(data, "domain", value);
+                const urlData = topNFilter(data, "url", value);
+
+                document.getElementById("ipPortTable").innerHTML = createRows(ipPortData, type);
+                document.getElementById("domainTable").innerHTML = createRows(domainData, type);
+                document.getElementById("urlTable").innerHTML = createRows(urlData, type);
+            } else if (data && data[0] && data[0].ioc) {
+                document.getElementById("ipPortTable").innerHTML = createRows(data[0].ioc["ip:port"] || [], type);
+                document.getElementById("domainTable").innerHTML = createRows(data[0].ioc["domain"] || [], type);
+                document.getElementById("urlTable").innerHTML = createRows(data[0].ioc["url"] || [], type);
+            }
+        }
+
+        function topNFilter(data, key, n) {
+            if (data && data[0] && data[0].ioc && data[0].ioc[key]) {
+                return data[0].ioc[key].slice(0, n);
+            }
+            return [];
+        }
+
+        function filterByTime(unit, value) {
+            const currentTime = new Date();
+
+            return threatdata.ioc_data.filter(entry => {
+                if (entry.ioc && entry.ioc.url && entry.ioc.url.length > 0) {
+                    const timestamp = new Date(entry.ioc.url[0].timestamp);
+                    let diff;
+                    switch (unit) {
+                        case 'day':
+                            diff = Math.ceil((currentTime - timestamp) / (1000 * 60 * 60 * 24));
+                            break;
+                        case 'month':
+                            diff = Math.ceil((currentTime - timestamp) / (1000 * 60 * 60 * 24 * 30));
+                            break;
+                        case 'year':
+                            diff = currentTime.getFullYear() - timestamp.getFullYear();
+                            break;
+                    }
+                    return diff <= value;
+                }
+                return false;
+            });
+        }
 
 
     </script>
