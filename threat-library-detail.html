@@ -747,99 +747,104 @@ method:
             //////////MITRE ATTACK////////////////////
             //////////////////////////////////////////
 
-            if (threatdata && threatdata['mitre'] && threatdata['mitre'].length > 0) {
+            if (threatdata['mitre'] && threatdata['mitre'].length > 0) {
                     var title_mitre = document.getElementById('title_mitre');
                     title_mitre.innerHTML = 'News Article (Credit @<a href="https://attack.mitre.org/matrices/enterprise/">Mitre</a>)';
+                    
+                    const table = document.getElementById('ttpTable');
+                    const techniquesTbody = table.querySelector('tbody:last-child');
+                    const tactics = ['TA0043', 'TA0042', 'TA0001', 'TA0002', 'TA0003', 'TA0004', 'TA0005', 'TA0006', 'TA0007', 'TA0008', 'TA0009', 'TA0011', 'TA0010', 'TA0040'];
+
+                    const techniqueTr = document.createElement('tr');
+
+                    tactics.forEach(tactic => {
+                        const tdTechnique = document.createElement('td');
+                        tdTechnique.style.textAlign = 'center';
+
+                        // Find all techniques for the current tactic
+                        const tacticDataList = threatdata.mitre[0].techniques.filter(t => t.tactic_code.toLowerCase() === tactic.toLowerCase());
+
+                        tacticDataList.forEach(tacticData => {
+                            const techniqueDiv = document.createElement('div');
+                            techniqueDiv.style.border = '1px solid #ff5757'; 
+                            techniqueDiv.style.margin = '4px 0'; 
+                            techniqueDiv.style.padding = '4px'; 
+
+                            const anchor = document.createElement('a');
+                            anchor.href = tacticData.technique_link;
+                            anchor.textContent = tacticData.technique_code.toUpperCase();
+                            anchor.style.fontWeight = 'bold';
+                            anchor.style.fontSize = '1.1em';
+
+                            const description = document.createElement('span');
+                            description.textContent = tacticData.procedure_description.replace(/\[\d+\]/g, '').trim();
+
+                            const hr = document.createElement('br');
+
+                            const techniqueName = document.createElement('span');
+                            techniqueName.textContent = tacticData.technique_name.toUpperCase();
+                            techniqueName.style.fontWeight = 'bold';
+
+                            techniqueDiv.appendChild(anchor);
+                            techniqueDiv.appendChild(document.createElement('br'));
+                            techniqueDiv.appendChild(techniqueName);
+                            techniqueDiv.appendChild(hr);
+                            techniqueDiv.appendChild(description);
+                            
+                            tdTechnique.appendChild(techniqueDiv);
+                        });
+
+                        techniqueTr.appendChild(tdTechnique);
+                    });
+
+                    techniquesTbody.appendChild(techniqueTr);
+            
+            
+            //END
             }
 
-            const table = document.getElementById('ttpTable');
-            const techniquesTbody = table.querySelector('tbody:last-child');
-            const tactics = ['TA0043', 'TA0042', 'TA0001', 'TA0002', 'TA0003', 'TA0004', 'TA0005', 'TA0006', 'TA0007', 'TA0008', 'TA0009', 'TA0011', 'TA0010', 'TA0040'];
-
-            const techniqueTr = document.createElement('tr');
-
-            tactics.forEach(tactic => {
-                const tdTechnique = document.createElement('td');
-                tdTechnique.style.textAlign = 'center';
-
-                // Find all techniques for the current tactic
-                const tacticDataList = threatdata.mitre[0].techniques.filter(t => t.tactic_code.toLowerCase() === tactic.toLowerCase());
-
-                tacticDataList.forEach(tacticData => {
-                    const techniqueDiv = document.createElement('div');
-                    techniqueDiv.style.border = '1px solid #ff5757'; 
-                    techniqueDiv.style.margin = '4px 0'; 
-                    techniqueDiv.style.padding = '4px'; 
-
-                    const anchor = document.createElement('a');
-                    anchor.href = tacticData.technique_link;
-                    anchor.textContent = tacticData.technique_code.toUpperCase();
-                    anchor.style.fontWeight = 'bold';
-                    anchor.style.fontSize = '1.1em';
-
-                    const description = document.createElement('span');
-                    description.textContent = tacticData.procedure_description.replace(/\[\d+\]/g, '').trim();
-
-                    const hr = document.createElement('br');
-
-                    const techniqueName = document.createElement('span');
-                    techniqueName.textContent = tacticData.technique_name.toUpperCase();
-                    techniqueName.style.fontWeight = 'bold';
-
-                    techniqueDiv.appendChild(anchor);
-                    techniqueDiv.appendChild(document.createElement('br'));
-                    techniqueDiv.appendChild(techniqueName);
-                    techniqueDiv.appendChild(hr);
-                    techniqueDiv.appendChild(description);
-                    
-                    tdTechnique.appendChild(techniqueDiv);
-                });
-
-                techniqueTr.appendChild(tdTechnique);
-            });
-
-            techniquesTbody.appendChild(techniqueTr);
 
             /////////////////////////////////////////
             ///////////MITRE ANALYSIS////////////////
             /////////////////////////////////////////
-            const tableAnalyzed = document.getElementById('ttpTableAnalyzed');
-            const techniquesTbodyAnalyzed = tableAnalyzed.querySelector('tbody:last-child');
-            const tacticsAnalyzed = ['TA0043', 'TA0042', 'TA0001', 'TA0002', 'TA0003', 'TA0004', 'TA0005', 'TA0006', 'TA0007', 'TA0008', 'TA0009', 'TA0011', 'TA0010', 'TA0040'];
+            if (threatdata['mitre'] && threatdata['mitre'].length > 0) {    
+                const tableAnalyzed = document.getElementById('ttpTableAnalyzed');
+                const techniquesTbodyAnalyzed = tableAnalyzed.querySelector('tbody:last-child');
+                const tacticsAnalyzed = ['TA0043', 'TA0042', 'TA0001', 'TA0002', 'TA0003', 'TA0004', 'TA0005', 'TA0006', 'TA0007', 'TA0008', 'TA0009', 'TA0011', 'TA0010', 'TA0040'];
 
-            const techniqueTrAnalyzed = document.createElement('tr');
+                const techniqueTrAnalyzed = document.createElement('tr');
 
-            tacticsAnalyzed.forEach(tactic => {
-                const tdTechniqueAnalyzed = document.createElement('td');
-                tdTechniqueAnalyzed.style.textAlign = 'center';
+                tacticsAnalyzed.forEach(tactic => {
+                    const tdTechniqueAnalyzed = document.createElement('td');
+                    tdTechniqueAnalyzed.style.textAlign = 'center';
 
-                const tacticDataListAnalyzed = threatdata.mitre[0].techniques.filter(t => t.tactic_code.toLowerCase() === tactic.toLowerCase());
+                    const tacticDataListAnalyzed = threatdata.mitre[0].techniques.filter(t => t.tactic_code.toLowerCase() === tactic.toLowerCase());
 
-                tacticDataListAnalyzed.forEach(tacticData => {
-                    const techniqueDivAnalyzed = document.createElement('div');
-                    techniqueDivAnalyzed.style.border = '1px solid #ff5757';
-                    techniqueDivAnalyzed.style.margin = '4px 0';
-                    techniqueDivAnalyzed.style.padding = '4px';
+                    tacticDataListAnalyzed.forEach(tacticData => {
+                        const techniqueDivAnalyzed = document.createElement('div');
+                        techniqueDivAnalyzed.style.border = '1px solid #ff5757';
+                        techniqueDivAnalyzed.style.margin = '4px 0';
+                        techniqueDivAnalyzed.style.padding = '4px';
 
-                    const anchorAnalyzed = document.createElement('a');
-                    anchorAnalyzed.href = tacticData.technique_link;
-                    anchorAnalyzed.textContent = tacticData.technique_code.toUpperCase();
+                        const anchorAnalyzed = document.createElement('a');
+                        anchorAnalyzed.href = tacticData.technique_link;
+                        anchorAnalyzed.textContent = tacticData.technique_code.toUpperCase();
 
-                    const techniqueNameAnalyzed = document.createElement('span');
-                    techniqueNameAnalyzed.textContent = tacticData.technique_name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                        const techniqueNameAnalyzed = document.createElement('span');
+                        techniqueNameAnalyzed.textContent = tacticData.technique_name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
-                    techniqueDivAnalyzed.appendChild(anchorAnalyzed);
-                    techniqueDivAnalyzed.appendChild(document.createElement('br'));
-                    techniqueDivAnalyzed.appendChild(techniqueNameAnalyzed);
+                        techniqueDivAnalyzed.appendChild(anchorAnalyzed);
+                        techniqueDivAnalyzed.appendChild(document.createElement('br'));
+                        techniqueDivAnalyzed.appendChild(techniqueNameAnalyzed);
 
-                    tdTechniqueAnalyzed.appendChild(techniqueDivAnalyzed);
+                        tdTechniqueAnalyzed.appendChild(techniqueDivAnalyzed);
+                    });
+
+                    techniqueTrAnalyzed.appendChild(tdTechniqueAnalyzed);
                 });
 
-                techniqueTrAnalyzed.appendChild(tdTechniqueAnalyzed);
-            });
-
-            techniquesTbodyAnalyzed.appendChild(techniqueTrAnalyzed);
-
+                techniquesTbodyAnalyzed.appendChild(techniqueTrAnalyzed);
+            }
 
 
             // Remove loading
