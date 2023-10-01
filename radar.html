@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITRE ATT&CK Tactic Radar Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #chart-container {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="chart-container">
+    <canvas id="attackTacticRadarChart"></canvas>
+</div>
+
+<script>
+    var ctx = document.getElementById('attackTacticRadarChart').getContext('2d');
+
+    var data = {
+        labels: [
+            'Initial Access', 'Execution', 'Persistence', 'Privilege Escalation', 'Defense Evasion',
+            'Credential Access', 'Discovery', 'Lateral Movement', 'Collection',
+            'Command and Control', 'Exfiltration', 'Impact'
+        ],
+        datasets: [{
+            label: 'Sample Threat Actor',
+            data: [75, 85, 90, 60, 80, 70, 65, 85, 90, 80, 70, 60],
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255, 99, 132, 1)',
+            borderWidth: 1
+        }]
+    };
+
+    var options = {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    footer: function(tooltipItems) {
+                        return data.labels.map((label, index) => {
+                            return `${label}: ${data.datasets[0].data[index]}`;
+                        });
+                    }
+                }
+            }
+        },
+        scales: {
+            r: {
+                ticks: {
+                    beginAtZero: true,
+                    max: 100
+                }
+            }
+        }
+    };
+
+    new Chart(ctx, {
+        type: 'radar',
+        data: data,
+        options: options
+    });
+</script>
+
+</body>
+</html>
