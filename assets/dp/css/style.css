@@ -10072,4 +10072,37 @@ footer {
   max-height: 400px;
 }
 
-/*  */
+/*  PROGRESS BAR MITRE*/
+#attack-techniques-detail {
+  width: 600px;
+  padding: 10px;
+}
+
+.attack-technique {
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+
+.attack-progress {
+  width: 55%;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.attack-progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+.attack-technique-label {
+  display: inline-block;
+  width: 30%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.attack-ratio {
+  display: inline-block;
+  width: 10%;
+}

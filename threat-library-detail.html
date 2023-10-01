@@ -43,7 +43,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
             <div class="container">
-                <img src="assets/lp/img/logo.png" width="50px"><a href="#" class="navbar-brand" style="color: #ff5757;"><span class="text-primary">OPENHUNTING.IO</span></a>
+                <img src="assets/lp/img/logo.png" width="50px"><a href="index" class="navbar-brand" style="color: #ff5757;"><span class="text-primary">OPENHUNTING.IO</span></a>
         
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -137,6 +137,14 @@
                             <div class="col-lg-12">
                                 <!-- <svg width="800" height="600"></svg> -->
                                 <svg id="graphSvg" style="border: 2px solid black;" width="90%" height="600" viewBox="0 0 [naturalWidth] [naturalHeight]" preserveAspectRatio="xMidYMid meet"></svg>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="row px-xl-5">
+                            <h3>[Analysis TTP] Technique Performance:</h3>
+                            <div class="col-lg-12">
+                                <div id="attack-techniques-detail"></div>
+
                             </div>
                         </div>
                         <br><br>
@@ -846,8 +854,56 @@ method:
                 techniquesTbodyAnalyzed.appendChild(techniqueTrAnalyzed);
             }
 
+            /////////////////////////////////////////////////////////////
+            //////////// MITRE ATTACK PROGRESS BAR //////////////////////
+            /////////////////////////////////////////////////////////////
+            if (threatdata['mitre'] && threatdata['mitre'].length > 0) {    
+                const tacticsOverview = {
+                    "ta0043": { "name": "reconnaissance", "max": 43 },
+                    "ta0042": { "name": "resource development", "max": 45 },
+                    "ta0001": { "name": "initial access", "max": 19 },
+                    "ta0002": { "name": "execution", "max": 36 },
+                    "ta0003": { "name": "persistence", "max": 113 },
+                    "ta0004": { "name": "privilege escalation", "max": 96 },
+                    "ta0005": { "name": "defense evasion", "max": 184 },
+                    "ta0006": { "name": "credential access", "max": 63 },
+                    "ta0007": { "name": "discovery", "max": 44 },
+                    "ta0008": { "name": "lateral movement", "max": 22 },
+                    "ta0009": { "name": "collection", "max": 37 },
+                    "ta0011": { "name": "command and control", "max": 39 },
+                    "ta0010": { "name": "exfiltration", "max": 18 },
+                    "ta0040": { "name": "impact", "max": 26 }
+                };
 
-            // Remove loading
+                function countTechniquesForTactic(tacticCode) {
+                    return threatdata.mitre[0].techniques.filter(t => t.tactic_code === tacticCode).length;
+                }
+
+                function populateMitreAttackTechniquesDetail() {
+                    var detailDiv = document.getElementById('attack-techniques-detail');
+                    var detailsHtml = "";
+
+                    for(let tacticCode in tacticsOverview) {
+                        let tacticDetails = tacticsOverview[tacticCode];
+                        let count = countTechniquesForTactic(tacticCode);
+                        detailsHtml += `
+                            <div class="attack-technique">
+                                <span class="attack-technique-label">${tacticDetails.name}</span>
+                                <progress class="attack-progress" value="${count}" max="${tacticDetails.max}"></progress>
+                                <span class="attack-ratio">${count}/${tacticDetails.max}</span>
+                            </div>
+                        `;
+                    }
+                    detailDiv.innerHTML = detailsHtml;
+                }
+
+                populateMitreAttackTechniquesDetail();
+            }
+
+            ///////////////////////////////////
+            ////////// Remove loading//////////
+            ///////////////////////////////////
+
             document.getElementById('loader').style.display = 'none';
             document.getElementById('threatdatapage').style.display = '';
 
