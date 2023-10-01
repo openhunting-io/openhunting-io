@@ -135,6 +135,53 @@
                             </div>
                         </div>
                         <br><br>
+                        <div class="row px-xl-5">
+                            <h3>[Analysis TTP] Mitre Attack Matrix:</h3>
+                            <div class="col-lg-12">
+                                <table class="ttp-table-Analyzed" id="ttpTableAnalyzed">
+                                    <thead>
+                                        <tr class="ttp-table-head-Analyzed">
+                                            <th>TA0043</th>
+                                            <th>TA0042</th>
+                                            <th>TA0001</th>
+                                            <th>TA0002</th>
+                                            <th>TA0003</th>
+                                            <th>TA0004</th>
+                                            <th>TA0005</th>
+                                            <th>TA0006</th>
+                                            <th>TA0007</th>
+                                            <th>TA0008</th>
+                                            <th>TA0009</th>
+                                            <th>TA0011</th>
+                                            <th>TA0010</th>
+                                            <th>TA0040</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="text-align: center;">
+                                        <tr>
+                                            <td>Reconnaissance</td>
+                                            <td>Resource Development</td>
+                                            <td>Initial Access</td>
+                                            <td>Execution</td>
+                                            <td>Persistence</td>
+                                            <td>Privilege Escalation</td>
+                                            <td>Defense Evasion</td>
+                                            <td>Credential Access</td>
+                                            <td>Discovery</td>
+                                            <td>Lateral Movement</td>
+                                            <td>Collection</td>
+                                            <td>Command and Control</td>
+                                            <td>Exfiltration</td>
+                                            <td>Impact</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody style="text-align: center;">
+                                        <!-- Technique Codes will be inserted dynamically here -->
+                                    </tbody>
+                                </table>                     
+                            </div>
+                        </div>
+                        <br><br>
 
                         <div class="row px-xl-5 py-5" >
                             <h3>References:</h3>
@@ -142,7 +189,7 @@
                                 <div class="nav nav-tabs justify-content-center border-secondary mb-4">
                                     <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">News</a>
                                     <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Indicator of Compromise</a>
-                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Mitre</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Mitre Attack</a>
                                 </div>
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tab-pane-1">
@@ -158,7 +205,49 @@
                                     <div class="tab-pane fade" id="tab-pane-3">
                                         <h4 class="mb-3" id="title_mitre"></h4>
                                         <!-- Container for the list of articles -->
-                                        <div id="mitreContainer"></div>
+                                        <div class="table-container-ttp">
+                                            <table class="ttp-table" id="ttpTable">
+                                                <thead>
+                                                    <tr class="ttp-table-head">
+                                                        <th>TA0043</th>
+                                                        <th>TA0042</th>
+                                                        <th>TA0001</th>
+                                                        <th>TA0002</th>
+                                                        <th>TA0003</th>
+                                                        <th>TA0004</th>
+                                                        <th>TA0005</th>
+                                                        <th>TA0006</th>
+                                                        <th>TA0007</th>
+                                                        <th>TA0008</th>
+                                                        <th>TA0009</th>
+                                                        <th>TA0011</th>
+                                                        <th>TA0010</th>
+                                                        <th>TA0040</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody style="text-align: center;">
+                                                    <tr>
+                                                        <td>Reconnaissance</td>
+                                                        <td>Resource Development</td>
+                                                        <td>Initial Access</td>
+                                                        <td>Execution</td>
+                                                        <td>Persistence</td>
+                                                        <td>Privilege Escalation</td>
+                                                        <td>Defense Evasion</td>
+                                                        <td>Credential Access</td>
+                                                        <td>Discovery</td>
+                                                        <td>Lateral Movement</td>
+                                                        <td>Collection</td>
+                                                        <td>Command and Control</td>
+                                                        <td>Exfiltration</td>
+                                                        <td>Impact</td>
+                                                    </tr>
+                                                </tbody>
+                                                <tbody style="text-align: center;">
+                                                    <!-- Technique Codes will be inserted here dynamically -->
+                                                </tbody>
+                                            </table>  
+                                        </div>   
                                     </div>
                                 </div>
                             </div>
@@ -344,56 +433,6 @@ method:
                 }
             }
 
-            // Iterate Trough Mitre
-            if(threatdata['mitre'] && threatdata['mitre'].length > 0) {
-                var title_mitre = document.getElementById('title_mitre');
-                title_mitre.innerHTML = 'MITRE Techniques (Credit @<a href="https://attack.mitre.org/">Mitre</a>)';
-
-                var mitreContainer = document.getElementById('mitreContainer');
-
-                threatdata['mitre'].forEach(mitreEntry => {
-                    mitreEntry['techniques'].forEach(technique => {
-                        // Create a header with the technique link, code, and name
-                        var techniqueHeader = document.createElement('p');
-                        techniqueHeader.className = "technique-title";
-                        
-                        var techniqueLink = document.createElement('a');
-                        techniqueLink.href = technique['technique_link'];
-                        techniqueLink.innerText = '[' + technique['technique_code'] + '] ' + technique['technique_name'];
-                        techniqueHeader.appendChild(techniqueLink);
-                        mitreContainer.appendChild(techniqueHeader);
-
-                        // Add the procedure description and the details link
-                        var procedureDesc = document.createElement('p');
-                        procedureDesc.className = "procedure-description";
-                        procedureDesc.innerText = technique['procedure_description'].replace(/\[\d+\]/g, "");
-
-                        var detailsLink = document.createElement('a');
-                        detailsLink.href = "#"; // Link to the source or just use '#' to do nothing on click
-                        detailsLink.className = "details-link";
-                        detailsLink.innerText = "[details]";
-                        detailsLink.addEventListener('click', function(e) {
-                            e.preventDefault(); // Prevent default action
-                            if (techniqueDesc.style.display === "none") {
-                                techniqueDesc.style.display = "block";
-                            } else {
-                                techniqueDesc.style.display = "none";
-                            }
-                        });
-
-                        procedureDesc.appendChild(detailsLink);
-                        mitreContainer.appendChild(procedureDesc);
-
-                        // Add the technique description (initially hidden)
-                        var techniqueDesc = document.createElement('p');
-                        techniqueDesc.className = "technique-description";
-                        techniqueDesc.innerText = technique['technique_description'];
-                        techniqueDesc.style.display = "none";
-                        mitreContainer.appendChild(techniqueDesc);
-                    });
-                });
-            }
-
             // Bar Chart
             const rawData = threatdata['articles'];
 
@@ -466,18 +505,21 @@ method:
 
 
             /////////////////////////////////////////
-            /////////START NETWORK GRAPH/////////////
+            ///////////START NETWORK GRAPH/////////////
             /////////////////////////////////////////
             function transformDataToGraph(threatdata) {
                 let nodes = [];
                 let links = [];
-                let allCategories = new Set(); // For checking unique categories across all articles
-                let nodeDegree = {}; // For tracking the degree of nodes
+                let allCategories = new Set(); 
+                let nodeDegree = {}; 
+
+                if (!threatdata || !threatdata.articles || threatdata.articles.length === 0) {
+                    return { nodes: [], links: [] };
+                }
 
                 threatdata.articles.forEach(article => {
-                    let uniqueCategories = [...new Set(article.categories)]; // Remove duplicates within a single article
+                    let uniqueCategories = [...new Set(article.categories)]; 
 
-                    // Extract categories and form links
                     for (let i = 0; i < uniqueCategories.length; i++) {
                         for (let j = i + 1; j < uniqueCategories.length; j++) {
                             let linkExists = links.some(link => 
@@ -491,7 +533,6 @@ method:
                                     target: uniqueCategories[j]
                                 });
 
-                                // Count the degree for nodes
                                 nodeDegree[uniqueCategories[i]] = (nodeDegree[uniqueCategories[i]] || 0) + 1;
                                 nodeDegree[uniqueCategories[j]] = (nodeDegree[uniqueCategories[j]] || 0) + 1;
                             }
@@ -503,13 +544,11 @@ method:
                 let maxDegree = Math.max(...Object.values(nodeDegree));
                 let minDegree = Math.min(...Object.values(nodeDegree));
 
-                // Function to normalize the degree to determine node size
                 function normalizeSize(degree) {
                     let normalized = (degree - minDegree) / (maxDegree - minDegree);
-                    return 10 + normalized * 20; // this will give a size between 10 and 30 based on the node degree
+                    return 10 + normalized * 20; 
                 }
 
-                // Extract nodes
                 [...allCategories].forEach(category => {
                     nodes.push({
                         id: category,
@@ -524,34 +563,41 @@ method:
                 };
             }
 
-
             var graphData = transformDataToGraph(threatdata);
 
-            // 1. Sort the nodes by their degree.
-            const sortedNodes = [...graphData.nodes].sort((a, b) => b.degree - a.degree);
+            if (!graphData || !graphData.nodes || !graphData.links) {
+                console.error("Graph data is not structured as expected");
+                return;
+            }
 
-            // 2. Take the top N nodes (in this case, 3).
+            const sortedNodes = (graphData.nodes && graphData.nodes.length > 0) 
+                                ? [...graphData.nodes].sort((a, b) => b.degree - a.degree) 
+                                : [];
+
             const topNodes = sortedNodes.slice(0, 10);
 
-            // 3. Include any additional nodes that have the same degree as the Nth node.
-            const thresholdDegree = topNodes[topNodes.length - 1].degree;
-            const extraNodes = sortedNodes.slice(3).filter(node => node.degree === thresholdDegree);
+            const thresholdDegree = (topNodes.length > 0 && topNodes[topNodes.length - 1].degree) 
+                                    ? topNodes[topNodes.length - 1].degree 
+                                    : 0;
 
-            // Combine the two arrays to get the final list of top nodes.
+            const extraNodes = sortedNodes.slice(3).filter(node => node.degree === thresholdDegree);
             const finalTopNodes = [...topNodes, ...extraNodes].map(node => node.id);
+
+            function isTopLink(link) {
+                if (!link.source || !link.target) {
+                    return false;
+                }
+                return finalTopNodes.includes(link.source.id) && finalTopNodes.includes(link.target.id);
+            }
 
 
             const svg = d3.select("svg");
-            // const width = +svg.attr("width");
             const width = +svg.node().getBoundingClientRect().width;
-
             const height = +svg.attr("height");
-
             const container = svg.append("g");
-
             const zoom = d3.zoom()
-                .scaleExtent([0.1, 5]) 
-                .on("zoom", zoomed);
+                            .scaleExtent([0.1, 5]) 
+                            .on("zoom", zoomed);
 
             svg.call(zoom);
 
@@ -560,42 +606,44 @@ method:
             }
 
             const simulation = d3.forceSimulation()
-                .force("link", d3.forceLink().id(d => d.id).distance(150))
-                .force("charge", d3.forceManyBody().strength(-800))
-                .force("center", d3.forceCenter(width / 2, height / 2));
-
+                                .force("link", d3.forceLink().id(d => d.id).distance(150))
+                                .force("charge", d3.forceManyBody().strength(-800))
+                                .force("center", d3.forceCenter(width / 2, height / 2));
+            
             const link = container.append("g")
-                .selectAll("line")
-                .data(graphData.links)
-                .enter().append("line")
-                .attr("class", "d3graph-link");
+                        .selectAll("line")
+                        .data(graphData.links)
+                        .enter().append("line")
+                        .attr("class", "d3graph-link")
+                        .attr("stroke", d => isTopLink(d) ? "red" : "#333");
+
 
             const nodeGroup = container.append("g")
-                .selectAll(".d3graph-nodeGroup")
-                .data(graphData.nodes)
-                .enter().append("g")
-                .attr("class", "d3graph-nodeGroup")
-                .call(d3.drag()
-                    .on("start", dragstarted)
-                    .on("drag", dragged)
-                    .on("end", dragended));
+                            .selectAll(".d3graph-nodeGroup")
+                            .data(graphData.nodes)
+                            .enter().append("g")
+                            .attr("class", "d3graph-nodeGroup")
+                            .call(d3.drag()
+                                    .on("start", dragstarted)
+                                    .on("drag", dragged)
+                                    .on("end", dragended));
 
             nodeGroup.append("circle")
-                .attr("class", "d3graph-node")
-                .attr("r", d => d.normalizedSize); 
+                    .attr("class", "d3graph-node")
+                    .attr("r", d => d.normalizedSize); 
 
             nodeGroup.append("text")
-                .attr("class", "d3graph-text")
-                .text(d => `${d.degree} - ${d.id}`)
-                .attr("dx", 12)
-                .attr("dy", 4);
+                    .attr("class", "d3graph-text")
+                    .text(d => `${d.degree} - ${d.id}`)
+                    .attr("dx", 12)
+                    .attr("dy", 4);
 
             simulation
                 .nodes(graphData.nodes)
                 .on("tick", ticked);
 
             simulation.force("link")
-                .links(graphData.links);
+                    .links(graphData.links);
 
             function ticked() {
                 link
@@ -606,9 +654,8 @@ method:
 
                 nodeGroup
                     .attr("transform", d => `translate(${d.x}, ${d.y})`);
-
                 nodeGroup.select("circle")
-                    .style("fill", d => finalTopNodes.includes(d.id) ? "red" : "#333");  // change 'red' to the desired color for top nodes
+                        .style("fill", d => finalTopNodes.includes(d.id) ? "red" : "#333");
             }
 
             function dragstarted(event, d) {
@@ -628,10 +675,102 @@ method:
                 d.fy = null;
             }
 
+            /////////////////////////////////////////
+            ///////////END NETWORK GRAPH///////////////
+            /////////////////////////////////////////
+
 
             //////////////////////////////////////////
-            //////////END NETWORK GRAPH///////////////
+            //////////MITRE ATTACK////////////////////
             //////////////////////////////////////////
+            const table = document.getElementById('ttpTable');
+            const techniquesTbody = table.querySelector('tbody:last-child');
+            const tactics = ['TA0043', 'TA0042', 'TA0001', 'TA0002', 'TA0003', 'TA0004', 'TA0005', 'TA0006', 'TA0007', 'TA0008', 'TA0009', 'TA0011', 'TA0010', 'TA0040'];
+
+            const techniqueTr = document.createElement('tr');
+
+            tactics.forEach(tactic => {
+                const tdTechnique = document.createElement('td');
+                tdTechnique.style.textAlign = 'center';
+
+                // Find all techniques for the current tactic
+                const tacticDataList = threatdata.mitre[0].techniques.filter(t => t.tactic_code.toLowerCase() === tactic.toLowerCase());
+
+                tacticDataList.forEach(tacticData => {
+                    const techniqueDiv = document.createElement('div');
+                    techniqueDiv.style.border = '1px solid #ff5757'; 
+                    techniqueDiv.style.margin = '4px 0'; 
+                    techniqueDiv.style.padding = '4px'; 
+
+                    const anchor = document.createElement('a');
+                    anchor.href = tacticData.technique_link;
+                    anchor.textContent = tacticData.technique_code.toUpperCase();
+                    anchor.style.fontWeight = 'bold';
+                    anchor.style.fontSize = '1.1em';
+
+                    const description = document.createElement('span');
+                    description.textContent = tacticData.procedure_description.replace(/\[\d+\]/g, '').trim();
+
+                    const hr = document.createElement('br');
+
+                    const techniqueName = document.createElement('span');
+                    techniqueName.textContent = tacticData.technique_name.toUpperCase();
+                    techniqueName.style.fontWeight = 'bold';
+
+                    techniqueDiv.appendChild(anchor);
+                    techniqueDiv.appendChild(document.createElement('br'));
+                    techniqueDiv.appendChild(techniqueName);
+                    techniqueDiv.appendChild(hr);
+                    techniqueDiv.appendChild(description);
+                    
+                    tdTechnique.appendChild(techniqueDiv);
+                });
+
+                techniqueTr.appendChild(tdTechnique);
+            });
+
+            techniquesTbody.appendChild(techniqueTr);
+
+            /////////////////////////////////////////
+            ///////////MITRE ANALYSIS////////////////
+            /////////////////////////////////////////
+            const tableAnalyzed = document.getElementById('ttpTableAnalyzed');
+            const techniquesTbodyAnalyzed = tableAnalyzed.querySelector('tbody:last-child');
+            const tacticsAnalyzed = ['TA0043', 'TA0042', 'TA0001', 'TA0002', 'TA0003', 'TA0004', 'TA0005', 'TA0006', 'TA0007', 'TA0008', 'TA0009', 'TA0011', 'TA0010', 'TA0040'];
+
+            const techniqueTrAnalyzed = document.createElement('tr');
+
+            tacticsAnalyzed.forEach(tactic => {
+                const tdTechniqueAnalyzed = document.createElement('td');
+                tdTechniqueAnalyzed.style.textAlign = 'center';
+
+                const tacticDataListAnalyzed = threatdata.mitre[0].techniques.filter(t => t.tactic_code.toLowerCase() === tactic.toLowerCase());
+
+                tacticDataListAnalyzed.forEach(tacticData => {
+                    const techniqueDivAnalyzed = document.createElement('div');
+                    techniqueDivAnalyzed.style.border = '1px solid #ff5757';
+                    techniqueDivAnalyzed.style.margin = '4px 0';
+                    techniqueDivAnalyzed.style.padding = '4px';
+
+                    const anchorAnalyzed = document.createElement('a');
+                    anchorAnalyzed.href = tacticData.technique_link;
+                    anchorAnalyzed.textContent = tacticData.technique_code.toUpperCase();
+
+                    const techniqueNameAnalyzed = document.createElement('span');
+                    techniqueNameAnalyzed.textContent = tacticData.technique_name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+                    techniqueDivAnalyzed.appendChild(anchorAnalyzed);
+                    techniqueDivAnalyzed.appendChild(document.createElement('br'));
+                    techniqueDivAnalyzed.appendChild(techniqueNameAnalyzed);
+
+                    tdTechniqueAnalyzed.appendChild(techniqueDivAnalyzed);
+                });
+
+                techniqueTrAnalyzed.appendChild(tdTechniqueAnalyzed);
+            });
+
+            techniquesTbodyAnalyzed.appendChild(techniqueTrAnalyzed);
+
 
 
             // Remove loading

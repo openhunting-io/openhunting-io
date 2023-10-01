@@ -9959,3 +9959,73 @@ footer {
   font-family: Arial, sans-serif;
   font-size: 12px;
 }
+
+.top-link {
+  stroke: red;
+}
+
+
+/* TABLE MITRE */
+.ttp-table {
+  font-size: 8px;
+  /* width: 100%; */
+  /* max-width: 100%; Set the table to stretch full width */
+  border-collapse: collapse;
+  table-layout: fixed; /* This makes columns distribute evenly */
+}
+
+.ttp-table, .ttp-table th, .ttp-table td {
+  border: 1px solid black;
+  padding: 8px;
+  vertical-align: top;  /* Aligns content to the top */
+  text-align: center;   /* Centers content horizontally */
+}
+
+.ttp-table-head {
+  background-color: #ff5757;
+  color: white;
+}
+.ttp-table a {
+  color: #ff5757;
+  text-decoration: none; /* If you want to remove the underline */
+}
+
+.table-container-ttp {
+  width: 100%; /* Set the container to the full width of its parent. */
+  overflow: auto; /* Make it scrollable both horizontally and vertically when content overflows. */
+  border: 1px solid black;
+  max-height: 400px; /* Set a maximum height. Adjust this value as per your design requirements. */
+}
+
+/* TABLE MITRE ANALYSIS */
+.ttp-table-Analyzed {
+  font-size: 8px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.ttp-table-Analyzed,
+.ttp-table-Analyzed th,
+.ttp-table-Analyzed td {
+  border: 1px solid black;
+  padding: 8px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.ttp-table-head-Analyzed {
+  background-color: #ff5757;
+  color: white;
+}
+
+.ttp-table-Analyzed a {
+  color: #ff5757;
+  text-decoration: none;
+}
+
+.table-container-ttp-Analyzed {
+  width: 100%;
+  overflow: auto;
+  border: 1px solid black;
+  max-height: 400px;
+}

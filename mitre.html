@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTP Table Analyzed</title>
+    <style>
+        .ttp-table-Analyzed {
+            font-size: 8px;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        .ttp-table-Analyzed,
+        .ttp-table-Analyzed th,
+        .ttp-table-Analyzed td {
+            border: 1px solid black;
+            padding: 8px;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .ttp-table-head-Analyzed {
+            background-color: #ff5757;
+            color: white;
+        }
+
+        .ttp-table-Analyzed a {
+            color: #ff5757;
+            text-decoration: none;
+        }
+
+        .table-container-ttp-Analyzed {
+            width: 100%;
+            overflow: auto;
+            border: 1px solid black;
+            max-height: 400px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <table class="ttp-table-Analyzed" id="ttpTableAnalyzed">
+        <thead>
+            <tr class="ttp-table-head-Analyzed">
+                <th>TA0043</th>
+                <th>TA0042</th>
+                <th>TA0001</th>
+                <th>TA0002</th>
+                <th>TA0003</th>
+                <th>TA0004</th>
+                <th>TA0005</th>
+                <th>TA0006</th>
+                <th>TA0007</th>
+                <th>TA0008</th>
+                <th>TA0009</th>
+                <th>TA0011</th>
+                <th>TA0010</th>
+                <th>TA0040</th>
+            </tr>
+        </thead>
+        <tbody style="text-align: center;">
+            <tr>
+                <td>Reconnaissance</td>
+                <td>Resource Development</td>
+                <td>Initial Access</td>
+                <td>Execution</td>
+                <td>Persistence</td>
+                <td>Privilege Escalation</td>
+                <td>Defense Evasion</td>
+                <td>Credential Access</td>
+                <td>Discovery</td>
+                <td>Lateral Movement</td>
+                <td>Collection</td>
+                <td>Command and Control</td>
+                <td>Exfiltration</td>
+                <td>Impact</td>
+            </tr>
+        </tbody>
+        <tbody style="text-align: center;">
+            <!-- Technique Codes will be inserted dynamically here -->
+        </tbody>
+    </table>
+
+    <script>
+        var threatdataAnalyzed = {
+    "name": "Nerex",
+    "alias": "Nerex",
+    "category": "Malware",
+    "type": "Backdoor, Downloader",
+    "modified": "2022-12-30",
+    "all_data": {
+        "tool": "Nerex",
+        "names": [
+            {
+                "name": "Nerex"
+            }
+        ],
+        "description": "Nerex is a Trojan used by Elderwood to open a backdoor on compromised hosts.",
+        "category": "Malware",
+        "type": [
+            "Backdoor",
+            "Downloader"
+        ],
+        "information": [
+            "https://web.archive.org/web/20190717233006/http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf",
+            "https://www.symantec.com/security_response/writeup.jsp?docid=2012-051515-3445-99"
+        ],
+        "mitre-attack": [
+            "https://attack.mitre.org/software/S0210/"
+        ],
+        "uuid": "7c3f105c-04e0-4e5e-a4ef-faacb2d327fa",
+        "last-card-change": "2022-12-30",
+        "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
+    },
+    "ioc_data": [],
+    "last_ioc_update": null,
+    "mitre": [
+        {
+            "procedure_name": "nerex",
+            "procedure_code": "s0210",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0210",
+            "techniques": [
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "nerex creates a registry subkey that registers a new service.[81]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "test ajah",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "nerex creates a registry subkey that registers a new service.[81]"
+                },
+            ]
+        }
+    ],
+    "file_name": "nerex",
+    "analysis": null,
+    "articles": []
+};
+
+        const tableAnalyzed = document.getElementById('ttpTableAnalyzed');
+        const techniquesTbodyAnalyzed = tableAnalyzed.querySelector('tbody:last-child');
+        const tacticsAnalyzed = ['TA0043', 'TA0042', 'TA0001', 'TA0002', 'TA0003', 'TA0004', 'TA0005', 'TA0006', 'TA0007', 'TA0008', 'TA0009', 'TA0011', 'TA0010', 'TA0040'];
+
+        const techniqueTrAnalyzed = document.createElement('tr');
+
+        tacticsAnalyzed.forEach(tactic => {
+            const tdTechniqueAnalyzed = document.createElement('td');
+            tdTechniqueAnalyzed.style.textAlign = 'center';
+
+            const tacticDataListAnalyzed = threatdataAnalyzed.mitre[0].techniques.filter(t => t.tactic_code.toLowerCase() === tactic.toLowerCase());
+
+            tacticDataListAnalyzed.forEach(tacticData => {
+                const techniqueDivAnalyzed = document.createElement('div');
+                techniqueDivAnalyzed.style.border = '1px solid #ff5757';
+                techniqueDivAnalyzed.style.margin = '4px 0';
+                techniqueDivAnalyzed.style.padding = '4px';
+
+                const anchorAnalyzed = document.createElement('a');
+                anchorAnalyzed.href = tacticData.technique_link;
+                anchorAnalyzed.textContent = tacticData.technique_code.toUpperCase();
+
+                const techniqueNameAnalyzed = document.createElement('span');
+                techniqueNameAnalyzed.textContent = tacticData.technique_name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+                techniqueDivAnalyzed.appendChild(anchorAnalyzed);
+                techniqueDivAnalyzed.appendChild(document.createElement('br'));
+                techniqueDivAnalyzed.appendChild(techniqueNameAnalyzed);
+
+                tdTechniqueAnalyzed.appendChild(techniqueDivAnalyzed);
+            });
+
+            techniqueTrAnalyzed.appendChild(tdTechniqueAnalyzed);
+        });
+
+        techniquesTbodyAnalyzed.appendChild(techniqueTrAnalyzed);
+
+    </script>
+
+</body>
+
+</html>
