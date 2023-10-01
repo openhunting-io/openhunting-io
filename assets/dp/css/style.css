@@ -10074,38 +10074,53 @@ footer {
 
 /*  PROGRESS BAR MITRE*/
 #attack-techniques-detail {
-  width: 40%;
+  font-size: 11px;
+  width: 60%;
   padding: 10px;
 }
 
+/* Styling for the container of the label, progress bar, and ratio */
 .attack-technique {
+  display: flex;
+  align-items: center;  /* Vertically center all children */
   margin-bottom: 3px;
   line-height: 1.2;
 }
 
-.attack-progress {
-  width: 55%;
-  vertical-align: middle;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.attack-progress::-webkit-progress-bar {
-  background-color: #eee;
-}
-
 .attack-technique-label {
-  display: inline-block;
-  width: 30%;
+  flex: 0 0 30%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-transform: capitalize; /* Add this line */
 }
 
-.attack-ratio {
-  display: inline-block;
-  width: 10%;
+
+/* Progress bar container */
+.attack-progress {
+  flex: 0 0 55%;  /* This takes up 55% width of the parent, doesn't grow or shrink */
+  height: 20px;
+  background-color: #eee;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative; /* Relative position for the fill */
 }
+
+/* The filled portion of the progress bar */
+.progress-fill {
+  height: 100%;
+  background-color: #ff5757;
+  border-radius: 4px;
+}
+
+/* Styling for the ratio text */
+.attack-ratio {
+  flex: 0 0 10%;  /* This takes up 10% width of the parent, doesn't grow or shrink */
+  white-space: nowrap;
+}
+
+
 
 /* TOP 10 TABLE FILTER */
 .unique-data-table {

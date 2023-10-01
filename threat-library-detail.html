@@ -143,7 +143,14 @@
                         <div class="row px-xl-5">
                             <h3>[TTP Analysis] Technique Performance:</h3>
                             <div class="col-lg-12">
-                                <div id="attack-techniques-detail"></div>
+                                <div class="container-fluid">
+                                
+                                    <!-- Filter -->
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <div id="attack-techniques-detail"></div>
+                                    </div>
+                                </div>
+                                
 
                             </div>
                         </div>
@@ -954,12 +961,17 @@ method:
                         let tacticDetails = tacticsOverview[tacticCode];
                         let count = countTechniquesForTactic(tacticCode);
                         detailsHtml += `
-                            <div class="attack-technique">
-                                <span class="attack-technique-label">${tacticDetails.name}</span>
-                                <progress class="attack-progress" value="${count}" max="${tacticDetails.max}"></progress>
-                                <span class="attack-ratio">${count}/${tacticDetails.max}</span>
-                            </div>
-                        `;
+                                    <div class="attack-technique">
+                                        <span class="attack-technique-label">${tacticDetails.name}</span>
+                                        
+                                        <div class="attack-progress">
+                                            <div class="progress-fill" style="width: ${Math.round((count/tacticDetails.max)*100)}%"></div>
+                                        </div>
+                                        
+                                        <span class="attack-ratio">${count}/${tacticDetails.max}</span>
+                                    </div>
+                                `;
+
                     }
                     detailDiv.innerHTML = detailsHtml;
                 }
