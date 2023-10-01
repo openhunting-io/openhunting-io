@@ -201,8 +201,9 @@
                             <div class="col">
                                 <div class="nav nav-tabs justify-content-center border-secondary mb-4">
                                     <a class="nav-item nav-link active" data-toggle="tab" href="#tab-pane-1">News</a>
-                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Indicator of Compromise</a>
-                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Mitre Attack</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-2">Basic Information</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3">Indicator of Compromise</a>
+                                    <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-4">Mitre Attack</a>
                                 </div>
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="tab-pane-1">
@@ -211,11 +212,15 @@
                                         <div id="articlesContainer"></div>
                                     </div>
                                     <div class="tab-pane fade" id="tab-pane-2">
+                                        <h4 class="mb-3" id="title_etda"></h4>
+                                        <div id="basicInformation"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-pane-3">
                                         <h4 class="mb-3" id="title_ioc"></h4>
                                         <!-- Container for the list of articles -->
                                         <div id="iocContainer"></div>
                                     </div>
-                                    <div class="tab-pane fade" id="tab-pane-3">
+                                    <div class="tab-pane fade" id="tab-pane-4">
                                         <h4 class="mb-3" id="title_mitre"></h4>
                                         <!-- Container for the list of articles -->
                                         <div class="table-container-ttp">
@@ -899,6 +904,64 @@ method:
 
                 populateMitreAttackTechniquesDetail();
             }
+
+            ///////////////////////////////////
+            ////// Start Basic Information ////
+            ///////////////////////////////////
+            var title_etda = document.getElementById('title_etda');
+            title_etda.innerHTML = 'Basic Information (Credit @<a href="https://apt.etda.or.th/cgi-bin/listtools.cgi">etda.or.th</a>)';
+
+            function capitalizeEachWord(str) {
+                return str.split(' ').map(function(word) {
+                    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+                }).join(' ');
+            }
+
+            function uniqueConvertToJsonToHtml(threatdata) {
+                var uniqueAllData = threatdata.all_data;
+                var uniqueHtmlContent = '';
+
+                for (var key in uniqueAllData) {
+                    if (key === 'uuid') continue;
+                    var value = uniqueAllData[key];
+
+                    if (key === 'names') {
+                        value = value.map(function(item) {
+                            return item.name;
+                        }).join(', ');
+                    } else if (key === 'type' && Array.isArray(value)) {
+                        value = value.join(', ');
+                    }
+
+                    var formattedKey = '<b>' + capitalizeEachWord(key) + '</b>';
+
+                    if (Array.isArray(value)) {
+                        for (var i = 0; i < value.length; i++) {
+                            if (typeof value[i] === 'object') {
+                                for (var innerKey in value[i]) {
+                                    uniqueHtmlContent += '<p class="uniqueClassPara">' + formattedKey + ': ' + value[i][innerKey] + '</p>';
+                                }
+                            } else if (value[i].startsWith('http')) {
+                                uniqueHtmlContent += '<p class="uniqueClassPara">' + formattedKey + ': <a href="' + value[i] + '" target="_blank" rel="noopener noreferrer">' + value[i] + '</a></p>';
+                            } else {
+                                uniqueHtmlContent += '<p class="uniqueClassPara">' + formattedKey + ': ' + value[i] + '</p>';
+                            }
+                        }
+                    } else {
+                        uniqueHtmlContent += '<p class="uniqueClassPara">' + formattedKey + ': ' + value + '</p>';
+                    }
+                }
+
+                var uniqueDiv = document.createElement('div');
+                uniqueDiv.className = 'uniqueClassDiv';
+                uniqueDiv.innerHTML = uniqueHtmlContent;
+                return uniqueDiv;
+            }
+
+            var targetDiv = document.getElementById('basicInformation');
+            var uniqueDivElement = uniqueConvertToJsonToHtml(threatdata);
+            targetDiv.appendChild(uniqueDivElement);
+
 
             ///////////////////////////////////
             ////////// Remove loading//////////
