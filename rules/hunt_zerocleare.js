@@ -1,5 +1,5 @@
 const rule = {
-    "id": "e03cc26d-ddc5-4f22-98d2-08945b49566d",
+    "id": "fbcf73c4-afb9-413b-8b41-851c3466bdd9",
     "info": {
         "name": "Rules Detect ZeroCleare",
         "author": "Openhunting",

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "80cc5e38-73d5-4321-8a34-00a23fd63589",
+    "id": "c2fe6955-d04e-4ced-8fcd-172509f190dd",
     "info": {
         "name": "Rules Detect Ramnit",
         "author": "Openhunting",
@@ -9,10 +9,10 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Ramnit",
         "tags": [
-            "EVILNK",
+            "EVILDR",
             "EVILNUM",
             "Ramnit",
-            "EVILDR"
+            "EVILNK"
         ],
         "references": []
     },
@@ -37,10 +37,10 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "www.treeboxmail.com",
-                        "infntio.com",
+                        "31.192.107.232",
                         "185.236.76.230",
-                        "31.192.107.232"
+                        "infntio.com",
+                        "www.treeboxmail.com"
                     ]
                 }
             ]

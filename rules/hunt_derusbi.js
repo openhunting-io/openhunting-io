@@ -1,5 +1,5 @@
 const rule = {
-    "id": "7255ce11-79c4-4778-9507-f687d1a18569",
+    "id": "0b2852c5-343d-42ee-8601-96e948fa4c52",
     "info": {
         "name": "Rules Detect Derusbi",
         "author": "Openhunting",

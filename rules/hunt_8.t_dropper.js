@@ -1,5 +1,5 @@
 const rule = {
-    "id": "154fe33f-38c2-444f-9c48-b06be758fdc9",
+    "id": "fd05e934-5f9b-4bad-9d54-76e7002c867b",
     "info": {
         "name": "Rules Detect 8.t Dropper",
         "author": "Openhunting",

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "06f2a4aa-0362-46f0-b7c6-f6d61d243b94",
+    "id": "fca6d150-6bf9-4c1f-8b4f-776ba79f97da",
     "info": {
         "name": "Rules Detect Anubis",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Anubis",
         "tags": [
-            "Anubis",
-            "BankBot"
+            "BankBot",
+            "Anubis"
         ],
         "references": []
     },
@@ -34,10 +34,9 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
+                        "47.89.185.156",
                         "zektarmunoza.shop",
-                        "monitorarbitcoin.org",
-                        "zektarmunoza.shop",
-                        "47.89.185.156"
+                        "monitorarbitcoin.org"
                     ]
                 }
             ]

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "f73dbd21-9e21-4aa8-86f4-b4a5c2c9d031",
+    "id": "1274e8df-5901-4069-9c62-98bb0cc0a221",
     "info": {
         "name": "Rules Detect DIRTCLEANER",
         "author": "Openhunting",
@@ -21,33 +21,21 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "gcl-page.biz",
-                        "gcl-page.biz",
-                        "gcl-partners.in",
-                        "gcl-partners.in",
-                        "appwebstat.biz",
-                        "appwebstat.biz",
+                        "gcc-prtnrs.top",
+                        "cleaner-partners.top",
+                        "g-localdevice.biz",
+                        "gc-prtnrs.top",
+                        "ggc-partners.in",
+                        "ads-postback.biz",
                         "web-stat.biz",
                         "ad-postback.biz",
-                        "ad-postback.biz",
-                        "ads-postback.biz",
-                        "postbackstat.biz",
-                        "postbackstat.biz",
-                        "g-localdevice.biz",
+                        "appwebstat.biz",
+                        "gcl-page.biz",
                         "gcl-gb.biz",
-                        "ggc-partners.info",
-                        "ggc-partners.info",
-                        "ggc-partners.info",
-                        "cleaner-partners.top",
-                        "ggc-partners.in",
+                        "postbackstat.biz",
                         "ggc-partners.top",
-                        "ggc-partners.top",
-                        "gcc-prtnrs.top",
-                        "gcc-prtnrs.top",
-                        "gc-prtnrs.top",
-                        "gc-prtnrs.top",
-                        "gc-prtnrs.top",
-                        "cleaner-partners.top"
+                        "ggc-partners.info",
+                        "gcl-partners.in"
                     ]
                 }
             ]

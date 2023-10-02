@@ -1,5 +1,5 @@
 const rule = {
-    "id": "45a17210-9777-446f-938d-0274b783ce4a",
+    "id": "0ac9f058-d5c9-468f-aba5-654aa0931eb1",
     "info": {
         "name": "Rules Detect Dexter",
         "author": "Openhunting",
@@ -19,8 +19,8 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "4eabb1adc035f035e010c0d0d259c683e18193f509946652ed8aa7c5d92b6a92",
-                        "e41fb7878c89cc728005f3c82f7ee8c14ce27edcf4e307ddd8691f62dd5e6726"
+                        "e41fb7878c89cc728005f3c82f7ee8c14ce27edcf4e307ddd8691f62dd5e6726",
+                        "4eabb1adc035f035e010c0d0d259c683e18193f509946652ed8aa7c5d92b6a92"
                     ]
                 }
             ]

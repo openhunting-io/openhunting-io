@@ -1,5 +1,5 @@
 const rule = {
-    "id": "1241b9dd-d372-4e50-aacb-5649aadfaecc",
+    "id": "41ad0e07-3b39-4b5b-939e-b46680b53bf1",
     "info": {
         "name": "Rules Detect Locky",
         "author": "Openhunting",

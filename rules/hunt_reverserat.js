@@ -1,5 +1,5 @@
 const rule = {
-    "id": "d7ddc2c7-8972-4e82-8297-71767db6478f",
+    "id": "942c1fe0-9290-48e4-9e43-c9a8a73c0114",
     "info": {
         "name": "Rules Detect ReverseRAT",
         "author": "Openhunting",

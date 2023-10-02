@@ -1,5 +1,5 @@
 const rule = {
-    "id": "c1e71005-4166-4e3f-ac3c-2b53ba117f6e",
+    "id": "12595771-e729-4243-b568-80f389303da4",
     "info": {
         "name": "Rules Detect Janeleiro",
         "author": "Openhunting",
@@ -9,9 +9,9 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Janeleiro",
         "tags": [
-            "brazil",
+            "banker",
             "janeleiro",
-            "banker"
+            "brazil"
         ],
         "references": []
     },

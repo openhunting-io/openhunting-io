@@ -1,5 +1,5 @@
 const rule = {
-    "id": "e6fab621-38d4-4ba4-82a6-e767d2d0b20c",
+    "id": "79f0613f-6ce0-40a8-8349-6052199206a0",
     "info": {
         "name": "Rules Detect Retefe",
         "author": "Openhunting",
@@ -20,9 +20,9 @@ const rule = {
                     "name": "hash",
                     "indicator": [
                         "c76482802a369e6230d198123ceba32a801c6300fc7af306872a5a642adc445a",
-                        "f44b80767dd5d095a338f4a2ef6f80358b43764b4ec00827922bd7e4b19ecc83",
+                        "8e679f87ba503f3dfad96266ca79de7bfe3092dc6a58c0fe0438f7d4b19f0bbd",
                         "fd0e2aab29278cdbb6fc77665adcbf334040b7a0a3bbda315b943009e84618a0",
-                        "8e679f87ba503f3dfad96266ca79de7bfe3092dc6a58c0fe0438f7d4b19f0bbd"
+                        "f44b80767dd5d095a338f4a2ef6f80358b43764b4ec00827922bd7e4b19ecc83"
                     ]
                 }
             ]

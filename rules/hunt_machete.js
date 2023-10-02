@@ -1,5 +1,5 @@
 const rule = {
-    "id": "efff746b-f5aa-4e33-adbf-b71a7d372467",
+    "id": "33843b62-4c5b-498b-8bde-767bdfb17abb",
     "info": {
         "name": "Rules Detect Machete",
         "author": "Openhunting",
@@ -19,9 +19,9 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
+                        "2f665e4c068d2f09fef3ddf10caaef6f",
                         "05a9724fc96b9a8093a1f437c3030ca8",
-                        "21388527c8e63a333892d922faae5826",
-                        "2f665e4c068d2f09fef3ddf10caaef6f"
+                        "21388527c8e63a333892d922faae5826"
                     ]
                 }
             ]

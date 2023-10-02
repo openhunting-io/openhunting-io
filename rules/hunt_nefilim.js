@@ -1,5 +1,5 @@
 const rule = {
-    "id": "0096b29c-9453-4b90-afd9-825ec45b99b8",
+    "id": "fe3748e7-93b7-473b-8485-0b54de7924f2",
     "info": {
         "name": "Rules Detect Nefilim",
         "author": "Openhunting",

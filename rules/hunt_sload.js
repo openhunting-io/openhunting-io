@@ -1,5 +1,5 @@
 const rule = {
-    "id": "ac91a552-cd11-4f7b-a197-fbce5ae37d7f",
+    "id": "d0ea9da9-7aa7-4b11-91f7-7f471fd1f5c4",
     "info": {
         "name": "Rules Detect sLoad",
         "author": "Openhunting",
@@ -21,10 +21,10 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "hgjui.eu",
-                        "hkjt.eu",
                         "opoietj.eu",
-                        "sertyty.eu"
+                        "hgjui.eu",
+                        "sertyty.eu",
+                        "hkjt.eu"
                     ]
                 }
             ]

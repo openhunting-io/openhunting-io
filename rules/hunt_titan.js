@@ -1,5 +1,5 @@
 const rule = {
-    "id": "7895ccd1-65bd-4671-8489-8cc4bd7ae1c6",
+    "id": "002fba2e-937b-4f65-b98a-928b8c7f1f16",
     "info": {
         "name": "Rules Detect Titan",
         "author": "Openhunting",

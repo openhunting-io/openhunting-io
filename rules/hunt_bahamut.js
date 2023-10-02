@@ -1,5 +1,5 @@
 const rule = {
-    "id": "b68533d7-091b-4c2c-a377-9c0483d91fdb",
+    "id": "a4ba30d4-dccc-42cb-a1ac-f1654bfe1825",
     "info": {
         "name": "Rules Detect Bahamut",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "APT",
         "description": "Rules IOC for Bahamut",
         "tags": [
-            "ViriBack",
-            "Bahamut"
+            "Bahamut",
+            "ViriBack"
         ],
         "references": []
     },

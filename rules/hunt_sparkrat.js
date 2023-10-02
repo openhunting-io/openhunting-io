@@ -1,5 +1,5 @@
 const rule = {
-    "id": "a72cbbe2-f175-4c3f-8ab6-2835a1eabd86",
+    "id": "130ef31e-1445-4db6-b31f-53b805a2ce6a",
     "info": {
         "name": "Rules Detect SparkRAT",
         "author": "Openhunting",
@@ -9,11 +9,11 @@ const rule = {
         "category": "Tools",
         "description": "Rules IOC for SparkRAT",
         "tags": [
-            "APT36",
-            "RAT",
             "APT",
             "TransparentTribe",
-            "SparkRAT"
+            "SparkRAT",
+            "APT36",
+            "RAT"
         ],
         "references": []
     },
@@ -25,12 +25,12 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "8942c78d1c9abee21c58ba2444083b40",
-                        "606115347958dca7ac3c206c643d5419",
+                        "2e66189aa1b6fd345a9c13124844ebbc",
                         "f7e2dac6a8edf639212bdd4af905ba2c",
-                        "ca77027959864b4809487127321694f7",
+                        "8942c78d1c9abee21c58ba2444083b40",
                         "ebc8f74281e0481b9da06b8c0d421ba6",
-                        "2e66189aa1b6fd345a9c13124844ebbc"
+                        "606115347958dca7ac3c206c643d5419",
+                        "ca77027959864b4809487127321694f7"
                     ]
                 }
             ]
@@ -42,9 +42,9 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "6jxbmkpe.torontobotdns.com",
+                        "130.185.238.251",
                         "43.140.252.169",
-                        "130.185.238.251"
+                        "6jxbmkpe.torontobotdns.com"
                     ]
                 }
             ]

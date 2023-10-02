@@ -1,5 +1,5 @@
 const rule = {
-    "id": "4ad627b2-a3f0-428b-bc94-a7fd6bbe13ca",
+    "id": "759b6880-cfe3-4f38-88f7-f1c7043b6ae7",
     "info": {
         "name": "Rules Detect Infy",
         "author": "Openhunting",

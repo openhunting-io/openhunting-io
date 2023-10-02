@@ -1,5 +1,5 @@
 const rule = {
-    "id": "f0a4352d-536a-4848-9131-8514386354e3",
+    "id": "818add5b-3435-4fe5-b03c-55998fe94815",
     "info": {
         "name": "Rules Detect Anchor",
         "author": "Openhunting",
@@ -19,8 +19,8 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "a8a8c66b155fcf9bfdf34ba0aca98991440c3d34b8a597c3fdebc8da251c9634",
-                        "ba801f1c2e2c5f5cd961e887cb0776f2d5cee8d17164f29b138a8952dd162165"
+                        "ba801f1c2e2c5f5cd961e887cb0776f2d5cee8d17164f29b138a8952dd162165",
+                        "a8a8c66b155fcf9bfdf34ba0aca98991440c3d34b8a597c3fdebc8da251c9634"
                     ]
                 }
             ]

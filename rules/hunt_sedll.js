@@ -1,5 +1,5 @@
 const rule = {
-    "id": "721b03a0-8d48-46c1-862d-508f3d016218",
+    "id": "d909ad27-381d-424b-b593-39d7f3fd6d5f",
     "info": {
         "name": "Rules Detect SeDLL",
         "author": "Openhunting",

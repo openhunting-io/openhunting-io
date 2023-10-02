@@ -1,5 +1,5 @@
 const rule = {
-    "id": "f5d710a0-5f34-447a-b433-700cf09a9360",
+    "id": "48df5c74-8464-4b83-be09-fc4ad5e6a206",
     "info": {
         "name": "Rules Detect TeamSpy",
         "author": "Openhunting",
@@ -9,16 +9,16 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for TeamSpy",
         "tags": [
-            "ViaPrivateLoader",
-            "TeamSpy",
-            "RAT",
-            "ViaPRivateLoader",
-            "VIAPRIVATELOADER",
             "teamspy",
+            "TeamSpy",
             "ViaPrivateloader",
-            "Viaprivateloader",
             "Teamspy",
-            "teamSpy"
+            "teamSpy",
+            "ViaPRivateLoader",
+            "RAT",
+            "VIAPRIVATELOADER",
+            "Viaprivateloader",
+            "ViaPrivateLoader"
         ],
         "references": []
     },
@@ -30,22 +30,22 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "aqwxeyo.ru",
-                        "aibyngu.ru",
                         "cegbqbq.net",
-                        "eojyaqr.ua",
-                        "ddpkzaq.info",
-                        "ccodoom.net",
-                        "eeepdcn.ua",
                         "efeuhot.ua",
-                        "diixuoo.info",
-                        "aioeuqo.ru",
-                        "exokckg.ua",
-                        "ddcedue.info",
-                        "eodqdlj.ua",
+                        "185.141.63.172",
+                        "aqwxeyo.ru",
                         "eeonagf.ua",
+                        "exokckg.ua",
+                        "eodqdlj.ua",
                         "ebelkye.ua",
-                        "185.141.63.172"
+                        "aioeuqo.ru",
+                        "ddcedue.info",
+                        "diixuoo.info",
+                        "ddpkzaq.info",
+                        "eojyaqr.ua",
+                        "aibyngu.ru",
+                        "ccodoom.net",
+                        "eeepdcn.ua"
                     ]
                 }
             ]

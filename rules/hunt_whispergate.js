@@ -1,5 +1,5 @@
 const rule = {
-    "id": "fff32963-7f06-44ab-8c5f-ac63e0b7bb94",
+    "id": "f261781a-e8a9-4090-967e-f39184bbfca7",
     "info": {
         "name": "Rules Detect WhisperGate",
         "author": "Openhunting",

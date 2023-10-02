@@ -1,5 +1,5 @@
 const rule = {
-    "id": "757e5063-00b7-4076-a265-80c4b267b095",
+    "id": "bdcd5c42-43d9-44f4-9e00-a0ff53307776",
     "info": {
         "name": "Rules Detect RagnarLocker",
         "author": "Openhunting",

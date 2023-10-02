@@ -1,5 +1,5 @@
 const rule = {
-    "id": "84b39824-b61e-4a9a-94b3-f036db1b6990",
+    "id": "43142c82-d731-4361-bcb7-618b1c664f7a",
     "info": {
         "name": "Rules Detect Cinobi",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Cinobi",
         "tags": [
-            "cinobi",
-            "bottleek"
+            "bottleek",
+            "cinobi"
         ],
         "references": []
     },

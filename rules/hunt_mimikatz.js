@@ -1,5 +1,5 @@
 const rule = {
-    "id": "2c23fdf2-d720-40c5-9d47-e605cdb56816",
+    "id": "13bf3c06-99b4-404e-a9d8-ee52edcd7914",
     "info": {
         "name": "Rules Detect Mimikatz",
         "author": "Openhunting",
@@ -10,8 +10,8 @@ const rule = {
         "description": "Rules IOC for Mimikatz",
         "tags": [
             "Gh0stRAT",
-            "sodinokibi",
-            "Mimikatz"
+            "Mimikatz",
+            "sodinokibi"
         ],
         "references": []
     },

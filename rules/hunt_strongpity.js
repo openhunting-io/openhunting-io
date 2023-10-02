@@ -1,5 +1,5 @@
 const rule = {
-    "id": "af309de0-9366-46e3-8adc-8afd0046321d",
+    "id": "9ae7b90b-089b-43e4-a80d-cb37026a2a32",
     "info": {
         "name": "Rules Detect StrongPity",
         "author": "Openhunting",
@@ -20,8 +20,8 @@ const rule = {
                     "name": "hash",
                     "indicator": [
                         "0f609dd490b21c85e9c8d1db8995e791",
-                        "d3e206ec0c7e2bb4dbe3897607e14722",
-                        "62eab80792db53bf945ff0f835790d36"
+                        "62eab80792db53bf945ff0f835790d36",
+                        "d3e206ec0c7e2bb4dbe3897607e14722"
                     ]
                 }
             ]

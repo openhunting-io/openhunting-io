@@ -1,5 +1,5 @@
 const rule = {
-    "id": "31bfaa6d-66ad-4658-84e0-f0833bac4c42",
+    "id": "c064092b-5046-4d57-a391-83c00e91553b",
     "info": {
         "name": "Rules Detect Infy, Prince of Persia",
         "author": "Openhunting",

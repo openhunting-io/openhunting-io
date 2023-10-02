@@ -1,5 +1,5 @@
 const rule = {
-    "id": "271b6081-5860-4a23-8499-b362b53dc91e",
+    "id": "9d8f41a6-15e3-4b5c-964c-2fabff698c3d",
     "info": {
         "name": "Rules Detect Griffon",
         "author": "Openhunting",

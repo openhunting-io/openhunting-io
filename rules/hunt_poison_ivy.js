@@ -1,5 +1,5 @@
 const rule = {
-    "id": "3e1854b1-fb55-4c2c-a5ab-3079a4f34601",
+    "id": "4a7cab0c-a2a3-4790-a205-37ddab2dadaf",
     "info": {
         "name": "Rules Detect Poison Ivy",
         "author": "Openhunting",

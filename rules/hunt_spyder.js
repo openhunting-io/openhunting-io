@@ -1,5 +1,5 @@
 const rule = {
-    "id": "d21fe723-9823-4480-bb91-3478776e6b52",
+    "id": "dc5f98a6-2f76-4d55-8858-dfff18653b72",
     "info": {
         "name": "Rules Detect Spyder",
         "author": "Openhunting",
@@ -9,12 +9,12 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Spyder",
         "tags": [
-            "trojan",
-            "Spyder",
             "fragtor",
-            "ViriBack",
+            "Spyder",
+            "Trojan",
             "Fragtor",
-            "Trojan"
+            "ViriBack",
+            "trojan"
         ],
         "references": []
     },
@@ -39,11 +39,10 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "cdn.radar.game",
                         "plainboardssixty.com",
-                        "libreofficeupdates.com",
+                        "cdn.radar.game",
                         "radar.game",
-                        "cdn.radar.game"
+                        "libreofficeupdates.com"
                     ]
                 }
             ]

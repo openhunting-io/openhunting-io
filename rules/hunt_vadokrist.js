@@ -1,5 +1,5 @@
 const rule = {
-    "id": "849001f0-df07-427f-9803-b422cbf9fd10",
+    "id": "0623b5da-ab71-4fc5-87e6-a7f0826d9d64",
     "info": {
         "name": "Rules Detect Vadokrist",
         "author": "Openhunting",

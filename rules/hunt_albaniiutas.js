@@ -1,5 +1,5 @@
 const rule = {
-    "id": "8a768159-6abc-42e9-b6df-b1f0ceaf974d",
+    "id": "a2b0fb2f-281d-4d1a-9890-963eefb33712",
     "info": {
         "name": "Rules Detect Albaniiutas",
         "author": "Openhunting",

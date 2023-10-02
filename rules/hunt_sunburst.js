@@ -1,5 +1,5 @@
 const rule = {
-    "id": "8b39c325-d267-4662-b512-913ff12ec7d9",
+    "id": "af17fa00-1f86-4b46-875f-42945847c548",
     "info": {
         "name": "Rules Detect SUNBURST",
         "author": "Openhunting",

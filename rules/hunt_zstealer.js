@@ -1,5 +1,5 @@
 const rule = {
-    "id": "0afe54bc-4285-4fe7-9fcc-3d15bf505f4c",
+    "id": "e3d0ff8c-e4a2-4571-b992-70d23e8b6696",
     "info": {
         "name": "Rules Detect Z*Stealer",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Z*Stealer",
         "tags": [
-            "ViriBack",
-            "ZStealer"
+            "ZStealer",
+            "ViriBack"
         ],
         "references": []
     },
@@ -22,10 +22,10 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "975da522079b40365ef3801e71714eb4",
-                        "ab1448e5606aeebd04b298b41292bff2",
+                        "5b32164135c2798630f86fb25e787dde",
                         "171755fb48a0ad6464e8808dc90856a9",
-                        "5b32164135c2798630f86fb25e787dde"
+                        "975da522079b40365ef3801e71714eb4",
+                        "ab1448e5606aeebd04b298b41292bff2"
                     ]
                 }
             ]

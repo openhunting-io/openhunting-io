@@ -1,5 +1,5 @@
 const rule = {
-    "id": "92ec9eb9-89e1-4fc0-aa26-9bef1514e438",
+    "id": "5b29bc04-4210-42e5-b95b-d75dee0ad31e",
     "info": {
         "name": "Rules Detect Winnti",
         "author": "Openhunting",
@@ -19,10 +19,10 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "a512950b07384ef98d9105da98755cc99a50e007d7976bfd1242b7c0dacec3cf",
                         "0816e820c5380f3690a605ed21e16680",
                         "c99397d66e49e2def1b17f57cd0c5fb9",
-                        "87100cb600d876bd022a4d93ce6305a0"
+                        "87100cb600d876bd022a4d93ce6305a0",
+                        "a512950b07384ef98d9105da98755cc99a50e007d7976bfd1242b7c0dacec3cf"
                     ]
                 }
             ]
@@ -34,8 +34,8 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "mm.portomnail.com",
                         "back.rooter.tk",
+                        "mm.portomnail.com",
                         "161.129.64.124"
                     ]
                 }

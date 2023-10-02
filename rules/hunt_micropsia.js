@@ -1,5 +1,5 @@
 const rule = {
-    "id": "84152e6a-45cd-48fb-b659-ad29d796b53d",
+    "id": "c2b75756-26c4-49fb-b7e5-7cde6cf68c9d",
     "info": {
         "name": "Rules Detect Micropsia",
         "author": "Openhunting",

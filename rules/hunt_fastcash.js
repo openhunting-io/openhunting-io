@@ -1,5 +1,5 @@
 const rule = {
-    "id": "03671a72-e880-4ae8-9241-0a50ce64b57a",
+    "id": "f277a7c8-1e56-401c-a1aa-3bfeb8c5f311",
     "info": {
         "name": "Rules Detect FASTCash",
         "author": "Openhunting",
@@ -9,11 +9,11 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for FASTCash",
         "tags": [
+            "Amadey",
             "Cerberus",
             "Gozi",
-            "Hancitor",
-            "Amadey",
-            "ISFB"
+            "ISFB",
+            "Hancitor"
         ],
         "references": []
     },
@@ -25,16 +25,16 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "173.234.25.78",
-                        "rebreaksstonehen.at",
-                        "speeduppercolatorl.at",
+                        "fersite24.xyz",
                         "vastyrannouse.at",
                         "conlymorect.ru",
-                        "spabyasiande.ru",
-                        "france2021flplayer.info",
                         "france2021flplayer.site",
+                        "spabyasiande.ru",
+                        "173.234.25.78",
+                        "speeduppercolatorl.at",
                         "spain2021flplayer.site",
-                        "fersite24.xyz"
+                        "france2021flplayer.info",
+                        "rebreaksstonehen.at"
                     ]
                 }
             ]

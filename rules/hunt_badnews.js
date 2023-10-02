@@ -1,5 +1,5 @@
 const rule = {
-    "id": "d67f37f5-ff7c-41f9-aede-2748883e8549",
+    "id": "13d31302-543f-4844-9d81-29c0d768eed2",
     "info": {
         "name": "Rules Detect BADNEWS",
         "author": "Openhunting",

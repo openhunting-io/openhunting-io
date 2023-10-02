@@ -1,5 +1,5 @@
 const rule = {
-    "id": "de284b47-7857-4795-9f63-7cc3aab88e95",
+    "id": "ee933986-bbc0-459f-8dc8-745b9c05bed3",
     "info": {
         "name": "Rules Detect RDAT",
         "author": "Openhunting",

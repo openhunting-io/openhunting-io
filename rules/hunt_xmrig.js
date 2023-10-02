@@ -1,5 +1,5 @@
 const rule = {
-    "id": "700e2a1d-7eb6-430c-a7b7-1aa37614b6f9",
+    "id": "9070fb48-9f77-4d29-ac6e-71c41d3e0b78",
     "info": {
         "name": "Rules Detect XMRig",
         "author": "Openhunting",

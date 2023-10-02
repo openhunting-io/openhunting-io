@@ -1,5 +1,5 @@
 const rule = {
-    "id": "f874a456-b0cc-4171-9eaa-f4fa5ccbead1",
+    "id": "eb9bb3a2-2808-4e83-b282-f7faa087bd28",
     "info": {
         "name": "Rules Detect BlackRock",
         "author": "Openhunting",
@@ -9,9 +9,9 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for BlackRock",
         "tags": [
-            "android",
+            "banker",
             "blackrock",
-            "banker"
+            "android"
         ],
         "references": []
     },

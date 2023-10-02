@@ -1,5 +1,5 @@
 const rule = {
-    "id": "4b82facb-1f5a-49b8-a02a-e509982dad82",
+    "id": "e7206b58-a59f-4bee-9856-e57ff288aab3",
     "info": {
         "name": "Rules Detect X-Agent",
         "author": "Openhunting",
@@ -19,9 +19,9 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "c75ffcb1a96a4aa0700af898650aac12",
+                        "540e4a7a28ca1514e53c2564993d8d87",
                         "c0ca0af1f0f646e52dc05af024693b6f",
-                        "540e4a7a28ca1514e53c2564993d8d87"
+                        "c75ffcb1a96a4aa0700af898650aac12"
                     ]
                 }
             ]

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "438c90c7-403f-4799-aedf-ee459e34480d",
+    "id": "f55bd336-3353-408c-9cb0-5f952064fb24",
     "info": {
         "name": "Rules Detect DarkVNC",
         "author": "Openhunting",
@@ -9,9 +9,9 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for DarkVNC",
         "tags": [
-            "rat",
             "DarkVNC",
-            "hvnc"
+            "hvnc",
+            "rat"
         ],
         "references": []
     },
@@ -23,12 +23,12 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "aimtech.ddns.net",
-                        "2.152.208.135",
-                        "137.74.104.108",
+                        "91.238.50.80",
                         "212.114.52.91",
-                        "135.181.175.108",
-                        "91.238.50.80"
+                        "2.152.208.135",
+                        "aimtech.ddns.net",
+                        "137.74.104.108",
+                        "135.181.175.108"
                     ]
                 }
             ]

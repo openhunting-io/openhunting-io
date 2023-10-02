@@ -1,5 +1,5 @@
 const rule = {
-    "id": "11ff636f-3aa9-4214-82c1-c8345470a02b",
+    "id": "52f90ef6-b837-4e04-9c7a-89cc96d4e8d2",
     "info": {
         "name": "Rules Detect CaddyWiper",
         "author": "Openhunting",

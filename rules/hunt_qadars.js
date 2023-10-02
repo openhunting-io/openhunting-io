@@ -1,5 +1,5 @@
 const rule = {
-    "id": "8206e10d-4dd4-4b86-b9ee-b0a85e8f7d7e",
+    "id": "09a59ad4-ffda-43f3-b106-9592651aab3c",
     "info": {
         "name": "Rules Detect Qadars",
         "author": "Openhunting",

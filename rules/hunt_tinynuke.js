@@ -1,5 +1,5 @@
 const rule = {
-    "id": "a830c89b-3b25-4f0c-8aa7-afa0f45ae619",
+    "id": "2fbbc8d4-d227-42c2-a205-5aaec9a37c3b",
     "info": {
         "name": "Rules Detect TinyNuke",
         "author": "Openhunting",
@@ -21,8 +21,8 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "market.contradecapital.com",
-                        "77.105.147.140"
+                        "77.105.147.140",
+                        "market.contradecapital.com"
                     ]
                 }
             ]

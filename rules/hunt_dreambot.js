@@ -1,5 +1,5 @@
 const rule = {
-    "id": "e72335fa-4d31-4b5b-87d2-4a731bcbdb9d",
+    "id": "99d2479b-006c-4273-95b2-4ee6f69d77b9",
     "info": {
         "name": "Rules Detect DreamBot",
         "author": "Openhunting",
@@ -19,8 +19,8 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "4103f92313df741c926014545472ca43",
-                        "a908e3261ee99c8fe331293b2fc11d6f"
+                        "a908e3261ee99c8fe331293b2fc11d6f",
+                        "4103f92313df741c926014545472ca43"
                     ]
                 }
             ]

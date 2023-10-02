@@ -1,5 +1,5 @@
 const rule = {
-    "id": "47d98371-8ff6-4df7-86e7-d28acfb0065c",
+    "id": "59a57e95-fe7f-45ad-8ef0-bd441af08b55",
     "info": {
         "name": "Rules Detect MirrorBlast",
         "author": "Openhunting",
@@ -34,25 +34,21 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "dzikics-my-sharepoint.com",
-                        "cdn03664-dl-fileshare.com",
-                        "cdn-8846-sharepoint-office.com",
-                        "dzikic-my-sharepoint.com",
-                        "menorukis.su",
+                        "cdn-g0962.int-onedrive.com",
+                        "cdnfilesdrop.com",
+                        "feristoaul.com",
                         "dropmefilesbox.com",
                         "diarromonico.com",
-                        "cdnfilesdrop.com",
-                        "cdn0341.us-dropbox.com",
-                        "cdn9883.us-dropbox.com",
-                        "feristoaul.com",
-                        "cdn-g0962.int-onedrive.com",
-                        "dzikic-my-sharepoint.com",
-                        "cdn-8846-sharepoint-office.com",
-                        "guerdiqurt.com",
-                        "fidufagios.com",
-                        "dzikics-my-sharepoint.com",
+                        "menorukis.su",
                         "cdn03664-dl-fileshare.com",
-                        "185.176.220.198"
+                        "185.176.220.198",
+                        "cdn-8846-sharepoint-office.com",
+                        "cdn9883.us-dropbox.com",
+                        "fidufagios.com",
+                        "guerdiqurt.com",
+                        "dzikic-my-sharepoint.com",
+                        "dzikics-my-sharepoint.com",
+                        "cdn0341.us-dropbox.com"
                     ]
                 }
             ]

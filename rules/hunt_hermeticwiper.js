@@ -1,5 +1,5 @@
 const rule = {
-    "id": "95ead790-42a2-4550-8acd-2cc3f7e01ef7",
+    "id": "3209459d-a99c-4847-9a72-59c74015da06",
     "info": {
         "name": "Rules Detect HermeticWiper",
         "author": "Openhunting",
@@ -19,8 +19,8 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "a64c3e0522fad787b95bfb6a30c3aed1b5786e69e88e023c062ec7e5cebf4d3e",
-                        "ffea1266b09abbf0ceb59119746d8630"
+                        "ffea1266b09abbf0ceb59119746d8630",
+                        "a64c3e0522fad787b95bfb6a30c3aed1b5786e69e88e023c062ec7e5cebf4d3e"
                     ]
                 }
             ]

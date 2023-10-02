@@ -1,5 +1,5 @@
 const rule = {
-    "id": "c67a80fc-6152-4a00-863d-5913e96ecb23",
+    "id": "f567dd12-d254-4a8c-aea0-d5ca88590fc1",
     "info": {
         "name": "Rules Detect ROMCOM RAT",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for ROMCOM RAT",
         "tags": [
-            "RomCom",
-            "RAT"
+            "RAT",
+            "RomCom"
         ],
         "references": []
     },

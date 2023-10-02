@@ -1,5 +1,5 @@
 const rule = {
-    "id": "7a1c9a16-29a5-4add-ace1-9ff389a250f0",
+    "id": "c7854c08-33ba-43a5-8f58-0c7d6fd44057",
     "info": {
         "name": "Rules Detect Dustman",
         "author": "Openhunting",

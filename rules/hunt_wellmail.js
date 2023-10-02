@@ -1,5 +1,5 @@
 const rule = {
-    "id": "0b02e388-49d8-4298-91fb-7b19881a9297",
+    "id": "4c59d96e-e499-4f00-8a32-60820ea265c8",
     "info": {
         "name": "Rules Detect WellMail",
         "author": "Openhunting",
@@ -9,9 +9,9 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for WellMail",
         "tags": [
+            "wellmail",
             "apt29",
-            "golang",
-            "wellmail"
+            "golang"
         ],
         "references": []
     },
@@ -23,8 +23,8 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "01d322dcac438d2bb6bce2bae8d613cb",
-                        "d5c26128127f2fac6e3ff2c87b473d74"
+                        "d5c26128127f2fac6e3ff2c87b473d74",
+                        "01d322dcac438d2bb6bce2bae8d613cb"
                     ]
                 }
             ]

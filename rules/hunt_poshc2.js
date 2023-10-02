@@ -1,5 +1,5 @@
 const rule = {
-    "id": "b298052a-2e22-48b7-9766-4d010b272a69",
+    "id": "37d481d5-8cbb-46de-8088-f3fb57661ceb",
     "info": {
         "name": "Rules Detect PoshC2",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Tools",
         "description": "Rules IOC for PoshC2",
         "tags": [
-            "Posh",
-            "PostC2"
+            "PostC2",
+            "Posh"
         ],
         "references": []
     },

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "f5657427-77de-4b3b-b68f-a688f1d83497",
+    "id": "b4bdfa16-ecaa-4209-984a-65380dcd4fc6",
     "info": {
         "name": "Rules Detect Evilnum",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "APT",
         "description": "Rules IOC for Evilnum",
         "tags": [
-            "EVILNUM",
-            "EvilNum"
+            "EvilNum",
+            "EVILNUM"
         ],
         "references": []
     },
@@ -22,8 +22,8 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "cec06262d1d35f8ea013670c540e30e8",
-                        "4b357bdd7d34050f85b7ef1d497a87dc"
+                        "4b357bdd7d34050f85b7ef1d497a87dc",
+                        "cec06262d1d35f8ea013670c540e30e8"
                     ]
                 }
             ]
@@ -35,11 +35,11 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "kalpoipolpmi.net",
-                        "8as1s2.com",
                         "cspapop110.com",
+                        "5.206.227.72",
+                        "8as1s2.com",
                         "forme539.ddns.net",
-                        "5.206.227.72"
+                        "kalpoipolpmi.net"
                     ]
                 }
             ]

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "f123aec1-d300-49c5-9fab-5e4cd11c5258",
+    "id": "7330d9ee-b145-49f2-9b17-bf1d788eba6e",
     "info": {
         "name": "Rules Detect FlawedGrace",
         "author": "Openhunting",

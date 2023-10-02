@@ -1,5 +1,5 @@
 const rule = {
-    "id": "4f57abaa-b8fc-4a83-bf58-2ba5636db3f9",
+    "id": "2aed161d-7672-45c8-a106-f6ecad34a69b",
     "info": {
         "name": "Rules Detect OceanLotus",
         "author": "Openhunting",
@@ -19,20 +19,20 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "ed47f3141fd6ac45a8fd8c535ae8814c6cb65bbb86741956ee9a950e74fd11dd",
-                        "8c3eb1bf5f4b150d29883a548be9e1922c1751409f78c49d1560d219390b5422",
-                        "eeafcce05f9b40cb1c95b36dc9ee5eb109d16e289c6f9bae5fb85772a756d76a",
                         "09b9f43c8c70c9d1e2aded67a6c4b4e743e6e5886a25995abd40ad663fa07238",
+                        "5b87ef34d174361f35b65c5ee684f1c3",
                         "88ea4a892b416cc67d4554a1aa1b7f76c2aa8c31bd3ef2c801f0456c16317cac",
                         "8128a63bab1a0e5802d9db94eb2ce551",
-                        "10246345345312321313253453547877",
-                        "2cac346547f90788e731189573828c53",
-                        "5b87ef34d174361f35b65c5ee684f1c3",
-                        "9b4c57e61f4df3b546aedf58b2f299cf",
-                        "f8ccff73406a3b6acad964a6376b2ae9",
                         "943cb4b5ffb69926803d7f9c3dd1bc7c",
-                        "ec44a1e0f5af1c4bd3f308ff1b3fc879",
-                        "204e1ad9eb40cdb8270dc9f4d5dfa0ab"
+                        "8c3eb1bf5f4b150d29883a548be9e1922c1751409f78c49d1560d219390b5422",
+                        "f8ccff73406a3b6acad964a6376b2ae9",
+                        "204e1ad9eb40cdb8270dc9f4d5dfa0ab",
+                        "9b4c57e61f4df3b546aedf58b2f299cf",
+                        "2cac346547f90788e731189573828c53",
+                        "eeafcce05f9b40cb1c95b36dc9ee5eb109d16e289c6f9bae5fb85772a756d76a",
+                        "ed47f3141fd6ac45a8fd8c535ae8814c6cb65bbb86741956ee9a950e74fd11dd",
+                        "10246345345312321313253453547877",
+                        "ec44a1e0f5af1c4bd3f308ff1b3fc879"
                     ]
                 }
             ]

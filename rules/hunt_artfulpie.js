@@ -1,5 +1,5 @@
 const rule = {
-    "id": "970ea5c7-a1db-4ce2-86ed-51db4ecc16b8",
+    "id": "6a0c810a-478c-417e-bc07-2356cb7e4581",
     "info": {
         "name": "Rules Detect ARTFULPIE",
         "author": "Openhunting",

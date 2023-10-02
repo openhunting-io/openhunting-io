@@ -1,5 +1,5 @@
 const rule = {
-    "id": "6af13d74-5a5e-4692-b8a6-536403e5ad29",
+    "id": "5a94909d-4992-4949-9fcb-e1d9b05673e9",
     "info": {
         "name": "Rules Detect PhantomNet",
         "author": "Openhunting",

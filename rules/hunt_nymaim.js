@@ -1,5 +1,5 @@
 const rule = {
-    "id": "6cac9452-7a74-4c23-96d3-0f62ef28743f",
+    "id": "5c92f6ee-bf40-48c8-825a-7c7529ae4599",
     "info": {
         "name": "Rules Detect Nymaim",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Nymaim",
         "tags": [
-            "GCleaner",
-            "Nymaim"
+            "Nymaim",
+            "GCleaner"
         ],
         "references": []
     },
@@ -22,10 +22,10 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
-                        "45.139.105.171",
-                        "85.31.46.167",
                         "107.182.129.235",
-                        "171.22.30.106"
+                        "45.139.105.171",
+                        "171.22.30.106",
+                        "85.31.46.167"
                     ]
                 }
             ]

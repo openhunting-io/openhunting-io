@@ -1,5 +1,5 @@
 const rule = {
-    "id": "87f514d3-c880-4b7c-9b47-8d6ebc81b3bd",
+    "id": "e467a74f-b995-4044-abca-23347aaa1ca1",
     "info": {
         "name": "Rules Detect Xenomorph",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Xenomorph",
         "tags": [
-            "Xenomorph",
-            "apk"
+            "apk",
+            "Xenomorph"
         ],
         "references": []
     },
@@ -23,12 +23,11 @@ const rule = {
                     "name": "domain",
                     "indicator": [
                         "team.mi1kyway.tech",
+                        "dedeperesere.xyz",
+                        "cofi.hk",
                         "t.me",
                         "bkp.had0.live",
-                        "t.me",
-                        "dedeperesere.xyz",
-                        "vldeolan.com",
-                        "cofi.hk"
+                        "vldeolan.com"
                     ]
                 }
             ]

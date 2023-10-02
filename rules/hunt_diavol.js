@@ -1,5 +1,5 @@
 const rule = {
-    "id": "493d6c3f-620e-488e-92da-fded7bec06b3",
+    "id": "a57d6227-48e2-454a-9067-935a547bbe40",
     "info": {
         "name": "Rules Detect Diavol",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Diavol",
         "tags": [
-            "Diavol",
-            "Ransomware"
+            "Ransomware",
+            "Diavol"
         ],
         "references": []
     },

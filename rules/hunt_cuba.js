@@ -1,5 +1,5 @@
 const rule = {
-    "id": "3f48ab04-b65e-479d-9ab9-a49572c299c5",
+    "id": "3929a2ab-42f0-41b0-8629-673ad5c9ea32",
     "info": {
         "name": "Rules Detect Cuba",
         "author": "Openhunting",

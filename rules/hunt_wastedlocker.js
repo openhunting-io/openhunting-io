@@ -1,5 +1,5 @@
 const rule = {
-    "id": "a38fcb2c-bf79-468a-be3b-5e9cd03fced1",
+    "id": "90d3bc89-c427-42cb-b3d3-5b861499a171",
     "info": {
         "name": "Rules Detect WastedLocker",
         "author": "Openhunting",
@@ -21,9 +21,9 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
+                        "82D841869E912A772413BB37F30307B0",
                         "2261dbc9977932cd8dac9bccd7aae8472cdbd8e588aa4f10b02c8a1c0a6051d1",
-                        "905ea119ad8d3e54cd228c458a1b5681abc1f35df782977a23812ec4efa0288a",
-                        "82D841869E912A772413BB37F30307B0"
+                        "905ea119ad8d3e54cd228c458a1b5681abc1f35df782977a23812ec4efa0288a"
                     ]
                 }
             ]

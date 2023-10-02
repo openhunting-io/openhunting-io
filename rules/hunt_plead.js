@@ -1,5 +1,5 @@
 const rule = {
-    "id": "c40fa56f-a7d5-4ecf-b44e-f0c1baa59790",
+    "id": "8fa08218-cb11-4635-ae59-243c7631cf8d",
     "info": {
         "name": "Rules Detect PLEAD",
         "author": "Openhunting",

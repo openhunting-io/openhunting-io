@@ -1,5 +1,5 @@
 const rule = {
-    "id": "8ede5aa0-0741-41eb-99c5-c2b4a6ee6a81",
+    "id": "edc5f622-5069-4c0d-9477-6dd470b0f6e5",
     "info": {
         "name": "Rules Detect BadPatch",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for BadPatch",
         "tags": [
-            "android",
             "apk",
+            "android",
             "malware"
         ],
         "references": []
@@ -23,9 +23,9 @@ const rule = {
                 {
                     "name": "hash",
                     "indicator": [
-                        "127cdf77d9ed7e1ff41ab1a5184775647996182a4c24575692206641470d6f5d",
                         "db91896ffe5405cae62a07c61153fb7aa3eb4e159dc4889a1d636e7f403c979f",
-                        "675770c13f59d6d0e72ed0ed81c7193f3c0975518b96b08155d268ec7cc39826"
+                        "675770c13f59d6d0e72ed0ed81c7193f3c0975518b96b08155d268ec7cc39826",
+                        "127cdf77d9ed7e1ff41ab1a5184775647996182a4c24575692206641470d6f5d"
                     ]
                 }
             ]

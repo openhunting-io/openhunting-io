@@ -1,5 +1,5 @@
 const rule = {
-    "id": "74902cc1-3967-4ecc-8c96-1019f131e646",
+    "id": "1e5b7d3a-7f2c-4dc3-bb0a-bc2e3248812d",
     "info": {
         "name": "Rules Detect IsaacWiper",
         "author": "Openhunting",

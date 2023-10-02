@@ -1,5 +1,5 @@
 const rule = {
-    "id": "d9e74c38-7d8e-4454-9e9c-cd046a8cdf46",
+    "id": "b78ae37f-fbc1-4084-9054-750a857fc301",
     "info": {
         "name": "Rules Detect Colibri Loader",
         "author": "Openhunting",
@@ -9,8 +9,8 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for Colibri Loader",
         "tags": [
-            "MarsWallet",
             "Colibri",
+            "MarsWallet",
             "ColibriLoader"
         ],
         "references": []
@@ -24,12 +24,10 @@ const rule = {
                     "name": "domain",
                     "indicator": [
                         "194.4.49.243",
-                        "176.113.115.240",
+                        "zpltcmgodhvvedxtfcygvbgjkvgvcguygytfigj.cc",
                         "yugyuvyugguitgyuigtfyutdtoghghbbgyv.cx",
                         "65.109.7.23",
-                        "zpltcmgodhvvedxtfcygvbgjkvgvcguygytfigj.cc",
-                        "176.113.115.240",
-                        "65.109.7.23"
+                        "176.113.115.240"
                     ]
                 }
             ]

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "4e9fd636-502a-4769-87cb-1dca302ad6ab",
+    "id": "c5296398-224d-47ec-8384-e9bd3b5462fa",
     "info": {
         "name": "Rules Detect Ares",
         "author": "Openhunting",

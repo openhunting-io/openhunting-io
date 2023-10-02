@@ -1,5 +1,5 @@
 const rule = {
-    "id": "88d4a214-ef07-40d0-ac4f-5be23b59e230",
+    "id": "5d037ad8-7ae8-48f9-9556-f7b0124b1cdc",
     "info": {
         "name": "Rules Detect RedLeaves",
         "author": "Openhunting",

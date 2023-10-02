@@ -1,5 +1,5 @@
 const rule = {
-    "id": "0737ef7f-0282-4a95-a813-6d86652b8626",
+    "id": "d8d12c4f-af35-491e-a858-db130140cb92",
     "info": {
         "name": "Rules Detect AndroRAT",
         "author": "Openhunting",

@@ -1,5 +1,5 @@
 const rule = {
-    "id": "d0609dbe-d02d-4de9-a254-912ff2bec758",
+    "id": "d561c185-b79b-4f57-9ffe-3282a99406ba",
     "info": {
         "name": "Rules Detect ERMAC",
         "author": "Openhunting",
@@ -9,12 +9,12 @@ const rule = {
         "category": "Malware",
         "description": "Rules IOC for ERMAC",
         "tags": [
-            "C2Panel",
             "C2",
-            "ERMAC 3.0",
             "Android",
+            "C2Panel",
             "ERMAC",
-            "HOOKBOT PANEL"
+            "HOOKBOT PANEL",
+            "ERMAC 3.0"
         ],
         "references": []
     },
@@ -26,19 +26,17 @@ const rule = {
                 {
                     "name": "domain",
                     "indicator": [
+                        "5.42.199.22",
                         "84.32.214.56",
-                        "185.225.75.134",
                         "91.228.10.228",
-                        "91.215.85.213",
-                        "84.32.214.56",
+                        "45.93.201.92",
+                        "92.243.88.25",
                         "185.225.75.134",
                         "5.42.199.3",
+                        "91.215.85.213",
                         "5.42.199.91",
                         "176.113.115.66",
                         "176.113.115.67",
-                        "5.42.199.22",
-                        "45.93.201.92",
-                        "92.243.88.25",
                         "62.204.41.98"
                     ]
                 }
