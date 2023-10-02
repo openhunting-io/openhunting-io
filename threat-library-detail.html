@@ -263,7 +263,13 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div><br><br>
+                        <div class="row px-xl-5">
+                            <h3 class="text-center">[Target Analysis] Region/Sector:</h3>
+                            <div class="container-fluid">
+                                <div class="targetanalysis"></div>
+                            </div>
+                        </div><br><br>
 
                         <div class="row px-xl-5 py-5" >
                             <h3>References:</h3>
@@ -1042,6 +1048,39 @@ method:
 
             // Initially populate tables with top 10 data
             populateTable(threatdata.ioc_data, 'top', 10);
+
+            //////////////////////////////////
+            ////////// TARGET ANALYSIS ///////
+            //////////////////////////////////
+            // Reference to the div with class 'targetanalysis'
+            var targetAnalysisDiv = document.querySelector('.targetanalysis');
+            var content = "";
+
+            // Check if 'analysis' exists in 'threatdata'
+            if (threatdata.hasOwnProperty('analysis')) {
+                
+                // Check if 'industries' exists in 'analysis'
+                if (threatdata.analysis.hasOwnProperty('industries') && threatdata.analysis.industries.length > 0) {
+                    content += '<strong>Industries:</strong> ' + threatdata.analysis.industries.join(', ');
+                } else {
+                    content += '<strong>Industries:</strong> -';
+                }
+
+                content += '<br>';
+
+                // Check if 'regions' exists in 'analysis'
+                if (threatdata.analysis.hasOwnProperty('regions') && threatdata.analysis.regions.length > 0) {
+                    content += '<strong>Regions:</strong> ' + threatdata.analysis.regions.join(', ');
+                } else {
+                    content += '<strong>Regions:</strong> -';
+                }
+                
+            } else {
+                content = "No information";
+            }
+
+            // Insert the data into the div
+            targetAnalysisDiv.innerHTML = content;
 
 
             ///////////////////////////////////
