@@ -1057,7 +1057,8 @@ method:
             var content = "";
 
             // Check if 'analysis' exists in 'threatdata'
-            if (threatdata.hasOwnProperty('analysis')) {
+            if (threatdata['analysis'] && threatdata['analysis'].length > 0) { 
+            // if (threatdata.hasOwnProperty('analysis')) {
                 
                 // Check if 'industries' exists in 'analysis'
                 if (threatdata.analysis.hasOwnProperty('industries') && threatdata.analysis.industries.length > 0) {
