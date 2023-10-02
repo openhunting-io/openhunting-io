@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "telebot",
     "analysis": null,
     "articles": [
@@ -102,5 +101,6 @@ var threatdata = {
                 "TeleBot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

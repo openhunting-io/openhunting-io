@@ -25,7 +25,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "powerpipe",
     "analysis": null,
     "articles": [
@@ -66,5 +65,6 @@ var threatdata = {
                 "FIN7"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

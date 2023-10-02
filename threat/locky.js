@@ -52,7 +52,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-03-13 04:07:16",
-    "mitre": [],
     "file_name": "locky",
     "analysis": null,
     "articles": [
@@ -370,5 +369,6 @@ var threatdata = {
                 "Locky"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

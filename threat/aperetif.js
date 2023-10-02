@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "aperetif",
     "analysis": null,
     "articles": [
@@ -43,5 +42,6 @@ var threatdata = {
                 "APERETIF"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -45,6 +45,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hupigon",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/threat-actors-repurpose-hupigon-adult-dating-attacks-targeting-us-universities",
+            "date": "2020-04-23",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Threat Research Team",
+            "title": "Threat Actors Repurpose Hupigon in Adult Dating Attacks Targeting US Universities",
+            "categories": [
+                "Hupigon"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -88,20 +102,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "hupigon",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/threat-actors-repurpose-hupigon-adult-dating-attacks-targeting-us-universities",
-            "date": "2020-04-23",
-            "organization": "Proofpoint",
-            "author": "Proofpoint Threat Research Team",
-            "title": "Threat Actors Repurpose Hupigon in Adult Dating Attacks Targeting US Universities",
-            "categories": [
-                "Hupigon"
             ]
         }
     ]

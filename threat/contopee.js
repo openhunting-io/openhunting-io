@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "contopee",
     "analysis": null,
     "articles": [
@@ -80,5 +79,6 @@ var threatdata = {
                 "Lazarus Group"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

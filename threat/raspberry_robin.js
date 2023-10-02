@@ -48,28 +48,16 @@ var threatdata = {
             "malware": "win.raspberry_robin",
             "last_update": "2023-06-01 19:07:07",
             "tags": [
+                "RaspberryRobin",
                 "DEV-0651",
                 "LNK",
-                "QNAP",
-                "RaspberryRobin"
+                "QNAP"
             ],
             "ioc": {
                 "domain": [
                     {
-                        "value": "2t.pm",
-                        "timestamp": "2023-06-01 19:07:07"
-                    },
-                    {
-                        "value": "gz.qa",
-                        "timestamp": "2023-06-01 19:07:07"
-                    },
-                    {
                         "value": "6qo.at",
                         "timestamp": "2023-06-01 19:07:07"
-                    },
-                    {
-                        "value": "0j.re",
-                        "timestamp": "2023-04-16 08:51:22"
                     },
                     {
                         "value": "5z.pm",
@@ -77,10 +65,6 @@ var threatdata = {
                     },
                     {
                         "value": "u0.nz",
-                        "timestamp": "2023-04-16 08:51:22"
-                    },
-                    {
-                        "value": "m0.nu",
                         "timestamp": "2023-04-16 08:51:22"
                     },
                     {
@@ -100,10 +84,6 @@ var threatdata = {
                         "timestamp": "2023-04-16 08:51:21"
                     },
                     {
-                        "value": "7d.wf",
-                        "timestamp": "2023-04-16 08:51:21"
-                    },
-                    {
                         "value": "q0.wf",
                         "timestamp": "2023-04-16 08:51:21"
                     },
@@ -113,14 +93,6 @@ var threatdata = {
                     },
                     {
                         "value": "0p.rs",
-                        "timestamp": "2023-04-16 08:51:21"
-                    },
-                    {
-                        "value": "gz.qa",
-                        "timestamp": "2023-04-16 08:51:21"
-                    },
-                    {
-                        "value": "2t.pm",
                         "timestamp": "2023-04-16 08:51:21"
                     },
                     {
@@ -150,18 +122,6 @@ var threatdata = {
                     {
                         "value": "6t.pm",
                         "timestamp": "2023-04-16 08:51:21"
-                    },
-                    {
-                        "value": "m0.nu",
-                        "timestamp": "2023-04-15 06:54:17"
-                    },
-                    {
-                        "value": "7d.wf",
-                        "timestamp": "2023-04-15 06:54:17"
-                    },
-                    {
-                        "value": "0j.re",
-                        "timestamp": "2023-04-15 06:54:17"
                     },
                     {
                         "value": "naskk.myqnapcloud.com",
@@ -1094,7 +1054,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-06-01 19:07:07",
-    "mitre": [],
     "file_name": "raspberry_robin",
     "analysis": null,
     "articles": [
@@ -1265,5 +1224,6 @@ var threatdata = {
                 "Raspberry Robin"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -32,7 +32,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "romeobravo",
     "analysis": null,
     "articles": [
@@ -50,5 +49,6 @@ var threatdata = {
                 "WannaCryptor"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

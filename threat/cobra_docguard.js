@@ -22,8 +22,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "cobra_docguard",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

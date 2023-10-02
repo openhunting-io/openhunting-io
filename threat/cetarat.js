@@ -31,6 +31,34 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cetarat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.quickheal.com/cetarat-apt-group-targeting-the-government-agencies/",
+            "date": "2021-10-13",
+            "organization": "Quick Heal",
+            "author": "Prashant Tilekar",
+            "title": "CetaRAT APT Group \u2013 Targeting the Government Agencies",
+            "categories": [
+                "CetaRAT"
+            ]
+        },
+        {
+            "data_url": "https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/591/original/062521_SideCopy_%281%29.pdf?1625657388",
+            "date": "2021-07-02",
+            "organization": "Cisco",
+            "author": "Asheer Malhotra",
+            "title": "InSideCopy: How this APT continues to evolve its arsenal",
+            "categories": [
+                "AllaKore",
+                "CetaRAT",
+                "Lilith",
+                "NjRAT",
+                "ReverseRAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -74,34 +102,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cetarat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blogs.quickheal.com/cetarat-apt-group-targeting-the-government-agencies/",
-            "date": "2021-10-13",
-            "organization": "Quick Heal",
-            "author": "Prashant Tilekar",
-            "title": "CetaRAT APT Group \u2013 Targeting the Government Agencies",
-            "categories": [
-                "CetaRAT"
-            ]
-        },
-        {
-            "data_url": "https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/591/original/062521_SideCopy_%281%29.pdf?1625657388",
-            "date": "2021-07-02",
-            "organization": "Cisco",
-            "author": "Asheer Malhotra",
-            "title": "InSideCopy: How this APT continues to evolve its arsenal",
-            "categories": [
-                "AllaKore",
-                "CetaRAT",
-                "Lilith",
-                "NjRAT",
-                "ReverseRAT"
             ]
         }
     ]

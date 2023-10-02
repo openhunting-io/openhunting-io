@@ -31,6 +31,109 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "polyglotduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
+            "date": "2020-03-26",
+            "organization": "VMWare Carbon Black",
+            "author": "Scott Knight",
+            "title": "The Dukes of Moscow",
+            "categories": [
+                "Cobalt Strike",
+                "LiteDuke",
+                "MiniDuke",
+                "OnionDuke",
+                "PolyglotDuke",
+                "PowerDuke"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON HEMLOCK",
+            "categories": [
+                "FatDuke",
+                "MiniDuke",
+                "OnionDuke",
+                "PolyglotDuke",
+                "APT29"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2019/10/17/operation-ghost-dukes-never-left/",
+            "date": "2019-10-17",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Operation Ghost: The Dukes aren\u2019t back \u2013 they never left",
+            "categories": [
+                "PolyglotDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "polyglotduke",
@@ -158,109 +261,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an existing, legitimate external web service to host information that points to additional command and control (c2) infrastructure. adversaries may post content, known as a dead drop resolver, on web services with embedded (and often obfuscated/encoded) domains or ip addresses. once infected, victims will reach out to and be redirected by these resolvers.",
                     "procedure_description": "polyglotduke can use twitter, reddit, imgur and other websites to get a c2 url.[14]"
                 }
-            ]
-        }
-    ],
-    "file_name": "polyglotduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
-            "date": "2020-03-26",
-            "organization": "VMWare Carbon Black",
-            "author": "Scott Knight",
-            "title": "The Dukes of Moscow",
-            "categories": [
-                "Cobalt Strike",
-                "LiteDuke",
-                "MiniDuke",
-                "OnionDuke",
-                "PolyglotDuke",
-                "PowerDuke"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON HEMLOCK",
-            "categories": [
-                "FatDuke",
-                "MiniDuke",
-                "OnionDuke",
-                "PolyglotDuke",
-                "APT29"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2019/10/17/operation-ghost-dukes-never-left/",
-            "date": "2019-10-17",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Operation Ghost: The Dukes aren\u2019t back \u2013 they never left",
-            "categories": [
-                "PolyglotDuke"
             ]
         }
     ]

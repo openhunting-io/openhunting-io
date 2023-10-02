@@ -67,6 +67,124 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-05-03 22:25:55",
+    "file_name": "machete",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.atomicmatryoshka.com/post/infographic-apts-in-south-america",
+            "date": "2022-02-26",
+            "organization": "Atomic Matryoshka",
+            "author": "z3r0day_504",
+            "title": "Infographic: APTs in South America",
+            "categories": [
+                "Imminent Monitor RAT",
+                "Machete"
+            ]
+        },
+        {
+            "data_url": "https://blog.360totalsecurity.com/en/apt-c-43-steals-venezuelan-military-secrets-to-provide-intelligence-support-for-the-reactionaries-hpreact-campaign/",
+            "date": "2020-09-25",
+            "organization": "360 Total Security",
+            "author": "kate",
+            "title": "APT-C-43 steals Venezuelan military secrets to provide intelligence support for the reactionaries - HpReact campaign",
+            "categories": [
+                "PyArk",
+                "El Machete"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-machete-info-stealer.html",
+            "date": "2019-11-27",
+            "organization": "ThreatVector",
+            "author": "Adam Martin",
+            "title": "Threat Spotlight: Machete Info-Stealer",
+            "categories": [
+                "Machete"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0095/",
+            "date": "2019-09-13",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Machete",
+            "categories": [
+                "El Machete"
+            ]
+        },
+        {
+            "data_url": "https://static1.squarespace.com/static/5a01100f692ebe0459a1859f/t/5da340ded5ccf627e1764059/1570980068506/Day3-1130-Green-A+study+of+Machete+cyber+espionage+operations+in+Latin+America.pdf",
+            "date": "2019-09-12",
+            "organization": "Virus Bulletin",
+            "author": "Veronica Valeros",
+            "title": "A STUDY OF MACHETE CYBER ESPIONAGE OPERATIONS IN LATIN AMERICA",
+            "categories": [
+                "Machete"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2019/08/05/sharpening-machete-cyberespionage/",
+            "date": "2019-08-05",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Sharpening the Machete",
+            "categories": [
+                "Machete"
+            ]
+        },
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/machete",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "Machete",
+            "categories": [
+                "El Machete"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@verovaleros/el-machete-what-do-we-know-about-the-apt-targeting-latin-america-be7d11e690e6",
+            "date": "2017-06-26",
+            "organization": "Medium verovaleros",
+            "author": "Veronica Valeros",
+            "title": "El Machete \u2014 What do we know about the APT targeting Latin America?",
+            "categories": [
+                "Machete"
+            ]
+        },
+        {
+            "data_url": "https://www.cylance.com/en_us/blog/el-machete-malware-attacks-cut-through-latam.html",
+            "date": "2017-03-22",
+            "organization": "Cylance",
+            "author": "Cylance Threat Research Team",
+            "title": "El Machete's Malware Attacks Cut Through LATAM",
+            "categories": [
+                "Machete",
+                "El Machete"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/el-machete-malware-attacks-cut-through-latam.html",
+            "date": "2017-03-22",
+            "organization": "Cylance",
+            "author": "Threat Research Team",
+            "title": "El Machete's Malware Attacks Cut Through LATAM",
+            "categories": [
+                "El Machete"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/el-machete/66108/",
+            "date": "2014-08-20",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "\u201cEl Machete\u201d",
+            "categories": [
+                "Machete",
+                "El Machete"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "machete",
@@ -770,124 +888,6 @@ var threatdata = {
                     "technique_description": "adversaries may schedule data exfiltration to be performed only at certain times of day or at certain intervals. this could be done to blend traffic patterns with normal activity or availability.",
                     "procedure_description": "machete sends stolen data to the c2 server every 10 minutes.[12]"
                 }
-            ]
-        }
-    ],
-    "file_name": "machete",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.atomicmatryoshka.com/post/infographic-apts-in-south-america",
-            "date": "2022-02-26",
-            "organization": "Atomic Matryoshka",
-            "author": "z3r0day_504",
-            "title": "Infographic: APTs in South America",
-            "categories": [
-                "Imminent Monitor RAT",
-                "Machete"
-            ]
-        },
-        {
-            "data_url": "https://blog.360totalsecurity.com/en/apt-c-43-steals-venezuelan-military-secrets-to-provide-intelligence-support-for-the-reactionaries-hpreact-campaign/",
-            "date": "2020-09-25",
-            "organization": "360 Total Security",
-            "author": "kate",
-            "title": "APT-C-43 steals Venezuelan military secrets to provide intelligence support for the reactionaries - HpReact campaign",
-            "categories": [
-                "PyArk",
-                "El Machete"
-            ]
-        },
-        {
-            "data_url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-machete-info-stealer.html",
-            "date": "2019-11-27",
-            "organization": "ThreatVector",
-            "author": "Adam Martin",
-            "title": "Threat Spotlight: Machete Info-Stealer",
-            "categories": [
-                "Machete"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0095/",
-            "date": "2019-09-13",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Machete",
-            "categories": [
-                "El Machete"
-            ]
-        },
-        {
-            "data_url": "https://static1.squarespace.com/static/5a01100f692ebe0459a1859f/t/5da340ded5ccf627e1764059/1570980068506/Day3-1130-Green-A+study+of+Machete+cyber+espionage+operations+in+Latin+America.pdf",
-            "date": "2019-09-12",
-            "organization": "Virus Bulletin",
-            "author": "Veronica Valeros",
-            "title": "A STUDY OF MACHETE CYBER ESPIONAGE OPERATIONS IN LATIN AMERICA",
-            "categories": [
-                "Machete"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2019/08/05/sharpening-machete-cyberespionage/",
-            "date": "2019-08-05",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Sharpening the Machete",
-            "categories": [
-                "Machete"
-            ]
-        },
-        {
-            "data_url": "https://www.cfr.org/interactive/cyber-operations/machete",
-            "date": "2019",
-            "organization": "Council on Foreign Relations",
-            "author": "Cyber Operations Tracker",
-            "title": "Machete",
-            "categories": [
-                "El Machete"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/@verovaleros/el-machete-what-do-we-know-about-the-apt-targeting-latin-america-be7d11e690e6",
-            "date": "2017-06-26",
-            "organization": "Medium verovaleros",
-            "author": "Veronica Valeros",
-            "title": "El Machete \u2014 What do we know about the APT targeting Latin America?",
-            "categories": [
-                "Machete"
-            ]
-        },
-        {
-            "data_url": "https://www.cylance.com/en_us/blog/el-machete-malware-attacks-cut-through-latam.html",
-            "date": "2017-03-22",
-            "organization": "Cylance",
-            "author": "Cylance Threat Research Team",
-            "title": "El Machete's Malware Attacks Cut Through LATAM",
-            "categories": [
-                "Machete",
-                "El Machete"
-            ]
-        },
-        {
-            "data_url": "https://threatvector.cylance.com/en_us/home/el-machete-malware-attacks-cut-through-latam.html",
-            "date": "2017-03-22",
-            "organization": "Cylance",
-            "author": "Threat Research Team",
-            "title": "El Machete's Malware Attacks Cut Through LATAM",
-            "categories": [
-                "El Machete"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/el-machete/66108/",
-            "date": "2014-08-20",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "\u201cEl Machete\u201d",
-            "categories": [
-                "Machete",
-                "El Machete"
             ]
         }
     ]

@@ -33,6 +33,31 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pitty",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securingtomorrow.mcafee.com/mcafee-labs/targeted-attacks-on-french-company-exploit-multiple-word-vulnerabilities/",
+            "date": "2014-07-15",
+            "organization": "McAfee",
+            "author": "McAfee",
+            "title": "Targeted Attacks on French Company Exploit Multiple Word Vulnerabilities",
+            "categories": [
+                "PittyTiger RAT"
+            ]
+        },
+        {
+            "data_url": "https://bitbucket.org/cybertools/whitepapers/downloads/Pitty%20Tiger%20Final%20Report.pdf",
+            "date": "2014",
+            "organization": "Airbus Defence & Space",
+            "author": "Ivan Fontarensky",
+            "title": "The Eye of the Tiger",
+            "categories": [
+                "paladin",
+                "PittyTiger RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "pittytiger",
@@ -144,31 +169,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pitty",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securingtomorrow.mcafee.com/mcafee-labs/targeted-attacks-on-french-company-exploit-multiple-word-vulnerabilities/",
-            "date": "2014-07-15",
-            "organization": "McAfee",
-            "author": "McAfee",
-            "title": "Targeted Attacks on French Company Exploit Multiple Word Vulnerabilities",
-            "categories": [
-                "PittyTiger RAT"
-            ]
-        },
-        {
-            "data_url": "https://bitbucket.org/cybertools/whitepapers/downloads/Pitty%20Tiger%20Final%20Report.pdf",
-            "date": "2014",
-            "organization": "Airbus Defence & Space",
-            "author": "Ivan Fontarensky",
-            "title": "The Eye of the Tiger",
-            "categories": [
-                "paladin",
-                "PittyTiger RAT"
             ]
         }
     ]

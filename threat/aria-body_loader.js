@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "aria-body_loader",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "aria-body",
@@ -361,8 +364,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "aria-body_loader",
-    "analysis": null,
-    "articles": []
+    ]
 };

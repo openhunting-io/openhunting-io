@@ -45,6 +45,122 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "soundbite",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2020-1110.pdf",
+            "date": "2020-11-10",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "New APT32 Malware Campaign Targets Cambodian Government",
+            "categories": [
+                "KerrDown",
+                "METALJACK",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://blog.viettelcybersecurity.com/apt32-deobfuscation-arsenal-deobfuscating-mot-vai-loai-obfucation-toolkit-cua-apt32-phan-1/",
+            "date": "2020-09-02",
+            "organization": "Viettel Cybersecurity",
+            "author": "vuonglvm",
+            "title": "APT32 deobfuscation arsenal: Deobfuscating m\u1ed9t v\u00e0i lo\u1ea1i Obfucation Toolkit c\u1ee7a APT32 (Ph\u1ea7n 1)",
+            "categories": [
+                "METALJACK",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
+            "date": "2020-05-21",
+            "organization": "PICUS Security",
+            "author": "S\u00fcleyman \u00d6zarslan",
+            "title": "T1055 Process Injection",
+            "categories": [
+                "BlackEnergy",
+                "Cardinal RAT",
+                "Downdelph",
+                "Emotet",
+                "Kazuar",
+                "RokRAT",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/tin-woodlawn",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "TIN WOODLAWN",
+            "categories": [
+                "Cobalt Strike",
+                "KerrDown",
+                "MimiKatz",
+                "PHOREAL",
+                "RatSnif",
+                "Remy",
+                "SOUNDBITE",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/xPsEXp2J5IE7wNSMEVC24A",
+            "date": "2019-04-24",
+            "organization": "Weixin",
+            "author": "Tencent",
+            "title": "\"Sea Lotus\" APT organization's attack techniques against China in the first quarter of 2019 revealed",
+            "categories": [
+                "Cobalt Strike",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/wiki/Software/S0157",
+            "date": "2017-12-14",
+            "organization": "MITRE ATT&CK",
+            "author": "Various",
+            "title": "SOUNDBITE",
+            "categories": [
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+            "date": "2017-05-14",
+            "organization": "FireEye",
+            "author": "Nick Carr",
+            "title": "Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations",
+            "categories": [
+                "OceanLotus",
+                "Cuegoe",
+                "KOMPROGO",
+                "SOUNDBITE",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/use-of-dns-tunneling-for-cc-communications/78203/",
+            "date": "2017-04-28",
+            "organization": "Kaspersky Labs",
+            "author": "Alexey Shulmin",
+            "title": "Use of DNS Tunneling for C&C Communications",
+            "categories": [
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://ruxcon.org.au/assets/2017/slides/bart-RuxCon-Presentation.pptx",
+            "date": "2017",
+            "organization": "FireEye",
+            "author": "Bart Inglot",
+            "title": "ATTACKER ANTICS: Illustrations of Ingenuity",
+            "categories": [
+                "KOMPROGO",
+                "SOUNDBITE"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "denis",
@@ -432,122 +548,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using the domain name system (dns) application layer protocol to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
                     "procedure_description": "soundbite communicates via dns for c2.[65]"
                 }
-            ]
-        }
-    ],
-    "file_name": "soundbite",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2020-1110.pdf",
-            "date": "2020-11-10",
-            "organization": "Recorded Future",
-            "author": "Insikt Group\u00ae",
-            "title": "New APT32 Malware Campaign Targets Cambodian Government",
-            "categories": [
-                "KerrDown",
-                "METALJACK",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://blog.viettelcybersecurity.com/apt32-deobfuscation-arsenal-deobfuscating-mot-vai-loai-obfucation-toolkit-cua-apt32-phan-1/",
-            "date": "2020-09-02",
-            "organization": "Viettel Cybersecurity",
-            "author": "vuonglvm",
-            "title": "APT32 deobfuscation arsenal: Deobfuscating m\u1ed9t v\u00e0i lo\u1ea1i Obfucation Toolkit c\u1ee7a APT32 (Ph\u1ea7n 1)",
-            "categories": [
-                "METALJACK",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
-            "date": "2020-05-21",
-            "organization": "PICUS Security",
-            "author": "S\u00fcleyman \u00d6zarslan",
-            "title": "T1055 Process Injection",
-            "categories": [
-                "BlackEnergy",
-                "Cardinal RAT",
-                "Downdelph",
-                "Emotet",
-                "Kazuar",
-                "RokRAT",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/tin-woodlawn",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "TIN WOODLAWN",
-            "categories": [
-                "Cobalt Strike",
-                "KerrDown",
-                "MimiKatz",
-                "PHOREAL",
-                "RatSnif",
-                "Remy",
-                "SOUNDBITE",
-                "APT32"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/xPsEXp2J5IE7wNSMEVC24A",
-            "date": "2019-04-24",
-            "organization": "Weixin",
-            "author": "Tencent",
-            "title": "\"Sea Lotus\" APT organization's attack techniques against China in the first quarter of 2019 revealed",
-            "categories": [
-                "Cobalt Strike",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/wiki/Software/S0157",
-            "date": "2017-12-14",
-            "organization": "MITRE ATT&CK",
-            "author": "Various",
-            "title": "SOUNDBITE",
-            "categories": [
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
-            "date": "2017-05-14",
-            "organization": "FireEye",
-            "author": "Nick Carr",
-            "title": "Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations",
-            "categories": [
-                "OceanLotus",
-                "Cuegoe",
-                "KOMPROGO",
-                "SOUNDBITE",
-                "APT32"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/use-of-dns-tunneling-for-cc-communications/78203/",
-            "date": "2017-04-28",
-            "organization": "Kaspersky Labs",
-            "author": "Alexey Shulmin",
-            "title": "Use of DNS Tunneling for C&C Communications",
-            "categories": [
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://ruxcon.org.au/assets/2017/slides/bart-RuxCon-Presentation.pptx",
-            "date": "2017",
-            "organization": "FireEye",
-            "author": "Bart Inglot",
-            "title": "ATTACKER ANTICS: Illustrations of Ingenuity",
-            "categories": [
-                "KOMPROGO",
-                "SOUNDBITE"
             ]
         }
     ]

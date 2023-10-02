@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "pro-ocean",
     "analysis": null,
     "articles": [
@@ -53,5 +52,6 @@ var threatdata = {
                 "Pro-Ocean"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

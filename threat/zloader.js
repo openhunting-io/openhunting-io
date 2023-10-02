@@ -58,12 +58,12 @@ var threatdata = {
             "malware": "win.zloader",
             "last_update": "2022-03-07 17:56:47",
             "tags": [
-                "spelevoek",
-                "ZLoader",
-                "Zloader",
-                "dll",
                 "zloader",
-                "nut"
+                "nut",
+                "spelevoek",
+                "dll",
+                "Zloader",
+                "ZLoader"
             ],
             "ioc": {
                 "url": [
@@ -2526,8 +2526,8 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-03-07 17:56:47",
-    "mitre": [],
     "file_name": "zloader",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

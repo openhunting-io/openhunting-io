@@ -51,208 +51,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "guloader",
-            "procedure_code": "s0561",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0561",
-            "techniques": [
-                {
-                    "tactic_code": "ta0001",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
-                    "tactic_name": "initial access",
-                    "tactic_alias": "initial_access",
-                    "tactic_description": "The adversary is trying to get into your network.",
-                    "technique_code": "t1566.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1566/002",
-                    "technique_name": "phishing : spearphishing link",
-                    "technique_description": "adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. spearphishing with a link is a specific variant of spearphishing. it is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
-                    "procedure_description": "guloader has been spread in phishing campaigns using malicious web links.[56]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1106",
-                    "technique_link": "https://attack.mitre.org/techniques/T1106",
-                    "technique_name": "native api",
-                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
-                    "procedure_description": "guloader can use a number of different apis for discovery and execution.[87]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1204.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1204/001",
-                    "technique_name": "user execution : malicious link",
-                    "technique_description": "an adversary may rely upon a user clicking a malicious link in order to gain execution. users may be subjected to social engineering to get them to click on a link that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing link. clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via exploitation for client execution. links may also lead users to download files that require execution via malicious file.",
-                    "procedure_description": "guloader has relied upon users clicking on links to malicious documents.[43]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1204.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
-                    "technique_name": "user execution : malicious file",
-                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
-                    "procedure_description": "the guloader executable has been retrieved via embedded macros in malicious word documents.[105]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "guloader can establish persistence via the registry under hkcu\\software\\microsoft\\windows\\currentversion\\runonce.[112]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "guloader can establish persistence via the registry under hkcu\\software\\microsoft\\windows\\currentversion\\runonce.[112]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1055",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055",
-                    "technique_name": "process injection",
-                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
-                    "procedure_description": "guloader has the ability to inject shellcode into a donor processes that is started in a suspended state. guloader has previously used regasm as a donor process.[26]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1070.004",
-                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
-                    "technique_name": "indicator removal : file deletion",
-                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
-                    "procedure_description": "guloader can delete its executable from the appdata\\local\\temp directory on the compromised host.[94]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1055",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055",
-                    "technique_name": "process injection",
-                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
-                    "procedure_description": "guloader has the ability to inject shellcode into a donor processes that is started in a suspended state. guloader has previously used regasm as a donor process.[26]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1497.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
-                    "technique_name": "virtualization/sandbox evasion : system checks",
-                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
-                    "procedure_description": "guloader has the ability to perform anti-vm and anti-sandbox checks using string hashing, the api call enumwindows, and checking for qemu guest agent.[27]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1497.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
-                    "technique_name": "virtualization/sandbox evasion : time based evasion",
-                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
-                    "procedure_description": "guloader has the ability to perform anti-debugging based on time checks, api calls, and cpuid.[27]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1497.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
-                    "technique_name": "virtualization/sandbox evasion : system checks",
-                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
-                    "procedure_description": "guloader has the ability to perform anti-vm and anti-sandbox checks using string hashing, the api call enumwindows, and checking for qemu guest agent.[27]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1497.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
-                    "technique_name": "virtualization/sandbox evasion : time based evasion",
-                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
-                    "procedure_description": "guloader has the ability to perform anti-debugging based on time checks, api calls, and cpuid.[27]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
-                    "technique_name": "application layer protocol : web protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "guloader can use http to retrieve additional binaries.[149][150]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1105",
-                    "technique_link": "https://attack.mitre.org/techniques/T1105",
-                    "technique_name": "ingress tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
-                    "procedure_description": "guloader can download further malware for execution on the victim's machine.[206]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1102",
-                    "technique_link": "https://attack.mitre.org/techniques/T1102",
-                    "technique_name": "web service",
-                    "technique_description": "adversaries may use an existing, legitimate external web service as a means for relaying data to/from a compromised system. popular websites and social media acting as a mechanism for c2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. using common services, such as those offered by google or twitter, makes it easier for adversaries to hide in expected noise. web service providers commonly use ssl/tls encryption, giving adversaries an added level of protection.",
-                    "procedure_description": "guloader has the ability to download malware from google drive.[20]"
-                }
-            ]
-        }
-    ],
     "file_name": "guloader",
     "analysis": null,
     "articles": [
@@ -860,6 +658,208 @@ var threatdata = {
             "title": "GuLoader anti analysis/sandbox tricks",
             "categories": [
                 "CloudEyE"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "guloader",
+            "procedure_code": "s0561",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0561",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/002",
+                    "technique_name": "phishing : spearphishing link",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. spearphishing with a link is a specific variant of spearphishing. it is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "guloader has been spread in phishing campaigns using malicious web links.[56]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "guloader can use a number of different apis for discovery and execution.[87]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/001",
+                    "technique_name": "user execution : malicious link",
+                    "technique_description": "an adversary may rely upon a user clicking a malicious link in order to gain execution. users may be subjected to social engineering to get them to click on a link that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing link. clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via exploitation for client execution. links may also lead users to download files that require execution via malicious file.",
+                    "procedure_description": "guloader has relied upon users clicking on links to malicious documents.[43]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "the guloader executable has been retrieved via embedded macros in malicious word documents.[105]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "guloader can establish persistence via the registry under hkcu\\software\\microsoft\\windows\\currentversion\\runonce.[112]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "guloader can establish persistence via the registry under hkcu\\software\\microsoft\\windows\\currentversion\\runonce.[112]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "guloader has the ability to inject shellcode into a donor processes that is started in a suspended state. guloader has previously used regasm as a donor process.[26]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "guloader can delete its executable from the appdata\\local\\temp directory on the compromised host.[94]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "guloader has the ability to inject shellcode into a donor processes that is started in a suspended state. guloader has previously used regasm as a donor process.[26]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
+                    "technique_name": "virtualization/sandbox evasion : system checks",
+                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "guloader has the ability to perform anti-vm and anti-sandbox checks using string hashing, the api call enumwindows, and checking for qemu guest agent.[27]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "guloader has the ability to perform anti-debugging based on time checks, api calls, and cpuid.[27]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/001",
+                    "technique_name": "virtualization/sandbox evasion : system checks",
+                    "technique_description": "adversaries may employ various system checks to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "guloader has the ability to perform anti-vm and anti-sandbox checks using string hashing, the api call enumwindows, and checking for qemu guest agent.[27]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "guloader has the ability to perform anti-debugging based on time checks, api calls, and cpuid.[27]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "guloader can use http to retrieve additional binaries.[149][150]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "guloader can download further malware for execution on the victim's machine.[206]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1102",
+                    "technique_link": "https://attack.mitre.org/techniques/T1102",
+                    "technique_name": "web service",
+                    "technique_description": "adversaries may use an existing, legitimate external web service as a means for relaying data to/from a compromised system. popular websites and social media acting as a mechanism for c2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. using common services, such as those offered by google or twitter, makes it easier for adversaries to hide in expected noise. web service providers commonly use ssl/tls encryption, giving adversaries an added level of protection.",
+                    "procedure_description": "guloader has the ability to download malware from google drive.[20]"
+                }
             ]
         }
     ]

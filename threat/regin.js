@@ -41,6 +41,101 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "regin",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.epicturla.com/previous-works/hitb2020-voltron-sta",
+            "date": "2021-02-05",
+            "organization": "EpicTurla",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "Voltron STA The curious case of 0xFancyFilter",
+            "categories": [
+                "fancyfilter",
+                "MISTYVEAL",
+                "Regin"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/big-threats-using-code-similarity-part-1/97239/",
+            "date": "2020-06-09",
+            "organization": "Kaspersky Labs",
+            "author": "Costin Raiu",
+            "title": "Looking at Big Threats Using Code Similarity. Part 1",
+            "categories": [
+                "Penquin Turla",
+                "CCleaner Backdoor",
+                "EternalPetya",
+                "Regin",
+                "WannaCryptor",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=jeLd-gw2bWo",
+            "date": "2018-06-15",
+            "organization": "Youtube (defconswitzerland)",
+            "author": "Costin Raiu",
+            "title": "Area41 Keynote",
+            "categories": [
+                "Lambert",
+                "Regin"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ce2df4da-afe9-4a24-b28c-0fb3ba671d95&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2016-08-08",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
+            "categories": [
+                "Flame",
+                "Regin",
+                "Remsec",
+                "ProjectSauron"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/content/dam/symantec/docs/security-center/white-papers/regin-top-tier-espionage-tool-15-en.pdf",
+            "date": "2015-08-27",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Regin: Top-tier espionage tool enables stealthy surveillance",
+            "categories": [
+                "Regin"
+            ]
+        },
+        {
+            "data_url": "https://www.kaspersky.com/blog/regin-apt-most-sophisticated/6852/",
+            "date": "2014-11-25",
+            "organization": "Kaspersky Labs",
+            "author": "Brain Donohue",
+            "title": "Regin APT Attacks Among the Most Sophisticated Ever Analyzed",
+            "categories": [
+                "Regin"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070305/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf",
+            "date": "2014-11-24",
+            "organization": "Kaspersky",
+            "author": "Kaspersky Lab",
+            "title": "The Regin Platform Nation-State Ownage Of GSM Networks",
+            "categories": [
+                "Regin"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/regin-nation-state-ownage-of-gsm-networks/67741/",
+            "date": "2014-11-24",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "Regin: nation-state ownage of GSM networks",
+            "categories": [
+                "Regin"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "regin",
@@ -248,101 +343,6 @@ var threatdata = {
                     "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
                     "procedure_description": "reg may be used to gather details from the windows registry of a local or remote system at the command-line interface.[77]"
                 }
-            ]
-        }
-    ],
-    "file_name": "regin",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.epicturla.com/previous-works/hitb2020-voltron-sta",
-            "date": "2021-02-05",
-            "organization": "EpicTurla",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "Voltron STA The curious case of 0xFancyFilter",
-            "categories": [
-                "fancyfilter",
-                "MISTYVEAL",
-                "Regin"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/big-threats-using-code-similarity-part-1/97239/",
-            "date": "2020-06-09",
-            "organization": "Kaspersky Labs",
-            "author": "Costin Raiu",
-            "title": "Looking at Big Threats Using Code Similarity. Part 1",
-            "categories": [
-                "Penquin Turla",
-                "CCleaner Backdoor",
-                "EternalPetya",
-                "Regin",
-                "WannaCryptor",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=jeLd-gw2bWo",
-            "date": "2018-06-15",
-            "organization": "Youtube (defconswitzerland)",
-            "author": "Costin Raiu",
-            "title": "Area41 Keynote",
-            "categories": [
-                "Lambert",
-                "Regin"
-            ]
-        },
-        {
-            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ce2df4da-afe9-4a24-b28c-0fb3ba671d95&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
-            "date": "2016-08-08",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
-            "categories": [
-                "Flame",
-                "Regin",
-                "Remsec",
-                "ProjectSauron"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/content/dam/symantec/docs/security-center/white-papers/regin-top-tier-espionage-tool-15-en.pdf",
-            "date": "2015-08-27",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Regin: Top-tier espionage tool enables stealthy surveillance",
-            "categories": [
-                "Regin"
-            ]
-        },
-        {
-            "data_url": "https://www.kaspersky.com/blog/regin-apt-most-sophisticated/6852/",
-            "date": "2014-11-25",
-            "organization": "Kaspersky Labs",
-            "author": "Brain Donohue",
-            "title": "Regin APT Attacks Among the Most Sophisticated Ever Analyzed",
-            "categories": [
-                "Regin"
-            ]
-        },
-        {
-            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08070305/Kaspersky_Lab_whitepaper_Regin_platform_eng.pdf",
-            "date": "2014-11-24",
-            "organization": "Kaspersky",
-            "author": "Kaspersky Lab",
-            "title": "The Regin Platform Nation-State Ownage Of GSM Networks",
-            "categories": [
-                "Regin"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/regin-nation-state-ownage-of-gsm-networks/67741/",
-            "date": "2014-11-24",
-            "organization": "Kaspersky",
-            "author": "GReAT",
-            "title": "Regin: nation-state ownage of GSM networks",
-            "categories": [
-                "Regin"
             ]
         }
     ]

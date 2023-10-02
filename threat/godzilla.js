@@ -33,8 +33,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "godzilla",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

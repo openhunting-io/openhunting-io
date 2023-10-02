@@ -32,6 +32,24 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "molenet",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cybereason.com/blog/new-malware-arsenal-abusing-cloud-platforms-in-middle-east-espionage-campaign",
+            "date": "2020-12-09",
+            "organization": "Cybereason",
+            "author": "Cybereason Nocturnus",
+            "title": "New Malware Arsenal Abusing Cloud Platforms in Middle East Espionage Campaign",
+            "categories": [
+                "DropBook",
+                "MoleNet",
+                "Quasar RAT",
+                "SharpStage",
+                "Spark"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "molenet",
@@ -323,24 +341,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "molenet",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cybereason.com/blog/new-malware-arsenal-abusing-cloud-platforms-in-middle-east-espionage-campaign",
-            "date": "2020-12-09",
-            "organization": "Cybereason",
-            "author": "Cybereason Nocturnus",
-            "title": "New Malware Arsenal Abusing Cloud Platforms in Middle East Espionage Campaign",
-            "categories": [
-                "DropBook",
-                "MoleNet",
-                "Quasar RAT",
-                "SharpStage",
-                "Spark"
             ]
         }
     ]

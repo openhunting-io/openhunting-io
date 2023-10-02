@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "costabricks",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "costabricks",
@@ -121,8 +124,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "costabricks",
-    "analysis": null,
-    "articles": []
+    ]
 };

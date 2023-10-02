@@ -44,6 +44,223 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "obliquerat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/07/transparent-tribe-targets-education.html",
+            "date": "2022-07-13",
+            "organization": "Cisco",
+            "author": "Nick Biasini",
+            "title": "Transparent Tribe begins targeting education sector in latest campaign",
+            "categories": [
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/hackers-use-modified-mfa-tool-against-indian-govt-employees/",
+            "date": "2022-03-29",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "Hackers use modified MFA tool against Indian govt employees",
+            "categories": [
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/a/investigating-apt36-or-earth-karkaddans-attack-chain-and-malware.html",
+            "date": "2022-01-24",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Investigating APT36 or Earth Karkaddan\u2019s Attack Chain and Malware Arsenal",
+            "categories": [
+                "CapraRAT",
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/investigating-apt36-or-earth-karkaddan-attack-chain-and-malware-arsenal/Earth%20Karkaddan%20APT-%20Adversary%20Intelligence%20and%20Monitoring%20Report.pdf",
+            "date": "2022-01-24",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Investigating APT36 or Earth Karkaddan\u2019s Attack Chain and Malware Arsenal",
+            "categories": [
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/investigating-apt36-or-earth-karkaddan-attack-chain-and-malware-arsenal/IoCs_Investigating%20APT36%20or%20Earth%20Karkaddan%20Attack%20Chain%20and%20Malware%20Arsenal.rtf",
+            "date": "2022-01-24",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Investigating APT36 or Earth Karkaddan\u2019s Attack Chain and Malware Arsenal (IOCs)",
+            "categories": [
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/cybersecurity-threat-spotlight-backdoors-rats-loaders-evasion-techniques",
+            "date": "2021-06-01",
+            "organization": "Cisco",
+            "author": "Josh Pyorre",
+            "title": "Backdoors, RATs, Loaders evasion techniques",
+            "categories": [
+                "BazarNimrod",
+                "GoldMax",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/05/transparent-tribe-infra-and-targeting.html",
+            "date": "2021-05-13",
+            "organization": "Talos",
+            "author": "Asheer Malhotra",
+            "title": "Transparent Tribe APT expands its Windows malware arsenal",
+            "categories": [
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/02/obliquerat-new-campaign.html",
+            "date": "2021-03-02",
+            "organization": "Cisco Talos",
+            "author": "Asheer Malhotra",
+            "title": "ObliqueRAT returns with new campaign using hijacked websites",
+            "categories": [
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/transparent-tribe-part-2/98233/",
+            "date": "2020-08-26",
+            "organization": "Kaspersky Labs",
+            "author": "Giampaolo Dedola",
+            "title": "Transparent Tribe: Evolution analysis, part 2",
+            "categories": [
+                "AhMyth",
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.secrss.com/articles/24995",
+            "date": "2020-08-25",
+            "organization": "Qianxin",
+            "author": "Qi'anxin Threat Intelligence",
+            "title": "\u5357\u4e9aAPT\u7ec4\u7ec7\u201c\u900f\u660e\u90e8\u843d\u201d\u5728\u79fb\u52a8\u7aef\u4e0a\u4e0e\u5bf9\u624b\u7684\u8f83\u91cf",
+            "categories": [
+                "AhMyth",
+                "Crimson RAT",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/02/obliquerat-hits-victims-via-maldocs.html",
+            "date": "2020-02-20",
+            "organization": "Cisco Talos",
+            "author": "Asheer Malhotra",
+            "title": "ObliqueRAT: New RAT hits victims' endpoints via malicious documents",
+            "categories": [
+                "Oblique RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -287,223 +504,6 @@ var threatdata = {
                     "technique_description": "an adversary may exfiltrate data in fixed size chunks instead of whole files or limit packet sizes below certain thresholds. this approach may be used to avoid triggering network data transfer threshold alerts.",
                     "procedure_description": "obliquerat can break large files of interest into smaller chunks to prepare them for exfiltration.[11]"
                 }
-            ]
-        }
-    ],
-    "file_name": "obliquerat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.talosintelligence.com/2022/07/transparent-tribe-targets-education.html",
-            "date": "2022-07-13",
-            "organization": "Cisco",
-            "author": "Nick Biasini",
-            "title": "Transparent Tribe begins targeting education sector in latest campaign",
-            "categories": [
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/hackers-use-modified-mfa-tool-against-indian-govt-employees/",
-            "date": "2022-03-29",
-            "organization": "Bleeping Computer",
-            "author": "Bill Toulas",
-            "title": "Hackers use modified MFA tool against Indian govt employees",
-            "categories": [
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/22/a/investigating-apt36-or-earth-karkaddans-attack-chain-and-malware.html",
-            "date": "2022-01-24",
-            "organization": "Trend Micro",
-            "author": "Trend Micro",
-            "title": "Investigating APT36 or Earth Karkaddan\u2019s Attack Chain and Malware Arsenal",
-            "categories": [
-                "CapraRAT",
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/investigating-apt36-or-earth-karkaddan-attack-chain-and-malware-arsenal/Earth%20Karkaddan%20APT-%20Adversary%20Intelligence%20and%20Monitoring%20Report.pdf",
-            "date": "2022-01-24",
-            "organization": "Trend Micro",
-            "author": "Trend Micro",
-            "title": "Investigating APT36 or Earth Karkaddan\u2019s Attack Chain and Malware Arsenal",
-            "categories": [
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/investigating-apt36-or-earth-karkaddan-attack-chain-and-malware-arsenal/IoCs_Investigating%20APT36%20or%20Earth%20Karkaddan%20Attack%20Chain%20and%20Malware%20Arsenal.rtf",
-            "date": "2022-01-24",
-            "organization": "Trend Micro",
-            "author": "Trend Micro",
-            "title": "Investigating APT36 or Earth Karkaddan\u2019s Attack Chain and Malware Arsenal (IOCs)",
-            "categories": [
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://umbrella.cisco.com/blog/cybersecurity-threat-spotlight-backdoors-rats-loaders-evasion-techniques",
-            "date": "2021-06-01",
-            "organization": "Cisco",
-            "author": "Josh Pyorre",
-            "title": "Backdoors, RATs, Loaders evasion techniques",
-            "categories": [
-                "BazarNimrod",
-                "GoldMax",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2021/05/transparent-tribe-infra-and-targeting.html",
-            "date": "2021-05-13",
-            "organization": "Talos",
-            "author": "Asheer Malhotra",
-            "title": "Transparent Tribe APT expands its Windows malware arsenal",
-            "categories": [
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2021/02/obliquerat-new-campaign.html",
-            "date": "2021-03-02",
-            "organization": "Cisco Talos",
-            "author": "Asheer Malhotra",
-            "title": "ObliqueRAT returns with new campaign using hijacked websites",
-            "categories": [
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
-            "date": "2021-02-28",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2020: A Year in Retrospect",
-            "categories": [
-                "elf.wellmess",
-                "FlowerPower",
-                "PowGoop",
-                "8.t Dropper",
-                "Agent.BTZ",
-                "Agent Tesla",
-                "Appleseed",
-                "Ave Maria",
-                "Bankshot",
-                "BazarBackdoor",
-                "BLINDINGCAN",
-                "Chinoxy",
-                "Conti",
-                "Cotx RAT",
-                "Crimson RAT",
-                "DUSTMAN",
-                "Emotet",
-                "FriedEx",
-                "FunnyDream",
-                "Hakbit",
-                "Mailto",
-                "Maze",
-                "METALJACK",
-                "Nefilim",
-                "Oblique RAT",
-                "Pay2Key",
-                "PlugX",
-                "QakBot",
-                "REvil",
-                "Ryuk",
-                "StoneDrill",
-                "StrongPity",
-                "SUNBURST",
-                "SUPERNOVA",
-                "TrickBot",
-                "TurlaRPC",
-                "Turla SilentMoon",
-                "WastedLocker",
-                "WellMess",
-                "Winnti",
-                "ZeroCleare",
-                "APT10",
-                "APT23",
-                "APT27",
-                "APT31",
-                "APT41",
-                "BlackTech",
-                "BRONZE EDGEWOOD",
-                "Inception Framework",
-                "MUSTANG PANDA",
-                "Red Charon",
-                "Red Nue",
-                "Sea Turtle",
-                "Tonto Team"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
-            "date": "2020-12-21",
-            "organization": "Cisco Talos",
-            "author": "JON MUNSHAW",
-            "title": "2020: The year in malware",
-            "categories": [
-                "WolfRAT",
-                "Prometei",
-                "Poet RAT",
-                "Agent Tesla",
-                "Astaroth",
-                "Ave Maria",
-                "CRAT",
-                "Emotet",
-                "Gozi",
-                "IndigoDrop",
-                "JhoneRAT",
-                "Nanocore RAT",
-                "NjRAT",
-                "Oblique RAT",
-                "SmokeLoader",
-                "StrongPity",
-                "WastedLocker",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/transparent-tribe-part-2/98233/",
-            "date": "2020-08-26",
-            "organization": "Kaspersky Labs",
-            "author": "Giampaolo Dedola",
-            "title": "Transparent Tribe: Evolution analysis, part 2",
-            "categories": [
-                "AhMyth",
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.secrss.com/articles/24995",
-            "date": "2020-08-25",
-            "organization": "Qianxin",
-            "author": "Qi'anxin Threat Intelligence",
-            "title": "\u5357\u4e9aAPT\u7ec4\u7ec7\u201c\u900f\u660e\u90e8\u843d\u201d\u5728\u79fb\u52a8\u7aef\u4e0a\u4e0e\u5bf9\u624b\u7684\u8f83\u91cf",
-            "categories": [
-                "AhMyth",
-                "Crimson RAT",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/02/obliquerat-hits-victims-via-maldocs.html",
-            "date": "2020-02-20",
-            "organization": "Cisco Talos",
-            "author": "Asheer Malhotra",
-            "title": "ObliqueRAT: New RAT hits victims' endpoints via malicious documents",
-            "categories": [
-                "Oblique RAT"
             ]
         }
     ]

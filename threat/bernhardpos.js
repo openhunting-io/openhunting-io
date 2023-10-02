@@ -32,7 +32,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "bernhardpos",
     "analysis": null,
     "articles": [
@@ -46,5 +45,6 @@ var threatdata = {
                 "BernhardPOS"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

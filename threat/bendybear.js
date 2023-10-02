@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "bendybear",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "bendybear",
@@ -172,8 +175,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "bendybear",
-    "analysis": null,
-    "articles": []
+    ]
 };

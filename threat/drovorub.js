@@ -32,6 +32,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "drovorub",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "drovorub",
@@ -197,8 +200,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "drovorub",
-    "analysis": null,
-    "articles": []
+    ]
 };

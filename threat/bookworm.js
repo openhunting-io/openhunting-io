@@ -1,36 +1,49 @@
 var threatdata = {
     "name": "Bookworm",
     "alias": "Bookworm",
-    "category": "Malware",
-    "type": "Backdoor, Keylogger, Info stealer",
-    "modified": "2022-12-27",
+    "category": "APT",
+    "type": "-",
+    "modified": "2020-04-14",
     "all_data": {
-        "tool": "Bookworm",
+        "actor": "Bookworm",
         "names": [
             {
-                "name": "Bookworm"
+                "name": "Bookworm",
+                "name-giver": "Palo Alto"
             }
         ],
-        "description": "(Palo Alto) Bookworm\u2019s functional code is radically different from {{PlugX}} and has a rather unique modular architecture that warranted additional analysis by Unit 42. Bookworm has little malicious functionality built-in, with its only core ability involving stealing keystrokes and clipboard contents. However, Bookworm expands on its capabilities through its ability to load additional modules directly from its command and control (C2) server.",
-        "category": "Malware",
-        "type": [
-            "Backdoor",
-            "Keylogger",
-            "Info stealer"
+        "country": [
+            "China"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2015",
+        "description": "(Palo Alto) Threat actors have delivered Bookworm as a payload in attacks on targets in Thailand. Readers who are interested in this campaign should start with our first blog that lays out the overall functionality of the malware and introduces its many components.\n\nUnit 42 does not have detailed targeting information for all known Bookworm samples, but we are aware of attempted attacks on at least two branches of government in Thailand. We speculate that other attacks delivering Bookworm were also targeting organizations in Thailand based on the contents of the associated decoys documents, as well as several of the dynamic DNS domain names used to host C2 servers that contain the words \u201cThai\u201d or \u201cThailand\u201d. Analysis of compromised systems seen communicating with Bookworm C2 servers also confirms our speculation on targeting with a majority of systems existing within Thailand.",
+        "observed-sectors": [
+            "Defense",
+            "Government"
+        ],
+        "observed-countries": [
+            "Thailand"
+        ],
+        "tools": [
+            "Bookworm",
+            "FormerFirstRAT",
+            "Poison Ivy",
+            "PlugX",
+            "Scieron"
         ],
         "information": [
+            "https://unit42.paloaltonetworks.com/attack-campaign-on-the-government-of-thailand-delivers-bookworm-trojan/",
             "https://unit42.paloaltonetworks.com/bookworm-trojan-a-model-of-modular-architecture/"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.bookworm"
-        ],
-        "uuid": "f4215b2e-bc7d-4294-a842-9bfb0fa34414",
-        "last-card-change": "2022-12-27",
+        "uuid": "10591398-68de-4ce0-9427-d7cd32df1407",
+        "last-card-change": "2020-04-14",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "bookworm",
     "analysis": null,
     "articles": [
@@ -44,5 +57,6 @@ var threatdata = {
                 "Bookworm"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

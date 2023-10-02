@@ -45,6 +45,165 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sysupdate",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/chinese-espionage-tactics",
+            "date": "2023-07-18",
+            "organization": "Mandiant",
+            "author": "Mandiant Intelligence",
+            "title": "Stealth Mode: Chinese Cyber Espionage Actors Continue to Evolve Tactics to Avoid Detection",
+            "categories": [
+                "BPFDoor",
+                "SALTWATER",
+                "SEASPY",
+                "SideWalk",
+                "ZuoRAT",
+                "Daxin",
+                "HyperBro",
+                "HyperSSL",
+                "Waterbear"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html",
+            "date": "2023-03-01",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "Iron Tiger\u2019s SysUpdate Reappears, Adds Linux Targeting",
+            "categories": [
+                "HyperSSL",
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1594937054303236096",
+            "date": "2022-11-22",
+            "organization": "Twitter (@ESETresearch)",
+            "author": "ESET Research",
+            "title": "Tweets on SysUpdate / Soldier / HyperSSL",
+            "categories": [
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/unc215-chinese-espionage-campaign-in-israel",
+            "date": "2021-08-10",
+            "organization": "FireEye",
+            "author": "Israel Research Team",
+            "title": "UNC215: Spotlight on a Chinese Espionage Campaign in Israel",
+            "categories": [
+                "HyperBro",
+                "HyperSSL",
+                "MimiKatz"
+            ]
+        },
+        {
+            "data_url": "https://www.sstic.org/media/SSTIC2021/SSTIC-actes/Taking_Advantage_of_PE_Metadata_or_How_To_Complete/SSTIC2021-Slides-Taking_Advantage_of_PE_Metadata_or_How_To_Complete_your_Favorite_Threat_Actor_Sample_Collection-lunghi.pdf",
+            "date": "2021-06-02",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "Taking Advantage of PE Metadata, or How To Complete Your Favorite Threat Actor\u2019s Sample Collection",
+            "categories": [
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://www.sstic.org/media/SSTIC2021/SSTIC-actes/Taking_Advantage_of_PE_Metadata_or_How_To_Complete/SSTIC2021-Article-Taking_Advantage_of_PE_Metadata_or_How_To_Complete_your_Favorite_Threat_Actor_Sample_Collection-lunghi.pdf",
+            "date": "2021-06-02",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "Taking Advantage of PE Metadata,or How To Complete your Favorite ThreatActor\u2019s Sample Collection (Paper)",
+            "categories": [
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/04/ESET_Industry_Report_Government.pdf",
+            "date": "2021-04-29",
+            "organization": "ESET Research",
+            "author": "Robert Lipovsky",
+            "title": "ESET Industry Report on Government: Targeted but not alone",
+            "categories": [
+                "Exaramel",
+                "Crutch",
+                "Exaramel",
+                "HyperBro",
+                "HyperSSL",
+                "InvisiMole",
+                "XDSpy"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
+            "date": "2021-04-09",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "Iron Tiger APT Updates Toolkit With Evolved SysUpdate Malware",
+            "categories": [
+                "HyperBro",
+                "HyperSSL",
+                "APT27"
+            ]
+        },
+        {
+            "data_url": "https://vblocalhost.com/uploads/VB2020-Shank-Piccolini.pdf",
+            "date": "2020-09-30",
+            "organization": "Team Cymru",
+            "author": "James Shank",
+            "title": "Pandamic: Emissary Pandas in the Middle East",
+            "categories": [
+                "HyperBro",
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20200307113010/https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1574947864.pdf",
+            "date": "2020-01",
+            "organization": "FireEye",
+            "author": "Tom Hall",
+            "title": "Mandiant IR Grab Bag of Attacker Activity",
+            "categories": [
+                "TwoFace",
+                "CHINACHOPPER",
+                "HyperBro",
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://norfolkinfosec.com/emissary-panda-dll-backdoor/",
+            "date": "2019-07-21",
+            "organization": "One Night in Norfolk",
+            "author": "Kevin Perlow",
+            "title": "Emissary Panda DLL Backdoor",
+            "categories": [
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://www.tra.gov.ae/assets/mTP39Tp6.pdf.aspx",
+            "date": "2019-06-13",
+            "organization": "ae CERT",
+            "author": "ae CERT",
+            "title": "Advanced Notification of Cyber Threats against Family of Malware Giving Remote Access to Computers",
+            "categories": [
+                "HyperBro",
+                "HyperSSL"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
+            "date": "2019-05-28",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Emissary Panda Attacks Middle East Government Sharepoint Servers",
+            "categories": [
+                "CHINACHOPPER",
+                "HyperSSL"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "sysupdate",
@@ -516,165 +675,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sysupdate",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.mandiant.com/resources/blog/chinese-espionage-tactics",
-            "date": "2023-07-18",
-            "organization": "Mandiant",
-            "author": "Mandiant Intelligence",
-            "title": "Stealth Mode: Chinese Cyber Espionage Actors Continue to Evolve Tactics to Avoid Detection",
-            "categories": [
-                "BPFDoor",
-                "SALTWATER",
-                "SEASPY",
-                "SideWalk",
-                "ZuoRAT",
-                "Daxin",
-                "HyperBro",
-                "HyperSSL",
-                "Waterbear"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html",
-            "date": "2023-03-01",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "Iron Tiger\u2019s SysUpdate Reappears, Adds Linux Targeting",
-            "categories": [
-                "HyperSSL",
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/ESETresearch/status/1594937054303236096",
-            "date": "2022-11-22",
-            "organization": "Twitter (@ESETresearch)",
-            "author": "ESET Research",
-            "title": "Tweets on SysUpdate / Soldier / HyperSSL",
-            "categories": [
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/resources/unc215-chinese-espionage-campaign-in-israel",
-            "date": "2021-08-10",
-            "organization": "FireEye",
-            "author": "Israel Research Team",
-            "title": "UNC215: Spotlight on a Chinese Espionage Campaign in Israel",
-            "categories": [
-                "HyperBro",
-                "HyperSSL",
-                "MimiKatz"
-            ]
-        },
-        {
-            "data_url": "https://www.sstic.org/media/SSTIC2021/SSTIC-actes/Taking_Advantage_of_PE_Metadata_or_How_To_Complete/SSTIC2021-Slides-Taking_Advantage_of_PE_Metadata_or_How_To_Complete_your_Favorite_Threat_Actor_Sample_Collection-lunghi.pdf",
-            "date": "2021-06-02",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "Taking Advantage of PE Metadata, or How To Complete Your Favorite Threat Actor\u2019s Sample Collection",
-            "categories": [
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://www.sstic.org/media/SSTIC2021/SSTIC-actes/Taking_Advantage_of_PE_Metadata_or_How_To_Complete/SSTIC2021-Article-Taking_Advantage_of_PE_Metadata_or_How_To_Complete_your_Favorite_Threat_Actor_Sample_Collection-lunghi.pdf",
-            "date": "2021-06-02",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "Taking Advantage of PE Metadata,or How To Complete your Favorite ThreatActor\u2019s Sample Collection (Paper)",
-            "categories": [
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/04/ESET_Industry_Report_Government.pdf",
-            "date": "2021-04-29",
-            "organization": "ESET Research",
-            "author": "Robert Lipovsky",
-            "title": "ESET Industry Report on Government: Targeted but not alone",
-            "categories": [
-                "Exaramel",
-                "Crutch",
-                "Exaramel",
-                "HyperBro",
-                "HyperSSL",
-                "InvisiMole",
-                "XDSpy"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html",
-            "date": "2021-04-09",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "Iron Tiger APT Updates Toolkit With Evolved SysUpdate Malware",
-            "categories": [
-                "HyperBro",
-                "HyperSSL",
-                "APT27"
-            ]
-        },
-        {
-            "data_url": "https://vblocalhost.com/uploads/VB2020-Shank-Piccolini.pdf",
-            "date": "2020-09-30",
-            "organization": "Team Cymru",
-            "author": "James Shank",
-            "title": "Pandamic: Emissary Pandas in the Middle East",
-            "categories": [
-                "HyperBro",
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20200307113010/https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1574947864.pdf",
-            "date": "2020-01",
-            "organization": "FireEye",
-            "author": "Tom Hall",
-            "title": "Mandiant IR Grab Bag of Attacker Activity",
-            "categories": [
-                "TwoFace",
-                "CHINACHOPPER",
-                "HyperBro",
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://norfolkinfosec.com/emissary-panda-dll-backdoor/",
-            "date": "2019-07-21",
-            "organization": "One Night in Norfolk",
-            "author": "Kevin Perlow",
-            "title": "Emissary Panda DLL Backdoor",
-            "categories": [
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://www.tra.gov.ae/assets/mTP39Tp6.pdf.aspx",
-            "date": "2019-06-13",
-            "organization": "ae CERT",
-            "author": "ae CERT",
-            "title": "Advanced Notification of Cyber Threats against Family of Malware Giving Remote Access to Computers",
-            "categories": [
-                "HyperBro",
-                "HyperSSL"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/",
-            "date": "2019-05-28",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Emissary Panda Attacks Middle East Government Sharepoint Servers",
-            "categories": [
-                "CHINACHOPPER",
-                "HyperSSL"
             ]
         }
     ]

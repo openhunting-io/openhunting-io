@@ -34,8 +34,8 @@ var threatdata = {
             "malware": "win.fickerstealer",
             "last_update": "2023-03-21 23:48:21",
             "tags": [
-                "C2Panel",
                 "Ficker Stealer",
+                "C2Panel",
                 "Fickerstealer",
                 "FickerStealer"
             ],
@@ -366,7 +366,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-03-21 23:48:21",
-    "mitre": [],
     "file_name": "ficker_stealer",
     "analysis": null,
     "articles": [
@@ -484,5 +483,6 @@ var threatdata = {
                 "Ficker Stealer"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -37,6 +37,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ecipekac",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.lac.co.jp/lacwatch/report/20201201_002363.html",
+            "date": "2020-12-01",
+            "organization": "LAC",
+            "author": "Yoshihiro Ishikawa",
+            "title": "[Urgent Report] Targeted attack by \"SigLoader\" that exploits Microsoft's digital signature file confirmed",
+            "categories": [
+                "SigLoader"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "ecipekac",
@@ -128,20 +142,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "ecipekac can download additional payloads to a compromised host.[159]"
                 }
-            ]
-        }
-    ],
-    "file_name": "ecipekac",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.lac.co.jp/lacwatch/report/20201201_002363.html",
-            "date": "2020-12-01",
-            "organization": "LAC",
-            "author": "Yoshihiro Ishikawa",
-            "title": "[Urgent Report] Targeted attack by \"SigLoader\" that exploits Microsoft's digital signature file confirmed",
-            "categories": [
-                "SigLoader"
             ]
         }
     ]

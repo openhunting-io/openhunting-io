@@ -113,7 +113,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-22 14:54:09",
-    "mitre": [],
     "file_name": "winnti",
     "analysis": null,
     "articles": [
@@ -1058,5 +1057,6 @@ var threatdata = {
                 "Winnti"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

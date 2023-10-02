@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "windows_credentials_editor",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "windows credential editor",
@@ -87,8 +90,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "windows_credentials_editor",
-    "analysis": null,
-    "articles": []
+    ]
 };

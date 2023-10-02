@@ -50,12 +50,12 @@ var threatdata = {
             "malware": "win.danabot",
             "last_update": "2023-07-31 21:02:53",
             "tags": [
-                "danabot",
-                "2718",
-                "dropped-by-smokeloader",
                 "c2",
+                "dropped-by-smokeloader",
+                "2718",
                 "Danabot",
-                "DanaBot"
+                "DanaBot",
+                "danabot"
             ],
             "ioc": {
                 "domain": [
@@ -5450,7 +5450,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-07-31 21:02:53",
-    "mitre": [],
     "file_name": "danabot",
     "analysis": null,
     "articles": [
@@ -6196,5 +6195,6 @@ var threatdata = {
                 "DanaBot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -37,6 +37,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pisloader",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
+            "date": "2016-05-24",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Josh Grunzweig",
+            "title": "New Wekby Attacks Use DNS Requests As Command and Control Mechanism",
+            "categories": [
+                "Roseam"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "pisloader",
@@ -164,20 +178,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "pisloader has a command to upload a file to the victim machine.[344]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pisloader",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2016/05/unit42-new-wekby-attacks-use-dns-requests-as-command-and-control-mechanism/",
-            "date": "2016-05-24",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Josh Grunzweig",
-            "title": "New Wekby Attacks Use DNS Requests As Command and Control Mechanism",
-            "categories": [
-                "Roseam"
             ]
         }
     ]

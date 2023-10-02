@@ -37,6 +37,105 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "helminth",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-gypsy",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT GYPSY",
+            "categories": [
+                "TwoFace",
+                "MacDownloader",
+                "BONDUPDATER",
+                "pupy",
+                "Helminth",
+                "jason",
+                "RGDoor",
+                "TinyZbot",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
+            "date": "2019-08-22",
+            "organization": "Cyware",
+            "author": "Cyware",
+            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
+            "categories": [
+                "TwoFace",
+                "BONDUPDATER",
+                "POWRUNER",
+                "QUADAGENT",
+                "Helminth",
+                "ISMAgent",
+                "Karkoff",
+                "LONGWATCH",
+                "OopsIE",
+                "PICKPOCKET",
+                "RGDoor",
+                "VALUEVAULT"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
+            "date": "2019-04-16",
+            "organization": "",
+            "author": "Robert Falcone",
+            "title": "DNS Tunneling in the Wild: Overview of OilRig\u2019s DNS Tunneling",
+            "categories": [
+                "BONDUPDATER",
+                "QUADAGENT",
+                "Alma Communicator",
+                "Helminth",
+                "ISMAgent"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/iranian-fileless-cyberattack-on-israel-word-vulnerability",
+            "date": "2017-04-27",
+            "organization": "Morphisec",
+            "author": "Michael Gorelik",
+            "title": "Iranian Fileless Attack Infiltrates Israeli Organizations",
+            "categories": [
+                "Helminth",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/10/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/",
+            "date": "2016-10-04",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Josh Grunzweig",
+            "title": "OilRig Malware Campaign Updates Toolset and Expands Targets",
+            "categories": [
+                "Helminth"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
+            "date": "2016-05-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor",
+            "categories": [
+                "Helminth"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2016/05/targeted_attacksaga.html",
+            "date": "2016-05-22",
+            "organization": "FireEye",
+            "author": "Sudeep Singh",
+            "title": "Targeted Attacks against Banks in the Middle East",
+            "categories": [
+                "Helminth",
+                "OilRig"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "helminth",
@@ -356,105 +455,6 @@ var threatdata = {
                     "technique_description": "an adversary may exfiltrate data in fixed size chunks instead of whole files or limit packet sizes below certain thresholds. this approach may be used to avoid triggering network data transfer threshold alerts.",
                     "procedure_description": "helminth splits data into chunks up to 23 bytes and sends the data in dns queries to its c2 server.[6]"
                 }
-            ]
-        }
-    ],
-    "file_name": "helminth",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-gypsy",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT GYPSY",
-            "categories": [
-                "TwoFace",
-                "MacDownloader",
-                "BONDUPDATER",
-                "pupy",
-                "Helminth",
-                "jason",
-                "RGDoor",
-                "TinyZbot",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
-            "date": "2019-08-22",
-            "organization": "Cyware",
-            "author": "Cyware",
-            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
-            "categories": [
-                "TwoFace",
-                "BONDUPDATER",
-                "POWRUNER",
-                "QUADAGENT",
-                "Helminth",
-                "ISMAgent",
-                "Karkoff",
-                "LONGWATCH",
-                "OopsIE",
-                "PICKPOCKET",
-                "RGDoor",
-                "VALUEVAULT"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
-            "date": "2019-04-16",
-            "organization": "",
-            "author": "Robert Falcone",
-            "title": "DNS Tunneling in the Wild: Overview of OilRig\u2019s DNS Tunneling",
-            "categories": [
-                "BONDUPDATER",
-                "QUADAGENT",
-                "Alma Communicator",
-                "Helminth",
-                "ISMAgent"
-            ]
-        },
-        {
-            "data_url": "https://blog.morphisec.com/iranian-fileless-cyberattack-on-israel-word-vulnerability",
-            "date": "2017-04-27",
-            "organization": "Morphisec",
-            "author": "Michael Gorelik",
-            "title": "Iranian Fileless Attack Infiltrates Israeli Organizations",
-            "categories": [
-                "Helminth",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2016/10/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/",
-            "date": "2016-10-04",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Josh Grunzweig",
-            "title": "OilRig Malware Campaign Updates Toolset and Expands Targets",
-            "categories": [
-                "Helminth"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
-            "date": "2016-05-26",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor",
-            "categories": [
-                "Helminth"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2016/05/targeted_attacksaga.html",
-            "date": "2016-05-22",
-            "organization": "FireEye",
-            "author": "Sudeep Singh",
-            "title": "Targeted Attacks against Banks in the Middle East",
-            "categories": [
-                "Helminth",
-                "OilRig"
             ]
         }
     ]

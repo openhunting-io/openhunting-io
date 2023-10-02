@@ -62,6 +62,868 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "uroburos",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a",
+            "date": "2023-05-09",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Hunting Russian Intelligence \u201cSnake\u201d Malware",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape/",
+            "date": "2023-02-16",
+            "organization": "Google",
+            "author": "Shane Huntley",
+            "title": "Fog of war: how the Ukraine conflict transformed the cyber threat landscape",
+            "categories": [
+                "APT28",
+                "Ghostwriter",
+                "SaintBear",
+                "Sandworm",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
+            "date": "2023-02-15",
+            "organization": "Google",
+            "author": "Google Threat Analysis Group",
+            "title": "Fog of War: How the Ukraine Conflict Transformed the Cyber Threat Landscape",
+            "categories": [
+                "CaddyWiper",
+                "Dharma",
+                "HermeticWiper",
+                "INDUSTROYER2",
+                "PartyTicket",
+                "WhisperGate",
+                "Callisto",
+                "Curious Gorge",
+                "MUSTANG PANDA",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.0ffset.net/reverse-engineering/analysing-snake-ransomware/",
+            "date": "2022-08-03",
+            "organization": "0ffset Blog",
+            "author": "Gabriele Orini",
+            "title": "Reversing Golang Developed Ransomware: SNAKE",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
+            "date": "2022-07-19",
+            "organization": "Google",
+            "author": "Billy Leonard",
+            "title": "Continued cyber activity in Eastern Europe observed by TAG",
+            "categories": [
+                "CyberAzov",
+                "APT28",
+                "Callisto",
+                "Ghostwriter",
+                "Sandworm",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://exatrack.com/public/Tricephalic_Hellkeeper.pdf",
+            "date": "2022-05-11",
+            "organization": "ExaTrack",
+            "author": "Tristan Pourcelot",
+            "title": "Tricephalic Hellkeeper: a tale of a passive backdoor",
+            "categories": [
+                "BPFDoor",
+                "Bvp47",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.blackberry.com/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-old-dogs-new-tricks.pdf",
+            "date": "2021-07-27",
+            "organization": "Blackberry",
+            "author": "BlackBerry Research & Intelligence Team",
+            "title": "Old Dogs New Tricks: Attackers Adopt Exotic Programming Languages",
+            "categories": [
+                "elf.wellmess",
+                "ElectroRAT",
+                "BazarNimrod",
+                "Buer",
+                "Cobalt Strike",
+                "Remcos",
+                "Snake",
+                "TeleBot",
+                "WellMess",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.goggleheadedhacker.com/blog/post/22",
+            "date": "2021-03-17",
+            "organization": "GoggleHeadedHacker Blog",
+            "author": "Jacob Pimental",
+            "title": "Automatic Gobfuscator Deobfuscation with EKANS Ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
+            "date": "2021-02-23",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2021 Global Threat Report",
+            "categories": [
+                "RansomEXX",
+                "Amadey",
+                "Anchor",
+                "Avaddon",
+                "BazarBackdoor",
+                "Clop",
+                "Cobalt Strike",
+                "Conti",
+                "Cutwail",
+                "DanaBot",
+                "DarkSide",
+                "DoppelPaymer",
+                "Dridex",
+                "Egregor",
+                "Emotet",
+                "Hakbit",
+                "IcedID",
+                "JSOutProx",
+                "KerrDown",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "NedDnLoader",
+                "Nemty",
+                "Pay2Key",
+                "PlugX",
+                "Pushdo",
+                "PwndLocker",
+                "PyXie",
+                "QakBot",
+                "Quasar RAT",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Ryuk",
+                "Sekhmet",
+                "ShadowPad",
+                "SmokeLoader",
+                "Snake",
+                "SUNBURST",
+                "SunCrypt",
+                "TEARDROP",
+                "TrickBot",
+                "WastedLocker",
+                "Winnti",
+                "Zloader",
+                "KNOCKOUT SPIDER",
+                "OUTLAW SPIDER",
+                "RIDDLE SPIDER",
+                "SOLAR SPIDER",
+                "VIKING SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/",
+            "date": "2020-12-02",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "Turla Crutch: Keeping the \u201cback door\u201d open",
+            "categories": [
+                "Crutch",
+                "Gazer",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://ke-la.com/zooming-into-darknet-threats-targeting-jp-orgs-kela/",
+            "date": "2020-11-18",
+            "organization": "KELA",
+            "author": "Victoria Kivilevich",
+            "title": "Zooming into Darknet Threats Targeting Japanese Organizations",
+            "categories": [
+                "Conti",
+                "DoppelPaymer",
+                "Egregor",
+                "LockBit",
+                "Maze",
+                "REvil",
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://hub.dragos.com/hubfs/Whitepaper-Downloads/Dragos_Manufacturing%20Threat%20Perspective_1120.pdf",
+            "date": "2020-11-12",
+            "organization": "Dragos",
+            "author": "Dragos",
+            "title": "Cyber Threat Perspective MANUFACTURING SECTOR",
+            "categories": [
+                "Industroyer",
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://ics-cert.kaspersky.com/media/KASPERSKY_H1_2020_ICS_REPORT_EN.pdf",
+            "date": "2020-09-24",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "Threat landscape for industrial automation systems - H1 2020",
+            "categories": [
+                "Poet RAT",
+                "Mailto",
+                "Milum",
+                "RagnarLocker",
+                "REvil",
+                "Ryuk",
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/financially-motivated-actors-are-expanding-access-into-ot",
+            "date": "2020-07-15",
+            "organization": "Mandiant",
+            "author": "Nathan Brubaker",
+            "title": "Financially Motivated Actors Are Expanding Access Into OT: Analysis of Kill Lists That Include OT Processes Used With Seven Malware Families",
+            "categories": [
+                "Clop",
+                "DoppelPaymer",
+                "LockerGoga",
+                "Maze",
+                "MegaCortex",
+                "Nefilim",
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/adversaries-targeting-the-manufacturing-industry/",
+            "date": "2020-07-14",
+            "organization": "CrowdStrike",
+            "author": "Falcon OverWatch Team",
+            "title": "Manufacturing Industry in the Adversaries\u2019 Crosshairs",
+            "categories": [
+                "ShadowPad",
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.telsy.com/turla-venomous-bear-updates-its-arsenal-newpass-appears-on-the-apt-threat-scene/",
+            "date": "2020-07-14",
+            "organization": "Telsy",
+            "author": "Telsy",
+            "title": "Turla / Venomous Bear updates its arsenal: \u201cNewPass\u201d appears on the APT threat scene",
+            "categories": [
+                "NewPass",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/ekans-ransomware-targeting-ot-ics-systems",
+            "date": "2020-07-01",
+            "organization": "Fortinet",
+            "author": "Ben Hunter",
+            "title": "EKANS Ransomware Targeting OT ICS Systems",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.dragos.com/blog/industry-news/ekans-ransomware-misconceptions-and-misunderstandings/",
+            "date": "2020-06-18",
+            "organization": "Dragos",
+            "author": "Joe Slowik",
+            "title": "EKANS Ransomware Misconceptions and Misunderstandings",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://ics-cert.kaspersky.com/alerts/2020/06/17/targeted-attacks-on-industrial-companies-using-snake-ransomware/",
+            "date": "2020-06-17",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "Targeted attacks on industrial companies using Snake ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/bad_packets/status/1270957214300135426",
+            "date": "2020-06-11",
+            "organization": "Twitter (@bad_packets)",
+            "author": "Bad Packets Report",
+            "title": "Tweet on Honda & Enel Critix(NetScaler) VPN server vulnerable to CVE-2019-19781, possibly targeted by SNAKE ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2020/06/honda-and-enel-impacted-by-cyber-attack-suspected-to-be-ransomware/",
+            "date": "2020-06-09",
+            "organization": "Malwarebytes",
+            "author": "Threat Intelligence Team",
+            "title": "Honda and Enel impacted by cyber attack suspected to be ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/milkr3am/status/1270019326976786432",
+            "date": "2020-06-08",
+            "organization": "Twitter (@milkr3am)",
+            "author": "milkream",
+            "title": "First public tweet on cyber incident that Honda & Enelint was hit by Snake/Ekans ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/honda-investigates-possible-ransomware-attack-networks-impacted/",
+            "date": "2020-06-08",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Honda investigates possible ransomware attack, networks impacted",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@nishanmaharjan17/malware-analysis-snake-ransomware-a0e66f487017",
+            "date": "2020-05-15",
+            "organization": "",
+            "author": "Nishan Maharjan",
+            "title": "Malware Analysis: Snake Ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://krebsonsecurity.com/2020/05/europes-largest-private-hospital-operator-fresenius-hit-by-ransomware",
+            "date": "2020-05-06",
+            "organization": "KrebsOnSecurity",
+            "author": "Brian Krebs",
+            "title": "Europe\u2019s Largest Private Hospital Operator Fresenius Hit by Ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.ccn-cert.cni.es/pdf/5045-ccn-cert-id-15-20-snake-locker-english-1/file.html",
+            "date": "2020-05",
+            "organization": "CCN-CERT",
+            "author": "CCN-CERT",
+            "title": "Malware report CCN-CERT ID-15/20 Snake Locker",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://insights.sei.cmu.edu/cert/2020/03/snake-ransomware-analysis-updates.html",
+            "date": "2020-03-23",
+            "organization": "Carnegie Mellon University",
+            "author": "Kyle O'Meara",
+            "title": "Snake Ransomware Analysis Updates",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://dragos.com/blog/industry-news/ekans-ransomware-and-ics-operations/",
+            "date": "2020-02-03",
+            "organization": "Dragos",
+            "author": "Dragos",
+            "title": "EKANS Ransomware and ICS Operations",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/new-snake-ransomware-adds-itself-to-the-increasing-collection-of-golang-crimeware/",
+            "date": "2020-01-23",
+            "organization": "SentinelOne",
+            "author": "Jim Walter",
+            "title": "New Snake Ransomware Adds Itself to the Increasing Collection of Golang Crimeware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://github.com/albertzsigovits/malware-notes/blob/master/Snake.md",
+            "date": "2020-01-10",
+            "organization": "Github (albertzsigovits)",
+            "author": "Albert Zsigovits",
+            "title": "SNAKE / EKANS ransomware",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/snake-ransomware-is-the-next-threat-targeting-business-networks/",
+            "date": "2020-01-08",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "SNAKE Ransomware Is the Next Threat Targeting Business Networks",
+            "categories": [
+                "Snake"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hunter",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON HUNTER",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "LightNeuron",
+                "Mosquito",
+                "Nautilus",
+                "Neuron",
+                "Skipper",
+                "Uroburos",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/turla",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "Turla",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0010/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: Turla",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://research.nccgroup.com/2018/11/22/turla-png-dropper-is-back/",
+            "date": "2018-11-22",
+            "organization": "nccgroup",
+            "author": "Ben Humphrey",
+            "title": "Turla PNG Dropper is back",
+            "categories": [
+                "Uroburos",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/november/turla-png-dropper-is-back/",
+            "date": "2018-11-22",
+            "organization": "nccgroup",
+            "author": "Matt Lewis",
+            "title": "Turla PNG Dropper is back",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/turla-outlook-backdoor-uses-clever-tactics-for-stealth-and-persistence/",
+            "date": "2018-08-22",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Turla Outlook Backdoor Uses Clever Tactics for Stealth and Persistence",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
+            "date": "2018-05-22",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Turla Mosquito: A shift towards more generic tools",
+            "categories": [
+                "Mosquito",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
+            "date": "2018-03",
+            "organization": "CrySyS Lab",
+            "author": "Boldizsar Bencsath",
+            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
+            "categories": [
+                "9002 RAT",
+                "Agent.BTZ",
+                "DuQu",
+                "EYService",
+                "Flame",
+                "FlowerShop",
+                "Stuxnet",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://exatrack.com/public/Uroburos_EN.pdf",
+            "date": "2018-02-09",
+            "organization": "ExaTrack",
+            "author": "St\u00e9fan Le Berre",
+            "title": "Hey Uroburos! What's up ?",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/this-hacking-gang-just-updated-the-malware-it-uses-against-uk-targets/",
+            "date": "2018-01-22",
+            "organization": "ZDNet",
+            "author": "Danny Palmer",
+            "title": "This hacking gang just updated the malware it uses against UK targets",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/introducing-whitebear/81638/",
+            "date": "2017-08-30",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Introducing WhiteBear",
+            "categories": [
+                "Gazer",
+                "Turla",
+                "White Bear"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/vn/security/news/cyber-attacks/cyberespionage-group-turla-deploys-backdoor-ahead-of-g20-summit",
+            "date": "2017-08-21",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Cyberespionage Group Turla Deploys Backdoor Ahead of G20 Task Force Summit",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.carbonblack.com/2017/08/18/threat-analysis-carbon-black-threat-research-dissects-png-dropper/",
+            "date": "2017-08-18",
+            "organization": "vmware",
+            "author": "Jared Myers",
+            "title": "Threat Analysis: Carbon Black Threat Research Dissects PNG Dropper",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
+            "date": "2017-08",
+            "organization": "ESET Research",
+            "author": "Gazing at Gazer",
+            "title": "Gazing at Gazer Turla\u2019s new second stage backdoor",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.engadget.com/2017/06/07/russian-malware-hidden-britney-spears-instagram/",
+            "date": "2017-06-07",
+            "organization": "engadget",
+            "author": "Mallory Locklear",
+            "title": "Russian malware link hid in a comment on Britney Spears' Instagram",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/05/snake-malware-ported-windows-mac/",
+            "date": "2017-05-05",
+            "organization": "Malwarebytes",
+            "author": "Thomas Reed",
+            "title": "Snake malware ported from Windows to Mac",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
+            "date": "2017-05-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brandon Levene",
+            "title": "Kazuar: Multiplatform Espionage Backdoor with API Access",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://blog.fox-it.com/2017/05/03/snake-coming-soon-in-mac-os-x-flavour/",
+            "date": "2017-05-03",
+            "organization": "Fox-IT",
+            "author": "Jelle Vergeer",
+            "title": "Snake: Coming soon in Mac OS X flavour",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.kaspersky.com/blog/moonlight-maze-the-lessons/6713/",
+            "date": "2017-04-03",
+            "organization": "Kaspersky Labs",
+            "author": "Nikolay Pankov",
+            "title": "Moonlight Maze: Lessons from history",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/",
+            "date": "2017-03-30",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Carbon Paper: Peering into Turla\u2019s second stage backdoor",
+            "categories": [
+                "Cobra Carbon System",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/115/Bitdefender-Whitepaper-PAC-A4-en-EN1.pdf",
+            "date": "2016-06-30",
+            "organization": "Bitdefender",
+            "author": "Bitdefender",
+            "title": "Pacifier APT",
+            "categories": [
+                "Gazer",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.melani.admin.ch/melani/en/home/dokumentation/reports/technical-reports/technical-report_apt_case_ruag.html",
+            "date": "2016-05-23",
+            "organization": "Reporting and Analysis Centre for Information Assurance MELANI",
+            "author": "Specialist Staff",
+            "title": "Technical Report about the Malware used in the Cyberespionage against RUAG",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://yle.fi/uutiset/osasto/news/russian_group_behind_2013_foreign_ministry_hack/8591548",
+            "date": "2016-01-13",
+            "organization": "",
+            "author": "Yie",
+            "title": "Russian group behind 2013 Foreign Ministry hack",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf",
+            "date": "2015-11",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "PINPOINTING TARGETS: Exploiting Web Analytics to Ensnare Victims",
+            "categories": [
+                "witchcoven",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/satellite-turla-apt-command-and-control-in-the-sky/72081/",
+            "date": "2015-09-09",
+            "organization": "Kaspersky Labs",
+            "author": "Stefan Tanase",
+            "title": "Satellite Turla: APT Command and Control in the Sky",
+            "categories": [
+                "Satellite Turla",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/research/72081/satellite-turla-apt-command-and-control-in-the-sky/",
+            "date": "2015-09-09",
+            "organization": "Kaspersky Labs",
+            "author": "Stefan Tanase",
+            "title": "Satellite Turla: APT Command and Control in the Sky",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.first.org/resources/papers/tbilisi2014/turla-operations_and_development.pdf",
+            "date": "2015-02-11",
+            "organization": "FIRST Tbilisi",
+            "author": "Andrzej Dereszowski",
+            "title": "Turla-development & operations",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/linux-modules-connected-to-turla-apt-discovered/109765/",
+            "date": "2014-12-09",
+            "organization": "Threatpost",
+            "author": "Michael Mimoso",
+            "title": "Linux Modules Connected to Turla APT Discovered",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/research/67962/the-penquin-turla-2/",
+            "date": "2014-12-08",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "The \u2018Penquin\u2019 Turla",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2014/11/23937-the-uroburos-case-new-sophisticated-rat-identified",
+            "date": "2014-11-11",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "The Uroburos case: new sophisticated RAT identified",
+            "categories": [
+                "Agent.BTZ",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-epic-turla-operation/65545/",
+            "date": "2014-08-07",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "The Epic Turla Operation",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.theguardian.com/technology/2014/aug/07/turla-hackers-spying-governments-researcher-kaspersky-symantec",
+            "date": "2014-08-07",
+            "organization": "The Guardian",
+            "author": "Tom Brewster",
+            "title": "Sophisticated 'Turla' hackers spying on European governments, say researchers",
+            "categories": [
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/analysis/publications/65545/the-epic-turla-operation/",
+            "date": "2014-08-07",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "The Epic Turla Operation",
+            "categories": [
+                "Cobra Carbon System",
+                "Uroburos",
+                "Wipbot",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2014/06/23953-analysis-of-uroburos-using-windbg",
+            "date": "2014-06-02",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "Analysis of Uroburos, using WinDbg",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2014/05/23958-uroburos-rootkit-belgian-foreign-ministry-stricken",
+            "date": "2014-05-13",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "Uroburos rootkit: Belgian Foreign Ministry stricken",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://artemonsecurity.com/snake_whitepaper.pdf",
+            "date": "2014-03-17",
+            "organization": "BAE Systems",
+            "author": "BAE Systems Applied Intelligence",
+            "title": "Snake Campaign & Espionage Toolkit",
+            "categories": [
+                "Agent.BTZ",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://artemonsecurity.com/uroburos.pdf",
+            "date": "2014-03-12",
+            "organization": "Blog (Artem Baranov)",
+            "author": "Andrzej Dereszowski",
+            "title": "Uroburos: the snake rootkit",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2014/03/23966-uroburos-deeper-travel-into-kernel-protection-mitigation",
+            "date": "2014-03-07",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "Uroburos \u2013 Deeper travel into kernel protection mitigation",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2014/02/23968-uroburos-highly-complex-espionage-software-with-russian-roots",
+            "date": "2014-02-28",
+            "organization": "G Data Blog",
+            "author": "G Data",
+            "title": "Uroburos - highly complex espionage software with Russian roots",
+            "categories": [
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.circl.lu/pub/tr-25/",
+            "date": "2014",
+            "organization": "circl.lu",
+            "author": "CIRCL",
+            "title": "TR-25 Analysis - Turla / Pfinet / Snake/ Uroburos",
+            "categories": [
+                "Cobra Carbon System",
+                "Uroburos",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.nytimes.com/2010/08/26/technology/26cyber.html",
+            "date": "2010-08-25",
+            "organization": "The New York Times",
+            "author": "Brian Knowlton",
+            "title": "Military Computer Attack Confirmed",
+            "categories": [
+                "Turla"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "turla",
@@ -1013,868 +1875,6 @@ var threatdata = {
                     "technique_description": "adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components. rootkits are programs that hide the existence of malware by intercepting/hooking and modifying operating system api calls that supply system information.",
                     "procedure_description": "uroburos is a rootkit used by turla.[28]"
                 }
-            ]
-        }
-    ],
-    "file_name": "uroburos",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a",
-            "date": "2023-05-09",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "Hunting Russian Intelligence \u201cSnake\u201d Malware",
-            "categories": [
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://blog.google/threat-analysis-group/fog-of-war-how-the-ukraine-conflict-transformed-the-cyber-threat-landscape/",
-            "date": "2023-02-16",
-            "organization": "Google",
-            "author": "Shane Huntley",
-            "title": "Fog of war: how the Ukraine conflict transformed the cyber threat landscape",
-            "categories": [
-                "APT28",
-                "Ghostwriter",
-                "SaintBear",
-                "Sandworm",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf",
-            "date": "2023-02-15",
-            "organization": "Google",
-            "author": "Google Threat Analysis Group",
-            "title": "Fog of War: How the Ukraine Conflict Transformed the Cyber Threat Landscape",
-            "categories": [
-                "CaddyWiper",
-                "Dharma",
-                "HermeticWiper",
-                "INDUSTROYER2",
-                "PartyTicket",
-                "WhisperGate",
-                "Callisto",
-                "Curious Gorge",
-                "MUSTANG PANDA",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.0ffset.net/reverse-engineering/analysing-snake-ransomware/",
-            "date": "2022-08-03",
-            "organization": "0ffset Blog",
-            "author": "Gabriele Orini",
-            "title": "Reversing Golang Developed Ransomware: SNAKE",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://blog.google/threat-analysis-group/continued-cyber-activity-in-eastern-europe-observed-by-tag",
-            "date": "2022-07-19",
-            "organization": "Google",
-            "author": "Billy Leonard",
-            "title": "Continued cyber activity in Eastern Europe observed by TAG",
-            "categories": [
-                "CyberAzov",
-                "APT28",
-                "Callisto",
-                "Ghostwriter",
-                "Sandworm",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://exatrack.com/public/Tricephalic_Hellkeeper.pdf",
-            "date": "2022-05-11",
-            "organization": "ExaTrack",
-            "author": "Tristan Pourcelot",
-            "title": "Tricephalic Hellkeeper: a tale of a passive backdoor",
-            "categories": [
-                "BPFDoor",
-                "Bvp47",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.blackberry.com/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-old-dogs-new-tricks.pdf",
-            "date": "2021-07-27",
-            "organization": "Blackberry",
-            "author": "BlackBerry Research & Intelligence Team",
-            "title": "Old Dogs New Tricks: Attackers Adopt Exotic Programming Languages",
-            "categories": [
-                "elf.wellmess",
-                "ElectroRAT",
-                "BazarNimrod",
-                "Buer",
-                "Cobalt Strike",
-                "Remcos",
-                "Snake",
-                "TeleBot",
-                "WellMess",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.goggleheadedhacker.com/blog/post/22",
-            "date": "2021-03-17",
-            "organization": "GoggleHeadedHacker Blog",
-            "author": "Jacob Pimental",
-            "title": "Automatic Gobfuscator Deobfuscation with EKANS Ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2021GTR.pdf",
-            "date": "2021-02-23",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "2021 Global Threat Report",
-            "categories": [
-                "RansomEXX",
-                "Amadey",
-                "Anchor",
-                "Avaddon",
-                "BazarBackdoor",
-                "Clop",
-                "Cobalt Strike",
-                "Conti",
-                "Cutwail",
-                "DanaBot",
-                "DarkSide",
-                "DoppelPaymer",
-                "Dridex",
-                "Egregor",
-                "Emotet",
-                "Hakbit",
-                "IcedID",
-                "JSOutProx",
-                "KerrDown",
-                "LockBit",
-                "Mailto",
-                "Maze",
-                "MedusaLocker",
-                "Mespinoza",
-                "Mount Locker",
-                "NedDnLoader",
-                "Nemty",
-                "Pay2Key",
-                "PlugX",
-                "Pushdo",
-                "PwndLocker",
-                "PyXie",
-                "QakBot",
-                "Quasar RAT",
-                "RagnarLocker",
-                "Ragnarok",
-                "RansomEXX",
-                "REvil",
-                "Ryuk",
-                "Sekhmet",
-                "ShadowPad",
-                "SmokeLoader",
-                "Snake",
-                "SUNBURST",
-                "SunCrypt",
-                "TEARDROP",
-                "TrickBot",
-                "WastedLocker",
-                "Winnti",
-                "Zloader",
-                "KNOCKOUT SPIDER",
-                "OUTLAW SPIDER",
-                "RIDDLE SPIDER",
-                "SOLAR SPIDER",
-                "VIKING SPIDER"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/",
-            "date": "2020-12-02",
-            "organization": "ESET Research",
-            "author": "Matthieu Faou",
-            "title": "Turla Crutch: Keeping the \u201cback door\u201d open",
-            "categories": [
-                "Crutch",
-                "Gazer",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://ke-la.com/zooming-into-darknet-threats-targeting-jp-orgs-kela/",
-            "date": "2020-11-18",
-            "organization": "KELA",
-            "author": "Victoria Kivilevich",
-            "title": "Zooming into Darknet Threats Targeting Japanese Organizations",
-            "categories": [
-                "Conti",
-                "DoppelPaymer",
-                "Egregor",
-                "LockBit",
-                "Maze",
-                "REvil",
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://hub.dragos.com/hubfs/Whitepaper-Downloads/Dragos_Manufacturing%20Threat%20Perspective_1120.pdf",
-            "date": "2020-11-12",
-            "organization": "Dragos",
-            "author": "Dragos",
-            "title": "Cyber Threat Perspective MANUFACTURING SECTOR",
-            "categories": [
-                "Industroyer",
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://ics-cert.kaspersky.com/media/KASPERSKY_H1_2020_ICS_REPORT_EN.pdf",
-            "date": "2020-09-24",
-            "organization": "Kaspersky Labs",
-            "author": "Kaspersky Lab ICS CERT",
-            "title": "Threat landscape for industrial automation systems - H1 2020",
-            "categories": [
-                "Poet RAT",
-                "Mailto",
-                "Milum",
-                "RagnarLocker",
-                "REvil",
-                "Ryuk",
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/resources/financially-motivated-actors-are-expanding-access-into-ot",
-            "date": "2020-07-15",
-            "organization": "Mandiant",
-            "author": "Nathan Brubaker",
-            "title": "Financially Motivated Actors Are Expanding Access Into OT: Analysis of Kill Lists That Include OT Processes Used With Seven Malware Families",
-            "categories": [
-                "Clop",
-                "DoppelPaymer",
-                "LockerGoga",
-                "Maze",
-                "MegaCortex",
-                "Nefilim",
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/adversaries-targeting-the-manufacturing-industry/",
-            "date": "2020-07-14",
-            "organization": "CrowdStrike",
-            "author": "Falcon OverWatch Team",
-            "title": "Manufacturing Industry in the Adversaries\u2019 Crosshairs",
-            "categories": [
-                "ShadowPad",
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.telsy.com/turla-venomous-bear-updates-its-arsenal-newpass-appears-on-the-apt-threat-scene/",
-            "date": "2020-07-14",
-            "organization": "Telsy",
-            "author": "Telsy",
-            "title": "Turla / Venomous Bear updates its arsenal: \u201cNewPass\u201d appears on the APT threat scene",
-            "categories": [
-                "NewPass",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/ekans-ransomware-targeting-ot-ics-systems",
-            "date": "2020-07-01",
-            "organization": "Fortinet",
-            "author": "Ben Hunter",
-            "title": "EKANS Ransomware Targeting OT ICS Systems",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.dragos.com/blog/industry-news/ekans-ransomware-misconceptions-and-misunderstandings/",
-            "date": "2020-06-18",
-            "organization": "Dragos",
-            "author": "Joe Slowik",
-            "title": "EKANS Ransomware Misconceptions and Misunderstandings",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://ics-cert.kaspersky.com/alerts/2020/06/17/targeted-attacks-on-industrial-companies-using-snake-ransomware/",
-            "date": "2020-06-17",
-            "organization": "Kaspersky Labs",
-            "author": "Kaspersky Lab ICS CERT",
-            "title": "Targeted attacks on industrial companies using Snake ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/bad_packets/status/1270957214300135426",
-            "date": "2020-06-11",
-            "organization": "Twitter (@bad_packets)",
-            "author": "Bad Packets Report",
-            "title": "Tweet on Honda & Enel Critix(NetScaler) VPN server vulnerable to CVE-2019-19781, possibly targeted by SNAKE ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2020/06/honda-and-enel-impacted-by-cyber-attack-suspected-to-be-ransomware/",
-            "date": "2020-06-09",
-            "organization": "Malwarebytes",
-            "author": "Threat Intelligence Team",
-            "title": "Honda and Enel impacted by cyber attack suspected to be ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/milkr3am/status/1270019326976786432",
-            "date": "2020-06-08",
-            "organization": "Twitter (@milkr3am)",
-            "author": "milkream",
-            "title": "First public tweet on cyber incident that Honda & Enelint was hit by Snake/Ekans ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/honda-investigates-possible-ransomware-attack-networks-impacted/",
-            "date": "2020-06-08",
-            "organization": "Bleeping Computer",
-            "author": "Ionut Ilascu",
-            "title": "Honda investigates possible ransomware attack, networks impacted",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/@nishanmaharjan17/malware-analysis-snake-ransomware-a0e66f487017",
-            "date": "2020-05-15",
-            "organization": "",
-            "author": "Nishan Maharjan",
-            "title": "Malware Analysis: Snake Ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://krebsonsecurity.com/2020/05/europes-largest-private-hospital-operator-fresenius-hit-by-ransomware",
-            "date": "2020-05-06",
-            "organization": "KrebsOnSecurity",
-            "author": "Brian Krebs",
-            "title": "Europe\u2019s Largest Private Hospital Operator Fresenius Hit by Ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.ccn-cert.cni.es/pdf/5045-ccn-cert-id-15-20-snake-locker-english-1/file.html",
-            "date": "2020-05",
-            "organization": "CCN-CERT",
-            "author": "CCN-CERT",
-            "title": "Malware report CCN-CERT ID-15/20 Snake Locker",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://insights.sei.cmu.edu/cert/2020/03/snake-ransomware-analysis-updates.html",
-            "date": "2020-03-23",
-            "organization": "Carnegie Mellon University",
-            "author": "Kyle O'Meara",
-            "title": "Snake Ransomware Analysis Updates",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://dragos.com/blog/industry-news/ekans-ransomware-and-ics-operations/",
-            "date": "2020-02-03",
-            "organization": "Dragos",
-            "author": "Dragos",
-            "title": "EKANS Ransomware and ICS Operations",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://labs.sentinelone.com/new-snake-ransomware-adds-itself-to-the-increasing-collection-of-golang-crimeware/",
-            "date": "2020-01-23",
-            "organization": "SentinelOne",
-            "author": "Jim Walter",
-            "title": "New Snake Ransomware Adds Itself to the Increasing Collection of Golang Crimeware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://github.com/albertzsigovits/malware-notes/blob/master/Snake.md",
-            "date": "2020-01-10",
-            "organization": "Github (albertzsigovits)",
-            "author": "Albert Zsigovits",
-            "title": "SNAKE / EKANS ransomware",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/snake-ransomware-is-the-next-threat-targeting-business-networks/",
-            "date": "2020-01-08",
-            "organization": "Bleeping Computer",
-            "author": "Lawrence Abrams",
-            "title": "SNAKE Ransomware Is the Next Threat Targeting Business Networks",
-            "categories": [
-                "Snake"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hunter",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON HUNTER",
-            "categories": [
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "LightNeuron",
-                "Mosquito",
-                "Nautilus",
-                "Neuron",
-                "Skipper",
-                "Uroburos",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.cfr.org/interactive/cyber-operations/turla",
-            "date": "2019",
-            "organization": "Council on Foreign Relations",
-            "author": "Cyber Operations Tracker",
-            "title": "Turla",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0010/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: Turla",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://research.nccgroup.com/2018/11/22/turla-png-dropper-is-back/",
-            "date": "2018-11-22",
-            "organization": "nccgroup",
-            "author": "Ben Humphrey",
-            "title": "Turla PNG Dropper is back",
-            "categories": [
-                "Uroburos",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/november/turla-png-dropper-is-back/",
-            "date": "2018-11-22",
-            "organization": "nccgroup",
-            "author": "Matt Lewis",
-            "title": "Turla PNG Dropper is back",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/turla-outlook-backdoor-uses-clever-tactics-for-stealth-and-persistence/",
-            "date": "2018-08-22",
-            "organization": "Bleeping Computer",
-            "author": "Ionut Ilascu",
-            "title": "Turla Outlook Backdoor Uses Clever Tactics for Stealth and Persistence",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
-            "date": "2018-05-22",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Turla Mosquito: A shift towards more generic tools",
-            "categories": [
-                "Mosquito",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
-            "date": "2018-03",
-            "organization": "CrySyS Lab",
-            "author": "Boldizsar Bencsath",
-            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
-            "categories": [
-                "9002 RAT",
-                "Agent.BTZ",
-                "DuQu",
-                "EYService",
-                "Flame",
-                "FlowerShop",
-                "Stuxnet",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://exatrack.com/public/Uroburos_EN.pdf",
-            "date": "2018-02-09",
-            "organization": "ExaTrack",
-            "author": "St\u00e9fan Le Berre",
-            "title": "Hey Uroburos! What's up ?",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.zdnet.com/article/this-hacking-gang-just-updated-the-malware-it-uses-against-uk-targets/",
-            "date": "2018-01-22",
-            "organization": "ZDNet",
-            "author": "Danny Palmer",
-            "title": "This hacking gang just updated the malware it uses against UK targets",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/introducing-whitebear/81638/",
-            "date": "2017-08-30",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Introducing WhiteBear",
-            "categories": [
-                "Gazer",
-                "Turla",
-                "White Bear"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/vinfo/vn/security/news/cyber-attacks/cyberespionage-group-turla-deploys-backdoor-ahead-of-g20-summit",
-            "date": "2017-08-21",
-            "organization": "Trend Micro",
-            "author": "Trend Micro",
-            "title": "Cyberespionage Group Turla Deploys Backdoor Ahead of G20 Task Force Summit",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.carbonblack.com/2017/08/18/threat-analysis-carbon-black-threat-research-dissects-png-dropper/",
-            "date": "2017-08-18",
-            "organization": "vmware",
-            "author": "Jared Myers",
-            "title": "Threat Analysis: Carbon Black Threat Research Dissects PNG Dropper",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf",
-            "date": "2017-08",
-            "organization": "ESET Research",
-            "author": "Gazing at Gazer",
-            "title": "Gazing at Gazer Turla\u2019s new second stage backdoor",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.engadget.com/2017/06/07/russian-malware-hidden-britney-spears-instagram/",
-            "date": "2017-06-07",
-            "organization": "engadget",
-            "author": "Mallory Locklear",
-            "title": "Russian malware link hid in a comment on Britney Spears' Instagram",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/05/snake-malware-ported-windows-mac/",
-            "date": "2017-05-05",
-            "organization": "Malwarebytes",
-            "author": "Thomas Reed",
-            "title": "Snake malware ported from Windows to Mac",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
-            "date": "2017-05-03",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Brandon Levene",
-            "title": "Kazuar: Multiplatform Espionage Backdoor with API Access",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://blog.fox-it.com/2017/05/03/snake-coming-soon-in-mac-os-x-flavour/",
-            "date": "2017-05-03",
-            "organization": "Fox-IT",
-            "author": "Jelle Vergeer",
-            "title": "Snake: Coming soon in Mac OS X flavour",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.kaspersky.com/blog/moonlight-maze-the-lessons/6713/",
-            "date": "2017-04-03",
-            "organization": "Kaspersky Labs",
-            "author": "Nikolay Pankov",
-            "title": "Moonlight Maze: Lessons from history",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/",
-            "date": "2017-03-30",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Carbon Paper: Peering into Turla\u2019s second stage backdoor",
-            "categories": [
-                "Cobra Carbon System",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/115/Bitdefender-Whitepaper-PAC-A4-en-EN1.pdf",
-            "date": "2016-06-30",
-            "organization": "Bitdefender",
-            "author": "Bitdefender",
-            "title": "Pacifier APT",
-            "categories": [
-                "Gazer",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.melani.admin.ch/melani/en/home/dokumentation/reports/technical-reports/technical-report_apt_case_ruag.html",
-            "date": "2016-05-23",
-            "organization": "Reporting and Analysis Centre for Information Assurance MELANI",
-            "author": "Specialist Staff",
-            "title": "Technical Report about the Malware used in the Cyberespionage against RUAG",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://yle.fi/uutiset/osasto/news/russian_group_behind_2013_foreign_ministry_hack/8591548",
-            "date": "2016-01-13",
-            "organization": "",
-            "author": "Yie",
-            "title": "Russian group behind 2013 Foreign Ministry hack",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-witchcoven.pdf",
-            "date": "2015-11",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "PINPOINTING TARGETS: Exploiting Web Analytics to Ensnare Victims",
-            "categories": [
-                "witchcoven",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/satellite-turla-apt-command-and-control-in-the-sky/72081/",
-            "date": "2015-09-09",
-            "organization": "Kaspersky Labs",
-            "author": "Stefan Tanase",
-            "title": "Satellite Turla: APT Command and Control in the Sky",
-            "categories": [
-                "Satellite Turla",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blog/research/72081/satellite-turla-apt-command-and-control-in-the-sky/",
-            "date": "2015-09-09",
-            "organization": "Kaspersky Labs",
-            "author": "Stefan Tanase",
-            "title": "Satellite Turla: APT Command and Control in the Sky",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.first.org/resources/papers/tbilisi2014/turla-operations_and_development.pdf",
-            "date": "2015-02-11",
-            "organization": "FIRST Tbilisi",
-            "author": "Andrzej Dereszowski",
-            "title": "Turla-development & operations",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://threatpost.com/linux-modules-connected-to-turla-apt-discovered/109765/",
-            "date": "2014-12-09",
-            "organization": "Threatpost",
-            "author": "Michael Mimoso",
-            "title": "Linux Modules Connected to Turla APT Discovered",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blog/research/67962/the-penquin-turla-2/",
-            "date": "2014-12-08",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "The \u2018Penquin\u2019 Turla",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.gdatasoftware.com/blog/2014/11/23937-the-uroburos-case-new-sophisticated-rat-identified",
-            "date": "2014-11-11",
-            "organization": "G Data",
-            "author": "G Data",
-            "title": "The Uroburos case: new sophisticated RAT identified",
-            "categories": [
-                "Agent.BTZ",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/the-epic-turla-operation/65545/",
-            "date": "2014-08-07",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "The Epic Turla Operation",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.theguardian.com/technology/2014/aug/07/turla-hackers-spying-governments-researcher-kaspersky-symantec",
-            "date": "2014-08-07",
-            "organization": "The Guardian",
-            "author": "Tom Brewster",
-            "title": "Sophisticated 'Turla' hackers spying on European governments, say researchers",
-            "categories": [
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/analysis/publications/65545/the-epic-turla-operation/",
-            "date": "2014-08-07",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "The Epic Turla Operation",
-            "categories": [
-                "Cobra Carbon System",
-                "Uroburos",
-                "Wipbot",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.gdatasoftware.com/blog/2014/06/23953-analysis-of-uroburos-using-windbg",
-            "date": "2014-06-02",
-            "organization": "G Data",
-            "author": "G Data",
-            "title": "Analysis of Uroburos, using WinDbg",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.gdatasoftware.com/blog/2014/05/23958-uroburos-rootkit-belgian-foreign-ministry-stricken",
-            "date": "2014-05-13",
-            "organization": "G Data",
-            "author": "G Data",
-            "title": "Uroburos rootkit: Belgian Foreign Ministry stricken",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://artemonsecurity.com/snake_whitepaper.pdf",
-            "date": "2014-03-17",
-            "organization": "BAE Systems",
-            "author": "BAE Systems Applied Intelligence",
-            "title": "Snake Campaign & Espionage Toolkit",
-            "categories": [
-                "Agent.BTZ",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://artemonsecurity.com/uroburos.pdf",
-            "date": "2014-03-12",
-            "organization": "Blog (Artem Baranov)",
-            "author": "Andrzej Dereszowski",
-            "title": "Uroburos: the snake rootkit",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.gdatasoftware.com/blog/2014/03/23966-uroburos-deeper-travel-into-kernel-protection-mitigation",
-            "date": "2014-03-07",
-            "organization": "G Data",
-            "author": "G Data",
-            "title": "Uroburos \u2013 Deeper travel into kernel protection mitigation",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.gdatasoftware.com/blog/2014/02/23968-uroburos-highly-complex-espionage-software-with-russian-roots",
-            "date": "2014-02-28",
-            "organization": "G Data Blog",
-            "author": "G Data",
-            "title": "Uroburos - highly complex espionage software with Russian roots",
-            "categories": [
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.circl.lu/pub/tr-25/",
-            "date": "2014",
-            "organization": "circl.lu",
-            "author": "CIRCL",
-            "title": "TR-25 Analysis - Turla / Pfinet / Snake/ Uroburos",
-            "categories": [
-                "Cobra Carbon System",
-                "Uroburos",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.nytimes.com/2010/08/26/technology/26cyber.html",
-            "date": "2010-08-25",
-            "organization": "The New York Times",
-            "author": "Brian Knowlton",
-            "title": "Military Computer Attack Confirmed",
-            "categories": [
-                "Turla"
             ]
         }
     ]

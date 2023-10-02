@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "meek",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "meek",
@@ -46,8 +49,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "meek",
-    "analysis": null,
-    "articles": []
+    ]
 };

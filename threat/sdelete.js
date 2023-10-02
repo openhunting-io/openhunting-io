@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sdelete",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "sdelete",
@@ -58,8 +61,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "sdelete",
-    "analysis": null,
-    "articles": []
+    ]
 };

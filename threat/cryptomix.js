@@ -46,7 +46,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "cryptomix",
     "analysis": null,
     "articles": [
@@ -112,5 +111,6 @@ var threatdata = {
                 "CryptoMix"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

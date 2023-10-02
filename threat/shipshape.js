@@ -35,6 +35,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "shipshape",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "shipshape",
@@ -116,8 +119,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "shipshape",
-    "analysis": null,
-    "articles": []
+    ]
 };

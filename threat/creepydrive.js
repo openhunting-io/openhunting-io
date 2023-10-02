@@ -30,6 +30,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "creepydrive",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "creepydrive",
@@ -147,8 +150,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "creepydrive",
-    "analysis": null,
-    "articles": []
+    ]
 };

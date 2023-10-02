@@ -37,7 +37,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "goldeneagle",
     "analysis": null,
     "articles": [
@@ -54,5 +53,6 @@ var threatdata = {
                 "SilkBean"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

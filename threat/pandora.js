@@ -39,6 +39,162 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pandora",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader",
+            "date": "2022-06-23",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "BRONZE STARLIGHT Ransomware Operations Use HUI Loader",
+            "categories": [
+                "ATOMSILO",
+                "Cobalt Strike",
+                "HUI Loader",
+                "LockFile",
+                "NightSky",
+                "Pandora",
+                "PlugX",
+                "Quasar RAT",
+                "Rook",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://cloudsek.com/technical-analysis-of-emerging-sophisticated-pandora-ransomware-group/",
+            "date": "2022-05-12",
+            "organization": "Cloudsek",
+            "author": "Anandeshwar Unnikrishnan",
+            "title": "Technical Analysis of Emerging, Sophisticated Pandora Ransomware Group",
+            "categories": [
+                "Pandora"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+            "date": "2022-05-09",
+            "organization": "Microsoft Security",
+            "author": "Microsoft Threat Intelligence Center",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "Griffon",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Gozi",
+                "LockBit",
+                "Pandora",
+                "Rook",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/Using-emulation-against-anti-reverse-engineering-techniques",
+            "date": "2022-04-19",
+            "organization": "Fortinet",
+            "author": "Gergely Revay",
+            "title": "Using Emulation Against Anti-Reverse Engineering Techniques",
+            "categories": [
+                "Pandora"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/looking-inside-pandoras-box",
+            "date": "2022-04-07",
+            "organization": "Fortinet",
+            "author": "Gergely Revay",
+            "title": "Looking Inside Pandora\u2019s Box",
+            "categories": [
+                "Pandora"
+            ]
+        },
+        {
+            "data_url": "https://kienmanowar.wordpress.com/2022/03/21/quicknote-analysis-of-pandora-ransomware/",
+            "date": "2022-03-21",
+            "organization": "VinCSS",
+            "author": "Tran Trung Kien",
+            "title": "[QuickNote] Analysis of Pandora ransomware",
+            "categories": [
+                "Pandora"
+            ]
+        },
+        {
+            "data_url": "https://dissectingmalwa.re/blog/pandora/",
+            "date": "2022-03-16",
+            "organization": "Dissecting Malware",
+            "author": "Marius Genheimer",
+            "title": "Quick revs: Pandora Ransomware - The Box has been open for a while...",
+            "categories": [
+                "Pandora"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyble.com/2022/03/15/deep-dive-analysis-pandora-ransomware/",
+            "date": "2022-03-15",
+            "organization": "cyble",
+            "author": "Cyble",
+            "title": "Deep Dive Analysis - Pandora Ransomware",
+            "categories": [
+                "Pandora",
+                "Rook"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "pandora",
@@ -274,162 +430,6 @@ var threatdata = {
                     "technique_description": "adversaries may use traffic signaling to hide open ports or other malicious functionality used for persistence or command and control. traffic signaling involves the use of a magic value or sequence that must be sent to a system to trigger a special response, such as opening a closed port or executing a malicious task. this may take the form of sending a series of packets with certain characteristics before a port will be opened that the adversary can use for command and control. usually this series of packets consists of attempted connections to a predefined sequence of closed ports (i.e. port knocking), but can involve unusual flags, specific strings, or other unique characteristics. after the sequence is completed, opening a port may be accomplished by the host-based firewall, but could also be implemented by custom software.",
                     "procedure_description": "pandora can identify if incoming http traffic contains a token and if so it will intercept the traffic and process the received command.[10]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pandora",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader",
-            "date": "2022-06-23",
-            "organization": "Secureworks",
-            "author": "Counter Threat Unit ResearchTeam",
-            "title": "BRONZE STARLIGHT Ransomware Operations Use HUI Loader",
-            "categories": [
-                "ATOMSILO",
-                "Cobalt Strike",
-                "HUI Loader",
-                "LockFile",
-                "NightSky",
-                "Pandora",
-                "PlugX",
-                "Quasar RAT",
-                "Rook",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://cloudsek.com/technical-analysis-of-emerging-sophisticated-pandora-ransomware-group/",
-            "date": "2022-05-12",
-            "organization": "Cloudsek",
-            "author": "Anandeshwar Unnikrishnan",
-            "title": "Technical Analysis of Emerging, Sophisticated Pandora Ransomware Group",
-            "categories": [
-                "Pandora"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
-            "date": "2022-05-09",
-            "organization": "Microsoft",
-            "author": "Microsoft 365 Defender Threat Intelligence Team",
-            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
-            "categories": [
-                "AnchorDNS",
-                "BlackCat",
-                "BlackMatter",
-                "Conti",
-                "DarkSide",
-                "HelloKitty",
-                "Hive",
-                "LockBit",
-                "REvil",
-                "FAKEUPDATES",
-                "Griffon",
-                "ATOMSILO",
-                "BazarBackdoor",
-                "BlackCat",
-                "BlackMatter",
-                "Blister",
-                "Cobalt Strike",
-                "Conti",
-                "DarkSide",
-                "Emotet",
-                "FiveHands",
-                "Gozi",
-                "HelloKitty",
-                "Hive",
-                "IcedID",
-                "ISFB",
-                "JSSLoader",
-                "LockBit",
-                "LockFile",
-                "Maze",
-                "NightSky",
-                "Pandora",
-                "Phobos",
-                "Phoenix Locker",
-                "PhotoLoader",
-                "QakBot",
-                "REvil",
-                "Rook",
-                "Ryuk",
-                "SystemBC",
-                "TrickBot",
-                "WastedLocker",
-                "BRONZE STARLIGHT"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
-            "date": "2022-05-09",
-            "organization": "Microsoft Security",
-            "author": "Microsoft Threat Intelligence Center",
-            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
-            "categories": [
-                "Griffon",
-                "BazarBackdoor",
-                "BlackCat",
-                "BlackMatter",
-                "Blister",
-                "Gozi",
-                "LockBit",
-                "Pandora",
-                "Rook",
-                "SystemBC",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/Using-emulation-against-anti-reverse-engineering-techniques",
-            "date": "2022-04-19",
-            "organization": "Fortinet",
-            "author": "Gergely Revay",
-            "title": "Using Emulation Against Anti-Reverse Engineering Techniques",
-            "categories": [
-                "Pandora"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/looking-inside-pandoras-box",
-            "date": "2022-04-07",
-            "organization": "Fortinet",
-            "author": "Gergely Revay",
-            "title": "Looking Inside Pandora\u2019s Box",
-            "categories": [
-                "Pandora"
-            ]
-        },
-        {
-            "data_url": "https://kienmanowar.wordpress.com/2022/03/21/quicknote-analysis-of-pandora-ransomware/",
-            "date": "2022-03-21",
-            "organization": "VinCSS",
-            "author": "Tran Trung Kien",
-            "title": "[QuickNote] Analysis of Pandora ransomware",
-            "categories": [
-                "Pandora"
-            ]
-        },
-        {
-            "data_url": "https://dissectingmalwa.re/blog/pandora/",
-            "date": "2022-03-16",
-            "organization": "Dissecting Malware",
-            "author": "Marius Genheimer",
-            "title": "Quick revs: Pandora Ransomware - The Box has been open for a while...",
-            "categories": [
-                "Pandora"
-            ]
-        },
-        {
-            "data_url": "https://blog.cyble.com/2022/03/15/deep-dive-analysis-pandora-ransomware/",
-            "date": "2022-03-15",
-            "organization": "cyble",
-            "author": "Cyble",
-            "title": "Deep Dive Analysis - Pandora Ransomware",
-            "categories": [
-                "Pandora",
-                "Rook"
             ]
         }
     ]

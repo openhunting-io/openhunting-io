@@ -43,100 +43,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "lockergoga",
-            "procedure_code": "s0372",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0372",
-            "techniques": [
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1562.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
-                    "technique_name": "impair defenses : disable or modify tools",
-                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
-                    "procedure_description": "lockergoga installation has been immediately preceded by a \"task kill\" command in order to disable anti-virus.[53]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1070.004",
-                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
-                    "technique_name": "indicator removal : file deletion",
-                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
-                    "procedure_description": "lockergoga has been observed deleting its original launcher after execution.[132]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1553.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1553/002",
-                    "technique_name": "subvert trust controls : code signing",
-                    "technique_description": "adversaries may create, acquire, or steal code signing materials to sign their malware or tools. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with.  the certificates used during an operation may be created, acquired, or stolen by the adversary.   unlike invalid code signature, this activity will result in a valid signature.",
-                    "procedure_description": "lockergoga has been signed with stolen certificates in order to make it look more legitimate.[49]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1570",
-                    "technique_link": "https://attack.mitre.org/techniques/T1570",
-                    "technique_name": "lateral tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files between systems in a compromised environment. once brought into the victim environment (i.e. ingress tool transfer) files may then be copied from one system to another to stage adversary tools or other files over the course of an operation. adversaries may copy files between internal victim systems to support lateral movement using inherent file sharing protocols such as file sharing over smb/windows admin shares to connected network shares or with authenticated connections via remote desktop protocol.",
-                    "procedure_description": "lockergoga has been observed moving around the victim network via smb, indicating the actors behind this ransomware are manually copying files form computer to computer instead of self-propagating.[1]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1531",
-                    "technique_link": "https://attack.mitre.org/techniques/T1531",
-                    "technique_name": "account access removal",
-                    "technique_description": "adversaries may interrupt availability of system and network resources by inhibiting access to accounts utilized by legitimate users. accounts may be deleted, locked, or manipulated (ex: changed credentials) to remove access to accounts. adversaries may also subsequently log off and/or perform a system shutdown/reboot to set malicious changes into place.",
-                    "procedure_description": "lockergoga has been observed changing account passwords and logging off current users.[1][2]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1486",
-                    "technique_link": "https://attack.mitre.org/techniques/T1486",
-                    "technique_name": "data encrypted for impact",
-                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
-                    "procedure_description": "lockergoga has encrypted files, including core windows os files, using rsa-oaep mgf1 and then demanded bitcoin be paid for the decryption key.[51][52][53]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1529",
-                    "technique_link": "https://attack.mitre.org/techniques/T1529",
-                    "technique_name": "system shutdown/reboot",
-                    "technique_description": "adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. operating systems may contain commands to initiate a shutdown/reboot of a machine or network device. in some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer or network device via network device cli (e.g. reload).",
-                    "procedure_description": "lockergoga has been observed shutting down infected systems.[13]"
-                }
-            ]
-        }
-    ],
     "file_name": "lockergoga",
     "analysis": null,
     "articles": [
@@ -499,6 +405,100 @@ var threatdata = {
             "title": "New LockerGoga Ransomware Allegedly Used in Altran Attack",
             "categories": [
                 "LockerGoga"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "lockergoga",
+            "procedure_code": "s0372",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0372",
+            "techniques": [
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1562.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
+                    "technique_name": "impair defenses : disable or modify tools",
+                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
+                    "procedure_description": "lockergoga installation has been immediately preceded by a \"task kill\" command in order to disable anti-virus.[53]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "lockergoga has been observed deleting its original launcher after execution.[132]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1553.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1553/002",
+                    "technique_name": "subvert trust controls : code signing",
+                    "technique_description": "adversaries may create, acquire, or steal code signing materials to sign their malware or tools. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with.  the certificates used during an operation may be created, acquired, or stolen by the adversary.   unlike invalid code signature, this activity will result in a valid signature.",
+                    "procedure_description": "lockergoga has been signed with stolen certificates in order to make it look more legitimate.[49]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1570",
+                    "technique_link": "https://attack.mitre.org/techniques/T1570",
+                    "technique_name": "lateral tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files between systems in a compromised environment. once brought into the victim environment (i.e. ingress tool transfer) files may then be copied from one system to another to stage adversary tools or other files over the course of an operation. adversaries may copy files between internal victim systems to support lateral movement using inherent file sharing protocols such as file sharing over smb/windows admin shares to connected network shares or with authenticated connections via remote desktop protocol.",
+                    "procedure_description": "lockergoga has been observed moving around the victim network via smb, indicating the actors behind this ransomware are manually copying files form computer to computer instead of self-propagating.[1]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1531",
+                    "technique_link": "https://attack.mitre.org/techniques/T1531",
+                    "technique_name": "account access removal",
+                    "technique_description": "adversaries may interrupt availability of system and network resources by inhibiting access to accounts utilized by legitimate users. accounts may be deleted, locked, or manipulated (ex: changed credentials) to remove access to accounts. adversaries may also subsequently log off and/or perform a system shutdown/reboot to set malicious changes into place.",
+                    "procedure_description": "lockergoga has been observed changing account passwords and logging off current users.[1][2]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "lockergoga has encrypted files, including core windows os files, using rsa-oaep mgf1 and then demanded bitcoin be paid for the decryption key.[51][52][53]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1529",
+                    "technique_link": "https://attack.mitre.org/techniques/T1529",
+                    "technique_name": "system shutdown/reboot",
+                    "technique_description": "adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. operating systems may contain commands to initiate a shutdown/reboot of a machine or network device. in some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer or network device via network device cli (e.g. reload).",
+                    "procedure_description": "lockergoga has been observed shutting down infected systems.[13]"
+                }
             ]
         }
     ]

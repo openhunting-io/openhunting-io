@@ -33,6 +33,50 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sharpstage",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.0ffset.net/reverse-engineering/malware-analysis/molerats-string-decryption/",
+            "date": "2021-07-06",
+            "organization": "0ffset Blog",
+            "author": "Daniel Bunce",
+            "title": "New TA402/MOLERATS Malware \u2013 Decrypting .NET Reactor Strings",
+            "categories": [
+                "SharpStage"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/hubfs/dam/collateral/reports/Molerats-in-the-Cloud-New-Malware-Arsenal-Abuses-Cloud-Platforms-in-Middle-East-Espionage-Campaign.pdf",
+            "date": "2020-12-09",
+            "organization": "Cybereason",
+            "author": "Cybereason Nocturnus Team",
+            "title": "MOLERATS IN THE CLOUD: New Malware Arsenal Abuses Cloud Platforms in Middle East Espionage Campaign",
+            "categories": [
+                "DropBook",
+                "JhoneRAT",
+                "Molerat Loader",
+                "Pierogi",
+                "Quasar RAT",
+                "SharpStage",
+                "Spark"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/new-malware-arsenal-abusing-cloud-platforms-in-middle-east-espionage-campaign",
+            "date": "2020-12-09",
+            "organization": "Cybereason",
+            "author": "Cybereason Nocturnus",
+            "title": "New Malware Arsenal Abusing Cloud Platforms in Middle East Espionage Campaign",
+            "categories": [
+                "DropBook",
+                "MoleNet",
+                "Quasar RAT",
+                "SharpStage",
+                "Spark"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "sharpstage",
@@ -240,50 +284,6 @@ var threatdata = {
                     "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
                     "procedure_description": "arp can be used to display arp configuration information on the host.[22]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sharpstage",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.0ffset.net/reverse-engineering/malware-analysis/molerats-string-decryption/",
-            "date": "2021-07-06",
-            "organization": "0ffset Blog",
-            "author": "Daniel Bunce",
-            "title": "New TA402/MOLERATS Malware \u2013 Decrypting .NET Reactor Strings",
-            "categories": [
-                "SharpStage"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/hubfs/dam/collateral/reports/Molerats-in-the-Cloud-New-Malware-Arsenal-Abuses-Cloud-Platforms-in-Middle-East-Espionage-Campaign.pdf",
-            "date": "2020-12-09",
-            "organization": "Cybereason",
-            "author": "Cybereason Nocturnus Team",
-            "title": "MOLERATS IN THE CLOUD: New Malware Arsenal Abuses Cloud Platforms in Middle East Espionage Campaign",
-            "categories": [
-                "DropBook",
-                "JhoneRAT",
-                "Molerat Loader",
-                "Pierogi",
-                "Quasar RAT",
-                "SharpStage",
-                "Spark"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/new-malware-arsenal-abusing-cloud-platforms-in-middle-east-espionage-campaign",
-            "date": "2020-12-09",
-            "organization": "Cybereason",
-            "author": "Cybereason Nocturnus",
-            "title": "New Malware Arsenal Abusing Cloud Platforms in Middle East Espionage Campaign",
-            "categories": [
-                "DropBook",
-                "MoleNet",
-                "Quasar RAT",
-                "SharpStage",
-                "Spark"
             ]
         }
     ]

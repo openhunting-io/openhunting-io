@@ -43,6 +43,97 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "roguerobin",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "date": "2021-02-18",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "categories": [
+                "Poet RAT",
+                "Gravity RAT",
+                "Ketrican",
+                "Okrum",
+                "OopsIE",
+                "Remcos",
+                "RogueRobinNET",
+                "RokRAT",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://ironnet.com/blog/dns-tunneling-series-part-3-the-siren-song-of-roguerobin/",
+            "date": "2020-02-06",
+            "organization": "IronNet",
+            "author": "Jonathan Lepore",
+            "title": "DNS Tunneling Series, Part 3: The Siren Song of RogueRobin",
+            "categories": [
+                "RogueRobin"
+            ]
+        },
+        {
+            "data_url": "https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.ez428aw98bca",
+            "date": "2019-11-20",
+            "organization": "ClearSky",
+            "author": "ClearSky Cyber Security",
+            "title": "MuddyWater Uses New Attack Methods in a Recent Attack Wave",
+            "categories": [
+                "QUADAGENT",
+                "RogueRobin"
+            ]
+        },
+        {
+            "data_url": "https://kindredsec.wordpress.com/2019/08/12/an-overview-of-public-platform-c2s/",
+            "date": "2019-08-12",
+            "organization": "Kindred Security",
+            "author": "Kindred Security",
+            "title": "An Overview of Public Platform C2\u2019s",
+            "categories": [
+                "HTML5 Encoding",
+                "LOWBALL",
+                "Makadocs",
+                "MiniDuke",
+                "RogueRobinNET",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://ti.360.net/blog/articles/latest-target-attack-of-darkhydruns-group-against-middle-east-en/",
+            "date": "2019-01-16",
+            "organization": "360.cn",
+            "author": "Qi Anxin",
+            "title": "Latest Target Attack of DarkHydruns Group Against Middle East",
+            "categories": [
+                "RogueRobinNET",
+                "DarkHydrus"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/",
+            "date": "2019-01-08",
+            "organization": "paloalto Netoworks: Unit42",
+            "author": "Robert Falcone",
+            "title": "DarkHydrus delivers new Trojan that can use Google Drive for C2 communications",
+            "categories": [
+                "RogueRobinNET",
+                "DarkHydrus"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
+            "date": "2018-07-27",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "New Threat Actor Group DarkHydrus Targets Middle East Government",
+            "categories": [
+                "RogueRobin",
+                "DarkHydrus"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "roguerobin",
@@ -490,97 +581,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "roguerobin",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "date": "2021-02-18",
-            "organization": "PTSecurity",
-            "author": "PTSecurity",
-            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "categories": [
-                "Poet RAT",
-                "Gravity RAT",
-                "Ketrican",
-                "Okrum",
-                "OopsIE",
-                "Remcos",
-                "RogueRobinNET",
-                "RokRAT",
-                "SmokeLoader"
-            ]
-        },
-        {
-            "data_url": "https://ironnet.com/blog/dns-tunneling-series-part-3-the-siren-song-of-roguerobin/",
-            "date": "2020-02-06",
-            "organization": "IronNet",
-            "author": "Jonathan Lepore",
-            "title": "DNS Tunneling Series, Part 3: The Siren Song of RogueRobin",
-            "categories": [
-                "RogueRobin"
-            ]
-        },
-        {
-            "data_url": "https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.ez428aw98bca",
-            "date": "2019-11-20",
-            "organization": "ClearSky",
-            "author": "ClearSky Cyber Security",
-            "title": "MuddyWater Uses New Attack Methods in a Recent Attack Wave",
-            "categories": [
-                "QUADAGENT",
-                "RogueRobin"
-            ]
-        },
-        {
-            "data_url": "https://kindredsec.wordpress.com/2019/08/12/an-overview-of-public-platform-c2s/",
-            "date": "2019-08-12",
-            "organization": "Kindred Security",
-            "author": "Kindred Security",
-            "title": "An Overview of Public Platform C2\u2019s",
-            "categories": [
-                "HTML5 Encoding",
-                "LOWBALL",
-                "Makadocs",
-                "MiniDuke",
-                "RogueRobinNET",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://ti.360.net/blog/articles/latest-target-attack-of-darkhydruns-group-against-middle-east-en/",
-            "date": "2019-01-16",
-            "organization": "360.cn",
-            "author": "Qi Anxin",
-            "title": "Latest Target Attack of DarkHydruns Group Against Middle East",
-            "categories": [
-                "RogueRobinNET",
-                "DarkHydrus"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/",
-            "date": "2019-01-08",
-            "organization": "paloalto Netoworks: Unit42",
-            "author": "Robert Falcone",
-            "title": "DarkHydrus delivers new Trojan that can use Google Drive for C2 communications",
-            "categories": [
-                "RogueRobinNET",
-                "DarkHydrus"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government/",
-            "date": "2018-07-27",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "New Threat Actor Group DarkHydrus Targets Middle East Government",
-            "categories": [
-                "RogueRobin",
-                "DarkHydrus"
             ]
         }
     ]

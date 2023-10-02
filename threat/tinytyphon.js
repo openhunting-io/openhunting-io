@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "tinytyphon",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "yty",
@@ -327,8 +330,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "tinytyphon",
-    "analysis": null,
-    "articles": []
+    ]
 };

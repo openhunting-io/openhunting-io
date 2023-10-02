@@ -51,6 +51,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "netwalker",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "netwalker",
@@ -476,8 +479,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "netwalker",
-    "analysis": null,
-    "articles": []
+    ]
 };

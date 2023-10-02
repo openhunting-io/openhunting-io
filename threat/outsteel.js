@@ -31,6 +31,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "outsteel",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.telsy.com/download/6372/?uid=d3eb8e1489",
+            "date": "2022-02-16",
+            "organization": "Telsy",
+            "author": "Telsy Research Team",
+            "title": "BabaDeda and LorecCPL downloaders used to run Outsteel against Ukraine",
+            "categories": [
+                "OutSteel"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "outsteel",
@@ -206,20 +220,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "outsteel can upload files from a compromised host over its c2 channel.[97]"
                 }
-            ]
-        }
-    ],
-    "file_name": "outsteel",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.telsy.com/download/6372/?uid=d3eb8e1489",
-            "date": "2022-02-16",
-            "organization": "Telsy",
-            "author": "Telsy Research Team",
-            "title": "BabaDeda and LorecCPL downloaders used to run Outsteel against Ukraine",
-            "categories": [
-                "OutSteel"
             ]
         }
     ]

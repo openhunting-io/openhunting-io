@@ -35,6 +35,37 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "lowball",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://kindredsec.wordpress.com/2019/08/12/an-overview-of-public-platform-c2s/",
+            "date": "2019-08-12",
+            "organization": "Kindred Security",
+            "author": "Kindred Security",
+            "title": "An Overview of Public Platform C2\u2019s",
+            "categories": [
+                "HTML5 Encoding",
+                "LOWBALL",
+                "Makadocs",
+                "MiniDuke",
+                "RogueRobinNET",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
+            "date": "2015-12-01",
+            "organization": "FireEye",
+            "author": "FireEye Threat Intelligence",
+            "title": "China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets",
+            "categories": [
+                "BUBBLEWRAP",
+                "LOWBALL",
+                "TEMPER PANDA"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "lowball",
@@ -78,37 +109,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an existing, legitimate external web service as a means for sending commands to and receiving output from a compromised system over the web service channel. compromised systems may leverage popular websites and social media to host command and control (c2) instructions. those infected systems can then send the output from those commands back over that web service channel. the return traffic may occur in a variety of ways, depending on the web service being utilized. for example, the return traffic may take the form of the compromised system posting a comment on a forum, issuing a pull request to development project, updating a document hosted on a web service, or by sending a tweet.",
                     "procedure_description": "lowball uses the dropbox cloud storage service for command and control.[34]"
                 }
-            ]
-        }
-    ],
-    "file_name": "lowball",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://kindredsec.wordpress.com/2019/08/12/an-overview-of-public-platform-c2s/",
-            "date": "2019-08-12",
-            "organization": "Kindred Security",
-            "author": "Kindred Security",
-            "title": "An Overview of Public Platform C2\u2019s",
-            "categories": [
-                "HTML5 Encoding",
-                "LOWBALL",
-                "Makadocs",
-                "MiniDuke",
-                "RogueRobinNET",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
-            "date": "2015-12-01",
-            "organization": "FireEye",
-            "author": "FireEye Threat Intelligence",
-            "title": "China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets",
-            "categories": [
-                "BUBBLEWRAP",
-                "LOWBALL",
-                "TEMPER PANDA"
             ]
         }
     ]

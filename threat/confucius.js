@@ -1,32 +1,85 @@
 var threatdata = {
     "name": "Confucius",
-    "alias": "Confucius, ChatSpy",
-    "category": "Malware",
-    "type": "Backdoor",
-    "modified": "2021-08-17",
+    "alias": "Confucius",
+    "category": "APT",
+    "type": "-",
+    "modified": "2022-12-30",
     "all_data": {
-        "tool": "Confucius",
+        "actor": "Confucius",
         "names": [
             {
-                "name": "Confucius"
-            },
-            {
-                "name": "ChatSpy"
+                "name": "Confucius",
+                "name-giver": "Palo Alto"
             }
         ],
-        "description": "No description available yet.",
-        "category": "Malware",
-        "type": [
-            "Backdoor"
+        "country": [
+            "India"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2013",
+        "description": "(Trend Micro) Confucius\u2019 campaigns were reportedly active as early as 2013, abusing Yahoo! And Quora forums as part of their command-and-control (C&C) communications. We stumbled upon Confucius, likely from South Asia, while delving into Patchwork\u2019s cyberespionage operations.\n\nConfucius\u2019 operations include deploying bespoke backdoors and stealing files from their victim\u2019s systems with tailored file stealers. The stolen files are then exfiltrated by abusing a cloud service provider. Some of these file stealers specifically target files from USB devices, probably to overcome air-gapped environments.\n\nThis group seems to be associated with {{Patchwork, Dropping Elephant}}.",
+        "observed-countries": [
+            "Azerbaijan",
+            "Bangladesh",
+            "France",
+            "India",
+            "Indonesia",
+            "Iran",
+            "Italy",
+            "Mongolia",
+            "Pakistan",
+            "Poland",
+            "Russia",
+            "Slovakia",
+            "Spain",
+            "Trinidad and Tobago",
+            "UAE",
+            "UK",
+            "Ukraine",
+            "USA",
+            "most of the South and Southeast Asian countries, most of the Middle Eastern countries and most of the African countries"
+        ],
+        "tools": [
+            "ApacheStealer",
+            "Confucius",
+            "Hornbill",
+            "MY24",
+            "sctrls",
+            "remote-access-c3",
+            "sip_telephone",
+            "SunBird",
+            "swissknife2",
+            "Sneepy"
+        ],
+        "operations": [
+            {
+                "date": "2017-10",
+                "activity": "In recent weeks, Unit 42 has discovered three documents crafted to exploit the InPage program. InPage is a word processor program that supports languages such as Urdu, Persian, Pashto, and Arabic. The three InPage exploit files are linked through their use of very similar shellcode, which suggests that either the same actor is behind these attacks, or the attackers have access to a shared builder.\nhttps://unit42.paloaltonetworks.com/unit42-recent-inpage-exploits-lead-multiple-malware-families/"
+            },
+            {
+                "date": "2017 Late",
+                "activity": "Probing Confucius\u2019 infrastructure, we came across websites offering Windows and Android chat applications, most likely iterations of its predecessor, Simple Chat Point: Secret Chat Point, and Tweety Chat. We are admittedly uncertain of the extent \u2014 and success \u2014 of their use, but it\u2019s one of the ingredients of the group\u2019s operations.\nhttps://blog.trendmicro.com/trendlabs-security-intelligence/deciphering-confucius-cyberespionage-operations/"
+            },
+            {
+                "date": "2018-05",
+                "activity": "During their previous campaign, we found Confucius using fake romance websites to entice victims into installing malicious Android applications. This time, the threat actor seems to have a new modus operandi, setting up two new websites and new payloads with which to compromise its targets.\nhttps://blog.trendmicro.com/trendlabs-security-intelligence/confucius-update-new-tools-and-techniques-further-connections-with-patchwork/"
+            },
+            {
+                "date": "2021-08",
+                "activity": "Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military\nhttps://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html"
+            }
         ],
         "information": [
-            "https://blog.trendmicro.com/trendlabs-security-intelligence/confucius-update-new-tools-and-techniques-further-connections-with-patchwork/"
+            "https://unit42.paloaltonetworks.com/unit42-confucius-says-malware-families-get-further-by-abusing-legitimate-websites/",
+            "https://documents.trendmicro.com/assets/research-deciphering-confucius-cyberespionage-operations.pdf"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.confucius"
+        "mitre-attack": [
+            "https://attack.mitre.org/groups/G0142/"
         ],
-        "uuid": "1005d601-8052-4021-909b-ff2a2c356b2d",
-        "last-card-change": "2021-04-19",
+        "uuid": "5cfcb0a9-c819-4cc2-ad43-36fe47aca3d4",
+        "last-card-change": "2022-12-30",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [
@@ -89,6 +142,53 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-27 22:24:53",
+    "file_name": "confucius",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
+            "date": "2021-08-17",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military",
+            "categories": [
+                "Chrysaor",
+                "Confucius"
+            ]
+        },
+        {
+            "data_url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
+            "date": "2021-01-12",
+            "organization": "Uptycs",
+            "author": "Abhijit Mohanta",
+            "title": "Confucius APT deploys Warzone RAT",
+            "categories": [
+                "Ave Maria",
+                "Confucius"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-recent-inpage-exploits-lead-multiple-malware-families/",
+            "date": "2017-11-02",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jacob Soo",
+            "title": "Recent InPage Exploits Lead to Multiple Malware Families",
+            "categories": [
+                "Confucius"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-confucius-says-malware-families-get-further-by-abusing-legitimate-websites/",
+            "date": "2016-09-28",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Tom Lancaster",
+            "title": "Confucius Says\u2026Malware Families Get Further By Abusing Legitimate Websites",
+            "categories": [
+                "Confucius",
+                "SNEEPY"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "confucius",
@@ -360,97 +460,6 @@ var threatdata = {
                     "technique_description": "adversaries may exfiltrate data to a cloud storage service rather than over their primary command and control channel. cloud storage services allow for the storage, edit, and retrieval of data from a remote cloud storage server over the internet.",
                     "procedure_description": "confucius has exfiltrated victim data to cloud storage service accounts.[7]"
                 }
-            ]
-        },
-        {
-            "procedure_name": "at",
-            "procedure_code": "s0110",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0110",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                }
-            ]
-        }
-    ],
-    "file_name": "confucius",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/21/h/confucius-uses-pegasus-spyware-related-lures-to-target-pakistani.html",
-            "date": "2021-08-17",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "Confucius Uses Pegasus Spyware-related Lures to Target Pakistani Military",
-            "categories": [
-                "Chrysaor",
-                "Confucius"
-            ]
-        },
-        {
-            "data_url": "https://www.uptycs.com/blog/confucius-apt-deploys-warzone-rat",
-            "date": "2021-01-12",
-            "organization": "Uptycs",
-            "author": "Abhijit Mohanta",
-            "title": "Confucius APT deploys Warzone RAT",
-            "categories": [
-                "Ave Maria",
-                "Confucius"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-recent-inpage-exploits-lead-multiple-malware-families/",
-            "date": "2017-11-02",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Jacob Soo",
-            "title": "Recent InPage Exploits Lead to Multiple Malware Families",
-            "categories": [
-                "Confucius"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2016/09/unit42-confucius-says-malware-families-get-further-by-abusing-legitimate-websites/",
-            "date": "2016-09-28",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Tom Lancaster",
-            "title": "Confucius Says\u2026Malware Families Get Further By Abusing Legitimate Websites",
-            "categories": [
-                "Confucius",
-                "SNEEPY"
             ]
         }
     ]

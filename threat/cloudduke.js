@@ -45,6 +45,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cloudduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.f-secure.com/weblog/archives/00002822.html",
+            "date": "2015-07-22",
+            "organization": "F-Secure",
+            "author": "Artturi Lehti\u00f6",
+            "title": "Duke APT group's latest tools: cloud services and Linux support",
+            "categories": [
+                "CloudDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "cloudduke",
@@ -88,20 +102,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an existing, legitimate external web service as a means for sending commands to and receiving output from a compromised system over the web service channel. compromised systems may leverage popular websites and social media to host command and control (c2) instructions. those infected systems can then send the output from those commands back over that web service channel. the return traffic may occur in a variety of ways, depending on the web service being utilized. for example, the return traffic may take the form of the compromised system posting a comment on a forum, issuing a pull request to development project, updating a document hosted on a web service, or by sending a tweet.",
                     "procedure_description": "one variant of cloudduke uses a microsoft onedrive account to exchange commands and stolen data with its operators.[18]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cloudduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.f-secure.com/weblog/archives/00002822.html",
-            "date": "2015-07-22",
-            "organization": "F-Secure",
-            "author": "Artturi Lehti\u00f6",
-            "title": "Duke APT group's latest tools: cloud services and Linux support",
-            "categories": [
-                "CloudDuke"
             ]
         }
     ]

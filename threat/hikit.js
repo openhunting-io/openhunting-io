@@ -36,6 +36,81 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hikit",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-keystone",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE KEYSTONE",
+            "categories": [
+                "9002 RAT",
+                "BLACKCOFFEE",
+                "DeputyDog",
+                "Derusbi",
+                "HiKit",
+                "PlugX",
+                "Poison Ivy",
+                "ZXShell",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0001/",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Axiom",
+            "categories": [
+                "Derusbi",
+                "9002 RAT",
+                "BLACKCOFFEE",
+                "Derusbi",
+                "Ghost RAT",
+                "HiKit",
+                "PlugX",
+                "ZXShell",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/security-vendors-take-action-against-hidden-lynx-malware",
+            "date": "2014-10-14",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Security vendors take action against Hidden Lynx malware",
+            "categories": [
+                "HiKit"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20141016080249/http://www.symantec.com/connect/blogs/security-vendors-take-action-against-hidden-lynx-malware",
+            "date": "2014-10-14",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Security vendors take action against Hidden Lynx malware",
+            "categories": [
+                "Gameover P2P",
+                "HiKit",
+                "Shylock",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2013/hidden_lynx.pdf",
+            "date": "2013-09-17",
+            "organization": "Symantec",
+            "author": "Stephen Doherty",
+            "title": "Hidden Lynx \u2013 Professional Hackers for Hire",
+            "categories": [
+                "9002 RAT",
+                "HiKit",
+                "APT17"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "hikit",
@@ -199,81 +274,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an internal proxy to direct command and control traffic between two or more systems in a compromised environment. many tools exist that enable traffic redirection through proxies or port redirection, including htran, zxproxy, and zxportmap.  adversaries use internal proxies to manage command and control communications inside a compromised environment, to reduce the number of simultaneous outbound network connections, to provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between infected systems to avoid suspicion. internal proxy connections may use common peer-to-peer (p2p) networking protocols, such as smb, to better blend in with the environment.",
                     "procedure_description": "hikit supports peer connections.[12]"
                 }
-            ]
-        }
-    ],
-    "file_name": "hikit",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-keystone",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE KEYSTONE",
-            "categories": [
-                "9002 RAT",
-                "BLACKCOFFEE",
-                "DeputyDog",
-                "Derusbi",
-                "HiKit",
-                "PlugX",
-                "Poison Ivy",
-                "ZXShell",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0001/",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Axiom",
-            "categories": [
-                "Derusbi",
-                "9002 RAT",
-                "BLACKCOFFEE",
-                "Derusbi",
-                "Ghost RAT",
-                "HiKit",
-                "PlugX",
-                "ZXShell",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/security-vendors-take-action-against-hidden-lynx-malware",
-            "date": "2014-10-14",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Security vendors take action against Hidden Lynx malware",
-            "categories": [
-                "HiKit"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20141016080249/http://www.symantec.com/connect/blogs/security-vendors-take-action-against-hidden-lynx-malware",
-            "date": "2014-10-14",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Security vendors take action against Hidden Lynx malware",
-            "categories": [
-                "Gameover P2P",
-                "HiKit",
-                "Shylock",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2013/hidden_lynx.pdf",
-            "date": "2013-09-17",
-            "organization": "Symantec",
-            "author": "Stephen Doherty",
-            "title": "Hidden Lynx \u2013 Professional Hackers for Hire",
-            "categories": [
-                "9002 RAT",
-                "HiKit",
-                "APT17"
             ]
         }
     ]

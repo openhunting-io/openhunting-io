@@ -37,6 +37,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "lizar",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "lizar",
@@ -346,8 +349,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "lizar",
-    "analysis": null,
-    "articles": []
+    ]
 };

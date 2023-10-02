@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "tinymet",
     "analysis": null,
     "articles": [
@@ -222,5 +221,6 @@ var threatdata = {
                 "TinyMet"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

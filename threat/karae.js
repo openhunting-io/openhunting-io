@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "karae",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "karae",
@@ -88,8 +91,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "karae",
-    "analysis": null,
-    "articles": []
+    ]
 };

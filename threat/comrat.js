@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "comrat",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "comrat",
@@ -399,8 +402,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "comrat",
-    "analysis": null,
-    "articles": []
+    ]
 };

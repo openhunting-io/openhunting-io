@@ -31,6 +31,22 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ironnetinjector",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/ironnetinjector/",
+            "date": "2021-02-19",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Dominik Reichel",
+            "title": "IronNetInjector: Turla\u2019s New Malware Loading Tool",
+            "categories": [
+                "Agent.BTZ",
+                "IronNetInjector",
+                "TurlaRPC"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "ironnetinjector",
@@ -402,22 +418,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "ironnetinjector",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/ironnetinjector/",
-            "date": "2021-02-19",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Dominik Reichel",
-            "title": "IronNetInjector: Turla\u2019s New Malware Loading Tool",
-            "categories": [
-                "Agent.BTZ",
-                "IronNetInjector",
-                "TurlaRPC"
             ]
         }
     ]

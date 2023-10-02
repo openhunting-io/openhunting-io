@@ -36,6 +36,99 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "remexi",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://bitdefender.com/files/News/CaseStudies/study/332/Bitdefender-Whitepaper-Chafer-creat4491-en-EN-interactive.pdf",
+            "date": "2020-05-21",
+            "organization": "Bitdefender",
+            "author": "Liviu Arsene",
+            "title": "Iranian Chafer APT Targeted Air Transportation and Government in Kuwait and Saudi Arabia",
+            "categories": [
+                "MimiKatz",
+                "Remexi"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-hickman",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT HICKMAN",
+            "categories": [
+                "MimiKatz",
+                "Remexi",
+                "APT39"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/QW5kcmV3/status/1095833216605401088",
+            "date": "2019-02-14",
+            "organization": "Twitter (@QW5kcmV3)",
+            "author": "Andrew Thompson",
+            "title": "Tweet on unpacking Remexi payload",
+            "categories": [
+                "Remexi"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/chafer-used-remexi-malware/89538/",
+            "date": "2019-01-30",
+            "organization": "Kaspersky Labs",
+            "author": "Denis Legezo",
+            "title": "Chafer used Remexi malware to spy on Iran-based foreign diplomatic entities",
+            "categories": [
+                "Remexi",
+                "APT39"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions",
+            "date": "2018-02-28",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Chafer: Latest Attacks Reveal Heightened Ambitions",
+            "categories": [
+                "MimiKatz",
+                "Remexi"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions",
+            "date": "2018-02-28",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Chafer: Latest Attacks Reveal Heightened Ambitions",
+            "categories": [
+                "Remexi",
+                "APT39"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20191221064439/https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets",
+            "date": "2015-12-07",
+            "organization": "Symantec",
+            "author": "Security Response",
+            "title": "Iran-based attackers use back door threats to spy on Middle Eastern targets",
+            "categories": [
+                "CadelSpy",
+                "Remexi",
+                "Cadelle"
+            ]
+        },
+        {
+            "data_url": "http://www.symantec.com/content/en/us/enterprise/media/security_response/docs/CadelSpy-Remexi-IOC.pdf",
+            "date": "2015-12-07",
+            "organization": "Symantec",
+            "author": "Symantec",
+            "title": "Backdoor.Cadelspy and Backdoor.Remexi: indicators of compromise",
+            "categories": [
+                "CadelSpy",
+                "Remexi"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "remexi",
@@ -295,99 +388,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "remexi performs exfiltration over bitsadmin, which is also used for the c2 channel.[106]"
                 }
-            ]
-        }
-    ],
-    "file_name": "remexi",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://bitdefender.com/files/News/CaseStudies/study/332/Bitdefender-Whitepaper-Chafer-creat4491-en-EN-interactive.pdf",
-            "date": "2020-05-21",
-            "organization": "Bitdefender",
-            "author": "Liviu Arsene",
-            "title": "Iranian Chafer APT Targeted Air Transportation and Government in Kuwait and Saudi Arabia",
-            "categories": [
-                "MimiKatz",
-                "Remexi"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-hickman",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT HICKMAN",
-            "categories": [
-                "MimiKatz",
-                "Remexi",
-                "APT39"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/QW5kcmV3/status/1095833216605401088",
-            "date": "2019-02-14",
-            "organization": "Twitter (@QW5kcmV3)",
-            "author": "Andrew Thompson",
-            "title": "Tweet on unpacking Remexi payload",
-            "categories": [
-                "Remexi"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/chafer-used-remexi-malware/89538/",
-            "date": "2019-01-30",
-            "organization": "Kaspersky Labs",
-            "author": "Denis Legezo",
-            "title": "Chafer used Remexi malware to spy on Iran-based foreign diplomatic entities",
-            "categories": [
-                "Remexi",
-                "APT39"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions",
-            "date": "2018-02-28",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "Chafer: Latest Attacks Reveal Heightened Ambitions",
-            "categories": [
-                "MimiKatz",
-                "Remexi"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions",
-            "date": "2018-02-28",
-            "organization": "Symantec",
-            "author": "Security Response Attack Investigation Team",
-            "title": "Chafer: Latest Attacks Reveal Heightened Ambitions",
-            "categories": [
-                "Remexi",
-                "APT39"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20191221064439/https://www.symantec.com/connect/blogs/iran-based-attackers-use-back-door-threats-spy-middle-eastern-targets",
-            "date": "2015-12-07",
-            "organization": "Symantec",
-            "author": "Security Response",
-            "title": "Iran-based attackers use back door threats to spy on Middle Eastern targets",
-            "categories": [
-                "CadelSpy",
-                "Remexi",
-                "Cadelle"
-            ]
-        },
-        {
-            "data_url": "http://www.symantec.com/content/en/us/enterprise/media/security_response/docs/CadelSpy-Remexi-IOC.pdf",
-            "date": "2015-12-07",
-            "organization": "Symantec",
-            "author": "Symantec",
-            "title": "Backdoor.Cadelspy and Backdoor.Remexi: indicators of compromise",
-            "categories": [
-                "CadelSpy",
-                "Remexi"
             ]
         }
     ]

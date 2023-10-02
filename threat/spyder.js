@@ -41,12 +41,12 @@ var threatdata = {
             "malware": "win.spyder",
             "last_update": "2023-09-02 23:48:09",
             "tags": [
-                "ViriBack",
-                "fragtor",
-                "Fragtor",
+                "trojan",
                 "Spyder",
-                "Trojan",
-                "trojan"
+                "fragtor",
+                "ViriBack",
+                "Fragtor",
+                "Trojan"
             ],
             "ioc": {
                 "domain": [
@@ -89,7 +89,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-02 23:48:09",
-    "mitre": [],
     "file_name": "spyder",
     "analysis": null,
     "articles": [
@@ -206,5 +205,6 @@ var threatdata = {
                 "Spyder"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -46,6 +46,55 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hammerduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://mrtiepolo.medium.com/sophisticated-apt29-campaign-abuses-notion-api-to-target-the-european-commission-200188059f58",
+            "date": "2023-03-10",
+            "organization": "Mrtiepolo",
+            "author": "Gianluca Tiepolo",
+            "title": "Sophisticated APT29 Campaign Abuses Notion API to Target the European Commission",
+            "categories": [
+                "BEATDROP",
+                "EnvyScout",
+                "GraphicalNeutrino",
+                "tDiscoverer",
+                "VaporRage"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/hammertoss-what-me-worry/",
+            "date": "2015-09-28",
+            "organization": "SecurityIntelligence",
+            "author": "David Strom",
+            "title": "Hammertoss: What, Me Worry?",
+            "categories": [
+                "tDiscoverer"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=UE9suwyuic8",
+            "date": "2015-07-29",
+            "organization": "Youtube (FireEye Inc.)",
+            "author": "FireEye",
+            "title": "HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group",
+            "categories": [
+                "tDiscoverer"
+            ]
+        },
+        {
+            "data_url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
+            "date": "2015-07",
+            "organization": "FireEye",
+            "author": "FireEye Threat Intelligence",
+            "title": "HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group",
+            "categories": [
+                "tDiscoverer",
+                "APT29"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "hammertoss",
@@ -325,55 +374,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "hammerduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://mrtiepolo.medium.com/sophisticated-apt29-campaign-abuses-notion-api-to-target-the-european-commission-200188059f58",
-            "date": "2023-03-10",
-            "organization": "Mrtiepolo",
-            "author": "Gianluca Tiepolo",
-            "title": "Sophisticated APT29 Campaign Abuses Notion API to Target the European Commission",
-            "categories": [
-                "BEATDROP",
-                "EnvyScout",
-                "GraphicalNeutrino",
-                "tDiscoverer",
-                "VaporRage"
-            ]
-        },
-        {
-            "data_url": "https://securityintelligence.com/hammertoss-what-me-worry/",
-            "date": "2015-09-28",
-            "organization": "SecurityIntelligence",
-            "author": "David Strom",
-            "title": "Hammertoss: What, Me Worry?",
-            "categories": [
-                "tDiscoverer"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=UE9suwyuic8",
-            "date": "2015-07-29",
-            "organization": "Youtube (FireEye Inc.)",
-            "author": "FireEye",
-            "title": "HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group",
-            "categories": [
-                "tDiscoverer"
-            ]
-        },
-        {
-            "data_url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
-            "date": "2015-07",
-            "organization": "FireEye",
-            "author": "FireEye Threat Intelligence",
-            "title": "HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group",
-            "categories": [
-                "tDiscoverer",
-                "APT29"
             ]
         }
     ]

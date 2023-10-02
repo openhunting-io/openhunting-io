@@ -35,7 +35,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "poohmilk_loader",
     "analysis": null,
     "articles": [
@@ -63,5 +62,6 @@ var threatdata = {
                 "PoohMilk Loader"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "milum",
     "analysis": null,
     "articles": [
@@ -69,5 +68,6 @@ var threatdata = {
                 "Milum"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

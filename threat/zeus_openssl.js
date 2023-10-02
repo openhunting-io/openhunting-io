@@ -43,7 +43,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "zeus_openssl",
     "analysis": null,
     "articles": [
@@ -98,5 +97,6 @@ var threatdata = {
                 "Zeus Sphinx"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

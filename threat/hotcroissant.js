@@ -40,6 +40,47 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hotcroissant",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.carbonblack.com/2020/04/16/vmware-carbon-black-tau-threat-analysis-the-evolution-of-lazarus/",
+            "date": "2020-04-16",
+            "organization": "VMWare Carbon Black",
+            "author": "Scott Knight",
+            "title": "The Evolution of Lazarus",
+            "categories": [
+                "HOTCROISSANT",
+                "Rifdoor"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/dprk-hidden-cobra-update-north-korean-malicious-cyber-activity/",
+            "date": "2020-02-25",
+            "organization": "SentinelOne",
+            "author": "Jim Walter",
+            "title": "DPRK Hidden Cobra Update: North Korean Malicious Cyber Activity",
+            "categories": [
+                "ARTFULPIE",
+                "BISTROMATH",
+                "BUFFETLINE",
+                "CHEESETRAY",
+                "HOPLIGHT",
+                "HOTCROISSANT",
+                "SLICKSHOES"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-045d",
+            "date": "2020-02-14",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR20-045D): MAR-10271944-1.v1 - North Korean Trojan: HOTCROISSANT",
+            "categories": [
+                "HOTCROISSANT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "hotcroissant",
@@ -311,47 +352,6 @@ var threatdata = {
                     "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
                     "procedure_description": "hotcroissant has the ability to stop services on the infected host.[20]"
                 }
-            ]
-        }
-    ],
-    "file_name": "hotcroissant",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.carbonblack.com/2020/04/16/vmware-carbon-black-tau-threat-analysis-the-evolution-of-lazarus/",
-            "date": "2020-04-16",
-            "organization": "VMWare Carbon Black",
-            "author": "Scott Knight",
-            "title": "The Evolution of Lazarus",
-            "categories": [
-                "HOTCROISSANT",
-                "Rifdoor"
-            ]
-        },
-        {
-            "data_url": "https://labs.sentinelone.com/dprk-hidden-cobra-update-north-korean-malicious-cyber-activity/",
-            "date": "2020-02-25",
-            "organization": "SentinelOne",
-            "author": "Jim Walter",
-            "title": "DPRK Hidden Cobra Update: North Korean Malicious Cyber Activity",
-            "categories": [
-                "ARTFULPIE",
-                "BISTROMATH",
-                "BUFFETLINE",
-                "CHEESETRAY",
-                "HOPLIGHT",
-                "HOTCROISSANT",
-                "SLICKSHOES"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-045d",
-            "date": "2020-02-14",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (AR20-045D): MAR-10271944-1.v1 - North Korean Trojan: HOTCROISSANT",
-            "categories": [
-                "HOTCROISSANT"
             ]
         }
     ]

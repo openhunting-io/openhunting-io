@@ -32,7 +32,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "goodor",
     "analysis": null,
     "articles": [
@@ -71,5 +70,6 @@ var threatdata = {
                 "ENERGETIC BEAR"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

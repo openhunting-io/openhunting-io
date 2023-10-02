@@ -36,6 +36,139 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "gazer",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
+            "date": "2023-07-26",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
+            "categories": [
+                "Valak",
+                "POWERSOURCE",
+                "Gazer",
+                "PowerDuke"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/06/12/malware-pers-7.html",
+            "date": "2022-06-12",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 7. Winlogon. Simple C++ example.",
+            "categories": [
+                "BazarBackdoor",
+                "Gazer",
+                "TurlaRPC",
+                "Turla SilentMoon"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/26/malware-pers-2.html",
+            "date": "2022-04-26",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 2. Screensaver hijack. C++ example.",
+            "categories": [
+                "Gazer"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/",
+            "date": "2020-12-02",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "Turla Crutch: Keeping the \u201cback door\u201d open",
+            "categories": [
+                "Crutch",
+                "Gazer",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://github.com/eset/malware-ioc/tree/master/turla",
+            "date": "2019-07-26",
+            "organization": "Github (eset)",
+            "author": "ESET Research",
+            "title": "Turla Indicators of Compromise",
+            "categories": [
+                "Gazer"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/shedding-skin-turlas-fresh-faces/88069/",
+            "date": "2018-10-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Shedding Skin \u2013 Turla\u2019s Fresh Faces",
+            "categories": [
+                "KopiLuwak",
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Gazer",
+                "Meterpreter",
+                "Mosquito",
+                "Skipper"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=Pvzhtjl86wc",
+            "date": "2018-09-10",
+            "organization": "Youtube ( Monnappa K A)",
+            "author": "Monnappa K A",
+            "title": "turla gazer backdoor code injection & winlogon shell persistence",
+            "categories": [
+                "Gazer"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/08/30/eset-research-cyberespionage-gazer/",
+            "date": "2017-08-30",
+            "organization": "ESET Research",
+            "author": "Graham Cluley",
+            "title": "New ESET research uncovers Gazer, the stealthy backdoor that spies on embassies",
+            "categories": [
+                "Gazer"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/introducing-whitebear/81638/",
+            "date": "2017-08-30",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Introducing WhiteBear",
+            "categories": [
+                "Gazer",
+                "Turla",
+                "White Bear"
+            ]
+        },
+        {
+            "data_url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/115/Bitdefender-Whitepaper-PAC-A4-en-EN1.pdf",
+            "date": "2016-06-30",
+            "organization": "Bitdefender",
+            "author": "Bitdefender",
+            "title": "Pacifier APT",
+            "categories": [
+                "Gazer",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://pdfhost.io/v/F0@QElMu2_MacProStorage_2017FinalBitdefenderWhitepaperNetrepserA4en_ENBitdefenderWhitepaperNetrepserA4en_ENindd.pdf",
+            "date": "2015",
+            "organization": "Bitdefender",
+            "author": "Cristian Istrate",
+            "title": "New Pacifier APT Components Point to Russian-Linked Turla Group",
+            "categories": [
+                "KopiLuwak",
+                "Gazer",
+                "Skipper"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "gazer",
@@ -343,139 +476,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "gazer can execute a task to download a file.[194][195]"
                 }
-            ]
-        }
-    ],
-    "file_name": "gazer",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
-            "date": "2023-07-26",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
-            "categories": [
-                "Valak",
-                "POWERSOURCE",
-                "Gazer",
-                "PowerDuke"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/06/12/malware-pers-7.html",
-            "date": "2022-06-12",
-            "organization": "",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 7. Winlogon. Simple C++ example.",
-            "categories": [
-                "BazarBackdoor",
-                "Gazer",
-                "TurlaRPC",
-                "Turla SilentMoon"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/26/malware-pers-2.html",
-            "date": "2022-04-26",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 2. Screensaver hijack. C++ example.",
-            "categories": [
-                "Gazer"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/12/02/turla-crutch-keeping-back-door-open/",
-            "date": "2020-12-02",
-            "organization": "ESET Research",
-            "author": "Matthieu Faou",
-            "title": "Turla Crutch: Keeping the \u201cback door\u201d open",
-            "categories": [
-                "Crutch",
-                "Gazer",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://github.com/eset/malware-ioc/tree/master/turla",
-            "date": "2019-07-26",
-            "organization": "Github (eset)",
-            "author": "ESET Research",
-            "title": "Turla Indicators of Compromise",
-            "categories": [
-                "Gazer"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/shedding-skin-turlas-fresh-faces/88069/",
-            "date": "2018-10-04",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Shedding Skin \u2013 Turla\u2019s Fresh Faces",
-            "categories": [
-                "KopiLuwak",
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "Gazer",
-                "Meterpreter",
-                "Mosquito",
-                "Skipper"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=Pvzhtjl86wc",
-            "date": "2018-09-10",
-            "organization": "Youtube ( Monnappa K A)",
-            "author": "Monnappa K A",
-            "title": "turla gazer backdoor code injection & winlogon shell persistence",
-            "categories": [
-                "Gazer"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/08/30/eset-research-cyberespionage-gazer/",
-            "date": "2017-08-30",
-            "organization": "ESET Research",
-            "author": "Graham Cluley",
-            "title": "New ESET research uncovers Gazer, the stealthy backdoor that spies on embassies",
-            "categories": [
-                "Gazer"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/introducing-whitebear/81638/",
-            "date": "2017-08-30",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Introducing WhiteBear",
-            "categories": [
-                "Gazer",
-                "Turla",
-                "White Bear"
-            ]
-        },
-        {
-            "data_url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/115/Bitdefender-Whitepaper-PAC-A4-en-EN1.pdf",
-            "date": "2016-06-30",
-            "organization": "Bitdefender",
-            "author": "Bitdefender",
-            "title": "Pacifier APT",
-            "categories": [
-                "Gazer",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://pdfhost.io/v/F0@QElMu2_MacProStorage_2017FinalBitdefenderWhitepaperNetrepserA4en_ENBitdefenderWhitepaperNetrepserA4en_ENindd.pdf",
-            "date": "2015",
-            "organization": "Bitdefender",
-            "author": "Cristian Istrate",
-            "title": "New Pacifier APT Components Point to Russian-Linked Turla Group",
-            "categories": [
-                "KopiLuwak",
-                "Gazer",
-                "Skipper"
             ]
         }
     ]

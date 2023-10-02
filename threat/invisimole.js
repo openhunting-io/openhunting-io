@@ -1,43 +1,181 @@
 var threatdata = {
     "name": "InvisiMole",
-    "alias": "InvisiMole",
-    "category": "Malware",
-    "type": "Reconnaissance, Backdoor, Info stealer, Exfiltration",
+    "alias": "InvisiMole, UAC-0035",
+    "category": "APT",
+    "type": "-",
     "modified": "2022-11-27",
     "all_data": {
-        "tool": "InvisiMole",
+        "actor": "InvisiMole",
         "names": [
             {
-                "name": "InvisiMole"
+                "name": "InvisiMole",
+                "name-giver": "ESET"
+            },
+            {
+                "name": "UAC-0035",
+                "name-giver": "CERT-UA"
             }
         ],
-        "description": "(ESET) InvisiMole has a modular architecture, starting its journey with a wrapper DLL, and performing its activities using two other modules that are embedded in its resources. Both of the modules are feature-rich backdoors, which together give it the ability to gather as much information about the target as possible.",
-        "category": "Malware",
-        "type": [
-            "Reconnaissance",
-            "Backdoor",
-            "Info stealer",
-            "Exfiltration"
+        "country": [
+            "Russia"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2013",
+        "description": "(ESET) This is the modus operandi of the two malicious components of InvisiMole. They turn the affected computer into a video camera, letting the attackers see and hear what\u2019s going on in the victim\u2019s office or wherever their device may be. Uninvited, InvisiMole\u2019s operators access the system, closely monitoring the victim\u2019s activities and stealing the victim\u2019s secrets.\n\nOur telemetry indicates that the malicious actors behind this malware have been active at least since 2013, yet the cyber-espionage tool was never analyzed nor detected until discovered by ESET products on compromised computers in Ukraine and Russia.\n\nThe campaign is highly targeted \u2013 no wonder the malware has a low infection ratio, with only a few dozen computers being affected.\n\nESET also found that InvisiMole targeted computers already compromised by {{Gamaredon Group}}.",
+        "observed-sectors": [
+            "Defense",
+            "Government"
+        ],
+        "observed-countries": [
+            "Russia",
+            "Ukraine",
+            "Eastern Europe"
+        ],
+        "tools": [
+            "InvisiMole"
+        ],
+        "operations": [
+            {
+                "date": "2019 Late",
+                "activity": "ESET researchers reveal the modus operandi of the elusive InvisiMole group, including newly discovered ties with the Gamaredon group\nhttps://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal/"
+            },
+            {
+                "date": "2022-03",
+                "activity": "Ukraine warns of InvisiMole attacks tied to state-sponsored Russian hackers\nhttps://www.zdnet.com/article/ukraine-warns-of-invisimole-attacks-tied-to-state-sponsored-russian-hackers/"
+            }
         ],
         "information": [
-            "https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/",
-            "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal/"
+            "https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/"
         ],
-        "mitre-attack": [
-            "https://attack.mitre.org/software/S0260/"
-        ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.invisimole"
-        ],
-        "alienvault-otx": [
-            "https://otx.alienvault.com/browse/pulses?q=tag:invisimole"
-        ],
-        "uuid": "ecc49b8a-8d7e-428f-8813-4b4c7298b559",
-        "last-card-change": "2020-06-23",
+        "uuid": "21785caa-d383-454d-a0cb-4242e57d0f8e",
+        "last-card-change": "2022-04-08",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "invisimole",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2022/11/27/malware-tricks-24.html",
+            "date": "2022-11-27",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development tricks: part 24. ListPlanting. Simple C++ example.",
+            "categories": [
+                "InvisiMole"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/overview-of-the-cyber-weapons-used-in-the-ukraine-russia-war/",
+            "date": "2022-08-18",
+            "organization": "Trustwave",
+            "author": "Pawel Knapczyk",
+            "title": "Overview of the Cyber Weapons Used in the Ukraine - Russia War",
+            "categories": [
+                "AcidRain",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "CredoMap",
+                "DCRat",
+                "DoubleZero",
+                "GraphSteel",
+                "GrimPlant",
+                "HermeticWiper",
+                "INDUSTROYER2",
+                "InvisiMole",
+                "IsaacWiper",
+                "PartyTicket"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/overview-of-the-cyber-weapons-used-in-the-ukraine-russia-war",
+            "date": "2022-08-18",
+            "organization": "Trustwave",
+            "author": "Pawel Knapczyk",
+            "title": "Overview of the Cyber Weapons Used in the Ukraine - Russia War",
+            "categories": [
+                "AcidRain",
+                "CaddyWiper",
+                "Cobalt Strike",
+                "CredoMap",
+                "DCRat",
+                "DoubleZero",
+                "GraphSteel",
+                "GrimPlant",
+                "HermeticWiper",
+                "INDUSTROYER2",
+                "InvisiMole",
+                "IsaacWiper",
+                "PartyTicket"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2022/01/11/signed-kernel-drivers-unguarded-gateway-windows-core/",
+            "date": "2022-01-11",
+            "organization": "ESET Research",
+            "author": "Michal Poslu\u0161n\u00fd",
+            "title": "Signed kernel drivers \u2013 Unguarded gateway to Windows\u2019 core",
+            "categories": [
+                "InvisiMole",
+                "LoJax",
+                "RobinHood",
+                "Slingshot"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/04/ESET_Industry_Report_Government.pdf",
+            "date": "2021-04-29",
+            "organization": "ESET Research",
+            "author": "Robert Lipovsky",
+            "title": "ESET Industry Report on Government: Targeted but not alone",
+            "categories": [
+                "Exaramel",
+                "Crutch",
+                "Exaramel",
+                "HyperBro",
+                "HyperSSL",
+                "InvisiMole",
+                "XDSpy"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal/",
+            "date": "2020-06-18",
+            "organization": "ESET Research",
+            "author": "Zuzana Hromcov\u00e1",
+            "title": "Digging up InvisiMole\u2019s hidden arsenal",
+            "categories": [
+                "InvisiMole",
+                "Gamaredon Group",
+                "InvisiMole"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/06/ESET_InvisiMole.pdf",
+            "date": "2020-06-08",
+            "organization": "ESET Research",
+            "author": "Zuzana Hromcov\u00e1",
+            "title": "InvisiMole: The Hidden Part of the Story - Unearthing InvisiMole's Espionage Toolset and Strategic Cooperations",
+            "categories": [
+                "InvisiMole",
+                "RC2FM"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/",
+            "date": "2018-06-07",
+            "organization": "ESET Research",
+            "author": "Zuzana Hromcov\u00e1",
+            "title": "InvisiMole: Surprisingly equipped spyware, undercover since 2013",
+            "categories": [
+                "InvisiMole",
+                "InvisiMole"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "invisimole",
@@ -1077,127 +1215,6 @@ var threatdata = {
                     "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
                     "procedure_description": "invisimole can can remove all system restore points.[35]"
                 }
-            ]
-        }
-    ],
-    "file_name": "invisimole",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2022/11/27/malware-tricks-24.html",
-            "date": "2022-11-27",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development tricks: part 24. ListPlanting. Simple C++ example.",
-            "categories": [
-                "InvisiMole"
-            ]
-        },
-        {
-            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/overview-of-the-cyber-weapons-used-in-the-ukraine-russia-war/",
-            "date": "2022-08-18",
-            "organization": "Trustwave",
-            "author": "Pawel Knapczyk",
-            "title": "Overview of the Cyber Weapons Used in the Ukraine - Russia War",
-            "categories": [
-                "AcidRain",
-                "CaddyWiper",
-                "Cobalt Strike",
-                "CredoMap",
-                "DCRat",
-                "DoubleZero",
-                "GraphSteel",
-                "GrimPlant",
-                "HermeticWiper",
-                "INDUSTROYER2",
-                "InvisiMole",
-                "IsaacWiper",
-                "PartyTicket"
-            ]
-        },
-        {
-            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/overview-of-the-cyber-weapons-used-in-the-ukraine-russia-war",
-            "date": "2022-08-18",
-            "organization": "Trustwave",
-            "author": "Pawel Knapczyk",
-            "title": "Overview of the Cyber Weapons Used in the Ukraine - Russia War",
-            "categories": [
-                "AcidRain",
-                "CaddyWiper",
-                "Cobalt Strike",
-                "CredoMap",
-                "DCRat",
-                "DoubleZero",
-                "GraphSteel",
-                "GrimPlant",
-                "HermeticWiper",
-                "INDUSTROYER2",
-                "InvisiMole",
-                "IsaacWiper",
-                "PartyTicket"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2022/01/11/signed-kernel-drivers-unguarded-gateway-windows-core/",
-            "date": "2022-01-11",
-            "organization": "ESET Research",
-            "author": "Michal Poslu\u0161n\u00fd",
-            "title": "Signed kernel drivers \u2013 Unguarded gateway to Windows\u2019 core",
-            "categories": [
-                "InvisiMole",
-                "LoJax",
-                "RobinHood",
-                "Slingshot"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/04/ESET_Industry_Report_Government.pdf",
-            "date": "2021-04-29",
-            "organization": "ESET Research",
-            "author": "Robert Lipovsky",
-            "title": "ESET Industry Report on Government: Targeted but not alone",
-            "categories": [
-                "Exaramel",
-                "Crutch",
-                "Exaramel",
-                "HyperBro",
-                "HyperSSL",
-                "InvisiMole",
-                "XDSpy"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/06/18/digging-up-invisimole-hidden-arsenal/",
-            "date": "2020-06-18",
-            "organization": "ESET Research",
-            "author": "Zuzana Hromcov\u00e1",
-            "title": "Digging up InvisiMole\u2019s hidden arsenal",
-            "categories": [
-                "InvisiMole",
-                "Gamaredon Group",
-                "InvisiMole"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/06/ESET_InvisiMole.pdf",
-            "date": "2020-06-08",
-            "organization": "ESET Research",
-            "author": "Zuzana Hromcov\u00e1",
-            "title": "InvisiMole: The Hidden Part of the Story - Unearthing InvisiMole's Espionage Toolset and Strategic Cooperations",
-            "categories": [
-                "InvisiMole",
-                "RC2FM"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2018/06/07/invisimole-equipped-spyware-undercover/",
-            "date": "2018-06-07",
-            "organization": "ESET Research",
-            "author": "Zuzana Hromcov\u00e1",
-            "title": "InvisiMole: Surprisingly equipped spyware, undercover since 2013",
-            "categories": [
-                "InvisiMole",
-                "InvisiMole"
             ]
         }
     ]

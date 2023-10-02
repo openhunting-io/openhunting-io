@@ -52,6 +52,99 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "flame",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
+            "date": "2021-12-01",
+            "organization": "ESET Research",
+            "author": "Alexis Dorais-Joncas",
+            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
+            "categories": [
+                "Agent.BTZ",
+                "Fanny",
+                "Flame",
+                "Gauss",
+                "PlugX",
+                "Ramsay",
+                "Retro",
+                "Stuxnet",
+                "USBCulprit",
+                "USBferry"
+            ]
+        },
+        {
+            "data_url": "https://github.com/juanandresgs/papers/raw/master/Flame%202.0%20Risen%20from%20the%20Ashes.pdf",
+            "date": "2019-04-09",
+            "organization": "Chronicle Security",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "Flame 2.0: Risen from the Ashes",
+            "categories": [
+                "Flame"
+            ]
+        },
+        {
+            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
+            "date": "2018-03",
+            "organization": "CrySyS Lab",
+            "author": "Boldizsar Bencsath",
+            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
+            "categories": [
+                "9002 RAT",
+                "Agent.BTZ",
+                "DuQu",
+                "EYService",
+                "Flame",
+                "FlowerShop",
+                "Stuxnet",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ce2df4da-afe9-4a24-b28c-0fb3ba671d95&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2016-08-08",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
+            "categories": [
+                "Flame",
+                "Regin",
+                "Remsec",
+                "ProjectSauron"
+            ]
+        },
+        {
+            "data_url": "https://www.crysys.hu/publications/files/skywiper.pdf",
+            "date": "2012-05-31",
+            "organization": "CrySyS Lab",
+            "author": "CrySyS Lab",
+            "title": "sKyWIper (a.k.a. Flame a.k.a. Flamer): A complex malware for targeted attacks",
+            "categories": [
+                "Flame"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/flamer-recipe-bluetoothache",
+            "date": "2012-05-31",
+            "organization": "Symantec",
+            "author": "Security Response",
+            "title": "Flamer: A Recipe for Bluetoothache",
+            "categories": [
+                "Flame"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-flame-questions-and-answers-51/34344/",
+            "date": "2012-05-28",
+            "organization": "Kaspersky Labs",
+            "author": "Alexander Gostev",
+            "title": "The Flame: Questions and Answers",
+            "categories": [
+                "Flame"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "flame",
@@ -223,99 +316,6 @@ var threatdata = {
                     "technique_description": "adversaries may gain access to and use third-party software suites installed within an enterprise network, such as administration, monitoring, and deployment systems, to move laterally through the network. third-party applications and software deployment systems may be in use in the network environment for administration purposes (e.g., sccm, hbss, altiris, etc.).",
                     "procedure_description": "it is believed that a patch management system for an anti-virus product commonly installed among targeted companies was used to distribute the wiper malware.[6]"
                 }
-            ]
-        }
-    ],
-    "file_name": "flame",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
-            "date": "2021-12-01",
-            "organization": "ESET Research",
-            "author": "Alexis Dorais-Joncas",
-            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
-            "categories": [
-                "Agent.BTZ",
-                "Fanny",
-                "Flame",
-                "Gauss",
-                "PlugX",
-                "Ramsay",
-                "Retro",
-                "Stuxnet",
-                "USBCulprit",
-                "USBferry"
-            ]
-        },
-        {
-            "data_url": "https://github.com/juanandresgs/papers/raw/master/Flame%202.0%20Risen%20from%20the%20Ashes.pdf",
-            "date": "2019-04-09",
-            "organization": "Chronicle Security",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "Flame 2.0: Risen from the Ashes",
-            "categories": [
-                "Flame"
-            ]
-        },
-        {
-            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
-            "date": "2018-03",
-            "organization": "CrySyS Lab",
-            "author": "Boldizsar Bencsath",
-            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
-            "categories": [
-                "9002 RAT",
-                "Agent.BTZ",
-                "DuQu",
-                "EYService",
-                "Flame",
-                "FlowerShop",
-                "Stuxnet",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ce2df4da-afe9-4a24-b28c-0fb3ba671d95&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
-            "date": "2016-08-08",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
-            "categories": [
-                "Flame",
-                "Regin",
-                "Remsec",
-                "ProjectSauron"
-            ]
-        },
-        {
-            "data_url": "https://www.crysys.hu/publications/files/skywiper.pdf",
-            "date": "2012-05-31",
-            "organization": "CrySyS Lab",
-            "author": "CrySyS Lab",
-            "title": "sKyWIper (a.k.a. Flame a.k.a. Flamer): A complex malware for targeted attacks",
-            "categories": [
-                "Flame"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/flamer-recipe-bluetoothache",
-            "date": "2012-05-31",
-            "organization": "Symantec",
-            "author": "Security Response",
-            "title": "Flamer: A Recipe for Bluetoothache",
-            "categories": [
-                "Flame"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/the-flame-questions-and-answers-51/34344/",
-            "date": "2012-05-28",
-            "organization": "Kaspersky Labs",
-            "author": "Alexander Gostev",
-            "title": "The Flame: Questions and Answers",
-            "categories": [
-                "Flame"
             ]
         }
     ]

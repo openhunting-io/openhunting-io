@@ -34,7 +34,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "sidewalk",
     "analysis": null,
     "articles": [
@@ -101,5 +100,6 @@ var threatdata = {
                 "SideWalk"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -35,6 +35,37 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "remy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/tin-woodlawn",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "TIN WOODLAWN",
+            "categories": [
+                "Cobalt Strike",
+                "KerrDown",
+                "MimiKatz",
+                "PHOREAL",
+                "RatSnif",
+                "Remy",
+                "SOUNDBITE",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/report-oceanlotus-apt-group-leveraging-steganography.html",
+            "date": "2019-04-02",
+            "organization": "Cylance",
+            "author": "Cylance Research",
+            "title": "Report: OceanLotus APT Group Leveraging Steganography",
+            "categories": [
+                "Remy"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -146,37 +177,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an osi non-application layer protocol for communication between host and c2 server or among infected hosts within a network. the list of possible protocols is extensive. specific examples include use of network layer protocols, such as the internet control message protocol (icmp), transport layer protocols, such as the user datagram protocol (udp), session layer protocols, such as socket secure (socks), as well as redirected/tunneled protocols, such as serial over lan (sol).",
                     "procedure_description": "windshield c2 traffic can communicate via tcp raw sockets.[49]"
                 }
-            ]
-        }
-    ],
-    "file_name": "remy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/tin-woodlawn",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "TIN WOODLAWN",
-            "categories": [
-                "Cobalt Strike",
-                "KerrDown",
-                "MimiKatz",
-                "PHOREAL",
-                "RatSnif",
-                "Remy",
-                "SOUNDBITE",
-                "APT32"
-            ]
-        },
-        {
-            "data_url": "https://threatvector.cylance.com/en_us/home/report-oceanlotus-apt-group-leveraging-steganography.html",
-            "date": "2019-04-02",
-            "organization": "Cylance",
-            "author": "Cylance Research",
-            "title": "Report: OceanLotus APT Group Leveraging Steganography",
-            "categories": [
-                "Remy"
             ]
         }
     ]

@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "inception",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "inception",
@@ -310,8 +313,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "inception",
-    "analysis": null,
-    "articles": []
+    ]
 };

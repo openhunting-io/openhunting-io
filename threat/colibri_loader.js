@@ -33,9 +33,9 @@ var threatdata = {
             "malware": "win.colibri",
             "last_update": "2023-02-13 10:45:28",
             "tags": [
-                "ColibriLoader",
+                "MarsWallet",
                 "Colibri",
-                "MarsWallet"
+                "ColibriLoader"
             ],
             "ioc": {
                 "url": [
@@ -74,7 +74,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-02-13 10:45:28",
-    "mitre": [],
     "file_name": "colibri_loader",
     "analysis": null,
     "articles": [
@@ -142,5 +141,6 @@ var threatdata = {
                 "Colibri Loader"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

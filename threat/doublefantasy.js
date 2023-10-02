@@ -37,6 +37,71 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "doublefantasy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/",
+            "date": "2020-09-10",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "An overview of targeted attacks and APTs on Linux",
+            "categories": [
+                "Cloud Snooper",
+                "Dacls",
+                "DoubleFantasy",
+                "MESSAGETAP",
+                "Penquin Turla",
+                "Tsunami",
+                "elf.wellmess",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://fmnagisa.wordpress.com/2020/08/27/revisiting-equationgroups-fanny-worm-or-dementiawheel/",
+            "date": "2020-08-27",
+            "organization": "fmnagisa wordpress",
+            "author": "Facundo M",
+            "title": "Revisiting EquationGroup\u2019s FANNY\u2026 or is it DEMENTIAWHEEL?",
+            "categories": [
+                "DoubleFantasy",
+                "Fanny"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/Int2e_/status/1294565186939092994",
+            "date": "2020-08-15",
+            "organization": "Twitter (@Int2e_)",
+            "author": "Adrien B",
+            "title": "Tweet on DoubleFantasy",
+            "categories": [
+                "DoubleFantasy"
+            ]
+        },
+        {
+            "data_url": "https://www.antiy.com/response/FROM_EQUATION_TO_EQUATIONS.pdf",
+            "date": "2016-11-04",
+            "organization": "Antiy CERT",
+            "author": "Antiy CERT",
+            "title": "FROM EQUATION TO EQUATIONS",
+            "categories": [
+                "DoubleFantasy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/",
+            "date": "2015-02-16",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Equation: The Death Star of Malware Galaxy",
+            "categories": [
+                "DoubleFantasy",
+                "EquationDrug",
+                "Fanny",
+                "GROK"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -112,71 +177,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "doublefantasy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/",
-            "date": "2020-09-10",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "An overview of targeted attacks and APTs on Linux",
-            "categories": [
-                "Cloud Snooper",
-                "Dacls",
-                "DoubleFantasy",
-                "MESSAGETAP",
-                "Penquin Turla",
-                "Tsunami",
-                "elf.wellmess",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://fmnagisa.wordpress.com/2020/08/27/revisiting-equationgroups-fanny-worm-or-dementiawheel/",
-            "date": "2020-08-27",
-            "organization": "fmnagisa wordpress",
-            "author": "Facundo M",
-            "title": "Revisiting EquationGroup\u2019s FANNY\u2026 or is it DEMENTIAWHEEL?",
-            "categories": [
-                "DoubleFantasy",
-                "Fanny"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/Int2e_/status/1294565186939092994",
-            "date": "2020-08-15",
-            "organization": "Twitter (@Int2e_)",
-            "author": "Adrien B",
-            "title": "Tweet on DoubleFantasy",
-            "categories": [
-                "DoubleFantasy"
-            ]
-        },
-        {
-            "data_url": "https://www.antiy.com/response/FROM_EQUATION_TO_EQUATIONS.pdf",
-            "date": "2016-11-04",
-            "organization": "Antiy CERT",
-            "author": "Antiy CERT",
-            "title": "FROM EQUATION TO EQUATIONS",
-            "categories": [
-                "DoubleFantasy"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/equation-the-death-star-of-malware-galaxy/68750/",
-            "date": "2015-02-16",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Equation: The Death Star of Malware Galaxy",
-            "categories": [
-                "DoubleFantasy",
-                "EquationDrug",
-                "Fanny",
-                "GROK"
             ]
         }
     ]

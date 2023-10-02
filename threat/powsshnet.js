@@ -26,6 +26,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powsshnet",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "net",
@@ -215,8 +218,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "powsshnet",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "danbot",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "danbot",
@@ -235,8 +238,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "danbot",
-    "analysis": null,
-    "articles": []
+    ]
 };

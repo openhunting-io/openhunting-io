@@ -167,7 +167,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-08-11 00:00:38",
-    "mitre": [],
     "file_name": "dirtcleaner",
     "analysis": null,
     "articles": [
@@ -397,5 +396,6 @@ var threatdata = {
                 "CCleaner Backdoor"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

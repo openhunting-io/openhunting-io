@@ -40,6 +40,245 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "bankshot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
+            "date": "2023-04-12",
+            "organization": "Kaspersky Labs",
+            "author": "Seongsu Park",
+            "title": "Following the Lazarus group by tracking DeathNote campaign",
+            "categories": [
+                "Bankshot",
+                "BLINDINGCAN",
+                "LPEClient",
+                "MimiKatz",
+                "NedDnLoader",
+                "Racket Downloader",
+                "Volgmer"
+            ]
+        },
+        {
+            "data_url": "https://malverse.it/analisi-bankshot-copperhedge",
+            "date": "2022-09-10",
+            "organization": "Malverse",
+            "author": "greenplan",
+            "title": "Realizziamo un C&C Server in Python (Bankshot)",
+            "categories": [
+                "Bankshot"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-108A-TraderTraitor-North_Korea_APT_Targets_Blockchain_Companies.pdf",
+            "date": "2022-04-18",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "AA22-108A: TraderTraitor: North Korean State-Sponsored  APT Targets Blockchain Companies (PDF)",
+            "categories": [
+                "FastCash",
+                "Bankshot"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-108a",
+            "date": "2022-04-18",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Alert (AA22-108A): TraderTraitor: North Korean State-Sponsored APT Targets Blockchain Companies",
+            "categories": [
+                "Bankshot"
+            ]
+        },
+        {
+            "data_url": "https://vblocalhost.com/uploads/VB2021-Park.pdf",
+            "date": "2021-10-08",
+            "organization": "Virus Bulletin",
+            "author": "Seongsu Park",
+            "title": "Multi-universe of adversary: multiple campaigns of the Lazarus group and their connections",
+            "categories": [
+                "Dacls",
+                "AppleJeus",
+                "AppleJeus",
+                "Bankshot",
+                "BookCodes RAT",
+                "Dacls",
+                "DRATzarus",
+                "LCPDot",
+                "LPEClient"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-232a",
+            "date": "2020-08-19",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR20-232A)",
+            "categories": [
+                "Bankshot",
+                "BLINDINGCAN"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/hidden-cobra",
+            "date": "2020-06-23",
+            "organization": "ReversingLabs",
+            "author": "Karlo Zanki",
+            "title": "Hidden Cobra - from a shed skin to the viper\u2019s nest",
+            "categories": [
+                "Bankshot",
+                "PEBBLEDASH",
+                "TAINTEDSCRIBE"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-133a",
+            "date": "2020-05-12",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "MAR-10288834-1.v1 \u2013 North Korean Remote Access Tool: COPPERHEDGE",
+            "categories": [
+                "Bankshot"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/nickel-gladstone",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "NICKEL GLADSTONE",
+            "categories": [
+                "AlphaNC",
+                "Bankshot",
+                "Ratankba",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://www.virusbulletin.com/uploads/pdf/magazine/2018/VB2018-Kalnai-Poslusny.pdf",
+            "date": "2018-10-03",
+            "organization": "Virus Bulletin",
+            "author": "Peter K\u00e1lnai",
+            "title": "Lazarus Group A Mahjong Game Played with Different Sets of Tiles",
+            "categories": [
+                "Bankshot",
+                "BanPolMex RAT",
+                "FuwuqiDrama",
+                "HOTWAX",
+                "KillDisk (Lazarus)",
+                "NACHOCHEESE",
+                "REDSHAWL",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF",
+            "date": "2017-12-13",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (MAR) - 10135536-B",
+            "categories": [
+                "BADCALL",
+                "Bankshot"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "bankshot",
@@ -359,245 +598,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "bankshot exfiltrates data over its c2 channel.[13]"
                 }
-            ]
-        }
-    ],
-    "file_name": "bankshot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
-            "date": "2023-04-12",
-            "organization": "Kaspersky Labs",
-            "author": "Seongsu Park",
-            "title": "Following the Lazarus group by tracking DeathNote campaign",
-            "categories": [
-                "Bankshot",
-                "BLINDINGCAN",
-                "LPEClient",
-                "MimiKatz",
-                "NedDnLoader",
-                "Racket Downloader",
-                "Volgmer"
-            ]
-        },
-        {
-            "data_url": "https://malverse.it/analisi-bankshot-copperhedge",
-            "date": "2022-09-10",
-            "organization": "Malverse",
-            "author": "greenplan",
-            "title": "Realizziamo un C&C Server in Python (Bankshot)",
-            "categories": [
-                "Bankshot"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-108A-TraderTraitor-North_Korea_APT_Targets_Blockchain_Companies.pdf",
-            "date": "2022-04-18",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "AA22-108A: TraderTraitor: North Korean State-Sponsored  APT Targets Blockchain Companies (PDF)",
-            "categories": [
-                "FastCash",
-                "Bankshot"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-108a",
-            "date": "2022-04-18",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "Alert (AA22-108A): TraderTraitor: North Korean State-Sponsored APT Targets Blockchain Companies",
-            "categories": [
-                "Bankshot"
-            ]
-        },
-        {
-            "data_url": "https://vblocalhost.com/uploads/VB2021-Park.pdf",
-            "date": "2021-10-08",
-            "organization": "Virus Bulletin",
-            "author": "Seongsu Park",
-            "title": "Multi-universe of adversary: multiple campaigns of the Lazarus group and their connections",
-            "categories": [
-                "Dacls",
-                "AppleJeus",
-                "AppleJeus",
-                "Bankshot",
-                "BookCodes RAT",
-                "Dacls",
-                "DRATzarus",
-                "LCPDot",
-                "LPEClient"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
-            "date": "2021-02-28",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2020: A Year in Retrospect",
-            "categories": [
-                "elf.wellmess",
-                "FlowerPower",
-                "PowGoop",
-                "8.t Dropper",
-                "Agent.BTZ",
-                "Agent Tesla",
-                "Appleseed",
-                "Ave Maria",
-                "Bankshot",
-                "BazarBackdoor",
-                "BLINDINGCAN",
-                "Chinoxy",
-                "Conti",
-                "Cotx RAT",
-                "Crimson RAT",
-                "DUSTMAN",
-                "Emotet",
-                "FriedEx",
-                "FunnyDream",
-                "Hakbit",
-                "Mailto",
-                "Maze",
-                "METALJACK",
-                "Nefilim",
-                "Oblique RAT",
-                "Pay2Key",
-                "PlugX",
-                "QakBot",
-                "REvil",
-                "Ryuk",
-                "StoneDrill",
-                "StrongPity",
-                "SUNBURST",
-                "SUPERNOVA",
-                "TrickBot",
-                "TurlaRPC",
-                "Turla SilentMoon",
-                "WastedLocker",
-                "WellMess",
-                "Winnti",
-                "ZeroCleare",
-                "APT10",
-                "APT23",
-                "APT27",
-                "APT31",
-                "APT41",
-                "BlackTech",
-                "BRONZE EDGEWOOD",
-                "Inception Framework",
-                "MUSTANG PANDA",
-                "Red Charon",
-                "Red Nue",
-                "Sea Turtle",
-                "Tonto Team"
-            ]
-        },
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-232a",
-            "date": "2020-08-19",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (AR20-232A)",
-            "categories": [
-                "Bankshot",
-                "BLINDINGCAN"
-            ]
-        },
-        {
-            "data_url": "https://blog.reversinglabs.com/blog/hidden-cobra",
-            "date": "2020-06-23",
-            "organization": "ReversingLabs",
-            "author": "Karlo Zanki",
-            "title": "Hidden Cobra - from a shed skin to the viper\u2019s nest",
-            "categories": [
-                "Bankshot",
-                "PEBBLEDASH",
-                "TAINTEDSCRIBE"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-133a",
-            "date": "2020-05-12",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "MAR-10288834-1.v1 \u2013 North Korean Remote Access Tool: COPPERHEDGE",
-            "categories": [
-                "Bankshot"
-            ]
-        },
-        {
-            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
-            "date": "2020-02-19",
-            "organization": "Lexfo",
-            "author": "Lexfo",
-            "title": "The Lazarus Constellation A study on North Korean malware",
-            "categories": [
-                "FastCash",
-                "AppleJeus",
-                "BADCALL",
-                "Bankshot",
-                "Brambul",
-                "Dtrack",
-                "Duuzer",
-                "DYEPACK",
-                "ELECTRICFISH",
-                "HARDRAIN",
-                "Hermes",
-                "HOPLIGHT",
-                "Joanap",
-                "KEYMARBLE",
-                "Kimsuky",
-                "MimiKatz",
-                "MyDoom",
-                "NACHOCHEESE",
-                "NavRAT",
-                "PowerRatankba",
-                "RokRAT",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/nickel-gladstone",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "NICKEL GLADSTONE",
-            "categories": [
-                "AlphaNC",
-                "Bankshot",
-                "Ratankba",
-                "Lazarus Group"
-            ]
-        },
-        {
-            "data_url": "https://www.virusbulletin.com/uploads/pdf/magazine/2018/VB2018-Kalnai-Poslusny.pdf",
-            "date": "2018-10-03",
-            "organization": "Virus Bulletin",
-            "author": "Peter K\u00e1lnai",
-            "title": "Lazarus Group A Mahjong Game Played with Different Sets of Tiles",
-            "categories": [
-                "Bankshot",
-                "BanPolMex RAT",
-                "FuwuqiDrama",
-                "HOTWAX",
-                "KillDisk (Lazarus)",
-                "NACHOCHEESE",
-                "REDSHAWL",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536-B_WHITE.PDF",
-            "date": "2017-12-13",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (MAR) - 10135536-B",
-            "categories": [
-                "BADCALL",
-                "Bankshot"
             ]
         }
     ]

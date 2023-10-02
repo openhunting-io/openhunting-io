@@ -35,6 +35,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "badflick",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "badflick",
@@ -176,8 +179,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "badflick",
-    "analysis": null,
-    "articles": []
+    ]
 };

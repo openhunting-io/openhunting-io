@@ -49,100 +49,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "agent.btz",
-            "procedure_code": "s0092",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0092",
-            "techniques": [
-                {
-                    "tactic_code": "ta0001",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
-                    "tactic_name": "initial access",
-                    "tactic_alias": "initial_access",
-                    "tactic_description": "The adversary is trying to get into your network.",
-                    "technique_code": "t1091",
-                    "technique_link": "https://attack.mitre.org/techniques/T1091",
-                    "technique_name": "replication through removable media",
-                    "technique_description": "adversaries may move onto systems, possibly those on disconnected or air-gapped networks, by copying malware to removable media and taking advantage of autorun features when the media is inserted into a system and executes. in the case of lateral movement, this may occur through modification of executable files stored on removable media or by copying malware and renaming it to look like a legitimate file to trick users into executing it on a separate system. in the case of initial access, this may occur through manual manipulation of the media, modification of systems used to initially format the media, or modification to the media's firmware itself.",
-                    "procedure_description": "agent.btz drops itself onto removable media devices and creates an autorun.inf file with an instruction to run that file. when the device is inserted into another system, it opens autorun.inf and loads the malware.[4]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1016",
-                    "technique_link": "https://attack.mitre.org/techniques/T1016",
-                    "technique_name": "system network configuration discovery",
-                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
-                    "procedure_description": "agent.btz collects the network adapter\u2019s ip and mac address as well as ip addresses of the network adapter\u2019s default gateway, primary/secondary wins, dhcp, and dns servers, and saves them into a log file.[10]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1033",
-                    "technique_link": "https://attack.mitre.org/techniques/T1033",
-                    "technique_name": "system owner/user discovery",
-                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "agent.btz obtains the victim username and saves it to a file.[7]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1091",
-                    "technique_link": "https://attack.mitre.org/techniques/T1091",
-                    "technique_name": "replication through removable media",
-                    "technique_description": "adversaries may move onto systems, possibly those on disconnected or air-gapped networks, by copying malware to removable media and taking advantage of autorun features when the media is inserted into a system and executes. in the case of lateral movement, this may occur through modification of executable files stored on removable media or by copying malware and renaming it to look like a legitimate file to trick users into executing it on a separate system. in the case of initial access, this may occur through manual manipulation of the media, modification of systems used to initially format the media, or modification to the media's firmware itself.",
-                    "procedure_description": "agent.btz drops itself onto removable media devices and creates an autorun.inf file with an instruction to run that file. when the device is inserted into another system, it opens autorun.inf and loads the malware.[4]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1560.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1560/003",
-                    "technique_name": "archive collected data : archive via custom method",
-                    "technique_description": "an adversary may compress or encrypt data that is collected prior to exfiltration using a custom method. adversaries may choose to use custom archival methods, such as encryption with xor or stream ciphers implemented with no external library or utility references. custom implementations of well-known compression algorithms have also been used.",
-                    "procedure_description": "agent.btz saves system information into an xml file that is then xor-encoded.[2]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1105",
-                    "technique_link": "https://attack.mitre.org/techniques/T1105",
-                    "technique_name": "ingress tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
-                    "procedure_description": "agent.btz attempts to download an encrypted binary from a specified domain.[7]"
-                },
-                {
-                    "tactic_code": "ta0010",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
-                    "tactic_name": "exfiltration",
-                    "tactic_alias": "exfiltration",
-                    "tactic_description": "The adversary is trying to steal data.",
-                    "technique_code": "t1052.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1052/001",
-                    "technique_name": "exfiltration over physical medium : exfiltration over usb",
-                    "technique_description": "adversaries may attempt to exfiltrate data over a usb connected physical device. in certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a usb device introduced by a user. the usb device could be used as the final exfiltration point or to hop between otherwise disconnected systems.",
-                    "procedure_description": "agent.btz creates a file named thumb.dd on all usb flash drives connected to the victim. this file contains information about the infected system and activity logs.[1]"
-                }
-            ]
-        }
-    ],
     "file_name": "agent.btz",
     "analysis": null,
     "articles": [
@@ -591,6 +497,100 @@ var threatdata = {
             "title": "Agent.btz - A Threat That Hit Pentagon",
             "categories": [
                 "Agent.BTZ"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "agent.btz",
+            "procedure_code": "s0092",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0092",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1091",
+                    "technique_link": "https://attack.mitre.org/techniques/T1091",
+                    "technique_name": "replication through removable media",
+                    "technique_description": "adversaries may move onto systems, possibly those on disconnected or air-gapped networks, by copying malware to removable media and taking advantage of autorun features when the media is inserted into a system and executes. in the case of lateral movement, this may occur through modification of executable files stored on removable media or by copying malware and renaming it to look like a legitimate file to trick users into executing it on a separate system. in the case of initial access, this may occur through manual manipulation of the media, modification of systems used to initially format the media, or modification to the media's firmware itself.",
+                    "procedure_description": "agent.btz drops itself onto removable media devices and creates an autorun.inf file with an instruction to run that file. when the device is inserted into another system, it opens autorun.inf and loads the malware.[4]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "agent.btz collects the network adapter\u2019s ip and mac address as well as ip addresses of the network adapter\u2019s default gateway, primary/secondary wins, dhcp, and dns servers, and saves them into a log file.[10]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "agent.btz obtains the victim username and saves it to a file.[7]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1091",
+                    "technique_link": "https://attack.mitre.org/techniques/T1091",
+                    "technique_name": "replication through removable media",
+                    "technique_description": "adversaries may move onto systems, possibly those on disconnected or air-gapped networks, by copying malware to removable media and taking advantage of autorun features when the media is inserted into a system and executes. in the case of lateral movement, this may occur through modification of executable files stored on removable media or by copying malware and renaming it to look like a legitimate file to trick users into executing it on a separate system. in the case of initial access, this may occur through manual manipulation of the media, modification of systems used to initially format the media, or modification to the media's firmware itself.",
+                    "procedure_description": "agent.btz drops itself onto removable media devices and creates an autorun.inf file with an instruction to run that file. when the device is inserted into another system, it opens autorun.inf and loads the malware.[4]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1560.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1560/003",
+                    "technique_name": "archive collected data : archive via custom method",
+                    "technique_description": "an adversary may compress or encrypt data that is collected prior to exfiltration using a custom method. adversaries may choose to use custom archival methods, such as encryption with xor or stream ciphers implemented with no external library or utility references. custom implementations of well-known compression algorithms have also been used.",
+                    "procedure_description": "agent.btz saves system information into an xml file that is then xor-encoded.[2]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "agent.btz attempts to download an encrypted binary from a specified domain.[7]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1052.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1052/001",
+                    "technique_name": "exfiltration over physical medium : exfiltration over usb",
+                    "technique_description": "adversaries may attempt to exfiltrate data over a usb connected physical device. in certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a usb device introduced by a user. the usb device could be used as the final exfiltration point or to hop between otherwise disconnected systems.",
+                    "procedure_description": "agent.btz creates a file named thumb.dd on all usb flash drives connected to the victim. this file contains information about the infected system and activity logs.[1]"
+                }
             ]
         }
     ]

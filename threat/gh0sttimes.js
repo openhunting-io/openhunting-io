@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "gh0sttimes",
     "analysis": null,
     "articles": [
@@ -75,5 +74,6 @@ var threatdata = {
                 "Ghost RAT"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

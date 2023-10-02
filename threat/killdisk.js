@@ -50,6 +50,143 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "killdisk",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.youtube.com/watch?v=mrTdSdMMgnk",
+            "date": "2022-10-24",
+            "organization": "Youtube (Virus Bulletin)",
+            "author": "Alexander Adamov",
+            "title": "Russian wipers in the cyberwar against Ukraine",
+            "categories": [
+                "AcidRain",
+                "CaddyWiper",
+                "DesertBlade",
+                "DoubleZero",
+                "EternalPetya",
+                "HermeticWiper",
+                "HermeticWizard",
+                "INDUSTROYER2",
+                "IsaacWiper",
+                "KillDisk",
+                "PartyTicket",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-1/",
+            "date": "2022-08-12",
+            "organization": "CrowdStrike",
+            "author": "Ioan Iacob",
+            "title": "The Anatomy of Wiper Malware, Part 1: Common Techniques",
+            "categories": [
+                "Apostle",
+                "CaddyWiper",
+                "DEADWOOD",
+                "DistTrack",
+                "DoubleZero",
+                "DUSTMAN",
+                "HermeticWiper",
+                "IsaacWiper",
+                "IsraBye",
+                "KillDisk",
+                "Meteor",
+                "Olympic Destroyer",
+                "Ordinypt",
+                "Petya",
+                "Sierra(Alfa,Bravo, ...)",
+                "StoneDrill",
+                "WhisperGate",
+                "ZeroCleare"
+            ]
+        },
+        {
+            "data_url": "https://blog.nviso.eu/2022/02/24/threat-update-ukraine-russia-tensions/",
+            "date": "2022-02-24",
+            "organization": "nviso",
+            "author": "Michel Coene",
+            "title": "Threat Update \u2013 Ukraine & Russia conflict",
+            "categories": [
+                "EternalPetya",
+                "GreyEnergy",
+                "HermeticWiper",
+                "Industroyer",
+                "KillDisk",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON VIKING",
+            "categories": [
+                "BlackEnergy",
+                "EternalPetya",
+                "GreyEnergy",
+                "Industroyer",
+                "KillDisk",
+                "TeleBot",
+                "TeleDoor"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0034",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Sandworm Team",
+            "categories": [
+                "CyclopsBlink",
+                "Exaramel",
+                "BlackEnergy",
+                "EternalPetya",
+                "Exaramel",
+                "GreyEnergy",
+                "KillDisk",
+                "MimiKatz",
+                "Olympic Destroyer",
+                "Sandworm"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
+            "date": "2017-01-05",
+            "organization": "ESET Research",
+            "author": "Robert Lipovsky",
+            "title": "KillDisk now targeting Linux: Demands $250K ransom, but can\u2019t decrypt",
+            "categories": [
+                "KillDisk",
+                "Sandworm"
+            ]
+        },
+        {
+            "data_url": "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
+            "date": "2016-12-13",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "The rise of TeleBots: Analyzing disruptive KillDisk attacks",
+            "categories": [
+                "KillDisk",
+                "TeleBot",
+                "Sandworm"
+            ]
+        },
+        {
+            "data_url": "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
+            "date": "2016-12-13",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "The rise of TeleBots: Analyzing disruptive KillDisk attacks",
+            "categories": [
+                "Credraptor",
+                "KillDisk",
+                "TeleBot"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "killdisk",
@@ -249,143 +386,6 @@ var threatdata = {
                     "technique_description": "adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. operating systems may contain commands to initiate a shutdown/reboot of a machine or network device. in some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer or network device via network device cli (e.g. reload).",
                     "procedure_description": "killdisk attempts to reboot the machine by terminating specific processes.[11]"
                 }
-            ]
-        }
-    ],
-    "file_name": "killdisk",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.youtube.com/watch?v=mrTdSdMMgnk",
-            "date": "2022-10-24",
-            "organization": "Youtube (Virus Bulletin)",
-            "author": "Alexander Adamov",
-            "title": "Russian wipers in the cyberwar against Ukraine",
-            "categories": [
-                "AcidRain",
-                "CaddyWiper",
-                "DesertBlade",
-                "DoubleZero",
-                "EternalPetya",
-                "HermeticWiper",
-                "HermeticWizard",
-                "INDUSTROYER2",
-                "IsaacWiper",
-                "KillDisk",
-                "PartyTicket",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-1/",
-            "date": "2022-08-12",
-            "organization": "CrowdStrike",
-            "author": "Ioan Iacob",
-            "title": "The Anatomy of Wiper Malware, Part 1: Common Techniques",
-            "categories": [
-                "Apostle",
-                "CaddyWiper",
-                "DEADWOOD",
-                "DistTrack",
-                "DoubleZero",
-                "DUSTMAN",
-                "HermeticWiper",
-                "IsaacWiper",
-                "IsraBye",
-                "KillDisk",
-                "Meteor",
-                "Olympic Destroyer",
-                "Ordinypt",
-                "Petya",
-                "Sierra(Alfa,Bravo, ...)",
-                "StoneDrill",
-                "WhisperGate",
-                "ZeroCleare"
-            ]
-        },
-        {
-            "data_url": "https://blog.nviso.eu/2022/02/24/threat-update-ukraine-russia-tensions/",
-            "date": "2022-02-24",
-            "organization": "nviso",
-            "author": "Michel Coene",
-            "title": "Threat Update \u2013 Ukraine & Russia conflict",
-            "categories": [
-                "EternalPetya",
-                "GreyEnergy",
-                "HermeticWiper",
-                "Industroyer",
-                "KillDisk",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON VIKING",
-            "categories": [
-                "BlackEnergy",
-                "EternalPetya",
-                "GreyEnergy",
-                "Industroyer",
-                "KillDisk",
-                "TeleBot",
-                "TeleDoor"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0034",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Sandworm Team",
-            "categories": [
-                "CyclopsBlink",
-                "Exaramel",
-                "BlackEnergy",
-                "EternalPetya",
-                "Exaramel",
-                "GreyEnergy",
-                "KillDisk",
-                "MimiKatz",
-                "Olympic Destroyer",
-                "Sandworm"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/01/05/killdisk-now-targeting-linux-demands-250k-ransom-cant-decrypt",
-            "date": "2017-01-05",
-            "organization": "ESET Research",
-            "author": "Robert Lipovsky",
-            "title": "KillDisk now targeting Linux: Demands $250K ransom, but can\u2019t decrypt",
-            "categories": [
-                "KillDisk",
-                "Sandworm"
-            ]
-        },
-        {
-            "data_url": "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks",
-            "date": "2016-12-13",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "The rise of TeleBots: Analyzing disruptive KillDisk attacks",
-            "categories": [
-                "KillDisk",
-                "TeleBot",
-                "Sandworm"
-            ]
-        },
-        {
-            "data_url": "http://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/",
-            "date": "2016-12-13",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "The rise of TeleBots: Analyzing disruptive KillDisk attacks",
-            "categories": [
-                "Credraptor",
-                "KillDisk",
-                "TeleBot"
             ]
         }
     ]

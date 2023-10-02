@@ -30,7 +30,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "sword2033",
     "analysis": null,
     "articles": [
@@ -62,5 +61,6 @@ var threatdata = {
                 "Sword2033"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

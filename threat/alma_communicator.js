@@ -30,6 +30,34 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "alma_communicator",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
+            "date": "2019-04-16",
+            "organization": "",
+            "author": "Robert Falcone",
+            "title": "DNS Tunneling in the Wild: Overview of OilRig\u2019s DNS Tunneling",
+            "categories": [
+                "BONDUPDATER",
+                "QUADAGENT",
+                "Alma Communicator",
+                "Helminth",
+                "ISMAgent"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-oilrig-deploys-alma-communicator-dns-tunneling-trojan/",
+            "date": "2017-11-08",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "OilRig Deploys \u201cALMA Communicator\u201d \u2013 DNS Tunneling Trojan",
+            "categories": [
+                "Alma Communicator"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -105,34 +133,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "alma_communicator",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
-            "date": "2019-04-16",
-            "organization": "",
-            "author": "Robert Falcone",
-            "title": "DNS Tunneling in the Wild: Overview of OilRig\u2019s DNS Tunneling",
-            "categories": [
-                "BONDUPDATER",
-                "QUADAGENT",
-                "Alma Communicator",
-                "Helminth",
-                "ISMAgent"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2017/11/unit42-oilrig-deploys-alma-communicator-dns-tunneling-trojan/",
-            "date": "2017-11-08",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "OilRig Deploys \u201cALMA Communicator\u201d \u2013 DNS Tunneling Trojan",
-            "categories": [
-                "Alma Communicator"
             ]
         }
     ]

@@ -38,7 +38,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "modpos",
     "analysis": null,
     "articles": [
@@ -62,5 +61,6 @@ var threatdata = {
                 "ModPOS"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

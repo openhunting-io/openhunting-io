@@ -35,6 +35,78 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "compfun",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/it-threat-evolution-q2-2020/98230",
+            "date": "2020-09-03",
+            "organization": "Kaspersky Labs",
+            "author": "David Emm",
+            "title": "IT threat evolution Q2 2020",
+            "categories": [
+                "PhantomLance",
+                "Aria-body",
+                "COMpfun",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/compfun-http-status-based-trojan/96874/",
+            "date": "2020-05-14",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "COMpfun authors spoof visa application with HTTP status-based Trojan",
+            "categories": [
+                "COMpfun"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/compfun-successor-reductor/93633/",
+            "date": "2019-10-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "COMpfun successor Reductor infects files on the fly to compromise TLS traffic",
+            "categories": [
+                "COMpfun"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
+            "date": "2019-08-01",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2019",
+            "categories": [
+                "ZooPark",
+                "magecart",
+                "POWERSTATS",
+                "Chaperone",
+                "COMpfun",
+                "EternalPetya",
+                "FinFisher RAT",
+                "HawkEye Keylogger",
+                "HOPLIGHT",
+                "Microcin",
+                "NjRAT",
+                "Olympic Destroyer",
+                "PLEAD",
+                "RokRAT",
+                "Triton",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/2014/10/23941-com-object-hijacking-the-discreet-way-of-persistence",
+            "date": "2014-10-30",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "COM Object hijacking: the discreet way of persistence",
+            "categories": [
+                "COMpfun"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -110,78 +182,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "compfun",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/it-threat-evolution-q2-2020/98230",
-            "date": "2020-09-03",
-            "organization": "Kaspersky Labs",
-            "author": "David Emm",
-            "title": "IT threat evolution Q2 2020",
-            "categories": [
-                "PhantomLance",
-                "Aria-body",
-                "COMpfun",
-                "Vicious Panda"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/compfun-http-status-based-trojan/96874/",
-            "date": "2020-05-14",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "COMpfun authors spoof visa application with HTTP status-based Trojan",
-            "categories": [
-                "COMpfun"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/compfun-successor-reductor/93633/",
-            "date": "2019-10-03",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "COMpfun successor Reductor infects files on the fly to compromise TLS traffic",
-            "categories": [
-                "COMpfun"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
-            "date": "2019-08-01",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q2 2019",
-            "categories": [
-                "ZooPark",
-                "magecart",
-                "POWERSTATS",
-                "Chaperone",
-                "COMpfun",
-                "EternalPetya",
-                "FinFisher RAT",
-                "HawkEye Keylogger",
-                "HOPLIGHT",
-                "Microcin",
-                "NjRAT",
-                "Olympic Destroyer",
-                "PLEAD",
-                "RokRAT",
-                "Triton",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.gdatasoftware.com/blog/2014/10/23941-com-object-hijacking-the-discreet-way-of-persistence",
-            "date": "2014-10-30",
-            "organization": "G Data",
-            "author": "G Data",
-            "title": "COM Object hijacking: the discreet way of persistence",
-            "categories": [
-                "COMpfun"
             ]
         }
     ]

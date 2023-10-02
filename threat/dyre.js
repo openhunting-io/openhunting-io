@@ -49,6 +49,175 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "dyre",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
+            "date": "2021",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD BLACKBURN",
+            "categories": [
+                "Buer",
+                "Dyre",
+                "TrickBot",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2020/graphology-of-an-exploit-playbit/",
+            "date": "2020-10-26",
+            "organization": "Checkpoint",
+            "author": "Itay Cohen",
+            "title": "Exploit Developer Spotlight: The Story of PlayBit",
+            "categories": [
+                "Dyre",
+                "Maze",
+                "PyLocky",
+                "Ramnit",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-blackburn",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD BLACKBURN",
+            "categories": [
+                "Dyre",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/evolution-of-malware-sandbox-evasion-tactics-a-retrospective-study/",
+            "date": "2019-09-09",
+            "organization": "McAfee",
+            "author": "Thomas Roccia",
+            "title": "Evolution of Malware Sandbox Evasion Tactics \u2013 A Retrospective Study",
+            "categories": [
+                "Cutwail",
+                "Dridex",
+                "Dyre",
+                "Kovter",
+                "Locky",
+                "Phorpiex",
+                "Simda"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web/",
+            "date": "2019-02-15",
+            "organization": "CrowdStrike",
+            "author": "Brendon Feeley",
+            "title": "\u201cSin\u201d-ful SPIDERS: WIZARD SPIDER and LUNAR SPIDER Sharing the Same Web",
+            "categories": [
+                "Dyre",
+                "IcedID",
+                "TrickBot",
+                "Vawtrak",
+                "LUNAR SPIDER",
+                "WIZARD SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/evolution-of-the-gold-evergreen-threat-group",
+            "date": "2017-05-15",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "Evolution of the GOLD EVERGREEN Threat Group",
+            "categories": [
+                "CryptoLocker",
+                "Dridex",
+                "Dyre",
+                "Gameover P2P",
+                "Murofet",
+                "TrickBot",
+                "Zeus",
+                "GOLD EVERGREEN"
+            ]
+        },
+        {
+            "data_url": "https://www.forbes.com/sites/thomasbrewster/2017/05/04/dyre-hackers-stealing-millions-from-american-coporates",
+            "date": "2017-05-04",
+            "organization": "Forbes",
+            "author": "Thomas Brewster",
+            "title": "Behind The Mystery Of Russia's 'Dyre' Hackers Who Stole Millions From American Business",
+            "categories": [
+                "Dyre"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2015/11/a-technical-look-at-dyreza/",
+            "date": "2015-11-04",
+            "organization": "Malwarebytes",
+            "author": "hasherezade",
+            "title": "A Technical Look At Dyreza",
+            "categories": [
+                "Dyre"
+            ]
+        },
+        {
+            "data_url": "https://www.blueliv.com/downloads/documentation/reports/Network_insights_of_Dyre_and_Dridex_Trojan_bankers.pdf",
+            "date": "2015-10-26",
+            "organization": "Blueliv",
+            "author": "Blueliv",
+            "title": "Chasing cybercrime: network insights of Dyre and Dridex Trojan bankers",
+            "categories": [
+                "Dridex",
+                "Dyre"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/07/dyre_banking_trojan.html",
+            "date": "2015-07-07",
+            "organization": "FireEye",
+            "author": "Sudeep Singh",
+            "title": "Dyre Banking Trojan Exploits CVE-2015-0057",
+            "categories": [
+                "Dyre"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/dyre-banking-trojan",
+            "date": "2014-12-17",
+            "organization": "Secureworks",
+            "author": "Brett Stone-Gross",
+            "title": "Dyre Banking Trojan",
+            "categories": [
+                "Dyre",
+                "Vawtrak",
+                "WIZARD SPIDER"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "dyre",
@@ -320,175 +489,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "dyre has the ability to send information staged on a compromised host externally to c2.[38]"
                 }
-            ]
-        }
-    ],
-    "file_name": "dyre",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-blackburn",
-            "date": "2021",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "Threat Profile: GOLD BLACKBURN",
-            "categories": [
-                "Buer",
-                "Dyre",
-                "TrickBot",
-                "WIZARD SPIDER"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2020/graphology-of-an-exploit-playbit/",
-            "date": "2020-10-26",
-            "organization": "Checkpoint",
-            "author": "Itay Cohen",
-            "title": "Exploit Developer Spotlight: The Story of PlayBit",
-            "categories": [
-                "Dyre",
-                "Maze",
-                "PyLocky",
-                "Ramnit",
-                "REvil"
-            ]
-        },
-        {
-            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
-            "date": "2020-08-09",
-            "organization": "F5 Labs",
-            "author": "Remi Cohen",
-            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
-            "categories": [
-                "BackSwap",
-                "Carberp",
-                "Citadel",
-                "DanaBot",
-                "Dridex",
-                "Dyre",
-                "Emotet",
-                "Gozi",
-                "Kronos",
-                "PandaBanker",
-                "Ramnit",
-                "Shylock",
-                "SpyEye",
-                "Tinba",
-                "TrickBot",
-                "Vawtrak",
-                "Zeus"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-blackburn",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "GOLD BLACKBURN",
-            "categories": [
-                "Dyre",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/evolution-of-malware-sandbox-evasion-tactics-a-retrospective-study/",
-            "date": "2019-09-09",
-            "organization": "McAfee",
-            "author": "Thomas Roccia",
-            "title": "Evolution of Malware Sandbox Evasion Tactics \u2013 A Retrospective Study",
-            "categories": [
-                "Cutwail",
-                "Dridex",
-                "Dyre",
-                "Kovter",
-                "Locky",
-                "Phorpiex",
-                "Simda"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web/",
-            "date": "2019-02-15",
-            "organization": "CrowdStrike",
-            "author": "Brendon Feeley",
-            "title": "\u201cSin\u201d-ful SPIDERS: WIZARD SPIDER and LUNAR SPIDER Sharing the Same Web",
-            "categories": [
-                "Dyre",
-                "IcedID",
-                "TrickBot",
-                "Vawtrak",
-                "LUNAR SPIDER",
-                "WIZARD SPIDER"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/evolution-of-the-gold-evergreen-threat-group",
-            "date": "2017-05-15",
-            "organization": "Secureworks",
-            "author": "Counter Threat Unit ResearchTeam",
-            "title": "Evolution of the GOLD EVERGREEN Threat Group",
-            "categories": [
-                "CryptoLocker",
-                "Dridex",
-                "Dyre",
-                "Gameover P2P",
-                "Murofet",
-                "TrickBot",
-                "Zeus",
-                "GOLD EVERGREEN"
-            ]
-        },
-        {
-            "data_url": "https://www.forbes.com/sites/thomasbrewster/2017/05/04/dyre-hackers-stealing-millions-from-american-coporates",
-            "date": "2017-05-04",
-            "organization": "Forbes",
-            "author": "Thomas Brewster",
-            "title": "Behind The Mystery Of Russia's 'Dyre' Hackers Who Stole Millions From American Business",
-            "categories": [
-                "Dyre"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2015/11/a-technical-look-at-dyreza/",
-            "date": "2015-11-04",
-            "organization": "Malwarebytes",
-            "author": "hasherezade",
-            "title": "A Technical Look At Dyreza",
-            "categories": [
-                "Dyre"
-            ]
-        },
-        {
-            "data_url": "https://www.blueliv.com/downloads/documentation/reports/Network_insights_of_Dyre_and_Dridex_Trojan_bankers.pdf",
-            "date": "2015-10-26",
-            "organization": "Blueliv",
-            "author": "Blueliv",
-            "title": "Chasing cybercrime: network insights of Dyre and Dridex Trojan bankers",
-            "categories": [
-                "Dridex",
-                "Dyre"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2015/07/dyre_banking_trojan.html",
-            "date": "2015-07-07",
-            "organization": "FireEye",
-            "author": "Sudeep Singh",
-            "title": "Dyre Banking Trojan Exploits CVE-2015-0057",
-            "categories": [
-                "Dyre"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/dyre-banking-trojan",
-            "date": "2014-12-17",
-            "organization": "Secureworks",
-            "author": "Brett Stone-Gross",
-            "title": "Dyre Banking Trojan",
-            "categories": [
-                "Dyre",
-                "Vawtrak",
-                "WIZARD SPIDER"
             ]
         }
     ]

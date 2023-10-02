@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "s-type",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "s-type",
@@ -304,8 +307,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "s-type",
-    "analysis": null,
-    "articles": []
+    ]
 };

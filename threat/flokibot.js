@@ -43,6 +43,70 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "flokibot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://adelmas.com/blog/flokibot.php",
+            "date": "2017-03-14",
+            "organization": "Arnaud Delmas",
+            "author": "Arnaud Delmas",
+            "title": "Analyzing and Deobfuscating FlokiBot Banking Trojan",
+            "categories": [
+                "FlokiBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cylance.com/en_us/blog/threat-spotlight-flokibot-pos-malware.html",
+            "date": "2017-03-01",
+            "organization": "Cylance",
+            "author": "Cylance Threat Research Team",
+            "title": "Threat Spotlight: Flokibot PoS Malware",
+            "categories": [
+                "FlokiBot"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintel.com/2016/12/flokibot-collab.html#more",
+            "date": "2016-12-07",
+            "organization": "Cisco Talos",
+            "author": "Ben Baker",
+            "title": "Floki Bot Strikes, Talos and Flashpoint Respond",
+            "categories": [
+                "FlokiBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2016/11/floki-bot-and-the-stealthy-dropper/",
+            "date": "2016-11-10",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Floki Bot and the stealthy dropper",
+            "categories": [
+                "FlokiBot"
+            ]
+        },
+        {
+            "data_url": "https://www.flashpoint-intel.com/blog/cybercrime/floki-bot-emerges-new-malware-kit/",
+            "date": "2016-10-03",
+            "organization": "Flashpoint",
+            "author": "Flashpoint",
+            "title": "Multi-Purpose \u201cFloki Bot\u201d Emerges as New Malware Kit",
+            "categories": [
+                "FlokiBot"
+            ]
+        },
+        {
+            "data_url": "https://www.flashpoint-intel.com/flokibot-curious-case-brazilian-connector/",
+            "date": "2015-12-07",
+            "organization": "Flashpoint",
+            "author": "Flashpoint",
+            "title": "Flashpoint and Talos Analyze the Curious Case of the flokibot Connector",
+            "categories": [
+                "FlokiBot"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "lokibot",
@@ -482,70 +546,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "lokibot has the ability to initiate contact with command and control (c2) to exfiltrate stolen data.[78]"
                 }
-            ]
-        }
-    ],
-    "file_name": "flokibot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://adelmas.com/blog/flokibot.php",
-            "date": "2017-03-14",
-            "organization": "Arnaud Delmas",
-            "author": "Arnaud Delmas",
-            "title": "Analyzing and Deobfuscating FlokiBot Banking Trojan",
-            "categories": [
-                "FlokiBot"
-            ]
-        },
-        {
-            "data_url": "https://www.cylance.com/en_us/blog/threat-spotlight-flokibot-pos-malware.html",
-            "date": "2017-03-01",
-            "organization": "Cylance",
-            "author": "Cylance Threat Research Team",
-            "title": "Threat Spotlight: Flokibot PoS Malware",
-            "categories": [
-                "FlokiBot"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintel.com/2016/12/flokibot-collab.html#more",
-            "date": "2016-12-07",
-            "organization": "Cisco Talos",
-            "author": "Ben Baker",
-            "title": "Floki Bot Strikes, Talos and Flashpoint Respond",
-            "categories": [
-                "FlokiBot"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2016/11/floki-bot-and-the-stealthy-dropper/",
-            "date": "2016-11-10",
-            "organization": "Malwarebytes",
-            "author": "Malwarebytes Labs",
-            "title": "Floki Bot and the stealthy dropper",
-            "categories": [
-                "FlokiBot"
-            ]
-        },
-        {
-            "data_url": "https://www.flashpoint-intel.com/blog/cybercrime/floki-bot-emerges-new-malware-kit/",
-            "date": "2016-10-03",
-            "organization": "Flashpoint",
-            "author": "Flashpoint",
-            "title": "Multi-Purpose \u201cFloki Bot\u201d Emerges as New Malware Kit",
-            "categories": [
-                "FlokiBot"
-            ]
-        },
-        {
-            "data_url": "https://www.flashpoint-intel.com/flokibot-curious-case-brazilian-connector/",
-            "date": "2015-12-07",
-            "organization": "Flashpoint",
-            "author": "Flashpoint",
-            "title": "Flashpoint and Talos Analyze the Curious Case of the flokibot Connector",
-            "categories": [
-                "FlokiBot"
             ]
         }
     ]

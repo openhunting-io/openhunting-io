@@ -107,9 +107,9 @@ var threatdata = {
             "malware": "win.conti",
             "last_update": "2023-04-25 18:49:31",
             "tags": [
+                "Conti",
                 "conti",
-                "Ransomware",
-                "Conti"
+                "Ransomware"
             ],
             "ioc": {
                 "sha256_hash": [
@@ -958,220 +958,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-04-25 18:49:31",
-    "mitre": [
-        {
-            "procedure_name": "conti",
-            "procedure_code": "s0575",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0575",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1059.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
-                    "technique_name": "command and scripting interpreter : windows command shell",
-                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
-                    "procedure_description": "conti can utilize command line options to allow an attacker control over how it scans and encrypts files.[89][59]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1106",
-                    "technique_link": "https://attack.mitre.org/techniques/T1106",
-                    "technique_name": "native api",
-                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
-                    "procedure_description": "conti has used api calls during execution.[60][61]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1055.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
-                    "technique_name": "process injection : dynamic-link library injection",
-                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
-                    "procedure_description": "conti has loaded an encrypted dll into memory and then executes it.[17][18]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1140",
-                    "technique_link": "https://attack.mitre.org/techniques/T1140",
-                    "technique_name": "deobfuscate/decode files or information",
-                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
-                    "procedure_description": "conti has decrypted its payload using a hardcoded aes-256 key.[61][62]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "conti can use compiler-based obfuscation for its code, encrypt dlls, and hide windows api calls.[86][87][48]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1055.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
-                    "technique_name": "process injection : dynamic-link library injection",
-                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
-                    "procedure_description": "conti has loaded an encrypted dll into memory and then executes it.[17][18]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1083",
-                    "technique_link": "https://attack.mitre.org/techniques/T1083",
-                    "technique_name": "file and directory discovery",
-                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "conti can discover files on a local system.[82]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1135",
-                    "technique_link": "https://attack.mitre.org/techniques/T1135",
-                    "technique_name": "network share discovery",
-                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
-                    "procedure_description": "conti can enumerate remote open smb network shares using netshareenum().[23][24]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1057",
-                    "technique_link": "https://attack.mitre.org/techniques/T1057",
-                    "technique_name": "process discovery",
-                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "conti can enumerate through all open processes to search for any that have the string \"sql\" in their process name.[65]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1018",
-                    "technique_link": "https://attack.mitre.org/techniques/T1018",
-                    "technique_name": "remote system discovery",
-                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
-                    "procedure_description": "conti has the ability to discover hosts on a target network.[29]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1016",
-                    "technique_link": "https://attack.mitre.org/techniques/T1016",
-                    "technique_name": "system network configuration discovery",
-                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
-                    "procedure_description": "conti can retrieve the arp cache from the local system by using the getipnettable() api call and check to ensure ip addresses it connects to are for local, non-internet, systems.[60]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1049",
-                    "technique_link": "https://attack.mitre.org/techniques/T1049",
-                    "technique_name": "system network connections discovery",
-                    "technique_description": "adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network.",
-                    "procedure_description": "conti can enumerate routine network connections from a compromised host.[25]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1021.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1021/002",
-                    "technique_name": "remote services : smb/windows admin shares",
-                    "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
-                    "procedure_description": "conti can spread via smb and encrypts files on different hosts, potentially compromising an entire network.[21][22]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1080",
-                    "technique_link": "https://attack.mitre.org/techniques/T1080",
-                    "technique_name": "taint shared content",
-                    "technique_description": "adversaries may deliver payloads to remote systems by adding content to shared storage locations, such as network drives or internal code repositories. content stored on network drives or in other shared locations may be tainted by adding malicious programs, scripts, or exploit code to otherwise valid files. once a user opens the shared tainted content, the malicious portion can be executed to run the adversary's code on a remote system. adversaries may use tainted shared content to move laterally.",
-                    "procedure_description": "conti can spread itself by infecting other remote machines via network shared drives.[3][4]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1486",
-                    "technique_link": "https://attack.mitre.org/techniques/T1486",
-                    "technique_name": "data encrypted for impact",
-                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
-                    "procedure_description": "conti can use createiocompletionport(), postqueuedcompletionstatus(), and getqueuedcompletionport() to rapidly encrypt files, excluding those with the extensions of .exe, .dll, and .lnk. it has used a different aes-256 encryption key per file with a bundled ras-4096 public encryption key that is unique for each victim. conti can use \"windows restart manager\" to ensure files are unlocked and open for encryption.[36][5][37][38][31]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1490",
-                    "technique_link": "https://attack.mitre.org/techniques/T1490",
-                    "technique_name": "inhibit system recovery",
-                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
-                    "procedure_description": "conti can delete windows volume shadow copies using vssadmin.[24]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1489",
-                    "technique_link": "https://attack.mitre.org/techniques/T1489",
-                    "technique_name": "service stop",
-                    "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
-                    "procedure_description": "conti can stop up to 146 windows services related to security, backup, database, and email solutions through the use of net stop.[13]"
-                }
-            ]
-        }
-    ],
     "file_name": "conti",
     "articles": [
         {
@@ -3950,6 +3736,220 @@ var threatdata = {
             "title": "TAU Threat Discovery: Conti Ransomware",
             "categories": [
                 "Conti"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "conti",
+            "procedure_code": "s0575",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0575",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "conti can utilize command line options to allow an attacker control over how it scans and encrypts files.[89][59]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "conti has used api calls during execution.[60][61]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "conti has loaded an encrypted dll into memory and then executes it.[17][18]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "conti has decrypted its payload using a hardcoded aes-256 key.[61][62]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "conti can use compiler-based obfuscation for its code, encrypt dlls, and hide windows api calls.[86][87][48]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "conti has loaded an encrypted dll into memory and then executes it.[17][18]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "conti can discover files on a local system.[82]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1135",
+                    "technique_link": "https://attack.mitre.org/techniques/T1135",
+                    "technique_name": "network share discovery",
+                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
+                    "procedure_description": "conti can enumerate remote open smb network shares using netshareenum().[23][24]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "conti can enumerate through all open processes to search for any that have the string \"sql\" in their process name.[65]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1018",
+                    "technique_link": "https://attack.mitre.org/techniques/T1018",
+                    "technique_name": "remote system discovery",
+                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
+                    "procedure_description": "conti has the ability to discover hosts on a target network.[29]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "conti can retrieve the arp cache from the local system by using the getipnettable() api call and check to ensure ip addresses it connects to are for local, non-internet, systems.[60]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1049",
+                    "technique_link": "https://attack.mitre.org/techniques/T1049",
+                    "technique_name": "system network connections discovery",
+                    "technique_description": "adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network.",
+                    "procedure_description": "conti can enumerate routine network connections from a compromised host.[25]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/002",
+                    "technique_name": "remote services : smb/windows admin shares",
+                    "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
+                    "procedure_description": "conti can spread via smb and encrypts files on different hosts, potentially compromising an entire network.[21][22]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1080",
+                    "technique_link": "https://attack.mitre.org/techniques/T1080",
+                    "technique_name": "taint shared content",
+                    "technique_description": "adversaries may deliver payloads to remote systems by adding content to shared storage locations, such as network drives or internal code repositories. content stored on network drives or in other shared locations may be tainted by adding malicious programs, scripts, or exploit code to otherwise valid files. once a user opens the shared tainted content, the malicious portion can be executed to run the adversary's code on a remote system. adversaries may use tainted shared content to move laterally.",
+                    "procedure_description": "conti can spread itself by infecting other remote machines via network shared drives.[3][4]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "conti can use createiocompletionport(), postqueuedcompletionstatus(), and getqueuedcompletionport() to rapidly encrypt files, excluding those with the extensions of .exe, .dll, and .lnk. it has used a different aes-256 encryption key per file with a bundled ras-4096 public encryption key that is unique for each victim. conti can use \"windows restart manager\" to ensure files are unlocked and open for encryption.[36][5][37][38][31]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1490",
+                    "technique_link": "https://attack.mitre.org/techniques/T1490",
+                    "technique_name": "inhibit system recovery",
+                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
+                    "procedure_description": "conti can delete windows volume shadow copies using vssadmin.[24]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1489",
+                    "technique_link": "https://attack.mitre.org/techniques/T1489",
+                    "technique_name": "service stop",
+                    "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
+                    "procedure_description": "conti can stop up to 146 windows services related to security, backup, database, and email solutions through the use of net stop.[13]"
+                }
             ]
         }
     ]

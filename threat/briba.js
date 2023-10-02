@@ -33,6 +33,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "briba",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "briba",
@@ -114,8 +117,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "briba",
-    "analysis": null,
-    "articles": []
+    ]
 };

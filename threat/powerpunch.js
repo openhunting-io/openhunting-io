@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerpunch",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "powerpunch",
@@ -86,8 +89,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "powerpunch",
-    "analysis": null,
-    "articles": []
+    ]
 };

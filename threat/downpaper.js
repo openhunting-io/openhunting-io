@@ -31,6 +31,44 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "downpaper",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.infinitumit.com.tr/apt-35/",
+            "date": "2022-06-20",
+            "organization": "Infinitum IT",
+            "author": "infinitum IT",
+            "title": "Charming Kitten (APT35)",
+            "categories": [
+                "LaZagne",
+                "DownPaper",
+                "MimiKatz",
+                "pupy"
+            ]
+        },
+        {
+            "data_url": "http://www.clearskysec.com/charmingkitten/",
+            "date": "2017-12-05",
+            "organization": "",
+            "author": "ClearSky Research Team",
+            "title": "Charming Kitten: Iranian Cyber Espionage Against Human Rights Activists, Academic Researchers and Media Outlets",
+            "categories": [
+                "DownPaper"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf",
+            "date": "2017-12",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Charming Kitten",
+            "categories": [
+                "DownPaper",
+                "Charming Kitten"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "downpaper",
@@ -134,44 +172,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
                     "procedure_description": "downpaper communicates to its c2 server over http.[101]"
                 }
-            ]
-        }
-    ],
-    "file_name": "downpaper",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.infinitumit.com.tr/apt-35/",
-            "date": "2022-06-20",
-            "organization": "Infinitum IT",
-            "author": "infinitum IT",
-            "title": "Charming Kitten (APT35)",
-            "categories": [
-                "LaZagne",
-                "DownPaper",
-                "MimiKatz",
-                "pupy"
-            ]
-        },
-        {
-            "data_url": "http://www.clearskysec.com/charmingkitten/",
-            "date": "2017-12-05",
-            "organization": "",
-            "author": "ClearSky Research Team",
-            "title": "Charming Kitten: Iranian Cyber Espionage Against Human Rights Activists, Academic Researchers and Media Outlets",
-            "categories": [
-                "DownPaper"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf",
-            "date": "2017-12",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "Charming Kitten",
-            "categories": [
-                "DownPaper",
-                "Charming Kitten"
             ]
         }
     ]

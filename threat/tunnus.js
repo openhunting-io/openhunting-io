@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "tunnus",
     "analysis": null,
     "articles": [
@@ -67,5 +66,6 @@ var threatdata = {
                 "QUIETCANARY"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

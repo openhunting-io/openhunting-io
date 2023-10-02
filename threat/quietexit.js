@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "quietexit",
     "analysis": null,
     "articles": [
@@ -73,5 +72,6 @@ var threatdata = {
                 "UNC3524"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

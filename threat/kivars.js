@@ -36,6 +36,58 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "kivars",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
+            "date": "2020-09-29",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors",
+            "categories": [
+                "KIVARS",
+                "PLEAD",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/17/f/following-trail-blacktech-cyber-espionage-campaigns.html",
+            "date": "2017-06-22",
+            "organization": "Trend Micro",
+            "author": "Lenart Bermejo",
+            "title": "The Trail of BlackTech\u2019s Cyber Espionage Campaigns",
+            "categories": [
+                "bifrose",
+                "KIVARS",
+                "PLEAD"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/16/c/threat-actors-behind-shrouded-crossbow-creates-bifrose-for-unix.html",
+            "date": "2016-03-01",
+            "organization": "Trend Micro",
+            "author": "Razor Huang",
+            "title": "Shrouded Crossbow Creators Behind BIFROSE for UNIX",
+            "categories": [
+                "KIVARS"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/kivars-with-venom-targeted-attacks-upgrade-with-64-bit-support/",
+            "date": "2014-07-02",
+            "organization": "Trend Micro",
+            "author": "Kervin Alintanahin",
+            "title": "KIVARS With Venom: Targeted Attacks Upgrade with 64-bit \u201cSupport\u201d",
+            "categories": [
+                "FakeWord",
+                "KIVARS",
+                "PLEAD",
+                "Poison RAT",
+                "Zeus"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "kivars",
@@ -139,58 +191,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "kivars has the ability to download and execute files.[246]"
                 }
-            ]
-        }
-    ],
-    "file_name": "kivars",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/palmerworm-blacktech-espionage-apt",
-            "date": "2020-09-29",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Palmerworm: Espionage Gang Targets the Media, Finance, and Other Sectors",
-            "categories": [
-                "KIVARS",
-                "PLEAD",
-                "BlackTech"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/17/f/following-trail-blacktech-cyber-espionage-campaigns.html",
-            "date": "2017-06-22",
-            "organization": "Trend Micro",
-            "author": "Lenart Bermejo",
-            "title": "The Trail of BlackTech\u2019s Cyber Espionage Campaigns",
-            "categories": [
-                "bifrose",
-                "KIVARS",
-                "PLEAD"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/16/c/threat-actors-behind-shrouded-crossbow-creates-bifrose-for-unix.html",
-            "date": "2016-03-01",
-            "organization": "Trend Micro",
-            "author": "Razor Huang",
-            "title": "Shrouded Crossbow Creators Behind BIFROSE for UNIX",
-            "categories": [
-                "KIVARS"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/kivars-with-venom-targeted-attacks-upgrade-with-64-bit-support/",
-            "date": "2014-07-02",
-            "organization": "Trend Micro",
-            "author": "Kervin Alintanahin",
-            "title": "KIVARS With Venom: Targeted Attacks Upgrade with 64-bit \u201cSupport\u201d",
-            "categories": [
-                "FakeWord",
-                "KIVARS",
-                "PLEAD",
-                "Poison RAT",
-                "Zeus"
             ]
         }
     ]

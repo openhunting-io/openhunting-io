@@ -219,7 +219,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-07-14 20:12:39",
-    "mitre": [],
     "file_name": "sasfis",
     "analysis": null,
     "articles": [
@@ -294,5 +293,6 @@ var threatdata = {
                 "Sasfis"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

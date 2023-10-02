@@ -1,0 +1,756 @@
+var threatdata = {
+    "name": "Rocket Kitten, Newscaster, NewsBeef",
+    "alias": "Rocket Kitten, Newscaster, NewsBeef, Group 83, Parastoo",
+    "category": "APT",
+    "type": "-",
+    "modified": "2022-09-13",
+    "all_data": {
+        "actor": "Rocket Kitten, Newscaster, NewsBeef",
+        "names": [
+            {
+                "name": "Rocket Kitten",
+                "name-giver": "CrowdStrike"
+            },
+            {
+                "name": "Newscaster",
+                "name-giver": "Symantec"
+            },
+            {
+                "name": "NewsBeef",
+                "name-giver": "Kaspersky"
+            },
+            {
+                "name": "Group 83",
+                "name-giver": "Talos"
+            },
+            {
+                "name": "Parastoo",
+                "name-giver": "Flashpoint"
+            }
+        ],
+        "country": [
+            "Iran"
+        ],
+        "sponsor": "State-sponsored",
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2011",
+        "description": "(Kaspersky) Newsbeef/Newscaster will find a way to compromise a web site, usually the vulnerability appears to be CMS related, in an outdated WordPress plugin, Joomla version, or Drupal version. Attackers usually perform one of two things, Newsbeef has been performing the first of the two:\n\n- inject a src or iframe link into web pages or css sheets\n- inject the content of an entire BeEF web page into one of the internally linked javascript helpers\n\nThe injected link will redirect visitors\u2019 browsers to a BeEF server. Usually, the attackers deliver some of the tracking and system/browser identification and evercookie capabilities. Sometimes, it appears that they deliver the metasploit integration to exploit and deliver backdoors (we haven\u2019t identified that exploitation activity in our ksn data related to this group just yet). Sometimes, it is used to pop up spoofed login input fields to steal social networking site credentials. We also haven\u2019t detected that in ksn, but some partners have privately reported it about various incidents. But we have identified that attackers will redirect specific targets to laced Adobe Flash and other installers from websites that they operate.\n\nSo, the watering hole activity isn\u2019t always and usually isn\u2019t delivering backdoors. Most of the time, the watering hole injections are used to identify and track visitors or steal their browser history. Then, they deliver the backdoors to the right targets.\n\nThere is some infrastructure overlap with {{Magic Hound, APT 35, Cobalt Illusion, Charming Kitten}} and {{ITG18}}.",
+        "observed-sectors": [
+            "Construction",
+            "Defense",
+            "Education",
+            "Embassies",
+            "Entertainment",
+            "Government",
+            "Manufacturing",
+            "Media"
+        ],
+        "observed-countries": [
+            "Algeria",
+            "Brazil",
+            "China",
+            "Germany",
+            "India",
+            "Israel",
+            "Japan",
+            "Kazakhstan",
+            "Romania",
+            "Russia",
+            "Turkey",
+            "UK",
+            "Ukraine",
+            "USA"
+        ],
+        "tools": [
+            "BeEF",
+            "FireMalv",
+            "Ghole"
+        ],
+        "operations": [
+            {
+                "date": "2011",
+                "activity": "Operation \u201cNewscaster\u201d\nThe research firm iSight dubbed the operation Newscaster and said hackers used social-media sites like Twitter, Facebook and LinkedIn to draw their targets and then lure them to check out a bogus news site, NewsOnAir.org, filled with foreign policy and defense articles, The Post reported.\nThe overall aim is that the social-media platform would give the hackers connections with those at the top of public policy \u2014 and position them to tap into that information network.\nhttps://www.washingtontimes.com/news/2014/may/29/iranian-hackers-sucker-punch-us-defense-heads-crea/"
+            },
+            {
+                "date": "2015-02",
+                "activity": "Operation \u201cWoolen-GoldFish\u201d\nhttps://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/operation-woolen-goldfish-when-kittens-go-phishing"
+            },
+            {
+                "date": "2016-02",
+                "activity": "In late February 2016, a University website in Iran stood out for thoroughly vetting its current and potential students and staff. The University\u2019s web site served repackaged content from the Browser Exploitation Framework (BeEF) with embedded JavaScript content.\nhttps://securelist.com/freezer-paper-around-free-meat/74503/"
+            },
+            {
+                "date": "2017",
+                "activity": "Fake news website BritishNews to infect visitors\nOn the same note, we identified a fake-news agency \u201cestablished\u201d by the attackers, called \u201cThe British news agency\u201d or \u201cBritishnews\u201d (inspired by BBC). Its website domain is britishnews.com[.]co and two other domains, broadcastbritishnews[.] ommand britishnews[.]org redirected to it."
+            },
+            {
+                "date": "2017",
+                "activity": "Blackmailing BBC reporter with \u2018naked photo\u2019 threats\nIranian agents blackmailed a BBC Persian journalist by threatening to publish revealing photos of her as part of a wider campaign against the British media outlet, staff at the broadcaster told Arab News.\nNew details emerged on Saturday about alleged harassment of BBC Persian reporters\u2019 family members and loved ones at the hands of the Iranian security services.\nhttp://www.arabnews.com/node/1195681/media"
+            }
+        ],
+        "information": [
+            "https://securelist.com/freezer-paper-around-free-meat/74503/",
+            "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+            "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp-the-spy-kittens-are-back.pdf"
+        ],
+        "uuid": "5fea3af9-45a6-4cfd-b1dd-1411f19f34c3",
+        "last-card-change": "2022-09-13",
+        "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
+    },
+    "ioc_data": [],
+    "last_ioc_update": null,
+    "file_name": "rocket_kitten_newscaster_newsbeef",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/rocket-kitten",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "Rocket Kitten",
+            "categories": [
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/shamoon-multi-staged-destructive-attacks-limited-specific-targets",
+            "date": "2017-02-27",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Shamoon: Multi-staged destructive attacks limited to specific targets",
+            "categories": [
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=5758557d-6e3a-4174-90f3-fa92a712ecd9&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2017-02-27",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Shamoon: Multi-staged destructive attacks limited to specific targets",
+            "categories": [
+                "DistTrack",
+                "MimiKatz",
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
+            "date": "2017-02-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "Magic Hound Campaign Attacks Saudi Targets",
+            "categories": [
+                "Leash",
+                "MPKBot",
+                "pupy",
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://en.wikipedia.org/wiki/Rocket_Kitten",
+            "date": "2016-12-26",
+            "organization": "Wikipedia",
+            "author": "Wikipedia",
+            "title": "Rocket Kitten",
+            "categories": [
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf",
+            "date": "2015-11",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "ROCKET KIT TEN: A CAMPAIGN WITH 9 LIVES",
+            "categories": [
+                "FireMalv",
+                "MPKBot",
+                "Woolger",
+                "Cleaver",
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-the-spy-kittens-are-back.pdf",
+            "date": "2015-09-01",
+            "organization": "Trend Micro",
+            "author": "Cedric Pernet",
+            "title": "The Spy Kittens Are Back: Rocket Kitten 2",
+            "categories": [
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://citizenlab.ca/2015/08/iran_two_factor_phishing/",
+            "date": "2015-08-27",
+            "organization": "CitizenLab",
+            "author": "John Scott-Railton",
+            "title": "London Calling: Two-Factor Authentication Phishing From Iran",
+            "categories": [
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "http://www.clearskysec.com/thamar-reservoir/",
+            "date": "2015-06-03",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Thamar Reservoir \u2013 An Iranian cyber-attack campaign against targets in the Middle East",
+            "categories": [
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/operation-woolen-goldfish-when-kittens-go-phishing",
+            "date": "2015-03-19",
+            "organization": "Trend Micro",
+            "author": "Trend Micro",
+            "title": "Rocket Kitten Showing Its Claws: Operation Woolen-GoldFish and the GHOLE campaign",
+            "categories": [
+                "Cleaver",
+                "Rocket Kitten"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "rocke",
+            "procedure_code": "g0106",
+            "procedure_type": "apt-group",
+            "procedure_link": "https://attack.mitre.org/groups/G0106",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1190",
+                    "technique_link": "https://attack.mitre.org/techniques/T1190",
+                    "technique_name": "exploit public-facing application",
+                    "technique_description": "adversaries may attempt to exploit a weakness in an internet-facing host or system to initially access a network. the weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.",
+                    "procedure_description": "rocke exploited apache struts, oracle weblogic (cve-2017-10271), and adobe coldfusion (cve-2017-3066) vulnerabilities to deliver malware.[51][52]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/004",
+                    "technique_name": "command and scripting interpreter : unix shell",
+                    "technique_description": "adversaries may abuse unix shell commands and scripts for execution. unix shells are the primary command prompt on linux and macos systems, though many variations of the unix shell exist (e.g. sh, bash, zsh, etc.) depending on the specific os or distribution. unix shells can control every aspect of a system, with certain commands requiring elevated privileges.",
+                    "procedure_description": "rocke used shell scripts to run commands which would obtain persistence and execute the cryptocurrency mining malware.[38]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.006",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/006",
+                    "technique_name": "command and scripting interpreter : python",
+                    "technique_description": "adversaries may abuse python commands and scripts for execution. python is a very popular scripting/programming language, with capabilities to perform many functions. python can be executed interactively from the command-line (via the python.exe interpreter) or via scripts (.py) that can be written and distributed to different systems. python code can also be compiled into binary executables.",
+                    "procedure_description": "rocke has used python-based malware to install and spread their coinminer.[38]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "rocke installed a cron job that downloaded and executed files from the c2.[11][12][13]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "rocke's miner has created upx-packed files in the windows start menu folder.[225]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1037",
+                    "technique_link": "https://attack.mitre.org/techniques/T1037",
+                    "technique_name": "boot or logon initialization scripts",
+                    "technique_description": "adversaries may use scripts automatically executed at boot or logon initialization to establish persistence. initialization scripts can be used to perform administrative functions, which may often execute other programs or send information to an internal logging server. these scripts can vary based on operating system and whether applied locally or remotely.",
+                    "procedure_description": "rocke has installed an \"init.d\" startup script to maintain persistence.[1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/002",
+                    "technique_name": "create or modify system process : systemd service",
+                    "technique_description": "adversaries may create or modify systemd services to repeatedly execute malicious payloads as part of persistence. systemd is a system and service manager commonly used for managing background daemon processes (also known as services) and other system resources. systemd is the default initialization (init) system on many linux distributions replacing legacy init systems, including sysvinit and upstart, while remaining backwards compatible.",
+                    "procedure_description": "rocke has installed a systemd service script to maintain persistence.[4]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1574.006",
+                    "technique_link": "https://attack.mitre.org/techniques/T1574/006",
+                    "technique_name": "hijack execution flow : dynamic linker hijacking",
+                    "technique_description": "adversaries may execute their own malicious payloads by hijacking environment variables the dynamic linker uses to load shared libraries. during the execution preparation phase of a program, the dynamic linker loads specified absolute paths of shared libraries from environment variables and files, such as ld_preload on linux or dyld_insert_libraries on macos. libraries specified in environment variables are loaded first, taking precedence over system libraries with the same function name. these variables are often used by developers to debug binaries without needing to recompile, deconflict mapped symbols, and implement custom functions without changing the original library.",
+                    "procedure_description": "rocke has modified /etc/ld.so.preload to hook libc functions in order to hide the installed dropper and mining software in process lists.[16]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "rocke installed a cron job that downloaded and executed files from the c2.[11][12][13]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "rocke's miner has created upx-packed files in the windows start menu folder.[225]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1037",
+                    "technique_link": "https://attack.mitre.org/techniques/T1037",
+                    "technique_name": "boot or logon initialization scripts",
+                    "technique_description": "adversaries may use scripts automatically executed at boot or logon initialization to establish persistence. initialization scripts can be used to perform administrative functions, which may often execute other programs or send information to an internal logging server. these scripts can vary based on operating system and whether applied locally or remotely.",
+                    "procedure_description": "rocke has installed an \"init.d\" startup script to maintain persistence.[1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1543.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/002",
+                    "technique_name": "create or modify system process : systemd service",
+                    "technique_description": "adversaries may create or modify systemd services to repeatedly execute malicious payloads as part of persistence. systemd is a system and service manager commonly used for managing background daemon processes (also known as services) and other system resources. systemd is the default initialization (init) system on many linux distributions replacing legacy init systems, including sysvinit and upstart, while remaining backwards compatible.",
+                    "procedure_description": "rocke has installed a systemd service script to maintain persistence.[4]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1574.006",
+                    "technique_link": "https://attack.mitre.org/techniques/T1574/006",
+                    "technique_name": "hijack execution flow : dynamic linker hijacking",
+                    "technique_description": "adversaries may execute their own malicious payloads by hijacking environment variables the dynamic linker uses to load shared libraries. during the execution preparation phase of a program, the dynamic linker loads specified absolute paths of shared libraries from environment variables and files, such as ld_preload on linux or dyld_insert_libraries on macos. libraries specified in environment variables are loaded first, taking precedence over system libraries with the same function name. these variables are often used by developers to debug binaries without needing to recompile, deconflict mapped symbols, and implement custom functions without changing the original library.",
+                    "procedure_description": "rocke has modified /etc/ld.so.preload to hook libc functions in order to hide the installed dropper and mining software in process lists.[16]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/002",
+                    "technique_name": "process injection : portable executable injection",
+                    "technique_description": "adversaries may inject portable executables (pe) into processes in order to evade process-based defenses as well as possibly elevate privileges. pe injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "rocke's miner, \"termshost.exe\", evaded defenses by injecting itself into windows processes, including notepad.exe.[7]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "rocke installed a cron job that downloaded and executed files from the c2.[11][12][13]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "rocke has extracted tar.gz files after downloading them from a c2 server.[199]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1222.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1222/002",
+                    "technique_name": "file and directory permissions modification : linux and mac file and directory permissions modification",
+                    "technique_description": "adversaries may modify file or directory permissions/attributes to evade access control lists (acls) and access protected files. file and directory permissions are commonly managed by acls configured by the file or directory owner, or users with the appropriate permissions. file and directory acl implementations vary by platform, but generally explicitly designate which users or groups can perform which actions (read, write, execute, etc.).",
+                    "procedure_description": "rocke has changed file permissions of files so they could not be modified.[13]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
+                    "technique_name": "hide artifacts : hidden files and directories",
+                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
+                    "procedure_description": "rocke downloaded a file \"libprocesshider\", which could hide files on the target system.[43][44]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1574.006",
+                    "technique_link": "https://attack.mitre.org/techniques/T1574/006",
+                    "technique_name": "hijack execution flow : dynamic linker hijacking",
+                    "technique_description": "adversaries may execute their own malicious payloads by hijacking environment variables the dynamic linker uses to load shared libraries. during the execution preparation phase of a program, the dynamic linker loads specified absolute paths of shared libraries from environment variables and files, such as ld_preload on linux or dyld_insert_libraries on macos. libraries specified in environment variables are loaded first, taking precedence over system libraries with the same function name. these variables are often used by developers to debug binaries without needing to recompile, deconflict mapped symbols, and implement custom functions without changing the original library.",
+                    "procedure_description": "rocke has modified /etc/ld.so.preload to hook libc functions in order to hide the installed dropper and mining software in process lists.[16]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1562.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
+                    "technique_name": "impair defenses : disable or modify tools",
+                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
+                    "procedure_description": "rocke used scripts which detected and uninstalled antivirus software.[77][78]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1562.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1562/004",
+                    "technique_name": "impair defenses : disable or modify system firewall",
+                    "technique_description": "adversaries may disable or modify system firewalls in order to bypass controls limiting network usage. changes could be disabling the entire mechanism as well as adding, deleting, or modifying particular rules. this can be done numerous ways depending on the operating system, including via command-line, editing windows registry keys, and windows control panel.",
+                    "procedure_description": "rocke used scripts which killed processes and added firewall rules to block traffic related to other cryptominers.[33]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/002",
+                    "technique_name": "indicator removal : clear linux or mac system logs",
+                    "technique_description": "adversaries may clear system logs to hide evidence of an intrusion. macos and linux both keep track of system or user-initiated actions via system logs. the majority of native system logging is stored under the /var/log/ directory. subfolders in this directory categorize logs by their related functions, such as:",
+                    "procedure_description": "rocke has cleared log files within the /var/log/ folder.[4]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "rocke has deleted files on infected machines.[203]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.006",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/006",
+                    "technique_name": "indicator removal : timestomp",
+                    "technique_description": "adversaries may modify file time attributes to hide new or changes to existing files. timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. this is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools.",
+                    "procedure_description": "rocke has changed the time stamp of certain files.[46]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
+                    "technique_name": "masquerading : match legitimate name or location",
+                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
+                    "procedure_description": "rocke has used shell scripts which download mining executables and saves them with the filename \"java\".[142]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "rocke has modified upx headers after packing files to break unpackers.[281]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/002",
+                    "technique_name": "obfuscated files or information : software packing",
+                    "technique_description": "adversaries may perform software packing or virtual machine software protection to conceal their code. software packing is a method of compressing or encrypting an executable. packing an executable changes the file signature in an attempt to avoid signature-based detection. most decompression techniques decompress the executable code in memory. virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. a virtual machine is then called to run this code.",
+                    "procedure_description": "rocke's miner has created upx-packed files in the windows start menu folder.[71][72][73]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/004",
+                    "technique_name": "obfuscated files or information : compile after delivery",
+                    "technique_description": "adversaries may attempt to make payloads difficult to discover and analyze by delivering files to victims as uncompiled code. text-based source code files may subvert analysis and scrutiny from protections targeting executables/binaries. these payloads will need to be compiled before execution; typically via native utilities such as csc.exe or gcc/mingw.",
+                    "procedure_description": "rocke has compiled malware, delivered to victims as .c files, with the gnu compiler collection (gcc).[8]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/002",
+                    "technique_name": "process injection : portable executable injection",
+                    "technique_description": "adversaries may inject portable executables (pe) into processes in order to evade process-based defenses as well as possibly elevate privileges. pe injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "rocke's miner, \"termshost.exe\", evaded defenses by injecting itself into windows processes, including notepad.exe.[7]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1014",
+                    "technique_link": "https://attack.mitre.org/techniques/T1014",
+                    "technique_name": "rootkit",
+                    "technique_description": "adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components. rootkits are programs that hide the existence of malware by intercepting/hooking and modifying operating system api calls that supply system information.",
+                    "procedure_description": "rocke has modified /etc/ld.so.preload to hook libc functions in order to hide the installed dropper and mining software in process lists.[22]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/004",
+                    "technique_name": "unsecured credentials : private keys",
+                    "technique_description": "adversaries may search for private key certificate files on compromised systems for insecurely stored credentials. private cryptographic keys and certificates are used for authentication, encryption/decryption, and digital signatures. common key and certificate file extensions include: .key, .pgp, .gpg, .ppk., .p12, .pem, .pfx, .cer, .p7b, .asc.",
+                    "procedure_description": "rocke has used ssh private keys on the infected machine to spread its coinminer throughout a network.[18]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1046",
+                    "technique_link": "https://attack.mitre.org/techniques/T1046",
+                    "technique_name": "network service discovery",
+                    "technique_description": "adversaries may attempt to get a listing of services running on remote hosts and local network infrastructure devices, including those that may be vulnerable to remote software exploitation. common methods to acquire this information include port and/or vulnerability scans using tools that are brought onto a system.",
+                    "procedure_description": "rocke conducted scanning for exposed tcp port 7001 as well as ssh and redis servers.[54][55]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "rocke can detect a running process's pid on the infected machine.[217]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1018",
+                    "technique_link": "https://attack.mitre.org/techniques/T1018",
+                    "technique_name": "remote system discovery",
+                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
+                    "procedure_description": "rocke has looked for ip addresses in the known_hosts file on the infected system and attempted to ssh into them.[76]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1518.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1518/001",
+                    "technique_name": "software discovery : security software discovery",
+                    "technique_description": "adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. this may include things such as firewall rules and anti-virus. adversaries may use the information from security software discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "rocke used scripts which detected and uninstalled antivirus software.[86][87]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "rocke has used uname -m to collect the name and information about the infected system's kernel.[312]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/004",
+                    "technique_name": "remote services : ssh",
+                    "technique_description": "adversaries may use valid accounts to log into remote machines using secure shell (ssh). the adversary may then perform actions as the logged-on user.",
+                    "procedure_description": "rocke has spread its coinminer via ssh.[14]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071",
+                    "technique_name": "application layer protocol",
+                    "technique_description": "adversaries may communicate using osi application layer protocols to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "rocke issued wget requests from infected systems to the c2.[11]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "rocke has executed wget and curl commands to pastebin over the https protocol.[288]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "rocke used malware to download additional malicious files to the target system.[386]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1571",
+                    "technique_link": "https://attack.mitre.org/techniques/T1571",
+                    "technique_name": "non-standard port",
+                    "technique_description": "adversaries may communicate using a protocol and port pairing that are typically not associated. for example, https over port 8088 or port 587 as opposed to the traditional port 443. adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.",
+                    "procedure_description": "rocke's miner connects to a c2 server using port 51640.[32]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1102",
+                    "technique_link": "https://attack.mitre.org/techniques/T1102",
+                    "technique_name": "web service",
+                    "technique_description": "adversaries may use an existing, legitimate external web service as a means for relaying data to/from a compromised system. popular websites and social media acting as a mechanism for c2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. using common services, such as those offered by google or twitter, makes it easier for adversaries to hide in expected noise. web service providers commonly use ssl/tls encryption, giving adversaries an added level of protection.",
+                    "procedure_description": "rocke has used pastebin, gitee, and gitlab for command and control.[29][30]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1102.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1102/001",
+                    "technique_name": "web service : dead drop resolver",
+                    "technique_description": "adversaries may use an existing, legitimate external web service to host information that points to additional command and control (c2) infrastructure. adversaries may post content, known as a dead drop resolver, on web services with embedded (and often obfuscated/encoded) domains or ip addresses. once infected, victims will reach out to and be redirected by these resolvers.",
+                    "procedure_description": "rocke has used pastebin to check the version of beaconing malware and redirect to another pastebin hosting updated malware.[17]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1496",
+                    "technique_link": "https://attack.mitre.org/techniques/T1496",
+                    "technique_name": "resource hijacking",
+                    "technique_description": "adversaries may leverage the resources of co-opted systems in order to solve resource intensive problems, which may impact system and/or hosted service availability.",
+                    "procedure_description": "rocke has distributed cryptomining malware.[16][17]"
+                }
+            ]
+        }
+    ]
+};

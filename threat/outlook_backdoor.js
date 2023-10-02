@@ -33,7 +33,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "outlook_backdoor",
     "analysis": null,
     "articles": [
@@ -137,5 +136,6 @@ var threatdata = {
                 "Outlook Backdoor"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

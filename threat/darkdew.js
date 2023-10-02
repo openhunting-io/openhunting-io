@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "darkdew",
     "analysis": null,
     "articles": [
@@ -55,5 +54,6 @@ var threatdata = {
                 "MISTCLOAK"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

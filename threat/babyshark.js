@@ -36,6 +36,265 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "babyshark",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sentinelone.com/labs/kimsuky-evolves-reconnaissance-capabilities-in-new-global-campaign/",
+            "date": "2023-05-04",
+            "organization": "SentinelOne",
+            "author": "Tom Hegel",
+            "title": "Kimsuky Evolves Reconnaissance Capabilities in New Global Campaign",
+            "categories": [
+                "BabyShark"
+            ]
+        },
+        {
+            "data_url": "https://blog.google/threat-analysis-group/how-were-protecting-users-from-government-backed-attacks-from-north-korea/",
+            "date": "2023-04-05",
+            "organization": "Google",
+            "author": "Adam Weidemann",
+            "title": "How we\u2019re protecting users from government-backed attacks from North Korea",
+            "categories": [
+                "BabyShark"
+            ]
+        },
+        {
+            "data_url": "https://www.huntress.com/blog/targeted-apt-activity-babyshark-is-out-for-blood",
+            "date": "2022-03-01",
+            "organization": "Huntress Labs",
+            "author": "John Hammond",
+            "title": "Targeted APT Activity: BABYSHARK Is Out for Blood",
+            "categories": [
+                "BabyShark"
+            ]
+        },
+        {
+            "data_url": "https://conference.hitb.org/hitbsecconf2021ams/materials/D2T1%20-%20The%20Phishermen%20-%20Dissecting%20Phishing%20Techniques%20of%20CloudDragon%20APT%20-%20Linda%20Kuo%20&Zih-Cing%20Liao%20.pdf",
+            "date": "2021-06-11",
+            "organization": "TEAMT5",
+            "author": "Linda Kuo",
+            "title": "Story of the \u2018Phisherman\u2019 -Dissecting Phishing Techniques of CloudDragon APT (slides)",
+            "categories": [
+                "Appleseed",
+                "BabyShark"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=Dv2_DK3tRgI",
+            "date": "2021-06-11",
+            "organization": "YouTube (Hack In The Box Security Conference)",
+            "author": "Linda Kuo",
+            "title": "Dissecting Phishing Techniques Of CloudDragon APT",
+            "categories": [
+                "Appleseed",
+                "BabyShark"
+            ]
+        },
+        {
+            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
+            "date": "2021-05-20",
+            "organization": "Github (microsoft)",
+            "author": "Microsoft",
+            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
+            "categories": [
+                "STRRAT",
+                "OceanLotus",
+                "BabyShark",
+                "Elise",
+                "Revenge RAT",
+                "WastedLocker",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://i.blackhat.com/asia-21/Friday-Handouts/as-21-Kuo-We-Are-About-To-Land-How-CloudDragon-Turns-A-Nightmare-Into-Reality.pdf",
+            "date": "2021-05-07",
+            "organization": "TEAMT5",
+            "author": "Jhih-Lin Kuo",
+            "title": "\"We Are About to Land\": How CloudDragon Turns a Nightmare Into Reality",
+            "categories": [
+                "FlowerPower",
+                "Appleseed",
+                "BabyShark",
+                "GoldDragon",
+                "NavRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.alyac.co.kr/3352",
+            "date": "2020-11-04",
+            "organization": "ESTsecurity",
+            "author": "Alyac",
+            "title": "\ubd81\ud55c \uc5f0\uacc4 \ud574\ud0b9\uc870\uc9c1 \ud0c8\ub968, \ubbf8\uad6d \ub300\uc120 \uc608\uce21 \uc5b8\ub860 \ubb38\uc11c\ub85c \uc704\uc7a5\ud55c APT \uacf5\uaca9 \uc218\ud589   \ucd9c\ucc98",
+            "categories": [
+                "BabyShark"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+            "date": "2020-11-02",
+            "organization": "Cybereason",
+            "author": "Assaf Dahan",
+            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
+            "categories": [
+                "BabyShark",
+                "GoldDragon",
+                "KGH_SPY",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+            "date": "2020-10-27",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Alert (AA20-301A): North Korean Advanced Persistent Threat Focus: Kimsuky",
+            "categories": [
+                "BabyShark",
+                "GREASE",
+                "MECHANICAL",
+                "Meterpreter",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-services/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-1.html",
+            "date": "2020-03-09",
+            "organization": "PWC UK",
+            "author": "Kris McConkey",
+            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 1",
+            "categories": [
+                "BabyShark",
+                "MyDogs",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+            "date": "2020-03-09",
+            "organization": "PWC UK",
+            "author": "Kris McConkey",
+            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 2",
+            "categories": [
+                "BabyShark",
+                "MyDogs",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+            "date": "2020-03-04",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2020 CrowdStrike Global Threat Report",
+            "categories": [
+                "MESSAGETAP",
+                "More_eggs",
+                "8.t Dropper",
+                "Anchor",
+                "BabyShark",
+                "BadNews",
+                "Clop",
+                "Cobalt Strike",
+                "CobInt",
+                "Cobra Carbon System",
+                "Cutwail",
+                "DanaBot",
+                "Dharma",
+                "DoppelDridex",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FlawedAmmyy",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "IcedID",
+                "ISFB",
+                "KerrDown",
+                "LightNeuron",
+                "LockerGoga",
+                "Maze",
+                "MECHANICAL",
+                "Necurs",
+                "Nokki",
+                "Outlook Backdoor",
+                "Phobos",
+                "Predator The Thief",
+                "QakBot",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SDBbot",
+                "Skipper",
+                "SmokeLoader",
+                "TerraRecon",
+                "TerraStealer",
+                "TerraTV",
+                "TinyLoader",
+                "TrickBot",
+                "Vidar",
+                "Winnti",
+                "ANTHROPOID SPIDER",
+                "APT23",
+                "APT31",
+                "APT39",
+                "APT40",
+                "BlackTech",
+                "BuhTrap",
+                "Charming Kitten",
+                "CLOCKWORK SPIDER",
+                "DOPPEL SPIDER",
+                "FIN7",
+                "Gamaredon Group",
+                "GOBLIN PANDA",
+                "MONTY SPIDER",
+                "MUSTANG PANDA",
+                "NARWHAL SPIDER",
+                "NOCTURNAL SPIDER",
+                "PINCHY SPIDER",
+                "SALTY SPIDER",
+                "SCULLY SPIDER",
+                "SMOKY SPIDER",
+                "Thrip",
+                "VENOM SPIDER",
+                "VICEROY TIGER"
+            ]
+        },
+        {
+            "data_url": "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+            "date": "2019-12-18",
+            "organization": "",
+            "author": "US District Court for the Eastern District of Virginia",
+            "title": "MICROSOFT CORPORATION, Plaintiff, v. JOHN DOES 1-2, CONTROLLING A COMPUTER NETWORK THEREBY INJURING PLAINTIFF AND ITS CUSTOMERS",
+            "categories": [
+                "BabyShark",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/i/web/status/1099147896950185985",
+            "date": "2019-02-22",
+            "organization": "Twitter",
+            "author": "0xffff0800",
+            "title": "Tweet on PE",
+            "categories": [
+                "BabyShark"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks/",
+            "date": "2019-02-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "New BabyShark Malware Targets U.S. National Security Think Tanks",
+            "categories": [
+                "BabyShark",
+                "Kimsuky"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "babyshark",
@@ -495,265 +754,6 @@ var threatdata = {
                     "technique_description": "adversaries may schedule data exfiltration to be performed only at certain times of day or at certain intervals. this could be done to blend traffic patterns with normal activity or availability.",
                     "procedure_description": "shark can pause c2 communications for a specified time.[15]"
                 }
-            ]
-        }
-    ],
-    "file_name": "babyshark",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.sentinelone.com/labs/kimsuky-evolves-reconnaissance-capabilities-in-new-global-campaign/",
-            "date": "2023-05-04",
-            "organization": "SentinelOne",
-            "author": "Tom Hegel",
-            "title": "Kimsuky Evolves Reconnaissance Capabilities in New Global Campaign",
-            "categories": [
-                "BabyShark"
-            ]
-        },
-        {
-            "data_url": "https://blog.google/threat-analysis-group/how-were-protecting-users-from-government-backed-attacks-from-north-korea/",
-            "date": "2023-04-05",
-            "organization": "Google",
-            "author": "Adam Weidemann",
-            "title": "How we\u2019re protecting users from government-backed attacks from North Korea",
-            "categories": [
-                "BabyShark"
-            ]
-        },
-        {
-            "data_url": "https://www.huntress.com/blog/targeted-apt-activity-babyshark-is-out-for-blood",
-            "date": "2022-03-01",
-            "organization": "Huntress Labs",
-            "author": "John Hammond",
-            "title": "Targeted APT Activity: BABYSHARK Is Out for Blood",
-            "categories": [
-                "BabyShark"
-            ]
-        },
-        {
-            "data_url": "https://conference.hitb.org/hitbsecconf2021ams/materials/D2T1%20-%20The%20Phishermen%20-%20Dissecting%20Phishing%20Techniques%20of%20CloudDragon%20APT%20-%20Linda%20Kuo%20&Zih-Cing%20Liao%20.pdf",
-            "date": "2021-06-11",
-            "organization": "TEAMT5",
-            "author": "Linda Kuo",
-            "title": "Story of the \u2018Phisherman\u2019 -Dissecting Phishing Techniques of CloudDragon APT (slides)",
-            "categories": [
-                "Appleseed",
-                "BabyShark"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=Dv2_DK3tRgI",
-            "date": "2021-06-11",
-            "organization": "YouTube (Hack In The Box Security Conference)",
-            "author": "Linda Kuo",
-            "title": "Dissecting Phishing Techniques Of CloudDragon APT",
-            "categories": [
-                "Appleseed",
-                "BabyShark"
-            ]
-        },
-        {
-            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
-            "date": "2021-05-20",
-            "organization": "Github (microsoft)",
-            "author": "Microsoft",
-            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
-            "categories": [
-                "STRRAT",
-                "OceanLotus",
-                "BabyShark",
-                "Elise",
-                "Revenge RAT",
-                "WastedLocker",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://i.blackhat.com/asia-21/Friday-Handouts/as-21-Kuo-We-Are-About-To-Land-How-CloudDragon-Turns-A-Nightmare-Into-Reality.pdf",
-            "date": "2021-05-07",
-            "organization": "TEAMT5",
-            "author": "Jhih-Lin Kuo",
-            "title": "\"We Are About to Land\": How CloudDragon Turns a Nightmare Into Reality",
-            "categories": [
-                "FlowerPower",
-                "Appleseed",
-                "BabyShark",
-                "GoldDragon",
-                "NavRAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.alyac.co.kr/3352",
-            "date": "2020-11-04",
-            "organization": "ESTsecurity",
-            "author": "Alyac",
-            "title": "\ubd81\ud55c \uc5f0\uacc4 \ud574\ud0b9\uc870\uc9c1 \ud0c8\ub968, \ubbf8\uad6d \ub300\uc120 \uc608\uce21 \uc5b8\ub860 \ubb38\uc11c\ub85c \uc704\uc7a5\ud55c APT \uacf5\uaca9 \uc218\ud589   \ucd9c\ucc98",
-            "categories": [
-                "BabyShark"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
-            "date": "2020-11-02",
-            "organization": "Cybereason",
-            "author": "Assaf Dahan",
-            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
-            "categories": [
-                "BabyShark",
-                "GoldDragon",
-                "KGH_SPY",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
-            "date": "2020-10-27",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Alert (AA20-301A): North Korean Advanced Persistent Threat Focus: Kimsuky",
-            "categories": [
-                "BabyShark",
-                "GREASE",
-                "MECHANICAL",
-                "Meterpreter",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/issues/cyber-security-services/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-1.html",
-            "date": "2020-03-09",
-            "organization": "PWC UK",
-            "author": "Kris McConkey",
-            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 1",
-            "categories": [
-                "BabyShark",
-                "MyDogs",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
-            "date": "2020-03-09",
-            "organization": "PWC UK",
-            "author": "Kris McConkey",
-            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 2",
-            "categories": [
-                "BabyShark",
-                "MyDogs",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
-            "date": "2020-03-04",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "2020 CrowdStrike Global Threat Report",
-            "categories": [
-                "MESSAGETAP",
-                "More_eggs",
-                "8.t Dropper",
-                "Anchor",
-                "BabyShark",
-                "BadNews",
-                "Clop",
-                "Cobalt Strike",
-                "CobInt",
-                "Cobra Carbon System",
-                "Cutwail",
-                "DanaBot",
-                "Dharma",
-                "DoppelDridex",
-                "DoppelPaymer",
-                "Dridex",
-                "Emotet",
-                "FlawedAmmyy",
-                "FriedEx",
-                "Gandcrab",
-                "Get2",
-                "IcedID",
-                "ISFB",
-                "KerrDown",
-                "LightNeuron",
-                "LockerGoga",
-                "Maze",
-                "MECHANICAL",
-                "Necurs",
-                "Nokki",
-                "Outlook Backdoor",
-                "Phobos",
-                "Predator The Thief",
-                "QakBot",
-                "REvil",
-                "RobinHood",
-                "Ryuk",
-                "SDBbot",
-                "Skipper",
-                "SmokeLoader",
-                "TerraRecon",
-                "TerraStealer",
-                "TerraTV",
-                "TinyLoader",
-                "TrickBot",
-                "Vidar",
-                "Winnti",
-                "ANTHROPOID SPIDER",
-                "APT23",
-                "APT31",
-                "APT39",
-                "APT40",
-                "BlackTech",
-                "BuhTrap",
-                "Charming Kitten",
-                "CLOCKWORK SPIDER",
-                "DOPPEL SPIDER",
-                "FIN7",
-                "Gamaredon Group",
-                "GOBLIN PANDA",
-                "MONTY SPIDER",
-                "MUSTANG PANDA",
-                "NARWHAL SPIDER",
-                "NOCTURNAL SPIDER",
-                "PINCHY SPIDER",
-                "SALTY SPIDER",
-                "SCULLY SPIDER",
-                "SMOKY SPIDER",
-                "Thrip",
-                "VENOM SPIDER",
-                "VICEROY TIGER"
-            ]
-        },
-        {
-            "data_url": "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
-            "date": "2019-12-18",
-            "organization": "",
-            "author": "US District Court for the Eastern District of Virginia",
-            "title": "MICROSOFT CORPORATION, Plaintiff, v. JOHN DOES 1-2, CONTROLLING A COMPUTER NETWORK THEREBY INJURING PLAINTIFF AND ITS CUSTOMERS",
-            "categories": [
-                "BabyShark",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/i/web/status/1099147896950185985",
-            "date": "2019-02-22",
-            "organization": "Twitter",
-            "author": "0xffff0800",
-            "title": "Tweet on PE",
-            "categories": [
-                "BabyShark"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks/",
-            "date": "2019-02-22",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "New BabyShark Malware Targets U.S. National Security Think Tanks",
-            "categories": [
-                "BabyShark",
-                "Kimsuky"
             ]
         }
     ]

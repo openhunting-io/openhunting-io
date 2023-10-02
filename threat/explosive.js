@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "explosive",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "explosive",
@@ -194,8 +197,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "explosive",
-    "analysis": null,
-    "articles": []
+    ]
 };

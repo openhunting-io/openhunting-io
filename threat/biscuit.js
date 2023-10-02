@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "biscuit",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "biscuit",
@@ -163,8 +166,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "biscuit",
-    "analysis": null,
-    "articles": []
+    ]
 };

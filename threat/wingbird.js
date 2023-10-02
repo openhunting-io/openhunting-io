@@ -33,6 +33,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "wingbird",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "wingbird",
@@ -210,8 +213,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "wingbird",
-    "analysis": null,
-    "articles": []
+    ]
 };

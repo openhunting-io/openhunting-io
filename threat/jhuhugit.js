@@ -78,6 +78,335 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "jhuhugit",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2022/07/30/malware-av-evasion-8.html",
+            "date": "2022-07-30",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware AV evasion - part 8. Encode payload via Z85",
+            "categories": [
+                "Agent Tesla",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Cobalt Strike",
+                "donut_injector"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
+            "date": "2021-09-06",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "AV engines evasion for C++ simple malware: part 2",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "Anchor",
+                "AnchorMTea",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Felixroot",
+                "Konni",
+                "Loki Password Stealer (PWS)",
+                "Maze"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON TWILIGHT",
+            "categories": [
+                "X-Agent",
+                "X-Agent",
+                "X-Agent",
+                "Computrace",
+                "HideDRV",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "Zebrocy",
+                "Zebrocy (AutoIT)"
+            ]
+        },
+        {
+            "data_url": "https://blog.yoroi.company/research/apt28-and-upcoming-elections-possible-interference-signals-part-ii/",
+            "date": "2019-04-18",
+            "organization": "Yoroi",
+            "author": "ZLAB-Yoroi",
+            "title": "APT28 and Upcoming Elections: Evidence of Possible Interference (Part II)",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://www.emanueledelucia.net/apt28-sofacy-seduploader-under-the-christmas-tree/",
+            "date": "2018-12-21",
+            "organization": "",
+            "author": "Emanuele De Lucia",
+            "title": "APT28 / Sofacy \u2013 SedUploader under the Christmas tree",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/election-security/apt28-espionage-military-government",
+            "date": "2018-10-04",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "APT28: New Espionage Operations Target Military and Government Organizations",
+            "categories": [
+                "LoJax",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "Zebrocy",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
+            "date": "2018-02-20",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "A Slice of 2017 Sofacy Activity",
+            "categories": [
+                "Seduploader",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/12/21/sednit-update-fancy-bear-spent-year/",
+            "date": "2017-12-21",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Sednit update: How Fancy Bear Spent the Year",
+            "categories": [
+                "Seduploader",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html",
+            "date": "2017-10-22",
+            "organization": "Cisco",
+            "author": "Warren Mercer",
+            "title": "\u201cCyber Conflict\u201d Decoy Document Used In Real Cyber Conflict",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/apt28-racing-exploit-cve-2017-11292-flash-vulnerability-patches-are-deployed",
+            "date": "2017-10-19",
+            "organization": "Proofpoint",
+            "author": "Kafeine",
+            "title": "APT28 racing to exploit CVE-2017-11292 Flash vulnerability before patches are deployed",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://blog.xpnsec.com/apt28-hospitality-malware-part-2/",
+            "date": "2017-08-13",
+            "organization": "",
+            "author": "Adam Chester",
+            "title": "Analysis of APT28 hospitality malware (Part 2)",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html",
+            "date": "2017-08-11",
+            "organization": "FireEye",
+            "author": "Lindsay Smith",
+            "title": "APT28 Targets Hospitality Sector, Presents Threat to Travelers",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/05/09/sednit-adds-two-zero-day-exploits-using-trumps-attack-syria-decoy/",
+            "date": "2017-05-09",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Sednit adds two zero\u2011day exploits using \u2018Trump\u2019s attack on Syria\u2019 as a decoy",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
+            "date": "2017-02-20",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
+            "categories": [
+                "X-Agent",
+                "Komplex",
+                "Coreshell",
+                "Downdelph",
+                "HideDRV",
+                "SEADADDY",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf",
+            "date": "2017-01-10",
+            "organization": "FireEye",
+            "author": "FireEye iSIGHT Intelligence",
+            "title": "APT28:  At The Center  Of The Storm",
+            "categories": [
+                "Coreshell",
+                "OLDBAIT",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
+            "date": "2016-08",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "En Route with Sednit - Part 1: Approaching the Target",
+            "categories": [
+                "Komplex",
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
+            "date": "2016-06-15",
+            "organization": "CrowdStrike",
+            "author": "Dmitri Alperovitch",
+            "title": "Bears in the Midst: Intrusion into the Democratic National Committee",
+            "categories": [
+                "X-Agent",
+                "ATI-Agent",
+                "SEADADDY",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2016/06/unit42-new-sofacy-attacks-against-us-government-agency/",
+            "date": "2016-06-14",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "New Sofacy Attacks Against US Government Agency",
+            "categories": [
+                "Seduploader",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+            "date": "2015-12-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Sofacy APT hits high profile targets with updated toolset",
+            "categories": [
+                "Coreshell",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/new-adobe-flash-zero-day-used-in-pawn-storm-campaign/",
+            "date": "2015-10-13",
+            "organization": "Trend Micro",
+            "author": "Brooks Li",
+            "title": "New Adobe Flash Zero-Day Used in Pawn Storm Campaign Targeting Foreign Affairs Ministries",
+            "categories": [
+                "Seduploader"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-pawn-storm.pdf",
+            "date": "2014-10-27",
+            "organization": "Trend Micro",
+            "author": "Loucif Kharouni",
+            "title": "Operation Pawn Storm: Using Decoys to Evade Detection",
+            "categories": [
+                "Sedreco",
+                "Seduploader",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20150713145858/http://www.rsaconference.com/writable/presentations/file_upload/ht-t06-dissecting-banking-trojan-carberp_copy1.pdf",
+            "date": "2013-10-29",
+            "organization": "RSA Conference",
+            "author": "Peter K\u00e1lnai",
+            "title": "Dissecting Banking Trojan Carberp",
+            "categories": [
+                "Carberp"
+            ]
+        },
+        {
+            "data_url": "https://blog.avast.com/2013/04/08/carberp_epitaph/",
+            "date": "2013-04-08",
+            "organization": "Avast",
+            "author": "Peter K\u00e1lnai",
+            "title": "Banking Trojan Carberp: An Epitaph?",
+            "categories": [
+                "Carberp"
+            ]
+        },
+        {
+            "data_url": "https://cdn1.esetstatic.com/eset/US/resources/docs/white-papers/white-papers-win-32-carberp.pdf",
+            "date": "2012-03-02",
+            "organization": "ESET Research",
+            "author": "Aleksandr Matrosov",
+            "title": "Win32/Carberp: When You're in a Black Hole, Stop Digging",
+            "categories": [
+                "Carberp"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "jhuhugit",
@@ -789,335 +1118,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "carberp has exfiltrated data via http to already established c2 servers.[23][24]"
                 }
-            ]
-        }
-    ],
-    "file_name": "jhuhugit",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2022/07/30/malware-av-evasion-8.html",
-            "date": "2022-07-30",
-            "organization": "",
-            "author": "cocomelonc",
-            "title": "Malware AV evasion - part 8. Encode payload via Z85",
-            "categories": [
-                "Agent Tesla",
-                "Carbanak",
-                "Carberp",
-                "Cardinal RAT",
-                "Cobalt Strike",
-                "donut_injector"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
-            "date": "2021-09-06",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "AV engines evasion for C++ simple malware: part 2",
-            "categories": [
-                "Agent Tesla",
-                "Amadey",
-                "Anchor",
-                "AnchorMTea",
-                "Carbanak",
-                "Carberp",
-                "Cardinal RAT",
-                "Felixroot",
-                "Konni",
-                "Loki Password Stealer (PWS)",
-                "Maze"
-            ]
-        },
-        {
-            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
-            "date": "2020-08-09",
-            "organization": "F5 Labs",
-            "author": "Remi Cohen",
-            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
-            "categories": [
-                "BackSwap",
-                "Carberp",
-                "Citadel",
-                "DanaBot",
-                "Dridex",
-                "Dyre",
-                "Emotet",
-                "Gozi",
-                "Kronos",
-                "PandaBanker",
-                "Ramnit",
-                "Shylock",
-                "SpyEye",
-                "Tinba",
-                "TrickBot",
-                "Vawtrak",
-                "Zeus"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON TWILIGHT",
-            "categories": [
-                "X-Agent",
-                "X-Agent",
-                "X-Agent",
-                "Computrace",
-                "HideDRV",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel",
-                "Zebrocy",
-                "Zebrocy (AutoIT)"
-            ]
-        },
-        {
-            "data_url": "https://blog.yoroi.company/research/apt28-and-upcoming-elections-possible-interference-signals-part-ii/",
-            "date": "2019-04-18",
-            "organization": "Yoroi",
-            "author": "ZLAB-Yoroi",
-            "title": "APT28 and Upcoming Elections: Evidence of Possible Interference (Part II)",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://www.emanueledelucia.net/apt28-sofacy-seduploader-under-the-christmas-tree/",
-            "date": "2018-12-21",
-            "organization": "",
-            "author": "Emanuele De Lucia",
-            "title": "APT28 / Sofacy \u2013 SedUploader under the Christmas tree",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/election-security/apt28-espionage-military-government",
-            "date": "2018-10-04",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "APT28: New Espionage Operations Target Military and Government Organizations",
-            "categories": [
-                "LoJax",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel",
-                "Zebrocy",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/a-slice-of-2017-sofacy-activity/83930/",
-            "date": "2018-02-20",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "A Slice of 2017 Sofacy Activity",
-            "categories": [
-                "Seduploader",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/12/21/sednit-update-fancy-bear-spent-year/",
-            "date": "2017-12-21",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Sednit update: How Fancy Bear Spent the Year",
-            "categories": [
-                "Seduploader",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/10/cyber-conflict-decoy-document.html",
-            "date": "2017-10-22",
-            "organization": "Cisco",
-            "author": "Warren Mercer",
-            "title": "\u201cCyber Conflict\u201d Decoy Document Used In Real Cyber Conflict",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/apt28-racing-exploit-cve-2017-11292-flash-vulnerability-patches-are-deployed",
-            "date": "2017-10-19",
-            "organization": "Proofpoint",
-            "author": "Kafeine",
-            "title": "APT28 racing to exploit CVE-2017-11292 Flash vulnerability before patches are deployed",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://blog.xpnsec.com/apt28-hospitality-malware-part-2/",
-            "date": "2017-08-13",
-            "organization": "",
-            "author": "Adam Chester",
-            "title": "Analysis of APT28 hospitality malware (Part 2)",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/08/apt28-targets-hospitality-sector.html",
-            "date": "2017-08-11",
-            "organization": "FireEye",
-            "author": "Lindsay Smith",
-            "title": "APT28 Targets Hospitality Sector, Presents Threat to Travelers",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/05/09/sednit-adds-two-zero-day-exploits-using-trumps-attack-syria-decoy/",
-            "date": "2017-05-09",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Sednit adds two zero\u2011day exploits using \u2018Trump\u2019s attack on Syria\u2019 as a decoy",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
-            "date": "2017-02-20",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
-            "categories": [
-                "X-Agent",
-                "Komplex",
-                "Coreshell",
-                "Downdelph",
-                "HideDRV",
-                "SEADADDY",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf",
-            "date": "2017-01-10",
-            "organization": "FireEye",
-            "author": "FireEye iSIGHT Intelligence",
-            "title": "APT28:  At The Center  Of The Storm",
-            "categories": [
-                "Coreshell",
-                "OLDBAIT",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
-            "date": "2016-08",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "En Route with Sednit - Part 1: Approaching the Target",
-            "categories": [
-                "Komplex",
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
-            "date": "2016-06-15",
-            "organization": "CrowdStrike",
-            "author": "Dmitri Alperovitch",
-            "title": "Bears in the Midst: Intrusion into the Democratic National Committee",
-            "categories": [
-                "X-Agent",
-                "ATI-Agent",
-                "SEADADDY",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2016/06/unit42-new-sofacy-attacks-against-us-government-agency/",
-            "date": "2016-06-14",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "New Sofacy Attacks Against US Government Agency",
-            "categories": [
-                "Seduploader",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
-            "date": "2015-12-04",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Sofacy APT hits high profile targets with updated toolset",
-            "categories": [
-                "Coreshell",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/new-adobe-flash-zero-day-used-in-pawn-storm-campaign/",
-            "date": "2015-10-13",
-            "organization": "Trend Micro",
-            "author": "Brooks Li",
-            "title": "New Adobe Flash Zero-Day Used in Pawn Storm Campaign Targeting Foreign Affairs Ministries",
-            "categories": [
-                "Seduploader"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-pawn-storm.pdf",
-            "date": "2014-10-27",
-            "organization": "Trend Micro",
-            "author": "Loucif Kharouni",
-            "title": "Operation Pawn Storm: Using Decoys to Evade Detection",
-            "categories": [
-                "Sedreco",
-                "Seduploader",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20150713145858/http://www.rsaconference.com/writable/presentations/file_upload/ht-t06-dissecting-banking-trojan-carberp_copy1.pdf",
-            "date": "2013-10-29",
-            "organization": "RSA Conference",
-            "author": "Peter K\u00e1lnai",
-            "title": "Dissecting Banking Trojan Carberp",
-            "categories": [
-                "Carberp"
-            ]
-        },
-        {
-            "data_url": "https://blog.avast.com/2013/04/08/carberp_epitaph/",
-            "date": "2013-04-08",
-            "organization": "Avast",
-            "author": "Peter K\u00e1lnai",
-            "title": "Banking Trojan Carberp: An Epitaph?",
-            "categories": [
-                "Carberp"
-            ]
-        },
-        {
-            "data_url": "https://cdn1.esetstatic.com/eset/US/resources/docs/white-papers/white-papers-win-32-carberp.pdf",
-            "date": "2012-03-02",
-            "organization": "ESET Research",
-            "author": "Aleksandr Matrosov",
-            "title": "Win32/Carberp: When You're in a Black Hole, Stop Digging",
-            "categories": [
-                "Carberp"
             ]
         }
     ]

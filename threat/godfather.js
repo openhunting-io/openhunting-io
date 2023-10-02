@@ -178,6 +178,9 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-19 11:59:19",
+    "file_name": "godfather",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "at",
@@ -223,8 +226,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "godfather",
-    "analysis": null,
-    "articles": []
+    ]
 };

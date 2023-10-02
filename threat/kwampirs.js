@@ -34,6 +34,147 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "kwampirs",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://thehackernews.com/2022/03/researchers-find-new-evidence-linking.html",
+            "date": "2022-03-14",
+            "organization": "The Hacker News",
+            "author": "Ravie Lakshmanan",
+            "title": "Researchers Find New Evidence Linking Kwampirs Malware to Shamoon APT Hackers",
+            "categories": [
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://resources.cylera.com/hubfs/Cylera%20Labs/Cylera%20Labs%20Kwampirs%20Shamoon%20Technical%20Report.pdf",
+            "date": "2022-03-08",
+            "organization": "Cylera",
+            "author": "Cylera",
+            "title": "The link between Kwampirs (Orangeworm) and Shamoon APTs",
+            "categories": [
+                "DistTrack",
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://resources.cylera.com/new-evidence-linking-kwampirs-malware-to-shamoon-apts",
+            "date": "2022-02-15",
+            "organization": "Cylera",
+            "author": "Pablo Rinc\u00f3n Crespo",
+            "title": "New Evidence Linking Kwampirs Malware to Shamoon APTS (Technical Blog)",
+            "categories": [
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://www.blackberry.com/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-2021-threat-report.pdf",
+            "date": "2021-03-21",
+            "organization": "Blackberry",
+            "author": "Blackberry Research",
+            "title": "2021 Threat Report",
+            "categories": [
+                "Bashlite",
+                "FritzFrog",
+                "IPStorm",
+                "Mirai",
+                "Tsunami",
+                "elf.wellmess",
+                "AppleJeus",
+                "Dacls",
+                "EvilQuest",
+                "Manuscrypt",
+                "Astaroth",
+                "BazarBackdoor",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "FinFisher RAT",
+                "Kwampirs",
+                "MimiKatz",
+                "NjRAT",
+                "Ryuk",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.atlanticcouncil.org/wp-content/uploads/2020/07/Breaking-trust-Shades-of-crisis-across-an-insecure-software-supply-chain.pdf",
+            "date": "2020-07-29",
+            "organization": "Atlantic Council",
+            "author": "Trey Herr",
+            "title": "BREAKING TRUST: Shades of Crisis Across an Insecure Software Supply Chain",
+            "categories": [
+                "EternalPetya",
+                "GoldenSpy",
+                "Kwampirs",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/fbi-re-sends-alert-about-supply-chain-attacks-for-the-third-time-in-three-months/",
+            "date": "2020-03-31",
+            "organization": "ZDNet",
+            "author": "Catalin Cimpanu",
+            "title": "FBI re-sends alert about supply chain attacks for the third time in three months",
+            "categories": [
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "http://www.documentcloud.org/documents/6821581-FLASH-CP-000111-MW-Downgraded-Version.html",
+            "date": "2020-03-25",
+            "organization": "FBI",
+            "author": "FBI",
+            "title": "FBI Flash CP-000111-MW: Kwampirs Malware Indicators of Compromise Employed in Ongoing Cyber Supply Chain Campaign Targeting Global Industries",
+            "categories": [
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/unpacking-kwampirs-rat",
+            "date": "2020-03-25",
+            "organization": "Reversing Labs",
+            "author": "Karlo Zanki",
+            "title": "Unpacking the Kwampirs RAT",
+            "categories": [
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/fbi-warns-about-ongoing-attacks-against-software-supply-chain-companies/",
+            "date": "2020-02-10",
+            "organization": "ZDNet",
+            "author": "Catalin Cimpanu",
+            "title": "FBI warns about ongoing attacks against software supply chain companies",
+            "categories": [
+                "DistTrack",
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://www.securityartwork.es/2019/03/13/orangeworm-group-kwampirs-analysis-update/",
+            "date": "2019-03-13",
+            "organization": "Security Art Work",
+            "author": "Lab52",
+            "title": "ORANGEWORM GROUP \u2013 KWAMPIRS ANALYSIS UPDATE",
+            "categories": [
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia",
+            "date": "2018-04-23",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia",
+            "categories": [
+                "Kwampirs",
+                "Orangeworm"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "kwampirs",
@@ -317,147 +458,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "kwampirs downloads additional files from c2 servers.[251]"
                 }
-            ]
-        }
-    ],
-    "file_name": "kwampirs",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://thehackernews.com/2022/03/researchers-find-new-evidence-linking.html",
-            "date": "2022-03-14",
-            "organization": "The Hacker News",
-            "author": "Ravie Lakshmanan",
-            "title": "Researchers Find New Evidence Linking Kwampirs Malware to Shamoon APT Hackers",
-            "categories": [
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://resources.cylera.com/hubfs/Cylera%20Labs/Cylera%20Labs%20Kwampirs%20Shamoon%20Technical%20Report.pdf",
-            "date": "2022-03-08",
-            "organization": "Cylera",
-            "author": "Cylera",
-            "title": "The link between Kwampirs (Orangeworm) and Shamoon APTs",
-            "categories": [
-                "DistTrack",
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://resources.cylera.com/new-evidence-linking-kwampirs-malware-to-shamoon-apts",
-            "date": "2022-02-15",
-            "organization": "Cylera",
-            "author": "Pablo Rinc\u00f3n Crespo",
-            "title": "New Evidence Linking Kwampirs Malware to Shamoon APTS (Technical Blog)",
-            "categories": [
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://www.blackberry.com/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-2021-threat-report.pdf",
-            "date": "2021-03-21",
-            "organization": "Blackberry",
-            "author": "Blackberry Research",
-            "title": "2021 Threat Report",
-            "categories": [
-                "Bashlite",
-                "FritzFrog",
-                "IPStorm",
-                "Mirai",
-                "Tsunami",
-                "elf.wellmess",
-                "AppleJeus",
-                "Dacls",
-                "EvilQuest",
-                "Manuscrypt",
-                "Astaroth",
-                "BazarBackdoor",
-                "Cerber",
-                "Cobalt Strike",
-                "Emotet",
-                "FinFisher RAT",
-                "Kwampirs",
-                "MimiKatz",
-                "NjRAT",
-                "Ryuk",
-                "SmokeLoader",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://www.atlanticcouncil.org/wp-content/uploads/2020/07/Breaking-trust-Shades-of-crisis-across-an-insecure-software-supply-chain.pdf",
-            "date": "2020-07-29",
-            "organization": "Atlantic Council",
-            "author": "Trey Herr",
-            "title": "BREAKING TRUST: Shades of Crisis Across an Insecure Software Supply Chain",
-            "categories": [
-                "EternalPetya",
-                "GoldenSpy",
-                "Kwampirs",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.zdnet.com/article/fbi-re-sends-alert-about-supply-chain-attacks-for-the-third-time-in-three-months/",
-            "date": "2020-03-31",
-            "organization": "ZDNet",
-            "author": "Catalin Cimpanu",
-            "title": "FBI re-sends alert about supply chain attacks for the third time in three months",
-            "categories": [
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "http://www.documentcloud.org/documents/6821581-FLASH-CP-000111-MW-Downgraded-Version.html",
-            "date": "2020-03-25",
-            "organization": "FBI",
-            "author": "FBI",
-            "title": "FBI Flash CP-000111-MW: Kwampirs Malware Indicators of Compromise Employed in Ongoing Cyber Supply Chain Campaign Targeting Global Industries",
-            "categories": [
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://blog.reversinglabs.com/blog/unpacking-kwampirs-rat",
-            "date": "2020-03-25",
-            "organization": "Reversing Labs",
-            "author": "Karlo Zanki",
-            "title": "Unpacking the Kwampirs RAT",
-            "categories": [
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://www.zdnet.com/article/fbi-warns-about-ongoing-attacks-against-software-supply-chain-companies/",
-            "date": "2020-02-10",
-            "organization": "ZDNet",
-            "author": "Catalin Cimpanu",
-            "title": "FBI warns about ongoing attacks against software supply chain companies",
-            "categories": [
-                "DistTrack",
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://www.securityartwork.es/2019/03/13/orangeworm-group-kwampirs-analysis-update/",
-            "date": "2019-03-13",
-            "organization": "Security Art Work",
-            "author": "Lab52",
-            "title": "ORANGEWORM GROUP \u2013 KWAMPIRS ANALYSIS UPDATE",
-            "categories": [
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/blogs/threat-intelligence/orangeworm-targets-healthcare-us-europe-asia",
-            "date": "2018-04-23",
-            "organization": "Symantec",
-            "author": "Security Response Attack Investigation Team",
-            "title": "New Orangeworm attack group targets the healthcare sector in the U.S., Europe, and Asia",
-            "categories": [
-                "Kwampirs",
-                "Orangeworm"
             ]
         }
     ]

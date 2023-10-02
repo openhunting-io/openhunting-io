@@ -33,9 +33,9 @@ var threatdata = {
             "malware": "win.darkvnc",
             "last_update": "2023-08-14 06:07:11",
             "tags": [
-                "hvnc",
+                "rat",
                 "DarkVNC",
-                "rat"
+                "hvnc"
             ],
             "ioc": {
                 "domain": [
@@ -70,7 +70,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-08-14 06:07:11",
-    "mitre": [],
     "file_name": "darkvnc",
     "analysis": null,
     "articles": [
@@ -107,5 +106,6 @@ var threatdata = {
                 "DarkVNC"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "skeletonkeyinjector",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "tor",
@@ -58,8 +61,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "skeletonkeyinjector",
-    "analysis": null,
-    "articles": []
+    ]
 };

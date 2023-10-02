@@ -35,6 +35,42 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powruner",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
+            "date": "2019-08-22",
+            "organization": "Cyware",
+            "author": "Cyware",
+            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
+            "categories": [
+                "TwoFace",
+                "BONDUPDATER",
+                "POWRUNER",
+                "QUADAGENT",
+                "Helminth",
+                "ISMAgent",
+                "Karkoff",
+                "LONGWATCH",
+                "OopsIE",
+                "PICKPOCKET",
+                "RGDoor",
+                "VALUEVAULT"
+            ]
+        },
+        {
+            "data_url": "https://www.boozallen.com/s/insight/blog/dark-labs-discovers-apt34-malware-variants.html?cid=spo-csatb-2",
+            "date": "2018-04-20",
+            "organization": "Booz Allen Hamilton",
+            "author": "Jay Novak",
+            "title": "Researchers Discover New variants of APT34 Malware",
+            "categories": [
+                "BONDUPDATER",
+                "POWRUNER"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "powruner",
@@ -306,42 +342,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "powruner can download or upload files from its c2 server.[324]"
                 }
-            ]
-        }
-    ],
-    "file_name": "powruner",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
-            "date": "2019-08-22",
-            "organization": "Cyware",
-            "author": "Cyware",
-            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
-            "categories": [
-                "TwoFace",
-                "BONDUPDATER",
-                "POWRUNER",
-                "QUADAGENT",
-                "Helminth",
-                "ISMAgent",
-                "Karkoff",
-                "LONGWATCH",
-                "OopsIE",
-                "PICKPOCKET",
-                "RGDoor",
-                "VALUEVAULT"
-            ]
-        },
-        {
-            "data_url": "https://www.boozallen.com/s/insight/blog/dark-labs-discovers-apt34-malware-variants.html?cid=spo-csatb-2",
-            "date": "2018-04-20",
-            "organization": "Booz Allen Hamilton",
-            "author": "Jay Novak",
-            "title": "Researchers Discover New variants of APT34 Malware",
-            "categories": [
-                "BONDUPDATER",
-                "POWRUNER"
             ]
         }
     ]

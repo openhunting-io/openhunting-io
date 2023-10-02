@@ -33,6 +33,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ndiskmonitor",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "ndiskmonitor",
@@ -134,8 +137,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "ndiskmonitor",
-    "analysis": null,
-    "articles": []
+    ]
 };

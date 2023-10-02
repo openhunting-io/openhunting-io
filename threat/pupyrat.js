@@ -44,6 +44,274 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pupyrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://labs.k7computing.com/index.php/pupy-rat-hiding-under-werfaults-cover/",
+            "date": "2023-01-04",
+            "organization": "K7 Security",
+            "author": "Saikumaravel",
+            "title": "Pupy RAT hiding under WerFault\u2019s cover",
+            "categories": [
+                "pupy"
+            ]
+        },
+        {
+            "data_url": "https://www.infinitumit.com.tr/apt-35/",
+            "date": "2022-06-20",
+            "organization": "Infinitum IT",
+            "author": "infinitum IT",
+            "title": "Charming Kitten (APT35)",
+            "categories": [
+                "LaZagne",
+                "DownPaper",
+                "MimiKatz",
+                "pupy"
+            ]
+        },
+        {
+            "data_url": "https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/",
+            "date": "2022-06-15",
+            "organization": "Volexity",
+            "author": "Steven Adair",
+            "title": "DriftingCloud: Zero-Day Sophos Firewall Exploitation and an Insidious Breach",
+            "categories": [
+                "pupy",
+                "Sliver"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-operation-earth-berberoka.pdf",
+            "date": "2022-05-23",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "Operation Earth Berberoka",
+            "categories": [
+                "reptile",
+                "oRAT",
+                "Ghost RAT",
+                "PlugX",
+                "pupy",
+                "Earth Berberoka"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/txt/earth-berberoka-linux-iocs-2.txt",
+            "date": "2022-04-27",
+            "organization": "Trendmicro",
+            "author": "Trendmicro",
+            "title": "IOCs for Earth Berberoka - Linux",
+            "categories": [
+                "Rekoobe",
+                "pupy",
+                "Earth Berberoka"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0330.pdf",
+            "date": "2022-03-30",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "Social Engineering  Remains Key Tradecraft  for Iranian APTs",
+            "categories": [
+                "Liderc",
+                "pupy"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0107.pdf",
+            "date": "2021-01-07",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Aversary Infrastructure Report 2020: A Defender's View",
+            "categories": [
+                "Octopus",
+                "pupy",
+                "Cobalt Strike",
+                "Empire Downloader",
+                "Meterpreter",
+                "PoshC2"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2020-0123.pdf",
+            "date": "2020-01-23",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "European Energy Sector Organization Targeted by PupyRAT Malware in Late 2019",
+            "categories": [
+                "pupy",
+                "pupy",
+                "pupy"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT TRINITY",
+            "categories": [
+                "POWERTON",
+                "pupy",
+                "Imminent Monitor RAT",
+                "Koadic",
+                "Nanocore RAT",
+                "NetWire RC",
+                "PoshC2",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-gypsy",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT GYPSY",
+            "categories": [
+                "TwoFace",
+                "MacDownloader",
+                "BONDUPDATER",
+                "pupy",
+                "Helminth",
+                "jason",
+                "RGDoor",
+                "TinyZbot",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+            "date": "2019-11-19",
+            "organization": "FireEye",
+            "author": "Kelli Vanderlee",
+            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
+            "categories": [
+                "MESSAGETAP",
+                "TSCookie",
+                "ACEHASH",
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "Derusbi",
+                "Empire Downloader",
+                "Ghost RAT",
+                "HIGHNOON",
+                "HTran",
+                "MimiKatz",
+                "NetWire RC",
+                "poisonplug",
+                "Poison Ivy",
+                "pupy",
+                "Quasar RAT",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://github.com/n1nj4sec/pupy",
+            "date": "2019-08-22",
+            "organization": "Github (n1nj4sec)",
+            "author": "n1nj4sec",
+            "title": "Pupy RAT",
+            "categories": [
+                "pupy",
+                "pupy",
+                "pupy"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage",
+            "date": "2019-03-27",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
+            "categories": [
+                "DarkComet",
+                "Nanocore RAT",
+                "pupy",
+                "Quasar RAT",
+                "Remcos",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/elfin-apt33-espionage",
+            "date": "2019-03-27",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
+            "categories": [
+                "DarkComet",
+                "MimiKatz",
+                "Nanocore RAT",
+                "NetWire RC",
+                "pupy",
+                "Quasar RAT",
+                "Remcos",
+                "StoneDrill",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/12/overruled-containing-a-potentially-destructive-adversary.html",
+            "date": "2018-12-21",
+            "organization": "FireEye",
+            "author": "Geoff Ackerman",
+            "title": "OVERRULED: Containing a Potentially Destructive Adversary",
+            "categories": [
+                "POWERTON",
+                "PoshC2",
+                "pupy"
+            ]
+        },
+        {
+            "data_url": "https://securityaffairs.co/wordpress/56348/intelligence/magic-hound-campaign.html",
+            "date": "2017-02-16",
+            "organization": "SecurityAffairs",
+            "author": "Pierluigi Paganini",
+            "title": "Iranian hackers behind the Magic Hound campaign linked to Shamoon",
+            "categories": [
+                "pupy",
+                "APT35"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
+            "date": "2017-02-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "Magic Hound Campaign Attacks Saudi Targets",
+            "categories": [
+                "Leash",
+                "MPKBot",
+                "pupy",
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/iranian-pupyrat-bites-middle-eastern-organizations",
+            "date": "2017-02-15",
+            "organization": "Secureworks",
+            "author": "SecureWorks' Counter Threat Unit Research Team",
+            "title": "Iranian PupyRAT Bites Middle Eastern Organizations",
+            "categories": [
+                "pupy",
+                "Cleaver"
+            ]
+        },
+        {
+            "data_url": "https://blog.cyber4sight.com/2017/02/malicious-powershell-script-analysis-indicates-shamoon-actors-used-pupy-rat/",
+            "date": "2017-02-10",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "Malware that infects using PowerSploit",
+            "categories": [
+                "pupy"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "pupy",
@@ -683,274 +951,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pupyrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://labs.k7computing.com/index.php/pupy-rat-hiding-under-werfaults-cover/",
-            "date": "2023-01-04",
-            "organization": "K7 Security",
-            "author": "Saikumaravel",
-            "title": "Pupy RAT hiding under WerFault\u2019s cover",
-            "categories": [
-                "pupy"
-            ]
-        },
-        {
-            "data_url": "https://www.infinitumit.com.tr/apt-35/",
-            "date": "2022-06-20",
-            "organization": "Infinitum IT",
-            "author": "infinitum IT",
-            "title": "Charming Kitten (APT35)",
-            "categories": [
-                "LaZagne",
-                "DownPaper",
-                "MimiKatz",
-                "pupy"
-            ]
-        },
-        {
-            "data_url": "https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/",
-            "date": "2022-06-15",
-            "organization": "Volexity",
-            "author": "Steven Adair",
-            "title": "DriftingCloud: Zero-Day Sophos Firewall Exploitation and an Insidious Breach",
-            "categories": [
-                "pupy",
-                "Sliver"
-            ]
-        },
-        {
-            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-operation-earth-berberoka.pdf",
-            "date": "2022-05-23",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "Operation Earth Berberoka",
-            "categories": [
-                "reptile",
-                "oRAT",
-                "Ghost RAT",
-                "PlugX",
-                "pupy",
-                "Earth Berberoka"
-            ]
-        },
-        {
-            "data_url": "https://documents.trendmicro.com/assets/txt/earth-berberoka-linux-iocs-2.txt",
-            "date": "2022-04-27",
-            "organization": "Trendmicro",
-            "author": "Trendmicro",
-            "title": "IOCs for Earth Berberoka - Linux",
-            "categories": [
-                "Rekoobe",
-                "pupy",
-                "Earth Berberoka"
-            ]
-        },
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0330.pdf",
-            "date": "2022-03-30",
-            "organization": "Recorded Future",
-            "author": "Insikt Group",
-            "title": "Social Engineering  Remains Key Tradecraft  for Iranian APTs",
-            "categories": [
-                "Liderc",
-                "pupy"
-            ]
-        },
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0107.pdf",
-            "date": "2021-01-07",
-            "organization": "Recorded Future",
-            "author": "Insikt Group\u00ae",
-            "title": "Aversary Infrastructure Report 2020: A Defender's View",
-            "categories": [
-                "Octopus",
-                "pupy",
-                "Cobalt Strike",
-                "Empire Downloader",
-                "Meterpreter",
-                "PoshC2"
-            ]
-        },
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2020-0123.pdf",
-            "date": "2020-01-23",
-            "organization": "Recorded Future",
-            "author": "Insikt Group",
-            "title": "European Energy Sector Organization Targeted by PupyRAT Malware in Late 2019",
-            "categories": [
-                "pupy",
-                "pupy",
-                "pupy"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT TRINITY",
-            "categories": [
-                "POWERTON",
-                "pupy",
-                "Imminent Monitor RAT",
-                "Koadic",
-                "Nanocore RAT",
-                "NetWire RC",
-                "PoshC2",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-gypsy",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT GYPSY",
-            "categories": [
-                "TwoFace",
-                "MacDownloader",
-                "BONDUPDATER",
-                "pupy",
-                "Helminth",
-                "jason",
-                "RGDoor",
-                "TinyZbot",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
-            "date": "2019-11-19",
-            "organization": "FireEye",
-            "author": "Kelli Vanderlee",
-            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
-            "categories": [
-                "MESSAGETAP",
-                "TSCookie",
-                "ACEHASH",
-                "CHINACHOPPER",
-                "Cobalt Strike",
-                "Derusbi",
-                "Empire Downloader",
-                "Ghost RAT",
-                "HIGHNOON",
-                "HTran",
-                "MimiKatz",
-                "NetWire RC",
-                "poisonplug",
-                "Poison Ivy",
-                "pupy",
-                "Quasar RAT",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://github.com/n1nj4sec/pupy",
-            "date": "2019-08-22",
-            "organization": "Github (n1nj4sec)",
-            "author": "n1nj4sec",
-            "title": "Pupy RAT",
-            "categories": [
-                "pupy",
-                "pupy",
-                "pupy"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage",
-            "date": "2019-03-27",
-            "organization": "Symantec",
-            "author": "Security Response Attack Investigation Team",
-            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
-            "categories": [
-                "DarkComet",
-                "Nanocore RAT",
-                "pupy",
-                "Quasar RAT",
-                "Remcos",
-                "TURNEDUP",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/elfin-apt33-espionage",
-            "date": "2019-03-27",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
-            "categories": [
-                "DarkComet",
-                "MimiKatz",
-                "Nanocore RAT",
-                "NetWire RC",
-                "pupy",
-                "Quasar RAT",
-                "Remcos",
-                "StoneDrill",
-                "TURNEDUP",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2018/12/overruled-containing-a-potentially-destructive-adversary.html",
-            "date": "2018-12-21",
-            "organization": "FireEye",
-            "author": "Geoff Ackerman",
-            "title": "OVERRULED: Containing a Potentially Destructive Adversary",
-            "categories": [
-                "POWERTON",
-                "PoshC2",
-                "pupy"
-            ]
-        },
-        {
-            "data_url": "https://securityaffairs.co/wordpress/56348/intelligence/magic-hound-campaign.html",
-            "date": "2017-02-16",
-            "organization": "SecurityAffairs",
-            "author": "Pierluigi Paganini",
-            "title": "Iranian hackers behind the Magic Hound campaign linked to Shamoon",
-            "categories": [
-                "pupy",
-                "APT35"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2017/02/unit42-magic-hound-campaign-attacks-saudi-targets/",
-            "date": "2017-02-15",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Bryan Lee",
-            "title": "Magic Hound Campaign Attacks Saudi Targets",
-            "categories": [
-                "Leash",
-                "MPKBot",
-                "pupy",
-                "Rocket Kitten"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/blog/iranian-pupyrat-bites-middle-eastern-organizations",
-            "date": "2017-02-15",
-            "organization": "Secureworks",
-            "author": "SecureWorks' Counter Threat Unit Research Team",
-            "title": "Iranian PupyRAT Bites Middle Eastern Organizations",
-            "categories": [
-                "pupy",
-                "Cleaver"
-            ]
-        },
-        {
-            "data_url": "https://blog.cyber4sight.com/2017/02/malicious-powershell-script-analysis-indicates-shamoon-actors-used-pupy-rat/",
-            "date": "2017-02-10",
-            "organization": "JPCERT/CC",
-            "author": "Shusei Tomonaga",
-            "title": "Malware that infects using PowerSploit",
-            "categories": [
-                "pupy"
             ]
         }
     ]

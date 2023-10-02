@@ -38,6 +38,96 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ramsay",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/16/malware-pers-5.html",
+            "date": "2022-05-16",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 6. Windows netsh helper DLL. Simple C++ example.",
+            "categories": [
+                "CherryPicker POS",
+                "Ramsay"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
+            "date": "2021-12-01",
+            "organization": "ESET Research",
+            "author": "Alexis Dorais-Joncas",
+            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
+            "categories": [
+                "Agent.BTZ",
+                "Fanny",
+                "Flame",
+                "Gauss",
+                "PlugX",
+                "Ramsay",
+                "Retro",
+                "Stuxnet",
+                "USBCulprit",
+                "USBferry"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=SKIu4LqMrns",
+            "date": "2020-09-22",
+            "organization": "Youtube (Virus Bulletin)",
+            "author": "Ignacio Sanmillan",
+            "title": "Ramsay: A cyber-espionage toolkit tailored for air-gapped networks",
+            "categories": [
+                "Ramsay"
+            ]
+        },
+        {
+            "data_url": "https://blog.bushidotoken.net/2020/06/deep-dive-darkhotel-apt.html",
+            "date": "2020-06-14",
+            "organization": "BushidoToken",
+            "author": "BushidoToken",
+            "title": "Deep-dive: The DarkHotel APT",
+            "categories": [
+                "Asruex",
+                "Ghost RAT",
+                "Ramsay",
+                "Retro",
+                "Unidentified 076 (Higaisa LNK to Shellcode)"
+            ]
+        },
+        {
+            "data_url": "https://www.antiy.cn/research/notice&report/research_report/20200522.html",
+            "date": "2020-05-22",
+            "organization": "Antiy CERT",
+            "author": "Antiy CERT",
+            "title": "Analysis of Ramsay components of Darkhotel's infiltration and isolation network",
+            "categories": [
+                "Ramsay",
+                "DarkHotel"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/blog/why-on-device-detection-matters-new-ramsay-trojan-targets-air-gapped-networks/",
+            "date": "2020-05-20",
+            "organization": "SentinelOne",
+            "author": "Jim Walter",
+            "title": "Why On-Device Detection Matters: New Ramsay Trojan Targets Air-Gapped Networks",
+            "categories": [
+                "Ramsay"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/05/13/ramsay-cyberespionage-toolkit-airgapped-networks/",
+            "date": "2020-05-13",
+            "organization": "ESET Research",
+            "author": "Ignacio Sanmillan",
+            "title": "Ramsay: A cyber\u2011espionage toolkit tailored for air\u2011gapped networks",
+            "categories": [
+                "Ramsay",
+                "Retro"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "ramsay",
@@ -621,96 +711,6 @@ var threatdata = {
                     "technique_description": "adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. common data encoding schemes include ascii, unicode, hexadecimal, base64, and mime. some data encoding systems may also result in data compression, such as gzip.",
                     "procedure_description": "ramsay has used base64 to encode its c2 traffic.[75]"
                 }
-            ]
-        }
-    ],
-    "file_name": "ramsay",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/16/malware-pers-5.html",
-            "date": "2022-05-16",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 6. Windows netsh helper DLL. Simple C++ example.",
-            "categories": [
-                "CherryPicker POS",
-                "Ramsay"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
-            "date": "2021-12-01",
-            "organization": "ESET Research",
-            "author": "Alexis Dorais-Joncas",
-            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
-            "categories": [
-                "Agent.BTZ",
-                "Fanny",
-                "Flame",
-                "Gauss",
-                "PlugX",
-                "Ramsay",
-                "Retro",
-                "Stuxnet",
-                "USBCulprit",
-                "USBferry"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=SKIu4LqMrns",
-            "date": "2020-09-22",
-            "organization": "Youtube (Virus Bulletin)",
-            "author": "Ignacio Sanmillan",
-            "title": "Ramsay: A cyber-espionage toolkit tailored for air-gapped networks",
-            "categories": [
-                "Ramsay"
-            ]
-        },
-        {
-            "data_url": "https://blog.bushidotoken.net/2020/06/deep-dive-darkhotel-apt.html",
-            "date": "2020-06-14",
-            "organization": "BushidoToken",
-            "author": "BushidoToken",
-            "title": "Deep-dive: The DarkHotel APT",
-            "categories": [
-                "Asruex",
-                "Ghost RAT",
-                "Ramsay",
-                "Retro",
-                "Unidentified 076 (Higaisa LNK to Shellcode)"
-            ]
-        },
-        {
-            "data_url": "https://www.antiy.cn/research/notice&report/research_report/20200522.html",
-            "date": "2020-05-22",
-            "organization": "Antiy CERT",
-            "author": "Antiy CERT",
-            "title": "Analysis of Ramsay components of Darkhotel's infiltration and isolation network",
-            "categories": [
-                "Ramsay",
-                "DarkHotel"
-            ]
-        },
-        {
-            "data_url": "https://www.sentinelone.com/blog/why-on-device-detection-matters-new-ramsay-trojan-targets-air-gapped-networks/",
-            "date": "2020-05-20",
-            "organization": "SentinelOne",
-            "author": "Jim Walter",
-            "title": "Why On-Device Detection Matters: New Ramsay Trojan Targets Air-Gapped Networks",
-            "categories": [
-                "Ramsay"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/05/13/ramsay-cyberespionage-toolkit-airgapped-networks/",
-            "date": "2020-05-13",
-            "organization": "ESET Research",
-            "author": "Ignacio Sanmillan",
-            "title": "Ramsay: A cyber\u2011espionage toolkit tailored for air\u2011gapped networks",
-            "categories": [
-                "Ramsay",
-                "Retro"
             ]
         }
     ]

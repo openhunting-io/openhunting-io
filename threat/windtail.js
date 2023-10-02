@@ -31,6 +31,83 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "windtail",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/04/vb2019-paper-cyber-espionage-middle-east-unravelling-osxwindtail/",
+            "date": "2019-12-12",
+            "organization": "Virus Bulletin",
+            "author": "Patrick Wardle",
+            "title": "Cyber espionage in the Middle East: unravelling OSX.WindTail",
+            "categories": [
+                "WindTail"
+            ]
+        },
+        {
+            "data_url": "https://posts.specterops.io/introducing-venator-a-macos-tool-for-proactive-detection-34055a017e56",
+            "date": "2019-04-24",
+            "organization": "SpecterOps",
+            "author": "Richie Cyrus",
+            "title": "Introducing Venator: A macOS tool for proactive detection",
+            "categories": [
+                "AppleJeus",
+                "WindTail"
+            ]
+        },
+        {
+            "data_url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
+            "date": "2019-04-08",
+            "organization": "SANS Cyber Security Summit",
+            "author": "Taha Karim",
+            "title": "Trails of WindShift",
+            "categories": [
+                "WindTail",
+                "ZhMimikatz"
+            ]
+        },
+        {
+            "data_url": "https://objective-see.com/blog/blog_0x3D.html",
+            "date": "2019-01-15",
+            "organization": "Obective See",
+            "author": "Patrick Wardle",
+            "title": "Middle East Cyber-Espionage: analyzing WindShift's implant: OSX.WindTail (part 2)",
+            "categories": [
+                "WindTail"
+            ]
+        },
+        {
+            "data_url": "https://objective-see.com/blog/blog_0x3B.html",
+            "date": "2018-12-20",
+            "organization": "Objective-See",
+            "author": "Patrick Wardle",
+            "title": "Middle East Cyber-Espionage: analyzing WindShift's implant: OSX.WindTail (part 1)",
+            "categories": [
+                "WindTail"
+            ]
+        },
+        {
+            "data_url": "https://www.forbes.com/sites/thomasbrewster/2018/08/30/apple-mac-loophole-breached-in-middle-east-hacks/",
+            "date": "2018-08-30",
+            "organization": "Forbes",
+            "author": "Thomas Brewster",
+            "title": "Hackers Are Exposing An Apple Mac Weakness In Middle East Espionage",
+            "categories": [
+                "WindTail"
+            ]
+        },
+        {
+            "data_url": "https://gsec.hitb.org/materials/sg2018/D1%20COMMSEC%20-%20In%20the%20Trails%20of%20WINDSHIFT%20APT%20-%20Taha%20Karim.pdf",
+            "date": "2018",
+            "organization": "DarkMatter",
+            "author": "Taha K.",
+            "title": "IN THE TRAILS OF WINDSHIFTAPT",
+            "categories": [
+                "WindTail",
+                "WindShift"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "windtail",
@@ -206,83 +283,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "windtail has the ability to automatically exfiltrate files using the macos built-in utility /usr/bin/curl.[31]"
                 }
-            ]
-        }
-    ],
-    "file_name": "windtail",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/04/vb2019-paper-cyber-espionage-middle-east-unravelling-osxwindtail/",
-            "date": "2019-12-12",
-            "organization": "Virus Bulletin",
-            "author": "Patrick Wardle",
-            "title": "Cyber espionage in the Middle East: unravelling OSX.WindTail",
-            "categories": [
-                "WindTail"
-            ]
-        },
-        {
-            "data_url": "https://posts.specterops.io/introducing-venator-a-macos-tool-for-proactive-detection-34055a017e56",
-            "date": "2019-04-24",
-            "organization": "SpecterOps",
-            "author": "Richie Cyrus",
-            "title": "Introducing Venator: A macOS tool for proactive detection",
-            "categories": [
-                "AppleJeus",
-                "WindTail"
-            ]
-        },
-        {
-            "data_url": "https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1554718868.pdf",
-            "date": "2019-04-08",
-            "organization": "SANS Cyber Security Summit",
-            "author": "Taha Karim",
-            "title": "Trails of WindShift",
-            "categories": [
-                "WindTail",
-                "ZhMimikatz"
-            ]
-        },
-        {
-            "data_url": "https://objective-see.com/blog/blog_0x3D.html",
-            "date": "2019-01-15",
-            "organization": "Obective See",
-            "author": "Patrick Wardle",
-            "title": "Middle East Cyber-Espionage: analyzing WindShift's implant: OSX.WindTail (part 2)",
-            "categories": [
-                "WindTail"
-            ]
-        },
-        {
-            "data_url": "https://objective-see.com/blog/blog_0x3B.html",
-            "date": "2018-12-20",
-            "organization": "Objective-See",
-            "author": "Patrick Wardle",
-            "title": "Middle East Cyber-Espionage: analyzing WindShift's implant: OSX.WindTail (part 1)",
-            "categories": [
-                "WindTail"
-            ]
-        },
-        {
-            "data_url": "https://www.forbes.com/sites/thomasbrewster/2018/08/30/apple-mac-loophole-breached-in-middle-east-hacks/",
-            "date": "2018-08-30",
-            "organization": "Forbes",
-            "author": "Thomas Brewster",
-            "title": "Hackers Are Exposing An Apple Mac Weakness In Middle East Espionage",
-            "categories": [
-                "WindTail"
-            ]
-        },
-        {
-            "data_url": "https://gsec.hitb.org/materials/sg2018/D1%20COMMSEC%20-%20In%20the%20Trails%20of%20WINDSHIFT%20APT%20-%20Taha%20Karim.pdf",
-            "date": "2018",
-            "organization": "DarkMatter",
-            "author": "Taha K.",
-            "title": "IN THE TRAILS OF WINDSHIFTAPT",
-            "categories": [
-                "WindTail",
-                "WindShift"
             ]
         }
     ]

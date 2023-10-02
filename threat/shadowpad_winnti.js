@@ -39,6 +39,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "shadowpad_winnti",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "shadowpad",
@@ -312,8 +315,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "shadowpad_winnti",
-    "analysis": null,
-    "articles": []
+    ]
 };

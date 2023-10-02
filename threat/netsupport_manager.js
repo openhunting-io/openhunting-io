@@ -39,6 +39,170 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "netsupport_manager",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/23/c/new-opcjacker-malware-distributed-via-fake-vpn-malvertising.html",
+            "date": "2023-03-29",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "New OpcJacker Malware Distributed via Fake VPN Malvertising",
+            "categories": [
+                "NetSupportManager RAT",
+                "OpcJacker"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/45312/",
+            "date": "2023-01-06",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "Distribution of NetSupport RAT Malware Disguised as a Pokemon Game",
+            "categories": [
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.sekoia.io/privateloader-the-loader-of-the-prevalent-ruzki-ppi-service/",
+            "date": "2022-09-15",
+            "organization": "Sekoia",
+            "author": "Threat & Detection Research Team",
+            "title": "PrivateLoader: the loader of the prevalent ruzki PPI service",
+            "categories": [
+                "Agent Tesla",
+                "Coinminer",
+                "DanaBot",
+                "DCRat",
+                "Eternity Stealer",
+                "Glupteba",
+                "Mars Stealer",
+                "NetSupportManager RAT",
+                "Nymaim",
+                "Nymaim2",
+                "Phoenix Keylogger",
+                "PrivateLoader",
+                "Raccoon",
+                "RedLine Stealer",
+                "SmokeLoader",
+                "Socelars",
+                "STOP",
+                "Vidar",
+                "YTStealer"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/socgholish-campaigns-and-initial-access-kit-4c4283fea8ee",
+            "date": "2022-05-25",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "SocGholish Campaigns and Initial Access Kit",
+            "categories": [
+                "FAKEUPDATES",
+                "Blister",
+                "Cobalt Strike",
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.esentire.com/blog/fake-chrome-setup-leads-to-netsupportmanager-rat-and-mars-stealer",
+            "date": "2022-04-11",
+            "organization": "eSentire",
+            "author": "eSentire Threat Response Unit (TRU)",
+            "title": "Fake Chrome Setup Leads to NetSupportManager RAT and Mars Stealer",
+            "categories": [
+                "Mars Stealer",
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/malicious-web-redirect-service-infects-16-500-sites-to-push-malware/",
+            "date": "2022-04-07",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "Malicious web redirect service infects 16,500 sites to push malware",
+            "categories": [
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/janrubin/parrot-tds-takes-over-web-servers-and-threatens-millions/",
+            "date": "2022-04-07",
+            "organization": "Avast Decoded",
+            "author": "Pavel Nov\u00e1k",
+            "title": "Parrot TDS takes over web servers and threatens millions",
+            "categories": [
+                "FAKEUPDATES",
+                "Parrot TDS",
+                "Parrot TDS WebShell",
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.sucuri.net/2020/11/css-js-steganography-in-fake-flash-player-update-malware.html",
+            "date": "2020-11-02",
+            "organization": "SUCURI",
+            "author": "Denis Sinegubko",
+            "title": "CSS-JS Steganography in Fake Flash Player Update Malware",
+            "categories": [
+                "magecart",
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/operation-ta505-part2/",
+            "date": "2020-05-22",
+            "organization": "Positive Technologies",
+            "author": "PT ESC Threat Intelligence",
+            "title": "Operation TA505: investigating the ServHelper backdoor with NetSupport RAT. Part 2.",
+            "categories": [
+                "NetSupportManager RAT",
+                "ServHelper"
+            ]
+        },
+        {
+            "data_url": "https://blog.prevailion.com/2020/03/the-curious-case-of-criminal-curriculum.html",
+            "date": "2020-03-19",
+            "organization": "Prevailion",
+            "author": "Prevailion",
+            "title": "The Curious Case of the Criminal Curriculum Vitae",
+            "categories": [
+                "LALALA Stealer",
+                "NetSupportManager RAT",
+                "Rekt Loader"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/09/unit42-hoeflertext-popups-targeting-google-chrome-users-now-pushing-rat-malware/",
+            "date": "2017-09-01",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "EITest: HoeflerText Popups Targeting Google Chrome Users Now Push RAT Malware",
+            "categories": [
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/hacked-steam-accounts-spreading-remote-access-trojan/",
+            "date": "2016-09-30",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "Hacked Steam accounts spreading Remote Access Trojan",
+            "categories": [
+                "NetSupportManager RAT"
+            ]
+        },
+        {
+            "data_url": "http://www.netsupportmanager.com/index.asp",
+            "date": "2013",
+            "organization": "NetSupport Manager",
+            "author": "NetSupport Manager",
+            "title": "NetSupport Manager  Website",
+            "categories": [
+                "NetSupportManager RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "rtm",
@@ -914,170 +1078,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "netsupport_manager",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/23/c/new-opcjacker-malware-distributed-via-fake-vpn-malvertising.html",
-            "date": "2023-03-29",
-            "organization": "Trend Micro",
-            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
-            "title": "New OpcJacker Malware Distributed via Fake VPN Malvertising",
-            "categories": [
-                "NetSupportManager RAT",
-                "OpcJacker"
-            ]
-        },
-        {
-            "data_url": "https://asec.ahnlab.com/en/45312/",
-            "date": "2023-01-06",
-            "organization": "AhnLab",
-            "author": "ASEC",
-            "title": "Distribution of NetSupport RAT Malware Disguised as a Pokemon Game",
-            "categories": [
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.sekoia.io/privateloader-the-loader-of-the-prevalent-ruzki-ppi-service/",
-            "date": "2022-09-15",
-            "organization": "Sekoia",
-            "author": "Threat & Detection Research Team",
-            "title": "PrivateLoader: the loader of the prevalent ruzki PPI service",
-            "categories": [
-                "Agent Tesla",
-                "Coinminer",
-                "DanaBot",
-                "DCRat",
-                "Eternity Stealer",
-                "Glupteba",
-                "Mars Stealer",
-                "NetSupportManager RAT",
-                "Nymaim",
-                "Nymaim2",
-                "Phoenix Keylogger",
-                "PrivateLoader",
-                "Raccoon",
-                "RedLine Stealer",
-                "SmokeLoader",
-                "Socelars",
-                "STOP",
-                "Vidar",
-                "YTStealer"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/walmartglobaltech/socgholish-campaigns-and-initial-access-kit-4c4283fea8ee",
-            "date": "2022-05-25",
-            "organization": "Medium walmartglobaltech",
-            "author": "Jason Reaves",
-            "title": "SocGholish Campaigns and Initial Access Kit",
-            "categories": [
-                "FAKEUPDATES",
-                "Blister",
-                "Cobalt Strike",
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.esentire.com/blog/fake-chrome-setup-leads-to-netsupportmanager-rat-and-mars-stealer",
-            "date": "2022-04-11",
-            "organization": "eSentire",
-            "author": "eSentire Threat Response Unit (TRU)",
-            "title": "Fake Chrome Setup Leads to NetSupportManager RAT and Mars Stealer",
-            "categories": [
-                "Mars Stealer",
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/malicious-web-redirect-service-infects-16-500-sites-to-push-malware/",
-            "date": "2022-04-07",
-            "organization": "Bleeping Computer",
-            "author": "Bill Toulas",
-            "title": "Malicious web redirect service infects 16,500 sites to push malware",
-            "categories": [
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "https://decoded.avast.io/janrubin/parrot-tds-takes-over-web-servers-and-threatens-millions/",
-            "date": "2022-04-07",
-            "organization": "Avast Decoded",
-            "author": "Pavel Nov\u00e1k",
-            "title": "Parrot TDS takes over web servers and threatens millions",
-            "categories": [
-                "FAKEUPDATES",
-                "Parrot TDS",
-                "Parrot TDS WebShell",
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.sucuri.net/2020/11/css-js-steganography-in-fake-flash-player-update-malware.html",
-            "date": "2020-11-02",
-            "organization": "SUCURI",
-            "author": "Denis Sinegubko",
-            "title": "CSS-JS Steganography in Fake Flash Player Update Malware",
-            "categories": [
-                "magecart",
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/operation-ta505-part2/",
-            "date": "2020-05-22",
-            "organization": "Positive Technologies",
-            "author": "PT ESC Threat Intelligence",
-            "title": "Operation TA505: investigating the ServHelper backdoor with NetSupport RAT. Part 2.",
-            "categories": [
-                "NetSupportManager RAT",
-                "ServHelper"
-            ]
-        },
-        {
-            "data_url": "https://blog.prevailion.com/2020/03/the-curious-case-of-criminal-curriculum.html",
-            "date": "2020-03-19",
-            "organization": "Prevailion",
-            "author": "Prevailion",
-            "title": "The Curious Case of the Criminal Curriculum Vitae",
-            "categories": [
-                "LALALA Stealer",
-                "NetSupportManager RAT",
-                "Rekt Loader"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2017/09/unit42-hoeflertext-popups-targeting-google-chrome-users-now-pushing-rat-malware/",
-            "date": "2017-09-01",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Brad Duncan",
-            "title": "EITest: HoeflerText Popups Targeting Google Chrome Users Now Push RAT Malware",
-            "categories": [
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/hacked-steam-accounts-spreading-remote-access-trojan/",
-            "date": "2016-09-30",
-            "organization": "Bleeping Computer",
-            "author": "Lawrence Abrams",
-            "title": "Hacked Steam accounts spreading Remote Access Trojan",
-            "categories": [
-                "NetSupportManager RAT"
-            ]
-        },
-        {
-            "data_url": "http://www.netsupportmanager.com/index.asp",
-            "date": "2013",
-            "organization": "NetSupport Manager",
-            "author": "NetSupport Manager",
-            "title": "NetSupport Manager  Website",
-            "categories": [
-                "NetSupportManager RAT"
             ]
         }
     ]

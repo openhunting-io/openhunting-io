@@ -35,7 +35,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "nitlovepos",
     "analysis": null,
     "articles": [
@@ -49,5 +48,6 @@ var threatdata = {
                 "nitlove"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

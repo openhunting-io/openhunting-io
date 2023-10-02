@@ -34,6 +34,92 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerton",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html",
+            "date": "2020-07-13",
+            "organization": "FireEye",
+            "author": "Andrew Thompson",
+            "title": "SCANdalous! (External Detection Using Network Scan Data and Automation)",
+            "categories": [
+                "POWERTON",
+                "QUADAGENT",
+                "PoshC2"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/",
+            "date": "2020-06-18",
+            "organization": "Microsoft",
+            "author": "Microsoft Threat Protection Intelligence Team",
+            "title": "Inside Microsoft Threat Protection: Mapping attack chains from cloud to endpoint (APT33/HOLMIUM)",
+            "categories": [
+                "POWERTON"
+            ]
+        },
+        {
+            "data_url": "https://blog.telsy.com/meeting-powerband-the-apt33-net-powerton-variant/",
+            "date": "2020-02-12",
+            "organization": "Telsy",
+            "author": "Telsy",
+            "title": "Meeting POWERBAND: The APT33 .NET POWERTON Variant",
+            "categories": [
+                "POWERTON",
+                "POWERBAND"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT TRINITY",
+            "categories": [
+                "POWERTON",
+                "pupy",
+                "Imminent Monitor RAT",
+                "Koadic",
+                "Nanocore RAT",
+                "NetWire RC",
+                "PoshC2",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://norfolkinfosec.com/apt33-powershell-malware/",
+            "date": "2019-07-22",
+            "organization": "One Night in Norfolk",
+            "author": "Kevin Perlow",
+            "title": "APT33 PowerShell Malware",
+            "categories": [
+                "POWERTON"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/security-center/writeup/2019-062513-4935-99",
+            "date": "2019-06-24",
+            "organization": "Symantec",
+            "author": "Benjamin Moench",
+            "title": "Backdoor.Powerton",
+            "categories": [
+                "POWERTON"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/12/overruled-containing-a-potentially-destructive-adversary.html",
+            "date": "2018-12-21",
+            "organization": "FireEye",
+            "author": "Geoff Ackerman",
+            "title": "OVERRULED: Containing a Potentially Destructive Adversary",
+            "categories": [
+                "POWERTON",
+                "PoshC2",
+                "pupy"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "powerton",
@@ -137,92 +223,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "powerton has used aes for encrypting c2 traffic.[4]"
                 }
-            ]
-        }
-    ],
-    "file_name": "powerton",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html",
-            "date": "2020-07-13",
-            "organization": "FireEye",
-            "author": "Andrew Thompson",
-            "title": "SCANdalous! (External Detection Using Network Scan Data and Automation)",
-            "categories": [
-                "POWERTON",
-                "QUADAGENT",
-                "PoshC2"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/",
-            "date": "2020-06-18",
-            "organization": "Microsoft",
-            "author": "Microsoft Threat Protection Intelligence Team",
-            "title": "Inside Microsoft Threat Protection: Mapping attack chains from cloud to endpoint (APT33/HOLMIUM)",
-            "categories": [
-                "POWERTON"
-            ]
-        },
-        {
-            "data_url": "https://blog.telsy.com/meeting-powerband-the-apt33-net-powerton-variant/",
-            "date": "2020-02-12",
-            "organization": "Telsy",
-            "author": "Telsy",
-            "title": "Meeting POWERBAND: The APT33 .NET POWERTON Variant",
-            "categories": [
-                "POWERTON",
-                "POWERBAND"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT TRINITY",
-            "categories": [
-                "POWERTON",
-                "pupy",
-                "Imminent Monitor RAT",
-                "Koadic",
-                "Nanocore RAT",
-                "NetWire RC",
-                "PoshC2",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://norfolkinfosec.com/apt33-powershell-malware/",
-            "date": "2019-07-22",
-            "organization": "One Night in Norfolk",
-            "author": "Kevin Perlow",
-            "title": "APT33 PowerShell Malware",
-            "categories": [
-                "POWERTON"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/security-center/writeup/2019-062513-4935-99",
-            "date": "2019-06-24",
-            "organization": "Symantec",
-            "author": "Benjamin Moench",
-            "title": "Backdoor.Powerton",
-            "categories": [
-                "POWERTON"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2018/12/overruled-containing-a-potentially-destructive-adversary.html",
-            "date": "2018-12-21",
-            "organization": "FireEye",
-            "author": "Geoff Ackerman",
-            "title": "OVERRULED: Containing a Potentially Destructive Adversary",
-            "categories": [
-                "POWERTON",
-                "PoshC2",
-                "pupy"
             ]
         }
     ]

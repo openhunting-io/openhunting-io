@@ -35,6 +35,70 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "plaintee",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/rancortaurus/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Rancor Taurus",
+            "categories": [
+                "DDKONG",
+                "KHRAT",
+                "PLAINTEE",
+                "RANCOR"
+            ]
+        },
+        {
+            "data_url": "https://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html",
+            "date": "2020-01-29",
+            "organization": "nao_sec blog",
+            "author": "nao_sec",
+            "title": "An Overhead View of the Royal Road",
+            "categories": [
+                "BLACKCOFFEE",
+                "Cotx RAT",
+                "Datper",
+                "DDKONG",
+                "Derusbi",
+                "Icefog",
+                "Korlia",
+                "NewCore RAT",
+                "PLAINTEE",
+                "Poison Ivy",
+                "Sisfader"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-overbrook",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE OVERBROOK",
+            "categories": [
+                "Aveo",
+                "DDKONG",
+                "IsSpace",
+                "PLAINTEE",
+                "PlugX",
+                "Rambo",
+                "DragonOK"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/",
+            "date": "2018-06-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brittany Ash",
+            "title": "RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families",
+            "categories": [
+                "DDKONG",
+                "PLAINTEE"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "plaintee",
@@ -174,70 +238,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "plaintee has downloaded and executed additional plugins.[141]"
                 }
-            ]
-        }
-    ],
-    "file_name": "plaintee",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/rancortaurus/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Rancor Taurus",
-            "categories": [
-                "DDKONG",
-                "KHRAT",
-                "PLAINTEE",
-                "RANCOR"
-            ]
-        },
-        {
-            "data_url": "https://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html",
-            "date": "2020-01-29",
-            "organization": "nao_sec blog",
-            "author": "nao_sec",
-            "title": "An Overhead View of the Royal Road",
-            "categories": [
-                "BLACKCOFFEE",
-                "Cotx RAT",
-                "Datper",
-                "DDKONG",
-                "Derusbi",
-                "Icefog",
-                "Korlia",
-                "NewCore RAT",
-                "PLAINTEE",
-                "Poison Ivy",
-                "Sisfader"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-overbrook",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE OVERBROOK",
-            "categories": [
-                "Aveo",
-                "DDKONG",
-                "IsSpace",
-                "PLAINTEE",
-                "PlugX",
-                "Rambo",
-                "DragonOK"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/",
-            "date": "2018-06-26",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Brittany Ash",
-            "title": "RANCOR: Targeted Attacks in South East Asia Using PLAINTEE and DDKONG Malware Families",
-            "categories": [
-                "DDKONG",
-                "PLAINTEE"
             ]
         }
     ]

@@ -25,8 +25,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "os_check_445",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

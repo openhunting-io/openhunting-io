@@ -92,11 +92,11 @@ var threatdata = {
             "malware": "win.darkside",
             "last_update": "2022-08-01 01:00:56",
             "tags": [
-                "DarkSide",
-                "Darkside",
+                "Ransomware",
                 "fsecurec3",
                 "darkside",
-                "Ransomware"
+                "Darkside",
+                "DarkSide"
             ],
             "ioc": {
                 "sha256_hash": [
@@ -393,7 +393,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-01 01:00:56",
-    "mitre": [],
     "file_name": "darkside",
     "articles": [
         {
@@ -2287,5 +2286,6 @@ var threatdata = {
                 "DarkSide"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

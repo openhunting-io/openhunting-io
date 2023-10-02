@@ -29,8 +29,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "tonedeaf_2.0",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

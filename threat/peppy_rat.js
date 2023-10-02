@@ -38,6 +38,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "peppy_rat",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "peppy",
@@ -187,8 +190,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "peppy_rat",
-    "analysis": null,
-    "articles": []
+    ]
 };

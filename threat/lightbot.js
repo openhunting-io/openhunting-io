@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "lightbot",
     "analysis": null,
     "articles": [
@@ -53,5 +52,6 @@ var threatdata = {
                 "LightBot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

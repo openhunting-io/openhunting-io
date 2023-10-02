@@ -25,8 +25,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "aryan",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

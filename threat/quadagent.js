@@ -35,6 +35,79 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "quadagent",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html",
+            "date": "2020-07-13",
+            "organization": "FireEye",
+            "author": "Andrew Thompson",
+            "title": "SCANdalous! (External Detection Using Network Scan Data and Automation)",
+            "categories": [
+                "POWERTON",
+                "QUADAGENT",
+                "PoshC2"
+            ]
+        },
+        {
+            "data_url": "https://youtu.be/pBDu8EGWRC4?t=2492",
+            "date": "2020-01-17",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "State of the Hack: Spotlight Iran - from Cain & Abel to full SANDSPY",
+            "categories": [
+                "QUADAGENT",
+                "Fox Kitten"
+            ]
+        },
+        {
+            "data_url": "https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.ez428aw98bca",
+            "date": "2019-11-20",
+            "organization": "ClearSky",
+            "author": "ClearSky Cyber Security",
+            "title": "MuddyWater Uses New Attack Methods in a Recent Attack Wave",
+            "categories": [
+                "QUADAGENT",
+                "RogueRobin"
+            ]
+        },
+        {
+            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
+            "date": "2019-08-22",
+            "organization": "Cyware",
+            "author": "Cyware",
+            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
+            "categories": [
+                "TwoFace",
+                "BONDUPDATER",
+                "POWRUNER",
+                "QUADAGENT",
+                "Helminth",
+                "ISMAgent",
+                "Karkoff",
+                "LONGWATCH",
+                "OopsIE",
+                "PICKPOCKET",
+                "RGDoor",
+                "VALUEVAULT"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
+            "date": "2019-04-16",
+            "organization": "",
+            "author": "Robert Falcone",
+            "title": "DNS Tunneling in the Wild: Overview of OilRig\u2019s DNS Tunneling",
+            "categories": [
+                "BONDUPDATER",
+                "QUADAGENT",
+                "Alma Communicator",
+                "Helminth",
+                "ISMAgent"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "quadagent",
@@ -270,79 +343,6 @@ var threatdata = {
                     "technique_description": "adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
                     "procedure_description": "quadagent uses multiple protocols (https, http, dns) for its c2 server as fallback channels if communication with one is unsuccessful.[38]"
                 }
-            ]
-        }
-    ],
-    "file_name": "quadagent",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2020/07/scandalous-external-detection-using-network-scan-data-and-automation.html",
-            "date": "2020-07-13",
-            "organization": "FireEye",
-            "author": "Andrew Thompson",
-            "title": "SCANdalous! (External Detection Using Network Scan Data and Automation)",
-            "categories": [
-                "POWERTON",
-                "QUADAGENT",
-                "PoshC2"
-            ]
-        },
-        {
-            "data_url": "https://youtu.be/pBDu8EGWRC4?t=2492",
-            "date": "2020-01-17",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "State of the Hack: Spotlight Iran - from Cain & Abel to full SANDSPY",
-            "categories": [
-                "QUADAGENT",
-                "Fox Kitten"
-            ]
-        },
-        {
-            "data_url": "https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.ez428aw98bca",
-            "date": "2019-11-20",
-            "organization": "ClearSky",
-            "author": "ClearSky Cyber Security",
-            "title": "MuddyWater Uses New Attack Methods in a Recent Attack Wave",
-            "categories": [
-                "QUADAGENT",
-                "RogueRobin"
-            ]
-        },
-        {
-            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
-            "date": "2019-08-22",
-            "organization": "Cyware",
-            "author": "Cyware",
-            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
-            "categories": [
-                "TwoFace",
-                "BONDUPDATER",
-                "POWRUNER",
-                "QUADAGENT",
-                "Helminth",
-                "ISMAgent",
-                "Karkoff",
-                "LONGWATCH",
-                "OopsIE",
-                "PICKPOCKET",
-                "RGDoor",
-                "VALUEVAULT"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
-            "date": "2019-04-16",
-            "organization": "",
-            "author": "Robert Falcone",
-            "title": "DNS Tunneling in the Wild: Overview of OilRig\u2019s DNS Tunneling",
-            "categories": [
-                "BONDUPDATER",
-                "QUADAGENT",
-                "Alma Communicator",
-                "Helminth",
-                "ISMAgent"
             ]
         }
     ]

@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "dealerschoice",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "dealerschoice",
@@ -76,8 +79,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "dealerschoice",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -34,7 +34,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "barbwire",
     "analysis": null,
     "articles": [
@@ -49,5 +48,6 @@ var threatdata = {
                 "BarbWire"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

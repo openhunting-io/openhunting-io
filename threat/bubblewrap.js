@@ -35,6 +35,32 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "bubblewrap",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/software/S0043/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Tool description: BUBBLEWRAP",
+            "categories": [
+                "BUBBLEWRAP"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
+            "date": "2015-12-01",
+            "organization": "FireEye",
+            "author": "FireEye Threat Intelligence",
+            "title": "China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets",
+            "categories": [
+                "BUBBLEWRAP",
+                "LOWBALL",
+                "TEMPER PANDA"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "bubblewrap",
@@ -78,32 +104,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an osi non-application layer protocol for communication between host and c2 server or among infected hosts within a network. the list of possible protocols is extensive. specific examples include use of network layer protocols, such as the internet control message protocol (icmp), transport layer protocols, such as the user datagram protocol (udp), session layer protocols, such as socket secure (socks), as well as redirected/tunneled protocols, such as serial over lan (sol).",
                     "procedure_description": "bubblewrap can communicate using socks.[13]"
                 }
-            ]
-        }
-    ],
-    "file_name": "bubblewrap",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://attack.mitre.org/software/S0043/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Tool description: BUBBLEWRAP",
-            "categories": [
-                "BUBBLEWRAP"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2015/11/china-based-threat.html",
-            "date": "2015-12-01",
-            "organization": "FireEye",
-            "author": "FireEye Threat Intelligence",
-            "title": "China-based Cyber Threat Group Uses Dropbox for Malware Communications and Targets Hong Kong Media Outlets",
-            "categories": [
-                "BUBBLEWRAP",
-                "LOWBALL",
-                "TEMPER PANDA"
             ]
         }
     ]

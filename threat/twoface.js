@@ -47,96 +47,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "seasharpee",
-            "procedure_code": "s0185",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0185",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1059.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
-                    "technique_name": "command and scripting interpreter : windows command shell",
-                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
-                    "procedure_description": "seasharpee can execute commands on victims.[297]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1505.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1505/003",
-                    "technique_name": "server software component : web shell",
-                    "technique_description": "adversaries may backdoor web servers with web shells to establish persistent access to systems. a web shell is a web script that is placed on an openly accessible web server to allow an adversary to use the web server as a gateway into a network. a web shell may provide a set of functions to execute or a command-line interface on the system that hosts the web server.",
-                    "procedure_description": "seasharpee is a web shell.[29]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1070.006",
-                    "technique_link": "https://attack.mitre.org/techniques/T1070/006",
-                    "technique_name": "indicator removal : timestomp",
-                    "technique_description": "adversaries may modify file time attributes to hide new or changes to existing files. timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. this is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools.",
-                    "procedure_description": "seasharpee can timestomp files on victims using a web shell.[47]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1105",
-                    "technique_link": "https://attack.mitre.org/techniques/T1105",
-                    "technique_name": "ingress tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
-                    "procedure_description": "seasharpee can download remote files onto victims.[399]"
-                }
-            ]
-        },
-        {
-            "procedure_name": "arp",
-            "procedure_code": "s0099",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0099",
-            "techniques": [
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1018",
-                    "technique_link": "https://attack.mitre.org/techniques/T1018",
-                    "technique_name": "remote system discovery",
-                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
-                    "procedure_description": "arp can be used to display a host's arp cache, which may include address resolutions for remote systems.[14][15]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1016",
-                    "technique_link": "https://attack.mitre.org/techniques/T1016",
-                    "technique_name": "system network configuration discovery",
-                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
-                    "procedure_description": "arp can be used to display arp configuration information on the host.[22]"
-                }
-            ]
-        }
-    ],
     "file_name": "twoface",
     "analysis": null,
     "articles": [
@@ -326,6 +236,96 @@ var threatdata = {
                 "TwoFace",
                 "BONDUPDATER",
                 "DNSpionage"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "seasharpee",
+            "procedure_code": "s0185",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0185",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "seasharpee can execute commands on victims.[297]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1505.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1505/003",
+                    "technique_name": "server software component : web shell",
+                    "technique_description": "adversaries may backdoor web servers with web shells to establish persistent access to systems. a web shell is a web script that is placed on an openly accessible web server to allow an adversary to use the web server as a gateway into a network. a web shell may provide a set of functions to execute or a command-line interface on the system that hosts the web server.",
+                    "procedure_description": "seasharpee is a web shell.[29]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.006",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/006",
+                    "technique_name": "indicator removal : timestomp",
+                    "technique_description": "adversaries may modify file time attributes to hide new or changes to existing files. timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. this is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools.",
+                    "procedure_description": "seasharpee can timestomp files on victims using a web shell.[47]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "seasharpee can download remote files onto victims.[399]"
+                }
+            ]
+        },
+        {
+            "procedure_name": "arp",
+            "procedure_code": "s0099",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0099",
+            "techniques": [
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1018",
+                    "technique_link": "https://attack.mitre.org/techniques/T1018",
+                    "technique_name": "remote system discovery",
+                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
+                    "procedure_description": "arp can be used to display a host's arp cache, which may include address resolutions for remote systems.[14][15]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "arp can be used to display arp configuration information on the host.[22]"
+                }
             ]
         }
     ]

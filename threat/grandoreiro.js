@@ -44,13 +44,13 @@ var threatdata = {
             "malware": "win.grandoreiro",
             "last_update": "2023-06-19 12:27:15",
             "tags": [
-                "ViriBack",
-                "BRA",
                 "LatentBot",
-                "banker",
+                "ViriBack",
+                "brazil",
+                "BRA",
                 "geo",
-                "Grandoreiro",
-                "brazil"
+                "banker",
+                "Grandoreiro"
             ],
             "ioc": {
                 "ip:port": [
@@ -521,6 +521,156 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-06-19 12:27:15",
+    "file_name": "grandoreiro",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.metabaseq.com/grandoreiro-banking-malware-deciphering-the-dga/",
+            "date": "2023-01-13",
+            "organization": "Metabase Q",
+            "author": "Leonardo Beltran",
+            "title": "Grandoreiro banking malware: deciphering the DGA",
+            "categories": [
+                "Grandoreiro"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/grandoreiro-banking-trojan-new-ttps-targeting-various-industry-verticals",
+            "date": "2022-08-18",
+            "organization": "Zscaler",
+            "author": "Niraj Shivtarkar",
+            "title": "Grandoreiro Banking Trojan with New TTPs Targeting Various Industry Verticals",
+            "categories": [
+                "Grandoreiro"
+            ]
+        },
+        {
+            "data_url": "https://www.incibe.es/sites/default/files/contenidos/estudios/doc/incibe-cert_study_grandoreiro_analysis_2022_v1.pdf",
+            "date": "2022-06-02",
+            "organization": "INCIBE-CERT",
+            "author": "INCIBE",
+            "title": "Grandoreiro analysis study",
+            "categories": [
+                "Grandoreiro"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/grandoreiro-banking-malware-resurfaces-for-tax-season",
+            "date": "2022-05-26",
+            "organization": "Trustwave",
+            "author": "Bernard Bautista",
+            "title": "Grandoreiro Banking Malware Resurfaces for Tax Season",
+            "categories": [
+                "Grandoreiro"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/spain-arrests-16-for-distributing-the-mekotio-and-grandoreiro-banking-trojans/",
+            "date": "2021-07-14",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Spain arrests 16 for working with the Mekotio and Grandoreiro malware gangs",
+            "categories": [
+                "Grandoreiro",
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "http://www.interior.gob.es/prensa/noticias/-/asset_publisher/GHU8Ap6ztgsg/content/id/13552853",
+            "date": "2021-07-14",
+            "organization": "Guardia Civil",
+            "author": "Guardia Civil",
+            "title": "The Civil Guard dismantles an important network dedicated to committing scams through the Internet",
+            "categories": [
+                "Grandoreiro",
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/07/ESET_Threat_Report_Q22020.pdf",
+            "date": "2020-07-29",
+            "organization": "ESET Research",
+            "author": "welivesecurity",
+            "title": "THREAT REPORT Q2 2020",
+            "categories": [
+                "DEFENSOR ID",
+                "HiddenAd",
+                "Bundlore",
+                "Pirrit",
+                "Agent.BTZ",
+                "Cerber",
+                "ClipBanker",
+                "CROSSWALK",
+                "Cryptowall",
+                "CTB Locker",
+                "DanaBot",
+                "Dharma",
+                "Formbook",
+                "Gandcrab",
+                "Grandoreiro",
+                "Houdini",
+                "ISFB",
+                "LockBit",
+                "Locky",
+                "Mailto",
+                "Maze",
+                "Microcin",
+                "Nemty",
+                "NjRAT",
+                "Phobos",
+                "PlugX",
+                "Pony",
+                "REvil",
+                "Socelars",
+                "STOP",
+                "Tinba",
+                "TrickBot",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-tetrade-brazilian-banking-malware/97779/",
+            "date": "2020-07-14",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "The Tetrade: Brazilian banking malware goes global",
+            "categories": [
+                "Astaroth",
+                "Grandoreiro",
+                "Melcoz"
+            ]
+        },
+        {
+            "data_url": "https://seguranca-informatica.pt/the-updated-grandoreiro-malware-equipped-with-latenbot-c2-features-in-q2-2020-now-extended-to-portuguese-banks",
+            "date": "2020-05-26",
+            "organization": "Seguranca Informatica",
+            "author": "Pedro Tavares",
+            "title": "The updated Grandoreiro Malware equipped with latenbot-C2 features in Q2 2020 now extended to Portuguese banks",
+            "categories": [
+                "Grandoreiro"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/04/28/grandoreiro-how-engorged-can-exe-get/",
+            "date": "2020-04-28",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Grandoreiro: How engorged can an EXE get?",
+            "categories": [
+                "Grandoreiro"
+            ]
+        },
+        {
+            "data_url": "https://blueliv.com/resources/reports/MiniReport-Blueliv-Bancos-ESP-LAT.pdf",
+            "date": "2019-11-20",
+            "organization": "Blueliv",
+            "author": "Blueliv Team",
+            "title": "Malware Campaign Targeting LATAM & Spanish Banks",
+            "categories": [
+                "Grandoreiro"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "grandoreiro",
@@ -1092,156 +1242,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "grandoreiro can send data it retrieves to the c2 server.[54]"
                 }
-            ]
-        }
-    ],
-    "file_name": "grandoreiro",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.metabaseq.com/grandoreiro-banking-malware-deciphering-the-dga/",
-            "date": "2023-01-13",
-            "organization": "Metabase Q",
-            "author": "Leonardo Beltran",
-            "title": "Grandoreiro banking malware: deciphering the DGA",
-            "categories": [
-                "Grandoreiro"
-            ]
-        },
-        {
-            "data_url": "https://www.zscaler.com/blogs/security-research/grandoreiro-banking-trojan-new-ttps-targeting-various-industry-verticals",
-            "date": "2022-08-18",
-            "organization": "Zscaler",
-            "author": "Niraj Shivtarkar",
-            "title": "Grandoreiro Banking Trojan with New TTPs Targeting Various Industry Verticals",
-            "categories": [
-                "Grandoreiro"
-            ]
-        },
-        {
-            "data_url": "https://www.incibe.es/sites/default/files/contenidos/estudios/doc/incibe-cert_study_grandoreiro_analysis_2022_v1.pdf",
-            "date": "2022-06-02",
-            "organization": "INCIBE-CERT",
-            "author": "INCIBE",
-            "title": "Grandoreiro analysis study",
-            "categories": [
-                "Grandoreiro"
-            ]
-        },
-        {
-            "data_url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/grandoreiro-banking-malware-resurfaces-for-tax-season",
-            "date": "2022-05-26",
-            "organization": "Trustwave",
-            "author": "Bernard Bautista",
-            "title": "Grandoreiro Banking Malware Resurfaces for Tax Season",
-            "categories": [
-                "Grandoreiro"
-            ]
-        },
-        {
-            "data_url": "https://therecord.media/spain-arrests-16-for-distributing-the-mekotio-and-grandoreiro-banking-trojans/",
-            "date": "2021-07-14",
-            "organization": "The Record",
-            "author": "Catalin Cimpanu",
-            "title": "Spain arrests 16 for working with the Mekotio and Grandoreiro malware gangs",
-            "categories": [
-                "Grandoreiro",
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "http://www.interior.gob.es/prensa/noticias/-/asset_publisher/GHU8Ap6ztgsg/content/id/13552853",
-            "date": "2021-07-14",
-            "organization": "Guardia Civil",
-            "author": "Guardia Civil",
-            "title": "The Civil Guard dismantles an important network dedicated to committing scams through the Internet",
-            "categories": [
-                "Grandoreiro",
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2020/07/ESET_Threat_Report_Q22020.pdf",
-            "date": "2020-07-29",
-            "organization": "ESET Research",
-            "author": "welivesecurity",
-            "title": "THREAT REPORT Q2 2020",
-            "categories": [
-                "DEFENSOR ID",
-                "HiddenAd",
-                "Bundlore",
-                "Pirrit",
-                "Agent.BTZ",
-                "Cerber",
-                "ClipBanker",
-                "CROSSWALK",
-                "Cryptowall",
-                "CTB Locker",
-                "DanaBot",
-                "Dharma",
-                "Formbook",
-                "Gandcrab",
-                "Grandoreiro",
-                "Houdini",
-                "ISFB",
-                "LockBit",
-                "Locky",
-                "Mailto",
-                "Maze",
-                "Microcin",
-                "Nemty",
-                "NjRAT",
-                "Phobos",
-                "PlugX",
-                "Pony",
-                "REvil",
-                "Socelars",
-                "STOP",
-                "Tinba",
-                "TrickBot",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/the-tetrade-brazilian-banking-malware/97779/",
-            "date": "2020-07-14",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "The Tetrade: Brazilian banking malware goes global",
-            "categories": [
-                "Astaroth",
-                "Grandoreiro",
-                "Melcoz"
-            ]
-        },
-        {
-            "data_url": "https://seguranca-informatica.pt/the-updated-grandoreiro-malware-equipped-with-latenbot-c2-features-in-q2-2020-now-extended-to-portuguese-banks",
-            "date": "2020-05-26",
-            "organization": "Seguranca Informatica",
-            "author": "Pedro Tavares",
-            "title": "The updated Grandoreiro Malware equipped with latenbot-C2 features in Q2 2020 now extended to Portuguese banks",
-            "categories": [
-                "Grandoreiro"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/04/28/grandoreiro-how-engorged-can-exe-get/",
-            "date": "2020-04-28",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Grandoreiro: How engorged can an EXE get?",
-            "categories": [
-                "Grandoreiro"
-            ]
-        },
-        {
-            "data_url": "https://blueliv.com/resources/reports/MiniReport-Blueliv-Bancos-ESP-LAT.pdf",
-            "date": "2019-11-20",
-            "organization": "Blueliv",
-            "author": "Blueliv Team",
-            "title": "Malware Campaign Targeting LATAM & Spanish Banks",
-            "categories": [
-                "Grandoreiro"
             ]
         }
     ]

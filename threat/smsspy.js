@@ -34,18 +34,18 @@ var threatdata = {
             "malware": "apk.smsspy",
             "last_update": "2022-08-14 11:07:54",
             "tags": [
-                "smsspy",
-                "Android",
-                "Phishing",
-                "sms",
-                "apk",
-                "iran",
-                "android",
-                "spy",
                 "Spyware",
                 "malware",
+                "android",
+                "Phishing",
+                "spyware",
+                "Android",
+                "smsspy",
                 "phishing",
-                "spyware"
+                "spy",
+                "apk",
+                "iran",
+                "sms"
             ],
             "ioc": {
                 "md5_hash": [
@@ -2342,8 +2342,8 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-14 11:07:54",
-    "mitre": [],
     "file_name": "smsspy",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

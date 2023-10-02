@@ -29,6 +29,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "moriya",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/operation-tunnelsnake-and-moriya-rootkit/101831/",
+            "date": "2021-05-06",
+            "organization": "Kaspersky",
+            "author": "Mark Lechtik",
+            "title": "Operation TunnelSnake",
+            "categories": [
+                "Moriya"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "mori",
@@ -144,20 +158,6 @@ var threatdata = {
                     "technique_description": "adversaries may add junk data to protocols used for command and control to make detection more difficult. by adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. examples may include appending/prepending data with junk characters or writing junk characters between significant characters.",
                     "procedure_description": "mori has obfuscated the fml.dll with 200mb of junk data.[7]"
                 }
-            ]
-        }
-    ],
-    "file_name": "moriya",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/operation-tunnelsnake-and-moriya-rootkit/101831/",
-            "date": "2021-05-06",
-            "organization": "Kaspersky",
-            "author": "Mark Lechtik",
-            "title": "Operation TunnelSnake",
-            "categories": [
-                "Moriya"
             ]
         }
     ]

@@ -34,8 +34,8 @@ var threatdata = {
             "malware": "apk.xenomorph",
             "last_update": "2023-03-29 14:03:58",
             "tags": [
-                "apk",
-                "Xenomorph"
+                "Xenomorph",
+                "apk"
             ],
             "ioc": {
                 "url": [
@@ -72,7 +72,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-03-29 14:03:58",
-    "mitre": [],
     "file_name": "xenomorph",
     "analysis": null,
     "articles": [
@@ -137,5 +136,6 @@ var threatdata = {
                 "Xenomorph"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

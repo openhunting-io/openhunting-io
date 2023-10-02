@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "hui_loader",
     "analysis": null,
     "articles": [
@@ -98,5 +97,6 @@ var threatdata = {
                 "SodaMaster"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

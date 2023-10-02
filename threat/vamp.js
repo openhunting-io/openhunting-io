@@ -33,6 +33,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "vamp",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "micropsia",
@@ -258,8 +261,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "vamp",
-    "analysis": null,
-    "articles": []
+    ]
 };

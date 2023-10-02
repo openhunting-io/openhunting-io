@@ -32,6 +32,97 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powershower",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit42",
+            "title": "Clean Ursa",
+            "categories": [
+                "PowerShower",
+                "Inception Framework"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/clean-ursa/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Clean Ursa",
+            "categories": [
+                "PowerShower",
+                "Inception Framework"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0100",
+            "date": "2020-05-08",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Inception",
+            "categories": [
+                "PowerShower",
+                "LaZagne",
+                "Inception Framework"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0100/",
+            "date": "2020-05-08",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Inception",
+            "categories": [
+                "PowerShower",
+                "LaZagne"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
+            "date": "2019-08-12",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Recent Cloud Atlas activity",
+            "categories": [
+                "PowerShower"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/recent-cloud-atlas-activity/92016",
+            "date": "2019-08-12",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Recent Cloud Atlas activity",
+            "categories": [
+                "PowerShower",
+                "Inception Framework"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
+            "date": "2018-11-05",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Tom Lancaster",
+            "title": "Inception Attackers Target Europe with Year-old Office Vulnerability",
+            "categories": [
+                "PowerShower",
+                "Inception Framework"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
+            "date": "2018-11-05",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Tom Lancaster",
+            "title": "Inception Attackers Target Europe with Year-old Office Vulnerability",
+            "categories": [
+                "PowerShower"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "powershower",
@@ -219,97 +310,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "powershower has used a powershell document stealer module to pack and exfiltrate .txt, .pdf, .xls or .doc files smaller than 5mb that were modified during the past two days.[101]"
                 }
-            ]
-        }
-    ],
-    "file_name": "powershower",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/clean-ursa",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit42",
-            "title": "Clean Ursa",
-            "categories": [
-                "PowerShower",
-                "Inception Framework"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/clean-ursa/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Clean Ursa",
-            "categories": [
-                "PowerShower",
-                "Inception Framework"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0100",
-            "date": "2020-05-08",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Inception",
-            "categories": [
-                "PowerShower",
-                "LaZagne",
-                "Inception Framework"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0100/",
-            "date": "2020-05-08",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Inception",
-            "categories": [
-                "PowerShower",
-                "LaZagne"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/recent-cloud-atlas-activity/92016/",
-            "date": "2019-08-12",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Recent Cloud Atlas activity",
-            "categories": [
-                "PowerShower"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/recent-cloud-atlas-activity/92016",
-            "date": "2019-08-12",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Recent Cloud Atlas activity",
-            "categories": [
-                "PowerShower",
-                "Inception Framework"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability",
-            "date": "2018-11-05",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Tom Lancaster",
-            "title": "Inception Attackers Target Europe with Year-old Office Vulnerability",
-            "categories": [
-                "PowerShower",
-                "Inception Framework"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/",
-            "date": "2018-11-05",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Tom Lancaster",
-            "title": "Inception Attackers Target Europe with Year-old Office Vulnerability",
-            "categories": [
-                "PowerShower"
             ]
         }
     ]

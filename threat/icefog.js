@@ -36,7 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "icefog",
     "analysis": null,
     "articles": [
@@ -133,5 +132,6 @@ var threatdata = {
                 "Icefog"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -37,6 +37,30 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "net_crawler",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
+            "date": "2016-04-06",
+            "organization": "Cylance",
+            "author": "Cylance",
+            "title": "Operation Cleaver",
+            "categories": [
+                "CsExt",
+                "Jasus",
+                "KAgent",
+                "NetC",
+                "PvzOut",
+                "SynFlooder",
+                "TinyZbot",
+                "WndTest",
+                "ZhCat",
+                "ZhMimikatz",
+                "Cleaver"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "net",
@@ -280,30 +304,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "net crawler uses windows admin shares to establish authenticated sessions to remote systems over smb as part of lateral movement.[38]"
                 }
-            ]
-        }
-    ],
-    "file_name": "net_crawler",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cylance.com/content/dam/cylance/pages/operation-cleaver/Cylance_Operation_Cleaver_Report.pdf",
-            "date": "2016-04-06",
-            "organization": "Cylance",
-            "author": "Cylance",
-            "title": "Operation Cleaver",
-            "categories": [
-                "CsExt",
-                "Jasus",
-                "KAgent",
-                "NetC",
-                "PvzOut",
-                "SynFlooder",
-                "TinyZbot",
-                "WndTest",
-                "ZhCat",
-                "ZhMimikatz",
-                "Cleaver"
             ]
         }
     ]

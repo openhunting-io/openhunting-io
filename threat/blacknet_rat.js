@@ -34,12 +34,12 @@ var threatdata = {
             "malware": "win.blacknet_rat",
             "last_update": "2023-09-25 23:48:14",
             "tags": [
-                "ViriBack",
+                "RAT",
                 "panel",
+                "ViriBack",
                 "BlackNet",
                 "blacknet",
                 "BlackNET",
-                "RAT",
                 "rat"
             ],
             "ioc": {
@@ -237,6 +237,71 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-25 23:48:14",
+    "file_name": "blacknet_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.minerva-labs.com/become-a-vip-victim-with-new-discord-distributed-malware",
+            "date": "2021-08-26",
+            "organization": "Minerva Labs",
+            "author": "Minerva Labs",
+            "title": "Become A VIP Victim With New Discord Distributed Malware",
+            "categories": [
+                "BlackNET RAT",
+                "RedLine Stealer"
+            ]
+        },
+        {
+            "data_url": "https://github.com/mave12/BlackNET-3.7.0.1",
+            "date": "2021-01-13",
+            "organization": "Github (Mave12)",
+            "author": "Mave12",
+            "title": "Github Repository: BlackNET 3.7.0.1",
+            "categories": [
+                "BlackNET RAT"
+            ]
+        },
+        {
+            "data_url": "https://labs.k7computing.com/?p=21365",
+            "date": "2020-12-24",
+            "organization": "K7 Security",
+            "author": "K7 Labs",
+            "title": "Dark Side Of BlackNET RAT",
+            "categories": [
+                "BlackNET RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2020/03/fake-corona-antivirus-distributes-blacknet-remote-administration-tool/",
+            "date": "2020-03-23",
+            "organization": "Malwarebytes",
+            "author": "Threat Intelligence Team",
+            "title": "Fake \u201cCorona Antivirus\u201d distributes BlackNET remote administration tool",
+            "categories": [
+                "BlackNET RAT"
+            ]
+        },
+        {
+            "data_url": "http://www.pwncode.io/2019/12/blacknet-rat-when-you-leave-panel.html",
+            "date": "2019-12-25",
+            "organization": "pwncode.io blog",
+            "author": "c0d3inj3cT",
+            "title": "BlackNet RAT - When you leave the Panel unprotected",
+            "categories": [
+                "BlackNET RAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/FarisCode511/BlackNET/",
+            "date": "2019-01-04",
+            "organization": "Github (BlackHacker511)",
+            "author": "BlackHacker511",
+            "title": "Github Repository: BlackNET",
+            "categories": [
+                "BlackNET RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -468,71 +533,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "blacknet_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.minerva-labs.com/become-a-vip-victim-with-new-discord-distributed-malware",
-            "date": "2021-08-26",
-            "organization": "Minerva Labs",
-            "author": "Minerva Labs",
-            "title": "Become A VIP Victim With New Discord Distributed Malware",
-            "categories": [
-                "BlackNET RAT",
-                "RedLine Stealer"
-            ]
-        },
-        {
-            "data_url": "https://github.com/mave12/BlackNET-3.7.0.1",
-            "date": "2021-01-13",
-            "organization": "Github (Mave12)",
-            "author": "Mave12",
-            "title": "Github Repository: BlackNET 3.7.0.1",
-            "categories": [
-                "BlackNET RAT"
-            ]
-        },
-        {
-            "data_url": "https://labs.k7computing.com/?p=21365",
-            "date": "2020-12-24",
-            "organization": "K7 Security",
-            "author": "K7 Labs",
-            "title": "Dark Side Of BlackNET RAT",
-            "categories": [
-                "BlackNET RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2020/03/fake-corona-antivirus-distributes-blacknet-remote-administration-tool/",
-            "date": "2020-03-23",
-            "organization": "Malwarebytes",
-            "author": "Threat Intelligence Team",
-            "title": "Fake \u201cCorona Antivirus\u201d distributes BlackNET remote administration tool",
-            "categories": [
-                "BlackNET RAT"
-            ]
-        },
-        {
-            "data_url": "http://www.pwncode.io/2019/12/blacknet-rat-when-you-leave-panel.html",
-            "date": "2019-12-25",
-            "organization": "pwncode.io blog",
-            "author": "c0d3inj3cT",
-            "title": "BlackNet RAT - When you leave the Panel unprotected",
-            "categories": [
-                "BlackNET RAT"
-            ]
-        },
-        {
-            "data_url": "https://github.com/FarisCode511/BlackNET/",
-            "date": "2019-01-04",
-            "organization": "Github (BlackHacker511)",
-            "author": "BlackHacker511",
-            "title": "Github Repository: BlackNET",
-            "categories": [
-                "BlackNET RAT"
             ]
         }
     ]

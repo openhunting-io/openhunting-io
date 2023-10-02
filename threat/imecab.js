@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "imecab",
     "analysis": null,
     "articles": [
@@ -57,5 +56,6 @@ var threatdata = {
                 "RASPITE"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -45,6 +45,361 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "carbanak",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.prodaft.com/m/reports/FIN7_TLPCLEAR.pdf",
+            "date": "2022-12-22",
+            "organization": "PRODAFT",
+            "author": "PRODAFT",
+            "title": "Fin7 Unveiled: A deep dive into notorious cybercrime gang",
+            "categories": [
+                "Carbanak"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2022/07/30/malware-av-evasion-8.html",
+            "date": "2022-07-30",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware AV evasion - part 8. Encode payload via Z85",
+            "categories": [
+                "Agent Tesla",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Cobalt Strike",
+                "donut_injector"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/mulelibra/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Mule Libra",
+            "categories": [
+                "Carbanak",
+                "Cobalt"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/09/malware-pers-4.html",
+            "date": "2022-05-09",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 4. Windows services. Simple C++ example.",
+            "categories": [
+                "Anchor",
+                "AppleJeus",
+                "Attor",
+                "BBSRAT",
+                "BlackEnergy",
+                "Carbanak",
+                "Cobalt Strike",
+                "DuQu"
+            ]
+        },
+        {
+            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
+            "date": "2022-04-27",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "LE GROUPE CYBERCRIMINEL FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "SQLRat",
+                "POWERSOURCE",
+                "Andromeda",
+                "BABYMETAL",
+                "BlackCat",
+                "BlackMatter",
+                "BOOSTWRITE",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "Dridex",
+                "DRIFTPIN",
+                "Gameover P2P",
+                "MimiKatz",
+                "Murofet",
+                "Qadars",
+                "Ranbyus",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/evolution-of-fin7",
+            "date": "2022-04-04",
+            "organization": "Mandiant",
+            "author": "Bryce Abdo",
+            "title": "FIN7 Power Hour: Adversary Archaeology and the Evolution of FIN7",
+            "categories": [
+                "Griffon",
+                "BABYMETAL",
+                "Carbanak",
+                "Cobalt Strike",
+                "JSSLoader",
+                "Termite"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
+            "date": "2021-09-06",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "AV engines evasion for C++ simple malware: part 2",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "Anchor",
+                "AnchorMTea",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Felixroot",
+                "Konni",
+                "Loki Password Stealer (PWS)",
+                "Maze"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
+            "date": "2021-08-30",
+            "organization": "CrowdStrike",
+            "author": "Eric Loui",
+            "title": "CARBON SPIDER Embraces Big Game Hunting, Part 1",
+            "categories": [
+                "Bateleur",
+                "Griffon",
+                "Carbanak",
+                "DarkSide",
+                "JSSLoader",
+                "PILLOWMINT",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/two-carbanak-hackers-sentenced-to-eight-years-in-prison-in-kazakhstan/",
+            "date": "2021-06-02",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Two Carbanak hackers sentenced to eight years in prison in Kazakhstan",
+            "categories": [
+                "Carbanak"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/carbon-spider-sprite-spider-target-esxi-servers-with-ransomware/?utm_campaign=blog&utm_medium=soc&utm_source=twtr&utm_content=sprout",
+            "date": "2021-02-26",
+            "organization": "CrowdStrike",
+            "author": "Eric Loui",
+            "title": "Hypervisor Jackpotting: CARBON SPIDER and SPRITE SPIDER Target ESXi Servers With Ransomware to Maximize Impact",
+            "categories": [
+                "DarkSide",
+                "RansomEXX",
+                "Griffon",
+                "Carbanak",
+                "Cobalt Strike",
+                "DarkSide",
+                "IcedID",
+                "MimiKatz",
+                "PyXie",
+                "RansomEXX",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://blog.truesec.com/2020/12/22/collaboration-between-fin7-and-the-ryuk-group-a-truesec-investigation/",
+            "date": "2020-12-22",
+            "organization": "TRUESEC",
+            "author": "Mattias W\u00e5hl\u00e9n",
+            "title": "Collaboration between FIN7 and the RYUK group, a Truesec Investigation",
+            "categories": [
+                "Carbanak",
+                "Cobalt Strike",
+                "Ryuk"
+            ]
+        },
+        {
+            "data_url": "https://threatintel.blog/OPBlueRaven-Part2/",
+            "date": "2020-09-01",
+            "organization": "PRODAFT Threat Intelligence",
+            "author": "PRODAFT",
+            "title": "OpBlueRaven: Unveiling Fin7/Carbanak - Part II : BadUSB Attacks",
+            "categories": [
+                "Bella",
+                "Carbanak",
+                "FIN7"
+            ]
+        },
+        {
+            "data_url": "https://threatintel.blog/OPBlueRaven-Part1/",
+            "date": "2020-07-31",
+            "organization": "PRODAFT Threat Intelligence",
+            "author": "PRODAFT",
+            "title": "OpBlueRaven: Unveiling Fin7/Carbanak - Part 1 : Tirion",
+            "categories": [
+                "Carbanak",
+                "REvil",
+                "FIN7"
+            ]
+        },
+        {
+            "data_url": "https://www.brighttalk.com/webcast/15591/382191/fin7-apt-how-billion-dollar-crime-ring-remains-active-after-leaders-arrest",
+            "date": "2020-03-23",
+            "organization": "Kaspersky Labs",
+            "author": "F\u00e9lix Aime",
+            "title": "Fin7 APT: how billion dollar crime ring remains active after leaders\u2019 arrest",
+            "categories": [
+                "Carbanak"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-niagara",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD NIAGARA",
+            "categories": [
+                "Bateleur",
+                "Griffon",
+                "Carbanak",
+                "Cobalt Strike",
+                "DRIFTPIN",
+                "TinyMet",
+                "FIN7"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2019/04/carbanak-week-part-three-behind-the-backdoor.html",
+            "date": "2019-04-24",
+            "organization": "FireEye",
+            "author": "James T. Bennett",
+            "title": "CARBANAK Week Part Three: Behind the CARBANAK Backdoor",
+            "categories": [
+                "Carbanak"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2019/04/carbanak-week-part-one-a-rare-occurrence.html",
+            "date": "2019-04-22",
+            "organization": "FireEye",
+            "author": "Michael Bailey",
+            "title": "CARBANAK Week Part One: A Rare Occurrence",
+            "categories": [
+                "Carbanak"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s05-att&cking-fin7.pdf",
+            "date": "2018-10-01",
+            "organization": "FireEye",
+            "author": "Regina Elwell",
+            "title": "ATT&CKing FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "ANTAK",
+                "POWERPIPE",
+                "POWERSOURCE",
+                "HALFBAKED",
+                "BABYMETAL",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "DRIFTPIN",
+                "PILLOWMINT",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html",
+            "date": "2017-06-12",
+            "organization": "FireEye",
+            "author": "Barry Vengerik",
+            "title": "Behind the CARBANAK Backdoor",
+            "categories": [
+                "Carbanak",
+                "DRIFTPIN"
+            ]
+        },
+        {
+            "data_url": "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
+            "date": "2015-02",
+            "organization": "Kaspersky SAS",
+            "author": "GReAT",
+            "title": "Carbanak APT: The Great Bank Robbery",
+            "categories": [
+                "Carbanak",
+                "FIN7"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "carbanak",
@@ -504,361 +859,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "carbanak",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.prodaft.com/m/reports/FIN7_TLPCLEAR.pdf",
-            "date": "2022-12-22",
-            "organization": "PRODAFT",
-            "author": "PRODAFT",
-            "title": "Fin7 Unveiled: A deep dive into notorious cybercrime gang",
-            "categories": [
-                "Carbanak"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2022/07/30/malware-av-evasion-8.html",
-            "date": "2022-07-30",
-            "organization": "",
-            "author": "cocomelonc",
-            "title": "Malware AV evasion - part 8. Encode payload via Z85",
-            "categories": [
-                "Agent Tesla",
-                "Carbanak",
-                "Carberp",
-                "Cardinal RAT",
-                "Cobalt Strike",
-                "donut_injector"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/mulelibra/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Mule Libra",
-            "categories": [
-                "Carbanak",
-                "Cobalt"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/09/malware-pers-4.html",
-            "date": "2022-05-09",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 4. Windows services. Simple C++ example.",
-            "categories": [
-                "Anchor",
-                "AppleJeus",
-                "Attor",
-                "BBSRAT",
-                "BlackEnergy",
-                "Carbanak",
-                "Cobalt Strike",
-                "DuQu"
-            ]
-        },
-        {
-            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
-            "date": "2022-04-27",
-            "organization": "ANSSI",
-            "author": "ANSSI",
-            "title": "LE GROUPE CYBERCRIMINEL FIN7",
-            "categories": [
-                "Bateleur",
-                "BELLHOP",
-                "Griffon",
-                "SQLRat",
-                "POWERSOURCE",
-                "Andromeda",
-                "BABYMETAL",
-                "BlackCat",
-                "BlackMatter",
-                "BOOSTWRITE",
-                "Carbanak",
-                "Cobalt Strike",
-                "DNSMessenger",
-                "Dridex",
-                "DRIFTPIN",
-                "Gameover P2P",
-                "MimiKatz",
-                "Murofet",
-                "Qadars",
-                "Ranbyus",
-                "SocksBot"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/resources/evolution-of-fin7",
-            "date": "2022-04-04",
-            "organization": "Mandiant",
-            "author": "Bryce Abdo",
-            "title": "FIN7 Power Hour: Adversary Archaeology and the Evolution of FIN7",
-            "categories": [
-                "Griffon",
-                "BABYMETAL",
-                "Carbanak",
-                "Cobalt Strike",
-                "JSSLoader",
-                "Termite"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
-            "date": "2021-09-06",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "AV engines evasion for C++ simple malware: part 2",
-            "categories": [
-                "Agent Tesla",
-                "Amadey",
-                "Anchor",
-                "AnchorMTea",
-                "Carbanak",
-                "Carberp",
-                "Cardinal RAT",
-                "Felixroot",
-                "Konni",
-                "Loki Password Stealer (PWS)",
-                "Maze"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/",
-            "date": "2021-08-30",
-            "organization": "CrowdStrike",
-            "author": "Eric Loui",
-            "title": "CARBON SPIDER Embraces Big Game Hunting, Part 1",
-            "categories": [
-                "Bateleur",
-                "Griffon",
-                "Carbanak",
-                "DarkSide",
-                "JSSLoader",
-                "PILLOWMINT",
-                "REvil"
-            ]
-        },
-        {
-            "data_url": "https://therecord.media/two-carbanak-hackers-sentenced-to-eight-years-in-prison-in-kazakhstan/",
-            "date": "2021-06-02",
-            "organization": "The Record",
-            "author": "Catalin Cimpanu",
-            "title": "Two Carbanak hackers sentenced to eight years in prison in Kazakhstan",
-            "categories": [
-                "Carbanak"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/carbon-spider-sprite-spider-target-esxi-servers-with-ransomware/?utm_campaign=blog&utm_medium=soc&utm_source=twtr&utm_content=sprout",
-            "date": "2021-02-26",
-            "organization": "CrowdStrike",
-            "author": "Eric Loui",
-            "title": "Hypervisor Jackpotting: CARBON SPIDER and SPRITE SPIDER Target ESXi Servers With Ransomware to Maximize Impact",
-            "categories": [
-                "DarkSide",
-                "RansomEXX",
-                "Griffon",
-                "Carbanak",
-                "Cobalt Strike",
-                "DarkSide",
-                "IcedID",
-                "MimiKatz",
-                "PyXie",
-                "RansomEXX",
-                "REvil"
-            ]
-        },
-        {
-            "data_url": "https://blog.truesec.com/2020/12/22/collaboration-between-fin7-and-the-ryuk-group-a-truesec-investigation/",
-            "date": "2020-12-22",
-            "organization": "TRUESEC",
-            "author": "Mattias W\u00e5hl\u00e9n",
-            "title": "Collaboration between FIN7 and the RYUK group, a Truesec Investigation",
-            "categories": [
-                "Carbanak",
-                "Cobalt Strike",
-                "Ryuk"
-            ]
-        },
-        {
-            "data_url": "https://threatintel.blog/OPBlueRaven-Part2/",
-            "date": "2020-09-01",
-            "organization": "PRODAFT Threat Intelligence",
-            "author": "PRODAFT",
-            "title": "OpBlueRaven: Unveiling Fin7/Carbanak - Part II : BadUSB Attacks",
-            "categories": [
-                "Bella",
-                "Carbanak",
-                "FIN7"
-            ]
-        },
-        {
-            "data_url": "https://threatintel.blog/OPBlueRaven-Part1/",
-            "date": "2020-07-31",
-            "organization": "PRODAFT Threat Intelligence",
-            "author": "PRODAFT",
-            "title": "OpBlueRaven: Unveiling Fin7/Carbanak - Part 1 : Tirion",
-            "categories": [
-                "Carbanak",
-                "REvil",
-                "FIN7"
-            ]
-        },
-        {
-            "data_url": "https://www.brighttalk.com/webcast/15591/382191/fin7-apt-how-billion-dollar-crime-ring-remains-active-after-leaders-arrest",
-            "date": "2020-03-23",
-            "organization": "Kaspersky Labs",
-            "author": "F\u00e9lix Aime",
-            "title": "Fin7 APT: how billion dollar crime ring remains active after leaders\u2019 arrest",
-            "categories": [
-                "Carbanak"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-niagara",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "GOLD NIAGARA",
-            "categories": [
-                "Bateleur",
-                "Griffon",
-                "Carbanak",
-                "Cobalt Strike",
-                "DRIFTPIN",
-                "TinyMet",
-                "FIN7"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2019/04/carbanak-week-part-three-behind-the-backdoor.html",
-            "date": "2019-04-24",
-            "organization": "FireEye",
-            "author": "James T. Bennett",
-            "title": "CARBANAK Week Part Three: Behind the CARBANAK Backdoor",
-            "categories": [
-                "Carbanak"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2019/04/carbanak-week-part-one-a-rare-occurrence.html",
-            "date": "2019-04-22",
-            "organization": "FireEye",
-            "author": "Michael Bailey",
-            "title": "CARBANAK Week Part One: A Rare Occurrence",
-            "categories": [
-                "Carbanak"
-            ]
-        },
-        {
-            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s05-att&cking-fin7.pdf",
-            "date": "2018-10-01",
-            "organization": "FireEye",
-            "author": "Regina Elwell",
-            "title": "ATT&CKing FIN7",
-            "categories": [
-                "Bateleur",
-                "BELLHOP",
-                "Griffon",
-                "ANTAK",
-                "POWERPIPE",
-                "POWERSOURCE",
-                "HALFBAKED",
-                "BABYMETAL",
-                "Carbanak",
-                "Cobalt Strike",
-                "DNSMessenger",
-                "DRIFTPIN",
-                "PILLOWMINT",
-                "SocksBot"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html",
-            "date": "2017-06-12",
-            "organization": "FireEye",
-            "author": "Barry Vengerik",
-            "title": "Behind the CARBANAK Backdoor",
-            "categories": [
-                "Carbanak",
-                "DRIFTPIN"
-            ]
-        },
-        {
-            "data_url": "https://app.box.com/s/p7qzcury97tuwk26694uutujwqmwqyhe",
-            "date": "2015-02",
-            "organization": "Kaspersky SAS",
-            "author": "GReAT",
-            "title": "Carbanak APT: The Great Bank Robbery",
-            "categories": [
-                "Carbanak",
-                "FIN7"
             ]
         }
     ]

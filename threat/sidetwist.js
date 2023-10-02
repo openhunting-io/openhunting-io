@@ -33,6 +33,32 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sidetwist",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://nsfocusglobal.com/apt34-unleashes-new-wave-of-phishing-attack-with-variant-of-sidetwist-trojan/",
+            "date": "2023-08-30",
+            "organization": "NSFOCUS",
+            "author": "NSFOCUS",
+            "title": "APT34 Unleashes New Wave of Phishing Attack with Variant of SideTwist Trojan",
+            "categories": [
+                "SideTwist"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2021/irans-apt34-returns-with-an-updated-arsenal/",
+            "date": "2021-04-08",
+            "organization": "Checkpoint",
+            "author": "Check Point Research",
+            "title": "Iran\u2019s APT34 Returns with an Updated Arsenal",
+            "categories": [
+                "DNSpionage",
+                "SideTwist",
+                "TONEDEAF"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "sidetwist",
@@ -220,32 +246,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "sidetwist has exfiltrated data over its c2 channel.[113]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sidetwist",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://nsfocusglobal.com/apt34-unleashes-new-wave-of-phishing-attack-with-variant-of-sidetwist-trojan/",
-            "date": "2023-08-30",
-            "organization": "NSFOCUS",
-            "author": "NSFOCUS",
-            "title": "APT34 Unleashes New Wave of Phishing Attack with Variant of SideTwist Trojan",
-            "categories": [
-                "SideTwist"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2021/irans-apt34-returns-with-an-updated-arsenal/",
-            "date": "2021-04-08",
-            "organization": "Checkpoint",
-            "author": "Check Point Research",
-            "title": "Iran\u2019s APT34 Returns with an Updated Arsenal",
-            "categories": [
-                "DNSpionage",
-                "SideTwist",
-                "TONEDEAF"
             ]
         }
     ]

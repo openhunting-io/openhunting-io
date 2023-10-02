@@ -44,6 +44,51 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "banjori",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://osint.bambenekconsulting.com/feeds/",
+            "date": "2016-05-02",
+            "organization": "John Bambenek",
+            "author": "John Bambenek",
+            "title": "OSINT Feed",
+            "categories": [
+                "Mirai",
+                "Banjori"
+            ]
+        },
+        {
+            "data_url": "https://www.johannesbader.ch/2015/02/the-dga-of-banjori/",
+            "date": "2015-02-10",
+            "organization": "Johannes Bader's Blog",
+            "author": "Johannes Bader",
+            "title": "The DGA of Banjori",
+            "categories": [
+                "Banjori"
+            ]
+        },
+        {
+            "data_url": "http://blog.kleissner.org/?p=192",
+            "date": "2013-05-21",
+            "organization": "Kleissner & Associates",
+            "author": "Peter Kleissner",
+            "title": "News on MultiBanker, features now a jabber p2p functionality",
+            "categories": [
+                "Banjori"
+            ]
+        },
+        {
+            "data_url": "http://blog.kleissner.org/?p=69",
+            "date": "2013-03-26",
+            "organization": "Kleissner & Associates",
+            "author": "Peter Kleissner",
+            "title": "Behind MultiBanker, what the security industry doesn\u2019t tell you and its money mule network",
+            "categories": [
+                "Banjori"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -87,51 +132,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "banjori",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://osint.bambenekconsulting.com/feeds/",
-            "date": "2016-05-02",
-            "organization": "John Bambenek",
-            "author": "John Bambenek",
-            "title": "OSINT Feed",
-            "categories": [
-                "Mirai",
-                "Banjori"
-            ]
-        },
-        {
-            "data_url": "https://www.johannesbader.ch/2015/02/the-dga-of-banjori/",
-            "date": "2015-02-10",
-            "organization": "Johannes Bader's Blog",
-            "author": "Johannes Bader",
-            "title": "The DGA of Banjori",
-            "categories": [
-                "Banjori"
-            ]
-        },
-        {
-            "data_url": "http://blog.kleissner.org/?p=192",
-            "date": "2013-05-21",
-            "organization": "Kleissner & Associates",
-            "author": "Peter Kleissner",
-            "title": "News on MultiBanker, features now a jabber p2p functionality",
-            "categories": [
-                "Banjori"
-            ]
-        },
-        {
-            "data_url": "http://blog.kleissner.org/?p=69",
-            "date": "2013-03-26",
-            "organization": "Kleissner & Associates",
-            "author": "Peter Kleissner",
-            "title": "Behind MultiBanker, what the security industry doesn\u2019t tell you and its money mule network",
-            "categories": [
-                "Banjori"
             ]
         }
     ]

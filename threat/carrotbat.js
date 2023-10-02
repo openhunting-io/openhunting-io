@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "carrotbat",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "carrotbat",
@@ -159,8 +162,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "carrotbat",
-    "analysis": null,
-    "articles": []
+    ]
 };

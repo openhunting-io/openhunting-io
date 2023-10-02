@@ -41,6 +41,56 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "komprogo",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/SpyRATsofOceanLotusMalwareWhitePaper.pdf",
+            "date": "2018-11-02",
+            "organization": "Cylance",
+            "author": "Cylance",
+            "title": "The SpyRATs of OceanLotus",
+            "categories": [
+                "KOMPROGO",
+                "PHOREAL"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+            "date": "2017-05-14",
+            "organization": "FireEye",
+            "author": "Nick Carr",
+            "title": "Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations",
+            "categories": [
+                "OceanLotus",
+                "Cuegoe",
+                "KOMPROGO",
+                "SOUNDBITE",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://ruxcon.org.au/assets/2017/slides/bart-RuxCon-Presentation.pptx",
+            "date": "2017",
+            "organization": "FireEye",
+            "author": "Bart Inglot",
+            "title": "ATTACKER ANTICS: Illustrations of Ingenuity",
+            "categories": [
+                "KOMPROGO",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/security_response/earthlink_writeup.jsp?docid=2015-120808-5327-99",
+            "date": "2015-12-08",
+            "organization": "Symantec",
+            "author": "Symantec",
+            "title": "Backdoor.Komprogo",
+            "categories": [
+                "KOMPROGO"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "komprogo",
@@ -128,56 +178,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "komprogo",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cylance.com/content/dam/cylance-web/en-us/resources/knowledge-center/resource-library/reports/SpyRATsofOceanLotusMalwareWhitePaper.pdf",
-            "date": "2018-11-02",
-            "organization": "Cylance",
-            "author": "Cylance",
-            "title": "The SpyRATs of OceanLotus",
-            "categories": [
-                "KOMPROGO",
-                "PHOREAL"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
-            "date": "2017-05-14",
-            "organization": "FireEye",
-            "author": "Nick Carr",
-            "title": "Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations",
-            "categories": [
-                "OceanLotus",
-                "Cuegoe",
-                "KOMPROGO",
-                "SOUNDBITE",
-                "APT32"
-            ]
-        },
-        {
-            "data_url": "https://ruxcon.org.au/assets/2017/slides/bart-RuxCon-Presentation.pptx",
-            "date": "2017",
-            "organization": "FireEye",
-            "author": "Bart Inglot",
-            "title": "ATTACKER ANTICS: Illustrations of Ingenuity",
-            "categories": [
-                "KOMPROGO",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/security_response/earthlink_writeup.jsp?docid=2015-120808-5327-99",
-            "date": "2015-12-08",
-            "organization": "Symantec",
-            "author": "Symantec",
-            "title": "Backdoor.Komprogo",
-            "categories": [
-                "KOMPROGO"
             ]
         }
     ]

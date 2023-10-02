@@ -33,6 +33,30 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "queenofclubs",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/iamtheking-and-the-slothfulmedia-malware-family/99000/",
+            "date": "2020-10-15",
+            "organization": "Kaspersky Labs",
+            "author": "Ivan Kwiatkowski",
+            "title": "IAmTheKing and the SlothfulMedia malware family",
+            "categories": [
+                "SlothfulMedia"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-275a",
+            "date": "2020-10-01",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR20-275A): Remote Access Trojan: SLOTHFULMEDIA",
+            "categories": [
+                "SlothfulMedia"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "slothfulmedia",
@@ -352,30 +376,6 @@ var threatdata = {
                     "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
                     "procedure_description": "slothfulmedia has the capability to stop processes and services.[39]"
                 }
-            ]
-        }
-    ],
-    "file_name": "queenofclubs",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/iamtheking-and-the-slothfulmedia-malware-family/99000/",
-            "date": "2020-10-15",
-            "organization": "Kaspersky Labs",
-            "author": "Ivan Kwiatkowski",
-            "title": "IAmTheKing and the SlothfulMedia malware family",
-            "categories": [
-                "SlothfulMedia"
-            ]
-        },
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-275a",
-            "date": "2020-10-01",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (AR20-275A): Remote Access Trojan: SLOTHFULMEDIA",
-            "categories": [
-                "SlothfulMedia"
             ]
         }
     ]

@@ -110,6 +110,133 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-10 11:07:46",
+    "file_name": "oceanlotus",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
+            "date": "2021-05-20",
+            "organization": "Github (microsoft)",
+            "author": "Microsoft",
+            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
+            "categories": [
+                "STRRAT",
+                "OceanLotus",
+                "BabyShark",
+                "Elise",
+                "Revenge RAT",
+                "WastedLocker",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://github.com/AmnestyTech/investigations/tree/master/2021-02-24_vietnam",
+            "date": "2021-02-24",
+            "organization": "Github (AmnestyTech)",
+            "author": "Amnesty International",
+            "title": "Overview of Ocean Lotus Samples used to target Vietnamese Human Rights Defenders",
+            "categories": [
+                "OceanLotus",
+                "Cobalt Strike",
+                "KerrDown"
+            ]
+        },
+        {
+            "data_url": "https://about.fb.com/news/2020/12/taking-action-against-hackers-in-bangladesh-and-vietnam/",
+            "date": "2020-12-10",
+            "organization": "Facebook",
+            "author": "Nathaniel Gleicher",
+            "title": "Taking Action Against Hackers in Bangladesh and Vietnam",
+            "categories": [
+                "OceanLotus"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/apt32-multi-stage-macos-trojan-innovates-on-crimeware-scripting-technique/",
+            "date": "2020-12-02",
+            "organization": "SentinelOne",
+            "author": "Phil Stokes",
+            "title": "APT32 Multi-stage macOS Trojan Innovates on Crimeware Scripting Technique",
+            "categories": [
+                "OceanLotus"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/20/k/new-macos-backdoor-connected-to-oceanlotus-surfaces.html",
+            "date": "2020-11-27",
+            "organization": "Trend Micro",
+            "author": "Luis Magisa",
+            "title": "New MacOS Backdoor Connected to OceanLotus Surfaces",
+            "categories": [
+                "OceanLotus",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://tradahacking.vn/%C4%91%E1%BB%A3t-r%E1%BB%93i-t%C3%B4i-c%C3%B3-%C4%91%C4%83ng-m%E1%BB%99t-status-xin-d%E1%BA%A1o-tr%C3%AAn-fb-may-qu%C3%A1-c%C5%A9ng-c%C3%B3-v%C3%A0i-b%E1%BA%A1n-nhi%E1%BB%87t-t%C3%ACnh-g%E1%BB%ADi-cho-537b19ee3468",
+            "date": "2019-10-08",
+            "organization": "",
+            "author": "m4n0w4r",
+            "title": "M\u1ed9t sample nh\u1eafm v\u00e0o Bank \u1edf VN",
+            "categories": [
+                "OceanLotus"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
+            "date": "2019-04-09",
+            "organization": "ESET Research",
+            "author": "Romain Dumont",
+            "title": "OceanLotus: macOS malware update",
+            "categories": [
+                "OceanLotus"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/",
+            "date": "2018-04-04",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "New MacOS Backdoor Linked to OceanLotus Found",
+            "categories": [
+                "OceanLotus"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/06/unit42-new-improved-macos-backdoor-oceanlotus/",
+            "date": "2017-06-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Erye Hernandez",
+            "title": "The New and Improved macOS Backdoor from OceanLotus",
+            "categories": [
+                "OceanLotus"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
+            "date": "2017-05-14",
+            "organization": "FireEye",
+            "author": "Nick Carr",
+            "title": "Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations",
+            "categories": [
+                "OceanLotus",
+                "Cuegoe",
+                "KOMPROGO",
+                "SOUNDBITE",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://www.alienvault.com/blogs/labs-research/oceanlotus-for-os-x-an-application-bundle-pretending-to-be-an-adobe-flash-update",
+            "date": "2016-02-17",
+            "organization": "AT&T Cybersecurity",
+            "author": "Eddie Lee",
+            "title": "OceanLotus for OS X \u2013 an Application Bundle Pretending to be an Adobe Flash Update",
+            "categories": [
+                "OceanLotus"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "osx_oceanlotus.d",
@@ -393,133 +520,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "osx_oceanlotus.d has a command to download and execute a file on the victim\u2019s machine.[337][338]"
                 }
-            ]
-        }
-    ],
-    "file_name": "oceanlotus",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
-            "date": "2021-05-20",
-            "organization": "Github (microsoft)",
-            "author": "Microsoft",
-            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
-            "categories": [
-                "STRRAT",
-                "OceanLotus",
-                "BabyShark",
-                "Elise",
-                "Revenge RAT",
-                "WastedLocker",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://github.com/AmnestyTech/investigations/tree/master/2021-02-24_vietnam",
-            "date": "2021-02-24",
-            "organization": "Github (AmnestyTech)",
-            "author": "Amnesty International",
-            "title": "Overview of Ocean Lotus Samples used to target Vietnamese Human Rights Defenders",
-            "categories": [
-                "OceanLotus",
-                "Cobalt Strike",
-                "KerrDown"
-            ]
-        },
-        {
-            "data_url": "https://about.fb.com/news/2020/12/taking-action-against-hackers-in-bangladesh-and-vietnam/",
-            "date": "2020-12-10",
-            "organization": "Facebook",
-            "author": "Nathaniel Gleicher",
-            "title": "Taking Action Against Hackers in Bangladesh and Vietnam",
-            "categories": [
-                "OceanLotus"
-            ]
-        },
-        {
-            "data_url": "https://labs.sentinelone.com/apt32-multi-stage-macos-trojan-innovates-on-crimeware-scripting-technique/",
-            "date": "2020-12-02",
-            "organization": "SentinelOne",
-            "author": "Phil Stokes",
-            "title": "APT32 Multi-stage macOS Trojan Innovates on Crimeware Scripting Technique",
-            "categories": [
-                "OceanLotus"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/20/k/new-macos-backdoor-connected-to-oceanlotus-surfaces.html",
-            "date": "2020-11-27",
-            "organization": "Trend Micro",
-            "author": "Luis Magisa",
-            "title": "New MacOS Backdoor Connected to OceanLotus Surfaces",
-            "categories": [
-                "OceanLotus",
-                "APT32"
-            ]
-        },
-        {
-            "data_url": "https://tradahacking.vn/%C4%91%E1%BB%A3t-r%E1%BB%93i-t%C3%B4i-c%C3%B3-%C4%91%C4%83ng-m%E1%BB%99t-status-xin-d%E1%BA%A1o-tr%C3%AAn-fb-may-qu%C3%A1-c%C5%A9ng-c%C3%B3-v%C3%A0i-b%E1%BA%A1n-nhi%E1%BB%87t-t%C3%ACnh-g%E1%BB%ADi-cho-537b19ee3468",
-            "date": "2019-10-08",
-            "organization": "",
-            "author": "m4n0w4r",
-            "title": "M\u1ed9t sample nh\u1eafm v\u00e0o Bank \u1edf VN",
-            "categories": [
-                "OceanLotus"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2019/04/09/oceanlotus-macos-malware-update/",
-            "date": "2019-04-09",
-            "organization": "ESET Research",
-            "author": "Romain Dumont",
-            "title": "OceanLotus: macOS malware update",
-            "categories": [
-                "OceanLotus"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-macos-backdoor-linked-to-oceanlotus-found/",
-            "date": "2018-04-04",
-            "organization": "Trend Micro",
-            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
-            "title": "New MacOS Backdoor Linked to OceanLotus Found",
-            "categories": [
-                "OceanLotus"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2017/06/unit42-new-improved-macos-backdoor-oceanlotus/",
-            "date": "2017-06-22",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Erye Hernandez",
-            "title": "The New and Improved macOS Backdoor from OceanLotus",
-            "categories": [
-                "OceanLotus"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",
-            "date": "2017-05-14",
-            "organization": "FireEye",
-            "author": "Nick Carr",
-            "title": "Cyber Espionage is Alive and Well: APT32 and the Threat to Global Corporations",
-            "categories": [
-                "OceanLotus",
-                "Cuegoe",
-                "KOMPROGO",
-                "SOUNDBITE",
-                "APT32"
-            ]
-        },
-        {
-            "data_url": "https://www.alienvault.com/blogs/labs-research/oceanlotus-for-os-x-an-application-bundle-pretending-to-be-an-adobe-flash-update",
-            "date": "2016-02-17",
-            "organization": "AT&T Cybersecurity",
-            "author": "Eddie Lee",
-            "title": "OceanLotus for OS X \u2013 an Application Bundle Pretending to be an Adobe Flash Update",
-            "categories": [
-                "OceanLotus"
             ]
         }
     ]

@@ -43,6 +43,113 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "remsec",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/project-sauron",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "Project Sauron",
+            "categories": [
+                "ProjectSauron"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0041/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: Strider",
+            "categories": [
+                "ProjectSauron"
+            ]
+        },
+        {
+            "data_url": "https://artemonsecurity.blogspot.com/2016/10/remsec-driver-analysis-part-3.html",
+            "date": "2016-10-11",
+            "organization": "",
+            "author": "Artem Baranov",
+            "title": "Remsec driver analysis - Part 3",
+            "categories": [
+                "Remsec"
+            ]
+        },
+        {
+            "data_url": "https://artemonsecurity.blogspot.com/2016/10/remsec-driver-analysis-part-2.html",
+            "date": "2016-10-10",
+            "organization": "",
+            "author": "Artem Baranov",
+            "title": "Remsec driver analysis - Part 2",
+            "categories": [
+                "Remsec"
+            ]
+        },
+        {
+            "data_url": "https://artemonsecurity.blogspot.com/2016/10/remsec-driver-analysis.html",
+            "date": "2016-10-03",
+            "organization": "",
+            "author": "Artem Baranov",
+            "title": "Remsec driver analysis",
+            "categories": [
+                "Remsec"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07190154/The-ProjectSauron-APT_research_KL.pdf",
+            "date": "2016-09-09",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "THE PROJECTSAURON APT",
+            "categories": [
+                "ProjectSauron"
+            ]
+        },
+        {
+            "data_url": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Symantec_Remsec_IOCs.pdf",
+            "date": "2016-08-08",
+            "organization": "Symantec",
+            "author": "Symantec",
+            "title": "Backdoor.Remsec indicators of compromise",
+            "categories": [
+                "Remsec"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ce2df4da-afe9-4a24-b28c-0fb3ba671d95&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2016-08-08",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
+            "categories": [
+                "Flame",
+                "Regin",
+                "Remsec",
+                "ProjectSauron"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/analysis/publications/75533/faq-the-projectsauron-apt/",
+            "date": "2016-08-08",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "ProjectSauron: top level cyber-espionage platform covertly extracts encrypted government comms",
+            "categories": [
+                "ProjectSauron"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/strider-cyberespionage-group-turns-eye-sauron-targets",
+            "date": "2016-08-07",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
+            "categories": [
+                "ProjectSauron"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "remsec",
@@ -470,113 +577,6 @@ var threatdata = {
                     "technique_description": "adversaries may attempt to exfiltrate data over a usb connected physical device. in certain circumstances, such as an air-gapped network compromise, exfiltration could occur via a usb device introduced by a user. the usb device could be used as the final exfiltration point or to hop between otherwise disconnected systems.",
                     "procedure_description": "remsec contains a module to move data from airgapped networks to internet-connected systems by using a removable usb device.[5]"
                 }
-            ]
-        }
-    ],
-    "file_name": "remsec",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cfr.org/interactive/cyber-operations/project-sauron",
-            "date": "2019",
-            "organization": "Council on Foreign Relations",
-            "author": "Cyber Operations Tracker",
-            "title": "Project Sauron",
-            "categories": [
-                "ProjectSauron"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0041/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: Strider",
-            "categories": [
-                "ProjectSauron"
-            ]
-        },
-        {
-            "data_url": "https://artemonsecurity.blogspot.com/2016/10/remsec-driver-analysis-part-3.html",
-            "date": "2016-10-11",
-            "organization": "",
-            "author": "Artem Baranov",
-            "title": "Remsec driver analysis - Part 3",
-            "categories": [
-                "Remsec"
-            ]
-        },
-        {
-            "data_url": "https://artemonsecurity.blogspot.com/2016/10/remsec-driver-analysis-part-2.html",
-            "date": "2016-10-10",
-            "organization": "",
-            "author": "Artem Baranov",
-            "title": "Remsec driver analysis - Part 2",
-            "categories": [
-                "Remsec"
-            ]
-        },
-        {
-            "data_url": "https://artemonsecurity.blogspot.com/2016/10/remsec-driver-analysis.html",
-            "date": "2016-10-03",
-            "organization": "",
-            "author": "Artem Baranov",
-            "title": "Remsec driver analysis",
-            "categories": [
-                "Remsec"
-            ]
-        },
-        {
-            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07190154/The-ProjectSauron-APT_research_KL.pdf",
-            "date": "2016-09-09",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "THE PROJECTSAURON APT",
-            "categories": [
-                "ProjectSauron"
-            ]
-        },
-        {
-            "data_url": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/Symantec_Remsec_IOCs.pdf",
-            "date": "2016-08-08",
-            "organization": "Symantec",
-            "author": "Symantec",
-            "title": "Backdoor.Remsec indicators of compromise",
-            "categories": [
-                "Remsec"
-            ]
-        },
-        {
-            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ce2df4da-afe9-4a24-b28c-0fb3ba671d95&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
-            "date": "2016-08-08",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
-            "categories": [
-                "Flame",
-                "Regin",
-                "Remsec",
-                "ProjectSauron"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/analysis/publications/75533/faq-the-projectsauron-apt/",
-            "date": "2016-08-08",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "ProjectSauron: top level cyber-espionage platform covertly extracts encrypted government comms",
-            "categories": [
-                "ProjectSauron"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/strider-cyberespionage-group-turns-eye-sauron-targets",
-            "date": "2016-08-07",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Strider: Cyberespionage group turns eye of Sauron on targets",
-            "categories": [
-                "ProjectSauron"
             ]
         }
     ]

@@ -37,6 +37,150 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "koadic",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.prodaft.com/m/uploads/SilverFish_TLPWHITE.pdf",
+            "date": "2021-03-18",
+            "organization": "PRODAFT Threat Intelligence",
+            "author": "PRODAFT",
+            "title": "SilverFish GroupThreat Actor Report",
+            "categories": [
+                "Cobalt Strike",
+                "Dridex",
+                "Koadic"
+            ]
+        },
+        {
+            "data_url": "https://resources.malwarebytes.com/files/2021/02/LazyScripter.pdf",
+            "date": "2021-02-24",
+            "organization": "Malwarebytes",
+            "author": "Hossein Jazi",
+            "title": "LazyScripter: From Empire to double RAT",
+            "categories": [
+                "Octopus",
+                "Koadic"
+            ]
+        },
+        {
+            "data_url": "https://cdn-cybersecurity.att.com/docs/global-perspective-of-the-sidewinder-apt.pdf",
+            "date": "2021-01-13",
+            "organization": "AlienVault",
+            "author": "Tom Hegel",
+            "title": "A Global Perspective of the SideWinder APT",
+            "categories": [
+                "8.t Dropper",
+                "Koadic",
+                "SideWinder"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-drake",
+            "date": "2021",
+            "organization": "",
+            "author": "SecureWorks",
+            "title": "Threat Profile: GOLD DRAKE",
+            "categories": [
+                "Cobalt Strike",
+                "Dridex",
+                "FriedEx",
+                "Koadic",
+                "MimiKatz",
+                "WastedLocker",
+                "Evil Corp"
+            ]
+        },
+        {
+            "data_url": "https://blog.tofile.dev/2020/11/28/koadic_jarm.html",
+            "date": "2020-11-28",
+            "organization": "pat_h/to/file",
+            "author": "pat_h/to/file",
+            "title": "Hunting Koadic Pt. 2 - JARM Fingerprinting",
+            "categories": [
+                "Koadic"
+            ]
+        },
+        {
+            "data_url": "https://labs.bitdefender.com/2020/03/5-times-more-coronavirus-themed-malware-reports-during-march/?utm_campaign=twitter&utm_medium=twitter&utm_source=twitter",
+            "date": "2020-03-20",
+            "organization": "Bitdefender",
+            "author": "Liviu Arsene",
+            "title": "5 Times More Coronavirus-themed Malware Reports during March",
+            "categories": [
+                "ostap",
+                "HawkEye Keylogger",
+                "Koadic",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://github.com/zerosum0x0/koadic",
+            "date": "2020-01-09",
+            "organization": "Github (zerosum0x0)",
+            "author": "zerosum0x0",
+            "title": "Koadic",
+            "categories": [
+                "Koadic"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/cobalt-ulster",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT ULSTER",
+            "categories": [
+                "POWERSTATS",
+                "Koadic",
+                "MuddyWater"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-drake",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD DRAKE",
+            "categories": [
+                "Dridex",
+                "Empire Downloader",
+                "FriedEx",
+                "Koadic",
+                "MimiKatz"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT TRINITY",
+            "categories": [
+                "POWERTON",
+                "pupy",
+                "Imminent Monitor RAT",
+                "Koadic",
+                "Nanocore RAT",
+                "NetWire RC",
+                "PoshC2",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/",
+            "date": "2018-06-06",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "Sofacy Group\u2019s Parallel Attacks",
+            "categories": [
+                "Koadic",
+                "Zebrocy"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "koadic",
@@ -428,150 +572,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "koadic can download additional files and tools.[247][248]"
                 }
-            ]
-        }
-    ],
-    "file_name": "koadic",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.prodaft.com/m/uploads/SilverFish_TLPWHITE.pdf",
-            "date": "2021-03-18",
-            "organization": "PRODAFT Threat Intelligence",
-            "author": "PRODAFT",
-            "title": "SilverFish GroupThreat Actor Report",
-            "categories": [
-                "Cobalt Strike",
-                "Dridex",
-                "Koadic"
-            ]
-        },
-        {
-            "data_url": "https://resources.malwarebytes.com/files/2021/02/LazyScripter.pdf",
-            "date": "2021-02-24",
-            "organization": "Malwarebytes",
-            "author": "Hossein Jazi",
-            "title": "LazyScripter: From Empire to double RAT",
-            "categories": [
-                "Octopus",
-                "Koadic"
-            ]
-        },
-        {
-            "data_url": "https://cdn-cybersecurity.att.com/docs/global-perspective-of-the-sidewinder-apt.pdf",
-            "date": "2021-01-13",
-            "organization": "AlienVault",
-            "author": "Tom Hegel",
-            "title": "A Global Perspective of the SideWinder APT",
-            "categories": [
-                "8.t Dropper",
-                "Koadic",
-                "SideWinder"
-            ]
-        },
-        {
-            "data_url": "http://www.secureworks.com/research/threat-profiles/gold-drake",
-            "date": "2021",
-            "organization": "",
-            "author": "SecureWorks",
-            "title": "Threat Profile: GOLD DRAKE",
-            "categories": [
-                "Cobalt Strike",
-                "Dridex",
-                "FriedEx",
-                "Koadic",
-                "MimiKatz",
-                "WastedLocker",
-                "Evil Corp"
-            ]
-        },
-        {
-            "data_url": "https://blog.tofile.dev/2020/11/28/koadic_jarm.html",
-            "date": "2020-11-28",
-            "organization": "pat_h/to/file",
-            "author": "pat_h/to/file",
-            "title": "Hunting Koadic Pt. 2 - JARM Fingerprinting",
-            "categories": [
-                "Koadic"
-            ]
-        },
-        {
-            "data_url": "https://labs.bitdefender.com/2020/03/5-times-more-coronavirus-themed-malware-reports-during-march/?utm_campaign=twitter&utm_medium=twitter&utm_source=twitter",
-            "date": "2020-03-20",
-            "organization": "Bitdefender",
-            "author": "Liviu Arsene",
-            "title": "5 Times More Coronavirus-themed Malware Reports during March",
-            "categories": [
-                "ostap",
-                "HawkEye Keylogger",
-                "Koadic",
-                "Loki Password Stealer (PWS)",
-                "Nanocore RAT",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://github.com/zerosum0x0/koadic",
-            "date": "2020-01-09",
-            "organization": "Github (zerosum0x0)",
-            "author": "zerosum0x0",
-            "title": "Koadic",
-            "categories": [
-                "Koadic"
-            ]
-        },
-        {
-            "data_url": "http://www.secureworks.com/research/threat-profiles/cobalt-ulster",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT ULSTER",
-            "categories": [
-                "POWERSTATS",
-                "Koadic",
-                "MuddyWater"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-drake",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "GOLD DRAKE",
-            "categories": [
-                "Dridex",
-                "Empire Downloader",
-                "FriedEx",
-                "Koadic",
-                "MimiKatz"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT TRINITY",
-            "categories": [
-                "POWERTON",
-                "pupy",
-                "Imminent Monitor RAT",
-                "Koadic",
-                "Nanocore RAT",
-                "NetWire RC",
-                "PoshC2",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/",
-            "date": "2018-06-06",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Bryan Lee",
-            "title": "Sofacy Group\u2019s Parallel Attacks",
-            "categories": [
-                "Koadic",
-                "Zebrocy"
             ]
         }
     ]

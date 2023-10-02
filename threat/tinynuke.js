@@ -77,7 +77,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-06-19 12:29:34",
-    "mitre": [],
     "file_name": "tinynuke",
     "analysis": null,
     "articles": [
@@ -225,5 +224,6 @@ var threatdata = {
                 "Xbot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

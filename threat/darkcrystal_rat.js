@@ -37,97 +37,140 @@ var threatdata = {
             "malware_printable": "DCRat",
             "malware_alias": "DarkCrystal RAT",
             "malware": "win.dcrat",
-            "last_update": "2023-09-26 13:15:27",
+            "last_update": "2023-10-01 20:31:20",
             "tags": [
-                "DATAWAGON",
-                "PLAYIT-GG",
-                "C2",
-                "DIGITALOCEAN-ASN",
-                "NTTE-AS Ntte Global Network Brand Name",
-                "M247",
-                "dcrat",
+                "AMAZON-02",
+                "AS45671-NET-AU Wholesale Services Provider",
                 "DCRat",
+                "GOOGLE-CLOUD-PLATFORM",
+                "SMARTAPE",
+                "CLOUDDATA-NETWORKS-1",
+                "DLAgent10",
+                "DATAWAGON",
+                "VOXILITY",
+                "GIR-AS",
                 "EVOXTENTERPRISE-AS-AP Evoxt Enterprise",
+                "TERAEXCH",
+                "rat",
+                "RAT",
+                "NEXEON",
+                "ENJOYVC-AS-AP EnjoyVC Japan Corporation",
+                "AS-SUISSE",
+                "WEBICO-AS-VN Webico Company Limited",
+                "HOSTLAB",
+                "COLOMBIA TELECOMUNICACIONES S.A. ESP",
+                "MIVOCLOUD",
+                "ALIBABA-CN-NET Alibaba US Technology Co. Ltd.",
+                "AS-CHOOPA",
                 "ViaPrivateLoader",
-                "CHINANET-ANHUI-WUHU-IDC China Telecom",
-                "AS-COLOCROSSING",
-                "DCRAT",
+                "AS-HOSTINGER",
+                "BCPL-SG BGPNET Global ASN",
+                "HINET Data Communication Business Group",
+                "SPB-AS",
+                "opendir",
+                "TELECOM-AS-AP Hong Kong Business Telecom Limited",
+                "PLI-AS",
                 "MICROSOFT-CORP-MSN-AS-BLOCK",
                 "GCC-MPLS-PEERING GCC MPLS peering",
-                "SMARTAPE",
-                "TENCENT-NET-AP Shenzhen Tencent Computer Systems Company Limited",
-                "UPORT-SERVICE-AS",
-                "AS_DELIS",
-                "RAt",
-                "LIMESTONENETWORKS",
-                "VOXILITY",
-                "AS-SUISSE",
-                "GIR-AS",
-                "PLI-AS",
-                "RAT",
-                "CHINATELECOM-GUANGDONG-IDC Guangdong",
-                "rat",
-                "OCN NTT Communications Corporation",
-                "HINET Data Communication Business Group",
-                "GOKNET",
-                "SERVICES-1337-GMBH",
-                "DCRat C&C",
-                "PORTLANE www.portlane.com",
-                "TEL-NET-AS",
-                "INTERNETBILISIM",
-                "AS-CHOOPA",
-                "NEXEON",
-                "Snip3",
-                "1GSERVERS",
-                "GARS-AS Moscow Russia",
-                "DCrat",
-                "HOSTINGDUNYAM HOSTING DUNYAM",
-                "AS45671-NET-AU Wholesale Services Provider",
-                "CLOUDWEBMANAGE-EU",
-                "TOPNET",
-                "CLOUDDATA-NETWORKS-1",
-                "HOSTLAB",
-                "CHINANET-BACKBONE No.31Jin-rong Street",
-                "VODANET International IP-Backbone of Vodafone",
-                "DLAgent10",
-                "ENJOYVC-AS-AP EnjoyVC Japan Corporation",
-                "DcRat",
-                "viaSmokeLoader",
-                "AS-HOSTINGER",
-                "SPB-AS",
                 "DCRAt",
-                "SHOCK-1",
-                "GOOGLE-CLOUD-PLATFORM",
-                "BCPL-SG BGPNET Global ASN",
-                "SnakeKeyLogger",
-                "CLOUDWEBMANAGE-IL-FR",
-                "AUROLOGIC aurologic GmbH",
-                "MARKAHOST-TELEKOMUNIKASYON-LIMITED-SIRKETI MARKAHOST",
-                "ALIBABA-CN-NET Hangzhou Alibaba Advertising Co.Ltd.",
-                "UNESTY",
-                "WEBICO-AS-VN Webico Company Limited",
-                "SERVINGA",
-                "DATAFOREST",
+                "PORTLANE www.portlane.com",
                 "LuchoNoob123",
-                "VNPT-AS-VN VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
-                "TELECOM-AS-AP Hong Kong Business Telecom Limited",
-                "Colombia Movil",
-                "link-manager",
-                "SKB-AS SK Broadband Co Ltd",
-                "MIVOCLOUD",
-                "Snake",
-                "CHINA169-BACKBONE CHINA UNICOM China169 Backbone",
-                "CONTABO",
-                "TERAEXCH",
-                "opendir",
-                "ALIBABA-CN-NET Alibaba US Technology Co. Ltd.",
-                "AMAZON-02",
-                "404keylogger",
+                "DCRat C&C",
+                "AUROLOGIC aurologic GmbH",
+                "DATAFOREST",
+                "AS-COLOCROSSING",
+                "RAt",
+                "SERVINGA",
                 "OVH",
-                "HETZNER-AS"
+                "GOKNET",
+                "SKB-AS SK Broadband Co Ltd",
+                "CONTABO",
+                "TOPNET",
+                "C2",
+                "DIGITALOCEAN-ASN",
+                "Snake",
+                "VH-GLOBAL VH Global Limited",
+                "CHINATELECOM-GUANGDONG-IDC Guangdong",
+                "Snip3",
+                "CHINA169-BACKBONE CHINA UNICOM China169 Backbone",
+                "M247",
+                "SnakeKeyLogger",
+                "GARS-AS Moscow Russia",
+                "UNESTY",
+                "link-manager",
+                "TEL-NET-AS",
+                "SERVICES-1337-GMBH",
+                "404keylogger",
+                "MARKAHOST-TELEKOMUNIKASYON-LIMITED-SIRKETI MARKAHOST",
+                "1GSERVERS",
+                "viaSmokeLoader",
+                "CLOUDWEBMANAGE-EU",
+                "OCN NTT Communications Corporation",
+                "CHINANET-BACKBONE No.31Jin-rong Street",
+                "Colombia Movil",
+                "UPORT-SERVICE-AS",
+                "CLOUDWEBMANAGE-IL-FR",
+                "VODANET International IP-Backbone of Vodafone",
+                "CHINANET-ANHUI-WUHU-IDC China Telecom",
+                "TENCENT-NET-AP Shenzhen Tencent Computer Systems Company Limited",
+                "SHOCK-1",
+                "AS_DELIS",
+                "dcrat",
+                "LIMESTONENETWORKS",
+                "DcRat",
+                "DCrat",
+                "HETZNER-AS",
+                "INTERNETBILISIM",
+                "HOSTINGDUNYAM HOSTING DUNYAM",
+                "PLAYIT-GG",
+                "VNPT-AS-VN VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+                "NTTE-AS Ntte Global Network Brand Name",
+                "ALTAWK",
+                "ALIBABA-CN-NET Hangzhou Alibaba Advertising Co.Ltd.",
+                "DCRAT"
             ],
             "ioc": {
                 "url": [
+                    {
+                        "value": "http://a0868980.xsph.ru/L1nc0In.php",
+                        "timestamp": "2023-10-01 20:31:20"
+                    },
+                    {
+                        "value": "http://nukermij.beget.tech/_Defaultwindows.php",
+                        "timestamp": "2023-10-01 20:30:00"
+                    },
+                    {
+                        "value": "http://23872634cm.whiteproducts.ru/L1nc0In.php",
+                        "timestamp": "2023-09-30 05:56:09"
+                    },
+                    {
+                        "value": "http://cp37626.tw1.ru/dokatkapidr.php",
+                        "timestamp": "2023-09-30 00:40:52"
+                    },
+                    {
+                        "value": "http://343848cm.nyashnyash.top/Provider_packetBigloadwindowsFlowerAsynctestCdn.php",
+                        "timestamp": "2023-09-29 07:11:31"
+                    },
+                    {
+                        "value": "http://766392m.dccrk.top/cpudletemp.php",
+                        "timestamp": "2023-09-29 07:10:04"
+                    },
+                    {
+                        "value": "http://109888cm.nyashnyash.top/nyashsupport.php",
+                        "timestamp": "2023-09-27 19:36:12"
+                    },
+                    {
+                        "value": "http://45.144.233.162/L1nc0In.php",
+                        "timestamp": "2023-09-26 22:05:21"
+                    },
+                    {
+                        "value": "http://398693cm.nyashnyash.top/nyashsupport.php",
+                        "timestamp": "2023-09-26 15:42:13"
+                    },
+                    {
+                        "value": "http://394776cl.nyashtop.top/requestHttpPacketauthServerdefaultTest.php",
+                        "timestamp": "2023-09-26 15:42:12"
+                    },
                     {
                         "value": "http://232161cm.nyashtyan.top/nyashsupport.php",
                         "timestamp": "2023-09-26 13:15:27"
@@ -150,7 +193,7 @@ var threatdata = {
                     },
                     {
                         "value": "http://753139cl.nyashtop.top/videoServer.php",
-                        "timestamp": "2023-09-25 05:17:23"
+                        "timestamp": "2023-09-26 21:41:20"
                     },
                     {
                         "value": "http://co14383.tw1.ru/_Defaultwindows.php",
@@ -286,7 +329,7 @@ var threatdata = {
                     },
                     {
                         "value": "http://004727cm.n9shteam1.top/nyashsupport.php",
-                        "timestamp": "2023-09-04 06:35:17"
+                        "timestamp": "2023-09-26 16:05:50"
                     },
                     {
                         "value": "http://178.250.159.46/externalTolocal.php",
@@ -6123,6 +6166,42 @@ var threatdata = {
                 ],
                 "ip:port": [
                     {
+                        "value": "181.235.12.82:5000",
+                        "timestamp": "2023-09-30 18:48:46"
+                    },
+                    {
+                        "value": "77.91.124.111:5552",
+                        "timestamp": "2023-09-30 18:48:41"
+                    },
+                    {
+                        "value": "15.207.54.166:8848",
+                        "timestamp": "2023-09-30 06:49:36"
+                    },
+                    {
+                        "value": "177.255.90.40:8010",
+                        "timestamp": "2023-09-29 18:49:26"
+                    },
+                    {
+                        "value": "202.146.218.35:8848",
+                        "timestamp": "2023-09-28 06:50:06"
+                    },
+                    {
+                        "value": "20.199.18.38:1024",
+                        "timestamp": "2023-09-28 06:49:56"
+                    },
+                    {
+                        "value": "20.199.64.106:8848",
+                        "timestamp": "2023-09-27 06:49:41"
+                    },
+                    {
+                        "value": "49.12.227.111:8848",
+                        "timestamp": "2023-09-27 05:22:04"
+                    },
+                    {
+                        "value": "103.39.78.162:8088",
+                        "timestamp": "2023-09-26 18:50:29"
+                    },
+                    {
                         "value": "119.91.99.194:8081",
                         "timestamp": "2023-09-25 05:17:25"
                     },
@@ -6781,6 +6860,10 @@ var threatdata = {
                 ],
                 "domain": [
                     {
+                        "value": "dcrat.vnh.wtf",
+                        "timestamp": "2023-09-27 05:22:08"
+                    },
+                    {
                         "value": "505406lm.nyashkoon.top",
                         "timestamp": "2023-09-14 13:56:58"
                     },
@@ -6910,7 +6993,7 @@ var threatdata = {
                     },
                     {
                         "value": "rick63.publicvm.com",
-                        "timestamp": "2023-09-10 21:58:48"
+                        "timestamp": "2023-09-27 14:14:55"
                     }
                 ],
                 "sha256_hash": [
@@ -8964,53 +9047,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-26 13:15:27",
-    "mitre": [
-        {
-            "procedure_name": "at",
-            "procedure_code": "s0110",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0110",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                }
-            ]
-        }
-    ],
+    "last_ioc_update": "2023-10-01 20:31:20",
     "file_name": "darkcrystal_rat",
     "analysis": null,
     "articles": [
@@ -9429,6 +9466,52 @@ var threatdata = {
             "title": "DCRAT malware Evades SandBox that use Fake Internet by using the Google public DNS IP address",
             "categories": [
                 "DCRat"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
             ]
         }
     ]

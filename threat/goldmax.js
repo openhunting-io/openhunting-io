@@ -38,6 +38,159 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "goldmax",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
+            "date": "2023-04-24",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "Tomiris called, they want their Turla malware back",
+            "categories": [
+                "KopiLuwak",
+                "Andromeda",
+                "Ave Maria",
+                "GoldMax",
+                "JLORAT",
+                "Kazuar",
+                "Meterpreter",
+                "QUIETCANARY",
+                "RATel",
+                "Roopy",
+                "Telemiris",
+                "tomiris",
+                "Topinambour"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "AA22-110A Joint CSA: Russian State-Sponsored and Criminal Cyber  Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Alert (AA22-110A): Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader",
+                "Killnet"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/",
+            "date": "2022-01-27",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike Intelligence Team",
+            "title": "Early Bird Catches the Wormhole: Observations from the StellarParticle Campaign",
+            "categories": [
+                "GoldMax"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/extracting-type-information-from-go-binaries/104715/",
+            "date": "2021-10-27",
+            "organization": "Kaspersky",
+            "author": "Ivan Kwiatkowski",
+            "title": "Extracting type information from Go binaries",
+            "categories": [
+                "GoldMax"
+            ]
+        },
+        {
+            "data_url": "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-APT-attacks-on-industrial-organizations-in-H1-2021-En.pdf",
+            "date": "2021-10-26",
+            "organization": "Kaspersky",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "APT attacks  on industrial  organizations  in H1 2021",
+            "categories": [
+                "8.t Dropper",
+                "AllaKore",
+                "AsyncRAT",
+                "GoldMax",
+                "LimeRAT",
+                "NjRAT",
+                "NoxPlayer",
+                "Raindrop",
+                "ReverseRAT",
+                "ShadowPad",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/cybersecurity-threat-spotlight-backdoors-rats-loaders-evasion-techniques",
+            "date": "2021-06-01",
+            "organization": "Cisco",
+            "author": "Josh Pyorre",
+            "title": "Backdoors, RATs, Loaders evasion techniques",
+            "categories": [
+                "BazarNimrod",
+                "GoldMax",
+                "Oblique RAT"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a",
+            "date": "2021-04-15",
+            "organization": "CISA",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR21-105A): SUNSHUTTLE",
+            "categories": [
+                "GoldMax"
+            ]
+        },
+        {
+            "data_url": "https://x0r19x91.gitlab.io/post/malware-analysis/sunshuttle/",
+            "date": "2021-03-08",
+            "organization": "x0r19x91.gitlab.io",
+            "author": "Suvaditya Sur",
+            "title": "Sunshuttle Malware",
+            "categories": [
+                "GoldMax"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/",
+            "date": "2021-03-04",
+            "organization": "Microsoft",
+            "author": "Ramin Nafisi",
+            "title": "GoldMax, GoldFinder, and Sibot: Analyzing NOBELIUM\u2019s layered persistence",
+            "categories": [
+                "GoldMax"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "goldmax",
@@ -321,159 +474,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "goldmax can exfiltrate files over the existing c2 channel.[51][52]"
                 }
-            ]
-        }
-    ],
-    "file_name": "goldmax",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
-            "date": "2023-04-24",
-            "organization": "Kaspersky Labs",
-            "author": "Pierre Delcher",
-            "title": "Tomiris called, they want their Turla malware back",
-            "categories": [
-                "KopiLuwak",
-                "Andromeda",
-                "Ave Maria",
-                "GoldMax",
-                "JLORAT",
-                "Kazuar",
-                "Meterpreter",
-                "QUIETCANARY",
-                "RATel",
-                "Roopy",
-                "Telemiris",
-                "tomiris",
-                "Topinambour"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
-            "date": "2022-04-20",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "AA22-110A Joint CSA: Russian State-Sponsored and Criminal Cyber  Threats to Critical Infrastructure",
-            "categories": [
-                "VPNFilter",
-                "BlackEnergy",
-                "DanaBot",
-                "DoppelDridex",
-                "Emotet",
-                "EternalPetya",
-                "GoldMax",
-                "Industroyer",
-                "Sality",
-                "SmokeLoader",
-                "TrickBot",
-                "Triton",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a",
-            "date": "2022-04-20",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "Alert (AA22-110A): Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure",
-            "categories": [
-                "VPNFilter",
-                "BlackEnergy",
-                "DanaBot",
-                "DoppelDridex",
-                "Emotet",
-                "EternalPetya",
-                "GoldMax",
-                "Industroyer",
-                "Sality",
-                "SmokeLoader",
-                "TrickBot",
-                "Triton",
-                "Zloader",
-                "Killnet"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/",
-            "date": "2022-01-27",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike Intelligence Team",
-            "title": "Early Bird Catches the Wormhole: Observations from the StellarParticle Campaign",
-            "categories": [
-                "GoldMax"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/extracting-type-information-from-go-binaries/104715/",
-            "date": "2021-10-27",
-            "organization": "Kaspersky",
-            "author": "Ivan Kwiatkowski",
-            "title": "Extracting type information from Go binaries",
-            "categories": [
-                "GoldMax"
-            ]
-        },
-        {
-            "data_url": "https://ics-cert.kaspersky.com/media/Kaspersky-ICS-CERT-APT-attacks-on-industrial-organizations-in-H1-2021-En.pdf",
-            "date": "2021-10-26",
-            "organization": "Kaspersky",
-            "author": "Kaspersky Lab ICS CERT",
-            "title": "APT attacks  on industrial  organizations  in H1 2021",
-            "categories": [
-                "8.t Dropper",
-                "AllaKore",
-                "AsyncRAT",
-                "GoldMax",
-                "LimeRAT",
-                "NjRAT",
-                "NoxPlayer",
-                "Raindrop",
-                "ReverseRAT",
-                "ShadowPad",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://umbrella.cisco.com/blog/cybersecurity-threat-spotlight-backdoors-rats-loaders-evasion-techniques",
-            "date": "2021-06-01",
-            "organization": "Cisco",
-            "author": "Josh Pyorre",
-            "title": "Backdoors, RATs, Loaders evasion techniques",
-            "categories": [
-                "BazarNimrod",
-                "GoldMax",
-                "Oblique RAT"
-            ]
-        },
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar21-105a",
-            "date": "2021-04-15",
-            "organization": "CISA",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (AR21-105A): SUNSHUTTLE",
-            "categories": [
-                "GoldMax"
-            ]
-        },
-        {
-            "data_url": "https://x0r19x91.gitlab.io/post/malware-analysis/sunshuttle/",
-            "date": "2021-03-08",
-            "organization": "x0r19x91.gitlab.io",
-            "author": "Suvaditya Sur",
-            "title": "Sunshuttle Malware",
-            "categories": [
-                "GoldMax"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2021/03/04/goldmax-goldfinder-sibot-analyzing-nobelium-malware/",
-            "date": "2021-03-04",
-            "organization": "Microsoft",
-            "author": "Ramin Nafisi",
-            "title": "GoldMax, GoldFinder, and Sibot: Analyzing NOBELIUM\u2019s layered persistence",
-            "categories": [
-                "GoldMax"
             ]
         }
     ]

@@ -36,124 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "miniduke",
-            "procedure_code": "s0051",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0051",
-            "techniques": [
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "miniduke can use control flow flattening to obscure code.[120]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1083",
-                    "technique_link": "https://attack.mitre.org/techniques/T1083",
-                    "technique_name": "file and directory discovery",
-                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "miniduke can enumerate local drives.[123]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1082",
-                    "technique_link": "https://attack.mitre.org/techniques/T1082",
-                    "technique_name": "system information discovery",
-                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "miniduke can gather the hostname on a compromised machine.[131]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
-                    "technique_name": "application layer protocol : web protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "miniduke uses http and https for command and control.[66][120]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1568.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1568/002",
-                    "technique_name": "dynamic resolution : domain generation algorithms",
-                    "technique_description": "adversaries may make use of domain generation algorithms (dgas) to dynamically identify a destination domain for command and control traffic rather than relying on a list of static ip addresses or domains. this has the advantage of making it much harder for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.",
-                    "procedure_description": "miniduke can use dga to generate new twitter urls for c2.[22]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1008",
-                    "technique_link": "https://attack.mitre.org/techniques/T1008",
-                    "technique_name": "fallback channels",
-                    "technique_description": "adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
-                    "procedure_description": "miniduke uses google search to identify c2 servers if its primary c2 method via twitter is not working.[31]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1105",
-                    "technique_link": "https://attack.mitre.org/techniques/T1105",
-                    "technique_name": "ingress tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
-                    "procedure_description": "miniduke can download additional encrypted backdoors onto the victim via gif files.[294][263]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1090.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1090/001",
-                    "technique_name": "proxy : internal proxy",
-                    "technique_description": "adversaries may use an internal proxy to direct command and control traffic between two or more systems in a compromised environment. many tools exist that enable traffic redirection through proxies or port redirection, including htran, zxproxy, and zxportmap.  adversaries use internal proxies to manage command and control communications inside a compromised environment, to reduce the number of simultaneous outbound network connections, to provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between infected systems to avoid suspicion. internal proxy connections may use common peer-to-peer (p2p) networking protocols, such as smb, to better blend in with the environment.",
-                    "procedure_description": "miniduke can can use a named pipe to forward communications from one compromised machine with internet access to other compromised machines.[10]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1102.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1102/001",
-                    "technique_name": "web service : dead drop resolver",
-                    "technique_description": "adversaries may use an existing, legitimate external web service to host information that points to additional command and control (c2) infrastructure. adversaries may post content, known as a dead drop resolver, on web services with embedded (and often obfuscated/encoded) domains or ip addresses. once infected, victims will reach out to and be redirected by these resolvers.",
-                    "procedure_description": "some miniduke components use twitter to initially obtain the address of a c2 server or as a backup if no hard-coded c2 server responds.[12][13][14]"
-                }
-            ]
-        }
-    ],
     "file_name": "miniduke",
     "analysis": null,
     "articles": [
@@ -299,6 +181,124 @@ var threatdata = {
             "title": "It's a Kind of Magic",
             "categories": [
                 "MiniDuke"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "miniduke",
+            "procedure_code": "s0051",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0051",
+            "techniques": [
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "miniduke can use control flow flattening to obscure code.[120]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "miniduke can enumerate local drives.[123]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "miniduke can gather the hostname on a compromised machine.[131]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "miniduke uses http and https for command and control.[66][120]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1568.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1568/002",
+                    "technique_name": "dynamic resolution : domain generation algorithms",
+                    "technique_description": "adversaries may make use of domain generation algorithms (dgas) to dynamically identify a destination domain for command and control traffic rather than relying on a list of static ip addresses or domains. this has the advantage of making it much harder for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.",
+                    "procedure_description": "miniduke can use dga to generate new twitter urls for c2.[22]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1008",
+                    "technique_link": "https://attack.mitre.org/techniques/T1008",
+                    "technique_name": "fallback channels",
+                    "technique_description": "adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
+                    "procedure_description": "miniduke uses google search to identify c2 servers if its primary c2 method via twitter is not working.[31]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "miniduke can download additional encrypted backdoors onto the victim via gif files.[294][263]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090/001",
+                    "technique_name": "proxy : internal proxy",
+                    "technique_description": "adversaries may use an internal proxy to direct command and control traffic between two or more systems in a compromised environment. many tools exist that enable traffic redirection through proxies or port redirection, including htran, zxproxy, and zxportmap.  adversaries use internal proxies to manage command and control communications inside a compromised environment, to reduce the number of simultaneous outbound network connections, to provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between infected systems to avoid suspicion. internal proxy connections may use common peer-to-peer (p2p) networking protocols, such as smb, to better blend in with the environment.",
+                    "procedure_description": "miniduke can can use a named pipe to forward communications from one compromised machine with internet access to other compromised machines.[10]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1102.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1102/001",
+                    "technique_name": "web service : dead drop resolver",
+                    "technique_description": "adversaries may use an existing, legitimate external web service to host information that points to additional command and control (c2) infrastructure. adversaries may post content, known as a dead drop resolver, on web services with embedded (and often obfuscated/encoded) domains or ip addresses. once infected, victims will reach out to and be redirected by these resolvers.",
+                    "procedure_description": "some miniduke components use twitter to initially obtain the address of a c2 server or as a backup if no hard-coded c2 server responds.[12][13][14]"
+                }
             ]
         }
     ]

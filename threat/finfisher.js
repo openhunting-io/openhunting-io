@@ -51,6 +51,347 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "finfisher",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://netzpolitik.org/2022/nach-pfaendung-staatstrojaner-hersteller-finfisher-ist-geschlossen-und-bleibt-es-auch/",
+            "date": "2022-03-28",
+            "organization": "Netzpolitik.org",
+            "author": "Andre Meister",
+            "title": "Staatstrojaner-Hersteller FinFisher \u201eist geschlossen und bleibt es auch\u201c",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.binarly.io/posts/Design_issues_of_modern_EDR%E2%80%99s_bypassing_ETW-based_solutions/index.html",
+            "date": "2021-11-15",
+            "organization": "binarly",
+            "author": "Binarly Team",
+            "title": "Design issues of modern EDRs: bypassing ETW-based solutions",
+            "categories": [
+                "ESPecter",
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/finspy-unseen-findings/104322/",
+            "date": "2021-09-28",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "FinSpy: unseen findings",
+            "categories": [
+                "FinFisher",
+                "FinFisher",
+                "FinFisher",
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.blackberry.com/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-2021-threat-report.pdf",
+            "date": "2021-03-21",
+            "organization": "Blackberry",
+            "author": "Blackberry Research",
+            "title": "2021 Threat Report",
+            "categories": [
+                "Bashlite",
+                "FritzFrog",
+                "IPStorm",
+                "Mirai",
+                "Tsunami",
+                "elf.wellmess",
+                "AppleJeus",
+                "Dacls",
+                "EvilQuest",
+                "Manuscrypt",
+                "Astaroth",
+                "BazarBackdoor",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "FinFisher RAT",
+                "Kwampirs",
+                "MimiKatz",
+                "NjRAT",
+                "Ryuk",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://objective-see.com/blog/blog_0x5F.html",
+            "date": "2021-01-01",
+            "organization": "Objective-See",
+            "author": "Patrick Wardle",
+            "title": "The Mac Malware of 2020 - a comprehensive analysis of the year's new malware",
+            "categories": [
+                "AppleJeus",
+                "Dacls",
+                "EvilQuest",
+                "FinFisher",
+                "WatchCat",
+                "XCSSET"
+            ]
+        },
+        {
+            "data_url": "https://netzpolitik.org/2020/our-criminal-complaint-german-state-malware-company-finfisher-raided/",
+            "date": "2020-10-14",
+            "organization": "Netzpolitik.org",
+            "author": "Andre Meister",
+            "title": "German Made State Malware Company FinFisher Raided",
+            "categories": [
+                "FinFisher",
+                "FinFisher",
+                "FinFisher",
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://reverse.put.as/2020/09/26/the-finfisher-tales-chapter-1/",
+            "date": "2020-09-26",
+            "organization": "Reverse.Put.As",
+            "author": "osxreverser",
+            "title": "The Finfisher Tales, Chapter 1: The dropper",
+            "categories": [
+                "FinFisher"
+            ]
+        },
+        {
+            "data_url": "https://objective-see.com/blog/blog_0x4F.html",
+            "date": "2020-09-26",
+            "organization": "Objective-See",
+            "author": "Patrick Wardle",
+            "title": "FinFisher Filleted: a triage of the FinSpy (macOS) malware",
+            "categories": [
+                "FinFisher"
+            ]
+        },
+        {
+            "data_url": "https://www.amnesty.org/en/latest/research/2020/09/german-made-finspy-spyware-found-in-egypt-and-mac-and-linux-versions-revealed/",
+            "date": "2020-09-25",
+            "organization": "Amnesty International",
+            "author": "Amnesty International",
+            "title": "German-made FinSpy spyware found in Egypt, and Mac and Linux versions revealed",
+            "categories": [
+                "FinFisher",
+                "FinFisher",
+                "FinFisher",
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://raw.githubusercontent.com/DefensiveLabAgency/FinSpy-for-Android/master/20200806_finspy_android_analysis_public_release.pdf",
+            "date": "2020-08",
+            "organization": "Defensive Lab Agency",
+            "author": "Defensive Lab Agency",
+            "title": "FinSpy Android Technical Analysis",
+            "categories": [
+                "FinFisher"
+            ]
+        },
+        {
+            "data_url": "https://github.com/linuzifer/FinSpy-Dokumentation",
+            "date": "2019-12-26",
+            "organization": "Github (Linuzifer)",
+            "author": "Linus Neumann",
+            "title": "FinSpy-Dokumentation",
+            "categories": [
+                "FinFisher"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
+            "date": "2019-08-01",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2019",
+            "categories": [
+                "ZooPark",
+                "magecart",
+                "POWERSTATS",
+                "Chaperone",
+                "COMpfun",
+                "EternalPetya",
+                "FinFisher RAT",
+                "HawkEye Keylogger",
+                "HOPLIGHT",
+                "Microcin",
+                "NjRAT",
+                "Olympic Destroyer",
+                "PLEAD",
+                "RokRAT",
+                "Triton",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/new-finspy-ios-and-android-implants-revealed-itw/91685/",
+            "date": "2019-07-10",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "New FinSpy iOS and Android implants revealed ITW",
+            "categories": [
+                "FinFisher"
+            ]
+        },
+        {
+            "data_url": "https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/",
+            "date": "2018-03-01",
+            "organization": "Microsoft",
+            "author": "Office 365 Threat Research Team",
+            "title": "FinFisher exposed: A researcher\u2019s tale of defeating traps, tricks, and complex virtual machines",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/devirtualizing-finspy-phase-3-fixing-the-function-related-issues",
+            "date": "2018-02-21",
+            "organization": "M\u00f6bius Strip Reverse Engineering",
+            "author": "Rolf Rolles",
+            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #3: Fixing The Function-Related Issues",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/finspy-vm-unpacking-tutorial-part-3-devirtualization",
+            "date": "2018-02-21",
+            "organization": "M\u00f6bius Strip Reverse Engineering",
+            "author": "Rolf Rolles",
+            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/devirtualizing-finspy-phase-2-first-attempt-at-devirtualization",
+            "date": "2018-02-21",
+            "organization": "M\u00f6bius Strip Reverse Engineering",
+            "author": "Rolf Rolles",
+            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #2: First Attempt At Devirtualization",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/wsbjxrs1jjw7qi4trk9t3qy6hr7dye",
+            "date": "2018-02-21",
+            "organization": "M\u00f6bius Strip Reverse Engineering",
+            "author": "Rolf Rolles",
+            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #1: Deobfuscating FinSpy VM Bytecode Programs",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/RolfRolles/FinSpyVM",
+            "date": "2018-02-21",
+            "organization": "GitHub (RolfRolles)",
+            "author": "Rolf Rolles",
+            "title": "FinSpyVM (Static Unpacker for FinSpyVM)",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/devirtualizing-finspy-phase-4-second-attempt-at-devirtualization",
+            "date": "2018-02-21",
+            "organization": "M\u00f6bius Strip Reverse Engineering",
+            "author": "Rolf Rolles",
+            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #4: Second Attempt At Devirtualization",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/WP-FinFisher.pdf",
+            "date": "2018-01-24",
+            "organization": "ESET Research",
+            "author": "Filip Kafka",
+            "title": "ESET\u2019S GUIDE TODEOBFUSCATING AND DEVIRTUALIZING FINFISHER",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "http://www.msreverseengineering.com/blog/2018/1/23/a-walk-through-tutorial-with-code-on-statically-unpacking-the-finspy-vm-part-one-x86-deobfuscation",
+            "date": "2018-01-23",
+            "organization": "M\u00f6bius Strip Reverse Engineering",
+            "author": "Rolf Rolles",
+            "title": "A Walk-Through Tutorial, with Code, on Statically Unpacking the FinSpy VM: Part One, x86 Deobfuscation",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/",
+            "date": "2017-10-16",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "BlackOasis APT and new targeted attacks leveraging zero-day exploit",
+            "categories": [
+                "FinFisher RAT",
+                "BlackOasis"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/09/21/new-finfisher-surveillance-campaigns/",
+            "date": "2017-09-21",
+            "organization": "ESET Research",
+            "author": "Filip Kafka",
+            "title": "New FinFisher surveillance campaigns: Internet providers involved?",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/zero-day-used-to-distribute-finspy.html",
+            "date": "2017-09-12",
+            "organization": "FireEye",
+            "author": "Ben Read",
+            "title": "FireEye Uncovers CVE-2017-8759: Zero-Day Used in the Wild to Distribute FINSPY,FireEye Uncovers CVE-2017-8759: Zero-Day Used in the Wild to Distribute FINSPY",
+            "categories": [
+                "FinFisher RAT",
+                "BlackOasis"
+            ]
+        },
+        {
+            "data_url": "https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process",
+            "date": "2017-07-18",
+            "organization": "Elastic",
+            "author": "Ashkan Hosseini",
+            "title": "Ten process injection techniques: A technical survey of common and trending process injection techniques",
+            "categories": [
+                "Cryakl",
+                "CyberGate",
+                "Dridex",
+                "FinFisher RAT",
+                "Locky"
+            ]
+        },
+        {
+            "data_url": "https://artemonsecurity.blogspot.de/2017/01/finfisher-rootkit-analysis.html",
+            "date": "2017-01-13",
+            "organization": "",
+            "author": "Artem Baranov",
+            "title": "Finfisher rootkit analysis",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.codeandsec.com/FinFisher-Malware-Analysis-Part-2",
+            "date": "2014-10-02",
+            "organization": "CodeAndSec",
+            "author": "CodeAndSec",
+            "title": "FinFisher Malware Analysis - Part 2",
+            "categories": [
+                "FinFisher RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -546,347 +887,6 @@ var threatdata = {
                     "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
                     "procedure_description": "finfisher takes a screenshot of the screen and displays it on top of all other windows for few seconds in an apparent attempt to hide some messages showed by the system during the setup process.[61][62]"
                 }
-            ]
-        }
-    ],
-    "file_name": "finfisher",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://netzpolitik.org/2022/nach-pfaendung-staatstrojaner-hersteller-finfisher-ist-geschlossen-und-bleibt-es-auch/",
-            "date": "2022-03-28",
-            "organization": "Netzpolitik.org",
-            "author": "Andre Meister",
-            "title": "Staatstrojaner-Hersteller FinFisher \u201eist geschlossen und bleibt es auch\u201c",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.binarly.io/posts/Design_issues_of_modern_EDR%E2%80%99s_bypassing_ETW-based_solutions/index.html",
-            "date": "2021-11-15",
-            "organization": "binarly",
-            "author": "Binarly Team",
-            "title": "Design issues of modern EDRs: bypassing ETW-based solutions",
-            "categories": [
-                "ESPecter",
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/finspy-unseen-findings/104322/",
-            "date": "2021-09-28",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "FinSpy: unseen findings",
-            "categories": [
-                "FinFisher",
-                "FinFisher",
-                "FinFisher",
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.blackberry.com/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-2021-threat-report.pdf",
-            "date": "2021-03-21",
-            "organization": "Blackberry",
-            "author": "Blackberry Research",
-            "title": "2021 Threat Report",
-            "categories": [
-                "Bashlite",
-                "FritzFrog",
-                "IPStorm",
-                "Mirai",
-                "Tsunami",
-                "elf.wellmess",
-                "AppleJeus",
-                "Dacls",
-                "EvilQuest",
-                "Manuscrypt",
-                "Astaroth",
-                "BazarBackdoor",
-                "Cerber",
-                "Cobalt Strike",
-                "Emotet",
-                "FinFisher RAT",
-                "Kwampirs",
-                "MimiKatz",
-                "NjRAT",
-                "Ryuk",
-                "SmokeLoader",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://objective-see.com/blog/blog_0x5F.html",
-            "date": "2021-01-01",
-            "organization": "Objective-See",
-            "author": "Patrick Wardle",
-            "title": "The Mac Malware of 2020 - a comprehensive analysis of the year's new malware",
-            "categories": [
-                "AppleJeus",
-                "Dacls",
-                "EvilQuest",
-                "FinFisher",
-                "WatchCat",
-                "XCSSET"
-            ]
-        },
-        {
-            "data_url": "https://netzpolitik.org/2020/our-criminal-complaint-german-state-malware-company-finfisher-raided/",
-            "date": "2020-10-14",
-            "organization": "Netzpolitik.org",
-            "author": "Andre Meister",
-            "title": "German Made State Malware Company FinFisher Raided",
-            "categories": [
-                "FinFisher",
-                "FinFisher",
-                "FinFisher",
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://reverse.put.as/2020/09/26/the-finfisher-tales-chapter-1/",
-            "date": "2020-09-26",
-            "organization": "Reverse.Put.As",
-            "author": "osxreverser",
-            "title": "The Finfisher Tales, Chapter 1: The dropper",
-            "categories": [
-                "FinFisher"
-            ]
-        },
-        {
-            "data_url": "https://objective-see.com/blog/blog_0x4F.html",
-            "date": "2020-09-26",
-            "organization": "Objective-See",
-            "author": "Patrick Wardle",
-            "title": "FinFisher Filleted: a triage of the FinSpy (macOS) malware",
-            "categories": [
-                "FinFisher"
-            ]
-        },
-        {
-            "data_url": "https://www.amnesty.org/en/latest/research/2020/09/german-made-finspy-spyware-found-in-egypt-and-mac-and-linux-versions-revealed/",
-            "date": "2020-09-25",
-            "organization": "Amnesty International",
-            "author": "Amnesty International",
-            "title": "German-made FinSpy spyware found in Egypt, and Mac and Linux versions revealed",
-            "categories": [
-                "FinFisher",
-                "FinFisher",
-                "FinFisher",
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://raw.githubusercontent.com/DefensiveLabAgency/FinSpy-for-Android/master/20200806_finspy_android_analysis_public_release.pdf",
-            "date": "2020-08",
-            "organization": "Defensive Lab Agency",
-            "author": "Defensive Lab Agency",
-            "title": "FinSpy Android Technical Analysis",
-            "categories": [
-                "FinFisher"
-            ]
-        },
-        {
-            "data_url": "https://github.com/linuzifer/FinSpy-Dokumentation",
-            "date": "2019-12-26",
-            "organization": "Github (Linuzifer)",
-            "author": "Linus Neumann",
-            "title": "FinSpy-Dokumentation",
-            "categories": [
-                "FinFisher"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
-            "date": "2019-08-01",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q2 2019",
-            "categories": [
-                "ZooPark",
-                "magecart",
-                "POWERSTATS",
-                "Chaperone",
-                "COMpfun",
-                "EternalPetya",
-                "FinFisher RAT",
-                "HawkEye Keylogger",
-                "HOPLIGHT",
-                "Microcin",
-                "NjRAT",
-                "Olympic Destroyer",
-                "PLEAD",
-                "RokRAT",
-                "Triton",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/new-finspy-ios-and-android-implants-revealed-itw/91685/",
-            "date": "2019-07-10",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "New FinSpy iOS and Android implants revealed ITW",
-            "categories": [
-                "FinFisher"
-            ]
-        },
-        {
-            "data_url": "https://cloudblogs.microsoft.com/microsoftsecure/2018/03/01/finfisher-exposed-a-researchers-tale-of-defeating-traps-tricks-and-complex-virtual-machines/",
-            "date": "2018-03-01",
-            "organization": "Microsoft",
-            "author": "Office 365 Threat Research Team",
-            "title": "FinFisher exposed: A researcher\u2019s tale of defeating traps, tricks, and complex virtual machines",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/devirtualizing-finspy-phase-3-fixing-the-function-related-issues",
-            "date": "2018-02-21",
-            "organization": "M\u00f6bius Strip Reverse Engineering",
-            "author": "Rolf Rolles",
-            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #3: Fixing The Function-Related Issues",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/finspy-vm-unpacking-tutorial-part-3-devirtualization",
-            "date": "2018-02-21",
-            "organization": "M\u00f6bius Strip Reverse Engineering",
-            "author": "Rolf Rolles",
-            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/devirtualizing-finspy-phase-2-first-attempt-at-devirtualization",
-            "date": "2018-02-21",
-            "organization": "M\u00f6bius Strip Reverse Engineering",
-            "author": "Rolf Rolles",
-            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #2: First Attempt At Devirtualization",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/wsbjxrs1jjw7qi4trk9t3qy6hr7dye",
-            "date": "2018-02-21",
-            "organization": "M\u00f6bius Strip Reverse Engineering",
-            "author": "Rolf Rolles",
-            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #1: Deobfuscating FinSpy VM Bytecode Programs",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://github.com/RolfRolles/FinSpyVM",
-            "date": "2018-02-21",
-            "organization": "GitHub (RolfRolles)",
-            "author": "Rolf Rolles",
-            "title": "FinSpyVM (Static Unpacker for FinSpyVM)",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.msreverseengineering.com/blog/2018/2/21/devirtualizing-finspy-phase-4-second-attempt-at-devirtualization",
-            "date": "2018-02-21",
-            "organization": "M\u00f6bius Strip Reverse Engineering",
-            "author": "Rolf Rolles",
-            "title": "FinSpy VM Unpacking Tutorial Part 3: Devirtualization. Phase #4: Second Attempt At Devirtualization",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/WP-FinFisher.pdf",
-            "date": "2018-01-24",
-            "organization": "ESET Research",
-            "author": "Filip Kafka",
-            "title": "ESET\u2019S GUIDE TODEOBFUSCATING AND DEVIRTUALIZING FINFISHER",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "http://www.msreverseengineering.com/blog/2018/1/23/a-walk-through-tutorial-with-code-on-statically-unpacking-the-finspy-vm-part-one-x86-deobfuscation",
-            "date": "2018-01-23",
-            "organization": "M\u00f6bius Strip Reverse Engineering",
-            "author": "Rolf Rolles",
-            "title": "A Walk-Through Tutorial, with Code, on Statically Unpacking the FinSpy VM: Part One, x86 Deobfuscation",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blackoasis-apt-and-new-targeted-attacks-leveraging-zero-day-exploit/82732/",
-            "date": "2017-10-16",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "BlackOasis APT and new targeted attacks leveraging zero-day exploit",
-            "categories": [
-                "FinFisher RAT",
-                "BlackOasis"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/09/21/new-finfisher-surveillance-campaigns/",
-            "date": "2017-09-21",
-            "organization": "ESET Research",
-            "author": "Filip Kafka",
-            "title": "New FinFisher surveillance campaigns: Internet providers involved?",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/zero-day-used-to-distribute-finspy.html",
-            "date": "2017-09-12",
-            "organization": "FireEye",
-            "author": "Ben Read",
-            "title": "FireEye Uncovers CVE-2017-8759: Zero-Day Used in the Wild to Distribute FINSPY,FireEye Uncovers CVE-2017-8759: Zero-Day Used in the Wild to Distribute FINSPY",
-            "categories": [
-                "FinFisher RAT",
-                "BlackOasis"
-            ]
-        },
-        {
-            "data_url": "https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process",
-            "date": "2017-07-18",
-            "organization": "Elastic",
-            "author": "Ashkan Hosseini",
-            "title": "Ten process injection techniques: A technical survey of common and trending process injection techniques",
-            "categories": [
-                "Cryakl",
-                "CyberGate",
-                "Dridex",
-                "FinFisher RAT",
-                "Locky"
-            ]
-        },
-        {
-            "data_url": "https://artemonsecurity.blogspot.de/2017/01/finfisher-rootkit-analysis.html",
-            "date": "2017-01-13",
-            "organization": "",
-            "author": "Artem Baranov",
-            "title": "Finfisher rootkit analysis",
-            "categories": [
-                "FinFisher RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.codeandsec.com/FinFisher-Malware-Analysis-Part-2",
-            "date": "2014-10-02",
-            "organization": "CodeAndSec",
-            "author": "CodeAndSec",
-            "title": "FinFisher Malware Analysis - Part 2",
-            "categories": [
-                "FinFisher RAT"
             ]
         }
     ]

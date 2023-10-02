@@ -30,6 +30,184 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "penquin_turla",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://lab52.io/blog/looking-for-penquins-in-the-wild/",
+            "date": "2022-02-28",
+            "organization": "Lab52",
+            "author": "Jagaimo Kawaii",
+            "title": "Looking for Penquins in the Wild",
+            "categories": [
+                "Penquin Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.intezer.com/blog/cloud-security/top-linux-cloud-threats-of-2020/",
+            "date": "2020-12-21",
+            "organization": "Intezer",
+            "author": "Intezer",
+            "title": "Top Linux Cloud Threats of 2020",
+            "categories": [
+                "AgeLocker",
+                "AnchorDNS",
+                "Blackrota",
+                "Cloud Snooper",
+                "Dacls",
+                "Doki",
+                "FritzFrog",
+                "IPStorm",
+                "Kaiji",
+                "Kinsing",
+                "NOTROBIN",
+                "Penquin Turla",
+                "PLEAD",
+                "Prometei",
+                "RansomEXX",
+                "Stantinko",
+                "TeamTNT",
+                "TSCookie",
+                "WellMail",
+                "elf.wellmess",
+                "TeamTNT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/",
+            "date": "2020-09-10",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "An overview of targeted attacks and APTs on Linux",
+            "categories": [
+                "Cloud Snooper",
+                "Dacls",
+                "DoubleFantasy",
+                "MESSAGETAP",
+                "Penquin Turla",
+                "Tsunami",
+                "elf.wellmess",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2020/97937/",
+            "date": "2020-07-29",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2020",
+            "categories": [
+                "PhantomLance",
+                "Dacls",
+                "Penquin Turla",
+                "elf.wellmess",
+                "AppleJeus",
+                "Dacls",
+                "AcidBox",
+                "Cobalt Strike",
+                "Dacls",
+                "EternalPetya",
+                "Godlike12",
+                "Olympic Destroyer",
+                "PlugX",
+                "shadowhammer",
+                "ShadowPad",
+                "Sinowal",
+                "VHD Ransomware",
+                "Volgmer",
+                "WellMess",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/big-threats-using-code-similarity-part-1/97239/",
+            "date": "2020-06-09",
+            "organization": "Kaspersky Labs",
+            "author": "Costin Raiu",
+            "title": "Looking at Big Threats Using Code Similarity. Part 1",
+            "categories": [
+                "Penquin Turla",
+                "CCleaner Backdoor",
+                "EternalPetya",
+                "Regin",
+                "WannaCryptor",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=JXsjRUxx47E",
+            "date": "2020-06-07",
+            "organization": "Youtube (OPCDE)",
+            "author": "Silvio La Porta",
+            "title": "The Penquin is in da house",
+            "categories": [
+                "Penquin Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.leonardo.com/documents/20142/10868623/Malware+Technical+Insight+_Turla+%E2%80%9CPenquin_x64%E2%80%9D.pdf",
+            "date": "2020-05-14",
+            "organization": "Leonardo",
+            "author": "Leonardo\u2019s Cyber Security division",
+            "title": "Malware Technical Insight Turla \"Penquin_x64\"",
+            "categories": [
+                "Penquin Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-decade-of-the-rats.pdf",
+            "date": "2020-04-07",
+            "organization": "Blackberry",
+            "author": "Blackberry Research",
+            "title": "Decade of the RATS: Cross-Platform APT Espionage Attacks Targeting Linux, Windows and Android",
+            "categories": [
+                "Penquin Turla",
+                "XOR DDoS",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/files/2017/04/Penquins_Moonlit_Maze_PDF_eng.pdf",
+            "date": "2018-03",
+            "organization": "Kaspersky Labs",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "Penquin's Moonlit Maze",
+            "categories": [
+                "Penquin Turla"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/juanandres_gs/status/944741575837528064",
+            "date": "2017-12-24",
+            "organization": "Twitter (@juanandres_gs)",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "Tweet on Turla Penquin",
+            "categories": [
+                "Penquin Turla"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180251/Penquins_Moonlit_Maze_PDF_eng.pdf",
+            "date": "2017-04-03",
+            "organization": "Kaspersky Labs",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "Penquin\u2019s Moonlit Maze",
+            "categories": [
+                "Penquin Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/files/2017/04/Penquins_Moonlit_Maze_AppendixB.pdf",
+            "date": "2017-04-03",
+            "organization": "Kaspersky Labs",
+            "author": "Costin Raiu",
+            "title": "Moonlight Maze Technical Report (Appendix B)",
+            "categories": [
+                "Penquin Turla"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "turla",
@@ -1245,184 +1423,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "penquin can execute the command code do_upload to send files to c2.[98]"
                 }
-            ]
-        }
-    ],
-    "file_name": "penquin_turla",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://lab52.io/blog/looking-for-penquins-in-the-wild/",
-            "date": "2022-02-28",
-            "organization": "Lab52",
-            "author": "Jagaimo Kawaii",
-            "title": "Looking for Penquins in the Wild",
-            "categories": [
-                "Penquin Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.intezer.com/blog/cloud-security/top-linux-cloud-threats-of-2020/",
-            "date": "2020-12-21",
-            "organization": "Intezer",
-            "author": "Intezer",
-            "title": "Top Linux Cloud Threats of 2020",
-            "categories": [
-                "AgeLocker",
-                "AnchorDNS",
-                "Blackrota",
-                "Cloud Snooper",
-                "Dacls",
-                "Doki",
-                "FritzFrog",
-                "IPStorm",
-                "Kaiji",
-                "Kinsing",
-                "NOTROBIN",
-                "Penquin Turla",
-                "PLEAD",
-                "Prometei",
-                "RansomEXX",
-                "Stantinko",
-                "TeamTNT",
-                "TSCookie",
-                "WellMail",
-                "elf.wellmess",
-                "TeamTNT"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/",
-            "date": "2020-09-10",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "An overview of targeted attacks and APTs on Linux",
-            "categories": [
-                "Cloud Snooper",
-                "Dacls",
-                "DoubleFantasy",
-                "MESSAGETAP",
-                "Penquin Turla",
-                "Tsunami",
-                "elf.wellmess",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q2-2020/97937/",
-            "date": "2020-07-29",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q2 2020",
-            "categories": [
-                "PhantomLance",
-                "Dacls",
-                "Penquin Turla",
-                "elf.wellmess",
-                "AppleJeus",
-                "Dacls",
-                "AcidBox",
-                "Cobalt Strike",
-                "Dacls",
-                "EternalPetya",
-                "Godlike12",
-                "Olympic Destroyer",
-                "PlugX",
-                "shadowhammer",
-                "ShadowPad",
-                "Sinowal",
-                "VHD Ransomware",
-                "Volgmer",
-                "WellMess",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/big-threats-using-code-similarity-part-1/97239/",
-            "date": "2020-06-09",
-            "organization": "Kaspersky Labs",
-            "author": "Costin Raiu",
-            "title": "Looking at Big Threats Using Code Similarity. Part 1",
-            "categories": [
-                "Penquin Turla",
-                "CCleaner Backdoor",
-                "EternalPetya",
-                "Regin",
-                "WannaCryptor",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=JXsjRUxx47E",
-            "date": "2020-06-07",
-            "organization": "Youtube (OPCDE)",
-            "author": "Silvio La Porta",
-            "title": "The Penquin is in da house",
-            "categories": [
-                "Penquin Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.leonardo.com/documents/20142/10868623/Malware+Technical+Insight+_Turla+%E2%80%9CPenquin_x64%E2%80%9D.pdf",
-            "date": "2020-05-14",
-            "organization": "Leonardo",
-            "author": "Leonardo\u2019s Cyber Security division",
-            "title": "Malware Technical Insight Turla \"Penquin_x64\"",
-            "categories": [
-                "Penquin Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-decade-of-the-rats.pdf",
-            "date": "2020-04-07",
-            "organization": "Blackberry",
-            "author": "Blackberry Research",
-            "title": "Decade of the RATS: Cross-Platform APT Espionage Attacks Targeting Linux, Windows and Android",
-            "categories": [
-                "Penquin Turla",
-                "XOR DDoS",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/files/2017/04/Penquins_Moonlit_Maze_PDF_eng.pdf",
-            "date": "2018-03",
-            "organization": "Kaspersky Labs",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "Penquin's Moonlit Maze",
-            "categories": [
-                "Penquin Turla"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/juanandres_gs/status/944741575837528064",
-            "date": "2017-12-24",
-            "organization": "Twitter (@juanandres_gs)",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "Tweet on Turla Penquin",
-            "categories": [
-                "Penquin Turla"
-            ]
-        },
-        {
-            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180251/Penquins_Moonlit_Maze_PDF_eng.pdf",
-            "date": "2017-04-03",
-            "organization": "Kaspersky Labs",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "Penquin\u2019s Moonlit Maze",
-            "categories": [
-                "Penquin Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/files/2017/04/Penquins_Moonlit_Maze_AppendixB.pdf",
-            "date": "2017-04-03",
-            "organization": "Kaspersky Labs",
-            "author": "Costin Raiu",
-            "title": "Moonlight Maze Technical Report (Appendix B)",
-            "categories": [
-                "Penquin Turla"
             ]
         }
     ]

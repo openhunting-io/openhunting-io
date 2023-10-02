@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "jpin",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "jpin",
@@ -316,8 +319,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "jpin",
-    "analysis": null,
-    "articles": []
+    ]
 };

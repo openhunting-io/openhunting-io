@@ -42,6 +42,50 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "airbreak",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-mohawk",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE MOHAWK",
+            "categories": [
+                "AIRBREAK",
+                "scanbox",
+                "BLACKCOFFEE",
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "Derusbi",
+                "homefry",
+                "murkytop",
+                "SeDll",
+                "APT40"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/07/chinese-espionage-group-targets-cambodia-ahead-of-elections.html",
+            "date": "2018-07-11",
+            "organization": "FireEye",
+            "author": "Scott Henderson",
+            "title": "Chinese Espionage Group TEMP.Periscope Targets Cambodia Ahead of July 2018 Elections and Reveals Broad Operations Globally",
+            "categories": [
+                "AIRBREAK",
+                "APT40"
+            ]
+        },
+        {
+            "data_url": "http://www.kahusecurity.com/posts/reflow_javascript_backdoor.html",
+            "date": "2018-03-30",
+            "organization": "Kahu Security",
+            "author": "Kahu Security",
+            "title": "Reflow JavaScript Backdoor",
+            "categories": [
+                "AIRBREAK"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "orz",
@@ -217,50 +261,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an existing, legitimate external web service as a means for sending commands to and receiving output from a compromised system over the web service channel. compromised systems may leverage popular websites and social media to host command and control (c2) instructions. those infected systems can then send the output from those commands back over that web service channel. the return traffic may occur in a variety of ways, depending on the web service being utilized. for example, the return traffic may take the form of the compromised system posting a comment on a forum, issuing a pull request to development project, updating a document hosted on a web service, or by sending a tweet.",
                     "procedure_description": "orz has used technet and pastebin web pages for command and control.[38]"
                 }
-            ]
-        }
-    ],
-    "file_name": "airbreak",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-mohawk",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE MOHAWK",
-            "categories": [
-                "AIRBREAK",
-                "scanbox",
-                "BLACKCOFFEE",
-                "CHINACHOPPER",
-                "Cobalt Strike",
-                "Derusbi",
-                "homefry",
-                "murkytop",
-                "SeDll",
-                "APT40"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2018/07/chinese-espionage-group-targets-cambodia-ahead-of-elections.html",
-            "date": "2018-07-11",
-            "organization": "FireEye",
-            "author": "Scott Henderson",
-            "title": "Chinese Espionage Group TEMP.Periscope Targets Cambodia Ahead of July 2018 Elections and Reveals Broad Operations Globally",
-            "categories": [
-                "AIRBREAK",
-                "APT40"
-            ]
-        },
-        {
-            "data_url": "http://www.kahusecurity.com/posts/reflow_javascript_backdoor.html",
-            "date": "2018-03-30",
-            "organization": "Kahu Security",
-            "author": "Kahu Security",
-            "title": "Reflow JavaScript Backdoor",
-            "categories": [
-                "AIRBREAK"
             ]
         }
     ]

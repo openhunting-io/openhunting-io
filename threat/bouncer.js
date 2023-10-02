@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "bouncer",
     "analysis": null,
     "articles": [
@@ -75,5 +74,6 @@ var threatdata = {
                 "WebC2-Yahoo"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

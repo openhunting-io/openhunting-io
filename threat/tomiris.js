@@ -1,38 +1,57 @@
 var threatdata = {
     "name": "Tomiris",
     "alias": "Tomiris",
-    "category": "Malware",
-    "type": "Backdoor",
+    "category": "APT",
+    "type": "-",
     "modified": "2023-04-26",
     "all_data": {
-        "tool": "Tomiris",
+        "actor": "Tomiris",
         "names": [
             {
-                "name": "Tomiris"
+                "name": "Tomiris",
+                "name-giver": "Kaspersky"
             }
         ],
-        "description": "(Kaspersky) Tomiris is a backdoor written in Go whose role is to continuously query its C2 server for executables to download and execute on the victim system. Before performing any operations, it sleeps for at least nine minutes in a possible attempt to defeat sandbox-based analysis systems.\n(Kaspersky) The backdoor, dubbed Tomiris, bears a number of similarities to the second-stage malware, Sunshuttle (aka {{GoldMax}}), used by DarkHalo last year. However, there are also a number of overlaps between Tomiris and {{Kazuar}}, a backdoor that has been linked to the Turla APT threat actor. None of the similarities is enough to link Tomiris and Sunshuttle with high confidence. However, taken together they suggest the possibility of common authorship or shared development practices.",
-        "category": "Malware",
-        "type": [
-            "Backdoor"
+        "country": [
+            "[Unknown]"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2020",
+        "description": "(Kaspersky) Tomiris focuses on intelligence gathering in Central Asia. Tomiris\u2019s endgame consistently appears to be the regular theft of internal documents.\n\nThe threat actor targets government and diplomatic entities in the CIS. The occasional victims discovered in other regions (such as the Middle East or South-East Asia) turn out to be foreign representations of CIS countries, illustrating Tomiris\u2019s narrow focus.\n\nIt is characterized by its tendency to develop numerous low-sophistication \u201cburner\u201d implants in a variety of programming languages that are repeatedly deployed against the same targets, using elementary but efficient packaging and distribution techniques. Tomiris occasionally leverages commercial or open-source RATs.<nr />\nLanguage artifacts discovered in Tomiris\u2019s implant families and infrastructure from distinct campaigns all indicate that the threat actor is Russian-speaking.\n\nOverall, Tomiris is a very agile and determined actor, open to experimentation \u2013 for instance with delivery methods (DNS hijacking) or command and control (C2) channels (Telegram).\n\nKaspersky also asserts that there exists a form of deliberate cooperation between Tomiris and {{Turla, Waterbug, Venomous Bear}}.",
+        "observed-sectors": [
+            "Government"
+        ],
+        "observed-countries": [
+            "Commonwealth of Independent States (CIS)"
+        ],
+        "tools": [
+            "JLOGRAB",
+            "JLORAT",
+            "KopiLuwak",
+            "Meterpreter",
+            "RATel",
+            "RocketMan",
+            "Roopy",
+            "Telemiris",
+            "Tomiris",
+            "Topinambour",
+            "Tunnus",
+            "Warzone RAT"
         ],
         "information": [
-            "https://securelist.com/darkhalo-after-solarwinds-the-tomiris-connection/104311/",
-            "https://securelist.com/apt-trends-report-q3-2021/104708/",
             "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/"
         ],
-        "mitre-attack": [
-            "https://attack.mitre.org/software/S0671/"
-        ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.tomiris"
-        ],
-        "uuid": "ef8ea9c8-3129-4a0a-b6ac-de68286feb5e",
+        "uuid": "ddad8bb4-d188-46de-8c2d-2ed50ebbc59f",
         "last-card-change": "2023-04-26",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "tomiris",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "tomiris",
@@ -174,8 +193,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "tomiris",
-    "analysis": null,
-    "articles": []
+    ]
 };

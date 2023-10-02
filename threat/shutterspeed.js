@@ -30,6 +30,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "shutterspeed",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "shutterspeed",
@@ -75,8 +78,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "shutterspeed",
-    "analysis": null,
-    "articles": []
+    ]
 };

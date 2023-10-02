@@ -38,6 +38,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "exilerat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.talosintelligence.com/2019/02/exilerat-shares-c2-with-luckycat.html",
+            "date": "2019-02-04",
+            "organization": "Cisco",
+            "author": "Warren Mercer",
+            "title": "ExileRAT shares C2 with LuckyCat, targets Tibet",
+            "categories": [
+                "LuckyCat",
+                "Exile RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -81,21 +96,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "exilerat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.talosintelligence.com/2019/02/exilerat-shares-c2-with-luckycat.html",
-            "date": "2019-02-04",
-            "organization": "Cisco",
-            "author": "Warren Mercer",
-            "title": "ExileRAT shares C2 with LuckyCat, targets Tibet",
-            "categories": [
-                "LuckyCat",
-                "Exile RAT"
             ]
         }
     ]

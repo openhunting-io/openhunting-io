@@ -43,8 +43,8 @@ var threatdata = {
             "last_update": "2021-12-18 08:10:07",
             "tags": [
                 "servhelper",
-                "ServHelpe",
-                "ServHelper"
+                "ServHelper",
+                "ServHelpe"
             ],
             "ioc": {
                 "domain": [
@@ -341,220 +341,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-12-18 08:10:07",
-    "mitre": [
-        {
-            "procedure_name": "servhelper",
-            "procedure_code": "s0382",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0382",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1059.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
-                    "technique_name": "command and scripting interpreter : powershell",
-                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
-                    "procedure_description": "servhelper has the ability to execute a powershell script to get information from the infected host.[205]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1059.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
-                    "technique_name": "command and scripting interpreter : windows command shell",
-                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
-                    "procedure_description": "servhelper can execute shell commands against cmd.[298][299]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1053.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
-                    "technique_name": "scheduled task/job : scheduled task",
-                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
-                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1098",
-                    "technique_link": "https://attack.mitre.org/techniques/T1098",
-                    "technique_name": "account manipulation",
-                    "technique_description": "adversaries may manipulate accounts to maintain access to victim systems. account manipulation may consist of any action that preserves adversary access to a compromised account, such as modifying credentials or permission groups. these actions could also include account activity designed to subvert security policies, such as performing iterative password updates to bypass password duration policies and preserve the life of compromised credentials.",
-                    "procedure_description": "servhelper has added a user named \"supportaccount\" to the remote desktop users and administrators groups.[13]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "servhelper may attempt to establish persistence via the hkcu\\software\\microsoft\\windows\\currentversion\\run\\ run key.[239]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1136.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1136/001",
-                    "technique_name": "create account : local account",
-                    "technique_description": "adversaries may create a local account to maintain access to victim systems. local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service. with a sufficient level of access, the net user /add command can be used to create a local account. on macos systems the dscl -create command can be used to create a local account. local accounts may also be added to network devices, often via common network device cli commands such as username.",
-                    "procedure_description": "servhelper has created a new user named \"supportaccount\".[22]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1053.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
-                    "technique_name": "scheduled task/job : scheduled task",
-                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
-                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "servhelper may attempt to establish persistence via the hkcu\\software\\microsoft\\windows\\currentversion\\run\\ run key.[239]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1053.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
-                    "technique_name": "scheduled task/job : scheduled task",
-                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
-                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1070.004",
-                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
-                    "technique_name": "indicator removal : file deletion",
-                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
-                    "procedure_description": "servhelper has a module to delete itself from the infected machine.[213][214]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1218.011",
-                    "technique_link": "https://attack.mitre.org/techniques/T1218/011",
-                    "technique_name": "system binary proxy execution : rundll32",
-                    "technique_description": "adversaries may abuse rundll32.exe to proxy execution of malicious code. using rundll32.exe, vice executing directly (i.e. shared modules), may avoid triggering security tools that may not monitor execution of the rundll32.exe process because of allowlists or false positives from normal operations. rundll32.exe is commonly associated with executing dll payloads (ex: rundll32.exe {dllname, dllfunction}).",
-                    "procedure_description": "servhelper contains a module for downloading and executing dlls that leverages rundll32.exe.[89]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1082",
-                    "technique_link": "https://attack.mitre.org/techniques/T1082",
-                    "technique_name": "system information discovery",
-                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "servhelper will attempt to enumerate windows version and system architecture.[327]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1033",
-                    "technique_link": "https://attack.mitre.org/techniques/T1033",
-                    "technique_name": "system owner/user discovery",
-                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "servhelper will attempt to enumerate the username of the victim.[165]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1021.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1021/001",
-                    "technique_name": "remote services : remote desktop protocol",
-                    "technique_description": "adversaries may use valid accounts to log into a computer using the remote desktop protocol (rdp). the adversary may then perform actions as the logged-on user.",
-                    "procedure_description": "servhelper has commands for adding a remote desktop user and sending rdp traffic to the attacker through a reverse ssh tunnel.[50]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
-                    "technique_name": "application layer protocol : web protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "servhelper uses http for c2.[297]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1573.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
-                    "technique_name": "encrypted channel : asymmetric cryptography",
-                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
-                    "procedure_description": "servhelper may set up a reverse ssh tunnel to give the attacker access to services running on the victim, such as rdp.[47]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1105",
-                    "technique_link": "https://attack.mitre.org/techniques/T1105",
-                    "technique_name": "ingress tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
-                    "procedure_description": "servhelper may download additional files to execute.[400][401]"
-                }
-            ]
-        }
-    ],
     "file_name": "servhelper",
     "analysis": null,
     "articles": [
@@ -936,6 +722,220 @@ var threatdata = {
                 "RMS",
                 "ServHelper",
                 "TA505"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "servhelper",
+            "procedure_code": "s0382",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0382",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/001",
+                    "technique_name": "command and scripting interpreter : powershell",
+                    "technique_description": "adversaries may abuse powershell commands and scripts for execution. powershell is a powerful interactive command-line interface and scripting environment included in the windows operating system. adversaries can use powershell to perform a number of actions, including discovery of information and execution of code. examples include the start-process cmdlet which can be used to run an executable and the invoke-command cmdlet which runs a command locally or on a remote computer (though administrator permissions are required to use powershell to connect to remote systems).",
+                    "procedure_description": "servhelper has the ability to execute a powershell script to get information from the infected host.[205]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "servhelper can execute shell commands against cmd.[298][299]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1098",
+                    "technique_link": "https://attack.mitre.org/techniques/T1098",
+                    "technique_name": "account manipulation",
+                    "technique_description": "adversaries may manipulate accounts to maintain access to victim systems. account manipulation may consist of any action that preserves adversary access to a compromised account, such as modifying credentials or permission groups. these actions could also include account activity designed to subvert security policies, such as performing iterative password updates to bypass password duration policies and preserve the life of compromised credentials.",
+                    "procedure_description": "servhelper has added a user named \"supportaccount\" to the remote desktop users and administrators groups.[13]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "servhelper may attempt to establish persistence via the hkcu\\software\\microsoft\\windows\\currentversion\\run\\ run key.[239]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1136.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1136/001",
+                    "technique_name": "create account : local account",
+                    "technique_description": "adversaries may create a local account to maintain access to victim systems. local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service. with a sufficient level of access, the net user /add command can be used to create a local account. on macos systems the dscl -create command can be used to create a local account. local accounts may also be added to network devices, often via common network device cli commands such as username.",
+                    "procedure_description": "servhelper has created a new user named \"supportaccount\".[22]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "servhelper may attempt to establish persistence via the hkcu\\software\\microsoft\\windows\\currentversion\\run\\ run key.[239]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "servhelper contains modules that will use schtasks to carry out malicious operations.[156]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "servhelper has a module to delete itself from the infected machine.[213][214]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.011",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/011",
+                    "technique_name": "system binary proxy execution : rundll32",
+                    "technique_description": "adversaries may abuse rundll32.exe to proxy execution of malicious code. using rundll32.exe, vice executing directly (i.e. shared modules), may avoid triggering security tools that may not monitor execution of the rundll32.exe process because of allowlists or false positives from normal operations. rundll32.exe is commonly associated with executing dll payloads (ex: rundll32.exe {dllname, dllfunction}).",
+                    "procedure_description": "servhelper contains a module for downloading and executing dlls that leverages rundll32.exe.[89]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "servhelper will attempt to enumerate windows version and system architecture.[327]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "servhelper will attempt to enumerate the username of the victim.[165]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1021.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1021/001",
+                    "technique_name": "remote services : remote desktop protocol",
+                    "technique_description": "adversaries may use valid accounts to log into a computer using the remote desktop protocol (rdp). the adversary may then perform actions as the logged-on user.",
+                    "procedure_description": "servhelper has commands for adding a remote desktop user and sending rdp traffic to the attacker through a reverse ssh tunnel.[50]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "servhelper uses http for c2.[297]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
+                    "technique_name": "encrypted channel : asymmetric cryptography",
+                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
+                    "procedure_description": "servhelper may set up a reverse ssh tunnel to give the attacker access to services running on the victim, such as rdp.[47]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "servhelper may download additional files to execute.[400][401]"
+                }
             ]
         }
     ]

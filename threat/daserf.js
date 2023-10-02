@@ -43,6 +43,59 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "daserf",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-butler",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE BUTLER",
+            "categories": [
+                "Daserf",
+                "xxmm",
+                "Tick"
+            ]
+        },
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
+            "date": "2017-11-07",
+            "organization": "Trend Micro",
+            "author": "Trendmicro",
+            "title": "REDBALDKNIGHT/BRONZE BUTLER\u2019s Daserf Backdoor Now Using Steganography",
+            "categories": [
+                "Daserf",
+                "Datper",
+                "xxmm"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
+            "date": "2017-10-12",
+            "organization": "Secureworks",
+            "author": "CTU Research Team",
+            "title": "BRONZE BUTLER Targets Japanese Enterprises",
+            "categories": [
+                "Daserf",
+                "Datper",
+                "rarstar",
+                "xxmm",
+                "Tick"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-tick-group-continues-attacks/",
+            "date": "2017-07-25",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kaoru Hayashi",
+            "title": "\u201cTick\u201d Group Continues Attacks",
+            "categories": [
+                "Daserf",
+                "Tick"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "daserf",
@@ -254,59 +307,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "daserf can download remote files.[140][77]"
                 }
-            ]
-        }
-    ],
-    "file_name": "daserf",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-butler",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE BUTLER",
-            "categories": [
-                "Daserf",
-                "xxmm",
-                "Tick"
-            ]
-        },
-        {
-            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography/",
-            "date": "2017-11-07",
-            "organization": "Trend Micro",
-            "author": "Trendmicro",
-            "title": "REDBALDKNIGHT/BRONZE BUTLER\u2019s Daserf Backdoor Now Using Steganography",
-            "categories": [
-                "Daserf",
-                "Datper",
-                "xxmm"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses",
-            "date": "2017-10-12",
-            "organization": "Secureworks",
-            "author": "CTU Research Team",
-            "title": "BRONZE BUTLER Targets Japanese Enterprises",
-            "categories": [
-                "Daserf",
-                "Datper",
-                "rarstar",
-                "xxmm",
-                "Tick"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2017/07/unit42-tick-group-continues-attacks/",
-            "date": "2017-07-25",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Kaoru Hayashi",
-            "title": "\u201cTick\u201d Group Continues Attacks",
-            "categories": [
-                "Daserf",
-                "Tick"
             ]
         }
     ]

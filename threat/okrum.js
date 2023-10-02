@@ -32,6 +32,79 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "okrum",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "date": "2021-02-18",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "categories": [
+                "Poet RAT",
+                "Gravity RAT",
+                "Ketrican",
+                "Okrum",
+                "OopsIE",
+                "Remcos",
+                "RogueRobinNET",
+                "RokRAT",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
+            "date": "2020-11-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q3 2020",
+            "categories": [
+                "WellMail",
+                "EVILNUM",
+                "Janicab",
+                "Poet RAT",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "Crimson RAT",
+                "CROSSWALK",
+                "Dtrack",
+                "LODEINFO",
+                "MoriAgent",
+                "Okrum",
+                "PlugX",
+                "poisonplug",
+                "Rover",
+                "ShadowPad",
+                "SoreFang",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://www.intezer.com/blog/research/the-evolution-of-apt15s-codebase-2020/",
+            "date": "2020-05-21",
+            "organization": "Intezer",
+            "author": "Paul Litvak",
+            "title": "The Evolution of APT15\u2019s Codebase 2020",
+            "categories": [
+                "Ketrican",
+                "Ketrum",
+                "Okrum"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2019/07/18/okrum-ke3chang-targets-diplomatic-missions/",
+            "date": "2019-07-18",
+            "organization": "ESET Research",
+            "author": "Zuzana Hromcov\u00e1",
+            "title": "Okrum: Ke3chang group targets diplomatic missions",
+            "categories": [
+                "Ketrican",
+                "Okrum"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "okrum",
@@ -555,79 +628,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "data exfiltration is done by okrum using the already opened channel with the c2 server.[92]"
                 }
-            ]
-        }
-    ],
-    "file_name": "okrum",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "date": "2021-02-18",
-            "organization": "PTSecurity",
-            "author": "PTSecurity",
-            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "categories": [
-                "Poet RAT",
-                "Gravity RAT",
-                "Ketrican",
-                "Okrum",
-                "OopsIE",
-                "Remcos",
-                "RogueRobinNET",
-                "RokRAT",
-                "SmokeLoader"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
-            "date": "2020-11-03",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q3 2020",
-            "categories": [
-                "WellMail",
-                "EVILNUM",
-                "Janicab",
-                "Poet RAT",
-                "AsyncRAT",
-                "Ave Maria",
-                "Cobalt Strike",
-                "Crimson RAT",
-                "CROSSWALK",
-                "Dtrack",
-                "LODEINFO",
-                "MoriAgent",
-                "Okrum",
-                "PlugX",
-                "poisonplug",
-                "Rover",
-                "ShadowPad",
-                "SoreFang",
-                "Winnti"
-            ]
-        },
-        {
-            "data_url": "https://www.intezer.com/blog/research/the-evolution-of-apt15s-codebase-2020/",
-            "date": "2020-05-21",
-            "organization": "Intezer",
-            "author": "Paul Litvak",
-            "title": "The Evolution of APT15\u2019s Codebase 2020",
-            "categories": [
-                "Ketrican",
-                "Ketrum",
-                "Okrum"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2019/07/18/okrum-ke3chang-targets-diplomatic-missions/",
-            "date": "2019-07-18",
-            "organization": "ESET Research",
-            "author": "Zuzana Hromcov\u00e1",
-            "title": "Okrum: Ke3chang group targets diplomatic missions",
-            "categories": [
-                "Ketrican",
-                "Okrum"
             ]
         }
     ]

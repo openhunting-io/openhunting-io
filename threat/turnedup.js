@@ -40,6 +40,70 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "turnedup",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage",
+            "date": "2019-03-27",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
+            "categories": [
+                "DarkComet",
+                "Nanocore RAT",
+                "pupy",
+                "Quasar RAT",
+                "Remcos",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/elfin-apt33-espionage",
+            "date": "2019-03-27",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
+            "categories": [
+                "DarkComet",
+                "MimiKatz",
+                "Nanocore RAT",
+                "NetWire RC",
+                "pupy",
+                "Quasar RAT",
+                "Remcos",
+                "StoneDrill",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberbit.com/new-early-bird-code-injection-technique-discovered/",
+            "date": "2018-04-11",
+            "organization": "Cyberbit",
+            "author": "Hod Gavriel",
+            "title": "New \u2018Early Bird\u2019 Code Injection Technique Discovered",
+            "categories": [
+                "TURNEDUP"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+            "date": "2017-09-20",
+            "organization": "FireEye",
+            "author": "Jacqueline O\u2019Leary",
+            "title": "Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware",
+            "categories": [
+                "DROPSHOT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "SHAPESHIFT",
+                "TURNEDUP",
+                "APT33"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "turnedup",
@@ -143,70 +207,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "turnedup is capable of downloading additional files.[453]"
                 }
-            ]
-        }
-    ],
-    "file_name": "turnedup",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage",
-            "date": "2019-03-27",
-            "organization": "Symantec",
-            "author": "Security Response Attack Investigation Team",
-            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
-            "categories": [
-                "DarkComet",
-                "Nanocore RAT",
-                "pupy",
-                "Quasar RAT",
-                "Remcos",
-                "TURNEDUP",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/elfin-apt33-espionage",
-            "date": "2019-03-27",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
-            "categories": [
-                "DarkComet",
-                "MimiKatz",
-                "Nanocore RAT",
-                "NetWire RC",
-                "pupy",
-                "Quasar RAT",
-                "Remcos",
-                "StoneDrill",
-                "TURNEDUP",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://www.cyberbit.com/new-early-bird-code-injection-technique-discovered/",
-            "date": "2018-04-11",
-            "organization": "Cyberbit",
-            "author": "Hod Gavriel",
-            "title": "New \u2018Early Bird\u2019 Code Injection Technique Discovered",
-            "categories": [
-                "TURNEDUP"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
-            "date": "2017-09-20",
-            "organization": "FireEye",
-            "author": "Jacqueline O\u2019Leary",
-            "title": "Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware",
-            "categories": [
-                "DROPSHOT",
-                "Nanocore RAT",
-                "NetWire RC",
-                "SHAPESHIFT",
-                "TURNEDUP",
-                "APT33"
             ]
         }
     ]

@@ -39,8 +39,8 @@ var threatdata = {
             "malware": "win.numando",
             "last_update": "2022-03-02 17:29:53",
             "tags": [
-                "Numando",
-                "Metamorfo"
+                "Metamorfo",
+                "Numando"
             ],
             "ioc": {
                 "url": [
@@ -77,7 +77,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-03-02 17:29:53",
-    "mitre": [],
     "file_name": "numando",
     "analysis": null,
     "articles": [
@@ -101,5 +100,6 @@ var threatdata = {
                 "Numando"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

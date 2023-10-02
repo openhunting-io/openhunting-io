@@ -31,6 +31,45 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pipemon",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/05/22/malware-tricks-29.html",
+            "date": "2022-05-22",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development trick - part 29: Store binary data in registry. Simple C++ example.",
+            "categories": [
+                "Turla RAT",
+                "PILLOWMINT",
+                "PipeMon"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1506904404225630210",
+            "date": "2022-03-24",
+            "organization": "Twitter (@ESETresearch)",
+            "author": "ESET Research",
+            "title": "Tweet on PipeMon variants by Winnti Group",
+            "categories": [
+                "PipeMon"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/05/21/no-game-over-winnti-group/",
+            "date": "2020-05-21",
+            "organization": "ESET Research",
+            "author": "Mathieu Tartare",
+            "title": "No \u201cGame over\u201d for the Winnti Group",
+            "categories": [
+                "ACEHASH",
+                "HTran",
+                "MimiKatz",
+                "PipeMon"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "pipemon",
@@ -386,45 +425,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an osi non-application layer protocol for communication between host and c2 server or among infected hosts within a network. the list of possible protocols is extensive. specific examples include use of network layer protocols, such as the internet control message protocol (icmp), transport layer protocols, such as the user datagram protocol (udp), session layer protocols, such as socket secure (socks), as well as redirected/tunneled protocols, such as serial over lan (sol).",
                     "procedure_description": "the pipemon communication module can use a custom protocol based on tls over tcp.[51]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pipemon",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2023/05/22/malware-tricks-29.html",
-            "date": "2022-05-22",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development trick - part 29: Store binary data in registry. Simple C++ example.",
-            "categories": [
-                "Turla RAT",
-                "PILLOWMINT",
-                "PipeMon"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/ESETresearch/status/1506904404225630210",
-            "date": "2022-03-24",
-            "organization": "Twitter (@ESETresearch)",
-            "author": "ESET Research",
-            "title": "Tweet on PipeMon variants by Winnti Group",
-            "categories": [
-                "PipeMon"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/05/21/no-game-over-winnti-group/",
-            "date": "2020-05-21",
-            "organization": "ESET Research",
-            "author": "Mathieu Tartare",
-            "title": "No \u201cGame over\u201d for the Winnti Group",
-            "categories": [
-                "ACEHASH",
-                "HTran",
-                "MimiKatz",
-                "PipeMon"
             ]
         }
     ]

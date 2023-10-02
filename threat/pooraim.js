@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pooraim",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "pooraim",
@@ -115,8 +118,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "pooraim",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -32,6 +32,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sqlrat",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "sqlrat",
@@ -205,8 +208,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "sqlrat",
-    "analysis": null,
-    "articles": []
+    ]
 };

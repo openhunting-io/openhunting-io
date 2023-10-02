@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "advisorsbot",
     "analysis": null,
     "articles": [
@@ -55,5 +54,6 @@ var threatdata = {
                 "AdvisorsBot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

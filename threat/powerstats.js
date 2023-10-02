@@ -42,6 +42,312 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerstats",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.deepinstinct.com/blog/phonyc2-revealing-a-new-malicious-command-control-framework-by-muddywater",
+            "date": "2023-06-29",
+            "organization": "DeepInstinct",
+            "author": "Simon Kenin",
+            "title": "PhonyC2: Revealing a New Malicious Command & Control Framework by MuddyWater",
+            "categories": [
+                "PhonyC2",
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/boggyserpens/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Boggy Serpens",
+            "categories": [
+                "POWERSTATS",
+                "MuddyWater"
+            ]
+        },
+        {
+            "data_url": "https://www.inforisktoday.com/muddywater-targets-critical-infrastructure-in-asia-europe-a-18611",
+            "date": "2022-02-25",
+            "organization": "infoRisk TODAY",
+            "author": "Prajeet Nair",
+            "title": "MuddyWater Targets Critical Infrastructure in Asia, Europe",
+            "categories": [
+                "POWERSTATS",
+                "PowGoop",
+                "STARWHALE",
+                "GRAMDOOR",
+                "MoriAgent"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a",
+            "date": "2022-02-24",
+            "organization": "",
+            "author": "FBI",
+            "title": "Alert (AA22-055A) Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks",
+            "categories": [
+                "POWERSTATS",
+                "PowGoop",
+                "MoriAgent"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-055A_Iranian_Government-Sponsored_Actors_Conduct_Cyber_Operations.pdf",
+            "date": "2022-02-24",
+            "organization": "",
+            "author": "FBI",
+            "title": "Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government  and Commercial Networks",
+            "categories": [
+                "POWERSTATS",
+                "PowGoop",
+                "GRAMDOOR",
+                "MoriAgent"
+            ]
+        },
+        {
+            "data_url": "https://shells.systems/reviving-leaked-muddyc3-used-by-muddywater-apt/",
+            "date": "2021-01-13",
+            "organization": "Shells.System blog",
+            "author": "Ahmed Khlief",
+            "title": "Reviving MuddyC3 Used by MuddyWater (IRAN) APT",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2020/01/15/iranian-threat-actors-preliminary-analysis/",
+            "date": "2020-01-15",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Iranian Threat Actors: Preliminary Analysis",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://blog.prevailion.com/2020/01/summer-mirage.html",
+            "date": "2020-01-07",
+            "organization": "Prevailion",
+            "author": "Danny Adamitis",
+            "title": "Summer Mirage",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "http://www.secureworks.com/research/threat-profiles/cobalt-ulster",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT ULSTER",
+            "categories": [
+                "POWERSTATS",
+                "Koadic",
+                "MuddyWater"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
+            "date": "2019-08-01",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2019",
+            "categories": [
+                "ZooPark",
+                "magecart",
+                "POWERSTATS",
+                "Chaperone",
+                "COMpfun",
+                "EternalPetya",
+                "FinFisher RAT",
+                "HawkEye Keylogger",
+                "HOPLIGHT",
+                "Microcin",
+                "NjRAT",
+                "Olympic Destroyer",
+                "PLEAD",
+                "RokRAT",
+                "Triton",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/muddywater-resurfaces-uses-multi-stage-backdoor-powerstats-v3-and-new-post-exploitation-tools/",
+            "date": "2019-06-10",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "MuddyWater Resurfaces, Uses Multi-Stage Backdoor POWERSTATS V3 and New Post-Exploitation Tools",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://www.group-ib.com/blog/muddywater/",
+            "date": "2019-05-29",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "Catching fish in muddy waters",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/muddywater-targets-kurdish-groups-turkish-orgs/",
+            "date": "2019-04-15",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Iranian APT MuddyWater Attack Infrastructure Targeting Kurdish Political Groups and Organizations in Turkey",
+            "categories": [
+                "POWERSTATS",
+                "MuddyWater"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2019/the-muddy-waters-of-apt-attacks/",
+            "date": "2019-04-10",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "The Muddy Waters of APT Attacks",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/NN_iRvwA6yOHFS9Z3A0RBA",
+            "date": "2019-03-21",
+            "organization": "Qianxin",
+            "author": "Qi Anxin",
+            "title": "Analysis of the latest attack activities of the suspected MuddyWater APT group against the Iraqi mobile operator Korek Telecom",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/muddywater-operations-in-lebanon-and-oman/",
+            "date": "2018-11-28",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "MuddyWater Operations in Lebanon and Oman",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf",
+            "date": "2018-06-06",
+            "organization": "ClearSky",
+            "author": "ClearSky Cyber Security",
+            "title": "Iranian APT group \u2018MuddyWater\u2019 Adds Exploits to Their Arsenal",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://sec0wn.blogspot.com/2018/05/clearing-muddywater-analysis-of-new.html",
+            "date": "2018-05-08",
+            "organization": "Security 0wnage",
+            "author": "Mo Bustami",
+            "title": "Clearing the MuddyWater - Analysis of new MuddyWater Samples",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20180807105755/https://www.sekoia.fr/blog/falling-on-muddywater/",
+            "date": "2018-03-22",
+            "organization": "Sekoia",
+            "author": "sekoia",
+            "title": "Falling on MuddyWater",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
+            "date": "2018-03-13",
+            "organization": "FireEye",
+            "author": "Sudeep Singh",
+            "title": "Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign",
+            "categories": [
+                "POWERSTATS",
+                "MuddyWater"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/campaign-possibly-connected-muddywater-surfaces-middle-east-central-asia/",
+            "date": "2018-03-12",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Campaign Possibly Connected to \u201cMuddyWater\u201d Surfaces in the Middle East and Central Asia",
+            "categories": [
+                "POWERSTATS",
+                "MuddyWater"
+            ]
+        },
+        {
+            "data_url": "https://sec0wn.blogspot.com/2018/03/a-quick-dip-into-muddywaters-recent.html",
+            "date": "2018-03-01",
+            "organization": "Security 0wnage",
+            "author": "Mo Bustami",
+            "title": "A Quick Dip into MuddyWater's Recent Activity",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://sec0wn.blogspot.com/2018/02/burping-on-muddywater.html",
+            "date": "2018-01-02",
+            "organization": "Security 0wnage",
+            "author": "Mo Bustami",
+            "title": "Burping on MuddyWater",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/",
+            "date": "2017-11-22",
+            "organization": "Reaqta",
+            "author": "Reaqta",
+            "title": "A dive into MuddyWater APT targeting Middle-East",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
+            "date": "2017-11-14",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Tom Lancaster",
+            "title": "Muddying the Water: Targeted Attacks in the Middle East",
+            "categories": [
+                "POWERSTATS",
+                "MuddyWater"
+            ]
+        },
+        {
+            "data_url": "https://sec0wn.blogspot.com/2017/10/continued-activity-targeting-middle-east.html",
+            "date": "2017-10-04",
+            "organization": "Security 0wnage",
+            "author": "Mo Bustami",
+            "title": "Continued Activity targeting the Middle East",
+            "categories": [
+                "POWERSTATS"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/09/elaborate-scripting-fu-used-in-espionage-attack-against-saudi-arabia-government_entity/",
+            "date": "2017-09-26",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Elaborate scripting-fu used in espionage attack against Saudi Arabia Government entity",
+            "categories": [
+                "POWERSTATS"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "powerstats",
@@ -441,312 +747,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "powerstats",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.deepinstinct.com/blog/phonyc2-revealing-a-new-malicious-command-control-framework-by-muddywater",
-            "date": "2023-06-29",
-            "organization": "DeepInstinct",
-            "author": "Simon Kenin",
-            "title": "PhonyC2: Revealing a New Malicious Command & Control Framework by MuddyWater",
-            "categories": [
-                "PhonyC2",
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/boggyserpens/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Boggy Serpens",
-            "categories": [
-                "POWERSTATS",
-                "MuddyWater"
-            ]
-        },
-        {
-            "data_url": "https://www.inforisktoday.com/muddywater-targets-critical-infrastructure-in-asia-europe-a-18611",
-            "date": "2022-02-25",
-            "organization": "infoRisk TODAY",
-            "author": "Prajeet Nair",
-            "title": "MuddyWater Targets Critical Infrastructure in Asia, Europe",
-            "categories": [
-                "POWERSTATS",
-                "PowGoop",
-                "STARWHALE",
-                "GRAMDOOR",
-                "MoriAgent"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-055a",
-            "date": "2022-02-24",
-            "organization": "",
-            "author": "FBI",
-            "title": "Alert (AA22-055A) Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks",
-            "categories": [
-                "POWERSTATS",
-                "PowGoop",
-                "MoriAgent"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-055A_Iranian_Government-Sponsored_Actors_Conduct_Cyber_Operations.pdf",
-            "date": "2022-02-24",
-            "organization": "",
-            "author": "FBI",
-            "title": "Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government  and Commercial Networks",
-            "categories": [
-                "POWERSTATS",
-                "PowGoop",
-                "GRAMDOOR",
-                "MoriAgent"
-            ]
-        },
-        {
-            "data_url": "https://shells.systems/reviving-leaked-muddyc3-used-by-muddywater-apt/",
-            "date": "2021-01-13",
-            "organization": "Shells.System blog",
-            "author": "Ahmed Khlief",
-            "title": "Reviving MuddyC3 Used by MuddyWater (IRAN) APT",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://marcoramilli.com/2020/01/15/iranian-threat-actors-preliminary-analysis/",
-            "date": "2020-01-15",
-            "organization": "Marco Ramilli's Blog",
-            "author": "Marco Ramilli",
-            "title": "Iranian Threat Actors: Preliminary Analysis",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://blog.prevailion.com/2020/01/summer-mirage.html",
-            "date": "2020-01-07",
-            "organization": "Prevailion",
-            "author": "Danny Adamitis",
-            "title": "Summer Mirage",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "http://www.secureworks.com/research/threat-profiles/cobalt-ulster",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT ULSTER",
-            "categories": [
-                "POWERSTATS",
-                "Koadic",
-                "MuddyWater"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
-            "date": "2019-08-01",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q2 2019",
-            "categories": [
-                "ZooPark",
-                "magecart",
-                "POWERSTATS",
-                "Chaperone",
-                "COMpfun",
-                "EternalPetya",
-                "FinFisher RAT",
-                "HawkEye Keylogger",
-                "HOPLIGHT",
-                "Microcin",
-                "NjRAT",
-                "Olympic Destroyer",
-                "PLEAD",
-                "RokRAT",
-                "Triton",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/muddywater-resurfaces-uses-multi-stage-backdoor-powerstats-v3-and-new-post-exploitation-tools/",
-            "date": "2019-06-10",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "MuddyWater Resurfaces, Uses Multi-Stage Backdoor POWERSTATS V3 and New Post-Exploitation Tools",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://www.group-ib.com/blog/muddywater/",
-            "date": "2019-05-29",
-            "organization": "Group-IB",
-            "author": "Group-IB",
-            "title": "Catching fish in muddy waters",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/muddywater-targets-kurdish-groups-turkish-orgs/",
-            "date": "2019-04-15",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "Iranian APT MuddyWater Attack Infrastructure Targeting Kurdish Political Groups and Organizations in Turkey",
-            "categories": [
-                "POWERSTATS",
-                "MuddyWater"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2019/the-muddy-waters-of-apt-attacks/",
-            "date": "2019-04-10",
-            "organization": "Check Point",
-            "author": "Check Point Research",
-            "title": "The Muddy Waters of APT Attacks",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/NN_iRvwA6yOHFS9Z3A0RBA",
-            "date": "2019-03-21",
-            "organization": "Qianxin",
-            "author": "Qi Anxin",
-            "title": "Analysis of the latest attack activities of the suspected MuddyWater APT group against the Iraqi mobile operator Korek Telecom",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/muddywater-operations-in-lebanon-and-oman/",
-            "date": "2018-11-28",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "MuddyWater Operations in Lebanon and Oman",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf",
-            "date": "2018-06-06",
-            "organization": "ClearSky",
-            "author": "ClearSky Cyber Security",
-            "title": "Iranian APT group \u2018MuddyWater\u2019 Adds Exploits to Their Arsenal",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://sec0wn.blogspot.com/2018/05/clearing-muddywater-analysis-of-new.html",
-            "date": "2018-05-08",
-            "organization": "Security 0wnage",
-            "author": "Mo Bustami",
-            "title": "Clearing the MuddyWater - Analysis of new MuddyWater Samples",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20180807105755/https://www.sekoia.fr/blog/falling-on-muddywater/",
-            "date": "2018-03-22",
-            "organization": "Sekoia",
-            "author": "sekoia",
-            "title": "Falling on MuddyWater",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2018/03/iranian-threat-group-updates-ttps-in-spear-phishing-campaign.html",
-            "date": "2018-03-13",
-            "organization": "FireEye",
-            "author": "Sudeep Singh",
-            "title": "Iranian Threat Group Updates Tactics, Techniques and Procedures in Spear Phishing Campaign",
-            "categories": [
-                "POWERSTATS",
-                "MuddyWater"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/campaign-possibly-connected-muddywater-surfaces-middle-east-central-asia/",
-            "date": "2018-03-12",
-            "organization": "Trend Micro",
-            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
-            "title": "Campaign Possibly Connected to \u201cMuddyWater\u201d Surfaces in the Middle East and Central Asia",
-            "categories": [
-                "POWERSTATS",
-                "MuddyWater"
-            ]
-        },
-        {
-            "data_url": "https://sec0wn.blogspot.com/2018/03/a-quick-dip-into-muddywaters-recent.html",
-            "date": "2018-03-01",
-            "organization": "Security 0wnage",
-            "author": "Mo Bustami",
-            "title": "A Quick Dip into MuddyWater's Recent Activity",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://sec0wn.blogspot.com/2018/02/burping-on-muddywater.html",
-            "date": "2018-01-02",
-            "organization": "Security 0wnage",
-            "author": "Mo Bustami",
-            "title": "Burping on MuddyWater",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/",
-            "date": "2017-11-22",
-            "organization": "Reaqta",
-            "author": "Reaqta",
-            "title": "A dive into MuddyWater APT targeting Middle-East",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/",
-            "date": "2017-11-14",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Tom Lancaster",
-            "title": "Muddying the Water: Targeted Attacks in the Middle East",
-            "categories": [
-                "POWERSTATS",
-                "MuddyWater"
-            ]
-        },
-        {
-            "data_url": "https://sec0wn.blogspot.com/2017/10/continued-activity-targeting-middle-east.html",
-            "date": "2017-10-04",
-            "organization": "Security 0wnage",
-            "author": "Mo Bustami",
-            "title": "Continued Activity targeting the Middle East",
-            "categories": [
-                "POWERSTATS"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/09/elaborate-scripting-fu-used-in-espionage-attack-against-saudi-arabia-government_entity/",
-            "date": "2017-09-26",
-            "organization": "Malwarebytes",
-            "author": "Malwarebytes Labs",
-            "title": "Elaborate scripting-fu used in espionage attack against Saudi Arabia Government entity",
-            "categories": [
-                "POWERSTATS"
             ]
         }
     ]

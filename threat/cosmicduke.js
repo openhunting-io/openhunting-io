@@ -45,6 +45,30 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cosmicduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cyfirma.com/outofband/cosmicduke-malware-analysis/",
+            "date": "2022-08-29",
+            "organization": "Cyfirma",
+            "author": "cyfirma",
+            "title": "CosmicDuke Malware Analysis Report",
+            "categories": [
+                "CosmicDuke"
+            ]
+        },
+        {
+            "data_url": "https://blog.f-secure.com/wp-content/uploads/2019/10/CosmicDuke.pdf",
+            "date": "2014-07-03",
+            "organization": "F-Secure",
+            "author": "F-Secure Labs",
+            "title": "COSMICDUKE: Cosmu with a twist of MiniDuke",
+            "categories": [
+                "CosmicDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "cosmicduke",
@@ -328,30 +352,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "cosmicduke exfiltrates collected files over ftp or webdav. exfiltration servers can be separately configured from c2 servers.[16]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cosmicduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cyfirma.com/outofband/cosmicduke-malware-analysis/",
-            "date": "2022-08-29",
-            "organization": "Cyfirma",
-            "author": "cyfirma",
-            "title": "CosmicDuke Malware Analysis Report",
-            "categories": [
-                "CosmicDuke"
-            ]
-        },
-        {
-            "data_url": "https://blog.f-secure.com/wp-content/uploads/2019/10/CosmicDuke.pdf",
-            "date": "2014-07-03",
-            "organization": "F-Secure",
-            "author": "F-Secure Labs",
-            "title": "COSMICDUKE: Cosmu with a twist of MiniDuke",
-            "categories": [
-                "CosmicDuke"
             ]
         }
     ]

@@ -35,6 +35,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pcshare",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "pcshare",
@@ -320,8 +323,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "pcshare",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -37,20 +37,28 @@ var threatdata = {
             "malware_printable": "Vjw0rm",
             "malware_alias": null,
             "malware": "win.vjw0rm",
-            "last_update": "2023-09-26 02:25:20",
+            "last_update": "2023-09-28 09:30:22",
             "tags": [
-                "Houdini",
-                "Vjw0rm",
-                "N-W0rm",
                 "c2",
                 "VjW0rm",
-                "WSHRAT",
                 "vjworm",
-                "vjw0rm",
-                "Nanocore"
+                "WSHRAT",
+                "Vjw0rm",
+                "Houdini",
+                "N-W0rm",
+                "Nanocore",
+                "vjw0rm"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "81.161.229.224:3609",
+                        "timestamp": "2023-09-28 09:30:22"
+                    },
+                    {
+                        "value": "95.214.27.6:6350",
+                        "timestamp": "2023-09-27 04:35:39"
+                    },
                     {
                         "value": "95.214.27.6:6380",
                         "timestamp": "2023-09-26 02:25:20"
@@ -1499,8 +1507,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-26 02:25:20",
-    "mitre": [],
+    "last_ioc_update": "2023-09-28 09:30:22",
     "file_name": "vjw0rm",
     "analysis": null,
     "articles": [
@@ -1654,5 +1661,6 @@ var threatdata = {
                 "Vjw0rm"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

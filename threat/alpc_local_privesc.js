@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "alpc_local_privesc",
     "analysis": null,
     "articles": [
@@ -44,5 +43,6 @@ var threatdata = {
                 "PowerPool"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

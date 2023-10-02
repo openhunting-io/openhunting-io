@@ -50,6 +50,84 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "havex_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-083a",
+            "date": "2022-03-24",
+            "organization": "CISA",
+            "author": "US-CERT",
+            "title": "Alert (AA22-083A) Tactics, Techniques, and Procedures of Indicted State-Sponsored Russian Cyber Actors Targeting the Energy Sector",
+            "categories": [
+                "Havex RAT",
+                "Triton"
+            ]
+        },
+        {
+            "data_url": "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+            "date": "2021-06-24",
+            "organization": "Gigamon",
+            "author": "Joe Slowik",
+            "title": "The Baffling Berserk Bear: A Decade's Activity targeting Critical Infrastructure",
+            "categories": [
+                "Havex RAT",
+                "Heriplor",
+                "Karagany"
+            ]
+        },
+        {
+            "data_url": "https://www.ironnet.com/blog/russian-cyber-attack-campaigns-and-actors",
+            "date": "2020-12-21",
+            "organization": "IronNet",
+            "author": "Adam Hlavek",
+            "title": "Russian cyber attack campaigns and actors",
+            "categories": [
+                "WellMail",
+                "elf.wellmess",
+                "Agent.BTZ",
+                "BlackEnergy",
+                "EternalPetya",
+                "Havex RAT",
+                "Industroyer",
+                "Ryuk",
+                "Triton",
+                "WellMess"
+            ]
+        },
+        {
+            "data_url": "https://pylos.co/2020/11/04/the-enigmatic-energetic-bear/",
+            "date": "2020-11-04",
+            "organization": "Stranded on Pylos Blog",
+            "author": "Joe Slowik",
+            "title": "The Enigmatic Energetic Bear",
+            "categories": [
+                "EternalPetya",
+                "Havex RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-liberty",
+            "date": "2020",
+            "organization": "SecurityWeek",
+            "author": "SecureWorks",
+            "title": "IRON LIBERTY",
+            "categories": [
+                "Havex RAT",
+                "Karagany"
+            ]
+        },
+        {
+            "data_url": "https://www.f-secure.com/weblog/archives/00002718.html",
+            "date": "2014-06-23",
+            "organization": "F-Secure",
+            "author": "Daavid",
+            "title": "Havex Hunts For ICS/SCADA Systems",
+            "categories": [
+                "Havex RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -317,84 +395,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "backdoor.oldrea can download additional modules from c2.[49]"
                 }
-            ]
-        }
-    ],
-    "file_name": "havex_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-083a",
-            "date": "2022-03-24",
-            "organization": "CISA",
-            "author": "US-CERT",
-            "title": "Alert (AA22-083A) Tactics, Techniques, and Procedures of Indicted State-Sponsored Russian Cyber Actors Targeting the Energy Sector",
-            "categories": [
-                "Havex RAT",
-                "Triton"
-            ]
-        },
-        {
-            "data_url": "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
-            "date": "2021-06-24",
-            "organization": "Gigamon",
-            "author": "Joe Slowik",
-            "title": "The Baffling Berserk Bear: A Decade's Activity targeting Critical Infrastructure",
-            "categories": [
-                "Havex RAT",
-                "Heriplor",
-                "Karagany"
-            ]
-        },
-        {
-            "data_url": "https://www.ironnet.com/blog/russian-cyber-attack-campaigns-and-actors",
-            "date": "2020-12-21",
-            "organization": "IronNet",
-            "author": "Adam Hlavek",
-            "title": "Russian cyber attack campaigns and actors",
-            "categories": [
-                "WellMail",
-                "elf.wellmess",
-                "Agent.BTZ",
-                "BlackEnergy",
-                "EternalPetya",
-                "Havex RAT",
-                "Industroyer",
-                "Ryuk",
-                "Triton",
-                "WellMess"
-            ]
-        },
-        {
-            "data_url": "https://pylos.co/2020/11/04/the-enigmatic-energetic-bear/",
-            "date": "2020-11-04",
-            "organization": "Stranded on Pylos Blog",
-            "author": "Joe Slowik",
-            "title": "The Enigmatic Energetic Bear",
-            "categories": [
-                "EternalPetya",
-                "Havex RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-liberty",
-            "date": "2020",
-            "organization": "SecurityWeek",
-            "author": "SecureWorks",
-            "title": "IRON LIBERTY",
-            "categories": [
-                "Havex RAT",
-                "Karagany"
-            ]
-        },
-        {
-            "data_url": "https://www.f-secure.com/weblog/archives/00002718.html",
-            "date": "2014-06-23",
-            "organization": "F-Secure",
-            "author": "Daavid",
-            "title": "Havex Hunts For ICS/SCADA Systems",
-            "categories": [
-                "Havex RAT"
             ]
         }
     ]

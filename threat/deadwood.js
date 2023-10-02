@@ -40,7 +40,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "deadwood",
     "analysis": null,
     "articles": [
@@ -115,5 +114,6 @@ var threatdata = {
                 "DEADWOOD"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -71,252 +71,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "wannacry",
-            "procedure_code": "s0366",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0366",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1047",
-                    "technique_link": "https://attack.mitre.org/techniques/T1047",
-                    "technique_name": "windows management instrumentation",
-                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
-                    "procedure_description": "wannacry utilizes wmic to delete shadow copies.[129][130][131]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1543.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
-                    "technique_name": "create or modify system process : windows service",
-                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
-                    "procedure_description": "wannacry creates the service \"mssecsvc2.0\" with the display name \"microsoft security center (2.0) service.\"[133][134]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1543.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
-                    "technique_name": "create or modify system process : windows service",
-                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
-                    "procedure_description": "wannacry creates the service \"mssecsvc2.0\" with the display name \"microsoft security center (2.0) service.\"[133][134]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1222.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1222/001",
-                    "technique_name": "file and directory permissions modification : windows file and directory permissions modification",
-                    "technique_description": "adversaries may modify file or directory permissions/attributes to evade access control lists (acls) and access protected files. file and directory permissions are commonly managed by acls configured by the file or directory owner, or users with the appropriate permissions. file and directory acl implementations vary by platform, but generally explicitly designate which users or groups can perform which actions (read, write, execute, etc.).",
-                    "procedure_description": "wannacry uses attrib +h and icacls . /grant everyone:f /t /c /q to make some of its files hidden and grant all users full access controls.[11]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1564.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
-                    "technique_name": "hide artifacts : hidden files and directories",
-                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
-                    "procedure_description": "wannacry uses attrib +h to make some of its files hidden.[51]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1083",
-                    "technique_link": "https://attack.mitre.org/techniques/T1083",
-                    "technique_name": "file and directory discovery",
-                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "wannacry searches for variety of user files by file extension before encrypting them using rsa and aes, including office, pdf, image, audio, video, source code, archive/compression format, and key and certificate files.[316][317]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1120",
-                    "technique_link": "https://attack.mitre.org/techniques/T1120",
-                    "technique_name": "peripheral device discovery",
-                    "technique_description": "adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system. peripheral devices could include auxiliary resources that support a variety of functionalities such as keyboards, printers, cameras, smart card readers, or removable storage. the information may be used to enhance their awareness of the system and network environment or may be used for further actions.",
-                    "procedure_description": "wannacry contains a thread that will attempt to scan for new attached drives every few seconds. if one is identified, it will encrypt the files on the attached device.[50]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1018",
-                    "technique_link": "https://attack.mitre.org/techniques/T1018",
-                    "technique_name": "remote system discovery",
-                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
-                    "procedure_description": "wannacry scans its local network segment for remote systems to try to exploit and copy itself to.[90]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1016",
-                    "technique_link": "https://attack.mitre.org/techniques/T1016",
-                    "technique_name": "system network configuration discovery",
-                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
-                    "procedure_description": "wannacry will attempt to determine the local network segment it is a part of.[246]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1210",
-                    "technique_link": "https://attack.mitre.org/techniques/T1210",
-                    "technique_name": "exploitation of remote services",
-                    "technique_description": "adversaries may exploit remote services to gain unauthorized access to internal systems once inside of a network. exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code.\u00a0a common goal for post-compromise exploitation of remote services is for lateral movement to enable access to a remote system.",
-                    "procedure_description": "wannacry uses an exploit in smbv1 to spread itself to other remote systems on a network.[36][37][38]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1570",
-                    "technique_link": "https://attack.mitre.org/techniques/T1570",
-                    "technique_name": "lateral tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files between systems in a compromised environment. once brought into the victim environment (i.e. ingress tool transfer) files may then be copied from one system to another to stage adversary tools or other files over the course of an operation. adversaries may copy files between internal victim systems to support lateral movement using inherent file sharing protocols such as file sharing over smb/windows admin shares to connected network shares or with authenticated connections via remote desktop protocol.",
-                    "procedure_description": "wannacry attempts to copy itself to remote computers after gaining access via an smb exploit.[31]"
-                },
-                {
-                    "tactic_code": "ta0008",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
-                    "tactic_name": "lateral movement",
-                    "tactic_alias": "lateral_movement",
-                    "tactic_description": "The adversary is trying to move through your environment.",
-                    "technique_code": "t1563.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1563/002",
-                    "technique_name": "remote service session hijacking : rdp hijacking",
-                    "technique_description": "adversaries may hijack a legitimate user\u2019s remote desktop session to move laterally within an environment. remote desktop is a common feature in operating systems. it allows a user to log into an interactive session with a system desktop graphical user interface on a remote system. microsoft refers to its implementation of the remote desktop protocol (rdp) as remote desktop services (rds).",
-                    "procedure_description": "wannacry enumerates current remote desktop sessions and tries to execute the malware on each session.[6]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1573.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
-                    "technique_name": "encrypted channel : asymmetric cryptography",
-                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
-                    "procedure_description": "wannacry uses tor for command and control traffic and routes a custom cryptographic protocol over the tor circuit.[64]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1090.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1090/003",
-                    "technique_name": "proxy : multi-hop proxy",
-                    "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
-                    "procedure_description": "wannacry uses tor for command and control traffic.[24]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1486",
-                    "technique_link": "https://attack.mitre.org/techniques/T1486",
-                    "technique_name": "data encrypted for impact",
-                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
-                    "procedure_description": "wannacry encrypts user files and demands that a ransom be paid in bitcoin to decrypt those files.[88][2][89]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1490",
-                    "technique_link": "https://attack.mitre.org/techniques/T1490",
-                    "technique_name": "inhibit system recovery",
-                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
-                    "procedure_description": "wannacry uses vssadmin, wbadmin, bcdedit, and wmic to delete and disable operating system recovery features.[61][2][62]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1489",
-                    "technique_link": "https://attack.mitre.org/techniques/T1489",
-                    "technique_name": "service stop",
-                    "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
-                    "procedure_description": "wannacry attempts to kill processes associated with exchange, microsoft sql server, and mysql to make it possible to encrypt their data stores.[40][3]"
-                }
-            ]
-        },
-        {
-            "procedure_name": "tor",
-            "procedure_code": "s0183",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0183",
-            "techniques": [
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1573.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
-                    "technique_name": "encrypted channel : asymmetric cryptography",
-                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
-                    "procedure_description": "tor encapsulates traffic in multiple layers of encryption, using tls by default.[59]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1090.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1090/003",
-                    "technique_name": "proxy : multi-hop proxy",
-                    "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
-                    "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
-                }
-            ]
-        }
-    ],
     "file_name": "wannacry",
     "analysis": null,
     "articles": [
@@ -816,6 +570,252 @@ var threatdata = {
             "title": "WannaCry|WannaDecrypt0r NSA-Cyberweapon-Powered Ransomware Worm",
             "categories": [
                 "WannaCryptor"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "wannacry",
+            "procedure_code": "s0366",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0366",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1047",
+                    "technique_link": "https://attack.mitre.org/techniques/T1047",
+                    "technique_name": "windows management instrumentation",
+                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
+                    "procedure_description": "wannacry utilizes wmic to delete shadow copies.[129][130][131]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "wannacry creates the service \"mssecsvc2.0\" with the display name \"microsoft security center (2.0) service.\"[133][134]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "wannacry creates the service \"mssecsvc2.0\" with the display name \"microsoft security center (2.0) service.\"[133][134]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1222.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1222/001",
+                    "technique_name": "file and directory permissions modification : windows file and directory permissions modification",
+                    "technique_description": "adversaries may modify file or directory permissions/attributes to evade access control lists (acls) and access protected files. file and directory permissions are commonly managed by acls configured by the file or directory owner, or users with the appropriate permissions. file and directory acl implementations vary by platform, but generally explicitly designate which users or groups can perform which actions (read, write, execute, etc.).",
+                    "procedure_description": "wannacry uses attrib +h and icacls . /grant everyone:f /t /c /q to make some of its files hidden and grant all users full access controls.[11]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
+                    "technique_name": "hide artifacts : hidden files and directories",
+                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
+                    "procedure_description": "wannacry uses attrib +h to make some of its files hidden.[51]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "wannacry searches for variety of user files by file extension before encrypting them using rsa and aes, including office, pdf, image, audio, video, source code, archive/compression format, and key and certificate files.[316][317]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1120",
+                    "technique_link": "https://attack.mitre.org/techniques/T1120",
+                    "technique_name": "peripheral device discovery",
+                    "technique_description": "adversaries may attempt to gather information about attached peripheral devices and components connected to a computer system. peripheral devices could include auxiliary resources that support a variety of functionalities such as keyboards, printers, cameras, smart card readers, or removable storage. the information may be used to enhance their awareness of the system and network environment or may be used for further actions.",
+                    "procedure_description": "wannacry contains a thread that will attempt to scan for new attached drives every few seconds. if one is identified, it will encrypt the files on the attached device.[50]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1018",
+                    "technique_link": "https://attack.mitre.org/techniques/T1018",
+                    "technique_name": "remote system discovery",
+                    "technique_description": "adversaries may attempt to get a listing of other systems by ip address, hostname, or other logical identifier on a network that may be used for lateral movement from the current system. functionality could exist within remote access tools to enable this, but utilities available on the operating system could also be used such as  ping or net view using net.",
+                    "procedure_description": "wannacry scans its local network segment for remote systems to try to exploit and copy itself to.[90]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "wannacry will attempt to determine the local network segment it is a part of.[246]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1210",
+                    "technique_link": "https://attack.mitre.org/techniques/T1210",
+                    "technique_name": "exploitation of remote services",
+                    "technique_description": "adversaries may exploit remote services to gain unauthorized access to internal systems once inside of a network. exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code.\u00a0a common goal for post-compromise exploitation of remote services is for lateral movement to enable access to a remote system.",
+                    "procedure_description": "wannacry uses an exploit in smbv1 to spread itself to other remote systems on a network.[36][37][38]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1570",
+                    "technique_link": "https://attack.mitre.org/techniques/T1570",
+                    "technique_name": "lateral tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files between systems in a compromised environment. once brought into the victim environment (i.e. ingress tool transfer) files may then be copied from one system to another to stage adversary tools or other files over the course of an operation. adversaries may copy files between internal victim systems to support lateral movement using inherent file sharing protocols such as file sharing over smb/windows admin shares to connected network shares or with authenticated connections via remote desktop protocol.",
+                    "procedure_description": "wannacry attempts to copy itself to remote computers after gaining access via an smb exploit.[31]"
+                },
+                {
+                    "tactic_code": "ta0008",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0008",
+                    "tactic_name": "lateral movement",
+                    "tactic_alias": "lateral_movement",
+                    "tactic_description": "The adversary is trying to move through your environment.",
+                    "technique_code": "t1563.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1563/002",
+                    "technique_name": "remote service session hijacking : rdp hijacking",
+                    "technique_description": "adversaries may hijack a legitimate user\u2019s remote desktop session to move laterally within an environment. remote desktop is a common feature in operating systems. it allows a user to log into an interactive session with a system desktop graphical user interface on a remote system. microsoft refers to its implementation of the remote desktop protocol (rdp) as remote desktop services (rds).",
+                    "procedure_description": "wannacry enumerates current remote desktop sessions and tries to execute the malware on each session.[6]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
+                    "technique_name": "encrypted channel : asymmetric cryptography",
+                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
+                    "procedure_description": "wannacry uses tor for command and control traffic and routes a custom cryptographic protocol over the tor circuit.[64]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090/003",
+                    "technique_name": "proxy : multi-hop proxy",
+                    "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
+                    "procedure_description": "wannacry uses tor for command and control traffic.[24]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "wannacry encrypts user files and demands that a ransom be paid in bitcoin to decrypt those files.[88][2][89]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1490",
+                    "technique_link": "https://attack.mitre.org/techniques/T1490",
+                    "technique_name": "inhibit system recovery",
+                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
+                    "procedure_description": "wannacry uses vssadmin, wbadmin, bcdedit, and wmic to delete and disable operating system recovery features.[61][2][62]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1489",
+                    "technique_link": "https://attack.mitre.org/techniques/T1489",
+                    "technique_name": "service stop",
+                    "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
+                    "procedure_description": "wannacry attempts to kill processes associated with exchange, microsoft sql server, and mysql to make it possible to encrypt their data stores.[40][3]"
+                }
+            ]
+        },
+        {
+            "procedure_name": "tor",
+            "procedure_code": "s0183",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0183",
+            "techniques": [
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/002",
+                    "technique_name": "encrypted channel : asymmetric cryptography",
+                    "technique_description": "adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. this ensures that only the intended recipient can read the encrypted data. common public key encryption algorithms include rsa and elgamal.",
+                    "procedure_description": "tor encapsulates traffic in multiple layers of encryption, using tls by default.[59]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1090.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1090/003",
+                    "technique_name": "proxy : multi-hop proxy",
+                    "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
+                    "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
+                }
             ]
         }
     ]

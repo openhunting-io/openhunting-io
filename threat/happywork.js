@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "happywork",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "happywork",
@@ -74,8 +77,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "happywork",
-    "analysis": null,
-    "articles": []
+    ]
 };

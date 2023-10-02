@@ -1,0 +1,96 @@
+var threatdata = {
+    "name": "Lunar Spider",
+    "alias": "Lunar Spider, Gold SwathMore",
+    "category": "APT",
+    "type": "-",
+    "modified": "2021-01-07",
+    "all_data": {
+        "actor": "Lunar Spider",
+        "names": [
+            {
+                "name": "Lunar Spider",
+                "name-giver": "CrowdStrike"
+            },
+            {
+                "name": "Gold SwathMore",
+                "name-giver": "SecureWorks"
+            }
+        ],
+        "country": [
+            "Russia"
+        ],
+        "motivation": [
+            "Financial crime"
+        ],
+        "first-seen": "2019",
+        "description": "Lunar Spider is reportedly associated with {{Wizard Spider, Gold Blackburn}}.\n\n(CrowdStrike) On March 17, 2019, CrowdStrike Intelligence observed the use of a new BokBot (developed and operated by Lunar Spider) proxy module in conjunction with TrickBot (developed and operated by Wizard Spider), which may provide Wizard Spider with additional tools to steal sensitive information and conduct fraudulent wire transfers. This activity also provides further evidence to support the existence of a flourishing relationship between these two actors.\n\nBokBot has been observed to be distributed via Emotet (operated by {{Mummy Spider, TA542}}) and Smoke Loader (operated by Smoky Spider).\n\nBokBot itself has been observed to distribute TrickBot ({{Wizard Spider, Gold Blackburn}}) and TinyLoader ({{Tiny Spider}}).",
+        "observed-sectors": [
+            "Financial"
+        ],
+        "observed-countries": [
+            "Worldwide"
+        ],
+        "tools": [
+            "BokBot",
+            "Vawtrak"
+        ],
+        "information": [
+            "https://www.crowdstrike.com/blog/sin-ful-spiders-wizard-spider-and-lunar-spider-sharing-the-same-web/",
+            "https://www.crowdstrike.com/blog/wizard-spider-lunar-spider-shared-proxy-module/"
+        ],
+        "uuid": "66489195-9057-41a3-bf53-82aa6106833a",
+        "last-card-change": "2021-01-07",
+        "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
+    },
+    "ioc_data": [],
+    "last_ioc_update": null,
+    "file_name": "lunar_spider",
+    "analysis": null,
+    "articles": [],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
+            ]
+        }
+    ]
+};

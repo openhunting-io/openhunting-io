@@ -53,12 +53,12 @@ var threatdata = {
             "malware": "win.rokrat",
             "last_update": "2023-09-13 15:43:07",
             "tags": [
-                "RokRat",
-                "APT37",
-                "RokRAT",
+                "RAT",
                 "APT",
                 "GOLDBACKDOOR",
-                "RAT"
+                "APT37",
+                "RokRAT",
+                "RokRat"
             ],
             "ioc": {
                 "md5_hash": [
@@ -107,6 +107,407 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-13 15:43:07",
+    "file_name": "rokrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securityintelligence.com/posts/itg10-targeting-south-korean-entities/",
+            "date": "2023-06-06",
+            "organization": "Security Intelligence",
+            "author": "Joshua Chung",
+            "title": "ITG10 Likely Targeting South Korean Entities of Interest to the Democratic People\u2019s Republic of Korea (DPRK)",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/chain-reaction-rokrats-missing-link/",
+            "date": "2023-05-01",
+            "organization": "Check Point Research",
+            "author": "Check Point Research",
+            "title": "Chain Reaction: RokRAT's Missing Link",
+            "categories": [
+                "Amadey",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/51751/",
+            "date": "2023-04-26",
+            "organization": "AhnLab",
+            "author": "bghjmun",
+            "title": "RokRAT Malware Distributed Through LNK Files (*.lnk): RedEyes (ScarCruft)",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/s2wblog/scarcruft-bolsters-arsenal-for-targeting-individual-android-devices-97d2bcef4ab",
+            "date": "2023-03-23",
+            "organization": "Medium s2wlab",
+            "author": "BLKSMTH",
+            "title": "Scarcruft Bolsters Arsenal for targeting individual Android devices",
+            "categories": [
+                "RambleOn",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1575103839115804672",
+            "date": "2022-09-28",
+            "organization": "Twitter (@ESETresearch)",
+            "author": "ESET Research",
+            "title": "Twitter Thread linking CloudMensis to RokRAT / ScarCruft",
+            "categories": [
+                "CloudMensis",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/moldypisces/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Moldy Pisces",
+            "categories": [
+                "RokRAT",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
+            "date": "2022-04-28",
+            "organization": "PWC",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2021: A Year in Retrospect (Annex)",
+            "categories": [
+                "Cobalt Strike",
+                "Conti",
+                "PlugX",
+                "RokRAT",
+                "Inception Framework",
+                "Red Menshen"
+            ]
+        },
+        {
+            "data_url": "https://www.volexity.com/blog/2021/08/24/north-korean-bluelight-special-inkysquid-deploys-rokrat/",
+            "date": "2021-08-24",
+            "organization": "Volexity",
+            "author": "Damien Cash",
+            "title": "North Korean BLUELIGHT Special: InkySquid Deploys RokRAT",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/s2wlab/matryoshka-variant-of-rokrat-apt37-scarcruft-69774ea7bf48",
+            "date": "2021-07-14",
+            "organization": "Medium s2wlab",
+            "author": "Jaeki Kim",
+            "title": "Matryoshka : Variant of ROKRAT, APT37 (Scarcruft)",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "date": "2021-02-18",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "categories": [
+                "Poet RAT",
+                "Gravity RAT",
+                "Ketrican",
+                "Okrum",
+                "OopsIE",
+                "Remcos",
+                "RogueRobinNET",
+                "RokRAT",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2021/01/retrohunting-apt37-north-korean-apt-used-vba-self-decode-technique-to-inject-rokrat/",
+            "date": "2021-01-06",
+            "organization": "Malwarebytes",
+            "author": "Hossein Jazi",
+            "title": "Retrohunting APT37: North Korean APT used VBA self decode technique to inject RokRat",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.ibm.com/downloads/cas/Z81AVOY7",
+            "date": "2020-06-16",
+            "organization": "IBM",
+            "author": "IBM Security X-Force\u00ae Incident Responseand Intelligence Services (IRIS)",
+            "title": "Cloud ThreatLandscape Report 2020",
+            "categories": [
+                "QNAPCrypt",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
+            "date": "2020-05-21",
+            "organization": "PICUS Security",
+            "author": "S\u00fcleyman \u00d6zarslan",
+            "title": "T1055 Process Injection",
+            "categories": [
+                "BlackEnergy",
+                "Cardinal RAT",
+                "Downdelph",
+                "Emotet",
+                "Kazuar",
+                "RokRAT",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://github.com/ssp4rk/slides/blob/master/2019SAS_Behind_of_the_Mask_of_ScarCruft.pdf",
+            "date": "2020-03-30",
+            "organization": "Kaspersky SAS",
+            "author": "Seongsu Park",
+            "title": "Behind the Mask of ScarCruft",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+            "date": "2020-03-03",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2019:A Year in Retrospect",
+            "categories": [
+                "KevDroid",
+                "MESSAGETAP",
+                "magecart",
+                "AndroMut",
+                "Cobalt Strike",
+                "CobInt",
+                "Crimson RAT",
+                "DNSpionage",
+                "Dridex",
+                "Dtrack",
+                "Emotet",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Grateful POS",
+                "ISFB",
+                "Kazuar",
+                "LockerGoga",
+                "Nokki",
+                "QakBot",
+                "Ramnit",
+                "REvil",
+                "Rifdoor",
+                "RokRAT",
+                "Ryuk",
+                "shadowhammer",
+                "ShadowPad",
+                "Shifu",
+                "Skipper",
+                "StoneDrill",
+                "Stuxnet",
+                "TrickBot",
+                "Winnti",
+                "ZeroCleare",
+                "APT41",
+                "MUSTANG PANDA",
+                "Sea Turtle"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://kindredsec.wordpress.com/2019/08/12/an-overview-of-public-platform-c2s/",
+            "date": "2019-08-12",
+            "organization": "Kindred Security",
+            "author": "Kindred Security",
+            "title": "An Overview of Public Platform C2\u2019s",
+            "categories": [
+                "HTML5 Encoding",
+                "LOWBALL",
+                "Makadocs",
+                "MiniDuke",
+                "RogueRobinNET",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
+            "date": "2019-08-01",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2019",
+            "categories": [
+                "ZooPark",
+                "magecart",
+                "POWERSTATS",
+                "Chaperone",
+                "COMpfun",
+                "EternalPetya",
+                "FinFisher RAT",
+                "HawkEye Keylogger",
+                "HOPLIGHT",
+                "Microcin",
+                "NjRAT",
+                "Olympic Destroyer",
+                "PLEAD",
+                "RokRAT",
+                "Triton",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/",
+            "date": "2019-05-13",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "ScarCruft continues to evolve, introduces Bluetooth harvester",
+            "categories": [
+                "Konni",
+                "RokRAT",
+                "UACMe",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "http://v3lo.tistory.com/24",
+            "date": "2018-11-16",
+            "organization": "",
+            "author": "Kim Yejun",
+            "title": "Return to ROKRAT!! (feat. FAAAA...Sad...)",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.intezer.com/apt37-final1stspy-reaping-the-freemilk/",
+            "date": "2018-10-03",
+            "organization": "Intezer",
+            "author": "Jay Rosenberg",
+            "title": "APT37: Final1stspy Reaping the FreeMilk",
+            "categories": [
+                "Final1stSpy",
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.carbonblack.com/2018/02/27/threat-analysis-rokrat-malware/",
+            "date": "2018-02-27",
+            "organization": "VMWare Carbon Black",
+            "author": "Jared Myers",
+            "title": "Threat Analysis: ROKRAT Malware",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf",
+            "date": "2018-02-20",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT37 (REAPER) The Overlooked North Korean Actor",
+            "categories": [
+                "PoorWeb",
+                "RokRAT",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+            "date": "2018-01-16",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Korea In The Crosshairs",
+            "categories": [
+                "Freenki Loader",
+                "RokRAT",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
+            "date": "2018-01-16",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Korea In The Crosshairs",
+            "categories": [
+                "Freenki Loader",
+                "PoohMilk Loader",
+                "RokRAT",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/11/ROKRAT-Reloaded.html",
+            "date": "2017-11-28",
+            "organization": "Cisco",
+            "author": "Warren Mercer",
+            "title": "ROKRAT Reloaded",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/04/introducing-rokrat.html",
+            "date": "2017-04-03",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Introducing ROKRAT",
+            "categories": [
+                "RokRAT"
+            ]
+        },
+        {
+            "data_url": "http://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/002/191/original/Talos_RokRatWhitePaper.pdf",
+            "date": "2017",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Introducing ROKRAT",
+            "categories": [
+                "RokRAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "rokrat",
@@ -566,407 +967,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "rokrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securityintelligence.com/posts/itg10-targeting-south-korean-entities/",
-            "date": "2023-06-06",
-            "organization": "Security Intelligence",
-            "author": "Joshua Chung",
-            "title": "ITG10 Likely Targeting South Korean Entities of Interest to the Democratic People\u2019s Republic of Korea (DPRK)",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2023/chain-reaction-rokrats-missing-link/",
-            "date": "2023-05-01",
-            "organization": "Check Point Research",
-            "author": "Check Point Research",
-            "title": "Chain Reaction: RokRAT's Missing Link",
-            "categories": [
-                "Amadey",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://asec.ahnlab.com/en/51751/",
-            "date": "2023-04-26",
-            "organization": "AhnLab",
-            "author": "bghjmun",
-            "title": "RokRAT Malware Distributed Through LNK Files (*.lnk): RedEyes (ScarCruft)",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/s2wblog/scarcruft-bolsters-arsenal-for-targeting-individual-android-devices-97d2bcef4ab",
-            "date": "2023-03-23",
-            "organization": "Medium s2wlab",
-            "author": "BLKSMTH",
-            "title": "Scarcruft Bolsters Arsenal for targeting individual Android devices",
-            "categories": [
-                "RambleOn",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/ESETresearch/status/1575103839115804672",
-            "date": "2022-09-28",
-            "organization": "Twitter (@ESETresearch)",
-            "author": "ESET Research",
-            "title": "Twitter Thread linking CloudMensis to RokRAT / ScarCruft",
-            "categories": [
-                "CloudMensis",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/moldypisces/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Moldy Pisces",
-            "categories": [
-                "RokRAT",
-                "APT37"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-annex-download.pdf",
-            "date": "2022-04-28",
-            "organization": "PWC",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2021: A Year in Retrospect (Annex)",
-            "categories": [
-                "Cobalt Strike",
-                "Conti",
-                "PlugX",
-                "RokRAT",
-                "Inception Framework",
-                "Red Menshen"
-            ]
-        },
-        {
-            "data_url": "https://www.volexity.com/blog/2021/08/24/north-korean-bluelight-special-inkysquid-deploys-rokrat/",
-            "date": "2021-08-24",
-            "organization": "Volexity",
-            "author": "Damien Cash",
-            "title": "North Korean BLUELIGHT Special: InkySquid Deploys RokRAT",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/s2wlab/matryoshka-variant-of-rokrat-apt37-scarcruft-69774ea7bf48",
-            "date": "2021-07-14",
-            "organization": "Medium s2wlab",
-            "author": "Jaeki Kim",
-            "title": "Matryoshka : Variant of ROKRAT, APT37 (Scarcruft)",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "date": "2021-02-18",
-            "organization": "PTSecurity",
-            "author": "PTSecurity",
-            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "categories": [
-                "Poet RAT",
-                "Gravity RAT",
-                "Ketrican",
-                "Okrum",
-                "OopsIE",
-                "Remcos",
-                "RogueRobinNET",
-                "RokRAT",
-                "SmokeLoader"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2021/01/retrohunting-apt37-north-korean-apt-used-vba-self-decode-technique-to-inject-rokrat/",
-            "date": "2021-01-06",
-            "organization": "Malwarebytes",
-            "author": "Hossein Jazi",
-            "title": "Retrohunting APT37: North Korean APT used VBA self decode technique to inject RokRat",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.ibm.com/downloads/cas/Z81AVOY7",
-            "date": "2020-06-16",
-            "organization": "IBM",
-            "author": "IBM Security X-Force\u00ae Incident Responseand Intelligence Services (IRIS)",
-            "title": "Cloud ThreatLandscape Report 2020",
-            "categories": [
-                "QNAPCrypt",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
-            "date": "2020-05-21",
-            "organization": "PICUS Security",
-            "author": "S\u00fcleyman \u00d6zarslan",
-            "title": "T1055 Process Injection",
-            "categories": [
-                "BlackEnergy",
-                "Cardinal RAT",
-                "Downdelph",
-                "Emotet",
-                "Kazuar",
-                "RokRAT",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://github.com/ssp4rk/slides/blob/master/2019SAS_Behind_of_the_Mask_of_ScarCruft.pdf",
-            "date": "2020-03-30",
-            "organization": "Kaspersky SAS",
-            "author": "Seongsu Park",
-            "title": "Behind the Mask of ScarCruft",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
-            "date": "2020-03-03",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2019:A Year in Retrospect",
-            "categories": [
-                "KevDroid",
-                "MESSAGETAP",
-                "magecart",
-                "AndroMut",
-                "Cobalt Strike",
-                "CobInt",
-                "Crimson RAT",
-                "DNSpionage",
-                "Dridex",
-                "Dtrack",
-                "Emotet",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "FriedEx",
-                "Gandcrab",
-                "Get2",
-                "GlobeImposter",
-                "Grateful POS",
-                "ISFB",
-                "Kazuar",
-                "LockerGoga",
-                "Nokki",
-                "QakBot",
-                "Ramnit",
-                "REvil",
-                "Rifdoor",
-                "RokRAT",
-                "Ryuk",
-                "shadowhammer",
-                "ShadowPad",
-                "Shifu",
-                "Skipper",
-                "StoneDrill",
-                "Stuxnet",
-                "TrickBot",
-                "Winnti",
-                "ZeroCleare",
-                "APT41",
-                "MUSTANG PANDA",
-                "Sea Turtle"
-            ]
-        },
-        {
-            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
-            "date": "2020-02-19",
-            "organization": "Lexfo",
-            "author": "Lexfo",
-            "title": "The Lazarus Constellation A study on North Korean malware",
-            "categories": [
-                "FastCash",
-                "AppleJeus",
-                "BADCALL",
-                "Bankshot",
-                "Brambul",
-                "Dtrack",
-                "Duuzer",
-                "DYEPACK",
-                "ELECTRICFISH",
-                "HARDRAIN",
-                "Hermes",
-                "HOPLIGHT",
-                "Joanap",
-                "KEYMARBLE",
-                "Kimsuky",
-                "MimiKatz",
-                "MyDoom",
-                "NACHOCHEESE",
-                "NavRAT",
-                "PowerRatankba",
-                "RokRAT",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://kindredsec.wordpress.com/2019/08/12/an-overview-of-public-platform-c2s/",
-            "date": "2019-08-12",
-            "organization": "Kindred Security",
-            "author": "Kindred Security",
-            "title": "An Overview of Public Platform C2\u2019s",
-            "categories": [
-                "HTML5 Encoding",
-                "LOWBALL",
-                "Makadocs",
-                "MiniDuke",
-                "RogueRobinNET",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
-            "date": "2019-08-01",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q2 2019",
-            "categories": [
-                "ZooPark",
-                "magecart",
-                "POWERSTATS",
-                "Chaperone",
-                "COMpfun",
-                "EternalPetya",
-                "FinFisher RAT",
-                "HawkEye Keylogger",
-                "HOPLIGHT",
-                "Microcin",
-                "NjRAT",
-                "Olympic Destroyer",
-                "PLEAD",
-                "RokRAT",
-                "Triton",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/",
-            "date": "2019-05-13",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "ScarCruft continues to evolve, introduces Bluetooth harvester",
-            "categories": [
-                "Konni",
-                "RokRAT",
-                "UACMe",
-                "APT37"
-            ]
-        },
-        {
-            "data_url": "http://v3lo.tistory.com/24",
-            "date": "2018-11-16",
-            "organization": "",
-            "author": "Kim Yejun",
-            "title": "Return to ROKRAT!! (feat. FAAAA...Sad...)",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.intezer.com/apt37-final1stspy-reaping-the-freemilk/",
-            "date": "2018-10-03",
-            "organization": "Intezer",
-            "author": "Jay Rosenberg",
-            "title": "APT37: Final1stspy Reaping the FreeMilk",
-            "categories": [
-                "Final1stSpy",
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.carbonblack.com/2018/02/27/threat-analysis-rokrat-malware/",
-            "date": "2018-02-27",
-            "organization": "VMWare Carbon Black",
-            "author": "Jared Myers",
-            "title": "Threat Analysis: ROKRAT Malware",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt_APT37.pdf",
-            "date": "2018-02-20",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "APT37 (REAPER) The Overlooked North Korean Actor",
-            "categories": [
-                "PoorWeb",
-                "RokRAT",
-                "APT37"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
-            "date": "2018-01-16",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "Korea In The Crosshairs",
-            "categories": [
-                "Freenki Loader",
-                "RokRAT",
-                "APT37"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2018/01/korea-in-crosshairs.html",
-            "date": "2018-01-16",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "Korea In The Crosshairs",
-            "categories": [
-                "Freenki Loader",
-                "PoohMilk Loader",
-                "RokRAT",
-                "APT37"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/11/ROKRAT-Reloaded.html",
-            "date": "2017-11-28",
-            "organization": "Cisco",
-            "author": "Warren Mercer",
-            "title": "ROKRAT Reloaded",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/04/introducing-rokrat.html",
-            "date": "2017-04-03",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "Introducing ROKRAT",
-            "categories": [
-                "RokRAT"
-            ]
-        },
-        {
-            "data_url": "http://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/002/191/original/Talos_RokRatWhitePaper.pdf",
-            "date": "2017",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "Introducing ROKRAT",
-            "categories": [
-                "RokRAT"
             ]
         }
     ]

@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "winexe",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "winexe",
@@ -50,8 +53,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "winexe",
-    "analysis": null,
-    "articles": []
+    ]
 };

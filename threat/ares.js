@@ -58,7 +58,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-09-16 15:03:04",
-    "mitre": [],
     "file_name": "ares",
     "analysis": null,
     "articles": [
@@ -94,5 +93,6 @@ var threatdata = {
                 "Ares"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

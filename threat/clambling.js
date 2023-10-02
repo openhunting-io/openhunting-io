@@ -36,6 +36,41 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "clambling",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf",
+            "date": "2021-01-04",
+            "organization": "Profero",
+            "author": "Profero",
+            "title": "APT27 Turns to Ransomware",
+            "categories": [
+                "Clambling"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/chinas-apt-hackers-move-to-ransomware-attacks/",
+            "date": "2021-01-04",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "China's APT hackers move to ransomware attacks",
+            "categories": [
+                "Clambling",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
+            "date": "2020-02-18",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "Uncovering DRBControl",
+            "categories": [
+                "Clambling"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "clambling",
@@ -559,41 +594,6 @@ var threatdata = {
                     "technique_description": "adversaries may exfiltrate data to a cloud storage service rather than over their primary command and control channel. cloud storage services allow for the storage, edit, and retrieval of data from a remote cloud storage server over the internet.",
                     "procedure_description": "clambling can send files from a victim's machine to dropbox.[5][6]"
                 }
-            ]
-        }
-    ],
-    "file_name": "clambling",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf",
-            "date": "2021-01-04",
-            "organization": "Profero",
-            "author": "Profero",
-            "title": "APT27 Turns to Ransomware",
-            "categories": [
-                "Clambling"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/chinas-apt-hackers-move-to-ransomware-attacks/",
-            "date": "2021-01-04",
-            "organization": "Bleeping Computer",
-            "author": "Ionut Ilascu",
-            "title": "China's APT hackers move to ransomware attacks",
-            "categories": [
-                "Clambling",
-                "PlugX"
-            ]
-        },
-        {
-            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf",
-            "date": "2020-02-18",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "Uncovering DRBControl",
-            "categories": [
-                "Clambling"
             ]
         }
     ]

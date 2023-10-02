@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "pngload",
     "analysis": null,
     "articles": [
@@ -46,5 +45,6 @@ var threatdata = {
                 "Worok"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

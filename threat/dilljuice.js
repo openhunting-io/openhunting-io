@@ -35,6 +35,37 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "dilljuice",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
+            "date": "2021-04-27",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "APT trends report Q1 2021",
+            "categories": [
+                "PAS",
+                "Artra Downloader",
+                "BadNews",
+                "Bozok",
+                "DILLJUICE",
+                "Kazuar",
+                "Quasar RAT",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-menupass-quasarrat-backdoor.html",
+            "date": "2019-06-10",
+            "organization": "Cylance",
+            "author": "Cylance Threat Research Team",
+            "title": "Threat Spotlight: MenuPass/QuasarRAT Backdoor",
+            "categories": [
+                "DILLJUICE"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "fyanti",
@@ -90,37 +121,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "fyanti can download additional payloads to a compromised host.[159]"
                 }
-            ]
-        }
-    ],
-    "file_name": "dilljuice",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
-            "date": "2021-04-27",
-            "organization": "Kaspersky",
-            "author": "GReAT",
-            "title": "APT trends report Q1 2021",
-            "categories": [
-                "PAS",
-                "Artra Downloader",
-                "BadNews",
-                "Bozok",
-                "DILLJUICE",
-                "Kazuar",
-                "Quasar RAT",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-menupass-quasarrat-backdoor.html",
-            "date": "2019-06-10",
-            "organization": "Cylance",
-            "author": "Cylance Threat Research Team",
-            "title": "Threat Spotlight: MenuPass/QuasarRAT Backdoor",
-            "categories": [
-                "DILLJUICE"
             ]
         }
     ]

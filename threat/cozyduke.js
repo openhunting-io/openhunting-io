@@ -49,6 +49,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cozyduke",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "cozycar",
@@ -286,8 +289,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "cozyduke",
-    "analysis": null,
-    "articles": []
+    ]
 };

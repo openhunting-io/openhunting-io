@@ -27,6 +27,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "strongpity2",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "strongpity",
@@ -372,8 +375,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "strongpity2",
-    "analysis": null,
-    "articles": []
+    ]
 };

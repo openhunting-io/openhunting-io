@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "deadeye",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "deadeye",
@@ -217,8 +220,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "deadeye",
-    "analysis": null,
-    "articles": []
+    ]
 };

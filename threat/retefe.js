@@ -83,6 +83,154 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-01-21 19:00:41",
+    "file_name": "retefe",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://vulnerability.ch/2019/05/analysing-retefe-with-sysmon-and-splunk/",
+            "date": "2019-05-23",
+            "organization": "Vulnerability.ch Blog",
+            "author": "Corsin Camichel",
+            "title": "Analysing \"Retefe\" with Sysmon and Splunk",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/2019-return-retefe",
+            "date": "2019-05-02",
+            "organization": "Proofpoint",
+            "author": "Bryan Campbell",
+            "title": "2019: The Return of Retefe",
+            "categories": [
+                "Dok",
+                "Retefe",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://github.com/cocaman/retefe",
+            "date": "2019-03-09",
+            "organization": "Github (cocaman)",
+            "author": "Corsin Camichel",
+            "title": "retefe: Artefacts from various retefe campaigns",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "https://github.com/Tomasuh/retefe-unpacker",
+            "date": "2018-12-30",
+            "organization": "Github (Tomasuh)",
+            "author": "Tomasuh",
+            "title": "Retefe unpacker",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "https://www.govcert.admin.ch/blog/35/reversing-retefe",
+            "date": "2018-11-08",
+            "organization": "GovCERT.ch",
+            "author": "GovCERT.ch",
+            "title": "Reversing Retefe",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/eternalblue-exploit-used-in-retefe-banking-trojan-campaign/128103/",
+            "date": "2017-09-22",
+            "organization": "Threatpost",
+            "author": "Tom Spring",
+            "title": "EternalBlue Exploit Used in Retefe Banking Trojan Campaign",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "https://www.govcert.admin.ch/blog/33/the-retefe-saga",
+            "date": "2017-08-03",
+            "organization": "GovCERT.ch",
+            "author": "GovCERT.ch",
+            "title": "The Retefe Saga",
+            "categories": [
+                "Retefe",
+                "Dok",
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "http://blog.checkpoint.com/2017/04/27/osx-malware-catching-wants-read-https-traffic/",
+            "date": "2017-05-04",
+            "organization": "Check Point Software Technologies Ltd",
+            "author": "Ofer Caspi",
+            "title": "OSX Malware is Catching Up, and it wants to Read Your HTTPS Traffic",
+            "categories": [
+                "Dok"
+            ]
+        },
+        {
+            "data_url": "http://blog.angelalonso.es/2017/02/hunting-retefe-with-splunk-some24.html",
+            "date": "2017-02-24",
+            "organization": "Some stuff about security.. Blog",
+            "author": "Angel Alonso",
+            "title": "Hunting Retefe with Splunk - some interesting points",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "http://blog.angelalonso.es/2015/11/reversing-sms-c-protocol-of-emmental.html",
+            "date": "2015-11-03",
+            "organization": "",
+            "author": "Angel Alonso-Parrizas",
+            "title": "Reversing the SMS C&C protocol of Emmental (1st part - understanding the code)",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "http://blog.angelalonso.es/2015/10/reversing-c2c-http-emmental.html",
+            "date": "2015-10-28",
+            "organization": "",
+            "author": "Angel Alonso-Parrizas",
+            "title": "Reversing the C2C HTTP Emmental communication",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2015/08/retefe-banking-trojan-targets-sweden-switzerland-and-japan/",
+            "date": "2015-08-20",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brandon Levene",
+            "title": "Retefe Banking Trojan Targets Sweden, Switzerland and Japan",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "http://maldr0id.blogspot.ch/2014/09/android-malware-based-on-sms-encryption.html",
+            "date": "2014-09-23",
+            "organization": "maldr0id blog",
+            "author": "\u0141ukasz Siewierski",
+            "title": "Android malware based on SMS encryption and with KitKat support",
+            "categories": [
+                "Retefe"
+            ]
+        },
+        {
+            "data_url": "http://blog.dornea.nu/2014/07/07/disect-android-apks-like-a-pro-static-code-analysis/",
+            "date": "2014-07-07",
+            "organization": "",
+            "author": "Victor Dorneanu",
+            "title": "Disect Android APKs like a Pro - Static code analysis",
+            "categories": [
+                "Retefe"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "dok",
@@ -282,154 +430,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "dok exfiltrates logs of its execution stored in the /tmp folder over ftp using the curl command.[17]"
                 }
-            ]
-        }
-    ],
-    "file_name": "retefe",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://vulnerability.ch/2019/05/analysing-retefe-with-sysmon-and-splunk/",
-            "date": "2019-05-23",
-            "organization": "Vulnerability.ch Blog",
-            "author": "Corsin Camichel",
-            "title": "Analysing \"Retefe\" with Sysmon and Splunk",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/2019-return-retefe",
-            "date": "2019-05-02",
-            "organization": "Proofpoint",
-            "author": "Bryan Campbell",
-            "title": "2019: The Return of Retefe",
-            "categories": [
-                "Dok",
-                "Retefe",
-                "SmokeLoader"
-            ]
-        },
-        {
-            "data_url": "https://github.com/cocaman/retefe",
-            "date": "2019-03-09",
-            "organization": "Github (cocaman)",
-            "author": "Corsin Camichel",
-            "title": "retefe: Artefacts from various retefe campaigns",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "https://github.com/Tomasuh/retefe-unpacker",
-            "date": "2018-12-30",
-            "organization": "Github (Tomasuh)",
-            "author": "Tomasuh",
-            "title": "Retefe unpacker",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "https://www.govcert.admin.ch/blog/35/reversing-retefe",
-            "date": "2018-11-08",
-            "organization": "GovCERT.ch",
-            "author": "GovCERT.ch",
-            "title": "Reversing Retefe",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "https://threatpost.com/eternalblue-exploit-used-in-retefe-banking-trojan-campaign/128103/",
-            "date": "2017-09-22",
-            "organization": "Threatpost",
-            "author": "Tom Spring",
-            "title": "EternalBlue Exploit Used in Retefe Banking Trojan Campaign",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "https://www.govcert.admin.ch/blog/33/the-retefe-saga",
-            "date": "2017-08-03",
-            "organization": "GovCERT.ch",
-            "author": "GovCERT.ch",
-            "title": "The Retefe Saga",
-            "categories": [
-                "Retefe",
-                "Dok",
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "http://blog.checkpoint.com/2017/04/27/osx-malware-catching-wants-read-https-traffic/",
-            "date": "2017-05-04",
-            "organization": "Check Point Software Technologies Ltd",
-            "author": "Ofer Caspi",
-            "title": "OSX Malware is Catching Up, and it wants to Read Your HTTPS Traffic",
-            "categories": [
-                "Dok"
-            ]
-        },
-        {
-            "data_url": "http://blog.angelalonso.es/2017/02/hunting-retefe-with-splunk-some24.html",
-            "date": "2017-02-24",
-            "organization": "Some stuff about security.. Blog",
-            "author": "Angel Alonso",
-            "title": "Hunting Retefe with Splunk - some interesting points",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "http://blog.angelalonso.es/2015/11/reversing-sms-c-protocol-of-emmental.html",
-            "date": "2015-11-03",
-            "organization": "",
-            "author": "Angel Alonso-Parrizas",
-            "title": "Reversing the SMS C&C protocol of Emmental (1st part - understanding the code)",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "http://blog.angelalonso.es/2015/10/reversing-c2c-http-emmental.html",
-            "date": "2015-10-28",
-            "organization": "",
-            "author": "Angel Alonso-Parrizas",
-            "title": "Reversing the C2C HTTP Emmental communication",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2015/08/retefe-banking-trojan-targets-sweden-switzerland-and-japan/",
-            "date": "2015-08-20",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Brandon Levene",
-            "title": "Retefe Banking Trojan Targets Sweden, Switzerland and Japan",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "http://maldr0id.blogspot.ch/2014/09/android-malware-based-on-sms-encryption.html",
-            "date": "2014-09-23",
-            "organization": "maldr0id blog",
-            "author": "\u0141ukasz Siewierski",
-            "title": "Android malware based on SMS encryption and with KitKat support",
-            "categories": [
-                "Retefe"
-            ]
-        },
-        {
-            "data_url": "http://blog.dornea.nu/2014/07/07/disect-android-apks-like-a-pro-static-code-analysis/",
-            "date": "2014-07-07",
-            "organization": "",
-            "author": "Victor Dorneanu",
-            "title": "Disect Android APKs like a Pro - Static code analysis",
-            "categories": [
-                "Retefe"
             ]
         }
     ]

@@ -42,12 +42,12 @@ var threatdata = {
             "malware": "apk.sova",
             "last_update": "2023-03-24 09:04:51",
             "tags": [
-                "Android",
-                "Botnet",
-                "Banking",
-                "C2panel",
                 "Nexus",
-                "SOVA"
+                "SOVA",
+                "Android",
+                "Banking",
+                "Botnet",
+                "C2panel"
             ],
             "ioc": {
                 "ip:port": [
@@ -264,7 +264,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-03-24 09:04:51",
-    "mitre": [],
     "file_name": "s.o.v.a.",
     "analysis": null,
     "articles": [
@@ -329,5 +328,6 @@ var threatdata = {
                 "S.O.V.A."
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

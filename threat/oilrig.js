@@ -25,6 +25,443 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "oilrig",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/evasive-serpens/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Evasive Serpens",
+            "categories": [
+                "TwoFace",
+                "ISMAgent",
+                "ISMDoor",
+                "OopsIE",
+                "RDAT",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/oilrig-apt-unique-backdoor/157646/",
+            "date": "2020-07-22",
+            "organization": "Threatpost",
+            "author": "Tara Seals",
+            "title": "OilRig APT Drills into Malware Innovation with Unique Backdoor",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/",
+            "date": "2020-07-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "OilRig Targets Middle Eastern Telecommunications Organization and Adds Novel C2 Channel with Steganography to Its Inventory",
+            "categories": [
+                "RDAT",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-gypsy",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT GYPSY",
+            "categories": [
+                "TwoFace",
+                "MacDownloader",
+                "BONDUPDATER",
+                "pupy",
+                "Helminth",
+                "jason",
+                "RGDoor",
+                "TinyZbot",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/apt-34",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "APT 34",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0049/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: OilRig",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/oilrig",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "OilRig",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/shamoon-attackers-employ-new-tool-kit-to-wipe-infected-systems/",
+            "date": "2018-12-19",
+            "organization": "",
+            "author": "Thomas Roccia",
+            "title": "Shamoon Attackers Employ New Tool Kit to Wipe Infected Systems",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/MJDutch/status/1074820959784321026?s=19",
+            "date": "2018-12-17",
+            "organization": "Twitter (@MJDutch)",
+            "author": "Justin",
+            "title": "Tweet on APT39",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/shamoon-destructive-threat-re-emerges-new-sting-its-tail",
+            "date": "2018-12-14",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Shamoon: Destructive Threat Re-Emerges with New Sting in its Tail",
+            "categories": [
+                "DistTrack",
+                "Filerase",
+                "StoneDrill",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/shamoon-destructive-threat-re-emerges-new-sting-its-tail",
+            "date": "2018-12-14",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Shamoon: Destructive Threat Re-Emerges with New Sting in its Tail",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-november-helix-kitten/",
+            "date": "2018-11-27",
+            "organization": "CrowdStrike",
+            "author": "Adam Meyers",
+            "title": "Meet CrowdStrike\u2019s Adversary of the Month for November: HELIX KITTEN",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-analyzing-oilrigs-ops-tempo-testing-weaponization-delivery/",
+            "date": "2018-11-16",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Analyzing OilRig\u2019s Ops Tempo from Testing to Weaponization to Delivery",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-uses-updated-bondupdater-target-middle-eastern-government/",
+            "date": "2018-09-12",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kyle Wilhoit",
+            "title": "OilRig Uses Updated BONDUPDATER to Target Middle Eastern Government",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://raw.githubusercontent.com/pan-unit42/playbook_viewer/master/playbook_json/oilrig.json",
+            "date": "2018-08-03",
+            "organization": "Github (Unit42)",
+            "author": "Unit42",
+            "title": "OilRig Playbook",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/",
+            "date": "2018-07-25",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "OilRig Targets Technology Service Provider and Government Agency with QUADAGENT",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.vkremez.com/2018/03/investigating-iranian-threat-group.html",
+            "date": "2018-03-25",
+            "organization": "Vitali Kremez Blog",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: Internals of Iranian-Based Threat Group \"Chafer\" Malware: Autoit and PowerShell Persistence",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/",
+            "date": "2018-02-23",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "OopsIE! OilRig Uses ThreeDollars to Deliver New Trojan",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east/",
+            "date": "2018-01-25",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "OilRig uses RGDoor IIS Backdoor on Targets in the Middle East",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf",
+            "date": "2018",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "M-TRENDS2018",
+            "categories": [
+                "APT35",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-introducing-the-adversary-playbook-first-up-oilrig/",
+            "date": "2017-12-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Ryan Olson",
+            "title": "Introducing the Adversary Playbook: First up, OilRig",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
+            "date": "2017-12-07",
+            "organization": "FireEye",
+            "author": "Vincent Cannon",
+            "title": "New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/",
+            "date": "2017-10-09",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "OilRig Group Steps Up Attacks with New Delivery Documents and New Injector Trojan",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-striking-oil-closer-look-adversary-infrastructure/",
+            "date": "2017-09-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Striking Oil: A Closer Look at Adversary Infrastructure",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-twoface-webshell-persistent-access-point-lateral-movement/",
+            "date": "2017-07-31",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "TwoFace Webshell: Persistent Access Point for Lateral Movement",
+            "categories": [
+                "TwoFace",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.wired.com/story/apt-34-iranian-hackers-critical-infrastructure-companies/",
+            "date": "2017-07-12",
+            "organization": "Wired",
+            "author": "Lily Hay Newman",
+            "title": "Iranian Hackers Have Been Infiltrating Critical Infrastructure Companies",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/iranian-fileless-cyberattack-on-israel-word-vulnerability",
+            "date": "2017-04-27",
+            "organization": "Morphisec",
+            "author": "Michael Gorelik",
+            "title": "Iranian Fileless Attack Infiltrates Israeli Organizations",
+            "categories": [
+                "Helminth",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "http://blog.morphisec.com/iranian-fileless-cyberattack-on-israel-word-vulnerability",
+            "date": "2017-04-27",
+            "organization": "Morphisec",
+            "author": "Michael Gorelik",
+            "title": "Iranian Fileless Attack Infiltrates Israeli Organizations",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-actors-provide-glimpse-development-testing-efforts/",
+            "date": "2017-04-27",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "OilRig Actors Provide a Glimpse into Development and Testing Efforts",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.gov.il/BlobFolder/reports/attack_il/he/CERT-IL-ALERT-W-120.pdf",
+            "date": "2017-04-24",
+            "organization": "CERT-IL",
+            "author": "CERT-IL",
+            "title": "Wave attacks against government agencies, academia and business entities in Israel",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.forbes.com/sites/thomasbrewster/2017/02/15/oilrig-iran-hackers-cyberespionage-us-turkey-saudi-arabia/#56749aa2468a",
+            "date": "2017-02-15",
+            "organization": "Forbes",
+            "author": "Thomas Brewster",
+            "title": "Inside OilRig -- Tracking Iran's Busiest Hacker Crew On Its Global Rampage",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/oilrig/",
+            "date": "2017-01-05",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Iranian Threat Agent OilRig Delivers Digitally Signed Malware, Impersonates University of Oxford",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "http://www.clearskysec.com/oilrig/",
+            "date": "2017-01-05",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Iranian Threat Agent OilRig Delivers Digitally Signed Malware, Impersonates University of Oxford",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/shamoon-back-dead-and-destructive-ever",
+            "date": "2016-11-30",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Shamoon: Back from the dead and destructive as ever",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ad6f8259-2bb4-4f7f-b8e1-710b35a4cbed&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2016-11-30",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Shamoon: Back from the dead and destructive as ever",
+            "categories": [
+                "DistTrack",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/",
+            "date": "2016-10-04",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Josh Grunzweig",
+            "title": "OilRig Malware Campaign Updates Toolset and Expands Targets",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
+            "date": "2016-05-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2016/05/targeted_attacksaga.html",
+            "date": "2016-05-22",
+            "organization": "FireEye",
+            "author": "Sudeep Singh",
+            "title": "Targeted Attacks against Banks in the Middle East",
+            "categories": [
+                "Helminth",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://pan-unit42.github.io/playbook_viewer/",
+            "date": "2016",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "paloalto Networks: Unit42",
+            "title": "Unit 42 Playbook Viewer",
+            "categories": [
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20120818235442/https://www.symantec.com/connect/blogs/shamoon-attacks",
+            "date": "2012-08-16",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "The Shamoon Attacks",
+            "categories": [
+                "DistTrack",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/shamoon-attacks",
+            "date": "2012-08-16",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "The Shamoon Attacks",
+            "categories": [
+                "OilRig"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "oilrig",
@@ -800,443 +1237,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "oilrig has exfiltrated data over ftp separately from its primary c2 channel over dns.[26]"
                 }
-            ]
-        }
-    ],
-    "file_name": "oilrig",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/evasive-serpens/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Evasive Serpens",
-            "categories": [
-                "TwoFace",
-                "ISMAgent",
-                "ISMDoor",
-                "OopsIE",
-                "RDAT",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://threatpost.com/oilrig-apt-unique-backdoor/157646/",
-            "date": "2020-07-22",
-            "organization": "Threatpost",
-            "author": "Tara Seals",
-            "title": "OilRig APT Drills into Malware Innovation with Unique Backdoor",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/",
-            "date": "2020-07-22",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "OilRig Targets Middle Eastern Telecommunications Organization and Adds Novel C2 Channel with Steganography to Its Inventory",
-            "categories": [
-                "RDAT",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-gypsy",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT GYPSY",
-            "categories": [
-                "TwoFace",
-                "MacDownloader",
-                "BONDUPDATER",
-                "pupy",
-                "Helminth",
-                "jason",
-                "RGDoor",
-                "TinyZbot",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.cfr.org/interactive/cyber-operations/apt-34",
-            "date": "2019",
-            "organization": "Council on Foreign Relations",
-            "author": "Cyber Operations Tracker",
-            "title": "APT 34",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0049/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: OilRig",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.cfr.org/interactive/cyber-operations/oilrig",
-            "date": "2019",
-            "organization": "Council on Foreign Relations",
-            "author": "Cyber Operations Tracker",
-            "title": "OilRig",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/shamoon-attackers-employ-new-tool-kit-to-wipe-infected-systems/",
-            "date": "2018-12-19",
-            "organization": "",
-            "author": "Thomas Roccia",
-            "title": "Shamoon Attackers Employ New Tool Kit to Wipe Infected Systems",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/MJDutch/status/1074820959784321026?s=19",
-            "date": "2018-12-17",
-            "organization": "Twitter (@MJDutch)",
-            "author": "Justin",
-            "title": "Tweet on APT39",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/shamoon-destructive-threat-re-emerges-new-sting-its-tail",
-            "date": "2018-12-14",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "Shamoon: Destructive Threat Re-Emerges with New Sting in its Tail",
-            "categories": [
-                "DistTrack",
-                "Filerase",
-                "StoneDrill",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/blogs/threat-intelligence/shamoon-destructive-threat-re-emerges-new-sting-its-tail",
-            "date": "2018-12-14",
-            "organization": "Symantec",
-            "author": "Security Response Attack Investigation Team",
-            "title": "Shamoon: Destructive Threat Re-Emerges with New Sting in its Tail",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-november-helix-kitten/",
-            "date": "2018-11-27",
-            "organization": "CrowdStrike",
-            "author": "Adam Meyers",
-            "title": "Meet CrowdStrike\u2019s Adversary of the Month for November: HELIX KITTEN",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-analyzing-oilrigs-ops-tempo-testing-weaponization-delivery/",
-            "date": "2018-11-16",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Analyzing OilRig\u2019s Ops Tempo from Testing to Weaponization to Delivery",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-uses-updated-bondupdater-target-middle-eastern-government/",
-            "date": "2018-09-12",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Kyle Wilhoit",
-            "title": "OilRig Uses Updated BONDUPDATER to Target Middle Eastern Government",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://raw.githubusercontent.com/pan-unit42/playbook_viewer/master/playbook_json/oilrig.json",
-            "date": "2018-08-03",
-            "organization": "Github (Unit42)",
-            "author": "Unit42",
-            "title": "OilRig Playbook",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/",
-            "date": "2018-07-25",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Bryan Lee",
-            "title": "OilRig Targets Technology Service Provider and Government Agency with QUADAGENT",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.vkremez.com/2018/03/investigating-iranian-threat-group.html",
-            "date": "2018-03-25",
-            "organization": "Vitali Kremez Blog",
-            "author": "Vitali Kremez",
-            "title": "Let's Learn: Internals of Iranian-Based Threat Group \"Chafer\" Malware: Autoit and PowerShell Persistence",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/",
-            "date": "2018-02-23",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Bryan Lee",
-            "title": "OopsIE! OilRig Uses ThreeDollars to Deliver New Trojan",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east/",
-            "date": "2018-01-25",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "OilRig uses RGDoor IIS Backdoor on Targets in the Middle East",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/content/dam/collateral/en/mtrends-2018.pdf",
-            "date": "2018",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "M-TRENDS2018",
-            "categories": [
-                "APT35",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-introducing-the-adversary-playbook-first-up-oilrig/",
-            "date": "2017-12-15",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Ryan Olson",
-            "title": "Introducing the Adversary Playbook: First up, OilRig",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html",
-            "date": "2017-12-07",
-            "organization": "FireEye",
-            "author": "Vincent Cannon",
-            "title": "New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/",
-            "date": "2017-10-09",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "OilRig Group Steps Up Attacks with New Delivery Documents and New Injector Trojan",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-striking-oil-closer-look-adversary-infrastructure/",
-            "date": "2017-09-26",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Striking Oil: A Closer Look at Adversary Infrastructure",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-twoface-webshell-persistent-access-point-lateral-movement/",
-            "date": "2017-07-31",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "TwoFace Webshell: Persistent Access Point for Lateral Movement",
-            "categories": [
-                "TwoFace",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.wired.com/story/apt-34-iranian-hackers-critical-infrastructure-companies/",
-            "date": "2017-07-12",
-            "organization": "Wired",
-            "author": "Lily Hay Newman",
-            "title": "Iranian Hackers Have Been Infiltrating Critical Infrastructure Companies",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://blog.morphisec.com/iranian-fileless-cyberattack-on-israel-word-vulnerability",
-            "date": "2017-04-27",
-            "organization": "Morphisec",
-            "author": "Michael Gorelik",
-            "title": "Iranian Fileless Attack Infiltrates Israeli Organizations",
-            "categories": [
-                "Helminth",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "http://blog.morphisec.com/iranian-fileless-cyberattack-on-israel-word-vulnerability",
-            "date": "2017-04-27",
-            "organization": "Morphisec",
-            "author": "Michael Gorelik",
-            "title": "Iranian Fileless Attack Infiltrates Israeli Organizations",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-actors-provide-glimpse-development-testing-efforts/",
-            "date": "2017-04-27",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "OilRig Actors Provide a Glimpse into Development and Testing Efforts",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.gov.il/BlobFolder/reports/attack_il/he/CERT-IL-ALERT-W-120.pdf",
-            "date": "2017-04-24",
-            "organization": "CERT-IL",
-            "author": "CERT-IL",
-            "title": "Wave attacks against government agencies, academia and business entities in Israel",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.forbes.com/sites/thomasbrewster/2017/02/15/oilrig-iran-hackers-cyberespionage-us-turkey-saudi-arabia/#56749aa2468a",
-            "date": "2017-02-15",
-            "organization": "Forbes",
-            "author": "Thomas Brewster",
-            "title": "Inside OilRig -- Tracking Iran's Busiest Hacker Crew On Its Global Rampage",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/oilrig/",
-            "date": "2017-01-05",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "Iranian Threat Agent OilRig Delivers Digitally Signed Malware, Impersonates University of Oxford",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "http://www.clearskysec.com/oilrig/",
-            "date": "2017-01-05",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "Iranian Threat Agent OilRig Delivers Digitally Signed Malware, Impersonates University of Oxford",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/shamoon-back-dead-and-destructive-ever",
-            "date": "2016-11-30",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Shamoon: Back from the dead and destructive as ever",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ad6f8259-2bb4-4f7f-b8e1-710b35a4cbed&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
-            "date": "2016-11-30",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Shamoon: Back from the dead and destructive as ever",
-            "categories": [
-                "DistTrack",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/",
-            "date": "2016-10-04",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Josh Grunzweig",
-            "title": "OilRig Malware Campaign Updates Toolset and Expands Targets",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/",
-            "date": "2016-05-26",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2016/05/targeted_attacksaga.html",
-            "date": "2016-05-22",
-            "organization": "FireEye",
-            "author": "Sudeep Singh",
-            "title": "Targeted Attacks against Banks in the Middle East",
-            "categories": [
-                "Helminth",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://pan-unit42.github.io/playbook_viewer/",
-            "date": "2016",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "paloalto Networks: Unit42",
-            "title": "Unit 42 Playbook Viewer",
-            "categories": [
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20120818235442/https://www.symantec.com/connect/blogs/shamoon-attacks",
-            "date": "2012-08-16",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "The Shamoon Attacks",
-            "categories": [
-                "DistTrack",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/shamoon-attacks",
-            "date": "2012-08-16",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "The Shamoon Attacks",
-            "categories": [
-                "OilRig"
             ]
         }
     ]

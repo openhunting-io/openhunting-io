@@ -47,6 +47,83 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "chches",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE RIVERSIDE",
+            "categories": [
+                "Anel",
+                "ChChes",
+                "Cobalt Strike",
+                "PlugX",
+                "Poison Ivy",
+                "Quasar RAT",
+                "RedLeaves",
+                "APT10"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+            "date": "2017-04",
+            "organization": "PricewaterhouseCoopers",
+            "author": "PricewaterhouseCoopers",
+            "title": "Operation Cloud Hopper: Technical Annex",
+            "categories": [
+                "ChChes",
+                "PlugX",
+                "Quasar RAT",
+                "RedLeaves",
+                "Trochilus RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.cylance.com/en_us/blog/the-deception-project-a-new-japanese-centric-threat.html",
+            "date": "2017-02-27",
+            "organization": "Threat Vector",
+            "author": "Jon Gross",
+            "title": "The Deception Project: A New Japanese-Centric Threat",
+            "categories": [
+                "ChChes",
+                "Snake Wine"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
+            "date": "2017-02-16",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jen Miller-Osborn",
+            "title": "menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations",
+            "categories": [
+                "ChChes"
+            ]
+        },
+        {
+            "data_url": "https://www.jpcert.or.jp/magazine/acreport-ChChes_ps1.html",
+            "date": "2017-02-10",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "PowerSploit",
+            "categories": [
+                "ChChes"
+            ]
+        },
+        {
+            "data_url": "https://www.jpcert.or.jp/magazine/acreport-ChChes.html",
+            "date": "2017-01-26",
+            "organization": "JPCERT/CC",
+            "author": "Yu Nakamura",
+            "title": "Malware ChChes interacts with C & C server using Cookie header",
+            "categories": [
+                "ChChes",
+                "Snake Wine"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "chches",
@@ -210,83 +287,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "chches is capable of downloading files, including additional modules.[103][104][105]"
                 }
-            ]
-        }
-    ],
-    "file_name": "chches",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE RIVERSIDE",
-            "categories": [
-                "Anel",
-                "ChChes",
-                "Cobalt Strike",
-                "PlugX",
-                "Poison Ivy",
-                "Quasar RAT",
-                "RedLeaves",
-                "APT10"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-            "date": "2017-04",
-            "organization": "PricewaterhouseCoopers",
-            "author": "PricewaterhouseCoopers",
-            "title": "Operation Cloud Hopper: Technical Annex",
-            "categories": [
-                "ChChes",
-                "PlugX",
-                "Quasar RAT",
-                "RedLeaves",
-                "Trochilus RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.cylance.com/en_us/blog/the-deception-project-a-new-japanese-centric-threat.html",
-            "date": "2017-02-27",
-            "organization": "Threat Vector",
-            "author": "Jon Gross",
-            "title": "The Deception Project: A New Japanese-Centric Threat",
-            "categories": [
-                "ChChes",
-                "Snake Wine"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/",
-            "date": "2017-02-16",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Jen Miller-Osborn",
-            "title": "menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations",
-            "categories": [
-                "ChChes"
-            ]
-        },
-        {
-            "data_url": "https://www.jpcert.or.jp/magazine/acreport-ChChes_ps1.html",
-            "date": "2017-02-10",
-            "organization": "JPCERT/CC",
-            "author": "Shusei Tomonaga",
-            "title": "PowerSploit",
-            "categories": [
-                "ChChes"
-            ]
-        },
-        {
-            "data_url": "https://www.jpcert.or.jp/magazine/acreport-ChChes.html",
-            "date": "2017-01-26",
-            "organization": "JPCERT/CC",
-            "author": "Yu Nakamura",
-            "title": "Malware ChChes interacts with C & C server using Cookie header",
-            "categories": [
-                "ChChes",
-                "Snake Wine"
             ]
         }
     ]

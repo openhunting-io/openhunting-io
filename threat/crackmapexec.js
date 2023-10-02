@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "crackmapexec",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "crackmapexec",
@@ -313,8 +316,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "crackmapexec",
-    "analysis": null,
-    "articles": []
+    ]
 };

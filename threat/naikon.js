@@ -35,6 +35,230 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "naikon",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/insights/apt-groups",
+            "date": "2022-08-04",
+            "organization": "Mandiant",
+            "author": "Mandiant",
+            "title": "Advanced Persistent Threats (APTs)",
+            "categories": [
+                "APT1",
+                "APT10",
+                "APT12",
+                "APT14",
+                "APT15",
+                "APT16",
+                "APT17",
+                "APT18",
+                "APT19",
+                "APT2",
+                "APT20",
+                "APT21",
+                "APT22",
+                "APT23",
+                "APT24",
+                "APT27",
+                "APT3",
+                "APT30",
+                "APT31",
+                "APT4",
+                "APT40",
+                "APT5",
+                "APT9",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://cyware.com/news/chinese-naikon-group-back-with-new-espionage-attack-66a8413d",
+            "date": "2022-05-04",
+            "organization": "Cyware",
+            "author": "Cyware",
+            "title": "Chinese Naikon Group Back with New Espionage Attack",
+            "categories": [
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://cluster25.io/2022/04/29/lotus-panda-awake-last-strike/",
+            "date": "2022-04-29",
+            "organization": "Cluster25",
+            "author": "Cluster25",
+            "title": "The LOTUS PANDA Is Awake, Again. Analysis Of Its Last Strike.",
+            "categories": [
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-geneva",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE GENEVA",
+            "categories": [
+                "backspace",
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+            "date": "2019-11-19",
+            "organization": "FireEye",
+            "author": "Nalani Fraser",
+            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
+            "categories": [
+                "APT1",
+                "APT10",
+                "APT2",
+                "APT26",
+                "APT3",
+                "APT30",
+                "APT41",
+                "Naikon",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0019/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: Naikon",
+            "categories": [
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://usa.kaspersky.com/resource-center/threats/naikon-targeted-attacks",
+            "date": "2017-08-24",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky",
+            "title": "Naikon Targeted Attacks",
+            "categories": [
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
+            "date": "2015-05-29",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "THE MsnMM CAMPAIGNS: The Earliest Naikon APT Campaigns",
+            "categories": [
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/analysis/publications/69953/the-naikon-apt/",
+            "date": "2015-05-14",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "The Naikon APT",
+            "categories": [
+                "Naikon",
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus",
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
+            "date": "2015-04",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION",
+            "categories": [
+                "BACKBEND",
+                "backspace",
+                "CREAMSICLE",
+                "FLASHFLOOD",
+                "GEMCUTTER",
+                "MILKMAID",
+                "Naikon",
+                "NETEAGLE",
+                "ORANGEADE",
+                "SHIPSHAPE",
+                "SPACESHIP",
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus",
+                "APT30"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
+            "date": "2015-02-06",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "CrowdStrike Global Threat Intel Report 2014",
+            "categories": [
+                "BlackPOS",
+                "CryptoLocker",
+                "Derusbi",
+                "Elise",
+                "Enfal",
+                "EvilGrab",
+                "Gameover P2P",
+                "HttpBrowser",
+                "Medusa",
+                "Mirage",
+                "Naikon",
+                "NetTraveler",
+                "pirpi",
+                "PlugX",
+                "Poison Ivy",
+                "Sakula RAT",
+                "Sinowal",
+                "sykipot",
+                "taidoor"
+            ]
+        },
+        {
+            "data_url": "https://threatconnect.com/blog/tag/naikon/",
+            "date": "2015",
+            "organization": "ThreatConnect",
+            "author": "ThreatConnect",
+            "title": "Naikon Tag in ThreatConnect Blogs",
+            "categories": [
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2014/03/spear-phishing-the-news-cycle-apt-actors-leverage-interest-in-the-disappearance-of-malaysian-flight-mh-370.html",
+            "date": "2014-03-25",
+            "organization": "FireEye",
+            "author": "Alex Lanstein",
+            "title": "Spear Phishing the News Cycle: APT Actors Leverage Interest in the Disappearance of Malaysian Flight MH 370",
+            "categories": [
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20210925164035/https://blog.trendmicro.com/trendlabs-security-intelligence/bkdr_rarstone-new-rat-to-watch-out-for/",
+            "date": "2013-02-27",
+            "organization": "Trend Micro",
+            "author": "Abraham Camba",
+            "title": "BKDR_RARSTONE: New RAT to Watch Out For",
+            "categories": [
+                "PlugX",
+                "Naikon"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "naikon",
@@ -306,230 +530,6 @@ var threatdata = {
                     "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
                     "procedure_description": "naikon uses commands such as netsh interface show to discover network interface settings.[151]"
                 }
-            ]
-        }
-    ],
-    "file_name": "naikon",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.mandiant.com/resources/insights/apt-groups",
-            "date": "2022-08-04",
-            "organization": "Mandiant",
-            "author": "Mandiant",
-            "title": "Advanced Persistent Threats (APTs)",
-            "categories": [
-                "APT1",
-                "APT10",
-                "APT12",
-                "APT14",
-                "APT15",
-                "APT16",
-                "APT17",
-                "APT18",
-                "APT19",
-                "APT2",
-                "APT20",
-                "APT21",
-                "APT22",
-                "APT23",
-                "APT24",
-                "APT27",
-                "APT3",
-                "APT30",
-                "APT31",
-                "APT4",
-                "APT40",
-                "APT5",
-                "APT9",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://cyware.com/news/chinese-naikon-group-back-with-new-espionage-attack-66a8413d",
-            "date": "2022-05-04",
-            "organization": "Cyware",
-            "author": "Cyware",
-            "title": "Chinese Naikon Group Back with New Espionage Attack",
-            "categories": [
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://cluster25.io/2022/04/29/lotus-panda-awake-last-strike/",
-            "date": "2022-04-29",
-            "organization": "Cluster25",
-            "author": "Cluster25",
-            "title": "The LOTUS PANDA Is Awake, Again. Analysis Of Its Last Strike.",
-            "categories": [
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-geneva",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE GENEVA",
-            "categories": [
-                "backspace",
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
-            "date": "2019-11-19",
-            "organization": "FireEye",
-            "author": "Nalani Fraser",
-            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
-            "categories": [
-                "APT1",
-                "APT10",
-                "APT2",
-                "APT26",
-                "APT3",
-                "APT30",
-                "APT41",
-                "Naikon",
-                "Tonto Team"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0019/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: Naikon",
-            "categories": [
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://usa.kaspersky.com/resource-center/threats/naikon-targeted-attacks",
-            "date": "2017-08-24",
-            "organization": "Kaspersky Labs",
-            "author": "Kaspersky",
-            "title": "Naikon Targeted Attacks",
-            "categories": [
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07205555/TheNaikonAPT-MsnMM1.pdf",
-            "date": "2015-05-29",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "THE MsnMM CAMPAIGNS: The Earliest Naikon APT Campaigns",
-            "categories": [
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/analysis/publications/69953/the-naikon-apt/",
-            "date": "2015-05-14",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "The Naikon APT",
-            "categories": [
-                "Naikon",
-                "SslMM",
-                "Sys10",
-                "WinMM",
-                "xsPlus",
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-            "date": "2015-04",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION",
-            "categories": [
-                "BACKBEND",
-                "backspace",
-                "CREAMSICLE",
-                "FLASHFLOOD",
-                "GEMCUTTER",
-                "MILKMAID",
-                "Naikon",
-                "NETEAGLE",
-                "ORANGEADE",
-                "SHIPSHAPE",
-                "SPACESHIP",
-                "SslMM",
-                "Sys10",
-                "WinMM",
-                "xsPlus",
-                "APT30"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
-            "date": "2015-02-06",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "CrowdStrike Global Threat Intel Report 2014",
-            "categories": [
-                "BlackPOS",
-                "CryptoLocker",
-                "Derusbi",
-                "Elise",
-                "Enfal",
-                "EvilGrab",
-                "Gameover P2P",
-                "HttpBrowser",
-                "Medusa",
-                "Mirage",
-                "Naikon",
-                "NetTraveler",
-                "pirpi",
-                "PlugX",
-                "Poison Ivy",
-                "Sakula RAT",
-                "Sinowal",
-                "sykipot",
-                "taidoor"
-            ]
-        },
-        {
-            "data_url": "https://threatconnect.com/blog/tag/naikon/",
-            "date": "2015",
-            "organization": "ThreatConnect",
-            "author": "ThreatConnect",
-            "title": "Naikon Tag in ThreatConnect Blogs",
-            "categories": [
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2014/03/spear-phishing-the-news-cycle-apt-actors-leverage-interest-in-the-disappearance-of-malaysian-flight-mh-370.html",
-            "date": "2014-03-25",
-            "organization": "FireEye",
-            "author": "Alex Lanstein",
-            "title": "Spear Phishing the News Cycle: APT Actors Leverage Interest in the Disappearance of Malaysian Flight MH 370",
-            "categories": [
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20210925164035/https://blog.trendmicro.com/trendlabs-security-intelligence/bkdr_rarstone-new-rat-to-watch-out-for/",
-            "date": "2013-02-27",
-            "organization": "Trend Micro",
-            "author": "Abraham Camba",
-            "title": "BKDR_RARSTONE: New RAT to Watch Out For",
-            "categories": [
-                "PlugX",
-                "Naikon"
             ]
         }
     ]

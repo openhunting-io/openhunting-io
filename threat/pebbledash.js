@@ -30,7 +30,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "pebbledash",
     "analysis": null,
     "articles": [
@@ -113,5 +112,6 @@ var threatdata = {
                 "PEBBLEDASH"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

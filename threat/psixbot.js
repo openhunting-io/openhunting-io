@@ -40,7 +40,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "psixbot",
     "analysis": null,
     "articles": [
@@ -136,5 +135,6 @@ var threatdata = {
                 "PsiX"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

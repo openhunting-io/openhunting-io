@@ -35,6 +35,30 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sharpknot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536.11.WHITE.pdf",
+            "date": "2018-03-09",
+            "organization": "NCCIC",
+            "author": "NCCIC",
+            "title": "Malware Analysis Report Sharpknot",
+            "categories": [
+                "SHARPKNOT"
+            ]
+        },
+        {
+            "data_url": "https://eromang.zataz.com/tag/agentbase-exe/",
+            "date": "2013-04-02",
+            "organization": "",
+            "author": "Eric Romang",
+            "title": "Dark South Korea Total War Review",
+            "categories": [
+                "SHARPKNOT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "arp",
@@ -66,30 +90,6 @@ var threatdata = {
                     "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
                     "procedure_description": "arp can be used to display arp configuration information on the host.[22]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sharpknot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.us-cert.gov/sites/default/files/publications/MAR-10135536.11.WHITE.pdf",
-            "date": "2018-03-09",
-            "organization": "NCCIC",
-            "author": "NCCIC",
-            "title": "Malware Analysis Report Sharpknot",
-            "categories": [
-                "SHARPKNOT"
-            ]
-        },
-        {
-            "data_url": "https://eromang.zataz.com/tag/agentbase-exe/",
-            "date": "2013-04-02",
-            "organization": "",
-            "author": "Eric Romang",
-            "title": "Dark South Korea Total War Review",
-            "categories": [
-                "SHARPKNOT"
             ]
         }
     ]

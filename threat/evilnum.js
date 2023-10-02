@@ -1,45 +1,92 @@
 var threatdata = {
     "name": "Evilnum",
-    "alias": "Evilnum, EVILNUM, Marvel",
-    "category": "Malware",
-    "type": "Loader, Backdoor",
+    "alias": "Evilnum, Jointworm, TA4563",
+    "category": "APT",
+    "type": "-",
     "modified": "2022-12-30",
     "all_data": {
-        "tool": "Evilnum",
+        "actor": "Evilnum",
         "names": [
             {
-                "name": "Evilnum"
+                "name": "Evilnum",
+                "name-giver": "Palo Alto"
             },
             {
-                "name": "EVILNUM"
+                "name": "Jointworm",
+                "name-giver": "Symantec"
             },
             {
-                "name": "Marvel"
+                "name": "TA4563",
+                "name-giver": "Proofpoint"
             }
         ],
-        "description": "(ESET) This component communicates with a C&C server and acts as a backdoor without the need for any additional program. However, in most attacks that we have seen, the attackers deployed additional components as they saw fit and used the JS malware only as a first stage.\n\nThe first known mention of this JavaScript malware was in May 2018 in this pwncode article.",
-        "category": "Malware",
-        "type": [
-            "Loader",
-            "Backdoor"
+        "country": [
+            "[Unknown]"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2018",
+        "description": "(Palo Alto) We witnessed attacks targeting the financial technology (FinTech) sector, primarily focused on organizations based in Israel. While researching these attacks, we discovered a possible relationship between Cardinal RAT and another malware family named EVILNUM. EVILNUM is a JavaScript-based malware family that is used in attacks against similar organizations.\n\nThere is overlap between this group and {{Deceptikons, DeathStalker}}.",
+        "observed-sectors": [
+            "Financial",
+            "Government"
+        ],
+        "observed-countries": [
+            "Albania",
+            "Australia",
+            "Belgium",
+            "Canada",
+            "Cyprus",
+            "Czech",
+            "Israel",
+            "Italy",
+            "UK",
+            "Ukraine"
+        ],
+        "tools": [
+            "Bypass-UAC",
+            "Cardinal RAT",
+            "ChromeCookiesView",
+            "Evilnum",
+            "IronPython",
+            "LaZagne",
+            "MailPassView",
+            "More_eggs",
+            "ProduKey",
+            "PyVil RAT",
+            "TerraPreter",
+            "TerraStealer",
+            "TerraTV"
+        ],
+        "operations": [
+            {
+                "date": "2020-05",
+                "activity": "Operation \u201cPhantom in the [Command] Shell\u201d\nPrevailion\u2019s Tailored Intelligence Team has detected two new criminal campaigns targeting the global financial industry with the EVILNUM malware, one of which became active on May 3rd 2020.\nhttps://blog.prevailion.com/2020/05/phantom-in-command-shell5.html"
+            },
+            {
+                "date": "2020-08",
+                "activity": "In recent weeks, the Nocturnus team has observed new activity by the group, including several notable changes from tactics observed previously.\nhttps://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat"
+            },
+            {
+                "date": "2021-12",
+                "activity": "Buy, Sell, Steal, EvilNum Targets Cryptocurrency, Forex, Commodities\nhttps://www.proofpoint.com/us/blog/threat-insight/buy-sell-steal-evilnum-targets-cryptocurrency-forex-commodities"
+            },
+            {
+                "date": "2022",
+                "activity": "Return of the Evilnum APT with updated TTPs and new targets\nhttps://www.zscaler.com/blogs/security-research/return-evilnum-apt-updated-ttps-and-new-targets"
+            }
         ],
         "information": [
+            "https://unit42.paloaltonetworks.com/cardinal-rat-sins-again-targets-israeli-fin-tech-firms/",
             "https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/",
-            "http://www.pwncode.io/2018/05/javascript-based-bot-using-github-c.html",
-            "https://blog.prevailion.com/2020/05/phantom-in-command-shell5.html",
-            "https://securelist.com/deathstalker-mercenary-triumvirate/98177/"
+            "https://github.com/eset/malware-ioc/tree/master/evilnum",
+            "https://symantec.broadcom.com/hubfs/SED-Threats-Financial-Sector.pdf"
         ],
         "mitre-attack": [
-            "https://attack.mitre.org/software/S0568/"
+            "https://attack.mitre.org/groups/G0120/"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/js.evilnum",
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.evilnum"
-        ],
-        "alienvault-otx": [
-            "https://otx.alienvault.com/browse/pulses?q=tag:evilnum"
-        ],
-        "uuid": "57ac4c19-94d8-4e6e-9240-f10c0e2e3940",
+        "uuid": "e5ad7790-80c8-4319-a52e-469e20c95573",
         "last-card-change": "2022-12-30",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
@@ -50,8 +97,8 @@ var threatdata = {
             "malware": "js.evilnum",
             "last_update": "2022-08-01 20:06:39",
             "tags": [
-                "EvilNum",
-                "EVILNUM"
+                "EVILNUM",
+                "EvilNum"
             ],
             "ioc": {
                 "md5_hash": [
@@ -92,6 +139,49 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-01 20:06:39",
+    "file_name": "evilnum",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/what-did-deathstalker-hide-between-two-ferns/99616/",
+            "date": "2020-12-03",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "What did DeathStalker hide between two ferns?",
+            "categories": [
+                "PowerPepper",
+                "Evilnum"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/deathstalker-mercenary-triumvirate/98177/",
+            "date": "2020-08-24",
+            "organization": "Kaspersky Labs",
+            "author": "Ivan Kwiatkowski",
+            "title": "Lifting the veil on DeathStalker, a mercenary triumvirate",
+            "categories": [
+                "EVILNUM",
+                "Janicab",
+                "Evilnum"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/",
+            "date": "2020-07-09",
+            "organization": "ESET Research",
+            "author": "Mat\u00edas Porolli",
+            "title": "More evil: A deep look at Evilnum and its toolset",
+            "categories": [
+                "EVILNUM",
+                "More_eggs",
+                "EVILNUM",
+                "TerraPreter",
+                "TerraStealer",
+                "TerraTV",
+                "Evilnum"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "evilnum",
@@ -459,196 +549,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "evilnum can upload files over the c2 channel from the infected host.[43]"
                 }
-            ]
-        }
-    ],
-    "file_name": "evilnum",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/buy-sell-steal-evilnum-targets-cryptocurrency-forex-commodities",
-            "date": "2022-07-21",
-            "organization": "Proofpoint",
-            "author": "Bryan Campbell",
-            "title": "Buy, Sell, Steal, EvilNum Targets Cryptocurrency, Forex, Commodities",
-            "categories": [
-                "EVILNUM"
-            ]
-        },
-        {
-            "data_url": "https://www.zscaler.com/blogs/security-research/return-evilnum-apt-updated-ttps-and-new-targets",
-            "date": "2022-06-27",
-            "organization": "Zscaler",
-            "author": "Sudeep Singh",
-            "title": "Return of the Evilnum APT with updated TTPs and new targets",
-            "categories": [
-                "EVILNUM",
-                "EVILNUM"
-            ]
-        },
-        {
-            "data_url": "https://docs.broadcom.com/doc/ransom-and-malware-attacks-on-financial-services-institutions",
-            "date": "2021-10-26",
-            "organization": "Symantec",
-            "author": "Symantec",
-            "title": "Ransom and Malware Attacks on  Financial Services Institutions",
-            "categories": [
-                "EVILNUM"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/lryl3a65uIz1AwZcfuzp1A",
-            "date": "2021-06-16",
-            "organization": "Microstep Online Research Response Center",
-            "author": "Ring-1",
-            "title": "Evilnum organizes recent attacks against European financial companies",
-            "categories": [
-                "EVILNUM"
-            ]
-        },
-        {
-            "data_url": "http://blog.nsfocus.net/agentvxapt-evilnum/",
-            "date": "2021-01-04",
-            "organization": "NSFOCUS",
-            "author": "NSFOCUS",
-            "title": "Steganography, Little Fire Dragon and AGENTVX: A Detailed Analysis of APT Organization EVILNUM's New Attack Activities",
-            "categories": [
-                "EVILNUM"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/what-did-deathstalker-hide-between-two-ferns/99616/",
-            "date": "2020-12-03",
-            "organization": "Kaspersky Labs",
-            "author": "Pierre Delcher",
-            "title": "What did DeathStalker hide between two ferns?",
-            "categories": [
-                "PowerPepper",
-                "Evilnum"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
-            "date": "2020-11-03",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q3 2020",
-            "categories": [
-                "WellMail",
-                "EVILNUM",
-                "Janicab",
-                "Poet RAT",
-                "AsyncRAT",
-                "Ave Maria",
-                "Cobalt Strike",
-                "Crimson RAT",
-                "CROSSWALK",
-                "Dtrack",
-                "LODEINFO",
-                "MoriAgent",
-                "Okrum",
-                "PlugX",
-                "poisonplug",
-                "Rover",
-                "ShadowPad",
-                "SoreFang",
-                "Winnti"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/deathstalker-mercenary-triumvirate/98177/",
-            "date": "2020-08-24",
-            "organization": "Kaspersky Labs",
-            "author": "Ivan Kwiatkowski",
-            "title": "Lifting the veil on DeathStalker, a mercenary triumvirate",
-            "categories": [
-                "EVILNUM",
-                "Janicab",
-                "Evilnum"
-            ]
-        },
-        {
-            "data_url": "https://github.com/eset/malware-ioc/tree/master/evilnum",
-            "date": "2020-07-10",
-            "organization": "Github (eset)",
-            "author": "Mat\u00edas Porolli",
-            "title": "Evilnum\u2009\u2014\u2009Indicators of Compromise",
-            "categories": [
-                "EVILNUM",
-                "More_eggs",
-                "EVILNUM",
-                "TerraStealer"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/07/09/more-evil-deep-look-evilnum-toolset/",
-            "date": "2020-07-09",
-            "organization": "ESET Research",
-            "author": "Mat\u00edas Porolli",
-            "title": "More evil: A deep look at Evilnum and its toolset",
-            "categories": [
-                "EVILNUM",
-                "More_eggs",
-                "EVILNUM",
-                "TerraPreter",
-                "TerraStealer",
-                "TerraTV",
-                "Evilnum"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/REXBtbnI2zXj4H3u6ofMMw",
-            "date": "2020-06-04",
-            "organization": "",
-            "author": "Chianxin Virus Response Center",
-            "title": "\u811a\u672c\u7cfb\u8d3c\u5bc7\u4e4b\u98ce\u5174\u8d77\uff0c\u4e70\u5356\u4f53\u7cfb\u582a\u6bd4\u52d2\u7d22\u8f6f\u4ef6",
-            "categories": [
-                "EVILNUM",
-                "More_eggs"
-            ]
-        },
-        {
-            "data_url": "https://blog.prevailion.com/2020/05/phantom-in-command-shell5.html",
-            "date": "2020-05-06",
-            "organization": "Prevailion",
-            "author": "Danny Adamitis",
-            "title": "Phantom in the Command Shell",
-            "categories": [
-                "EVILNUM"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/wp-content/uploads/2019/08/ClearSky-2019-H1-Cyber-Events-Summary-Report.pdf",
-            "date": "2019-08",
-            "organization": "ClearSky",
-            "author": "ClearSky Cyber Security",
-            "title": "2019 H1 Cyber Events Summary Report",
-            "categories": [
-                "EVILNUM",
-                "Cardinal RAT",
-                "SappyCache"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/cardinal-rat-sins-again-targets-israeli-fin-tech-firms/",
-            "date": "2019-03-19",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Tom Lancaster",
-            "title": "Cardinal RAT Sins Again, Targets Israeli Fin-Tech Firms",
-            "categories": [
-                "EVILNUM",
-                "Cardinal RAT",
-                "EVILNUM"
-            ]
-        },
-        {
-            "data_url": "http://www.pwncode.io/2018/05/javascript-based-bot-using-github-c.html",
-            "date": "2018-05-24",
-            "organization": "pwncode.io blog",
-            "author": "c0d3inj3cT",
-            "title": "JavaScript based Bot using Github C&C",
-            "categories": [
-                "EVILNUM"
             ]
         }
     ]

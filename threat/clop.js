@@ -163,232 +163,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-03-23 18:12:56",
-    "mitre": [
-        {
-            "procedure_name": "clop",
-            "procedure_code": "s0611",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0611",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1059.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
-                    "technique_name": "command and scripting interpreter : windows command shell",
-                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
-                    "procedure_description": "clop can use cmd.exe to help execute commands on the system.[73]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1106",
-                    "technique_link": "https://attack.mitre.org/techniques/T1106",
-                    "technique_name": "native api",
-                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
-                    "procedure_description": "clop has used built-in api functions such as wnetopenenumw(), wnetenumresourcew(), wnetcloseenum(), getprocaddress(), and virtualalloc().[54][55]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1140",
-                    "technique_link": "https://attack.mitre.org/techniques/T1140",
-                    "technique_name": "deobfuscate/decode files or information",
-                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
-                    "procedure_description": "clop has used a simple xor operation to decrypt strings.[55]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1562.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
-                    "technique_name": "impair defenses : disable or modify tools",
-                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
-                    "procedure_description": "clop can uninstall or disable security products.[22]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1112",
-                    "technique_link": "https://attack.mitre.org/techniques/T1112",
-                    "technique_name": "modify registry",
-                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
-                    "procedure_description": "clop can make modifications to registry keys.[37]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027/002",
-                    "technique_name": "obfuscated files or information : software packing",
-                    "technique_description": "adversaries may perform software packing or virtual machine software protection to conceal their code. software packing is a method of compressing or encrypting an executable. packing an executable changes the file signature in an attempt to avoid signature-based detection. most decompression techniques decompress the executable code in memory. virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. a virtual machine is then called to run this code.",
-                    "procedure_description": "clop has been packed to help avoid detection.[23][24]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1553.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1553/002",
-                    "technique_name": "subvert trust controls : code signing",
-                    "technique_description": "adversaries may create, acquire, or steal code signing materials to sign their malware or tools. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with.  the certificates used during an operation may be created, acquired, or stolen by the adversary.   unlike invalid code signature, this activity will result in a valid signature.",
-                    "procedure_description": "clop can use code signing to evade detection.[19]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1218.007",
-                    "technique_link": "https://attack.mitre.org/techniques/T1218/007",
-                    "technique_name": "system binary proxy execution : msiexec",
-                    "technique_description": "adversaries may abuse msiexec.exe to proxy execution of malicious payloads. msiexec.exe is the command-line utility for the windows installer and is thus commonly associated with executing installation packages (.msi). the msiexec.exe binary may also be digitally signed by microsoft.",
-                    "procedure_description": "clop can use msiexec.exe to disable security tools on the system.[7]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1497.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
-                    "technique_name": "virtualization/sandbox evasion : time based evasion",
-                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
-                    "procedure_description": "clop has used the sleep command to avoid sandbox detection.[17]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1083",
-                    "technique_link": "https://attack.mitre.org/techniques/T1083",
-                    "technique_name": "file and directory discovery",
-                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "clop has searched folders and subfolders for files to encrypt.[78]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1135",
-                    "technique_link": "https://attack.mitre.org/techniques/T1135",
-                    "technique_name": "network share discovery",
-                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
-                    "procedure_description": "clop can enumerate network shares.[21]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1057",
-                    "technique_link": "https://attack.mitre.org/techniques/T1057",
-                    "technique_name": "process discovery",
-                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "clop can enumerate all processes on the victim's machine.[60]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1518.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1518/001",
-                    "technique_name": "software discovery : security software discovery",
-                    "technique_description": "adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. this may include things such as firewall rules and anti-virus. adversaries may use the information from security software discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "clop can search for processes with antivirus and antimalware product names.[19][20]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1614.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1614/001",
-                    "technique_name": "system location discovery : system language discovery",
-                    "technique_description": "adversaries may attempt to gather information about the system language of a victim in order to infer the geographical location of that host. this information may be used to shape follow-on behaviors, including whether the adversary infects the target and/or attempts specific actions. this decision may be employed by malware developers and operators to reduce their risk of attracting the attention of specific law enforcement agencies or prosecution/scrutiny from other entities.",
-                    "procedure_description": "clop has checked the keyboard language using the getkeyboardlayout() function to avoid installation on russian-language or other commonwealth of independent states-language machines; it will also check the gettextcharset function.[8]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1497.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
-                    "technique_name": "virtualization/sandbox evasion : time based evasion",
-                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
-                    "procedure_description": "clop has used the sleep command to avoid sandbox detection.[17]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1486",
-                    "technique_link": "https://attack.mitre.org/techniques/T1486",
-                    "technique_name": "data encrypted for impact",
-                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
-                    "procedure_description": "clop can encrypt files using aes, rsa, and rc4 and will add the \".clop\" extension to encrypted files.[33][34][35]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1490",
-                    "technique_link": "https://attack.mitre.org/techniques/T1490",
-                    "technique_name": "inhibit system recovery",
-                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
-                    "procedure_description": "clop can delete the shadow volumes with vssadmin delete shadows /all /quiet and can use bcdedit to disable recovery options.[22]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1489",
-                    "technique_link": "https://attack.mitre.org/techniques/T1489",
-                    "technique_name": "service stop",
-                    "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
-                    "procedure_description": "clop can kill several processes and services related to backups and security solutions.[11][12]"
-                }
-            ]
-        }
-    ],
     "file_name": "clop",
     "articles": [
         {
@@ -1658,6 +1432,232 @@ var threatdata = {
             "title": "Unpacking Clop",
             "categories": [
                 "Clop"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "clop",
+            "procedure_code": "s0611",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0611",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059/003",
+                    "technique_name": "command and scripting interpreter : windows command shell",
+                    "technique_description": "adversaries may abuse the windows command shell for execution. the windows command shell (cmd) is the primary command prompt on windows systems. the windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. the command prompt can be invoked remotely via remote services such as ssh.",
+                    "procedure_description": "clop can use cmd.exe to help execute commands on the system.[73]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "clop has used built-in api functions such as wnetopenenumw(), wnetenumresourcew(), wnetcloseenum(), getprocaddress(), and virtualalloc().[54][55]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "clop has used a simple xor operation to decrypt strings.[55]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1562.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
+                    "technique_name": "impair defenses : disable or modify tools",
+                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
+                    "procedure_description": "clop can uninstall or disable security products.[22]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "clop can make modifications to registry keys.[37]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/002",
+                    "technique_name": "obfuscated files or information : software packing",
+                    "technique_description": "adversaries may perform software packing or virtual machine software protection to conceal their code. software packing is a method of compressing or encrypting an executable. packing an executable changes the file signature in an attempt to avoid signature-based detection. most decompression techniques decompress the executable code in memory. virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. a virtual machine is then called to run this code.",
+                    "procedure_description": "clop has been packed to help avoid detection.[23][24]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1553.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1553/002",
+                    "technique_name": "subvert trust controls : code signing",
+                    "technique_description": "adversaries may create, acquire, or steal code signing materials to sign their malware or tools. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with.  the certificates used during an operation may be created, acquired, or stolen by the adversary.   unlike invalid code signature, this activity will result in a valid signature.",
+                    "procedure_description": "clop can use code signing to evade detection.[19]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.007",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/007",
+                    "technique_name": "system binary proxy execution : msiexec",
+                    "technique_description": "adversaries may abuse msiexec.exe to proxy execution of malicious payloads. msiexec.exe is the command-line utility for the windows installer and is thus commonly associated with executing installation packages (.msi). the msiexec.exe binary may also be digitally signed by microsoft.",
+                    "procedure_description": "clop can use msiexec.exe to disable security tools on the system.[7]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "clop has used the sleep command to avoid sandbox detection.[17]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "clop has searched folders and subfolders for files to encrypt.[78]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1135",
+                    "technique_link": "https://attack.mitre.org/techniques/T1135",
+                    "technique_name": "network share discovery",
+                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
+                    "procedure_description": "clop can enumerate network shares.[21]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "clop can enumerate all processes on the victim's machine.[60]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1518.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1518/001",
+                    "technique_name": "software discovery : security software discovery",
+                    "technique_description": "adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. this may include things such as firewall rules and anti-virus. adversaries may use the information from security software discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "clop can search for processes with antivirus and antimalware product names.[19][20]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1614.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1614/001",
+                    "technique_name": "system location discovery : system language discovery",
+                    "technique_description": "adversaries may attempt to gather information about the system language of a victim in order to infer the geographical location of that host. this information may be used to shape follow-on behaviors, including whether the adversary infects the target and/or attempts specific actions. this decision may be employed by malware developers and operators to reduce their risk of attracting the attention of specific law enforcement agencies or prosecution/scrutiny from other entities.",
+                    "procedure_description": "clop has checked the keyboard language using the getkeyboardlayout() function to avoid installation on russian-language or other commonwealth of independent states-language machines; it will also check the gettextcharset function.[8]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497/003",
+                    "technique_name": "virtualization/sandbox evasion : time based evasion",
+                    "technique_description": "adversaries may employ various time-based methods to detect and avoid virtualization and analysis environments. this may include enumerating time-based properties, such as uptime or the system clock, as well as the use of timers or other triggers to avoid a virtual machine environment (vme) or sandbox, specifically those that are automated or only operate for a limited amount of time.",
+                    "procedure_description": "clop has used the sleep command to avoid sandbox detection.[17]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "clop can encrypt files using aes, rsa, and rc4 and will add the \".clop\" extension to encrypted files.[33][34][35]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1490",
+                    "technique_link": "https://attack.mitre.org/techniques/T1490",
+                    "technique_name": "inhibit system recovery",
+                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
+                    "procedure_description": "clop can delete the shadow volumes with vssadmin delete shadows /all /quiet and can use bcdedit to disable recovery options.[22]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1489",
+                    "technique_link": "https://attack.mitre.org/techniques/T1489",
+                    "technique_name": "service stop",
+                    "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
+                    "procedure_description": "clop can kill several processes and services related to backups and security solutions.[11][12]"
+                }
             ]
         }
     ]

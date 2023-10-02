@@ -47,6 +47,119 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hyperstack",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/06/12/malware-pers-7.html",
+            "date": "2022-06-12",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 7. Winlogon. Simple C++ example.",
+            "categories": [
+                "BazarBackdoor",
+                "Gazer",
+                "TurlaRPC",
+                "Turla SilentMoon"
+            ]
+        },
+        {
+            "data_url": "https://www.emanueledelucia.net/the-bigboss-rules-something-about-one-of-the-uroburos-rpc-based-backdoors/",
+            "date": "2021-11-05",
+            "organization": "Emanuele De Lucia  on Security",
+            "author": "Emanuele De Lucia",
+            "title": "The BigBoss Rules: Something about one of the Uroburos\u2019 RPC-based backdoors",
+            "categories": [
+                "Turla SilentMoon"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity",
+            "date": "2020-10-28",
+            "organization": "Accenture",
+            "author": "Cyber Defense",
+            "title": "Turla uses HyperStack, Carbon, and Kazuar to compromise government entity",
+            "categories": [
+                "Cobra Carbon System",
+                "Kazuar",
+                "TurlaRPC",
+                "Turla SilentMoon"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/Arkbird_SOLG/status/1304187749373800455",
+            "date": "2020-09-11",
+            "organization": "Twitter (@Arkbird_SOLG)",
+            "author": "Arkbird",
+            "title": "Tweet on discovery of a sample",
+            "categories": [
+                "Turla SilentMoon"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "turla",
@@ -1082,119 +1195,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "hyperstack has used rsa encryption for c2 communications.[69]"
                 }
-            ]
-        }
-    ],
-    "file_name": "hyperstack",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/06/12/malware-pers-7.html",
-            "date": "2022-06-12",
-            "organization": "",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 7. Winlogon. Simple C++ example.",
-            "categories": [
-                "BazarBackdoor",
-                "Gazer",
-                "TurlaRPC",
-                "Turla SilentMoon"
-            ]
-        },
-        {
-            "data_url": "https://www.emanueledelucia.net/the-bigboss-rules-something-about-one-of-the-uroburos-rpc-based-backdoors/",
-            "date": "2021-11-05",
-            "organization": "Emanuele De Lucia  on Security",
-            "author": "Emanuele De Lucia",
-            "title": "The BigBoss Rules: Something about one of the Uroburos\u2019 RPC-based backdoors",
-            "categories": [
-                "Turla SilentMoon"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
-            "date": "2021-02-28",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2020: A Year in Retrospect",
-            "categories": [
-                "elf.wellmess",
-                "FlowerPower",
-                "PowGoop",
-                "8.t Dropper",
-                "Agent.BTZ",
-                "Agent Tesla",
-                "Appleseed",
-                "Ave Maria",
-                "Bankshot",
-                "BazarBackdoor",
-                "BLINDINGCAN",
-                "Chinoxy",
-                "Conti",
-                "Cotx RAT",
-                "Crimson RAT",
-                "DUSTMAN",
-                "Emotet",
-                "FriedEx",
-                "FunnyDream",
-                "Hakbit",
-                "Mailto",
-                "Maze",
-                "METALJACK",
-                "Nefilim",
-                "Oblique RAT",
-                "Pay2Key",
-                "PlugX",
-                "QakBot",
-                "REvil",
-                "Ryuk",
-                "StoneDrill",
-                "StrongPity",
-                "SUNBURST",
-                "SUPERNOVA",
-                "TrickBot",
-                "TurlaRPC",
-                "Turla SilentMoon",
-                "WastedLocker",
-                "WellMess",
-                "Winnti",
-                "ZeroCleare",
-                "APT10",
-                "APT23",
-                "APT27",
-                "APT31",
-                "APT41",
-                "BlackTech",
-                "BRONZE EDGEWOOD",
-                "Inception Framework",
-                "MUSTANG PANDA",
-                "Red Charon",
-                "Red Nue",
-                "Sea Turtle",
-                "Tonto Team"
-            ]
-        },
-        {
-            "data_url": "https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity",
-            "date": "2020-10-28",
-            "organization": "Accenture",
-            "author": "Cyber Defense",
-            "title": "Turla uses HyperStack, Carbon, and Kazuar to compromise government entity",
-            "categories": [
-                "Cobra Carbon System",
-                "Kazuar",
-                "TurlaRPC",
-                "Turla SilentMoon"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/Arkbird_SOLG/status/1304187749373800455",
-            "date": "2020-09-11",
-            "organization": "Twitter (@Arkbird_SOLG)",
-            "author": "Arkbird",
-            "title": "Tweet on discovery of a sample",
-            "categories": [
-                "Turla SilentMoon"
             ]
         }
     ]

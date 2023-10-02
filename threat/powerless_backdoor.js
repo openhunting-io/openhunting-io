@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerless_backdoor",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "powerless",
@@ -157,8 +160,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "powerless_backdoor",
-    "analysis": null,
-    "articles": []
+    ]
 };

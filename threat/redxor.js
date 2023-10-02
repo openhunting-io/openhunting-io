@@ -48,7 +48,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-03-11 20:48:11",
-    "mitre": [],
     "file_name": "redxor",
     "analysis": null,
     "articles": [
@@ -63,5 +62,6 @@ var threatdata = {
                 "XOR DDoS"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

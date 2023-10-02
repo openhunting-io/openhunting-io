@@ -35,8 +35,8 @@ var threatdata = {
             "malware": "win.mirrorblast",
             "last_update": "2021-11-17 00:04:13",
             "tags": [
-                "MirrorBlast",
-                "TA505"
+                "TA505",
+                "MirrorBlast"
             ],
             "ioc": {
                 "domain": [
@@ -129,7 +129,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-11-17 00:04:13",
-    "mitre": [],
     "file_name": "mirrorblast",
     "analysis": null,
     "articles": [
@@ -184,5 +183,6 @@ var threatdata = {
                 "MirrorBlast"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -34,6 +34,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "final1stspy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.intezer.com/apt37-final1stspy-reaping-the-freemilk/",
+            "date": "2018-10-03",
+            "organization": "Intezer",
+            "author": "Jay Rosenberg",
+            "title": "APT37: Final1stspy Reaping the FreeMilk",
+            "categories": [
+                "Final1stSpy",
+                "RokRAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "final1stspy",
@@ -125,21 +140,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
                     "procedure_description": "final1stspy uses http for c2.[127]"
                 }
-            ]
-        }
-    ],
-    "file_name": "final1stspy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.intezer.com/apt37-final1stspy-reaping-the-freemilk/",
-            "date": "2018-10-03",
-            "organization": "Intezer",
-            "author": "Jay Rosenberg",
-            "title": "APT37: Final1stspy Reaping the FreeMilk",
-            "categories": [
-                "Final1stSpy",
-                "RokRAT"
             ]
         }
     ]

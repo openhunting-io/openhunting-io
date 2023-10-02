@@ -52,6 +52,354 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "blackenergy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/09/malware-pers-4.html",
+            "date": "2022-05-09",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 4. Windows services. Simple C++ example.",
+            "categories": [
+                "Anchor",
+                "AppleJeus",
+                "Attor",
+                "BBSRAT",
+                "BlackEnergy",
+                "Carbanak",
+                "Cobalt Strike",
+                "DuQu"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "AA22-110A Joint CSA: Russian State-Sponsored and Criminal Cyber  Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/20/malware-pers-1.html",
+            "date": "2022-04-20",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 1. Registry run keys. C++ example.",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "BlackEnergy",
+                "Cobian RAT",
+                "COZYDUKE",
+                "Emotet",
+                "Empire Downloader",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a",
+            "date": "2022-04-20",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Alert (AA22-110A): Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "DanaBot",
+                "DoppelDridex",
+                "Emotet",
+                "EternalPetya",
+                "GoldMax",
+                "Industroyer",
+                "Sality",
+                "SmokeLoader",
+                "TrickBot",
+                "Triton",
+                "Zloader",
+                "Killnet"
+            ]
+        },
+        {
+            "data_url": "https://www.tesorion.nl/en/resources/pdfstore/Report-OSINT-Russia-Ukraine-Conflict-Cyberaspect.pdf",
+            "date": "2022-02-24",
+            "organization": "Tesorion",
+            "author": "TESORION",
+            "title": "Report OSINT: Russia/ Ukraine Conflict Cyberaspect",
+            "categories": [
+                "Mirai",
+                "VPNFilter",
+                "BlackEnergy",
+                "EternalPetya",
+                "HermeticWiper",
+                "Industroyer",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0909.pdf",
+            "date": "2021-09-09",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "Dark Covenant: Connections Between the Russian State and Criminal Actors",
+            "categories": [
+                "BlackEnergy",
+                "EternalPetya",
+                "Gameover P2P",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/Attacks-Against-Critical_Infrastructrure.pdf",
+            "date": "2021-08-05",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Attacks Against Critical Infrastructure: A Global Concern",
+            "categories": [
+                "BlackEnergy",
+                "DarkSide",
+                "DistTrack",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.ironnet.com/blog/russian-cyber-attack-campaigns-and-actors",
+            "date": "2020-12-21",
+            "organization": "IronNet",
+            "author": "Adam Hlavek",
+            "title": "Russian cyber attack campaigns and actors",
+            "categories": [
+                "WellMail",
+                "elf.wellmess",
+                "Agent.BTZ",
+                "BlackEnergy",
+                "EternalPetya",
+                "Havex RAT",
+                "Industroyer",
+                "Ryuk",
+                "Triton",
+                "WellMess"
+            ]
+        },
+        {
+            "data_url": "https://www.riskint.blog/post/revisited-fancy-bear-s-new-faces-and-sandworms-too",
+            "date": "2020-10-19",
+            "organization": "Riskint Blog",
+            "author": "Curtis",
+            "title": "Revisited: Fancy Bear's New Faces...and Sandworms' too",
+            "categories": [
+                "BlackEnergy",
+                "EternalPetya",
+                "Industroyer",
+                "Olympic Destroyer"
+            ]
+        },
+        {
+            "data_url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games",
+            "date": "2020-10-19",
+            "organization": "UK Government",
+            "author": "ForeignCommonwealth & Development Office",
+            "title": "UK exposes series of Russian cyber attacks against Olympic and Paralympic Games",
+            "categories": [
+                "VPNFilter",
+                "BlackEnergy",
+                "EternalPetya",
+                "Industroyer"
+            ]
+        },
+        {
+            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
+            "date": "2020-05-21",
+            "organization": "PICUS Security",
+            "author": "S\u00fcleyman \u00d6zarslan",
+            "title": "T1055 Process Injection",
+            "categories": [
+                "BlackEnergy",
+                "Cardinal RAT",
+                "Downdelph",
+                "Emotet",
+                "Kazuar",
+                "RokRAT",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON VIKING",
+            "categories": [
+                "BlackEnergy",
+                "EternalPetya",
+                "GreyEnergy",
+                "Industroyer",
+                "KillDisk",
+                "TeleBot",
+                "TeleDoor"
+            ]
+        },
+        {
+            "data_url": "https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report.pdf",
+            "date": "2019-05-08",
+            "organization": "Verizon Communications Inc.",
+            "author": "Verizon Communications Inc.",
+            "title": "2019 Data Breach Investigations Report",
+            "categories": [
+                "BlackEnergy",
+                "Cobalt Strike",
+                "DanaBot",
+                "Gandcrab",
+                "GreyEnergy",
+                "Mirai",
+                "Olympic Destroyer",
+                "SamSam"
+            ]
+        },
+        {
+            "data_url": "https://marcusedmondson.com/2019/01/18/black-energy-analysis/",
+            "date": "2019-01-18",
+            "organization": "",
+            "author": "Mark Edmondson",
+            "title": "BLACK ENERGY \u2013 Analysis",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://threatconnect.com/blog/casting-a-light-on-blackenergy/",
+            "date": "2017-09-18",
+            "organization": "ThreatConnect",
+            "author": "Paul Vann",
+            "title": "Casting a Light on BlackEnergy",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://www.virusbulletin.com/uploads/pdf/magazine/2016/VB2016-Cherepanov-Lipovsky.pdf",
+            "date": "2017-07-03",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "BlackEnergy \u2013 what we really know about the notorious cyber attacks",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0034",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Sandworm Team",
+            "categories": [
+                "CyclopsBlink",
+                "Exaramel",
+                "BlackEnergy",
+                "EternalPetya",
+                "Exaramel",
+                "GreyEnergy",
+                "KillDisk",
+                "MimiKatz",
+                "Olympic Destroyer",
+                "Sandworm"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blackenergy-apt-attacks-in-ukraine-employ-spearphishing-with-word-documents/73440/",
+            "date": "2016-01-28",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "BlackEnergy APT Attacks in Ukraine employ spearphishing with Word documents",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/be2-extraordinary-plugins-siemens-targeting-dev-fails/68838/",
+            "date": "2015-02-17",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "BE2 extraordinary plugins, Siemens targeting, dev fails",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/",
+            "date": "2014-11-03",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "BE2 custom plugins, router abuse, and target profiles",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2014/10/14/cve-2014-4114-details-august-blackenergy-powerpoint-campaigns/",
+            "date": "2014-10-14",
+            "organization": "ESET Research",
+            "author": "Robert Lipovsky",
+            "title": "CVE\u20112014\u20114114: Details on August BlackEnergy PowerPoint Campaigns",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/black-ddos/36309/",
+            "date": "2010-07-15",
+            "organization": "Kaspersky Labs",
+            "author": "Dmitry Tarakanov",
+            "title": "Black DDoS",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20140428201836/http://www.fireeye.com/blog/technical/malware-research/2010/03/black-energy-crypto.html",
+            "date": "2010-03-03",
+            "organization": "FireEye",
+            "author": "Julia Wolf",
+            "title": "Black Energy Crypto",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/blackenergy2",
+            "date": "2010-03-03",
+            "organization": "Secureworks",
+            "author": "Joe Stewart",
+            "title": "BlackEnergy Version 2 Threat Analysis",
+            "categories": [
+                "BlackEnergy"
+            ]
+        },
+        {
+            "data_url": "http://pds15.egloos.com/pds/201001/01/66/BlackEnergy_DDoS_Bot_Analysis.pdf",
+            "date": "2007-10",
+            "organization": "Arbor Networks",
+            "author": "Jose Nazario",
+            "title": "BlackEnergy DDoS Bot Analysis",
+            "categories": [
+                "BlackEnergy"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "blackenergy",
@@ -455,354 +803,6 @@ var threatdata = {
                     "technique_description": "adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources. data destruction is likely to render stored data irrecoverable by forensic techniques through overwriting files or data on local and remote drives. common operating system file deletion commands such as del and rm often only remove pointers to files without wiping the contents of the files themselves, making the files recoverable by proper forensic methodology. this behavior is distinct from disk content wipe and disk structure wipe because individual files are destroyed rather than sections of a storage disk or the disk's logical structure.",
                     "procedure_description": "blackenergy 2 contains a \"destroy\" plug-in that destroys data stored on victim hard drives by overwriting file contents.[10][11]"
                 }
-            ]
-        }
-    ],
-    "file_name": "blackenergy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/09/malware-pers-4.html",
-            "date": "2022-05-09",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 4. Windows services. Simple C++ example.",
-            "categories": [
-                "Anchor",
-                "AppleJeus",
-                "Attor",
-                "BBSRAT",
-                "BlackEnergy",
-                "Carbanak",
-                "Cobalt Strike",
-                "DuQu"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
-            "date": "2022-04-20",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "AA22-110A Joint CSA: Russian State-Sponsored and Criminal Cyber  Threats to Critical Infrastructure",
-            "categories": [
-                "VPNFilter",
-                "BlackEnergy",
-                "DanaBot",
-                "DoppelDridex",
-                "Emotet",
-                "EternalPetya",
-                "GoldMax",
-                "Industroyer",
-                "Sality",
-                "SmokeLoader",
-                "TrickBot",
-                "Triton",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/20/malware-pers-1.html",
-            "date": "2022-04-20",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 1. Registry run keys. C++ example.",
-            "categories": [
-                "Agent Tesla",
-                "Amadey",
-                "BlackEnergy",
-                "Cobian RAT",
-                "COZYDUKE",
-                "Emotet",
-                "Empire Downloader",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-110a",
-            "date": "2022-04-20",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "Alert (AA22-110A): Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure",
-            "categories": [
-                "VPNFilter",
-                "BlackEnergy",
-                "DanaBot",
-                "DoppelDridex",
-                "Emotet",
-                "EternalPetya",
-                "GoldMax",
-                "Industroyer",
-                "Sality",
-                "SmokeLoader",
-                "TrickBot",
-                "Triton",
-                "Zloader",
-                "Killnet"
-            ]
-        },
-        {
-            "data_url": "https://www.tesorion.nl/en/resources/pdfstore/Report-OSINT-Russia-Ukraine-Conflict-Cyberaspect.pdf",
-            "date": "2022-02-24",
-            "organization": "Tesorion",
-            "author": "TESORION",
-            "title": "Report OSINT: Russia/ Ukraine Conflict Cyberaspect",
-            "categories": [
-                "Mirai",
-                "VPNFilter",
-                "BlackEnergy",
-                "EternalPetya",
-                "HermeticWiper",
-                "Industroyer",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0909.pdf",
-            "date": "2021-09-09",
-            "organization": "Recorded Future",
-            "author": "Insikt Group",
-            "title": "Dark Covenant: Connections Between the Russian State and Criminal Actors",
-            "categories": [
-                "BlackEnergy",
-                "EternalPetya",
-                "Gameover P2P",
-                "Zeus"
-            ]
-        },
-        {
-            "data_url": "https://symantec.broadcom.com/hubfs/Attacks-Against-Critical_Infrastructrure.pdf",
-            "date": "2021-08-05",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Attacks Against Critical Infrastructure: A Global Concern",
-            "categories": [
-                "BlackEnergy",
-                "DarkSide",
-                "DistTrack",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.ironnet.com/blog/russian-cyber-attack-campaigns-and-actors",
-            "date": "2020-12-21",
-            "organization": "IronNet",
-            "author": "Adam Hlavek",
-            "title": "Russian cyber attack campaigns and actors",
-            "categories": [
-                "WellMail",
-                "elf.wellmess",
-                "Agent.BTZ",
-                "BlackEnergy",
-                "EternalPetya",
-                "Havex RAT",
-                "Industroyer",
-                "Ryuk",
-                "Triton",
-                "WellMess"
-            ]
-        },
-        {
-            "data_url": "https://www.riskint.blog/post/revisited-fancy-bear-s-new-faces-and-sandworms-too",
-            "date": "2020-10-19",
-            "organization": "Riskint Blog",
-            "author": "Curtis",
-            "title": "Revisited: Fancy Bear's New Faces...and Sandworms' too",
-            "categories": [
-                "BlackEnergy",
-                "EternalPetya",
-                "Industroyer",
-                "Olympic Destroyer"
-            ]
-        },
-        {
-            "data_url": "https://www.gov.uk/government/news/uk-exposes-series-of-russian-cyber-attacks-against-olympic-and-paralympic-games",
-            "date": "2020-10-19",
-            "organization": "UK Government",
-            "author": "ForeignCommonwealth & Development Office",
-            "title": "UK exposes series of Russian cyber attacks against Olympic and Paralympic Games",
-            "categories": [
-                "VPNFilter",
-                "BlackEnergy",
-                "EternalPetya",
-                "Industroyer"
-            ]
-        },
-        {
-            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
-            "date": "2020-05-21",
-            "organization": "PICUS Security",
-            "author": "S\u00fcleyman \u00d6zarslan",
-            "title": "T1055 Process Injection",
-            "categories": [
-                "BlackEnergy",
-                "Cardinal RAT",
-                "Downdelph",
-                "Emotet",
-                "Kazuar",
-                "RokRAT",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON VIKING",
-            "categories": [
-                "BlackEnergy",
-                "EternalPetya",
-                "GreyEnergy",
-                "Industroyer",
-                "KillDisk",
-                "TeleBot",
-                "TeleDoor"
-            ]
-        },
-        {
-            "data_url": "https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report.pdf",
-            "date": "2019-05-08",
-            "organization": "Verizon Communications Inc.",
-            "author": "Verizon Communications Inc.",
-            "title": "2019 Data Breach Investigations Report",
-            "categories": [
-                "BlackEnergy",
-                "Cobalt Strike",
-                "DanaBot",
-                "Gandcrab",
-                "GreyEnergy",
-                "Mirai",
-                "Olympic Destroyer",
-                "SamSam"
-            ]
-        },
-        {
-            "data_url": "https://marcusedmondson.com/2019/01/18/black-energy-analysis/",
-            "date": "2019-01-18",
-            "organization": "",
-            "author": "Mark Edmondson",
-            "title": "BLACK ENERGY \u2013 Analysis",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://threatconnect.com/blog/casting-a-light-on-blackenergy/",
-            "date": "2017-09-18",
-            "organization": "ThreatConnect",
-            "author": "Paul Vann",
-            "title": "Casting a Light on BlackEnergy",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://www.virusbulletin.com/uploads/pdf/magazine/2016/VB2016-Cherepanov-Lipovsky.pdf",
-            "date": "2017-07-03",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "BlackEnergy \u2013 what we really know about the notorious cyber attacks",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0034",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Sandworm Team",
-            "categories": [
-                "CyclopsBlink",
-                "Exaramel",
-                "BlackEnergy",
-                "EternalPetya",
-                "Exaramel",
-                "GreyEnergy",
-                "KillDisk",
-                "MimiKatz",
-                "Olympic Destroyer",
-                "Sandworm"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blackenergy-apt-attacks-in-ukraine-employ-spearphishing-with-word-documents/73440/",
-            "date": "2016-01-28",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "BlackEnergy APT Attacks in Ukraine employ spearphishing with Word documents",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/be2-extraordinary-plugins-siemens-targeting-dev-fails/68838/",
-            "date": "2015-02-17",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "BE2 extraordinary plugins, Siemens targeting, dev fails",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/",
-            "date": "2014-11-03",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "BE2 custom plugins, router abuse, and target profiles",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2014/10/14/cve-2014-4114-details-august-blackenergy-powerpoint-campaigns/",
-            "date": "2014-10-14",
-            "organization": "ESET Research",
-            "author": "Robert Lipovsky",
-            "title": "CVE\u20112014\u20114114: Details on August BlackEnergy PowerPoint Campaigns",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/black-ddos/36309/",
-            "date": "2010-07-15",
-            "organization": "Kaspersky Labs",
-            "author": "Dmitry Tarakanov",
-            "title": "Black DDoS",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20140428201836/http://www.fireeye.com/blog/technical/malware-research/2010/03/black-energy-crypto.html",
-            "date": "2010-03-03",
-            "organization": "FireEye",
-            "author": "Julia Wolf",
-            "title": "Black Energy Crypto",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/blackenergy2",
-            "date": "2010-03-03",
-            "organization": "Secureworks",
-            "author": "Joe Stewart",
-            "title": "BlackEnergy Version 2 Threat Analysis",
-            "categories": [
-                "BlackEnergy"
-            ]
-        },
-        {
-            "data_url": "http://pds15.egloos.com/pds/201001/01/66/BlackEnergy_DDoS_Bot_Analysis.pdf",
-            "date": "2007-10",
-            "organization": "Arbor Networks",
-            "author": "Jose Nazario",
-            "title": "BlackEnergy DDoS Bot Analysis",
-            "categories": [
-                "BlackEnergy"
             ]
         }
     ]

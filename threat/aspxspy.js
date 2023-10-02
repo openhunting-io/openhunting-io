@@ -62,28 +62,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-10-27 21:48:47",
-    "mitre": [
-        {
-            "procedure_name": "aspxspy",
-            "procedure_code": "s0073",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0073",
-            "techniques": [
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1505.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1505/003",
-                    "technique_name": "server software component : web shell",
-                    "technique_description": "adversaries may backdoor web servers with web shells to establish persistent access to systems. a web shell is a web script that is placed on an openly accessible web server to allow an adversary to use the web server as a gateway into a network. a web shell may provide a set of functions to execute or a command-line interface on the system that hosts the web server.",
-                    "procedure_description": "aspxspy is a web shell. the aspxtool version used by threat group-3390 has been deployed to accessible servers running internet information services (iis).[8]"
-                }
-            ]
-        }
-    ],
     "file_name": "aspxspy",
     "analysis": null,
     "articles": [
@@ -137,6 +115,28 @@ var threatdata = {
                 "Winnti",
                 "ZXShell",
                 "APT41"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "aspxspy",
+            "procedure_code": "s0073",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0073",
+            "techniques": [
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1505.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1505/003",
+                    "technique_name": "server software component : web shell",
+                    "technique_description": "adversaries may backdoor web servers with web shells to establish persistent access to systems. a web shell is a web script that is placed on an openly accessible web server to allow an adversary to use the web server as a gateway into a network. a web shell may provide a set of functions to execute or a command-line interface on the system that hosts the web server.",
+                    "procedure_description": "aspxspy is a web shell. the aspxtool version used by threat group-3390 has been deployed to accessible servers running internet information services (iis).[8]"
+                }
             ]
         }
     ]

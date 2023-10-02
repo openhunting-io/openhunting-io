@@ -46,6 +46,60 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "epic",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/10/20114955/Bartholomew-GuerreroSaade-VB2016.pdf",
+            "date": "2016-09-07",
+            "organization": "Virus Bulletin",
+            "author": "Brian Bartholomew",
+            "title": "Wave Your False Flags! Deception Tactics Muddying Attribution in Targeted Attacks",
+            "categories": [
+                "DuQu",
+                "JripBot",
+                "Sinowal",
+                "Stuxnet",
+                "Wipbot"
+            ]
+        },
+        {
+            "data_url": "https://docs.broadcom.com/doc/waterbug-attack-group",
+            "date": "2016-01-14",
+            "organization": "Symantec",
+            "author": "Security Response",
+            "title": "The Waterbug attack group",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Wipbot"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf",
+            "date": "2016-01-14",
+            "organization": "Symantec",
+            "author": "Security Response",
+            "title": "The Waterbug attack group",
+            "categories": [
+                "Agent.BTZ",
+                "Wipbot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/analysis/publications/65545/the-epic-turla-operation/",
+            "date": "2014-08-07",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "The Epic Turla Operation",
+            "categories": [
+                "Cobra Carbon System",
+                "Uroburos",
+                "Wipbot",
+                "Turla"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "turla",
@@ -1237,60 +1291,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "epic encrypts commands from the c2 server using a hardcoded key.[45]"
                 }
-            ]
-        }
-    ],
-    "file_name": "epic",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/10/20114955/Bartholomew-GuerreroSaade-VB2016.pdf",
-            "date": "2016-09-07",
-            "organization": "Virus Bulletin",
-            "author": "Brian Bartholomew",
-            "title": "Wave Your False Flags! Deception Tactics Muddying Attribution in Targeted Attacks",
-            "categories": [
-                "DuQu",
-                "JripBot",
-                "Sinowal",
-                "Stuxnet",
-                "Wipbot"
-            ]
-        },
-        {
-            "data_url": "https://docs.broadcom.com/doc/waterbug-attack-group",
-            "date": "2016-01-14",
-            "organization": "Symantec",
-            "author": "Security Response",
-            "title": "The Waterbug attack group",
-            "categories": [
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "Wipbot"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/waterbug-attack-group.pdf",
-            "date": "2016-01-14",
-            "organization": "Symantec",
-            "author": "Security Response",
-            "title": "The Waterbug attack group",
-            "categories": [
-                "Agent.BTZ",
-                "Wipbot"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/analysis/publications/65545/the-epic-turla-operation/",
-            "date": "2014-08-07",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "The Epic Turla Operation",
-            "categories": [
-                "Cobra Carbon System",
-                "Uroburos",
-                "Wipbot",
-                "Turla"
             ]
         }
     ]

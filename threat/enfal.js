@@ -39,40 +39,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "lurid",
-            "procedure_code": "s0010",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0010",
-            "techniques": [
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1560",
-                    "technique_link": "https://attack.mitre.org/techniques/T1560",
-                    "technique_name": "archive collected data",
-                    "technique_description": "an adversary may compress and/or encrypt data that is collected prior to exfiltration. compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender.",
-                    "procedure_description": "lurid can compress data before sending it.[36]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1573.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1573/001",
-                    "technique_name": "encrypted channel : symmetric cryptography",
-                    "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
-                    "procedure_description": "lurid performs xor encryption.[85]"
-                }
-            ]
-        }
-    ],
     "file_name": "enfal",
     "analysis": null,
     "articles": [
@@ -189,6 +155,40 @@ var threatdata = {
                 "Nitro",
                 "sykipot",
                 "taidoor"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "lurid",
+            "procedure_code": "s0010",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0010",
+            "techniques": [
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1560",
+                    "technique_link": "https://attack.mitre.org/techniques/T1560",
+                    "technique_name": "archive collected data",
+                    "technique_description": "an adversary may compress and/or encrypt data that is collected prior to exfiltration. compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender.",
+                    "procedure_description": "lurid can compress data before sending it.[36]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1573.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1573/001",
+                    "technique_name": "encrypted channel : symmetric cryptography",
+                    "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
+                    "procedure_description": "lurid performs xor encryption.[85]"
+                }
             ]
         }
     ]

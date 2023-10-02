@@ -30,7 +30,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "scanpos",
     "analysis": null,
     "articles": [
@@ -55,5 +54,6 @@ var threatdata = {
                 "ScanPOS"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

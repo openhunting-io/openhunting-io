@@ -78,7 +78,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "pegasus",
     "analysis": null,
     "articles": [
@@ -765,5 +764,6 @@ var threatdata = {
                 "Chrysaor"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

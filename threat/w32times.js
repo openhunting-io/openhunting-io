@@ -25,7 +25,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "w32times",
     "analysis": null,
     "articles": [
@@ -39,5 +38,6 @@ var threatdata = {
                 "w32times"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

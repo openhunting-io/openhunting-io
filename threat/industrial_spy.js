@@ -22,7 +22,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "industrial_spy",
     "analysis": null,
     "articles": [
@@ -36,5 +35,6 @@ var threatdata = {
                 "Industrial Spy"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

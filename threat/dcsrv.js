@@ -34,6 +34,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "dcsrv",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/",
+            "date": "2021-11-15",
+            "organization": "Check Point Research",
+            "author": "Check Point Research",
+            "title": "Uncovering MosesStaff techniques: Ideology over Money",
+            "categories": [
+                "DCSrv",
+                "MosesStaff"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "dcsrv",
@@ -149,21 +164,6 @@ var threatdata = {
                     "technique_description": "adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. operating systems may contain commands to initiate a shutdown/reboot of a machine or network device. in some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer or network device via network device cli (e.g. reload).",
                     "procedure_description": "dcsrv has a function to sleep for two hours before rebooting the system.[8]"
                 }
-            ]
-        }
-    ],
-    "file_name": "dcsrv",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/",
-            "date": "2021-11-15",
-            "organization": "Check Point Research",
-            "author": "Check Point Research",
-            "title": "Uncovering MosesStaff techniques: Ideology over Money",
-            "categories": [
-                "DCSrv",
-                "MosesStaff"
             ]
         }
     ]

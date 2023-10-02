@@ -35,6 +35,32 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "backconfig",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/thirstygemini/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Thirsty Gemini",
+            "categories": [
+                "BackConfig",
+                "QUILTED TIGER"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/threat-assessment-hangover-threat-group/",
+            "date": "2020-06-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Doel Santos",
+            "title": "Threat Assessment: Hangover Threat Group",
+            "categories": [
+                "BackConfig",
+                "VICEROY TIGER"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "backconfig",
@@ -258,32 +284,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "backconfig can download and execute additional payloads on a compromised host.[48]"
                 }
-            ]
-        }
-    ],
-    "file_name": "backconfig",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/thirstygemini/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Thirsty Gemini",
-            "categories": [
-                "BackConfig",
-                "QUILTED TIGER"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/threat-assessment-hangover-threat-group/",
-            "date": "2020-06-03",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Doel Santos",
-            "title": "Threat Assessment: Hangover Threat Group",
-            "categories": [
-                "BackConfig",
-                "VICEROY TIGER"
             ]
         }
     ]

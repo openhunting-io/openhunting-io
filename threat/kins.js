@@ -39,6 +39,41 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "kins",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/nyx0/KINS",
+            "date": "2015-02-25",
+            "organization": "Github (nyx0)",
+            "author": "unknown",
+            "title": "KINS Banking Trojan Source Code",
+            "categories": [
+                "KINS"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/zeus-maple-variant-targets-canadian-online-banking-customers/",
+            "date": "2014-06-09",
+            "organization": "SecurityIntelligence",
+            "author": "Dana Tamir",
+            "title": "ZeuS.Maple Variant Targets Canadian Online Banking Customers",
+            "categories": [
+                "KINS"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2014/02/hiding-in-plain-sight-a-story-about-a-sneaky-banking-trojan/",
+            "date": "2014-02-17",
+            "organization": "Malwarebytes",
+            "author": "J\u00e9r\u00f4me Segura",
+            "title": "Hiding in plain sight: a story about a sneaky banking Trojan",
+            "categories": [
+                "KINS",
+                "VM Zeus"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "net",
@@ -226,41 +261,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "kins",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://github.com/nyx0/KINS",
-            "date": "2015-02-25",
-            "organization": "Github (nyx0)",
-            "author": "unknown",
-            "title": "KINS Banking Trojan Source Code",
-            "categories": [
-                "KINS"
-            ]
-        },
-        {
-            "data_url": "https://securityintelligence.com/zeus-maple-variant-targets-canadian-online-banking-customers/",
-            "date": "2014-06-09",
-            "organization": "SecurityIntelligence",
-            "author": "Dana Tamir",
-            "title": "ZeuS.Maple Variant Targets Canadian Online Banking Customers",
-            "categories": [
-                "KINS"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2014/02/hiding-in-plain-sight-a-story-about-a-sneaky-banking-trojan/",
-            "date": "2014-02-17",
-            "organization": "Malwarebytes",
-            "author": "J\u00e9r\u00f4me Segura",
-            "title": "Hiding in plain sight: a story about a sneaky banking Trojan",
-            "categories": [
-                "KINS",
-                "VM Zeus"
             ]
         }
     ]

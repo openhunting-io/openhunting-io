@@ -1,42 +1,188 @@
 var threatdata = {
     "name": "FunnyDream",
-    "alias": "FunnyDream",
-    "category": "Malware",
-    "type": "Backdoor, Dropper, Loader, Exfiltration",
-    "modified": "2022-12-30",
+    "alias": "FunnyDream, Red Hariasa, Bronze Edgewood, TAG-16",
+    "category": "APT",
+    "type": "-",
+    "modified": "2021-12-27",
     "all_data": {
-        "tool": "FunnyDream",
+        "actor": "FunnyDream",
         "names": [
             {
-                "name": "FunnyDream"
+                "name": "FunnyDream",
+                "name-giver": "Kaspersky"
+            },
+            {
+                "name": "Red Hariasa",
+                "name-giver": "PWC"
+            },
+            {
+                "name": "Bronze Edgewood",
+                "name-giver": "SecureWorks"
+            },
+            {
+                "name": "TAG-16",
+                "name-giver": "Recorded Future"
             }
         ],
-        "description": "(Bitdefender) The attackers used the backdoor prevalently as DLL files, but we observed an executable to be used as well. The files we found implement many persistence mechanisms, their droppers and loaders use many different file names for the payload, all of that suggesting that the backdoor is custom made.",
-        "category": "Malware",
-        "type": [
-            "Backdoor",
-            "Dropper",
-            "Loader",
-            "Exfiltration"
+        "country": [
+            "China"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2018",
+        "description": "In early 2020 Kaspersky published a report based on its investigation of an ongoing attack campaign called \u201cFunnyDream\u201d. This Chinese-speaking actor has been active for at least a few years and possesses different implants with various capabilities.\n\nSince mid-2018, researchers at Kaspersky saw continuing high activity from this threat actor and among their targets were a number of high-level government organisations as well as some political parties from various Asian countries including the Philippines, Thailand, Vietnam, and Malaysia.\n\nThe campaign comprises a number of cyber espionage tools with various capabilities. As of the latest monitoring of the global cybersecurity company, FunnyDream's espionage attacks are still ongoing.",
+        "observed-sectors": [
+            "Government"
+        ],
+        "observed-countries": [
+            "Indonesia",
+            "Malaysia",
+            "Philippines",
+            "Taiwan",
+            "Thailand",
+            "Vietnam"
+        ],
+        "tools": [
+            "ccf32",
+            "Chinoxy",
+            "Filepak",
+            "FilepakMonitor",
+            "FunnyDream",
+            "Keyrecord",
+            "Md_client",
+            "PCShare",
+            "ScreenCap",
+            "TcpBridge",
+            "Tcp_transfer",
+            "Living off the Land"
         ],
         "information": [
+            "https://www.digitalnewsasia.com/business/kaspersky-2019-apt-report-cyberspying-groups-hunt-intelligence-sea",
             "https://www.bitdefender.com/files/News/CaseStudies/study/379/Bitdefender-Whitepaper-Chinese-APT.pdf",
-            "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
-            "https://nao-sec.org/2021/01/royal-road-redive.html",
-            "https://insight-jp.nttsecurity.com/post/102glv5/pandas-new-arsenal-part-3-smanager"
+            "https://go.recordedfuture.com/hubfs/reports/cta-2021-1208.pdf"
         ],
-        "mitre-attack": [
-            "https://attack.mitre.org/software/S1044/"
-        ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.funny_dream"
-        ],
-        "uuid": "332c984a-acae-4a4f-98af-8e6f808942c7",
-        "last-card-change": "2022-12-30",
+        "uuid": "816f470d-f2b8-419c-afee-748a60d17eba",
+        "last-card-change": "2021-12-27",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "funnydream",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-1208.pdf",
+            "date": "2021-12-08",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Chinese State-Sponsored Cyber Espionage Activity Supports Expansion of Regional Power and Influence in Southeast Asia",
+            "categories": [
+                "Chinoxy",
+                "FunnyDream"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://nao-sec.org/2021/01/royal-road-redive.html",
+            "date": "2021-01-04",
+            "organization": "nao_sec blog",
+            "author": "nao_sec",
+            "title": "Royal Road! Re:Dive",
+            "categories": [
+                "8.t Dropper",
+                "Chinoxy",
+                "FlowCloud",
+                "FunnyDream",
+                "Lookback"
+            ]
+        },
+        {
+            "data_url": "https://insight-jp.nttsecurity.com/post/102glv5/pandas-new-arsenal-part-3-smanager",
+            "date": "2020-12-11",
+            "organization": "NTT Security",
+            "author": "Hiroki Hada",
+            "title": "Panda\u2019s New Arsenal: Part 3 Smanager",
+            "categories": [
+                "FunnyDream",
+                "SManager",
+                "Tmanger"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/379/Bitdefender-Whitepaper-Chinese-APT.pdf",
+            "date": "2020-11-16",
+            "organization": "Bitdefender",
+            "author": "Victor Vrabie",
+            "title": "Dissecting a Chinese APT Targeting South Eastern Asian Government Institutions",
+            "categories": [
+                "Chinoxy",
+                "FunnyDream"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "funnydream",
@@ -704,121 +850,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "funnydream can execute commands, including gathering user information, and send the results to c2.[47]"
                 }
-            ]
-        }
-    ],
-    "file_name": "funnydream",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-1208.pdf",
-            "date": "2021-12-08",
-            "organization": "Recorded Future",
-            "author": "Insikt Group\u00ae",
-            "title": "Chinese State-Sponsored Cyber Espionage Activity Supports Expansion of Regional Power and Influence in Southeast Asia",
-            "categories": [
-                "Chinoxy",
-                "FunnyDream"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
-            "date": "2021-02-28",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2020: A Year in Retrospect",
-            "categories": [
-                "elf.wellmess",
-                "FlowerPower",
-                "PowGoop",
-                "8.t Dropper",
-                "Agent.BTZ",
-                "Agent Tesla",
-                "Appleseed",
-                "Ave Maria",
-                "Bankshot",
-                "BazarBackdoor",
-                "BLINDINGCAN",
-                "Chinoxy",
-                "Conti",
-                "Cotx RAT",
-                "Crimson RAT",
-                "DUSTMAN",
-                "Emotet",
-                "FriedEx",
-                "FunnyDream",
-                "Hakbit",
-                "Mailto",
-                "Maze",
-                "METALJACK",
-                "Nefilim",
-                "Oblique RAT",
-                "Pay2Key",
-                "PlugX",
-                "QakBot",
-                "REvil",
-                "Ryuk",
-                "StoneDrill",
-                "StrongPity",
-                "SUNBURST",
-                "SUPERNOVA",
-                "TrickBot",
-                "TurlaRPC",
-                "Turla SilentMoon",
-                "WastedLocker",
-                "WellMess",
-                "Winnti",
-                "ZeroCleare",
-                "APT10",
-                "APT23",
-                "APT27",
-                "APT31",
-                "APT41",
-                "BlackTech",
-                "BRONZE EDGEWOOD",
-                "Inception Framework",
-                "MUSTANG PANDA",
-                "Red Charon",
-                "Red Nue",
-                "Sea Turtle",
-                "Tonto Team"
-            ]
-        },
-        {
-            "data_url": "https://nao-sec.org/2021/01/royal-road-redive.html",
-            "date": "2021-01-04",
-            "organization": "nao_sec blog",
-            "author": "nao_sec",
-            "title": "Royal Road! Re:Dive",
-            "categories": [
-                "8.t Dropper",
-                "Chinoxy",
-                "FlowCloud",
-                "FunnyDream",
-                "Lookback"
-            ]
-        },
-        {
-            "data_url": "https://insight-jp.nttsecurity.com/post/102glv5/pandas-new-arsenal-part-3-smanager",
-            "date": "2020-12-11",
-            "organization": "NTT Security",
-            "author": "Hiroki Hada",
-            "title": "Panda\u2019s New Arsenal: Part 3 Smanager",
-            "categories": [
-                "FunnyDream",
-                "SManager",
-                "Tmanger"
-            ]
-        },
-        {
-            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/379/Bitdefender-Whitepaper-Chinese-APT.pdf",
-            "date": "2020-11-16",
-            "organization": "Bitdefender",
-            "author": "Victor Vrabie",
-            "title": "Dissecting a Chinese APT Targeting South Eastern Asian Government Institutions",
-            "categories": [
-                "Chinoxy",
-                "FunnyDream"
             ]
         }
     ]

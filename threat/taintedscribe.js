@@ -32,6 +32,32 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "taintedscribe",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/hidden-cobra",
+            "date": "2020-06-23",
+            "organization": "ReversingLabs",
+            "author": "Karlo Zanki",
+            "title": "Hidden Cobra - from a shed skin to the viper\u2019s nest",
+            "categories": [
+                "Bankshot",
+                "PEBBLEDASH",
+                "TAINTEDSCRIBE"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-133b",
+            "date": "2020-05-12",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "MAR-10288834-2.v1 \u2013 North Korean Trojan: TAINTEDSCRIBE",
+            "categories": [
+                "TAINTEDSCRIBE"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "taintedscribe",
@@ -243,32 +269,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "taintedscribe can download additional modules from its c2 server.[437]"
                 }
-            ]
-        }
-    ],
-    "file_name": "taintedscribe",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.reversinglabs.com/blog/hidden-cobra",
-            "date": "2020-06-23",
-            "organization": "ReversingLabs",
-            "author": "Karlo Zanki",
-            "title": "Hidden Cobra - from a shed skin to the viper\u2019s nest",
-            "categories": [
-                "Bankshot",
-                "PEBBLEDASH",
-                "TAINTEDSCRIBE"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-133b",
-            "date": "2020-05-12",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "MAR-10288834-2.v1 \u2013 North Korean Trojan: TAINTEDSCRIBE",
-            "categories": [
-                "TAINTEDSCRIBE"
             ]
         }
     ]

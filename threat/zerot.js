@@ -31,6 +31,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "zerot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
+            "date": "2017-02-02",
+            "organization": "Proofpoint",
+            "author": "Darien Huss",
+            "title": "Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX",
+            "categories": [
+                "ZeroT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "zerot",
@@ -242,20 +256,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "zerot can download additional payloads onto the victim.[489]"
                 }
-            ]
-        }
-    ],
-    "file_name": "zerot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx",
-            "date": "2017-02-02",
-            "organization": "Proofpoint",
-            "author": "Darien Huss",
-            "title": "Oops, they did it again: APT Targets Russia and Belarus with ZeroT and PlugX",
-            "categories": [
-                "ZeroT"
             ]
         }
     ]

@@ -50,8 +50,8 @@ var threatdata = {
             "malware": "win.bisonal",
             "last_update": "2023-09-20 07:36:22",
             "tags": [
-                "TAG-74",
-                "APT"
+                "APT",
+                "TAG-74"
             ],
             "ioc": {
                 "domain": [
@@ -363,6 +363,194 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-20 07:36:22",
+    "file_name": "bisonal",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.sentinelone.com/labs/targets-of-interest-russian-organizations-increasingly-under-attack-by-chinese-apts/",
+            "date": "2022-07-07",
+            "organization": "Sentinel LABS",
+            "author": "Tom Hegel",
+            "title": "Targets of Interest - Russian Organizations Increasingly Under Attack By Chinese APTs",
+            "categories": [
+                "8.t Dropper",
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=_fstHQSK-kk",
+            "date": "2021-07-08",
+            "organization": "YouTube (PT Product Update)",
+            "author": "Denis Kuvshinov",
+            "title": "How winnti APT grouping works",
+            "categories": [
+                "Korlia",
+                "ShadowPad",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/winnti-shadowpad.pdf",
+            "date": "2021-07-08",
+            "organization": "PTSecurity",
+            "author": "Denis Kuvshinov",
+            "title": "How winnti APT grouping works",
+            "categories": [
+                "Korlia",
+                "ShadowPad",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/upload/corporate/ww-en/pt-esc/winnti-2020-eng.pdf",
+            "date": "2020-09-08",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "ShadowPad: new activity from the Winnti group",
+            "categories": [
+                "CCleaner Backdoor",
+                "Korlia",
+                "ShadowPad",
+                "TypeHash"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
+            "date": "2020-08-13",
+            "organization": "Kaspersky Labs",
+            "author": "Konstantin Zykov",
+            "title": "CactusPete APT group\u2019s updated Bisonal backdoor",
+            "categories": [
+                "Korlia",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2020/vicious-panda-the-covid-campaign/",
+            "date": "2020-03-12",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "Vicious Panda: The COVID Campaign",
+            "categories": [
+                "8.t Dropper",
+                "BYEBY",
+                "Enfal",
+                "Korlia",
+                "Poison Ivy"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+            "date": "2020-03-05",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "Bisonal: 10 years of play",
+            "categories": [
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/1298",
+            "date": "2020-03-05",
+            "organization": "AhnLab",
+            "author": "AhnLab ASEC Analysis Team",
+            "title": "\uc2e0\ucc9c\uc9c0 \ube44\uc0c1\uc5f0\ub77d\ucc98 \uc704\uc7a5\ud55c Bisonal \uc545\uc131\ucf54\ub4dc \uc720\ud3ec \uc911",
+            "categories": [
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html",
+            "date": "2020-01-29",
+            "organization": "nao_sec blog",
+            "author": "nao_sec",
+            "title": "An Overhead View of the Royal Road",
+            "categories": [
+                "BLACKCOFFEE",
+                "Cotx RAT",
+                "Datper",
+                "DDKONG",
+                "Derusbi",
+                "Icefog",
+                "Korlia",
+                "NewCore RAT",
+                "PLAINTEE",
+                "Poison Ivy",
+                "Sisfader"
+            ]
+        },
+        {
+            "data_url": "https://jsac.jpcert.or.jp/archive/2020/pdf/JSAC2020_3_takai_jp.pdf",
+            "date": "2020-01-17",
+            "organization": "NTT Security",
+            "author": "Takai Hajime",
+            "title": "Operation Bitter Biscuit",
+            "categories": [
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-huntley",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE HUNTLEY",
+            "categories": [
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://global.ahnlab.com/global/upload/download/asecreport/ASEC%20REPORT_vol.93_ENG.pdf",
+            "date": "2019-03-22",
+            "organization": "AhnLab",
+            "author": "AhnLab ASEC Analysis Team",
+            "title": "ASEC REPORT VOL.93 Q4 2018",
+            "categories": [
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-bisonal-malware-used-attacks-russia-south-korea/",
+            "date": "2018-07-31",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kaoru Hayashi",
+            "title": "Bisonal Malware Used in Attacks Against Russia and South Korea",
+            "categories": [
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/StefanoMaccaglia/bsides-ir-in-heterogeneous-environment",
+            "date": "2018-05-15",
+            "organization": "BSides Detroit",
+            "author": "Keven Murphy",
+            "title": "IR in Heterogeneous Environment",
+            "categories": [
+                "Korlia",
+                "Poison Ivy"
+            ]
+        },
+        {
+            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2014-11-25-curious-korlia.md",
+            "date": "2014-11-25",
+            "organization": "Adventures in Security",
+            "author": "Nick Hoffman",
+            "title": "Curious Korlia",
+            "categories": [
+                "Korlia"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20130920120931/https:/www.rsaconference.com/writable/presentations/file_upload/cle-t04_final_v1.pdf",
+            "date": "2013",
+            "organization": "FireEye",
+            "author": "Alex Lanstein",
+            "title": "APTs By The Dozen: Dissecting Advanced Attacks",
+            "categories": [
+                "Korlia"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "bisonal",
@@ -826,194 +1014,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "bisonal has added the exfiltrated data to the url over the c2 channel.[14]"
                 }
-            ]
-        }
-    ],
-    "file_name": "bisonal",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.sentinelone.com/labs/targets-of-interest-russian-organizations-increasingly-under-attack-by-chinese-apts/",
-            "date": "2022-07-07",
-            "organization": "Sentinel LABS",
-            "author": "Tom Hegel",
-            "title": "Targets of Interest - Russian Organizations Increasingly Under Attack By Chinese APTs",
-            "categories": [
-                "8.t Dropper",
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=_fstHQSK-kk",
-            "date": "2021-07-08",
-            "organization": "YouTube (PT Product Update)",
-            "author": "Denis Kuvshinov",
-            "title": "How winnti APT grouping works",
-            "categories": [
-                "Korlia",
-                "ShadowPad",
-                "Winnti"
-            ]
-        },
-        {
-            "data_url": "https://www.ptsecurity.com/upload/corporate/ru-ru/webinars/ics/winnti-shadowpad.pdf",
-            "date": "2021-07-08",
-            "organization": "PTSecurity",
-            "author": "Denis Kuvshinov",
-            "title": "How winnti APT grouping works",
-            "categories": [
-                "Korlia",
-                "ShadowPad",
-                "Winnti"
-            ]
-        },
-        {
-            "data_url": "https://www.ptsecurity.com/upload/corporate/ww-en/pt-esc/winnti-2020-eng.pdf",
-            "date": "2020-09-08",
-            "organization": "PTSecurity",
-            "author": "PTSecurity",
-            "title": "ShadowPad: new activity from the Winnti group",
-            "categories": [
-                "CCleaner Backdoor",
-                "Korlia",
-                "ShadowPad",
-                "TypeHash"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
-            "date": "2020-08-13",
-            "organization": "Kaspersky Labs",
-            "author": "Konstantin Zykov",
-            "title": "CactusPete APT group\u2019s updated Bisonal backdoor",
-            "categories": [
-                "Korlia",
-                "Tonto Team"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2020/vicious-panda-the-covid-campaign/",
-            "date": "2020-03-12",
-            "organization": "Check Point",
-            "author": "Check Point Research",
-            "title": "Vicious Panda: The COVID Campaign",
-            "categories": [
-                "8.t Dropper",
-                "BYEBY",
-                "Enfal",
-                "Korlia",
-                "Poison Ivy"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
-            "date": "2020-03-05",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "Bisonal: 10 years of play",
-            "categories": [
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://asec.ahnlab.com/1298",
-            "date": "2020-03-05",
-            "organization": "AhnLab",
-            "author": "AhnLab ASEC Analysis Team",
-            "title": "\uc2e0\ucc9c\uc9c0 \ube44\uc0c1\uc5f0\ub77d\ucc98 \uc704\uc7a5\ud55c Bisonal \uc545\uc131\ucf54\ub4dc \uc720\ud3ec \uc911",
-            "categories": [
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html",
-            "date": "2020-01-29",
-            "organization": "nao_sec blog",
-            "author": "nao_sec",
-            "title": "An Overhead View of the Royal Road",
-            "categories": [
-                "BLACKCOFFEE",
-                "Cotx RAT",
-                "Datper",
-                "DDKONG",
-                "Derusbi",
-                "Icefog",
-                "Korlia",
-                "NewCore RAT",
-                "PLAINTEE",
-                "Poison Ivy",
-                "Sisfader"
-            ]
-        },
-        {
-            "data_url": "https://jsac.jpcert.or.jp/archive/2020/pdf/JSAC2020_3_takai_jp.pdf",
-            "date": "2020-01-17",
-            "organization": "NTT Security",
-            "author": "Takai Hajime",
-            "title": "Operation Bitter Biscuit",
-            "categories": [
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-huntley",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE HUNTLEY",
-            "categories": [
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://global.ahnlab.com/global/upload/download/asecreport/ASEC%20REPORT_vol.93_ENG.pdf",
-            "date": "2019-03-22",
-            "organization": "AhnLab",
-            "author": "AhnLab ASEC Analysis Team",
-            "title": "ASEC REPORT VOL.93 Q4 2018",
-            "categories": [
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-bisonal-malware-used-attacks-russia-south-korea/",
-            "date": "2018-07-31",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Kaoru Hayashi",
-            "title": "Bisonal Malware Used in Attacks Against Russia and South Korea",
-            "categories": [
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://www.slideshare.net/StefanoMaccaglia/bsides-ir-in-heterogeneous-environment",
-            "date": "2018-05-15",
-            "organization": "BSides Detroit",
-            "author": "Keven Murphy",
-            "title": "IR in Heterogeneous Environment",
-            "categories": [
-                "Korlia",
-                "Poison Ivy"
-            ]
-        },
-        {
-            "data_url": "https://github.com/malware-kitten/securitykitten.github.io/blob/master/_posts/2014-11-25-curious-korlia.md",
-            "date": "2014-11-25",
-            "organization": "Adventures in Security",
-            "author": "Nick Hoffman",
-            "title": "Curious Korlia",
-            "categories": [
-                "Korlia"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20130920120931/https:/www.rsaconference.com/writable/presentations/file_upload/cle-t04_final_v1.pdf",
-            "date": "2013",
-            "organization": "FireEye",
-            "author": "Alex Lanstein",
-            "title": "APTs By The Dozen: Dissecting Advanced Attacks",
-            "categories": [
-                "Korlia"
             ]
         }
     ]

@@ -65,88 +65,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "hellokitty",
-            "procedure_code": "s0617",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0617",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1047",
-                    "technique_link": "https://attack.mitre.org/techniques/T1047",
-                    "technique_name": "windows management instrumentation",
-                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
-                    "procedure_description": "hellokitty can use wmi to delete volume shadow copies.[34]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1135",
-                    "technique_link": "https://attack.mitre.org/techniques/T1135",
-                    "technique_name": "network share discovery",
-                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
-                    "procedure_description": "hellokitty has the ability to enumerate network resources.[28]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1057",
-                    "technique_link": "https://attack.mitre.org/techniques/T1057",
-                    "technique_name": "process discovery",
-                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "hellokitty can search for specific processes to terminate.[121]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1082",
-                    "technique_link": "https://attack.mitre.org/techniques/T1082",
-                    "technique_name": "system information discovery",
-                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "hellokitty can enumerate logical drives on a target system.[109]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1486",
-                    "technique_link": "https://attack.mitre.org/techniques/T1486",
-                    "technique_name": "data encrypted for impact",
-                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
-                    "procedure_description": "hellokitty can use an embedded rsa-2048 public key to encrypt victim data for ransom.[41]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1490",
-                    "technique_link": "https://attack.mitre.org/techniques/T1490",
-                    "technique_name": "inhibit system recovery",
-                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
-                    "procedure_description": "hellokitty can delete volume shadow copies on compromised hosts.[26]"
-                }
-            ]
-        }
-    ],
     "file_name": "hellokitty",
     "articles": [
         {
@@ -558,6 +476,88 @@ var threatdata = {
             "title": "HelloKitty Ransomware",
             "categories": [
                 "HelloKitty"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "hellokitty",
+            "procedure_code": "s0617",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0617",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1047",
+                    "technique_link": "https://attack.mitre.org/techniques/T1047",
+                    "technique_name": "windows management instrumentation",
+                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
+                    "procedure_description": "hellokitty can use wmi to delete volume shadow copies.[34]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1135",
+                    "technique_link": "https://attack.mitre.org/techniques/T1135",
+                    "technique_name": "network share discovery",
+                    "technique_description": "adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for collection and to identify potential systems of interest for lateral movement. networks often contain shared network drives and folders that enable users to access file directories on various systems across a network.",
+                    "procedure_description": "hellokitty has the ability to enumerate network resources.[28]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "hellokitty can search for specific processes to terminate.[121]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "hellokitty can enumerate logical drives on a target system.[109]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "hellokitty can use an embedded rsa-2048 public key to encrypt victim data for ransom.[41]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1490",
+                    "technique_link": "https://attack.mitre.org/techniques/T1490",
+                    "technique_name": "inhibit system recovery",
+                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
+                    "procedure_description": "hellokitty can delete volume shadow copies on compromised hosts.[26]"
+                }
             ]
         }
     ]

@@ -53,6 +53,52 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "evilgrab_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://app.box.com/s/z1uanuv1vn3vw5iket1r6bqrmlra0gpn",
+            "date": "2015-08",
+            "organization": "Arbor Networks",
+            "author": "ASERT Team",
+            "title": "Uncovering the Seven Pointed Dagger",
+            "categories": [
+                "9002 RAT",
+                "EvilGrab",
+                "PlugX",
+                "Trochilus RAT",
+                "APT9"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
+            "date": "2015-02-06",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "CrowdStrike Global Threat Intel Report 2014",
+            "categories": [
+                "BlackPOS",
+                "CryptoLocker",
+                "Derusbi",
+                "Elise",
+                "Enfal",
+                "EvilGrab",
+                "Gameover P2P",
+                "HttpBrowser",
+                "Medusa",
+                "Mirage",
+                "Naikon",
+                "NetTraveler",
+                "pirpi",
+                "PlugX",
+                "Poison Ivy",
+                "Sakula RAT",
+                "Sinowal",
+                "sykipot",
+                "taidoor"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -188,52 +234,6 @@ var threatdata = {
                     "technique_description": "an adversary can leverage a computer's peripheral devices (e.g., integrated cameras or webcams) or applications (e.g., video call services) to capture video recordings for the purpose of gathering information. images may also be captured from devices or applications, potentially in specified intervals, in lieu of video files.",
                     "procedure_description": "evilgrab has the capability to capture video from a victim machine.[15]"
                 }
-            ]
-        }
-    ],
-    "file_name": "evilgrab_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://app.box.com/s/z1uanuv1vn3vw5iket1r6bqrmlra0gpn",
-            "date": "2015-08",
-            "organization": "Arbor Networks",
-            "author": "ASERT Team",
-            "title": "Uncovering the Seven Pointed Dagger",
-            "categories": [
-                "9002 RAT",
-                "EvilGrab",
-                "PlugX",
-                "Trochilus RAT",
-                "APT9"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
-            "date": "2015-02-06",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "CrowdStrike Global Threat Intel Report 2014",
-            "categories": [
-                "BlackPOS",
-                "CryptoLocker",
-                "Derusbi",
-                "Elise",
-                "Enfal",
-                "EvilGrab",
-                "Gameover P2P",
-                "HttpBrowser",
-                "Medusa",
-                "Mirage",
-                "Naikon",
-                "NetTraveler",
-                "pirpi",
-                "PlugX",
-                "Poison Ivy",
-                "Sakula RAT",
-                "Sinowal",
-                "sykipot",
-                "taidoor"
             ]
         }
     ]

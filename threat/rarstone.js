@@ -33,6 +33,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rarstone",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "rarstone",
@@ -102,8 +105,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "rarstone",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "cashy200",
     "analysis": null,
     "articles": [
@@ -55,5 +54,6 @@ var threatdata = {
                 "CASHY200"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

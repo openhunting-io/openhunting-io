@@ -48,6 +48,125 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "neutrino",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/01/vb2019-paper-rich-headers-leveraging-mysterious-artifact-pe-format/",
+            "date": "2020-01-31",
+            "organization": "Virus Bulletin",
+            "author": "Michal Poslu\u0161n\u00fd",
+            "title": "Rich Headers: leveraging this mysterious artifact of the PE format",
+            "categories": [
+                "Dridex",
+                "Exaramel",
+                "Industroyer",
+                "Neutrino",
+                "RCS",
+                "Sathurbot"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20191223034907/http://blog.ptsecurity.com/2019/08/finding-neutrino.html",
+            "date": "2019-08-21",
+            "organization": "Positive Technologies",
+            "author": "Kirill Shipulin",
+            "title": "Finding Neutrino",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "https://journal.cecyf.fr/ojs/index.php/cybin/article/view/22",
+            "date": "2018-12-10",
+            "organization": "Botconf",
+            "author": "Jakub Sou\u010dek",
+            "title": "Collecting Malicious Particles from Neutrino Botnets",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "https://securityblog.switch.ch/2017/07/07/94-ch-li-domain-names-hijacked-and-used-for-drive-by/",
+            "date": "2017-07-07",
+            "organization": "SWITCH Security Blog",
+            "author": "Michael Hausding",
+            "title": "94 .ch & .li domain names hijacked and used for drive-by",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "https://malwarebreakdown.com/2017/04/03/shadow-server-domains-leads-to-rig-exploit-kit-dropping-smoke-loader-which-downloads-neutrino-bot-aka-kasidet",
+            "date": "2017-04-03",
+            "organization": "Malware Breakdown",
+            "author": "MalwareBreakdown",
+            "title": "Shadow Server Domains Leading to RIG Exploit Kit Dropping Smoke Loader. Downloaded Neutrino Bot (AKA Kasidet).",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/02/new-neutrino-bot-comes-in-a-protective-loader/",
+            "date": "2017-02-27",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "New Neutrino Bot comes in a protective loader",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/cybercrime/2017/01/post-holiday-spam-campaign-delivers-neutrino-bot/",
+            "date": "2017-01-11",
+            "organization": "Malwarebytes",
+            "author": "J\u00e9r\u00f4me Segura",
+            "title": "Post-holiday spam campaign delivers Neutrino Bot",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/research/malicious-office-files-dropping-kasidet-and-dridex",
+            "date": "2016-01-29",
+            "organization": "Zscaler",
+            "author": "Nirmal Singh",
+            "title": "Malicious Office Files Dropping Kasidet And Dridex",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/credit-card-scraping-kasidet-builder-leads-to-spike-in-detections/",
+            "date": "2015-09-24",
+            "organization": "Trend Micro",
+            "author": "RonJay Caragay",
+            "title": "Credit Card-Scraping Kasidet Builder Leads to Spike in Detections",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2015/08/inside-neutrino-botnet-builder/",
+            "date": "2015-08-19",
+            "organization": "Malwarebytes",
+            "author": "hasherezade",
+            "title": "Inside Neutrino botnet builder",
+            "categories": [
+                "Neutrino"
+            ]
+        },
+        {
+            "data_url": "http://malware.dontneedcoffee.com/2014/06/neutrino-bot-aka-kasidet.html",
+            "date": "2014-06-18",
+            "organization": "Malware Don't Need Coffee",
+            "author": "Kafeine",
+            "title": "Neutrino Bot (aka MS:Win32/Kasidet)",
+            "categories": [
+                "Neutrino"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "kasidet",
@@ -199,125 +318,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "kasidet has the ability to download and execute additional files.[237]"
                 }
-            ]
-        }
-    ],
-    "file_name": "neutrino",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/01/vb2019-paper-rich-headers-leveraging-mysterious-artifact-pe-format/",
-            "date": "2020-01-31",
-            "organization": "Virus Bulletin",
-            "author": "Michal Poslu\u0161n\u00fd",
-            "title": "Rich Headers: leveraging this mysterious artifact of the PE format",
-            "categories": [
-                "Dridex",
-                "Exaramel",
-                "Industroyer",
-                "Neutrino",
-                "RCS",
-                "Sathurbot"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20191223034907/http://blog.ptsecurity.com/2019/08/finding-neutrino.html",
-            "date": "2019-08-21",
-            "organization": "Positive Technologies",
-            "author": "Kirill Shipulin",
-            "title": "Finding Neutrino",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "https://journal.cecyf.fr/ojs/index.php/cybin/article/view/22",
-            "date": "2018-12-10",
-            "organization": "Botconf",
-            "author": "Jakub Sou\u010dek",
-            "title": "Collecting Malicious Particles from Neutrino Botnets",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "https://securityblog.switch.ch/2017/07/07/94-ch-li-domain-names-hijacked-and-used-for-drive-by/",
-            "date": "2017-07-07",
-            "organization": "SWITCH Security Blog",
-            "author": "Michael Hausding",
-            "title": "94 .ch & .li domain names hijacked and used for drive-by",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "https://malwarebreakdown.com/2017/04/03/shadow-server-domains-leads-to-rig-exploit-kit-dropping-smoke-loader-which-downloads-neutrino-bot-aka-kasidet",
-            "date": "2017-04-03",
-            "organization": "Malware Breakdown",
-            "author": "MalwareBreakdown",
-            "title": "Shadow Server Domains Leading to RIG Exploit Kit Dropping Smoke Loader. Downloaded Neutrino Bot (AKA Kasidet).",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2017/02/new-neutrino-bot-comes-in-a-protective-loader/",
-            "date": "2017-02-27",
-            "organization": "Malwarebytes",
-            "author": "Malwarebytes Labs",
-            "title": "New Neutrino Bot comes in a protective loader",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/cybercrime/2017/01/post-holiday-spam-campaign-delivers-neutrino-bot/",
-            "date": "2017-01-11",
-            "organization": "Malwarebytes",
-            "author": "J\u00e9r\u00f4me Segura",
-            "title": "Post-holiday spam campaign delivers Neutrino Bot",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "https://www.zscaler.com/blogs/research/malicious-office-files-dropping-kasidet-and-dridex",
-            "date": "2016-01-29",
-            "organization": "Zscaler",
-            "author": "Nirmal Singh",
-            "title": "Malicious Office Files Dropping Kasidet And Dridex",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/credit-card-scraping-kasidet-builder-leads-to-spike-in-detections/",
-            "date": "2015-09-24",
-            "organization": "Trend Micro",
-            "author": "RonJay Caragay",
-            "title": "Credit Card-Scraping Kasidet Builder Leads to Spike in Detections",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2015/08/inside-neutrino-botnet-builder/",
-            "date": "2015-08-19",
-            "organization": "Malwarebytes",
-            "author": "hasherezade",
-            "title": "Inside Neutrino botnet builder",
-            "categories": [
-                "Neutrino"
-            ]
-        },
-        {
-            "data_url": "http://malware.dontneedcoffee.com/2014/06/neutrino-bot-aka-kasidet.html",
-            "date": "2014-06-18",
-            "organization": "Malware Don't Need Coffee",
-            "author": "Kafeine",
-            "title": "Neutrino Bot (aka MS:Win32/Kasidet)",
-            "categories": [
-                "Neutrino"
             ]
         }
     ]

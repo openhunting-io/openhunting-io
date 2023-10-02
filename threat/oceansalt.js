@@ -32,6 +32,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "oceansalt",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf",
+            "date": "2018-10-18",
+            "organization": "McAfee",
+            "author": "Ryan Sherstobitoff",
+            "title": "\u2018Operation Oceansalt\u2019 Attacks South Korea, U.S., and Canada With Source Code From Chinese Hacker Group",
+            "categories": [
+                "Oceansalt",
+                "APT1"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "oceansalt",
@@ -135,21 +150,6 @@ var threatdata = {
                     "technique_description": "adversaries may encode data with a non-standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a non-standard data encoding system that diverges from existing protocol specifications. non-standard data encoding schemes may be based on or related to standard data encoding schemes, such as a modified base64 encoding for the message body of an http request.",
                     "procedure_description": "oceansalt can encode data with a not operation before sending the data to the control server.[7]"
                 }
-            ]
-        }
-    ],
-    "file_name": "oceansalt",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-oceansalt.pdf",
-            "date": "2018-10-18",
-            "organization": "McAfee",
-            "author": "Ryan Sherstobitoff",
-            "title": "\u2018Operation Oceansalt\u2019 Attacks South Korea, U.S., and Canada With Source Code From Chinese Hacker Group",
-            "categories": [
-                "Oceansalt",
-                "APT1"
             ]
         }
     ]

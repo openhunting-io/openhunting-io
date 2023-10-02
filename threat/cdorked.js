@@ -36,7 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "cdorked",
     "analysis": null,
     "articles": [
@@ -90,5 +89,6 @@ var threatdata = {
                 "CDorked"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

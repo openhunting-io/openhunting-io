@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "empirednsagent",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "empire",
@@ -1238,8 +1241,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "empirednsagent",
-    "analysis": null,
-    "articles": []
+    ]
 };

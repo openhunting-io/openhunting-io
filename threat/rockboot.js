@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rockboot",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "rockboot",
@@ -61,8 +64,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "rockboot",
-    "analysis": null,
-    "articles": []
+    ]
 };

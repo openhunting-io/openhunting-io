@@ -38,6 +38,82 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "yty",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/",
+            "date": "2022-01-18",
+            "organization": "ESET Research",
+            "author": "Facundo Mu\u00f1oz",
+            "title": "DoNot Go! Do not respawn!",
+            "categories": [
+                "yty"
+            ]
+        },
+        {
+            "data_url": "https://www.amnesty.org/en/wp-content/uploads/2021/10/AFR5747562021ENGLISH.pdf",
+            "date": "2021-10-07",
+            "organization": "Amnesty International",
+            "author": "Amnesty International",
+            "title": "Hackers-for-Hire in West Africa - Activist in Togo attacked with Indian-made Spyware",
+            "categories": [
+                "yty"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/zinc-emerson",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "ZINC EMERSON",
+            "categories": [
+                "yty",
+                "QUILTED TIGER"
+            ]
+        },
+        {
+            "data_url": "http://blog.ptsecurity.com/2019/11/studying-donot-team.html",
+            "date": "2019-11-15",
+            "organization": "Positive Technologies",
+            "author": "Positive Technologies",
+            "title": "Studying Donot Team",
+            "categories": [
+                "yty"
+            ]
+        },
+        {
+            "data_url": "https://threatrecon.nshc.net/2019/08/02/sectore02-updates-yty-framework-in-new-targeted-campaign-against-pakistan-government/",
+            "date": "2019-08-02",
+            "organization": "NSHC",
+            "author": "ThreatRecon Team",
+            "title": "SectorE02 Updates YTY Framework in New Targeted Campaign Against Pakistan Government",
+            "categories": [
+                "yty"
+            ]
+        },
+        {
+            "data_url": "https://ti.360.net/blog/articles/latest-activity-of-apt-c-35/",
+            "date": "2018-07-26",
+            "organization": "",
+            "author": "\u5947\u5b89\u4fe1\u5a01\u80c1\u60c5\u62a5\u4e2d\u5fc3 | \u4e8b\u4ef6\u8ffd\u8e2a",
+            "title": "Analysis of the latest attack activities of APT-C-35",
+            "categories": [
+                "yty",
+                "VICEROY TIGER"
+            ]
+        },
+        {
+            "data_url": "https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/",
+            "date": "2018-03-08",
+            "organization": "NetScout",
+            "author": "ASERT Team",
+            "title": "Donot Team Leverages New Modular Malware Framework in South Asia",
+            "categories": [
+                "yty"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "yty",
@@ -261,82 +337,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an existing, legitimate external web service as a means for sending commands to and receiving output from a compromised system over the web service channel. compromised systems may leverage popular websites and social media to host command and control (c2) instructions. those infected systems can then send the output from those commands back over that web service channel. the return traffic may occur in a variety of ways, depending on the web service being utilized. for example, the return traffic may take the form of the compromised system posting a comment on a forum, issuing a pull request to development project, updating a document hosted on a web service, or by sending a tweet.",
                     "procedure_description": "yty communicates to the c2 server by retrieving a google doc.[51]"
                 }
-            ]
-        }
-    ],
-    "file_name": "yty",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/",
-            "date": "2022-01-18",
-            "organization": "ESET Research",
-            "author": "Facundo Mu\u00f1oz",
-            "title": "DoNot Go! Do not respawn!",
-            "categories": [
-                "yty"
-            ]
-        },
-        {
-            "data_url": "https://www.amnesty.org/en/wp-content/uploads/2021/10/AFR5747562021ENGLISH.pdf",
-            "date": "2021-10-07",
-            "organization": "Amnesty International",
-            "author": "Amnesty International",
-            "title": "Hackers-for-Hire in West Africa - Activist in Togo attacked with Indian-made Spyware",
-            "categories": [
-                "yty"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/zinc-emerson",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "ZINC EMERSON",
-            "categories": [
-                "yty",
-                "QUILTED TIGER"
-            ]
-        },
-        {
-            "data_url": "http://blog.ptsecurity.com/2019/11/studying-donot-team.html",
-            "date": "2019-11-15",
-            "organization": "Positive Technologies",
-            "author": "Positive Technologies",
-            "title": "Studying Donot Team",
-            "categories": [
-                "yty"
-            ]
-        },
-        {
-            "data_url": "https://threatrecon.nshc.net/2019/08/02/sectore02-updates-yty-framework-in-new-targeted-campaign-against-pakistan-government/",
-            "date": "2019-08-02",
-            "organization": "NSHC",
-            "author": "ThreatRecon Team",
-            "title": "SectorE02 Updates YTY Framework in New Targeted Campaign Against Pakistan Government",
-            "categories": [
-                "yty"
-            ]
-        },
-        {
-            "data_url": "https://ti.360.net/blog/articles/latest-activity-of-apt-c-35/",
-            "date": "2018-07-26",
-            "organization": "",
-            "author": "\u5947\u5b89\u4fe1\u5a01\u80c1\u60c5\u62a5\u4e2d\u5fc3 | \u4e8b\u4ef6\u8ffd\u8e2a",
-            "title": "Analysis of the latest attack activities of APT-C-35",
-            "categories": [
-                "yty",
-                "VICEROY TIGER"
-            ]
-        },
-        {
-            "data_url": "https://www.arbornetworks.com/blog/asert/donot-team-leverages-new-modular-malware-framework-south-asia/",
-            "date": "2018-03-08",
-            "organization": "NetScout",
-            "author": "ASERT Team",
-            "title": "Donot Team Leverages New Modular Malware Framework in South Asia",
-            "categories": [
-                "yty"
             ]
         }
     ]

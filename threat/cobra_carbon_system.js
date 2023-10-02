@@ -41,6 +41,253 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cobra_carbon_system",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a",
+            "date": "2023-05-09",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Hunting Russian Intelligence \u201cSnake\u201d Malware",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity",
+            "date": "2020-10-28",
+            "organization": "Accenture",
+            "author": "Cyber Defense",
+            "title": "Turla uses HyperStack, Carbon, and Kazuar to compromise government entity",
+            "categories": [
+                "Cobra Carbon System",
+                "Kazuar",
+                "TurlaRPC",
+                "Turla SilentMoon"
+            ]
+        },
+        {
+            "data_url": "https://github.com/sisoma2/malware_analysis/tree/master/turla_carbon",
+            "date": "2020-09-25",
+            "organization": "Github (sisoma2)",
+            "author": "Marc",
+            "title": "Turla Carbon System",
+            "categories": [
+                "Cobra Carbon System"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=FttiysUZmDw",
+            "date": "2020-07-21",
+            "organization": "YouTube ( OPCDE with Matt Suiche)",
+            "author": "Mohamad Mokbel",
+            "title": "vOPCDE #9 - A Journey into Malware HTTP Communication Channels Spectacles (Mohamad Mokbel)",
+            "categories": [
+                "Alureon",
+                "Aytoke",
+                "Cobra Carbon System",
+                "CROSSWALK",
+                "danbot",
+                "ProtonBot",
+                "Silence"
+            ]
+        },
+        {
+            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+            "date": "2020-03-04",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "2020 CrowdStrike Global Threat Report",
+            "categories": [
+                "MESSAGETAP",
+                "More_eggs",
+                "8.t Dropper",
+                "Anchor",
+                "BabyShark",
+                "BadNews",
+                "Clop",
+                "Cobalt Strike",
+                "CobInt",
+                "Cobra Carbon System",
+                "Cutwail",
+                "DanaBot",
+                "Dharma",
+                "DoppelDridex",
+                "DoppelPaymer",
+                "Dridex",
+                "Emotet",
+                "FlawedAmmyy",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "IcedID",
+                "ISFB",
+                "KerrDown",
+                "LightNeuron",
+                "LockerGoga",
+                "Maze",
+                "MECHANICAL",
+                "Necurs",
+                "Nokki",
+                "Outlook Backdoor",
+                "Phobos",
+                "Predator The Thief",
+                "QakBot",
+                "REvil",
+                "RobinHood",
+                "Ryuk",
+                "SDBbot",
+                "Skipper",
+                "SmokeLoader",
+                "TerraRecon",
+                "TerraStealer",
+                "TerraTV",
+                "TinyLoader",
+                "TrickBot",
+                "Vidar",
+                "Winnti",
+                "ANTHROPOID SPIDER",
+                "APT23",
+                "APT31",
+                "APT39",
+                "APT40",
+                "BlackTech",
+                "BuhTrap",
+                "Charming Kitten",
+                "CLOCKWORK SPIDER",
+                "DOPPEL SPIDER",
+                "FIN7",
+                "Gamaredon Group",
+                "GOBLIN PANDA",
+                "MONTY SPIDER",
+                "MUSTANG PANDA",
+                "NARWHAL SPIDER",
+                "NOCTURNAL SPIDER",
+                "PINCHY SPIDER",
+                "SALTY SPIDER",
+                "SCULLY SPIDER",
+                "SMOKY SPIDER",
+                "Thrip",
+                "VENOM SPIDER",
+                "VICEROY TIGER"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hunter",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON HUNTER",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "LightNeuron",
+                "Mosquito",
+                "Nautilus",
+                "Neuron",
+                "Skipper",
+                "Uroburos",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://github.com/hfiref0x/TDL",
+            "date": "2019-04-19",
+            "organization": "Github (hfiref0x)",
+            "author": "hfiref0x",
+            "title": "TDL (Turla Driver Loader) Repository",
+            "categories": [
+                "Cobra Carbon System"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/shedding-skin-turlas-fresh-faces/88069/",
+            "date": "2018-10-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Shedding Skin \u2013 Turla\u2019s Fresh Faces",
+            "categories": [
+                "KopiLuwak",
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Gazer",
+                "Meterpreter",
+                "Mosquito",
+                "Skipper"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/",
+            "date": "2017-03-30",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Carbon Paper: Peering into Turla\u2019s second stage backdoor",
+            "categories": [
+                "Cobra Carbon System",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.govcert.ch/downloads/whitepapers/Report_Ruag-Espionage-Case.pdf",
+            "date": "2016-05-23",
+            "organization": "MELANI GovCERT",
+            "author": "GovCERT.ch",
+            "title": "APT Case RUAG - Technical Report",
+            "categories": [
+                "Cobra Carbon System"
+            ]
+        },
+        {
+            "data_url": "https://docs.broadcom.com/doc/waterbug-attack-group",
+            "date": "2016-01-14",
+            "organization": "Symantec",
+            "author": "Security Response",
+            "title": "The Waterbug attack group",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Wipbot"
+            ]
+        },
+        {
+            "data_url": "https://blog.gdatasoftware.com/2015/01/23926-analysis-of-project-cobra",
+            "date": "2015-01-20",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "Analysis of Project Cobra",
+            "categories": [
+                "Cobra Carbon System"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/analysis/publications/65545/the-epic-turla-operation/",
+            "date": "2014-08-07",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "The Epic Turla Operation",
+            "categories": [
+                "Cobra Carbon System",
+                "Uroburos",
+                "Wipbot",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.circl.lu/pub/tr-25/",
+            "date": "2014",
+            "organization": "circl.lu",
+            "author": "CIRCL",
+            "title": "TR-25 Analysis - Turla / Pfinet / Snake/ Uroburos",
+            "categories": [
+                "Cobra Carbon System",
+                "Uroburos",
+                "Turla"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "carbon",
@@ -500,253 +747,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cobra_carbon_system",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a",
-            "date": "2023-05-09",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "Hunting Russian Intelligence \u201cSnake\u201d Malware",
-            "categories": [
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity",
-            "date": "2020-10-28",
-            "organization": "Accenture",
-            "author": "Cyber Defense",
-            "title": "Turla uses HyperStack, Carbon, and Kazuar to compromise government entity",
-            "categories": [
-                "Cobra Carbon System",
-                "Kazuar",
-                "TurlaRPC",
-                "Turla SilentMoon"
-            ]
-        },
-        {
-            "data_url": "https://github.com/sisoma2/malware_analysis/tree/master/turla_carbon",
-            "date": "2020-09-25",
-            "organization": "Github (sisoma2)",
-            "author": "Marc",
-            "title": "Turla Carbon System",
-            "categories": [
-                "Cobra Carbon System"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=FttiysUZmDw",
-            "date": "2020-07-21",
-            "organization": "YouTube ( OPCDE with Matt Suiche)",
-            "author": "Mohamad Mokbel",
-            "title": "vOPCDE #9 - A Journey into Malware HTTP Communication Channels Spectacles (Mohamad Mokbel)",
-            "categories": [
-                "Alureon",
-                "Aytoke",
-                "Cobra Carbon System",
-                "CROSSWALK",
-                "danbot",
-                "ProtonBot",
-                "Silence"
-            ]
-        },
-        {
-            "data_url": "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
-            "date": "2020-03-04",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "2020 CrowdStrike Global Threat Report",
-            "categories": [
-                "MESSAGETAP",
-                "More_eggs",
-                "8.t Dropper",
-                "Anchor",
-                "BabyShark",
-                "BadNews",
-                "Clop",
-                "Cobalt Strike",
-                "CobInt",
-                "Cobra Carbon System",
-                "Cutwail",
-                "DanaBot",
-                "Dharma",
-                "DoppelDridex",
-                "DoppelPaymer",
-                "Dridex",
-                "Emotet",
-                "FlawedAmmyy",
-                "FriedEx",
-                "Gandcrab",
-                "Get2",
-                "IcedID",
-                "ISFB",
-                "KerrDown",
-                "LightNeuron",
-                "LockerGoga",
-                "Maze",
-                "MECHANICAL",
-                "Necurs",
-                "Nokki",
-                "Outlook Backdoor",
-                "Phobos",
-                "Predator The Thief",
-                "QakBot",
-                "REvil",
-                "RobinHood",
-                "Ryuk",
-                "SDBbot",
-                "Skipper",
-                "SmokeLoader",
-                "TerraRecon",
-                "TerraStealer",
-                "TerraTV",
-                "TinyLoader",
-                "TrickBot",
-                "Vidar",
-                "Winnti",
-                "ANTHROPOID SPIDER",
-                "APT23",
-                "APT31",
-                "APT39",
-                "APT40",
-                "BlackTech",
-                "BuhTrap",
-                "Charming Kitten",
-                "CLOCKWORK SPIDER",
-                "DOPPEL SPIDER",
-                "FIN7",
-                "Gamaredon Group",
-                "GOBLIN PANDA",
-                "MONTY SPIDER",
-                "MUSTANG PANDA",
-                "NARWHAL SPIDER",
-                "NOCTURNAL SPIDER",
-                "PINCHY SPIDER",
-                "SALTY SPIDER",
-                "SCULLY SPIDER",
-                "SMOKY SPIDER",
-                "Thrip",
-                "VENOM SPIDER",
-                "VICEROY TIGER"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hunter",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON HUNTER",
-            "categories": [
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "LightNeuron",
-                "Mosquito",
-                "Nautilus",
-                "Neuron",
-                "Skipper",
-                "Uroburos",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://github.com/hfiref0x/TDL",
-            "date": "2019-04-19",
-            "organization": "Github (hfiref0x)",
-            "author": "hfiref0x",
-            "title": "TDL (Turla Driver Loader) Repository",
-            "categories": [
-                "Cobra Carbon System"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/shedding-skin-turlas-fresh-faces/88069/",
-            "date": "2018-10-04",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Shedding Skin \u2013 Turla\u2019s Fresh Faces",
-            "categories": [
-                "KopiLuwak",
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "Gazer",
-                "Meterpreter",
-                "Mosquito",
-                "Skipper"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/",
-            "date": "2017-03-30",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Carbon Paper: Peering into Turla\u2019s second stage backdoor",
-            "categories": [
-                "Cobra Carbon System",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.govcert.ch/downloads/whitepapers/Report_Ruag-Espionage-Case.pdf",
-            "date": "2016-05-23",
-            "organization": "MELANI GovCERT",
-            "author": "GovCERT.ch",
-            "title": "APT Case RUAG - Technical Report",
-            "categories": [
-                "Cobra Carbon System"
-            ]
-        },
-        {
-            "data_url": "https://docs.broadcom.com/doc/waterbug-attack-group",
-            "date": "2016-01-14",
-            "organization": "Symantec",
-            "author": "Security Response",
-            "title": "The Waterbug attack group",
-            "categories": [
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "Wipbot"
-            ]
-        },
-        {
-            "data_url": "https://blog.gdatasoftware.com/2015/01/23926-analysis-of-project-cobra",
-            "date": "2015-01-20",
-            "organization": "G Data",
-            "author": "G Data",
-            "title": "Analysis of Project Cobra",
-            "categories": [
-                "Cobra Carbon System"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/analysis/publications/65545/the-epic-turla-operation/",
-            "date": "2014-08-07",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "The Epic Turla Operation",
-            "categories": [
-                "Cobra Carbon System",
-                "Uroburos",
-                "Wipbot",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.circl.lu/pub/tr-25/",
-            "date": "2014",
-            "organization": "circl.lu",
-            "author": "CIRCL",
-            "title": "TR-25 Analysis - Turla / Pfinet / Snake/ Uroburos",
-            "categories": [
-                "Cobra Carbon System",
-                "Uroburos",
-                "Turla"
             ]
         }
     ]

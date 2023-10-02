@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "homefry",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "homefry",
@@ -79,8 +82,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "homefry",
-    "analysis": null,
-    "articles": []
+    ]
 };

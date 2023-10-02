@@ -36,76 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "supernova",
-            "procedure_code": "s0578",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0578",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1203",
-                    "technique_link": "https://attack.mitre.org/techniques/T1203",
-                    "technique_name": "exploitation for client execution",
-                    "technique_description": "adversaries may exploit software vulnerabilities in client applications to execute code. vulnerabilities can exist in software due to unsecure coding practices that can lead to unanticipated behavior. adversaries can take advantage of certain vulnerabilities through targeted exploitation for the purpose of arbitrary code execution. oftentimes the most valuable exploits to an offensive toolkit are those that can be used to obtain code execution on a remote system because they can be used to gain access to that system. users will expect to see files related to the applications they commonly used to do work, so they are a useful target for exploit research and development because of their high utility.",
-                    "procedure_description": "supernova was installed via exploitation of a solarwinds orion api authentication bypass vulnerability (cve-2020-10148).[79][80]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1505.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1505/003",
-                    "technique_name": "server software component : web shell",
-                    "technique_description": "adversaries may backdoor web servers with web shells to establish persistent access to systems. a web shell is a web script that is placed on an openly accessible web server to allow an adversary to use the web server as a gateway into a network. a web shell may provide a set of functions to execute or a command-line interface on the system that hosts the web server.",
-                    "procedure_description": "supernova is a web shell.[34][35][36]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1036.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
-                    "technique_name": "masquerading : match legitimate name or location",
-                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
-                    "procedure_description": "supernova has masqueraded as a legitimate solarwinds dll.[161][162]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "supernova contained base64-encoded strings.[319]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
-                    "technique_name": "application layer protocol : web protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "supernova had to receive an http get request containing a specific set of parameters in order to execute.[325][326]"
-                }
-            ]
-        }
-    ],
     "file_name": "supernova",
     "analysis": null,
     "articles": [
@@ -407,6 +337,76 @@ var threatdata = {
                 "SUPERNOVA",
                 "TEARDROP",
                 "UNC2452"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "supernova",
+            "procedure_code": "s0578",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0578",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1203",
+                    "technique_link": "https://attack.mitre.org/techniques/T1203",
+                    "technique_name": "exploitation for client execution",
+                    "technique_description": "adversaries may exploit software vulnerabilities in client applications to execute code. vulnerabilities can exist in software due to unsecure coding practices that can lead to unanticipated behavior. adversaries can take advantage of certain vulnerabilities through targeted exploitation for the purpose of arbitrary code execution. oftentimes the most valuable exploits to an offensive toolkit are those that can be used to obtain code execution on a remote system because they can be used to gain access to that system. users will expect to see files related to the applications they commonly used to do work, so they are a useful target for exploit research and development because of their high utility.",
+                    "procedure_description": "supernova was installed via exploitation of a solarwinds orion api authentication bypass vulnerability (cve-2020-10148).[79][80]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1505.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1505/003",
+                    "technique_name": "server software component : web shell",
+                    "technique_description": "adversaries may backdoor web servers with web shells to establish persistent access to systems. a web shell is a web script that is placed on an openly accessible web server to allow an adversary to use the web server as a gateway into a network. a web shell may provide a set of functions to execute or a command-line interface on the system that hosts the web server.",
+                    "procedure_description": "supernova is a web shell.[34][35][36]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
+                    "technique_name": "masquerading : match legitimate name or location",
+                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
+                    "procedure_description": "supernova has masqueraded as a legitimate solarwinds dll.[161][162]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "supernova contained base64-encoded strings.[319]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "supernova had to receive an http get request containing a specific set of parameters in order to execute.[325][326]"
+                }
             ]
         }
     ]

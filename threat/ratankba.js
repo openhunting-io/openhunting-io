@@ -41,6 +41,69 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ratankba",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/nickel-gladstone",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "NICKEL GLADSTONE",
+            "categories": [
+                "AlphaNC",
+                "Bankshot",
+                "Ratankba",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://raw.githubusercontent.com/eric-erki/APT_CyberCriminal_Campagin_Collections/master/2017/2017.05.30.Lazarus_Arisen/Group-IB_Lazarus.pdf",
+            "date": "2017-05-30",
+            "organization": "Group-IB",
+            "author": "Group-IB",
+            "title": "Lazarus Arisen: Architecture, Techniques and Attribution",
+            "categories": [
+                "HOTWAX",
+                "NACHOCHEESE",
+                "Ratankba"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/viewdocument/attackers-target-dozens-of-global-b",
+            "date": "2017-02-12",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Attackers target dozens of global banks with new malware",
+            "categories": [
+                "Ratankba",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/attackers-target-dozens-global-banks-new-malware",
+            "date": "2017-02-12",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Attackers target dozens of global banks with new malware",
+            "categories": [
+                "Joanap",
+                "Ratankba",
+                "Sierra(Alfa,Bravo, ...)",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://baesystemsai.blogspot.com/2017/02/lazarus-watering-hole-attacks.html",
+            "date": "2017-02-12",
+            "organization": "BAE Systems",
+            "author": "BAE Systems Applied Intelligence",
+            "title": "Lazarus & Watering-hole attacks",
+            "categories": [
+                "Ratankba"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "ratankba",
@@ -284,69 +347,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "ratankba",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/nickel-gladstone",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "NICKEL GLADSTONE",
-            "categories": [
-                "AlphaNC",
-                "Bankshot",
-                "Ratankba",
-                "Lazarus Group"
-            ]
-        },
-        {
-            "data_url": "https://raw.githubusercontent.com/eric-erki/APT_CyberCriminal_Campagin_Collections/master/2017/2017.05.30.Lazarus_Arisen/Group-IB_Lazarus.pdf",
-            "date": "2017-05-30",
-            "organization": "Group-IB",
-            "author": "Group-IB",
-            "title": "Lazarus Arisen: Architecture, Techniques and Attribution",
-            "categories": [
-                "HOTWAX",
-                "NACHOCHEESE",
-                "Ratankba"
-            ]
-        },
-        {
-            "data_url": "https://community.broadcom.com/symantecenterprise/viewdocument/attackers-target-dozens-of-global-b",
-            "date": "2017-02-12",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Attackers target dozens of global banks with new malware",
-            "categories": [
-                "Ratankba",
-                "Lazarus Group"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/attackers-target-dozens-global-banks-new-malware",
-            "date": "2017-02-12",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Attackers target dozens of global banks with new malware",
-            "categories": [
-                "Joanap",
-                "Ratankba",
-                "Sierra(Alfa,Bravo, ...)",
-                "Lazarus Group"
-            ]
-        },
-        {
-            "data_url": "https://baesystemsai.blogspot.com/2017/02/lazarus-watering-hole-attacks.html",
-            "date": "2017-02-12",
-            "organization": "BAE Systems",
-            "author": "BAE Systems Applied Intelligence",
-            "title": "Lazarus & Watering-hole attacks",
-            "categories": [
-                "Ratankba"
             ]
         }
     ]

@@ -76,12 +76,12 @@ var threatdata = {
             "malware": "apk.lokibot",
             "last_update": "2023-09-11 08:51:44",
             "tags": [
-                "upsidown",
-                "Lokibot",
-                "reverse",
-                "exe",
                 "c2",
                 "panel",
+                "reverse",
+                "exe",
+                "upsidown",
+                "Lokibot",
                 "lokibot"
             ],
             "ioc": {
@@ -4753,6 +4753,96 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-11 08:51:44",
+    "file_name": "lokibot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/emotet-darkgate-lokibot-crimeware-report/110286/",
+            "date": "2023-08-03",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "What\u2019s happening in the world of crimeware: Emotet, DarkGate and LokiBot",
+            "categories": [
+                "LokiBot",
+                "DarkGate",
+                "Emotet"
+            ]
+        },
+        {
+            "data_url": "https://muha2xmad.github.io/mal-document/lokibotpdf/",
+            "date": "2022-07-25",
+            "organization": "muha2xmad",
+            "author": "Muhammad Hasan Ali",
+            "title": "PDF Analysis of Lokibot malware",
+            "categories": [
+                "LokiBot"
+            ]
+        },
+        {
+            "data_url": "https://github.com/vc0RExor/Malware-Threat-Reports/blob/main/Lokibot/Machete-Weapons-Lokibot/Machete%20weapons-Lokibot_EN.pdf",
+            "date": "2022-06-29",
+            "organization": "Github (vc0RExor)",
+            "author": "Aaron Jornet Sales",
+            "title": "Machete Weapons Lokibot - A Malware Report",
+            "categories": [
+                "LokiBot"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/file/d/144cOnM6fxfuBeP0V2JQshp8C0Zlk_0kH/view",
+            "date": "2021-06-10",
+            "organization": "ZAYOTEM",
+            "author": "Taha H\u0130CRET",
+            "title": "LokiBot Technical Analysis Report",
+            "categories": [
+                "LokiBot"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/07/14/raticate-rats-as-service-with-commercial-crypter/?cmp=30728",
+            "date": "2020-07-14",
+            "organization": "SophosLabs Uncut",
+            "author": "Markel Picado",
+            "title": "RATicate upgrades \u201cRATs as a Service\u201d attacks with commercial \u201ccrypter\u201d",
+            "categories": [
+                "LokiBot",
+                "BetaBot",
+                "CloudEyE",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/aggah-how-to-run-a-botnet-without-renting-a-server-for-more-than-a-year/",
+            "date": "2020-01-27",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "Aggah: How to run a botnet without renting a Server (for more than a year)",
+            "categories": [
+                "LokiBot",
+                "Azorult"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware.html",
+            "date": "2017-10",
+            "organization": "Threat Fabric",
+            "author": "Wesley Gahr",
+            "title": "LokiBot - The first hybrid Android malware",
+            "categories": [
+                "LokiBot"
+            ]
+        },
+        {
+            "data_url": "http://blog.checkpoint.com/2017/03/10/preinstalled-malware-targeting-mobile-users/",
+            "date": "2017-03-10",
+            "organization": "Check Point",
+            "author": "Check Point",
+            "title": "Preinstalled Malware Targeting Mobile Users",
+            "categories": [
+                "Loki"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "lokibot",
@@ -5236,96 +5326,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "lokibot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/emotet-darkgate-lokibot-crimeware-report/110286/",
-            "date": "2023-08-03",
-            "organization": "Kaspersky",
-            "author": "Kaspersky",
-            "title": "What\u2019s happening in the world of crimeware: Emotet, DarkGate and LokiBot",
-            "categories": [
-                "LokiBot",
-                "DarkGate",
-                "Emotet"
-            ]
-        },
-        {
-            "data_url": "https://muha2xmad.github.io/mal-document/lokibotpdf/",
-            "date": "2022-07-25",
-            "organization": "muha2xmad",
-            "author": "Muhammad Hasan Ali",
-            "title": "PDF Analysis of Lokibot malware",
-            "categories": [
-                "LokiBot"
-            ]
-        },
-        {
-            "data_url": "https://github.com/vc0RExor/Malware-Threat-Reports/blob/main/Lokibot/Machete-Weapons-Lokibot/Machete%20weapons-Lokibot_EN.pdf",
-            "date": "2022-06-29",
-            "organization": "Github (vc0RExor)",
-            "author": "Aaron Jornet Sales",
-            "title": "Machete Weapons Lokibot - A Malware Report",
-            "categories": [
-                "LokiBot"
-            ]
-        },
-        {
-            "data_url": "https://drive.google.com/file/d/144cOnM6fxfuBeP0V2JQshp8C0Zlk_0kH/view",
-            "date": "2021-06-10",
-            "organization": "ZAYOTEM",
-            "author": "Taha H\u0130CRET",
-            "title": "LokiBot Technical Analysis Report",
-            "categories": [
-                "LokiBot"
-            ]
-        },
-        {
-            "data_url": "https://news.sophos.com/en-us/2020/07/14/raticate-rats-as-service-with-commercial-crypter/?cmp=30728",
-            "date": "2020-07-14",
-            "organization": "SophosLabs Uncut",
-            "author": "Markel Picado",
-            "title": "RATicate upgrades \u201cRATs as a Service\u201d attacks with commercial \u201ccrypter\u201d",
-            "categories": [
-                "LokiBot",
-                "BetaBot",
-                "CloudEyE",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://yoroi.company/research/aggah-how-to-run-a-botnet-without-renting-a-server-for-more-than-a-year/",
-            "date": "2020-01-27",
-            "organization": "Yoroi",
-            "author": "Luigi Martire",
-            "title": "Aggah: How to run a botnet without renting a Server (for more than a year)",
-            "categories": [
-                "LokiBot",
-                "Azorult"
-            ]
-        },
-        {
-            "data_url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware.html",
-            "date": "2017-10",
-            "organization": "Threat Fabric",
-            "author": "Wesley Gahr",
-            "title": "LokiBot - The first hybrid Android malware",
-            "categories": [
-                "LokiBot"
-            ]
-        },
-        {
-            "data_url": "http://blog.checkpoint.com/2017/03/10/preinstalled-malware-targeting-mobile-users/",
-            "date": "2017-03-10",
-            "organization": "Check Point",
-            "author": "Check Point",
-            "title": "Preinstalled Malware Targeting Mobile Users",
-            "categories": [
-                "Loki"
             ]
         }
     ]

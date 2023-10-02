@@ -52,28 +52,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-10-20 12:13:33",
-    "mitre": [
-        {
-            "procedure_name": "flawedgrace",
-            "procedure_code": "s0383",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0383",
-            "techniques": [
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "flawedgrace encrypts its c2 configuration files with aes in cbc mode.[129]"
-                }
-            ]
-        }
-    ],
     "file_name": "flawedgrace",
     "analysis": null,
     "articles": [
@@ -411,6 +389,28 @@ var threatdata = {
             "categories": [
                 "FlawedGrace",
                 "ServHelper"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "flawedgrace",
+            "procedure_code": "s0383",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0383",
+            "techniques": [
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "flawedgrace encrypts its c2 configuration files with aes in cbc mode.[129]"
+                }
             ]
         }
     ]

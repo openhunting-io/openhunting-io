@@ -35,7 +35,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "suncrypt",
     "analysis": null,
     "articles": [
@@ -440,5 +439,6 @@ var threatdata = {
                 "SunCrypt"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

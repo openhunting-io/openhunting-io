@@ -98,6 +98,362 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-07-31 18:45:01",
+    "file_name": "x-agent",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/",
+            "date": "2020-09-10",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "An overview of targeted attacks and APTs on Linux",
+            "categories": [
+                "Cloud Snooper",
+                "Dacls",
+                "DoubleFantasy",
+                "MESSAGETAP",
+                "Penquin Turla",
+                "Tsunami",
+                "elf.wellmess",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2020/97937/",
+            "date": "2020-07-29",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2020",
+            "categories": [
+                "PhantomLance",
+                "Dacls",
+                "Penquin Turla",
+                "elf.wellmess",
+                "AppleJeus",
+                "Dacls",
+                "AcidBox",
+                "Cobalt Strike",
+                "Dacls",
+                "EternalPetya",
+                "Godlike12",
+                "Olympic Destroyer",
+                "PlugX",
+                "shadowhammer",
+                "ShadowPad",
+                "Sinowal",
+                "VHD Ransomware",
+                "Volgmer",
+                "WellMess",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON TWILIGHT",
+            "categories": [
+                "X-Agent",
+                "X-Agent",
+                "X-Agent",
+                "Computrace",
+                "HideDRV",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "Zebrocy",
+                "Zebrocy (AutoIT)"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/election-security/apt28-espionage-military-government",
+            "date": "2018-10-04",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "APT28: New Espionage Operations Target Military and Government Organizations",
+            "categories": [
+                "LoJax",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "Zebrocy",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://www.thecssc.com/wp-content/uploads/2018/10/4OctoberIOC-APT28-malware-advisory.pdf",
+            "date": "2018-10-04",
+            "organization": "NCSC UK",
+            "author": "NCSC UK",
+            "title": "Indicators of Compromise for Malware used by APT28",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/12/21/sednit-update-fancy-bear-spent-year/",
+            "date": "2017-12-21",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Sednit update: How Fancy Bear Spent the Year",
+            "categories": [
+                "Seduploader",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/PhysicalDrive0/status/845009226388918273",
+            "date": "2017-03-23",
+            "organization": "Twitter (PhysicalDrive0)",
+            "author": "PhysicalDrive0",
+            "title": "Tweet on XAgent for macOS",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://blog.crysys.hu/2017/03/update-on-the-fancy-bear-android-malware-poprd30-apk/",
+            "date": "2017-03-02",
+            "organization": "Laboratory of Cryptography and System Security",
+            "author": "Boldizsar Bencsath",
+            "title": "Update on the Fancy Bear Android malware (poprd30.apk)",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/143/Bitdefender-Whitepaper-APT-Mac-A4-en-EN-web.pdf",
+            "date": "2017-02-21",
+            "organization": "Bitdefender",
+            "author": "Bitdefender",
+            "title": "Dissecting the APT28 Mac OS X Payload",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
+            "date": "2017-02-20",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
+            "categories": [
+                "X-Agent",
+                "Komplex",
+                "Coreshell",
+                "Downdelph",
+                "HideDRV",
+                "SEADADDY",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/",
+            "date": "2017-02-14",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "XAgentOSX: Sofacy\u2019s XAgent macOS Tool",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf",
+            "date": "2017-01-10",
+            "organization": "FireEye",
+            "author": "FireEye iSIGHT Intelligence",
+            "title": "APT28:  At The Center  Of The Storm",
+            "categories": [
+                "Coreshell",
+                "OLDBAIT",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://blog.crysys.hu/2017/01/technical-details-on-the-fancy-bear-android-malware-poprd30-apk/",
+            "date": "2017-01-03",
+            "organization": "CrySyS Lab",
+            "author": "Boldizsar Bencsath",
+            "title": "Technical details on the Fancy Bear Android malware (poprd30.apk)",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
+            "date": "2016-10-20",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "En Route with Sednit Part 2: Observing the Comings and Goings",
+            "categories": [
+                "X-Agent",
+                "Sedreco",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
+            "date": "2016-06-15",
+            "organization": "CrowdStrike",
+            "author": "Dmitri Alperovitch",
+            "title": "Bears in the Midst: Intrusion into the Democratic National Committee",
+            "categories": [
+                "X-Agent",
+                "ATI-Agent",
+                "SEADADDY",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/02/a-look-into-fysbis-sofacys-linux-backdoor/",
+            "date": "2016-02-12",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "A Look Into Fysbis: Sofacy\u2019s Linux Backdoor",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/a-look-into-fysbis-sofacys-linux-backdoor/",
+            "date": "2016-02-12",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "A Look Into Fysbis: Sofacy\u2019s Linux Backdoor",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
+            "date": "2015-12-17",
+            "organization": "Bitdefender",
+            "author": "Bitdefender",
+            "title": "APT28 Under the Scope: A Journey into Exfiltrating Intelligence and Government Information",
+            "categories": [
+                "X-Agent",
+                "XP PrivEsc (CVE-2014-4076)"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+            "date": "2015-12-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Sofacy APT hits high profile targets with updated toolset",
+            "categories": [
+                "Coreshell",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-update-ios-espionage-app-found/",
+            "date": "2015-02-04",
+            "organization": "Trend Micro",
+            "author": "Lambert Sun",
+            "title": "Pawn Storm Update: iOS Espionage App Found",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "https://assets.documentcloud.org/documents/3461560/Google-Aquarium-Clean.pdf",
+            "date": "2014-09-05",
+            "organization": "Google",
+            "author": "Neel Mehta",
+            "title": "Peering Into the Aquarium: Analysis of a Sophisticated Multi-Stage Malware Family",
+            "categories": [
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://www2.fireeye.com/rs/fireye/images/rpt-apt28.pdf",
+            "date": "2014",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT28",
+            "categories": [
+                "Coreshell",
+                "Sedreco",
+                "X-Agent"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "chopstick",
@@ -557,362 +913,6 @@ var threatdata = {
                     "technique_description": "adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. common data encoding schemes include ascii, unicode, hexadecimal, base64, and mime. some data encoding systems may also result in data compression, such as gzip.",
                     "procedure_description": "fysbis can use base64 to encode its c2 traffic.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "x-agent",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/an-overview-of-targeted-attacks-and-apts-on-linux/98440/",
-            "date": "2020-09-10",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "An overview of targeted attacks and APTs on Linux",
-            "categories": [
-                "Cloud Snooper",
-                "Dacls",
-                "DoubleFantasy",
-                "MESSAGETAP",
-                "Penquin Turla",
-                "Tsunami",
-                "elf.wellmess",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q2-2020/97937/",
-            "date": "2020-07-29",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q2 2020",
-            "categories": [
-                "PhantomLance",
-                "Dacls",
-                "Penquin Turla",
-                "elf.wellmess",
-                "AppleJeus",
-                "Dacls",
-                "AcidBox",
-                "Cobalt Strike",
-                "Dacls",
-                "EternalPetya",
-                "Godlike12",
-                "Olympic Destroyer",
-                "PlugX",
-                "shadowhammer",
-                "ShadowPad",
-                "Sinowal",
-                "VHD Ransomware",
-                "Volgmer",
-                "WellMess",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON TWILIGHT",
-            "categories": [
-                "X-Agent",
-                "X-Agent",
-                "X-Agent",
-                "Computrace",
-                "HideDRV",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel",
-                "Zebrocy",
-                "Zebrocy (AutoIT)"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/election-security/apt28-espionage-military-government",
-            "date": "2018-10-04",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "APT28: New Espionage Operations Target Military and Government Organizations",
-            "categories": [
-                "LoJax",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel",
-                "Zebrocy",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://www.thecssc.com/wp-content/uploads/2018/10/4OctoberIOC-APT28-malware-advisory.pdf",
-            "date": "2018-10-04",
-            "organization": "NCSC UK",
-            "author": "NCSC UK",
-            "title": "Indicators of Compromise for Malware used by APT28",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/12/21/sednit-update-fancy-bear-spent-year/",
-            "date": "2017-12-21",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Sednit update: How Fancy Bear Spent the Year",
-            "categories": [
-                "Seduploader",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/PhysicalDrive0/status/845009226388918273",
-            "date": "2017-03-23",
-            "organization": "Twitter (PhysicalDrive0)",
-            "author": "PhysicalDrive0",
-            "title": "Tweet on XAgent for macOS",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://blog.crysys.hu/2017/03/update-on-the-fancy-bear-android-malware-poprd30-apk/",
-            "date": "2017-03-02",
-            "organization": "Laboratory of Cryptography and System Security",
-            "author": "Boldizsar Bencsath",
-            "title": "Update on the Fancy Bear Android malware (poprd30.apk)",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://download.bitdefender.com/resources/files/News/CaseStudies/study/143/Bitdefender-Whitepaper-APT-Mac-A4-en-EN-web.pdf",
-            "date": "2017-02-21",
-            "organization": "Bitdefender",
-            "author": "Bitdefender",
-            "title": "Dissecting the APT28 Mac OS X Payload",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
-            "date": "2017-02-20",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
-            "categories": [
-                "X-Agent",
-                "Komplex",
-                "Coreshell",
-                "Downdelph",
-                "HideDRV",
-                "SEADADDY",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-xagentosx-sofacys-xagent-macos-tool/",
-            "date": "2017-02-14",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "XAgentOSX: Sofacy\u2019s XAgent macOS Tool",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf",
-            "date": "2017-01-10",
-            "organization": "FireEye",
-            "author": "FireEye iSIGHT Intelligence",
-            "title": "APT28:  At The Center  Of The Storm",
-            "categories": [
-                "Coreshell",
-                "OLDBAIT",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://blog.crysys.hu/2017/01/technical-details-on-the-fancy-bear-android-malware-poprd30-apk/",
-            "date": "2017-01-03",
-            "organization": "CrySyS Lab",
-            "author": "Boldizsar Bencsath",
-            "title": "Technical details on the Fancy Bear Android malware (poprd30.apk)",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
-            "date": "2016-10-20",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "En Route with Sednit Part 2: Observing the Comings and Goings",
-            "categories": [
-                "X-Agent",
-                "Sedreco",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/bears-midst-intrusion-democratic-national-committee/",
-            "date": "2016-06-15",
-            "organization": "CrowdStrike",
-            "author": "Dmitri Alperovitch",
-            "title": "Bears in the Midst: Intrusion into the Democratic National Committee",
-            "categories": [
-                "X-Agent",
-                "ATI-Agent",
-                "SEADADDY",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2016/02/a-look-into-fysbis-sofacys-linux-backdoor/",
-            "date": "2016-02-12",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Bryan Lee",
-            "title": "A Look Into Fysbis: Sofacy\u2019s Linux Backdoor",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/a-look-into-fysbis-sofacys-linux-backdoor/",
-            "date": "2016-02-12",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Bryan Lee",
-            "title": "A Look Into Fysbis: Sofacy\u2019s Linux Backdoor",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://download.bitdefender.com/resources/media/materials/white-papers/en/Bitdefender_In-depth_analysis_of_APT28%E2%80%93The_Political_Cyber-Espionage.pdf",
-            "date": "2015-12-17",
-            "organization": "Bitdefender",
-            "author": "Bitdefender",
-            "title": "APT28 Under the Scope: A Journey into Exfiltrating Intelligence and Government Information",
-            "categories": [
-                "X-Agent",
-                "XP PrivEsc (CVE-2014-4076)"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
-            "date": "2015-12-04",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Sofacy APT hits high profile targets with updated toolset",
-            "categories": [
-                "Coreshell",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-update-ios-espionage-app-found/",
-            "date": "2015-02-04",
-            "organization": "Trend Micro",
-            "author": "Lambert Sun",
-            "title": "Pawn Storm Update: iOS Espionage App Found",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "https://assets.documentcloud.org/documents/3461560/Google-Aquarium-Clean.pdf",
-            "date": "2014-09-05",
-            "organization": "Google",
-            "author": "Neel Mehta",
-            "title": "Peering Into the Aquarium: Analysis of a Sophisticated Multi-Stage Malware Family",
-            "categories": [
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://www2.fireeye.com/rs/fireye/images/rpt-apt28.pdf",
-            "date": "2014",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "APT28",
-            "categories": [
-                "Coreshell",
-                "Sedreco",
-                "X-Agent"
             ]
         }
     ]

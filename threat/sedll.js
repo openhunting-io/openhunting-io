@@ -49,8 +49,8 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-03-27 13:50:57",
-    "mitre": [],
     "file_name": "sedll",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

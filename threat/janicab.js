@@ -37,88 +37,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "janicab",
-            "procedure_code": "s0163",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0163",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1053.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
-                    "technique_name": "scheduled task/job : cron",
-                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
-                    "procedure_description": "janicab used a cron job for persistence on mac devices.[7]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1053.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
-                    "technique_name": "scheduled task/job : cron",
-                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
-                    "procedure_description": "janicab used a cron job for persistence on mac devices.[7]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1053.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
-                    "technique_name": "scheduled task/job : cron",
-                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
-                    "procedure_description": "janicab used a cron job for persistence on mac devices.[7]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1553.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1553/002",
-                    "technique_name": "subvert trust controls : code signing",
-                    "technique_description": "adversaries may create, acquire, or steal code signing materials to sign their malware or tools. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with.  the certificates used during an operation may be created, acquired, or stolen by the adversary.   unlike invalid code signature, this activity will result in a valid signature.",
-                    "procedure_description": "janicab used a valid appledeveloperid to sign the code to get past security restrictions.[44]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1123",
-                    "technique_link": "https://attack.mitre.org/techniques/T1123",
-                    "technique_name": "audio capture",
-                    "technique_description": "an adversary can leverage a computer's peripheral devices (e.g., microphones and webcams) or applications (e.g., voice and video call services) to capture audio recordings for the purpose of listening into sensitive conversations to gather information.",
-                    "procedure_description": "janicab captured audio and sent it out to a c2 server.[18][19]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1113",
-                    "technique_link": "https://attack.mitre.org/techniques/T1113",
-                    "technique_name": "screen capture",
-                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
-                    "procedure_description": "janicab captured screenshots and sent them out to a c2 server.[78][79]"
-                }
-            ]
-        }
-    ],
     "file_name": "janicab",
     "analysis": null,
     "articles": [
@@ -252,6 +170,88 @@ var threatdata = {
             "title": "Signed Mac Malware Using Right-to-Left Override Trick",
             "categories": [
                 "Janicab"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "janicab",
+            "procedure_code": "s0163",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0163",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "janicab used a cron job for persistence on mac devices.[7]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "janicab used a cron job for persistence on mac devices.[7]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/003",
+                    "technique_name": "scheduled task/job : cron",
+                    "technique_description": "adversaries may abuse the cron utility to perform task scheduling for initial or recurring execution of malicious code. the cron utility is a time-based job scheduler for unix-like operating systems.  the  crontab file contains the schedule of cron entries to be run and the specified times for execution. any crontab files are stored in operating system-specific file paths.",
+                    "procedure_description": "janicab used a cron job for persistence on mac devices.[7]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1553.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1553/002",
+                    "technique_name": "subvert trust controls : code signing",
+                    "technique_description": "adversaries may create, acquire, or steal code signing materials to sign their malware or tools. code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with.  the certificates used during an operation may be created, acquired, or stolen by the adversary.   unlike invalid code signature, this activity will result in a valid signature.",
+                    "procedure_description": "janicab used a valid appledeveloperid to sign the code to get past security restrictions.[44]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1123",
+                    "technique_link": "https://attack.mitre.org/techniques/T1123",
+                    "technique_name": "audio capture",
+                    "technique_description": "an adversary can leverage a computer's peripheral devices (e.g., microphones and webcams) or applications (e.g., voice and video call services) to capture audio recordings for the purpose of listening into sensitive conversations to gather information.",
+                    "procedure_description": "janicab captured audio and sent it out to a c2 server.[18][19]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1113",
+                    "technique_link": "https://attack.mitre.org/techniques/T1113",
+                    "technique_name": "screen capture",
+                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
+                    "procedure_description": "janicab captured screenshots and sent them out to a c2 server.[78][79]"
+                }
             ]
         }
     ]

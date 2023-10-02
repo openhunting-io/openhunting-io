@@ -37,6 +37,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "mobileorder",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://research.checkpoint.com/2022/never-truly-left-7-years-of-scarlet-mimics-mobile-surveillance-campaign-targeting-uyghurs/",
+            "date": "2022-09-22",
+            "organization": "Check Point",
+            "author": "Check Point Research",
+            "title": "7 Years of Scarlet Mimic\u2019s Mobile Surveillance Campaign Targeting Uyghurs",
+            "categories": [
+                "MobileOrder"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "mobileorder",
@@ -128,20 +142,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "mobileorder exfiltrates data to its c2 server over the same protocol as c2 communications.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "mobileorder",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://research.checkpoint.com/2022/never-truly-left-7-years-of-scarlet-mimics-mobile-surveillance-campaign-targeting-uyghurs/",
-            "date": "2022-09-22",
-            "organization": "Check Point",
-            "author": "Check Point Research",
-            "title": "7 Years of Scarlet Mimic\u2019s Mobile Surveillance Campaign Targeting Uyghurs",
-            "categories": [
-                "MobileOrder"
             ]
         }
     ]

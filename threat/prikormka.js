@@ -37,6 +37,33 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "prikormka",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/cloudwizard-apt/109722/",
+            "date": "2023-05-19",
+            "organization": "Kaspersky Labs",
+            "author": "Leonid Bezvershenko",
+            "title": "CloudWizard APT: the bad magic story goes on",
+            "categories": [
+                "PowerMagic",
+                "CloudWizard",
+                "CommonMagic",
+                "Prikormka"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
+            "date": "2016-05-17",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "Operation Groundbait: Analysis of a surveillance toolkit",
+            "categories": [
+                "Prikormka"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "prikormka",
@@ -332,33 +359,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "prikormka encrypts some c2 traffic with the blowfish cipher.[109]"
                 }
-            ]
-        }
-    ],
-    "file_name": "prikormka",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/cloudwizard-apt/109722/",
-            "date": "2023-05-19",
-            "organization": "Kaspersky Labs",
-            "author": "Leonid Bezvershenko",
-            "title": "CloudWizard APT: the bad magic story goes on",
-            "categories": [
-                "PowerMagic",
-                "CloudWizard",
-                "CommonMagic",
-                "Prikormka"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2016/05/Operation-Groundbait.pdf",
-            "date": "2016-05-17",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "Operation Groundbait: Analysis of a surveillance toolkit",
-            "categories": [
-                "Prikormka"
             ]
         }
     ]

@@ -35,6 +35,85 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "oopsie",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/evasive-serpens/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Evasive Serpens",
+            "categories": [
+                "TwoFace",
+                "ISMAgent",
+                "ISMDoor",
+                "OopsIE",
+                "RDAT",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "date": "2021-02-18",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
+            "categories": [
+                "Poet RAT",
+                "Gravity RAT",
+                "Ketrican",
+                "Okrum",
+                "OopsIE",
+                "Remcos",
+                "RogueRobinNET",
+                "RokRAT",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
+            "date": "2019-08-22",
+            "organization": "Cyware",
+            "author": "Cyware",
+            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
+            "categories": [
+                "TwoFace",
+                "BONDUPDATER",
+                "POWRUNER",
+                "QUADAGENT",
+                "Helminth",
+                "ISMAgent",
+                "Karkoff",
+                "LONGWATCH",
+                "OopsIE",
+                "PICKPOCKET",
+                "RGDoor",
+                "VALUEVAULT"
+            ]
+        },
+        {
+            "data_url": "https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.hcd1wvpsrgfr",
+            "date": "2019-04-30",
+            "organization": "ClearSky",
+            "author": "ClearSky Cyber Security",
+            "title": "Raw Threat Intelligence 2019-04-30: Oilrig data dump link analysis",
+            "categories": [
+                "SpyNote",
+                "OopsIE"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/",
+            "date": "2018-02-23",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Bryan Lee",
+            "title": "OopsIE! OilRig Uses ThreeDollars to Deliver New Trojan",
+            "categories": [
+                "OopsIE"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "oopsie",
@@ -306,85 +385,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "oopsie can upload files from the victim's machine to its c2 server.[93]"
                 }
-            ]
-        }
-    ],
-    "file_name": "oopsie",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/evasive-serpens/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Evasive Serpens",
-            "categories": [
-                "TwoFace",
-                "ISMAgent",
-                "ISMDoor",
-                "OopsIE",
-                "RDAT",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "date": "2021-02-18",
-            "organization": "PTSecurity",
-            "author": "PTSecurity",
-            "title": "https://www.ptsecurity.com/ww-en/analytics/antisandbox-techniques/",
-            "categories": [
-                "Poet RAT",
-                "Gravity RAT",
-                "Ketrican",
-                "Okrum",
-                "OopsIE",
-                "Remcos",
-                "RogueRobinNET",
-                "RokRAT",
-                "SmokeLoader"
-            ]
-        },
-        {
-            "data_url": "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-group-loves-to-meow-middle-eastern-and-international-organizations-48ae",
-            "date": "2019-08-22",
-            "organization": "Cyware",
-            "author": "Cyware",
-            "title": "APT34: The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations",
-            "categories": [
-                "TwoFace",
-                "BONDUPDATER",
-                "POWRUNER",
-                "QUADAGENT",
-                "Helminth",
-                "ISMAgent",
-                "Karkoff",
-                "LONGWATCH",
-                "OopsIE",
-                "PICKPOCKET",
-                "RGDoor",
-                "VALUEVAULT"
-            ]
-        },
-        {
-            "data_url": "https://docs.google.com/document/d/1oYX3uN6KxIX_StzTH0s0yFNNoHDnV8VgmVqU5WoeErc/edit#heading=h.hcd1wvpsrgfr",
-            "date": "2019-04-30",
-            "organization": "ClearSky",
-            "author": "ClearSky Cyber Security",
-            "title": "Raw Threat Intelligence 2019-04-30: Oilrig data dump link analysis",
-            "categories": [
-                "SpyNote",
-                "OopsIE"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2018/02/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/",
-            "date": "2018-02-23",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Bryan Lee",
-            "title": "OopsIE! OilRig Uses ThreeDollars to Deliver New Trojan",
-            "categories": [
-                "OopsIE"
             ]
         }
     ]

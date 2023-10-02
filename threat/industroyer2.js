@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "industroyer2",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "industroyer",
@@ -339,8 +342,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "industroyer2",
-    "analysis": null,
-    "articles": []
+    ]
 };

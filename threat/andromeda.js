@@ -51,7 +51,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "andromeda",
     "analysis": null,
     "articles": [
@@ -346,5 +345,6 @@ var threatdata = {
                 "Andromeda"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

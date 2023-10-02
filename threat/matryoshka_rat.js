@@ -40,6 +40,33 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "matryoshka_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://www.clearskysec.com/tulip/",
+            "date": "2017-07-25",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Operation Wilted Tulip \u2013 Exposing a Cyber Espionage Apparatus",
+            "categories": [
+                "Matryoshka RAT",
+                "TDTESS",
+                "CopyKittens"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
+            "date": "2017-07",
+            "organization": "ClearSky",
+            "author": "ClearSky",
+            "title": "OperationWilted Tulip",
+            "categories": [
+                "Matryoshka RAT",
+                "CopyKittens"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "matryoshka",
@@ -271,33 +298,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "matryoshka_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://www.clearskysec.com/tulip/",
-            "date": "2017-07-25",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "Operation Wilted Tulip \u2013 Exposing a Cyber Espionage Apparatus",
-            "categories": [
-                "Matryoshka RAT",
-                "TDTESS",
-                "CopyKittens"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/wp-content/uploads/2017/07/Operation_Wilted_Tulip.pdf",
-            "date": "2017-07",
-            "organization": "ClearSky",
-            "author": "ClearSky",
-            "title": "OperationWilted Tulip",
-            "categories": [
-                "Matryoshka RAT",
-                "CopyKittens"
             ]
         }
     ]

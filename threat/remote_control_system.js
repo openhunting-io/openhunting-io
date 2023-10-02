@@ -37,7 +37,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "remote_control_system",
     "analysis": null,
     "articles": [
@@ -155,5 +154,6 @@ var threatdata = {
                 "RCS"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

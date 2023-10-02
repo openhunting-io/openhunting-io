@@ -42,6 +42,181 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cyclops_blink",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.splunk.com/en_us/blog/security/strt-ta03-cpe-destructive-software.html",
+            "date": "2022-04-15",
+            "organization": "splunk",
+            "author": "Splunk Threat Research Team",
+            "title": "STRT-TA03 CPE - Destructive Software",
+            "categories": [
+                "AcidRain",
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-orgs-of-watchguard-bug-exploited-by-russian-state-hackers/",
+            "date": "2022-04-11",
+            "organization": "Bleeping Computer",
+            "author": "Sergiu Gatlan",
+            "title": "CISA warns orgs of WatchGuard bug exploited by Russian state hackers",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://inquest.net/blog/2022/04/07/ukraine-cyberwar-overview",
+            "date": "2022-04-07",
+            "organization": "InQuest",
+            "author": "Will MacArthur",
+            "title": "Ukraine CyberWar Overview",
+            "categories": [
+                "CyclopsBlink",
+                "Cobalt Strike",
+                "GraphSteel",
+                "GrimPlant",
+                "HermeticWiper",
+                "HermeticWizard",
+                "MicroBackdoor",
+                "PartyTicket",
+                "Saint Bot",
+                "Scieron",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/pr/justice-department-announces-court-authorized-disruption-botnet-controlled-russian-federation",
+            "date": "2022-04-06",
+            "organization": "US Department of Justice",
+            "author": "Department of Justice",
+            "title": "Justice Department Announces Court-Authorized Disruption of Botnet Controlled by the Russian Federation\u2019s Main Intelligence Directorate (GRU)",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/press-release/file/1491281/download",
+            "date": "2022-04-06",
+            "organization": "US Department of Justice",
+            "author": "Department of Justice",
+            "title": "EDCA Search Warrant Package (CyclopsBlink)",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/video/attorney-general-merrick-b-garland-announces-enforcement-actions-disrupt-and-prosecute",
+            "date": "2022-04-06",
+            "organization": "US Department of Justice",
+            "author": "Department of Justice",
+            "title": "Attorney General Merrick B. Garland Announces Enforcement Actions to Disrupt and Prosecute Russian Criminal Activity (video)",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/us-disrupts-russian-cyclops-blink-botnet-before-being-used-in-attacks/",
+            "date": "2022-04-06",
+            "organization": "Bleeping Computer",
+            "author": "Sergiu Gatlan",
+            "title": "US disrupts Russian Cyclops Blink botnet before being used in attacks",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://github.com/trendmicro/research/blob/main/cyclops_blink/c2-scripts/check.py",
+            "date": "2022-03-21",
+            "organization": "Github (trendmicro)",
+            "author": "Trend Micro Research",
+            "title": "Python script to check a Cyclops Blink C&C",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.theregister.com/2022/03/18/cyclops_asus_routers/",
+            "date": "2022-03-18",
+            "organization": "The Register",
+            "author": "Jessica Lyons Hardcastle",
+            "title": "Cyclops Blink malware sets up shop in ASUS routers",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/cyclops-blink-sets-sights-on-asus-routers/Appendix_Cyclops%20Blink%20Sets%20Sights%20on%20ASUS%20Routers.pdf",
+            "date": "2022-03-17",
+            "organization": "Trendmicro",
+            "author": "Feike Hacquebord",
+            "title": "Cyclops Blink Sets Sights on Asus Routers (Appendix)",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-cyclops-blink-malware-attacks-targeting-routers/",
+            "date": "2022-03-17",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "ASUS warns of Cyclops Blink malware attacks targeting routers",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/c/cyclops-blink-sets-sights-on-asus-routers--.html",
+            "date": "2022-03-17",
+            "organization": "Trendmicro",
+            "author": "Feike Hacquebord",
+            "title": "Cyclops Blink Sets Sights on Asus Routers",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.shadowserver.org/news/shadowserver-special-reports-cyclops-blink/",
+            "date": "2022-02-23",
+            "organization": "The Shadowserver Foundation",
+            "author": "Shadowserver Foundation",
+            "title": "Shadowserver Special Reports \u2013 Cyclops Blink",
+            "categories": [
+                "CyclopsBlink"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-054a",
+            "date": "2022-02-23",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Alert (AA22-054A) New Sandworm Malware Cyclops Blink Replaces VPNFilter",
+            "categories": [
+                "CyclopsBlink",
+                "VPNFilter"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0034",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Sandworm Team",
+            "categories": [
+                "CyclopsBlink",
+                "Exaramel",
+                "BlackEnergy",
+                "EternalPetya",
+                "Exaramel",
+                "GreyEnergy",
+                "KillDisk",
+                "MimiKatz",
+                "Olympic Destroyer",
+                "Sandworm"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "clop",
@@ -549,181 +724,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "cyclops blink has the ability to upload exfiltrated files to a c2 server.[33]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cyclops_blink",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.splunk.com/en_us/blog/security/strt-ta03-cpe-destructive-software.html",
-            "date": "2022-04-15",
-            "organization": "splunk",
-            "author": "Splunk Threat Research Team",
-            "title": "STRT-TA03 CPE - Destructive Software",
-            "categories": [
-                "AcidRain",
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-orgs-of-watchguard-bug-exploited-by-russian-state-hackers/",
-            "date": "2022-04-11",
-            "organization": "Bleeping Computer",
-            "author": "Sergiu Gatlan",
-            "title": "CISA warns orgs of WatchGuard bug exploited by Russian state hackers",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://inquest.net/blog/2022/04/07/ukraine-cyberwar-overview",
-            "date": "2022-04-07",
-            "organization": "InQuest",
-            "author": "Will MacArthur",
-            "title": "Ukraine CyberWar Overview",
-            "categories": [
-                "CyclopsBlink",
-                "Cobalt Strike",
-                "GraphSteel",
-                "GrimPlant",
-                "HermeticWiper",
-                "HermeticWizard",
-                "MicroBackdoor",
-                "PartyTicket",
-                "Saint Bot",
-                "Scieron",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://www.justice.gov/opa/pr/justice-department-announces-court-authorized-disruption-botnet-controlled-russian-federation",
-            "date": "2022-04-06",
-            "organization": "US Department of Justice",
-            "author": "Department of Justice",
-            "title": "Justice Department Announces Court-Authorized Disruption of Botnet Controlled by the Russian Federation\u2019s Main Intelligence Directorate (GRU)",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.justice.gov/opa/press-release/file/1491281/download",
-            "date": "2022-04-06",
-            "organization": "US Department of Justice",
-            "author": "Department of Justice",
-            "title": "EDCA Search Warrant Package (CyclopsBlink)",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.justice.gov/opa/video/attorney-general-merrick-b-garland-announces-enforcement-actions-disrupt-and-prosecute",
-            "date": "2022-04-06",
-            "organization": "US Department of Justice",
-            "author": "Department of Justice",
-            "title": "Attorney General Merrick B. Garland Announces Enforcement Actions to Disrupt and Prosecute Russian Criminal Activity (video)",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/us-disrupts-russian-cyclops-blink-botnet-before-being-used-in-attacks/",
-            "date": "2022-04-06",
-            "organization": "Bleeping Computer",
-            "author": "Sergiu Gatlan",
-            "title": "US disrupts Russian Cyclops Blink botnet before being used in attacks",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://github.com/trendmicro/research/blob/main/cyclops_blink/c2-scripts/check.py",
-            "date": "2022-03-21",
-            "organization": "Github (trendmicro)",
-            "author": "Trend Micro Research",
-            "title": "Python script to check a Cyclops Blink C&C",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.theregister.com/2022/03/18/cyclops_asus_routers/",
-            "date": "2022-03-18",
-            "organization": "The Register",
-            "author": "Jessica Lyons Hardcastle",
-            "title": "Cyclops Blink malware sets up shop in ASUS routers",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/cyclops-blink-sets-sights-on-asus-routers/Appendix_Cyclops%20Blink%20Sets%20Sights%20on%20ASUS%20Routers.pdf",
-            "date": "2022-03-17",
-            "organization": "Trendmicro",
-            "author": "Feike Hacquebord",
-            "title": "Cyclops Blink Sets Sights on Asus Routers (Appendix)",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-cyclops-blink-malware-attacks-targeting-routers/",
-            "date": "2022-03-17",
-            "organization": "Bleeping Computer",
-            "author": "Bill Toulas",
-            "title": "ASUS warns of Cyclops Blink malware attacks targeting routers",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/22/c/cyclops-blink-sets-sights-on-asus-routers--.html",
-            "date": "2022-03-17",
-            "organization": "Trendmicro",
-            "author": "Feike Hacquebord",
-            "title": "Cyclops Blink Sets Sights on Asus Routers",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.shadowserver.org/news/shadowserver-special-reports-cyclops-blink/",
-            "date": "2022-02-23",
-            "organization": "The Shadowserver Foundation",
-            "author": "Shadowserver Foundation",
-            "title": "Shadowserver Special Reports \u2013 Cyclops Blink",
-            "categories": [
-                "CyclopsBlink"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/ncas/alerts/aa22-054a",
-            "date": "2022-02-23",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "Alert (AA22-054A) New Sandworm Malware Cyclops Blink Replaces VPNFilter",
-            "categories": [
-                "CyclopsBlink",
-                "VPNFilter"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0034",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Sandworm Team",
-            "categories": [
-                "CyclopsBlink",
-                "Exaramel",
-                "BlackEnergy",
-                "EternalPetya",
-                "Exaramel",
-                "GreyEnergy",
-                "KillDisk",
-                "MimiKatz",
-                "Olympic Destroyer",
-                "Sandworm"
             ]
         }
     ]

@@ -45,9 +45,9 @@ var threatdata = {
             "malware": "win.cutwail",
             "last_update": "2022-11-10 11:06:37",
             "tags": [
+                "maldoc",
                 "cutwail",
-                "Cutwail",
-                "maldoc"
+                "Cutwail"
             ],
             "ioc": {
                 "md5_hash": [
@@ -138,7 +138,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-11-10 11:06:37",
-    "mitre": [],
     "file_name": "cutwail",
     "analysis": null,
     "articles": [
@@ -467,5 +466,6 @@ var threatdata = {
                 "Pushdo"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -50,10 +50,10 @@ var threatdata = {
             "malware": "win.ramnit",
             "last_update": "2022-05-31 22:30:06",
             "tags": [
-                "EVILDR",
-                "EVILNUM",
                 "EVILNK",
-                "Ramnit"
+                "EVILNUM",
+                "Ramnit",
+                "EVILDR"
             ],
             "ioc": {
                 "ip:port": [
@@ -90,7 +90,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-05-31 22:30:06",
-    "mitre": [],
     "file_name": "ramnit",
     "analysis": null,
     "articles": [
@@ -426,5 +425,6 @@ var threatdata = {
                 "Ramnit"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

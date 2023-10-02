@@ -36,6 +36,22 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "miragefox",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.intezer.com/miragefox-apt15-resurfaces-with-new-tools-based-on-old-ones/",
+            "date": "2019-10-16",
+            "organization": "",
+            "author": "Jay Rosenberg",
+            "title": "APT15",
+            "categories": [
+                "Mirage",
+                "MirageFox",
+                "APT15"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "miragefox",
@@ -127,22 +143,6 @@ var threatdata = {
                     "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
                     "procedure_description": "miragefox can gather the username from the victim\u2019s machine.[116]"
                 }
-            ]
-        }
-    ],
-    "file_name": "miragefox",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.intezer.com/miragefox-apt15-resurfaces-with-new-tools-based-on-old-ones/",
-            "date": "2019-10-16",
-            "organization": "",
-            "author": "Jay Rosenberg",
-            "title": "APT15",
-            "categories": [
-                "Mirage",
-                "MirageFox",
-                "APT15"
             ]
         }
     ]

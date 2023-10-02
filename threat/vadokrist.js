@@ -52,6 +52,32 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-08 09:03:11",
+    "file_name": "vadokrist",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/05/eset_threat_report_t12021.pdf",
+            "date": "2021-06-03",
+            "organization": "ESET Research",
+            "author": "roman kovac",
+            "title": "ESET Threat Report T\u200a1 2021",
+            "categories": [
+                "Kobalos",
+                "Janeleiro",
+                "Vadokrist"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2021/01/21/vadokrist-wolf-sheeps-clothing/",
+            "date": "2021-01-21",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Vadokrist: A wolf in sheep\u2019s clothing",
+            "categories": [
+                "Vadokrist"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "dok",
@@ -251,32 +277,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "dok exfiltrates logs of its execution stored in the /tmp folder over ftp using the curl command.[17]"
                 }
-            ]
-        }
-    ],
-    "file_name": "vadokrist",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/05/eset_threat_report_t12021.pdf",
-            "date": "2021-06-03",
-            "organization": "ESET Research",
-            "author": "roman kovac",
-            "title": "ESET Threat Report T\u200a1 2021",
-            "categories": [
-                "Kobalos",
-                "Janeleiro",
-                "Vadokrist"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2021/01/21/vadokrist-wolf-sheeps-clothing/",
-            "date": "2021-01-21",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Vadokrist: A wolf in sheep\u2019s clothing",
-            "categories": [
-                "Vadokrist"
             ]
         }
     ]

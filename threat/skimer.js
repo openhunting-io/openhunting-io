@@ -36,7 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "skimer",
     "analysis": null,
     "articles": [
@@ -82,5 +81,6 @@ var threatdata = {
                 "Tyupkin"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

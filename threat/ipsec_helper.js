@@ -24,8 +24,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "ipsec_helper",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

@@ -40,9 +40,9 @@ var threatdata = {
             "last_update": "2023-04-26 18:30:06",
             "tags": [
                 "Cerberus",
-                "Amadey",
                 "Gozi",
                 "Hancitor",
+                "Amadey",
                 "ISFB"
             ],
             "ioc": {
@@ -94,8 +94,8 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-04-26 18:30:06",
-    "mitre": [],
     "file_name": "fastcash",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

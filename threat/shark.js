@@ -31,6 +31,34 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "shark",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.prevailion.com/latest-targets-of-cyber-group-lyceum/",
+            "date": "2021-11-09",
+            "organization": "Prevailion",
+            "author": "Prevailion",
+            "title": "Who are latest targets of cyber group Lyceum?",
+            "categories": [
+                "Milan",
+                "Shark",
+                "LYCEUM"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/wp-content/uploads/2021/08/Siamesekitten.pdf",
+            "date": "2021-08-17",
+            "organization": "ClearSky",
+            "author": "ClearSky",
+            "title": "New Iranian Espionage Campaign   By \u201cSiamesekitten\u201d - Lyceum",
+            "categories": [
+                "danbot",
+                "Milan",
+                "Shark"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "shark",
@@ -254,34 +282,6 @@ var threatdata = {
                     "technique_description": "adversaries may schedule data exfiltration to be performed only at certain times of day or at certain intervals. this could be done to blend traffic patterns with normal activity or availability.",
                     "procedure_description": "shark can pause c2 communications for a specified time.[15]"
                 }
-            ]
-        }
-    ],
-    "file_name": "shark",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.prevailion.com/latest-targets-of-cyber-group-lyceum/",
-            "date": "2021-11-09",
-            "organization": "Prevailion",
-            "author": "Prevailion",
-            "title": "Who are latest targets of cyber group Lyceum?",
-            "categories": [
-                "Milan",
-                "Shark",
-                "LYCEUM"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/wp-content/uploads/2021/08/Siamesekitten.pdf",
-            "date": "2021-08-17",
-            "organization": "ClearSky",
-            "author": "ClearSky",
-            "title": "New Iranian Espionage Campaign   By \u201cSiamesekitten\u201d - Lyceum",
-            "categories": [
-                "danbot",
-                "Milan",
-                "Shark"
             ]
         }
     ]

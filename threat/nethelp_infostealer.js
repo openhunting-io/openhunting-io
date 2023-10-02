@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "nethelp_infostealer",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "net",
@@ -218,8 +221,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "nethelp_infostealer",
-    "analysis": null,
-    "articles": []
+    ]
 };

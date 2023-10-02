@@ -49,6 +49,134 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sedreco",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON TWILIGHT",
+            "categories": [
+                "X-Agent",
+                "X-Agent",
+                "X-Agent",
+                "Computrace",
+                "HideDRV",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel",
+                "Zebrocy",
+                "Zebrocy (AutoIT)"
+            ]
+        },
+        {
+            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
+            "date": "2017-02-20",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
+            "categories": [
+                "X-Agent",
+                "Komplex",
+                "Coreshell",
+                "Downdelph",
+                "HideDRV",
+                "SEADADDY",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf",
+            "date": "2017-01-10",
+            "organization": "FireEye",
+            "author": "FireEye iSIGHT Intelligence",
+            "title": "APT28:  At The Center  Of The Storm",
+            "categories": [
+                "Coreshell",
+                "OLDBAIT",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
+            "date": "2016-10-20",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "En Route with Sednit Part 2: Observing the Comings and Goings",
+            "categories": [
+                "X-Agent",
+                "Sedreco",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
+            "date": "2015-12-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Sofacy APT hits high profile targets with updated toolset",
+            "categories": [
+                "Coreshell",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/research/72924/sofacy-apt-hits-high-profile-targets-with-updated-toolset/",
+            "date": "2015-12-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Sofacy APT hits high profile targets with updated toolset",
+            "categories": [
+                "Sedreco"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-pawn-storm.pdf",
+            "date": "2014-10-27",
+            "organization": "Trend Micro",
+            "author": "Loucif Kharouni",
+            "title": "Operation Pawn Storm: Using Decoys to Evade Detection",
+            "categories": [
+                "Sedreco",
+                "Seduploader",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "http://www2.fireeye.com/rs/fireye/images/rpt-apt28.pdf",
+            "date": "2014",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT28",
+            "categories": [
+                "Coreshell",
+                "Sedreco",
+                "X-Agent"
+            ]
+        },
+        {
+            "data_url": "http://www.malware-reversing.com/2012/12/3-disclosure-of-another-0day-malware_15.html",
+            "date": "2012-12-15",
+            "organization": "",
+            "author": "R136a1",
+            "title": "Disclosure of another 0day malware - Analysis of 2nd Dropper and 3rd Dropper (Part 2)",
+            "categories": [
+                "Sedreco"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "advstoreshell",
@@ -588,134 +716,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sedreco",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-twilight",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON TWILIGHT",
-            "categories": [
-                "X-Agent",
-                "X-Agent",
-                "X-Agent",
-                "Computrace",
-                "HideDRV",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel",
-                "Zebrocy",
-                "Zebrocy (AutoIT)"
-            ]
-        },
-        {
-            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
-            "date": "2017-02-20",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
-            "categories": [
-                "X-Agent",
-                "Komplex",
-                "Coreshell",
-                "Downdelph",
-                "HideDRV",
-                "SEADADDY",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/sites/default/files/2021-09/APT28-Center-of-Storm-2017.pdf",
-            "date": "2017-01-10",
-            "organization": "FireEye",
-            "author": "FireEye iSIGHT Intelligence",
-            "title": "APT28:  At The Center  Of The Storm",
-            "categories": [
-                "Coreshell",
-                "OLDBAIT",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf",
-            "date": "2016-10-20",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "En Route with Sednit Part 2: Observing the Comings and Goings",
-            "categories": [
-                "X-Agent",
-                "Sedreco",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/sofacy-apt-hits-high-profile-targets-with-updated-toolset/72924/",
-            "date": "2015-12-04",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Sofacy APT hits high profile targets with updated toolset",
-            "categories": [
-                "Coreshell",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blog/research/72924/sofacy-apt-hits-high-profile-targets-with-updated-toolset/",
-            "date": "2015-12-04",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Sofacy APT hits high profile targets with updated toolset",
-            "categories": [
-                "Sedreco"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-pawn-storm.pdf",
-            "date": "2014-10-27",
-            "organization": "Trend Micro",
-            "author": "Loucif Kharouni",
-            "title": "Operation Pawn Storm: Using Decoys to Evade Detection",
-            "categories": [
-                "Sedreco",
-                "Seduploader",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "http://www2.fireeye.com/rs/fireye/images/rpt-apt28.pdf",
-            "date": "2014",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "APT28",
-            "categories": [
-                "Coreshell",
-                "Sedreco",
-                "X-Agent"
-            ]
-        },
-        {
-            "data_url": "http://www.malware-reversing.com/2012/12/3-disclosure-of-another-0day-malware_15.html",
-            "date": "2012-12-15",
-            "organization": "",
-            "author": "R136a1",
-            "title": "Disclosure of another 0day malware - Analysis of 2nd Dropper and 3rd Dropper (Part 2)",
-            "categories": [
-                "Sedreco"
             ]
         }
     ]

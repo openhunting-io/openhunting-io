@@ -43,6 +43,63 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "keyboy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-hobart",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE HOBART",
+            "categories": [
+                "KeyBoy",
+                "APT23"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/",
+            "date": "2018-03-14",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Tropic Trooper\u2019s New Strategy",
+            "categories": [
+                "KeyBoy",
+                "APT23"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/the-keyboys-are-back-in-town.html",
+            "date": "2017-11-02",
+            "organization": "PWC UK",
+            "author": "Bart Parys",
+            "title": "The KeyBoys are back in town",
+            "categories": [
+                "KeyBoy"
+            ]
+        },
+        {
+            "data_url": "https://citizenlab.ca/2016/11/parliament-keyboy/",
+            "date": "2016-11-17",
+            "organization": "CitizenLab",
+            "author": "Adam Hulcoop",
+            "title": "It\u2019s Parliamentary - KeyBoy and the targeting of the Tibetan Community",
+            "categories": [
+                "KeyBoy"
+            ]
+        },
+        {
+            "data_url": "https://blog.rapid7.com/2013/06/07/keyboy-targeted-attacks-against-vietnam-and-india/",
+            "date": "2013-06-07",
+            "organization": "Rapid7 Labs",
+            "author": "Claudio Guarnieri",
+            "title": "KeyBoy, Targeted Attacks against Vietnam and India",
+            "categories": [
+                "KeyBoy",
+                "APT23"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "keyboy",
@@ -302,63 +359,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "keyboy has a download and upload functionality.[241][242]"
                 }
-            ]
-        }
-    ],
-    "file_name": "keyboy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-hobart",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE HOBART",
-            "categories": [
-                "KeyBoy",
-                "APT23"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-trooper-new-strategy/",
-            "date": "2018-03-14",
-            "organization": "Trend Micro",
-            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
-            "title": "Tropic Trooper\u2019s New Strategy",
-            "categories": [
-                "KeyBoy",
-                "APT23"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/the-keyboys-are-back-in-town.html",
-            "date": "2017-11-02",
-            "organization": "PWC UK",
-            "author": "Bart Parys",
-            "title": "The KeyBoys are back in town",
-            "categories": [
-                "KeyBoy"
-            ]
-        },
-        {
-            "data_url": "https://citizenlab.ca/2016/11/parliament-keyboy/",
-            "date": "2016-11-17",
-            "organization": "CitizenLab",
-            "author": "Adam Hulcoop",
-            "title": "It\u2019s Parliamentary - KeyBoy and the targeting of the Tibetan Community",
-            "categories": [
-                "KeyBoy"
-            ]
-        },
-        {
-            "data_url": "https://blog.rapid7.com/2013/06/07/keyboy-targeted-attacks-against-vietnam-and-india/",
-            "date": "2013-06-07",
-            "organization": "Rapid7 Labs",
-            "author": "Claudio Guarnieri",
-            "title": "KeyBoy, Targeted Attacks against Vietnam and India",
-            "categories": [
-                "KeyBoy",
-                "APT23"
             ]
         }
     ]

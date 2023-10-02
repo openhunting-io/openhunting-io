@@ -56,7 +56,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-01-25 11:39:25",
-    "mitre": [],
     "file_name": "spymax",
     "analysis": null,
     "articles": [
@@ -103,5 +102,6 @@ var threatdata = {
                 "SpyMax"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -34,6 +34,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "gsecdump",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/wiki/Technique/T1003",
+            "date": "2019-10-11",
+            "organization": "MITRE",
+            "author": "MITRE",
+            "title": "Credential Dumping",
+            "categories": [
+                "gsecdump"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "gsecdump",
@@ -65,20 +79,6 @@ var threatdata = {
                     "technique_description": "adversaries with system access to a host may attempt to access local security authority (lsa) secrets, which can contain a variety of different credential materials, such as credentials for service accounts. lsa secrets are stored in the registry at hkey_local_machine\\security\\policy\\secrets. lsa secrets can also be dumped from memory.",
                     "procedure_description": "gsecdump can dump lsa secrets.[12]"
                 }
-            ]
-        }
-    ],
-    "file_name": "gsecdump",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://attack.mitre.org/wiki/Technique/T1003",
-            "date": "2019-10-11",
-            "organization": "MITRE",
-            "author": "MITRE",
-            "title": "Credential Dumping",
-            "categories": [
-                "gsecdump"
             ]
         }
     ]

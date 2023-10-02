@@ -33,6 +33,41 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "winpot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/atm-pos-malware-landscape-2017-2019/96750/",
+            "date": "2020-04-23",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky",
+            "title": "A look at the ATM/PoS malware landscape from 2017-2019",
+            "categories": [
+                "ATMitch",
+                "WinPot"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/atm-robber-winpot/89611/",
+            "date": "2019-02-19",
+            "organization": "Kaspersky Labs",
+            "author": "Konstantin Zykov",
+            "title": "ATM robber WinPot: a slot machine instead of cutlets",
+            "categories": [
+                "WinPot"
+            ]
+        },
+        {
+            "data_url": "https://www.association-secure-transactions.eu/east-publishes-fraud-update-2-2018/",
+            "date": "2018-05-07",
+            "organization": "European Association for Secure Transactions",
+            "author": "European Association for Secure Transactions",
+            "title": "EAST Publishes European Fraud Update 2-2018",
+            "categories": [
+                "WinPot"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -76,41 +111,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "winpot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/atm-pos-malware-landscape-2017-2019/96750/",
-            "date": "2020-04-23",
-            "organization": "Kaspersky Labs",
-            "author": "Kaspersky",
-            "title": "A look at the ATM/PoS malware landscape from 2017-2019",
-            "categories": [
-                "ATMitch",
-                "WinPot"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/atm-robber-winpot/89611/",
-            "date": "2019-02-19",
-            "organization": "Kaspersky Labs",
-            "author": "Konstantin Zykov",
-            "title": "ATM robber WinPot: a slot machine instead of cutlets",
-            "categories": [
-                "WinPot"
-            ]
-        },
-        {
-            "data_url": "https://www.association-secure-transactions.eu/east-publishes-fraud-update-2-2018/",
-            "date": "2018-05-07",
-            "organization": "European Association for Secure Transactions",
-            "author": "European Association for Secure Transactions",
-            "title": "EAST Publishes European Fraud Update 2-2018",
-            "categories": [
-                "WinPot"
             ]
         }
     ]

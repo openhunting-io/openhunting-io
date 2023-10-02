@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "maxtrilha",
     "analysis": null,
     "articles": [
@@ -42,5 +41,6 @@ var threatdata = {
                 "Maxtrilha"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

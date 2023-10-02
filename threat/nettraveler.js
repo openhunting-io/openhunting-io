@@ -43,6 +43,72 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "nettraveler",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cybergeeks.tech/dissecting-apt21-samples-using-a-step-by-step-approach/",
+            "date": "2020-11-27",
+            "organization": "CYBER GEEKS  All Things Infosec",
+            "author": "CyberMasterV",
+            "title": "Dissecting APT21 samples using a step-by-step approach",
+            "categories": [
+                "NetTraveler"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07170728/Guerrero-Saade-Raiu-VB2017.pdf",
+            "date": "2017-08-25",
+            "organization": "Kaspersky Labs",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "Walking in your Enemy's Shadow: When Fourth-Party Collection becomes Attribution Hell",
+            "categories": [
+                "NetTraveler",
+                "RCS",
+                "WannaCryptor",
+                "Dancing Salome"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/nettraveler-apt-targets-russian-european-interests",
+            "date": "2016-07-07",
+            "organization": "Proofpoint",
+            "author": "Axel F",
+            "title": "NetTraveler APT Targets Russian, European Interests",
+            "categories": [
+                "NetTraveler",
+                "APT21"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
+            "date": "2015-02-06",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "CrowdStrike Global Threat Intel Report 2014",
+            "categories": [
+                "BlackPOS",
+                "CryptoLocker",
+                "Derusbi",
+                "Elise",
+                "Enfal",
+                "EvilGrab",
+                "Gameover P2P",
+                "HttpBrowser",
+                "Medusa",
+                "Mirage",
+                "Naikon",
+                "NetTraveler",
+                "pirpi",
+                "PlugX",
+                "Poison Ivy",
+                "Sakula RAT",
+                "Sinowal",
+                "sykipot",
+                "taidoor"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "net",
@@ -274,72 +340,6 @@ var threatdata = {
                     "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
                     "procedure_description": "nettraveler contains a keylogger.[121]"
                 }
-            ]
-        }
-    ],
-    "file_name": "nettraveler",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cybergeeks.tech/dissecting-apt21-samples-using-a-step-by-step-approach/",
-            "date": "2020-11-27",
-            "organization": "CYBER GEEKS  All Things Infosec",
-            "author": "CyberMasterV",
-            "title": "Dissecting APT21 samples using a step-by-step approach",
-            "categories": [
-                "NetTraveler"
-            ]
-        },
-        {
-            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07170728/Guerrero-Saade-Raiu-VB2017.pdf",
-            "date": "2017-08-25",
-            "organization": "Kaspersky Labs",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "Walking in your Enemy's Shadow: When Fourth-Party Collection becomes Attribution Hell",
-            "categories": [
-                "NetTraveler",
-                "RCS",
-                "WannaCryptor",
-                "Dancing Salome"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/nettraveler-apt-targets-russian-european-interests",
-            "date": "2016-07-07",
-            "organization": "Proofpoint",
-            "author": "Axel F",
-            "title": "NetTraveler APT Targets Russian, European Interests",
-            "categories": [
-                "NetTraveler",
-                "APT21"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
-            "date": "2015-02-06",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "CrowdStrike Global Threat Intel Report 2014",
-            "categories": [
-                "BlackPOS",
-                "CryptoLocker",
-                "Derusbi",
-                "Elise",
-                "Enfal",
-                "EvilGrab",
-                "Gameover P2P",
-                "HttpBrowser",
-                "Medusa",
-                "Mirage",
-                "Naikon",
-                "NetTraveler",
-                "pirpi",
-                "PlugX",
-                "Poison Ivy",
-                "Sakula RAT",
-                "Sinowal",
-                "sykipot",
-                "taidoor"
             ]
         }
     ]

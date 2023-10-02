@@ -40,6 +40,30 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pyvil_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://twitter.com/ESETresearch/status/1360178593968623617",
+            "date": "2021-02-12",
+            "organization": "Twitter (@ESETresearch)",
+            "author": "ESET Research",
+            "title": "A twitter thread on discussing updated attack chain of EVILNUM group and their use PYVIL malware",
+            "categories": [
+                "PyVil"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat",
+            "date": "2020-09-03",
+            "organization": "Cybereason",
+            "author": "Tom Fakterman",
+            "title": "No Rest for the Wicked: Evilnum Unleashes PyVil RAT",
+            "categories": [
+                "PyVil"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -83,30 +107,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pyvil_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://twitter.com/ESETresearch/status/1360178593968623617",
-            "date": "2021-02-12",
-            "organization": "Twitter (@ESETresearch)",
-            "author": "ESET Research",
-            "title": "A twitter thread on discussing updated attack chain of EVILNUM group and their use PYVIL malware",
-            "categories": [
-                "PyVil"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/no-rest-for-the-wicked-evilnum-unleashes-pyvil-rat",
-            "date": "2020-09-03",
-            "organization": "Cybereason",
-            "author": "Tom Fakterman",
-            "title": "No Rest for the Wicked: Evilnum Unleashes PyVil RAT",
-            "categories": [
-                "PyVil"
             ]
         }
     ]

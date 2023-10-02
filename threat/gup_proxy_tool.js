@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "gup_proxy_tool",
     "analysis": null,
     "articles": [
@@ -44,5 +43,6 @@ var threatdata = {
                 "TA410"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

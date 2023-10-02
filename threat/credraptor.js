@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "credraptor",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "tor",
@@ -64,8 +67,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "credraptor",
-    "analysis": null,
-    "articles": []
+    ]
 };

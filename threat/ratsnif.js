@@ -33,6 +33,37 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ratsnif",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/tin-woodlawn",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "TIN WOODLAWN",
+            "categories": [
+                "Cobalt Strike",
+                "KerrDown",
+                "MimiKatz",
+                "PHOREAL",
+                "RatSnif",
+                "Remy",
+                "SOUNDBITE",
+                "APT32"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-ratsnif-new-network-vermin-from-oceanlotus.html",
+            "date": "2019-07-01",
+            "organization": "Threat Vector",
+            "author": "Cylance Threat Research Team",
+            "title": "Threat Spotlight: Ratsnif - New Network Vermin from OceanLotus",
+            "categories": [
+                "RatSnif"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -76,37 +107,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "ratsnif",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/tin-woodlawn",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "TIN WOODLAWN",
-            "categories": [
-                "Cobalt Strike",
-                "KerrDown",
-                "MimiKatz",
-                "PHOREAL",
-                "RatSnif",
-                "Remy",
-                "SOUNDBITE",
-                "APT32"
-            ]
-        },
-        {
-            "data_url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-ratsnif-new-network-vermin-from-oceanlotus.html",
-            "date": "2019-07-01",
-            "organization": "Threat Vector",
-            "author": "Cylance Threat Research Team",
-            "title": "Threat Spotlight: Ratsnif - New Network Vermin from OceanLotus",
-            "categories": [
-                "RatSnif"
             ]
         }
     ]

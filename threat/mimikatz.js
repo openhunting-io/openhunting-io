@@ -43,9 +43,9 @@ var threatdata = {
             "malware": "win.mimikatz",
             "last_update": "2023-08-15 15:58:09",
             "tags": [
-                "Mimikatz",
                 "Gh0stRAT",
-                "sodinokibi"
+                "sodinokibi",
+                "Mimikatz"
             ],
             "ioc": {
                 "sha256_hash": [
@@ -62,6 +62,9 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-08-15 15:58:09",
+    "file_name": "mimikatz",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "at",
@@ -367,8 +370,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "mimikatz",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rdfsniffer",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "rdfsniffer",
@@ -86,8 +89,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "rdfsniffer",
-    "analysis": null,
-    "articles": []
+    ]
 };

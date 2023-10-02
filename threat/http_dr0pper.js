@@ -36,7 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "http_dr0pper",
     "analysis": null,
     "articles": [
@@ -72,5 +71,6 @@ var threatdata = {
                 "httpdropper"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

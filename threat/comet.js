@@ -31,6 +31,101 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "comet",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-3/",
+            "date": "2022-09-26",
+            "organization": "CrowdStrike",
+            "author": "Ioan Iacob",
+            "title": "The Anatomy of Wiper Malware, Part 3: Input/Output Controls",
+            "categories": [
+                "CaddyWiper",
+                "DEADWOOD",
+                "DistTrack",
+                "DoubleZero",
+                "DUSTMAN",
+                "HermeticWiper",
+                "IsaacWiper",
+                "Meteor",
+                "Petya",
+                "Sierra(Alfa,Bravo, ...)",
+                "StoneDrill",
+                "WhisperGate",
+                "ZeroCleare"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-1/",
+            "date": "2022-08-12",
+            "organization": "CrowdStrike",
+            "author": "Ioan Iacob",
+            "title": "The Anatomy of Wiper Malware, Part 1: Common Techniques",
+            "categories": [
+                "Apostle",
+                "CaddyWiper",
+                "DEADWOOD",
+                "DistTrack",
+                "DoubleZero",
+                "DUSTMAN",
+                "HermeticWiper",
+                "IsaacWiper",
+                "IsraBye",
+                "KillDisk",
+                "Meteor",
+                "Olympic Destroyer",
+                "Ordinypt",
+                "Petya",
+                "Sierra(Alfa,Bravo, ...)",
+                "StoneDrill",
+                "WhisperGate",
+                "ZeroCleare"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/_cpresearch_/status/1541753913732366338",
+            "date": "2022-06-28",
+            "organization": "Twitter (@_CPResearch_)",
+            "author": "Check Point Research",
+            "title": "Tweet on malware used against Steel Industry in Iran",
+            "categories": [
+                "Meteor",
+                "Predatory Sparrow"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2021/indra-hackers-behind-recent-attacks-on-iran/",
+            "date": "2021-08-14",
+            "organization": "Check Point Research",
+            "author": "Checkpoint Research",
+            "title": "Indra \u2014 Hackers Behind Recent Attacks on Iran",
+            "categories": [
+                "Meteor",
+                "Predatory Sparrow"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/novel-meteor-wiper-used-in-attack-that-crippled-iranian-train-system/168262/",
+            "date": "2021-07-30",
+            "organization": "Threatpost",
+            "author": "Elizabeth Montalbano",
+            "title": "Novel Meteor Wiper Used in Attack that Crippled Iranian Train System",
+            "categories": [
+                "Meteor"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/meteorexpress-mysterious-wiper-paralyzes-iranian-trains-with-epic-troll/",
+            "date": "2021-07-29",
+            "organization": "SentinelOne",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "MeteorExpress | Mysterious Wiper Paralyzes Iranian Trains with Epic Troll",
+            "categories": [
+                "Meteor"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "meteor",
@@ -314,101 +409,6 @@ var threatdata = {
                     "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
                     "procedure_description": "meteor can disconnect all network adapters on a compromised host using powershell -command \"get-wmiobject -class win32_networkadapter | foreach { if ($.netenabled) { $.disable() } }\" > nul.[28]"
                 }
-            ]
-        }
-    ],
-    "file_name": "comet",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-3/",
-            "date": "2022-09-26",
-            "organization": "CrowdStrike",
-            "author": "Ioan Iacob",
-            "title": "The Anatomy of Wiper Malware, Part 3: Input/Output Controls",
-            "categories": [
-                "CaddyWiper",
-                "DEADWOOD",
-                "DistTrack",
-                "DoubleZero",
-                "DUSTMAN",
-                "HermeticWiper",
-                "IsaacWiper",
-                "Meteor",
-                "Petya",
-                "Sierra(Alfa,Bravo, ...)",
-                "StoneDrill",
-                "WhisperGate",
-                "ZeroCleare"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-1/",
-            "date": "2022-08-12",
-            "organization": "CrowdStrike",
-            "author": "Ioan Iacob",
-            "title": "The Anatomy of Wiper Malware, Part 1: Common Techniques",
-            "categories": [
-                "Apostle",
-                "CaddyWiper",
-                "DEADWOOD",
-                "DistTrack",
-                "DoubleZero",
-                "DUSTMAN",
-                "HermeticWiper",
-                "IsaacWiper",
-                "IsraBye",
-                "KillDisk",
-                "Meteor",
-                "Olympic Destroyer",
-                "Ordinypt",
-                "Petya",
-                "Sierra(Alfa,Bravo, ...)",
-                "StoneDrill",
-                "WhisperGate",
-                "ZeroCleare"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/_cpresearch_/status/1541753913732366338",
-            "date": "2022-06-28",
-            "organization": "Twitter (@_CPResearch_)",
-            "author": "Check Point Research",
-            "title": "Tweet on malware used against Steel Industry in Iran",
-            "categories": [
-                "Meteor",
-                "Predatory Sparrow"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2021/indra-hackers-behind-recent-attacks-on-iran/",
-            "date": "2021-08-14",
-            "organization": "Check Point Research",
-            "author": "Checkpoint Research",
-            "title": "Indra \u2014 Hackers Behind Recent Attacks on Iran",
-            "categories": [
-                "Meteor",
-                "Predatory Sparrow"
-            ]
-        },
-        {
-            "data_url": "https://threatpost.com/novel-meteor-wiper-used-in-attack-that-crippled-iranian-train-system/168262/",
-            "date": "2021-07-30",
-            "organization": "Threatpost",
-            "author": "Elizabeth Montalbano",
-            "title": "Novel Meteor Wiper Used in Attack that Crippled Iranian Train System",
-            "categories": [
-                "Meteor"
-            ]
-        },
-        {
-            "data_url": "https://labs.sentinelone.com/meteorexpress-mysterious-wiper-paralyzes-iranian-trains-with-epic-troll/",
-            "date": "2021-07-29",
-            "organization": "SentinelOne",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "MeteorExpress | Mysterious Wiper Paralyzes Iranian Trains with Epic Troll",
-            "categories": [
-                "Meteor"
             ]
         }
     ]

@@ -42,52 +42,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "punchtrack",
-            "procedure_code": "s0197",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0197",
-            "techniques": [
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "punchtrack is loaded and executed by a highly obfuscated launcher.[260]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1005",
-                    "technique_name": "data from local system",
-                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
-                    "procedure_description": "punchtrack scrapes memory for properly formatted payment card data.[147][148]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1074.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1074/001",
-                    "technique_name": "data staged : local data staging",
-                    "technique_description": "adversaries may stage collected data in a central location or directory on the local system prior to exfiltration. data may be kept in separate files or combined into one file through techniques such as archive collected data. interactive command shells may be used, and common functionality within cmd and bash may be used to copy data into a staging location.",
-                    "procedure_description": "punchtrack aggregates collected data in a tmp file.[80]"
-                }
-            ]
-        }
-    ],
     "file_name": "poslurp",
     "analysis": null,
     "articles": [
@@ -131,6 +85,52 @@ var threatdata = {
             "categories": [
                 "PoSlurp",
                 "FIN8"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "punchtrack",
+            "procedure_code": "s0197",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0197",
+            "techniques": [
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "punchtrack is loaded and executed by a highly obfuscated launcher.[260]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1005",
+                    "technique_name": "data from local system",
+                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
+                    "procedure_description": "punchtrack scrapes memory for properly formatted payment card data.[147][148]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1074.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1074/001",
+                    "technique_name": "data staged : local data staging",
+                    "technique_description": "adversaries may stage collected data in a central location or directory on the local system prior to exfiltration. data may be kept in separate files or combined into one file through techniques such as archive collected data. interactive command shells may be used, and common functionality within cmd and bash may be used to copy data into a staging location.",
+                    "procedure_description": "punchtrack aggregates collected data in a tmp file.[80]"
+                }
             ]
         }
     ]

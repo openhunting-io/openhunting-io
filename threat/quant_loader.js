@@ -40,7 +40,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "quant_loader",
     "analysis": null,
     "articles": [
@@ -179,5 +178,6 @@ var threatdata = {
                 "QuantLoader"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

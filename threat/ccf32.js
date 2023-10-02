@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ccf32",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "ccf32",
@@ -206,8 +209,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "ccf32",
-    "analysis": null,
-    "articles": []
+    ]
 };

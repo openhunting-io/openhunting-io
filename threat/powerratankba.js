@@ -39,6 +39,167 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerratankba",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.flashpoint-intel.com/blog/disclosure-chilean-redbanc-intrusion-lazarus-ties/",
+            "date": "2019-01-15",
+            "organization": "Flashpoint",
+            "author": "Vitali Kremez",
+            "title": "Disclosure of Chilean Redbanc Intrusion Leads to Lazarus Ties",
+            "categories": [
+                "PowerRatankba"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/lazarus-campaign-targeting-cryptocurrencies-reveals-remote-controller-tool-evolved-ratankba/",
+            "date": "2018-01-24",
+            "organization": "Trend Micro",
+            "author": "CH Lei",
+            "title": "Lazarus Campaign Targeting Cryptocurrencies Reveals Remote Controller Tool, an Evolved RATANKBA, and More",
+            "categories": [
+                "PowerRatankba"
+            ]
+        },
+        {
+            "data_url": "https://content.fireeye.com/apt/rpt-apt38",
+            "date": "2018",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT38",
+            "categories": [
+                "Bitsran",
+                "BLINDTOAD",
+                "BOOTWRECK",
+                "Contopee",
+                "DarkComet",
+                "DYEPACK",
+                "HOTWAX",
+                "NESTEGG",
+                "PowerRatankba",
+                "REDSHAWL",
+                "WORMHOLE",
+                "Lazarus Group"
+            ]
+        },
+        {
+            "data_url": "https://www.riskiq.com/blog/labs/lazarus-group-cryptocurrency/",
+            "date": "2017-12-20",
+            "organization": "RiskIQ",
+            "author": "Yonathan Klijnsma",
+            "title": "Mining Insights: Infrastructure Analysis of Lazarus Group Cyber Attacks on the Cryptocurrency Industry",
+            "categories": [
+                "PowerRatankba"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/sites/default/files/pfpt-us-wp-north-korea-bitten-by-bitcoin-bug.pdf",
+            "date": "2017-12-19",
+            "organization": "Proofpoint",
+            "author": "Darien Huss",
+            "title": "North Korea Bitten by  Bitcoin Bug",
+            "categories": [
+                "QUICKCAFE",
+                "PowerSpritz",
+                "Ghost RAT",
+                "PowerRatankba"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "ratankba",
@@ -282,167 +443,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "powerratankba",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
-            "date": "2020-02-19",
-            "organization": "Lexfo",
-            "author": "Lexfo",
-            "title": "The Lazarus Constellation A study on North Korean malware",
-            "categories": [
-                "FastCash",
-                "AppleJeus",
-                "BADCALL",
-                "Bankshot",
-                "Brambul",
-                "Dtrack",
-                "Duuzer",
-                "DYEPACK",
-                "ELECTRICFISH",
-                "HARDRAIN",
-                "Hermes",
-                "HOPLIGHT",
-                "Joanap",
-                "KEYMARBLE",
-                "Kimsuky",
-                "MimiKatz",
-                "MyDoom",
-                "NACHOCHEESE",
-                "NavRAT",
-                "PowerRatankba",
-                "RokRAT",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.flashpoint-intel.com/blog/disclosure-chilean-redbanc-intrusion-lazarus-ties/",
-            "date": "2019-01-15",
-            "organization": "Flashpoint",
-            "author": "Vitali Kremez",
-            "title": "Disclosure of Chilean Redbanc Intrusion Leads to Lazarus Ties",
-            "categories": [
-                "PowerRatankba"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/lazarus-campaign-targeting-cryptocurrencies-reveals-remote-controller-tool-evolved-ratankba/",
-            "date": "2018-01-24",
-            "organization": "Trend Micro",
-            "author": "CH Lei",
-            "title": "Lazarus Campaign Targeting Cryptocurrencies Reveals Remote Controller Tool, an Evolved RATANKBA, and More",
-            "categories": [
-                "PowerRatankba"
-            ]
-        },
-        {
-            "data_url": "https://content.fireeye.com/apt/rpt-apt38",
-            "date": "2018",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "APT38",
-            "categories": [
-                "Bitsran",
-                "BLINDTOAD",
-                "BOOTWRECK",
-                "Contopee",
-                "DarkComet",
-                "DYEPACK",
-                "HOTWAX",
-                "NESTEGG",
-                "PowerRatankba",
-                "REDSHAWL",
-                "WORMHOLE",
-                "Lazarus Group"
-            ]
-        },
-        {
-            "data_url": "https://www.riskiq.com/blog/labs/lazarus-group-cryptocurrency/",
-            "date": "2017-12-20",
-            "organization": "RiskIQ",
-            "author": "Yonathan Klijnsma",
-            "title": "Mining Insights: Infrastructure Analysis of Lazarus Group Cyber Attacks on the Cryptocurrency Industry",
-            "categories": [
-                "PowerRatankba"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/sites/default/files/pfpt-us-wp-north-korea-bitten-by-bitcoin-bug.pdf",
-            "date": "2017-12-19",
-            "organization": "Proofpoint",
-            "author": "Darien Huss",
-            "title": "North Korea Bitten by  Bitcoin Bug",
-            "categories": [
-                "QUICKCAFE",
-                "PowerSpritz",
-                "Ghost RAT",
-                "PowerRatankba"
             ]
         }
     ]

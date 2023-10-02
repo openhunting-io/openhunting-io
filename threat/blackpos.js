@@ -54,6 +54,73 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "blackpos",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/new-pos-malware-samples.pdf",
+            "date": "2020-09-25",
+            "organization": "VISA",
+            "author": "Visa Security Alert",
+            "title": "Visa Security Alert: New Malware Samples  identified in Point-of-Sale Compromises",
+            "categories": [
+                "BlackPOS",
+                "pwnpos",
+                "rtpos"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/operation-black-atlas-endangers-in-store-card-payments-and-smbs-worldwide-switches-between-blackpos-and-other-tools/",
+            "date": "2015-12-01",
+            "organization": "Trend Micro",
+            "author": "Jay Yaneza",
+            "title": "Operation Black Atlas Endangers In-Store Card Payments and SMBs Worldwide; Switches between BlackPOS and Other Tools",
+            "categories": [
+                "Alina POS",
+                "BlackPOS",
+                "Kronos",
+                "NewPosThings"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
+            "date": "2015-02-06",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "CrowdStrike Global Threat Intel Report 2014",
+            "categories": [
+                "BlackPOS",
+                "CryptoLocker",
+                "Derusbi",
+                "Elise",
+                "Enfal",
+                "EvilGrab",
+                "Gameover P2P",
+                "HttpBrowser",
+                "Medusa",
+                "Mirage",
+                "Naikon",
+                "NetTraveler",
+                "pirpi",
+                "PlugX",
+                "Poison Ivy",
+                "Sakula RAT",
+                "Sinowal",
+                "sykipot",
+                "taidoor"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-blackpos-malware-emerges-in-the-wild-targets-retail-accounts/",
+            "date": "2014-08-29",
+            "organization": "Trend Micro",
+            "author": "Rhena Inocencio",
+            "title": "New BlackPOS Malware Emerges in the Wild, Targets Retail Accounts",
+            "categories": [
+                "BlackPOS"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "frameworkpos",
@@ -121,73 +188,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over a different protocol than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "frameworkpos can use dns tunneling for exfiltration of credit card data.[5]"
                 }
-            ]
-        }
-    ],
-    "file_name": "blackpos",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/new-pos-malware-samples.pdf",
-            "date": "2020-09-25",
-            "organization": "VISA",
-            "author": "Visa Security Alert",
-            "title": "Visa Security Alert: New Malware Samples  identified in Point-of-Sale Compromises",
-            "categories": [
-                "BlackPOS",
-                "pwnpos",
-                "rtpos"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/operation-black-atlas-endangers-in-store-card-payments-and-smbs-worldwide-switches-between-blackpos-and-other-tools/",
-            "date": "2015-12-01",
-            "organization": "Trend Micro",
-            "author": "Jay Yaneza",
-            "title": "Operation Black Atlas Endangers In-Store Card Payments and SMBs Worldwide; Switches between BlackPOS and Other Tools",
-            "categories": [
-                "Alina POS",
-                "BlackPOS",
-                "Kronos",
-                "NewPosThings"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
-            "date": "2015-02-06",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "CrowdStrike Global Threat Intel Report 2014",
-            "categories": [
-                "BlackPOS",
-                "CryptoLocker",
-                "Derusbi",
-                "Elise",
-                "Enfal",
-                "EvilGrab",
-                "Gameover P2P",
-                "HttpBrowser",
-                "Medusa",
-                "Mirage",
-                "Naikon",
-                "NetTraveler",
-                "pirpi",
-                "PlugX",
-                "Poison Ivy",
-                "Sakula RAT",
-                "Sinowal",
-                "sykipot",
-                "taidoor"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-blackpos-malware-emerges-in-the-wild-targets-retail-accounts/",
-            "date": "2014-08-29",
-            "organization": "Trend Micro",
-            "author": "Rhena Inocencio",
-            "title": "New BlackPOS Malware Emerges in the Wild, Targets Retail Accounts",
-            "categories": [
-                "BlackPOS"
             ]
         }
     ]

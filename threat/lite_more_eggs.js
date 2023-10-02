@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "lite_more_eggs",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "more_eggs",
@@ -214,8 +217,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "lite_more_eggs",
-    "analysis": null,
-    "articles": []
+    ]
 };

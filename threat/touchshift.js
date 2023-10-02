@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "touchshift",
     "analysis": null,
     "articles": [
@@ -44,5 +43,6 @@ var threatdata = {
                 "TOUCHSHIFT"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

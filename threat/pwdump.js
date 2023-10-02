@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pwdump",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "pwdump",
@@ -49,8 +52,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "pwdump",
-    "analysis": null,
-    "articles": []
+    ]
 };

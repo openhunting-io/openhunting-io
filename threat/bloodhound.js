@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "bloodhound",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "bloodhound",
@@ -182,8 +185,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "bloodhound",
-    "analysis": null,
-    "articles": []
+    ]
 };

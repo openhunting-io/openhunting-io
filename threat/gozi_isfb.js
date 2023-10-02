@@ -60,7 +60,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "gozi_isfb",
     "analysis": null,
     "articles": [
@@ -1505,5 +1504,6 @@ var threatdata = {
                 "ISFB"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

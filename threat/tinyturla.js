@@ -31,6 +31,30 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "tinyturla",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cybergeeks.tech/a-step-by-step-analysis-of-the-russian-apt-turla-backdoor-called-tinyturla/",
+            "date": "2022-03-28",
+            "organization": "Cyber Geeks (CyberMasterV)",
+            "author": "Vlad Pasca",
+            "title": "A Step-by-Step Analysis of the Russian APT Turla Backdoor called TinyTurla",
+            "categories": [
+                "TinyTurla"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/09/tinyturla.html",
+            "date": "2021-09-21",
+            "organization": "Talos Intelligence",
+            "author": "Talos",
+            "title": "TinyTurla - Turla deploys new malware to keep a secret backdoor on victim machines",
+            "categories": [
+                "TinyTurla"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "turla",
@@ -1126,30 +1150,6 @@ var threatdata = {
                     "technique_description": "adversaries may schedule data exfiltration to be performed only at certain times of day or at certain intervals. this could be done to blend traffic patterns with normal activity or availability.",
                     "procedure_description": "tinyturla contacts its c2 based on a scheduled timing set in its configuration.[17]"
                 }
-            ]
-        }
-    ],
-    "file_name": "tinyturla",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cybergeeks.tech/a-step-by-step-analysis-of-the-russian-apt-turla-backdoor-called-tinyturla/",
-            "date": "2022-03-28",
-            "organization": "Cyber Geeks (CyberMasterV)",
-            "author": "Vlad Pasca",
-            "title": "A Step-by-Step Analysis of the Russian APT Turla Backdoor called TinyTurla",
-            "categories": [
-                "TinyTurla"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2021/09/tinyturla.html",
-            "date": "2021-09-21",
-            "organization": "Talos Intelligence",
-            "author": "Talos",
-            "title": "TinyTurla - Turla deploys new malware to keep a secret backdoor on victim machines",
-            "categories": [
-                "TinyTurla"
             ]
         }
     ]

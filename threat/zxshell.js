@@ -45,6 +45,243 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "zxshell",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lancefly-merdoor-zxshell-custom-backdoor",
+            "date": "2023-05-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Lancefly: Group Uses Custom Backdoor to Target Orgs in Government, Aviation, Other Sectors",
+            "categories": [
+                "Merdoor",
+                "PlugX",
+                "ShadowPad",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/iron-taurus/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Iron Taurus",
+            "categories": [
+                "CHINACHOPPER",
+                "Ghost RAT",
+                "Wonknu",
+                "ZXShell",
+                "APT27"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/K1uBLGqD8kgsIp1yTyYBfw",
+            "date": "2022-05-09",
+            "organization": "Qianxin Threat Intelligence Center",
+            "author": "Red Raindrops Team",
+            "title": "Operation EviLoong: An electronic party of \"borderless\" hackers",
+            "categories": [
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://risky.biz/whatiswinnti/",
+            "date": "2020-07-20",
+            "organization": "Risky.biz",
+            "author": "Daniel Gordon",
+            "title": "What even is Winnti?",
+            "categories": [
+                "CCleaner Backdoor",
+                "Ghost RAT",
+                "PlugX",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-decade-of-the-rats.pdf",
+            "date": "2020-04-07",
+            "organization": "Blackberry",
+            "author": "Blackberry Research",
+            "title": "Decade of the RATS: Cross-Platform APT Espionage Attacks Targeting Linux, Windows and Android",
+            "categories": [
+                "Penquin Turla",
+                "XOR DDoS",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://lab52.io/blog/apt27-rootkit-updates/",
+            "date": "2020-01-13",
+            "organization": "Lab52",
+            "author": "Jagaimo Kawaii",
+            "title": "APT27 ZxShell RootKit module updates",
+            "categories": [
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-union",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE UNION",
+            "categories": [
+                "9002 RAT",
+                "CHINACHOPPER",
+                "Enfal",
+                "Ghost RAT",
+                "HttpBrowser",
+                "HyperBro",
+                "owaauth",
+                "PlugX",
+                "Poison Ivy",
+                "ZXShell",
+                "APT27"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-keystone",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE KEYSTONE",
+            "categories": [
+                "9002 RAT",
+                "BLACKCOFFEE",
+                "DeputyDog",
+                "Derusbi",
+                "HiKit",
+                "PlugX",
+                "Poison Ivy",
+                "ZXShell",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+            "date": "2019-11-19",
+            "organization": "FireEye",
+            "author": "Kelli Vanderlee",
+            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
+            "categories": [
+                "MESSAGETAP",
+                "TSCookie",
+                "ACEHASH",
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "Derusbi",
+                "Empire Downloader",
+                "Ghost RAT",
+                "HIGHNOON",
+                "HTran",
+                "MimiKatz",
+                "NetWire RC",
+                "poisonplug",
+                "Poison Ivy",
+                "pupy",
+                "Quasar RAT",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0096",
+            "date": "2019-09-23",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "APT41",
+            "categories": [
+                "Derusbi",
+                "MESSAGETAP",
+                "Winnti",
+                "ASPXSpy",
+                "BLACKCOFFEE",
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "Derusbi",
+                "Empire Downloader",
+                "Ghost RAT",
+                "MimiKatz",
+                "NjRAT",
+                "PlugX",
+                "ShadowPad",
+                "Winnti",
+                "ZXShell",
+                "APT41"
+            ]
+        },
+        {
+            "data_url": "https://meltx0r.github.io/tech/2019/09/19/emissary-panda-apt.html",
+            "date": "2019-09-19",
+            "organization": "",
+            "author": "MeltX0R",
+            "title": "Emissary Panda APT: Recent infrastructure and RAT analysis",
+            "categories": [
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/a-peek-into-bronze-unions-toolbox",
+            "date": "2019-02-27",
+            "organization": "Secureworks",
+            "author": "CTU Research Team",
+            "title": "A Peek into BRONZE UNION\u2019s Toolbox",
+            "categories": [
+                "Ghost RAT",
+                "HyperBro",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://www.virusbulletin.com/uploads/pdf/conference_slides/2019/VB2019-GuPan.pdf",
+            "date": "2019",
+            "organization": "Virus Bulletin",
+            "author": "Lion Gu",
+            "title": "A vine climbing over the Great Firewall: A long-term attack against China",
+            "categories": [
+                "Poison Ivy",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0001/",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Axiom",
+            "categories": [
+                "Derusbi",
+                "9002 RAT",
+                "BLACKCOFFEE",
+                "Derusbi",
+                "Ghost RAT",
+                "HiKit",
+                "PlugX",
+                "ZXShell",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://github.com/smb01/zxshell",
+            "date": "2016-10-28",
+            "organization": "Github (smb01)",
+            "author": "smb01",
+            "title": "zxshell repository",
+            "categories": [
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://blogs.cisco.com/security/talos/opening-zxshell",
+            "date": "2014-10-28",
+            "organization": "Cisco",
+            "author": "Andrea Allievi",
+            "title": "Threat Spotlight: Group 72, Opening the ZxShell",
+            "categories": [
+                "ZXShell"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "zxshell",
@@ -520,243 +757,6 @@ var threatdata = {
                     "technique_description": "adversaries may perform endpoint denial of service (dos) attacks to degrade or block the availability of services to users. endpoint dos can be performed by exhausting the system resources those services are hosted on or exploiting the system to cause a persistent crash condition. example services include websites, email services, dns, and web-based applications. adversaries have been observed conducting dos attacks for political purposes and to support other malicious activities, including distraction, hacktivism, and extortion.",
                     "procedure_description": "zxshell has a feature to perform syn flood attack on a host.[8][9]"
                 }
-            ]
-        }
-    ],
-    "file_name": "zxshell",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lancefly-merdoor-zxshell-custom-backdoor",
-            "date": "2023-05-15",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Lancefly: Group Uses Custom Backdoor to Target Orgs in Government, Aviation, Other Sectors",
-            "categories": [
-                "Merdoor",
-                "PlugX",
-                "ShadowPad",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/iron-taurus/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Iron Taurus",
-            "categories": [
-                "CHINACHOPPER",
-                "Ghost RAT",
-                "Wonknu",
-                "ZXShell",
-                "APT27"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/K1uBLGqD8kgsIp1yTyYBfw",
-            "date": "2022-05-09",
-            "organization": "Qianxin Threat Intelligence Center",
-            "author": "Red Raindrops Team",
-            "title": "Operation EviLoong: An electronic party of \"borderless\" hackers",
-            "categories": [
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://risky.biz/whatiswinnti/",
-            "date": "2020-07-20",
-            "organization": "Risky.biz",
-            "author": "Daniel Gordon",
-            "title": "What even is Winnti?",
-            "categories": [
-                "CCleaner Backdoor",
-                "Ghost RAT",
-                "PlugX",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://www.blackberry.com/us/en/pdfviewer?file=/content/dam/blackberry-com/asset/enterprise/pdf/direct/report-bb-decade-of-the-rats.pdf",
-            "date": "2020-04-07",
-            "organization": "Blackberry",
-            "author": "Blackberry Research",
-            "title": "Decade of the RATS: Cross-Platform APT Espionage Attacks Targeting Linux, Windows and Android",
-            "categories": [
-                "Penquin Turla",
-                "XOR DDoS",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://lab52.io/blog/apt27-rootkit-updates/",
-            "date": "2020-01-13",
-            "organization": "Lab52",
-            "author": "Jagaimo Kawaii",
-            "title": "APT27 ZxShell RootKit module updates",
-            "categories": [
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-union",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE UNION",
-            "categories": [
-                "9002 RAT",
-                "CHINACHOPPER",
-                "Enfal",
-                "Ghost RAT",
-                "HttpBrowser",
-                "HyperBro",
-                "owaauth",
-                "PlugX",
-                "Poison Ivy",
-                "ZXShell",
-                "APT27"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-keystone",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE KEYSTONE",
-            "categories": [
-                "9002 RAT",
-                "BLACKCOFFEE",
-                "DeputyDog",
-                "Derusbi",
-                "HiKit",
-                "PlugX",
-                "Poison Ivy",
-                "ZXShell",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
-            "date": "2019-11-19",
-            "organization": "FireEye",
-            "author": "Kelli Vanderlee",
-            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
-            "categories": [
-                "MESSAGETAP",
-                "TSCookie",
-                "ACEHASH",
-                "CHINACHOPPER",
-                "Cobalt Strike",
-                "Derusbi",
-                "Empire Downloader",
-                "Ghost RAT",
-                "HIGHNOON",
-                "HTran",
-                "MimiKatz",
-                "NetWire RC",
-                "poisonplug",
-                "Poison Ivy",
-                "pupy",
-                "Quasar RAT",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0096",
-            "date": "2019-09-23",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "APT41",
-            "categories": [
-                "Derusbi",
-                "MESSAGETAP",
-                "Winnti",
-                "ASPXSpy",
-                "BLACKCOFFEE",
-                "CHINACHOPPER",
-                "Cobalt Strike",
-                "Derusbi",
-                "Empire Downloader",
-                "Ghost RAT",
-                "MimiKatz",
-                "NjRAT",
-                "PlugX",
-                "ShadowPad",
-                "Winnti",
-                "ZXShell",
-                "APT41"
-            ]
-        },
-        {
-            "data_url": "https://meltx0r.github.io/tech/2019/09/19/emissary-panda-apt.html",
-            "date": "2019-09-19",
-            "organization": "",
-            "author": "MeltX0R",
-            "title": "Emissary Panda APT: Recent infrastructure and RAT analysis",
-            "categories": [
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/a-peek-into-bronze-unions-toolbox",
-            "date": "2019-02-27",
-            "organization": "Secureworks",
-            "author": "CTU Research Team",
-            "title": "A Peek into BRONZE UNION\u2019s Toolbox",
-            "categories": [
-                "Ghost RAT",
-                "HyperBro",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://www.virusbulletin.com/uploads/pdf/conference_slides/2019/VB2019-GuPan.pdf",
-            "date": "2019",
-            "organization": "Virus Bulletin",
-            "author": "Lion Gu",
-            "title": "A vine climbing over the Great Firewall: A long-term attack against China",
-            "categories": [
-                "Poison Ivy",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0001/",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Axiom",
-            "categories": [
-                "Derusbi",
-                "9002 RAT",
-                "BLACKCOFFEE",
-                "Derusbi",
-                "Ghost RAT",
-                "HiKit",
-                "PlugX",
-                "ZXShell",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://github.com/smb01/zxshell",
-            "date": "2016-10-28",
-            "organization": "Github (smb01)",
-            "author": "smb01",
-            "title": "zxshell repository",
-            "categories": [
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://blogs.cisco.com/security/talos/opening-zxshell",
-            "date": "2014-10-28",
-            "organization": "Cisco",
-            "author": "Andrea Allievi",
-            "title": "Threat Spotlight: Group 72, Opening the ZxShell",
-            "categories": [
-                "ZXShell"
             ]
         }
     ]

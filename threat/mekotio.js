@@ -48,24 +48,24 @@ var threatdata = {
             "malware": "win.mekotio",
             "last_update": "2023-09-24 07:04:20",
             "tags": [
-                "MSI",
-                "BRA",
-                "Malvertising",
-                "loader",
-                "ARG",
-                "payloads",
-                "AutoHotKey",
-                "c2",
-                "banker",
                 "CHL",
-                "mekotio",
-                "Loaders",
-                "LATAM",
-                "geo",
-                "Mekotio",
+                "c2",
                 "C2",
+                "AutoHotKey",
                 "payload",
-                "brazil"
+                "Loaders",
+                "Mekotio",
+                "BRA",
+                "mekotio",
+                "geo",
+                "MSI",
+                "ARG",
+                "Malvertising",
+                "brazil",
+                "payloads",
+                "banker",
+                "LATAM",
+                "loader"
             ],
             "ioc": {
                 "domain": [
@@ -530,15 +530,7 @@ var threatdata = {
                         "timestamp": "2023-02-16 19:02:07"
                     },
                     {
-                        "value": "http://92.62.170.34.bc.googleusercontent.com/EMKT_CURSO_775-5693/",
-                        "timestamp": "2023-02-16 19:02:07"
-                    },
-                    {
                         "value": "http://228.115.68.34.bc.googleusercontent.com/EMKT_CURSO_775-5693/",
-                        "timestamp": "2023-02-16 19:02:06"
-                    },
-                    {
-                        "value": "http://92.62.170.34.bc.googleusercontent.com/EMKT_CURSO_775-5693/",
                         "timestamp": "2023-02-16 19:02:06"
                     },
                     {
@@ -734,6 +726,220 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-24 07:04:20",
+    "file_name": "mekotio",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/HP-Wolf-Security-Threat-Insights-Report-Q1-2022.pdf",
+            "date": "2022-05-11",
+            "organization": "HP",
+            "author": "HP Wolf Security",
+            "title": "Threat Insights Report Q1 - 2022",
+            "categories": [
+                "AsyncRAT",
+                "Emotet",
+                "Mekotio",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/hpsecurity/status/1509185858146082816",
+            "date": "2022-03-30",
+            "organization": "Twitter (@hpsecurity)",
+            "author": "HP Wolf Security",
+            "title": "Tweet on recent Mekotio Banker campaign",
+            "categories": [
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2021/11/11/html-smuggling-surges-highly-evasive-loader-technique-increasingly-used-in-banking-malware-targeted-attacks/",
+            "date": "2021-11-11",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "HTML smuggling surges: Highly evasive loader technique increasingly used in banking malware, targeted attacks",
+            "categories": [
+                "AsyncRAT",
+                "Mekotio",
+                "NjRAT"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2021/mekotio-banker-returns-with-improved-stealth-and-ancient-encryption/",
+            "date": "2021-11-03",
+            "organization": "Check Point Research",
+            "author": "Arie Olshtein",
+            "title": "Mekotio Banker Returns with Improved Stealth and Ancient Encryption",
+            "categories": [
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/MsftSecIntel/status/1418706916922986504",
+            "date": "2021-07-24",
+            "organization": "Twitter (@MsftSecIntel)",
+            "author": "Microsoft Security Intelligence",
+            "title": "Tweet on attackers increasingly using HTML smuggling in phishing and other email campaigns to deliver Casbaneiro",
+            "categories": [
+                "Metamorfo"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/spain-arrests-16-for-distributing-the-mekotio-and-grandoreiro-banking-trojans/",
+            "date": "2021-07-14",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Spain arrests 16 for working with the Mekotio and Grandoreiro malware gangs",
+            "categories": [
+                "Grandoreiro",
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "http://www.interior.gob.es/prensa/noticias/-/asset_publisher/GHU8Ap6ztgsg/content/id/13552853",
+            "date": "2021-07-14",
+            "organization": "Guardia Civil",
+            "author": "Guardia Civil",
+            "title": "The Civil Guard dismantles an important network dedicated to committing scams through the Internet",
+            "categories": [
+                "Grandoreiro",
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "https://cofense.com/blog/autohotkey-banking-trojan/",
+            "date": "2021-03-11",
+            "organization": "Cofense",
+            "author": "Elmer Hernandez",
+            "title": "AutoHotKey Leveraged by Metamorfo/Mekotio Banking Trojan",
+            "categories": [
+                "Metamorfo"
+            ]
+        },
+        {
+            "data_url": "https://www.advintel.io/post/economic-growth-digital-inclusion-specialized-crime-financial-cyber-fraud-in-latam",
+            "date": "2021-02-22",
+            "organization": "AdvIntel",
+            "author": "Beatriz Pimenta Klein",
+            "title": "Economic Growth, Digital Inclusion, & Specialized Crime: Financial Cyber Fraud in LATAM",
+            "categories": [
+                "BRATA",
+                "Mekotio",
+                "Metamorfo",
+                "Ploutus ATM",
+                "VictoryGate"
+            ]
+        },
+        {
+            "data_url": "https://www.blueliv.com/cyber-security-and-cyber-threat-intelligence-blog-blueliv/rooty-dolphin-uses-mekotio-to-target-bank-clients-in-south-america-and-europe/",
+            "date": "2020-09-30",
+            "organization": "Blueliv",
+            "author": "Carlos Rubio",
+            "title": "Rooty Dolphin uses Mekotio to target bank clients in South America and Europe",
+            "categories": [
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/08/13/mekotio-these-arent-the-security-updates-youre-looking-for/",
+            "date": "2020-08-13",
+            "organization": "",
+            "author": "ESET Research",
+            "title": "Mekotio: These aren\u2019t the security updates you\u2019re looking for\u2026",
+            "categories": [
+                "Mekotio"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/333/Bitdefender-PR-Whitepaper-Metamorfo-creat4500-en-EN-GenericUse.pdf",
+            "date": "2020-06-04",
+            "organization": "Bitdefender",
+            "author": "Janos Gergo Szeles",
+            "title": "Loading DLLs for illicit profit. A story about a Metamorfo distribution campaign",
+            "categories": [
+                "Metamorfo"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/navigating-cybersecurity-during-a-pandemic-latest-malware-and-threat-actors",
+            "date": "2020-04-01",
+            "organization": "Cisco",
+            "author": "Shyam Sundar Ramaswami",
+            "title": "Navigating Cybersecurity During a Pandemic: Latest Malware and Threat Actors",
+            "categories": [
+                "Azorult",
+                "CloudEyE",
+                "Formbook",
+                "KPOT Stealer",
+                "Metamorfo",
+                "Nanocore RAT",
+                "NetWire RC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://github.com/jeFF0Falltrades/IoCs/blob/master/Broadbased/metamorfo.md",
+            "date": "2020-02-11",
+            "organization": "Github (jeFF0Falltrades)",
+            "author": "Jeff Archer",
+            "title": "Metamorfo (aka Casbaneiro)",
+            "categories": [
+                "Metamorfo",
+                "Unidentified 072 (Metamorfo Loader)"
+            ]
+        },
+        {
+            "data_url": "https://www.botconf.eu/wp-content/uploads/2019/12/B2019-Soucek-Hornak-DemystifyingBankingTrojansFromLatinAmerica.pdf",
+            "date": "2019-12-06",
+            "organization": "Botconf",
+            "author": "Juraj Hor\u0148\u00e1k",
+            "title": "Demystifying banking trojans from Latin America",
+            "categories": [
+                "Astaroth",
+                "Metamorfo"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2019/10/03/casbaneiro-trojan-dangerou",
+            "date": "2019-10-03",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Casbaneiro: Dangerous cooking with a secret ingredient",
+            "categories": [
+                "Metamorfo"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@chenerlich/the-avast-abuser-metamorfo-banking-malware-hides-by-abusing-avast-executable-ac9b8b392767",
+            "date": "2019-07-16",
+            "organization": "enSilo",
+            "author": "Chen Erlich",
+            "title": "The Avast Abuser: Metamorfo Banking Malware Hides By Abusing Avast Executable",
+            "categories": [
+                "Metamorfo"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2018/11/metamorfo-brazilian-campaigns.html",
+            "date": "2018-11-08",
+            "organization": "Cisco Talos",
+            "author": "Edmund Brumaghin",
+            "title": "Metamorfo Banking Trojan Keeps Its Sights on Brazil",
+            "categories": [
+                "Metamorfo"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/04/metamorfo-campaign-targeting-brazilian-users.html",
+            "date": "2018-04-24",
+            "organization": "FireEye",
+            "author": "Edson Sierra",
+            "title": "Metamorfo Campaigns Targeting Brazilian Users",
+            "categories": [
+                "Metamorfo"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "metamorfo",
@@ -1377,220 +1583,6 @@ var threatdata = {
                     "technique_description": "adversaries may alter data en route to storage or other systems in order to manipulate external outcomes or hide activity, thus threatening the integrity of the data. by manipulating transmitted data, adversaries may attempt to affect a business process, organizational understanding, and decision making.",
                     "procedure_description": "metamorfo has a function that can watch the contents of the system clipboard for valid bitcoin addresses, which it then overwrites with the attacker's address.[5][6]"
                 }
-            ]
-        }
-    ],
-    "file_name": "mekotio",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2022/05/HP-Wolf-Security-Threat-Insights-Report-Q1-2022.pdf",
-            "date": "2022-05-11",
-            "organization": "HP",
-            "author": "HP Wolf Security",
-            "title": "Threat Insights Report Q1 - 2022",
-            "categories": [
-                "AsyncRAT",
-                "Emotet",
-                "Mekotio",
-                "Vjw0rm"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/hpsecurity/status/1509185858146082816",
-            "date": "2022-03-30",
-            "organization": "Twitter (@hpsecurity)",
-            "author": "HP Wolf Security",
-            "title": "Tweet on recent Mekotio Banker campaign",
-            "categories": [
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2021/11/11/html-smuggling-surges-highly-evasive-loader-technique-increasingly-used-in-banking-malware-targeted-attacks/",
-            "date": "2021-11-11",
-            "organization": "Microsoft",
-            "author": "Microsoft 365 Defender Threat Intelligence Team",
-            "title": "HTML smuggling surges: Highly evasive loader technique increasingly used in banking malware, targeted attacks",
-            "categories": [
-                "AsyncRAT",
-                "Mekotio",
-                "NjRAT"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2021/mekotio-banker-returns-with-improved-stealth-and-ancient-encryption/",
-            "date": "2021-11-03",
-            "organization": "Check Point Research",
-            "author": "Arie Olshtein",
-            "title": "Mekotio Banker Returns with Improved Stealth and Ancient Encryption",
-            "categories": [
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/MsftSecIntel/status/1418706916922986504",
-            "date": "2021-07-24",
-            "organization": "Twitter (@MsftSecIntel)",
-            "author": "Microsoft Security Intelligence",
-            "title": "Tweet on attackers increasingly using HTML smuggling in phishing and other email campaigns to deliver Casbaneiro",
-            "categories": [
-                "Metamorfo"
-            ]
-        },
-        {
-            "data_url": "https://therecord.media/spain-arrests-16-for-distributing-the-mekotio-and-grandoreiro-banking-trojans/",
-            "date": "2021-07-14",
-            "organization": "The Record",
-            "author": "Catalin Cimpanu",
-            "title": "Spain arrests 16 for working with the Mekotio and Grandoreiro malware gangs",
-            "categories": [
-                "Grandoreiro",
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "http://www.interior.gob.es/prensa/noticias/-/asset_publisher/GHU8Ap6ztgsg/content/id/13552853",
-            "date": "2021-07-14",
-            "organization": "Guardia Civil",
-            "author": "Guardia Civil",
-            "title": "The Civil Guard dismantles an important network dedicated to committing scams through the Internet",
-            "categories": [
-                "Grandoreiro",
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "https://cofense.com/blog/autohotkey-banking-trojan/",
-            "date": "2021-03-11",
-            "organization": "Cofense",
-            "author": "Elmer Hernandez",
-            "title": "AutoHotKey Leveraged by Metamorfo/Mekotio Banking Trojan",
-            "categories": [
-                "Metamorfo"
-            ]
-        },
-        {
-            "data_url": "https://www.advintel.io/post/economic-growth-digital-inclusion-specialized-crime-financial-cyber-fraud-in-latam",
-            "date": "2021-02-22",
-            "organization": "AdvIntel",
-            "author": "Beatriz Pimenta Klein",
-            "title": "Economic Growth, Digital Inclusion, & Specialized Crime: Financial Cyber Fraud in LATAM",
-            "categories": [
-                "BRATA",
-                "Mekotio",
-                "Metamorfo",
-                "Ploutus ATM",
-                "VictoryGate"
-            ]
-        },
-        {
-            "data_url": "https://www.blueliv.com/cyber-security-and-cyber-threat-intelligence-blog-blueliv/rooty-dolphin-uses-mekotio-to-target-bank-clients-in-south-america-and-europe/",
-            "date": "2020-09-30",
-            "organization": "Blueliv",
-            "author": "Carlos Rubio",
-            "title": "Rooty Dolphin uses Mekotio to target bank clients in South America and Europe",
-            "categories": [
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/08/13/mekotio-these-arent-the-security-updates-youre-looking-for/",
-            "date": "2020-08-13",
-            "organization": "",
-            "author": "ESET Research",
-            "title": "Mekotio: These aren\u2019t the security updates you\u2019re looking for\u2026",
-            "categories": [
-                "Mekotio"
-            ]
-        },
-        {
-            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/333/Bitdefender-PR-Whitepaper-Metamorfo-creat4500-en-EN-GenericUse.pdf",
-            "date": "2020-06-04",
-            "organization": "Bitdefender",
-            "author": "Janos Gergo Szeles",
-            "title": "Loading DLLs for illicit profit. A story about a Metamorfo distribution campaign",
-            "categories": [
-                "Metamorfo"
-            ]
-        },
-        {
-            "data_url": "https://umbrella.cisco.com/blog/navigating-cybersecurity-during-a-pandemic-latest-malware-and-threat-actors",
-            "date": "2020-04-01",
-            "organization": "Cisco",
-            "author": "Shyam Sundar Ramaswami",
-            "title": "Navigating Cybersecurity During a Pandemic: Latest Malware and Threat Actors",
-            "categories": [
-                "Azorult",
-                "CloudEyE",
-                "Formbook",
-                "KPOT Stealer",
-                "Metamorfo",
-                "Nanocore RAT",
-                "NetWire RC",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://github.com/jeFF0Falltrades/IoCs/blob/master/Broadbased/metamorfo.md",
-            "date": "2020-02-11",
-            "organization": "Github (jeFF0Falltrades)",
-            "author": "Jeff Archer",
-            "title": "Metamorfo (aka Casbaneiro)",
-            "categories": [
-                "Metamorfo",
-                "Unidentified 072 (Metamorfo Loader)"
-            ]
-        },
-        {
-            "data_url": "https://www.botconf.eu/wp-content/uploads/2019/12/B2019-Soucek-Hornak-DemystifyingBankingTrojansFromLatinAmerica.pdf",
-            "date": "2019-12-06",
-            "organization": "Botconf",
-            "author": "Juraj Hor\u0148\u00e1k",
-            "title": "Demystifying banking trojans from Latin America",
-            "categories": [
-                "Astaroth",
-                "Metamorfo"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2019/10/03/casbaneiro-trojan-dangerou",
-            "date": "2019-10-03",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Casbaneiro: Dangerous cooking with a secret ingredient",
-            "categories": [
-                "Metamorfo"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/@chenerlich/the-avast-abuser-metamorfo-banking-malware-hides-by-abusing-avast-executable-ac9b8b392767",
-            "date": "2019-07-16",
-            "organization": "enSilo",
-            "author": "Chen Erlich",
-            "title": "The Avast Abuser: Metamorfo Banking Malware Hides By Abusing Avast Executable",
-            "categories": [
-                "Metamorfo"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2018/11/metamorfo-brazilian-campaigns.html",
-            "date": "2018-11-08",
-            "organization": "Cisco Talos",
-            "author": "Edmund Brumaghin",
-            "title": "Metamorfo Banking Trojan Keeps Its Sights on Brazil",
-            "categories": [
-                "Metamorfo"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2018/04/metamorfo-campaign-targeting-brazilian-users.html",
-            "date": "2018-04-24",
-            "organization": "FireEye",
-            "author": "Edson Sierra",
-            "title": "Metamorfo Campaigns Targeting Brazilian Users",
-            "categories": [
-                "Metamorfo"
             ]
         }
     ]

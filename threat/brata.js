@@ -156,6 +156,9 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-25 22:56:43",
+    "file_name": "brata",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "at",
@@ -201,8 +204,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "brata",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -31,6 +31,87 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powersource",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
+            "date": "2023-07-26",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
+            "categories": [
+                "Valak",
+                "POWERSOURCE",
+                "Gazer",
+                "PowerDuke"
+            ]
+        },
+        {
+            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
+            "date": "2022-04-27",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "LE GROUPE CYBERCRIMINEL FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "SQLRat",
+                "POWERSOURCE",
+                "Andromeda",
+                "BABYMETAL",
+                "BlackCat",
+                "BlackMatter",
+                "BOOSTWRITE",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "Dridex",
+                "DRIFTPIN",
+                "Gameover P2P",
+                "MimiKatz",
+                "Murofet",
+                "Qadars",
+                "Ranbyus",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s05-att&cking-fin7.pdf",
+            "date": "2018-10-01",
+            "organization": "FireEye",
+            "author": "Regina Elwell",
+            "title": "ATT&CKing FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "ANTAK",
+                "POWERPIPE",
+                "POWERSOURCE",
+                "HALFBAKED",
+                "BABYMETAL",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "DRIFTPIN",
+                "PILLOWMINT",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
+            "date": "2017-03-07",
+            "organization": "FireEye",
+            "author": "Jordan Nuce",
+            "title": "FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings",
+            "categories": [
+                "POWERSOURCE",
+                "FIN7"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "powersource",
@@ -122,87 +203,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "powersource has been observed being used to download textmate and the cobalt strike beacon payload onto victims.[356]"
                 }
-            ]
-        }
-    ],
-    "file_name": "powersource",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
-            "date": "2023-07-26",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
-            "categories": [
-                "Valak",
-                "POWERSOURCE",
-                "Gazer",
-                "PowerDuke"
-            ]
-        },
-        {
-            "data_url": "https://cert.ssi.gouv.fr/uploads/20220427_NP_TLPWHITE_ANSSI_FIN7.pdf",
-            "date": "2022-04-27",
-            "organization": "ANSSI",
-            "author": "ANSSI",
-            "title": "LE GROUPE CYBERCRIMINEL FIN7",
-            "categories": [
-                "Bateleur",
-                "BELLHOP",
-                "Griffon",
-                "SQLRat",
-                "POWERSOURCE",
-                "Andromeda",
-                "BABYMETAL",
-                "BlackCat",
-                "BlackMatter",
-                "BOOSTWRITE",
-                "Carbanak",
-                "Cobalt Strike",
-                "DNSMessenger",
-                "Dridex",
-                "DRIFTPIN",
-                "Gameover P2P",
-                "MimiKatz",
-                "Murofet",
-                "Qadars",
-                "Ranbyus",
-                "SocksBot"
-            ]
-        },
-        {
-            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s05-att&cking-fin7.pdf",
-            "date": "2018-10-01",
-            "organization": "FireEye",
-            "author": "Regina Elwell",
-            "title": "ATT&CKing FIN7",
-            "categories": [
-                "Bateleur",
-                "BELLHOP",
-                "Griffon",
-                "ANTAK",
-                "POWERPIPE",
-                "POWERSOURCE",
-                "HALFBAKED",
-                "BABYMETAL",
-                "Carbanak",
-                "Cobalt Strike",
-                "DNSMessenger",
-                "DRIFTPIN",
-                "PILLOWMINT",
-                "SocksBot"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html",
-            "date": "2017-03-07",
-            "organization": "FireEye",
-            "author": "Jordan Nuce",
-            "title": "FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings",
-            "categories": [
-                "POWERSOURCE",
-                "FIN7"
             ]
         }
     ]

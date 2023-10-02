@@ -25,8 +25,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "megasync",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

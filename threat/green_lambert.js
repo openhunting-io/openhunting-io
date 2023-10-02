@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "green_lambert",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "green lambert",
@@ -313,8 +316,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "green_lambert",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "regduke",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "regduke",
@@ -201,8 +204,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "regduke",
-    "analysis": null,
-    "articles": []
+    ]
 };

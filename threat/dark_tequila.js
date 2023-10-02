@@ -34,7 +34,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "dark_tequila",
     "analysis": null,
     "articles": [
@@ -48,5 +47,6 @@ var threatdata = {
                 "DarkTequila"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

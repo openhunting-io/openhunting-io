@@ -45,8 +45,8 @@ var threatdata = {
             "last_update": "2021-03-08 20:45:28",
             "tags": [
                 "android",
-                "banker",
-                "blackrock"
+                "blackrock",
+                "banker"
             ],
             "ioc": {
                 "url": [
@@ -59,7 +59,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-03-08 20:45:28",
-    "mitre": [],
     "file_name": "blackrock",
     "analysis": null,
     "articles": [
@@ -75,5 +74,6 @@ var threatdata = {
                 "ERMAC"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

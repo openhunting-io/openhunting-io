@@ -39,18 +39,18 @@ var threatdata = {
             "malware": "win.systembc",
             "last_update": "2023-09-18 06:30:22",
             "tags": [
-                "ViriBack",
-                "Emotet",
-                "Epoch5",
-                "systembc",
-                "Backdoor",
                 "c2",
-                "Ransomware",
                 "ViceSociety",
+                "Backdoor",
                 "SystemBC",
-                "backdoor",
                 "panel",
-                "viaAmadey"
+                "ViriBack",
+                "systembc",
+                "Ransomware",
+                "backdoor",
+                "viaAmadey",
+                "Epoch5",
+                "Emotet"
             ],
             "ioc": {
                 "ip:port": [
@@ -1679,7 +1679,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-18 06:30:22",
-    "mitre": [],
     "file_name": "systembc",
     "analysis": null,
     "articles": [
@@ -2195,5 +2194,6 @@ var threatdata = {
                 "SystemBC"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

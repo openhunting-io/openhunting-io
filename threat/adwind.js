@@ -89,10 +89,10 @@ var threatdata = {
             "malware": "jar.adwind",
             "last_update": "2023-09-07 05:55:41",
             "tags": [
+                "RAT",
+                "geo",
                 "adwind",
                 "Adwind",
-                "geo",
-                "RAT",
                 "TUR"
             ],
             "ioc": {
@@ -344,6 +344,9 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-07 05:55:41",
+    "file_name": "adwind",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "at",
@@ -389,8 +392,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "adwind",
-    "analysis": null,
-    "articles": []
+    ]
 };

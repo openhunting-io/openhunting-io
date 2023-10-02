@@ -57,523 +57,1549 @@ var threatdata = {
             "malware_printable": "Gozi",
             "malware_alias": "CRM,Gozi CRM,Papras,Snifula,Ursnif",
             "malware": "win.gozi",
-            "last_update": "2023-07-18 16:45:33",
+            "last_update": "2023-09-27 21:02:10",
             "tags": [
-                "Ursnif",
-                "cutwail",
-                "exe",
-                "RM3Loader",
-                "RigEK",
+                "c2",
+                "historicalandnew",
+                "IFSB",
+                "ITA",
                 "geo",
                 "LDR4",
-                "zip",
-                "IFSB",
-                "202108021",
-                "c2",
-                "js",
-                "gozi",
+                "RM3Loader",
                 "Gozi",
-                "ISFB",
-                "ursnif",
+                "Ursnif",
                 "TA551",
-                "ITA",
+                "zip",
+                "ursnif",
+                "cutwail",
+                "panel",
+                "gozi",
+                "202108021",
+                "rat",
+                "ISFB",
                 "RM3",
-                "panel"
+                "exe",
+                "js",
+                "RigEK"
             ],
             "ioc": {
-                "url": [
-                    {
-                        "value": "http://45.155.249.91",
-                        "timestamp": "2023-07-18 16:45:33"
-                    },
-                    {
-                        "value": "https://liset.che3ck.bi1ng.com",
-                        "timestamp": "2023-07-18 16:45:32"
-                    },
-                    {
-                        "value": "https://lisfwhite.ch2eck.yaheoo.com",
-                        "timestamp": "2023-07-18 16:45:31"
-                    },
-                    {
-                        "value": "http://45.155.250.58",
-                        "timestamp": "2023-07-18 16:45:31"
-                    },
-                    {
-                        "value": "https://listwhfite.check3.yaho1o.com",
-                        "timestamp": "2023-07-18 16:45:29"
-                    },
-                    {
-                        "value": "http://79.132.130.230",
-                        "timestamp": "2023-07-18 16:45:28"
-                    },
-                    {
-                        "value": "http://45.11.182.38",
-                        "timestamp": "2023-07-18 16:45:27"
-                    },
-                    {
-                        "value": "http://cajaminoretino.site/signed/3939.7z",
-                        "timestamp": "2023-07-18 16:41:26"
-                    },
-                    {
-                        "value": "http://78.153.130.9",
-                        "timestamp": "2023-06-08 23:25:50"
-                    },
-                    {
-                        "value": "http://45.15.157.239",
-                        "timestamp": "2023-06-08 23:25:50"
-                    },
-                    {
-                        "value": "https://www.patrickforeilly.com/vps/",
-                        "timestamp": "2023-06-08 23:21:45"
-                    },
-                    {
-                        "value": "https://fuelrescue.ie/wp/",
-                        "timestamp": "2023-06-08 23:21:43"
-                    },
-                    {
-                        "value": "https://whatswit.com/",
-                        "timestamp": "2023-02-22 10:46:48"
-                    },
-                    {
-                        "value": "http://194.76.224.234",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "http://176.10.111.45",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "http://79.132.128.151",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "http://176.10.111.47",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "http://108.61.165.145",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "http://37.120.222.23",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "http://79.132.128.146",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "http://176.10.119.229",
-                        "timestamp": "2022-12-15 16:55:55"
-                    },
-                    {
-                        "value": "https://dominikania.com/",
-                        "timestamp": "2022-09-20 09:16:13"
-                    },
-                    {
-                        "value": "http://5.42.199.72/cook32.rar",
-                        "timestamp": "2022-07-14 11:32:02"
-                    },
-                    {
-                        "value": "http://5.42.199.72/cook64.rar",
-                        "timestamp": "2022-07-14 11:32:02"
-                    },
-                    {
-                        "value": "http://5.42.199.72/stilak32.rar",
-                        "timestamp": "2022-07-14 11:32:01"
-                    },
-                    {
-                        "value": "http://5.42.199.72/stilak64.rar",
-                        "timestamp": "2022-07-14 11:32:01"
-                    },
-                    {
-                        "value": "https://domanaic.com/",
-                        "timestamp": "2022-07-14 11:31:45"
-                    },
-                    {
-                        "value": "https://investprides.com/",
-                        "timestamp": "2022-06-29 09:32:04"
-                    },
-                    {
-                        "value": "https://consaltins.com/",
-                        "timestamp": "2022-06-07 08:49:25"
-                    },
-                    {
-                        "value": "https://inmanagment.com/",
-                        "timestamp": "2022-05-25 08:56:16"
-                    },
-                    {
-                        "value": "https://managmentoria.com",
-                        "timestamp": "2022-05-17 09:23:49"
-                    },
-                    {
-                        "value": "https://investoriant.com/",
-                        "timestamp": "2022-05-04 10:24:29"
-                    },
-                    {
-                        "value": "https://inversinbiz.com",
-                        "timestamp": "2022-04-28 08:41:09"
-                    },
-                    {
-                        "value": "https://bizinvetment.com/",
-                        "timestamp": "2022-04-27 09:29:06"
-                    },
-                    {
-                        "value": "https://hotroad.cyou/index.htm",
-                        "timestamp": "2021-09-03 15:38:31"
-                    },
-                    {
-                        "value": "https://monotep.xyz/index.htm",
-                        "timestamp": "2021-09-03 15:38:31"
-                    },
-                    {
-                        "value": "https://free.mynowministries.com/app.dll",
-                        "timestamp": "2021-07-14 14:15:27"
-                    }
-                ],
-                "ip:port": [
-                    {
-                        "value": "45.11.182.38:443",
-                        "timestamp": "2023-07-18 16:40:18"
-                    },
-                    {
-                        "value": "31.41.44.125:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "193.233.72.14:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "91.149.218.248:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "194.87.47.138:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "46.8.210.80:443",
-                        "timestamp": "2023-01-12 12:59:34"
-                    },
-                    {
-                        "value": "62.173.140.103:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "62.173.140.8:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "31.41.44.124:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "62.173.138.234:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "31.41.44.112:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "91.107.119.114:443",
-                        "timestamp": "2023-01-10 13:27:55"
-                    },
-                    {
-                        "value": "194.55.186.246:80",
-                        "timestamp": "2022-12-18 02:18:38"
-                    },
-                    {
-                        "value": "91.242.217.28:80",
-                        "timestamp": "2022-12-18 01:16:27"
-                    },
-                    {
-                        "value": "91.241.93.111:80",
-                        "timestamp": "2022-12-18 01:16:27"
-                    },
-                    {
-                        "value": "31.41.44.63:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "31.41.44.60:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "45.11.182.97:80",
-                        "timestamp": "2022-12-18 01:16:27"
-                    },
-                    {
-                        "value": "79.132.128.108:80",
-                        "timestamp": "2022-12-18 01:16:27"
-                    },
-                    {
-                        "value": "91.241.93.98:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "79.132.128.109:80",
-                        "timestamp": "2022-12-18 01:16:27"
-                    },
-                    {
-                        "value": "185.31.162.9:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "62.173.147.113:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "185.31.160.147:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "31.41.44.63:80",
-                        "timestamp": "2022-12-15 19:32:39"
-                    },
-                    {
-                        "value": "31.41.46.120:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "31.41.44.63:80",
-                        "timestamp": "2022-12-15 19:32:39"
-                    },
-                    {
-                        "value": "185.31.160.229:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "31.41.44.60:80",
-                        "timestamp": "2022-12-15 19:32:38"
-                    },
-                    {
-                        "value": "31.41.46.132:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "194.76.224.234:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "108.61.165.145:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "37.120.222.23:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "79.132.128.146:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "176.10.119.229:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "176.10.111.45:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "79.132.128.151:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "176.10.111.47:80",
-                        "timestamp": "2022-12-15 20:48:03"
-                    },
-                    {
-                        "value": "31.207.46.12:443",
-                        "timestamp": "2022-11-30 10:22:54"
-                    },
-                    {
-                        "value": "89.45.4.102:443",
-                        "timestamp": "2022-09-20 09:16:54"
-                    },
-                    {
-                        "value": "89.41.26.99:443",
-                        "timestamp": "2022-09-20 09:16:53"
-                    },
-                    {
-                        "value": "193.106.191.163:80",
-                        "timestamp": "2022-09-20 14:39:16"
-                    },
-                    {
-                        "value": "193.106.191.163:443",
-                        "timestamp": "2022-09-20 09:16:54"
-                    },
-                    {
-                        "value": "37.120.206.71:443",
-                        "timestamp": "2022-08-03 11:06:01"
-                    },
-                    {
-                        "value": "37.120.206.84:443",
-                        "timestamp": "2022-08-03 11:06:01"
-                    },
-                    {
-                        "value": "37.120.206.95:443",
-                        "timestamp": "2022-08-03 11:06:02"
-                    },
-                    {
-                        "value": "5.42.199.57:443",
-                        "timestamp": "2022-08-03 11:06:02"
-                    },
-                    {
-                        "value": "37.120.206.91:443",
-                        "timestamp": "2022-08-03 11:06:02"
-                    },
-                    {
-                        "value": "193.27.14.240:443",
-                        "timestamp": "2022-07-20 10:33:53"
-                    },
-                    {
-                        "value": "94.198.40.39:443",
-                        "timestamp": "2022-07-20 10:33:53"
-                    },
-                    {
-                        "value": "94.198.40.47:443",
-                        "timestamp": "2022-07-20 10:33:53"
-                    },
-                    {
-                        "value": "94.198.40.58:443",
-                        "timestamp": "2022-09-30 20:54:31"
-                    },
-                    {
-                        "value": "79.110.52.241:443",
-                        "timestamp": "2022-07-14 11:50:24"
-                    },
-                    {
-                        "value": "46.21.153.252:443",
-                        "timestamp": "2022-07-14 11:50:23"
-                    },
-                    {
-                        "value": "79.110.52.164:443",
-                        "timestamp": "2022-07-07 09:49:09"
-                    },
-                    {
-                        "value": "79.110.52.97:443",
-                        "timestamp": "2022-07-07 09:49:09"
-                    },
-                    {
-                        "value": "23.227.202.64:443",
-                        "timestamp": "2022-07-14 11:50:23"
-                    },
-                    {
-                        "value": "79.110.52.244:443",
-                        "timestamp": "2022-07-14 11:50:23"
-                    },
-                    {
-                        "value": "46.21.153.221:443",
-                        "timestamp": "2022-06-29 09:32:49"
-                    },
-                    {
-                        "value": "194.76.224.26:443",
-                        "timestamp": "2022-06-29 09:32:49"
-                    },
-                    {
-                        "value": "46.21.153.203:443",
-                        "timestamp": "2022-06-29 09:32:49"
-                    },
-                    {
-                        "value": "194.76.225.112:443",
-                        "timestamp": "2022-06-29 09:32:48"
-                    },
-                    {
-                        "value": "194.76.225.113:443",
-                        "timestamp": "2022-06-29 09:32:48"
-                    },
-                    {
-                        "value": "37.10.71.221:443",
-                        "timestamp": "2022-06-07 08:51:00"
-                    },
-                    {
-                        "value": "176.100.42.170:443",
-                        "timestamp": "2022-06-07 08:50:56"
-                    },
-                    {
-                        "value": "31.214.157.235:443",
-                        "timestamp": "2022-06-07 08:50:54"
-                    },
-                    {
-                        "value": "176.10.119.68:443",
-                        "timestamp": "2022-05-25 08:54:58"
-                    },
-                    {
-                        "value": "176.10.119.81:443",
-                        "timestamp": "2022-05-25 08:54:58"
-                    },
-                    {
-                        "value": "185.189.151.70:443",
-                        "timestamp": "2022-05-17 08:49:35"
-                    },
-                    {
-                        "value": "185.189.151.28:443",
-                        "timestamp": "2022-05-17 08:49:33"
-                    },
-                    {
-                        "value": "185.189.151.70:80",
-                        "timestamp": "2022-05-04 10:16:19"
-                    },
-                    {
-                        "value": "185.189.151.28:80",
-                        "timestamp": "2022-05-04 10:16:18"
-                    },
-                    {
-                        "value": "94.140.112.44:80",
-                        "timestamp": "2022-04-28 08:38:55"
-                    },
-                    {
-                        "value": "94.140.112.35:80",
-                        "timestamp": "2022-04-28 08:38:55"
-                    },
-                    {
-                        "value": "94.140.115.8:80",
-                        "timestamp": "2022-04-28 08:38:54"
-                    },
-                    {
-                        "value": "217.12.221.28:443",
-                        "timestamp": "2021-07-06 15:07:45"
-                    },
-                    {
-                        "value": "45.90.58.179:80",
-                        "timestamp": "2021-07-06 15:07:45"
-                    },
-                    {
-                        "value": "217.12.206.30:80",
-                        "timestamp": "2021-07-06 15:07:45"
-                    },
-                    {
-                        "value": "37.120.222.161:443",
-                        "timestamp": "2021-06-22 15:02:02"
-                    },
-                    {
-                        "value": "37.120.222.163:443",
-                        "timestamp": "2021-06-22 15:02:02"
-                    },
-                    {
-                        "value": "37.120.222.189:443",
-                        "timestamp": "2021-06-22 15:02:02"
-                    },
-                    {
-                        "value": "92.223.90.242:443",
-                        "timestamp": "2021-04-02 18:12:04"
-                    },
-                    {
-                        "value": "31.148.99.142:80",
-                        "timestamp": "2021-03-16 19:43:51"
-                    },
-                    {
-                        "value": "108.61.89.233:443",
-                        "timestamp": "2021-03-16 19:43:51"
-                    },
-                    {
-                        "value": "31.148.99.193:80",
-                        "timestamp": "2021-03-16 19:43:51"
-                    }
-                ],
                 "domain": [
+                    {
+                        "value": "liemuteste.com",
+                        "timestamp": "2023-09-27 21:02:10"
+                    },
+                    {
+                        "value": "juano229.ru",
+                        "timestamp": "2023-09-27 21:02:10"
+                    },
+                    {
+                        "value": "ptnpnh771.ru",
+                        "timestamp": "2023-09-27 21:02:10"
+                    },
+                    {
+                        "value": "murdersknown.biz",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "reggy506.ru",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "whaugirls.ru",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "dretils.com",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "uelcoskdi.ru",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "kslenowvlico9polu.ru",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "yivuiosmjnpea.org",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "ches4enderbioynedr.ru",
+                        "timestamp": "2023-09-27 21:02:09"
+                    },
+                    {
+                        "value": "unonghxqvceqhtn.com",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "gromkiyzvuk.su",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "rysekjefqxmqwmiwf.com",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "catalog-new.ru",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "letniydozhd.ru",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "serrorhtmlubuhtmler.biz",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "twinean.com",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "othersandtyrantpeoplebe.info",
+                        "timestamp": "2023-09-27 21:02:08"
+                    },
+                    {
+                        "value": "anrfrm.msn.com",
+                        "timestamp": "2023-09-27 21:02:07"
+                    },
+                    {
+                        "value": "info.altacom.it",
+                        "timestamp": "2023-09-27 21:02:07"
+                    },
+                    {
+                        "value": "ror077rox770ytr.com",
+                        "timestamp": "2023-09-27 21:02:07"
+                    },
+                    {
+                        "value": "ahotltkthnhl.com",
+                        "timestamp": "2023-09-27 21:02:07"
+                    },
+                    {
+                        "value": "simenshina88a8.ru",
+                        "timestamp": "2023-09-27 21:02:07"
+                    },
+                    {
+                        "value": "vendettasoftworld.ru",
+                        "timestamp": "2023-09-27 21:02:07"
+                    },
+                    {
+                        "value": "sandinsd7x6e.ru",
+                        "timestamp": "2023-09-27 21:02:07"
+                    },
+                    {
+                        "value": "provaterta.com",
+                        "timestamp": "2023-09-27 21:02:06"
+                    },
+                    {
+                        "value": "mankiza.ru",
+                        "timestamp": "2023-09-27 21:02:06"
+                    },
+                    {
+                        "value": "foropolios.su",
+                        "timestamp": "2023-09-27 21:02:06"
+                    },
+                    {
+                        "value": "korichneviyrassvet.ru",
+                        "timestamp": "2023-09-27 21:02:06"
+                    },
+                    {
+                        "value": "serrorbodycombodytimeout.info",
+                        "timestamp": "2023-09-27 21:02:06"
+                    },
+                    {
+                        "value": "klspotuvlico93hhu8.ru",
+                        "timestamp": "2023-09-27 21:02:06"
+                    },
+                    {
+                        "value": "alfgoonop.at",
+                        "timestamp": "2023-09-27 21:02:06"
+                    },
+                    {
+                        "value": "meskon4ilaoyoosd.ru",
+                        "timestamp": "2023-09-27 21:02:05"
+                    },
+                    {
+                        "value": "leikocitoosih9racker.ru",
+                        "timestamp": "2023-09-27 21:02:05"
+                    },
+                    {
+                        "value": "massmastaderila.net",
+                        "timestamp": "2023-09-27 21:02:05"
+                    },
+                    {
+                        "value": "reject4win11.ru",
+                        "timestamp": "2023-09-27 21:02:05"
+                    },
+                    {
+                        "value": "dukatto03lo.ru",
+                        "timestamp": "2023-09-27 21:02:05"
+                    },
+                    {
+                        "value": "cheshnyatoday.ru",
+                        "timestamp": "2023-09-27 21:02:05"
+                    },
+                    {
+                        "value": "statisticaregger32.com",
+                        "timestamp": "2023-09-27 21:02:05"
+                    },
+                    {
+                        "value": "unzopedaliohkinkachotero.site",
+                        "timestamp": "2023-09-27 21:02:04"
+                    },
+                    {
+                        "value": "greatewallfirewall.xyz",
+                        "timestamp": "2023-09-27 21:02:04"
+                    },
+                    {
+                        "value": "perviysneg.ru",
+                        "timestamp": "2023-09-27 21:02:04"
+                    },
+                    {
+                        "value": "highnetwork.pw",
+                        "timestamp": "2023-09-27 21:02:04"
+                    },
+                    {
+                        "value": "statesformstthe.info",
+                        "timestamp": "2023-09-27 21:02:04"
+                    },
+                    {
+                        "value": "ballya99.ru",
+                        "timestamp": "2023-09-27 21:02:04"
+                    },
+                    {
+                        "value": "maillito.cfsa.it",
+                        "timestamp": "2023-09-27 21:02:04"
+                    },
+                    {
+                        "value": "megateraflopsperhour.org",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "bonvinuta.ru",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "excite.su",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "energysystems210.ru",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "vundaba.com",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "hisandsuchprov.ru",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "volaya.ru",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "temnayanoch.su",
+                        "timestamp": "2023-09-27 21:02:03"
+                    },
+                    {
+                        "value": "sys.jacentacobb.com",
+                        "timestamp": "2023-09-27 21:02:02"
+                    },
+                    {
+                        "value": "podliyvrag.su",
+                        "timestamp": "2023-09-27 21:02:02"
+                    },
+                    {
+                        "value": "krugovayaporuka.ru",
+                        "timestamp": "2023-09-27 21:02:01"
+                    },
+                    {
+                        "value": "net7.dns9free.ru",
+                        "timestamp": "2023-09-27 21:02:01"
+                    },
+                    {
+                        "value": "itnnuubvifmaintg.com",
+                        "timestamp": "2023-09-27 21:02:00"
+                    },
+                    {
+                        "value": "holodnoepivo.su",
+                        "timestamp": "2023-09-27 21:02:00"
+                    },
+                    {
+                        "value": "siwdmfkshsgw.com",
+                        "timestamp": "2023-09-27 21:02:00"
+                    },
+                    {
+                        "value": "alfgoonop.su",
+                        "timestamp": "2023-09-27 21:02:00"
+                    },
+                    {
+                        "value": "tomniyvecher.ru",
+                        "timestamp": "2023-09-27 21:02:00"
+                    },
+                    {
+                        "value": "huburda.com",
+                        "timestamp": "2023-09-27 21:02:00"
+                    },
+                    {
+                        "value": "korichneviyrassvet.su",
+                        "timestamp": "2023-09-27 21:02:00"
+                    },
+                    {
+                        "value": "puqcgfwgmftravot.com",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "timeforvictory144.ru",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "sys.aronzvi.com",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "sysconnections.net",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "bon11ljgarry.com",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "srffofmukc.com",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "orhtmlcbodyerrorhtml.net",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "weseens.com",
+                        "timestamp": "2023-09-27 21:01:59"
+                    },
+                    {
+                        "value": "origstimeoutsoltimeout.biz",
+                        "timestamp": "2023-09-27 21:01:58"
+                    },
+                    {
+                        "value": "pkgmvltcjk.org",
+                        "timestamp": "2023-09-27 21:01:58"
+                    },
+                    {
+                        "value": "temniyles.ru",
+                        "timestamp": "2023-09-27 21:01:58"
+                    },
+                    {
+                        "value": "tihiyshepot.su",
+                        "timestamp": "2023-09-27 21:01:58"
+                    },
+                    {
+                        "value": "orsolerrorboubuntusbody.org",
+                        "timestamp": "2023-09-27 21:01:58"
+                    },
+                    {
+                        "value": "nort.calag.at",
+                        "timestamp": "2023-09-27 21:01:58"
+                    },
+                    {
+                        "value": "perviyclass.su",
+                        "timestamp": "2023-09-27 21:01:58"
+                    },
+                    {
+                        "value": "sastytinddlod6e.ru",
+                        "timestamp": "2023-09-27 21:01:57"
+                    },
+                    {
+                        "value": "booloolo2.com",
+                        "timestamp": "2023-09-27 21:01:57"
+                    },
+                    {
+                        "value": "sosandhelpconnect.ru",
+                        "timestamp": "2023-09-27 21:01:57"
+                    },
+                    {
+                        "value": "tympedyrra66kos2.ru",
+                        "timestamp": "2023-09-27 21:01:57"
+                    },
+                    {
+                        "value": "diuolirt.at",
+                        "timestamp": "2023-09-27 21:01:57"
+                    },
+                    {
+                        "value": "dipsitripsikey70.com",
+                        "timestamp": "2023-09-27 21:01:57"
+                    },
+                    {
+                        "value": "iwqdjsnvkc.ru",
+                        "timestamp": "2023-09-27 21:01:57"
+                    },
+                    {
+                        "value": "sys.naturallymewraps.com",
+                        "timestamp": "2023-09-27 21:01:56"
+                    },
+                    {
+                        "value": "donkixot17.ru",
+                        "timestamp": "2023-09-27 21:01:56"
+                    },
+                    {
+                        "value": "gazvata.ru",
+                        "timestamp": "2023-09-27 21:01:56"
+                    },
+                    {
+                        "value": "okpoker009291.ru",
+                        "timestamp": "2023-09-27 21:01:56"
+                    },
+                    {
+                        "value": "filokiyurt.at",
+                        "timestamp": "2023-09-27 21:01:56"
+                    },
+                    {
+                        "value": "lan.hayloindigo.com",
+                        "timestamp": "2023-09-27 21:01:56"
+                    },
+                    {
+                        "value": "assumeoppothgoverfaprote.info",
+                        "timestamp": "2023-09-27 21:01:56"
+                    },
+                    {
+                        "value": "gdglebsoincaluiprada8.ru",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "vndjtu968488.ru",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "klounisoronws.xyz",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "bretpeoplesupnatandmeas.net",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "perviylich.su",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "pinkfloyd-mp3love.ru",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "lolila.net",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "kraskinaayd7imus.ru",
+                        "timestamp": "2023-09-27 21:01:55"
+                    },
+                    {
+                        "value": "tomniyvecher.su",
+                        "timestamp": "2023-09-27 21:01:54"
+                    },
+                    {
+                        "value": "stimeoutbodytimeout.biz",
+                        "timestamp": "2023-09-27 21:01:54"
+                    },
+                    {
+                        "value": "svoona8vdia88.ru",
+                        "timestamp": "2023-09-27 21:01:54"
+                    },
+                    {
+                        "value": "promoactionsadvmrktng.net",
+                        "timestamp": "2023-09-27 21:01:54"
+                    },
+                    {
+                        "value": "utliycheln.su",
+                        "timestamp": "2023-09-27 21:01:54"
+                    },
+                    {
+                        "value": "nan.bocalee.com",
+                        "timestamp": "2023-09-27 21:01:54"
+                    },
+                    {
+                        "value": "shumelkamish.ru",
+                        "timestamp": "2023-09-27 21:01:54"
+                    },
+                    {
+                        "value": "werfjmqmhpvpfrm.com",
+                        "timestamp": "2023-09-27 21:01:53"
+                    },
+                    {
+                        "value": "sys.fmacconsulting.com",
+                        "timestamp": "2023-09-27 21:01:53"
+                    },
+                    {
+                        "value": "trusliviyzayac.ru",
+                        "timestamp": "2023-09-27 21:01:53"
+                    },
+                    {
+                        "value": "jdksadlfjksdfnkdsf.xyz",
+                        "timestamp": "2023-09-27 21:01:53"
+                    },
+                    {
+                        "value": "ubuntubocomsrctimeout.com",
+                        "timestamp": "2023-09-27 21:01:53"
+                    },
+                    {
+                        "value": "spotuoyoliusdd.ru",
+                        "timestamp": "2023-09-27 21:01:53"
+                    },
+                    {
+                        "value": "samelivessuwifut.net",
+                        "timestamp": "2023-09-27 21:01:53"
+                    },
+                    {
+                        "value": "lan.fbbcwoodwardpark.com",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "truhlyaviypen.ru",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "ad1.wensa.at",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "taktponimeuyd7imus.ru",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "tfernzq.com",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "megamasskomunism.biz",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "oafscxumipqicnta.com",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "joomlaparamaoun.xyz",
+                        "timestamp": "2023-09-27 21:01:52"
+                    },
+                    {
+                        "value": "alpetopgx.su",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "barbabituarat.com",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "snoopranger.ru",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "sinpotikos.com",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "supportsstats.com",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "horoshiyden.ru",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "kslepeowvlico93hhu8.ru",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "truhlyaviypen.su",
+                        "timestamp": "2023-09-27 21:01:50"
+                    },
+                    {
+                        "value": "vdorrisacleo.xyz",
+                        "timestamp": "2023-09-27 21:01:50"
+                    },
+                    {
+                        "value": "bodyerboubuser.net",
+                        "timestamp": "2023-09-27 21:01:50"
+                    },
+                    {
+                        "value": "abolishingpowers.su",
+                        "timestamp": "2023-09-27 21:01:50"
+                    },
+                    {
+                        "value": "menehleibe.com",
+                        "timestamp": "2023-09-27 21:01:50"
+                    },
+                    {
+                        "value": "nogaknoge.ru",
+                        "timestamp": "2023-09-27 21:01:50"
+                    },
+                    {
+                        "value": "ourdeclendeavored.ru",
+                        "timestamp": "2023-09-27 21:01:50"
+                    },
+                    {
+                        "value": "pvoivuvsemnuvr.com",
+                        "timestamp": "2023-09-27 21:01:49"
+                    },
+                    {
+                        "value": "uvbhbxahsia.com",
+                        "timestamp": "2023-09-27 21:01:49"
+                    },
+                    {
+                        "value": "andtheirpolitical.org",
+                        "timestamp": "2023-09-27 21:01:49"
+                    },
+                    {
+                        "value": "petroilimos.at",
+                        "timestamp": "2023-09-27 21:01:49"
+                    },
+                    {
+                        "value": "thulligend.com",
+                        "timestamp": "2023-09-27 21:01:49"
+                    },
+                    {
+                        "value": "deltamission12.ru",
+                        "timestamp": "2023-09-27 21:01:49"
+                    },
+                    {
+                        "value": "underbulletkey77.com",
+                        "timestamp": "2023-09-27 21:01:49"
+                    },
+                    {
+                        "value": "ditimbodytimeout.com",
+                        "timestamp": "2023-09-27 21:01:48"
+                    },
+                    {
+                        "value": "ameseparationfelworlda.com",
+                        "timestamp": "2023-09-27 21:01:48"
+                    },
+                    {
+                        "value": "lansystemstat.com",
+                        "timestamp": "2023-09-27 21:01:48"
+                    },
+                    {
+                        "value": "musicvideotips.ru",
+                        "timestamp": "2023-09-27 21:01:48"
+                    },
+                    {
+                        "value": "go.in100k.at",
+                        "timestamp": "2023-09-27 21:01:48"
+                    },
+                    {
+                        "value": "moriyurw368798.ru",
+                        "timestamp": "2023-09-27 21:01:48"
+                    },
+                    {
+                        "value": "deburma.com",
+                        "timestamp": "2023-09-27 21:01:48"
+                    },
+                    {
+                        "value": "agilkkccduh.com",
+                        "timestamp": "2023-09-27 21:01:47"
+                    },
+                    {
+                        "value": "recrytzero.ru",
+                        "timestamp": "2023-09-27 21:01:47"
+                    },
+                    {
+                        "value": "romaya.ru",
+                        "timestamp": "2023-09-27 21:01:47"
+                    },
+                    {
+                        "value": "solerrorboorigdialsrcor.org",
+                        "timestamp": "2023-09-27 21:01:47"
+                    },
+                    {
+                        "value": "unikymprogress.ru",
+                        "timestamp": "2023-09-27 21:01:47"
+                    },
+                    {
+                        "value": "dialerrorbodyorig.org",
+                        "timestamp": "2023-09-27 21:01:47"
+                    },
+                    {
+                        "value": "begoventa.top",
+                        "timestamp": "2023-09-27 21:01:47"
+                    },
+                    {
+                        "value": "mimemoa.com",
+                        "timestamp": "2023-09-27 21:01:46"
+                    },
+                    {
+                        "value": "3rdpart2.ru",
+                        "timestamp": "2023-09-27 21:01:46"
+                    },
+                    {
+                        "value": "ijduwhsbvk.com",
+                        "timestamp": "2023-09-27 21:01:46"
+                    },
+                    {
+                        "value": "anythingelse924.com",
+                        "timestamp": "2023-09-27 21:01:46"
+                    },
+                    {
+                        "value": "line.mbclegacyllc.net",
+                        "timestamp": "2023-09-27 21:01:46"
+                    },
+                    {
+                        "value": "timeoutsordierhtmlubuntu.net",
+                        "timestamp": "2023-09-27 21:01:46"
+                    },
+                    {
+                        "value": "chespotuoynedr.ru",
+                        "timestamp": "2023-09-27 21:01:46"
+                    },
+                    {
+                        "value": "dialubuntudicom.biz",
+                        "timestamp": "2023-09-27 21:01:45"
+                    },
+                    {
+                        "value": "lwovlomlipse.com",
+                        "timestamp": "2023-09-27 21:01:45"
+                    },
+                    {
+                        "value": "s4kaloddsjina88a8.ru",
+                        "timestamp": "2023-09-27 21:01:45"
+                    },
+                    {
+                        "value": "dantedbkoosov.site",
+                        "timestamp": "2023-09-27 21:01:45"
+                    },
+                    {
+                        "value": "ubusolerrorhtmlcbody.net",
+                        "timestamp": "2023-09-27 21:01:45"
+                    },
+                    {
+                        "value": "adm.cutmedic.com",
+                        "timestamp": "2023-09-27 21:01:45"
+                    },
+                    {
+                        "value": "musicvideoporntip3s.ru",
+                        "timestamp": "2023-09-27 21:01:45"
+                    },
+                    {
+                        "value": "rtsnysrusdtbh.net",
+                        "timestamp": "2023-09-27 21:01:44"
+                    },
+                    {
+                        "value": "gdosxuincaluiprada8.ru",
+                        "timestamp": "2023-09-27 21:01:44"
+                    },
+                    {
+                        "value": "krepkiystul.ru",
+                        "timestamp": "2023-09-27 21:01:44"
+                    },
+                    {
+                        "value": "lambostretauus.ru",
+                        "timestamp": "2023-09-27 21:01:44"
+                    },
+                    {
+                        "value": "comhtorboubu.info",
+                        "timestamp": "2023-09-27 21:01:44"
+                    },
+                    {
+                        "value": "gdospotuoyluiprada8.ru",
+                        "timestamp": "2023-09-27 21:01:44"
+                    },
+                    {
+                        "value": "krugovayaporuka.su",
+                        "timestamp": "2023-09-27 21:01:44"
+                    },
+                    {
+                        "value": "commozo.com",
+                        "timestamp": "2023-09-27 21:01:43"
+                    },
+                    {
+                        "value": "k55gaisi.com",
+                        "timestamp": "2023-09-27 21:01:43"
+                    },
+                    {
+                        "value": "tmp1.super-list.ru",
+                        "timestamp": "2023-09-27 21:01:43"
+                    },
+                    {
+                        "value": "chiko99.ru",
+                        "timestamp": "2023-09-27 21:01:43"
+                    },
+                    {
+                        "value": "awd.byfaithchurch.org",
+                        "timestamp": "2023-09-27 21:01:43"
+                    },
+                    {
+                        "value": "klspotuoyka93hhu8.ru",
+                        "timestamp": "2023-09-27 21:01:43"
+                    },
+                    {
+                        "value": "militarynegl.info",
+                        "timestamp": "2023-09-27 21:01:43"
+                    },
+                    {
+                        "value": "groakdlaskdnaskd.xyz",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "dobriytsar.ru",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "musicvideoporntips.ru",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "lsammietf53.com",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "demotivationcorrect.ru",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "bequick58302.com",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "slakosuoyoliusdd.ru",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "staticago.com",
+                        "timestamp": "2023-09-27 21:01:42"
+                    },
+                    {
+                        "value": "rozoviyzakat.su",
+                        "timestamp": "2023-09-27 21:01:41"
+                    },
+                    {
+                        "value": "new-run.pk",
+                        "timestamp": "2023-09-27 21:01:41"
+                    },
+                    {
+                        "value": "bot.wakeandbakealldaylong.com",
+                        "timestamp": "2023-09-27 21:01:41"
+                    },
+                    {
+                        "value": "lansupports.com",
+                        "timestamp": "2023-09-27 21:01:41"
+                    },
+                    {
+                        "value": "statuslines.ru",
+                        "timestamp": "2023-09-27 21:01:41"
+                    },
+                    {
+                        "value": "isoridkf.ru",
+                        "timestamp": "2023-09-27 21:01:41"
+                    },
+                    {
+                        "value": "ubuntusrccom.com",
+                        "timestamp": "2023-09-27 21:01:41"
+                    },
+                    {
+                        "value": "alpeniper.su",
+                        "timestamp": "2023-09-27 21:01:51"
+                    },
+                    {
+                        "value": "lostnetwork.in",
+                        "timestamp": "2023-09-27 21:01:40"
+                    },
+                    {
+                        "value": "salapowersalonenature.ru",
+                        "timestamp": "2023-09-27 21:01:40"
+                    },
+                    {
+                        "value": "ntcgo.com",
+                        "timestamp": "2023-09-27 21:01:40"
+                    },
+                    {
+                        "value": "cvelasiren.ru",
+                        "timestamp": "2023-09-27 21:01:40"
+                    },
+                    {
+                        "value": "abdicatedhosupporthave.biz",
+                        "timestamp": "2023-09-27 21:01:40"
+                    },
+                    {
+                        "value": "perviysneg.su",
+                        "timestamp": "2023-09-27 21:01:39"
+                    },
+                    {
+                        "value": "babidone.top",
+                        "timestamp": "2023-09-27 21:01:39"
+                    },
+                    {
+                        "value": "tihiyshepot.ru",
+                        "timestamp": "2023-09-27 21:01:39"
+                    },
+                    {
+                        "value": "silniygrom.ru",
+                        "timestamp": "2023-09-27 21:01:39"
+                    },
+                    {
+                        "value": "siglebis03lo.ru",
+                        "timestamp": "2023-09-27 21:01:39"
+                    },
+                    {
+                        "value": "csolubuntudial.info",
+                        "timestamp": "2023-09-27 21:01:39"
+                    },
+                    {
+                        "value": "agenziaent.top",
+                        "timestamp": "2023-09-27 21:01:38"
+                    },
+                    {
+                        "value": "dobroeutro.su",
+                        "timestamp": "2023-09-27 21:01:38"
+                    },
+                    {
+                        "value": "golang.feel500.at",
+                        "timestamp": "2023-09-27 21:01:38"
+                    },
+                    {
+                        "value": "germiwtrek.ru",
+                        "timestamp": "2023-09-27 21:01:38"
+                    },
+                    {
+                        "value": "pretendedamericagen.su",
+                        "timestamp": "2023-09-27 21:01:38"
+                    },
+                    {
+                        "value": "circumestablished.su",
+                        "timestamp": "2023-09-27 21:01:38"
+                    },
+                    {
+                        "value": "ggllyomi.com",
+                        "timestamp": "2023-09-27 21:01:37"
+                    },
+                    {
+                        "value": "c66845582aniyah.club",
+                        "timestamp": "2023-09-27 21:01:37"
+                    },
+                    {
+                        "value": "sspotuoyobermanoba4.ru",
+                        "timestamp": "2023-09-27 21:01:37"
+                    },
+                    {
+                        "value": "mnvxcjieifad.su",
+                        "timestamp": "2023-09-27 21:01:37"
+                    },
+                    {
+                        "value": "grekoiuh.at",
+                        "timestamp": "2023-09-27 21:01:37"
+                    },
+                    {
+                        "value": "alefistacorm.ru",
+                        "timestamp": "2023-09-27 21:01:36"
+                    },
+                    {
+                        "value": "randomizenr832.com",
+                        "timestamp": "2023-09-27 21:01:36"
+                    },
+                    {
+                        "value": "ubuntuditimeout.org",
+                        "timestamp": "2023-09-27 21:01:36"
+                    },
+                    {
+                        "value": "messpotuoyoosd.ru",
+                        "timestamp": "2023-09-27 21:01:36"
+                    },
+                    {
+                        "value": "ya.aftnoop.at",
+                        "timestamp": "2023-09-27 21:01:36"
+                    },
+                    {
+                        "value": "ssosnulaoyobermanoba4.ru",
+                        "timestamp": "2023-09-27 21:01:36"
+                    },
+                    {
+                        "value": "davithuz.com",
+                        "timestamp": "2023-09-27 21:01:36"
+                    },
+                    {
+                        "value": "leiklubniittoosih9racker.ru",
+                        "timestamp": "2023-09-27 21:01:35"
+                    },
+                    {
+                        "value": "sinkopinko423.ru",
+                        "timestamp": "2023-09-27 21:01:35"
+                    },
+                    {
+                        "value": "guellyomi.ua",
+                        "timestamp": "2023-09-27 21:01:35"
+                    },
+                    {
+                        "value": "netsecurez.com",
+                        "timestamp": "2023-09-27 21:01:35"
+                    },
+                    {
+                        "value": "omni5sol.ru",
+                        "timestamp": "2023-09-27 21:01:35"
+                    },
+                    {
+                        "value": "reggy914.ru",
+                        "timestamp": "2023-09-27 21:01:35"
+                    },
+                    {
+                        "value": "bodycsrcubuntu.org",
+                        "timestamp": "2023-09-27 21:01:35"
+                    },
+                    {
+                        "value": "nogaknoge.su",
+                        "timestamp": "2023-09-27 21:01:34"
+                    },
+                    {
+                        "value": "ploi7260m71.com",
+                        "timestamp": "2023-09-27 21:01:34"
+                    },
+                    {
+                        "value": "hisandsuchprov.com",
+                        "timestamp": "2023-09-27 21:01:34"
+                    },
+                    {
+                        "value": "ssrazyyoliusdd.site",
+                        "timestamp": "2023-09-27 21:01:34"
+                    },
+                    {
+                        "value": "solcomsrccombodycom.info",
+                        "timestamp": "2023-09-27 21:01:34"
+                    },
+                    {
+                        "value": "shumelkamish.su",
+                        "timestamp": "2023-09-27 21:01:34"
+                    },
+                    {
+                        "value": "worldparuoli.ru",
+                        "timestamp": "2023-09-27 21:01:33"
+                    },
+                    {
+                        "value": "dnjcgeppnveyviu.com",
+                        "timestamp": "2023-09-27 21:01:33"
+                    },
+                    {
+                        "value": "news.new-webs.ru",
+                        "timestamp": "2023-09-27 21:01:33"
+                    },
+                    {
+                        "value": "circumstanceshave.su",
+                        "timestamp": "2023-09-27 21:01:33"
+                    },
+                    {
+                        "value": "srcubusrctimeouthtml.info",
+                        "timestamp": "2023-09-27 21:01:33"
+                    },
+                    {
+                        "value": "statisticaup.net",
+                        "timestamp": "2023-09-27 21:01:33"
+                    },
+                    {
+                        "value": "gketchupcaluiprada8.ru",
+                        "timestamp": "2023-09-27 21:01:33"
+                    },
+                    {
+                        "value": "kavkaz-immaat.ru",
+                        "timestamp": "2023-09-27 21:01:32"
+                    },
+                    {
+                        "value": "tgyouabyipli.com",
+                        "timestamp": "2023-09-27 21:01:32"
+                    },
+                    {
+                        "value": "temlobasid.site",
+                        "timestamp": "2023-09-27 21:01:32"
+                    },
+                    {
+                        "value": "sssemenlaoyobermanoba4.site",
+                        "timestamp": "2023-09-27 21:01:32"
+                    },
+                    {
+                        "value": "ubuntudiubuntubo.org",
+                        "timestamp": "2023-09-27 21:01:32"
+                    },
+                    {
+                        "value": "bodyerrorsrcerrorscscsol.net",
+                        "timestamp": "2023-09-27 21:01:32"
+                    },
+                    {
+                        "value": "organfriandpopul.su",
+                        "timestamp": "2023-09-27 21:01:31"
+                    },
+                    {
+                        "value": "islamicpork.ru",
+                        "timestamp": "2023-09-27 21:01:31"
+                    },
+                    {
+                        "value": "neftinetinebudet.net",
+                        "timestamp": "2023-09-27 21:01:31"
+                    },
+                    {
+                        "value": "teplayavodka.su",
+                        "timestamp": "2023-09-27 21:01:31"
+                    },
+                    {
+                        "value": "teplayavodka.ru",
+                        "timestamp": "2023-09-27 21:01:31"
+                    },
+                    {
+                        "value": "timbodytimhtml.com",
+                        "timestamp": "2023-09-27 21:01:31"
+                    },
+                    {
+                        "value": "rozoviyzakat.ru",
+                        "timestamp": "2023-09-27 21:01:30"
+                    },
+                    {
+                        "value": "api10.laptok.at",
+                        "timestamp": "2023-09-27 21:01:30"
+                    },
+                    {
+                        "value": "okme4koodj09291.ru",
+                        "timestamp": "2023-09-27 21:01:30"
+                    },
+                    {
+                        "value": "temniyles.su",
+                        "timestamp": "2023-09-27 21:01:30"
+                    },
+                    {
+                        "value": "dcz35percy.top",
+                        "timestamp": "2023-09-27 21:01:30"
+                    },
+                    {
+                        "value": "htmlorditimeoutsrc.com",
+                        "timestamp": "2023-09-27 21:01:30"
+                    },
+                    {
+                        "value": "powersave573.ru",
+                        "timestamp": "2023-09-27 21:01:29"
+                    },
+                    {
+                        "value": "leepoxre.su",
+                        "timestamp": "2023-09-27 21:01:29"
+                    },
+                    {
+                        "value": "horoshiyden.su",
+                        "timestamp": "2023-09-27 21:01:29"
+                    },
+                    {
+                        "value": "whofoxy.com",
+                        "timestamp": "2023-09-27 21:01:29"
+                    },
+                    {
+                        "value": "silniygrom.su",
+                        "timestamp": "2023-09-27 21:01:29"
+                    },
+                    {
+                        "value": "ptnchmo812.ru",
+                        "timestamp": "2023-09-27 21:01:29"
+                    },
+                    {
+                        "value": "diersrcerhtmlerhtml.com",
+                        "timestamp": "2023-09-27 21:01:28"
+                    },
+                    {
+                        "value": "happalliancesththeir.org",
+                        "timestamp": "2023-09-27 21:01:28"
+                    },
+                    {
+                        "value": "sferasnderbioyne7r.ru",
+                        "timestamp": "2023-09-27 21:01:28"
+                    },
+                    {
+                        "value": "hbritneyyi.com",
+                        "timestamp": "2023-09-27 21:01:28"
+                    },
+                    {
+                        "value": "petroilimos.su",
+                        "timestamp": "2023-09-27 21:01:28"
+                    },
+                    {
+                        "value": "techetreka.su",
+                        "timestamp": "2023-09-27 21:01:28"
+                    },
+                    {
+                        "value": "gpanxkutxgrprgucvk.com",
+                        "timestamp": "2023-09-27 21:01:27"
+                    },
+                    {
+                        "value": "ecosystems492.ru",
+                        "timestamp": "2023-09-27 21:01:27"
+                    },
+                    {
+                        "value": "sscramblera4.site",
+                        "timestamp": "2023-09-27 21:01:27"
+                    },
+                    {
+                        "value": "ubuhtmlerrorsubuntudial.info",
+                        "timestamp": "2023-09-27 21:01:27"
+                    },
+                    {
+                        "value": "eliousdf.online",
+                        "timestamp": "2023-09-27 21:01:27"
+                    },
+                    {
+                        "value": "p4elauus.ru",
+                        "timestamp": "2023-09-27 21:01:27"
+                    },
+                    {
+                        "value": "cvelasiren.su",
+                        "timestamp": "2023-09-27 21:01:27"
+                    },
+                    {
+                        "value": "gangabasta67.ru",
+                        "timestamp": "2023-09-27 21:01:26"
+                    },
+                    {
+                        "value": "fkklqkjgnr.com",
+                        "timestamp": "2023-09-27 21:01:26"
+                    },
+                    {
+                        "value": "pampers-globalworld.ru",
+                        "timestamp": "2023-09-27 21:01:26"
+                    },
+                    {
+                        "value": "tandem88.ru",
+                        "timestamp": "2023-09-27 21:01:26"
+                    },
+                    {
+                        "value": "sqilbafkeu.com",
+                        "timestamp": "2023-09-27 21:01:26"
+                    },
+                    {
+                        "value": "redwoodmotors.ru",
+                        "timestamp": "2023-09-27 21:01:26"
+                    },
+                    {
+                        "value": "dialcomsrcorig.org",
+                        "timestamp": "2023-09-27 21:01:25"
+                    },
+                    {
+                        "value": "legislaturefrithe.biz",
+                        "timestamp": "2023-09-27 21:01:25"
+                    },
+                    {
+                        "value": "lgeywijneyke.us",
+                        "timestamp": "2023-09-27 21:01:25"
+                    },
+                    {
+                        "value": "bismallahhidjab.ru",
+                        "timestamp": "2023-09-27 21:01:25"
+                    },
+                    {
+                        "value": "xor055rox550ytr.com",
+                        "timestamp": "2023-09-27 21:01:25"
+                    },
+                    {
+                        "value": "splovishvdia88.ru",
+                        "timestamp": "2023-09-27 21:01:25"
+                    },
+                    {
+                        "value": "perimetradvetixter23.net",
+                        "timestamp": "2023-09-27 21:01:25"
+                    },
+                    {
+                        "value": "trusliviyzayac.su",
+                        "timestamp": "2023-09-27 21:01:24"
+                    },
+                    {
+                        "value": "repeseparation.ru",
+                        "timestamp": "2023-09-27 21:01:24"
+                    },
+                    {
+                        "value": "fia-secure-connect.ru",
+                        "timestamp": "2023-09-27 21:01:24"
+                    },
+                    {
+                        "value": "srcerdialtimeout.biz",
+                        "timestamp": "2023-09-27 21:01:24"
+                    },
+                    {
+                        "value": "ferarirecord.ru",
+                        "timestamp": "2023-09-27 21:01:24"
+                    },
+                    {
+                        "value": "kfdsljfsdwhg.ru",
+                        "timestamp": "2023-09-27 21:01:24"
+                    },
+                    {
+                        "value": "deopliazae.at",
+                        "timestamp": "2023-09-27 21:01:24"
+                    },
+                    {
+                        "value": "bumbo998.ru",
+                        "timestamp": "2023-09-27 21:01:23"
+                    },
+                    {
+                        "value": "donkixot17.net",
+                        "timestamp": "2023-09-27 21:01:23"
+                    },
+                    {
+                        "value": "cheshenets-dom.ru",
+                        "timestamp": "2023-09-27 21:01:23"
+                    },
+                    {
+                        "value": "fonotarka.ru",
+                        "timestamp": "2023-09-27 21:01:23"
+                    },
+                    {
+                        "value": "germinf.com",
+                        "timestamp": "2023-09-27 21:01:23"
+                    },
+                    {
+                        "value": "staticstoday.com",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "uvbhbaxahsia.ru",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "tacreofunsrdeos2.ru",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "reavctivationmeet.ru",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "yivnkrkepnpea.com",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "nifredao.com",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "separationusurp.net",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "letniydozhd.su",
+                        "timestamp": "2023-09-27 21:01:22"
+                    },
+                    {
+                        "value": "habrahahaha.ru",
+                        "timestamp": "2023-09-27 21:01:21"
+                    },
+                    {
+                        "value": "io.laurela.at",
+                        "timestamp": "2023-09-27 21:01:21"
+                    },
+                    {
+                        "value": "superstatic.net",
+                        "timestamp": "2023-09-27 21:01:21"
+                    },
+                    {
+                        "value": "dobriytsar.su",
+                        "timestamp": "2023-09-27 21:01:21"
+                    },
+                    {
+                        "value": "thbarbsalariespowers.su",
+                        "timestamp": "2023-09-27 21:01:21"
+                    },
+                    {
+                        "value": "p28u70webster.com",
+                        "timestamp": "2023-09-27 21:01:21"
+                    },
+                    {
+                        "value": "tmadecorrespondence.com",
+                        "timestamp": "2023-09-27 21:01:20"
+                    },
+                    {
+                        "value": "blog.click-catalog.ru",
+                        "timestamp": "2023-09-27 21:01:20"
+                    },
+                    {
+                        "value": "effectpretendedsho.info",
+                        "timestamp": "2023-09-27 21:01:20"
+                    },
+                    {
+                        "value": "chespnagybioynedr.ru",
+                        "timestamp": "2023-09-27 21:01:20"
+                    },
+                    {
+                        "value": "bnkalirmf.com",
+                        "timestamp": "2023-09-27 21:01:19"
+                    },
+                    {
+                        "value": "timeoutstims.com",
+                        "timestamp": "2023-09-27 21:01:19"
+                    },
+                    {
+                        "value": "assumeoppothgoverfaprote.biz",
+                        "timestamp": "2023-09-27 21:01:19"
+                    },
+                    {
+                        "value": "discountmarketgrp2015.eu",
+                        "timestamp": "2023-09-27 21:01:19"
+                    },
+                    {
+                        "value": "zalupilosi.xyz",
+                        "timestamp": "2023-09-27 21:01:19"
+                    },
+                    {
+                        "value": "metsimsitylaoalld.ru",
+                        "timestamp": "2023-09-27 21:01:19"
+                    },
+                    {
+                        "value": "jdsncjxjujdww.ru",
+                        "timestamp": "2023-09-27 21:01:18"
+                    },
+                    {
+                        "value": "new-run.cc",
+                        "timestamp": "2023-09-27 21:01:18"
+                    },
+                    {
+                        "value": "f1.pipen.at",
+                        "timestamp": "2023-09-27 21:01:18"
+                    },
+                    {
+                        "value": "goliathuz.com",
+                        "timestamp": "2023-09-27 21:01:18"
+                    },
+                    {
+                        "value": "nomorgx.su",
+                        "timestamp": "2023-09-27 21:01:18"
+                    },
+                    {
+                        "value": "srfoofmukc.in",
+                        "timestamp": "2023-09-27 21:01:18"
+                    },
+                    {
+                        "value": "janetly741.ru",
+                        "timestamp": "2023-09-27 21:01:17"
+                    },
+                    {
+                        "value": "podliyvrag.ru",
+                        "timestamp": "2023-09-27 21:01:17"
+                    },
+                    {
+                        "value": "orightubudialcomdial.biz",
+                        "timestamp": "2023-09-27 21:01:17"
+                    },
+                    {
+                        "value": "temnayanoch.ru",
+                        "timestamp": "2023-09-27 21:01:17"
+                    },
+                    {
+                        "value": "kashainterest.ru",
+                        "timestamp": "2023-09-27 21:01:17"
+                    },
+                    {
+                        "value": "origsolerhterrorhtml.org",
+                        "timestamp": "2023-09-27 21:01:17"
+                    },
+                    {
+                        "value": "ahotltkthnhll.ru",
+                        "timestamp": "2023-09-27 21:01:16"
+                    },
+                    {
+                        "value": "ersolcsolerditim.com",
+                        "timestamp": "2023-09-27 21:01:16"
+                    },
+                    {
+                        "value": "c55wccayla.info",
+                        "timestamp": "2023-09-27 21:01:16"
+                    },
+                    {
+                        "value": "alpetopgx.at",
+                        "timestamp": "2023-09-27 21:01:16"
+                    },
+                    {
+                        "value": "krepkiystul.su",
+                        "timestamp": "2023-09-27 21:01:16"
+                    },
+                    {
+                        "value": "bumblebeerobot.ru",
+                        "timestamp": "2023-09-27 21:01:16"
+                    },
+                    {
+                        "value": "srccombodyorhtml.com",
+                        "timestamp": "2023-09-27 21:01:15"
+                    },
+                    {
+                        "value": "utliycheln.ru",
+                        "timestamp": "2023-09-27 21:01:15"
+                    },
+                    {
+                        "value": "darwikalldkkalsld.xyz",
+                        "timestamp": "2023-09-27 21:01:15"
+                    },
+                    {
+                        "value": "iewqncjusia.ru",
+                        "timestamp": "2023-09-27 21:01:15"
+                    },
+                    {
+                        "value": "lwovmietypse.biz",
+                        "timestamp": "2023-09-27 21:01:15"
+                    },
+                    {
+                        "value": "gromkiyzvuk.ru",
+                        "timestamp": "2023-09-27 21:01:15"
+                    },
+                    {
+                        "value": "sys.charityautoaz.com",
+                        "timestamp": "2023-09-27 21:01:14"
+                    },
+                    {
+                        "value": "pushkin-kotero.ru",
+                        "timestamp": "2023-09-27 21:01:14"
+                    },
+                    {
+                        "value": "agenziaentr.top",
+                        "timestamp": "2023-09-27 21:01:14"
+                    },
+                    {
+                        "value": "techetreka.ru",
+                        "timestamp": "2023-09-27 21:01:14"
+                    },
+                    {
+                        "value": "bijnwwfbm.com",
+                        "timestamp": "2023-09-27 21:01:14"
+                    },
+                    {
+                        "value": "arloeiffg.com",
+                        "timestamp": "2023-09-27 21:01:14"
+                    },
+                    {
+                        "value": "renewbleenergey.ru",
+                        "timestamp": "2023-09-27 21:01:13"
+                    },
+                    {
+                        "value": "origbotimeout.net",
+                        "timestamp": "2023-09-27 21:01:13"
+                    },
+                    {
+                        "value": "matashka.ru",
+                        "timestamp": "2023-09-27 21:01:13"
+                    },
+                    {
+                        "value": "leinwqoa.com",
+                        "timestamp": "2023-09-27 21:01:13"
+                    },
+                    {
+                        "value": "metrleblonlaoyoosd.ru",
+                        "timestamp": "2023-09-27 21:01:13"
+                    },
+                    {
+                        "value": "supportsstats.net",
+                        "timestamp": "2023-09-27 21:01:12"
+                    },
+                    {
+                        "value": "greenenergy322.ru",
+                        "timestamp": "2023-09-27 21:01:12"
+                    },
+                    {
+                        "value": "alrthesecuritywith.su",
+                        "timestamp": "2023-09-27 21:01:12"
+                    },
+                    {
+                        "value": "statusline.ru",
+                        "timestamp": "2023-09-27 21:01:12"
+                    },
+                    {
+                        "value": "cserhtmlordi.net",
+                        "timestamp": "2023-09-27 21:01:12"
+                    },
                     {
                         "value": "mainertin.com",
                         "timestamp": "2023-05-25 15:12:11"
@@ -588,47 +1614,47 @@ var threatdata = {
                     },
                     {
                         "value": "kaskihkin-kotero.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:48"
                     },
                     {
                         "value": "gribkoosov.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:37"
                     },
                     {
                         "value": "tamdindyrdeos2.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:37"
                     },
                     {
                         "value": "svoklavirivdia88.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:02:02"
                     },
                     {
                         "value": "okpmakrodj09291.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:44"
                     },
                     {
                         "value": "sastypedd6e.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:16"
                     },
                     {
                         "value": "lambooauus.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:45"
                     },
                     {
                         "value": "taktoeaayd7imus.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:02:07"
                     },
                     {
                         "value": "sintesis03lo.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:40"
                     },
                     {
                         "value": "leikocittoosih9racker.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:43"
                     },
                     {
                         "value": "stydensjina88a8.ru",
-                        "timestamp": "2022-12-27 20:12:32"
+                        "timestamp": "2023-09-27 21:01:13"
                     },
                     {
                         "value": "internetwork.top",
@@ -640,15 +1666,15 @@ var threatdata = {
                     },
                     {
                         "value": "optinetwork.top",
-                        "timestamp": "2022-12-06 13:45:15"
+                        "timestamp": "2023-09-27 21:01:28"
                     },
                     {
                         "value": "onlynetwork.top",
-                        "timestamp": "2022-11-30 10:17:10"
+                        "timestamp": "2023-09-27 21:01:21"
                     },
                     {
                         "value": "interstarts.top",
-                        "timestamp": "2022-09-20 09:17:16"
+                        "timestamp": "2023-09-27 21:01:32"
                     },
                     {
                         "value": "netope.xyz",
@@ -700,15 +1726,15 @@ var threatdata = {
                     },
                     {
                         "value": "superstarts.top",
-                        "timestamp": "2022-08-31 10:26:16"
+                        "timestamp": "2023-09-27 21:01:16"
                     },
                     {
                         "value": "superlist.top",
-                        "timestamp": "2022-09-20 09:17:16"
+                        "timestamp": "2023-09-27 21:01:41"
                     },
                     {
                         "value": "internetcoca.in",
-                        "timestamp": "2022-11-30 10:17:10"
+                        "timestamp": "2023-09-27 21:01:20"
                     },
                     {
                         "value": "gigiman.xyz",
@@ -985,6 +2011,1094 @@ var threatdata = {
                     {
                         "value": "drazbargura.xyz",
                         "timestamp": "2021-03-09 11:34:57"
+                    }
+                ],
+                "url": [
+                    {
+                        "value": "http://45.155.249.94",
+                        "timestamp": "2023-09-27 20:54:27"
+                    },
+                    {
+                        "value": "https://protectfo1n.cdn14.mozdillaa.net",
+                        "timestamp": "2023-09-27 20:54:26"
+                    },
+                    {
+                        "value": "http://maiamirainy.at",
+                        "timestamp": "2023-09-27 20:54:26"
+                    },
+                    {
+                        "value": "https://higmon.cyou",
+                        "timestamp": "2023-09-27 20:54:26"
+                    },
+                    {
+                        "value": "https://reaso.xyz",
+                        "timestamp": "2023-09-27 20:54:26"
+                    },
+                    {
+                        "value": "http://45.155.249.172",
+                        "timestamp": "2023-09-27 20:54:25"
+                    },
+                    {
+                        "value": "http://89.43.107.7",
+                        "timestamp": "2023-09-27 20:54:25"
+                    },
+                    {
+                        "value": "https://lyc.l.ly3cos.com",
+                        "timestamp": "2023-09-27 20:54:25"
+                    },
+                    {
+                        "value": "http://77.91.87.244",
+                        "timestamp": "2023-09-27 20:54:25"
+                    },
+                    {
+                        "value": "http://91.242.219.235",
+                        "timestamp": "2023-09-27 20:54:25"
+                    },
+                    {
+                        "value": "https://logotep.xyz",
+                        "timestamp": "2023-09-27 20:54:24"
+                    },
+                    {
+                        "value": "http://ey7kuuklgieop2pq.onion",
+                        "timestamp": "2023-09-27 20:54:24"
+                    },
+                    {
+                        "value": "http://zxcvsdffffdsv.icu",
+                        "timestamp": "2023-09-27 20:54:24"
+                    },
+                    {
+                        "value": "http://94.247.42.124",
+                        "timestamp": "2023-09-27 20:54:24"
+                    },
+                    {
+                        "value": "http://loogin.biinng.com",
+                        "timestamp": "2023-09-27 20:54:24"
+                    },
+                    {
+                        "value": "http://92.38.169.142",
+                        "timestamp": "2023-09-27 20:54:24"
+                    },
+                    {
+                        "value": "https://updates.ya3hoo.yah4oo.com",
+                        "timestamp": "2023-09-27 20:54:23"
+                    },
+                    {
+                        "value": "https://avas1t.de/in/loginq/",
+                        "timestamp": "2023-09-27 20:54:23"
+                    },
+                    {
+                        "value": "https://minotos.xyz",
+                        "timestamp": "2023-09-27 20:54:23"
+                    },
+                    {
+                        "value": "http://176.10.119.209",
+                        "timestamp": "2023-09-27 20:54:23"
+                    },
+                    {
+                        "value": "http://79.132.128.116",
+                        "timestamp": "2023-09-27 20:54:22"
+                    },
+                    {
+                        "value": "http://79.132.135.228",
+                        "timestamp": "2023-09-27 20:54:22"
+                    },
+                    {
+                        "value": "http://llogiin.biinng.com",
+                        "timestamp": "2023-09-27 20:54:22"
+                    },
+                    {
+                        "value": "http://log.biinng.cfd",
+                        "timestamp": "2023-09-27 20:54:22"
+                    },
+                    {
+                        "value": "http://news-deck.at",
+                        "timestamp": "2023-09-27 20:54:22"
+                    },
+                    {
+                        "value": "http://ali-express1.at",
+                        "timestamp": "2023-09-27 20:54:21"
+                    },
+                    {
+                        "value": "http://91.241.93.101",
+                        "timestamp": "2023-09-27 20:54:21"
+                    },
+                    {
+                        "value": "https://bing1.com/get1idm/",
+                        "timestamp": "2023-09-27 20:54:21"
+                    },
+                    {
+                        "value": "http://45.11.181.28",
+                        "timestamp": "2023-09-27 20:54:21"
+                    },
+                    {
+                        "value": "http://185.158.251.39",
+                        "timestamp": "2023-09-27 20:54:20"
+                    },
+                    {
+                        "value": "http://45.11.180.110",
+                        "timestamp": "2023-09-27 20:54:20"
+                    },
+                    {
+                        "value": "http://185.90.162.33",
+                        "timestamp": "2023-09-27 20:54:20"
+                    },
+                    {
+                        "value": "https://merrovalt.top",
+                        "timestamp": "2023-09-27 20:54:20"
+                    },
+                    {
+                        "value": "https://mereter.cloud",
+                        "timestamp": "2023-09-27 20:54:19"
+                    },
+                    {
+                        "value": "https://noiress.xyz",
+                        "timestamp": "2023-09-27 20:54:19"
+                    },
+                    {
+                        "value": "http://swebbers.com",
+                        "timestamp": "2023-09-27 20:54:19"
+                    },
+                    {
+                        "value": "https://fishenddog.xyz",
+                        "timestamp": "2023-09-27 20:54:18"
+                    },
+                    {
+                        "value": "https://unitpores.com",
+                        "timestamp": "2023-09-27 20:54:18"
+                    },
+                    {
+                        "value": "https://avas1ta.com/in/login/",
+                        "timestamp": "2023-09-27 20:54:18"
+                    },
+                    {
+                        "value": "http://185.158.248.184",
+                        "timestamp": "2023-09-27 20:54:18"
+                    },
+                    {
+                        "value": "http://79.132.130.234",
+                        "timestamp": "2023-09-27 20:54:17"
+                    },
+                    {
+                        "value": "http://logonn.biinng.com",
+                        "timestamp": "2023-09-27 20:54:17"
+                    },
+                    {
+                        "value": "http://45.11.180.178",
+                        "timestamp": "2023-09-27 20:54:17"
+                    },
+                    {
+                        "value": "http://170.130.165.60",
+                        "timestamp": "2023-09-27 20:54:17"
+                    },
+                    {
+                        "value": "http://91.242.219.237",
+                        "timestamp": "2023-09-27 20:54:16"
+                    },
+                    {
+                        "value": "https://updates.yahoo.yah1oo.com",
+                        "timestamp": "2023-09-27 20:54:16"
+                    },
+                    {
+                        "value": "https://mitotad.xyz",
+                        "timestamp": "2023-09-27 20:54:16"
+                    },
+                    {
+                        "value": "https://okkolitalia.icu",
+                        "timestamp": "2023-09-27 20:54:16"
+                    },
+                    {
+                        "value": "https://skyp1e.com/bi1ng212/",
+                        "timestamp": "2023-09-27 20:54:15"
+                    },
+                    {
+                        "value": "https://bin1g.com/g2et1idm/",
+                        "timestamp": "2023-09-27 20:54:15"
+                    },
+                    {
+                        "value": "http://45.155.249.170",
+                        "timestamp": "2023-09-27 20:54:15"
+                    },
+                    {
+                        "value": "https://dodstep.cyou",
+                        "timestamp": "2023-09-27 20:54:15"
+                    },
+                    {
+                        "value": "http://185.189.151.250",
+                        "timestamp": "2023-09-27 20:54:14"
+                    },
+                    {
+                        "value": "http://79.132.128.95",
+                        "timestamp": "2023-09-27 20:54:14"
+                    },
+                    {
+                        "value": "http://45.155.249.229",
+                        "timestamp": "2023-09-27 20:54:14"
+                    },
+                    {
+                        "value": "https://gigiman.xyz",
+                        "timestamp": "2023-09-27 20:54:14"
+                    },
+                    {
+                        "value": "http://45.155.249.49",
+                        "timestamp": "2023-09-27 20:54:13"
+                    },
+                    {
+                        "value": "https://colodart.top",
+                        "timestamp": "2023-09-27 20:54:13"
+                    },
+                    {
+                        "value": "https://skype1.com/bin1gf12/",
+                        "timestamp": "2023-09-27 20:54:13"
+                    },
+                    {
+                        "value": "http://78.138.9.136",
+                        "timestamp": "2023-09-27 20:54:13"
+                    },
+                    {
+                        "value": "http://31.214.157.31",
+                        "timestamp": "2023-09-27 20:54:13"
+                    },
+                    {
+                        "value": "http://45.155.250.216",
+                        "timestamp": "2023-09-27 20:54:12"
+                    },
+                    {
+                        "value": "http://79.132.135.249",
+                        "timestamp": "2023-09-27 20:54:12"
+                    },
+                    {
+                        "value": "http://79.132.130.76",
+                        "timestamp": "2023-09-27 20:54:12"
+                    },
+                    {
+                        "value": "http://45.11.181.122",
+                        "timestamp": "2023-09-27 20:54:12"
+                    },
+                    {
+                        "value": "https://horonget.xyz",
+                        "timestamp": "2023-09-27 20:54:11"
+                    },
+                    {
+                        "value": "https://sumarno.top",
+                        "timestamp": "2023-09-27 20:54:11"
+                    },
+                    {
+                        "value": "https://ceredovza.top",
+                        "timestamp": "2023-09-27 20:54:11"
+                    },
+                    {
+                        "value": "https://fingerpin.cyou",
+                        "timestamp": "2023-09-27 20:54:11"
+                    },
+                    {
+                        "value": "http://45.155.250.217",
+                        "timestamp": "2023-09-27 20:54:10"
+                    },
+                    {
+                        "value": "https://updates.yahoo.yah4oo.com",
+                        "timestamp": "2023-09-27 20:54:10"
+                    },
+                    {
+                        "value": "http://37.10.71.114",
+                        "timestamp": "2023-09-27 20:54:10"
+                    },
+                    {
+                        "value": "https://checklist.skyfpe.com",
+                        "timestamp": "2023-09-27 20:54:10"
+                    },
+                    {
+                        "value": "http://185.158.251.26",
+                        "timestamp": "2023-09-27 20:54:10"
+                    },
+                    {
+                        "value": "https://duckduckgo1.com/search/intet/",
+                        "timestamp": "2023-09-27 20:54:09"
+                    },
+                    {
+                        "value": "http://wdsasdcas.icu",
+                        "timestamp": "2023-09-27 20:54:09"
+                    },
+                    {
+                        "value": "http://provaterta.com",
+                        "timestamp": "2023-09-27 20:54:09"
+                    },
+                    {
+                        "value": "http://79.132.134.158",
+                        "timestamp": "2023-09-27 20:54:09"
+                    },
+                    {
+                        "value": "http://45.155.250.246",
+                        "timestamp": "2023-09-27 20:54:08"
+                    },
+                    {
+                        "value": "http://79.132.130.73",
+                        "timestamp": "2023-09-27 20:54:08"
+                    },
+                    {
+                        "value": "http://45.155.250.55",
+                        "timestamp": "2023-09-27 20:54:08"
+                    },
+                    {
+                        "value": "https://vertalis.top",
+                        "timestamp": "2023-09-27 20:54:08"
+                    },
+                    {
+                        "value": "https://protec3tfon.cdn44.mozdillaa.net",
+                        "timestamp": "2023-09-27 20:54:08"
+                    },
+                    {
+                        "value": "http://mimemoa.com",
+                        "timestamp": "2023-09-27 20:54:07"
+                    },
+                    {
+                        "value": "http://109.230.199.110",
+                        "timestamp": "2023-09-27 20:54:07"
+                    },
+                    {
+                        "value": "https://ofdore.xyz",
+                        "timestamp": "2023-09-27 20:54:07"
+                    },
+                    {
+                        "value": "http://45.11.180.140",
+                        "timestamp": "2023-09-27 20:54:07"
+                    },
+                    {
+                        "value": "https://rorfog.com",
+                        "timestamp": "2023-09-27 20:54:06"
+                    },
+                    {
+                        "value": "https://strengit.xyz",
+                        "timestamp": "2023-09-27 20:54:06"
+                    },
+                    {
+                        "value": "http://nuovalo.icu",
+                        "timestamp": "2023-09-27 20:54:06"
+                    },
+                    {
+                        "value": "https://protect4fon.cdfn4.modzdilla.net",
+                        "timestamp": "2023-09-27 20:54:06"
+                    },
+                    {
+                        "value": "http://s28bxcw.xyz",
+                        "timestamp": "2023-09-27 20:54:06"
+                    },
+                    {
+                        "value": "http://45.155.249.220",
+                        "timestamp": "2023-09-27 20:54:05"
+                    },
+                    {
+                        "value": "http://194.76.225.64",
+                        "timestamp": "2023-09-27 20:54:05"
+                    },
+                    {
+                        "value": "http://176.10.111.72",
+                        "timestamp": "2023-09-27 20:54:05"
+                    },
+                    {
+                        "value": "http://194.76.225.88",
+                        "timestamp": "2023-09-27 20:54:05"
+                    },
+                    {
+                        "value": "http://living-start.at",
+                        "timestamp": "2023-09-27 20:54:05"
+                    },
+                    {
+                        "value": "https://prises.cyou",
+                        "timestamp": "2023-09-27 20:54:04"
+                    },
+                    {
+                        "value": "http://79.132.133.128",
+                        "timestamp": "2023-09-27 20:54:04"
+                    },
+                    {
+                        "value": "https://exeupay.xyz",
+                        "timestamp": "2023-09-27 20:54:04"
+                    },
+                    {
+                        "value": "https://devicelease.xyz",
+                        "timestamp": "2023-09-27 20:54:03"
+                    },
+                    {
+                        "value": "http://185.14.45.80",
+                        "timestamp": "2023-09-27 20:54:03"
+                    },
+                    {
+                        "value": "https://protectf1don.cdn34.mozdillaaa.net",
+                        "timestamp": "2023-09-27 20:54:03"
+                    },
+                    {
+                        "value": "http://45.155.249.47",
+                        "timestamp": "2023-09-27 20:54:03"
+                    },
+                    {
+                        "value": "http://5icvzwz.xyz",
+                        "timestamp": "2023-09-27 20:54:02"
+                    },
+                    {
+                        "value": "http://velooiisd.club",
+                        "timestamp": "2023-09-27 20:54:02"
+                    },
+                    {
+                        "value": "https://babytoydeals.xyz",
+                        "timestamp": "2023-09-27 20:54:02"
+                    },
+                    {
+                        "value": "http://185.212.44.76",
+                        "timestamp": "2023-09-27 20:54:01"
+                    },
+                    {
+                        "value": "http://94.247.42.106",
+                        "timestamp": "2023-09-27 20:54:00"
+                    },
+                    {
+                        "value": "http://45.155.249.200",
+                        "timestamp": "2023-09-27 20:54:00"
+                    },
+                    {
+                        "value": "http://109.230.199.106",
+                        "timestamp": "2023-09-27 20:54:00"
+                    },
+                    {
+                        "value": "http://loggin.biinng.com",
+                        "timestamp": "2023-09-27 20:53:59"
+                    },
+                    {
+                        "value": "http://45.155.250.225",
+                        "timestamp": "2023-09-27 20:53:59"
+                    },
+                    {
+                        "value": "http://79.132.132.247",
+                        "timestamp": "2023-09-27 20:53:59"
+                    },
+                    {
+                        "value": "http://194.76.227.187",
+                        "timestamp": "2023-09-27 20:53:59"
+                    },
+                    {
+                        "value": "http://mainertin.com",
+                        "timestamp": "2023-09-27 20:53:59"
+                    },
+                    {
+                        "value": "http://31.214.157.160",
+                        "timestamp": "2023-09-27 20:53:58"
+                    },
+                    {
+                        "value": "https://skype1.com/bing122/",
+                        "timestamp": "2023-09-27 20:53:58"
+                    },
+                    {
+                        "value": "http://2hrbjc.xyz",
+                        "timestamp": "2023-09-27 20:53:58"
+                    },
+                    {
+                        "value": "https://gigimas.xyz",
+                        "timestamp": "2023-09-27 20:53:57"
+                    },
+                    {
+                        "value": "https://giototad.xyz",
+                        "timestamp": "2023-09-27 20:53:57"
+                    },
+                    {
+                        "value": "https://protec12dtfon.cdn4.mozdillaz.net",
+                        "timestamp": "2023-09-27 20:53:57"
+                    },
+                    {
+                        "value": "http://80.77.23.185",
+                        "timestamp": "2023-09-27 20:53:57"
+                    },
+                    {
+                        "value": "http://45.11.183.24",
+                        "timestamp": "2023-09-27 20:53:56"
+                    },
+                    {
+                        "value": "https://vavilgo.xyz",
+                        "timestamp": "2023-09-27 20:53:56"
+                    },
+                    {
+                        "value": "https://astope.xyz",
+                        "timestamp": "2023-09-27 20:53:56"
+                    },
+                    {
+                        "value": "https://giantos.xyz",
+                        "timestamp": "2023-09-27 20:53:56"
+                    },
+                    {
+                        "value": "http://dir.biinng.shop",
+                        "timestamp": "2023-09-27 20:53:55"
+                    },
+                    {
+                        "value": "http://79.132.129.207",
+                        "timestamp": "2023-09-27 20:53:55"
+                    },
+                    {
+                        "value": "https://sibelikinciel.xyz",
+                        "timestamp": "2023-09-27 20:53:55"
+                    },
+                    {
+                        "value": "https://daydayvin.xyz",
+                        "timestamp": "2023-09-27 20:53:55"
+                    },
+                    {
+                        "value": "http://45.11.181.117",
+                        "timestamp": "2023-09-27 20:53:55"
+                    },
+                    {
+                        "value": "http://sup.biinng.world",
+                        "timestamp": "2023-09-27 20:53:54"
+                    },
+                    {
+                        "value": "http://176.10.119.217",
+                        "timestamp": "2023-09-27 20:53:54"
+                    },
+                    {
+                        "value": "http://194.76.225.110",
+                        "timestamp": "2023-09-27 20:53:54"
+                    },
+                    {
+                        "value": "https://bamukal.top",
+                        "timestamp": "2023-09-27 20:53:54"
+                    },
+                    {
+                        "value": "https://duckduckgo2.com/searfch/inteft/",
+                        "timestamp": "2023-09-27 20:53:53"
+                    },
+                    {
+                        "value": "http://176.10.111.164",
+                        "timestamp": "2023-09-27 20:53:53"
+                    },
+                    {
+                        "value": "http://77.91.87.248",
+                        "timestamp": "2023-09-27 20:53:53"
+                    },
+                    {
+                        "value": "http://185.212.47.65",
+                        "timestamp": "2023-09-27 20:53:53"
+                    },
+                    {
+                        "value": "https://isteros.com",
+                        "timestamp": "2023-09-27 20:53:52"
+                    },
+                    {
+                        "value": "http://185.219.220.150",
+                        "timestamp": "2023-09-27 20:53:52"
+                    },
+                    {
+                        "value": "http://8hak4j.xyz",
+                        "timestamp": "2023-09-27 20:53:52"
+                    },
+                    {
+                        "value": "http://94.247.42.61",
+                        "timestamp": "2023-09-27 20:53:52"
+                    },
+                    {
+                        "value": "https://forum4ate.ad.b1ing.com",
+                        "timestamp": "2023-09-27 20:53:51"
+                    },
+                    {
+                        "value": "http://45.155.249.227",
+                        "timestamp": "2023-09-27 20:53:51"
+                    },
+                    {
+                        "value": "https://updat4es.yahoo.yah1oo.com",
+                        "timestamp": "2023-09-27 20:53:51"
+                    },
+                    {
+                        "value": "http://drunt.at",
+                        "timestamp": "2023-09-27 20:53:51"
+                    },
+                    {
+                        "value": "http://94.247.42.79",
+                        "timestamp": "2023-09-27 20:53:50"
+                    },
+                    {
+                        "value": "http://176.10.125.84",
+                        "timestamp": "2023-09-27 20:53:50"
+                    },
+                    {
+                        "value": "http://185.158.248.100",
+                        "timestamp": "2023-09-27 20:53:50"
+                    },
+                    {
+                        "value": "http://9JuUz3MMwxgb97N.xyz",
+                        "timestamp": "2023-09-27 20:53:50"
+                    },
+                    {
+                        "value": "http://taslks.at",
+                        "timestamp": "2023-09-27 20:53:49"
+                    },
+                    {
+                        "value": "http://185.212.47.59",
+                        "timestamp": "2023-09-27 20:53:49"
+                    },
+                    {
+                        "value": "http://45.155.249.91",
+                        "timestamp": "2023-09-27 20:54:16"
+                    },
+                    {
+                        "value": "https://liset.che3ck.bi1ng.com",
+                        "timestamp": "2023-09-27 20:54:19"
+                    },
+                    {
+                        "value": "https://lisfwhite.ch2eck.yaheoo.com",
+                        "timestamp": "2023-09-27 20:54:20"
+                    },
+                    {
+                        "value": "http://45.155.250.58",
+                        "timestamp": "2023-09-27 20:54:00"
+                    },
+                    {
+                        "value": "https://listwhfite.check3.yaho1o.com",
+                        "timestamp": "2023-09-27 20:54:17"
+                    },
+                    {
+                        "value": "http://79.132.130.230",
+                        "timestamp": "2023-09-27 20:54:21"
+                    },
+                    {
+                        "value": "http://45.11.182.38",
+                        "timestamp": "2023-09-27 20:54:01"
+                    },
+                    {
+                        "value": "http://cajaminoretino.site/signed/3939.7z",
+                        "timestamp": "2023-07-18 16:41:26"
+                    },
+                    {
+                        "value": "http://78.153.130.9",
+                        "timestamp": "2023-09-27 20:53:58"
+                    },
+                    {
+                        "value": "http://45.15.157.239",
+                        "timestamp": "2023-09-27 20:53:58"
+                    },
+                    {
+                        "value": "https://www.patrickforeilly.com/vps/",
+                        "timestamp": "2023-06-08 23:21:45"
+                    },
+                    {
+                        "value": "https://fuelrescue.ie/wp/",
+                        "timestamp": "2023-06-08 23:21:43"
+                    },
+                    {
+                        "value": "https://whatswit.com/",
+                        "timestamp": "2023-02-22 10:46:48"
+                    },
+                    {
+                        "value": "http://194.76.224.234",
+                        "timestamp": "2023-09-27 20:54:04"
+                    },
+                    {
+                        "value": "http://176.10.111.45",
+                        "timestamp": "2023-09-27 20:54:19"
+                    },
+                    {
+                        "value": "http://79.132.128.151",
+                        "timestamp": "2023-09-27 20:53:54"
+                    },
+                    {
+                        "value": "http://176.10.111.47",
+                        "timestamp": "2023-09-27 20:54:09"
+                    },
+                    {
+                        "value": "http://108.61.165.145",
+                        "timestamp": "2023-09-27 20:54:23"
+                    },
+                    {
+                        "value": "http://37.120.222.23",
+                        "timestamp": "2023-09-27 20:54:18"
+                    },
+                    {
+                        "value": "http://79.132.128.146",
+                        "timestamp": "2023-09-27 20:53:49"
+                    },
+                    {
+                        "value": "http://176.10.119.229",
+                        "timestamp": "2023-09-27 20:53:52"
+                    },
+                    {
+                        "value": "https://dominikania.com/",
+                        "timestamp": "2022-09-20 09:16:13"
+                    },
+                    {
+                        "value": "http://5.42.199.72/cook32.rar",
+                        "timestamp": "2022-07-14 11:32:02"
+                    },
+                    {
+                        "value": "http://5.42.199.72/cook64.rar",
+                        "timestamp": "2022-07-14 11:32:02"
+                    },
+                    {
+                        "value": "http://5.42.199.72/stilak32.rar",
+                        "timestamp": "2022-07-14 11:32:01"
+                    },
+                    {
+                        "value": "http://5.42.199.72/stilak64.rar",
+                        "timestamp": "2022-07-14 11:32:01"
+                    },
+                    {
+                        "value": "https://domanaic.com/",
+                        "timestamp": "2022-07-14 11:31:45"
+                    },
+                    {
+                        "value": "https://investprides.com/",
+                        "timestamp": "2022-06-29 09:32:04"
+                    },
+                    {
+                        "value": "https://consaltins.com/",
+                        "timestamp": "2022-06-07 08:49:25"
+                    },
+                    {
+                        "value": "https://inmanagment.com/",
+                        "timestamp": "2022-05-25 08:56:16"
+                    },
+                    {
+                        "value": "https://managmentoria.com",
+                        "timestamp": "2022-05-17 09:23:49"
+                    },
+                    {
+                        "value": "https://investoriant.com/",
+                        "timestamp": "2022-05-04 10:24:29"
+                    },
+                    {
+                        "value": "https://inversinbiz.com",
+                        "timestamp": "2022-04-28 08:41:09"
+                    },
+                    {
+                        "value": "https://bizinvetment.com/",
+                        "timestamp": "2022-04-27 09:29:06"
+                    },
+                    {
+                        "value": "https://hotroad.cyou/index.htm",
+                        "timestamp": "2021-09-03 15:38:31"
+                    },
+                    {
+                        "value": "https://monotep.xyz/index.htm",
+                        "timestamp": "2021-09-03 15:38:31"
+                    },
+                    {
+                        "value": "https://free.mynowministries.com/app.dll",
+                        "timestamp": "2021-07-14 14:15:27"
+                    }
+                ],
+                "ip:port": [
+                    {
+                        "value": "45.11.182.38:443",
+                        "timestamp": "2023-07-18 16:40:18"
+                    },
+                    {
+                        "value": "31.41.44.125:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "193.233.72.14:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "91.149.218.248:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "194.87.47.138:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "46.8.210.80:443",
+                        "timestamp": "2023-01-12 12:59:34"
+                    },
+                    {
+                        "value": "62.173.140.103:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "62.173.140.8:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "31.41.44.124:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "62.173.138.234:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "31.41.44.112:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "91.107.119.114:443",
+                        "timestamp": "2023-01-10 13:27:55"
+                    },
+                    {
+                        "value": "194.55.186.246:80",
+                        "timestamp": "2022-12-18 02:18:38"
+                    },
+                    {
+                        "value": "91.242.217.28:80",
+                        "timestamp": "2022-12-18 01:16:27"
+                    },
+                    {
+                        "value": "91.241.93.111:80",
+                        "timestamp": "2022-12-18 01:16:27"
+                    },
+                    {
+                        "value": "45.11.182.97:80",
+                        "timestamp": "2022-12-18 01:16:27"
+                    },
+                    {
+                        "value": "79.132.128.108:80",
+                        "timestamp": "2022-12-18 01:16:27"
+                    },
+                    {
+                        "value": "91.241.93.98:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "79.132.128.109:80",
+                        "timestamp": "2022-12-18 01:16:27"
+                    },
+                    {
+                        "value": "185.31.162.9:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "62.173.147.113:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "185.31.160.147:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "31.41.46.120:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "185.31.160.229:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "31.41.46.132:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "194.76.224.234:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "108.61.165.145:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "37.120.222.23:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "79.132.128.146:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "176.10.119.229:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "176.10.111.45:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "79.132.128.151:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "176.10.111.47:80",
+                        "timestamp": "2022-12-15 20:48:03"
+                    },
+                    {
+                        "value": "31.207.46.12:443",
+                        "timestamp": "2022-11-30 10:22:54"
+                    },
+                    {
+                        "value": "89.45.4.102:443",
+                        "timestamp": "2022-09-20 09:16:54"
+                    },
+                    {
+                        "value": "89.41.26.99:443",
+                        "timestamp": "2022-09-20 09:16:53"
+                    },
+                    {
+                        "value": "193.106.191.163:80",
+                        "timestamp": "2022-09-20 14:39:16"
+                    },
+                    {
+                        "value": "193.106.191.163:443",
+                        "timestamp": "2022-09-20 09:16:54"
+                    },
+                    {
+                        "value": "37.120.206.71:443",
+                        "timestamp": "2022-08-03 11:06:01"
+                    },
+                    {
+                        "value": "37.120.206.84:443",
+                        "timestamp": "2022-08-03 11:06:01"
+                    },
+                    {
+                        "value": "37.120.206.95:443",
+                        "timestamp": "2022-08-03 11:06:02"
+                    },
+                    {
+                        "value": "5.42.199.57:443",
+                        "timestamp": "2022-08-03 11:06:02"
+                    },
+                    {
+                        "value": "37.120.206.91:443",
+                        "timestamp": "2022-08-03 11:06:02"
+                    },
+                    {
+                        "value": "193.27.14.240:443",
+                        "timestamp": "2022-07-20 10:33:53"
+                    },
+                    {
+                        "value": "94.198.40.39:443",
+                        "timestamp": "2022-07-20 10:33:53"
+                    },
+                    {
+                        "value": "94.198.40.47:443",
+                        "timestamp": "2022-07-20 10:33:53"
+                    },
+                    {
+                        "value": "94.198.40.58:443",
+                        "timestamp": "2022-09-30 20:54:31"
+                    },
+                    {
+                        "value": "79.110.52.241:443",
+                        "timestamp": "2022-07-14 11:50:24"
+                    },
+                    {
+                        "value": "46.21.153.252:443",
+                        "timestamp": "2022-07-14 11:50:23"
+                    },
+                    {
+                        "value": "79.110.52.164:443",
+                        "timestamp": "2022-07-07 09:49:09"
+                    },
+                    {
+                        "value": "79.110.52.97:443",
+                        "timestamp": "2022-07-07 09:49:09"
+                    },
+                    {
+                        "value": "23.227.202.64:443",
+                        "timestamp": "2022-07-14 11:50:23"
+                    },
+                    {
+                        "value": "79.110.52.244:443",
+                        "timestamp": "2022-07-14 11:50:23"
+                    },
+                    {
+                        "value": "46.21.153.221:443",
+                        "timestamp": "2022-06-29 09:32:49"
+                    },
+                    {
+                        "value": "194.76.224.26:443",
+                        "timestamp": "2022-06-29 09:32:49"
+                    },
+                    {
+                        "value": "46.21.153.203:443",
+                        "timestamp": "2022-06-29 09:32:49"
+                    },
+                    {
+                        "value": "194.76.225.112:443",
+                        "timestamp": "2022-06-29 09:32:48"
+                    },
+                    {
+                        "value": "194.76.225.113:443",
+                        "timestamp": "2022-06-29 09:32:48"
+                    },
+                    {
+                        "value": "37.10.71.221:443",
+                        "timestamp": "2022-06-07 08:51:00"
+                    },
+                    {
+                        "value": "176.100.42.170:443",
+                        "timestamp": "2022-06-07 08:50:56"
+                    },
+                    {
+                        "value": "31.214.157.235:443",
+                        "timestamp": "2022-06-07 08:50:54"
+                    },
+                    {
+                        "value": "176.10.119.68:443",
+                        "timestamp": "2022-05-25 08:54:58"
+                    },
+                    {
+                        "value": "176.10.119.81:443",
+                        "timestamp": "2022-05-25 08:54:58"
+                    },
+                    {
+                        "value": "185.189.151.70:443",
+                        "timestamp": "2022-05-17 08:49:35"
+                    },
+                    {
+                        "value": "185.189.151.28:443",
+                        "timestamp": "2022-05-17 08:49:33"
+                    },
+                    {
+                        "value": "185.189.151.70:80",
+                        "timestamp": "2022-05-04 10:16:19"
+                    },
+                    {
+                        "value": "185.189.151.28:80",
+                        "timestamp": "2022-05-04 10:16:18"
+                    },
+                    {
+                        "value": "94.140.112.44:80",
+                        "timestamp": "2022-04-28 08:38:55"
+                    },
+                    {
+                        "value": "94.140.112.35:80",
+                        "timestamp": "2022-04-28 08:38:55"
+                    },
+                    {
+                        "value": "94.140.115.8:80",
+                        "timestamp": "2022-04-28 08:38:54"
+                    },
+                    {
+                        "value": "217.12.221.28:443",
+                        "timestamp": "2021-07-06 15:07:45"
+                    },
+                    {
+                        "value": "45.90.58.179:80",
+                        "timestamp": "2021-07-06 15:07:45"
+                    },
+                    {
+                        "value": "217.12.206.30:80",
+                        "timestamp": "2021-07-06 15:07:45"
+                    },
+                    {
+                        "value": "37.120.222.161:443",
+                        "timestamp": "2021-06-22 15:02:02"
+                    },
+                    {
+                        "value": "37.120.222.163:443",
+                        "timestamp": "2021-06-22 15:02:02"
+                    },
+                    {
+                        "value": "37.120.222.189:443",
+                        "timestamp": "2021-06-22 15:02:02"
+                    },
+                    {
+                        "value": "92.223.90.242:443",
+                        "timestamp": "2021-04-02 18:12:04"
+                    },
+                    {
+                        "value": "31.148.99.142:80",
+                        "timestamp": "2021-03-16 19:43:51"
+                    },
+                    {
+                        "value": "108.61.89.233:443",
+                        "timestamp": "2021-03-16 19:43:51"
+                    },
+                    {
+                        "value": "31.148.99.193:80",
+                        "timestamp": "2021-03-16 19:43:51"
                     }
                 ],
                 "sha256_hash": [
@@ -1424,7 +3538,413 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-07-18 16:45:33",
+    "last_ioc_update": "2023-09-27 21:02:10",
+    "file_name": "gozi",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://kostas-ts.medium.com/ursnif-vs-italy-il-pdf-del-destino-5c83d6281072",
+            "date": "2023-07-18",
+            "organization": "Kostas TS",
+            "author": "Kostas",
+            "title": "Ursnif VS Italy: Il PDF del Destino",
+            "categories": [
+                "Gozi",
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://0xtoxin.github.io/threat%20breakdown/Gozi-Italy-Campaign/",
+            "date": "2023-03-19",
+            "organization": "0xToxin Labs",
+            "author": "@0xToxin",
+            "title": "Gozi - Italian ShellCode Dance",
+            "categories": [
+                "Gozi",
+                "ISFB"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/csis-techblog/chapter-1-from-gozi-to-isfb-the-history-of-a-mythical-malware-family-82e592577fef",
+            "date": "2022-10-24",
+            "organization": "Medium CSIS Techblog",
+            "author": "Beno\u00eet Ancel",
+            "title": "Chapter 1 \u2014 From Gozi to ISFB: The history of a mythical malware family.",
+            "categories": [
+                "Gozi",
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
+            "date": "2022-05-09",
+            "organization": "Microsoft",
+            "author": "Microsoft 365 Defender Threat Intelligence Team",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "AnchorDNS",
+                "BlackCat",
+                "BlackMatter",
+                "Conti",
+                "DarkSide",
+                "HelloKitty",
+                "Hive",
+                "LockBit",
+                "REvil",
+                "FAKEUPDATES",
+                "Griffon",
+                "ATOMSILO",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Cobalt Strike",
+                "Conti",
+                "DarkSide",
+                "Emotet",
+                "FiveHands",
+                "Gozi",
+                "HelloKitty",
+                "Hive",
+                "IcedID",
+                "ISFB",
+                "JSSLoader",
+                "LockBit",
+                "LockFile",
+                "Maze",
+                "NightSky",
+                "Pandora",
+                "Phobos",
+                "Phoenix Locker",
+                "PhotoLoader",
+                "QakBot",
+                "REvil",
+                "Rook",
+                "Ryuk",
+                "SystemBC",
+                "TrickBot",
+                "WastedLocker",
+                "BRONZE STARLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+            "date": "2022-05-09",
+            "organization": "Microsoft Security",
+            "author": "Microsoft Threat Intelligence Center",
+            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
+            "categories": [
+                "Griffon",
+                "BazarBackdoor",
+                "BlackCat",
+                "BlackMatter",
+                "Blister",
+                "Gozi",
+                "LockBit",
+                "Pandora",
+                "Rook",
+                "SystemBC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://therecord.media/gozi-malware-gang-member-arrested-in-colombia/",
+            "date": "2021-06-30",
+            "organization": "The Record",
+            "author": "Catalin Cimpanu",
+            "title": "Gozi malware gang member arrested in Colombia",
+            "categories": [
+                "Gozi",
+                "ISFB"
+            ]
+        },
+        {
+            "data_url": "https://www.deepinstinct.com/2021/05/26/deep-dive-packing-software-cryptone/",
+            "date": "2021-05-26",
+            "organization": "DeepInstinct",
+            "author": "Ron Ben Yizhak",
+            "title": "A Deep Dive into Packing Software CryptOne",
+            "categories": [
+                "Cobalt Strike",
+                "Dridex",
+                "Emotet",
+                "Gozi",
+                "ISFB",
+                "Mailto",
+                "QakBot",
+                "SmokeLoader",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://mal-eats.net/en/2021/05/11/campo_new_attack_campaign_targeting_japan/",
+            "date": "2021-05-11",
+            "organization": "Mal-Eats",
+            "author": "mal_eats",
+            "title": "Campo, a New Attack Campaign Targeting Japan",
+            "categories": [
+                "AnchorDNS",
+                "BazarBackdoor",
+                "campoloader",
+                "Cobalt Strike",
+                "Phobos",
+                "Snifula",
+                "TrickBot",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
+            "date": "2021-03-31",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "Financial Cyberthreats in 2020",
+            "categories": [
+                "BetaBot",
+                "DanaBot",
+                "Emotet",
+                "Gozi",
+                "Ramnit",
+                "RTM",
+                "SpyEye",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/ursnif-trojan-has-targeted-over-100-italian-banks/",
+            "date": "2021-02-03",
+            "organization": "ZDNet",
+            "author": "Charlie Osborne",
+            "title": "Ursnif Trojan has targeted over 100 Italian banks",
+            "categories": [
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://malware.love/malware_analysis/reverse_engineering/2020/11/27/analyzing-a-vbs-dropper.html",
+            "date": "2020-11-27",
+            "organization": "malware.love",
+            "author": "Robert Giczewski",
+            "title": "Having fun with a Ursnif VBS dropper",
+            "categories": [
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.darktrace.com/en/blog/the-resurgence-of-the-ursnif-banking-trojan/",
+            "date": "2020-07-23",
+            "organization": "Darktrace",
+            "author": "Max Heinemeyer",
+            "title": "The resurgence of the Ursnif banking trojan",
+            "categories": [
+                "ISFB",
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "https://github.com/mlodic/ursnif_beacon_decryptor",
+            "date": "2020-05-07",
+            "organization": "Github (mlodic)",
+            "author": "Matteo Lodi",
+            "title": "Ursnif beacon decryptor",
+            "categories": [
+                "Gozi",
+                "ISFB"
+            ]
+        },
+        {
+            "data_url": "https://0xc0decafe.com/malware-analyst-guide-to-pe-timestamps/",
+            "date": "2020-01-22",
+            "organization": "",
+            "author": "Thomas Barabosch",
+            "title": "The malware analyst\u2019s guide to PE timestamps",
+            "categories": [
+                "Azorult",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "LOLSnif",
+                "SUNBURST",
+                "TEARDROP"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-swathmore",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "GOLD SWATHMORE",
+            "categories": [
+                "GlobeImposter",
+                "Gozi",
+                "IcedID",
+                "TrickBot",
+                "LUNAR SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://lokalhost.pl/gozi_tree.txt",
+            "date": "2017-05-29",
+            "organization": "Lokalhost.pl",
+            "author": "Maciej Kotowicz",
+            "title": "Gozi Tree",
+            "categories": [
+                "DreamBot",
+                "Gozi",
+                "ISFB",
+                "Powersniff"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-banking-trojans-ursnif-global-distribution-networks-identified/",
+            "date": "2017-02-15",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Kaoru Hayashi",
+            "title": "Banking Trojans: Ursnif Global Distribution Networks Identified",
+            "categories": [
+                "Gozi"
+            ]
+        },
+        {
+            "data_url": "https://blog.gdatasoftware.com/2016/11/29325-analysis-ursnif-spying-on-your-data-since-2007",
+            "date": "2016-11-23",
+            "organization": "G Data",
+            "author": "G Data",
+            "title": "Analysis: Ursnif - spying on your data since 2007",
+            "categories": [
+                "Gozi"
+            ]
+        },
+        {
+            "data_url": "https://www.circl.lu/assets/files/tr-13/tr-13-snifula-analysis-report-v1.3.pdf",
+            "date": "2013-05-29",
+            "organization": "CIRCL",
+            "author": "CIRCL",
+            "title": "Malware analysis report of a Backdoor.Snifula variant",
+            "categories": [
+                "Snifula"
+            ]
+        },
+        {
+            "data_url": "http://blog.malwaremustdie.org/2013/02/the-infection-of-styx-exploit-kit.html",
+            "date": "2013-02-03",
+            "organization": "Malware Must Die!",
+            "author": "Malware Must Die!",
+            "title": "The infection of Styx Exploit Kit (Landing page: painterinvoice.ru + Payload: PWS/Ursnif Variant)",
+            "categories": [
+                "Gozi"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/gozi",
+            "date": "2007-03-20",
+            "organization": "Secureworks",
+            "author": "Don Jackson",
+            "title": "Gozi Trojan",
+            "categories": [
+                "Gozi"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "ursnif",
@@ -1936,412 +4456,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "ursnif has used http posts to exfil gathered information.[137][138][139]"
                 }
-            ]
-        }
-    ],
-    "file_name": "gozi",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://kostas-ts.medium.com/ursnif-vs-italy-il-pdf-del-destino-5c83d6281072",
-            "date": "2023-07-18",
-            "organization": "Kostas TS",
-            "author": "Kostas",
-            "title": "Ursnif VS Italy: Il PDF del Destino",
-            "categories": [
-                "Gozi",
-                "ISFB",
-                "Snifula"
-            ]
-        },
-        {
-            "data_url": "https://0xtoxin.github.io/threat%20breakdown/Gozi-Italy-Campaign/",
-            "date": "2023-03-19",
-            "organization": "0xToxin Labs",
-            "author": "@0xToxin",
-            "title": "Gozi - Italian ShellCode Dance",
-            "categories": [
-                "Gozi",
-                "ISFB"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/csis-techblog/chapter-1-from-gozi-to-isfb-the-history-of-a-mythical-malware-family-82e592577fef",
-            "date": "2022-10-24",
-            "organization": "Medium CSIS Techblog",
-            "author": "Beno\u00eet Ancel",
-            "title": "Chapter 1 \u2014 From Gozi to ISFB: The history of a mythical malware family.",
-            "categories": [
-                "Gozi",
-                "ISFB",
-                "Snifula"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself",
-            "date": "2022-05-09",
-            "organization": "Microsoft",
-            "author": "Microsoft 365 Defender Threat Intelligence Team",
-            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
-            "categories": [
-                "AnchorDNS",
-                "BlackCat",
-                "BlackMatter",
-                "Conti",
-                "DarkSide",
-                "HelloKitty",
-                "Hive",
-                "LockBit",
-                "REvil",
-                "FAKEUPDATES",
-                "Griffon",
-                "ATOMSILO",
-                "BazarBackdoor",
-                "BlackCat",
-                "BlackMatter",
-                "Blister",
-                "Cobalt Strike",
-                "Conti",
-                "DarkSide",
-                "Emotet",
-                "FiveHands",
-                "Gozi",
-                "HelloKitty",
-                "Hive",
-                "IcedID",
-                "ISFB",
-                "JSSLoader",
-                "LockBit",
-                "LockFile",
-                "Maze",
-                "NightSky",
-                "Pandora",
-                "Phobos",
-                "Phoenix Locker",
-                "PhotoLoader",
-                "QakBot",
-                "REvil",
-                "Rook",
-                "Ryuk",
-                "SystemBC",
-                "TrickBot",
-                "WastedLocker",
-                "BRONZE STARLIGHT"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
-            "date": "2022-05-09",
-            "organization": "Microsoft Security",
-            "author": "Microsoft Threat Intelligence Center",
-            "title": "Ransomware-as-a-service: Understanding the cybercrime gig economy and how to protect yourself",
-            "categories": [
-                "Griffon",
-                "BazarBackdoor",
-                "BlackCat",
-                "BlackMatter",
-                "Blister",
-                "Gozi",
-                "LockBit",
-                "Pandora",
-                "Rook",
-                "SystemBC",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
-            "date": "2021-09-03",
-            "organization": "Trend Micro",
-            "author": "Mohamad Mokbel",
-            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
-            "categories": [
-                "AdWind",
-                "ostap",
-                "AsyncRAT",
-                "BazarBackdoor",
-                "BitRAT",
-                "Buer",
-                "Chthonic",
-                "CloudEyE",
-                "Cobalt Strike",
-                "DCRat",
-                "Dridex",
-                "FindPOS",
-                "GootKit",
-                "Gozi",
-                "IcedID",
-                "ISFB",
-                "Nanocore RAT",
-                "Orcus RAT",
-                "PandaBanker",
-                "Qadars",
-                "QakBot",
-                "Quasar RAT",
-                "Rockloader",
-                "ServHelper",
-                "Shifu",
-                "SManager",
-                "TorrentLocker",
-                "TrickBot",
-                "Vawtrak",
-                "Zeus",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://therecord.media/gozi-malware-gang-member-arrested-in-colombia/",
-            "date": "2021-06-30",
-            "organization": "The Record",
-            "author": "Catalin Cimpanu",
-            "title": "Gozi malware gang member arrested in Colombia",
-            "categories": [
-                "Gozi",
-                "ISFB"
-            ]
-        },
-        {
-            "data_url": "https://www.deepinstinct.com/2021/05/26/deep-dive-packing-software-cryptone/",
-            "date": "2021-05-26",
-            "organization": "DeepInstinct",
-            "author": "Ron Ben Yizhak",
-            "title": "A Deep Dive into Packing Software CryptOne",
-            "categories": [
-                "Cobalt Strike",
-                "Dridex",
-                "Emotet",
-                "Gozi",
-                "ISFB",
-                "Mailto",
-                "QakBot",
-                "SmokeLoader",
-                "WastedLocker",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://mal-eats.net/en/2021/05/11/campo_new_attack_campaign_targeting_japan/",
-            "date": "2021-05-11",
-            "organization": "Mal-Eats",
-            "author": "mal_eats",
-            "title": "Campo, a New Attack Campaign Targeting Japan",
-            "categories": [
-                "AnchorDNS",
-                "BazarBackdoor",
-                "campoloader",
-                "Cobalt Strike",
-                "Phobos",
-                "Snifula",
-                "TrickBot",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
-            "date": "2021-03-31",
-            "organization": "Kaspersky",
-            "author": "Kaspersky",
-            "title": "Financial Cyberthreats in 2020",
-            "categories": [
-                "BetaBot",
-                "DanaBot",
-                "Emotet",
-                "Gozi",
-                "Ramnit",
-                "RTM",
-                "SpyEye",
-                "TrickBot",
-                "Zeus"
-            ]
-        },
-        {
-            "data_url": "https://www.zdnet.com/article/ursnif-trojan-has-targeted-over-100-italian-banks/",
-            "date": "2021-02-03",
-            "organization": "ZDNet",
-            "author": "Charlie Osborne",
-            "title": "Ursnif Trojan has targeted over 100 Italian banks",
-            "categories": [
-                "ISFB",
-                "Snifula"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
-            "date": "2020-12-21",
-            "organization": "Cisco Talos",
-            "author": "JON MUNSHAW",
-            "title": "2020: The year in malware",
-            "categories": [
-                "WolfRAT",
-                "Prometei",
-                "Poet RAT",
-                "Agent Tesla",
-                "Astaroth",
-                "Ave Maria",
-                "CRAT",
-                "Emotet",
-                "Gozi",
-                "IndigoDrop",
-                "JhoneRAT",
-                "Nanocore RAT",
-                "NjRAT",
-                "Oblique RAT",
-                "SmokeLoader",
-                "StrongPity",
-                "WastedLocker",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://malware.love/malware_analysis/reverse_engineering/2020/11/27/analyzing-a-vbs-dropper.html",
-            "date": "2020-11-27",
-            "organization": "malware.love",
-            "author": "Robert Giczewski",
-            "title": "Having fun with a Ursnif VBS dropper",
-            "categories": [
-                "ISFB",
-                "Snifula"
-            ]
-        },
-        {
-            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
-            "date": "2020-08-09",
-            "organization": "F5 Labs",
-            "author": "Remi Cohen",
-            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
-            "categories": [
-                "BackSwap",
-                "Carberp",
-                "Citadel",
-                "DanaBot",
-                "Dridex",
-                "Dyre",
-                "Emotet",
-                "Gozi",
-                "Kronos",
-                "PandaBanker",
-                "Ramnit",
-                "Shylock",
-                "SpyEye",
-                "Tinba",
-                "TrickBot",
-                "Vawtrak",
-                "Zeus"
-            ]
-        },
-        {
-            "data_url": "https://www.darktrace.com/en/blog/the-resurgence-of-the-ursnif-banking-trojan/",
-            "date": "2020-07-23",
-            "organization": "Darktrace",
-            "author": "Max Heinemeyer",
-            "title": "The resurgence of the Ursnif banking trojan",
-            "categories": [
-                "ISFB",
-                "Snifula"
-            ]
-        },
-        {
-            "data_url": "https://github.com/mlodic/ursnif_beacon_decryptor",
-            "date": "2020-05-07",
-            "organization": "Github (mlodic)",
-            "author": "Matteo Lodi",
-            "title": "Ursnif beacon decryptor",
-            "categories": [
-                "Gozi",
-                "ISFB"
-            ]
-        },
-        {
-            "data_url": "https://0xc0decafe.com/malware-analyst-guide-to-pe-timestamps/",
-            "date": "2020-01-22",
-            "organization": "",
-            "author": "Thomas Barabosch",
-            "title": "The malware analyst\u2019s guide to PE timestamps",
-            "categories": [
-                "Azorult",
-                "Gozi",
-                "IcedID",
-                "ISFB",
-                "LOLSnif",
-                "SUNBURST",
-                "TEARDROP"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/gold-swathmore",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "GOLD SWATHMORE",
-            "categories": [
-                "GlobeImposter",
-                "Gozi",
-                "IcedID",
-                "TrickBot",
-                "LUNAR SPIDER"
-            ]
-        },
-        {
-            "data_url": "https://lokalhost.pl/gozi_tree.txt",
-            "date": "2017-05-29",
-            "organization": "Lokalhost.pl",
-            "author": "Maciej Kotowicz",
-            "title": "Gozi Tree",
-            "categories": [
-                "DreamBot",
-                "Gozi",
-                "ISFB",
-                "Powersniff"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-banking-trojans-ursnif-global-distribution-networks-identified/",
-            "date": "2017-02-15",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Kaoru Hayashi",
-            "title": "Banking Trojans: Ursnif Global Distribution Networks Identified",
-            "categories": [
-                "Gozi"
-            ]
-        },
-        {
-            "data_url": "https://blog.gdatasoftware.com/2016/11/29325-analysis-ursnif-spying-on-your-data-since-2007",
-            "date": "2016-11-23",
-            "organization": "G Data",
-            "author": "G Data",
-            "title": "Analysis: Ursnif - spying on your data since 2007",
-            "categories": [
-                "Gozi"
-            ]
-        },
-        {
-            "data_url": "https://www.circl.lu/assets/files/tr-13/tr-13-snifula-analysis-report-v1.3.pdf",
-            "date": "2013-05-29",
-            "organization": "CIRCL",
-            "author": "CIRCL",
-            "title": "Malware analysis report of a Backdoor.Snifula variant",
-            "categories": [
-                "Snifula"
-            ]
-        },
-        {
-            "data_url": "http://blog.malwaremustdie.org/2013/02/the-infection-of-styx-exploit-kit.html",
-            "date": "2013-02-03",
-            "organization": "Malware Must Die!",
-            "author": "Malware Must Die!",
-            "title": "The infection of Styx Exploit Kit (Landing page: painterinvoice.ru + Payload: PWS/Ursnif Variant)",
-            "categories": [
-                "Gozi"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/gozi",
-            "date": "2007-03-20",
-            "organization": "Secureworks",
-            "author": "Don Jackson",
-            "title": "Gozi Trojan",
-            "categories": [
-                "Gozi"
             ]
         }
     ]

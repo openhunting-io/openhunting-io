@@ -37,6 +37,52 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "nanhaishu",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/software/S0228/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Tool description: NanHaiShu",
+            "categories": [
+                "NanHaiShu"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
+            "date": "2017-10-16",
+            "organization": "Proofpoint",
+            "author": "Axel F",
+            "title": "Leviathan: Espionage actor spearphishes maritime and defense targets",
+            "categories": [
+                "NanHaiShu",
+                "SeDll",
+                "APT40"
+            ]
+        },
+        {
+            "data_url": "https://www.f-secure.com/documents/996508/1030745/nanhaishu_whitepaper.pdf",
+            "date": "2016-08-05",
+            "organization": "F-Secure",
+            "author": "F-Secure Labs",
+            "title": "NANHAISHU: RATing the South China Sea",
+            "categories": [
+                "NanHaiShu"
+            ]
+        },
+        {
+            "data_url": "https://community.spiceworks.com/topic/1028936-stealthy-cyberespionage-campaign-attacks-with-social-engineering",
+            "date": "2015-06-24",
+            "organization": "Spiceworks",
+            "author": "Chris Miller",
+            "title": "Stealthy Cyberespionage Campaign Attacks With Social Engineering",
+            "categories": [
+                "NanHaiShu"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "nanhaishu",
@@ -200,52 +246,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "nanhaishu can download additional files from urls.[260]"
                 }
-            ]
-        }
-    ],
-    "file_name": "nanhaishu",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://attack.mitre.org/software/S0228/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Tool description: NanHaiShu",
-            "categories": [
-                "NanHaiShu"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets",
-            "date": "2017-10-16",
-            "organization": "Proofpoint",
-            "author": "Axel F",
-            "title": "Leviathan: Espionage actor spearphishes maritime and defense targets",
-            "categories": [
-                "NanHaiShu",
-                "SeDll",
-                "APT40"
-            ]
-        },
-        {
-            "data_url": "https://www.f-secure.com/documents/996508/1030745/nanhaishu_whitepaper.pdf",
-            "date": "2016-08-05",
-            "organization": "F-Secure",
-            "author": "F-Secure Labs",
-            "title": "NANHAISHU: RATing the South China Sea",
-            "categories": [
-                "NanHaiShu"
-            ]
-        },
-        {
-            "data_url": "https://community.spiceworks.com/topic/1028936-stealthy-cyberespionage-campaign-attacks-with-social-engineering",
-            "date": "2015-06-24",
-            "organization": "Spiceworks",
-            "author": "Chris Miller",
-            "title": "Stealthy Cyberespionage Campaign Attacks With Social Engineering",
-            "categories": [
-                "NanHaiShu"
             ]
         }
     ]

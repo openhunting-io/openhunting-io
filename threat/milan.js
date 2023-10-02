@@ -34,6 +34,34 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "milan",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.prevailion.com/latest-targets-of-cyber-group-lyceum/",
+            "date": "2021-11-09",
+            "organization": "Prevailion",
+            "author": "Prevailion",
+            "title": "Who are latest targets of cyber group Lyceum?",
+            "categories": [
+                "Milan",
+                "Shark",
+                "LYCEUM"
+            ]
+        },
+        {
+            "data_url": "https://www.clearskysec.com/wp-content/uploads/2021/08/Siamesekitten.pdf",
+            "date": "2021-08-17",
+            "organization": "ClearSky",
+            "author": "ClearSky",
+            "title": "New Iranian Espionage Campaign   By \u201cSiamesekitten\u201d - Lyceum",
+            "categories": [
+                "danbot",
+                "Milan",
+                "Shark"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "milan",
@@ -305,34 +333,6 @@ var threatdata = {
                     "technique_description": "adversaries may tunnel network communications to and from a victim system within a separate protocol to avoid detection/network filtering and/or enable access to otherwise unreachable systems. tunneling involves explicitly encapsulating a protocol within another. this behavior may conceal malicious traffic by blending in with existing traffic and/or provide an outer layer of encryption (similar to a vpn). tunneling could also enable routing of network packets that would otherwise not reach their intended destination, such as smb, rdp, or other traffic that would be filtered by network appliances or not routed over the internet.",
                     "procedure_description": "milan can use a custom protocol tunneled through dns or http.[22]"
                 }
-            ]
-        }
-    ],
-    "file_name": "milan",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.prevailion.com/latest-targets-of-cyber-group-lyceum/",
-            "date": "2021-11-09",
-            "organization": "Prevailion",
-            "author": "Prevailion",
-            "title": "Who are latest targets of cyber group Lyceum?",
-            "categories": [
-                "Milan",
-                "Shark",
-                "LYCEUM"
-            ]
-        },
-        {
-            "data_url": "https://www.clearskysec.com/wp-content/uploads/2021/08/Siamesekitten.pdf",
-            "date": "2021-08-17",
-            "organization": "ClearSky",
-            "author": "ClearSky",
-            "title": "New Iranian Espionage Campaign   By \u201cSiamesekitten\u201d - Lyceum",
-            "categories": [
-                "danbot",
-                "Milan",
-                "Shark"
             ]
         }
     ]

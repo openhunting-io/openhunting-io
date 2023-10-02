@@ -51,6 +51,270 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-12-09 01:28:01",
+    "file_name": "cuba",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/cuba-ransomware/110533/",
+            "date": "2023-09-11",
+            "organization": "Kaspersky",
+            "author": "Alexander Kirichenko",
+            "title": "From Caribbean shores to your devices: analyzing Cuba ransomware",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://noticeofpleadings.com/crackedcobaltstrike/files/ComplaintAndSummons/1%20-Microsoft%20Cobalt%20Strike%20-%20Complaint(907040021.9).pdf",
+            "date": "2023-03-30",
+            "organization": "United States District Court (Eastern District of New York)",
+            "author": "Microsoft",
+            "title": "Cracked Cobalt Strike (1:23-cv-02447)",
+            "categories": [
+                "Black Basta",
+                "BlackCat",
+                "LockBit",
+                "RagnarLocker",
+                "LockBit",
+                "Black Basta",
+                "BlackCat",
+                "Cobalt Strike",
+                "Cuba",
+                "Emotet",
+                "LockBit",
+                "Mount Locker",
+                "PLAY",
+                "QakBot",
+                "RagnarLocker",
+                "Royal Ransom",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/aa22-335a-stopransomware-cuba-ransomware.pdf",
+            "date": "2022-12-01",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "#StopRansomware: Cuba Ransomware",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/ransomware-roundup-gwisin-kriptor-cuba-and-more",
+            "date": "2022-08-18",
+            "organization": "Fortinet",
+            "author": "Shunichi Imano",
+            "title": "Ransomware Roundup: Gwisin, Kriptor, Cuba, and More",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/cuba-ransomware-tropical-scorpius/",
+            "date": "2022-08-10",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Anthony Galiette",
+            "title": "Novel News on Cuba Ransomware: Greetings From Tropical Scorpius",
+            "categories": [
+                "Cuba",
+                "ROMCOM RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.com/en_us/research/22/f/cuba-ransomware-group-s-new-variant-found-using-optimized-infect.html",
+            "date": "2022-06-08",
+            "organization": "Trend Micro",
+            "author": "Don Ovid Ladores",
+            "title": "Cuba Ransomware Group\u2019s New Variant Found Using Optimized Infection Techniques",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.elastic.co/security-labs/cuba-ransomware-malware-analysis",
+            "date": "2022-06-01",
+            "organization": "Elastic",
+            "author": "Salim Bitam",
+            "title": "CUBA Ransomware Malware Analysis",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.elastic.co/security-labs/cuba-ransomware-campaign-analysis",
+            "date": "2022-06-01",
+            "organization": "Elastic",
+            "author": "Daniel Stepanic",
+            "title": "CUBA Ransomware Campaign Analysis",
+            "categories": [
+                "Cobalt Strike",
+                "Cuba",
+                "Meterpreter",
+                "MimiKatz",
+                "SystemBC"
+            ]
+        },
+        {
+            "data_url": "https://www.aon.com/cyber-solutions/aon_cyber_labs/yours-truly-signed-av-driver-weaponizing-an-antivirus-driver/",
+            "date": "2022-02-26",
+            "organization": "Aon",
+            "author": "Eduardo Mattos",
+            "title": "Yours Truly, Signed AV Driver: Weaponizing An Antivirus Driver",
+            "categories": [
+                "Cuba",
+                "KillAV"
+            ]
+        },
+        {
+            "data_url": "https://www.it-connect.fr/le-ransomware-cuba-sen-prend-aux-serveurs-exchange/",
+            "date": "2022-02-25",
+            "organization": "IT-Connect (FR)",
+            "author": "Florian Burnel",
+            "title": "Le ransomware Cuba s\u2019en prend aux serveurs Exchange",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-to-deploy-cuba-ransomware/",
+            "date": "2022-02-24",
+            "organization": "Bleeping Computer",
+            "author": "Bill Toulas",
+            "title": "Microsoft Exchange servers hacked to deploy Cuba ransomware",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/unc2596-cuba-ransomware",
+            "date": "2022-02-23",
+            "organization": "Mandiant",
+            "author": "Tyler McLellan",
+            "title": "(Ex)Change of Pace: UNC2596 Observed Leveraging Vulnerabilities to Deploy Cuba Ransomware",
+            "categories": [
+                "Cuba",
+                "KillAV"
+            ]
+        },
+        {
+            "data_url": "https://www.guidepointsecurity.com/blog/using-hindsight-to-close-a-cuba-cold-case/",
+            "date": "2022-02-08",
+            "organization": "GuidePoint Security",
+            "author": "Drew Schmitt",
+            "title": "Using Hindsight to Close a Cuba Cold Case",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://lab52.io/blog/cuba-ransomware-analysis/",
+            "date": "2021-12-14",
+            "organization": "Lab52",
+            "author": "Th3spis",
+            "title": "Cuba Ransomware Analysis",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.ic3.gov/Media/News/2021/211203-2.pdf",
+            "date": "2021-12-02",
+            "organization": "FBI",
+            "author": "FBI",
+            "title": "CU-000156-MW: Indicators of Compromise Associated with Cuba  Ransomware",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://docs.google.com/spreadsheets/d/1MI8Z2tBhmqQ5X8Wf_ozv3dVjz5sJOs-3",
+            "date": "2021-05-10",
+            "organization": "DarkTracer",
+            "author": "DarkTracer",
+            "title": "Intelligence Report on Ransomware Gangs on the DarkWeb: List of victim organizations attacked by ransomware gangs released on the DarkWeb",
+            "categories": [
+                "RansomEXX",
+                "Avaddon",
+                "Babuk",
+                "Clop",
+                "Conti",
+                "Cuba",
+                "DarkSide",
+                "DoppelPaymer",
+                "Egregor",
+                "Hades",
+                "LockBit",
+                "Mailto",
+                "Maze",
+                "MedusaLocker",
+                "Mespinoza",
+                "Mount Locker",
+                "Nefilim",
+                "Nemty",
+                "Pay2Key",
+                "PwndLocker",
+                "RagnarLocker",
+                "Ragnarok",
+                "RansomEXX",
+                "REvil",
+                "Sekhmet",
+                "SunCrypt",
+                "ThunderX"
+            ]
+        },
+        {
+            "data_url": "https://blog.group-ib.com/hancitor-cuba-ransomware",
+            "date": "2021-05-07",
+            "organization": "Group-IB",
+            "author": "Oleg Skulkin",
+            "title": "Connecting the Bots Hancitor fuels Cuba Ransomware Operations",
+            "categories": [
+                "Cuba",
+                "Hancitor"
+            ]
+        },
+        {
+            "data_url": "https://shared-public-reports.s3-eu-west-1.amazonaws.com/Cuba+Ransomware+Group+-+on+a+roll.pdf",
+            "date": "2021-05-05",
+            "organization": "Profero",
+            "author": "Profero",
+            "title": "Cuba Ransomware Group on a Roll",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-threat-report-a-quick-primer-on-cuba-ransomware",
+            "date": "2021-04-06",
+            "organization": "McAfee",
+            "author": "Thomas Roccia",
+            "title": "McAfee ATR Threat Report: A Quick Primer on Cuba Ransomware",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-cuba-ransomware.pdf",
+            "date": "2021-04-06",
+            "organization": "McAfee",
+            "author": "Thomas Roccia",
+            "title": "Technical Analysis of Cuba Ransomware",
+            "categories": [
+                "Cuba"
+            ]
+        },
+        {
+            "data_url": "https://id-ransomware.blogspot.com/2019/12/cuba-ransomware.html",
+            "date": "2019-12-31",
+            "organization": "",
+            "author": "Andrew Ivanov",
+            "title": "Cuba Ransomware",
+            "categories": [
+                "Cuba"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "cuba",
@@ -370,270 +634,6 @@ var threatdata = {
                     "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
                     "procedure_description": "cuba has a hardcoded list of services and processes to terminate.[14]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cuba",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/cuba-ransomware/110533/",
-            "date": "2023-09-11",
-            "organization": "Kaspersky",
-            "author": "Alexander Kirichenko",
-            "title": "From Caribbean shores to your devices: analyzing Cuba ransomware",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://noticeofpleadings.com/crackedcobaltstrike/files/ComplaintAndSummons/1%20-Microsoft%20Cobalt%20Strike%20-%20Complaint(907040021.9).pdf",
-            "date": "2023-03-30",
-            "organization": "United States District Court (Eastern District of New York)",
-            "author": "Microsoft",
-            "title": "Cracked Cobalt Strike (1:23-cv-02447)",
-            "categories": [
-                "Black Basta",
-                "BlackCat",
-                "LockBit",
-                "RagnarLocker",
-                "LockBit",
-                "Black Basta",
-                "BlackCat",
-                "Cobalt Strike",
-                "Cuba",
-                "Emotet",
-                "LockBit",
-                "Mount Locker",
-                "PLAY",
-                "QakBot",
-                "RagnarLocker",
-                "Royal Ransom",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://www.cisa.gov/uscert/sites/default/files/publications/aa22-335a-stopransomware-cuba-ransomware.pdf",
-            "date": "2022-12-01",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "#StopRansomware: Cuba Ransomware",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/ransomware-roundup-gwisin-kriptor-cuba-and-more",
-            "date": "2022-08-18",
-            "organization": "Fortinet",
-            "author": "Shunichi Imano",
-            "title": "Ransomware Roundup: Gwisin, Kriptor, Cuba, and More",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/cuba-ransomware-tropical-scorpius/",
-            "date": "2022-08-10",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Anthony Galiette",
-            "title": "Novel News on Cuba Ransomware: Greetings From Tropical Scorpius",
-            "categories": [
-                "Cuba",
-                "ROMCOM RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/22/f/cuba-ransomware-group-s-new-variant-found-using-optimized-infect.html",
-            "date": "2022-06-08",
-            "organization": "Trend Micro",
-            "author": "Don Ovid Ladores",
-            "title": "Cuba Ransomware Group\u2019s New Variant Found Using Optimized Infection Techniques",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.elastic.co/security-labs/cuba-ransomware-malware-analysis",
-            "date": "2022-06-01",
-            "organization": "Elastic",
-            "author": "Salim Bitam",
-            "title": "CUBA Ransomware Malware Analysis",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.elastic.co/security-labs/cuba-ransomware-campaign-analysis",
-            "date": "2022-06-01",
-            "organization": "Elastic",
-            "author": "Daniel Stepanic",
-            "title": "CUBA Ransomware Campaign Analysis",
-            "categories": [
-                "Cobalt Strike",
-                "Cuba",
-                "Meterpreter",
-                "MimiKatz",
-                "SystemBC"
-            ]
-        },
-        {
-            "data_url": "https://www.aon.com/cyber-solutions/aon_cyber_labs/yours-truly-signed-av-driver-weaponizing-an-antivirus-driver/",
-            "date": "2022-02-26",
-            "organization": "Aon",
-            "author": "Eduardo Mattos",
-            "title": "Yours Truly, Signed AV Driver: Weaponizing An Antivirus Driver",
-            "categories": [
-                "Cuba",
-                "KillAV"
-            ]
-        },
-        {
-            "data_url": "https://www.it-connect.fr/le-ransomware-cuba-sen-prend-aux-serveurs-exchange/",
-            "date": "2022-02-25",
-            "organization": "IT-Connect (FR)",
-            "author": "Florian Burnel",
-            "title": "Le ransomware Cuba s\u2019en prend aux serveurs Exchange",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-hacked-to-deploy-cuba-ransomware/",
-            "date": "2022-02-24",
-            "organization": "Bleeping Computer",
-            "author": "Bill Toulas",
-            "title": "Microsoft Exchange servers hacked to deploy Cuba ransomware",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/resources/unc2596-cuba-ransomware",
-            "date": "2022-02-23",
-            "organization": "Mandiant",
-            "author": "Tyler McLellan",
-            "title": "(Ex)Change of Pace: UNC2596 Observed Leveraging Vulnerabilities to Deploy Cuba Ransomware",
-            "categories": [
-                "Cuba",
-                "KillAV"
-            ]
-        },
-        {
-            "data_url": "https://www.guidepointsecurity.com/blog/using-hindsight-to-close-a-cuba-cold-case/",
-            "date": "2022-02-08",
-            "organization": "GuidePoint Security",
-            "author": "Drew Schmitt",
-            "title": "Using Hindsight to Close a Cuba Cold Case",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://lab52.io/blog/cuba-ransomware-analysis/",
-            "date": "2021-12-14",
-            "organization": "Lab52",
-            "author": "Th3spis",
-            "title": "Cuba Ransomware Analysis",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.ic3.gov/Media/News/2021/211203-2.pdf",
-            "date": "2021-12-02",
-            "organization": "FBI",
-            "author": "FBI",
-            "title": "CU-000156-MW: Indicators of Compromise Associated with Cuba  Ransomware",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://docs.google.com/spreadsheets/d/1MI8Z2tBhmqQ5X8Wf_ozv3dVjz5sJOs-3",
-            "date": "2021-05-10",
-            "organization": "DarkTracer",
-            "author": "DarkTracer",
-            "title": "Intelligence Report on Ransomware Gangs on the DarkWeb: List of victim organizations attacked by ransomware gangs released on the DarkWeb",
-            "categories": [
-                "RansomEXX",
-                "Avaddon",
-                "Babuk",
-                "Clop",
-                "Conti",
-                "Cuba",
-                "DarkSide",
-                "DoppelPaymer",
-                "Egregor",
-                "Hades",
-                "LockBit",
-                "Mailto",
-                "Maze",
-                "MedusaLocker",
-                "Mespinoza",
-                "Mount Locker",
-                "Nefilim",
-                "Nemty",
-                "Pay2Key",
-                "PwndLocker",
-                "RagnarLocker",
-                "Ragnarok",
-                "RansomEXX",
-                "REvil",
-                "Sekhmet",
-                "SunCrypt",
-                "ThunderX"
-            ]
-        },
-        {
-            "data_url": "https://blog.group-ib.com/hancitor-cuba-ransomware",
-            "date": "2021-05-07",
-            "organization": "Group-IB",
-            "author": "Oleg Skulkin",
-            "title": "Connecting the Bots Hancitor fuels Cuba Ransomware Operations",
-            "categories": [
-                "Cuba",
-                "Hancitor"
-            ]
-        },
-        {
-            "data_url": "https://shared-public-reports.s3-eu-west-1.amazonaws.com/Cuba+Ransomware+Group+-+on+a+roll.pdf",
-            "date": "2021-05-05",
-            "organization": "Profero",
-            "author": "Profero",
-            "title": "Cuba Ransomware Group on a Roll",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-threat-report-a-quick-primer-on-cuba-ransomware",
-            "date": "2021-04-06",
-            "organization": "McAfee",
-            "author": "Thomas Roccia",
-            "title": "McAfee ATR Threat Report: A Quick Primer on Cuba Ransomware",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-cuba-ransomware.pdf",
-            "date": "2021-04-06",
-            "organization": "McAfee",
-            "author": "Thomas Roccia",
-            "title": "Technical Analysis of Cuba Ransomware",
-            "categories": [
-                "Cuba"
-            ]
-        },
-        {
-            "data_url": "https://id-ransomware.blogspot.com/2019/12/cuba-ransomware.html",
-            "date": "2019-12-31",
-            "organization": "",
-            "author": "Andrew Ivanov",
-            "title": "Cuba Ransomware",
-            "categories": [
-                "Cuba"
             ]
         }
     ]

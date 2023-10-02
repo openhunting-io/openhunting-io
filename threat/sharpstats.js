@@ -32,6 +32,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sharpstats",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp_new_muddywater_findings_uncovered.pdf",
+            "date": "2019-06-10",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "New MuddyWater Activities Uncovered: Threat Actors Used Multi-Stage Backdoors, New Post-Exploitation Tools, Android Malware, and More",
+            "categories": [
+                "Mudwater",
+                "SHARPSTATS"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "sharpstats",
@@ -199,21 +214,6 @@ var threatdata = {
                     "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
                     "procedure_description": "arp can be used to display arp configuration information on the host.[22]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sharpstats",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp_new_muddywater_findings_uncovered.pdf",
-            "date": "2019-06-10",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "New MuddyWater Activities Uncovered: Threat Actors Used Multi-Stage Backdoors, New Post-Exploitation Tools, Android Malware, and More",
-            "categories": [
-                "Mudwater",
-                "SHARPSTATS"
             ]
         }
     ]

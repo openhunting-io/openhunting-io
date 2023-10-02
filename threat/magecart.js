@@ -36,11 +36,11 @@ var threatdata = {
             "malware": "js.magecart",
             "last_update": "2023-08-30 18:45:25",
             "tags": [
-                "pdns",
-                "js",
                 "magecart",
+                "pdns",
                 "web-skimmer",
-                "Magecart"
+                "Magecart",
+                "js"
             ],
             "ioc": {
                 "domain": [
@@ -717,8 +717,8 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-08-30 18:45:25",
-    "mitre": [],
     "file_name": "magecart",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

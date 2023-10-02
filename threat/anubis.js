@@ -104,7 +104,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-03-29 06:03:40",
-    "mitre": [],
     "file_name": "anubis",
     "analysis": null,
     "articles": [
@@ -471,5 +470,6 @@ var threatdata = {
                 "Anubis"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

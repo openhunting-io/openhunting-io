@@ -1,53 +1,126 @@
 var threatdata = {
     "name": "Roaming Mantis",
-    "alias": "Roaming Mantis, MoqHao, XLoader, Wroba",
-    "category": "Malware",
-    "type": "Banking trojan, Info stealer, Miner",
-    "modified": "2023-03-31",
+    "alias": "Roaming Mantis, Roaming Mantis Group, Shaoye",
+    "category": "APT",
+    "type": "-",
+    "modified": "2023-02-15",
     "all_data": {
-        "tool": "Roaming Mantis",
+        "actor": "Roaming Mantis",
         "names": [
             {
-                "name": "Roaming Mantis"
+                "name": "Roaming Mantis",
+                "name-giver": "Kaspersky"
             },
             {
-                "name": "MoqHao"
+                "name": "Roaming Mantis Group",
+                "name-giver": "Kaspersky"
             },
             {
-                "name": "XLoader"
-            },
-            {
-                "name": "Wroba"
+                "name": "Shaoye",
+                "name-giver": "?"
             }
         ],
-        "description": "(Kaspersky) The Roaming Mantis mobile banking trojan is roaming further afield than it ever has before. Recent analysis shows that the malware has rapidly evolved just in the past month. It\u2019s now targeting Europe and the Middle East in addition to Asian countries. According to researchers, it\u2019s following the cyber-zeitgeist by expanding its capabilities to include cryptomining (and iOS phishing).\n\nRoaming Mantis is a mostly-mobile malware which this year has been spreading via DNS hijacking. Potential victims are typically redirected to a malicious webpage that distributes a trojanized application that pretends to be either Facebook or Chrome. Once installed manually by users, a trojan banker will execute.",
-        "category": "Malware",
-        "type": [
-            "Banking trojan",
-            "Info stealer",
-            "Miner"
+        "country": [
+            "[Unknown]"
+        ],
+        "motivation": [
+            "Financial crime"
+        ],
+        "first-seen": "2017",
+        "description": "(Kaspersky) In March 2018, Japanese media reported the hijacking of DNS settings on routers located in Japan, redirecting users to malicious IP addresses. The redirection led to the installation of Trojanized applications named facebook.apk and chrome.apk that contained Android Trojan-Banker. According to our telemetry data, this malware was detected more than 6,000 times, though the reports came from just 150 unique users (from February 9 to April 9, 2018). Of course, this is down to the nature of the malware distribution, but it also suggests a very painful experience for some users, who saw the same malware appear again and again in their network. More than half of the detections were observed targeting the Asian region.\n\nDuring our research we received some invaluable information about the true scale of this attack. There were thousands of daily connections to the command and control (C2) infrastructure, with the device locale for the majority of victims set to Korean. Since we didn\u2019t find a pre-existing name for this malware operation, we decided to assign a new one for future reference. Based on its propagation via smartphones roaming between Wi-Fi networks, potentially carrying and spreading the infection, we decided to call it \u2018Roaming Mantis\u2019.",
+        "observed-countries": [
+            "Azerbaijan",
+            "Bangladesh",
+            "Brazil",
+            "Cambodia",
+            "Canada",
+            "China",
+            "Denmark",
+            "Finland",
+            "France",
+            "Germany",
+            "Hong Kong",
+            "India",
+            "Indonesia",
+            "Iran",
+            "Ireland",
+            "Italy",
+            "Japan",
+            "Kazakhstan",
+            "Netherlands",
+            "Russia",
+            "Saudi Arabia",
+            "South Korea",
+            "Sri Lanka",
+            "Sweden",
+            "Switzerland",
+            "Taiwan",
+            "Thailand",
+            "Turkey",
+            "UK",
+            "USA",
+            "Vietnam"
+        ],
+        "tools": [
+            "Roaming Mantis",
+            "SmsSpy"
+        ],
+        "operations": [
+            {
+                "date": "2018-02",
+                "activity": "Roaming Mantis malware is designed for distribution through a simple, but very efficient trick based on a technique known as DNS hijacking. When a user attempts to access any website via a compromised router, they will be redirected to a malicious website.\nhttps://securelist.com/roaming-mantis-uses-dns-hijacking-to-infect-android-smartphones/85178/"
+            },
+            {
+                "date": "2018-05",
+                "activity": "In May, while monitoring Roaming Mantis, aka MoqHao and XLoader, we observed significant changes in their M.O. The group\u2019s activity expanded geographically and they broadened their attack/evasion methods. Their landing pages and malicious apk files now support 27 languages covering Europe and the Middle East. In addition, the criminals added a phishing option for iOS devices, and crypto-mining capabilities for the PC.\nhttps://securelist.com/roaming-mantis-dabbles-in-mining-and-phishing-multilingually/85607/"
+            },
+            {
+                "date": "2018-09",
+                "activity": "In addition, they have started using web crypto-mining for PC, and an Apple phishing page for iOS devices.\nhttps://securelist.com/roaming-mantis-part-3/88071/"
+            },
+            {
+                "date": "2019-02",
+                "activity": "According to our detection data, new variants of sagawa.apk Type A (Trojan-Dropper.AndroidOS.Wroba.g) have been detected in the wild, based on our KSN data from February 25, 2019 to March 20, 2019.\nhttps://securelist.com/roaming-mantis-part-iv/90332/"
+            },
+            {
+                "date": "2019-06",
+                "activity": "Roaming Mantis: a new phishing method targets a Japanese MNO\nhttps://hackmd.io/@ninoseki/Bkw66OhAN"
+            },
+            {
+                "date": "2019-08",
+                "activity": "The McAfee mobile research team has found a new type of Android malware for the MoqHao phishing campaign (a.k.a. XLoader and Roaming Mantis) targeting Korean and Japanese users. A series of attack campaigns are still active, mainly targeting Japanese users. The new spyware has very different payloads from the existing MoqHao samples.\nhttps://www.mcafee.com/blogs/other-blogs/mcafee-labs/moqhao-related-android-spyware-targeting-japan-and-korea-found-on-google-play/"
+            },
+            {
+                "date": "2020-02",
+                "activity": "The group\u2019s attack methods have improved and new targets continuously added in order to steal more funds. The attackers\u2019 focus has also shifted to techniques that avoid tracking and research: whitelist for distribution, analysis environment detection and so on.\nhttps://securelist.com/roaming-mantis-part-v/96250/"
+            },
+            {
+                "date": "2020-06",
+                "activity": "The RoamingMantis Group\u2019s Expansion to European Apple Accounts and Android Devices\nhttps://medium.com/csis-techblog/the-roamingmantis-groups-expansion-to-european-apple-accounts-and-android-devices-e6381723c681"
+            },
+            {
+                "date": "2021-01",
+                "activity": "Roaming Mantis Amplifies Smishing Campaign with OS-Specific Android Malware\nhttps://www.mcafee.com/blogs/other-blogs/mcafee-labs/roaming-mantis-amplifies-smishing-campaign-with-os-specific-android-malware/"
+            },
+            {
+                "date": "2021",
+                "activity": "Roaming Mantis reaches Europe\nhttps://securelist.com/roaming-mantis-reaches-europe/105596/"
+            },
+            {
+                "date": "2022",
+                "activity": "Roaming Mantis implements new DNS changer in its malicious mobile app in 2022\nhttps://securelist.com/roaming-mantis-dns-changer-in-malicious-mobile-app/108464/"
+            },
+            {
+                "date": "2022-07",
+                "activity": "Ongoing Roaming Mantis smishing campaign targeting France\nhttps://blog.sekoia.io/ongoing-roaming-mantis-smishing-campaign-targeting-france/"
+            }
         ],
         "information": [
-            "https://threatpost.com/roaming-mantis-swarms-globally-spawning-ios-phishing-cryptomining/132149/",
-            "https://blog.trendmicro.com/trendlabs-security-intelligence/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing/",
-            "https://blog.trendmicro.com/trendlabs-security-intelligence/a-look-into-the-connection-between-xloader-and-fakespy-and-their-possible-ties-with-the-yanbian-gang/",
-            "https://research.checkpoint.com/2021/top-prevalent-malware-with-a-thousand-campaigns-migrates-to-macos/",
-            "https://blog.malwarebytes.com/mac/2021/07/osx-xloader-hides-little-except-its-main-purpose-what-we-learned-in-the-installation-process/",
-            "https://securelist.com/roaming-mantis-reaches-europe/105596/",
-            "https://securelist.com/roaming-mantis-dns-changer-in-malicious-mobile-app/108464/"
+            "https://www.kaspersky.com/blog/roaming-mantis-malware/22427/",
+            "https://blog.trendmicro.com/trendlabs-security-intelligence/new-version-of-xloader-that-disguises-as-android-apps-and-an-ios-profile-holds-new-links-to-fakespy/",
+            "https://blog.threatstop.com/over-120-malicious-domains-discovered-in-analysis-on-new-roaming-mantis-campaign"
         ],
-        "mitre-attack": [
-            "https://attack.mitre.org/software/S0318/"
-        ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/apk.roaming_mantis",
-            "https://malpedia.caad.fkie.fraunhofer.de/details/apk.moqhao",
-            "https://malpedia.caad.fkie.fraunhofer.de/details/apk.xloader"
-        ],
-        "alienvault-otx": [
-            "https://otx.alienvault.com/browse/pulses?q=tag:Roaming%20Mantis"
-        ],
-        "uuid": "aa243282-d977-4d61-81a2-b81c17ac47f3",
+        "uuid": "d8f07834-98d8-473b-a247-9b54aa4571a1",
         "last-card-change": "2023-02-15",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
@@ -469,70 +542,9 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-07-18 09:47:37",
-    "mitre": [],
     "file_name": "roaming_mantis",
     "analysis": null,
     "articles": [
-        {
-            "data_url": "https://www.telekom.com/en/blog/group/article/moqhao-masters-new-tricks-1031484",
-            "date": "2023-03-31",
-            "organization": "Telekom",
-            "author": "TR4xx",
-            "title": "Moqhao masters new tricks",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://www.team-cymru.com/post/moqhao-part-3-recent-global-targeting-trends",
-            "date": "2023-03-16",
-            "organization": "Team Cymru",
-            "author": "S2 Research Team",
-            "title": "MoqHao Part 3: Recent Global Targeting Trends",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/roaming-mantis-dns-changer-in-malicious-mobile-app/108464/",
-            "date": "2023-01-19",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Roaming Mantis implements new DNS changer in its malicious mobile app in 2022",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://www.xanhacks.xyz/p/moqhao-malware-analysis",
-            "date": "2022-08-11",
-            "organization": "xanhacks' infosec blog",
-            "author": "xanhacks",
-            "title": "MoqHao Android malware analysis and phishing campaign",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://blog.sekoia.io/ongoing-roaming-mantis-smishing-campaign-targeting-france/",
-            "date": "2022-07-18",
-            "organization": "Sekoia",
-            "author": "Threat & Detection Research Team",
-            "title": "Ongoing Roaming Mantis smishing campaign targeting France",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://team-cymru.com/blog/2022/04/07/moqhao-part-2-continued-european-expansion/",
-            "date": "2022-04-07",
-            "organization": "Team Cymru",
-            "author": "Josh Hopkins",
-            "title": "MoqHao Part 2: Continued European Expansion",
-            "categories": [
-                "MoqHao"
-            ]
-        },
         {
             "data_url": "https://securelist.com/roaming-mantis-reaches-europe/105596/",
             "date": "2022-02-07",
@@ -545,26 +557,6 @@ var threatdata = {
             ]
         },
         {
-            "data_url": "https://team-cymru.com/blog/2021/08/11/moqhao-part-1-5-high-level-trends-of-recent-campaigns-targeting-japan/",
-            "date": "2021-08-11",
-            "organization": "Team Cymru",
-            "author": "Josh Hopkins",
-            "title": "MoqHao Part 1.5: High-Level Trends of Recent Campaigns Targeting Japan",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://cryptax.medium.com/a-native-packer-for-android-moqhao-6362a8412fe1",
-            "date": "2021-05-18",
-            "organization": "Medium (Cryptax)",
-            "author": "Axelle Apvrille",
-            "title": "A native packer for Android/MoqHao",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
             "data_url": "https://www.kashifali.ca/2021/05/05/roaming-mantis-amplifies-smishing-campaign-with-os-specific-android-malware/",
             "date": "2021-05-05",
             "organization": "Kashif Ali  Surfeit and Blas\u00e9 Security",
@@ -573,38 +565,6 @@ var threatdata = {
             "categories": [
                 "MoqHao",
                 "Roaming Mantis"
-            ]
-        },
-        {
-            "data_url": "https://team-cymru.com/blog/2021/01/20/moqhao-part-1-identifying-phishing-infrastructure/",
-            "date": "2021-01-20",
-            "organization": "Team Cymru",
-            "author": "Andy Kraus",
-            "title": "MoqHao Part 1: Identifying Phishing Infrastructure",
-            "categories": [
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://www.avira.com/en/blog/the-android-banking-trojan-wroba-shifts-attack-from-south-korea-to-target-users-in-japan",
-            "date": "2020-11-11",
-            "organization": "Avira",
-            "author": "Avira Protection Labs",
-            "title": "Wroba Android banking trojan targets Japan",
-            "categories": [
-                "Wroba"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/csis-techblog/the-roamingmantis-groups-expansion-to-european-apple-accounts-and-android-devices-e6381723c681",
-            "date": "2020-06-25",
-            "organization": "Medium CSIS Techblog",
-            "author": "Aleksejs Kuprins",
-            "title": "The RoamingMantis Group\u2019s Expansion to European Apple Accounts and Android Devices",
-            "categories": [
-                "FakeSpy",
-                "FunkyBot",
-                "MoqHao"
             ]
         },
         {
@@ -620,18 +580,6 @@ var threatdata = {
             ]
         },
         {
-            "data_url": "https://jsac.jpcert.or.jp/archive/2020/pdf/JSAC2020_4_ogawa-niseki_en.pdf",
-            "date": "2020-01-17",
-            "organization": "",
-            "author": "Hiroaki Ogawa",
-            "title": "100 more behind cockroaches?",
-            "categories": [
-                "MoqHao",
-                "Emotet",
-                "Predator The Thief"
-            ]
-        },
-        {
             "data_url": "https://hitcon.org/2019/CMT/slide-files/d2_s1_r1.pdf",
             "date": "2019",
             "organization": "Kaspersky Labs",
@@ -640,29 +588,6 @@ var threatdata = {
             "categories": [
                 "MoqHao",
                 "Roaming Mantis"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/a-look-into-the-connection-between-xloader-and-fakespy-and-their-possible-ties-with-the-yanbian-gang/",
-            "date": "2018-11-26",
-            "organization": "Trend Micro",
-            "author": "Lorin Wu",
-            "title": "A Look into the Connection Between XLoader and FakeSpy, and Their Possible Ties With the Yanbian Gang",
-            "categories": [
-                "FakeSpy",
-                "MoqHao"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.com/en_us/research/18/k/a-look-into-the-connection-between-xloader-and-fakespy-and-their-possible-ties-with-the-yanbian-gang.html",
-            "date": "2018-11-26",
-            "organization": "Trend Micro",
-            "author": "Lorin Wu",
-            "title": "Examining XLoader, FakeSpy, and the Yanbian Gang",
-            "categories": [
-                "FakeSpy",
-                "MoqHao",
-                "Yanbian Gang"
             ]
         },
         {
@@ -686,17 +611,6 @@ var threatdata = {
             ]
         },
         {
-            "data_url": "https://www.trendmicro.com/en_us/research/18/d/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing.html",
-            "date": "2018-04-20",
-            "organization": "Trend Micro",
-            "author": "Trend Micro",
-            "title": "XLoader Android Spyware and Banking Trojan Distributed via DNS Spoofing",
-            "categories": [
-                "MoqHao",
-                "Yanbian Gang"
-            ]
-        },
-        {
             "data_url": "https://securelist.com/roaming-mantis-uses-dns-hijacking-to-infect-android-smartphones/85178/",
             "date": "2018-04-16",
             "organization": "Kaspersky Labs",
@@ -706,5 +620,6 @@ var threatdata = {
                 "Roaming Mantis"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -53,10 +53,10 @@ var threatdata = {
             "last_update": "2023-09-15 06:16:17",
             "tags": [
                 "Cerberus",
+                "cerberus",
                 "Android",
                 "apk",
-                "iran",
-                "cerberus"
+                "iran"
             ],
             "ioc": {
                 "url": [
@@ -319,7 +319,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-15 06:16:17",
-    "mitre": [],
     "file_name": "cerberus",
     "analysis": null,
     "articles": [
@@ -551,5 +550,6 @@ var threatdata = {
                 "Cerberus"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

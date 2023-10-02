@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pydcrypt",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "pydcrypt",
@@ -170,8 +173,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "pydcrypt",
-    "analysis": null,
-    "articles": []
+    ]
 };

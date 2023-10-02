@@ -37,6 +37,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pinchduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.f-secure.com/wp-content/uploads/2020/03/F-Secure_Dukes_Whitepaper.pdf",
+            "date": "2015-09",
+            "organization": "F-Secure",
+            "author": "F-Secure Labs",
+            "title": "The Dukes - 7 Years of Russian Cyberespionage",
+            "categories": [
+                "PinchDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "pinchduke",
@@ -128,20 +142,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
                     "procedure_description": "pinchduke transfers files from the compromised host via http or https to a c2 server.[66]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pinchduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.f-secure.com/wp-content/uploads/2020/03/F-Secure_Dukes_Whitepaper.pdf",
-            "date": "2015-09",
-            "organization": "F-Secure",
-            "author": "F-Secure Labs",
-            "title": "The Dukes - 7 Years of Russian Cyberespionage",
-            "categories": [
-                "PinchDuke"
             ]
         }
     ]

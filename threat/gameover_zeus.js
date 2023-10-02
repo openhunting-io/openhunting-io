@@ -54,6 +54,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "gameover_zeus",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "p2p zeus",
@@ -75,8 +78,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "gameover_zeus",
-    "analysis": null,
-    "articles": []
+    ]
 };

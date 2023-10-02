@@ -1,43 +1,122 @@
 var threatdata = {
     "name": "Taidoor",
-    "alias": "Taidoor, simbot",
-    "category": "Malware",
-    "type": "Backdoor",
-    "modified": "2020-08-04",
+    "alias": "Taidoor, Budminer, Earth Aughisky",
+    "category": "APT",
+    "type": "-",
+    "modified": "2022-11-18",
     "all_data": {
-        "tool": "Taidoor",
+        "actor": "Taidoor",
         "names": [
             {
-                "name": "Taidoor"
+                "name": "Taidoor",
+                "name-giver": "Trend Micro"
             },
             {
-                "name": "simbot"
+                "name": "Budminer",
+                "name-giver": "Symantec"
+            },
+            {
+                "name": "Earth Aughisky",
+                "name-giver": "Trend Micro"
             }
         ],
-        "description": "(FireEye) The Taidoor malware is traditionally delivered as an email attachment. If opened, the Taidoor malware is dropped onto the target\u2019s system, and starts to beacon to a CnC server. Taidoor connects to its CnCs using HTTP, and the \u201cGET\u201d request has been consistent since 2008.",
-        "category": "Malware",
-        "type": [
-            "Backdoor"
+        "country": [
+            "China"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2008",
+        "description": "(Trend Micro) The Taidoor attackers have been actively engaging in targeted attacks since at least March 4, 2009. Despite some exceptions, the Taidoor campaign often used Taiwanese IP addresses as C&C servers and email addresses to send out socially engineered emails with malware as attachments. One of the primary targets of the Taidoor campaign appeared to be the Taiwanese government. The attackers spoofed Taiwanese government email addresses to send out socially engineered emails in the Chinese language that typically leveraged Taiwan-themed issues. The attackers actively sent out malicious documents and maintained several IP addresses for command and control.\n\nAs part of their social engineering ploy, the Taidoor attackers attach a decoy document to their emails that, when opened, displays the contents of a legitimate document but executes a malicious payload in the background.\n\nWe were only able to gather a limited amount of information regarding the Taidoor attackers\u2019 activities after they have compromised a target. We did, however, find that the Taidoor malware allowed attackers to operate an interactive shell on compromised computers and to upload and download files. In order to determine the operational capabilities of the attackers behind the Taidoor campaign, we monitored a compromised honeypot. The attackers issued out some basic commands in an attempt to map out the extent of the network compromise but quickly realized that the honeypot was not an intended targeted and so promptly disabled the Taidoor malware running on it. This indicated that while Taidoor malware were more widely distributed compared with those tied to other targeted campaigns, the attackers could quickly assess their targets and distinguish these from inadvertently compromised computers and honeypots.",
+        "observed-sectors": [
+            "Government"
+        ],
+        "observed-countries": [
+            "Brazil",
+            "Japan",
+            "South Korea",
+            "Taiwan",
+            "USA"
+        ],
+        "tools": [
+            "Dripion",
+            "Taidoor"
+        ],
+        "operations": [
+            {
+                "date": "2015 Late",
+                "activity": "Taiwan targeted with new cyberespionage back door Trojan\nhttps://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=b0649cc1-a60f-4cd7-ba3e-832e218de385&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+            }
         ],
         "information": [
-            "https://www.fireeye.com/blog/threat-research/2013/09/evasive-tactics-taidoor-3.html",
             "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the_taidoor_campaign.pdf",
-            "http://contagiodump.blogspot.com/2011/10/sep-28-cve-2010-3333-manuscript-with.html",
-            "https://www.nttsecurity.com/docs/librariesprovider3/resources/taidoor%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E6%A8%99%E7%9A%84%E5%9E%8B%E6%94%BB%E6%92%83%E8%A7%A3%E6%9E%90%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88_v1",
-            "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-216a"
+            "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/connecting-taidoors-dots-earth-aughisky-over-the-last-10-years"
         ],
         "mitre-attack": [
-            "https://attack.mitre.org/software/S0011/"
+            "https://attack.mitre.org/groups/G0015/"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.taidoor"
-        ],
-        "uuid": "91c4ec86-ad97-4e60-a6cb-415f28155d9b",
-        "last-card-change": "2020-08-04",
+        "uuid": "24403b57-1bb4-4c24-964c-ac2a35e67869",
+        "last-card-change": "2022-11-18",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "taidoor",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/389371/1/Cyber-Reports-2020-01-A-one-sided-Affair.pdf",
+            "date": "2020-01-10",
+            "organization": "ETH Z\u00fcrich",
+            "author": "Steafan Soesanto",
+            "title": "A one-sided Affair: Japan and the People's Republic of China in Cyberspace Hotspot Analysis",
+            "categories": [
+                "Budminer"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0015/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: Taidoor",
+            "categories": [
+                "Taidoor"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/taiwan-targeted-new-cyberespionage-back-door-trojan",
+            "date": "2016-03-29",
+            "organization": "Symantec",
+            "author": "Jon DiMaggio",
+            "title": "Taiwan targeted with new cyberespionage back door Trojan",
+            "categories": [
+                "Dripion",
+                "Budminer"
+            ]
+        },
+        {
+            "data_url": "https://app.box.com/s/xqh458fe1url7mgl072hhd0yxqw3x0jm",
+            "date": "2016-03-29",
+            "organization": "Symantec",
+            "author": "Jon DiMaggio",
+            "title": "Taiwan targeted with new cyberespionage back doorTrojan",
+            "categories": [
+                "Budminer"
+            ]
+        },
+        {
+            "data_url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the_taidoor_campaign.pdf",
+            "date": "2012-08-23",
+            "organization": "Trend Micro",
+            "author": "Threat Research Team",
+            "title": "The Taidoor Campaign: AN IN-DEPTH ANALYSIS",
+            "categories": [
+                "taidoor",
+                "Taidoor"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "taidoor",
@@ -309,31 +388,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an osi non-application layer protocol for communication between host and c2 server or among infected hosts within a network. the list of possible protocols is extensive. specific examples include use of network layer protocols, such as the internet control message protocol (icmp), transport layer protocols, such as the user datagram protocol (udp), session layer protocols, such as socket secure (socks), as well as redirected/tunneled protocols, such as serial over lan (sol).",
                     "procedure_description": "taidoor can use tcp for c2 communications.[68]"
                 }
-            ]
-        }
-    ],
-    "file_name": "taidoor",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://attack.mitre.org/groups/G0015/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: Taidoor",
-            "categories": [
-                "Taidoor"
-            ]
-        },
-        {
-            "data_url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the_taidoor_campaign.pdf",
-            "date": "2012-08-23",
-            "organization": "Trend Micro",
-            "author": "Threat Research Team",
-            "title": "The Taidoor Campaign: AN IN-DEPTH ANALYSIS",
-            "categories": [
-                "taidoor",
-                "Taidoor"
             ]
         }
     ]

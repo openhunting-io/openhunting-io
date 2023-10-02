@@ -19,6 +19,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "secure_ftp_client",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "ftp",
@@ -64,8 +67,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "secure_ftp_client",
-    "analysis": null,
-    "articles": []
+    ]
 };

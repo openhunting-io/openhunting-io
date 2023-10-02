@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "boostwrite",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "boostwrite",
@@ -127,8 +130,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "boostwrite",
-    "analysis": null,
-    "articles": []
+    ]
 };

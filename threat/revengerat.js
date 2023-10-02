@@ -46,6 +46,227 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "revengerat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/reservations-requested-ta558-targets-hospitality-and-travel",
+            "date": "2022-08-18",
+            "organization": "Proofpoint",
+            "author": "Joe Wise",
+            "title": "Reservations Requested: TA558 Targets Hospitality and Travel",
+            "categories": [
+                "AsyncRAT",
+                "Loda",
+                "NjRAT",
+                "Ozone RAT",
+                "Revenge RAT",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://perception-point.io/revenge-rat-back-from-microsoft-excel-macros/",
+            "date": "2022-04-07",
+            "organization": "Perception Point",
+            "author": "Igal Lytzki",
+            "title": "Revenge RAT Malware is back: From Microsoft Excel macros to Remote Access Trojan",
+            "categories": [
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/itaymigdal/malware-analysis-writeups/blob/main/RevengeRAT/RevengeRAT.md",
+            "date": "2022-02-08",
+            "organization": "",
+            "author": "Itay Migdal",
+            "title": "RevengeRAT Analysis",
+            "categories": [
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
+            "date": "2021-05-20",
+            "organization": "Github (microsoft)",
+            "author": "Microsoft",
+            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
+            "categories": [
+                "STRRAT",
+                "OceanLotus",
+                "BabyShark",
+                "Elise",
+                "Revenge RAT",
+                "WastedLocker",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/ahk-rat-loader-leveraged-in-unique-delivery-campaigns",
+            "date": "2021-05-14",
+            "organization": "Morphisec",
+            "author": "Arnold Osipov",
+            "title": "AHK RAT Loader Used in Unique Delivery Campaigns",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader",
+            "date": "2021-05-07",
+            "organization": "Morphisec",
+            "author": "Nadav Lorber",
+            "title": "Revealing the \u2018Snip3\u2019 Crypter, a Highly Evasive RAT Loader",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "NetWire RC",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/04/a-year-of-fajan-evolution-and-bloomberg.html",
+            "date": "2021-04-21",
+            "organization": "Talos",
+            "author": "Vanja Svajcer",
+            "title": "A year of Fajan evolution and Bloomberg themed campaigns",
+            "categories": [
+                "MASS Logger",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Revenge RAT",
+                "XpertRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/dotnet-loaders",
+            "date": "2021-03-12",
+            "organization": "Reversing Labs",
+            "author": "Robert Simmons",
+            "title": "DotNET Loaders",
+            "categories": [
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.uptycs.com/blog/revenge-rat-targeting-users-in-south-america",
+            "date": "2020-12-29",
+            "organization": "Uptycs",
+            "author": "Abhijit Mohanta",
+            "title": "Revenge RAT targeting users in South America",
+            "categories": [
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://blogs.360.cn/post/APT-C-44.html",
+            "date": "2020-10-26",
+            "organization": "360 Core Security",
+            "author": "360",
+            "title": "\u5317\u975e\u72d0\uff08APT-C-44\uff09\u653b\u51fb\u6d3b\u52a8\u63ed\u9732",
+            "categories": [
+                "Xtreme RAT",
+                "Houdini",
+                "NjRAT",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.reversinglabs.com/blog/rats-in-the-library",
+            "date": "2020-01-31",
+            "organization": "ReversingLabs",
+            "author": "Robert Simmons",
+            "title": "RATs in the Library: Remote Access Trojans Hide in Plain \"Public\" Site",
+            "categories": [
+                "CyberGate",
+                "LimeRAT",
+                "NjRAT",
+                "Quasar RAT",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.360totalsecurity.com/en/bayworld-event-cyber-attack-against-foreign-trade-industry/",
+            "date": "2020-01-19",
+            "organization": "360",
+            "author": "kate",
+            "title": "BayWorld event, Cyber Attack Against Foreign Trade Industry",
+            "categories": [
+                "Azorult",
+                "Formbook",
+                "Nanocore RAT",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/revengehotels/95229/",
+            "date": "2019-11-28",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "RevengeHotels: cybercrime targeting hotel front desks worldwide",
+            "categories": [
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.binarydefense.com/revenge-is-a-dish-best-served-obfuscated",
+            "date": "2019-11-11",
+            "organization": "Binary Defense",
+            "author": "Binary Defense",
+            "title": "Revenge Is A Dish Best Served\u2026 Obfuscated?",
+            "categories": [
+                "Houdini",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://threatrecon.nshc.net/2019/09/19/sectorh01-continues-abusing-web-services/",
+            "date": "2019-09-19",
+            "organization": "NSHC",
+            "author": "ThreatRecon Team",
+            "title": "Hagga of SectorH01 continues abusing Bitly, Blogger and Pastebin to deliver RevengeRAT and NanoCore",
+            "categories": [
+                "Nanocore RAT",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/the-evolution-of-aggah-from-roma225-to-the-rg-campaign/",
+            "date": "2019-06-08",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "The Evolution of Aggah: From Roma225 to the RG Campaign",
+            "categories": [
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-gorgon-group-slithering-nation-state-cybercrime/",
+            "date": "2018-08-02",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "The Gorgon Group: Slithering Between Nation State and Cybercrime",
+            "categories": [
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NjRAT",
+                "Quasar RAT",
+                "Remcos",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/22590",
+            "date": "2017-07-08",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Xavier Mertens",
+            "title": "A VBScript with Obfuscated Base64 Data",
+            "categories": [
+                "Revenge RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "revenge rat",
@@ -361,227 +582,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "revengerat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/reservations-requested-ta558-targets-hospitality-and-travel",
-            "date": "2022-08-18",
-            "organization": "Proofpoint",
-            "author": "Joe Wise",
-            "title": "Reservations Requested: TA558 Targets Hospitality and Travel",
-            "categories": [
-                "AsyncRAT",
-                "Loda",
-                "NjRAT",
-                "Ozone RAT",
-                "Revenge RAT",
-                "Vjw0rm"
-            ]
-        },
-        {
-            "data_url": "https://perception-point.io/revenge-rat-back-from-microsoft-excel-macros/",
-            "date": "2022-04-07",
-            "organization": "Perception Point",
-            "author": "Igal Lytzki",
-            "title": "Revenge RAT Malware is back: From Microsoft Excel macros to Remote Access Trojan",
-            "categories": [
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://github.com/itaymigdal/malware-analysis-writeups/blob/main/RevengeRAT/RevengeRAT.md",
-            "date": "2022-02-08",
-            "organization": "",
-            "author": "Itay Migdal",
-            "title": "RevengeRAT Analysis",
-            "categories": [
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
-            "date": "2021-05-20",
-            "organization": "Github (microsoft)",
-            "author": "Microsoft",
-            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
-            "categories": [
-                "STRRAT",
-                "OceanLotus",
-                "BabyShark",
-                "Elise",
-                "Revenge RAT",
-                "WastedLocker",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://blog.morphisec.com/ahk-rat-loader-leveraged-in-unique-delivery-campaigns",
-            "date": "2021-05-14",
-            "organization": "Morphisec",
-            "author": "Arnold Osipov",
-            "title": "AHK RAT Loader Used in Unique Delivery Campaigns",
-            "categories": [
-                "AsyncRAT",
-                "Houdini",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader",
-            "date": "2021-05-07",
-            "organization": "Morphisec",
-            "author": "Nadav Lorber",
-            "title": "Revealing the \u2018Snip3\u2019 Crypter, a Highly Evasive RAT Loader",
-            "categories": [
-                "Agent Tesla",
-                "AsyncRAT",
-                "NetWire RC",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2021/04/a-year-of-fajan-evolution-and-bloomberg.html",
-            "date": "2021-04-21",
-            "organization": "Talos",
-            "author": "Vanja Svajcer",
-            "title": "A year of Fajan evolution and Bloomberg themed campaigns",
-            "categories": [
-                "MASS Logger",
-                "Nanocore RAT",
-                "NetWire RC",
-                "Revenge RAT",
-                "XpertRAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.reversinglabs.com/blog/dotnet-loaders",
-            "date": "2021-03-12",
-            "organization": "Reversing Labs",
-            "author": "Robert Simmons",
-            "title": "DotNET Loaders",
-            "categories": [
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.uptycs.com/blog/revenge-rat-targeting-users-in-south-america",
-            "date": "2020-12-29",
-            "organization": "Uptycs",
-            "author": "Abhijit Mohanta",
-            "title": "Revenge RAT targeting users in South America",
-            "categories": [
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://blogs.360.cn/post/APT-C-44.html",
-            "date": "2020-10-26",
-            "organization": "360 Core Security",
-            "author": "360",
-            "title": "\u5317\u975e\u72d0\uff08APT-C-44\uff09\u653b\u51fb\u6d3b\u52a8\u63ed\u9732",
-            "categories": [
-                "Xtreme RAT",
-                "Houdini",
-                "NjRAT",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.reversinglabs.com/blog/rats-in-the-library",
-            "date": "2020-01-31",
-            "organization": "ReversingLabs",
-            "author": "Robert Simmons",
-            "title": "RATs in the Library: Remote Access Trojans Hide in Plain \"Public\" Site",
-            "categories": [
-                "CyberGate",
-                "LimeRAT",
-                "NjRAT",
-                "Quasar RAT",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.360totalsecurity.com/en/bayworld-event-cyber-attack-against-foreign-trade-industry/",
-            "date": "2020-01-19",
-            "organization": "360",
-            "author": "kate",
-            "title": "BayWorld event, Cyber Attack Against Foreign Trade Industry",
-            "categories": [
-                "Azorult",
-                "Formbook",
-                "Nanocore RAT",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/revengehotels/95229/",
-            "date": "2019-11-28",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "RevengeHotels: cybercrime targeting hotel front desks worldwide",
-            "categories": [
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.binarydefense.com/revenge-is-a-dish-best-served-obfuscated",
-            "date": "2019-11-11",
-            "organization": "Binary Defense",
-            "author": "Binary Defense",
-            "title": "Revenge Is A Dish Best Served\u2026 Obfuscated?",
-            "categories": [
-                "Houdini",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://threatrecon.nshc.net/2019/09/19/sectorh01-continues-abusing-web-services/",
-            "date": "2019-09-19",
-            "organization": "NSHC",
-            "author": "ThreatRecon Team",
-            "title": "Hagga of SectorH01 continues abusing Bitly, Blogger and Pastebin to deliver RevengeRAT and NanoCore",
-            "categories": [
-                "Nanocore RAT",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://yoroi.company/research/the-evolution-of-aggah-from-roma225-to-the-rg-campaign/",
-            "date": "2019-06-08",
-            "organization": "Yoroi",
-            "author": "Luigi Martire",
-            "title": "The Evolution of Aggah: From Roma225 to the RG Campaign",
-            "categories": [
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2018/08/unit42-gorgon-group-slithering-nation-state-cybercrime/",
-            "date": "2018-08-02",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "The Gorgon Group: Slithering Between Nation State and Cybercrime",
-            "categories": [
-                "Loki Password Stealer (PWS)",
-                "Nanocore RAT",
-                "NjRAT",
-                "Quasar RAT",
-                "Remcos",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://isc.sans.edu/diary/rss/22590",
-            "date": "2017-07-08",
-            "organization": "InfoSec Handlers Diary Blog",
-            "author": "Xavier Mertens",
-            "title": "A VBScript with Obfuscated Base64 Data",
-            "categories": [
-                "Revenge RAT"
             ]
         }
     ]

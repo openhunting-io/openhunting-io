@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "softperfect_network_scanner",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "net",
@@ -258,8 +261,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "softperfect_network_scanner",
-    "analysis": null,
-    "articles": []
+    ]
 };

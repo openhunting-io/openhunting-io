@@ -30,8 +30,8 @@ var threatdata = {
             "malware": "win.kronos",
             "last_update": "2021-09-04 12:30:30",
             "tags": [
-                "Kronos",
-                "osiris"
+                "osiris",
+                "Kronos"
             ],
             "ioc": {
                 "sha256_hash": [
@@ -150,8 +150,8 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-09-04 12:30:30",
-    "mitre": [],
     "file_name": "osiris",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

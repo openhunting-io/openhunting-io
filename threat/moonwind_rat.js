@@ -39,6 +39,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "moonwind_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/",
+            "date": "2017-03-30",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jen Miller-Osborn",
+            "title": "Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations",
+            "categories": [
+                "MoonWind"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "moonwind",
@@ -294,20 +308,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "moonwind_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2017/03/unit42-trochilus-rat-new-moonwind-rat-used-attack-thai-utility-organizations/",
-            "date": "2017-03-30",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Jen Miller-Osborn",
-            "title": "Trochilus and New MoonWind RATs Used In Attack Against Thai Organizations",
-            "categories": [
-                "MoonWind"
             ]
         }
     ]

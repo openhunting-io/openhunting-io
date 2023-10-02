@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "lslsass",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "lslsass",
@@ -49,8 +52,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "lslsass",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -41,112 +41,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "prolock",
-            "procedure_code": "s0654",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0654",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1047",
-                    "technique_link": "https://attack.mitre.org/techniques/T1047",
-                    "technique_name": "windows management instrumentation",
-                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
-                    "procedure_description": "prolock can use wmic to execute scripts on targeted hosts.[104]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1197",
-                    "technique_link": "https://attack.mitre.org/techniques/T1197",
-                    "technique_name": "bits jobs",
-                    "technique_description": "adversaries may abuse bits jobs to persistently execute code and perform various background tasks. windows background intelligent transfer service (bits) is a low-bandwidth, asynchronous file transfer mechanism exposed through component object model (com). bits is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. file transfer tasks are implemented as bits jobs, which contain a queue of one or more file operations.",
-                    "procedure_description": "prolock can use bits jobs to download its malicious payload.[21]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1068",
-                    "technique_link": "https://attack.mitre.org/techniques/T1068",
-                    "technique_name": "exploitation for privilege escalation",
-                    "technique_description": "adversaries may exploit software vulnerabilities in an attempt to elevate privileges. exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code. security constructs such as permission levels will often hinder access to information and use of certain techniques, so adversaries will likely need to perform privilege escalation to include use of software exploitation to circumvent those restrictions.",
-                    "procedure_description": "prolock can use cve-2019-0859 to escalate privileges on a compromised host.[29]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1197",
-                    "technique_link": "https://attack.mitre.org/techniques/T1197",
-                    "technique_name": "bits jobs",
-                    "technique_description": "adversaries may abuse bits jobs to persistently execute code and perform various background tasks. windows background intelligent transfer service (bits) is a low-bandwidth, asynchronous file transfer mechanism exposed through component object model (com). bits is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. file transfer tasks are implemented as bits jobs, which contain a queue of one or more file operations.",
-                    "procedure_description": "prolock can use bits jobs to download its malicious payload.[21]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1070.004",
-                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
-                    "technique_name": "indicator removal : file deletion",
-                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
-                    "procedure_description": "prolock can remove files containing its payload after they are executed.[184]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027/003",
-                    "technique_name": "obfuscated files or information : steganography",
-                    "technique_description": "adversaries may use steganography techniques in order to prevent the detection of hidden information. steganographic techniques can be used to hide data in digital media such as images, audio tracks, video clips, or text files.",
-                    "procedure_description": "prolock can use .jpg and .bmp files to store its payload.[20]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1486",
-                    "technique_link": "https://attack.mitre.org/techniques/T1486",
-                    "technique_name": "data encrypted for impact",
-                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
-                    "procedure_description": "prolock can encrypt files on a compromised host with rc6, and encrypts the key with rsa-1024.[65]"
-                },
-                {
-                    "tactic_code": "ta0040",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
-                    "tactic_name": "impact",
-                    "tactic_alias": "impact",
-                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
-                    "technique_code": "t1490",
-                    "technique_link": "https://attack.mitre.org/techniques/T1490",
-                    "technique_name": "inhibit system recovery",
-                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
-                    "procedure_description": "prolock can use vssadmin.exe to remove volume shadow copies.[44]"
-                }
-            ]
-        }
-    ],
     "file_name": "prolock",
     "analysis": null,
     "articles": [
@@ -594,6 +488,112 @@ var threatdata = {
             "title": "PwndLocker Ransomware",
             "categories": [
                 "PwndLocker"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "prolock",
+            "procedure_code": "s0654",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0654",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1047",
+                    "technique_link": "https://attack.mitre.org/techniques/T1047",
+                    "technique_name": "windows management instrumentation",
+                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
+                    "procedure_description": "prolock can use wmic to execute scripts on targeted hosts.[104]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1197",
+                    "technique_link": "https://attack.mitre.org/techniques/T1197",
+                    "technique_name": "bits jobs",
+                    "technique_description": "adversaries may abuse bits jobs to persistently execute code and perform various background tasks. windows background intelligent transfer service (bits) is a low-bandwidth, asynchronous file transfer mechanism exposed through component object model (com). bits is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. file transfer tasks are implemented as bits jobs, which contain a queue of one or more file operations.",
+                    "procedure_description": "prolock can use bits jobs to download its malicious payload.[21]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1068",
+                    "technique_link": "https://attack.mitre.org/techniques/T1068",
+                    "technique_name": "exploitation for privilege escalation",
+                    "technique_description": "adversaries may exploit software vulnerabilities in an attempt to elevate privileges. exploitation of a software vulnerability occurs when an adversary takes advantage of a programming error in a program, service, or within the operating system software or kernel itself to execute adversary-controlled code. security constructs such as permission levels will often hinder access to information and use of certain techniques, so adversaries will likely need to perform privilege escalation to include use of software exploitation to circumvent those restrictions.",
+                    "procedure_description": "prolock can use cve-2019-0859 to escalate privileges on a compromised host.[29]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1197",
+                    "technique_link": "https://attack.mitre.org/techniques/T1197",
+                    "technique_name": "bits jobs",
+                    "technique_description": "adversaries may abuse bits jobs to persistently execute code and perform various background tasks. windows background intelligent transfer service (bits) is a low-bandwidth, asynchronous file transfer mechanism exposed through component object model (com). bits is commonly used by updaters, messengers, and other applications preferred to operate in the background (using available idle bandwidth) without interrupting other networked applications. file transfer tasks are implemented as bits jobs, which contain a queue of one or more file operations.",
+                    "procedure_description": "prolock can use bits jobs to download its malicious payload.[21]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1070.004",
+                    "technique_link": "https://attack.mitre.org/techniques/T1070/004",
+                    "technique_name": "indicator removal : file deletion",
+                    "technique_description": "adversaries may delete files left behind by the actions of their intrusion activity. malware, tools, or other non-native files dropped or created on a system by an adversary (ex: ingress tool transfer) may leave traces to indicate to what was done within a network and how. removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.",
+                    "procedure_description": "prolock can remove files containing its payload after they are executed.[184]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027/003",
+                    "technique_name": "obfuscated files or information : steganography",
+                    "technique_description": "adversaries may use steganography techniques in order to prevent the detection of hidden information. steganographic techniques can be used to hide data in digital media such as images, audio tracks, video clips, or text files.",
+                    "procedure_description": "prolock can use .jpg and .bmp files to store its payload.[20]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1486",
+                    "technique_link": "https://attack.mitre.org/techniques/T1486",
+                    "technique_name": "data encrypted for impact",
+                    "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
+                    "procedure_description": "prolock can encrypt files on a compromised host with rc6, and encrypts the key with rsa-1024.[65]"
+                },
+                {
+                    "tactic_code": "ta0040",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0040",
+                    "tactic_name": "impact",
+                    "tactic_alias": "impact",
+                    "tactic_description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.",
+                    "technique_code": "t1490",
+                    "technique_link": "https://attack.mitre.org/techniques/T1490",
+                    "technique_name": "inhibit system recovery",
+                    "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
+                    "procedure_description": "prolock can use vssadmin.exe to remove volume shadow copies.[44]"
+                }
             ]
         }
     ]

@@ -36,6 +36,31 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "xbash",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/agedlibra/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Aged Libra",
+            "categories": [
+                "Xbash",
+                "Rocke"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/",
+            "date": "2018-09-17",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Claud Xiao",
+            "title": "Xbash Combines Botnet, Ransomware, Coinmining in Worm that Targets Linux and Windows",
+            "categories": [
+                "Xbash"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "xbash",
@@ -271,31 +296,6 @@ var threatdata = {
                     "technique_description": "adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. they can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. this may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.",
                     "procedure_description": "xbash has maliciously encrypted victim's database systems and demanded a cryptocurrency ransom be paid.[93]"
                 }
-            ]
-        }
-    ],
-    "file_name": "xbash",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/agedlibra/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Aged Libra",
-            "categories": [
-                "Xbash",
-                "Rocke"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/",
-            "date": "2018-09-17",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Claud Xiao",
-            "title": "Xbash Combines Botnet, Ransomware, Coinmining in Worm that Targets Linux and Windows",
-            "categories": [
-                "Xbash"
             ]
         }
     ]

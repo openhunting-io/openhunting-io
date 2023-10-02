@@ -62,6 +62,254 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-03-14 12:06:42",
+    "file_name": "strongpity",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://ti.qianxin.com/blog/articles/promethium-attack-activity-analysis-disguised-as-Winrar.exe/",
+            "date": "2022-03-23",
+            "organization": "Qianxin",
+            "author": "Red Raindrop Team",
+            "title": "Analysis of Attack Activity of PROMETHIUM Disguised",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://blog.minerva-labs.com/a-new-strongpity-variant-hides-behind-notepad-installation",
+            "date": "2021-12-09",
+            "organization": "Minerva Labs",
+            "author": "Natalie Zargarov",
+            "title": "A new StrongPity variant hides behind Notepad++ installation",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/nQVUkIwkiQTj2pLaNYHeOA",
+            "date": "2021-11-30",
+            "organization": "Qianxin",
+            "author": "Red Raindrop Team",
+            "title": "Cyberspace's Magic Eye: PROMETHIUM Fakes attack activity analysis of NotePads and installation packages",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/11/zebra2104",
+            "date": "2021-11-05",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Hunter Becomes Hunted: Zebra2104 Hides a Herd of Malware",
+            "categories": [
+                "Cobalt Strike",
+                "DoppelDridex",
+                "Mount Locker",
+                "Phobos",
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://anchorednarratives.substack.com/p/tracking-strongpity-with-yara",
+            "date": "2021-05-24",
+            "organization": "Anchored Narratives on Threat Intelligence and Geopolitics",
+            "author": "RJM",
+            "title": "Tracking StrongPity with Yara",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://anchorednarratives.substack.com/p/recover-your-files-with-strongpity",
+            "date": "2021-04-18",
+            "organization": "Anchored Narratives on Threat Intelligence and Geopolitics",
+            "author": "RJM",
+            "title": "Recover your files with StrongPity",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
+            "date": "2021-02-28",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2020: A Year in Retrospect",
+            "categories": [
+                "elf.wellmess",
+                "FlowerPower",
+                "PowGoop",
+                "8.t Dropper",
+                "Agent.BTZ",
+                "Agent Tesla",
+                "Appleseed",
+                "Ave Maria",
+                "Bankshot",
+                "BazarBackdoor",
+                "BLINDINGCAN",
+                "Chinoxy",
+                "Conti",
+                "Cotx RAT",
+                "Crimson RAT",
+                "DUSTMAN",
+                "Emotet",
+                "FriedEx",
+                "FunnyDream",
+                "Hakbit",
+                "Mailto",
+                "Maze",
+                "METALJACK",
+                "Nefilim",
+                "Oblique RAT",
+                "Pay2Key",
+                "PlugX",
+                "QakBot",
+                "REvil",
+                "Ryuk",
+                "StoneDrill",
+                "StrongPity",
+                "SUNBURST",
+                "SUPERNOVA",
+                "TrickBot",
+                "TurlaRPC",
+                "Turla SilentMoon",
+                "WastedLocker",
+                "WellMess",
+                "Winnti",
+                "ZeroCleare",
+                "APT10",
+                "APT23",
+                "APT27",
+                "APT31",
+                "APT41",
+                "BlackTech",
+                "BRONZE EDGEWOOD",
+                "Inception Framework",
+                "MUSTANG PANDA",
+                "Red Charon",
+                "Red Nue",
+                "Sea Turtle",
+                "Tonto Team"
+            ]
+        },
+        {
+            "data_url": "https://0xthreatintel.medium.com/uncovering-apt-c-41-strongpity-backdoor-e7f9a7a076f4",
+            "date": "2021-02-01",
+            "organization": "Medium 0xthreatintel",
+            "author": "0xthreatintel",
+            "title": "Uncovering APT-C-41 (StrongPity) Backdoor",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://cybleinc.com/2020/12/31/strongpity-apt-extends-global-reach-with-new-infrastructure/",
+            "date": "2020-12-31",
+            "organization": "cyble",
+            "author": "cybleinc",
+            "title": "StrongPity APT Extends Global Reach with New Infrastructure",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/5No0TR4ECVPp_Xv4joXEBg",
+            "date": "2020-10-30",
+            "organization": "360",
+            "author": "Threat Intelligence Center",
+            "title": "\u84dd\u8272\u9b54\u773c\uff08APT-C-41\uff09\u7ec4\u7ec7\u9996\u6b21\u9488\u5bf9\u6211\u56fd\u91cd\u8981\u673a\u6784\u5b9a\u5411\u653b\u51fb\u6d3b\u52a8\u62ab\u9732",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/353/Bitdefender-Whitepaper-StrongPity-APT.pdf",
+            "date": "2020-06-30",
+            "organization": "Bitdefender",
+            "author": "Liviu Arsene",
+            "title": "StrongPity APT - Revealing Trojanized Tools, Working Hours and Infrastructure",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/06/promethium-extends-with-strongpity3.html",
+            "date": "2020-06-29",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "PROMETHIUM extends global reach with StrongPity3 APT",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://citizenlab.ca/2018/03/bad-traffic-sandvines-packetlogic-devices-deploy-government-spyware-turkey-syria/",
+            "date": "2018-03-09",
+            "organization": "",
+            "author": "Bill Marczak",
+            "title": "Sandvine\u2019s PacketLogic Devices Used to Deploy Government Spyware in Turkey and Redirect Egyptian Users to Affiliate Ads?",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/12/08/strongpity-like-spyware-replaces-finfisher/",
+            "date": "2017-12-08",
+            "organization": "ESET Research",
+            "author": "Filip Kafka",
+            "title": "StrongPity2 spyware replaces FinFisher in MitM campaign \u2013 ISP involved?",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/physicaldrive0/status/786293008278970368",
+            "date": "2016-10-12",
+            "organization": "Twitter (@PhysicalDrive0)",
+            "author": "PhysicalDrive0",
+            "title": "Tweet on StrongPity",
+            "categories": [
+                "StrongPity"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/research/76147/on-the-strongpity-waterhole-attacks-targeting-italian-and-belgian-encryption-users/",
+            "date": "2016-10-03",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "On the StrongPity Waterhole Attacks Targeting Italian and Belgian Encryption Users",
+            "categories": [
+                "StrongPity"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "strongpity",
@@ -405,254 +653,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "strongpity can exfiltrate collected documents through c2 channels.[124][125]"
                 }
-            ]
-        }
-    ],
-    "file_name": "strongpity",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://ti.qianxin.com/blog/articles/promethium-attack-activity-analysis-disguised-as-Winrar.exe/",
-            "date": "2022-03-23",
-            "organization": "Qianxin",
-            "author": "Red Raindrop Team",
-            "title": "Analysis of Attack Activity of PROMETHIUM Disguised",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://blog.minerva-labs.com/a-new-strongpity-variant-hides-behind-notepad-installation",
-            "date": "2021-12-09",
-            "organization": "Minerva Labs",
-            "author": "Natalie Zargarov",
-            "title": "A new StrongPity variant hides behind Notepad++ installation",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/nQVUkIwkiQTj2pLaNYHeOA",
-            "date": "2021-11-30",
-            "organization": "Qianxin",
-            "author": "Red Raindrop Team",
-            "title": "Cyberspace's Magic Eye: PROMETHIUM Fakes attack activity analysis of NotePads and installation packages",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://blogs.blackberry.com/en/2021/11/zebra2104",
-            "date": "2021-11-05",
-            "organization": "Blackberry",
-            "author": "The BlackBerry Research & Intelligence Team",
-            "title": "Hunter Becomes Hunted: Zebra2104 Hides a Herd of Malware",
-            "categories": [
-                "Cobalt Strike",
-                "DoppelDridex",
-                "Mount Locker",
-                "Phobos",
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://anchorednarratives.substack.com/p/tracking-strongpity-with-yara",
-            "date": "2021-05-24",
-            "organization": "Anchored Narratives on Threat Intelligence and Geopolitics",
-            "author": "RJM",
-            "title": "Tracking StrongPity with Yara",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://anchorednarratives.substack.com/p/recover-your-files-with-strongpity",
-            "date": "2021-04-18",
-            "organization": "Anchored Narratives on Threat Intelligence and Geopolitics",
-            "author": "RJM",
-            "title": "Recover your files with StrongPity",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/pwc-cyber-threats-2020-a-year-in-retrospect.pdf",
-            "date": "2021-02-28",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2020: A Year in Retrospect",
-            "categories": [
-                "elf.wellmess",
-                "FlowerPower",
-                "PowGoop",
-                "8.t Dropper",
-                "Agent.BTZ",
-                "Agent Tesla",
-                "Appleseed",
-                "Ave Maria",
-                "Bankshot",
-                "BazarBackdoor",
-                "BLINDINGCAN",
-                "Chinoxy",
-                "Conti",
-                "Cotx RAT",
-                "Crimson RAT",
-                "DUSTMAN",
-                "Emotet",
-                "FriedEx",
-                "FunnyDream",
-                "Hakbit",
-                "Mailto",
-                "Maze",
-                "METALJACK",
-                "Nefilim",
-                "Oblique RAT",
-                "Pay2Key",
-                "PlugX",
-                "QakBot",
-                "REvil",
-                "Ryuk",
-                "StoneDrill",
-                "StrongPity",
-                "SUNBURST",
-                "SUPERNOVA",
-                "TrickBot",
-                "TurlaRPC",
-                "Turla SilentMoon",
-                "WastedLocker",
-                "WellMess",
-                "Winnti",
-                "ZeroCleare",
-                "APT10",
-                "APT23",
-                "APT27",
-                "APT31",
-                "APT41",
-                "BlackTech",
-                "BRONZE EDGEWOOD",
-                "Inception Framework",
-                "MUSTANG PANDA",
-                "Red Charon",
-                "Red Nue",
-                "Sea Turtle",
-                "Tonto Team"
-            ]
-        },
-        {
-            "data_url": "https://0xthreatintel.medium.com/uncovering-apt-c-41-strongpity-backdoor-e7f9a7a076f4",
-            "date": "2021-02-01",
-            "organization": "Medium 0xthreatintel",
-            "author": "0xthreatintel",
-            "title": "Uncovering APT-C-41 (StrongPity) Backdoor",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://cybleinc.com/2020/12/31/strongpity-apt-extends-global-reach-with-new-infrastructure/",
-            "date": "2020-12-31",
-            "organization": "cyble",
-            "author": "cybleinc",
-            "title": "StrongPity APT Extends Global Reach with New Infrastructure",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
-            "date": "2020-12-21",
-            "organization": "Cisco Talos",
-            "author": "JON MUNSHAW",
-            "title": "2020: The year in malware",
-            "categories": [
-                "WolfRAT",
-                "Prometei",
-                "Poet RAT",
-                "Agent Tesla",
-                "Astaroth",
-                "Ave Maria",
-                "CRAT",
-                "Emotet",
-                "Gozi",
-                "IndigoDrop",
-                "JhoneRAT",
-                "Nanocore RAT",
-                "NjRAT",
-                "Oblique RAT",
-                "SmokeLoader",
-                "StrongPity",
-                "WastedLocker",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/5No0TR4ECVPp_Xv4joXEBg",
-            "date": "2020-10-30",
-            "organization": "360",
-            "author": "Threat Intelligence Center",
-            "title": "\u84dd\u8272\u9b54\u773c\uff08APT-C-41\uff09\u7ec4\u7ec7\u9996\u6b21\u9488\u5bf9\u6211\u56fd\u91cd\u8981\u673a\u6784\u5b9a\u5411\u653b\u51fb\u6d3b\u52a8\u62ab\u9732",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://www.bitdefender.com/files/News/CaseStudies/study/353/Bitdefender-Whitepaper-StrongPity-APT.pdf",
-            "date": "2020-06-30",
-            "organization": "Bitdefender",
-            "author": "Liviu Arsene",
-            "title": "StrongPity APT - Revealing Trojanized Tools, Working Hours and Infrastructure",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/06/promethium-extends-with-strongpity3.html",
-            "date": "2020-06-29",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "PROMETHIUM extends global reach with StrongPity3 APT",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://citizenlab.ca/2018/03/bad-traffic-sandvines-packetlogic-devices-deploy-government-spyware-turkey-syria/",
-            "date": "2018-03-09",
-            "organization": "",
-            "author": "Bill Marczak",
-            "title": "Sandvine\u2019s PacketLogic Devices Used to Deploy Government Spyware in Turkey and Redirect Egyptian Users to Affiliate Ads?",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/12/08/strongpity-like-spyware-replaces-finfisher/",
-            "date": "2017-12-08",
-            "organization": "ESET Research",
-            "author": "Filip Kafka",
-            "title": "StrongPity2 spyware replaces FinFisher in MitM campaign \u2013 ISP involved?",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/physicaldrive0/status/786293008278970368",
-            "date": "2016-10-12",
-            "organization": "Twitter (@PhysicalDrive0)",
-            "author": "PhysicalDrive0",
-            "title": "Tweet on StrongPity",
-            "categories": [
-                "StrongPity"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blog/research/76147/on-the-strongpity-waterhole-attacks-targeting-italian-and-belgian-encryption-users/",
-            "date": "2016-10-03",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "On the StrongPity Waterhole Attacks Targeting Italian and Belgian Encryption Users",
-            "categories": [
-                "StrongPity"
             ]
         }
     ]

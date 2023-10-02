@@ -25,8 +25,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "sun4me",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

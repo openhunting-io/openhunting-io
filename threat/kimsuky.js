@@ -33,11 +33,11 @@ var threatdata = {
             "malware": "win.kimsuky",
             "last_update": "2023-09-19 16:37:44",
             "tags": [
-                "thallium",
                 "APT",
-                "Kimusky",
+                "thallium",
                 "kimsuky",
-                "Kimsuky"
+                "Kimsuky",
+                "Kimusky"
             ],
             "ioc": {
                 "md5_hash": [
@@ -426,6 +426,351 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-19 16:37:44",
+    "file_name": "kimsuky",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/en/53046/",
+            "date": "2023-05-22",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "Kimsuky Group Using Meterpreter to Attack Web Servers",
+            "categories": [
+                "Kimsuky",
+                "Meterpreter"
+            ]
+        },
+        {
+            "data_url": "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
+            "date": "2023-03-28",
+            "organization": "Mandiant",
+            "author": "Fred Plan",
+            "title": "APT43: North Korean Group Uses Cybercrime to Fund Espionage Operations",
+            "categories": [
+                "APT43",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2022/08/26/malware-pers-9.html",
+            "date": "2022-08-26",
+            "organization": "",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 9. Default file extension hijacking. Simple C++ example.",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/pivoting-on-a-sharpext-to-profile-kimusky-panels-for-great-good-1920dc1bcef9",
+            "date": "2022-08-09",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "Pivoting on a SharpExt to profile Kimusky panels for great good",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/37396/",
+            "date": "2022-08-02",
+            "organization": "ASEC",
+            "author": "ASEC Analysis Team",
+            "title": "Word File Provided as External Link When Replying to Attacker\u2019s Email (Kimsuky)",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/20/malware-pers-1.html",
+            "date": "2022-04-20",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 1. Registry run keys. C++ example.",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "BlackEnergy",
+                "Cobian RAT",
+                "COZYDUKE",
+                "Emotet",
+                "Empire Downloader",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/30532/",
+            "date": "2022-01-05",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Analysis Report on Kimsuky Group\u2019s APT Attacks (AppleSeed, PebbleDash)",
+            "categories": [
+                "Appleseed",
+                "Kimsuky",
+                "PEBBLEDASH"
+            ]
+        },
+        {
+            "data_url": "https://vblocalhost.com/presentations/operation-newton-hi-kimsuky-did-an-appleseed-really-fall-on-newtons-head/",
+            "date": "2021-10-07",
+            "organization": "S2W Inc.",
+            "author": "Jaeki Kim",
+            "title": "Operation Newton: Hi Kimsuky? Did an Apple(seed) really fall on Newton\u2019s head?",
+            "categories": [
+                "Appleseed",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://inquest.net/blog/2021/08/23/kimsuky-espionage-campaign",
+            "date": "2021-08-23",
+            "organization": "InQuest",
+            "author": "Dmitry Melikov",
+            "title": "Kimsuky Espionage Campaign",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.boho.or.kr/filedownload.do?attach_file_seq=2652&attach_file_id=EpF2652.pdf",
+            "date": "2020-12-15",
+            "organization": "KISA",
+            "author": "KISA",
+            "title": "Operation MUZABI",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+            "date": "2020-11-02",
+            "organization": "Cybereason",
+            "author": "Assaf Dahan",
+            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
+            "categories": [
+                "BabyShark",
+                "GoldDragon",
+                "KGH_SPY",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
+            "date": "2020-10-27",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Alert (AA20-301A): North Korean Advanced Persistent Threat Focus: Kimsuky",
+            "categories": [
+                "BabyShark",
+                "GREASE",
+                "MECHANICAL",
+                "Meterpreter",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://threatconnect.com/blog/threatconnect-research-roundup-probable-sandworm-infrastructure",
+            "date": "2020-06-12",
+            "organization": "ThreatConnect",
+            "author": "ThreatConnect Research Team",
+            "title": "Probable Sandworm Infrastructure",
+            "categories": [
+                "Avaddon",
+                "Emotet",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/",
+            "date": "2020-03-10",
+            "organization": "Virus Bulletin",
+            "author": "Jaeki Kim",
+            "title": "Kimsuky group: tracking the king of the spear phishing",
+            "categories": [
+                "Kimsuky",
+                "MyDogs"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-services/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-1.html",
+            "date": "2020-03-09",
+            "organization": "PWC UK",
+            "author": "Kris McConkey",
+            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 1",
+            "categories": [
+                "BabyShark",
+                "MyDogs",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
+            "date": "2020-03-09",
+            "organization": "PWC UK",
+            "author": "Kris McConkey",
+            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 2",
+            "categories": [
+                "BabyShark",
+                "MyDogs",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://metaswan.github.io/posts/Malware-Kimsuky-group's-resume-impersonation-malware",
+            "date": "2020-03-04",
+            "organization": "MetaSwan's Lab",
+            "author": "MetaSwan",
+            "title": "Kimsuky group's resume impersonation malware",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-1.html",
+            "date": "2020-02-18",
+            "organization": "PWC UK",
+            "author": "Kris McConkey",
+            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 1",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
+            "date": "2019-12-18",
+            "organization": "",
+            "author": "US District Court for the Eastern District of Virginia",
+            "title": "MICROSOFT CORPORATION, Plaintiff, v. JOHN DOES 1-2, CONTROLLING A COMPUTER NETWORK THEREBY INJURING PLAINTIFF AND ITS CUSTOMERS",
+            "categories": [
+                "BabyShark",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://youtu.be/hAsKp43AZmM?t=1027",
+            "date": "2019-11-14",
+            "organization": "Youtube (mitrecorp)",
+            "author": "Karl Scheuerman",
+            "title": "MITRE ATT&CKcon 2.0: How a Threat Hunting Team Has Upgraded Its Use of ATT&CK",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.virusbulletin.com/uploads/pdf/conference_slides/2019/VB2019-Kim.pdf",
+            "date": "2019-10-04",
+            "organization": "Virus Bulletin",
+            "author": "Jaeki Kim",
+            "title": "Kimsuky group: tracking the king of the spear-phishing",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://blog.prevailion.com/2019/09/autumn-aperture-report.html",
+            "date": "2019-09-11",
+            "organization": "Prevailion",
+            "author": "Danny Adamitis",
+            "title": "Autumn Aperture",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://blog.alyac.co.kr/2347",
+            "date": "2019-06-10",
+            "organization": "ESTsecurity",
+            "author": "Alyac",
+            "title": "[Special Report] APT Campaign 'Konni' & 'Kimsuky' Organizations Found in Common",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks/",
+            "date": "2019-02-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "New BabyShark Malware Targets U.S. National Security Think Tanks",
+            "categories": [
+                "BabyShark",
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0086/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: Stolen Pencil",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.cfr.org/interactive/cyber-operations/kimsuky",
+            "date": "2019",
+            "organization": "Council on Foreign Relations",
+            "author": "Cyber Operations Tracker",
+            "title": "Kimsuky",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
+            "date": "2018-12-05",
+            "organization": "NetScout",
+            "author": "ASERT Team",
+            "title": "STOLEN PENCIL Campaign Targets Academia",
+            "categories": [
+                "Kimsuky"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
+            "date": "2013-09-11",
+            "organization": "Kaspersky Labs",
+            "author": "Dmitry Tarakanov",
+            "title": "The \u201cKimsuky\u201d Operation: A North Korean APT?",
+            "categories": [
+                "Kimsuky"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "kimsuky",
@@ -1681,351 +2026,6 @@ var threatdata = {
                     "technique_description": "adversaries may exfiltrate data to a cloud storage service rather than over their primary command and control channel. cloud storage services allow for the storage, edit, and retrieval of data from a remote cloud storage server over the internet.",
                     "procedure_description": "kimsuky has exfiltrated stolen files and data to actor-controlled blogspot accounts.[15]"
                 }
-            ]
-        }
-    ],
-    "file_name": "kimsuky",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://asec.ahnlab.com/en/53046/",
-            "date": "2023-05-22",
-            "organization": "AhnLab",
-            "author": "ASEC",
-            "title": "Kimsuky Group Using Meterpreter to Attack Web Servers",
-            "categories": [
-                "Kimsuky",
-                "Meterpreter"
-            ]
-        },
-        {
-            "data_url": "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report",
-            "date": "2023-03-28",
-            "organization": "Mandiant",
-            "author": "Fred Plan",
-            "title": "APT43: North Korean Group Uses Cybercrime to Fund Espionage Operations",
-            "categories": [
-                "APT43",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2022/08/26/malware-pers-9.html",
-            "date": "2022-08-26",
-            "organization": "",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 9. Default file extension hijacking. Simple C++ example.",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/walmartglobaltech/pivoting-on-a-sharpext-to-profile-kimusky-panels-for-great-good-1920dc1bcef9",
-            "date": "2022-08-09",
-            "organization": "Medium walmartglobaltech",
-            "author": "Jason Reaves",
-            "title": "Pivoting on a SharpExt to profile Kimusky panels for great good",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://asec.ahnlab.com/en/37396/",
-            "date": "2022-08-02",
-            "organization": "ASEC",
-            "author": "ASEC Analysis Team",
-            "title": "Word File Provided as External Link When Replying to Attacker\u2019s Email (Kimsuky)",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/04/20/malware-pers-1.html",
-            "date": "2022-04-20",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 1. Registry run keys. C++ example.",
-            "categories": [
-                "Agent Tesla",
-                "Amadey",
-                "BlackEnergy",
-                "Cobian RAT",
-                "COZYDUKE",
-                "Emotet",
-                "Empire Downloader",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://asec.ahnlab.com/en/30532/",
-            "date": "2022-01-05",
-            "organization": "AhnLab",
-            "author": "ASEC Analysis Team",
-            "title": "Analysis Report on Kimsuky Group\u2019s APT Attacks (AppleSeed, PebbleDash)",
-            "categories": [
-                "Appleseed",
-                "Kimsuky",
-                "PEBBLEDASH"
-            ]
-        },
-        {
-            "data_url": "https://vblocalhost.com/presentations/operation-newton-hi-kimsuky-did-an-appleseed-really-fall-on-newtons-head/",
-            "date": "2021-10-07",
-            "organization": "S2W Inc.",
-            "author": "Jaeki Kim",
-            "title": "Operation Newton: Hi Kimsuky? Did an Apple(seed) really fall on Newton\u2019s head?",
-            "categories": [
-                "Appleseed",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://inquest.net/blog/2021/08/23/kimsuky-espionage-campaign",
-            "date": "2021-08-23",
-            "organization": "InQuest",
-            "author": "Dmitry Melikov",
-            "title": "Kimsuky Espionage Campaign",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.boho.or.kr/filedownload.do?attach_file_seq=2652&attach_file_id=EpF2652.pdf",
-            "date": "2020-12-15",
-            "organization": "KISA",
-            "author": "KISA",
-            "title": "Operation MUZABI",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
-            "date": "2020-11-02",
-            "organization": "Cybereason",
-            "author": "Assaf Dahan",
-            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
-            "categories": [
-                "BabyShark",
-                "GoldDragon",
-                "KGH_SPY",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-301a",
-            "date": "2020-10-27",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Alert (AA20-301A): North Korean Advanced Persistent Threat Focus: Kimsuky",
-            "categories": [
-                "BabyShark",
-                "GREASE",
-                "MECHANICAL",
-                "Meterpreter",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://threatconnect.com/blog/threatconnect-research-roundup-probable-sandworm-infrastructure",
-            "date": "2020-06-12",
-            "organization": "ThreatConnect",
-            "author": "ThreatConnect Research Team",
-            "title": "Probable Sandworm Infrastructure",
-            "categories": [
-                "Avaddon",
-                "Emotet",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.virusbulletin.com/virusbulletin/2020/03/vb2019-paper-kimsuky-group-tracking-king-spearphishing/",
-            "date": "2020-03-10",
-            "organization": "Virus Bulletin",
-            "author": "Jaeki Kim",
-            "title": "Kimsuky group: tracking the king of the spear phishing",
-            "categories": [
-                "Kimsuky",
-                "MyDogs"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/issues/cyber-security-services/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-1.html",
-            "date": "2020-03-09",
-            "organization": "PWC UK",
-            "author": "Kris McConkey",
-            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 1",
-            "categories": [
-                "BabyShark",
-                "MyDogs",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-2.html",
-            "date": "2020-03-09",
-            "organization": "PWC UK",
-            "author": "Kris McConkey",
-            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 2",
-            "categories": [
-                "BabyShark",
-                "MyDogs",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://metaswan.github.io/posts/Malware-Kimsuky-group's-resume-impersonation-malware",
-            "date": "2020-03-04",
-            "organization": "MetaSwan's Lab",
-            "author": "MetaSwan",
-            "title": "Kimsuky group's resume impersonation malware",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
-            "date": "2020-02-19",
-            "organization": "Lexfo",
-            "author": "Lexfo",
-            "title": "The Lazarus Constellation A study on North Korean malware",
-            "categories": [
-                "FastCash",
-                "AppleJeus",
-                "BADCALL",
-                "Bankshot",
-                "Brambul",
-                "Dtrack",
-                "Duuzer",
-                "DYEPACK",
-                "ELECTRICFISH",
-                "HARDRAIN",
-                "Hermes",
-                "HOPLIGHT",
-                "Joanap",
-                "KEYMARBLE",
-                "Kimsuky",
-                "MimiKatz",
-                "MyDoom",
-                "NACHOCHEESE",
-                "NavRAT",
-                "PowerRatankba",
-                "RokRAT",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/issues/cyber-security-data-privacy/research/tracking-kimsuky-north-korea-based-cyber-espionage-group-part-1.html",
-            "date": "2020-02-18",
-            "organization": "PWC UK",
-            "author": "Kris McConkey",
-            "title": "Tracking \u2018Kimsuky\u2019, the North Korea-based cyber espionage group: Part 1",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.bloomberglaw.com/document/public/subdoc/X67FPNDOUBV9VOPS35A4864BFIU?imagename=1",
-            "date": "2019-12-18",
-            "organization": "",
-            "author": "US District Court for the Eastern District of Virginia",
-            "title": "MICROSOFT CORPORATION, Plaintiff, v. JOHN DOES 1-2, CONTROLLING A COMPUTER NETWORK THEREBY INJURING PLAINTIFF AND ITS CUSTOMERS",
-            "categories": [
-                "BabyShark",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://youtu.be/hAsKp43AZmM?t=1027",
-            "date": "2019-11-14",
-            "organization": "Youtube (mitrecorp)",
-            "author": "Karl Scheuerman",
-            "title": "MITRE ATT&CKcon 2.0: How a Threat Hunting Team Has Upgraded Its Use of ATT&CK",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.virusbulletin.com/uploads/pdf/conference_slides/2019/VB2019-Kim.pdf",
-            "date": "2019-10-04",
-            "organization": "Virus Bulletin",
-            "author": "Jaeki Kim",
-            "title": "Kimsuky group: tracking the king of the spear-phishing",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://blog.prevailion.com/2019/09/autumn-aperture-report.html",
-            "date": "2019-09-11",
-            "organization": "Prevailion",
-            "author": "Danny Adamitis",
-            "title": "Autumn Aperture",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://blog.alyac.co.kr/2347",
-            "date": "2019-06-10",
-            "organization": "ESTsecurity",
-            "author": "Alyac",
-            "title": "[Special Report] APT Campaign 'Konni' & 'Kimsuky' Organizations Found in Common",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks/",
-            "date": "2019-02-22",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "New BabyShark Malware Targets U.S. National Security Think Tanks",
-            "categories": [
-                "BabyShark",
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0086/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: Stolen Pencil",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.cfr.org/interactive/cyber-operations/kimsuky",
-            "date": "2019",
-            "organization": "Council on Foreign Relations",
-            "author": "Cyber Operations Tracker",
-            "title": "Kimsuky",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia",
-            "date": "2018-12-05",
-            "organization": "NetScout",
-            "author": "ASERT Team",
-            "title": "STOLEN PENCIL Campaign Targets Academia",
-            "categories": [
-                "Kimsuky"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/the-kimsuky-operation-a-north-korean-apt/57915/",
-            "date": "2013-09-11",
-            "organization": "Kaspersky Labs",
-            "author": "Dmitry Tarakanov",
-            "title": "The \u201cKimsuky\u201d Operation: A North Korean APT?",
-            "categories": [
-                "Kimsuky"
             ]
         }
     ]

@@ -37,6 +37,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "markirat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/ferocious-kitten-6-years-of-covert-surveillance-in-iran/102806/",
+            "date": "2021-06-16",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "Ferocious Kitten: 6 years of covert surveillance in Iran",
+            "categories": [
+                "MarkiRAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "markirat",
@@ -400,20 +414,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "markirat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/ferocious-kitten-6-years-of-covert-surveillance-in-iran/102806/",
-            "date": "2021-06-16",
-            "organization": "Kaspersky",
-            "author": "GReAT",
-            "title": "Ferocious Kitten: 6 years of covert surveillance in Iran",
-            "categories": [
-                "MarkiRAT"
             ]
         }
     ]

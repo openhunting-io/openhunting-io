@@ -33,6 +33,22 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "tdtess",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://www.clearskysec.com/tulip/",
+            "date": "2017-07-25",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Operation Wilted Tulip \u2013 Exposing a Cyber Espionage Apparatus",
+            "categories": [
+                "Matryoshka RAT",
+                "TDTESS",
+                "CopyKittens"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "tdtess",
@@ -112,22 +128,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "tdtess has a command to download and execute an additional file.[438]"
                 }
-            ]
-        }
-    ],
-    "file_name": "tdtess",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://www.clearskysec.com/tulip/",
-            "date": "2017-07-25",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "Operation Wilted Tulip \u2013 Exposing a Cyber Espionage Apparatus",
-            "categories": [
-                "Matryoshka RAT",
-                "TDTESS",
-                "CopyKittens"
             ]
         }
     ]

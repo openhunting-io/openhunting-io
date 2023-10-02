@@ -56,7 +56,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-04-15 00:31:25",
-    "mitre": [],
     "file_name": "cinobi",
     "analysis": null,
     "articles": [
@@ -100,5 +99,6 @@ var threatdata = {
                 "Cinobi"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -32,7 +32,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "decebal",
     "analysis": null,
     "articles": [
@@ -47,5 +46,6 @@ var threatdata = {
                 "rdasrv"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

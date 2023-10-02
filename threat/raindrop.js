@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "raindrop",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "raindrop",
@@ -139,8 +142,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "raindrop",
-    "analysis": null,
-    "articles": []
+    ]
 };

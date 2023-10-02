@@ -35,6 +35,84 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "bbsrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.youtube.com/watch?v=uakw2HMGZ-I",
+            "date": "2023-04-13",
+            "organization": "Intel 471",
+            "author": "Souhail Hammou",
+            "title": "From GhostNet to PseudoManuscrypt - The evolution of Gh0st RAT",
+            "categories": [
+                "BBSRAT",
+                "Gh0stTimes",
+                "Ghost RAT",
+                "PseudoManuscrypt"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/09/malware-pers-4.html",
+            "date": "2022-05-09",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 4. Windows services. Simple C++ example.",
+            "categories": [
+                "Anchor",
+                "AppleJeus",
+                "Attor",
+                "BBSRAT",
+                "BlackEnergy",
+                "Carbanak",
+                "Cobalt Strike",
+                "DuQu"
+            ]
+        },
+        {
+            "data_url": "https://www.sstic.org/media/SSTIC2020/SSTIC-actes/pivoter_tel_bernard_ou_comment_monitorer_des_attaq/SSTIC2020-Slides-pivoter_tel_bernard_ou_comment_monitorer_des_attaquants_ngligents-lunghi.pdf",
+            "date": "2020-06-03",
+            "organization": "Trend Micro",
+            "author": "Daniel Lunghi",
+            "title": "How to perform long term monitoring of careless threat actors",
+            "categories": [
+                "BBSRAT",
+                "HyperBro",
+                "Trochilus RAT"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/insomniacs/shadows-with-a-chance-of-blacknix-badc0f2f41cb",
+            "date": "2020-05-06",
+            "organization": "Medium Asuna Amawaka",
+            "author": "Asuna Amawaka",
+            "title": "Shadows with a chance of BlackNix",
+            "categories": [
+                "BBSRAT",
+                "BlackNix RAT"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/insomniacs/shadows-in-the-rain-a16efaf21aae",
+            "date": "2020-03-16",
+            "organization": "Medium Asuna Amawaka",
+            "author": "Asuna Amawaka",
+            "title": "Shadows in the Rain",
+            "categories": [
+                "BBSRAT"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2016/03/digital-quartermaster-scenario-demonstrated-in-attacks-against-the-mongolian-government/",
+            "date": "2016-03-14",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Josh Grunzweig",
+            "title": "Digital Quartermaster Scenario Demonstrated in Attacks Against the Mongolian Government",
+            "categories": [
+                "BBSRAT",
+                "CMSTAR"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -326,84 +404,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "bbsrat uses a custom encryption algorithm on data sent back to the c2 server over http.[13]"
                 }
-            ]
-        }
-    ],
-    "file_name": "bbsrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.youtube.com/watch?v=uakw2HMGZ-I",
-            "date": "2023-04-13",
-            "organization": "Intel 471",
-            "author": "Souhail Hammou",
-            "title": "From GhostNet to PseudoManuscrypt - The evolution of Gh0st RAT",
-            "categories": [
-                "BBSRAT",
-                "Gh0stTimes",
-                "Ghost RAT",
-                "PseudoManuscrypt"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/09/malware-pers-4.html",
-            "date": "2022-05-09",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 4. Windows services. Simple C++ example.",
-            "categories": [
-                "Anchor",
-                "AppleJeus",
-                "Attor",
-                "BBSRAT",
-                "BlackEnergy",
-                "Carbanak",
-                "Cobalt Strike",
-                "DuQu"
-            ]
-        },
-        {
-            "data_url": "https://www.sstic.org/media/SSTIC2020/SSTIC-actes/pivoter_tel_bernard_ou_comment_monitorer_des_attaq/SSTIC2020-Slides-pivoter_tel_bernard_ou_comment_monitorer_des_attaquants_ngligents-lunghi.pdf",
-            "date": "2020-06-03",
-            "organization": "Trend Micro",
-            "author": "Daniel Lunghi",
-            "title": "How to perform long term monitoring of careless threat actors",
-            "categories": [
-                "BBSRAT",
-                "HyperBro",
-                "Trochilus RAT"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/insomniacs/shadows-with-a-chance-of-blacknix-badc0f2f41cb",
-            "date": "2020-05-06",
-            "organization": "Medium Asuna Amawaka",
-            "author": "Asuna Amawaka",
-            "title": "Shadows with a chance of BlackNix",
-            "categories": [
-                "BBSRAT",
-                "BlackNix RAT"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/insomniacs/shadows-in-the-rain-a16efaf21aae",
-            "date": "2020-03-16",
-            "organization": "Medium Asuna Amawaka",
-            "author": "Asuna Amawaka",
-            "title": "Shadows in the Rain",
-            "categories": [
-                "BBSRAT"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2016/03/digital-quartermaster-scenario-demonstrated-in-attacks-against-the-mongolian-government/",
-            "date": "2016-03-14",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Josh Grunzweig",
-            "title": "Digital Quartermaster Scenario Demonstrated in Attacks Against the Mongolian Government",
-            "categories": [
-                "BBSRAT",
-                "CMSTAR"
             ]
         }
     ]

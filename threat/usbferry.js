@@ -35,6 +35,49 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "usbferry",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
+            "date": "2021-12-01",
+            "organization": "ESET Research",
+            "author": "Alexis Dorais-Joncas",
+            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
+            "categories": [
+                "Agent.BTZ",
+                "Fanny",
+                "Flame",
+                "Gauss",
+                "PlugX",
+                "Ramsay",
+                "Retro",
+                "Stuxnet",
+                "USBCulprit",
+                "USBferry"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf",
+            "date": "2020-05-12",
+            "organization": "Trend Micro",
+            "author": "Joey Chen",
+            "title": "Tropic Trooper\u2019s Back: USBferry Attack Targets Air-gapped Environments (Technical Brief)",
+            "categories": [
+                "USBferry"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments/",
+            "date": "2020-05-12",
+            "organization": "Trend Micro",
+            "author": "Joey Chen",
+            "title": "Tropic Trooper\u2019s Back: USBferry Attack Targets Air-gapped Environments",
+            "categories": [
+                "USBferry"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "usbferry",
@@ -186,49 +229,6 @@ var threatdata = {
                     "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
                     "procedure_description": "usbferry can collect information from an air-gapped host machine.[189]"
                 }
-            ]
-        }
-    ],
-    "file_name": "usbferry",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
-            "date": "2021-12-01",
-            "organization": "ESET Research",
-            "author": "Alexis Dorais-Joncas",
-            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
-            "categories": [
-                "Agent.BTZ",
-                "Fanny",
-                "Flame",
-                "Gauss",
-                "PlugX",
-                "Ramsay",
-                "Retro",
-                "Stuxnet",
-                "USBCulprit",
-                "USBferry"
-            ]
-        },
-        {
-            "data_url": "https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf",
-            "date": "2020-05-12",
-            "organization": "Trend Micro",
-            "author": "Joey Chen",
-            "title": "Tropic Trooper\u2019s Back: USBferry Attack Targets Air-gapped Environments (Technical Brief)",
-            "categories": [
-                "USBferry"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/tropic-troopers-back-usbferry-attack-targets-air-gapped-environments/",
-            "date": "2020-05-12",
-            "organization": "Trend Micro",
-            "author": "Joey Chen",
-            "title": "Tropic Trooper\u2019s Back: USBferry Attack Targets Air-gapped Environments",
-            "categories": [
-                "USBferry"
             ]
         }
     ]

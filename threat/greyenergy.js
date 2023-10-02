@@ -41,6 +41,140 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "greyenergy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.nviso.eu/2022/02/24/threat-update-ukraine-russia-tensions/",
+            "date": "2022-02-24",
+            "organization": "nviso",
+            "author": "Michel Coene",
+            "title": "Threat Update \u2013 Ukraine & Russia conflict",
+            "categories": [
+                "EternalPetya",
+                "GreyEnergy",
+                "HermeticWiper",
+                "Industroyer",
+                "KillDisk",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON VIKING",
+            "categories": [
+                "BlackEnergy",
+                "EternalPetya",
+                "GreyEnergy",
+                "Industroyer",
+                "KillDisk",
+                "TeleBot",
+                "TeleDoor"
+            ]
+        },
+        {
+            "data_url": "https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report.pdf",
+            "date": "2019-05-08",
+            "organization": "Verizon Communications Inc.",
+            "author": "Verizon Communications Inc.",
+            "title": "2019 Data Breach Investigations Report",
+            "categories": [
+                "BlackEnergy",
+                "Cobalt Strike",
+                "DanaBot",
+                "Gandcrab",
+                "GreyEnergy",
+                "Mirai",
+                "Olympic Destroyer",
+                "SamSam"
+            ]
+        },
+        {
+            "data_url": "https://www.nozominetworks.com/2019/02/12/blog/greyenergy-malware-research-paper-maldoc-to-backdoor/",
+            "date": "2019-02-12",
+            "organization": "Nozomi Networks",
+            "author": "Alessandro Di Pinto",
+            "title": "GreyEnergy Malware Research Paper: Maldoc to Backdoor",
+            "categories": [
+                "GreyEnergy"
+            ]
+        },
+        {
+            "data_url": "https://github.com/NozomiNetworks/greyenergy-unpacker",
+            "date": "2019-01-25",
+            "organization": "Github (NozomiNetworks)",
+            "author": "NozomiNetworks",
+            "title": "Toolkit collection developed to help malware analysts dissecting and detecting the packer used by GreyEnergy samples.",
+            "categories": [
+                "GreyEnergy"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/greyenergys-overlap-with-zebrocy/89506/",
+            "date": "2019-01-24",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky Lab ICS CERT",
+            "title": "GreyEnergy\u2019s overlap with Zebrocy",
+            "categories": [
+                "GreyEnergy",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf",
+            "date": "2018-10-18",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "GREYENERGY: A successor to BlackEnergy",
+            "categories": [
+                "Felixroot",
+                "GreyEnergy"
+            ]
+        },
+        {
+            "data_url": "https://www.eset.com/int/greyenergy-exposed/",
+            "date": "2018-10-17",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "ESET unmasks \u2018GREYENERGY\u2019 cyber-espionage group",
+            "categories": [
+                "GreyEnergy",
+                "GreyEnergy"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2018/10/17/greyenergy-updated-arsenal-dangerous-threat-actors/",
+            "date": "2018-10-17",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "GreyEnergy: Updated arsenal of one of the most dangerous threat actors",
+            "categories": [
+                "GreyEnergy"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0034",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Sandworm Team",
+            "categories": [
+                "CyclopsBlink",
+                "Exaramel",
+                "BlackEnergy",
+                "EternalPetya",
+                "Exaramel",
+                "GreyEnergy",
+                "KillDisk",
+                "MimiKatz",
+                "Olympic Destroyer",
+                "Sandworm"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "greyenergy",
@@ -288,140 +422,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "greyenergy has used tor relays for command and control servers.[11]"
                 }
-            ]
-        }
-    ],
-    "file_name": "greyenergy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.nviso.eu/2022/02/24/threat-update-ukraine-russia-tensions/",
-            "date": "2022-02-24",
-            "organization": "nviso",
-            "author": "Michel Coene",
-            "title": "Threat Update \u2013 Ukraine & Russia conflict",
-            "categories": [
-                "EternalPetya",
-                "GreyEnergy",
-                "HermeticWiper",
-                "Industroyer",
-                "KillDisk",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-viking",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON VIKING",
-            "categories": [
-                "BlackEnergy",
-                "EternalPetya",
-                "GreyEnergy",
-                "Industroyer",
-                "KillDisk",
-                "TeleBot",
-                "TeleDoor"
-            ]
-        },
-        {
-            "data_url": "https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report.pdf",
-            "date": "2019-05-08",
-            "organization": "Verizon Communications Inc.",
-            "author": "Verizon Communications Inc.",
-            "title": "2019 Data Breach Investigations Report",
-            "categories": [
-                "BlackEnergy",
-                "Cobalt Strike",
-                "DanaBot",
-                "Gandcrab",
-                "GreyEnergy",
-                "Mirai",
-                "Olympic Destroyer",
-                "SamSam"
-            ]
-        },
-        {
-            "data_url": "https://www.nozominetworks.com/2019/02/12/blog/greyenergy-malware-research-paper-maldoc-to-backdoor/",
-            "date": "2019-02-12",
-            "organization": "Nozomi Networks",
-            "author": "Alessandro Di Pinto",
-            "title": "GreyEnergy Malware Research Paper: Maldoc to Backdoor",
-            "categories": [
-                "GreyEnergy"
-            ]
-        },
-        {
-            "data_url": "https://github.com/NozomiNetworks/greyenergy-unpacker",
-            "date": "2019-01-25",
-            "organization": "Github (NozomiNetworks)",
-            "author": "NozomiNetworks",
-            "title": "Toolkit collection developed to help malware analysts dissecting and detecting the packer used by GreyEnergy samples.",
-            "categories": [
-                "GreyEnergy"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/greyenergys-overlap-with-zebrocy/89506/",
-            "date": "2019-01-24",
-            "organization": "Kaspersky Labs",
-            "author": "Kaspersky Lab ICS CERT",
-            "title": "GreyEnergy\u2019s overlap with Zebrocy",
-            "categories": [
-                "GreyEnergy",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf",
-            "date": "2018-10-18",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "GREYENERGY: A successor to BlackEnergy",
-            "categories": [
-                "Felixroot",
-                "GreyEnergy"
-            ]
-        },
-        {
-            "data_url": "https://www.eset.com/int/greyenergy-exposed/",
-            "date": "2018-10-17",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "ESET unmasks \u2018GREYENERGY\u2019 cyber-espionage group",
-            "categories": [
-                "GreyEnergy",
-                "GreyEnergy"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2018/10/17/greyenergy-updated-arsenal-dangerous-threat-actors/",
-            "date": "2018-10-17",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "GreyEnergy: Updated arsenal of one of the most dangerous threat actors",
-            "categories": [
-                "GreyEnergy"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0034",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Sandworm Team",
-            "categories": [
-                "CyclopsBlink",
-                "Exaramel",
-                "BlackEnergy",
-                "EternalPetya",
-                "Exaramel",
-                "GreyEnergy",
-                "KillDisk",
-                "MimiKatz",
-                "Olympic Destroyer",
-                "Sandworm"
             ]
         }
     ]

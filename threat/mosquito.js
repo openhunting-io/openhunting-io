@@ -34,6 +34,114 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "mosquito",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/02/malware-pers-3.html",
+            "date": "2022-05-02",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 3. COM DLL hijack. Simple C++ example",
+            "categories": [
+                "Agent.BTZ",
+                "Ave Maria",
+                "Konni",
+                "Mosquito",
+                "TurlaRPC"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2020-0312.pdf",
+            "date": "2020-03-12",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "Swallowing the Snake\u2019s Tail: Tracking Turla Infrastructure",
+            "categories": [
+                "TwoFace",
+                "Mosquito"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2020/03/12/tracking-turla-new-backdoor-armenian-watering-holes/",
+            "date": "2020-03-12",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "Tracking Turla: New backdoor delivered via Armenian watering holes",
+            "categories": [
+                "LightNeuron",
+                "Mosquito",
+                "NetFlash",
+                "Skipper"
+            ]
+        },
+        {
+            "data_url": "https://www.recordedfuture.com/turla-apt-infrastructure/",
+            "date": "2020-03-12",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "Swallowing the Snake\u2019s Tail: Tracking Turla Infrastructure",
+            "categories": [
+                "Mosquito",
+                "Sinowal"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hunter",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON HUNTER",
+            "categories": [
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "LightNeuron",
+                "Mosquito",
+                "Nautilus",
+                "Neuron",
+                "Skipper",
+                "Uroburos",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/shedding-skin-turlas-fresh-faces/88069/",
+            "date": "2018-10-04",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Shedding Skin \u2013 Turla\u2019s Fresh Faces",
+            "categories": [
+                "KopiLuwak",
+                "Agent.BTZ",
+                "Cobra Carbon System",
+                "Gazer",
+                "Meterpreter",
+                "Mosquito",
+                "Skipper"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
+            "date": "2018-05-22",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Turla Mosquito: A shift towards more generic tools",
+            "categories": [
+                "Mosquito",
+                "Turla"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
+            "date": "2018-01",
+            "organization": "ESET Research",
+            "author": "Eset",
+            "title": "Diplomats in Eastern Europe bitten by a Turla mosquito",
+            "categories": [
+                "Mosquito"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "mosquito",
@@ -269,114 +377,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "mosquito can upload and download files to the victim.[303]"
                 }
-            ]
-        }
-    ],
-    "file_name": "mosquito",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/02/malware-pers-3.html",
-            "date": "2022-05-02",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 3. COM DLL hijack. Simple C++ example",
-            "categories": [
-                "Agent.BTZ",
-                "Ave Maria",
-                "Konni",
-                "Mosquito",
-                "TurlaRPC"
-            ]
-        },
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2020-0312.pdf",
-            "date": "2020-03-12",
-            "organization": "Recorded Future",
-            "author": "Insikt Group",
-            "title": "Swallowing the Snake\u2019s Tail: Tracking Turla Infrastructure",
-            "categories": [
-                "TwoFace",
-                "Mosquito"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2020/03/12/tracking-turla-new-backdoor-armenian-watering-holes/",
-            "date": "2020-03-12",
-            "organization": "ESET Research",
-            "author": "Matthieu Faou",
-            "title": "Tracking Turla: New backdoor delivered via Armenian watering holes",
-            "categories": [
-                "LightNeuron",
-                "Mosquito",
-                "NetFlash",
-                "Skipper"
-            ]
-        },
-        {
-            "data_url": "https://www.recordedfuture.com/turla-apt-infrastructure/",
-            "date": "2020-03-12",
-            "organization": "Recorded Future",
-            "author": "Insikt Group",
-            "title": "Swallowing the Snake\u2019s Tail: Tracking Turla Infrastructure",
-            "categories": [
-                "Mosquito",
-                "Sinowal"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hunter",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON HUNTER",
-            "categories": [
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "LightNeuron",
-                "Mosquito",
-                "Nautilus",
-                "Neuron",
-                "Skipper",
-                "Uroburos",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/shedding-skin-turlas-fresh-faces/88069/",
-            "date": "2018-10-04",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Shedding Skin \u2013 Turla\u2019s Fresh Faces",
-            "categories": [
-                "KopiLuwak",
-                "Agent.BTZ",
-                "Cobra Carbon System",
-                "Gazer",
-                "Meterpreter",
-                "Mosquito",
-                "Skipper"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/",
-            "date": "2018-05-22",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Turla Mosquito: A shift towards more generic tools",
-            "categories": [
-                "Mosquito",
-                "Turla"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/01/ESET_Turla_Mosquito.pdf",
-            "date": "2018-01",
-            "organization": "ESET Research",
-            "author": "Eset",
-            "title": "Diplomats in Eastern Europe bitten by a Turla mosquito",
-            "categories": [
-                "Mosquito"
             ]
         }
     ]

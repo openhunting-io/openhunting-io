@@ -43,6 +43,310 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "stuxnet",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
+            "date": "2021-12-01",
+            "organization": "ESET Research",
+            "author": "Alexis Dorais-Joncas",
+            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
+            "categories": [
+                "Agent.BTZ",
+                "Fanny",
+                "Flame",
+                "Gauss",
+                "PlugX",
+                "Ramsay",
+                "Retro",
+                "Stuxnet",
+                "USBCulprit",
+                "USBferry"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/Attacks-Against-Critical_Infrastructrure.pdf",
+            "date": "2021-08-05",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Attacks Against Critical Infrastructure: A Global Concern",
+            "categories": [
+                "BlackEnergy",
+                "DarkSide",
+                "DistTrack",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/s2wlab/w3-may-en-story-of-the-week-code-signing-certificate-on-the-darkweb-94c7ec437001",
+            "date": "2021-05-17",
+            "organization": "Medium s2wlab",
+            "author": "Hyunmin Suh",
+            "title": "W3 May | EN | Story of the week: Code Signing Certificate on the Darkweb",
+            "categories": [
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.domaintools.com/resources/blog/visibility-monitoring-and-critical-infrastructure-security",
+            "date": "2021-02-11",
+            "organization": "DomainTools",
+            "author": "Joe Slowik",
+            "title": "Visibility, Monitoring, and Critical Infrastructure Security",
+            "categories": [
+                "Industroyer",
+                "Stuxnet",
+                "Triton"
+            ]
+        },
+        {
+            "data_url": "https://fmmresearch.files.wordpress.com/2020/09/theemeraldconnectionreport_fmmr-2.pdf",
+            "date": "2020-09-28",
+            "organization": "fmmresearch wordpress",
+            "author": "Facundo Mu\u00f1oz",
+            "title": "The Emerald Connection: Equation Group collaboration with Stuxnet",
+            "categories": [
+                "Fanny",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://fmmresearch.wordpress.com/2020/09/28/the-emerald-connection-equationgroup-collaboration-with-stuxnet/",
+            "date": "2020-09-28",
+            "organization": "fmmresearch wordpress",
+            "author": "Facundo Mu\u00f1oz",
+            "title": "The Emerald Connection: EquationGroup collaboration with Stuxnet",
+            "categories": [
+                "Fanny",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.atlanticcouncil.org/wp-content/uploads/2020/07/Breaking-trust-Shades-of-crisis-across-an-insecure-software-supply-chain.pdf",
+            "date": "2020-07-29",
+            "organization": "Atlantic Council",
+            "author": "Trey Herr",
+            "title": "BREAKING TRUST: Shades of Crisis Across an Insecure Software Supply Chain",
+            "categories": [
+                "EternalPetya",
+                "GoldenSpy",
+                "Kwampirs",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.spiegel.de/netzwelt/web/die-erste-cyberwaffe-und-ihre-folgen-a-a0ed08c9-5080-4ac2-8518-ed69347dc147",
+            "date": "2020-06-17",
+            "organization": "Der Spiegel",
+            "author": "Patrick Beuth",
+            "title": "Die erste Cyberwaffe und ihre Folgen",
+            "categories": [
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+            "date": "2020-03-03",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2019:A Year in Retrospect",
+            "categories": [
+                "KevDroid",
+                "MESSAGETAP",
+                "magecart",
+                "AndroMut",
+                "Cobalt Strike",
+                "CobInt",
+                "Crimson RAT",
+                "DNSpionage",
+                "Dridex",
+                "Dtrack",
+                "Emotet",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Grateful POS",
+                "ISFB",
+                "Kazuar",
+                "LockerGoga",
+                "Nokki",
+                "QakBot",
+                "Ramnit",
+                "REvil",
+                "Rifdoor",
+                "RokRAT",
+                "Ryuk",
+                "shadowhammer",
+                "ShadowPad",
+                "Shifu",
+                "Skipper",
+                "StoneDrill",
+                "Stuxnet",
+                "TrickBot",
+                "Winnti",
+                "ZeroCleare",
+                "APT41",
+                "MUSTANG PANDA",
+                "Sea Turtle"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://news.yahoo.com/revealed-how-a-secret-dutch-mole-aided-the-us-israeli-stuxnet-cyber-attack-on-iran-160026018.html",
+            "date": "2019-09-02",
+            "organization": "Yahoo News",
+            "author": "Kim Zetter",
+            "title": "Revealed: How a secret Dutch mole aided the U.S.-Israeli Stuxnet cyberattack on Iran",
+            "categories": [
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://storage.googleapis.com/chronicle-research/STUXSHOP%20Stuxnet%20Dials%20In%20.pdf",
+            "date": "2019-04-09",
+            "organization": "Chronicle Security",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "The Oldest Stuxnet Component Dials Up",
+            "categories": [
+                "FlowerShop",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
+            "date": "2018-03",
+            "organization": "CrySyS Lab",
+            "author": "Boldizsar Bencsath",
+            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
+            "categories": [
+                "9002 RAT",
+                "Agent.BTZ",
+                "DuQu",
+                "EYService",
+                "Flame",
+                "FlowerShop",
+                "Stuxnet",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "http://artemonsecurity.blogspot.de/2017/04/stuxnet-drivers-detailed-analysis.html",
+            "date": "2017-04-13",
+            "organization": "A blog about rootkits research and the Windows kernel",
+            "author": "Artem Baranov",
+            "title": "Stuxnet drivers: detailed analysis",
+            "categories": [
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/10/20114955/Bartholomew-GuerreroSaade-VB2016.pdf",
+            "date": "2016-09-07",
+            "organization": "Virus Bulletin",
+            "author": "Brian Bartholomew",
+            "title": "Wave Your False Flags! Deception Tactics Muddying Attribution in Targeted Attacks",
+            "categories": [
+                "DuQu",
+                "JripBot",
+                "Sinowal",
+                "Stuxnet",
+                "Wipbot"
+            ]
+        },
+        {
+            "data_url": "https://www.codeproject.com/articles/246545/stuxnet-malware-analysis-paper",
+            "date": "2011-09-09",
+            "organization": "CodeProject",
+            "author": "AmrThabet",
+            "title": "Stuxnet Malware Analysis Paper",
+            "categories": [
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/media_files/white-papers/Stuxnet_Under_the_Microscope.pdf",
+            "date": "2011-01-03",
+            "organization": "ESET Research",
+            "author": "Aleksandr Matrosov",
+            "title": "Stuxnet Under the Microscope",
+            "categories": [
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://media.ccc.de/v/27c3-4245-en-adventures_in_analyzing_stuxnet",
+            "date": "2010-12-27",
+            "organization": "media.ccc.de",
+            "author": "Bruce Dang",
+            "title": "Adventures in analyzing Stuxnet",
+            "categories": [
+                "Stuxnet"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "stuxnet",
@@ -910,310 +1214,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "stuxnet",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf",
-            "date": "2021-12-01",
-            "organization": "ESET Research",
-            "author": "Alexis Dorais-Joncas",
-            "title": "Jumping the air gap: 15 years of nation\u2011state effort",
-            "categories": [
-                "Agent.BTZ",
-                "Fanny",
-                "Flame",
-                "Gauss",
-                "PlugX",
-                "Ramsay",
-                "Retro",
-                "Stuxnet",
-                "USBCulprit",
-                "USBferry"
-            ]
-        },
-        {
-            "data_url": "https://symantec.broadcom.com/hubfs/Attacks-Against-Critical_Infrastructrure.pdf",
-            "date": "2021-08-05",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Attacks Against Critical Infrastructure: A Global Concern",
-            "categories": [
-                "BlackEnergy",
-                "DarkSide",
-                "DistTrack",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/s2wlab/w3-may-en-story-of-the-week-code-signing-certificate-on-the-darkweb-94c7ec437001",
-            "date": "2021-05-17",
-            "organization": "Medium s2wlab",
-            "author": "Hyunmin Suh",
-            "title": "W3 May | EN | Story of the week: Code Signing Certificate on the Darkweb",
-            "categories": [
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.domaintools.com/resources/blog/visibility-monitoring-and-critical-infrastructure-security",
-            "date": "2021-02-11",
-            "organization": "DomainTools",
-            "author": "Joe Slowik",
-            "title": "Visibility, Monitoring, and Critical Infrastructure Security",
-            "categories": [
-                "Industroyer",
-                "Stuxnet",
-                "Triton"
-            ]
-        },
-        {
-            "data_url": "https://fmmresearch.files.wordpress.com/2020/09/theemeraldconnectionreport_fmmr-2.pdf",
-            "date": "2020-09-28",
-            "organization": "fmmresearch wordpress",
-            "author": "Facundo Mu\u00f1oz",
-            "title": "The Emerald Connection: Equation Group collaboration with Stuxnet",
-            "categories": [
-                "Fanny",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://fmmresearch.wordpress.com/2020/09/28/the-emerald-connection-equationgroup-collaboration-with-stuxnet/",
-            "date": "2020-09-28",
-            "organization": "fmmresearch wordpress",
-            "author": "Facundo Mu\u00f1oz",
-            "title": "The Emerald Connection: EquationGroup collaboration with Stuxnet",
-            "categories": [
-                "Fanny",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.atlanticcouncil.org/wp-content/uploads/2020/07/Breaking-trust-Shades-of-crisis-across-an-insecure-software-supply-chain.pdf",
-            "date": "2020-07-29",
-            "organization": "Atlantic Council",
-            "author": "Trey Herr",
-            "title": "BREAKING TRUST: Shades of Crisis Across an Insecure Software Supply Chain",
-            "categories": [
-                "EternalPetya",
-                "GoldenSpy",
-                "Kwampirs",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.spiegel.de/netzwelt/web/die-erste-cyberwaffe-und-ihre-folgen-a-a0ed08c9-5080-4ac2-8518-ed69347dc147",
-            "date": "2020-06-17",
-            "organization": "Der Spiegel",
-            "author": "Patrick Beuth",
-            "title": "Die erste Cyberwaffe und ihre Folgen",
-            "categories": [
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
-            "date": "2020-03-03",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2019:A Year in Retrospect",
-            "categories": [
-                "KevDroid",
-                "MESSAGETAP",
-                "magecart",
-                "AndroMut",
-                "Cobalt Strike",
-                "CobInt",
-                "Crimson RAT",
-                "DNSpionage",
-                "Dridex",
-                "Dtrack",
-                "Emotet",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "FriedEx",
-                "Gandcrab",
-                "Get2",
-                "GlobeImposter",
-                "Grateful POS",
-                "ISFB",
-                "Kazuar",
-                "LockerGoga",
-                "Nokki",
-                "QakBot",
-                "Ramnit",
-                "REvil",
-                "Rifdoor",
-                "RokRAT",
-                "Ryuk",
-                "shadowhammer",
-                "ShadowPad",
-                "Shifu",
-                "Skipper",
-                "StoneDrill",
-                "Stuxnet",
-                "TrickBot",
-                "Winnti",
-                "ZeroCleare",
-                "APT41",
-                "MUSTANG PANDA",
-                "Sea Turtle"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://news.yahoo.com/revealed-how-a-secret-dutch-mole-aided-the-us-israeli-stuxnet-cyber-attack-on-iran-160026018.html",
-            "date": "2019-09-02",
-            "organization": "Yahoo News",
-            "author": "Kim Zetter",
-            "title": "Revealed: How a secret Dutch mole aided the U.S.-Israeli Stuxnet cyberattack on Iran",
-            "categories": [
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://storage.googleapis.com/chronicle-research/STUXSHOP%20Stuxnet%20Dials%20In%20.pdf",
-            "date": "2019-04-09",
-            "organization": "Chronicle Security",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "The Oldest Stuxnet Component Dials Up",
-            "categories": [
-                "FlowerShop",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
-            "date": "2018-03",
-            "organization": "CrySyS Lab",
-            "author": "Boldizsar Bencsath",
-            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
-            "categories": [
-                "9002 RAT",
-                "Agent.BTZ",
-                "DuQu",
-                "EYService",
-                "Flame",
-                "FlowerShop",
-                "Stuxnet",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "http://artemonsecurity.blogspot.de/2017/04/stuxnet-drivers-detailed-analysis.html",
-            "date": "2017-04-13",
-            "organization": "A blog about rootkits research and the Windows kernel",
-            "author": "Artem Baranov",
-            "title": "Stuxnet drivers: detailed analysis",
-            "categories": [
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2017/10/20114955/Bartholomew-GuerreroSaade-VB2016.pdf",
-            "date": "2016-09-07",
-            "organization": "Virus Bulletin",
-            "author": "Brian Bartholomew",
-            "title": "Wave Your False Flags! Deception Tactics Muddying Attribution in Targeted Attacks",
-            "categories": [
-                "DuQu",
-                "JripBot",
-                "Sinowal",
-                "Stuxnet",
-                "Wipbot"
-            ]
-        },
-        {
-            "data_url": "https://www.codeproject.com/articles/246545/stuxnet-malware-analysis-paper",
-            "date": "2011-09-09",
-            "organization": "CodeProject",
-            "author": "AmrThabet",
-            "title": "Stuxnet Malware Analysis Paper",
-            "categories": [
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/media_files/white-papers/Stuxnet_Under_the_Microscope.pdf",
-            "date": "2011-01-03",
-            "organization": "ESET Research",
-            "author": "Aleksandr Matrosov",
-            "title": "Stuxnet Under the Microscope",
-            "categories": [
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://media.ccc.de/v/27c3-4245-en-adventures_in_analyzing_stuxnet",
-            "date": "2010-12-27",
-            "organization": "media.ccc.de",
-            "author": "Bruce Dang",
-            "title": "Adventures in analyzing Stuxnet",
-            "categories": [
-                "Stuxnet"
             ]
         }
     ]

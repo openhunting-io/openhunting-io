@@ -22,8 +22,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "pslist",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

@@ -70,7 +70,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-02-07 14:39:30",
-    "mitre": [],
     "file_name": "sload",
     "analysis": null,
     "articles": [
@@ -206,5 +205,6 @@ var threatdata = {
                 "sLoad"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

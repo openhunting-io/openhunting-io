@@ -35,8 +35,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "majikpos",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

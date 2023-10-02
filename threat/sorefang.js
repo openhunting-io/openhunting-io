@@ -36,6 +36,61 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sorefang",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
+            "date": "2020-11-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q3 2020",
+            "categories": [
+                "WellMail",
+                "EVILNUM",
+                "Janicab",
+                "Poet RAT",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "Crimson RAT",
+                "CROSSWALK",
+                "Dtrack",
+                "LODEINFO",
+                "MoriAgent",
+                "Okrum",
+                "PlugX",
+                "poisonplug",
+                "Rover",
+                "ShadowPad",
+                "SoreFang",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development.pdf",
+            "date": "2020-07-16",
+            "organization": "NCSC UK",
+            "author": "NCSC UK",
+            "title": "Advisory: APT29 targets COVID-19 vaccine development",
+            "categories": [
+                "WellMail",
+                "elf.wellmess",
+                "SoreFang",
+                "WellMess"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-198a",
+            "date": "2020-07-16",
+            "organization": "CISA",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR20-198A)",
+            "categories": [
+                "SoreFang"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "sorefang",
@@ -223,61 +278,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "sorefang can download additional payloads from c2.[421][422]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sorefang",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
-            "date": "2020-11-03",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q3 2020",
-            "categories": [
-                "WellMail",
-                "EVILNUM",
-                "Janicab",
-                "Poet RAT",
-                "AsyncRAT",
-                "Ave Maria",
-                "Cobalt Strike",
-                "Crimson RAT",
-                "CROSSWALK",
-                "Dtrack",
-                "LODEINFO",
-                "MoriAgent",
-                "Okrum",
-                "PlugX",
-                "poisonplug",
-                "Rover",
-                "ShadowPad",
-                "SoreFang",
-                "Winnti"
-            ]
-        },
-        {
-            "data_url": "https://www.ncsc.gov.uk/files/Advisory-APT29-targets-COVID-19-vaccine-development.pdf",
-            "date": "2020-07-16",
-            "organization": "NCSC UK",
-            "author": "NCSC UK",
-            "title": "Advisory: APT29 targets COVID-19 vaccine development",
-            "categories": [
-                "WellMail",
-                "elf.wellmess",
-                "SoreFang",
-                "WellMess"
-            ]
-        },
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-198a",
-            "date": "2020-07-16",
-            "organization": "CISA",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (AR20-198A)",
-            "categories": [
-                "SoreFang"
             ]
         }
     ]

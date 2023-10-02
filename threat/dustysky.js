@@ -37,6 +37,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "dustysky",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "dustysky",
@@ -310,8 +313,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "dustysky",
-    "analysis": null,
-    "articles": []
+    ]
 };

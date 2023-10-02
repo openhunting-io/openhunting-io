@@ -45,7 +45,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-01-31 12:01:55",
-    "mitre": [],
     "file_name": "titan",
     "analysis": null,
     "articles": [
@@ -70,5 +69,6 @@ var threatdata = {
                 "APT23"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

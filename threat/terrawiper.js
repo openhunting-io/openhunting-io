@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "terrawiper",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "wiper",
@@ -58,8 +61,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "terrawiper",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -32,7 +32,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "blacklotus",
     "analysis": null,
     "articles": [
@@ -86,5 +85,6 @@ var threatdata = {
                 "BlackLotus"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

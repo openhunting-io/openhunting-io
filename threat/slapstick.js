@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "slapstick",
     "analysis": null,
     "articles": [
@@ -54,5 +53,6 @@ var threatdata = {
                 "STEELCORGI"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

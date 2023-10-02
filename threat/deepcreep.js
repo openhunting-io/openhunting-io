@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "deepcreep",
     "analysis": null,
     "articles": [
@@ -58,5 +57,6 @@ var threatdata = {
                 "Unidentified 097 (Polonium Keylogger)"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

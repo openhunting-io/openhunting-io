@@ -1,37 +1,75 @@
 var threatdata = {
     "name": "GCMAN",
     "alias": "GCMAN",
-    "category": "Malware",
-    "type": "Banking trojan",
-    "modified": "2020-05-13",
+    "category": "APT",
+    "type": "-",
+    "modified": "2020-04-22",
     "all_data": {
-        "tool": "GCMAN",
+        "actor": "GCMAN",
         "names": [
             {
-                "name": "GCMAN"
+                "name": "GCMAN",
+                "name-giver": "Kaspersky"
             }
         ],
-        "description": "(Kaspersky) The initial infection mechanism is handled by spear-phishing. A financial institution is targeted with e-mails carrying a malicious RAR archive. When the RAR archive is opened an executable is started instead of a Microsoft Word document, resulting in infection. The group also plants a cron script into the bank's server to generate financial transactions at the rate of $200 per minute.",
-        "category": "Malware",
-        "type": [
-            "Banking trojan"
+        "country": [
+            "Russia"
+        ],
+        "motivation": [
+            "Financial crime"
+        ],
+        "first-seen": "2016",
+        "description": "(Kaspersky) A second group, which we call GCMAN because the malware is based on code compiled on the GCC compiler, emerged recently using similar techniques to the {{Corkow, Metel}} Group to infect banking institutions and attempt to transfer money to e-currency services.\n\nThe initial infection mechanism is handled by spear-phishing financial institution targets with e-mails carrying a malicious RAR archive to. Upon opening the RAR archive, an executable is started instead of a Microsoft Word document, resulting in infection.\n\nOnce inside the network, the GCMAN group uses legitimate and penetration testing tools such as Putty, VNC, and Meterpreter for lateral movement. Our investigation revealed an attack where the group then planted a cron script into bank\u2019s server, sending financial transactions at the rate of $200 per minute. A time-based scheduler was invoking the script every minute to post new transactions directly to upstream payment processing system. This allowed the group to transfer money to multiple e-currency services without these transactions being reported to any system inside the bank.",
+        "observed-sectors": [
+            "Financial"
+        ],
+        "observed-countries": [
+            "Russia"
+        ],
+        "tools": [
+            "GCMAN",
+            "Meterpreter",
+            "PuTTY",
+            "VNC",
+            "malicious RAR archives"
         ],
         "information": [
-            "https://www.kaspersky.com/resource-center/threats/gcman",
             "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.gcman"
+        "mitre-attack": [
+            "https://attack.mitre.org/groups/G0036/"
         ],
-        "alienvault-otx": [
-            "https://otx.alienvault.com/browse/pulses?q=tag:gcman"
-        ],
-        "uuid": "e825b6cc-cf52-4c62-936c-8ca786176b8d",
-        "last-card-change": "2020-05-13",
+        "uuid": "e6eeb30a-a941-46f9-8340-20958f1d6cb0",
+        "last-card-change": "2020-04-22",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "gcman",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/groups/G0036/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: GCMAN",
+            "categories": [
+                "GCMAN"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/",
+            "date": "2016-02-08",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT-style bank robberies increase with Metel, GCMAN and Carbanak 2.0 attacks",
+            "categories": [
+                "gcman",
+                "GCMAN"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "gcman",
@@ -63,31 +101,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to remotely control machines using virtual network computing (vnc).  vnc is a platform-independent desktop sharing system that uses the rfb (\"remote framebuffer\") protocol to enable users to remotely control another computer\u2019s display by relaying the screen, mouse, and keyboard inputs over the network.",
                     "procedure_description": "gcman uses vnc for lateral movement.[17]"
                 }
-            ]
-        }
-    ],
-    "file_name": "gcman",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://attack.mitre.org/groups/G0036/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: GCMAN",
-            "categories": [
-                "GCMAN"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-style-bank-robberies-increase-with-metel-gcman-and-carbanak-2-0-attacks/73638/",
-            "date": "2016-02-08",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT-style bank robberies increase with Metel, GCMAN and Carbanak 2.0 attacks",
-            "categories": [
-                "gcman",
-                "GCMAN"
             ]
         }
     ]

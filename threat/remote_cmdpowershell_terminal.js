@@ -26,6 +26,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "remote_cmdpowershell_terminal",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "cmd",
@@ -107,8 +110,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "remote_cmdpowershell_terminal",
-    "analysis": null,
-    "articles": []
+    ]
 };

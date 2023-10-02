@@ -28,6 +28,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "atmosphere",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.zdnet.com/article/new-silence-hacking-group-suspected-of-having-ties-to-cyber-security-industry/",
+            "date": "2018-09-05",
+            "organization": "ZDNet",
+            "author": "Catalin Cimpanu",
+            "title": "New Silence hacking group suspected of having ties to cyber-security industry",
+            "categories": [
+                "Atmosphere"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -71,20 +85,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "atmosphere",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.zdnet.com/article/new-silence-hacking-group-suspected-of-having-ties-to-cyber-security-industry/",
-            "date": "2018-09-05",
-            "organization": "ZDNet",
-            "author": "Catalin Cimpanu",
-            "title": "New Silence hacking group suspected of having ties to cyber-security industry",
-            "categories": [
-                "Atmosphere"
             ]
         }
     ]

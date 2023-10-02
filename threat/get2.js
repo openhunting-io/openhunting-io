@@ -40,13 +40,37 @@ var threatdata = {
             "malware_printable": "Get2",
             "malware_alias": "FRIENDSPEAK,GetandGo",
             "malware": "win.get2",
-            "last_update": "2023-09-26 12:05:42",
+            "last_update": "2023-10-01 20:30:38",
             "tags": [
                 "TA505",
                 "Get2"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "110.15.243.148:443",
+                        "timestamp": "2023-10-01 20:30:38"
+                    },
+                    {
+                        "value": "133.186.222.87:443",
+                        "timestamp": "2023-10-01 20:30:32"
+                    },
+                    {
+                        "value": "188.160.7.36:443",
+                        "timestamp": "2023-09-30 16:11:17"
+                    },
+                    {
+                        "value": "202.211.4.65:443",
+                        "timestamp": "2023-09-28 13:16:29"
+                    },
+                    {
+                        "value": "220.69.33.51:443",
+                        "timestamp": "2023-09-28 05:53:49"
+                    },
+                    {
+                        "value": "125.141.145.175:443",
+                        "timestamp": "2023-09-27 05:22:27"
+                    },
                     {
                         "value": "220.69.33.111:443",
                         "timestamp": "2023-09-26 12:05:42"
@@ -113,101 +137,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-26 12:05:42",
-    "mitre": [
-        {
-            "procedure_name": "get2",
-            "procedure_code": "s0460",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0460",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1059",
-                    "technique_link": "https://attack.mitre.org/techniques/T1059",
-                    "technique_name": "command and scripting interpreter",
-                    "technique_description": "adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. these interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms. most systems come with some built-in command-line interface and scripting capabilities, for example, macos and linux distributions include some flavor of unix shell while windows installations include the windows command shell and powershell.",
-                    "procedure_description": "get2 has the ability to run executables with command-line arguments.[25]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1055.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
-                    "technique_name": "process injection : dynamic-link library injection",
-                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
-                    "procedure_description": "get2 has the ability to inject dlls into processes.[33]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1055.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
-                    "technique_name": "process injection : dynamic-link library injection",
-                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
-                    "procedure_description": "get2 has the ability to inject dlls into processes.[33]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1057",
-                    "technique_link": "https://attack.mitre.org/techniques/T1057",
-                    "technique_name": "process discovery",
-                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "get2 has the ability to identify running processes on an infected host.[114]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1082",
-                    "technique_link": "https://attack.mitre.org/techniques/T1082",
-                    "technique_name": "system information discovery",
-                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "get2 has the ability to identify the computer name and windows version of an infected host.[145]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1033",
-                    "technique_link": "https://attack.mitre.org/techniques/T1033",
-                    "technique_name": "system owner/user discovery",
-                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "get2 has the ability to identify the current username of an infected host.[73]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
-                    "technique_name": "application layer protocol : web protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "get2 has the ability to use http to send information collected from an infected host to c2.[140]"
-                }
-            ]
-        }
-    ],
+    "last_ioc_update": "2023-10-01 20:30:38",
     "file_name": "get2",
     "analysis": null,
     "articles": [
@@ -665,6 +595,100 @@ var threatdata = {
             "title": "Analysis of the new TA505 campaign",
             "categories": [
                 "Get2"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "get2",
+            "procedure_code": "s0460",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0460",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1059",
+                    "technique_link": "https://attack.mitre.org/techniques/T1059",
+                    "technique_name": "command and scripting interpreter",
+                    "technique_description": "adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. these interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms. most systems come with some built-in command-line interface and scripting capabilities, for example, macos and linux distributions include some flavor of unix shell while windows installations include the windows command shell and powershell.",
+                    "procedure_description": "get2 has the ability to run executables with command-line arguments.[25]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "get2 has the ability to inject dlls into processes.[33]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/001",
+                    "technique_name": "process injection : dynamic-link library injection",
+                    "technique_description": "adversaries may inject dynamic-link libraries (dlls) into processes in order to evade process-based defenses as well as possibly elevate privileges. dll injection is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "get2 has the ability to inject dlls into processes.[33]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "get2 has the ability to identify running processes on an infected host.[114]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "get2 has the ability to identify the computer name and windows version of an infected host.[145]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "get2 has the ability to identify the current username of an infected host.[73]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "get2 has the ability to use http to send information collected from an infected host to c2.[140]"
+                }
             ]
         }
     ]

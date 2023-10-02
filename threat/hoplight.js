@@ -38,6 +38,219 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hoplight",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://labs.sentinelone.com/dprk-hidden-cobra-update-north-korean-malicious-cyber-activity/",
+            "date": "2020-02-25",
+            "organization": "SentinelOne",
+            "author": "Jim Walter",
+            "title": "DPRK Hidden Cobra Update: North Korean Malicious Cyber Activity",
+            "categories": [
+                "ARTFULPIE",
+                "BISTROMATH",
+                "BUFFETLINE",
+                "CHEESETRAY",
+                "HOPLIGHT",
+                "HOTCROISSANT",
+                "SLICKSHOES"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-045g",
+            "date": "2020-02-14",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR20-045G): MAR-10135536-8.v4 - North Korean Trojan: HOPLIGHT",
+            "categories": [
+                "HOPLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/nickel-academy",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "NICKEL ACADEMY",
+            "categories": [
+                "Brambul",
+                "Duuzer",
+                "HOPLIGHT",
+                "Joanap",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar19-304a",
+            "date": "2019-10-31",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Malware Analysis Report (AR19-304A)",
+            "categories": [
+                "HOPLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
+            "date": "2019-08-01",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q2 2019",
+            "categories": [
+                "ZooPark",
+                "magecart",
+                "POWERSTATS",
+                "Chaperone",
+                "COMpfun",
+                "EternalPetya",
+                "FinFisher RAT",
+                "HawkEye Keylogger",
+                "HOPLIGHT",
+                "Microcin",
+                "NjRAT",
+                "Olympic Destroyer",
+                "PLEAD",
+                "RokRAT",
+                "Triton",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.computing.co.uk/ctg/news/3074007/lazarus-rises-warning-over-new-hoplight-malware-linked-with-north-korea",
+            "date": "2019-04-11",
+            "organization": "Computing.co.uk",
+            "author": "Dev Kundaliya",
+            "title": "Lazarus rises: Warning over new HOPLIGHT malware linked with North Korea",
+            "categories": [
+                "HOPLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/AR19-100A",
+            "date": "2019-04-10",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Malware Analysis Report (AR19-100A): North Korean Trojan: HOPLIGHT",
+            "categories": [
+                "HOPLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2017/08/unit42-blockbuster-saga-continues/",
+            "date": "2017-08-14",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Anthony Kasza",
+            "title": "The Blockbuster Saga Continues",
+            "categories": [
+                "HOPLIGHT"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/blog/threat-research/FireEye_HWP_ZeroDay.pdf",
+            "date": "2015-09-10",
+            "organization": "FireEye",
+            "author": "Genwei Jiang",
+            "title": "Hangul Word Processor (HWP)Zero-Day: possible ties to North Korean threat actors",
+            "categories": [
+                "HOPLIGHT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "hoplight",
@@ -297,219 +510,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "hoplight has used its c2 channel to exfiltrate data.[58]"
                 }
-            ]
-        }
-    ],
-    "file_name": "hoplight",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://labs.sentinelone.com/dprk-hidden-cobra-update-north-korean-malicious-cyber-activity/",
-            "date": "2020-02-25",
-            "organization": "SentinelOne",
-            "author": "Jim Walter",
-            "title": "DPRK Hidden Cobra Update: North Korean Malicious Cyber Activity",
-            "categories": [
-                "ARTFULPIE",
-                "BISTROMATH",
-                "BUFFETLINE",
-                "CHEESETRAY",
-                "HOPLIGHT",
-                "HOTCROISSANT",
-                "SLICKSHOES"
-            ]
-        },
-        {
-            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
-            "date": "2020-02-19",
-            "organization": "Lexfo",
-            "author": "Lexfo",
-            "title": "The Lazarus Constellation A study on North Korean malware",
-            "categories": [
-                "FastCash",
-                "AppleJeus",
-                "BADCALL",
-                "Bankshot",
-                "Brambul",
-                "Dtrack",
-                "Duuzer",
-                "DYEPACK",
-                "ELECTRICFISH",
-                "HARDRAIN",
-                "Hermes",
-                "HOPLIGHT",
-                "Joanap",
-                "KEYMARBLE",
-                "Kimsuky",
-                "MimiKatz",
-                "MyDoom",
-                "NACHOCHEESE",
-                "NavRAT",
-                "PowerRatankba",
-                "RokRAT",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar20-045g",
-            "date": "2020-02-14",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (AR20-045G): MAR-10135536-8.v4 - North Korean Trojan: HOPLIGHT",
-            "categories": [
-                "HOPLIGHT"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/nickel-academy",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "NICKEL ACADEMY",
-            "categories": [
-                "Brambul",
-                "Duuzer",
-                "HOPLIGHT",
-                "Joanap",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/ar19-304a",
-            "date": "2019-10-31",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "Malware Analysis Report (AR19-304A)",
-            "categories": [
-                "HOPLIGHT"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q2-2019/91897/",
-            "date": "2019-08-01",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q2 2019",
-            "categories": [
-                "ZooPark",
-                "magecart",
-                "POWERSTATS",
-                "Chaperone",
-                "COMpfun",
-                "EternalPetya",
-                "FinFisher RAT",
-                "HawkEye Keylogger",
-                "HOPLIGHT",
-                "Microcin",
-                "NjRAT",
-                "Olympic Destroyer",
-                "PLEAD",
-                "RokRAT",
-                "Triton",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.computing.co.uk/ctg/news/3074007/lazarus-rises-warning-over-new-hoplight-malware-linked-with-north-korea",
-            "date": "2019-04-11",
-            "organization": "Computing.co.uk",
-            "author": "Dev Kundaliya",
-            "title": "Lazarus rises: Warning over new HOPLIGHT malware linked with North Korea",
-            "categories": [
-                "HOPLIGHT"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/ncas/analysis-reports/AR19-100A",
-            "date": "2019-04-10",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Malware Analysis Report (AR19-100A): North Korean Trojan: HOPLIGHT",
-            "categories": [
-                "HOPLIGHT"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2017/08/unit42-blockbuster-saga-continues/",
-            "date": "2017-08-14",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Anthony Kasza",
-            "title": "The Blockbuster Saga Continues",
-            "categories": [
-                "HOPLIGHT"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/blog/threat-research/FireEye_HWP_ZeroDay.pdf",
-            "date": "2015-09-10",
-            "organization": "FireEye",
-            "author": "Genwei Jiang",
-            "title": "Hangul Word Processor (HWP)Zero-Day: possible ties to North Korean threat actors",
-            "categories": [
-                "HOPLIGHT"
             ]
         }
     ]

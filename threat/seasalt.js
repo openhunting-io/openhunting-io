@@ -38,6 +38,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "seasalt",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "seasalt",
@@ -191,8 +194,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "seasalt",
-    "analysis": null,
-    "articles": []
+    ]
 };

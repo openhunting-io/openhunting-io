@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "heriplor",
     "analysis": null,
     "articles": [
@@ -83,5 +82,6 @@ var threatdata = {
                 "Listrix"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

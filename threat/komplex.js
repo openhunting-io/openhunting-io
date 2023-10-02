@@ -40,6 +40,78 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "komplex",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
+            "date": "2017-02-20",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
+            "categories": [
+                "X-Agent",
+                "Komplex",
+                "Coreshell",
+                "Downdelph",
+                "HideDRV",
+                "SEADADDY",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "https://objective-see.com/blog/blog_0x16.html",
+            "date": "2017-01-01",
+            "organization": "Objective-See",
+            "author": "Patrick Wardle",
+            "title": "Mac Malware of 2016",
+            "categories": [
+                "KeRanger",
+                "Keydnap",
+                "Komplex",
+                "Laoshu",
+                "MacInstaller",
+                "MacVX",
+                "Mokes",
+                "WireLurker",
+                "XSLCmd"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-analysis/2016/09/komplex-mac-backdoor-answers-old-questions/",
+            "date": "2016-09-27",
+            "organization": "Malwarebytes",
+            "author": "Thomas Reed",
+            "title": "Komplex Mac backdoor answers old questions",
+            "categories": [
+                "Komplex"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
+            "date": "2016-09-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Dani Creus",
+            "title": "Sofacy\u2019s \u2018Komplex\u2019 OS X Trojan",
+            "categories": [
+                "Komplex"
+            ]
+        },
+        {
+            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
+            "date": "2016-08",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "En Route with Sednit - Part 1: Approaching the Target",
+            "categories": [
+                "Komplex",
+                "Seduploader"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "komplex",
@@ -143,78 +215,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "the komplex c2 channel uses an 11-byte xor algorithm to hide data.[76]"
                 }
-            ]
-        }
-    ],
-    "file_name": "komplex",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
-            "date": "2017-02-20",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
-            "categories": [
-                "X-Agent",
-                "Komplex",
-                "Coreshell",
-                "Downdelph",
-                "HideDRV",
-                "SEADADDY",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "https://objective-see.com/blog/blog_0x16.html",
-            "date": "2017-01-01",
-            "organization": "Objective-See",
-            "author": "Patrick Wardle",
-            "title": "Mac Malware of 2016",
-            "categories": [
-                "KeRanger",
-                "Keydnap",
-                "Komplex",
-                "Laoshu",
-                "MacInstaller",
-                "MacVX",
-                "Mokes",
-                "WireLurker",
-                "XSLCmd"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-analysis/2016/09/komplex-mac-backdoor-answers-old-questions/",
-            "date": "2016-09-27",
-            "organization": "Malwarebytes",
-            "author": "Thomas Reed",
-            "title": "Komplex Mac backdoor answers old questions",
-            "categories": [
-                "Komplex"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2016/09/unit42-sofacys-komplex-os-x-trojan/",
-            "date": "2016-09-26",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Dani Creus",
-            "title": "Sofacy\u2019s \u2018Komplex\u2019 OS X Trojan",
-            "categories": [
-                "Komplex"
-            ]
-        },
-        {
-            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part1.pdf",
-            "date": "2016-08",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "En Route with Sednit - Part 1: Approaching the Target",
-            "categories": [
-                "Komplex",
-                "Seduploader"
             ]
         }
     ]

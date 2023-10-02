@@ -38,6 +38,61 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "felixroot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
+            "date": "2021-09-06",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "AV engines evasion for C++ simple malware: part 2",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "Anchor",
+                "AnchorMTea",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Felixroot",
+                "Konni",
+                "Loki Password Stealer (PWS)",
+                "Maze"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf",
+            "date": "2018-10-18",
+            "organization": "ESET Research",
+            "author": "Anton Cherepanov",
+            "title": "GREYENERGY: A successor to BlackEnergy",
+            "categories": [
+                "Felixroot",
+                "GreyEnergy"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@Sebdraven/when-a-malware-is-more-complex-than-the-paper-5822fc7ff257",
+            "date": "2018-08-28",
+            "organization": "Medium Sebdraven",
+            "author": "S\u00e9bastien Larinier",
+            "title": "When a malware is more complex than the paper",
+            "categories": [
+                "Felixroot"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html",
+            "date": "2018-07-26",
+            "organization": "FireEye",
+            "author": "Swapnil Patil",
+            "title": "Microsoft Office Vulnerabilities Used to Distribute FELIXROOT Backdoor in Recent Campaign",
+            "categories": [
+                "Felixroot"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "felixroot",
@@ -533,61 +588,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "greyenergy has used tor relays for command and control servers.[11]"
                 }
-            ]
-        }
-    ],
-    "file_name": "felixroot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
-            "date": "2021-09-06",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "AV engines evasion for C++ simple malware: part 2",
-            "categories": [
-                "Agent Tesla",
-                "Amadey",
-                "Anchor",
-                "AnchorMTea",
-                "Carbanak",
-                "Carberp",
-                "Cardinal RAT",
-                "Felixroot",
-                "Konni",
-                "Loki Password Stealer (PWS)",
-                "Maze"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/10/ESET_GreyEnergy.pdf",
-            "date": "2018-10-18",
-            "organization": "ESET Research",
-            "author": "Anton Cherepanov",
-            "title": "GREYENERGY: A successor to BlackEnergy",
-            "categories": [
-                "Felixroot",
-                "GreyEnergy"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/@Sebdraven/when-a-malware-is-more-complex-than-the-paper-5822fc7ff257",
-            "date": "2018-08-28",
-            "organization": "Medium Sebdraven",
-            "author": "S\u00e9bastien Larinier",
-            "title": "When a malware is more complex than the paper",
-            "categories": [
-                "Felixroot"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2018/07/microsoft-office-vulnerabilities-used-to-distribute-felixroot-backdoor.html",
-            "date": "2018-07-26",
-            "organization": "FireEye",
-            "author": "Swapnil Patil",
-            "title": "Microsoft Office Vulnerabilities Used to Distribute FELIXROOT Backdoor in Recent Campaign",
-            "categories": [
-                "Felixroot"
             ]
         }
     ]

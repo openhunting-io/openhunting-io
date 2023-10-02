@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerstar",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "charmpower",
@@ -325,8 +328,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "powerstar",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -40,7 +40,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "asacub",
     "analysis": null,
     "articles": [
@@ -71,5 +70,6 @@ var threatdata = {
                 "Asacub"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

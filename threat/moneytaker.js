@@ -1,31 +1,49 @@
 var threatdata = {
     "name": "MoneyTaker",
     "alias": "MoneyTaker",
-    "category": "Malware",
-    "type": "Banking trojan",
-    "modified": "2020-04-20",
+    "category": "APT",
+    "type": "-",
+    "modified": "2020-04-14",
     "all_data": {
-        "tool": "MoneyTaker",
+        "actor": "MoneyTaker",
         "names": [
             {
-                "name": "MoneyTaker"
+                "name": "MoneyTaker",
+                "name-giver": "Group-IB"
             }
         ],
-        "description": "(Group-IB) In an attack on a Russian bank through the AWS CBR, hackers used a tool called MoneyTaker v5.0, which the group has been named after. Each component of this modular program performs a certain action: searches for payment orders and modifies them, replaces original payment details with fraudulent ones, and then erases traces. The success of replacement is due to the fact that at this stage the payment order has not yet been signed, which will occur after payment details are replaced. In addition to hiding the tracks, the concealment module again substitutes the fraudulent payment details in a debit advice after the transaction back with the original ones. This means that the payment order is sent and accepted for execution with the fraudulent payment details, and the responses come as if the payment details were the initial ones. This gives cybercriminals extra time to mule funds before the theft is detected.",
-        "category": "Malware",
-        "type": [
-            "Banking trojan"
+        "country": [
+            "Russia"
+        ],
+        "motivation": [
+            "Financial crime"
+        ],
+        "first-seen": "2016",
+        "description": "(Group-IB) In less than two years, this group has conducted over 20 successful attacks on financial institutions and legal firms in the USA, UK and Russia. The group has primarily been targeting card processing systems, including the AWS CBR (Russian Interbank System) and purportedly SWIFT (US). Given the wide usage of STAR in LATAM, financial institutions in LATAM could have particular exposure to a potential interest from the MoneyTaker group.\n\nAlthough the group has been successful at targeting a number of banks in different countries, to date, they have gone unreported. In addition to banks, the MoneyTaker group has attacked law firms and also financial software vendors. In total, Group-IB has confirmed 20 companies as MoneyTaker victims, with 16 attacks on US organizations, 3 attacks on Russian banks and 1 in the UK.",
+        "observed-sectors": [
+            "Financial"
+        ],
+        "observed-countries": [
+            "Russia",
+            "UK",
+            "USA"
+        ],
+        "tools": [
+            "Citadel",
+            "Kronos",
+            "Metasploit",
+            "MoneyTaker",
+            "Screenshotter"
         ],
         "information": [
             "https://www.group-ib.com/blog/moneytaker"
         ],
-        "uuid": "37a3a707-92e1-4ac7-bd2d-7a1779e5b3bb",
-        "last-card-change": "2020-04-20",
+        "uuid": "8993618c-1ca6-47b2-a304-483f88810ad5",
+        "last-card-change": "2020-04-14",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "moneytaker",
     "analysis": null,
     "articles": [
@@ -49,5 +67,6 @@ var threatdata = {
                 "MoneyTaker"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

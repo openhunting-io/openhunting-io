@@ -32,6 +32,31 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "satellite_turla",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://nsarchive.gwu.edu/sites/default/files/documents/3921357/Government-of-Canada-Hackers-are-Humans-Too.pdf",
+            "date": "2017-08-09",
+            "organization": "CSE",
+            "author": "CSE Canada",
+            "title": "Hackers are Humans too",
+            "categories": [
+                "Satellite Turla"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/satellite-turla-apt-command-and-control-in-the-sky/72081/",
+            "date": "2015-09-09",
+            "organization": "Kaspersky Labs",
+            "author": "Stefan Tanase",
+            "title": "Satellite Turla: APT Command and Control in the Sky",
+            "categories": [
+                "Satellite Turla",
+                "Turla"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "turla",
@@ -995,31 +1020,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "satellite_turla",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://nsarchive.gwu.edu/sites/default/files/documents/3921357/Government-of-Canada-Hackers-are-Humans-Too.pdf",
-            "date": "2017-08-09",
-            "organization": "CSE",
-            "author": "CSE Canada",
-            "title": "Hackers are Humans too",
-            "categories": [
-                "Satellite Turla"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/satellite-turla-apt-command-and-control-in-the-sky/72081/",
-            "date": "2015-09-09",
-            "organization": "Kaspersky Labs",
-            "author": "Stefan Tanase",
-            "title": "Satellite Turla: APT Command and Control in the Sky",
-            "categories": [
-                "Satellite Turla",
-                "Turla"
             ]
         }
     ]

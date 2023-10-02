@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "usbstealer",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "usbstealer",
@@ -235,8 +238,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "usbstealer",
-    "analysis": null,
-    "articles": []
+    ]
 };

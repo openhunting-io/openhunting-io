@@ -62,16 +62,16 @@ var threatdata = {
             "malware_printable": "NetWire RC",
             "malware_alias": "NetWeird,NetWire,Recam",
             "malware": "win.netwire",
-            "last_update": "2023-09-10 22:41:29",
+            "last_update": "2023-09-27 18:37:46",
             "tags": [
+                "rar",
+                "NetWire",
+                "RAT",
                 "7z",
                 "exe",
-                "NetWire",
                 "NetWire RAT",
-                "rar",
                 "netwire",
-                "Netwire",
-                "RAT"
+                "Netwire"
             ],
             "ioc": {
                 "ip:port": [
@@ -729,7 +729,7 @@ var threatdata = {
                     },
                     {
                         "value": "89.238.150.43:5512",
-                        "timestamp": "2023-09-10 22:09:02"
+                        "timestamp": "2023-09-27 18:37:46"
                     },
                     {
                         "value": "193.56.29.131:3360",
@@ -1979,11 +1979,11 @@ var threatdata = {
                     },
                     {
                         "value": "exportmunic007.duckdns.org",
-                        "timestamp": "2023-09-10 21:58:04"
+                        "timestamp": "2023-09-27 13:54:31"
                     },
                     {
                         "value": "info1.dynamic-dns.net",
-                        "timestamp": "2021-10-14 15:01:45"
+                        "timestamp": "2023-09-27 13:54:19"
                     },
                     {
                         "value": "netwire.linkpc.net",
@@ -2015,7 +2015,766 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-10 22:41:29",
+    "last_ioc_update": "2023-09-27 18:37:46",
+    "file_name": "netwire_rc",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
+            "date": "2023-09-08",
+            "organization": "",
+            "author": "Gi7w0rm",
+            "title": "Uncovering DDGroup \u2014 A long-time threat actor",
+            "categories": [
+                "AsyncRAT",
+                "Ave Maria",
+                "BitRAT",
+                "DBatLoader",
+                "NetWire RC",
+                "Quasar RAT",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://research.loginsoft.com/threat-research/from-innocence-to-malice-the-onenote-malware-campaign-uncovered/",
+            "date": "2023-03-30",
+            "organization": "loginsoft",
+            "author": "Saharsh Agrawal",
+            "title": "From Innocence to Malice: The OneNote Malware Campaign Uncovered",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "DOUBLEBACK",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "NetWire RC",
+                "QakBot",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "XWorm"
+            ]
+        },
+        {
+            "data_url": "https://www.intego.com/mac-security-blog/fbi-shuts-down-11-year-old-netwire-rat-malware/",
+            "date": "2023-03-16",
+            "organization": "Intego",
+            "author": "Joshua Long",
+            "title": "FBI shuts down 11-year-old NetWire RAT malware",
+            "categories": [
+                "NetWire"
+            ]
+        },
+        {
+            "data_url": "https://www.theregister.com/2023/03/10/fbi_netwire_seizure/",
+            "date": "2023-03-10",
+            "organization": "The Register",
+            "author": "Jessica Lyons Hardcastle",
+            "title": "FBI and international cops catch a NetWire RAT",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/following-the-scent-of-trickgate-6-year-old-packer-used-to-deploy-the-most-wanted-malware/",
+            "date": "2023-01-30",
+            "organization": "Checkpoint",
+            "author": "Arie Olshtein",
+            "title": "Following the Scent of TrickGate: 6-Year-Old Packer Used to Deploy the Most Wanted Malware",
+            "categories": [
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cerber",
+                "Cobalt Strike",
+                "Emotet",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Maze",
+                "NetWire RC",
+                "Remcos",
+                "REvil",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/file/d/13prt2ve_sHNRRiGthB07qtfuinftJX35/view",
+            "date": "2022-12-18",
+            "organization": "ZAYOTEM",
+            "author": "Enes \u015eakir \u00c7olak",
+            "title": "NetWire Technical Analysis Report",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://lmntrix.com/lab/analysis-of-netwire-rat/",
+            "date": "2022-11-06",
+            "organization": "LMNTRIX",
+            "author": "LMNTRIX",
+            "title": "Analysis Of Netwire RAT",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2022-10-13",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2022",
+            "categories": [
+                "FluBot",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "Emotet",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Socelars",
+                "Tofsee",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/threat-actors-prey-on-eager-travelers",
+            "date": "2022-06-02",
+            "organization": "FortiGuard Labs",
+            "author": "Fred Gutierrez",
+            "title": "Threat Actors Prey on Eager Travelers",
+            "categories": [
+                "AsyncRAT",
+                "NetWire RC",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=TeQdZxP0RYY",
+            "date": "2022-02-18",
+            "organization": "YouTube (John Hammond)",
+            "author": "John Hammond",
+            "title": "Uncovering NETWIRE Malware - Discovery & Deobfuscation",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://threatpost.com/ta2541-apt-rats-aviation/178422/",
+            "date": "2022-02-15",
+            "organization": "Threat Post",
+            "author": "Elizabeth Montalbano",
+            "title": "TA2541: APT Has Been Shooting RATs at Aviation for Years",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "NetWire RC",
+                "Parallax RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/unskilled-hacker-linked-to-years-of-attacks-on-aviation-transport-sectors/",
+            "date": "2022-02-15",
+            "organization": "BleepingComputer",
+            "author": "Ionut Ilascu",
+            "title": "Unskilled hacker linked to years of attacks on aviation, transport sectors",
+            "categories": [
+                "AsyncRAT",
+                "Houdini",
+                "NetWire RC",
+                "Parallax RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence/",
+            "date": "2022-02-09",
+            "organization": "Sentinel LABS",
+            "author": "Tom Hegel",
+            "title": "ModifiedElephant APT and a Decade of Fabricating Evidence",
+            "categories": [
+                "DarkComet",
+                "Incubator",
+                "NetWire RC",
+                "ModifiedElephant"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/wp-content/uploads/2022/02/Modified-Elephant-APT-and-a-Decade-of-Fabricating-Evidence-SentinelLabs.pdf",
+            "date": "2022-02-09",
+            "organization": "SentinelOne",
+            "author": "Tom Hegel",
+            "title": "Modified Elephant APT and a Decade of Fabricating Evidence",
+            "categories": [
+                "DarkComet",
+                "Incubator",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/01/nanocore-netwire-and-asyncrat-spreading.html",
+            "date": "2022-01-12",
+            "organization": "Cisco",
+            "author": "Chetan Raghuprasad",
+            "title": "Nanocore, Netwire and AsyncRAT spreading campaign uses public cloud infrastructure",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://community.riskiq.com/article/24759ad2",
+            "date": "2021-12-13",
+            "organization": "RiskIQ",
+            "author": "Jordan Herman",
+            "title": "RiskIQ: Connections between Nanocore, Netwire, and AsyncRAT and Vjw0rm dynamic DNS C2 infrastructure",
+            "categories": [
+                "AsyncRAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/10/HP-Wolf-Security-Threat-Insights-Report-Q3-2021.pdf",
+            "date": "2021-10",
+            "organization": "HP",
+            "author": "HP Wolf Security",
+            "title": "Threat Insights  Report Q3 - 2021",
+            "categories": [
+                "STRRAT",
+                "CloudEyE",
+                "NetWire RC",
+                "Remcos",
+                "TrickBot",
+                "Vjw0rm"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/09/operation-armor-piercer.html",
+            "date": "2021-09-23",
+            "organization": "Talos",
+            "author": "Asheer Malhotra",
+            "title": "Operation \u201cArmor Piercer:\u201d Targeted attacks in the Indian subcontinent using commercial RATs",
+            "categories": [
+                "Ave Maria",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2021/09/threat-thursday-netwire-rat-is-coming-down-the-line",
+            "date": "2021-09-16",
+            "organization": "Blackberry",
+            "author": "The BlackBerry Research & Intelligence Team",
+            "title": "Threat Thursday: NetWire RAT is Coming Down the Line",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/xUM2x89GuB8uP6otN612Fg",
+            "date": "2021-09-01",
+            "organization": "360 Threat Intelligence Center",
+            "author": "Advanced Threat Institute",
+            "title": "APT-C-56 (Transparent Tribe) Latest Attack Analysis and Associated Suspected Gorgon Group Attack Analysis Alert",
+            "categories": [
+                "Crimson RAT",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/yrDzybPVTbu_9SrZPlSNKA",
+            "date": "2021-08-05",
+            "organization": "Twitter (@BaoshengbinCumt)",
+            "author": "2ero",
+            "title": "Attacks on NCGSA, MOITT, MOD, NSCP and SCO in Pakistan",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "IBM",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
+            "date": "2021-07-12",
+            "organization": "Cipher Tech Solutions",
+            "author": "Melissa Frydrych",
+            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
+            "categories": [
+                "404 Keylogger",
+                "Agent Tesla",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "BitRAT",
+                "Formbook",
+                "HawkEye Keylogger",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "RedLine Stealer",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://drive.google.com/file/d/1dD2sWYES_hrPsoql4G0aVF9ILIxAS4Fd/view",
+            "date": "2021-06-10",
+            "organization": "ZAYOTEM",
+            "author": "Fatma Nur G\u00f6z\u00fck\u00fc\u00e7\u00fck",
+            "title": "NetWire Technical Analysis Report",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader",
+            "date": "2021-05-07",
+            "organization": "Morphisec",
+            "author": "Nadav Lorber",
+            "title": "Revealing the \u2018Snip3\u2019 Crypter, a Highly Evasive RAT Loader",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "NetWire RC",
+                "Revenge RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/catching-rats-over-custom-protocols",
+            "date": "2021-05-05",
+            "organization": "Zscaler",
+            "author": "Aniruddha Dolas",
+            "title": "Catching RATs Over Custom Protocols Analysis of top non-HTTP/S threats",
+            "categories": [
+                "Agent Tesla",
+                "AsyncRAT",
+                "Crimson RAT",
+                "CyberGate",
+                "Ghost RAT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Quasar RAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/04/a-year-of-fajan-evolution-and-bloomberg.html",
+            "date": "2021-04-21",
+            "organization": "Talos",
+            "author": "Vanja Svajcer",
+            "title": "A year of Fajan evolution and Bloomberg themed campaigns",
+            "categories": [
+                "MASS Logger",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Revenge RAT",
+                "XpertRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.zscaler.com/blogs/security-research/look-hydrojiin-campaign",
+            "date": "2021-04-14",
+            "organization": "Zscaler",
+            "author": "Rohit Chaturvedi",
+            "title": "A look at HydroJiin campaign",
+            "categories": [
+                "NetWire RC",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/cybereason-exposes-malware-targeting-us-taxpayers",
+            "date": "2021-03-18",
+            "organization": "Cybereason",
+            "author": "Daniel Frank",
+            "title": "Cybereason Exposes Campaign Targeting US Taxpayers with NetWire and Remcos Malware",
+            "categories": [
+                "NetWire RC",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://context-cdn.washingtonpost.com/notes/prod/default/documents/b19a6f2e-55a1-4915-9c2d-5fae0110418c/note/b463d38b-2384-4bb0-a94b-b1b17223ffd0.",
+            "date": "2021-02-08",
+            "organization": "Arsenal Consulting",
+            "author": "Arsenal Consulting",
+            "title": "National Investigation Agency VS Sudhir Pralhad Dhawale & others Report 1",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2021/01/09/c2-traffic-patterns-personal-notes/",
+            "date": "2021-01-09",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Command and Control Traffic Patterns",
+            "categories": [
+                "ostap",
+                "LaZagne",
+                "Agent Tesla",
+                "Azorult",
+                "Buer",
+                "Cobalt Strike",
+                "DanaBot",
+                "DarkComet",
+                "Dridex",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "ISFB",
+                "NetWire RC",
+                "PlugX",
+                "Quasar RAT",
+                "SmokeLoader",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.gdatasoftware.com/blog/global-pandemic-remcos-tesla-netwire",
+            "date": "2020-11-18",
+            "organization": "G Data",
+            "author": "G-Data",
+            "title": "Business as usual: Criminal Activities in Times of a Global Pandemic",
+            "categories": [
+                "Agent Tesla",
+                "Nanocore RAT",
+                "NetWire RC",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
+            "date": "2020-07-30",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q2 2020",
+            "categories": [
+                "AdWind",
+                "Agent Tesla",
+                "Arkei Stealer",
+                "AsyncRAT",
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "KPOT Stealer",
+                "Loki Password Stealer (PWS)",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Pony",
+                "Raccoon",
+                "RedLine Stealer",
+                "Remcos",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/07/14/raticate-rats-as-service-with-commercial-crypter/?cmp=30728",
+            "date": "2020-07-14",
+            "organization": "SophosLabs Uncut",
+            "author": "Markel Picado",
+            "title": "RATicate upgrades \u201cRATs as a Service\u201d attacks with commercial \u201ccrypter\u201d",
+            "categories": [
+                "LokiBot",
+                "BetaBot",
+                "CloudEyE",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/",
+            "date": "2020-06-15",
+            "organization": "Amnesty International",
+            "author": "Amnesty International",
+            "title": "India: Human Rights Defenders Targeted by a Coordinated Spyware Operation",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://resources.malwarebytes.com/files/2020/05/CTNT_Q1_2020_COVID-Report_Final.pdf",
+            "date": "2020-05-21",
+            "organization": "Malwarebytes",
+            "author": "Malwarebytes Labs",
+            "title": "Cybercrime tactics and techniques",
+            "categories": [
+                "Ave Maria",
+                "Azorult",
+                "DanaBot",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://news.sophos.com/en-us/2020/05/14/raticate/",
+            "date": "2020-05-14",
+            "organization": "SophosLabs",
+            "author": "Markel Picado",
+            "title": "RATicate: an attacker\u2019s waves of information-stealing malware",
+            "categories": [
+                "Agent Tesla",
+                "BetaBot",
+                "BlackRemote",
+                "Formbook",
+                "Loki Password Stealer (PWS)",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://yoroi.company/research/new-cyber-operation-targets-italy-digging-into-the-netwire-attack-chain/",
+            "date": "2020-05-06",
+            "organization": "Yoroi",
+            "author": "Luigi Martire",
+            "title": "New Cyber Operation Targets Italy: Digging Into the Netwire Attack Chain",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/guloader-installing-netwire-rat/",
+            "date": "2020-04-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "GuLoader: Malspam Campaign Installing NetWire RAT",
+            "categories": [
+                "CloudEyE",
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://umbrella.cisco.com/blog/navigating-cybersecurity-during-a-pandemic-latest-malware-and-threat-actors",
+            "date": "2020-04-01",
+            "organization": "Cisco",
+            "author": "Shyam Sundar Ramaswami",
+            "title": "Navigating Cybersecurity During a Pandemic: Latest Malware and Threat Actors",
+            "categories": [
+                "Azorult",
+                "CloudEyE",
+                "Formbook",
+                "KPOT Stealer",
+                "Metamorfo",
+                "Nanocore RAT",
+                "NetWire RC",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.vincss.net/2020/03/re011-unpack-crypter-cua-malware-netwire-bang-x64dbg.html",
+            "date": "2020-03-05",
+            "organization": "VinCSS",
+            "author": "Dang Dinh Phuong",
+            "title": "[RE011] Unpack crypter c\u1ee7a malware Netwire b\u1eb1ng x64dbg",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "COBALT TRINITY",
+            "categories": [
+                "POWERTON",
+                "pupy",
+                "Imminent Monitor RAT",
+                "Koadic",
+                "Nanocore RAT",
+                "NetWire RC",
+                "PoshC2",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+            "date": "2019-11-19",
+            "organization": "FireEye",
+            "author": "Kelli Vanderlee",
+            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
+            "categories": [
+                "MESSAGETAP",
+                "TSCookie",
+                "ACEHASH",
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "Derusbi",
+                "Empire Downloader",
+                "Ghost RAT",
+                "HIGHNOON",
+                "HTran",
+                "MimiKatz",
+                "NetWire RC",
+                "poisonplug",
+                "Poison Ivy",
+                "pupy",
+                "Quasar RAT",
+                "ZXShell"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/new-whiteshadow-downloader-uses-microsoft-sql-retrieve-malware",
+            "date": "2019-09-26",
+            "organization": "Proofpoint",
+            "author": "Bryan Campbell",
+            "title": "New WhiteShadow downloader uses Microsoft SQL to retrieve malware",
+            "categories": [
+                "WhiteShadow",
+                "Agent Tesla",
+                "Azorult",
+                "Crimson RAT",
+                "Formbook",
+                "Nanocore RAT",
+                "NetWire RC",
+                "NjRAT",
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/adolfstreda/the-tangle-of-wiryjmpers-obfuscation/",
+            "date": "2019-09-12",
+            "organization": "Avast",
+            "author": "Adolf St\u0159eda",
+            "title": "The tangle of WiryJMPer\u2019s obfuscation",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://news.drweb.ru/show/?i=13281&c=23",
+            "date": "2019-05-08",
+            "organization": "Dr.Web",
+            "author": "Dr.Web",
+            "title": "A new threat for macOS spreads as WhatsApp",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/elfin-apt33-espionage",
+            "date": "2019-03-27",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
+            "categories": [
+                "DarkComet",
+                "MimiKatz",
+                "Nanocore RAT",
+                "NetWire RC",
+                "pupy",
+                "Quasar RAT",
+                "Remcos",
+                "StoneDrill",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://maskop9.wordpress.com/2019/01/30/analysis-of-netwiredrc-trojan/",
+            "date": "2019-01-30",
+            "organization": "",
+            "author": "Samip Pokharel",
+            "title": "Analysis of NetWiredRC trojan",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/12/recam-redux-deconfusing-confuserex.html",
+            "date": "2017-12-06",
+            "organization": "Cisco",
+            "author": "Holger Unterbrink",
+            "title": "Recam Redux - DeConfusing ConfuserEx",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+            "date": "2017-09-20",
+            "organization": "FireEye",
+            "author": "Jacqueline O\u2019Leary",
+            "title": "Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware",
+            "categories": [
+                "DROPSHOT",
+                "Nanocore RAT",
+                "NetWire RC",
+                "SHAPESHIFT",
+                "TURNEDUP",
+                "APT33"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/blog/netwire-rat-steals-payment-card-data",
+            "date": "2016-11-28",
+            "organization": "Secureworks",
+            "author": "Incident Reponse Team",
+            "title": "NetWire RAT Steals Payment Card Data",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "https://www.circl.lu/pub/tr-23/",
+            "date": "2014-11-26",
+            "organization": "CIRCL",
+            "author": "CIRCL",
+            "title": "TR-23 Analysis - NetWiredRC malware",
+            "categories": [
+                "NetWire RC"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2014/08/new-release-decrypting-netwire-c2-traffic/",
+            "date": "2014-08-04",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Phil Da Silva",
+            "title": "New Release: Decrypting NetWire C2 Traffic",
+            "categories": [
+                "NetWire RC"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "netwire",
@@ -2927,765 +3686,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "netwire_rc",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
-            "date": "2023-09-08",
-            "organization": "",
-            "author": "Gi7w0rm",
-            "title": "Uncovering DDGroup \u2014 A long-time threat actor",
-            "categories": [
-                "AsyncRAT",
-                "Ave Maria",
-                "BitRAT",
-                "DBatLoader",
-                "NetWire RC",
-                "Quasar RAT",
-                "XWorm"
-            ]
-        },
-        {
-            "data_url": "https://research.loginsoft.com/threat-research/from-innocence-to-malice-the-onenote-malware-campaign-uncovered/",
-            "date": "2023-03-30",
-            "organization": "loginsoft",
-            "author": "Saharsh Agrawal",
-            "title": "From Innocence to Malice: The OneNote Malware Campaign Uncovered",
-            "categories": [
-                "Agent Tesla",
-                "AsyncRAT",
-                "DOUBLEBACK",
-                "Emotet",
-                "Formbook",
-                "IcedID",
-                "NetWire RC",
-                "QakBot",
-                "Quasar RAT",
-                "RedLine Stealer",
-                "XWorm"
-            ]
-        },
-        {
-            "data_url": "https://www.intego.com/mac-security-blog/fbi-shuts-down-11-year-old-netwire-rat-malware/",
-            "date": "2023-03-16",
-            "organization": "Intego",
-            "author": "Joshua Long",
-            "title": "FBI shuts down 11-year-old NetWire RAT malware",
-            "categories": [
-                "NetWire"
-            ]
-        },
-        {
-            "data_url": "https://www.theregister.com/2023/03/10/fbi_netwire_seizure/",
-            "date": "2023-03-10",
-            "organization": "The Register",
-            "author": "Jessica Lyons Hardcastle",
-            "title": "FBI and international cops catch a NetWire RAT",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2023/following-the-scent-of-trickgate-6-year-old-packer-used-to-deploy-the-most-wanted-malware/",
-            "date": "2023-01-30",
-            "organization": "Checkpoint",
-            "author": "Arie Olshtein",
-            "title": "Following the Scent of TrickGate: 6-Year-Old Packer Used to Deploy the Most Wanted Malware",
-            "categories": [
-                "Agent Tesla",
-                "Azorult",
-                "Buer",
-                "Cerber",
-                "Cobalt Strike",
-                "Emotet",
-                "Formbook",
-                "HawkEye Keylogger",
-                "Loki Password Stealer (PWS)",
-                "Maze",
-                "NetWire RC",
-                "Remcos",
-                "REvil",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://drive.google.com/file/d/13prt2ve_sHNRRiGthB07qtfuinftJX35/view",
-            "date": "2022-12-18",
-            "organization": "ZAYOTEM",
-            "author": "Enes \u015eakir \u00c7olak",
-            "title": "NetWire Technical Analysis Report",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://lmntrix.com/lab/analysis-of-netwire-rat/",
-            "date": "2022-11-06",
-            "organization": "LMNTRIX",
-            "author": "LMNTRIX",
-            "title": "Analysis Of Netwire RAT",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2022%20Q3%20Botnet%20Threat%20Update.pdf",
-            "date": "2022-10-13",
-            "organization": "Spamhaus",
-            "author": "Spamhaus Malware Labs",
-            "title": "Spamhaus Botnet Threat Update Q3 2022",
-            "categories": [
-                "FluBot",
-                "Arkei Stealer",
-                "AsyncRAT",
-                "Ave Maria",
-                "BumbleBee",
-                "Cobalt Strike",
-                "DCRat",
-                "Dridex",
-                "Emotet",
-                "Loki Password Stealer (PWS)",
-                "Nanocore RAT",
-                "NetWire RC",
-                "NjRAT",
-                "QakBot",
-                "RecordBreaker",
-                "RedLine Stealer",
-                "Remcos",
-                "Socelars",
-                "Tofsee",
-                "Vjw0rm"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/threat-actors-prey-on-eager-travelers",
-            "date": "2022-06-02",
-            "organization": "FortiGuard Labs",
-            "author": "Fred Gutierrez",
-            "title": "Threat Actors Prey on Eager Travelers",
-            "categories": [
-                "AsyncRAT",
-                "NetWire RC",
-                "Quasar RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=TeQdZxP0RYY",
-            "date": "2022-02-18",
-            "organization": "YouTube (John Hammond)",
-            "author": "John Hammond",
-            "title": "Uncovering NETWIRE Malware - Discovery & Deobfuscation",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://threatpost.com/ta2541-apt-rats-aviation/178422/",
-            "date": "2022-02-15",
-            "organization": "Threat Post",
-            "author": "Elizabeth Montalbano",
-            "title": "TA2541: APT Has Been Shooting RATs at Aviation for Years",
-            "categories": [
-                "AsyncRAT",
-                "Houdini",
-                "NetWire RC",
-                "Parallax RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/unskilled-hacker-linked-to-years-of-attacks-on-aviation-transport-sectors/",
-            "date": "2022-02-15",
-            "organization": "BleepingComputer",
-            "author": "Ionut Ilascu",
-            "title": "Unskilled hacker linked to years of attacks on aviation, transport sectors",
-            "categories": [
-                "AsyncRAT",
-                "Houdini",
-                "NetWire RC",
-                "Parallax RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.sentinelone.com/labs/modifiedelephant-apt-and-a-decade-of-fabricating-evidence/",
-            "date": "2022-02-09",
-            "organization": "Sentinel LABS",
-            "author": "Tom Hegel",
-            "title": "ModifiedElephant APT and a Decade of Fabricating Evidence",
-            "categories": [
-                "DarkComet",
-                "Incubator",
-                "NetWire RC",
-                "ModifiedElephant"
-            ]
-        },
-        {
-            "data_url": "https://www.sentinelone.com/wp-content/uploads/2022/02/Modified-Elephant-APT-and-a-Decade-of-Fabricating-Evidence-SentinelLabs.pdf",
-            "date": "2022-02-09",
-            "organization": "SentinelOne",
-            "author": "Tom Hegel",
-            "title": "Modified Elephant APT and a Decade of Fabricating Evidence",
-            "categories": [
-                "DarkComet",
-                "Incubator",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2022/01/nanocore-netwire-and-asyncrat-spreading.html",
-            "date": "2022-01-12",
-            "organization": "Cisco",
-            "author": "Chetan Raghuprasad",
-            "title": "Nanocore, Netwire and AsyncRAT spreading campaign uses public cloud infrastructure",
-            "categories": [
-                "AsyncRAT",
-                "Nanocore RAT",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://community.riskiq.com/article/24759ad2",
-            "date": "2021-12-13",
-            "organization": "RiskIQ",
-            "author": "Jordan Herman",
-            "title": "RiskIQ: Connections between Nanocore, Netwire, and AsyncRAT and Vjw0rm dynamic DNS C2 infrastructure",
-            "categories": [
-                "AsyncRAT",
-                "Nanocore RAT",
-                "NetWire RC",
-                "Vjw0rm"
-            ]
-        },
-        {
-            "data_url": "https://threatresearch.ext.hp.com/wp-content/uploads/2021/10/HP-Wolf-Security-Threat-Insights-Report-Q3-2021.pdf",
-            "date": "2021-10",
-            "organization": "HP",
-            "author": "HP Wolf Security",
-            "title": "Threat Insights  Report Q3 - 2021",
-            "categories": [
-                "STRRAT",
-                "CloudEyE",
-                "NetWire RC",
-                "Remcos",
-                "TrickBot",
-                "Vjw0rm"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2021/09/operation-armor-piercer.html",
-            "date": "2021-09-23",
-            "organization": "Talos",
-            "author": "Asheer Malhotra",
-            "title": "Operation \u201cArmor Piercer:\u201d Targeted attacks in the Indian subcontinent using commercial RATs",
-            "categories": [
-                "Ave Maria",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://blogs.blackberry.com/en/2021/09/threat-thursday-netwire-rat-is-coming-down-the-line",
-            "date": "2021-09-16",
-            "organization": "Blackberry",
-            "author": "The BlackBerry Research & Intelligence Team",
-            "title": "Threat Thursday: NetWire RAT is Coming Down the Line",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/xUM2x89GuB8uP6otN612Fg",
-            "date": "2021-09-01",
-            "organization": "360 Threat Intelligence Center",
-            "author": "Advanced Threat Institute",
-            "title": "APT-C-56 (Transparent Tribe) Latest Attack Analysis and Associated Suspected Gorgon Group Attack Analysis Alert",
-            "categories": [
-                "Crimson RAT",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/yrDzybPVTbu_9SrZPlSNKA",
-            "date": "2021-08-05",
-            "organization": "Twitter (@BaoshengbinCumt)",
-            "author": "2ero",
-            "title": "Attacks on NCGSA, MOITT, MOD, NSCP and SCO in Pakistan",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://securityintelligence.com/posts/roboski-global-recovery-automation/",
-            "date": "2021-07-12",
-            "organization": "IBM",
-            "author": "Melissa Frydrych",
-            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
-            "categories": [
-                "404 Keylogger",
-                "Agent Tesla",
-                "AsyncRAT",
-                "Ave Maria",
-                "Azorult",
-                "BitRAT",
-                "Formbook",
-                "HawkEye Keylogger",
-                "Loki Password Stealer (PWS)",
-                "Nanocore RAT",
-                "NetWire RC",
-                "NjRAT",
-                "Quasar RAT",
-                "RedLine Stealer",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://www.ciphertechsolutions.com/roboski-global-recovery-automation/",
-            "date": "2021-07-12",
-            "organization": "Cipher Tech Solutions",
-            "author": "Melissa Frydrych",
-            "title": "RoboSki and Global Recovery: Automation to Combat Evolving Obfuscation",
-            "categories": [
-                "404 Keylogger",
-                "Agent Tesla",
-                "AsyncRAT",
-                "Ave Maria",
-                "Azorult",
-                "BitRAT",
-                "Formbook",
-                "HawkEye Keylogger",
-                "Loki Password Stealer (PWS)",
-                "Nanocore RAT",
-                "NetWire RC",
-                "NjRAT",
-                "Quasar RAT",
-                "RedLine Stealer",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://drive.google.com/file/d/1dD2sWYES_hrPsoql4G0aVF9ILIxAS4Fd/view",
-            "date": "2021-06-10",
-            "organization": "ZAYOTEM",
-            "author": "Fatma Nur G\u00f6z\u00fck\u00fc\u00e7\u00fck",
-            "title": "NetWire Technical Analysis Report",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://blog.morphisec.com/revealing-the-snip3-crypter-a-highly-evasive-rat-loader",
-            "date": "2021-05-07",
-            "organization": "Morphisec",
-            "author": "Nadav Lorber",
-            "title": "Revealing the \u2018Snip3\u2019 Crypter, a Highly Evasive RAT Loader",
-            "categories": [
-                "Agent Tesla",
-                "AsyncRAT",
-                "NetWire RC",
-                "Revenge RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.zscaler.com/blogs/security-research/catching-rats-over-custom-protocols",
-            "date": "2021-05-05",
-            "organization": "Zscaler",
-            "author": "Aniruddha Dolas",
-            "title": "Catching RATs Over Custom Protocols Analysis of top non-HTTP/S threats",
-            "categories": [
-                "Agent Tesla",
-                "AsyncRAT",
-                "Crimson RAT",
-                "CyberGate",
-                "Ghost RAT",
-                "Nanocore RAT",
-                "NetWire RC",
-                "NjRAT",
-                "Quasar RAT",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2021/04/a-year-of-fajan-evolution-and-bloomberg.html",
-            "date": "2021-04-21",
-            "organization": "Talos",
-            "author": "Vanja Svajcer",
-            "title": "A year of Fajan evolution and Bloomberg themed campaigns",
-            "categories": [
-                "MASS Logger",
-                "Nanocore RAT",
-                "NetWire RC",
-                "Revenge RAT",
-                "XpertRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.zscaler.com/blogs/security-research/look-hydrojiin-campaign",
-            "date": "2021-04-14",
-            "organization": "Zscaler",
-            "author": "Rohit Chaturvedi",
-            "title": "A look at HydroJiin campaign",
-            "categories": [
-                "NetWire RC",
-                "Quasar RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/cybereason-exposes-malware-targeting-us-taxpayers",
-            "date": "2021-03-18",
-            "organization": "Cybereason",
-            "author": "Daniel Frank",
-            "title": "Cybereason Exposes Campaign Targeting US Taxpayers with NetWire and Remcos Malware",
-            "categories": [
-                "NetWire RC",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://context-cdn.washingtonpost.com/notes/prod/default/documents/b19a6f2e-55a1-4915-9c2d-5fae0110418c/note/b463d38b-2384-4bb0-a94b-b1b17223ffd0.",
-            "date": "2021-02-08",
-            "organization": "Arsenal Consulting",
-            "author": "Arsenal Consulting",
-            "title": "National Investigation Agency VS Sudhir Pralhad Dhawale & others Report 1",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://marcoramilli.com/2021/01/09/c2-traffic-patterns-personal-notes/",
-            "date": "2021-01-09",
-            "organization": "Marco Ramilli's Blog",
-            "author": "Marco Ramilli",
-            "title": "Command and Control Traffic Patterns",
-            "categories": [
-                "ostap",
-                "LaZagne",
-                "Agent Tesla",
-                "Azorult",
-                "Buer",
-                "Cobalt Strike",
-                "DanaBot",
-                "DarkComet",
-                "Dridex",
-                "Emotet",
-                "Formbook",
-                "IcedID",
-                "ISFB",
-                "NetWire RC",
-                "PlugX",
-                "Quasar RAT",
-                "SmokeLoader",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://www.gdatasoftware.com/blog/global-pandemic-remcos-tesla-netwire",
-            "date": "2020-11-18",
-            "organization": "G Data",
-            "author": "G-Data",
-            "title": "Business as usual: Criminal Activities in Times of a Global Pandemic",
-            "categories": [
-                "Agent Tesla",
-                "Nanocore RAT",
-                "NetWire RC",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://www.spamhaus.org/news/images/botnet-report-2020-q2/2020-q2-spamhaus-botnet-threat-report.pdf",
-            "date": "2020-07-30",
-            "organization": "Spamhaus",
-            "author": "Spamhaus Malware Labs",
-            "title": "Spamhaus Botnet Threat Update Q2 2020",
-            "categories": [
-                "AdWind",
-                "Agent Tesla",
-                "Arkei Stealer",
-                "AsyncRAT",
-                "Ave Maria",
-                "Azorult",
-                "DanaBot",
-                "Emotet",
-                "IcedID",
-                "ISFB",
-                "KPOT Stealer",
-                "Loki Password Stealer (PWS)",
-                "Nanocore RAT",
-                "NetWire RC",
-                "NjRAT",
-                "Pony",
-                "Raccoon",
-                "RedLine Stealer",
-                "Remcos",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://news.sophos.com/en-us/2020/07/14/raticate-rats-as-service-with-commercial-crypter/?cmp=30728",
-            "date": "2020-07-14",
-            "organization": "SophosLabs Uncut",
-            "author": "Markel Picado",
-            "title": "RATicate upgrades \u201cRATs as a Service\u201d attacks with commercial \u201ccrypter\u201d",
-            "categories": [
-                "LokiBot",
-                "BetaBot",
-                "CloudEyE",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://www.amnesty.org/en/latest/research/2020/06/india-human-rights-defenders-targeted-by-a-coordinated-spyware-operation/",
-            "date": "2020-06-15",
-            "organization": "Amnesty International",
-            "author": "Amnesty International",
-            "title": "India: Human Rights Defenders Targeted by a Coordinated Spyware Operation",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://resources.malwarebytes.com/files/2020/05/CTNT_Q1_2020_COVID-Report_Final.pdf",
-            "date": "2020-05-21",
-            "organization": "Malwarebytes",
-            "author": "Malwarebytes Labs",
-            "title": "Cybercrime tactics and techniques",
-            "categories": [
-                "Ave Maria",
-                "Azorult",
-                "DanaBot",
-                "Loki Password Stealer (PWS)",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://news.sophos.com/en-us/2020/05/14/raticate/",
-            "date": "2020-05-14",
-            "organization": "SophosLabs",
-            "author": "Markel Picado",
-            "title": "RATicate: an attacker\u2019s waves of information-stealing malware",
-            "categories": [
-                "Agent Tesla",
-                "BetaBot",
-                "BlackRemote",
-                "Formbook",
-                "Loki Password Stealer (PWS)",
-                "NetWire RC",
-                "NjRAT",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://yoroi.company/research/new-cyber-operation-targets-italy-digging-into-the-netwire-attack-chain/",
-            "date": "2020-05-06",
-            "organization": "Yoroi",
-            "author": "Luigi Martire",
-            "title": "New Cyber Operation Targets Italy: Digging Into the Netwire Attack Chain",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/guloader-installing-netwire-rat/",
-            "date": "2020-04-03",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Brad Duncan",
-            "title": "GuLoader: Malspam Campaign Installing NetWire RAT",
-            "categories": [
-                "CloudEyE",
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://umbrella.cisco.com/blog/navigating-cybersecurity-during-a-pandemic-latest-malware-and-threat-actors",
-            "date": "2020-04-01",
-            "organization": "Cisco",
-            "author": "Shyam Sundar Ramaswami",
-            "title": "Navigating Cybersecurity During a Pandemic: Latest Malware and Threat Actors",
-            "categories": [
-                "Azorult",
-                "CloudEyE",
-                "Formbook",
-                "KPOT Stealer",
-                "Metamorfo",
-                "Nanocore RAT",
-                "NetWire RC",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://blog.vincss.net/2020/03/re011-unpack-crypter-cua-malware-netwire-bang-x64dbg.html",
-            "date": "2020-03-05",
-            "organization": "VinCSS",
-            "author": "Dang Dinh Phuong",
-            "title": "[RE011] Unpack crypter c\u1ee7a malware Netwire b\u1eb1ng x64dbg",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/cobalt-trinity",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "COBALT TRINITY",
-            "categories": [
-                "POWERTON",
-                "pupy",
-                "Imminent Monitor RAT",
-                "Koadic",
-                "Nanocore RAT",
-                "NetWire RC",
-                "PoshC2",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
-            "date": "2019-11-19",
-            "organization": "FireEye",
-            "author": "Kelli Vanderlee",
-            "title": "Achievement Unlocked: Chinese Cyber Espionage Evolves to Support Higher Level Missions",
-            "categories": [
-                "MESSAGETAP",
-                "TSCookie",
-                "ACEHASH",
-                "CHINACHOPPER",
-                "Cobalt Strike",
-                "Derusbi",
-                "Empire Downloader",
-                "Ghost RAT",
-                "HIGHNOON",
-                "HTran",
-                "MimiKatz",
-                "NetWire RC",
-                "poisonplug",
-                "Poison Ivy",
-                "pupy",
-                "Quasar RAT",
-                "ZXShell"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/new-whiteshadow-downloader-uses-microsoft-sql-retrieve-malware",
-            "date": "2019-09-26",
-            "organization": "Proofpoint",
-            "author": "Bryan Campbell",
-            "title": "New WhiteShadow downloader uses Microsoft SQL to retrieve malware",
-            "categories": [
-                "WhiteShadow",
-                "Agent Tesla",
-                "Azorult",
-                "Crimson RAT",
-                "Formbook",
-                "Nanocore RAT",
-                "NetWire RC",
-                "NjRAT",
-                "Remcos"
-            ]
-        },
-        {
-            "data_url": "https://decoded.avast.io/adolfstreda/the-tangle-of-wiryjmpers-obfuscation/",
-            "date": "2019-09-12",
-            "organization": "Avast",
-            "author": "Adolf St\u0159eda",
-            "title": "The tangle of WiryJMPer\u2019s obfuscation",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://news.drweb.ru/show/?i=13281&c=23",
-            "date": "2019-05-08",
-            "organization": "Dr.Web",
-            "author": "Dr.Web",
-            "title": "A new threat for macOS spreads as WhatsApp",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/elfin-apt33-espionage",
-            "date": "2019-03-27",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.",
-            "categories": [
-                "DarkComet",
-                "MimiKatz",
-                "Nanocore RAT",
-                "NetWire RC",
-                "pupy",
-                "Quasar RAT",
-                "Remcos",
-                "StoneDrill",
-                "TURNEDUP",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://maskop9.wordpress.com/2019/01/30/analysis-of-netwiredrc-trojan/",
-            "date": "2019-01-30",
-            "organization": "",
-            "author": "Samip Pokharel",
-            "title": "Analysis of NetWiredRC trojan",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/12/recam-redux-deconfusing-confuserex.html",
-            "date": "2017-12-06",
-            "organization": "Cisco",
-            "author": "Holger Unterbrink",
-            "title": "Recam Redux - DeConfusing ConfuserEx",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
-            "date": "2017-09-20",
-            "organization": "FireEye",
-            "author": "Jacqueline O\u2019Leary",
-            "title": "Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware",
-            "categories": [
-                "DROPSHOT",
-                "Nanocore RAT",
-                "NetWire RC",
-                "SHAPESHIFT",
-                "TURNEDUP",
-                "APT33"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/blog/netwire-rat-steals-payment-card-data",
-            "date": "2016-11-28",
-            "organization": "Secureworks",
-            "author": "Incident Reponse Team",
-            "title": "NetWire RAT Steals Payment Card Data",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "https://www.circl.lu/pub/tr-23/",
-            "date": "2014-11-26",
-            "organization": "CIRCL",
-            "author": "CIRCL",
-            "title": "TR-23 Analysis - NetWiredRC malware",
-            "categories": [
-                "NetWire RC"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2014/08/new-release-decrypting-netwire-c2-traffic/",
-            "date": "2014-08-04",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Phil Da Silva",
-            "title": "New Release: Decrypting NetWire C2 Traffic",
-            "categories": [
-                "NetWire RC"
             ]
         }
     ]

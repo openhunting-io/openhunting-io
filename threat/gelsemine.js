@@ -28,8 +28,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "gelsemine",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

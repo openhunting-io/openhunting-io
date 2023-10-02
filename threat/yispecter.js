@@ -34,6 +34,36 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "yispecter",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secuinfra.com/en/techtalk/whatever-floats-your-boat-bitter-apt-continues-to-target-bangladesh/",
+            "date": "2022-07-05",
+            "organization": "SECUINFRA",
+            "author": "SECUINFRA Falcon Team",
+            "title": "Whatever floats your Boat \u2013 Bitter APT continues to target Bangladesh",
+            "categories": [
+                "AlmondRAT",
+                "Artra Downloader",
+                "Bitter RAT",
+                "ZxxZ"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
+            "date": "2022-05-11",
+            "organization": "Cisco Talos",
+            "author": "Cisco Talos",
+            "title": "Bitter APT adds Bangladesh to their targets",
+            "categories": [
+                "AndroRAT",
+                "Artra Downloader",
+                "Bitter RAT",
+                "ZxxZ"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "zxxz",
@@ -233,36 +263,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "zxxz can download and execute additional files.[68]"
                 }
-            ]
-        }
-    ],
-    "file_name": "yispecter",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secuinfra.com/en/techtalk/whatever-floats-your-boat-bitter-apt-continues-to-target-bangladesh/",
-            "date": "2022-07-05",
-            "organization": "SECUINFRA",
-            "author": "SECUINFRA Falcon Team",
-            "title": "Whatever floats your Boat \u2013 Bitter APT continues to target Bangladesh",
-            "categories": [
-                "AlmondRAT",
-                "Artra Downloader",
-                "Bitter RAT",
-                "ZxxZ"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html",
-            "date": "2022-05-11",
-            "organization": "Cisco Talos",
-            "author": "Cisco Talos",
-            "title": "Bitter APT adds Bangladesh to their targets",
-            "categories": [
-                "AndroRAT",
-                "Artra Downloader",
-                "Bitter RAT",
-                "ZxxZ"
             ]
         }
     ]

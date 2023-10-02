@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powersploit",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "powersploit",
@@ -571,8 +574,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "powersploit",
-    "analysis": null,
-    "articles": []
+    ]
 };

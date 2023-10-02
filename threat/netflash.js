@@ -31,6 +31,23 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "netflash",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2020/03/12/tracking-turla-new-backdoor-armenian-watering-holes/",
+            "date": "2020-03-12",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "Tracking Turla: New backdoor delivered via Armenian watering holes",
+            "categories": [
+                "LightNeuron",
+                "Mosquito",
+                "NetFlash",
+                "Skipper"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "net",
@@ -218,23 +235,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "lateral movement can be done with net through net use commands to connect to the on remote systems.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "netflash",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/2020/03/12/tracking-turla-new-backdoor-armenian-watering-holes/",
-            "date": "2020-03-12",
-            "organization": "ESET Research",
-            "author": "Matthieu Faou",
-            "title": "Tracking Turla: New backdoor delivered via Armenian watering holes",
-            "categories": [
-                "LightNeuron",
-                "Mosquito",
-                "NetFlash",
-                "Skipper"
             ]
         }
     ]

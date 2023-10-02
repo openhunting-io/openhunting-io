@@ -36,6 +36,33 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "kgh_spy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://mp.weixin.qq.com/s/cbaePmZSk_Ob0r486RMXyw",
+            "date": "2021-07-14",
+            "organization": "Microstep Online Research Response Center",
+            "author": "Microstep Online Research Response Center",
+            "title": "Old trees and new flowers: Analysis of the new version of KGH spy components used by Kimsuky",
+            "categories": [
+                "KGH_SPY"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+            "date": "2020-11-02",
+            "organization": "Cybereason",
+            "author": "Assaf Dahan",
+            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
+            "categories": [
+                "BabyShark",
+                "GoldDragon",
+                "KGH_SPY",
+                "Kimsuky"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "kgh_spy",
@@ -307,33 +334,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "kgh_spy can exfiltrate collected information from the host to the c2 server.[66]"
                 }
-            ]
-        }
-    ],
-    "file_name": "kgh_spy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://mp.weixin.qq.com/s/cbaePmZSk_Ob0r486RMXyw",
-            "date": "2021-07-14",
-            "organization": "Microstep Online Research Response Center",
-            "author": "Microstep Online Research Response Center",
-            "title": "Old trees and new flowers: Analysis of the new version of KGH spy components used by Kimsuky",
-            "categories": [
-                "KGH_SPY"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
-            "date": "2020-11-02",
-            "organization": "Cybereason",
-            "author": "Assaf Dahan",
-            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
-            "categories": [
-                "BabyShark",
-                "GoldDragon",
-                "KGH_SPY",
-                "Kimsuky"
             ]
         }
     ]

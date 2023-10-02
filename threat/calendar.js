@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "calendar",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "calendar",
@@ -62,8 +65,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "calendar",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -29,6 +29,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "888_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2021/09/07/bladehawk-android-espionage-kurdish/",
+            "date": "2021-09-07",
+            "organization": "ESET Research",
+            "author": "Luk\u00e1\u0161 \u0160tefanko",
+            "title": "BladeHawk group: Android espionage against Kurdish ethnic group",
+            "categories": [
+                "888 RAT",
+                "BladeHawk"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -72,21 +87,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "888_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/2021/09/07/bladehawk-android-espionage-kurdish/",
-            "date": "2021-09-07",
-            "organization": "ESET Research",
-            "author": "Luk\u00e1\u0161 \u0160tefanko",
-            "title": "BladeHawk group: Android espionage against Kurdish ethnic group",
-            "categories": [
-                "888 RAT",
-                "BladeHawk"
             ]
         }
     ]

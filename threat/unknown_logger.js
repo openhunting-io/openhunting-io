@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "unknown_logger",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "unknown logger",
@@ -157,8 +160,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "unknown_logger",
-    "analysis": null,
-    "articles": []
+    ]
 };

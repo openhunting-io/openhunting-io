@@ -24,24 +24,8 @@ const suggestions = [
         "url": "threat-library-detail?data=agent_tesla"
     },
     {
-        "text": "Ave Maria (Ave Maria, AVE_MARIA, AveMariaRAT, avemaria)",
-        "url": "threat-library-detail?data=ave_maria"
-    },
-    {
-        "text": "AsyncRAT (AsyncRAT)",
-        "url": "threat-library-detail?data=asyncrat"
-    },
-    {
-        "text": "NanoCore RAT (NanoCore RAT, NanoCore, Nancrat, Zurten, Atros2.CKPN)",
-        "url": "threat-library-detail?data=nanocore_rat"
-    },
-    {
-        "text": "DarkCrystal RAT (DarkCrystal RAT, DCRat)",
-        "url": "threat-library-detail?data=darkcrystal_rat"
-    },
-    {
-        "text": "Get2 (Get2, FRIENDSPEAK, GetandGo)",
-        "url": "threat-library-detail?data=get2"
+        "text": "VIDAR (VIDAR)",
+        "url": "threat-library-detail?data=vidar"
     },
     {
         "text": "Meterpreter (Meterpreter)",
@@ -52,36 +36,68 @@ const suggestions = [
         "url": "threat-library-detail?data=sliver"
     },
     {
-        "text": "Vjw0rm (Vjw0rm, Vengeance Justice Worm)",
-        "url": "threat-library-detail?data=vjw0rm"
+        "text": "DarkCrystal RAT (DarkCrystal RAT, DCRat)",
+        "url": "threat-library-detail?data=darkcrystal_rat"
     },
     {
-        "text": "BlackNET RAT (BlackNET RAT)",
-        "url": "threat-library-detail?data=blacknet_rat"
-    },
-    {
-        "text": "njRAT (njRAT, Bladabindi, Jorik)",
-        "url": "threat-library-detail?data=njrat"
+        "text": "Get2 (Get2, FRIENDSPEAK, GetandGo)",
+        "url": "threat-library-detail?data=get2"
     },
     {
         "text": "Responder (Responder, SpiderLabs Responder)",
         "url": "threat-library-detail?data=responder"
     },
     {
-        "text": "RMS (RMS, Remote Manipulator System, Gussdoor)",
-        "url": "threat-library-detail?data=rms"
-    },
-    {
         "text": "BumbleBee (BumbleBee)",
         "url": "threat-library-detail?data=bumblebee"
     },
     {
-        "text": "VIDAR (VIDAR)",
-        "url": "threat-library-detail?data=vidar"
+        "text": "AsyncRAT (AsyncRAT)",
+        "url": "threat-library-detail?data=asyncrat"
+    },
+    {
+        "text": "Ave Maria (Ave Maria, AVE_MARIA, AveMariaRAT, avemaria)",
+        "url": "threat-library-detail?data=ave_maria"
+    },
+    {
+        "text": "ExoBot (ExoBot)",
+        "url": "threat-library-detail?data=exobot"
+    },
+    {
+        "text": "NanoCore RAT (NanoCore RAT, NanoCore, Nancrat, Zurten, Atros2.CKPN)",
+        "url": "threat-library-detail?data=nanocore_rat"
+    },
+    {
+        "text": "njRAT (njRAT, Bladabindi, Jorik)",
+        "url": "threat-library-detail?data=njrat"
+    },
+    {
+        "text": "Vjw0rm (Vjw0rm, Vengeance Justice Worm)",
+        "url": "threat-library-detail?data=vjw0rm"
     },
     {
         "text": "BitRAT (BitRAT)",
         "url": "threat-library-detail?data=bitrat"
+    },
+    {
+        "text": "Gozi (Gozi, CRM, Gozi CRM, Papras, Ursnif, Snifula)",
+        "url": "threat-library-detail?data=gozi"
+    },
+    {
+        "text": "NetWire RC (NetWire RC, NetWire RAT, NetWired RC, NetWire, NetWeird, Recam)",
+        "url": "threat-library-detail?data=netwire_rc"
+    },
+    {
+        "text": "LimeRAT (LimeRAT)",
+        "url": "threat-library-detail?data=limerat"
+    },
+    {
+        "text": "BlackNET RAT (BlackNET RAT)",
+        "url": "threat-library-detail?data=blacknet_rat"
+    },
+    {
+        "text": "RMS (RMS, Remote Manipulator System, Gussdoor)",
+        "url": "threat-library-detail?data=rms"
     },
     {
         "text": "Mekotio (Mekotio, Metamorfo, Casbaneiro)",
@@ -110,6 +126,10 @@ const suggestions = [
     {
         "text": "Kimsuky (Kimsuky)",
         "url": "threat-library-detail?data=kimsuky"
+    },
+    {
+        "text": "Kimsuky, Velvet Chollima (Kimsuky, Velvet Chollima, Thallium, Black Banshee, SharpTongue, ITG16, TA406, APT 43, ARCHIPELAGO, Emerald Sleet)",
+        "url": "threat-library-detail?data=kimsuky_velvet_chollima"
     },
     {
         "text": "GodFather (GodFather)",
@@ -152,8 +172,8 @@ const suggestions = [
         "url": "threat-library-detail?data=silence"
     },
     {
-        "text": "NetWire RC (NetWire RC, NetWire RAT, NetWired RC, NetWire, NetWeird, Recam)",
-        "url": "threat-library-detail?data=netwire_rc"
+        "text": "Silence, Contract Crew (Silence, Contract Crew, Whisper Spider, TEMP.TruthTeller, ATK 86, TAG-CR8)",
+        "url": "threat-library-detail?data=silence_contract_crew"
     },
     {
         "text": "Loda (Loda, Loda RAT, LodaRAT, Nymeria)",
@@ -180,10 +200,6 @@ const suggestions = [
         "url": "threat-library-detail?data=spyder"
     },
     {
-        "text": "LimeRAT (LimeRAT)",
-        "url": "threat-library-detail?data=limerat"
-    },
-    {
         "text": "Magecart (Magecart)",
         "url": "threat-library-detail?data=magecart"
     },
@@ -198,6 +214,10 @@ const suggestions = [
     {
         "text": "TrickBot (TrickBot, Trickster, The Trick, TheTrick, Totbrick, TrickLoader, TSPY_TRICKLOAD)",
         "url": "threat-library-detail?data=trickbot"
+    },
+    {
+        "text": "SideWinder, Rattlesnake (SideWinder, Rattlesnake, Razor Tiger, T-APT-04, APT-C-17, Hardcore Nationalist, HN2, APT-Q-39, BabyElephant, GroupA21)",
+        "url": "threat-library-detail?data=sidewinder_rattlesnake"
     },
     {
         "text": "Mimikatz (Mimikatz)",
@@ -224,10 +244,6 @@ const suggestions = [
         "url": "threat-library-detail?data=danabot"
     },
     {
-        "text": "Gozi (Gozi, CRM, Gozi CRM, Papras, Ursnif, Snifula)",
-        "url": "threat-library-detail?data=gozi"
-    },
-    {
         "text": "TinyNuke (TinyNuke, NukeBot, Nuclear Bot, MicroBankingTrojan, Xbot)",
         "url": "threat-library-detail?data=tinynuke"
     },
@@ -238,6 +254,10 @@ const suggestions = [
     {
         "text": "HyperBro (HyperBro)",
         "url": "threat-library-detail?data=hyperbro"
+    },
+    {
+        "text": "Bahamut (Bahamut)",
+        "url": "threat-library-detail?data=bahamut"
     },
     {
         "text": "Bahamut (Bahamut)",
@@ -364,6 +384,10 @@ const suggestions = [
         "url": "threat-library-detail?data=confucius"
     },
     {
+        "text": "Confucius (Confucius)",
+        "url": "threat-library-detail?data=confucius"
+    },
+    {
         "text": "Brata (Brata, AmexTroll)",
         "url": "threat-library-detail?data=brata"
     },
@@ -392,6 +416,10 @@ const suggestions = [
         "url": "threat-library-detail?data=evilnum"
     },
     {
+        "text": "Evilnum (Evilnum, Jointworm, TA4563)",
+        "url": "threat-library-detail?data=evilnum"
+    },
+    {
         "text": "DarkSide (DarkSide)",
         "url": "threat-library-detail?data=darkside"
     },
@@ -401,6 +429,10 @@ const suggestions = [
     },
     {
         "text": "Roaming Mantis (Roaming Mantis, MoqHao, XLoader, Wroba)",
+        "url": "threat-library-detail?data=roaming_mantis"
+    },
+    {
+        "text": "Roaming Mantis (Roaming Mantis, Roaming Mantis Group, Shaoye)",
         "url": "threat-library-detail?data=roaming_mantis"
     },
     {
@@ -446,6 +478,10 @@ const suggestions = [
     {
         "text": "Machete (Machete, El Machete)",
         "url": "threat-library-detail?data=machete"
+    },
+    {
+        "text": "El Machete (El Machete, TEMP.Andromeda, APT-C-43, ATK 97, TAG-NS1)",
+        "url": "threat-library-detail?data=el_machete"
     },
     {
         "text": "SUNBURST (SUNBURST, Solorigate)",
@@ -562,6 +598,10 @@ const suggestions = [
     {
         "text": "Infy (Infy, Foudre)",
         "url": "threat-library-detail?data=infy"
+    },
+    {
+        "text": "Infy, Prince of Persia (Infy, Prince of Persia, Operation Mermaid, APT-C-07)",
+        "url": "threat-library-detail?data=infy_prince_of_persia"
     },
     {
         "text": "Anchor (Anchor, Anchor_DNS)",
@@ -2482,10 +2522,6 @@ const suggestions = [
     {
         "text": "ExileRAT (ExileRAT, Exile RAT)",
         "url": "threat-library-detail?data=exilerat"
-    },
-    {
-        "text": "ExoBot (ExoBot)",
-        "url": "threat-library-detail?data=exobot"
     },
     {
         "text": "ExoBotCompact (ExoBotCompact, Coper, Octo)",
@@ -7642,5 +7678,1757 @@ const suggestions = [
     {
         "text": "ZXShell (ZXShell, Sensocode)",
         "url": "threat-library-detail?data=zxshell"
+    },
+    {
+        "text": "Big Panda (Big Panda)",
+        "url": "threat-library-detail?data=big_panda"
+    },
+    {
+        "text": "Boulder Bear (Boulder Bear)",
+        "url": "threat-library-detail?data=boulder_bear"
+    },
+    {
+        "text": "Clockwork Spider (Clockwork Spider)",
+        "url": "threat-library-detail?data=clockwork_spider"
+    },
+    {
+        "text": "Corsair Jackal (Corsair Jackal, TunisianCyberArmy)",
+        "url": "threat-library-detail?data=corsair_jackal"
+    },
+    {
+        "text": "Dextorous Spider (Dextorous Spider)",
+        "url": "threat-library-detail?data=dextorous_spider"
+    },
+    {
+        "text": "Dizzy Panda (Dizzy Panda, LadyBoyle)",
+        "url": "threat-library-detail?data=dizzy_panda"
+    },
+    {
+        "text": "Electric Panda (Electric Panda)",
+        "url": "threat-library-detail?data=electric_panda"
+    },
+    {
+        "text": "Eloquent Panda (Eloquent Panda)",
+        "url": "threat-library-detail?data=eloquent_panda"
+    },
+    {
+        "text": "Flyfox (Flyfox)",
+        "url": "threat-library-detail?data=flyfox"
+    },
+    {
+        "text": "Foxy Panda (Foxy Panda)",
+        "url": "threat-library-detail?data=foxy_panda"
+    },
+    {
+        "text": "Ghost Jackal (Ghost Jackal)",
+        "url": "threat-library-detail?data=ghost_jackal"
+    },
+    {
+        "text": "Gibberish Panda (Gibberish Panda)",
+        "url": "threat-library-detail?data=gibberish_panda"
+    },
+    {
+        "text": "HolyWater (HolyWater)",
+        "url": "threat-library-detail?data=holywater"
+    },
+    {
+        "text": "Impersonating Panda (Impersonating Panda)",
+        "url": "threat-library-detail?data=impersonating_panda"
+    },
+    {
+        "text": "Knockout Spider (Knockout Spider)",
+        "url": "threat-library-detail?data=knockout_spider"
+    },
+    {
+        "text": "Kumsong121 (Kumsong121)",
+        "url": "threat-library-detail?data=kumsong121"
+    },
+    {
+        "text": "Magnetic Spider (Magnetic Spider)",
+        "url": "threat-library-detail?data=magnetic_spider"
+    },
+    {
+        "text": "Outlaw Spider (Outlaw Spider)",
+        "url": "threat-library-detail?data=outlaw_spider"
+    },
+    {
+        "text": "Overlord Spider (Overlord Spider, The Dark Overlord)",
+        "url": "threat-library-detail?data=overlord_spider"
+    },
+    {
+        "text": "Pale Panda (Pale Panda)",
+        "url": "threat-library-detail?data=pale_panda"
+    },
+    {
+        "text": "ParkingBear (ParkingBear)",
+        "url": "threat-library-detail?data=parkingbear"
+    },
+    {
+        "text": "Poisonous Panda (Poisonous Panda)",
+        "url": "threat-library-detail?data=poisonous_panda"
+    },
+    {
+        "text": "Predator Panda (Predator Panda)",
+        "url": "threat-library-detail?data=predator_panda"
+    },
+    {
+        "text": "Sabre Panda (Sabre Panda)",
+        "url": "threat-library-detail?data=sabre_panda"
+    },
+    {
+        "text": "Singing Spider (Singing Spider)",
+        "url": "threat-library-detail?data=singing_spider"
+    },
+    {
+        "text": "Solar Spider (Solar Spider)",
+        "url": "threat-library-detail?data=solar_spider"
+    },
+    {
+        "text": "Spicy Panda (Spicy Panda)",
+        "url": "threat-library-detail?data=spicy_panda"
+    },
+    {
+        "text": "Test Panda (Test Panda)",
+        "url": "threat-library-detail?data=test_panda"
+    },
+    {
+        "text": "Toxic Panda (Toxic Panda)",
+        "url": "threat-library-detail?data=toxic_panda"
+    },
+    {
+        "text": "Union Panda (Union Panda)",
+        "url": "threat-library-detail?data=union_panda"
+    },
+    {
+        "text": "Union Spider (Union Spider)",
+        "url": "threat-library-detail?data=union_spider"
+    },
+    {
+        "text": "Viking Jackal (Viking Jackal, Vikingdom)",
+        "url": "threat-library-detail?data=viking_jackal"
+    },
+    {
+        "text": "Wet Panda (Wet Panda)",
+        "url": "threat-library-detail?data=wet_panda"
+    },
+    {
+        "text": "Aggah (Aggah)",
+        "url": "threat-library-detail?data=aggah"
+    },
+    {
+        "text": "Agrius (Agrius, DEV-0227, BlackShadow, SharpBoys, AMERICIUM, Pink Sandstorm)",
+        "url": "threat-library-detail?data=agrius"
+    },
+    {
+        "text": "Allanite (Allanite, Palmetto Fusion)",
+        "url": "threat-library-detail?data=allanite"
+    },
+    {
+        "text": "ALPHV, BlackCat Gang (ALPHV, ALPHVM, BlackCat Gang, UNC4466)",
+        "url": "threat-library-detail?data=alphv_blackcat_gang"
+    },
+    {
+        "text": "Anchor Panda, APT 14 (Anchor Panda, APT 14, Aluminum, QAZTeam)",
+        "url": "threat-library-detail?data=anchor_panda_apt_14"
+    },
+    {
+        "text": "Antlion (Antlion)",
+        "url": "threat-library-detail?data=antlion"
+    },
+    {
+        "text": "Aoqin Dragon (Aoqin Dragon, UNC94)",
+        "url": "threat-library-detail?data=aoqin_dragon"
+    },
+    {
+        "text": "APT 3, Gothic Panda, Buckeye (APT 3, Gothic Panda, Buckeye, TG-0110, Bronze Mayfair, UPS Team, Group 6, Red Sylvan)",
+        "url": "threat-library-detail?data=apt_3_gothic_panda_buckeye"
+    },
+    {
+        "text": "APT 4, Maverick Panda, Wisp Team (APT 4, APT 4, Maverick Panda, Wisp Team, Sykipot, TG-0623, Bronze Edison)",
+        "url": "threat-library-detail?data=apt_4_maverick_panda_wisp_team"
+    },
+    {
+        "text": "APT 5, Keyhole Panda (APT 5, Keyhole Panda, TEMP.Bottle, Bronze Fleetwood, TG-2754, Poisoned Flight, Manganese, Mulberry Typhoon)",
+        "url": "threat-library-detail?data=apt_5_keyhole_panda"
+    },
+    {
+        "text": "APT 6 (APT 6, 1.php Group)",
+        "url": "threat-library-detail?data=apt_6"
+    },
+    {
+        "text": "APT 12, Numbered Panda (APT 12, Numbered Panda, CTG-8223, Bronze Globe, BeeBus, Calc Team, DynCALC, DNSCalc, Group 22, Crimson Iron)",
+        "url": "threat-library-detail?data=apt_12_numbered_panda"
+    },
+    {
+        "text": "APT 16, SVCMONDR (APT 16, SVCMONDR)",
+        "url": "threat-library-detail?data=apt_16_svcmondr"
+    },
+    {
+        "text": "APT 17, Deputy Dog, Elderwood, Sneaky Panda (APT 17, Tailgater Team, Elderwood, Elderwood Gang, Sneaky Panda, SIG22, Beijing Group, Bronze Keystone, TG-8153, TEMP.Avengers, Dogfish, Deputy Dog, ATK 2)",
+        "url": "threat-library-detail?data=apt_17_deputy_dog_elderwood_sneaky_panda"
+    },
+    {
+        "text": "APT 18, Dynamite Panda, Wekby (APT 18, Dynamite Panda, TG-0416, Wekby, Scandium)",
+        "url": "threat-library-detail?data=apt_18_dynamite_panda_wekby"
+    },
+    {
+        "text": "APT 19, Deep Panda, C0d0so0 (APT 19, Deep Panda, Codoso, Sunshop Group, TG-3551, Bronze Firestone, Pupa)",
+        "url": "threat-library-detail?data=apt_19_deep_panda_c0d0so0"
+    },
+    {
+        "text": "APT 20, Violin Panda (APT 20, APT 8, Violin Panda, TH3Bug)",
+        "url": "threat-library-detail?data=apt_20_violin_panda"
+    },
+    {
+        "text": "APT 29, Cozy Bear, The Dukes (APT 29, Cozy Bear, The Dukes, Group 100, Yttrium, Iron Hemlock, Minidionis, CloudLook, ATK 7, ITG11, Grizzly Steppe, UNC2452, Dark Halo, SolarStorm, StellarParticle, SilverFish, Nobelium, Iron Ritual, Cloaked Ursa, BlueBravo, Midnight Blizzard)",
+        "url": "threat-library-detail?data=apt_29_cozy_bear_the_dukes"
+    },
+    {
+        "text": "APT 30, Override Panda (APT 30, Override Panda, CTG-5326, Bronze Geneva, Bronze Sterling, RADIUM, Raspberry Typhoon)",
+        "url": "threat-library-detail?data=apt_30_override_panda"
+    },
+    {
+        "text": "APT 31, Judgment Panda, Zirconium (APT 31, Judgment Panda, Zirconium, RedBravo, Bronze Vinewood, TA412, Violet Typhoon)",
+        "url": "threat-library-detail?data=apt_31_judgment_panda_zirconium"
+    },
+    {
+        "text": "APT 32, OceanLotus, SeaLotus (APT 32, OceanLotus, SeaLotus, APT-C-00, Ocean Buffalo, Tin Woodlawn, ATK 17, SectorF01)",
+        "url": "threat-library-detail?data=apt_32_oceanlotus_sealotus"
+    },
+    {
+        "text": "APT 33, Elfin, Magnallium (APT 33, Elfin, Magnallium, Holmium, ATK 35, Refined Kitten, TA451, Cobalt Trinity, Peach Sandstorm)",
+        "url": "threat-library-detail?data=apt_33_elfin_magnallium"
+    },
+    {
+        "text": "APT 41 (APT 41, Double Dragon, TG-2633, Bronze Atlas, Red Kelpie, Blackfly, Earth Baku, SparklingGoblin, Grayfly)",
+        "url": "threat-library-detail?data=apt_41"
+    },
+    {
+        "text": "Earth Longzhi (Earth Longzhi)",
+        "url": "threat-library-detail?data=earth_longzhi"
+    },
+    {
+        "text": "APT 42 (APT 42)",
+        "url": "threat-library-detail?data=apt_42"
+    },
+    {
+        "text": "Aquatic Panda (Aquatic Panda)",
+        "url": "threat-library-detail?data=aquatic_panda"
+    },
+    {
+        "text": "AVIVORE (AVIVORE)",
+        "url": "threat-library-detail?data=avivore"
+    },
+    {
+        "text": "Axiom, Group 72 (Axiom, Group 72)",
+        "url": "threat-library-detail?data=axiom_group_72"
+    },
+    {
+        "text": "Bad Magic, RedStinger (Bad Magic, RedStinger, CloudWizard)",
+        "url": "threat-library-detail?data=bad_magic_redstinger"
+    },
+    {
+        "text": "Barium (Barium, Pigfish, Brass Typhoon)",
+        "url": "threat-library-detail?data=barium"
+    },
+    {
+        "text": "Berserk Bear, Dragonfly 2.0 (Berserk Bear, Dragonfly 2.0, Dymalloy)",
+        "url": "threat-library-detail?data=berserk_bear_dragonfly_2.0"
+    },
+    {
+        "text": "The Big Bang (The Big Bang)",
+        "url": "threat-library-detail?data=the_big_bang"
+    },
+    {
+        "text": "Bitter (Bitter, T-APT-17)",
+        "url": "threat-library-detail?data=bitter"
+    },
+    {
+        "text": "Blackgear (Blackgear, Topgear)",
+        "url": "threat-library-detail?data=blackgear"
+    },
+    {
+        "text": "BlackOasis (BlackOasis)",
+        "url": "threat-library-detail?data=blackoasis"
+    },
+    {
+        "text": "BlackTech, Circuit Panda, Radio Panda (BlackTech, Circuit Panda, Radio Panda, Palmerworm, TEMP.Overboard, T-APT-03)",
+        "url": "threat-library-detail?data=blacktech_circuit_panda_radio_panda"
+    },
+    {
+        "text": "Blind Eagle (Blind Eagle, APT-C-36)",
+        "url": "threat-library-detail?data=blind_eagle"
+    },
+    {
+        "text": "Blue Termite, Cloudy Omega (Blue Termite, Cloudy Omega)",
+        "url": "threat-library-detail?data=blue_termite_cloudy_omega"
+    },
+    {
+        "text": "Bookworm (Bookworm)",
+        "url": "threat-library-detail?data=bookworm"
+    },
+    {
+        "text": "Boss Spider, Gold Lowell (Boss Spider, Gold Lowell, CTG-0007)",
+        "url": "threat-library-detail?data=boss_spider_gold_lowell"
+    },
+    {
+        "text": "Bronze Butler, Tick, RedBaldNight, Stalker Panda (Bronze Butler, CTG-2006, Tick, TEMP.Tick, RedBaldNight, Stalker Panda)",
+        "url": "threat-library-detail?data=bronze_butler_tick_redbaldnight_stalker_panda"
+    },
+    {
+        "text": "Bronze Highland (Bronze Highland, Evasive Panda, Daggerfly)",
+        "url": "threat-library-detail?data=bronze_highland"
+    },
+    {
+        "text": "Bronze Starlight (Bronze Starlight, DEV-0401, Cinnamon Tempest, Operation ChattyGoblin, SLIME34)",
+        "url": "threat-library-detail?data=bronze_starlight"
+    },
+    {
+        "text": "Buhtrap, Ratopak Spider (Buhtrap, Ratopak Spider, UAC-0008)",
+        "url": "threat-library-detail?data=buhtrap_ratopak_spider"
+    },
+    {
+        "text": "Cadelle (Cadelle)",
+        "url": "threat-library-detail?data=cadelle"
+    },
+    {
+        "text": "Cadet Blizzard (Cadet Blizzard, DEV-0586)",
+        "url": "threat-library-detail?data=cadet_blizzard"
+    },
+    {
+        "text": "Callisto Group (Callisto Group)",
+        "url": "threat-library-detail?data=callisto_group"
+    },
+    {
+        "text": "Calypso (Calypso, Bronze Medley)",
+        "url": "threat-library-detail?data=calypso"
+    },
+    {
+        "text": "Carbanak, Anunak (Carbanak, Anunak, Carbon Spider, Gold Waterfall, ELBRUS, Sangria Tempest)",
+        "url": "threat-library-detail?data=carbanak_anunak"
+    },
+    {
+        "text": "Carderbee (Carderbee)",
+        "url": "threat-library-detail?data=carderbee"
+    },
+    {
+        "text": "CardinalLizard (CardinalLizard)",
+        "url": "threat-library-detail?data=cardinallizard"
+    },
+    {
+        "text": "Careto, The Mask (Careto, The Mask, Mask, Ugly Face)",
+        "url": "threat-library-detail?data=careto_the_mask"
+    },
+    {
+        "text": "Chafer, APT 39 (Chafer, APT 39, Remix Kitten, Cobalt Hickman, TA454, ITG07)",
+        "url": "threat-library-detail?data=chafer_apt_39"
+    },
+    {
+        "text": "ChamelGang (ChamelGang)",
+        "url": "threat-library-detail?data=chamelgang"
+    },
+    {
+        "text": "Chimera (Chimera)",
+        "url": "threat-library-detail?data=chimera"
+    },
+    {
+        "text": "CIA (CIA, Central Intelligence Agency)",
+        "url": "threat-library-detail?data=cia"
+    },
+    {
+        "text": "Longhorn, The Lamberts (Longhorn, The Lamberts, Platinum Terminal, APT-C-39)",
+        "url": "threat-library-detail?data=longhorn_the_lamberts"
+    },
+    {
+        "text": "[Unnamed group USA] ([Unnamed group USA])",
+        "url": "threat-library-detail?data=unnamed_group_usa"
+    },
+    {
+        "text": "Circus Spider (Circus Spider)",
+        "url": "threat-library-detail?data=circus_spider"
+    },
+    {
+        "text": "Clever Kitten (Clever Kitten, Group 41)",
+        "url": "threat-library-detail?data=clever_kitten"
+    },
+    {
+        "text": "Cobalt Group (Cobalt Group, Cobalt Gang, Cobalt Spider, Gold Kingswood, ATK 67, TAG-CR3)",
+        "url": "threat-library-detail?data=cobalt_group"
+    },
+    {
+        "text": "Cold River (Cold River, Nahr el bared, Nahr Elbard, Cobalt Edgewater, TA446, Seaborgium, TAG-53, BlueCharlie, Blue Callisto, Calisto, Star Blizzard)",
+        "url": "threat-library-detail?data=cold_river"
+    },
+    {
+        "text": "Comment Crew, APT 1 (Comment Crew, Comment Panda, TG-8223, APT 1, BrownFox, Group 3, Byzantine Hades, Byzantine Candor, Shanghai Group, GIF89a)",
+        "url": "threat-library-detail?data=comment_crew_apt_1"
+    },
+    {
+        "text": "CopyKittens, Slayer Kitten (CopyKittens, Slayer Kitten)",
+        "url": "threat-library-detail?data=copykittens_slayer_kitten"
+    },
+    {
+        "text": "Corkow, Metel (Corkow, Metel)",
+        "url": "threat-library-detail?data=corkow_metel"
+    },
+    {
+        "text": "CostaRicto (CostaRicto)",
+        "url": "threat-library-detail?data=costaricto"
+    },
+    {
+        "text": "Covellite (Covellite, CTG-2460, Nickel Academy, Black Artemis)",
+        "url": "threat-library-detail?data=covellite"
+    },
+    {
+        "text": "Curious Gorge (Curious Gorge)",
+        "url": "threat-library-detail?data=curious_gorge"
+    },
+    {
+        "text": "Cutting Kitten, TG-2889 (Cutting Kitten, TG-2889)",
+        "url": "threat-library-detail?data=cutting_kitten_tg-2889"
+    },
+    {
+        "text": "Cyber Berkut (Cyber Berkut, Kiberberkut)",
+        "url": "threat-library-detail?data=cyber_berkut"
+    },
+    {
+        "text": "Cyber Caliphate Army (CCA), United Cyber Caliphate (UCC) (Cyber Caliphate Army (CCA), United Cyber Caliphate (UCC), Islamic State Hacking Division, ATK 133, TAG-CT6)",
+        "url": "threat-library-detail?data=cyber_caliphate_army_(cca)_united_cyber_caliphate_(ucc)"
+    },
+    {
+        "text": "Dalbit (Dalbit)",
+        "url": "threat-library-detail?data=dalbit"
+    },
+    {
+        "text": "Dark Caracal (Dark Caracal, ATK 27, TAG-CT3)",
+        "url": "threat-library-detail?data=dark_caracal"
+    },
+    {
+        "text": "DarkHotel (DarkHotel, APT-C-06, SIG25, Dubnium, Fallout Team, Shadow Crane, CTG-1948, Tungsten Bridge, ATK 52, Higaisa, T-APT-02, Luder, Zigzag Hail)",
+        "url": "threat-library-detail?data=darkhotel"
+    },
+    {
+        "text": "DarkHydrus, LazyMeerkat (DarkHydrus, LazyMeerkat, ATK 77)",
+        "url": "threat-library-detail?data=darkhydrus_lazymeerkat"
+    },
+    {
+        "text": "Dark Pink (Dark Pink, Saaiwc)",
+        "url": "threat-library-detail?data=dark_pink"
+    },
+    {
+        "text": "DarkUniverse (DarkUniverse)",
+        "url": "threat-library-detail?data=darkuniverse"
+    },
+    {
+        "text": "Deceptikons, DeathStalker (Deceptikons, DeathStalker)",
+        "url": "threat-library-detail?data=deceptikons_deathstalker"
+    },
+    {
+        "text": "Desert Falcons (Desert Falcons, APT-C-23, Two-tailed Scorpion, Arid Viper, ATK 66, TAG-CT1, Mantis)",
+        "url": "threat-library-detail?data=desert_falcons"
+    },
+    {
+        "text": "DNSpionage (DNSpionage)",
+        "url": "threat-library-detail?data=dnspionage"
+    },
+    {
+        "text": "Domestic Kitten (Domestic Kitten, APT-C-50, Bouncing Golf)",
+        "url": "threat-library-detail?data=domestic_kitten"
+    },
+    {
+        "text": "Donot Team (Donot Team, APT-C-35, SectorE02)",
+        "url": "threat-library-detail?data=donot_team"
+    },
+    {
+        "text": "Doppel Spider (Doppel Spider, Gold Heron, Grief Group)",
+        "url": "threat-library-detail?data=doppel_spider"
+    },
+    {
+        "text": "DragonOK (DragonOK, Bronze Overbrook)",
+        "url": "threat-library-detail?data=dragonok"
+    },
+    {
+        "text": "DragonSpark (DragonSpark)",
+        "url": "threat-library-detail?data=dragonspark"
+    },
+    {
+        "text": "DustSquad, Golden Falcon (DustSquad, Golden Falcon, APT-C-34, Nomadic Octopus)",
+        "url": "threat-library-detail?data=dustsquad_golden_falcon"
+    },
+    {
+        "text": "Dust Storm (Dust Storm)",
+        "url": "threat-library-detail?data=dust_storm"
+    },
+    {
+        "text": "Earth Berberoka (Earth Berberoka, GamblingPuppet)",
+        "url": "threat-library-detail?data=earth_berberoka"
+    },
+    {
+        "text": "Earth Lusca (Earth Lusca, Bronze University, Charcoal Typhoon, Red Scylla)",
+        "url": "threat-library-detail?data=earth_lusca"
+    },
+    {
+        "text": "Earth Wendigo (Earth Wendigo)",
+        "url": "threat-library-detail?data=earth_wendigo"
+    },
+    {
+        "text": "Elephant Beetle (Elephant Beetle, TG2003)",
+        "url": "threat-library-detail?data=elephant_beetle"
+    },
+    {
+        "text": "Emissary Panda, APT 27, LuckyMouse, Bronze Union (Emissary Panda, APT 27, LuckyMouse, Bronze Union, TG-3390, TEMP.Hippo, Budworm, Group 35, ATK 15, Iron Tiger, Earth Smilodon, Red Phoenix, ZipToken)",
+        "url": "threat-library-detail?data=emissary_panda_apt_27_luckymouse_bronze_union"
+    },
+    {
+        "text": "EmpireMonkey, CobaltGoblin (EmpireMonkey, CobaltGoblin, Anthropoid Spider)",
+        "url": "threat-library-detail?data=empiremonkey_cobaltgoblin"
+    },
+    {
+        "text": "Energetic Bear, Dragonfly (Energetic Bear, Dragonfly, Crouching Yeti, Group 24, Koala Team, Iron Liberty, TG-4192, Electrum, ATK 6, ITG15, Bromine, Ghost Blizzard)",
+        "url": "threat-library-detail?data=energetic_bear_dragonfly"
+    },
+    {
+        "text": "Equation Group (Equation Group, Tilded Team, Platinum Colony)",
+        "url": "threat-library-detail?data=equation_group"
+    },
+    {
+        "text": "FamousSparrow (FamousSparrow, Earth Estries)",
+        "url": "threat-library-detail?data=famoussparrow"
+    },
+    {
+        "text": "Ferocious Kitten (Ferocious Kitten)",
+        "url": "threat-library-detail?data=ferocious_kitten"
+    },
+    {
+        "text": "FIN4, Wolf Spider (FIN4, Wolf Spider)",
+        "url": "threat-library-detail?data=fin4_wolf_spider"
+    },
+    {
+        "text": "FIN5 (FIN5)",
+        "url": "threat-library-detail?data=fin5"
+    },
+    {
+        "text": "FIN6, Skeleton Spider (FIN6, Skeleton Spider, Gold Franklin, White Giant, ITG08, ATK 88, TAG-CR2, TAAL, Camouflage Tempest)",
+        "url": "threat-library-detail?data=fin6_skeleton_spider"
+    },
+    {
+        "text": "FIN7 (FIN7, Gold Niagara, Calcium, Navigator, ATK 32, APT-C-11, ITG14, TAG-CR1)",
+        "url": "threat-library-detail?data=fin7"
+    },
+    {
+        "text": "FIN8 (FIN8, ATK 113, Syssphinx)",
+        "url": "threat-library-detail?data=fin8"
+    },
+    {
+        "text": "FIN10 (FIN10)",
+        "url": "threat-library-detail?data=fin10"
+    },
+    {
+        "text": "FIN11 (FIN11, DEV-0950, Lace Tempest)",
+        "url": "threat-library-detail?data=fin11"
+    },
+    {
+        "text": "FIN12 (FIN12)",
+        "url": "threat-library-detail?data=fin12"
+    },
+    {
+        "text": "FIN13 (FIN13)",
+        "url": "threat-library-detail?data=fin13"
+    },
+    {
+        "text": "Fishing Elephant (Fishing Elephant)",
+        "url": "threat-library-detail?data=fishing_elephant"
+    },
+    {
+        "text": "Flax Typhoon (Flax Typhoon, Ethereal Panda)",
+        "url": "threat-library-detail?data=flax_typhoon"
+    },
+    {
+        "text": "Flying Kitten, Ajax Security Team (Flying Kitten, Ajax Security Team, Group 26)",
+        "url": "threat-library-detail?data=flying_kitten_ajax_security_team"
+    },
+    {
+        "text": "FunnyDream (FunnyDream, Red Hariasa, Bronze Edgewood, TAG-16)",
+        "url": "threat-library-detail?data=funnydream"
+    },
+    {
+        "text": "Gallium (Gallium, Phantom Panda, Granite Typhoon, Alloy Taurus)",
+        "url": "threat-library-detail?data=gallium"
+    },
+    {
+        "text": "Gallmaker (Gallmaker)",
+        "url": "threat-library-detail?data=gallmaker"
+    },
+    {
+        "text": "Gamaredon Group (Gamaredon Group, Winterflounder, Primitive Bear, BlueAlpha, Blue Otso, Iron Tilden, Armageddon, SectorC08, Callisto, Shuckworm, Actinium, Trident Ursa, DEV-0157, UAC-0010, Aqua Blizzard)",
+        "url": "threat-library-detail?data=gamaredon_group"
+    },
+    {
+        "text": "Gangnam Industrial Style (Gangnam Industrial Style)",
+        "url": "threat-library-detail?data=gangnam_industrial_style"
+    },
+    {
+        "text": "GCHQ (GCHQ, Government Communications Headquarters)",
+        "url": "threat-library-detail?data=gchq"
+    },
+    {
+        "text": "GCMAN (GCMAN)",
+        "url": "threat-library-detail?data=gcman"
+    },
+    {
+        "text": "Gelsemium (Gelsemium)",
+        "url": "threat-library-detail?data=gelsemium"
+    },
+    {
+        "text": "GhostEmperor (GhostEmperor)",
+        "url": "threat-library-detail?data=ghostemperor"
+    },
+    {
+        "text": "GhostNet, Snooping Dragon (GhostNet, Snooping Dragon)",
+        "url": "threat-library-detail?data=ghostnet_snooping_dragon"
+    },
+    {
+        "text": "Goblin Panda, Cycldek, Conimes (Goblin Panda, Cycldek, Conimes, 1937CN)",
+        "url": "threat-library-detail?data=goblin_panda_cycldek_conimes"
+    },
+    {
+        "text": "GoldenJackal (GoldenJackal)",
+        "url": "threat-library-detail?data=goldenjackal"
+    },
+    {
+        "text": "Gorgon Group (Gorgon Group, Subaat, ATK 92, TAG-CR5)",
+        "url": "threat-library-detail?data=gorgon_group"
+    },
+    {
+        "text": "Group5 (Group5)",
+        "url": "threat-library-detail?data=group5"
+    },
+    {
+        "text": "Hades (Hades)",
+        "url": "threat-library-detail?data=hades"
+    },
+    {
+        "text": "Hafnium (Hafnium, Silk Typhoon)",
+        "url": "threat-library-detail?data=hafnium"
+    },
+    {
+        "text": "Harvester (Harvester)",
+        "url": "threat-library-detail?data=harvester"
+    },
+    {
+        "text": "Hexane (Hexane, Lyceum, Cobalt Lyceum, Siamesekitten, ATK 120)",
+        "url": "threat-library-detail?data=hexane"
+    },
+    {
+        "text": "Hidden Lynx, Aurora Panda (Hidden Lynx, Aurora Panda, Group 8)",
+        "url": "threat-library-detail?data=hidden_lynx_aurora_panda"
+    },
+    {
+        "text": "Honeybee (Honeybee)",
+        "url": "threat-library-detail?data=honeybee"
+    },
+    {
+        "text": "Hurricane Panda (Hurricane Panda)",
+        "url": "threat-library-detail?data=hurricane_panda"
+    },
+    {
+        "text": "Hydrochasma (Hydrochasma)",
+        "url": "threat-library-detail?data=hydrochasma"
+    },
+    {
+        "text": "IAmTheKing (IAmTheKing)",
+        "url": "threat-library-detail?data=iamtheking"
+    },
+    {
+        "text": "Icefog, Dagger Panda (Icefog, Dagger Panda, ATK 23)",
+        "url": "threat-library-detail?data=icefog_dagger_panda"
+    },
+    {
+        "text": "Inception Framework, Cloud Atlas (Inception Framework, Cloud Atlas, Oxygen, ATK 116, Blue Odin, The Rocra)",
+        "url": "threat-library-detail?data=inception_framework_cloud_atlas"
+    },
+    {
+        "text": "IndigoZebra (IndigoZebra)",
+        "url": "threat-library-detail?data=indigozebra"
+    },
+    {
+        "text": "Indra (Indra)",
+        "url": "threat-library-detail?data=indra"
+    },
+    {
+        "text": "Indrik Spider (Indrik Spider, Gold Drake, Gold Winter, Evil Corp, UNC2165, DEV-0243, Manatee Tempest)",
+        "url": "threat-library-detail?data=indrik_spider"
+    },
+    {
+        "text": "InvisiMole (InvisiMole, UAC-0035)",
+        "url": "threat-library-detail?data=invisimole"
+    },
+    {
+        "text": "Iridium (Iridium)",
+        "url": "threat-library-detail?data=iridium"
+    },
+    {
+        "text": "IronHusky (IronHusky, BBCY-TA1)",
+        "url": "threat-library-detail?data=ironhusky"
+    },
+    {
+        "text": "ITG18 (ITG18)",
+        "url": "threat-library-detail?data=itg18"
+    },
+    {
+        "text": "Karkadann (Karkadann)",
+        "url": "threat-library-detail?data=karkadann"
+    },
+    {
+        "text": "Ke3chang, Vixen Panda, APT 15, GREF, Playful Dragon (Ke3chang, Vixen Panda, APT 15, GREF, Bronze Palace, Bronze Davenport, Bronze Idlewood, CTG-9246, Playful Dragon, Royal APT, Nickel, BackdoorDiplomacy, Playful Taurus, Metushy, Social Network Team, Nylon Typhoon, Flea)",
+        "url": "threat-library-detail?data=ke3chang_vixen_panda_apt_15_gref_playful_dragon"
+    },
+    {
+        "text": "Lancefly (Lancefly)",
+        "url": "threat-library-detail?data=lancefly"
+    },
+    {
+        "text": "Lazarus Group, Hidden Cobra, Labyrinth Chollima (Lazarus Group, Labyrinth Chollima, Group 77, Hastati Group, Whois Hacking Team, NewRomanic Cyber Army Team, Zinc, Hidden Cobra, Appleworm, APT-C-26, ATK 3, SectorA01, ITG03, TA404, DEV-0139, Guardians of Peace, Gods Apostles, Gods Disciples, UNC577, UNC2970, UNC4034, UNC4736, UNC4899, Diamond Sleet, Jade Sleet, TraderTraitor)",
+        "url": "threat-library-detail?data=lazarus_group_hidden_cobra_labyrinth_chollima"
+    },
+    {
+        "text": "Andariel, Silent Chollima (Andariel, Silent Chollima, Stonefly, Plutonium, Onyx Sleet)",
+        "url": "threat-library-detail?data=andariel_silent_chollima"
+    },
+    {
+        "text": "BeagleBoyz (BeagleBoyz)",
+        "url": "threat-library-detail?data=beagleboyz"
+    },
+    {
+        "text": "Bluenoroff, APT 38, Stardust Chollima (Bluenoroff, APT 38, Stardust Chollima, CTG-6459, Nickel Gladstone, TEMP.Hermit, T-APT-15, ATK 117, Black Alicanto, Copernicium, TA444, Sapphire Sleet, TAG-71)",
+        "url": "threat-library-detail?data=bluenoroff_apt_38_stardust_chollima"
+    },
+    {
+        "text": "LazyScripter (LazyScripter)",
+        "url": "threat-library-detail?data=lazyscripter"
+    },
+    {
+        "text": "Lead (Lead, TG-3279, Casper)",
+        "url": "threat-library-detail?data=lead"
+    },
+    {
+        "text": "Leafminer, Raspite (Leafminer, Raspite, Flash Kitten)",
+        "url": "threat-library-detail?data=leafminer_raspite"
+    },
+    {
+        "text": "leetMX (leetMX)",
+        "url": "threat-library-detail?data=leetmx"
+    },
+    {
+        "text": "Leviathan, APT 40, TEMP.Periscope (Leviathan, Kryptonite Panda, APT 40, TEMP.Periscope, TEMP.Jumper, Bronze Mohawk, Mudcarp, Gadolinium, ATK 29, ITG09, TA423, Red Ladon, Gingham Typhoon)",
+        "url": "threat-library-detail?data=leviathan_apt_40_temp.periscope"
+    },
+    {
+        "text": "Libyan Scorpions (Libyan Scorpions)",
+        "url": "threat-library-detail?data=libyan_scorpions"
+    },
+    {
+        "text": "LightBasin (LightBasin, UNC1945, TH-239)",
+        "url": "threat-library-detail?data=lightbasin"
+    },
+    {
+        "text": "LockBit Gang (LockBit Gang)",
+        "url": "threat-library-detail?data=lockbit_gang"
+    },
+    {
+        "text": "LookBack, TA410 (LookBack, TA410, Witchetty, LookingFrog)",
+        "url": "threat-library-detail?data=lookback_ta410"
+    },
+    {
+        "text": "Lotus Blossom, Spring Dragon, Thrip (Lotus Blossom, Spring Dragon, Dragonfish, Billbug, Thrip, Bronze Elgin, CTG-8171, ATK 1, ATK 78)",
+        "url": "threat-library-detail?data=lotus_blossom_spring_dragon_thrip"
+    },
+    {
+        "text": "Lucky Cat (Lucky Cat)",
+        "url": "threat-library-detail?data=lucky_cat"
+    },
+    {
+        "text": "LuminousMoth (LuminousMoth)",
+        "url": "threat-library-detail?data=luminousmoth"
+    },
+    {
+        "text": "Lurk (Lurk)",
+        "url": "threat-library-detail?data=lurk"
+    },
+    {
+        "text": "Mabna Institute, Cobalt Dickens, Silent Librarian (Mabna Institute, Cobalt Dickens, Silent Librarian, Yellow Nabu, TA407, TA4900)",
+        "url": "threat-library-detail?data=mabna_institute_cobalt_dickens_silent_librarian"
+    },
+    {
+        "text": "Madi (Madi, Mahdi)",
+        "url": "threat-library-detail?data=madi"
+    },
+    {
+        "text": "Magic Hound, APT 35, Cobalt Illusion, Charming Kitten (Magic Hound, APT 35, Cobalt Illusion, Cobalt Mirage, Charming Kitten, TEMP.Beanie, Timberworm, Tarh Andishan, TA453, Phosphorus, TunnelVision, UNC788, Yellow Garuda, Educated Manticore, Mint Sandstorm)",
+        "url": "threat-library-detail?data=magic_hound_apt_35_cobalt_illusion_charming_kitten"
+    },
+    {
+        "text": "DEV-0270, Nemesis Kitten (DEV-0270, Nemesis Kitten, DireFate)",
+        "url": "threat-library-detail?data=dev-0270_nemesis_kitten"
+    },
+    {
+        "text": "Magic Kitten (Magic Kitten, VOYEUR)",
+        "url": "threat-library-detail?data=magic_kitten"
+    },
+    {
+        "text": "MalKamak (MalKamak, Operation GhostShell)",
+        "url": "threat-library-detail?data=malkamak"
+    },
+    {
+        "text": "Mallard Spider (Mallard Spider, Gold Lagoon)",
+        "url": "threat-library-detail?data=mallard_spider"
+    },
+    {
+        "text": "Mikroceen (Mikroceen, SixLittleMonkeys)",
+        "url": "threat-library-detail?data=mikroceen"
+    },
+    {
+        "text": "Moafee (Moafee)",
+        "url": "threat-library-detail?data=moafee"
+    },
+    {
+        "text": "Molerats, Extreme Jackal, Gaza Cybergang (Molerats, Extreme Jackal, Gaza Cybergang, Gaza Hackers Team, TA402, Aluminum Saratoga, ATK 89, TAG-CT5)",
+        "url": "threat-library-detail?data=molerats_extreme_jackal_gaza_cybergang"
+    },
+    {
+        "text": "MoneyTaker (MoneyTaker)",
+        "url": "threat-library-detail?data=moneytaker"
+    },
+    {
+        "text": "MoustachedBouncer (MoustachedBouncer)",
+        "url": "threat-library-detail?data=moustachedbouncer"
+    },
+    {
+        "text": "Muddled Libra (Muddled Libra, 0ktapus, Scattered Spider, Scatter Swine)",
+        "url": "threat-library-detail?data=muddled_libra"
+    },
+    {
+        "text": "MuddyWater, Seedworm, TEMP.Zagros, Static Kitten (MuddyWater, Seedworm, TEMP.Zagros, Static Kitten, Mercury, TA450, Cobalt Ulster, ATK 51, T-APT-14, ITG17, Mango Sandstorm)",
+        "url": "threat-library-detail?data=muddywater_seedworm_temp.zagros_static_kitten"
+    },
+    {
+        "text": "Mustang Panda, Bronze President (Mustang Panda, Bronze President, TEMP.Hex, HoneyMyte, Red Lich, Earth Preta, Camaro Dragon)",
+        "url": "threat-library-detail?data=mustang_panda_bronze_president"
+    },
+    {
+        "text": "Naikon, Lotus Panda (Naikon, Hellsing, Lotus Panda, ITG06)",
+        "url": "threat-library-detail?data=naikon_lotus_panda"
+    },
+    {
+        "text": "Nazar (Nazar, SIG37, Iron Tiger)",
+        "url": "threat-library-detail?data=nazar"
+    },
+    {
+        "text": "NB65 (NB65)",
+        "url": "threat-library-detail?data=nb65"
+    },
+    {
+        "text": "Neodymium (Neodymium)",
+        "url": "threat-library-detail?data=neodymium"
+    },
+    {
+        "text": "NetTraveler, APT 21, Hammer Panda (NetTraveler, APT 21, Hammer Panda, TEMP.Zhenbao)",
+        "url": "threat-library-detail?data=nettraveler_apt_21_hammer_panda"
+    },
+    {
+        "text": "Night Dragon (Night Dragon)",
+        "url": "threat-library-detail?data=night_dragon"
+    },
+    {
+        "text": "Nightshade Panda, APT 9, Group 27 (Nightshade Panda, APT 9, Group 27, FlowerLady, FlowerShow)",
+        "url": "threat-library-detail?data=nightshade_panda_apt_9_group_27"
+    },
+    {
+        "text": "NineBlog (NineBlog)",
+        "url": "threat-library-detail?data=nineblog"
+    },
+    {
+        "text": "Nitro, Covert Grove (Nitro, Covert Grove)",
+        "url": "threat-library-detail?data=nitro_covert_grove"
+    },
+    {
+        "text": "OilAlpha (OilAlpha, TAG-41, TAG-62)",
+        "url": "threat-library-detail?data=oilalpha"
+    },
+    {
+        "text": "OilRig, APT 34, Helix Kitten, Chrysene (OilRig, APT 34, Helix Kitten, Twisted Kitten, Crambus, Chrysene, Cobalt Gypsy, TA452, IRN2, ATK 40, ITG13, EUROPIUM, Hazel Sandstorm)",
+        "url": "threat-library-detail?data=oilrig_apt_34_helix_kitten_chrysene"
+    },
+    {
+        "text": "Greenbug, Volatile Kitten (Greenbug, Volatile Kitten)",
+        "url": "threat-library-detail?data=greenbug_volatile_kitten"
+    },
+    {
+        "text": "OldGremlin (OldGremlin)",
+        "url": "threat-library-detail?data=oldgremlin"
+    },
+    {
+        "text": "OnionDog (OnionDog)",
+        "url": "threat-library-detail?data=oniondog"
+    },
+    {
+        "text": "OPERA1ER (OPERA1ER, DESKTOP-GROUP, Common Raven, NXSMS, Bluebottle)",
+        "url": "threat-library-detail?data=opera1er"
+    },
+    {
+        "text": "Operation Armor Piercer (Operation Armor Piercer)",
+        "url": "threat-library-detail?data=operation_armor_piercer"
+    },
+    {
+        "text": "Operation Bandidos (Operation Bandidos)",
+        "url": "threat-library-detail?data=operation_bandidos"
+    },
+    {
+        "text": "Operation Black Atlas (Operation Black Atlas)",
+        "url": "threat-library-detail?data=operation_black_atlas"
+    },
+    {
+        "text": "Operation BugDrop (Operation BugDrop)",
+        "url": "threat-library-detail?data=operation_bugdrop"
+    },
+    {
+        "text": "Operation Comando (Operation Comando)",
+        "url": "threat-library-detail?data=operation_comando"
+    },
+    {
+        "text": "Operation Domino, Operation Kremlin (Operation Domino, Operation Kremlin)",
+        "url": "threat-library-detail?data=operation_domino_operation_kremlin"
+    },
+    {
+        "text": "Operation Dragon Castling (Operation Dragon Castling)",
+        "url": "threat-library-detail?data=operation_dragon_castling"
+    },
+    {
+        "text": "Operation Earth Kitsune (Operation Earth Kitsune)",
+        "url": "threat-library-detail?data=operation_earth_kitsune"
+    },
+    {
+        "text": "Operation EmailThief, TEMP_Heretic (Operation EmailThief, TEMP_Heretic)",
+        "url": "threat-library-detail?data=operation_emailthief_temp_heretic"
+    },
+    {
+        "text": "Operation Epic Manchego (Operation Epic Manchego)",
+        "url": "threat-library-detail?data=operation_epic_manchego"
+    },
+    {
+        "text": "Operation Ghostwriter (Operation Ghostwriter, UNC1151, TA445, UAC-0051, PUSHCHA, DEV-0257, Storm-0257)",
+        "url": "threat-library-detail?data=operation_ghostwriter"
+    },
+    {
+        "text": "Operation Ghoul (Operation Ghoul)",
+        "url": "threat-library-detail?data=operation_ghoul"
+    },
+    {
+        "text": "Operation Groundbait (Operation Groundbait)",
+        "url": "threat-library-detail?data=operation_groundbait"
+    },
+    {
+        "text": "Operation HangOver, Monsoon, Viceroy Tiger (Operation HangOver, Monsoon, Viceroy Tiger, Neon)",
+        "url": "threat-library-detail?data=operation_hangover_monsoon_viceroy_tiger"
+    },
+    {
+        "text": "Operation Harvest (Operation Harvest)",
+        "url": "threat-library-detail?data=operation_harvest"
+    },
+    {
+        "text": "Operation Layover (Operation Layover)",
+        "url": "threat-library-detail?data=operation_layover"
+    },
+    {
+        "text": "Operation LiberalFace, MirrorFace (Operation LiberalFace, MirrorFace)",
+        "url": "threat-library-detail?data=operation_liberalface_mirrorface"
+    },
+    {
+        "text": "Operation Manul (Operation Manul)",
+        "url": "threat-library-detail?data=operation_manul"
+    },
+    {
+        "text": "Operation Olympic Games (Operation Olympic Games, GOSSIPGIRL)",
+        "url": "threat-library-detail?data=operation_olympic_games"
+    },
+    {
+        "text": "Operation Parliament (Operation Parliament)",
+        "url": "threat-library-detail?data=operation_parliament"
+    },
+    {
+        "text": "Operation Poisoned News, TwoSail Junk (Operation Poisoned News, TwoSail Junk)",
+        "url": "threat-library-detail?data=operation_poisoned_news_twosail_junk"
+    },
+    {
+        "text": "Operation Poison Needles (Operation Poison Needles)",
+        "url": "threat-library-detail?data=operation_poison_needles"
+    },
+    {
+        "text": "Operation Potao Express (Operation Potao Express)",
+        "url": "threat-library-detail?data=operation_potao_express"
+    },
+    {
+        "text": "Operation PseudoManuscrypt (Operation PseudoManuscrypt)",
+        "url": "threat-library-detail?data=operation_pseudomanuscrypt"
+    },
+    {
+        "text": "Operation Red Signature (Operation Red Signature)",
+        "url": "threat-library-detail?data=operation_red_signature"
+    },
+    {
+        "text": "Operation RestyLink (Operation RestyLink, Operation Enelink, Earth Yako)",
+        "url": "threat-library-detail?data=operation_restylink"
+    },
+    {
+        "text": "Operation Shady RAT (Operation Shady RAT)",
+        "url": "threat-library-detail?data=operation_shady_rat"
+    },
+    {
+        "text": "Operation SignSight (Operation SignSight)",
+        "url": "threat-library-detail?data=operation_signsight"
+    },
+    {
+        "text": "Operation Spalax (Operation Spalax)",
+        "url": "threat-library-detail?data=operation_spalax"
+    },
+    {
+        "text": "Operation Titan Rain (Operation Titan Rain)",
+        "url": "threat-library-detail?data=operation_titan_rain"
+    },
+    {
+        "text": "Operation Triangulation (Operation Triangulation)",
+        "url": "threat-library-detail?data=operation_triangulation"
+    },
+    {
+        "text": "Operation TunnelSnake (Operation TunnelSnake)",
+        "url": "threat-library-detail?data=operation_tunnelsnake"
+    },
+    {
+        "text": "Operation ViceLeaker (Operation ViceLeaker)",
+        "url": "threat-library-detail?data=operation_viceleaker"
+    },
+    {
+        "text": "Operation WizardOpium (Operation WizardOpium)",
+        "url": "threat-library-detail?data=operation_wizardopium"
+    },
+    {
+        "text": "Orangeworm (Orangeworm)",
+        "url": "threat-library-detail?data=orangeworm"
+    },
+    {
+        "text": "Packrat (Packrat)",
+        "url": "threat-library-detail?data=packrat"
+    },
+    {
+        "text": "Parisite, Fox Kitten, Pioneer Kitten (Parisite, Fox Kitten, Pioneer Kitten, Cobalt Foxglove, Rubidium, UNC757, Lemon Sandstorm)",
+        "url": "threat-library-detail?data=parisite_fox_kitten_pioneer_kitten"
+    },
+    {
+        "text": "PassCV (PassCV)",
+        "url": "threat-library-detail?data=passcv"
+    },
+    {
+        "text": "Patchwork, Dropping Elephant (Patchwork, Dropping Elephant, Chinastrats, APT-C-09, Monsoon, Quilted Tiger, TG-4410, Zinc Emerson, ATK 11)",
+        "url": "threat-library-detail?data=patchwork_dropping_elephant"
+    },
+    {
+        "text": "Pinchy Spider, Gold Southfield (Pinchy Spider, Gold Southfield, Gold Garden)",
+        "url": "threat-library-detail?data=pinchy_spider_gold_southfield"
+    },
+    {
+        "text": "PittyTiger, Pitty Panda (PittyTiger, Pitty Panda)",
+        "url": "threat-library-detail?data=pittytiger_pitty_panda"
+    },
+    {
+        "text": "PKPLUG (PKPLUG)",
+        "url": "threat-library-detail?data=pkplug"
+    },
+    {
+        "text": "Platinum (Platinum, TwoForOne, ATK 33)",
+        "url": "threat-library-detail?data=platinum"
+    },
+    {
+        "text": "Poison Carp, Evil Eye (Poison Carp, Evil Eye, Earth Empusa, Red Dev 16)",
+        "url": "threat-library-detail?data=poison_carp_evil_eye"
+    },
+    {
+        "text": "Polonium (Polonium, Plaid Rain)",
+        "url": "threat-library-detail?data=polonium"
+    },
+    {
+        "text": "Poseidon Group (Poseidon Group)",
+        "url": "threat-library-detail?data=poseidon_group"
+    },
+    {
+        "text": "PowerPool (PowerPool)",
+        "url": "threat-library-detail?data=powerpool"
+    },
+    {
+        "text": "Promethium, StrongPity (Promethium, StrongPity, APT-C-41)",
+        "url": "threat-library-detail?data=promethium_strongpity"
+    },
+    {
+        "text": "Pusikurac (Pusikurac)",
+        "url": "threat-library-detail?data=pusikurac"
+    },
+    {
+        "text": "Putter Panda, APT 2 (Putter Panda, TG-6952, APT 2, Group 36, Sulphur)",
+        "url": "threat-library-detail?data=putter_panda_apt_2"
+    },
+    {
+        "text": "Rampant Kitten (Rampant Kitten)",
+        "url": "threat-library-detail?data=rampant_kitten"
+    },
+    {
+        "text": "Rancor (Rancor, Rancor Group)",
+        "url": "threat-library-detail?data=rancor"
+    },
+    {
+        "text": "RATicate (RATicate)",
+        "url": "threat-library-detail?data=raticate"
+    },
+    {
+        "text": "Reaper, APT 37, Ricochet Chollima, ScarCruft (Reaper, TEMP.Reaper, APT 37, Ricochet Chollima, ScarCruft, Cerium, Group 123, Red Eyes, Geumseong121, Venus 121, Hermit, InkySquid, ATK 4, ITG10, Ruby Sleet)",
+        "url": "threat-library-detail?data=reaper_apt_37_ricochet_chollima_scarcruft"
+    },
+    {
+        "text": "RedAlpha (RedAlpha)",
+        "url": "threat-library-detail?data=redalpha"
+    },
+    {
+        "text": "RedCurl (RedCurl)",
+        "url": "threat-library-detail?data=redcurl"
+    },
+    {
+        "text": "RedDelta (RedDelta, TA416)",
+        "url": "threat-library-detail?data=reddelta"
+    },
+    {
+        "text": "RedEcho (RedEcho)",
+        "url": "threat-library-detail?data=redecho"
+    },
+    {
+        "text": "RedFoxtrot (RedFoxtrot, Nomad Panda, TEMP.Trident, Moshen Dragon)",
+        "url": "threat-library-detail?data=redfoxtrot"
+    },
+    {
+        "text": "RedGolf (RedGolf, Brass Typhoon)",
+        "url": "threat-library-detail?data=redgolf"
+    },
+    {
+        "text": "RedHotel, TAG-22 (RedHotel, TAG-22, Fishmonger)",
+        "url": "threat-library-detail?data=redhotel_tag-22"
+    },
+    {
+        "text": "RevengeHotels (RevengeHotels)",
+        "url": "threat-library-detail?data=revengehotels"
+    },
+    {
+        "text": "Riddle Spider (Riddle Spider, Avaddon Team)",
+        "url": "threat-library-detail?data=riddle_spider"
+    },
+    {
+        "text": "Roaming Tiger (Roaming Tiger, Rotten Tomato, CTG-7273, Bronze Woodland)",
+        "url": "threat-library-detail?data=roaming_tiger"
+    },
+    {
+        "text": "Rocket Kitten, Newscaster, NewsBeef (Rocket Kitten, Newscaster, NewsBeef, Group 83, Parastoo)",
+        "url": "threat-library-detail?data=rocket_kitten_newscaster_newsbeef"
+    },
+    {
+        "text": "RTM (RTM)",
+        "url": "threat-library-detail?data=rtm"
+    },
+    {
+        "text": "Safe (Safe)",
+        "url": "threat-library-detail?data=safe"
+    },
+    {
+        "text": "SaintBear, Lorec53 (SaintBear, Ember Bear, TA471, UNC2589, Lorec53, UAC-0056, Nodaria, FROZENVISTA, Storm-0587)",
+        "url": "threat-library-detail?data=saintbear_lorec53"
+    },
+    {
+        "text": "Samurai Panda (Samurai Panda)",
+        "url": "threat-library-detail?data=samurai_panda"
+    },
+    {
+        "text": "SandCat (SandCat)",
+        "url": "threat-library-detail?data=sandcat"
+    },
+    {
+        "text": "Sandworm Team, Iron Viking, Voodoo Bear (Sandworm Team, Sandworm, Iron Viking, CTG-7263, Voodoo Bear, Quedagh, TEMP.Noble, ATK 14, BE2, UAC-0082, UAC-0113, FROZENBARENTS, IRIDIUM, Seashell Blizzard)",
+        "url": "threat-library-detail?data=sandworm_team_iron_viking_voodoo_bear"
+    },
+    {
+        "text": "Scarab (Scarab, UAC-0026)",
+        "url": "threat-library-detail?data=scarab"
+    },
+    {
+        "text": "Scarlet Mimic (Scarlet Mimic)",
+        "url": "threat-library-detail?data=scarlet_mimic"
+    },
+    {
+        "text": "Sea Turtle (Sea Turtle, Silicon, UNC1326, Marbled Dust)",
+        "url": "threat-library-detail?data=sea_turtle"
+    },
+    {
+        "text": "Shadow Academy (Shadow Academy)",
+        "url": "threat-library-detail?data=shadow_academy"
+    },
+    {
+        "text": "Shadow Network (Shadow Network)",
+        "url": "threat-library-detail?data=shadow_network"
+    },
+    {
+        "text": "ShaggyPanther (ShaggyPanther)",
+        "url": "threat-library-detail?data=shaggypanther"
+    },
+    {
+        "text": "SharpPanda (SharpPanda)",
+        "url": "threat-library-detail?data=sharppanda"
+    },
+    {
+        "text": "SideCopy (SideCopy)",
+        "url": "threat-library-detail?data=sidecopy"
+    },
+    {
+        "text": "Siesta (Siesta)",
+        "url": "threat-library-detail?data=siesta"
+    },
+    {
+        "text": "Sima (Sima)",
+        "url": "threat-library-detail?data=sima"
+    },
+    {
+        "text": "Slingshot (Slingshot)",
+        "url": "threat-library-detail?data=slingshot"
+    },
+    {
+        "text": "Snake Wine (Snake Wine)",
+        "url": "threat-library-detail?data=snake_wine"
+    },
+    {
+        "text": "Snowglobe, Animal Farm (Snowglobe, Animal Farm, SIG20, ATK 8)",
+        "url": "threat-library-detail?data=snowglobe_animal_farm"
+    },
+    {
+        "text": "Sofacy, APT 28, Fancy Bear, Sednit (Sofacy, APT 28, Fancy Bear, Sednit, Group 74, TG-4127, Pawn Storm, Tsar Team, Strontium, Swallowtail, SIG40, Snakemackerel, Iron Twilight, ATK 5, T-APT-12, ITG05, TAG-0700, UAC-0028, FROZENLAKE, Grey-Cloud, Grizzly Steppe, Forest Blizzard, BlueDelta)",
+        "url": "threat-library-detail?data=sofacy_apt_28_fancy_bear_sednit"
+    },
+    {
+        "text": "Sowbug (Sowbug)",
+        "url": "threat-library-detail?data=sowbug"
+    },
+    {
+        "text": "Space Pirates (Space Pirates, Webworm)",
+        "url": "threat-library-detail?data=space_pirates"
+    },
+    {
+        "text": "Sphinx (Sphinx, APT-C-15)",
+        "url": "threat-library-detail?data=sphinx"
+    },
+    {
+        "text": "Sprite Spider, Gold Dupont (Sprite Spider, Gold Dupont)",
+        "url": "threat-library-detail?data=sprite_spider_gold_dupont"
+    },
+    {
+        "text": "Stealth Falcon, FruityArmor (Stealth Falcon, FruityArmor, Project Raven)",
+        "url": "threat-library-detail?data=stealth_falcon_fruityarmor"
+    },
+    {
+        "text": "Stone Panda, APT 10, menuPass (Stone Panda, APT 10, menuPass Team, menuPass, Red Apollo, CVNX, Potassium, Hogfish, Happyyongzi, Cicada, Bronze Riverside, CTG-5938, ATK 41, TA429, ITG01)",
+        "url": "threat-library-detail?data=stone_panda_apt_10_menupass"
+    },
+    {
+        "text": "Storm-0558 (Storm-0558)",
+        "url": "threat-library-detail?data=storm-0558"
+    },
+    {
+        "text": "Strider, ProjectSauron (Strider, ProjectSauron)",
+        "url": "threat-library-detail?data=strider_projectsauron"
+    },
+    {
+        "text": "Suckfly (Suckfly)",
+        "url": "threat-library-detail?data=suckfly"
+    },
+    {
+        "text": "SunCrypt Gang (SunCrypt Gang)",
+        "url": "threat-library-detail?data=suncrypt_gang"
+    },
+    {
+        "text": "Sweed (Sweed)",
+        "url": "threat-library-detail?data=sweed"
+    },
+    {
+        "text": "Syrian Electronic Army (SEA), Deadeye Jackal (Syrian Electronic Army, Syria Malware Team, Deadeye Jackal, ATK 196, TAG-CT2)",
+        "url": "threat-library-detail?data=syrian_electronic_army_(sea)_deadeye_jackal"
+    },
+    {
+        "text": "Goldmouse, APT-C-27 (Goldmouse, Golden Rat, APT-C-27, ATK 80)",
+        "url": "threat-library-detail?data=goldmouse_apt-c-27"
+    },
+    {
+        "text": "Pat Bear, APT-C-37 (Pat Bear, APT-C-37, Racquet Bear)",
+        "url": "threat-library-detail?data=pat_bear_apt-c-37"
+    },
+    {
+        "text": "TA2101, Maze Team (TA2101, Maze Team, Twisted Spider, Gold Village)",
+        "url": "threat-library-detail?data=ta2101_maze_team"
+    },
+    {
+        "text": "TA2541 (TA2541)",
+        "url": "threat-library-detail?data=ta2541"
+    },
+    {
+        "text": "TA2552 (TA2552)",
+        "url": "threat-library-detail?data=ta2552"
+    },
+    {
+        "text": "TA2722 (TA2722, Balikbayan Foxes)",
+        "url": "threat-library-detail?data=ta2722"
+    },
+    {
+        "text": "TA413 (TA413, White Dev 9)",
+        "url": "threat-library-detail?data=ta413"
+    },
+    {
+        "text": "TA428 (TA428, Panda, ThunderCats)",
+        "url": "threat-library-detail?data=ta428"
+    },
+    {
+        "text": "TA459 (TA459)",
+        "url": "threat-library-detail?data=ta459"
+    },
+    {
+        "text": "TA505, Graceful Spider, Gold Evergreen (TA505, Graceful Spider, Gold Evergreen, Gold Tahoe, TEMP.Warlock, ATK 103, SectorJ04, Hive0065, Chimborazo, Spandex Tempest)",
+        "url": "threat-library-detail?data=ta505_graceful_spider_gold_evergreen"
+    },
+    {
+        "text": "TA530 (TA530)",
+        "url": "threat-library-detail?data=ta530"
+    },
+    {
+        "text": "TA555 (TA555)",
+        "url": "threat-library-detail?data=ta555"
+    },
+    {
+        "text": "TA558 (TA558)",
+        "url": "threat-library-detail?data=ta558"
+    },
+    {
+        "text": "TAG-28 (TAG-28)",
+        "url": "threat-library-detail?data=tag-28"
+    },
+    {
+        "text": "TAG-38 (TAG-38)",
+        "url": "threat-library-detail?data=tag-38"
+    },
+    {
+        "text": "Taidoor (Taidoor, Budminer, Earth Aughisky)",
+        "url": "threat-library-detail?data=taidoor"
+    },
+    {
+        "text": "TaskMasters (TaskMasters)",
+        "url": "threat-library-detail?data=taskmasters"
+    },
+    {
+        "text": "TeamSpy Crew (TeamSpy Crew, SIG39, Iron Lyric, Team Bear, Anger Bear)",
+        "url": "threat-library-detail?data=teamspy_crew"
+    },
+    {
+        "text": "TeleBots (TeleBots)",
+        "url": "threat-library-detail?data=telebots"
+    },
+    {
+        "text": "Temper Panda, admin@338 (Temper Panda, admin@338, Team338, Magnesium)",
+        "url": "threat-library-detail?data=temper_panda_admin338"
+    },
+    {
+        "text": "Tempting Cedar Spyware (Tempting Cedar Spyware)",
+        "url": "threat-library-detail?data=tempting_cedar_spyware"
+    },
+    {
+        "text": "TEMP.Veles (TEMP.Veles, Xenotime, ATK 91)",
+        "url": "threat-library-detail?data=temp.veles"
+    },
+    {
+        "text": "Terbium (Terbium)",
+        "url": "threat-library-detail?data=terbium"
+    },
+    {
+        "text": "Tiny Spider (Tiny Spider)",
+        "url": "threat-library-detail?data=tiny_spider"
+    },
+    {
+        "text": "ToddyCat (ToddyCat)",
+        "url": "threat-library-detail?data=toddycat"
+    },
+    {
+        "text": "Tomiris (Tomiris)",
+        "url": "threat-library-detail?data=tomiris"
+    },
+    {
+        "text": "Tonto Team, HartBeat, Karma Panda (Tonto Team, HeartBeat, Karma Panda, CactusPete, Bronze Huntley, LoneRanger)",
+        "url": "threat-library-detail?data=tonto_team_hartbeat_karma_panda"
+    },
+    {
+        "text": "Tortilla (Tortilla)",
+        "url": "threat-library-detail?data=tortilla"
+    },
+    {
+        "text": "Tortoiseshell, Imperial Kitten (Tortoiseshell, Imperial Kitten, TA456, Curium, Marcella Flores, Houseblend, Crimson Sandstorm)",
+        "url": "threat-library-detail?data=tortoiseshell_imperial_kitten"
+    },
+    {
+        "text": "Tracer Kitten (Tracer Kitten)",
+        "url": "threat-library-detail?data=tracer_kitten"
+    },
+    {
+        "text": "Transparent Tribe, APT 36 (Transparent Tribe, APT 36, ProjectM, Mythic Leopard, TEMP.Lapis, Copper Fieldstone, Earth Karkaddan, STEPPY-KAVACH)",
+        "url": "threat-library-detail?data=transparent_tribe_apt_36"
+    },
+    {
+        "text": "Traveling Spider (Traveling Spider, Gold Mansard)",
+        "url": "threat-library-detail?data=traveling_spider"
+    },
+    {
+        "text": "Tropical Scorpius, RomCom (Tropical Scorpius, RomCom, Void Rabisu, DEV-0978, Storm-0978)",
+        "url": "threat-library-detail?data=tropical_scorpius_romcom"
+    },
+    {
+        "text": "Tropic Trooper, Pirate Panda, APT 23, KeyBoy (Tropic Trooper, Pirate Panda, APT 23, Iron, KeyBoy, Bronze Hobart, Earth Centaur)",
+        "url": "threat-library-detail?data=tropic_trooper_pirate_panda_apt_23_keyboy"
+    },
+    {
+        "text": "Turbine Panda, APT 26, Shell Crew, WebMasters, KungFu Kittens (Turbine Panda, APT 26, Shell Crew, WebMasters, KungFu Kittens, Group 13, PinkPanther, Black Vine, Bronze Express, JerseyMikes)",
+        "url": "threat-library-detail?data=turbine_panda_apt_26_shell_crew_webmasters_kungfu_kittens"
+    },
+    {
+        "text": "Turla, Waterbug, Venomous Bear (Turla, Waterbug, Venomous Bear, Group 88, SIG2, SIG15, SIG23, Iron Hunter, CTG-8875, Pacifier APT, ATK 13, ITG12, Makersmark, Krypton, Belugasturgeon, Popeye, Wraith, TAG-0530, UNC4210, SUMMIT, Secret Blizzard)",
+        "url": "threat-library-detail?data=turla_waterbug_venomous_bear"
+    },
+    {
+        "text": "Twisted Panda (Twisted Panda)",
+        "url": "threat-library-detail?data=twisted_panda"
+    },
+    {
+        "text": "UltraRank (UltraRank)",
+        "url": "threat-library-detail?data=ultrarank"
+    },
+    {
+        "text": "UNC215 (UNC215)",
+        "url": "threat-library-detail?data=unc215"
+    },
+    {
+        "text": "UNC2447 (UNC2447)",
+        "url": "threat-library-detail?data=unc2447"
+    },
+    {
+        "text": "UNC2891 (UNC2891)",
+        "url": "threat-library-detail?data=unc2891"
+    },
+    {
+        "text": "UNC3524 (UNC3524, Cranefly)",
+        "url": "threat-library-detail?data=unc3524"
+    },
+    {
+        "text": "UNC4191 (UNC4191)",
+        "url": "threat-library-detail?data=unc4191"
+    },
+    {
+        "text": "Urpage (Urpage)",
+        "url": "threat-library-detail?data=urpage"
+    },
+    {
+        "text": "Vendetta, TA2719 (Vendetta, TA2719)",
+        "url": "threat-library-detail?data=vendetta_ta2719"
+    },
+    {
+        "text": "Venom Spider, Golden Chickens (Venom Spider, Golden Chickens)",
+        "url": "threat-library-detail?data=venom_spider_golden_chickens"
+    },
+    {
+        "text": "Vicious Panda (Vicious Panda, Bronze Dudley)",
+        "url": "threat-library-detail?data=vicious_panda"
+    },
+    {
+        "text": "Viking Spider (Viking Spider)",
+        "url": "threat-library-detail?data=viking_spider"
+    },
+    {
+        "text": "Void Balaur (Void Balaur, Rockethack)",
+        "url": "threat-library-detail?data=void_balaur"
+    },
+    {
+        "text": "Volatile Cedar (Volatile Cedar, Dancing Salome, DeftTorero)",
+        "url": "threat-library-detail?data=volatile_cedar"
+    },
+    {
+        "text": "Volt Typhoon (Volt Typhoon, Vanguard Panda)",
+        "url": "threat-library-detail?data=volt_typhoon"
+    },
+    {
+        "text": "Wassonite (Wassonite)",
+        "url": "threat-library-detail?data=wassonite"
+    },
+    {
+        "text": "The White Company (The White Company)",
+        "url": "threat-library-detail?data=the_white_company"
+    },
+    {
+        "text": "Whitefly, Mofang (Whitefly, Mofang, TEMP.Mimic, Bronze Walker, ATK 83, SectorM04, Superman)",
+        "url": "threat-library-detail?data=whitefly_mofang"
+    },
+    {
+        "text": "Wicked Spider, APT 22 (Wicked Spider, APT 22, Bronze Export, Bronze Olive)",
+        "url": "threat-library-detail?data=wicked_spider_apt_22"
+    },
+    {
+        "text": "Wild Neutron, Butterfly, Sphinx Moth (Wild Neutron, Butterfly, Morpho, Sphinx Moth, The Postal Group)",
+        "url": "threat-library-detail?data=wild_neutron_butterfly_sphinx_moth"
+    },
+    {
+        "text": "WildPressure (WilePressure)",
+        "url": "threat-library-detail?data=wildpressure"
+    },
+    {
+        "text": "WindShift (WindShift)",
+        "url": "threat-library-detail?data=windshift"
+    },
+    {
+        "text": "Winnti Group, Blackfly, Wicked Panda (Winnti Group, Blackfly, Wicked Panda)",
+        "url": "threat-library-detail?data=winnti_group_blackfly_wicked_panda"
+    },
+    {
+        "text": "Winter Vivern (Winter Vivern, UAC-0114, TA473)",
+        "url": "threat-library-detail?data=winter_vivern"
+    },
+    {
+        "text": "WIP26 (WIP26)",
+        "url": "threat-library-detail?data=wip26"
+    },
+    {
+        "text": "WIRTE Group (WIRTE Group)",
+        "url": "threat-library-detail?data=wirte_group"
+    },
+    {
+        "text": "Wizard Spider, Gold Blackburn (Wizard Spider, Grim Spider, TEMP.MixMaster, Gold Blackburn, Gold Ulrick, ITG23, DEV-0193, Periwinkle Tempest)",
+        "url": "threat-library-detail?data=wizard_spider_gold_blackburn"
+    },
+    {
+        "text": "Worok (Worok)",
+        "url": "threat-library-detail?data=worok"
+    },
+    {
+        "text": "XDSpy (XDSpy)",
+        "url": "threat-library-detail?data=xdspy"
+    },
+    {
+        "text": "xHunt (xHunt, SectorD01, Hive0081, Cobalt Katana)",
+        "url": "threat-library-detail?data=xhunt"
+    },
+    {
+        "text": "YoroTrooper (YoroTrooper)",
+        "url": "threat-library-detail?data=yorotrooper"
+    },
+    {
+        "text": "ZooPark (ZooPark, TG-2884, Cobalt Juno, APT-C-38, Saber Lion)",
+        "url": "threat-library-detail?data=zoopark"
+    },
+    {
+        "text": "[Unnamed group Iran] ([Unnamed group Iran])",
+        "url": "threat-library-detail?data=unnamed_group_iran"
+    },
+    {
+        "text": "8220 Gang (8220 Gang, 8220 Mining Group)",
+        "url": "threat-library-detail?data=8220_gang"
+    },
+    {
+        "text": "Achilles (Achilles)",
+        "url": "threat-library-detail?data=achilles"
+    },
+    {
+        "text": "ALTDOS (ALTDOS)",
+        "url": "threat-library-detail?data=altdos"
+    },
+    {
+        "text": "Andromeda Spider (Andromeda Spider)",
+        "url": "threat-library-detail?data=andromeda_spider"
+    },
+    {
+        "text": "Avalanche (Avalanche)",
+        "url": "threat-library-detail?data=avalanche"
+    },
+    {
+        "text": "Bamboo Spider, TA544 (Bamboo Spider, TA544)",
+        "url": "threat-library-detail?data=bamboo_spider_ta544"
+    },
+    {
+        "text": "Bismuth (Bismuth, Canvas Cyclone)",
+        "url": "threat-library-detail?data=bismuth"
+    },
+    {
+        "text": "Boson Spider (Boson Spider)",
+        "url": "threat-library-detail?data=boson_spider"
+    },
+    {
+        "text": "Circles (Circles)",
+        "url": "threat-library-detail?data=circles"
+    },
+    {
+        "text": "Cron (Cron)",
+        "url": "threat-library-detail?data=cron"
+    },
+    {
+        "text": "Cyber fighters of Izz Ad-Din Al Qassam, Fraternal Jackal (Cyber fighters of Izz Ad-Din Al Qassam, Qassam Cyber Fighters, QCF, Fraternal Jackal)",
+        "url": "threat-library-detail?data=cyber_fighters_of_izz_ad-din_al_qassam_fraternal_jackal"
+    },
+    {
+        "text": "Dark Basin (Dark Basin, Mercenary.Amanda)",
+        "url": "threat-library-detail?data=dark_basin"
+    },
+    {
+        "text": "Desorden (Desorden)",
+        "url": "threat-library-detail?data=desorden"
+    },
+    {
+        "text": "Dungeon Spider (Dungeon Spider)",
+        "url": "threat-library-detail?data=dungeon_spider"
+    },
+    {
+        "text": "Fxmsp (Fxmsp, ATK 134, TAG-CR17)",
+        "url": "threat-library-detail?data=fxmsp"
+    },
+    {
+        "text": "Gnosticplayers (Gnosticplayers)",
+        "url": "threat-library-detail?data=gnosticplayers"
+    },
+    {
+        "text": "Guru Spider (Guru Spider)",
+        "url": "threat-library-detail?data=guru_spider"
+    },
+    {
+        "text": "Hacking Team (Hacking Team)",
+        "url": "threat-library-detail?data=hacking_team"
+    },
+    {
+        "text": "Infraud Organization (Infraud Organization)",
+        "url": "threat-library-detail?data=infraud_organization"
+    },
+    {
+        "text": "Karakurt (Karakurt)",
+        "url": "threat-library-detail?data=karakurt"
+    },
+    {
+        "text": "Lapsus$ (Lapsus$, DEV-0537, Strawberry Tempest)",
+        "url": "threat-library-detail?data=lapsus"
+    },
+    {
+        "text": "Lunar Spider (Lunar Spider, Gold SwathMore)",
+        "url": "threat-library-detail?data=lunar_spider"
+    },
+    {
+        "text": "Monty Spider (Monty Spider, Gold Riverview)",
+        "url": "threat-library-detail?data=monty_spider"
+    },
+    {
+        "text": "Moses Staff (Moses Staff, Abraham's Ax, DEV-0500, Cobalt Sapling, Marigold Sandstorm)",
+        "url": "threat-library-detail?data=moses_staff"
+    },
+    {
+        "text": "Mummy Spider, TA542 (Mummy Spider, TA542, ATK 104, Mealybug, Gold Crestwood)",
+        "url": "threat-library-detail?data=mummy_spider_ta542"
+    },
+    {
+        "text": "Narwhal Spider (Narwhal Spider, Gold Essex)",
+        "url": "threat-library-detail?data=narwhal_spider"
+    },
+    {
+        "text": "OurMine (OurMine, ATK 128, TAG-HA10)",
+        "url": "threat-library-detail?data=ourmine"
+    },
+    {
+        "text": "Operation Windigo (Operation Windigo)",
+        "url": "threat-library-detail?data=operation_windigo"
+    },
+    {
+        "text": "Pacha Group (Pacha Group)",
+        "url": "threat-library-detail?data=pacha_group"
+    },
+    {
+        "text": "Parinacota (Parinacota, Wine Tempest)",
+        "url": "threat-library-detail?data=parinacota"
+    },
+    {
+        "text": "Planetary Reef (Planetary Reef)",
+        "url": "threat-library-detail?data=planetary_reef"
+    },
+    {
+        "text": "Retefe Gang, Operation Emmental (Retefe Gang, Operation Emmental)",
+        "url": "threat-library-detail?data=retefe_gang_operation_emmental"
+    },
+    {
+        "text": "Rocke, Iron Group (Rocke, Iron Group)",
+        "url": "threat-library-detail?data=rocke_iron_group"
+    },
+    {
+        "text": "Salty Spider (Salty Spider)",
+        "url": "threat-library-detail?data=salty_spider"
+    },
+    {
+        "text": "Scully Spider, TA547 (Scully Spider, TA547)",
+        "url": "threat-library-detail?data=scully_spider_ta547"
+    },
+    {
+        "text": "Shadow Brokers (Shadow Brokers)",
+        "url": "threat-library-detail?data=shadow_brokers"
+    },
+    {
+        "text": "ShinyHunters (ShinyHunters)",
+        "url": "threat-library-detail?data=shinyhunters"
+    },
+    {
+        "text": "Shark Spider (Shark Spider)",
+        "url": "threat-library-detail?data=shark_spider"
+    },
+    {
+        "text": "Smoky Spider (Smoky Spider)",
+        "url": "threat-library-detail?data=smoky_spider"
+    },
+    {
+        "text": "TA511 (TA511, MAN1, Moskalvzapoe)",
+        "url": "threat-library-detail?data=ta511"
+    },
+    {
+        "text": "TA516 (TA516, SmokingDro)",
+        "url": "threat-library-detail?data=ta516"
+    },
+    {
+        "text": "TA551, Shathak (TA551, Gold Cabin, Shathak)",
+        "url": "threat-library-detail?data=ta551_shathak"
+    },
+    {
+        "text": "TA554 (TA554, TH-163)",
+        "url": "threat-library-detail?data=ta554"
+    },
+    {
+        "text": "UNC1878 (UNC1878)",
+        "url": "threat-library-detail?data=unc1878"
+    },
+    {
+        "text": "[Vault 7/8] ([Vault 7/8])",
+        "url": "threat-library-detail?data=vault_78"
+    },
+    {
+        "text": "Yanbian Gang (Yanbian Gang)",
+        "url": "threat-library-detail?data=yanbian_gang"
+    },
+    {
+        "text": "Yingmob (Yingmob)",
+        "url": "threat-library-detail?data=yingmob"
+    },
+    {
+        "text": "Zombie Spider (Zombie Spider)",
+        "url": "threat-library-detail?data=zombie_spider"
     }
 ];

@@ -36,6 +36,42 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "strifewater",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/blog/abrahams-ax-likely-linked-to-moses-staff",
+            "date": "2023-01-26",
+            "organization": "Secureworks",
+            "author": "SecureWorks' Counter Threat Unit Research Team",
+            "title": "Abraham's Ax Likely Linked to Moses Staff",
+            "categories": [
+                "StrifeWater RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/guard-your-drive-from-driveguard",
+            "date": "2022-02-15",
+            "organization": "Fortinet",
+            "author": "Rotem Sde-Or",
+            "title": "Guard Your Drive from DriveGuard: Moses Staff Campaigns Against Israeli Organizations Span Several Months",
+            "categories": [
+                "StrifeWater RAT",
+                "MosesStaff"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/strifewater-rat-iranian-apt-moses-staff-adds-new-trojan-to-ransomware-operations",
+            "date": "2022-02-01",
+            "organization": "Cybereason",
+            "author": "Tom Fakterman",
+            "title": "StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations",
+            "categories": [
+                "StrifeWater RAT",
+                "MosesStaff"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "strifewater",
@@ -303,42 +339,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "strifewater",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/blog/abrahams-ax-likely-linked-to-moses-staff",
-            "date": "2023-01-26",
-            "organization": "Secureworks",
-            "author": "SecureWorks' Counter Threat Unit Research Team",
-            "title": "Abraham's Ax Likely Linked to Moses Staff",
-            "categories": [
-                "StrifeWater RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/guard-your-drive-from-driveguard",
-            "date": "2022-02-15",
-            "organization": "Fortinet",
-            "author": "Rotem Sde-Or",
-            "title": "Guard Your Drive from DriveGuard: Moses Staff Campaigns Against Israeli Organizations Span Several Months",
-            "categories": [
-                "StrifeWater RAT",
-                "MosesStaff"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/strifewater-rat-iranian-apt-moses-staff-adds-new-trojan-to-ransomware-operations",
-            "date": "2022-02-01",
-            "organization": "Cybereason",
-            "author": "Tom Fakterman",
-            "title": "StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations",
-            "categories": [
-                "StrifeWater RAT",
-                "MosesStaff"
             ]
         }
     ]

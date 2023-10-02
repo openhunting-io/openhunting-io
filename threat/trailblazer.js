@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "trailblazer",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "trailblazer",
@@ -109,8 +112,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "trailblazer",
-    "analysis": null,
-    "articles": []
+    ]
 };

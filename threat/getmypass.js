@@ -34,7 +34,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "getmypass",
     "analysis": null,
     "articles": [
@@ -78,5 +77,6 @@ var threatdata = {
                 "GetMyPass"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

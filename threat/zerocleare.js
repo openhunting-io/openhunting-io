@@ -47,7 +47,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-09-12 09:22:41",
-    "mitre": [],
     "file_name": "zerocleare",
     "analysis": null,
     "articles": [
@@ -252,5 +251,6 @@ var threatdata = {
                 "ZeroCleare"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

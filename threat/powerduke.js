@@ -34,6 +34,48 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
+            "date": "2023-07-26",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
+            "categories": [
+                "Valak",
+                "POWERSOURCE",
+                "Gazer",
+                "PowerDuke"
+            ]
+        },
+        {
+            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
+            "date": "2020-03-26",
+            "organization": "VMWare Carbon Black",
+            "author": "Scott Knight",
+            "title": "The Dukes of Moscow",
+            "categories": [
+                "Cobalt Strike",
+                "LiteDuke",
+                "MiniDuke",
+                "OnionDuke",
+                "PolyglotDuke",
+                "PowerDuke"
+            ]
+        },
+        {
+            "data_url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",
+            "date": "2016-11-09",
+            "organization": "Volexity",
+            "author": "Steven Adair",
+            "title": "PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs",
+            "categories": [
+                "PowerDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "powerduke",
@@ -233,48 +275,6 @@ var threatdata = {
                     "technique_description": "adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources. data destruction is likely to render stored data irrecoverable by forensic techniques through overwriting files or data on local and remote drives. common operating system file deletion commands such as del and rm often only remove pointers to files without wiping the contents of the files themselves, making the files recoverable by proper forensic methodology. this behavior is distinct from disk content wipe and disk structure wipe because individual files are destroyed rather than sections of a storage disk or the disk's logical structure.",
                     "procedure_description": "powerduke has a command to write random data across a file and delete it.[24]"
                 }
-            ]
-        }
-    ],
-    "file_name": "powerduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
-            "date": "2023-07-26",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
-            "categories": [
-                "Valak",
-                "POWERSOURCE",
-                "Gazer",
-                "PowerDuke"
-            ]
-        },
-        {
-            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
-            "date": "2020-03-26",
-            "organization": "VMWare Carbon Black",
-            "author": "Scott Knight",
-            "title": "The Dukes of Moscow",
-            "categories": [
-                "Cobalt Strike",
-                "LiteDuke",
-                "MiniDuke",
-                "OnionDuke",
-                "PolyglotDuke",
-                "PowerDuke"
-            ]
-        },
-        {
-            "data_url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",
-            "date": "2016-11-09",
-            "organization": "Volexity",
-            "author": "Steven Adair",
-            "title": "PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs",
-            "categories": [
-                "PowerDuke"
             ]
         }
     ]

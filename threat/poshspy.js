@@ -32,6 +32,31 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "poshspy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/matthewdunwoody/POSHSPY",
+            "date": "2017-04-04",
+            "organization": "GitHub (matthewdunwoody)",
+            "author": "Matthew Dunwoody",
+            "title": "POSHSPY backdoor code",
+            "categories": [
+                "POSHSPY"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
+            "date": "2017-04-03",
+            "organization": "FireEye",
+            "author": "Matthew Dunwoody",
+            "title": "Dissecting One of APT29\u2019s Fileless WMI and PowerShell Backdoors (POSHSPY)",
+            "categories": [
+                "POSHSPY",
+                "APT29"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "poshspy",
@@ -147,31 +172,6 @@ var threatdata = {
                     "technique_description": "an adversary may exfiltrate data in fixed size chunks instead of whole files or limit packet sizes below certain thresholds. this approach may be used to avoid triggering network data transfer threshold alerts.",
                     "procedure_description": "poshspy uploads data in 2048-byte chunks.[13]"
                 }
-            ]
-        }
-    ],
-    "file_name": "poshspy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://github.com/matthewdunwoody/POSHSPY",
-            "date": "2017-04-04",
-            "organization": "GitHub (matthewdunwoody)",
-            "author": "Matthew Dunwoody",
-            "title": "POSHSPY backdoor code",
-            "categories": [
-                "POSHSPY"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html",
-            "date": "2017-04-03",
-            "organization": "FireEye",
-            "author": "Matthew Dunwoody",
-            "title": "Dissecting One of APT29\u2019s Fileless WMI and PowerShell Backdoors (POSHSPY)",
-            "categories": [
-                "POSHSPY",
-                "APT29"
             ]
         }
     ]

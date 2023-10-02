@@ -23,8 +23,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "scrapmint",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

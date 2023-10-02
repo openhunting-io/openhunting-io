@@ -37,28 +37,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "bs2005",
-            "procedure_code": "s0014",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0014",
-            "techniques": [
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1132.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1132/001",
-                    "technique_name": "data encoding : standard encoding",
-                    "technique_description": "adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. common data encoding schemes include ascii, unicode, hexadecimal, base64, and mime. some data encoding systems may also result in data compression, such as gzip.",
-                    "procedure_description": "bs2005 uses base64 encoding for communication in the message body of an http request.[16]"
-                }
-            ]
-        }
-    ],
     "file_name": "bs2005",
     "analysis": null,
     "articles": [
@@ -103,6 +81,28 @@ var threatdata = {
                 "RoyalCli",
                 "Royal DNS",
                 "APT15"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "bs2005",
+            "procedure_code": "s0014",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0014",
+            "techniques": [
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1132.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1132/001",
+                    "technique_name": "data encoding : standard encoding",
+                    "technique_description": "adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. command and control (c2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. common data encoding schemes include ascii, unicode, hexadecimal, base64, and mime. some data encoding systems may also result in data compression, such as gzip.",
+                    "procedure_description": "bs2005 uses base64 encoding for communication in the message body of an http request.[16]"
+                }
             ]
         }
     ]

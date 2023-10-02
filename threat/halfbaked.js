@@ -39,6 +39,54 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "halfbaked",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/software/S0151/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Tool description: HALFBAKED",
+            "categories": [
+                "HALFBAKED"
+            ]
+        },
+        {
+            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s05-att&cking-fin7.pdf",
+            "date": "2018-10-01",
+            "organization": "FireEye",
+            "author": "Regina Elwell",
+            "title": "ATT&CKing FIN7",
+            "categories": [
+                "Bateleur",
+                "BELLHOP",
+                "Griffon",
+                "ANTAK",
+                "POWERPIPE",
+                "POWERSOURCE",
+                "HALFBAKED",
+                "BABYMETAL",
+                "Carbanak",
+                "Cobalt Strike",
+                "DNSMessenger",
+                "DRIFTPIN",
+                "PILLOWMINT",
+                "SocksBot"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
+            "date": "2017-04-24",
+            "organization": "FireEye",
+            "author": "Saravanan Mohankumar",
+            "title": "FIN7 Evolution and the Phishing LNK",
+            "categories": [
+                "HALFBAKED",
+                "FIN7"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "halfbaked",
@@ -118,54 +166,6 @@ var threatdata = {
                     "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
                     "procedure_description": "halfbaked can obtain screenshots from the victim.[72]"
                 }
-            ]
-        }
-    ],
-    "file_name": "halfbaked",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://attack.mitre.org/software/S0151/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Tool description: HALFBAKED",
-            "categories": [
-                "HALFBAKED"
-            ]
-        },
-        {
-            "data_url": "https://summit.fireeye.com/content/dam/fireeye-www/summit/cds-2018/presentations/cds18-technical-s05-att&cking-fin7.pdf",
-            "date": "2018-10-01",
-            "organization": "FireEye",
-            "author": "Regina Elwell",
-            "title": "ATT&CKing FIN7",
-            "categories": [
-                "Bateleur",
-                "BELLHOP",
-                "Griffon",
-                "ANTAK",
-                "POWERPIPE",
-                "POWERSOURCE",
-                "HALFBAKED",
-                "BABYMETAL",
-                "Carbanak",
-                "Cobalt Strike",
-                "DNSMessenger",
-                "DRIFTPIN",
-                "PILLOWMINT",
-                "SocksBot"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html",
-            "date": "2017-04-24",
-            "organization": "FireEye",
-            "author": "Saravanan Mohankumar",
-            "title": "FIN7 Evolution and the Phishing LNK",
-            "categories": [
-                "HALFBAKED",
-                "FIN7"
             ]
         }
     ]

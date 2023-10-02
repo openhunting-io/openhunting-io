@@ -34,6 +34,30 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "chaes",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.morphisec.com/chaes4-new-chaes-malware-variant-targeting-financial-and-logistics-customers",
+            "date": "2023-09-05",
+            "organization": "Morphisec",
+            "author": "Hido Cohen",
+            "title": "Chae$ 4: New Chaes Malware Variant Targeting Financial and Logistics Customers",
+            "categories": [
+                "Chaes"
+            ]
+        },
+        {
+            "data_url": "https://decoded.avast.io/anhho/chasing-chaes-kill-chain/",
+            "date": "2022-01-25",
+            "organization": "Avast",
+            "author": "Anh ho",
+            "title": "Chasing Chaes Kill Chain",
+            "categories": [
+                "Chaes"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "chaes",
@@ -425,30 +449,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over a different protocol than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "chaes has exfiltrated its collected data from the infected machine to the c2, sometimes using the mime protocol.[4]"
                 }
-            ]
-        }
-    ],
-    "file_name": "chaes",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.morphisec.com/chaes4-new-chaes-malware-variant-targeting-financial-and-logistics-customers",
-            "date": "2023-09-05",
-            "organization": "Morphisec",
-            "author": "Hido Cohen",
-            "title": "Chae$ 4: New Chaes Malware Variant Targeting Financial and Logistics Customers",
-            "categories": [
-                "Chaes"
-            ]
-        },
-        {
-            "data_url": "https://decoded.avast.io/anhho/chasing-chaes-kill-chain/",
-            "date": "2022-01-25",
-            "organization": "Avast",
-            "author": "Anh ho",
-            "title": "Chasing Chaes Kill Chain",
-            "categories": [
-                "Chaes"
             ]
         }
     ]

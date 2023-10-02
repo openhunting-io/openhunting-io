@@ -32,6 +32,34 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "fatduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON HEMLOCK",
+            "categories": [
+                "FatDuke",
+                "MiniDuke",
+                "OnionDuke",
+                "PolyglotDuke",
+                "APT29"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2019/10/ESET_Operation_Ghost_Dukes.pdf",
+            "date": "2019-10-17",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "OPERATION GHOST The Dukes aren\u2019t back \u2014 they never left",
+            "categories": [
+                "FatDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "fatduke",
@@ -359,34 +387,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "fatduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON HEMLOCK",
-            "categories": [
-                "FatDuke",
-                "MiniDuke",
-                "OnionDuke",
-                "PolyglotDuke",
-                "APT29"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2019/10/ESET_Operation_Ghost_Dukes.pdf",
-            "date": "2019-10-17",
-            "organization": "ESET Research",
-            "author": "Matthieu Faou",
-            "title": "OPERATION GHOST The Dukes aren\u2019t back \u2014 they never left",
-            "categories": [
-                "FatDuke"
             ]
         }
     ]

@@ -36,7 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "cuegoe",
     "analysis": null,
     "articles": [
@@ -74,5 +73,6 @@ var threatdata = {
                 "Cuegoe"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

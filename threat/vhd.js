@@ -36,7 +36,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "vhd",
     "analysis": null,
     "articles": [
@@ -124,5 +123,6 @@ var threatdata = {
                 "VHD Ransomware"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

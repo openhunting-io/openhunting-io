@@ -44,6 +44,46 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "punchbuggy",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://atr-blog.gigamon.com/2019/07/23/abadbabe-8badf00d-discovering-badhatch-and-a-detailed-look-at-fin8s-tooling/",
+            "date": "2019-07-23",
+            "organization": "Gigamon",
+            "author": "Kristina Savelesky",
+            "title": "ABADBABE 8BADF00D: Discovering BADHATCH and a Detailed Look at FIN8\u2019s Tooling",
+            "categories": [
+                "PoSlurp",
+                "Powersniff"
+            ]
+        },
+        {
+            "data_url": "https://lokalhost.pl/gozi_tree.txt",
+            "date": "2017-05-29",
+            "organization": "Lokalhost.pl",
+            "author": "Maciej Kotowicz",
+            "title": "Gozi Tree",
+            "categories": [
+                "DreamBot",
+                "Gozi",
+                "ISFB",
+                "Powersniff"
+            ]
+        },
+        {
+            "data_url": "https://content.fireeye.com/m-trends/rpt-m-trends-2017",
+            "date": "2017-03-14",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "M-Trend 2017: A View From the Front Lines",
+            "categories": [
+                "DistTrack",
+                "Powersniff",
+                "FIN8"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "punchbuggy",
@@ -279,46 +319,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "punchbuggy can download additional files and payloads to compromised hosts.[360][361]"
                 }
-            ]
-        }
-    ],
-    "file_name": "punchbuggy",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://atr-blog.gigamon.com/2019/07/23/abadbabe-8badf00d-discovering-badhatch-and-a-detailed-look-at-fin8s-tooling/",
-            "date": "2019-07-23",
-            "organization": "Gigamon",
-            "author": "Kristina Savelesky",
-            "title": "ABADBABE 8BADF00D: Discovering BADHATCH and a Detailed Look at FIN8\u2019s Tooling",
-            "categories": [
-                "PoSlurp",
-                "Powersniff"
-            ]
-        },
-        {
-            "data_url": "https://lokalhost.pl/gozi_tree.txt",
-            "date": "2017-05-29",
-            "organization": "Lokalhost.pl",
-            "author": "Maciej Kotowicz",
-            "title": "Gozi Tree",
-            "categories": [
-                "DreamBot",
-                "Gozi",
-                "ISFB",
-                "Powersniff"
-            ]
-        },
-        {
-            "data_url": "https://content.fireeye.com/m-trends/rpt-m-trends-2017",
-            "date": "2017-03-14",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "M-Trend 2017: A View From the Front Lines",
-            "categories": [
-                "DistTrack",
-                "Powersniff",
-                "FIN8"
             ]
         }
     ]

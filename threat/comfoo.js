@@ -35,6 +35,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "comfoo",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/secrets-of-the-comfoo-masters",
+            "date": "2013-07-31",
+            "organization": "Secureworks",
+            "author": "Joe Stewart",
+            "title": "Secrets of the Comfoo Masters",
+            "categories": [
+                "Comfoo"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -78,20 +92,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "comfoo",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/secrets-of-the-comfoo-masters",
-            "date": "2013-07-31",
-            "organization": "Secureworks",
-            "author": "Joe Stewart",
-            "title": "Secrets of the Comfoo Masters",
-            "categories": [
-                "Comfoo"
             ]
         }
     ]

@@ -1,48 +1,168 @@
 var threatdata = {
     "name": "RTM",
-    "alias": "RTM, RTM Banker, Redaman",
-    "category": "Malware",
-    "type": "Banking trojan, Backdoor, Keylogger, Info stealer, Downloader, Exfiltration",
+    "alias": "RTM",
+    "category": "APT",
+    "type": "-",
     "modified": "2022-01-27",
     "all_data": {
-        "tool": "RTM",
+        "actor": "RTM",
         "names": [
             {
-                "name": "RTM"
-            },
-            {
-                "name": "RTM Banker"
-            },
-            {
-                "name": "Redaman"
+                "name": "RTM",
+                "name-giver": "ESET"
             }
         ],
-        "description": "RTM Banker also known as Redaman was first blogged about in February 2017 by ESET. The malware is written in Delphi and shows some similarities (like process list) with {{Buhtrap}}. It uses a slightly modified version of RC4 to encrypt its strings, network data, configuration and modules, according to ESET.",
-        "category": "Malware",
-        "type": [
-            "Banking trojan",
-            "Backdoor",
-            "Keylogger",
-            "Info stealer",
-            "Downloader",
-            "Exfiltration"
+        "country": [
+            "Russia"
+        ],
+        "motivation": [
+            "Financial crime"
+        ],
+        "first-seen": "2015",
+        "description": "(ESET) There are several groups actively and profitably targeting businesses in Russia. A trend that we have seen unfold before our eyes lately is these cybercriminals\u2019 use of simple backdoors to gain a foothold in their targets\u2019 networks. Once they have this access, a lot of the work is done manually, slowly getting to understand the network layout and deploying custom tools the criminals can use to steal funds from these entities. Some of the groups that best exemplify these trends are {{Buhtrap, Ratopak Spider}}, {{Cobalt Group}} and {{Corkow, Metel}}.\n\nThe group discussed in this white paper is part of this new trend. We call this new group RTM; it uses custom malware, written in Delphi, that we cover in detail in later sections. The first trace of this tool in our telemetry data dates back to late 2015. The group also makes use of several different modules that they deploy where appropriate to their targets. They are interested in users of remote banking systems (RBS), mainly in Russia and neighboring countries.\n\nThat this group is mostly targeting businesses is apparent from the processes they are looking for on a compromised system. They look for software that is usually only installed on accountants\u2019 computers, such as remote banking software or tools to help with accounts pay.",
+        "observed-countries": [
+            "Czech",
+            "Germany",
+            "Kazakhstan",
+            "Russia",
+            "Ukraine"
+        ],
+        "tools": [
+            "AtNow",
+            "RTM"
         ],
         "information": [
             "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf"
         ],
         "mitre-attack": [
-            "https://attack.mitre.org/software/S0148/"
+            "https://attack.mitre.org/groups/G0048/"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.rtm",
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.redaman"
-        ],
-        "uuid": "fd9ceb37-fbda-4946-9e69-c83de7ecb1d0",
-        "last-card-change": "2020-05-22",
+        "uuid": "72d3f856-6883-4840-bf43-a3dd24c61bbc",
+        "last-card-change": "2020-04-22",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rtm",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://jonahacks.medium.com/malware-analysis-manual-unpacking-of-redaman-ec1782352cfb",
+            "date": "2022-01-27",
+            "organization": "Medium jonahacks",
+            "author": "Jon",
+            "title": "Malware Analysis \u2014Manual Unpacking of Redaman",
+            "categories": [
+                "RTM"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/paas-or-how-hackers-evade-antivirus-software/",
+            "date": "2021-04-12",
+            "organization": "PTSecurity",
+            "author": "PTSecurity",
+            "title": "PaaS, or how hackers evade antivirus software",
+            "categories": [
+                "Amadey",
+                "Bunitu",
+                "Cerber",
+                "Dridex",
+                "ISFB",
+                "KPOT Stealer",
+                "Mailto",
+                "Nemty",
+                "Phobos",
+                "Pony",
+                "Predator The Thief",
+                "QakBot",
+                "Raccoon",
+                "RTM",
+                "SmokeLoader",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
+            "date": "2021-03-31",
+            "organization": "Kaspersky",
+            "author": "Kaspersky",
+            "title": "Financial Cyberthreats in 2020",
+            "categories": [
+                "BetaBot",
+                "DanaBot",
+                "Emotet",
+                "Gozi",
+                "Ramnit",
+                "RTM",
+                "SpyEye",
+                "TrickBot",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "http://www.peppermalware.com/2019/11/brief-analysis-of-redaman-banking.html",
+            "date": "2019-11-05",
+            "organization": "PepperMalware Blog",
+            "author": "Pepper Potts",
+            "title": "Brief analysis of Redaman Banking Malware (v0.6.0.2) Sample",
+            "categories": [
+                "RTM"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=YXnNO3TipvM",
+            "date": "2019-05-05",
+            "organization": "Youtube (LiveOverflow)",
+            "author": "LiveOverflow",
+            "title": "Unpacking Redaman Malware & Basics of Self-Injection Packers - ft. OALabs",
+            "categories": [
+                "RTM"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2019/04/30/buhtrap-backdoor-ransomware-advertising-platform/",
+            "date": "2019-04-30",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Buhtrap backdoor and Buran ransomware distributed via major advertising platform",
+            "categories": [
+                "Buhtrap",
+                "ClipBanker",
+                "RTM"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/russian-language-malspam-pushing-redaman-banking-malware/",
+            "date": "2019-01-23",
+            "organization": "",
+            "author": "Brad Duncan",
+            "title": "Russian Language Malspam Pushing Redaman Banking Malware",
+            "categories": [
+                "RTM"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0048/",
+            "date": "2019",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Group description: RTM",
+            "categories": [
+                "RTM"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
+            "date": "2017-02",
+            "organization": "ESET Research",
+            "author": "Matthieu Faou",
+            "title": "Read The Manual: A Guide to the RTM Banking Trojan",
+            "categories": [
+                "RTM",
+                "RTM"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "rtm",
@@ -686,126 +806,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an existing, legitimate external web service to host information that points to additional command and control (c2) infrastructure. adversaries may post content, known as a dead drop resolver, on web services with embedded (and often obfuscated/encoded) domains or ip addresses. once infected, victims will reach out to and be redirected by these resolvers.",
                     "procedure_description": "rtm has used an rss feed on livejournal to update a list of encrypted c2 server names.[18]"
                 }
-            ]
-        }
-    ],
-    "file_name": "rtm",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://jonahacks.medium.com/malware-analysis-manual-unpacking-of-redaman-ec1782352cfb",
-            "date": "2022-01-27",
-            "organization": "Medium jonahacks",
-            "author": "Jon",
-            "title": "Malware Analysis \u2014Manual Unpacking of Redaman",
-            "categories": [
-                "RTM"
-            ]
-        },
-        {
-            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/paas-or-how-hackers-evade-antivirus-software/",
-            "date": "2021-04-12",
-            "organization": "PTSecurity",
-            "author": "PTSecurity",
-            "title": "PaaS, or how hackers evade antivirus software",
-            "categories": [
-                "Amadey",
-                "Bunitu",
-                "Cerber",
-                "Dridex",
-                "ISFB",
-                "KPOT Stealer",
-                "Mailto",
-                "Nemty",
-                "Phobos",
-                "Pony",
-                "Predator The Thief",
-                "QakBot",
-                "Raccoon",
-                "RTM",
-                "SmokeLoader",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/financial-cyberthreats-in-2020/101638/",
-            "date": "2021-03-31",
-            "organization": "Kaspersky",
-            "author": "Kaspersky",
-            "title": "Financial Cyberthreats in 2020",
-            "categories": [
-                "BetaBot",
-                "DanaBot",
-                "Emotet",
-                "Gozi",
-                "Ramnit",
-                "RTM",
-                "SpyEye",
-                "TrickBot",
-                "Zeus"
-            ]
-        },
-        {
-            "data_url": "http://www.peppermalware.com/2019/11/brief-analysis-of-redaman-banking.html",
-            "date": "2019-11-05",
-            "organization": "PepperMalware Blog",
-            "author": "Pepper Potts",
-            "title": "Brief analysis of Redaman Banking Malware (v0.6.0.2) Sample",
-            "categories": [
-                "RTM"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=YXnNO3TipvM",
-            "date": "2019-05-05",
-            "organization": "Youtube (LiveOverflow)",
-            "author": "LiveOverflow",
-            "title": "Unpacking Redaman Malware & Basics of Self-Injection Packers - ft. OALabs",
-            "categories": [
-                "RTM"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2019/04/30/buhtrap-backdoor-ransomware-advertising-platform/",
-            "date": "2019-04-30",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Buhtrap backdoor and Buran ransomware distributed via major advertising platform",
-            "categories": [
-                "Buhtrap",
-                "ClipBanker",
-                "RTM"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/russian-language-malspam-pushing-redaman-banking-malware/",
-            "date": "2019-01-23",
-            "organization": "",
-            "author": "Brad Duncan",
-            "title": "Russian Language Malspam Pushing Redaman Banking Malware",
-            "categories": [
-                "RTM"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0048/",
-            "date": "2019",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Group description: RTM",
-            "categories": [
-                "RTM"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2017/02/Read-The-Manual.pdf",
-            "date": "2017-02",
-            "organization": "ESET Research",
-            "author": "Matthieu Faou",
-            "title": "Read The Manual: A Guide to the RTM Banking Trojan",
-            "categories": [
-                "RTM",
-                "RTM"
             ]
         }
     ]

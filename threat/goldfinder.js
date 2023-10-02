@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "goldfinder",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "goldfinder",
@@ -73,8 +76,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "goldfinder",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -40,6 +40,62 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "syscon",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/the-fractured-statue-campaign-u-s-government-targeted-in-spear-phishing-attacks/",
+            "date": "2020-01-23",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Adrian McCabe",
+            "title": "The Fractured Statue Campaign: U.S. Government Targeted in Spear-Phishing Attacks",
+            "categories": [
+                "CARROTBALL",
+                "CarrotBat",
+                "Syscon"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2018/03/sanny-malware-delivery-method-updated-in-recently-observed-attacks.html",
+            "date": "2018-03-23",
+            "organization": "FireEye",
+            "author": "Sudeep Singh",
+            "title": "Sanny malware delivery method updated in recently observed attacks.",
+            "categories": [
+                "Sanny"
+            ]
+        },
+        {
+            "data_url": "https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/",
+            "date": "2018-03-02",
+            "organization": "McAfee",
+            "author": "Ryan Sherstobitoff",
+            "title": "McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups",
+            "categories": [
+                "Syscon"
+            ]
+        },
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/syscon-backdoor-uses-ftp-as-a-cc-channel/",
+            "date": "2017-10-05",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "SYSCON Backdoor Uses FTP as a C&C Channel",
+            "categories": [
+                "Syscon"
+            ]
+        },
+        {
+            "data_url": "http://contagiodump.blogspot.com/2012/12/end-of-year-presents-continue.html",
+            "date": "2012-12-17",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "Sample for Sanny / Win32.Daws in CVE-2012-0158 \"ACEAN Regional Security Forum\"  targeting  Russian companies",
+            "categories": [
+                "Sanny"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "syscon",
@@ -107,62 +163,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using application layer protocols associated with transferring files to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
                     "procedure_description": "syscon has the ability to use ftp in c2 communications.[16][3]"
                 }
-            ]
-        }
-    ],
-    "file_name": "syscon",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/the-fractured-statue-campaign-u-s-government-targeted-in-spear-phishing-attacks/",
-            "date": "2020-01-23",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Adrian McCabe",
-            "title": "The Fractured Statue Campaign: U.S. Government Targeted in Spear-Phishing Attacks",
-            "categories": [
-                "CARROTBALL",
-                "CarrotBat",
-                "Syscon"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2018/03/sanny-malware-delivery-method-updated-in-recently-observed-attacks.html",
-            "date": "2018-03-23",
-            "organization": "FireEye",
-            "author": "Sudeep Singh",
-            "title": "Sanny malware delivery method updated in recently observed attacks.",
-            "categories": [
-                "Sanny"
-            ]
-        },
-        {
-            "data_url": "https://securingtomorrow.mcafee.com/mcafee-labs/mcafee-uncovers-operation-honeybee-malicious-document-campaign-targeting-humanitarian-aid-groups/",
-            "date": "2018-03-02",
-            "organization": "McAfee",
-            "author": "Ryan Sherstobitoff",
-            "title": "McAfee Uncovers Operation Honeybee, a Malicious Document Campaign Targeting Humanitarian Aid Groups",
-            "categories": [
-                "Syscon"
-            ]
-        },
-        {
-            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/syscon-backdoor-uses-ftp-as-a-cc-channel/",
-            "date": "2017-10-05",
-            "organization": "Trend Micro",
-            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
-            "title": "SYSCON Backdoor Uses FTP as a C&C Channel",
-            "categories": [
-                "Syscon"
-            ]
-        },
-        {
-            "data_url": "http://contagiodump.blogspot.com/2012/12/end-of-year-presents-continue.html",
-            "date": "2012-12-17",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "Sample for Sanny / Win32.Daws in CVE-2012-0158 \"ACEAN Regional Security Forum\"  targeting  Russian companies",
-            "categories": [
-                "Sanny"
             ]
         }
     ]

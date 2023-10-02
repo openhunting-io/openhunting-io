@@ -25,7 +25,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "opblockbuster",
     "analysis": null,
     "articles": [
@@ -39,5 +38,6 @@ var threatdata = {
                 "OpBlockBuster"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

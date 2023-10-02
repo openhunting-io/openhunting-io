@@ -33,6 +33,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "mysterysnail_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/mysterysnail-attacks-with-windows-zero-day/104509/",
+            "date": "2021-10-12",
+            "organization": "",
+            "author": "Boris Larin",
+            "title": "MysterySnail attacks with Windows zero-day",
+            "categories": [
+                "MysterySnail"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -76,20 +90,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "mysterysnail_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/mysterysnail-attacks-with-windows-zero-day/104509/",
-            "date": "2021-10-12",
-            "organization": "",
-            "author": "Boris Larin",
-            "title": "MysterySnail attacks with Windows zero-day",
-            "categories": [
-                "MysterySnail"
             ]
         }
     ]

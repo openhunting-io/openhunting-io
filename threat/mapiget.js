@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "mapiget",
     "analysis": null,
     "articles": [
@@ -76,5 +75,6 @@ var threatdata = {
                 "WebC2-Yahoo"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

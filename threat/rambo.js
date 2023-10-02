@@ -33,7 +33,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "rambo",
     "analysis": null,
     "articles": [
@@ -74,5 +73,6 @@ var threatdata = {
                 "Rambo"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

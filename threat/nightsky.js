@@ -35,7 +35,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "nightsky",
     "analysis": null,
     "articles": [
@@ -176,5 +175,6 @@ var threatdata = {
                 "BRONZE STARLIGHT"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

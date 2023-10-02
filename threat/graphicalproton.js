@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "graphicalproton",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "proton",
@@ -262,8 +265,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "graphicalproton",
-    "analysis": null,
-    "articles": []
+    ]
 };

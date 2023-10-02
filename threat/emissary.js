@@ -32,6 +32,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "emissary",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
+            "date": "2016-02-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?",
+            "categories": [
+                "Emissary"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "emissary",
@@ -255,20 +269,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "emissary has the capability to download files from the c2 server.[165]"
                 }
-            ]
-        }
-    ],
-    "file_name": "emissary",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
-            "date": "2016-02-03",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?",
-            "categories": [
-                "Emissary"
             ]
         }
     ]

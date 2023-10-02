@@ -1,31 +1,78 @@
 var threatdata = {
     "name": "Madi",
-    "alias": "Madi",
-    "category": "Malware",
-    "type": "Info stealer",
-    "modified": "2020-04-20",
+    "alias": "Madi, Mahdi",
+    "category": "APT",
+    "type": "-",
+    "modified": "2020-04-14",
     "all_data": {
-        "tool": "Madi",
+        "actor": "Madi",
         "names": [
             {
-                "name": "Madi"
+                "name": "Madi",
+                "name-giver": "Kaspersky"
+            },
+            {
+                "name": "Mahdi",
+                "name-giver": "Kaspersky"
             }
         ],
-        "description": "(Kaspersky) The infostealer is installed by one of the various downloaders used in the attacks, which can be separated into two categories:\n\u2022 Downloaders using the social engineering techniques described in our first blog post (displaying pictures, movies, documents etc.) to trick the user\n\u2022 Downloaders that simply download and install the infostealer",
-        "category": "Malware",
-        "type": [
-            "Info stealer"
+        "country": [
+            "Iran"
+        ],
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2011",
+        "description": "(Kaspersky) Kaspersky Lab and Seculert worked together to sinkhole the Madi Command & Control (C&C) servers to monitor the campaign. Kaspersky Lab and Seculert identified more than 800 victims located in Iran, Israel and select countries across the globe connecting to the C&Cs over the past eight months.  Statistics from the sinkhole revealed that the victims were primarily business people working on Iranian and Israeli critical infrastructure projects, Israeli financial institutions, Middle Eastern engineering students, and various government agencies communicating in the Middle East.\n\nCommon applications and websites that were spied on include accounts on Gmail, Hotmail, Yahoo! Mail, ICQ, Skype, Google+, and Facebook. Surveillance is also performed over integrated ERP/CRM systems, business contracts, and financial management systems.",
+        "observed-sectors": [
+            "Education",
+            "Engineering",
+            "Financial",
+            "Government",
+            "Oil and gas",
+            "Think Tanks"
+        ],
+        "observed-countries": [
+            "Australia",
+            "Ecuador",
+            "Greece",
+            "Iran",
+            "Iraq",
+            "Israel",
+            "Mozambique",
+            "New Zealand",
+            "Pakistan",
+            "Saudi Arabia",
+            "Switzerland",
+            "USA",
+            "Vietnam"
+        ],
+        "tools": [
+            "Madi"
+        ],
+        "operations": [
+            {
+                "date": "2012-07",
+                "activity": "New and Improved Madi Spyware Campaign Continues\nMadi, the religiously-titled spyware that was discovered last week and thought to be dead, appears to be making a comeback, complete with updates.\nhttps://threatpost.com/new-and-improved-madi-spyware-campaign-continues-072512/76849/"
+            }
+        ],
+        "counter-operations": [
+            {
+                "date": "",
+                "activity": "The C&C servers have been sinkholed by Kaspersky and Seculert."
+            }
         ],
         "information": [
-            "https://securelist.com/the-madi-infostealers-a-detailed-analysis/36609/"
+            "https://www.symantec.com/connect/blogs/madi-attacks-series-social-engineering-campaigns",
+            "https://securelist.com/the-madi-campaign-part-i-5/33693/",
+            "https://securelist.com/the-madi-campaign-part-ii-53/33701/"
         ],
-        "uuid": "2de82fde-59d4-4e99-b51a-963078e80927",
-        "last-card-change": "2020-04-20",
+        "uuid": "2afc9634-8895-4535-bb80-8843d4830e04",
+        "last-card-change": "2020-04-14",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "madi",
     "analysis": null,
     "articles": [
@@ -99,5 +146,6 @@ var threatdata = {
                 "Madi"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

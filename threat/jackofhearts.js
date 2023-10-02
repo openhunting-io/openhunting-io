@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "jackofhearts",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "slothfulmedia",
@@ -352,8 +355,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "jackofhearts",
-    "analysis": null,
-    "articles": []
+    ]
 };

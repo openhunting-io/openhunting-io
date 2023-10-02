@@ -36,6 +36,40 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pslogger",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-239a",
+            "date": "2020-08-26",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "MAR-10301706-1.v1 - North Korean Remote Access Tool: ECCENTRICBANDWAGON",
+            "categories": [
+                "PSLogger"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/KevinPerlow/status/1160766519615381504",
+            "date": "2019-08-11",
+            "organization": "Twitter (@KevinPerlow)",
+            "author": "Kevin Perlow",
+            "title": "Updated #Lazarus Keylogger (uploaded June)",
+            "categories": [
+                "PSLogger"
+            ]
+        },
+        {
+            "data_url": "https://norfolkinfosec.com/a-lazarus-keylogger-pslogger/",
+            "date": "2019-01-22",
+            "organization": "One Night in Norfolk",
+            "author": "Norfolk",
+            "title": "A Lazarus Keylogger- PSLogger",
+            "categories": [
+                "PSLogger"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "eccentricbandwagon",
@@ -127,40 +161,6 @@ var threatdata = {
                     "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
                     "procedure_description": "eccentricbandwagon can capture screenshots and store them locally.[57]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pslogger",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/analysis-reports/ar20-239a",
-            "date": "2020-08-26",
-            "organization": "CISA",
-            "author": "CISA",
-            "title": "MAR-10301706-1.v1 - North Korean Remote Access Tool: ECCENTRICBANDWAGON",
-            "categories": [
-                "PSLogger"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/KevinPerlow/status/1160766519615381504",
-            "date": "2019-08-11",
-            "organization": "Twitter (@KevinPerlow)",
-            "author": "Kevin Perlow",
-            "title": "Updated #Lazarus Keylogger (uploaded June)",
-            "categories": [
-                "PSLogger"
-            ]
-        },
-        {
-            "data_url": "https://norfolkinfosec.com/a-lazarus-keylogger-pslogger/",
-            "date": "2019-01-22",
-            "organization": "One Night in Norfolk",
-            "author": "Norfolk",
-            "title": "A Lazarus Keylogger- PSLogger",
-            "categories": [
-                "PSLogger"
             ]
         }
     ]

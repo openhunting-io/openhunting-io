@@ -38,25 +38,29 @@ var threatdata = {
             "malware_printable": "BitRAT",
             "malware_alias": null,
             "malware": "win.bit_rat",
-            "last_update": "2023-09-25 12:00:14",
+            "last_update": "2023-09-27 22:00:12",
             "tags": [
+                "c2",
                 "historicalandnew",
                 "RAT",
+                "BitRat",
+                "Port8092",
+                "exe",
+                "iso",
+                "DbatLoader",
+                "ModiLoader",
+                "AsyncRAT",
                 "zip",
                 "xenarmor",
-                "ModiLoader",
-                "exe",
-                "c2",
-                "Port8092",
-                "DbatLoader",
-                "iso",
-                "bitrat",
-                "AsyncRAT",
                 "BitRAT",
-                "BitRat"
+                "bitrat"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "95.217.41.220:443",
+                        "timestamp": "2023-09-27 22:00:12"
+                    },
                     {
                         "value": "185.225.75.68:3569",
                         "timestamp": "2023-09-25 12:00:14"
@@ -1917,7 +1921,7 @@ var threatdata = {
                     },
                     {
                         "value": "eichelberger.duckdns.org",
-                        "timestamp": "2023-09-10 20:59:17"
+                        "timestamp": "2023-09-27 13:54:18"
                     },
                     {
                         "value": "gfeqqgeag.duckdns.org",
@@ -1929,7 +1933,7 @@ var threatdata = {
                     },
                     {
                         "value": "rfrehdfbss.duckdns.org",
-                        "timestamp": "2023-09-10 20:59:17"
+                        "timestamp": "2023-09-27 14:07:15"
                     },
                     {
                         "value": "fghhjuyg.duckdns.org",
@@ -1993,7 +1997,7 @@ var threatdata = {
                     },
                     {
                         "value": "lapoire3.hopto.org",
-                        "timestamp": "2023-09-10 21:12:00"
+                        "timestamp": "2023-09-27 14:13:04"
                     },
                     {
                         "value": "bita.plumfixa.com",
@@ -2041,7 +2045,7 @@ var threatdata = {
                     },
                     {
                         "value": "cabalfenix.ddns.net",
-                        "timestamp": "2023-09-10 20:59:14"
+                        "timestamp": "2023-09-27 13:52:55"
                     },
                     {
                         "value": "vhsivhyugve.duckdns.org",
@@ -2209,7 +2213,7 @@ var threatdata = {
                     },
                     {
                         "value": "engkaa.ddns.net",
-                        "timestamp": "2023-09-10 20:59:10"
+                        "timestamp": "2023-09-27 13:53:24"
                     },
                     {
                         "value": "bit9090.duckdns.org",
@@ -2313,7 +2317,7 @@ var threatdata = {
                     },
                     {
                         "value": "sheet.duckdns.org",
-                        "timestamp": "2023-09-10 20:59:07"
+                        "timestamp": "2023-09-27 13:52:47"
                     },
                     {
                         "value": "privatelayer.ddnsgeek.com",
@@ -2457,7 +2461,7 @@ var threatdata = {
                     },
                     {
                         "value": "winwin76997708nk.awsmppl.com",
-                        "timestamp": "2023-09-10 20:59:03"
+                        "timestamp": "2023-09-27 13:53:37"
                     },
                     {
                         "value": "regidis.mooo.com",
@@ -2577,7 +2581,7 @@ var threatdata = {
                     },
                     {
                         "value": "backu4734.duckdns.org",
-                        "timestamp": "2023-09-10 20:59:00"
+                        "timestamp": "2023-09-27 18:40:45"
                     },
                     {
                         "value": "pingsolex.duckdns.org",
@@ -2677,7 +2681,7 @@ var threatdata = {
                     },
                     {
                         "value": "jrandjcpa.org",
-                        "timestamp": "2023-09-10 21:55:48"
+                        "timestamp": "2023-09-27 14:09:36"
                     },
                     {
                         "value": "ncjnifhuifd.con-ip.com",
@@ -2705,7 +2709,7 @@ var threatdata = {
                     },
                     {
                         "value": "omglunie.hopto.org",
-                        "timestamp": "2023-09-10 20:59:08"
+                        "timestamp": "2023-09-27 13:53:48"
                     },
                     {
                         "value": "xwm.dynuddns.com",
@@ -2741,7 +2745,7 @@ var threatdata = {
                     },
                     {
                         "value": "u868328.nvpn.to",
-                        "timestamp": "2023-09-10 20:58:57"
+                        "timestamp": "2023-09-27 13:53:34"
                     },
                     {
                         "value": "gh9st.mywire.org",
@@ -2841,7 +2845,7 @@ var threatdata = {
                     },
                     {
                         "value": "softwarehost3.ddns.net",
-                        "timestamp": "2023-09-10 20:58:54"
+                        "timestamp": "2023-09-27 13:54:25"
                     },
                     {
                         "value": "reallyweirdshowcase.duckdns.org",
@@ -2949,7 +2953,7 @@ var threatdata = {
                     },
                     {
                         "value": "https.myvnc.com",
-                        "timestamp": "2023-09-10 22:36:53"
+                        "timestamp": "2023-09-27 14:12:57"
                     },
                     {
                         "value": "anubisgod.duckdns.org",
@@ -3795,53 +3799,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-25 12:00:14",
-    "mitre": [
-        {
-            "procedure_name": "at",
-            "procedure_code": "s0110",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0110",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                }
-            ]
-        }
-    ],
+    "last_ioc_update": "2023-09-27 22:00:12",
     "file_name": "bitrat",
     "analysis": null,
     "articles": [
@@ -4234,6 +4192,52 @@ var threatdata = {
             "title": "BitRAT \u2013 The Latest in Copy-pasted Malware by Incompetent Developers",
             "categories": [
                 "BitRAT"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
             ]
         }
     ]

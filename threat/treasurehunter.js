@@ -42,7 +42,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "treasurehunter",
     "analysis": null,
     "articles": [
@@ -76,5 +75,6 @@ var threatdata = {
                 "TreasureHunter"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

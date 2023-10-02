@@ -1,38 +1,66 @@
 var threatdata = {
     "name": "RedAlpha",
     "alias": "RedAlpha",
-    "category": "Malware",
-    "type": "Reconnaissance, Backdoor",
-    "modified": "2022-08-16",
+    "category": "APT",
+    "type": "-",
+    "modified": "2022-09-12",
     "all_data": {
-        "tool": "RedAlpha",
+        "actor": "RedAlpha",
         "names": [
             {
-                "name": "RedAlpha"
+                "name": "RedAlpha",
+                "name-giver": "Recorded Future"
             }
         ],
-        "description": "(Recorded Future) The RedAlpha campaigns began in mid-2017 by targeting the Tibetan community in India. The latest campaign remains ongoing, with new subdomains registered in late April 2018. The threat actor utilized a careful combination of victim reconnaissance and fingerprinting, followed by selective targeting with multi-stage malware. The malware utilized changed from a reliable custom toolset in the 2017 campaign to a more cautious and spartan approach, ending with commodity malware in 2018. Observing these two campaigns in succession demonstrates the evolution of a relatively unknown threat actor.",
-        "category": "Malware",
-        "type": [
-            "Reconnaissance",
-            "Backdoor"
+        "country": [
+            "China"
+        ],
+        "sponsor": "State-sponsored, possibly PLA and/or Nanjing Qinglan Information Technology Co. Ltd",
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2015",
+        "description": "The original research from Citizen Lab did not give this group a name.\n\n(Recorded Future) Recorded Future\u2019s Insikt Group has identified two new cyberespionage campaigns targeting the Tibetan community over the past two years. The campaigns, which we are collectively naming RedAlpha, combine light reconnaissance, selective targeting, and diverse malicious tooling. We discovered this activity as the result of pivoting off of a new malware sample observed targeting the Tibetan community based in India.\n\nInsikt Group\u2019s analysis of infrastructure overlap among the new campaigns reveals wider targeting of the Chinese \u201cFive Poisons,\u201d in addition to South and Southeast Asian governments. Based on the campaign\u2019s targeting of \u201cFive Poisons\u201d-related organizations, overlapping infrastructure, and links to malware used by other Chinese APTs uncovered during our research, we assess with medium confidence that the RedAlpha campaigns were conducted by a Chinese APT.\n\nInfrastructure overlaps have been found with {{APT 17, Deputy Dog, Elderwood, Sneaky Panda}}, {{Icefog, Dagger Panda}} and {{NetTraveler, APT 21, Hammer Panda}}.",
+        "observed-sectors": [
+            "Government",
+            "the Tibetan and Uyghur communities and Falun Gong supporters"
+        ],
+        "observed-countries": [
+            "Hong Kong",
+            "India",
+            "Myanmar",
+            "Pakistan",
+            "Sri Lanka",
+            "Thailand",
+            "South and Southeast Asia"
+        ],
+        "tools": [
+            "FormerFirstRAT",
+            "Gh0st RAT",
+            "NetHelp Infostealer",
+            "njRAT",
+            "RedAlpha",
+            "a vulnerability in MS Office"
+        ],
+        "operations": [
+            {
+                "date": "2017",
+                "activity": "RedAlpha: New Campaigns Discovered Targeting the Tibetan Community\nhttps://www.recordedfuture.com/redalpha-cyber-campaigns/\nhttps://go.recordedfuture.com/hubfs/reports/cta-2018-0626.pdf"
+            },
+            {
+                "date": "2021",
+                "activity": "RedAlpha Conducts Multi-Year Credential Theft Campaign Targeting Global Humanitarian, Think Tank, and Government Organizations\nhttps://go.recordedfuture.com/hubfs/reports/ta-2022-0816.pdf"
+            }
         ],
         "information": [
-            "https://www.recordedfuture.com/redalpha-cyber-campaigns/"
+            "https://citizenlab.ca/2018/01/spying-on-a-budget-inside-a-phishing-operation-with-targets-in-the-tibetan-community/"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.redalpha"
-        ],
-        "alienvault-otx": [
-            "https://otx.alienvault.com/browse/pulses?q=tag:RedAlpha"
-        ],
-        "uuid": "98c9d065-cb9a-42fd-8a76-1a28764a24d3",
-        "last-card-change": "2020-04-23",
+        "uuid": "e049d10f-81fd-4cc0-bb61-46f75594a1b9",
+        "last-card-change": "2022-09-12",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "redalpha",
     "analysis": null,
     "articles": [
@@ -106,5 +134,6 @@ var threatdata = {
                 "RedAlpha"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

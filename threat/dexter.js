@@ -67,7 +67,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-08-16 12:09:56",
-    "mitre": [],
     "file_name": "dexter",
     "analysis": null,
     "articles": [
@@ -101,5 +100,6 @@ var threatdata = {
                 "Dexter"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -34,7 +34,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "doublezero",
     "analysis": null,
     "articles": [
@@ -339,5 +338,6 @@ var threatdata = {
                 "DEV-0586"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

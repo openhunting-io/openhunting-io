@@ -31,8 +31,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "backbend",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

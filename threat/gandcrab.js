@@ -82,8 +82,8 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-11-10 12:45:07",
-    "mitre": [],
     "file_name": "gandcrab",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

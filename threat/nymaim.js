@@ -46,8 +46,8 @@ var threatdata = {
             "malware": "win.nymaim",
             "last_update": "2022-11-14 17:06:57",
             "tags": [
-                "Nymaim",
-                "GCleaner"
+                "GCleaner",
+                "Nymaim"
             ],
             "ioc": {
                 "ip:port": [
@@ -72,7 +72,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-11-14 17:06:57",
-    "mitre": [],
     "file_name": "nymaim",
     "analysis": null,
     "articles": [
@@ -267,5 +266,6 @@ var threatdata = {
                 "Nymaim"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

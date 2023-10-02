@@ -29,6 +29,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "winerack",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "winerack",
@@ -122,8 +125,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "winerack",
-    "analysis": null,
-    "articles": []
+    ]
 };

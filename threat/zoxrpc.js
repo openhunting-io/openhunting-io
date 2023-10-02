@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "zoxrpc",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "zox",
@@ -148,8 +151,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "zoxrpc",
-    "analysis": null,
-    "articles": []
+    ]
 };

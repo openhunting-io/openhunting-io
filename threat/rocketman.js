@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rocketman",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "rocke",
@@ -562,8 +565,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "rocketman",
-    "analysis": null,
-    "articles": []
+    ]
 };

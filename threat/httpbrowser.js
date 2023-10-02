@@ -47,6 +47,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "httpbrowser",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "httpbrowser",
@@ -316,8 +319,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "httpbrowser",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -35,6 +35,46 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "khrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/rancortaurus/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Rancor Taurus",
+            "categories": [
+                "DDKONG",
+                "KHRAT",
+                "PLAINTEE",
+                "RANCOR"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/rancor-cyber-espionage-group-uses-new-custom-malware-to-attack-southeast-asia/",
+            "date": "2019-12-17",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Jen Miller-Osborn",
+            "title": "Rancor: Cyber Espionage Group Uses New Custom Malware to Attack Southeast Asia",
+            "categories": [
+                "DDKONG",
+                "Derusbi",
+                "KHRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
+            "date": "2017-03-29",
+            "organization": "Forcepoint",
+            "author": "Roland Dela Paz",
+            "title": "Trojanized Adobe installer used to install DragonOK\u2019s new custom backdoor",
+            "categories": [
+                "KHRAT",
+                "DragonOK"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -78,46 +118,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "khrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/rancortaurus/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Rancor Taurus",
-            "categories": [
-                "DDKONG",
-                "KHRAT",
-                "PLAINTEE",
-                "RANCOR"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/rancor-cyber-espionage-group-uses-new-custom-malware-to-attack-southeast-asia/",
-            "date": "2019-12-17",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Jen Miller-Osborn",
-            "title": "Rancor: Cyber Espionage Group Uses New Custom Malware to Attack Southeast Asia",
-            "categories": [
-                "DDKONG",
-                "Derusbi",
-                "KHRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.forcepoint.com/de/blog/x-labs/trojanized-adobe-installer-used-install-dragonok-s-new-custom-backdoor",
-            "date": "2017-03-29",
-            "organization": "Forcepoint",
-            "author": "Roland Dela Paz",
-            "title": "Trojanized Adobe installer used to install DragonOK\u2019s new custom backdoor",
-            "categories": [
-                "KHRAT",
-                "DragonOK"
             ]
         }
     ]

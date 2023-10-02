@@ -46,6 +46,90 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sodamaster",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader",
+            "date": "2022-06-23",
+            "organization": "Secureworks",
+            "author": "Counter Threat Unit ResearchTeam",
+            "title": "BRONZE STARLIGHT Ransomware Operations Use HUI Loader",
+            "categories": [
+                "ATOMSILO",
+                "Cobalt Strike",
+                "HUI Loader",
+                "LockFile",
+                "NightSky",
+                "Pandora",
+                "PlugX",
+                "Quasar RAT",
+                "Rook",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
+            "date": "2022-04-05",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Cicada: Chinese APT Group Widens Targeting in Recent Espionage Activity",
+            "categories": [
+                "MimiKatz",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-vlc-media-player-to-launch-malware-loader/",
+            "date": "2022-04-05",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Chinese hackers abuse VLC Media Player to launch malware loader",
+            "categories": [
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://jsac.jpcert.or.jp/archive/2022/pdf/JSAC2022_9_yanagishita-tamada-nakatsuru-ishimaru_en.pdf",
+            "date": "2022-01-27",
+            "organization": "JSAC 2021",
+            "author": "Hajime Yanagishita",
+            "title": "What We Can Do against the Chaotic  A41APT Campaign",
+            "categories": [
+                "CHINACHOPPER",
+                "Cobalt Strike",
+                "HUI Loader",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
+            "date": "2021-04-27",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "APT trends report Q1 2021",
+            "categories": [
+                "PAS",
+                "Artra Downloader",
+                "BadNews",
+                "Bozok",
+                "DILLJUICE",
+                "Kazuar",
+                "Quasar RAT",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_202_niwa-yanagishita_en.pdf",
+            "date": "2021-02-24",
+            "organization": "",
+            "author": "Yusuke Niwa",
+            "title": "A41APT case - Analysis of the Stealth APT Campaign Threatening Japan",
+            "categories": [
+                "SodaMaster"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "sodamaster",
@@ -209,90 +293,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "sodamaster has the ability to download additional payloads from c2 to the targeted system.[159]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sodamaster",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader",
-            "date": "2022-06-23",
-            "organization": "Secureworks",
-            "author": "Counter Threat Unit ResearchTeam",
-            "title": "BRONZE STARLIGHT Ransomware Operations Use HUI Loader",
-            "categories": [
-                "ATOMSILO",
-                "Cobalt Strike",
-                "HUI Loader",
-                "LockFile",
-                "NightSky",
-                "Pandora",
-                "PlugX",
-                "Quasar RAT",
-                "Rook",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks",
-            "date": "2022-04-05",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Cicada: Chinese APT Group Widens Targeting in Recent Espionage Activity",
-            "categories": [
-                "MimiKatz",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-vlc-media-player-to-launch-malware-loader/",
-            "date": "2022-04-05",
-            "organization": "Bleeping Computer",
-            "author": "Ionut Ilascu",
-            "title": "Chinese hackers abuse VLC Media Player to launch malware loader",
-            "categories": [
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://jsac.jpcert.or.jp/archive/2022/pdf/JSAC2022_9_yanagishita-tamada-nakatsuru-ishimaru_en.pdf",
-            "date": "2022-01-27",
-            "organization": "JSAC 2021",
-            "author": "Hajime Yanagishita",
-            "title": "What We Can Do against the Chaotic  A41APT Campaign",
-            "categories": [
-                "CHINACHOPPER",
-                "Cobalt Strike",
-                "HUI Loader",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
-            "date": "2021-04-27",
-            "organization": "Kaspersky",
-            "author": "GReAT",
-            "title": "APT trends report Q1 2021",
-            "categories": [
-                "PAS",
-                "Artra Downloader",
-                "BadNews",
-                "Bozok",
-                "DILLJUICE",
-                "Kazuar",
-                "Quasar RAT",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://jsac.jpcert.or.jp/archive/2021/pdf/JSAC2021_202_niwa-yanagishita_en.pdf",
-            "date": "2021-02-24",
-            "organization": "",
-            "author": "Yusuke Niwa",
-            "title": "A41APT case - Analysis of the Stealth APT Campaign Threatening Japan",
-            "categories": [
-                "SodaMaster"
             ]
         }
     ]

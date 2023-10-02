@@ -53,6 +53,9 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-07-18 07:03:41",
+    "file_name": "badnews",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "badnews",
@@ -434,8 +437,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "badnews",
-    "analysis": null,
-    "articles": []
+    ]
 };

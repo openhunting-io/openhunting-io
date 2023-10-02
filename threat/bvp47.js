@@ -29,7 +29,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "bvp47",
     "analysis": null,
     "articles": [
@@ -95,5 +94,6 @@ var threatdata = {
                 "Bvp47"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -35,6 +35,101 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rifdoor",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.carbonblack.com/2020/04/16/vmware-carbon-black-tau-threat-analysis-the-evolution-of-lazarus/",
+            "date": "2020-04-16",
+            "organization": "VMWare Carbon Black",
+            "author": "Scott Knight",
+            "title": "The Evolution of Lazarus",
+            "categories": [
+                "HOTCROISSANT",
+                "Rifdoor"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+            "date": "2020-03-03",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2019:A Year in Retrospect",
+            "categories": [
+                "KevDroid",
+                "MESSAGETAP",
+                "magecart",
+                "AndroMut",
+                "Cobalt Strike",
+                "CobInt",
+                "Crimson RAT",
+                "DNSpionage",
+                "Dridex",
+                "Dtrack",
+                "Emotet",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Grateful POS",
+                "ISFB",
+                "Kazuar",
+                "LockerGoga",
+                "Nokki",
+                "QakBot",
+                "Ramnit",
+                "REvil",
+                "Rifdoor",
+                "RokRAT",
+                "Ryuk",
+                "shadowhammer",
+                "ShadowPad",
+                "Shifu",
+                "Skipper",
+                "StoneDrill",
+                "Stuxnet",
+                "TrickBot",
+                "Winnti",
+                "ZeroCleare",
+                "APT41",
+                "MUSTANG PANDA",
+                "Sea Turtle"
+            ]
+        },
+        {
+            "data_url": "https://global.ahnlab.com/global/upload/download/techreport/[AhnLab]Andariel_a_Subgroup_of_Lazarus%20(3).pdf",
+            "date": "2018-06-23",
+            "organization": "AhnLab",
+            "author": "AhnLab",
+            "title": "Full Discloser of Andariel, A Subgroup of Lazarus Threat Group",
+            "categories": [
+                "PhanDoor",
+                "Rifdoor"
+            ]
+        },
+        {
+            "data_url": "http://www.issuemakerslab.com/research3/",
+            "date": "2017-05",
+            "organization": "IssueMakersLab",
+            "author": "IssueMakersLab",
+            "title": "Operation GoldenAxe",
+            "categories": [
+                "Rifdoor"
+            ]
+        },
+        {
+            "data_url": "https://mega.nz/file/lkh1gY5C#93FUlwTwl0y27cfM0jtm4SYnWbtk06d0qoDg1e4eQ6s",
+            "date": "2017",
+            "organization": "FSI",
+            "author": "Kay Kwak (Kyoung-Ju Kwak)",
+            "title": "Campaign Rifle: Andariel, The Maiden of Anguish",
+            "categories": [
+                "Rifdoor"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "rifdoor",
@@ -162,101 +257,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "rifdoor has encrypted command and control (c2) communications with a stream cipher.[66]"
                 }
-            ]
-        }
-    ],
-    "file_name": "rifdoor",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.carbonblack.com/2020/04/16/vmware-carbon-black-tau-threat-analysis-the-evolution-of-lazarus/",
-            "date": "2020-04-16",
-            "organization": "VMWare Carbon Black",
-            "author": "Scott Knight",
-            "title": "The Evolution of Lazarus",
-            "categories": [
-                "HOTCROISSANT",
-                "Rifdoor"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
-            "date": "2020-03-03",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2019:A Year in Retrospect",
-            "categories": [
-                "KevDroid",
-                "MESSAGETAP",
-                "magecart",
-                "AndroMut",
-                "Cobalt Strike",
-                "CobInt",
-                "Crimson RAT",
-                "DNSpionage",
-                "Dridex",
-                "Dtrack",
-                "Emotet",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "FriedEx",
-                "Gandcrab",
-                "Get2",
-                "GlobeImposter",
-                "Grateful POS",
-                "ISFB",
-                "Kazuar",
-                "LockerGoga",
-                "Nokki",
-                "QakBot",
-                "Ramnit",
-                "REvil",
-                "Rifdoor",
-                "RokRAT",
-                "Ryuk",
-                "shadowhammer",
-                "ShadowPad",
-                "Shifu",
-                "Skipper",
-                "StoneDrill",
-                "Stuxnet",
-                "TrickBot",
-                "Winnti",
-                "ZeroCleare",
-                "APT41",
-                "MUSTANG PANDA",
-                "Sea Turtle"
-            ]
-        },
-        {
-            "data_url": "https://global.ahnlab.com/global/upload/download/techreport/[AhnLab]Andariel_a_Subgroup_of_Lazarus%20(3).pdf",
-            "date": "2018-06-23",
-            "organization": "AhnLab",
-            "author": "AhnLab",
-            "title": "Full Discloser of Andariel, A Subgroup of Lazarus Threat Group",
-            "categories": [
-                "PhanDoor",
-                "Rifdoor"
-            ]
-        },
-        {
-            "data_url": "http://www.issuemakerslab.com/research3/",
-            "date": "2017-05",
-            "organization": "IssueMakersLab",
-            "author": "IssueMakersLab",
-            "title": "Operation GoldenAxe",
-            "categories": [
-                "Rifdoor"
-            ]
-        },
-        {
-            "data_url": "https://mega.nz/file/lkh1gY5C#93FUlwTwl0y27cfM0jtm4SYnWbtk06d0qoDg1e4eQ6s",
-            "date": "2017",
-            "organization": "FSI",
-            "author": "Kay Kwak (Kyoung-Ju Kwak)",
-            "title": "Campaign Rifle: Andariel, The Maiden of Anguish",
-            "categories": [
-                "Rifdoor"
             ]
         }
     ]

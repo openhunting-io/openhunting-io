@@ -37,7 +37,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "wmi_ghost",
     "analysis": null,
     "articles": [
@@ -65,5 +64,6 @@ var threatdata = {
                 "WMI Ghost"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

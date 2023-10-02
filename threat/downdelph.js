@@ -37,6 +37,65 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "downdelph",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://labs.sentinelone.com/a-deep-dive-into-zebrocys-dropper-docs/",
+            "date": "2021-04-19",
+            "organization": "Sentinel LABS",
+            "author": "Marco Figueroa",
+            "title": "A Deep Dive into Zebrocy\u2019s Dropper Docs",
+            "categories": [
+                "Downdelph"
+            ]
+        },
+        {
+            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
+            "date": "2020-05-21",
+            "organization": "PICUS Security",
+            "author": "S\u00fcleyman \u00d6zarslan",
+            "title": "T1055 Process Injection",
+            "categories": [
+                "BlackEnergy",
+                "Cardinal RAT",
+                "Downdelph",
+                "Emotet",
+                "Kazuar",
+                "RokRAT",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
+            "date": "2017-02-20",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
+            "categories": [
+                "X-Agent",
+                "Komplex",
+                "Coreshell",
+                "Downdelph",
+                "HideDRV",
+                "SEADADDY",
+                "Sedreco",
+                "Seduploader",
+                "X-Agent",
+                "XTunnel"
+            ]
+        },
+        {
+            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
+            "date": "2016-09-11",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "En Route with Sednit - Part 3: A Mysterious Downloader",
+            "categories": [
+                "Downdelph"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "downdelph",
@@ -140,65 +199,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "after downloading its main config file, downdelph downloads multiple payloads from c2 servers.[150]"
                 }
-            ]
-        }
-    ],
-    "file_name": "downdelph",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://labs.sentinelone.com/a-deep-dive-into-zebrocys-dropper-docs/",
-            "date": "2021-04-19",
-            "organization": "Sentinel LABS",
-            "author": "Marco Figueroa",
-            "title": "A Deep Dive into Zebrocy\u2019s Dropper Docs",
-            "categories": [
-                "Downdelph"
-            ]
-        },
-        {
-            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
-            "date": "2020-05-21",
-            "organization": "PICUS Security",
-            "author": "S\u00fcleyman \u00d6zarslan",
-            "title": "T1055 Process Injection",
-            "categories": [
-                "BlackEnergy",
-                "Cardinal RAT",
-                "Downdelph",
-                "Emotet",
-                "Kazuar",
-                "RokRAT",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://contagiodump.blogspot.de/2017/02/russian-apt-apt28-collection-of-samples.html",
-            "date": "2017-02-20",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "Part I. Russian APT - APT28 collection of samples including OSX XAgent",
-            "categories": [
-                "X-Agent",
-                "Komplex",
-                "Coreshell",
-                "Downdelph",
-                "HideDRV",
-                "SEADADDY",
-                "Sedreco",
-                "Seduploader",
-                "X-Agent",
-                "XTunnel"
-            ]
-        },
-        {
-            "data_url": "http://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part3.pdf",
-            "date": "2016-09-11",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "En Route with Sednit - Part 3: A Mysterious Downloader",
-            "categories": [
-                "Downdelph"
             ]
         }
     ]

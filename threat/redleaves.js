@@ -61,6 +61,191 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-03-03 10:38:51",
+    "file_name": "redleaves",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE RIVERSIDE",
+            "categories": [
+                "Anel",
+                "ChChes",
+                "Cobalt Strike",
+                "PlugX",
+                "Poison Ivy",
+                "Quasar RAT",
+                "RedLeaves",
+                "APT10"
+            ]
+        },
+        {
+            "data_url": "https://www.macnica.net/file/mpressioncss_ta_report_2019.pdf",
+            "date": "2019-04-01",
+            "organization": "Macnica Networks",
+            "author": "Macnica Networks",
+            "title": "Trends in Cyber \u200b\u200bEspionage Targeting Japan 2nd Half of 2018",
+            "categories": [
+                "Anel",
+                "Cobalt Strike",
+                "Datper",
+                "PLEAD",
+                "Quasar RAT",
+                "RedLeaves",
+                "taidoor",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "http://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
+            "date": "2019-02-06",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "APT10 Targeted NorwegianMSP and US Companies in Sustained Campaign",
+            "categories": [
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://www.cyber.gov.au/sites/default/files/2019-03/msp_investigation_report.pdf",
+            "date": "2018-12-14",
+            "organization": "Australian Cyber Security Centre",
+            "author": "ASD",
+            "title": "Investigationreport: Compromise of an Australian companyvia their Managed Service Provider",
+            "categories": [
+                "PlugX",
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://www.macnica.net/file/mpressioncss_2018-1h-report_mnc_rev3_nopw.pdf",
+            "date": "2018-10-01",
+            "organization": "Macnica Networks",
+            "author": "Macnica Networks",
+            "title": "Trends in cyber espionage (targeted attacks) targeting Japan | First half of 2018",
+            "categories": [
+                "Anel",
+                "Cobalt Strike",
+                "Datper",
+                "FlawedAmmyy",
+                "Quasar RAT",
+                "RedLeaves",
+                "taidoor",
+                "Winnti",
+                "xxmm"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/t20180423T055005Z__w__/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+            "date": "2018-04-23",
+            "organization": "Accenture Security",
+            "author": "Bart Parys",
+            "title": "HOGFISH REDLEAVES CAMPAIGN: HOGFISH (APT10) targets Japan with RedLeaves implants in \u201cnew battle\u201d",
+            "categories": [
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
+            "date": "2018-04-23",
+            "organization": "Accenture Security",
+            "author": "Bart Parys",
+            "title": "HOGFISH REDLEAVES CAMPAIGN: HOGFISH (APT10) targets Japan with RedLeaves implants in \u201cnew battle\u201d",
+            "categories": [
+                "RedLeaves",
+                "APT10"
+            ]
+        },
+        {
+            "data_url": "http://blog.macnica.net/blog/2017/12/post-8c22.html",
+            "date": "2017-12-04",
+            "organization": "Macnica",
+            "author": "Macnica",
+            "title": "New method of macro malware disguised as defense-related files",
+            "categories": [
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://www.carbonblack.com/2017/05/09/carbon-black-threat-research-dissects-red-leaves-malware-leverages-dll-side-loading/",
+            "date": "2017-05-09",
+            "organization": "VMWare Carbon Black",
+            "author": "Jared Myers",
+            "title": "Carbon Black Threat Research Dissects Red Leaves Malware, Which Leverages DLL Side Loading",
+            "categories": [
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://community.rsa.com/community/products/netwitness/blog/2017/05/03/hunting-pack-use-case-redleaves-malware",
+            "date": "2017-05-03",
+            "organization": "RSA Link",
+            "author": "Ahmed Sonbol",
+            "title": "Hunting pack use case: RedLeaves malware",
+            "categories": [
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://www.us-cert.gov/ncas/alerts/TA17-117A",
+            "date": "2017-04-27",
+            "organization": "US-CERT",
+            "author": "US-CERT",
+            "title": "Alert (TA17-117A): Intrusions Affecting Multiple Victims Across Multiple Sectors",
+            "categories": [
+                "PlugX",
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://blogs.jpcert.or.jp/en/2017/04/redleaves---malware-based-on-open-source-rat.html",
+            "date": "2017-04-03",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "RedLeaves - Malware Based on Open Source RAT",
+            "categories": [
+                "PlugX",
+                "RedLeaves",
+                "Trochilus RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.jpcert.or.jp/magazine/acreport-redleaves.html",
+            "date": "2017-04-03",
+            "organization": "JPCERT/CC",
+            "author": "Shusei Tomonaga",
+            "title": "\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u306eRAT\u3092\u6539\u826f\u3057\u305f\u30de\u30eb\u30a6\u30a8\u30a2RedLeaves",
+            "categories": [
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://github.com/nccgroup/Cyber-Defence/tree/master/Technical%20Notes/Red%20Leaves",
+            "date": "2017-04-03",
+            "organization": "Github (nccgroup)",
+            "author": "David Cannings",
+            "title": "Technical Notes on RedLeaves",
+            "categories": [
+                "RedLeaves"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
+            "date": "2017-04",
+            "organization": "PricewaterhouseCoopers",
+            "author": "PricewaterhouseCoopers",
+            "title": "Operation Cloud Hopper: Technical Annex",
+            "categories": [
+                "ChChes",
+                "PlugX",
+                "Quasar RAT",
+                "RedLeaves",
+                "Trochilus RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "redleaves",
@@ -320,191 +505,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using a protocol and port pairing that are typically not associated. for example, https over port 8088 or port 587 as opposed to the traditional port 443. adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.",
                     "procedure_description": "redleaves can use http over non-standard ports, such as 995, for c2.[31]"
                 }
-            ]
-        }
-    ],
-    "file_name": "redleaves",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-riverside",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE RIVERSIDE",
-            "categories": [
-                "Anel",
-                "ChChes",
-                "Cobalt Strike",
-                "PlugX",
-                "Poison Ivy",
-                "Quasar RAT",
-                "RedLeaves",
-                "APT10"
-            ]
-        },
-        {
-            "data_url": "https://www.macnica.net/file/mpressioncss_ta_report_2019.pdf",
-            "date": "2019-04-01",
-            "organization": "Macnica Networks",
-            "author": "Macnica Networks",
-            "title": "Trends in Cyber \u200b\u200bEspionage Targeting Japan 2nd Half of 2018",
-            "categories": [
-                "Anel",
-                "Cobalt Strike",
-                "Datper",
-                "PLEAD",
-                "Quasar RAT",
-                "RedLeaves",
-                "taidoor",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "http://go.recordedfuture.com/hubfs/reports/cta-2019-0206.pdf",
-            "date": "2019-02-06",
-            "organization": "Recorded Future",
-            "author": "Insikt Group",
-            "title": "APT10 Targeted NorwegianMSP and US Companies in Sustained Campaign",
-            "categories": [
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://www.cyber.gov.au/sites/default/files/2019-03/msp_investigation_report.pdf",
-            "date": "2018-12-14",
-            "organization": "Australian Cyber Security Centre",
-            "author": "ASD",
-            "title": "Investigationreport: Compromise of an Australian companyvia their Managed Service Provider",
-            "categories": [
-                "PlugX",
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://www.macnica.net/file/mpressioncss_2018-1h-report_mnc_rev3_nopw.pdf",
-            "date": "2018-10-01",
-            "organization": "Macnica Networks",
-            "author": "Macnica Networks",
-            "title": "Trends in cyber espionage (targeted attacks) targeting Japan | First half of 2018",
-            "categories": [
-                "Anel",
-                "Cobalt Strike",
-                "Datper",
-                "FlawedAmmyy",
-                "Quasar RAT",
-                "RedLeaves",
-                "taidoor",
-                "Winnti",
-                "xxmm"
-            ]
-        },
-        {
-            "data_url": "https://www.accenture.com/t20180423T055005Z__w__/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
-            "date": "2018-04-23",
-            "organization": "Accenture Security",
-            "author": "Bart Parys",
-            "title": "HOGFISH REDLEAVES CAMPAIGN: HOGFISH (APT10) targets Japan with RedLeaves implants in \u201cnew battle\u201d",
-            "categories": [
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf",
-            "date": "2018-04-23",
-            "organization": "Accenture Security",
-            "author": "Bart Parys",
-            "title": "HOGFISH REDLEAVES CAMPAIGN: HOGFISH (APT10) targets Japan with RedLeaves implants in \u201cnew battle\u201d",
-            "categories": [
-                "RedLeaves",
-                "APT10"
-            ]
-        },
-        {
-            "data_url": "http://blog.macnica.net/blog/2017/12/post-8c22.html",
-            "date": "2017-12-04",
-            "organization": "Macnica",
-            "author": "Macnica",
-            "title": "New method of macro malware disguised as defense-related files",
-            "categories": [
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://www.carbonblack.com/2017/05/09/carbon-black-threat-research-dissects-red-leaves-malware-leverages-dll-side-loading/",
-            "date": "2017-05-09",
-            "organization": "VMWare Carbon Black",
-            "author": "Jared Myers",
-            "title": "Carbon Black Threat Research Dissects Red Leaves Malware, Which Leverages DLL Side Loading",
-            "categories": [
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://community.rsa.com/community/products/netwitness/blog/2017/05/03/hunting-pack-use-case-redleaves-malware",
-            "date": "2017-05-03",
-            "organization": "RSA Link",
-            "author": "Ahmed Sonbol",
-            "title": "Hunting pack use case: RedLeaves malware",
-            "categories": [
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://www.us-cert.gov/ncas/alerts/TA17-117A",
-            "date": "2017-04-27",
-            "organization": "US-CERT",
-            "author": "US-CERT",
-            "title": "Alert (TA17-117A): Intrusions Affecting Multiple Victims Across Multiple Sectors",
-            "categories": [
-                "PlugX",
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://blogs.jpcert.or.jp/en/2017/04/redleaves---malware-based-on-open-source-rat.html",
-            "date": "2017-04-03",
-            "organization": "JPCERT/CC",
-            "author": "Shusei Tomonaga",
-            "title": "RedLeaves - Malware Based on Open Source RAT",
-            "categories": [
-                "PlugX",
-                "RedLeaves",
-                "Trochilus RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.jpcert.or.jp/magazine/acreport-redleaves.html",
-            "date": "2017-04-03",
-            "organization": "JPCERT/CC",
-            "author": "Shusei Tomonaga",
-            "title": "\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u306eRAT\u3092\u6539\u826f\u3057\u305f\u30de\u30eb\u30a6\u30a8\u30a2RedLeaves",
-            "categories": [
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://github.com/nccgroup/Cyber-Defence/tree/master/Technical%20Notes/Red%20Leaves",
-            "date": "2017-04-03",
-            "organization": "Github (nccgroup)",
-            "author": "David Cannings",
-            "title": "Technical Notes on RedLeaves",
-            "categories": [
-                "RedLeaves"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf",
-            "date": "2017-04",
-            "organization": "PricewaterhouseCoopers",
-            "author": "PricewaterhouseCoopers",
-            "title": "Operation Cloud Hopper: Technical Annex",
-            "categories": [
-                "ChChes",
-                "PlugX",
-                "Quasar RAT",
-                "RedLeaves",
-                "Trochilus RAT"
             ]
         }
     ]

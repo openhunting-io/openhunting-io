@@ -32,6 +32,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "nbtscan",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "nbtscan",
@@ -113,8 +116,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "nbtscan",
-    "analysis": null,
-    "articles": []
+    ]
 };

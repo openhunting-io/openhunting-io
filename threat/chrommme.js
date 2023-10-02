@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "chrommme",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "chrommme",
@@ -193,8 +196,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "chrommme",
-    "analysis": null,
-    "articles": []
+    ]
 };

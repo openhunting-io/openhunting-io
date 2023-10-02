@@ -41,6 +41,134 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "valak",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
+            "date": "2023-07-26",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
+            "categories": [
+                "Valak",
+                "POWERSOURCE",
+                "Gazer",
+                "PowerDuke"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/monsterlibra/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Monster Libra",
+            "categories": [
+                "Valak",
+                "IcedID",
+                "GOLD CABIN"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/sodinokibi-ransomware-incident-response-intelligence-together/",
+            "date": "2021-09-03",
+            "organization": "IBM",
+            "author": "Camille Singleton",
+            "title": "Dissecting Sodinokibi Ransomware Attacks: Bringing Incident Response and Intelligence Together in the Fight",
+            "categories": [
+                "Valak",
+                "QakBot",
+                "REvil"
+            ]
+        },
+        {
+            "data_url": "https://threatresearch.ext.hp.com/detecting-ta551-domains/",
+            "date": "2021-07-30",
+            "organization": "HP",
+            "author": "Patrick Schl\u00e4pfer",
+            "title": "Detecting TA551 domains",
+            "categories": [
+                "Valak",
+                "Dridex",
+                "IcedID",
+                "ISFB",
+                "QakBot"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/valak-evolution/",
+            "date": "2020-07-24",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brad Duncan",
+            "title": "Evolution of Valak, from Its Beginnings to Mass Distribution",
+            "categories": [
+                "Valak"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/07/valak-emerges.html",
+            "date": "2020-07-01",
+            "organization": "Cisco Talos",
+            "author": "Nick Biasini",
+            "title": "Threat Spotlight: Valak Slithers Its Way Into Manufacturing and Transportation Networks",
+            "categories": [
+                "Valak",
+                "IcedID",
+                "ISFB",
+                "MyKings Spreader"
+            ]
+        },
+        {
+            "data_url": "https://labs.sentinelone.com/valak-malware-and-the-connection-to-gozi-loader-confcrew/",
+            "date": "2020-06-09",
+            "organization": "Sentinel LABS",
+            "author": "Jason Reaves",
+            "title": "Valak Malware and the Connection to Gozi Loader ConfCrew",
+            "categories": [
+                "Valak"
+            ]
+        },
+        {
+            "data_url": "https://security-soup.net/analysis-of-valak-maldoc/",
+            "date": "2020-06-08",
+            "organization": "Security Soup Blog",
+            "author": "Ryan Campbell",
+            "title": "Analysis of Valak Maldoc",
+            "categories": [
+                "Valak"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/valak-more-than-meets-the-eye",
+            "date": "2020-05-28",
+            "organization": "Cybereason",
+            "author": "Eli Salem",
+            "title": "Valak: More than Meets the Eye",
+            "categories": [
+                "Valak"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@prsecurity_/casual-analysis-of-valak-c2-3497fdb79bf7",
+            "date": "2019-12-22",
+            "organization": "",
+            "author": "prsecurity",
+            "title": "Casual Analysis of Valak C2",
+            "categories": [
+                "Valak"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/malware_traffic/status/1207824548021886977",
+            "date": "2019-12-19",
+            "organization": "Twitter (@malware_traffic)",
+            "author": "Brad Duncan",
+            "title": "Tweet on Valak Malware",
+            "categories": [
+                "Valak"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "valak",
@@ -480,134 +608,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "valak has the ability to exfiltrate data over the c2 channel.[140][141][142]"
                 }
-            ]
-        }
-    ],
-    "file_name": "valak",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2023/07/26/malware-tricks-35.html",
-            "date": "2023-07-26",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development trick - part 35: Store payload in alternate data streams. Simple C++ example.",
-            "categories": [
-                "Valak",
-                "POWERSOURCE",
-                "Gazer",
-                "PowerDuke"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/monsterlibra/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Monster Libra",
-            "categories": [
-                "Valak",
-                "IcedID",
-                "GOLD CABIN"
-            ]
-        },
-        {
-            "data_url": "https://securityintelligence.com/posts/sodinokibi-ransomware-incident-response-intelligence-together/",
-            "date": "2021-09-03",
-            "organization": "IBM",
-            "author": "Camille Singleton",
-            "title": "Dissecting Sodinokibi Ransomware Attacks: Bringing Incident Response and Intelligence Together in the Fight",
-            "categories": [
-                "Valak",
-                "QakBot",
-                "REvil"
-            ]
-        },
-        {
-            "data_url": "https://threatresearch.ext.hp.com/detecting-ta551-domains/",
-            "date": "2021-07-30",
-            "organization": "HP",
-            "author": "Patrick Schl\u00e4pfer",
-            "title": "Detecting TA551 domains",
-            "categories": [
-                "Valak",
-                "Dridex",
-                "IcedID",
-                "ISFB",
-                "QakBot"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/valak-evolution/",
-            "date": "2020-07-24",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Brad Duncan",
-            "title": "Evolution of Valak, from Its Beginnings to Mass Distribution",
-            "categories": [
-                "Valak"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/07/valak-emerges.html",
-            "date": "2020-07-01",
-            "organization": "Cisco Talos",
-            "author": "Nick Biasini",
-            "title": "Threat Spotlight: Valak Slithers Its Way Into Manufacturing and Transportation Networks",
-            "categories": [
-                "Valak",
-                "IcedID",
-                "ISFB",
-                "MyKings Spreader"
-            ]
-        },
-        {
-            "data_url": "https://labs.sentinelone.com/valak-malware-and-the-connection-to-gozi-loader-confcrew/",
-            "date": "2020-06-09",
-            "organization": "Sentinel LABS",
-            "author": "Jason Reaves",
-            "title": "Valak Malware and the Connection to Gozi Loader ConfCrew",
-            "categories": [
-                "Valak"
-            ]
-        },
-        {
-            "data_url": "https://security-soup.net/analysis-of-valak-maldoc/",
-            "date": "2020-06-08",
-            "organization": "Security Soup Blog",
-            "author": "Ryan Campbell",
-            "title": "Analysis of Valak Maldoc",
-            "categories": [
-                "Valak"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/valak-more-than-meets-the-eye",
-            "date": "2020-05-28",
-            "organization": "Cybereason",
-            "author": "Eli Salem",
-            "title": "Valak: More than Meets the Eye",
-            "categories": [
-                "Valak"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/@prsecurity_/casual-analysis-of-valak-c2-3497fdb79bf7",
-            "date": "2019-12-22",
-            "organization": "",
-            "author": "prsecurity",
-            "title": "Casual Analysis of Valak C2",
-            "categories": [
-                "Valak"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/malware_traffic/status/1207824548021886977",
-            "date": "2019-12-19",
-            "organization": "Twitter (@malware_traffic)",
-            "author": "Brad Duncan",
-            "title": "Tweet on Valak Malware",
-            "categories": [
-                "Valak"
             ]
         }
     ]

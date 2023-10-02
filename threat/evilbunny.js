@@ -33,6 +33,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "evilbunny",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "evilbunny",
@@ -270,8 +273,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "evilbunny",
-    "analysis": null,
-    "articles": []
+    ]
 };

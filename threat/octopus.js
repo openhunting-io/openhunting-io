@@ -31,6 +31,96 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "octopus",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.prodaft.com/m/reports/PAPERBUG_TLPWHITE-1.pdf",
+            "date": "2023-04-27",
+            "organization": "PRODAFT Threat Intelligence",
+            "author": "PRODAFT",
+            "title": "Nomadic Octopus\u2019 Paperbug Campaign",
+            "categories": [
+                "Octopus"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/rss/28628",
+            "date": "2022-05-09",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Xavier Mertens",
+            "title": "Octopus Backdoor is Back with a New Embedded Obfuscated Bat File",
+            "categories": [
+                "Octopus"
+            ]
+        },
+        {
+            "data_url": "https://resources.malwarebytes.com/files/2021/02/LazyScripter.pdf",
+            "date": "2021-02-24",
+            "organization": "Malwarebytes",
+            "author": "Hossein Jazi",
+            "title": "LazyScripter: From Empire to double RAT",
+            "categories": [
+                "Octopus",
+                "Koadic"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0107.pdf",
+            "date": "2021-01-07",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "Aversary Infrastructure Report 2020: A Defender's View",
+            "categories": [
+                "Octopus",
+                "pupy",
+                "Cobalt Strike",
+                "Empire Downloader",
+                "Meterpreter",
+                "PoshC2"
+            ]
+        },
+        {
+            "data_url": "https://isc.sans.edu/diary/26918",
+            "date": "2020-12-24",
+            "organization": "InfoSec Handlers Diary Blog",
+            "author": "Xavier Mertens",
+            "title": "Malicious Word Document Delivering an Octopus Backdoor",
+            "categories": [
+                "Octopus"
+            ]
+        },
+        {
+            "data_url": "https://mp.weixin.qq.com/s/v1gi0bW79Ta644Dqer4qkw",
+            "date": "2019-12-04",
+            "organization": "Weixin",
+            "author": "Gcow Security Team",
+            "title": "Tentacles reaching Central Asia: analysis of Uzbekistan activities by DustSquad APT",
+            "categories": [
+                "Octopus"
+            ]
+        },
+        {
+            "data_url": "https://github.com/mhaskar/Octopus",
+            "date": "2019-08-30",
+            "organization": "Github (mhaskar)",
+            "author": "Askar",
+            "title": "Github Repository of Octopus",
+            "categories": [
+                "Octopus"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/octopus-infested-seas-of-central-asia/88200/",
+            "date": "2018-10-15",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Octopus-infested seas of Central Asia",
+            "categories": [
+                "Octopus"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "octopus",
@@ -266,96 +356,6 @@ var threatdata = {
                     "technique_description": "adversaries may exfiltrate data to a cloud storage service rather than over their primary command and control channel. cloud storage services allow for the storage, edit, and retrieval of data from a remote cloud storage server over the internet.",
                     "procedure_description": "octopus has exfiltrated data to file sharing sites.[19]"
                 }
-            ]
-        }
-    ],
-    "file_name": "octopus",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.prodaft.com/m/reports/PAPERBUG_TLPWHITE-1.pdf",
-            "date": "2023-04-27",
-            "organization": "PRODAFT Threat Intelligence",
-            "author": "PRODAFT",
-            "title": "Nomadic Octopus\u2019 Paperbug Campaign",
-            "categories": [
-                "Octopus"
-            ]
-        },
-        {
-            "data_url": "https://isc.sans.edu/diary/rss/28628",
-            "date": "2022-05-09",
-            "organization": "InfoSec Handlers Diary Blog",
-            "author": "Xavier Mertens",
-            "title": "Octopus Backdoor is Back with a New Embedded Obfuscated Bat File",
-            "categories": [
-                "Octopus"
-            ]
-        },
-        {
-            "data_url": "https://resources.malwarebytes.com/files/2021/02/LazyScripter.pdf",
-            "date": "2021-02-24",
-            "organization": "Malwarebytes",
-            "author": "Hossein Jazi",
-            "title": "LazyScripter: From Empire to double RAT",
-            "categories": [
-                "Octopus",
-                "Koadic"
-            ]
-        },
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2021-0107.pdf",
-            "date": "2021-01-07",
-            "organization": "Recorded Future",
-            "author": "Insikt Group\u00ae",
-            "title": "Aversary Infrastructure Report 2020: A Defender's View",
-            "categories": [
-                "Octopus",
-                "pupy",
-                "Cobalt Strike",
-                "Empire Downloader",
-                "Meterpreter",
-                "PoshC2"
-            ]
-        },
-        {
-            "data_url": "https://isc.sans.edu/diary/26918",
-            "date": "2020-12-24",
-            "organization": "InfoSec Handlers Diary Blog",
-            "author": "Xavier Mertens",
-            "title": "Malicious Word Document Delivering an Octopus Backdoor",
-            "categories": [
-                "Octopus"
-            ]
-        },
-        {
-            "data_url": "https://mp.weixin.qq.com/s/v1gi0bW79Ta644Dqer4qkw",
-            "date": "2019-12-04",
-            "organization": "Weixin",
-            "author": "Gcow Security Team",
-            "title": "Tentacles reaching Central Asia: analysis of Uzbekistan activities by DustSquad APT",
-            "categories": [
-                "Octopus"
-            ]
-        },
-        {
-            "data_url": "https://github.com/mhaskar/Octopus",
-            "date": "2019-08-30",
-            "organization": "Github (mhaskar)",
-            "author": "Askar",
-            "title": "Github Repository of Octopus",
-            "categories": [
-                "Octopus"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/octopus-infested-seas-of-central-asia/88200/",
-            "date": "2018-10-15",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Octopus-infested seas of Central Asia",
-            "categories": [
-                "Octopus"
             ]
         }
     ]

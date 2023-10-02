@@ -34,7 +34,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "erebus",
     "analysis": null,
     "articles": [
@@ -81,5 +80,6 @@ var threatdata = {
                 "Erebus"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

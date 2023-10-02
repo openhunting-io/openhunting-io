@@ -25,7 +25,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "html5_encoding",
     "analysis": null,
     "articles": [
@@ -55,5 +54,6 @@ var threatdata = {
                 "Skipper"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

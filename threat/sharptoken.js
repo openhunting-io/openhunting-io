@@ -23,6 +23,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sharptoken",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "arp",
@@ -56,8 +59,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "sharptoken",
-    "analysis": null,
-    "articles": []
+    ]
 };

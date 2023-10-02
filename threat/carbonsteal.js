@@ -37,6 +37,23 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "carbonsteal",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.lookout.com/documents/threat-reports/us/lookout-uyghur-malware-tr-us.pdf",
+            "date": "2020-06",
+            "organization": "Lookout",
+            "author": "Apurva Kumar",
+            "title": "Mobile APT SurveillanceCampaigns Targeting Uyghurs A collection of long-running Android tooling connected to a Chinese mAPT actor",
+            "categories": [
+                "CarbonSteal",
+                "DoubleAgent",
+                "GoldenEagle",
+                "SilkBean"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "carbon",
@@ -308,23 +325,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "carbon uses http to send data to the c2 server.[10]"
                 }
-            ]
-        }
-    ],
-    "file_name": "carbonsteal",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.lookout.com/documents/threat-reports/us/lookout-uyghur-malware-tr-us.pdf",
-            "date": "2020-06",
-            "organization": "Lookout",
-            "author": "Apurva Kumar",
-            "title": "Mobile APT SurveillanceCampaigns Targeting Uyghurs A collection of long-running Android tooling connected to a Chinese mAPT actor",
-            "categories": [
-                "CarbonSteal",
-                "DoubleAgent",
-                "GoldenEagle",
-                "SilkBean"
             ]
         }
     ]

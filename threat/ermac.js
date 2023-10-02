@@ -40,12 +40,12 @@ var threatdata = {
             "malware": "apk.ermac",
             "last_update": "2023-09-06 13:29:54",
             "tags": [
-                "Android",
-                "ERMAC 3.0",
-                "ERMAC",
-                "HOOKBOT PANEL",
+                "C2Panel",
                 "C2",
-                "C2Panel"
+                "ERMAC 3.0",
+                "Android",
+                "ERMAC",
+                "HOOKBOT PANEL"
             ],
             "ioc": {
                 "ip:port": [
@@ -112,7 +112,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-06 13:29:54",
-    "mitre": [],
     "file_name": "ermac",
     "analysis": null,
     "articles": [
@@ -183,5 +182,6 @@ var threatdata = {
                 "ERMAC"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "passkilldisk",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "killdisk",
@@ -226,8 +229,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "passkilldisk",
-    "analysis": null,
-    "articles": []
+    ]
 };

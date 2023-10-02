@@ -26,8 +26,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "ze_loader",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

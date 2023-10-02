@@ -51,6 +51,41 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cherry_picker",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/16/malware-pers-5.html",
+            "date": "2022-05-16",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 6. Windows netsh helper DLL. Simple C++ example.",
+            "categories": [
+                "CherryPicker POS",
+                "Ramsay"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/New-Memory-Scraping-Technique-in-Cherry-Picker-PoS-Malware/",
+            "date": "2015-11-17",
+            "organization": "SpiderLabs Blog",
+            "author": "Eric Merritt",
+            "title": "New Memory Scraping Technique in Cherry Picker PoS Malware",
+            "categories": [
+                "CherryPicker POS"
+            ]
+        },
+        {
+            "data_url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/Shining-the-Spotlight-on-Cherry-Picker-PoS-Malware/",
+            "date": "2015-11-16",
+            "organization": "SpiderLabs Blog",
+            "author": "Eric Merritt",
+            "title": "Shining the Spotlight on Cherry Picker PoS Malware",
+            "categories": [
+                "CherryPicker POS"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "cherry picker",
@@ -106,41 +141,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "cherry picker exfiltrates files over ftp.[13]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cherry_picker",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/16/malware-pers-5.html",
-            "date": "2022-05-16",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 6. Windows netsh helper DLL. Simple C++ example.",
-            "categories": [
-                "CherryPicker POS",
-                "Ramsay"
-            ]
-        },
-        {
-            "data_url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/New-Memory-Scraping-Technique-in-Cherry-Picker-PoS-Malware/",
-            "date": "2015-11-17",
-            "organization": "SpiderLabs Blog",
-            "author": "Eric Merritt",
-            "title": "New Memory Scraping Technique in Cherry Picker PoS Malware",
-            "categories": [
-                "CherryPicker POS"
-            ]
-        },
-        {
-            "data_url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/Shining-the-Spotlight-on-Cherry-Picker-PoS-Malware/",
-            "date": "2015-11-16",
-            "organization": "SpiderLabs Blog",
-            "author": "Eric Merritt",
-            "title": "Shining the Spotlight on Cherry Picker PoS Malware",
-            "categories": [
-                "CherryPicker POS"
             ]
         }
     ]

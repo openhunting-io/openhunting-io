@@ -34,6 +34,53 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "royalcli",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-palace",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE PALACE",
+            "categories": [
+                "BS2005",
+                "Enfal",
+                "Mirage",
+                "RoyalCli",
+                "Royal DNS",
+                "APT15"
+            ]
+        },
+        {
+            "data_url": "https://github.com/nccgroup/Royal_APT",
+            "date": "2018-03-16",
+            "organization": "Github (nccgroup)",
+            "author": "NCC Group PLC",
+            "title": "Royal APT - APT15 Repository",
+            "categories": [
+                "BS2005",
+                "MS Exchange Tool",
+                "RoyalCli",
+                "Royal DNS",
+                "APT15"
+            ]
+        },
+        {
+            "data_url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/",
+            "date": "2018-03-10",
+            "organization": "NCC Group",
+            "author": "Rob Smallridge",
+            "title": "APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS",
+            "categories": [
+                "BS2005",
+                "MS Exchange Tool",
+                "RoyalCli",
+                "Royal DNS",
+                "APT15"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "royal",
@@ -197,53 +244,6 @@ var threatdata = {
                     "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
                     "procedure_description": "royal can use rmshutdown to kill  applications and services using the resources that are targeted for encryption.[37]"
                 }
-            ]
-        }
-    ],
-    "file_name": "royalcli",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-palace",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE PALACE",
-            "categories": [
-                "BS2005",
-                "Enfal",
-                "Mirage",
-                "RoyalCli",
-                "Royal DNS",
-                "APT15"
-            ]
-        },
-        {
-            "data_url": "https://github.com/nccgroup/Royal_APT",
-            "date": "2018-03-16",
-            "organization": "Github (nccgroup)",
-            "author": "NCC Group PLC",
-            "title": "Royal APT - APT15 Repository",
-            "categories": [
-                "BS2005",
-                "MS Exchange Tool",
-                "RoyalCli",
-                "Royal DNS",
-                "APT15"
-            ]
-        },
-        {
-            "data_url": "https://research.nccgroup.com/2018/03/10/apt15-is-alive-and-strong-an-analysis-of-royalcli-and-royaldns/",
-            "date": "2018-03-10",
-            "organization": "NCC Group",
-            "author": "Rob Smallridge",
-            "title": "APT15 is alive and strong: An analysis of RoyalCli and RoyalDNS",
-            "categories": [
-                "BS2005",
-                "MS Exchange Tool",
-                "RoyalCli",
-                "Royal DNS",
-                "APT15"
             ]
         }
     ]

@@ -32,6 +32,50 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "bozok",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
+            "date": "2021-04-27",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "APT trends report Q1 2021",
+            "categories": [
+                "PAS",
+                "Artra Downloader",
+                "BadNews",
+                "Bozok",
+                "DILLJUICE",
+                "Kazuar",
+                "Quasar RAT",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-projectm-link-found-between-pakistani-actor-and-operation-transparent-tribe",
+            "date": "2016-03-25",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "ProjectM: Link Found Between Pakistani Actor and Operation Transparent Tribe",
+            "categories": [
+                "Bozok",
+                "Operation C-Major"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2013/10/know-your-enemy-tracking-a-rapidly-evolving-apt-actor.html",
+            "date": "2013-10-31",
+            "organization": "FireEye",
+            "author": "Thoufique Haq",
+            "title": "Know Your Enemy: Tracking A Rapidly Evolving APT Actor",
+            "categories": [
+                "Bozok",
+                "Poison Ivy",
+                "TEMPER PANDA"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -75,50 +119,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "bozok",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
-            "date": "2021-04-27",
-            "organization": "Kaspersky",
-            "author": "GReAT",
-            "title": "APT trends report Q1 2021",
-            "categories": [
-                "PAS",
-                "Artra Downloader",
-                "BadNews",
-                "Bozok",
-                "DILLJUICE",
-                "Kazuar",
-                "Quasar RAT",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-projectm-link-found-between-pakistani-actor-and-operation-transparent-tribe",
-            "date": "2016-03-25",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "ProjectM: Link Found Between Pakistani Actor and Operation Transparent Tribe",
-            "categories": [
-                "Bozok",
-                "Operation C-Major"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2013/10/know-your-enemy-tracking-a-rapidly-evolving-apt-actor.html",
-            "date": "2013-10-31",
-            "organization": "FireEye",
-            "author": "Thoufique Haq",
-            "title": "Know Your Enemy: Tracking A Rapidly Evolving APT Actor",
-            "categories": [
-                "Bozok",
-                "Poison Ivy",
-                "TEMPER PANDA"
             ]
         }
     ]

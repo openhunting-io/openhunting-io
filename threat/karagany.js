@@ -46,6 +46,82 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "karagany",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
+            "date": "2021-06-24",
+            "organization": "Gigamon",
+            "author": "Joe Slowik",
+            "title": "The Baffling Berserk Bear: A Decade's Activity targeting Critical Infrastructure",
+            "categories": [
+                "Havex RAT",
+                "Heriplor",
+                "Karagany"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-liberty",
+            "date": "2020",
+            "organization": "SecurityWeek",
+            "author": "SecureWorks",
+            "title": "IRON LIBERTY",
+            "categories": [
+                "Havex RAT",
+                "Karagany"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/updated-karagany-malware-targets-energy-sector",
+            "date": "2019-07-24",
+            "organization": "Secureworks",
+            "author": "CTU Research Team",
+            "title": "Updated Karagany Malware Targets Energy Sector",
+            "categories": [
+                "Karagany"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
+            "date": "2017-10-20",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Dragonfly: Western energy sector targeted by sophisticated attack group",
+            "categories": [
+                "Dorshel",
+                "Goodor",
+                "Heriplor",
+                "Karagany",
+                "Listrix",
+                "ENERGETIC BEAR"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group",
+            "date": "2017-10-20",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Dragonfly: Western energy sector targeted by sophisticated attack group",
+            "categories": [
+                "Dorshel",
+                "Heriplor",
+                "Karagany",
+                "Listrix"
+            ]
+        },
+        {
+            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
+            "date": "2014-07-07",
+            "organization": "Symantec",
+            "author": "Security Response",
+            "title": "Dragonfly: Cyberespionage Attacks Against Energy Suppliers",
+            "categories": [
+                "Karagany",
+                "ENERGETIC BEAR"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "trojan.karagany",
@@ -365,82 +441,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "trojan.karagany can upload, download, and execute files on the victim.[448][449]"
                 }
-            ]
-        }
-    ],
-    "file_name": "karagany",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://vblocalhost.com/uploads/VB2021-Slowik.pdf",
-            "date": "2021-06-24",
-            "organization": "Gigamon",
-            "author": "Joe Slowik",
-            "title": "The Baffling Berserk Bear: A Decade's Activity targeting Critical Infrastructure",
-            "categories": [
-                "Havex RAT",
-                "Heriplor",
-                "Karagany"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-liberty",
-            "date": "2020",
-            "organization": "SecurityWeek",
-            "author": "SecureWorks",
-            "title": "IRON LIBERTY",
-            "categories": [
-                "Havex RAT",
-                "Karagany"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/updated-karagany-malware-targets-energy-sector",
-            "date": "2019-07-24",
-            "organization": "Secureworks",
-            "author": "CTU Research Team",
-            "title": "Updated Karagany Malware Targets Energy Sector",
-            "categories": [
-                "Karagany"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks",
-            "date": "2017-10-20",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "Dragonfly: Western energy sector targeted by sophisticated attack group",
-            "categories": [
-                "Dorshel",
-                "Goodor",
-                "Heriplor",
-                "Karagany",
-                "Listrix",
-                "ENERGETIC BEAR"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group",
-            "date": "2017-10-20",
-            "organization": "Symantec",
-            "author": "Security Response Attack Investigation Team",
-            "title": "Dragonfly: Western energy sector targeted by sophisticated attack group",
-            "categories": [
-                "Dorshel",
-                "Heriplor",
-                "Karagany",
-                "Listrix"
-            ]
-        },
-        {
-            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2014/Dragonfly_Threat_Against_Western_Energy_Suppliers.pdf",
-            "date": "2014-07-07",
-            "organization": "Symantec",
-            "author": "Security Response",
-            "title": "Dragonfly: Cyberespionage Attacks Against Energy Suppliers",
-            "categories": [
-                "Karagany",
-                "ENERGETIC BEAR"
             ]
         }
     ]

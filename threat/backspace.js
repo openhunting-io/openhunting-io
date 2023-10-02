@@ -40,6 +40,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "backspace",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "backspace",
@@ -241,8 +244,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "backspace",
-    "analysis": null,
-    "articles": []
+    ]
 };

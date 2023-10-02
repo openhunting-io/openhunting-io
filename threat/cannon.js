@@ -31,6 +31,42 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cannon",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/atoms/fighting-ursa/",
+            "date": "2022-07-18",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Unit 42",
+            "title": "Fighting Ursa",
+            "categories": [
+                "Cannon",
+                "Zebrocy",
+                "APT28"
+            ]
+        },
+        {
+            "data_url": "https://www.vkremez.com/2018/11/lets-learn-in-depth-on-sofacy-canon.html",
+            "date": "2018-11-27",
+            "organization": "Vitali Kremez Blog",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: In-Depth on Sofacy Cannon Loader/Backdoor Review",
+            "categories": [
+                "Cannon"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2018/11/unit42-sofacy-continues-global-attacks-wheels-new-cannon-trojan/",
+            "date": "2018-11-20",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Sofacy Continues Global Attacks and Wheels Out New \u2018Cannon\u2019 Trojan",
+            "categories": [
+                "Cannon"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "cannon",
@@ -170,42 +206,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "cannon exfiltrates collected data over email via smtp/s and pop3/s c2 channels.[22]"
                 }
-            ]
-        }
-    ],
-    "file_name": "cannon",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/atoms/fighting-ursa/",
-            "date": "2022-07-18",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Unit 42",
-            "title": "Fighting Ursa",
-            "categories": [
-                "Cannon",
-                "Zebrocy",
-                "APT28"
-            ]
-        },
-        {
-            "data_url": "https://www.vkremez.com/2018/11/lets-learn-in-depth-on-sofacy-canon.html",
-            "date": "2018-11-27",
-            "organization": "Vitali Kremez Blog",
-            "author": "Vitali Kremez",
-            "title": "Let's Learn: In-Depth on Sofacy Cannon Loader/Backdoor Review",
-            "categories": [
-                "Cannon"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2018/11/unit42-sofacy-continues-global-attacks-wheels-new-cannon-trojan/",
-            "date": "2018-11-20",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Sofacy Continues Global Attacks and Wheels Out New \u2018Cannon\u2019 Trojan",
-            "categories": [
-                "Cannon"
             ]
         }
     ]

@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "powershellrunner-based_rpc_backdoor",
     "analysis": null,
     "articles": [
@@ -56,5 +55,6 @@ var threatdata = {
                 "PowerShellRunner"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

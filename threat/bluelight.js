@@ -33,6 +33,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "bluelight",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.volexity.com/blog/2021/08/17/north-korean-apt-inkysquid-infects-victims-using-browser-exploits/",
+            "date": "2021-08-17",
+            "organization": "Volatility Labs",
+            "author": "Damien Cash",
+            "title": "North Korean APT37 / InkySquid Infects Victims Using Browser Exploits",
+            "categories": [
+                "BLUELIGHT",
+                "APT37"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "bluelight",
@@ -280,21 +295,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "bluelight has exfiltrated data over its c2 channel.[17]"
                 }
-            ]
-        }
-    ],
-    "file_name": "bluelight",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.volexity.com/blog/2021/08/17/north-korean-apt-inkysquid-infects-victims-using-browser-exploits/",
-            "date": "2021-08-17",
-            "organization": "Volatility Labs",
-            "author": "Damien Cash",
-            "title": "North Korean APT37 / InkySquid Infects Victims Using Browser Exploits",
-            "categories": [
-                "BLUELIGHT",
-                "APT37"
             ]
         }
     ]

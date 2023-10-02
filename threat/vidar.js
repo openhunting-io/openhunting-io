@@ -41,48 +41,116 @@ var threatdata = {
             "malware_printable": "Vidar",
             "malware_alias": null,
             "malware": "win.vidar",
-            "last_update": "2023-09-25 15:58:42",
+            "last_update": "2023-10-02 06:28:53",
             "tags": [
-                "ArkeiStealer",
-                "ViaPRivateLoader",
-                "927",
-                "v2.9",
-                "Vidar",
-                "717609e6131226f92ce8ce08c34305be",
-                "DeadDrop",
-                "Stealer",
-                "Raccoon",
-                "link-manager",
-                "1a2040b373fecd26b4411d9bf625398d",
-                "vidar",
-                "password-protected",
-                "trojan",
-                "viaprivateloader",
-                "1278",
-                "1573",
-                "stealer",
-                "viaSmokeLoader",
-                "deaddrop",
-                "FakeTradingView",
-                "1670",
                 "ViaPrivateLoader",
-                "viaPrivateLoader",
-                "v53.3",
-                "raccoon",
-                "malvertising",
-                "EvilCrackz",
-                "notepad",
-                "15",
+                "ViaPRivateLoader",
+                "viaSmokeLoader",
+                "Stealer",
+                "v2.9",
                 "ViaPrivateloader",
-                "nvidia",
-                "FakeMirandus",
-                "fake-installer",
-                "634",
+                "1670",
+                "stealer",
+                "viaPrivateLoader",
                 "1836",
-                "1375"
+                "v53.3",
+                "trojan",
+                "717609e6131226f92ce8ce08c34305be",
+                "FakeTradingView",
+                "vidar",
+                "deaddrop",
+                "634",
+                "1278",
+                "password-protected",
+                "1573",
+                "Raccoon",
+                "EvilCrackz",
+                "15",
+                "raccoon",
+                "DeadDrop",
+                "Vidar",
+                "927",
+                "1375",
+                "link-manager",
+                "notepad",
+                "FakeMirandus",
+                "nvidia",
+                "viaprivateloader",
+                "1a2040b373fecd26b4411d9bf625398d",
+                "ArkeiStealer",
+                "fake-installer",
+                "malvertising"
             ],
             "ioc": {
                 "url": [
+                    {
+                        "value": "http://45.15.157.247/",
+                        "timestamp": "2023-10-02 06:28:53"
+                    },
+                    {
+                        "value": "http://188.34.152.120:1333/temp.zip",
+                        "timestamp": "2023-10-02 06:28:52"
+                    },
+                    {
+                        "value": "http://45.15.157.247/dark.zip",
+                        "timestamp": "2023-10-02 06:28:52"
+                    },
+                    {
+                        "value": "http://188.34.152.120:1333/",
+                        "timestamp": "2023-10-02 06:28:51"
+                    },
+                    {
+                        "value": "http://195.201.228.145/",
+                        "timestamp": "2023-10-02 06:28:53"
+                    },
+                    {
+                        "value": "http://195.201.228.145/temp.zip",
+                        "timestamp": "2023-10-02 06:28:53"
+                    },
+                    {
+                        "value": "http://116.202.4.35:1333/temp.zip",
+                        "timestamp": "2023-09-30 10:44:12"
+                    },
+                    {
+                        "value": "http://116.202.4.35:1333/",
+                        "timestamp": "2023-09-30 10:44:12"
+                    },
+                    {
+                        "value": "http://45.138.74.85/dark.zip",
+                        "timestamp": "2023-09-29 06:38:31"
+                    },
+                    {
+                        "value": "http://45.138.74.85/",
+                        "timestamp": "2023-09-29 06:38:31"
+                    },
+                    {
+                        "value": "http://195.201.252.32/",
+                        "timestamp": "2023-09-28 06:48:18"
+                    },
+                    {
+                        "value": "http://168.119.168.251:10088/",
+                        "timestamp": "2023-09-28 06:44:04"
+                    },
+                    {
+                        "value": "http://168.119.168.251:10088/data.zip",
+                        "timestamp": "2023-09-28 06:44:03"
+                    },
+                    {
+                        "value": "http://116.202.2.169:1333/",
+                        "timestamp": "2023-09-27 14:35:14"
+                    },
+                    {
+                        "value": "http://116.202.2.169:1333/temp.zip",
+                        "timestamp": "2023-09-27 14:35:13"
+                    },
+                    {
+                        "value": "http://49.12.118.209:1333/temp.zip",
+                        "timestamp": "2023-09-27 14:35:12"
+                    },
+                    {
+                        "value": "http://49.12.118.209:1333/",
+                        "timestamp": "2023-09-27 14:35:11"
+                    },
                     {
                         "value": "http://116.202.182.4/temp.zip",
                         "timestamp": "2023-09-25 15:58:42"
@@ -15298,6 +15366,38 @@ var threatdata = {
                 ],
                 "ip:port": [
                     {
+                        "value": "188.34.152.120:1333",
+                        "timestamp": "2023-10-02 06:28:50"
+                    },
+                    {
+                        "value": "45.15.157.247:80",
+                        "timestamp": "2023-10-02 06:28:50"
+                    },
+                    {
+                        "value": "195.201.228.145:80",
+                        "timestamp": "2023-09-30 10:44:07"
+                    },
+                    {
+                        "value": "116.202.4.35:1333",
+                        "timestamp": "2023-09-30 10:44:07"
+                    },
+                    {
+                        "value": "45.138.74.85:80",
+                        "timestamp": "2023-09-29 06:38:26"
+                    },
+                    {
+                        "value": "195.201.252.32:80",
+                        "timestamp": "2023-09-28 06:47:58"
+                    },
+                    {
+                        "value": "49.12.118.209:1333",
+                        "timestamp": "2023-09-27 14:35:08"
+                    },
+                    {
+                        "value": "116.202.2.169:1333",
+                        "timestamp": "2023-09-27 14:35:08"
+                    },
+                    {
                         "value": "5.75.215.131:1333",
                         "timestamp": "2023-09-25 15:58:36"
                     },
@@ -17606,16 +17706,8 @@ var threatdata = {
                         "timestamp": "2022-11-07 08:33:03"
                     },
                     {
-                        "value": "77.91.73.44:80",
-                        "timestamp": "2022-11-07 08:33:02"
-                    },
-                    {
                         "value": "88.119.169.102:80",
                         "timestamp": "2022-11-07 08:33:03"
-                    },
-                    {
-                        "value": "77.91.73.44:80",
-                        "timestamp": "2022-11-06 23:20:44"
                     },
                     {
                         "value": "95.217.27.240:80",
@@ -28305,9 +28397,9 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-25 15:58:42",
-    "mitre": [],
+    "last_ioc_update": "2023-10-02 06:28:53",
     "file_name": "vidar",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

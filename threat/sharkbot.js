@@ -41,9 +41,9 @@ var threatdata = {
             "malware": "apk.sharkbot",
             "last_update": "2023-08-01 15:31:01",
             "tags": [
-                "C2",
+                "sharkbot",
                 "SharkBot",
-                "sharkbot"
+                "C2"
             ],
             "ioc": {
                 "ip:port": [
@@ -530,6 +530,103 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-08-01 15:31:01",
+    "file_name": "sharkbot",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://services.google.com/fh/files/blogs/gcat_threathorizons_full_jul2023.pdf",
+            "date": "2023-07-29",
+            "organization": "Google",
+            "author": "Google Cybersecurity Action Team",
+            "title": "Threat Horizons August 2023 Threat Horizons Report",
+            "categories": [
+                "SharkBot",
+                "Cobalt Strike"
+            ]
+        },
+        {
+            "data_url": "https://www.threatfabric.com/blogs/the-attack-of-the-droppers.html",
+            "date": "2022-10-28",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "Malware wars: the attack of the droppers",
+            "categories": [
+                "Brunhilda",
+                "SharkBot",
+                "Vultur"
+            ]
+        },
+        {
+            "data_url": "https://muha2xmad.github.io/malware-analysis/sharkbot/",
+            "date": "2022-09-06",
+            "organization": "Github (muha2xmad)",
+            "author": "Muhammad Hasan Ali",
+            "title": "Technical analysis of SharkBot android malware",
+            "categories": [
+                "SharkBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.fox-it.com/2022/09/02/sharkbot-is-back-in-google-play/",
+            "date": "2022-09-02",
+            "organization": "nccgroup",
+            "author": "Alberto Segura",
+            "title": "Sharkbot is back in Google Play",
+            "categories": [
+                "SharkBot"
+            ]
+        },
+        {
+            "data_url": "https://bin.re/blog/the-dgas-of-sharkbot/",
+            "date": "2022-06-04",
+            "organization": "bin.re",
+            "author": "Johannes Bader",
+            "title": "The Domain Generation Algorithms of SharkBot",
+            "categories": [
+                "SharkBot"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2022/google-is-on-guard-sharks-shall-not-pass/",
+            "date": "2022-04-07",
+            "organization": "Checkpoint",
+            "author": "Alex Shamshur",
+            "title": "Google is on guard: sharks shall not pass!",
+            "categories": [
+                "SharkBot"
+            ]
+        },
+        {
+            "data_url": "https://research.nccgroup.com/2022/03/03/sharkbot-a-new-generation-android-banking-trojan-being-distributed-on-google-play-store/",
+            "date": "2022-03-03",
+            "organization": "NCC Group",
+            "author": "RIFT: Research and Intelligence Fusion Team",
+            "title": "SharkBot: a \u201cnew\u201d generation Android banking Trojan being distributed on Google Play Store",
+            "categories": [
+                "SharkBot"
+            ]
+        },
+        {
+            "data_url": "https://blog.fox-it.com/2022/03/03/sharkbot-a-new-generation-android-banking-trojan-being-distributed-on-google-play-store/",
+            "date": "2022-03-03",
+            "organization": "Fox-IT",
+            "author": "Alberto Segura",
+            "title": "SharkBot: a \u201cnew\u201d generation Android banking Trojan being distributed on Google Play Store",
+            "categories": [
+                "SharkBot"
+            ]
+        },
+        {
+            "data_url": "https://www.cleafy.com/cleafy-labs/sharkbot-a-new-generation-of-android-trojan-is-targeting-banks-in-europe",
+            "date": "2021-11-11",
+            "organization": "Cleafy",
+            "author": "Cleafy",
+            "title": "SharkBot: a new generation of Android Trojans is targeting banks in Europe",
+            "categories": [
+                "SharkBot"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "shark",
@@ -753,103 +850,6 @@ var threatdata = {
                     "technique_description": "adversaries may schedule data exfiltration to be performed only at certain times of day or at certain intervals. this could be done to blend traffic patterns with normal activity or availability.",
                     "procedure_description": "shark can pause c2 communications for a specified time.[15]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sharkbot",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://services.google.com/fh/files/blogs/gcat_threathorizons_full_jul2023.pdf",
-            "date": "2023-07-29",
-            "organization": "Google",
-            "author": "Google Cybersecurity Action Team",
-            "title": "Threat Horizons August 2023 Threat Horizons Report",
-            "categories": [
-                "SharkBot",
-                "Cobalt Strike"
-            ]
-        },
-        {
-            "data_url": "https://www.threatfabric.com/blogs/the-attack-of-the-droppers.html",
-            "date": "2022-10-28",
-            "organization": "ThreatFabric",
-            "author": "ThreatFabric",
-            "title": "Malware wars: the attack of the droppers",
-            "categories": [
-                "Brunhilda",
-                "SharkBot",
-                "Vultur"
-            ]
-        },
-        {
-            "data_url": "https://muha2xmad.github.io/malware-analysis/sharkbot/",
-            "date": "2022-09-06",
-            "organization": "Github (muha2xmad)",
-            "author": "Muhammad Hasan Ali",
-            "title": "Technical analysis of SharkBot android malware",
-            "categories": [
-                "SharkBot"
-            ]
-        },
-        {
-            "data_url": "https://blog.fox-it.com/2022/09/02/sharkbot-is-back-in-google-play/",
-            "date": "2022-09-02",
-            "organization": "nccgroup",
-            "author": "Alberto Segura",
-            "title": "Sharkbot is back in Google Play",
-            "categories": [
-                "SharkBot"
-            ]
-        },
-        {
-            "data_url": "https://bin.re/blog/the-dgas-of-sharkbot/",
-            "date": "2022-06-04",
-            "organization": "bin.re",
-            "author": "Johannes Bader",
-            "title": "The Domain Generation Algorithms of SharkBot",
-            "categories": [
-                "SharkBot"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2022/google-is-on-guard-sharks-shall-not-pass/",
-            "date": "2022-04-07",
-            "organization": "Checkpoint",
-            "author": "Alex Shamshur",
-            "title": "Google is on guard: sharks shall not pass!",
-            "categories": [
-                "SharkBot"
-            ]
-        },
-        {
-            "data_url": "https://research.nccgroup.com/2022/03/03/sharkbot-a-new-generation-android-banking-trojan-being-distributed-on-google-play-store/",
-            "date": "2022-03-03",
-            "organization": "NCC Group",
-            "author": "RIFT: Research and Intelligence Fusion Team",
-            "title": "SharkBot: a \u201cnew\u201d generation Android banking Trojan being distributed on Google Play Store",
-            "categories": [
-                "SharkBot"
-            ]
-        },
-        {
-            "data_url": "https://blog.fox-it.com/2022/03/03/sharkbot-a-new-generation-android-banking-trojan-being-distributed-on-google-play-store/",
-            "date": "2022-03-03",
-            "organization": "Fox-IT",
-            "author": "Alberto Segura",
-            "title": "SharkBot: a \u201cnew\u201d generation Android banking Trojan being distributed on Google Play Store",
-            "categories": [
-                "SharkBot"
-            ]
-        },
-        {
-            "data_url": "https://www.cleafy.com/cleafy-labs/sharkbot-a-new-generation-of-android-trojan-is-targeting-banks-in-europe",
-            "date": "2021-11-11",
-            "organization": "Cleafy",
-            "author": "Cleafy",
-            "title": "SharkBot: a new generation of Android Trojans is targeting banks in Europe",
-            "categories": [
-                "SharkBot"
             ]
         }
     ]

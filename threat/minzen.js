@@ -46,8 +46,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "minzen",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

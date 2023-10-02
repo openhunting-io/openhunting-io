@@ -33,6 +33,35 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "liteduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://norfolkinfosec.com/looking-back-at-liteduke/",
+            "date": "2020-05-18",
+            "organization": "One Night in Norfolk",
+            "author": "Kevin Perlow",
+            "title": "Looking Back at LiteDuke",
+            "categories": [
+                "LiteDuke"
+            ]
+        },
+        {
+            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
+            "date": "2020-03-26",
+            "organization": "VMWare Carbon Black",
+            "author": "Scott Knight",
+            "title": "The Dukes of Moscow",
+            "categories": [
+                "Cobalt Strike",
+                "LiteDuke",
+                "MiniDuke",
+                "OnionDuke",
+                "PolyglotDuke",
+                "PowerDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "liteduke",
@@ -220,35 +249,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "liteduke has the ability to download files.[263]"
                 }
-            ]
-        }
-    ],
-    "file_name": "liteduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://norfolkinfosec.com/looking-back-at-liteduke/",
-            "date": "2020-05-18",
-            "organization": "One Night in Norfolk",
-            "author": "Kevin Perlow",
-            "title": "Looking Back at LiteDuke",
-            "categories": [
-                "LiteDuke"
-            ]
-        },
-        {
-            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
-            "date": "2020-03-26",
-            "organization": "VMWare Carbon Black",
-            "author": "Scott Knight",
-            "title": "The Dukes of Moscow",
-            "categories": [
-                "Cobalt Strike",
-                "LiteDuke",
-                "MiniDuke",
-                "OnionDuke",
-                "PolyglotDuke",
-                "PowerDuke"
             ]
         }
     ]

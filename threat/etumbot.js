@@ -48,6 +48,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "etumbot",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "riptide",
@@ -81,8 +84,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "etumbot",
-    "analysis": null,
-    "articles": []
+    ]
 };

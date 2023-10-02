@@ -45,20 +45,29 @@ var threatdata = {
             "malware_printable": "TeamSpy",
             "malware_alias": "TVSPY,TeamViewerENT,TVRAT",
             "malware": "win.teamspy",
-            "last_update": "2023-09-26 13:36:10",
+            "last_update": "2023-10-02 06:36:11",
             "tags": [
-                "Teamspy",
-                "teamSpy",
-                "Viaprivateloader",
-                "VIAPRIVATELOADER",
-                "RAT",
-                "TeamSpy",
-                "teamspy",
                 "ViaPrivateLoader",
-                "ViaPrivateloader"
+                "TeamSpy",
+                "RAT",
+                "ViaPRivateLoader",
+                "VIAPRIVATELOADER",
+                "teamspy",
+                "ViaPrivateloader",
+                "Viaprivateloader",
+                "Teamspy",
+                "teamSpy"
             ],
             "ioc": {
                 "url": [
+                    {
+                        "value": "http://aqwxeyo.ru/single.php",
+                        "timestamp": "2023-09-29 07:10:09"
+                    },
+                    {
+                        "value": "http://aibyngu.ru/single.php",
+                        "timestamp": "2023-09-26 14:07:17"
+                    },
                     {
                         "value": "http://cegbqbq.net/single.php",
                         "timestamp": "2023-09-25 10:53:25"
@@ -115,59 +124,13 @@ var threatdata = {
                 "ip:port": [
                     {
                         "value": "185.141.63.172:80",
-                        "timestamp": "2023-09-26 13:36:10"
+                        "timestamp": "2023-10-02 06:36:11"
                     }
                 ]
             }
         }
     ],
-    "last_ioc_update": "2023-09-26 13:36:10",
-    "mitre": [
-        {
-            "procedure_name": "at",
-            "procedure_code": "s0110",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0110",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1053.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
-                    "technique_name": "scheduled task/job : at",
-                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
-                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
-                }
-            ]
-        }
-    ],
+    "last_ioc_update": "2023-10-02 06:36:11",
     "file_name": "teamspy",
     "analysis": null,
     "articles": [
@@ -221,6 +184,52 @@ var threatdata = {
             "title": "Unsupported TeamViewer Versions Exploited For Backdoors, Keylogging",
             "categories": [
                 "TeamSpy"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "at",
+            "procedure_code": "s0110",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0110",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/002",
+                    "technique_name": "scheduled task/job : at",
+                    "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
+                    "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
+                }
             ]
         }
     ]

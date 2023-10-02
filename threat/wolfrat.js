@@ -40,6 +40,47 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "wolfrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
+            "date": "2020-12-21",
+            "organization": "Cisco Talos",
+            "author": "JON MUNSHAW",
+            "title": "2020: The year in malware",
+            "categories": [
+                "WolfRAT",
+                "Prometei",
+                "Poet RAT",
+                "Agent Tesla",
+                "Astaroth",
+                "Ave Maria",
+                "CRAT",
+                "Emotet",
+                "Gozi",
+                "IndigoDrop",
+                "JhoneRAT",
+                "Nanocore RAT",
+                "NjRAT",
+                "Oblique RAT",
+                "SmokeLoader",
+                "StrongPity",
+                "WastedLocker",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2020/05/the-wolf-is-back.html",
+            "date": "2020-05-19",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "The wolf is back...",
+            "categories": [
+                "WolfRAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -83,47 +124,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "wolfrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/12/2020-year-in-malware.html",
-            "date": "2020-12-21",
-            "organization": "Cisco Talos",
-            "author": "JON MUNSHAW",
-            "title": "2020: The year in malware",
-            "categories": [
-                "WolfRAT",
-                "Prometei",
-                "Poet RAT",
-                "Agent Tesla",
-                "Astaroth",
-                "Ave Maria",
-                "CRAT",
-                "Emotet",
-                "Gozi",
-                "IndigoDrop",
-                "JhoneRAT",
-                "Nanocore RAT",
-                "NjRAT",
-                "Oblique RAT",
-                "SmokeLoader",
-                "StrongPity",
-                "WastedLocker",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2020/05/the-wolf-is-back.html",
-            "date": "2020-05-19",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "The wolf is back...",
-            "categories": [
-                "WolfRAT"
             ]
         }
     ]

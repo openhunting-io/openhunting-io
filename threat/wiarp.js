@@ -30,6 +30,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "wiarp",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "wiarp",
@@ -143,8 +146,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "wiarp",
-    "analysis": null,
-    "articles": []
+    ]
 };

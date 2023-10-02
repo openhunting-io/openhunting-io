@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "ksl0t",
     "analysis": null,
     "articles": [
@@ -62,5 +61,6 @@ var threatdata = {
                 "KSL0T"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

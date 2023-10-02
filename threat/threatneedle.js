@@ -31,6 +31,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "threatneedle",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "threatneedle",
@@ -264,8 +267,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "threatneedle",
-    "analysis": null,
-    "articles": []
+    ]
 };

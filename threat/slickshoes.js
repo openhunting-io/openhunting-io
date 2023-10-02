@@ -35,7 +35,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "slickshoes",
     "analysis": null,
     "articles": [
@@ -65,5 +64,6 @@ var threatdata = {
                 "SLICKSHOES"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

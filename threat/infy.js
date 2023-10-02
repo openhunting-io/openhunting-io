@@ -63,7 +63,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-08-12 10:27:25",
-    "mitre": [],
     "file_name": "infy",
     "analysis": null,
     "articles": [
@@ -225,5 +224,6 @@ var threatdata = {
                 "Infy"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

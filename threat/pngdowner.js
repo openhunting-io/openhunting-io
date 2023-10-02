@@ -33,6 +33,32 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pngdowner",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://attack.mitre.org/groups/G0024",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Putter Panda",
+            "categories": [
+                "4h_rat",
+                "pngdowner",
+                "APT2"
+            ]
+        },
+        {
+            "data_url": "https://www.iocbucket.com/iocs/7f7999ab7f223409ea9ea10cff82b064ce2a1a31",
+            "date": "2014-03-30",
+            "organization": "IOC Bucket",
+            "author": "IOC Bucket",
+            "title": "IOC Bucket for Putter Panda",
+            "categories": [
+                "pngdowner"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "pngdowner",
@@ -76,32 +102,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
                     "procedure_description": "pngdowner uses http for command and control.[1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "pngdowner",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://attack.mitre.org/groups/G0024",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Putter Panda",
-            "categories": [
-                "4h_rat",
-                "pngdowner",
-                "APT2"
-            ]
-        },
-        {
-            "data_url": "https://www.iocbucket.com/iocs/7f7999ab7f223409ea9ea10cff82b064ce2a1a31",
-            "date": "2014-03-30",
-            "organization": "IOC Bucket",
-            "author": "IOC Bucket",
-            "title": "IOC Bucket for Putter Panda",
-            "categories": [
-                "pngdowner"
             ]
         }
     ]

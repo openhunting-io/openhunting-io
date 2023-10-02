@@ -47,6 +47,40 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rawpos",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/rawpos-new-behavior-risks-identity-theft/?platform=hootsuite",
+            "date": "2017-04-19",
+            "organization": "Trend Micro",
+            "author": "Trend Micro Cyber Safety Solutions Team",
+            "title": "RawPOS: New Behavior Risks Identity Theft",
+            "categories": [
+                "RawPOS"
+            ]
+        },
+        {
+            "data_url": "https://threatvector.cylance.com/en_us/home/rawpos-malware.html",
+            "date": "2017-03-08",
+            "organization": "Cylance",
+            "author": "Threat Research Team",
+            "title": "RawPOS Malware Rides Again",
+            "categories": [
+                "RawPOS"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
+            "date": "2016-10-07",
+            "organization": "FireEye",
+            "author": "Matt Bromiley",
+            "title": "Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years",
+            "categories": [
+                "RawPOS"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "rawpos",
@@ -126,40 +160,6 @@ var threatdata = {
                     "technique_description": "adversaries may stage collected data in a central location or directory on the local system prior to exfiltration. data may be kept in separate files or combined into one file through techniques such as archive collected data. interactive command shells may be used, and common functionality within cmd and bash may be used to copy data into a staging location.",
                     "procedure_description": "data captured by rawpos is placed in a temporary file under a directory named \"memdump\".[85]"
                 }
-            ]
-        }
-    ],
-    "file_name": "rawpos",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://blog.trendmicro.com/trendlabs-security-intelligence/rawpos-new-behavior-risks-identity-theft/?platform=hootsuite",
-            "date": "2017-04-19",
-            "organization": "Trend Micro",
-            "author": "Trend Micro Cyber Safety Solutions Team",
-            "title": "RawPOS: New Behavior Risks Identity Theft",
-            "categories": [
-                "RawPOS"
-            ]
-        },
-        {
-            "data_url": "https://threatvector.cylance.com/en_us/home/rawpos-malware.html",
-            "date": "2017-03-08",
-            "organization": "Cylance",
-            "author": "Threat Research Team",
-            "title": "RawPOS Malware Rides Again",
-            "categories": [
-                "RawPOS"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=fevGZs0EQu8",
-            "date": "2016-10-07",
-            "organization": "FireEye",
-            "author": "Matt Bromiley",
-            "title": "Attacking the Hospitality and Gaming Industries: Tracking an Attacker Around the World in 7 Years",
-            "categories": [
-                "RawPOS"
             ]
         }
     ]

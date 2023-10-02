@@ -38,7 +38,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "nemty",
     "analysis": null,
     "articles": [
@@ -522,5 +521,6 @@ var threatdata = {
                 "Nemty"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

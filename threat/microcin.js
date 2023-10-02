@@ -37,7 +37,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "microcin",
     "analysis": null,
     "articles": [
@@ -251,5 +250,6 @@ var threatdata = {
                 "Microcin"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

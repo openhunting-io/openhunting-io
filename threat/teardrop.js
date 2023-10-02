@@ -64,100 +64,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "teardrop",
-            "procedure_code": "s0560",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0560",
-            "techniques": [
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1543.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
-                    "technique_name": "create or modify system process : windows service",
-                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
-                    "procedure_description": "teardrop ran as a windows service from the c:\\windows\\syswow64 folder.[120][121]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1543.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
-                    "technique_name": "create or modify system process : windows service",
-                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
-                    "procedure_description": "teardrop ran as a windows service from the c:\\windows\\syswow64 folder.[120][121]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1140",
-                    "technique_link": "https://attack.mitre.org/techniques/T1140",
-                    "technique_name": "deobfuscate/decode files or information",
-                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
-                    "procedure_description": "teardrop was decoded using a custom rolling xor algorithm to execute a customized cobalt strike payload.[228][229][186]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1036.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
-                    "technique_name": "masquerading : match legitimate name or location",
-                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
-                    "procedure_description": "teardrop files had names that resembled legitimate window file and directory names.[165][135]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1112",
-                    "technique_link": "https://attack.mitre.org/techniques/T1112",
-                    "technique_name": "modify registry",
-                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
-                    "procedure_description": "teardrop modified the registry to create a windows service for itself on a compromised host.[161]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "teardrop created and read from a file with a fake jpg header, and its payload was encrypted with a simple rotating xor cipher.[317][328][264]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1012",
-                    "technique_link": "https://attack.mitre.org/techniques/T1012",
-                    "technique_name": "query registry",
-                    "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
-                    "procedure_description": "teardrop checked that hku\\software\\microsoft\\ctf existed before decoding its embedded payload.[89][93]"
-                }
-            ]
-        }
-    ],
     "file_name": "teardrop",
     "analysis": null,
     "articles": [
@@ -592,6 +498,100 @@ var threatdata = {
                 "LOLSnif",
                 "SUNBURST",
                 "TEARDROP"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "teardrop",
+            "procedure_code": "s0560",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0560",
+            "techniques": [
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "teardrop ran as a windows service from the c:\\windows\\syswow64 folder.[120][121]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1543.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1543/003",
+                    "technique_name": "create or modify system process : windows service",
+                    "technique_description": "adversaries may create or modify windows services to repeatedly execute malicious payloads as part of persistence. when windows boots up, it starts programs or applications called services that perform background system functions. windows service configuration information, including the file path to the service's executable or recovery programs/commands, is stored in the windows registry.",
+                    "procedure_description": "teardrop ran as a windows service from the c:\\windows\\syswow64 folder.[120][121]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "teardrop was decoded using a custom rolling xor algorithm to execute a customized cobalt strike payload.[228][229][186]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1036.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1036/005",
+                    "technique_name": "masquerading : match legitimate name or location",
+                    "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
+                    "procedure_description": "teardrop files had names that resembled legitimate window file and directory names.[165][135]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "teardrop modified the registry to create a windows service for itself on a compromised host.[161]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "teardrop created and read from a file with a fake jpg header, and its payload was encrypted with a simple rotating xor cipher.[317][328][264]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1012",
+                    "technique_name": "query registry",
+                    "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
+                    "procedure_description": "teardrop checked that hku\\software\\microsoft\\ctf existed before decoding its embedded payload.[89][93]"
+                }
             ]
         }
     ]

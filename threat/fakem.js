@@ -41,6 +41,52 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "fakem",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2014/01/Advanced-Persistent-Threats.pdf",
+            "date": "2013-12-05",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Did you sayAdvanced Persistent Threats?",
+            "categories": [
+                "Terminator RAT"
+            ]
+        },
+        {
+            "data_url": "https://malware.lu/assets/files/articles/RAP002_APT1_Technical_backstage.1.0.pdf",
+            "date": "2013-03-27",
+            "organization": "Malware.lu",
+            "author": "Paul Rascagn\u00e8res",
+            "title": "APT1: technical backstage",
+            "categories": [
+                "Terminator RAT"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/wp/wp-fakem-rat.pdf",
+            "date": "2013",
+            "organization": "Trend Micro",
+            "author": "Nart Villeneuve",
+            "title": "FAKEM RAT",
+            "categories": [
+                "Terminator RAT"
+            ]
+        },
+        {
+            "data_url": "http://contagiodump.blogspot.com/2012/06/rat-samples-from-syrian-targeted.html",
+            "date": "2012-06-21",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "RAT samples from Syrian Targeted attacks - Blackshades RAT, XTreme RAT, Dark Comet RAT used by Syrian Electronic Army",
+            "categories": [
+                "BlackShades",
+                "DarkComet",
+                "Terminator RAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -184,52 +230,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "fakem",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2014/01/Advanced-Persistent-Threats.pdf",
-            "date": "2013-12-05",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Did you sayAdvanced Persistent Threats?",
-            "categories": [
-                "Terminator RAT"
-            ]
-        },
-        {
-            "data_url": "https://malware.lu/assets/files/articles/RAP002_APT1_Technical_backstage.1.0.pdf",
-            "date": "2013-03-27",
-            "organization": "Malware.lu",
-            "author": "Paul Rascagn\u00e8res",
-            "title": "APT1: technical backstage",
-            "categories": [
-                "Terminator RAT"
-            ]
-        },
-        {
-            "data_url": "https://documents.trendmicro.com/assets/wp/wp-fakem-rat.pdf",
-            "date": "2013",
-            "organization": "Trend Micro",
-            "author": "Nart Villeneuve",
-            "title": "FAKEM RAT",
-            "categories": [
-                "Terminator RAT"
-            ]
-        },
-        {
-            "data_url": "http://contagiodump.blogspot.com/2012/06/rat-samples-from-syrian-targeted.html",
-            "date": "2012-06-21",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "RAT samples from Syrian Targeted attacks - Blackshades RAT, XTreme RAT, Dark Comet RAT used by Syrian Electronic Army",
-            "categories": [
-                "BlackShades",
-                "DarkComet",
-                "Terminator RAT"
             ]
         }
     ]

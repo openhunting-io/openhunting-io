@@ -30,7 +30,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "wndtest",
     "analysis": null,
     "articles": [
@@ -54,5 +53,6 @@ var threatdata = {
                 "Cleaver"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

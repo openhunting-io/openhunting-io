@@ -50,6 +50,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "pirpi",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "shotput",
@@ -131,8 +134,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "pirpi",
-    "analysis": null,
-    "articles": []
+    ]
 };

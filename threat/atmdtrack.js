@@ -26,6 +26,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "atmdtrack",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "dtrack",
@@ -463,8 +466,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "atmdtrack",
-    "analysis": null,
-    "articles": []
+    ]
 };

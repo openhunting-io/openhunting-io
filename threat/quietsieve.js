@@ -32,6 +32,24 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "quietsieve",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
+            "date": "2022-02-04",
+            "organization": "Microsoft",
+            "author": "Microsoft Threat Intelligence Center (MSTIC)",
+            "title": "ACTINIUM targets Ukrainian organizations",
+            "categories": [
+                "DilongTrash",
+                "DinoTrain",
+                "Pteranodon",
+                "QuietSieve",
+                "Gamaredon Group"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "quietsieve",
@@ -147,24 +165,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "quietsieve can download and execute payloads on a target host.[193]"
                 }
-            ]
-        }
-    ],
-    "file_name": "quietsieve",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.microsoft.com/security/blog/2022/02/04/actinium-targets-ukrainian-organizations/",
-            "date": "2022-02-04",
-            "organization": "Microsoft",
-            "author": "Microsoft Threat Intelligence Center (MSTIC)",
-            "title": "ACTINIUM targets Ukrainian organizations",
-            "categories": [
-                "DilongTrash",
-                "DinoTrain",
-                "Pteranodon",
-                "QuietSieve",
-                "Gamaredon Group"
             ]
         }
     ]

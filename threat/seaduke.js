@@ -46,6 +46,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "seaduke",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "seaduke",
@@ -319,8 +322,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "seaduke",
-    "analysis": null,
-    "articles": []
+    ]
 };

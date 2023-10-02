@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "nidiran",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "nidiran",
@@ -91,8 +94,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "nidiran",
-    "analysis": null,
-    "articles": []
+    ]
 };

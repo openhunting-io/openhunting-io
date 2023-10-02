@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "reconshark",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "shark",
@@ -250,8 +253,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "reconshark",
-    "analysis": null,
-    "articles": []
+    ]
 };

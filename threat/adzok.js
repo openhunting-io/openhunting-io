@@ -36,6 +36,24 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "adzok",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://citizenlab.ca/2015/12/packrat-report/",
+            "date": "2015-12-08",
+            "organization": "The Citizenlab",
+            "author": "John Scott-Railton",
+            "title": "Packrat: Seven Years of a South American Threat Actor",
+            "categories": [
+                "AdWind",
+                "Adzok",
+                "CyberGate",
+                "Xtreme RAT",
+                "Packrat"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -111,24 +129,6 @@ var threatdata = {
                     "technique_description": "to disguise the source of malicious traffic, adversaries may chain together multiple proxies. typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. this technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source. a particular variant of this behavior is to use onion routing networks, such as the publicly available tor network.",
                     "procedure_description": "traffic traversing the tor network will be forwarded to multiple nodes before exiting the tor network and continuing on to its intended destination.[21]"
                 }
-            ]
-        }
-    ],
-    "file_name": "adzok",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://citizenlab.ca/2015/12/packrat-report/",
-            "date": "2015-12-08",
-            "organization": "The Citizenlab",
-            "author": "John Scott-Railton",
-            "title": "Packrat: Seven Years of a South American Threat Actor",
-            "categories": [
-                "AdWind",
-                "Adzok",
-                "CyberGate",
-                "Xtreme RAT",
-                "Packrat"
             ]
         }
     ]

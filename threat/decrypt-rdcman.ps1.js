@@ -26,6 +26,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "decrypt-rdcman.ps1",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "ps1",
@@ -107,8 +110,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "decrypt-rdcman.ps1",
-    "analysis": null,
-    "articles": []
+    ]
 };

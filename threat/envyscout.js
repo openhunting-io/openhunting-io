@@ -59,6 +59,119 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-07-08 16:50:23",
+    "file_name": "envyscout",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cert.pl/posts/2023/04/kampania-szpiegowska-apt29/",
+            "date": "2023-04-13",
+            "organization": "CERT.PL",
+            "author": "CERT.PL",
+            "title": "CERT Polska and SKW warn against the activities of Russian spies",
+            "categories": [
+                "BOOMBOX",
+                "EnvyScout",
+                "SUNBURST"
+            ]
+        },
+        {
+            "data_url": "https://blogs.blackberry.com/en/2023/03/nobelium-targets-eu-governments-assisting-ukraine",
+            "date": "2023-03-14",
+            "organization": "Blackberry",
+            "author": "BlackBerry Research & Intelligence Team",
+            "title": "NOBELIUM Uses Poland's Ambassador\u2019s Visit to the U.S. to Target EU Governments Assisting Ukraine",
+            "categories": [
+                "EnvyScout",
+                "GraphicalNeutrino"
+            ]
+        },
+        {
+            "data_url": "https://mrtiepolo.medium.com/sophisticated-apt29-campaign-abuses-notion-api-to-target-the-european-commission-200188059f58",
+            "date": "2023-03-10",
+            "organization": "Mrtiepolo",
+            "author": "Gianluca Tiepolo",
+            "title": "Sophisticated APT29 Campaign Abuses Notion API to Target the European Commission",
+            "categories": [
+                "BEATDROP",
+                "EnvyScout",
+                "GraphicalNeutrino",
+                "tDiscoverer",
+                "VaporRage"
+            ]
+        },
+        {
+            "data_url": "https://www.incibe-cert.es/sites/default/files/contenidos/estudios/doc/incibe-cert_estudio_analisis_nobelium_2022_v1.pdf",
+            "date": "2022-09-06",
+            "organization": "INCIBE-CERT",
+            "author": "INCIBE",
+            "title": "Estudio del an\u00e1lisis de Nobelium",
+            "categories": [
+                "BEATDROP",
+                "BOOMBOX",
+                "Cobalt Strike",
+                "EnvyScout",
+                "Unidentified 099 (APT29 Dropbox Loader)",
+                "VaporRage"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/cloaked-ursa-online-storage-services-campaigns/",
+            "date": "2022-07-19",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Mike Harbison",
+            "title": "Russian APT29 Hackers Use Online Storage Services, DropBox and Google Drive",
+            "categories": [
+                "Cobalt Strike",
+                "EnvyScout",
+                "Gdrive"
+            ]
+        },
+        {
+            "data_url": "https://cert-agid.gov.it/news/il-malware-envyscout-apt29-e-stato-veicolato-anche-in-italia/",
+            "date": "2022-07-08",
+            "organization": "Cert-AgID",
+            "author": "Cert-AgID",
+            "title": "Il malware EnvyScout (APT29) \u00e8 stato veicolato anche in Italia",
+            "categories": [
+                "EnvyScout",
+                "Unidentified 098 (APT29 Slack Downloader)"
+            ]
+        },
+        {
+            "data_url": "https://blog.bushidotoken.net/2022/06/overview-of-russian-gru-and-svr.html",
+            "date": "2022-06-26",
+            "organization": "",
+            "author": "BushidoToken",
+            "title": "Overview of Russian GRU and SVR Cyberespionage Campaigns 1H 2022",
+            "categories": [
+                "Cobalt Strike",
+                "CredoMap",
+                "EnvyScout"
+            ]
+        },
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0503.pdf",
+            "date": "2022-05-03",
+            "organization": "Recorded Future",
+            "author": "Insikt Group\u00ae",
+            "title": "SOLARDEFLECTION C2 Infrastructure Used by NOBELIUM in Company Brand Misuse",
+            "categories": [
+                "Cobalt Strike",
+                "EnvyScout"
+            ]
+        },
+        {
+            "data_url": "https://www.sekoia.io/en/nobeliums-envyscout-infection-chain-goes-in-the-registry-targeting-embassies/",
+            "date": "2022-01-06",
+            "organization": "Sekoia",
+            "author": "sekoia",
+            "title": "NOBELIUM\u2019s EnvyScout infection chain goes in the registry, targeting embassies",
+            "categories": [
+                "Cobalt Strike",
+                "EnvyScout"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "envyscout",
@@ -234,119 +347,6 @@ var threatdata = {
                     "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
                     "procedure_description": "envyscout can collect sensitive ntlm material from a compromised host.[64]"
                 }
-            ]
-        }
-    ],
-    "file_name": "envyscout",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cert.pl/posts/2023/04/kampania-szpiegowska-apt29/",
-            "date": "2023-04-13",
-            "organization": "CERT.PL",
-            "author": "CERT.PL",
-            "title": "CERT Polska and SKW warn against the activities of Russian spies",
-            "categories": [
-                "BOOMBOX",
-                "EnvyScout",
-                "SUNBURST"
-            ]
-        },
-        {
-            "data_url": "https://blogs.blackberry.com/en/2023/03/nobelium-targets-eu-governments-assisting-ukraine",
-            "date": "2023-03-14",
-            "organization": "Blackberry",
-            "author": "BlackBerry Research & Intelligence Team",
-            "title": "NOBELIUM Uses Poland's Ambassador\u2019s Visit to the U.S. to Target EU Governments Assisting Ukraine",
-            "categories": [
-                "EnvyScout",
-                "GraphicalNeutrino"
-            ]
-        },
-        {
-            "data_url": "https://mrtiepolo.medium.com/sophisticated-apt29-campaign-abuses-notion-api-to-target-the-european-commission-200188059f58",
-            "date": "2023-03-10",
-            "organization": "Mrtiepolo",
-            "author": "Gianluca Tiepolo",
-            "title": "Sophisticated APT29 Campaign Abuses Notion API to Target the European Commission",
-            "categories": [
-                "BEATDROP",
-                "EnvyScout",
-                "GraphicalNeutrino",
-                "tDiscoverer",
-                "VaporRage"
-            ]
-        },
-        {
-            "data_url": "https://www.incibe-cert.es/sites/default/files/contenidos/estudios/doc/incibe-cert_estudio_analisis_nobelium_2022_v1.pdf",
-            "date": "2022-09-06",
-            "organization": "INCIBE-CERT",
-            "author": "INCIBE",
-            "title": "Estudio del an\u00e1lisis de Nobelium",
-            "categories": [
-                "BEATDROP",
-                "BOOMBOX",
-                "Cobalt Strike",
-                "EnvyScout",
-                "Unidentified 099 (APT29 Dropbox Loader)",
-                "VaporRage"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/cloaked-ursa-online-storage-services-campaigns/",
-            "date": "2022-07-19",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Mike Harbison",
-            "title": "Russian APT29 Hackers Use Online Storage Services, DropBox and Google Drive",
-            "categories": [
-                "Cobalt Strike",
-                "EnvyScout",
-                "Gdrive"
-            ]
-        },
-        {
-            "data_url": "https://cert-agid.gov.it/news/il-malware-envyscout-apt29-e-stato-veicolato-anche-in-italia/",
-            "date": "2022-07-08",
-            "organization": "Cert-AgID",
-            "author": "Cert-AgID",
-            "title": "Il malware EnvyScout (APT29) \u00e8 stato veicolato anche in Italia",
-            "categories": [
-                "EnvyScout",
-                "Unidentified 098 (APT29 Slack Downloader)"
-            ]
-        },
-        {
-            "data_url": "https://blog.bushidotoken.net/2022/06/overview-of-russian-gru-and-svr.html",
-            "date": "2022-06-26",
-            "organization": "",
-            "author": "BushidoToken",
-            "title": "Overview of Russian GRU and SVR Cyberespionage Campaigns 1H 2022",
-            "categories": [
-                "Cobalt Strike",
-                "CredoMap",
-                "EnvyScout"
-            ]
-        },
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2022-0503.pdf",
-            "date": "2022-05-03",
-            "organization": "Recorded Future",
-            "author": "Insikt Group\u00ae",
-            "title": "SOLARDEFLECTION C2 Infrastructure Used by NOBELIUM in Company Brand Misuse",
-            "categories": [
-                "Cobalt Strike",
-                "EnvyScout"
-            ]
-        },
-        {
-            "data_url": "https://www.sekoia.io/en/nobeliums-envyscout-infection-chain-goes-in-the-registry-targeting-embassies/",
-            "date": "2022-01-06",
-            "organization": "Sekoia",
-            "author": "sekoia",
-            "title": "NOBELIUM\u2019s EnvyScout infection chain goes in the registry, targeting embassies",
-            "categories": [
-                "Cobalt Strike",
-                "EnvyScout"
             ]
         }
     ]

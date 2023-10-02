@@ -28,6 +28,51 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "apt3_keylogger",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/05/11/malware-tricks-28.html",
+            "date": "2023-05-11",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development trick - part 28: Dump lsass.exe. Simple C++ example.",
+            "categories": [
+                "Cobalt Strike",
+                "APT3 Keylogger"
+            ]
+        },
+        {
+            "data_url": "https://intrusiontruth.wordpress.com/2017/05/09/apt3-is-boyusec-a-chinese-intelligence-contractor/",
+            "date": "2017-05-09",
+            "organization": "Intrusiontruth",
+            "author": "Intrusiontruth",
+            "title": "APT3 is Boyusec, a Chinese Intelligence Contractor",
+            "categories": [
+                "APT3 Keylogger"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/smoothimpact/status/773631684038107136",
+            "date": "2016-09-07",
+            "organization": "Twitter (smoothimpact)",
+            "author": "Kris McConkey",
+            "title": "Tweet with hashes on APT3",
+            "categories": [
+                "APT3 Keylogger"
+            ]
+        },
+        {
+            "data_url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
+            "date": "2016-09-06",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Buckeye cyberespionage group shifts gaze from US to Hong Kong",
+            "categories": [
+                "APT3 Keylogger"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "apt3",
@@ -683,51 +728,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "apt3 has a tool that exfiltrates data over the c2 channel.[5]"
                 }
-            ]
-        }
-    ],
-    "file_name": "apt3_keylogger",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2023/05/11/malware-tricks-28.html",
-            "date": "2023-05-11",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development trick - part 28: Dump lsass.exe. Simple C++ example.",
-            "categories": [
-                "Cobalt Strike",
-                "APT3 Keylogger"
-            ]
-        },
-        {
-            "data_url": "https://intrusiontruth.wordpress.com/2017/05/09/apt3-is-boyusec-a-chinese-intelligence-contractor/",
-            "date": "2017-05-09",
-            "organization": "Intrusiontruth",
-            "author": "Intrusiontruth",
-            "title": "APT3 is Boyusec, a Chinese Intelligence Contractor",
-            "categories": [
-                "APT3 Keylogger"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/smoothimpact/status/773631684038107136",
-            "date": "2016-09-07",
-            "organization": "Twitter (smoothimpact)",
-            "author": "Kris McConkey",
-            "title": "Tweet with hashes on APT3",
-            "categories": [
-                "APT3 Keylogger"
-            ]
-        },
-        {
-            "data_url": "http://www.symantec.com/connect/blogs/buckeye-cyberespionage-group-shifts-gaze-us-hong-kong",
-            "date": "2016-09-06",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Buckeye cyberespionage group shifts gaze from US to Hong Kong",
-            "categories": [
-                "APT3 Keylogger"
             ]
         }
     ]

@@ -34,6 +34,39 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "xslcmd",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://objective-see.com/blog/blog_0x16.html",
+            "date": "2017-01-01",
+            "organization": "Objective-See",
+            "author": "Patrick Wardle",
+            "title": "Mac Malware of 2016",
+            "categories": [
+                "KeRanger",
+                "Keydnap",
+                "Komplex",
+                "Laoshu",
+                "MacInstaller",
+                "MacVX",
+                "Mokes",
+                "WireLurker",
+                "XSLCmd"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2014/09/forced-to-adapt-xslcmd-backdoor-now-on-os-x.html",
+            "date": "2014-09-04",
+            "organization": "FireEye",
+            "author": "Mike Scott",
+            "title": "Forced to Adapt: XSLCmd Backdoor Now on OS X",
+            "categories": [
+                "XSLCmd",
+                "APT15"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "cmd",
@@ -113,39 +146,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "cmd can be used to copy files to/from a remotely connected external system.[113]"
                 }
-            ]
-        }
-    ],
-    "file_name": "xslcmd",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://objective-see.com/blog/blog_0x16.html",
-            "date": "2017-01-01",
-            "organization": "Objective-See",
-            "author": "Patrick Wardle",
-            "title": "Mac Malware of 2016",
-            "categories": [
-                "KeRanger",
-                "Keydnap",
-                "Komplex",
-                "Laoshu",
-                "MacInstaller",
-                "MacVX",
-                "Mokes",
-                "WireLurker",
-                "XSLCmd"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2014/09/forced-to-adapt-xslcmd-backdoor-now-on-os-x.html",
-            "date": "2014-09-04",
-            "organization": "FireEye",
-            "author": "Mike Scott",
-            "title": "Forced to Adapt: XSLCmd Backdoor Now on OS X",
-            "categories": [
-                "XSLCmd",
-                "APT15"
             ]
         }
     ]

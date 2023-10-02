@@ -41,7 +41,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "karkoff",
     "analysis": null,
     "articles": [
@@ -132,5 +131,6 @@ var threatdata = {
                 "DNSpionage"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

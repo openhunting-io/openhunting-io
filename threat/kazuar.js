@@ -38,6 +38,191 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "kazuar",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://twitter.com/msftsecintel/status/1681695399084539908",
+            "date": "2023-07-19",
+            "organization": "Twitter (@MsftSecIntel)",
+            "author": "Microsoft Threat Intelligence",
+            "title": "Tweet on targeted attacks against the defense sector in Ukraine and Eastern Europe by the threat actor Secret Blizzard",
+            "categories": [
+                "DeliveryCheck",
+                "Kazuar"
+            ]
+        },
+        {
+            "data_url": "https://cert.gov.ua/article/5213167",
+            "date": "2023-07-18",
+            "organization": "Cert-UA",
+            "author": "Cert-UA",
+            "title": "Targeted Turla attacks (UAC-0024, UAC-0003) using CAPIBAR and KAZUAR malware (CERT-UA#6981)",
+            "categories": [
+                "DeliveryCheck",
+                "Kazuar"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
+            "date": "2023-04-24",
+            "organization": "Kaspersky Labs",
+            "author": "Pierre Delcher",
+            "title": "Tomiris called, they want their Turla malware back",
+            "categories": [
+                "KopiLuwak",
+                "Andromeda",
+                "Ave Maria",
+                "GoldMax",
+                "JLORAT",
+                "Kazuar",
+                "Meterpreter",
+                "QUIETCANARY",
+                "RATel",
+                "Roopy",
+                "Telemiris",
+                "tomiris",
+                "Topinambour"
+            ]
+        },
+        {
+            "data_url": "https://youtu.be/SW8kVkwDOrc?t=24706",
+            "date": "2021-06-12",
+            "organization": "YouTube (BSidesBoulder)",
+            "author": "Kurt Baumgartner",
+            "title": "Same and Different - sesame street level attribution",
+            "categories": [
+                "Kazuar",
+                "SUNBURST"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
+            "date": "2021-04-27",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "APT trends report Q1 2021",
+            "categories": [
+                "PAS",
+                "Artra Downloader",
+                "BadNews",
+                "Bozok",
+                "DILLJUICE",
+                "Kazuar",
+                "Quasar RAT",
+                "SodaMaster"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/sunburst-backdoor-kazuar/99981/",
+            "date": "2021-01-11",
+            "organization": "Kaspersky Labs",
+            "author": "Georgy Kucherin",
+            "title": "Sunburst backdoor \u2013 code overlaps with Kazuar",
+            "categories": [
+                "Kazuar",
+                "SUNBURST"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity",
+            "date": "2020-10-28",
+            "organization": "Accenture",
+            "author": "Cyber Defense",
+            "title": "Turla uses HyperStack, Carbon, and Kazuar to compromise government entity",
+            "categories": [
+                "Cobra Carbon System",
+                "Kazuar",
+                "TurlaRPC",
+                "Turla SilentMoon"
+            ]
+        },
+        {
+            "data_url": "https://www.epicturla.com/blog/sysinturla",
+            "date": "2020-05-28",
+            "organization": "EpicTurla",
+            "author": "Juan Andr\u00e9s Guerrero-Saade",
+            "title": "SysInTURLA",
+            "categories": [
+                "Kazuar"
+            ]
+        },
+        {
+            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
+            "date": "2020-05-21",
+            "organization": "PICUS Security",
+            "author": "S\u00fcleyman \u00d6zarslan",
+            "title": "T1055 Process Injection",
+            "categories": [
+                "BlackEnergy",
+                "Cardinal RAT",
+                "Downdelph",
+                "Emotet",
+                "Kazuar",
+                "RokRAT",
+                "SOUNDBITE"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+            "date": "2020-03-03",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2019:A Year in Retrospect",
+            "categories": [
+                "KevDroid",
+                "MESSAGETAP",
+                "magecart",
+                "AndroMut",
+                "Cobalt Strike",
+                "CobInt",
+                "Crimson RAT",
+                "DNSpionage",
+                "Dridex",
+                "Dtrack",
+                "Emotet",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Grateful POS",
+                "ISFB",
+                "Kazuar",
+                "LockerGoga",
+                "Nokki",
+                "QakBot",
+                "Ramnit",
+                "REvil",
+                "Rifdoor",
+                "RokRAT",
+                "Ryuk",
+                "shadowhammer",
+                "ShadowPad",
+                "Shifu",
+                "Skipper",
+                "StoneDrill",
+                "Stuxnet",
+                "TrickBot",
+                "Winnti",
+                "ZeroCleare",
+                "APT41",
+                "MUSTANG PANDA",
+                "Sea Turtle"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
+            "date": "2017-05-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Brandon Levene",
+            "title": "Kazuar: Multiplatform Espionage Backdoor with API Access",
+            "categories": [
+                "Kazuar"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "kazuar",
@@ -453,191 +638,6 @@ var threatdata = {
                     "technique_description": "adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources. data destruction is likely to render stored data irrecoverable by forensic techniques through overwriting files or data on local and remote drives. common operating system file deletion commands such as del and rm often only remove pointers to files without wiping the contents of the files themselves, making the files recoverable by proper forensic methodology. this behavior is distinct from disk content wipe and disk structure wipe because individual files are destroyed rather than sections of a storage disk or the disk's logical structure.",
                     "procedure_description": "kazuar can overwrite files with random data before deleting them.[18]"
                 }
-            ]
-        }
-    ],
-    "file_name": "kazuar",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://twitter.com/msftsecintel/status/1681695399084539908",
-            "date": "2023-07-19",
-            "organization": "Twitter (@MsftSecIntel)",
-            "author": "Microsoft Threat Intelligence",
-            "title": "Tweet on targeted attacks against the defense sector in Ukraine and Eastern Europe by the threat actor Secret Blizzard",
-            "categories": [
-                "DeliveryCheck",
-                "Kazuar"
-            ]
-        },
-        {
-            "data_url": "https://cert.gov.ua/article/5213167",
-            "date": "2023-07-18",
-            "organization": "Cert-UA",
-            "author": "Cert-UA",
-            "title": "Targeted Turla attacks (UAC-0024, UAC-0003) using CAPIBAR and KAZUAR malware (CERT-UA#6981)",
-            "categories": [
-                "DeliveryCheck",
-                "Kazuar"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/tomiris-called-they-want-their-turla-malware-back/109552/",
-            "date": "2023-04-24",
-            "organization": "Kaspersky Labs",
-            "author": "Pierre Delcher",
-            "title": "Tomiris called, they want their Turla malware back",
-            "categories": [
-                "KopiLuwak",
-                "Andromeda",
-                "Ave Maria",
-                "GoldMax",
-                "JLORAT",
-                "Kazuar",
-                "Meterpreter",
-                "QUIETCANARY",
-                "RATel",
-                "Roopy",
-                "Telemiris",
-                "tomiris",
-                "Topinambour"
-            ]
-        },
-        {
-            "data_url": "https://youtu.be/SW8kVkwDOrc?t=24706",
-            "date": "2021-06-12",
-            "organization": "YouTube (BSidesBoulder)",
-            "author": "Kurt Baumgartner",
-            "title": "Same and Different - sesame street level attribution",
-            "categories": [
-                "Kazuar",
-                "SUNBURST"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q1-2021/101967/",
-            "date": "2021-04-27",
-            "organization": "Kaspersky",
-            "author": "GReAT",
-            "title": "APT trends report Q1 2021",
-            "categories": [
-                "PAS",
-                "Artra Downloader",
-                "BadNews",
-                "Bozok",
-                "DILLJUICE",
-                "Kazuar",
-                "Quasar RAT",
-                "SodaMaster"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/sunburst-backdoor-kazuar/99981/",
-            "date": "2021-01-11",
-            "organization": "Kaspersky Labs",
-            "author": "Georgy Kucherin",
-            "title": "Sunburst backdoor \u2013 code overlaps with Kazuar",
-            "categories": [
-                "Kazuar",
-                "SUNBURST"
-            ]
-        },
-        {
-            "data_url": "https://www.accenture.com/us-en/blogs/cyber-defense/turla-belugasturgeon-compromises-government-entity",
-            "date": "2020-10-28",
-            "organization": "Accenture",
-            "author": "Cyber Defense",
-            "title": "Turla uses HyperStack, Carbon, and Kazuar to compromise government entity",
-            "categories": [
-                "Cobra Carbon System",
-                "Kazuar",
-                "TurlaRPC",
-                "Turla SilentMoon"
-            ]
-        },
-        {
-            "data_url": "https://www.epicturla.com/blog/sysinturla",
-            "date": "2020-05-28",
-            "organization": "EpicTurla",
-            "author": "Juan Andr\u00e9s Guerrero-Saade",
-            "title": "SysInTURLA",
-            "categories": [
-                "Kazuar"
-            ]
-        },
-        {
-            "data_url": "https://www.picussecurity.com/blog/picus-10-critical-mitre-attck-techniques-t1055-process-injection",
-            "date": "2020-05-21",
-            "organization": "PICUS Security",
-            "author": "S\u00fcleyman \u00d6zarslan",
-            "title": "T1055 Process Injection",
-            "categories": [
-                "BlackEnergy",
-                "Cardinal RAT",
-                "Downdelph",
-                "Emotet",
-                "Kazuar",
-                "RokRAT",
-                "SOUNDBITE"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
-            "date": "2020-03-03",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2019:A Year in Retrospect",
-            "categories": [
-                "KevDroid",
-                "MESSAGETAP",
-                "magecart",
-                "AndroMut",
-                "Cobalt Strike",
-                "CobInt",
-                "Crimson RAT",
-                "DNSpionage",
-                "Dridex",
-                "Dtrack",
-                "Emotet",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "FriedEx",
-                "Gandcrab",
-                "Get2",
-                "GlobeImposter",
-                "Grateful POS",
-                "ISFB",
-                "Kazuar",
-                "LockerGoga",
-                "Nokki",
-                "QakBot",
-                "Ramnit",
-                "REvil",
-                "Rifdoor",
-                "RokRAT",
-                "Ryuk",
-                "shadowhammer",
-                "ShadowPad",
-                "Shifu",
-                "Skipper",
-                "StoneDrill",
-                "Stuxnet",
-                "TrickBot",
-                "Winnti",
-                "ZeroCleare",
-                "APT41",
-                "MUSTANG PANDA",
-                "Sea Turtle"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2017/05/unit42-kazuar-multiplatform-espionage-backdoor-api-access/",
-            "date": "2017-05-03",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Brandon Levene",
-            "title": "Kazuar: Multiplatform Espionage Backdoor with API Access",
-            "categories": [
-                "Kazuar"
             ]
         }
     ]

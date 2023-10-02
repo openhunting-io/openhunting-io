@@ -33,6 +33,24 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "catchamas",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets",
+            "date": "2018-06-19",
+            "organization": "Symantec",
+            "author": "Security Response Attack Investigation Team",
+            "title": "Thrip: Espionage Group Hits Satellite, Telecoms, and Defense Companies",
+            "categories": [
+                "Catchamas",
+                "Rikamanu",
+                "Spedear",
+                "WMI Ghost",
+                "Thrip"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -216,24 +234,6 @@ var threatdata = {
                     "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
                     "procedure_description": "catchamas captures screenshots based on specific keywords in the window\u2019s title.[35]"
                 }
-            ]
-        }
-    ],
-    "file_name": "catchamas",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.symantec.com/blogs/threat-intelligence/thrip-hits-satellite-telecoms-defense-targets",
-            "date": "2018-06-19",
-            "organization": "Symantec",
-            "author": "Security Response Attack Investigation Team",
-            "title": "Thrip: Espionage Group Hits Satellite, Telecoms, and Defense Companies",
-            "categories": [
-                "Catchamas",
-                "Rikamanu",
-                "Spedear",
-                "WMI Ghost",
-                "Thrip"
             ]
         }
     ]

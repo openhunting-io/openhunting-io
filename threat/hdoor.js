@@ -36,6 +36,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hdoor",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "hdoor",
@@ -69,8 +72,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "hdoor",
-    "analysis": null,
-    "articles": []
+    ]
 };

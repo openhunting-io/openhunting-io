@@ -56,7 +56,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-05-17 12:24:06",
-    "mitre": [],
     "file_name": "nefilim",
     "analysis": null,
     "articles": [
@@ -540,5 +539,6 @@ var threatdata = {
                 "STOP"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

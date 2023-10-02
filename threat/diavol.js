@@ -58,6 +58,158 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-12-29 05:59:45",
+    "file_name": "diavol",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://medium.com/walmartglobaltech/diavol-resurfaces-91dd93c7d922",
+            "date": "2022-09-30",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "Diavol resurfaces",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://arcticwolf.com/resources/blog/karakurt-web",
+            "date": "2022-04-15",
+            "organization": "Arctic Wolf",
+            "author": "Arctic Wolf",
+            "title": "The Karakurt Web: Threat Intel and Blockchain Analysis Reveals Extension of Conti Business Model",
+            "categories": [
+                "Conti",
+                "Diavol",
+                "Ryuk",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/diavol-the-enigma-of-ransomware-1fd78ffda648",
+            "date": "2022-03-10",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jason Reaves",
+            "title": "Diavol the Enigma of Ransomware",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.scythe.io/library/adversary-emulation-diavol-ransomware-threatthursday",
+            "date": "2022-01-27",
+            "organization": "SCYTHE",
+            "author": "Nathali Cano",
+            "title": "Adversary Emulation Diavol Ransomware #ThreatThursday",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/fbi-links-diavol-ransomware-to-the-trickbot-cybercrime-group/",
+            "date": "2022-01-20",
+            "organization": "BleepingComputer",
+            "author": "Lawrence Abrams",
+            "title": "FBI links Diavol ransomware to the TrickBot cybercrime group",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.ic3.gov/Media/News/2022/220120.pdf",
+            "date": "2022-01-19",
+            "organization": "FBI",
+            "author": "FBI",
+            "title": "CU-000161-MW: Indicators of Compromise Associated with Diavol Ransomware",
+            "categories": [
+                "Diavol",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://chuongdong.com/reverse%20engineering/2021/12/17/DiavolRansomware/",
+            "date": "2021-12-17",
+            "organization": "Chuongdong blog",
+            "author": "Chuong Dong",
+            "title": "Diavol Ransomware",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://thedfirreport.com/2021/12/13/diavol-ransomware/",
+            "date": "2021-12-13",
+            "organization": "The DFIR Report",
+            "author": "The DFIR Report",
+            "title": "Diavol Ransomware",
+            "categories": [
+                "BazarBackdoor",
+                "Conti",
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/trickbot-gang-developer-arrested-when-trying-to-leave-korea/",
+            "date": "2021-09-06",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "TrickBot gang developer arrested when trying to leave Korea",
+            "categories": [
+                "Diavol",
+                "TrickBot"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/diavol-ransomware-sample-shows-stronger-connection-to-trickbot-gang/",
+            "date": "2021-08-18",
+            "organization": "Bleeping Computer",
+            "author": "Ionut Ilascu",
+            "title": "Diavol ransomware sample shows stronger connection to TrickBot gang",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://securityintelligence.com/posts/analysis-of-diavol-ransomware-link-trickbot-gang/",
+            "date": "2021-08-17",
+            "organization": "IBM X-Force Exchange",
+            "author": "Charlotte Hammond",
+            "title": "Analysis of Diavol Ransomware Reveals Possible Link to TrickBot Gang",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://heimdalsecurity.com/blog/is-diavol-ransomware-connected-to-wizard-spider/",
+            "date": "2021-07-06",
+            "organization": "Heimdal Security",
+            "author": "Dora Tudor",
+            "title": "Is Diavol Ransomware Connected to Wizard Spider?",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.binarydefense.com/threat_watch/new-ransomware-diavol-being-dropped-by-trickbot/",
+            "date": "2021-07-02",
+            "organization": "Binary Defense",
+            "author": "Garrett Thompson",
+            "title": "New Ransomware \u201cDiavol\u201d Being Dropped by Trickbot",
+            "categories": [
+                "Diavol"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/diavol-new-ransomware-used-by-wizard-spider",
+            "date": "2021-07-01",
+            "organization": "Fortinet",
+            "author": "Dor Neemani",
+            "title": "Diavol - A New Ransomware Used By Wizard Spider?",
+            "categories": [
+                "Conti",
+                "Diavol"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "diavol",
@@ -293,158 +445,6 @@ var threatdata = {
                     "technique_description": "adversaries may stop or disable services on a system to render those services unavailable to legitimate users. stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.",
                     "procedure_description": "diavol will terminate services using the service control manager (scm) api.[15]"
                 }
-            ]
-        }
-    ],
-    "file_name": "diavol",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://medium.com/walmartglobaltech/diavol-resurfaces-91dd93c7d922",
-            "date": "2022-09-30",
-            "organization": "Medium walmartglobaltech",
-            "author": "Jason Reaves",
-            "title": "Diavol resurfaces",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://arcticwolf.com/resources/blog/karakurt-web",
-            "date": "2022-04-15",
-            "organization": "Arctic Wolf",
-            "author": "Arctic Wolf",
-            "title": "The Karakurt Web: Threat Intel and Blockchain Analysis Reveals Extension of Conti Business Model",
-            "categories": [
-                "Conti",
-                "Diavol",
-                "Ryuk",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/walmartglobaltech/diavol-the-enigma-of-ransomware-1fd78ffda648",
-            "date": "2022-03-10",
-            "organization": "Medium walmartglobaltech",
-            "author": "Jason Reaves",
-            "title": "Diavol the Enigma of Ransomware",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://www.scythe.io/library/adversary-emulation-diavol-ransomware-threatthursday",
-            "date": "2022-01-27",
-            "organization": "SCYTHE",
-            "author": "Nathali Cano",
-            "title": "Adversary Emulation Diavol Ransomware #ThreatThursday",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/fbi-links-diavol-ransomware-to-the-trickbot-cybercrime-group/",
-            "date": "2022-01-20",
-            "organization": "BleepingComputer",
-            "author": "Lawrence Abrams",
-            "title": "FBI links Diavol ransomware to the TrickBot cybercrime group",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://www.ic3.gov/Media/News/2022/220120.pdf",
-            "date": "2022-01-19",
-            "organization": "FBI",
-            "author": "FBI",
-            "title": "CU-000161-MW: Indicators of Compromise Associated with Diavol Ransomware",
-            "categories": [
-                "Diavol",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://chuongdong.com/reverse%20engineering/2021/12/17/DiavolRansomware/",
-            "date": "2021-12-17",
-            "organization": "Chuongdong blog",
-            "author": "Chuong Dong",
-            "title": "Diavol Ransomware",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://thedfirreport.com/2021/12/13/diavol-ransomware/",
-            "date": "2021-12-13",
-            "organization": "The DFIR Report",
-            "author": "The DFIR Report",
-            "title": "Diavol Ransomware",
-            "categories": [
-                "BazarBackdoor",
-                "Conti",
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/trickbot-gang-developer-arrested-when-trying-to-leave-korea/",
-            "date": "2021-09-06",
-            "organization": "Bleeping Computer",
-            "author": "Lawrence Abrams",
-            "title": "TrickBot gang developer arrested when trying to leave Korea",
-            "categories": [
-                "Diavol",
-                "TrickBot"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/diavol-ransomware-sample-shows-stronger-connection-to-trickbot-gang/",
-            "date": "2021-08-18",
-            "organization": "Bleeping Computer",
-            "author": "Ionut Ilascu",
-            "title": "Diavol ransomware sample shows stronger connection to TrickBot gang",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://securityintelligence.com/posts/analysis-of-diavol-ransomware-link-trickbot-gang/",
-            "date": "2021-08-17",
-            "organization": "IBM X-Force Exchange",
-            "author": "Charlotte Hammond",
-            "title": "Analysis of Diavol Ransomware Reveals Possible Link to TrickBot Gang",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://heimdalsecurity.com/blog/is-diavol-ransomware-connected-to-wizard-spider/",
-            "date": "2021-07-06",
-            "organization": "Heimdal Security",
-            "author": "Dora Tudor",
-            "title": "Is Diavol Ransomware Connected to Wizard Spider?",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://www.binarydefense.com/threat_watch/new-ransomware-diavol-being-dropped-by-trickbot/",
-            "date": "2021-07-02",
-            "organization": "Binary Defense",
-            "author": "Garrett Thompson",
-            "title": "New Ransomware \u201cDiavol\u201d Being Dropped by Trickbot",
-            "categories": [
-                "Diavol"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/diavol-new-ransomware-used-by-wizard-spider",
-            "date": "2021-07-01",
-            "organization": "Fortinet",
-            "author": "Dor Neemani",
-            "title": "Diavol - A New Ransomware Used By Wizard Spider?",
-            "categories": [
-                "Conti",
-                "Diavol"
             ]
         }
     ]

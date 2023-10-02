@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "flipside",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "flipside",
@@ -46,8 +49,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "flipside",
-    "analysis": null,
-    "articles": []
+    ]
 };

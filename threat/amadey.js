@@ -39,55 +39,67 @@ var threatdata = {
             "malware_printable": "Amadey",
             "malware_alias": null,
             "malware": "win.amadey",
-            "last_update": "2023-09-26 13:36:13",
+            "last_update": "2023-10-02 06:36:13",
             "tags": [
-                "Amdey",
-                "exe",
-                "fastflux",
-                "C2",
-                "Amadey",
-                "ClearFake",
-                "Botnet",
+                "ViaPrivateLoader",
                 "c2",
                 "viaSmokeLoader",
-                "C2Panel",
-                "opendir",
-                "ViaPrivateLoader",
-                "botnet",
-                "currentandold",
-                "historical",
-                "triage",
-                "Loader",
-                "amadey",
-                "connector",
                 "ViriBack",
-                "panel"
+                "fastflux",
+                "amadey",
+                "opendir",
+                "Amdey",
+                "currentandold",
+                "Amadey",
+                "C2",
+                "Loader",
+                "triage",
+                "panel",
+                "historical",
+                "botnet",
+                "C2Panel",
+                "exe",
+                "connector",
+                "Botnet",
+                "ClearFake"
             ],
             "ioc": {
                 "ip:port": [
                     {
+                        "value": "77.91.124.1:80",
+                        "timestamp": "2023-10-02 06:36:02"
+                    },
+                    {
+                        "value": "193.42.32.29:80",
+                        "timestamp": "2023-10-02 06:36:03"
+                    },
+                    {
+                        "value": "95.141.41.12:80",
+                        "timestamp": "2023-10-02 06:36:04"
+                    },
+                    {
                         "value": "77.91.68.52:80",
-                        "timestamp": "2023-09-26 13:36:12"
+                        "timestamp": "2023-10-02 06:36:12"
                     },
                     {
                         "value": "176.113.115.81:80",
-                        "timestamp": "2023-09-26 13:36:05"
+                        "timestamp": "2023-10-02 06:36:07"
                     },
                     {
                         "value": "5.42.64.45:80",
-                        "timestamp": "2023-09-26 13:36:06"
+                        "timestamp": "2023-10-02 06:36:07"
                     },
                     {
                         "value": "77.91.68.78:80",
-                        "timestamp": "2023-09-26 13:36:13"
+                        "timestamp": "2023-10-02 06:36:13"
                     },
                     {
                         "value": "79.110.62.80:80",
-                        "timestamp": "2023-09-26 13:36:13"
+                        "timestamp": "2023-10-01 23:48:13"
                     },
                     {
                         "value": "5.42.64.33:80",
-                        "timestamp": "2023-09-26 13:36:13"
+                        "timestamp": "2023-09-28 23:48:13"
                     },
                     {
                         "value": "77.91.68.18:80",
@@ -226,10 +238,6 @@ var threatdata = {
                         "timestamp": "2023-04-26 18:35:54"
                     },
                     {
-                        "value": "77.91.78.17:80",
-                        "timestamp": "2023-04-26 18:35:54"
-                    },
-                    {
                         "value": "185.215.113.114:80",
                         "timestamp": "2023-04-26 18:35:54"
                     },
@@ -243,10 +251,6 @@ var threatdata = {
                     },
                     {
                         "value": "193.106.191.201:80",
-                        "timestamp": "2023-04-26 18:35:53"
-                    },
-                    {
-                        "value": "80.66.79.86:80",
                         "timestamp": "2023-04-26 18:35:53"
                     },
                     {
@@ -447,11 +451,7 @@ var threatdata = {
                     },
                     {
                         "value": "185.215.113.35:80",
-                        "timestamp": "2023-09-26 13:36:09"
-                    },
-                    {
-                        "value": "80.94.92.35:80",
-                        "timestamp": "2023-04-26 18:35:47"
+                        "timestamp": "2023-10-02 06:36:10"
                     },
                     {
                         "value": "155.94.128.40:80",
@@ -515,10 +515,6 @@ var threatdata = {
                     },
                     {
                         "value": "193.201.9.43:80",
-                        "timestamp": "2023-05-10 23:48:13"
-                    },
-                    {
-                        "value": "80.66.79.86:80",
                         "timestamp": "2023-05-10 23:48:13"
                     },
                     {
@@ -590,10 +586,6 @@ var threatdata = {
                         "timestamp": "2023-04-26 18:35:49"
                     },
                     {
-                        "value": "77.91.78.17:80",
-                        "timestamp": "2023-04-06 23:48:23"
-                    },
-                    {
                         "value": "193.56.146.218:80",
                         "timestamp": "2023-04-26 18:35:48"
                     },
@@ -660,10 +652,6 @@ var threatdata = {
                     {
                         "value": "185.174.137.152:80",
                         "timestamp": "2023-04-26 18:35:51"
-                    },
-                    {
-                        "value": "80.94.92.35:80",
-                        "timestamp": "2023-02-24 23:48:19"
                     },
                     {
                         "value": "62.204.41.89:80",
@@ -831,6 +819,18 @@ var threatdata = {
                     }
                 ],
                 "url": [
+                    {
+                        "value": "http://77.91.124.1/theme/index.php",
+                        "timestamp": "2023-09-29 18:05:09"
+                    },
+                    {
+                        "value": "http://193.42.32.29/9bDc8sQ/index.php",
+                        "timestamp": "2023-09-29 07:09:53"
+                    },
+                    {
+                        "value": "http://95.141.41.12/n9kd3X/index.php",
+                        "timestamp": "2023-09-28 04:00:22"
+                    },
                     {
                         "value": "http://fesportal.com/forum/index.php",
                         "timestamp": "2023-09-22 11:45:19"
@@ -1108,28 +1108,12 @@ var threatdata = {
                         "timestamp": "2023-09-10 20:13:56"
                     },
                     {
-                        "value": "http://soul-kissed.org/fjgD555c3/index.php",
-                        "timestamp": "2023-06-08 22:27:32"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/index.php",
-                        "timestamp": "2023-06-08 22:27:28"
-                    },
-                    {
                         "value": "http://5.42.65.80/8bmeVwqx/Login.php",
                         "timestamp": "2023-09-10 20:14:32"
                     },
                     {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-06-08 22:26:25"
-                    },
-                    {
                         "value": "http://77.91.68.30/music/rock/Login.php",
                         "timestamp": "2023-08-03 19:52:18"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-06-08 22:26:20"
                     },
                     {
                         "value": "http://77.91.68.30/music/rock/index.php",
@@ -1140,20 +1124,12 @@ var threatdata = {
                         "timestamp": "2023-09-10 20:14:02"
                     },
                     {
-                        "value": "http://antispam-screen.com/fjgD555c3/index.php",
-                        "timestamp": "2023-06-01 21:00:13"
-                    },
-                    {
                         "value": "http://213.226.123.14/jd93d22Cb1/index.php",
                         "timestamp": "2023-09-10 20:14:00"
                     },
                     {
                         "value": "http://179.43.154.148/fjgD555c3/index.php",
                         "timestamp": "2023-09-10 20:13:58"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/index.php",
-                        "timestamp": "2023-06-01 21:00:04"
                     },
                     {
                         "value": "http://80.94.92.35/g9TTnd3bS/index.php",
@@ -1166,14 +1142,6 @@ var threatdata = {
                     {
                         "value": "http://78.47.9.120/so57Nst/Login.php",
                         "timestamp": "2023-06-08 22:26:23"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-06-01 20:59:01"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-06-01 20:58:59"
                     },
                     {
                         "value": "http://77.91.68.62/wings/game/Login.php",
@@ -1196,20 +1164,12 @@ var threatdata = {
                         "timestamp": "2023-08-03 19:52:59"
                     },
                     {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-19 11:09:05"
-                    },
-                    {
                         "value": "http://95.214.26.53/J84hHFuefh2/Login.php",
                         "timestamp": "2023-08-03 19:52:12"
                     },
                     {
                         "value": "http://95.214.27.98/cronus/Login.php",
                         "timestamp": "2023-06-29 18:16:21"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-19 11:08:57"
                     },
                     {
                         "value": "http://95.214.26.53/J84hHFuefh2/index.php",
@@ -1232,14 +1192,6 @@ var threatdata = {
                         "timestamp": "2023-05-25 23:45:33"
                     },
                     {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-11 04:32:55"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-11 04:32:54"
-                    },
-                    {
                         "value": "http://77.91.124.20/store/games/Login.php",
                         "timestamp": "2023-08-03 19:52:21"
                     },
@@ -1252,34 +1204,6 @@ var threatdata = {
                         "timestamp": "2023-05-07 08:15:45"
                     },
                     {
-                        "value": "http://eu.xml-post.xyz/d2VxjasuwS/Login.php",
-                        "timestamp": "2023-05-06 04:23:06"
-                    },
-                    {
-                        "value": "http://cdn12-web-security.com/gf4EdsW/Login.php",
-                        "timestamp": "2023-05-06 04:22:55"
-                    },
-                    {
-                        "value": "http://en.xml-post.xyz/xC0m3/Login.php",
-                        "timestamp": "2023-05-06 04:22:54"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-06 04:22:51"
-                    },
-                    {
-                        "value": "http://x-vpn.ug/hfV3vDtt/Login.php",
-                        "timestamp": "2023-05-06 04:22:49"
-                    },
-                    {
-                        "value": "http://tech-unions.com/f6vskbW/Login.php",
-                        "timestamp": "2023-05-06 04:22:46"
-                    },
-                    {
-                        "value": "http://heso-vpn.ug/k8FppT/Login.php",
-                        "timestamp": "2023-05-06 04:22:43"
-                    },
-                    {
                         "value": "http://chinataiw39e9i9ds.com/ve83dkas2m/Login.php",
                         "timestamp": "2023-05-06 04:22:32"
                     },
@@ -1288,20 +1212,8 @@ var threatdata = {
                         "timestamp": "2023-05-06 04:22:26"
                     },
                     {
-                        "value": "http://victory-collections.top/d2VxjasuwS/Login.php",
-                        "timestamp": "2023-05-06 04:22:24"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-06 04:22:03"
-                    },
-                    {
                         "value": "http://193.233.20.4/t6r48nSa/Login.php",
                         "timestamp": "2023-05-06 04:22:37"
-                    },
-                    {
-                        "value": "http://en.xml-post.xyz/xC0m3/Login.php",
-                        "timestamp": "2023-05-06 04:22:01"
                     },
                     {
                         "value": "http://185.215.113.42/f83jd823S/Login.php",
@@ -1390,10 +1302,6 @@ var threatdata = {
                     {
                         "value": "http://185.73.39.231/g8kdkeXs2qL/Login.php",
                         "timestamp": "2023-05-06 04:22:17"
-                    },
-                    {
-                        "value": "http://eu.xml-post.xyz/d2VxjasuwS/Login.php",
-                        "timestamp": "2023-05-06 04:21:41"
                     },
                     {
                         "value": "http://haleyqueenffff.xyz/Hq13V2W/Login.php",
@@ -1552,10 +1460,6 @@ var threatdata = {
                         "timestamp": "2023-05-06 04:22:56"
                     },
                     {
-                        "value": "http://tech-unions.com/f6vskbW/Login.php",
-                        "timestamp": "2023-05-06 04:21:07"
-                    },
-                    {
                         "value": "http://179.43.154.147/d2VxjasuwS/Login.php",
                         "timestamp": "2023-05-06 04:23:05"
                     },
@@ -1574,14 +1478,6 @@ var threatdata = {
                     {
                         "value": "http://194.58.103.2/main/Login.php",
                         "timestamp": "2023-05-06 04:23:09"
-                    },
-                    {
-                        "value": "http://x-vpn.ug/hfV3vDtt/Login.php",
-                        "timestamp": "2023-05-06 04:21:01"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-06 04:21:01"
                     },
                     {
                         "value": "http://194.36.177.12/rkv4Pqi/Login.php",
@@ -1716,20 +1612,12 @@ var threatdata = {
                         "timestamp": "2023-05-06 04:22:32"
                     },
                     {
-                        "value": "http://heso-vpn.ug/k8FppT/Login.php",
-                        "timestamp": "2023-05-06 04:20:29"
-                    },
-                    {
                         "value": "http://45.155.205.172/4dcYcWsw3/Login.php",
                         "timestamp": "2023-05-06 04:22:28"
                     },
                     {
                         "value": "http://guideanceers.com/g93kdm3SaQ/Login.php",
                         "timestamp": "2023-05-06 04:22:23"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-06 04:20:24"
                     },
                     {
                         "value": "http://78.153.144.60/v3S1dl2/Login.php",
@@ -1880,10 +1768,6 @@ var threatdata = {
                         "timestamp": "2023-05-06 04:22:41"
                     },
                     {
-                        "value": "http://victory-collections.top/d2VxjasuwS/Login.php",
-                        "timestamp": "2023-05-06 04:19:36"
-                    },
-                    {
                         "value": "http://94.140.115.230/construction/Login.php",
                         "timestamp": "2023-05-06 04:23:02"
                     },
@@ -1934,10 +1818,6 @@ var threatdata = {
                     {
                         "value": "http://umbrelladownload.uno/gp6GbqVce/Login.php",
                         "timestamp": "2023-05-06 04:22:48"
-                    },
-                    {
-                        "value": "http://cdn12-web-security.com/gf4EdsW/Login.php",
-                        "timestamp": "2023-05-06 04:19:26"
                     },
                     {
                         "value": "http://62.204.41.109/Nmkn5d9Dn/Login.php",
@@ -2080,10 +1960,6 @@ var threatdata = {
                         "timestamp": "2023-05-25 23:45:33"
                     },
                     {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-06 04:08:21"
-                    },
-                    {
                         "value": "http://tadogem.com/dF30Hn4m/Login.php",
                         "timestamp": "2023-05-25 23:45:34"
                     },
@@ -2094,10 +1970,6 @@ var threatdata = {
                     {
                         "value": "http://myserveur855.cc/8bmeVwqx/Login.php",
                         "timestamp": "2023-06-08 22:26:25"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-06 04:08:13"
                     },
                     {
                         "value": "http://79.137.203.59/3nbslScQ/index.php",
@@ -2128,16 +2000,8 @@ var threatdata = {
                         "timestamp": "2023-05-06 04:22:19"
                     },
                     {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-04-21 00:20:58"
-                    },
-                    {
                         "value": "http://212.113.119.255/joomla/Login.php",
                         "timestamp": "2023-05-18 14:44:05"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-04-21 00:20:55"
                     },
                     {
                         "value": "http://specialblue.pm/dF30Hn4m/index.php",
@@ -2150,14 +2014,6 @@ var threatdata = {
                     {
                         "value": "http://77.91.78.118/u83mfdS2/index.php",
                         "timestamp": "2023-06-01 20:59:59"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-04-15 07:02:10"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-04-15 07:02:08"
                     },
                     {
                         "value": "http://213.226.123.14/jd93d22Cb1/Login.php",
@@ -2176,16 +2032,8 @@ var threatdata = {
                         "timestamp": "2023-09-10 20:14:30"
                     },
                     {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-04-13 23:30:37"
-                    },
-                    {
                         "value": "http://45.15.156.208/jd9dd3Vw/Login.php",
                         "timestamp": "2023-09-10 20:14:31"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/Login.php",
-                        "timestamp": "2023-04-13 23:30:35"
                     },
                     {
                         "value": "http://45.15.156.208/jd9dd3Vw/index.php",
@@ -2198,10 +2046,6 @@ var threatdata = {
                     {
                         "value": "http://ama.hostiko.com.ug/n9kdjc3xSf/index.php",
                         "timestamp": "2023-05-06 04:22:51"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-04-12 11:06:08"
                     },
                     {
                         "value": "http://88.218.60.230/Gb2dZz/Login.php",
@@ -2254,10 +2098,6 @@ var threatdata = {
                     {
                         "value": "http://77.91.78.118/u83mfdS2/Login.php",
                         "timestamp": "2023-06-01 20:58:56"
-                    },
-                    {
-                        "value": "http://soul-kissed.org/fjgD555c3/Login.php",
-                        "timestamp": "2023-05-25 23:45:35"
                     },
                     {
                         "value": "http://msupgrade.top/0bjdn2Z/Login.php",
@@ -3092,16 +2932,8 @@ var threatdata = {
                         "timestamp": "2022-06-16 04:17:43"
                     },
                     {
-                        "value": "http://soul-kissed.org/fjgD555c3/index.php",
-                        "timestamp": "2022-06-15 18:02:28"
-                    },
-                    {
                         "value": "http://rupeika.info/fjgD555c3/index.php",
                         "timestamp": "2023-06-08 22:27:29"
-                    },
-                    {
-                        "value": "http://antispam-screen.com/fjgD555c3/index.php",
-                        "timestamp": "2022-06-15 18:02:25"
                     },
                     {
                         "value": "http://systemupdate22.cf/d2VxjasuwS/index.php",
@@ -3487,7 +3319,7 @@ var threatdata = {
                 "domain": [
                     {
                         "value": "xyl.lat",
-                        "timestamp": "2023-09-26 13:36:11"
+                        "timestamp": "2023-10-02 06:36:11"
                     },
                     {
                         "value": "smz.sh",
@@ -3612,10 +3444,6 @@ var threatdata = {
                     {
                         "value": "tech-unions.com",
                         "timestamp": "2023-04-26 18:30:04"
-                    },
-                    {
-                        "value": "soul-kissed.org",
-                        "timestamp": "2023-04-26 18:30:03"
                     },
                     {
                         "value": "heso-vpn.ug",
@@ -3772,10 +3600,6 @@ var threatdata = {
                     {
                         "value": "rupeika.info",
                         "timestamp": "2023-05-22 23:48:13"
-                    },
-                    {
-                        "value": "soul-kissed.org",
-                        "timestamp": "2023-05-22 23:48:12"
                     },
                     {
                         "value": "myserveur855.cc",
@@ -5581,233 +5405,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-26 13:36:13",
-    "mitre": [
-        {
-            "procedure_name": "amadey",
-            "procedure_code": "s1025",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S1025",
-            "techniques": [
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1106",
-                    "technique_link": "https://attack.mitre.org/techniques/T1106",
-                    "technique_name": "native api",
-                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
-                    "procedure_description": "amadey has used a variety of windows api calls, including getcomputernamea, getusernamea, and createprocessa.[16]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "amadey has changed the startup folder to the one containing its executable by overwriting the registry keys.[10][11]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "amadey has changed the startup folder to the one containing its executable by overwriting the registry keys.[10][11]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1140",
-                    "technique_link": "https://attack.mitre.org/techniques/T1140",
-                    "technique_name": "deobfuscate/decode files or information",
-                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
-                    "procedure_description": "amadey has decoded antivirus name strings.[7]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1112",
-                    "technique_link": "https://attack.mitre.org/techniques/T1112",
-                    "technique_name": "modify registry",
-                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
-                    "procedure_description": "amadey has overwritten registry keys for persistence.[9]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "amadey has obfuscated strings such as antivirus vendor names, domains, files, and others.[13]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1553.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1553/005",
-                    "technique_name": "subvert trust controls : mark-of-the-web bypass",
-                    "technique_description": "adversaries may abuse specific file formats to subvert mark-of-the-web (motw) controls. in windows, when files are downloaded from the internet, they are tagged with a hidden ntfs alternate data stream (ads) named zone.identifier with a specific value known as the motw. files that are tagged with motw are protected and cannot perform certain actions. for example, starting in ms office 10, if a ms office file has the motw, it will open in protected view. executables tagged with the motw will be processed by windows defender smartscreen that compares files with an allowlist of well-known executables. if the file is not known/trusted, smartscreen will prevent the execution and warn the user not to run it.",
-                    "procedure_description": "amadey has modified the :zone.identifier in the ads area to zero.[5]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1083",
-                    "technique_link": "https://attack.mitre.org/techniques/T1083",
-                    "technique_name": "file and directory discovery",
-                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "amadey has searched for folders associated with antivirus software.[8]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1518.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1518/001",
-                    "technique_name": "software discovery : security software discovery",
-                    "technique_description": "adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. this may include things such as firewall rules and anti-virus. adversaries may use the information from security software discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "amadey has checked for a variety of antivirus products.[5][6]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1082",
-                    "technique_link": "https://attack.mitre.org/techniques/T1082",
-                    "technique_name": "system information discovery",
-                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "amadey has collected the computer name and os version from a compromised machine.[15][16]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1614",
-                    "technique_link": "https://attack.mitre.org/techniques/T1614",
-                    "technique_name": "system location discovery",
-                    "technique_description": "adversaries may gather information in an attempt to calculate the geographical location of a victim host. adversaries may use the information from system location discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "amadey does not run any tasks or install additional malware if the victim machine is based in russia.[7]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1016",
-                    "technique_link": "https://attack.mitre.org/techniques/T1016",
-                    "technique_name": "system network configuration discovery",
-                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
-                    "procedure_description": "amadey can identify the ip address of a victim machine.[11]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1033",
-                    "technique_link": "https://attack.mitre.org/techniques/T1033",
-                    "technique_name": "system owner/user discovery",
-                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "amadey has collected the user name from a compromised host using getusernamea.[8]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1005",
-                    "technique_name": "data from local system",
-                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
-                    "procedure_description": "amadey can collect information from a compromised host.[3]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
-                    "technique_name": "application layer protocol : web protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "amadey has used http for c2 communications.[8]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1568.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1568/001",
-                    "technique_name": "dynamic resolution : fast flux dns",
-                    "technique_description": "adversaries may use fast flux dns to hide a command and control channel behind an array of rapidly changing ip addresses linked to a single domain resolution. this technique uses a fully qualified domain name, with multiple ip addresses assigned to it which are swapped with high frequency, using a combination of round robin ip addressing and short time-to-live (ttl) for a dns resource record.",
-                    "procedure_description": "amadey has used fast flux dns for its c2.[4]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1105",
-                    "technique_link": "https://attack.mitre.org/techniques/T1105",
-                    "technique_name": "ingress tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
-                    "procedure_description": "amadey can download and execute files to further infect a host machine with additional malware.[9]"
-                },
-                {
-                    "tactic_code": "ta0010",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
-                    "tactic_name": "exfiltration",
-                    "tactic_alias": "exfiltration",
-                    "tactic_description": "The adversary is trying to steal data.",
-                    "technique_code": "t1041",
-                    "technique_link": "https://attack.mitre.org/techniques/T1041",
-                    "technique_name": "exfiltration over c2 channel",
-                    "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
-                    "procedure_description": "amadey has sent victim data to its c2 servers.[2]"
-                }
-            ]
-        }
-    ],
+    "last_ioc_update": "2023-10-02 06:36:13",
     "file_name": "amadey",
     "analysis": null,
     "articles": [
@@ -6389,6 +5987,232 @@ var threatdata = {
             "title": "Tweet on Amadey Malware",
             "categories": [
                 "Amadey"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "amadey",
+            "procedure_code": "s1025",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S1025",
+            "techniques": [
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1106",
+                    "technique_link": "https://attack.mitre.org/techniques/T1106",
+                    "technique_name": "native api",
+                    "technique_description": "adversaries may interact with the native os application programming interface (api) to execute behaviors. native apis provide a controlled means of calling low-level os services within the kernel, such as those involving hardware/devices, memory, and processes. these native apis are leveraged by the os during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.",
+                    "procedure_description": "amadey has used a variety of windows api calls, including getcomputernamea, getusernamea, and createprocessa.[16]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "amadey has changed the startup folder to the one containing its executable by overwriting the registry keys.[10][11]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "amadey has changed the startup folder to the one containing its executable by overwriting the registry keys.[10][11]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "amadey has decoded antivirus name strings.[7]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "amadey has overwritten registry keys for persistence.[9]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "amadey has obfuscated strings such as antivirus vendor names, domains, files, and others.[13]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1553.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1553/005",
+                    "technique_name": "subvert trust controls : mark-of-the-web bypass",
+                    "technique_description": "adversaries may abuse specific file formats to subvert mark-of-the-web (motw) controls. in windows, when files are downloaded from the internet, they are tagged with a hidden ntfs alternate data stream (ads) named zone.identifier with a specific value known as the motw. files that are tagged with motw are protected and cannot perform certain actions. for example, starting in ms office 10, if a ms office file has the motw, it will open in protected view. executables tagged with the motw will be processed by windows defender smartscreen that compares files with an allowlist of well-known executables. if the file is not known/trusted, smartscreen will prevent the execution and warn the user not to run it.",
+                    "procedure_description": "amadey has modified the :zone.identifier in the ads area to zero.[5]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1083",
+                    "technique_link": "https://attack.mitre.org/techniques/T1083",
+                    "technique_name": "file and directory discovery",
+                    "technique_description": "adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. adversaries may use the information from file and directory discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has searched for folders associated with antivirus software.[8]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1518.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1518/001",
+                    "technique_name": "software discovery : security software discovery",
+                    "technique_description": "adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on a system or in a cloud environment. this may include things such as firewall rules and anti-virus. adversaries may use the information from security software discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has checked for a variety of antivirus products.[5][6]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has collected the computer name and os version from a compromised machine.[15][16]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1614",
+                    "technique_link": "https://attack.mitre.org/techniques/T1614",
+                    "technique_name": "system location discovery",
+                    "technique_description": "adversaries may gather information in an attempt to calculate the geographical location of a victim host. adversaries may use the information from system location discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey does not run any tasks or install additional malware if the victim machine is based in russia.[7]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "amadey can identify the ip address of a victim machine.[11]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "amadey has collected the user name from a compromised host using getusernamea.[8]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1005",
+                    "technique_name": "data from local system",
+                    "technique_description": "adversaries may search local system sources, such as file systems and configuration files or local databases, to find files of interest and sensitive data prior to exfiltration.",
+                    "procedure_description": "amadey can collect information from a compromised host.[3]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "amadey has used http for c2 communications.[8]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1568.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1568/001",
+                    "technique_name": "dynamic resolution : fast flux dns",
+                    "technique_description": "adversaries may use fast flux dns to hide a command and control channel behind an array of rapidly changing ip addresses linked to a single domain resolution. this technique uses a fully qualified domain name, with multiple ip addresses assigned to it which are swapped with high frequency, using a combination of round robin ip addressing and short time-to-live (ttl) for a dns resource record.",
+                    "procedure_description": "amadey has used fast flux dns for its c2.[4]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "amadey can download and execute files to further infect a host machine with additional malware.[9]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1041",
+                    "technique_link": "https://attack.mitre.org/techniques/T1041",
+                    "technique_name": "exfiltration over c2 channel",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
+                    "procedure_description": "amadey has sent victim data to its c2 servers.[2]"
+                }
             ]
         }
     ]

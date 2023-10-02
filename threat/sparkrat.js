@@ -34,10 +34,10 @@ var threatdata = {
             "last_update": "2023-09-07 06:40:25",
             "tags": [
                 "APT36",
-                "TransparentTribe",
+                "RAT",
                 "APT",
-                "SparkRAT",
-                "RAT"
+                "TransparentTribe",
+                "SparkRAT"
             ],
             "ioc": {
                 "ip:port": [
@@ -86,6 +86,77 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-07 06:40:25",
+    "file_name": "sparkrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/ko/56715/",
+            "date": "2023-09-05",
+            "organization": "AhnLab",
+            "author": "Sanseo",
+            "title": "BlueShell malware used in APT attacks targeting Korea and Thailand",
+            "categories": [
+                "BlueShell",
+                "SparkRAT"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/en/52899/",
+            "date": "2023-05-18",
+            "organization": "AhnLab",
+            "author": "ASEC",
+            "title": "SparkRAT Being Distributed Within a Korean VPN Installer",
+            "categories": [
+                "SparkRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.exatrack.com/melofee/",
+            "date": "2023-03-28",
+            "organization": "ExaTrack",
+            "author": "ExaTrack",
+            "title": "M\u00e9lof\u00e9e: a new alien malware in the Panda's toolset targeting Linux hosts",
+            "categories": [
+                "HelloBot",
+                "Melofee",
+                "Winnti",
+                "Cobalt Strike",
+                "SparkRAT",
+                "STOWAWAY"
+            ]
+        },
+        {
+            "data_url": "https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation/",
+            "date": "2023-01-24",
+            "organization": "SentinelOne",
+            "author": "Aleksandar Milenkoski",
+            "title": "DragonSpark | Attacks Evade Detection with SparkRAT and Golang Source Code Interpretation",
+            "categories": [
+                "SparkRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.microsoft.com/en-us/security/blog/2022/12/21/microsoft-research-uncovers-new-zerobot-capabilities/",
+            "date": "2022-12-21",
+            "organization": "Microsoft",
+            "author": "Microsoft Security Threat Intelligence",
+            "title": "Microsoft research uncovers new Zerobot capabilities",
+            "categories": [
+                "ZeroBot",
+                "SparkRAT"
+            ]
+        },
+        {
+            "data_url": "https://github.com/XZB-1248/Spark",
+            "date": "2022-03-16",
+            "organization": "Github (XZB-1248)",
+            "author": "XZB-1248",
+            "title": "Github Repository for Spark RAT",
+            "categories": [
+                "SparkRAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "spark",
@@ -269,77 +340,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sparkrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://asec.ahnlab.com/ko/56715/",
-            "date": "2023-09-05",
-            "organization": "AhnLab",
-            "author": "Sanseo",
-            "title": "BlueShell malware used in APT attacks targeting Korea and Thailand",
-            "categories": [
-                "BlueShell",
-                "SparkRAT"
-            ]
-        },
-        {
-            "data_url": "https://asec.ahnlab.com/en/52899/",
-            "date": "2023-05-18",
-            "organization": "AhnLab",
-            "author": "ASEC",
-            "title": "SparkRAT Being Distributed Within a Korean VPN Installer",
-            "categories": [
-                "SparkRAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.exatrack.com/melofee/",
-            "date": "2023-03-28",
-            "organization": "ExaTrack",
-            "author": "ExaTrack",
-            "title": "M\u00e9lof\u00e9e: a new alien malware in the Panda's toolset targeting Linux hosts",
-            "categories": [
-                "HelloBot",
-                "Melofee",
-                "Winnti",
-                "Cobalt Strike",
-                "SparkRAT",
-                "STOWAWAY"
-            ]
-        },
-        {
-            "data_url": "https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation/",
-            "date": "2023-01-24",
-            "organization": "SentinelOne",
-            "author": "Aleksandar Milenkoski",
-            "title": "DragonSpark | Attacks Evade Detection with SparkRAT and Golang Source Code Interpretation",
-            "categories": [
-                "SparkRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.microsoft.com/en-us/security/blog/2022/12/21/microsoft-research-uncovers-new-zerobot-capabilities/",
-            "date": "2022-12-21",
-            "organization": "Microsoft",
-            "author": "Microsoft Security Threat Intelligence",
-            "title": "Microsoft research uncovers new Zerobot capabilities",
-            "categories": [
-                "ZeroBot",
-                "SparkRAT"
-            ]
-        },
-        {
-            "data_url": "https://github.com/XZB-1248/Spark",
-            "date": "2022-03-16",
-            "organization": "Github (XZB-1248)",
-            "author": "XZB-1248",
-            "title": "Github Repository for Spark RAT",
-            "categories": [
-                "SparkRAT"
             ]
         }
     ]

@@ -39,6 +39,100 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ebury",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://csirt.gov.it/data/cms/posts/582/attachments/66ca2e9a-68cd-4df5-81a2-674c31a699c2/download",
+            "date": "2021-04-21",
+            "organization": "CSIRT Italia",
+            "author": "CSIRT Italia",
+            "title": "Windigo footprints: an Ebury variant",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://security.web.cern.ch/security/advisories/windigo/windigo.shtml",
+            "date": "2019-06-04",
+            "organization": "CERN",
+            "author": "CERN Computer Security",
+            "title": "Advisory: Windigo attacks",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2018/12/05/dark-side-of-the-forsshe/",
+            "date": "2018-12-05",
+            "organization": "ESET Research",
+            "author": "Marc-Etienne M.L\u00e9veill\u00e9",
+            "title": "The Dark Side of the ForSSHe",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/12/ESET-The_Dark_Side_of_the_ForSSHe.pdf",
+            "date": "2018-12-01",
+            "organization": "ESET Research",
+            "author": "Romain Dumont",
+            "title": "THE DARK SIDE OF THE FORSSHE: A landscape of OpenSSH backdoors",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2017/10/30/windigo-ebury-update-2/",
+            "date": "2017-10-30",
+            "organization": "ESET Research",
+            "author": "Fr\u00e9d\u00e9ric Vachon",
+            "title": "Windigo Still not Windigone: An Ebury Update",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://www.justice.gov/opa/pr/russian-citizen-pleads-guilty-involvement-global-botnet-conspiracy",
+            "date": "2017-03-28",
+            "organization": "Department of Justice",
+            "author": "Office of Public Affairs",
+            "title": "Russian Citizen Pleads Guilty for Involvement in Global Botnet Conspiracy",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2014/10/15/operation-windigo-good-job-eset-says-malware-author/",
+            "date": "2014-10-15",
+            "organization": "ESET Research",
+            "author": "Olivier Bilodeau",
+            "title": "Operation Windigo: \u201cGood job, ESET!\u201d says malware author",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2014/03/operation_windigo.pdf",
+            "date": "2014-03",
+            "organization": "ESET Research",
+            "author": "Olivier Bilodeau",
+            "title": "OPERATION WINDIGO",
+            "categories": [
+                "Ebury"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/",
+            "date": "2014-02-21",
+            "organization": "ESET Research",
+            "author": "Marc-Etienne M.L\u00e9veill\u00e9",
+            "title": "An In\u2011depth Analysis of Linux/Ebury",
+            "categories": [
+                "Ebury"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "ebury",
@@ -358,100 +452,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "ebury can exfiltrate ssh credentials through custom dns queries.[39]"
                 }
-            ]
-        }
-    ],
-    "file_name": "ebury",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://csirt.gov.it/data/cms/posts/582/attachments/66ca2e9a-68cd-4df5-81a2-674c31a699c2/download",
-            "date": "2021-04-21",
-            "organization": "CSIRT Italia",
-            "author": "CSIRT Italia",
-            "title": "Windigo footprints: an Ebury variant",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://security.web.cern.ch/security/advisories/windigo/windigo.shtml",
-            "date": "2019-06-04",
-            "organization": "CERN",
-            "author": "CERN Computer Security",
-            "title": "Advisory: Windigo attacks",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2018/12/05/dark-side-of-the-forsshe/",
-            "date": "2018-12-05",
-            "organization": "ESET Research",
-            "author": "Marc-Etienne M.L\u00e9veill\u00e9",
-            "title": "The Dark Side of the ForSSHe",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2018/12/ESET-The_Dark_Side_of_the_ForSSHe.pdf",
-            "date": "2018-12-01",
-            "organization": "ESET Research",
-            "author": "Romain Dumont",
-            "title": "THE DARK SIDE OF THE FORSSHE: A landscape of OpenSSH backdoors",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2017/10/30/windigo-ebury-update-2/",
-            "date": "2017-10-30",
-            "organization": "ESET Research",
-            "author": "Fr\u00e9d\u00e9ric Vachon",
-            "title": "Windigo Still not Windigone: An Ebury Update",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://www.justice.gov/opa/pr/russian-citizen-pleads-guilty-involvement-global-botnet-conspiracy",
-            "date": "2017-03-28",
-            "organization": "Department of Justice",
-            "author": "Office of Public Affairs",
-            "title": "Russian Citizen Pleads Guilty for Involvement in Global Botnet Conspiracy",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2014/10/15/operation-windigo-good-job-eset-says-malware-author/",
-            "date": "2014-10-15",
-            "organization": "ESET Research",
-            "author": "Olivier Bilodeau",
-            "title": "Operation Windigo: \u201cGood job, ESET!\u201d says malware author",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/wp-content/uploads/2014/03/operation_windigo.pdf",
-            "date": "2014-03",
-            "organization": "ESET Research",
-            "author": "Olivier Bilodeau",
-            "title": "OPERATION WINDIGO",
-            "categories": [
-                "Ebury"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury/",
-            "date": "2014-02-21",
-            "organization": "ESET Research",
-            "author": "Marc-Etienne M.L\u00e9veill\u00e9",
-            "title": "An In\u2011depth Analysis of Linux/Ebury",
-            "categories": [
-                "Ebury"
             ]
         }
     ]

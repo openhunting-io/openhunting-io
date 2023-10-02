@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "murkytop",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "murkytop",
@@ -175,8 +178,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "murkytop",
-    "analysis": null,
-    "articles": []
+    ]
 };

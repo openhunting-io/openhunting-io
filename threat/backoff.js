@@ -38,7 +38,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "backoff",
     "analysis": null,
     "articles": [
@@ -52,5 +51,6 @@ var threatdata = {
                 "Backoff POS"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

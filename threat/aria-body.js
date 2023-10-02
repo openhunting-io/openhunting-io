@@ -39,6 +39,53 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "aria-body",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://medium.com/insomniacs/aria-body-loader-is-that-you-53bdd630f8a1",
+            "date": "2021-09-29",
+            "organization": "Medium BlueMonkey",
+            "author": "BlueMonkey",
+            "title": "Aria-Body Loader? Is that you?",
+            "categories": [
+                "Aria-body"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/it-threat-evolution-q2-2020/98230",
+            "date": "2020-09-03",
+            "organization": "Kaspersky Labs",
+            "author": "David Emm",
+            "title": "IT threat evolution Q2 2020",
+            "categories": [
+                "PhantomLance",
+                "Aria-body",
+                "COMpfun",
+                "Vicious Panda"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/naikons-aria/96899/",
+            "date": "2020-05-08",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Naikon\u2019s Aria",
+            "categories": [
+                "Aria-body"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/",
+            "date": "2020-05-07",
+            "organization": "Checkpoint",
+            "author": "Check Point Research",
+            "title": "Naikon APT: Cyber Espionage Reloaded",
+            "categories": [
+                "Aria-body"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "aria-body",
@@ -370,53 +417,6 @@ var threatdata = {
                     "technique_description": "adversaries may use a connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. many tools exist that enable traffic redirection through proxies or port redirection, including htran, zxproxy, and zxportmap.  adversaries use these types of proxies to manage command and control communications, reduce the number of simultaneous outbound network connections, provide resiliency in the face of connection loss, or to ride over existing trusted communications paths between victims to avoid suspicion. adversaries may chain together multiple proxies to further disguise the source of malicious traffic.",
                     "procedure_description": "aria-body has the ability to use a reverse socks proxy module.[3]"
                 }
-            ]
-        }
-    ],
-    "file_name": "aria-body",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://medium.com/insomniacs/aria-body-loader-is-that-you-53bdd630f8a1",
-            "date": "2021-09-29",
-            "organization": "Medium BlueMonkey",
-            "author": "BlueMonkey",
-            "title": "Aria-Body Loader? Is that you?",
-            "categories": [
-                "Aria-body"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/it-threat-evolution-q2-2020/98230",
-            "date": "2020-09-03",
-            "organization": "Kaspersky Labs",
-            "author": "David Emm",
-            "title": "IT threat evolution Q2 2020",
-            "categories": [
-                "PhantomLance",
-                "Aria-body",
-                "COMpfun",
-                "Vicious Panda"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/naikons-aria/96899/",
-            "date": "2020-05-08",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Naikon\u2019s Aria",
-            "categories": [
-                "Aria-body"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/",
-            "date": "2020-05-07",
-            "organization": "Checkpoint",
-            "author": "Check Point Research",
-            "title": "Naikon APT: Cyber Espionage Reloaded",
-            "categories": [
-                "Aria-body"
             ]
         }
     ]

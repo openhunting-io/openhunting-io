@@ -79,7 +79,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-03-29 11:30:30",
-    "mitre": [],
     "file_name": "medusalocker",
     "analysis": null,
     "articles": [
@@ -551,5 +550,6 @@ var threatdata = {
                 "MedusaLocker"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

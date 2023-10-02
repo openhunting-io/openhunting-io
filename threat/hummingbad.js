@@ -33,7 +33,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "hummingbad",
     "analysis": null,
     "articles": [
@@ -47,5 +46,6 @@ var threatdata = {
                 "HummingBad"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

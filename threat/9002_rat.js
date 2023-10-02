@@ -67,6 +67,293 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "9002_rat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.morphisec.com/in2al5d-p3in4er",
+            "date": "2023-04-18",
+            "organization": "Morphisec",
+            "author": "Arnold Osipov",
+            "title": "What Makes Invalid Printer Loader So Stealthy?",
+            "categories": [
+                "Aurora"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-04-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q1 2023",
+            "categories": [
+                "FluBot",
+                "Amadey",
+                "AsyncRAT",
+                "Aurora",
+                "Ave Maria",
+                "BumbleBee",
+                "Cobalt Strike",
+                "DCRat",
+                "Emotet",
+                "IcedID",
+                "ISFB",
+                "NjRAT",
+                "QakBot",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats",
+            "date": "2022-09-15",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Webworm: Espionage Attackers Testing and Using Older Modified RATs",
+            "categories": [
+                "9002 RAT",
+                "Ghost RAT",
+                "Trochilus RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-union",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE UNION",
+            "categories": [
+                "9002 RAT",
+                "CHINACHOPPER",
+                "Enfal",
+                "Ghost RAT",
+                "HttpBrowser",
+                "HyperBro",
+                "owaauth",
+                "PlugX",
+                "Poison Ivy",
+                "ZXShell",
+                "APT27"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE FIRESTONE",
+            "categories": [
+                "9002 RAT",
+                "Derusbi",
+                "Empire Downloader",
+                "PlugX",
+                "Poison Ivy",
+                "APT19"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-keystone",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE KEYSTONE",
+            "categories": [
+                "9002 RAT",
+                "BLACKCOFFEE",
+                "DeputyDog",
+                "Derusbi",
+                "HiKit",
+                "PlugX",
+                "Poison Ivy",
+                "ZXShell",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-express",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE EXPRESS",
+            "categories": [
+                "9002 RAT",
+                "CHINACHOPPER",
+                "IsSpace",
+                "NewCT",
+                "PlugX",
+                "smac",
+                "APT26"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/ransomware/decryptor/how-to-decrypt-the-aurora-ransomware-with-auroradecrypter/",
+            "date": "2019-01-04",
+            "organization": "Bleeping Computer",
+            "author": "Lawrence Abrams",
+            "title": "How to Decrypt the Aurora Ransomware with AuroraDecrypter",
+            "categories": [
+                "Aurora"
+            ]
+        },
+        {
+            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/supply-chain-attack-operation-red-signature-targets-south-korean-organizations/",
+            "date": "2018-08-21",
+            "organization": "Trend Micro",
+            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
+            "title": "Supply Chain Attack Operation Red Signature Targets South Korean Organizations",
+            "categories": [
+                "9002 RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/azorult-trojan-serving-aurora-ransomware-by-malactor-oktropys/",
+            "date": "2018-08-18",
+            "organization": "Bleeping Computer",
+            "author": "Vishal Thakur",
+            "title": "AZORult Trojan Serving Aurora Ransomware by MalActor Oktropys",
+            "categories": [
+                "Aurora",
+                "Azorult"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/malwrhunterteam/status/1001461507513880576",
+            "date": "2018-05-29",
+            "organization": "Twitter (@malwrhunterteam)",
+            "author": "MalwareHunterTeam",
+            "title": "Tweet on Aurora / OneKeyLocker Ransomware",
+            "categories": [
+                "Aurora"
+            ]
+        },
+        {
+            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
+            "date": "2018-03",
+            "organization": "CrySyS Lab",
+            "author": "Boldizsar Bencsath",
+            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
+            "categories": [
+                "9002 RAT",
+                "Agent.BTZ",
+                "DuQu",
+                "EYService",
+                "Flame",
+                "FlowerShop",
+                "Stuxnet",
+                "Uroburos"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/operation-rat-cook-chinese-apt-actors-use-fake-game-thrones-leaks-lures",
+            "date": "2017-08-25",
+            "organization": "Proofpoint",
+            "author": "Darien Huss",
+            "title": "Operation RAT Cook: Chinese APT actors use fake Game of Thrones leaks as lures",
+            "categories": [
+                "9002 RAT"
+            ]
+        },
+        {
+            "data_url": "https://attack.mitre.org/groups/G0001/",
+            "date": "2017-05-31",
+            "organization": "MITRE",
+            "author": "MITRE ATT&CK",
+            "title": "Axiom",
+            "categories": [
+                "Derusbi",
+                "9002 RAT",
+                "BLACKCOFFEE",
+                "Derusbi",
+                "Ghost RAT",
+                "HiKit",
+                "PlugX",
+                "ZXShell",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2015/09/chinese-actors-use-3102-malware-in-attacks-on-us-government-and-eu-media/",
+            "date": "2015-09-23",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Chinese Actors Use \u20183102\u2019 Malware in Attacks on US Government and EU Media",
+            "categories": [
+                "9002 RAT"
+            ]
+        },
+        {
+            "data_url": "https://app.box.com/s/z1uanuv1vn3vw5iket1r6bqrmlra0gpn",
+            "date": "2015-08",
+            "organization": "Arbor Networks",
+            "author": "ASERT Team",
+            "title": "Uncovering the Seven Pointed Dagger",
+            "categories": [
+                "9002 RAT",
+                "EvilGrab",
+                "PlugX",
+                "Trochilus RAT",
+                "APT9"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2013/11/operation-ephemeral-hydra-ie-zero-day-linked-to-deputydog-uses-diskless-method.html",
+            "date": "2013-11-10",
+            "organization": "FireEye",
+            "author": "Sai Omkar Vashisht",
+            "title": "Operation Ephemeral Hydra: IE Zero-Day Linked to DeputyDog Uses Diskless Method",
+            "categories": [
+                "9002 RAT"
+            ]
+        },
+        {
+            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2013/hidden_lynx.pdf",
+            "date": "2013-09-17",
+            "organization": "Symantec",
+            "author": "Stephen Doherty",
+            "title": "Hidden Lynx \u2013 Professional Hackers for Hire",
+            "categories": [
+                "9002 RAT",
+                "HiKit",
+                "APT17"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2013/05/ready-for-summer-the-sunshop-campaign.html",
+            "date": "2013-05-20",
+            "organization": "FireEye",
+            "author": "Ned Moran",
+            "title": "Ready for Summer: The Sunshop Campaign",
+            "categories": [
+                "9002 RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2013/02/lady-boyle-comes-to-town-with-a-new-exploit.html",
+            "date": "2013-02-07",
+            "organization": "FireEye",
+            "author": "J. Gomez",
+            "title": "LadyBoyle Comes to Town with a New Exploit",
+            "categories": [
+                "9002 RAT"
+            ]
+        },
+        {
+            "data_url": "https://www.infopoint-security.de/medien/the-elderwood-project.pdf",
+            "date": "2012-09-07",
+            "organization": "Symantec",
+            "author": "Gavin O'Gorman",
+            "title": "The Elderwood Project",
+            "categories": [
+                "9002 RAT",
+                "Beijing Group"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -370,293 +657,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over a different protocol than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "hydraq connects to a predefined domain on port 443 to exfil gathered information.[6]"
                 }
-            ]
-        }
-    ],
-    "file_name": "9002_rat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.morphisec.com/in2al5d-p3in4er",
-            "date": "2023-04-18",
-            "organization": "Morphisec",
-            "author": "Arnold Osipov",
-            "title": "What Makes Invalid Printer Loader So Stealthy?",
-            "categories": [
-                "Aurora"
-            ]
-        },
-        {
-            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q1%20Botnet%20Threat%20Update.pdf",
-            "date": "2023-04-12",
-            "organization": "Spamhaus",
-            "author": "Spamhaus Malware Labs",
-            "title": "Spamhaus Botnet Threat Update Q1 2023",
-            "categories": [
-                "FluBot",
-                "Amadey",
-                "AsyncRAT",
-                "Aurora",
-                "Ave Maria",
-                "BumbleBee",
-                "Cobalt Strike",
-                "DCRat",
-                "Emotet",
-                "IcedID",
-                "ISFB",
-                "NjRAT",
-                "QakBot",
-                "RecordBreaker",
-                "RedLine Stealer",
-                "Remcos",
-                "Rhadamanthys",
-                "Sliver",
-                "Tofsee",
-                "Vidar"
-            ]
-        },
-        {
-            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/webworm-espionage-rats",
-            "date": "2022-09-15",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Webworm: Espionage Attackers Testing and Using Older Modified RATs",
-            "categories": [
-                "9002 RAT",
-                "Ghost RAT",
-                "Trochilus RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-union",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE UNION",
-            "categories": [
-                "9002 RAT",
-                "CHINACHOPPER",
-                "Enfal",
-                "Ghost RAT",
-                "HttpBrowser",
-                "HyperBro",
-                "owaauth",
-                "PlugX",
-                "Poison Ivy",
-                "ZXShell",
-                "APT27"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-firestone",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE FIRESTONE",
-            "categories": [
-                "9002 RAT",
-                "Derusbi",
-                "Empire Downloader",
-                "PlugX",
-                "Poison Ivy",
-                "APT19"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-keystone",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE KEYSTONE",
-            "categories": [
-                "9002 RAT",
-                "BLACKCOFFEE",
-                "DeputyDog",
-                "Derusbi",
-                "HiKit",
-                "PlugX",
-                "Poison Ivy",
-                "ZXShell",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-express",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE EXPRESS",
-            "categories": [
-                "9002 RAT",
-                "CHINACHOPPER",
-                "IsSpace",
-                "NewCT",
-                "PlugX",
-                "smac",
-                "APT26"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/ransomware/decryptor/how-to-decrypt-the-aurora-ransomware-with-auroradecrypter/",
-            "date": "2019-01-04",
-            "organization": "Bleeping Computer",
-            "author": "Lawrence Abrams",
-            "title": "How to Decrypt the Aurora Ransomware with AuroraDecrypter",
-            "categories": [
-                "Aurora"
-            ]
-        },
-        {
-            "data_url": "https://blog.trendmicro.com/trendlabs-security-intelligence/supply-chain-attack-operation-red-signature-targets-south-korean-organizations/",
-            "date": "2018-08-21",
-            "organization": "Trend Micro",
-            "author": "Jarom\u00edr Ho\u0159ej\u0161\u00ed",
-            "title": "Supply Chain Attack Operation Red Signature Targets South Korean Organizations",
-            "categories": [
-                "9002 RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/azorult-trojan-serving-aurora-ransomware-by-malactor-oktropys/",
-            "date": "2018-08-18",
-            "organization": "Bleeping Computer",
-            "author": "Vishal Thakur",
-            "title": "AZORult Trojan Serving Aurora Ransomware by MalActor Oktropys",
-            "categories": [
-                "Aurora",
-                "Azorult"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/malwrhunterteam/status/1001461507513880576",
-            "date": "2018-05-29",
-            "organization": "Twitter (@malwrhunterteam)",
-            "author": "MalwareHunterTeam",
-            "title": "Tweet on Aurora / OneKeyLocker Ransomware",
-            "categories": [
-                "Aurora"
-            ]
-        },
-        {
-            "data_url": "https://www.crysys.hu/publications/files/tedi/ukatemicrysys_territorialdispute.pdf",
-            "date": "2018-03",
-            "organization": "CrySyS Lab",
-            "author": "Boldizsar Bencsath",
-            "title": "Territorial Dispute \u2013 NSA\u2019s perspective on APT landscape",
-            "categories": [
-                "9002 RAT",
-                "Agent.BTZ",
-                "DuQu",
-                "EYService",
-                "Flame",
-                "FlowerShop",
-                "Stuxnet",
-                "Uroburos"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/operation-rat-cook-chinese-apt-actors-use-fake-game-thrones-leaks-lures",
-            "date": "2017-08-25",
-            "organization": "Proofpoint",
-            "author": "Darien Huss",
-            "title": "Operation RAT Cook: Chinese APT actors use fake Game of Thrones leaks as lures",
-            "categories": [
-                "9002 RAT"
-            ]
-        },
-        {
-            "data_url": "https://attack.mitre.org/groups/G0001/",
-            "date": "2017-05-31",
-            "organization": "MITRE",
-            "author": "MITRE ATT&CK",
-            "title": "Axiom",
-            "categories": [
-                "Derusbi",
-                "9002 RAT",
-                "BLACKCOFFEE",
-                "Derusbi",
-                "Ghost RAT",
-                "HiKit",
-                "PlugX",
-                "ZXShell",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2015/09/chinese-actors-use-3102-malware-in-attacks-on-us-government-and-eu-media/",
-            "date": "2015-09-23",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Chinese Actors Use \u20183102\u2019 Malware in Attacks on US Government and EU Media",
-            "categories": [
-                "9002 RAT"
-            ]
-        },
-        {
-            "data_url": "https://app.box.com/s/z1uanuv1vn3vw5iket1r6bqrmlra0gpn",
-            "date": "2015-08",
-            "organization": "Arbor Networks",
-            "author": "ASERT Team",
-            "title": "Uncovering the Seven Pointed Dagger",
-            "categories": [
-                "9002 RAT",
-                "EvilGrab",
-                "PlugX",
-                "Trochilus RAT",
-                "APT9"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2013/11/operation-ephemeral-hydra-ie-zero-day-linked-to-deputydog-uses-diskless-method.html",
-            "date": "2013-11-10",
-            "organization": "FireEye",
-            "author": "Sai Omkar Vashisht",
-            "title": "Operation Ephemeral Hydra: IE Zero-Day Linked to DeputyDog Uses Diskless Method",
-            "categories": [
-                "9002 RAT"
-            ]
-        },
-        {
-            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2013/hidden_lynx.pdf",
-            "date": "2013-09-17",
-            "organization": "Symantec",
-            "author": "Stephen Doherty",
-            "title": "Hidden Lynx \u2013 Professional Hackers for Hire",
-            "categories": [
-                "9002 RAT",
-                "HiKit",
-                "APT17"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2013/05/ready-for-summer-the-sunshop-campaign.html",
-            "date": "2013-05-20",
-            "organization": "FireEye",
-            "author": "Ned Moran",
-            "title": "Ready for Summer: The Sunshop Campaign",
-            "categories": [
-                "9002 RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2013/02/lady-boyle-comes-to-town-with-a-new-exploit.html",
-            "date": "2013-02-07",
-            "organization": "FireEye",
-            "author": "J. Gomez",
-            "title": "LadyBoyle Comes to Town with a New Exploit",
-            "categories": [
-                "9002 RAT"
-            ]
-        },
-        {
-            "data_url": "https://www.infopoint-security.de/medien/the-elderwood-project.pdf",
-            "date": "2012-09-07",
-            "organization": "Symantec",
-            "author": "Gavin O'Gorman",
-            "title": "The Elderwood Project",
-            "categories": [
-                "9002 RAT",
-                "Beijing Group"
             ]
         }
     ]

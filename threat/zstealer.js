@@ -37,8 +37,8 @@ var threatdata = {
             "malware": "win.zstealer",
             "last_update": "2023-05-23 23:48:12",
             "tags": [
-                "ZStealer",
-                "ViriBack"
+                "ViriBack",
+                "ZStealer"
             ],
             "ioc": {
                 "md5_hash": [
@@ -69,7 +69,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-05-23 23:48:12",
-    "mitre": [],
     "file_name": "zstealer",
     "analysis": null,
     "articles": [
@@ -95,5 +94,6 @@ var threatdata = {
                 "Void Balaur"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

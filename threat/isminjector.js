@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "isminjector",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "isminjector",
@@ -159,8 +162,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "isminjector",
-    "analysis": null,
-    "articles": []
+    ]
 };

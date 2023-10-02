@@ -37,7 +37,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "actionspy",
     "analysis": null,
     "articles": [
@@ -73,5 +72,6 @@ var threatdata = {
                 "PoisonCarp"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

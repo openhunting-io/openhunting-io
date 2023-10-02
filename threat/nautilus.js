@@ -28,7 +28,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "nautilus",
     "analysis": null,
     "articles": [
@@ -72,5 +71,6 @@ var threatdata = {
                 "Neuron"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -121,14 +121,14 @@ var threatdata = {
             "malware": "win.lockbit",
             "last_update": "2023-06-01 19:03:24",
             "tags": [
-                "lockbit",
-                "KOR",
                 "ransomware",
+                "KOR",
                 "geo",
-                "LockBit",
                 "spyware",
                 "Ransomware",
-                "Lockbit"
+                "LockBit",
+                "Lockbit",
+                "lockbit"
             ],
             "ioc": {
                 "md5_hash": [
@@ -239,7 +239,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-06-01 19:03:24",
-    "mitre": [],
     "file_name": "lockbit",
     "articles": [
         {
@@ -2151,5 +2150,6 @@ var threatdata = {
                 "LockBit"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

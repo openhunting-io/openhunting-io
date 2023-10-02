@@ -40,6 +40,325 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "dtrack",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://media.defense.gov/2023/Feb/09/2003159161/-1/-1/0/CSA_RANSOMWARE_ATTACKS_ON_CI_FUND_DPRK_ACTIVITIES.PDF",
+            "date": "2023-02-09",
+            "organization": "",
+            "author": "NSA",
+            "title": "#StopRansomware: Ransomware Attacks on Critical Infrastructure Fund DPRK Malicious Cyber Activities",
+            "categories": [
+                "Dtrack",
+                "MagicRAT",
+                "Maui Ransomware",
+                "SiennaBlue",
+                "SiennaPurple",
+                "Tiger RAT",
+                "YamaBot"
+            ]
+        },
+        {
+            "data_url": "https://labs.withsecure.com/content/dam/labs/docs/WithSecure-Lazarus-No-Pineapple-Threat-Intelligence-Report-2023.pdf",
+            "date": "2023-02-02",
+            "organization": "WithSecure",
+            "author": "Sami Ruohonen",
+            "title": "No Pineapple! \u2013DPRK Targeting of Medical Research and Technology Sector",
+            "categories": [
+                "Dtrack",
+                "GREASE",
+                "QuiteRAT"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/dtrack-targeting-europe-latin-america/107798/",
+            "date": "2022-11-15",
+            "organization": "Kaspersky Labs",
+            "author": "Konstantin Zykov",
+            "title": "DTrack activity targeting Europe and Latin America",
+            "categories": [
+                "Dtrack"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/andariel-deploys-dtrack-and-maui-ransomware/107063/",
+            "date": "2022-08-09",
+            "organization": "Kaspersky",
+            "author": "Kurt Baumgartner",
+            "title": "Andariel deploys DTrack and Maui ransomware",
+            "categories": [
+                "Dtrack",
+                "Maui Ransomware"
+            ]
+        },
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/stonefly-north-korea-espionage",
+            "date": "2022-04-27",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Stonefly: North Korea-linked Spying Operation Continues to Hit High-value Targets",
+            "categories": [
+                "Dtrack",
+                "VSingle"
+            ]
+        },
+        {
+            "data_url": "https://blog.macnica.net/blog/2020/11/dtrack.html",
+            "date": "2020-11-27",
+            "organization": "Macnica",
+            "author": "Hiroshi Takeuchi",
+            "title": "Analyzing Organizational Invasion Ransom Incidents Using Dtrack",
+            "categories": [
+                "Cobalt Strike",
+                "Dtrack"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
+            "date": "2020-11-03",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "APT trends report Q3 2020",
+            "categories": [
+                "WellMail",
+                "EVILNUM",
+                "Janicab",
+                "Poet RAT",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "Crimson RAT",
+                "CROSSWALK",
+                "Dtrack",
+                "LODEINFO",
+                "MoriAgent",
+                "Okrum",
+                "PlugX",
+                "poisonplug",
+                "Rover",
+                "ShadowPad",
+                "SoreFang",
+                "Winnti"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ShadowChasing1/status/1399369260577681426?s=20",
+            "date": "2020-05-31",
+            "organization": "Twitter (ShadowChasing1)",
+            "author": "Shadow Chaser Group",
+            "title": "Tweet on DTRACK malware",
+            "categories": [
+                "Dtrack"
+            ]
+        },
+        {
+            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
+            "date": "2020-03-03",
+            "organization": "PWC UK",
+            "author": "PWC UK",
+            "title": "Cyber Threats 2019:A Year in Retrospect",
+            "categories": [
+                "KevDroid",
+                "MESSAGETAP",
+                "magecart",
+                "AndroMut",
+                "Cobalt Strike",
+                "CobInt",
+                "Crimson RAT",
+                "DNSpionage",
+                "Dridex",
+                "Dtrack",
+                "Emotet",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "FriedEx",
+                "Gandcrab",
+                "Get2",
+                "GlobeImposter",
+                "Grateful POS",
+                "ISFB",
+                "Kazuar",
+                "LockerGoga",
+                "Nokki",
+                "QakBot",
+                "Ramnit",
+                "REvil",
+                "Rifdoor",
+                "RokRAT",
+                "Ryuk",
+                "shadowhammer",
+                "ShadowPad",
+                "Shifu",
+                "Skipper",
+                "StoneDrill",
+                "Stuxnet",
+                "TrickBot",
+                "Winnti",
+                "ZeroCleare",
+                "APT41",
+                "MUSTANG PANDA",
+                "Sea Turtle"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
+            "date": "2019-12-12",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
+            "categories": [
+                "Cerberus",
+                "TSCookie",
+                "Cobalt Strike",
+                "Dtrack",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "Icefog",
+                "IRONHALO",
+                "Loki Password Stealer (PWS)",
+                "PandaBanker",
+                "PLEAD",
+                "poisonplug",
+                "TrickBot",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://www.cyberbit.com/dtrack-apt-malware-found-in-nuclear-power-plant/",
+            "date": "2019-11-21",
+            "organization": "Cyberbit",
+            "author": "Hod Gavriel",
+            "title": "Dtrack: In-depth analysis of APT on a nuclear power plant",
+            "categories": [
+                "Dtrack"
+            ]
+        },
+        {
+            "data_url": "https://marcoramilli.com/2019/11/04/is-lazarus-apt38-targeting-critical-infrastructures/",
+            "date": "2019-11-04",
+            "organization": "Marco Ramilli's Blog",
+            "author": "Marco Ramilli",
+            "title": "Is Lazarus/APT38 Targeting Critical Infrastructures?",
+            "categories": [
+                "Dtrack"
+            ]
+        },
+        {
+            "data_url": "https://github.com/jeFF0Falltrades/IoCs/blob/master/APT/dtrack_lazarus_group.md",
+            "date": "2019-11-03",
+            "organization": "Github (jeFF0Falltrades)",
+            "author": "Jeff Archer",
+            "title": "DTrack",
+            "categories": [
+                "Dtrack"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/my-name-is-dtrack/93338/",
+            "date": "2019-09-23",
+            "organization": "Kaspersky Labs",
+            "author": "Konstantin Zykov",
+            "title": "Hello! My name is Dtrack",
+            "categories": [
+                "Dtrack"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "dtrack",
@@ -475,325 +794,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "dtrack",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://media.defense.gov/2023/Feb/09/2003159161/-1/-1/0/CSA_RANSOMWARE_ATTACKS_ON_CI_FUND_DPRK_ACTIVITIES.PDF",
-            "date": "2023-02-09",
-            "organization": "",
-            "author": "NSA",
-            "title": "#StopRansomware: Ransomware Attacks on Critical Infrastructure Fund DPRK Malicious Cyber Activities",
-            "categories": [
-                "Dtrack",
-                "MagicRAT",
-                "Maui Ransomware",
-                "SiennaBlue",
-                "SiennaPurple",
-                "Tiger RAT",
-                "YamaBot"
-            ]
-        },
-        {
-            "data_url": "https://labs.withsecure.com/content/dam/labs/docs/WithSecure-Lazarus-No-Pineapple-Threat-Intelligence-Report-2023.pdf",
-            "date": "2023-02-02",
-            "organization": "WithSecure",
-            "author": "Sami Ruohonen",
-            "title": "No Pineapple! \u2013DPRK Targeting of Medical Research and Technology Sector",
-            "categories": [
-                "Dtrack",
-                "GREASE",
-                "QuiteRAT"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/dtrack-targeting-europe-latin-america/107798/",
-            "date": "2022-11-15",
-            "organization": "Kaspersky Labs",
-            "author": "Konstantin Zykov",
-            "title": "DTrack activity targeting Europe and Latin America",
-            "categories": [
-                "Dtrack"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/andariel-deploys-dtrack-and-maui-ransomware/107063/",
-            "date": "2022-08-09",
-            "organization": "Kaspersky",
-            "author": "Kurt Baumgartner",
-            "title": "Andariel deploys DTrack and Maui ransomware",
-            "categories": [
-                "Dtrack",
-                "Maui Ransomware"
-            ]
-        },
-        {
-            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/stonefly-north-korea-espionage",
-            "date": "2022-04-27",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Stonefly: North Korea-linked Spying Operation Continues to Hit High-value Targets",
-            "categories": [
-                "Dtrack",
-                "VSingle"
-            ]
-        },
-        {
-            "data_url": "https://blog.macnica.net/blog/2020/11/dtrack.html",
-            "date": "2020-11-27",
-            "organization": "Macnica",
-            "author": "Hiroshi Takeuchi",
-            "title": "Analyzing Organizational Invasion Ransom Incidents Using Dtrack",
-            "categories": [
-                "Cobalt Strike",
-                "Dtrack"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/apt-trends-report-q3-2020/99204/",
-            "date": "2020-11-03",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "APT trends report Q3 2020",
-            "categories": [
-                "WellMail",
-                "EVILNUM",
-                "Janicab",
-                "Poet RAT",
-                "AsyncRAT",
-                "Ave Maria",
-                "Cobalt Strike",
-                "Crimson RAT",
-                "CROSSWALK",
-                "Dtrack",
-                "LODEINFO",
-                "MoriAgent",
-                "Okrum",
-                "PlugX",
-                "poisonplug",
-                "Rover",
-                "ShadowPad",
-                "SoreFang",
-                "Winnti"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/ShadowChasing1/status/1399369260577681426?s=20",
-            "date": "2020-05-31",
-            "organization": "Twitter (ShadowChasing1)",
-            "author": "Shadow Chaser Group",
-            "title": "Tweet on DTRACK malware",
-            "categories": [
-                "Dtrack"
-            ]
-        },
-        {
-            "data_url": "https://www.pwc.co.uk/cyber-security/assets/cyber-threats-2019-retrospect.pdf",
-            "date": "2020-03-03",
-            "organization": "PWC UK",
-            "author": "PWC UK",
-            "title": "Cyber Threats 2019:A Year in Retrospect",
-            "categories": [
-                "KevDroid",
-                "MESSAGETAP",
-                "magecart",
-                "AndroMut",
-                "Cobalt Strike",
-                "CobInt",
-                "Crimson RAT",
-                "DNSpionage",
-                "Dridex",
-                "Dtrack",
-                "Emotet",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "FriedEx",
-                "Gandcrab",
-                "Get2",
-                "GlobeImposter",
-                "Grateful POS",
-                "ISFB",
-                "Kazuar",
-                "LockerGoga",
-                "Nokki",
-                "QakBot",
-                "Ramnit",
-                "REvil",
-                "Rifdoor",
-                "RokRAT",
-                "Ryuk",
-                "shadowhammer",
-                "ShadowPad",
-                "Shifu",
-                "Skipper",
-                "StoneDrill",
-                "Stuxnet",
-                "TrickBot",
-                "Winnti",
-                "ZeroCleare",
-                "APT41",
-                "MUSTANG PANDA",
-                "Sea Turtle"
-            ]
-        },
-        {
-            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
-            "date": "2020-02-19",
-            "organization": "Lexfo",
-            "author": "Lexfo",
-            "title": "The Lazarus Constellation A study on North Korean malware",
-            "categories": [
-                "FastCash",
-                "AppleJeus",
-                "BADCALL",
-                "Bankshot",
-                "Brambul",
-                "Dtrack",
-                "Duuzer",
-                "DYEPACK",
-                "ELECTRICFISH",
-                "HARDRAIN",
-                "Hermes",
-                "HOPLIGHT",
-                "Joanap",
-                "KEYMARBLE",
-                "Kimsuky",
-                "MimiKatz",
-                "MyDoom",
-                "NACHOCHEESE",
-                "NavRAT",
-                "PowerRatankba",
-                "RokRAT",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
-            "date": "2019-12-12",
-            "organization": "FireEye",
-            "author": "Chi-en Shen",
-            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
-            "categories": [
-                "Cerberus",
-                "TSCookie",
-                "Cobalt Strike",
-                "Dtrack",
-                "Emotet",
-                "Formbook",
-                "IcedID",
-                "Icefog",
-                "IRONHALO",
-                "Loki Password Stealer (PWS)",
-                "PandaBanker",
-                "PLEAD",
-                "poisonplug",
-                "TrickBot",
-                "BlackTech"
-            ]
-        },
-        {
-            "data_url": "https://www.cyberbit.com/dtrack-apt-malware-found-in-nuclear-power-plant/",
-            "date": "2019-11-21",
-            "organization": "Cyberbit",
-            "author": "Hod Gavriel",
-            "title": "Dtrack: In-depth analysis of APT on a nuclear power plant",
-            "categories": [
-                "Dtrack"
-            ]
-        },
-        {
-            "data_url": "https://marcoramilli.com/2019/11/04/is-lazarus-apt38-targeting-critical-infrastructures/",
-            "date": "2019-11-04",
-            "organization": "Marco Ramilli's Blog",
-            "author": "Marco Ramilli",
-            "title": "Is Lazarus/APT38 Targeting Critical Infrastructures?",
-            "categories": [
-                "Dtrack"
-            ]
-        },
-        {
-            "data_url": "https://github.com/jeFF0Falltrades/IoCs/blob/master/APT/dtrack_lazarus_group.md",
-            "date": "2019-11-03",
-            "organization": "Github (jeFF0Falltrades)",
-            "author": "Jeff Archer",
-            "title": "DTrack",
-            "categories": [
-                "Dtrack"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/my-name-is-dtrack/93338/",
-            "date": "2019-09-23",
-            "organization": "Kaspersky Labs",
-            "author": "Konstantin Zykov",
-            "title": "Hello! My name is Dtrack",
-            "categories": [
-                "Dtrack"
             ]
         }
     ]

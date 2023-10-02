@@ -30,7 +30,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "retro",
     "analysis": null,
     "articles": [
@@ -88,5 +87,6 @@ var threatdata = {
                 "Retro"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

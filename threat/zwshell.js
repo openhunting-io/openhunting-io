@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "zwshell",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "zwshell",
@@ -205,8 +208,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "zwshell",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -36,6 +36,32 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "shimrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-walker",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE WALKER",
+            "categories": [
+                "Shim RAT",
+                "Mofang"
+            ]
+        },
+        {
+            "data_url": "https://foxitsecurity.files.wordpress.com/2016/06/fox-it_mofang_threatreport_tlp-white.pdf",
+            "date": "2016-05-17",
+            "organization": "Fox-IT",
+            "author": "Yonathan Klijnsma",
+            "title": "Mofang: A politically motivated information stealing adversary",
+            "categories": [
+                "Shim RAT",
+                "Mofang"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "shimrat",
@@ -411,32 +437,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "shimrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-walker",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE WALKER",
-            "categories": [
-                "Shim RAT",
-                "Mofang"
-            ]
-        },
-        {
-            "data_url": "https://foxitsecurity.files.wordpress.com/2016/06/fox-it_mofang_threatreport_tlp-white.pdf",
-            "date": "2016-05-17",
-            "organization": "Fox-IT",
-            "author": "Yonathan Klijnsma",
-            "title": "Mofang: A politically motivated information stealing adversary",
-            "categories": [
-                "Shim RAT",
-                "Mofang"
             ]
         }
     ]

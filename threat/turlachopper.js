@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "turlachopper",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "turla",
@@ -946,8 +949,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "turlachopper",
-    "analysis": null,
-    "articles": []
+    ]
 };

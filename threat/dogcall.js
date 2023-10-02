@@ -38,12 +38,12 @@ var threatdata = {
             "malware": "win.rokrat",
             "last_update": "2023-09-13 15:43:07",
             "tags": [
-                "RokRat",
-                "APT37",
-                "RokRAT",
+                "RAT",
                 "APT",
                 "GOLDBACKDOOR",
-                "RAT"
+                "APT37",
+                "RokRAT",
+                "RokRat"
             ],
             "ioc": {
                 "md5_hash": [
@@ -92,6 +92,9 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-13 15:43:07",
+    "file_name": "dogcall",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "dogcall",
@@ -185,8 +188,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "dogcall",
-    "analysis": null,
-    "articles": []
+    ]
 };

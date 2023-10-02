@@ -35,6 +35,64 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "sys10",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/analysis/publications/69953/the-naikon-apt/",
+            "date": "2015-05-14",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "The Naikon APT",
+            "categories": [
+                "Naikon",
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus",
+                "APT30",
+                "Naikon"
+            ]
+        },
+        {
+            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/TheNaikonAPT-MsnMM1.pdf",
+            "date": "2015-05",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "The MsnMM Campaigns - The Earliest Naikon APTCampaigns",
+            "categories": [
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus"
+            ]
+        },
+        {
+            "data_url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
+            "date": "2015-04",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION",
+            "categories": [
+                "BACKBEND",
+                "backspace",
+                "CREAMSICLE",
+                "FLASHFLOOD",
+                "GEMCUTTER",
+                "MILKMAID",
+                "Naikon",
+                "NETEAGLE",
+                "ORANGEADE",
+                "SHIPSHAPE",
+                "SPACESHIP",
+                "SslMM",
+                "Sys10",
+                "WinMM",
+                "xsPlus",
+                "APT30"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "sys10",
@@ -114,64 +172,6 @@ var threatdata = {
                     "technique_description": "adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. common symmetric encryption algorithms include aes, des, 3des, blowfish, and rc4.",
                     "procedure_description": "sys10 uses an xor 0x1 loop to encrypt its c2 domain.[131]"
                 }
-            ]
-        }
-    ],
-    "file_name": "sys10",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/analysis/publications/69953/the-naikon-apt/",
-            "date": "2015-05-14",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "The Naikon APT",
-            "categories": [
-                "Naikon",
-                "SslMM",
-                "Sys10",
-                "WinMM",
-                "xsPlus",
-                "APT30",
-                "Naikon"
-            ]
-        },
-        {
-            "data_url": "https://paper.seebug.org/papers/APT/APT_CyberCriminal_Campagin/2015/TheNaikonAPT-MsnMM1.pdf",
-            "date": "2015-05",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "The MsnMM Campaigns - The Earliest Naikon APTCampaigns",
-            "categories": [
-                "SslMM",
-                "Sys10",
-                "WinMM",
-                "xsPlus"
-            ]
-        },
-        {
-            "data_url": "https://www2.fireeye.com/rs/fireye/images/rpt-apt30.pdf",
-            "date": "2015-04",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "APT30 AND THE MECHANICS OF A LONG-RUNNING CYBER ESPIONAGE OPERATION",
-            "categories": [
-                "BACKBEND",
-                "backspace",
-                "CREAMSICLE",
-                "FLASHFLOOD",
-                "GEMCUTTER",
-                "MILKMAID",
-                "Naikon",
-                "NETEAGLE",
-                "ORANGEADE",
-                "SHIPSHAPE",
-                "SPACESHIP",
-                "SslMM",
-                "Sys10",
-                "WinMM",
-                "xsPlus",
-                "APT30"
             ]
         }
     ]

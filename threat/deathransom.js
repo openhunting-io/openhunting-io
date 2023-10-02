@@ -47,6 +47,80 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "deathransom",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/albertzsigovits/malware-notes/blob/master/DeathRansom.md",
+            "date": "2020-01-06",
+            "organization": "Github (albertzsigovits)",
+            "author": "Albert Zsigovits",
+            "title": "DeathRansom \\ Wacatac ransomware",
+            "categories": [
+                "DeathRansom"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/death-ransom-new-strain-ransomware.html",
+            "date": "2020-01-02",
+            "organization": "Fortinet",
+            "author": "Minh Tran",
+            "title": "The Curious Case of DeathRansom: Part I",
+            "categories": [
+                "DeathRansom"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/death-ransom-attribution.html",
+            "date": "2020-01-02",
+            "organization": "Fortinet",
+            "author": "Artem Semenchenko",
+            "title": "DeathRansom Part II: Attribution",
+            "categories": [
+                "DeathRansom"
+            ]
+        },
+        {
+            "data_url": "https://asec.ahnlab.com/1269",
+            "date": "2019-11-21",
+            "organization": "ASEC",
+            "author": "ASEC Analysis Team",
+            "title": "GandCrab Finds DEATHRansom of the Same Appearance Following Nemty in Korea",
+            "categories": [
+                "DeathRansom"
+            ]
+        },
+        {
+            "data_url": "https://dissectingmalwa.re/quick-and-painless-reversing-deathransom-wacatac.html",
+            "date": "2019-11-19",
+            "organization": "Dissecting Malware",
+            "author": "Marius Genheimer",
+            "title": "Quick and painless - Reversing DeathRansom / \"Wacatac\"",
+            "categories": [
+                "DeathRansom"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/Amigo_A_/status/1196898012645220354",
+            "date": "2019-11-19",
+            "organization": "Twitter (@Amigo_A_)",
+            "author": "Andrew Ivanov",
+            "title": "Tweet on Wacatac Ransomware",
+            "categories": [
+                "DeathRansom"
+            ]
+        },
+        {
+            "data_url": "https://id-ransomware.blogspot.com/2019/11/wacatac-ransomware.html",
+            "date": "2019-11-19",
+            "organization": "ID Ransomware",
+            "author": "Andrew Ivanov",
+            "title": "Wacatac Ransomware",
+            "categories": [
+                "DeathRansom"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -206,80 +280,6 @@ var threatdata = {
                     "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
                     "procedure_description": "deathransom can delete volume shadow copies on compromised hosts.[26]"
                 }
-            ]
-        }
-    ],
-    "file_name": "deathransom",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://github.com/albertzsigovits/malware-notes/blob/master/DeathRansom.md",
-            "date": "2020-01-06",
-            "organization": "Github (albertzsigovits)",
-            "author": "Albert Zsigovits",
-            "title": "DeathRansom \\ Wacatac ransomware",
-            "categories": [
-                "DeathRansom"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/death-ransom-new-strain-ransomware.html",
-            "date": "2020-01-02",
-            "organization": "Fortinet",
-            "author": "Minh Tran",
-            "title": "The Curious Case of DeathRansom: Part I",
-            "categories": [
-                "DeathRansom"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/death-ransom-attribution.html",
-            "date": "2020-01-02",
-            "organization": "Fortinet",
-            "author": "Artem Semenchenko",
-            "title": "DeathRansom Part II: Attribution",
-            "categories": [
-                "DeathRansom"
-            ]
-        },
-        {
-            "data_url": "https://asec.ahnlab.com/1269",
-            "date": "2019-11-21",
-            "organization": "ASEC",
-            "author": "ASEC Analysis Team",
-            "title": "GandCrab Finds DEATHRansom of the Same Appearance Following Nemty in Korea",
-            "categories": [
-                "DeathRansom"
-            ]
-        },
-        {
-            "data_url": "https://dissectingmalwa.re/quick-and-painless-reversing-deathransom-wacatac.html",
-            "date": "2019-11-19",
-            "organization": "Dissecting Malware",
-            "author": "Marius Genheimer",
-            "title": "Quick and painless - Reversing DeathRansom / \"Wacatac\"",
-            "categories": [
-                "DeathRansom"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/Amigo_A_/status/1196898012645220354",
-            "date": "2019-11-19",
-            "organization": "Twitter (@Amigo_A_)",
-            "author": "Andrew Ivanov",
-            "title": "Tweet on Wacatac Ransomware",
-            "categories": [
-                "DeathRansom"
-            ]
-        },
-        {
-            "data_url": "https://id-ransomware.blogspot.com/2019/11/wacatac-ransomware.html",
-            "date": "2019-11-19",
-            "organization": "ID Ransomware",
-            "author": "Andrew Ivanov",
-            "title": "Wacatac Ransomware",
-            "categories": [
-                "DeathRansom"
             ]
         }
     ]

@@ -45,6 +45,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "duqu",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "duqu",
@@ -426,8 +429,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "duqu",
-    "analysis": null,
-    "articles": []
+    ]
 };

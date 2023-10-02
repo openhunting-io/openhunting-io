@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "yamabot",
     "analysis": null,
     "articles": [
@@ -86,5 +85,6 @@ var threatdata = {
                 "YamaBot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

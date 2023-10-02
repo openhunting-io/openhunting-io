@@ -97,7 +97,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-10-20 05:13:44",
-    "mitre": [],
     "file_name": "cryptolocker",
     "analysis": null,
     "articles": [
@@ -254,5 +253,6 @@ var threatdata = {
                 "CryptoLocker"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

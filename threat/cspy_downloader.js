@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "cspy_downloader",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "cspy downloader",
@@ -229,8 +232,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "cspy_downloader",
-    "analysis": null,
-    "articles": []
+    ]
 };

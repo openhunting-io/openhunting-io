@@ -44,6 +44,137 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "elise",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
+            "date": "2021-05-20",
+            "organization": "Github (microsoft)",
+            "author": "Microsoft",
+            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
+            "categories": [
+                "STRRAT",
+                "OceanLotus",
+                "BabyShark",
+                "Elise",
+                "Revenge RAT",
+                "WastedLocker",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.fireeye.com/blog/threat-research/2020/04/code-grafting-to-unpack-malware-in-emulation.html",
+            "date": "2020-04-07",
+            "organization": "FireEye",
+            "author": "Michael Bailey",
+            "title": "Thinking Outside the Bochs: Code Grafting to Unpack Malware in Emulation",
+            "categories": [
+                "Elise"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-elgin",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "BRONZE ELGIN",
+            "categories": [
+                "Elise",
+                "LOTUS PANDA"
+            ]
+        },
+        {
+            "data_url": "https://www.joesecurity.org/blog/8409877569366580427",
+            "date": "2018-02-20",
+            "organization": "Joe Security's Blog",
+            "author": "Joe Security",
+            "title": "Latest Elise APT comes packed with Sandbox Evasions",
+            "categories": [
+                "Elise"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/t20180127T003755Z__w__/us-en/_acnmedia/PDF-46/Accenture-Security-Dragonfish-Threat-Analysis.pdf",
+            "date": "2018-01-27",
+            "organization": "Accenture Security",
+            "author": "Accenture Security",
+            "title": "LATEST CYBER ESPIONAGE MALWARE ATTACKS - DRAGONFISH DELIVERS NEW FORM OF ELISE MALWARE TARGETING ASEAN DEFENCE MINISTERS\u2019 MEETING AND ASSOCIATES",
+            "categories": [
+                "Elise"
+            ]
+        },
+        {
+            "data_url": "https://www.accenture.com/t20180127T003755Z_w_/us-en/_acnmedia/PDF-46/Accenture-Security-Dragonfish-Threat-Analysis.pdf",
+            "date": "2018",
+            "organization": "Accenture",
+            "author": "Bart Parys",
+            "title": "Dragonfish delivers New Form of Elise Malware targeting ASEAN Defence Ministers' Meeting and Associates",
+            "categories": [
+                "Elise",
+                "LOTUS PANDA"
+            ]
+        },
+        {
+            "data_url": "https://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
+            "date": "2016-02-03",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?",
+            "categories": [
+                "Elise"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/research/70726/the-spring-dragon-apt/",
+            "date": "2015-06-17",
+            "organization": "Kaspersky Labs",
+            "author": "Kurt Baumgartner",
+            "title": "The Spring Dragon APT",
+            "categories": [
+                "Elise",
+                "LOTUS PANDA"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
+            "date": "2015-02-06",
+            "organization": "CrowdStrike",
+            "author": "CrowdStrike",
+            "title": "CrowdStrike Global Threat Intel Report 2014",
+            "categories": [
+                "BlackPOS",
+                "CryptoLocker",
+                "Derusbi",
+                "Elise",
+                "Enfal",
+                "EvilGrab",
+                "Gameover P2P",
+                "HttpBrowser",
+                "Medusa",
+                "Mirage",
+                "Naikon",
+                "NetTraveler",
+                "pirpi",
+                "PlugX",
+                "Poison Ivy",
+                "Sakula RAT",
+                "Sinowal",
+                "sykipot",
+                "taidoor"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/threat-reports/rpt-1h-2014-targeted-attack-trends-in-asia-pacific.pdf",
+            "date": "2014",
+            "organization": "Trend Micro",
+            "author": "UnknownUnknown",
+            "title": "Targeted Attack Trends in Asia-Pacific",
+            "categories": [
+                "Elise"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "elise",
@@ -315,137 +446,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "elise can download additional files from the c2 server for execution.[163]"
                 }
-            ]
-        }
-    ],
-    "file_name": "elise",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries",
-            "date": "2021-05-20",
-            "organization": "Github (microsoft)",
-            "author": "Microsoft",
-            "title": "Microsoft 365 Defender Hunting Queries for hunting multiple threat actors' TTPs and malwares",
-            "categories": [
-                "STRRAT",
-                "OceanLotus",
-                "BabyShark",
-                "Elise",
-                "Revenge RAT",
-                "WastedLocker",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.fireeye.com/blog/threat-research/2020/04/code-grafting-to-unpack-malware-in-emulation.html",
-            "date": "2020-04-07",
-            "organization": "FireEye",
-            "author": "Michael Bailey",
-            "title": "Thinking Outside the Bochs: Code Grafting to Unpack Malware in Emulation",
-            "categories": [
-                "Elise"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/bronze-elgin",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "BRONZE ELGIN",
-            "categories": [
-                "Elise",
-                "LOTUS PANDA"
-            ]
-        },
-        {
-            "data_url": "https://www.joesecurity.org/blog/8409877569366580427",
-            "date": "2018-02-20",
-            "organization": "Joe Security's Blog",
-            "author": "Joe Security",
-            "title": "Latest Elise APT comes packed with Sandbox Evasions",
-            "categories": [
-                "Elise"
-            ]
-        },
-        {
-            "data_url": "https://www.accenture.com/t20180127T003755Z__w__/us-en/_acnmedia/PDF-46/Accenture-Security-Dragonfish-Threat-Analysis.pdf",
-            "date": "2018-01-27",
-            "organization": "Accenture Security",
-            "author": "Accenture Security",
-            "title": "LATEST CYBER ESPIONAGE MALWARE ATTACKS - DRAGONFISH DELIVERS NEW FORM OF ELISE MALWARE TARGETING ASEAN DEFENCE MINISTERS\u2019 MEETING AND ASSOCIATES",
-            "categories": [
-                "Elise"
-            ]
-        },
-        {
-            "data_url": "https://www.accenture.com/t20180127T003755Z_w_/us-en/_acnmedia/PDF-46/Accenture-Security-Dragonfish-Threat-Analysis.pdf",
-            "date": "2018",
-            "organization": "Accenture",
-            "author": "Bart Parys",
-            "title": "Dragonfish delivers New Form of Elise Malware targeting ASEAN Defence Ministers' Meeting and Associates",
-            "categories": [
-                "Elise",
-                "LOTUS PANDA"
-            ]
-        },
-        {
-            "data_url": "https://researchcenter.paloaltonetworks.com/2016/02/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/",
-            "date": "2016-02-03",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Emissary Trojan Changelog: Did Operation Lotus Blossom Cause It to Evolve?",
-            "categories": [
-                "Elise"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blog/research/70726/the-spring-dragon-apt/",
-            "date": "2015-06-17",
-            "organization": "Kaspersky Labs",
-            "author": "Kurt Baumgartner",
-            "title": "The Spring Dragon APT",
-            "categories": [
-                "Elise",
-                "LOTUS PANDA"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20200509171721/https://raw.githubusercontent.com/fdiskyou/threat-INTel/master/2015/GlobalThreatIntelReport.pdf",
-            "date": "2015-02-06",
-            "organization": "CrowdStrike",
-            "author": "CrowdStrike",
-            "title": "CrowdStrike Global Threat Intel Report 2014",
-            "categories": [
-                "BlackPOS",
-                "CryptoLocker",
-                "Derusbi",
-                "Elise",
-                "Enfal",
-                "EvilGrab",
-                "Gameover P2P",
-                "HttpBrowser",
-                "Medusa",
-                "Mirage",
-                "Naikon",
-                "NetTraveler",
-                "pirpi",
-                "PlugX",
-                "Poison Ivy",
-                "Sakula RAT",
-                "Sinowal",
-                "sykipot",
-                "taidoor"
-            ]
-        },
-        {
-            "data_url": "https://documents.trendmicro.com/assets/threat-reports/rpt-1h-2014-targeted-attack-trends-in-asia-pacific.pdf",
-            "date": "2014",
-            "organization": "Trend Micro",
-            "author": "UnknownUnknown",
-            "title": "Targeted Attack Trends in Asia-Pacific",
-            "categories": [
-                "Elise"
             ]
         }
     ]

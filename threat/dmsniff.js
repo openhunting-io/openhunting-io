@@ -35,7 +35,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "dmsniff",
     "analysis": null,
     "articles": [
@@ -60,5 +59,6 @@ var threatdata = {
                 "DMSniff"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

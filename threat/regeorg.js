@@ -33,52 +33,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [
-        {
-            "procedure_name": "reg",
-            "procedure_code": "s0075",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0075",
-            "techniques": [
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1112",
-                    "technique_link": "https://attack.mitre.org/techniques/T1112",
-                    "technique_name": "modify registry",
-                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
-                    "procedure_description": "reg may be used to interact with and modify the windows registry of a local or remote system at the command-line interface.[1]"
-                },
-                {
-                    "tactic_code": "ta0006",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
-                    "tactic_name": "credential access",
-                    "tactic_alias": "credential_access",
-                    "tactic_description": "The adversary is trying to steal account names and passwords.",
-                    "technique_code": "t1552.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1552/002",
-                    "technique_name": "unsecured credentials : credentials in registry",
-                    "technique_description": "adversaries may search the registry on compromised systems for insecurely stored credentials. the windows registry stores configuration information that can be used by the system or other programs. adversaries may query the registry looking for credentials and passwords that have been stored for use by other programs or services. sometimes these credentials are used for automatic logons.",
-                    "procedure_description": "reg may be used to find credentials in the windows registry.[1]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1012",
-                    "technique_link": "https://attack.mitre.org/techniques/T1012",
-                    "technique_name": "query registry",
-                    "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
-                    "procedure_description": "reg may be used to gather details from the windows registry of a local or remote system at the command-line interface.[77]"
-                }
-            ]
-        }
-    ],
     "file_name": "regeorg",
     "analysis": null,
     "articles": [
@@ -178,6 +132,52 @@ var threatdata = {
             "title": "reGeorg",
             "categories": [
                 "reGeorg"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "reg",
+            "procedure_code": "s0075",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0075",
+            "techniques": [
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "reg may be used to interact with and modify the windows registry of a local or remote system at the command-line interface.[1]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/002",
+                    "technique_name": "unsecured credentials : credentials in registry",
+                    "technique_description": "adversaries may search the registry on compromised systems for insecurely stored credentials. the windows registry stores configuration information that can be used by the system or other programs. adversaries may query the registry looking for credentials and passwords that have been stored for use by other programs or services. sometimes these credentials are used for automatic logons.",
+                    "procedure_description": "reg may be used to find credentials in the windows registry.[1]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1012",
+                    "technique_name": "query registry",
+                    "technique_description": "adversaries may interact with the windows registry to gather information about the system, configuration, and installed software.",
+                    "procedure_description": "reg may be used to gather details from the windows registry of a local or remote system at the command-line interface.[77]"
+                }
             ]
         }
     ]

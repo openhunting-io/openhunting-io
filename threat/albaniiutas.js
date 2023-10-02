@@ -52,7 +52,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-03-24 15:29:16",
-    "mitre": [],
     "file_name": "albaniiutas",
     "analysis": null,
     "articles": [
@@ -107,5 +106,6 @@ var threatdata = {
                 "Albaniiutas"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

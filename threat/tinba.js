@@ -56,7 +56,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "tinba",
     "analysis": null,
     "articles": [
@@ -245,5 +244,6 @@ var threatdata = {
                 "Tinba"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

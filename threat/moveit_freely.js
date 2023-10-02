@@ -19,8 +19,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "moveit_freely",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

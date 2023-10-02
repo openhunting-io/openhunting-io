@@ -39,6 +39,77 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "navrat",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://i.blackhat.com/asia-21/Friday-Handouts/as-21-Kuo-We-Are-About-To-Land-How-CloudDragon-Turns-A-Nightmare-Into-Reality.pdf",
+            "date": "2021-05-07",
+            "organization": "TEAMT5",
+            "author": "Jhih-Lin Kuo",
+            "title": "\"We Are About to Land\": How CloudDragon Turns a Nightmare Into Reality",
+            "categories": [
+                "FlowerPower",
+                "Appleseed",
+                "BabyShark",
+                "GoldDragon",
+                "NavRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
+            "date": "2020-02-19",
+            "organization": "Lexfo",
+            "author": "Lexfo",
+            "title": "The Lazarus Constellation A study on North Korean malware",
+            "categories": [
+                "FastCash",
+                "AppleJeus",
+                "BADCALL",
+                "Bankshot",
+                "Brambul",
+                "Dtrack",
+                "Duuzer",
+                "DYEPACK",
+                "ELECTRICFISH",
+                "HARDRAIN",
+                "Hermes",
+                "HOPLIGHT",
+                "Joanap",
+                "KEYMARBLE",
+                "Kimsuky",
+                "MimiKatz",
+                "MyDoom",
+                "NACHOCHEESE",
+                "NavRAT",
+                "PowerRatankba",
+                "RokRAT",
+                "Sierra(Alfa,Bravo, ...)",
+                "Volgmer",
+                "WannaCryptor"
+            ]
+        },
+        {
+            "data_url": "https://norfolkinfosec.com/how-to-analyzing-a-malicious-hangul-word-processor-document-from-a-dprk-threat-actor-group/",
+            "date": "2019-02-25",
+            "organization": "One Night in Norfolk",
+            "author": "Kevin Perlow",
+            "title": "How To: Analyzing a Malicious Hangul Word Processor Document from a DPRK Threat Actor Group",
+            "categories": [
+                "NavRAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2018/05/navrat.html?m=1",
+            "date": "2018-05-31",
+            "organization": "Cisco Talos",
+            "author": "Warren Mercer",
+            "title": "NavRAT Uses US-North Korea Summit As Decoy For Attacks In South Korea",
+            "categories": [
+                "NavRAT"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "navrat",
@@ -234,77 +305,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "navrat",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://i.blackhat.com/asia-21/Friday-Handouts/as-21-Kuo-We-Are-About-To-Land-How-CloudDragon-Turns-A-Nightmare-Into-Reality.pdf",
-            "date": "2021-05-07",
-            "organization": "TEAMT5",
-            "author": "Jhih-Lin Kuo",
-            "title": "\"We Are About to Land\": How CloudDragon Turns a Nightmare Into Reality",
-            "categories": [
-                "FlowerPower",
-                "Appleseed",
-                "BabyShark",
-                "GoldDragon",
-                "NavRAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.lexfo.fr/ressources/Lexfo-WhitePaper-The_Lazarus_Constellation.pdf",
-            "date": "2020-02-19",
-            "organization": "Lexfo",
-            "author": "Lexfo",
-            "title": "The Lazarus Constellation A study on North Korean malware",
-            "categories": [
-                "FastCash",
-                "AppleJeus",
-                "BADCALL",
-                "Bankshot",
-                "Brambul",
-                "Dtrack",
-                "Duuzer",
-                "DYEPACK",
-                "ELECTRICFISH",
-                "HARDRAIN",
-                "Hermes",
-                "HOPLIGHT",
-                "Joanap",
-                "KEYMARBLE",
-                "Kimsuky",
-                "MimiKatz",
-                "MyDoom",
-                "NACHOCHEESE",
-                "NavRAT",
-                "PowerRatankba",
-                "RokRAT",
-                "Sierra(Alfa,Bravo, ...)",
-                "Volgmer",
-                "WannaCryptor"
-            ]
-        },
-        {
-            "data_url": "https://norfolkinfosec.com/how-to-analyzing-a-malicious-hangul-word-processor-document-from-a-dprk-threat-actor-group/",
-            "date": "2019-02-25",
-            "organization": "One Night in Norfolk",
-            "author": "Kevin Perlow",
-            "title": "How To: Analyzing a Malicious Hangul Word Processor Document from a DPRK Threat Actor Group",
-            "categories": [
-                "NavRAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2018/05/navrat.html?m=1",
-            "date": "2018-05-31",
-            "organization": "Cisco Talos",
-            "author": "Warren Mercer",
-            "title": "NavRAT Uses US-North Korea Summit As Decoy For Attacks In South Korea",
-            "categories": [
-                "NavRAT"
             ]
         }
     ]

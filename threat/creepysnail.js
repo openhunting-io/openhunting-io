@@ -31,6 +31,24 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "creepysnail",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.welivesecurity.com/2022/10/11/polonium-targets-israel-creepy-malware/",
+            "date": "2022-10-11",
+            "organization": "ESET Research",
+            "author": "Mat\u00edas Porolli",
+            "title": "POLONIUM targets Israel with Creepy malware",
+            "categories": [
+                "CreepySnail",
+                "CreepExfil",
+                "DeepCreep",
+                "MegaCreep",
+                "Unidentified 097 (Polonium Keylogger)"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "creepysnail",
@@ -158,24 +176,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "creepysnail can connect to c2 for data exfiltration.[30]"
                 }
-            ]
-        }
-    ],
-    "file_name": "creepysnail",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.welivesecurity.com/2022/10/11/polonium-targets-israel-creepy-malware/",
-            "date": "2022-10-11",
-            "organization": "ESET Research",
-            "author": "Mat\u00edas Porolli",
-            "title": "POLONIUM targets Israel with Creepy malware",
-            "categories": [
-                "CreepySnail",
-                "CreepExfil",
-                "DeepCreep",
-                "MegaCreep",
-                "Unidentified 097 (Polonium Keylogger)"
             ]
         }
     ]

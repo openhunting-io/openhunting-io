@@ -31,6 +31,22 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "starloader",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
+            "date": "2017-11-07",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Sowbug: Cyber espionage group targets South American and Southeast Asian governments",
+            "categories": [
+                "Felismus",
+                "StarLoader",
+                "Sowbug"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "starloader",
@@ -62,22 +78,6 @@ var threatdata = {
                     "technique_description": "adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. this is done for the sake of evading defenses and observation. this may be done by placing an executable in a commonly trusted directory (ex: under system32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). in containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.",
                     "procedure_description": "starloader has masqueraded as legitimate software update packages such as adobe acrobat reader and intel.[156]"
                 }
-            ]
-        }
-    ],
-    "file_name": "starloader",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/sowbug-cyber-espionage-group-targets-south-american-and-southeast-asian-governments",
-            "date": "2017-11-07",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Sowbug: Cyber espionage group targets South American and Southeast Asian governments",
-            "categories": [
-                "Felismus",
-                "StarLoader",
-                "Sowbug"
             ]
         }
     ]

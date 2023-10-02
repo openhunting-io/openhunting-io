@@ -43,6 +43,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "coreshell",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "coreshell",
@@ -184,8 +187,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "coreshell",
-    "analysis": null,
-    "articles": []
+    ]
 };

@@ -37,6 +37,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "rclone",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "rclone",
@@ -118,8 +121,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "rclone",
-    "analysis": null,
-    "articles": []
+    ]
 };

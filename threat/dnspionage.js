@@ -1,49 +1,69 @@
 var threatdata = {
     "name": "DNSpionage",
-    "alias": "DNSpionage, Agent Drable, AgentDrable",
-    "category": "Malware",
-    "type": "Backdoor",
-    "modified": "2022-12-29",
+    "alias": "DNSpionage",
+    "category": "APT",
+    "type": "-",
+    "modified": "2021-04-08",
     "all_data": {
-        "tool": "DNSpionage",
+        "actor": "DNSpionage",
         "names": [
             {
-                "name": "DNSpionage"
-            },
-            {
-                "name": "Agent Drable"
-            },
-            {
-                "name": "AgentDrable"
+                "name": "DNSpionage",
+                "name-giver": "Talos"
             }
         ],
-        "description": "(Talos) Based on this actor's infrastructure and TTPs, we haven't been able to connect them with any other campaign or actor that's been observed recently. This particular campaign utilizes two fake, malicious websites containing job postings that are used to compromise targets via malicious Microsoft Office documents with embedded macros. The malware utilized by this actor, which we are calling 'DNSpionage,' supports HTTP and DNS communication with the attackers.\n\nIn a separate campaign, the attackers used the same IP to redirect the DNS of legitimate .gov and private company domains. During each DNS compromise, the actor carefully generated Let's Encrypt certificates for the redirected domains. These certificates provide X.509 certificates for TLS free of charge to the user. We don't know at this time if the DNS redirections were successful.",
-        "category": "Malware",
-        "type": [
-            "Backdoor"
+        "country": [
+            "Iran"
+        ],
+        "sponsor": "State-sponsored",
+        "motivation": [
+            "Information theft and espionage"
+        ],
+        "first-seen": "2019",
+        "description": "(Talos) Cisco Talos recently discovered a new campaign targeting Lebanon and the United Arab Emirates (UAE) affecting .gov domains, as well as a private Lebanese airline company. Based on our research, it\u2019s clear that this adversary spent time understanding the victims\u2019 network infrastructure in order to remain under the radar and act as inconspicuous as possible during their attacks.\n\nBased on this actor\u2019s infrastructure and TTPs, we haven\u2019t been able to connect them with any other campaign or actor that\u2019s been observed recently. This particular campaign utilizes two fake, malicious websites containing job postings that are used to compromise targets via malicious Microsoft Office documents with embedded macros. The malware utilized by this actor, which we are calling \u201cDNSpionage,\u201d supports HTTP and DNS communication with the attackers.\n\nTalos found a possible relationship between DNSpionage and {{OilRig, APT 34, Helix Kitten, Chrysene}}.",
+        "observed-sectors": [
+            "Aviation",
+            "Government",
+            "Law enforcement",
+            "Telecommunications",
+            "Internet infrastructure"
+        ],
+        "observed-countries": [
+            "Albania",
+            "Cyprus",
+            "Egypt",
+            "Iraq",
+            "Jordan",
+            "Kuwait",
+            "Lebanon",
+            "Libya",
+            "Sweden",
+            "UAE",
+            "USA",
+            "North Africa"
+        ],
+        "tools": [
+            "DNSpionage",
+            "Karkoff"
+        ],
+        "operations": [
+            {
+                "date": "2019-04",
+                "activity": "DNSpionage brings out the Karkoff\nhttps://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html"
+            }
         ],
         "information": [
             "https://blog.talosintelligence.com/2018/11/dnspionage-campaign-targets-middle-east.html",
-            "https://www.us-cert.gov/ncas/alerts/AA19-024A",
-            "https://blog-cert.opmd.fr/dnspionage-focus-on-internal-actions/",
-            "https://www.zdnet.com/article/source-code-of-iranian-cyber-espionage-tools-leaked-on-telegram/",
             "https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html",
-            "https://www.lastline.com/labsblog/threat-actor-cold-river-network-traffic-analysis-and-a-deep-dive-on-agent-drable/",
-            "https://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html"
+            "https://www.crowdstrike.com/blog/widespread-dns-hijacking-activity-targets-multiple-sectors/",
+            "https://krebsonsecurity.com/tag/dnspionage/"
         ],
-        "malpedia": [
-            "https://malpedia.caad.fkie.fraunhofer.de/details/win.dnspionage"
-        ],
-        "alienvault-otx": [
-            "https://otx.alienvault.com/browse/pulses?q=tag:DNSpionage"
-        ],
-        "uuid": "3b9f0a41-e890-4c2e-aacb-fab6def66f87",
-        "last-card-change": "2022-12-29",
+        "uuid": "bada63ae-9429-4f84-b141-2970799ac9d5",
+        "last-card-change": "2020-04-15",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "dnspionage",
     "analysis": null,
     "articles": [
@@ -317,5 +337,6 @@ var threatdata = {
                 "DNSpionage"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

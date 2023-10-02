@@ -58,6 +58,85 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-08-14 22:45:08",
+    "file_name": "micropsia",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mantis-palestinian-attacks",
+            "date": "2023-04-04",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Mantis: New Tooling Used in Attacks Against Palestinian Targets",
+            "categories": [
+                "Arid Gopher",
+                "Micropsia"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2022/02/arid-viper-targets-palestine.html",
+            "date": "2022-02-02",
+            "organization": "Cisco",
+            "author": "Asheer Malhotra",
+            "title": "Arid Viper APT targets Palestine with new wave of politically themed phishing attacks, malware",
+            "categories": [
+                "Micropsia"
+            ]
+        },
+        {
+            "data_url": "https://about.fb.com/wp-content/uploads/2021/04/Technical-threat-report-Arid-Viper-April-2021.pdf",
+            "date": "2021-04-21",
+            "organization": "Facebook",
+            "author": "Michael Flossman",
+            "title": "Technical Paper // Taking Action Against Arid Viper",
+            "categories": [
+                "Viper RAT",
+                "Micropsia"
+            ]
+        },
+        {
+            "data_url": "https://github.com/jeFF0Falltrades/IoCs/blob/master/APT/micropsia_apt_c_23.md",
+            "date": "2019-08-15",
+            "organization": "Github (jeFF0Falltrades)",
+            "author": "Jeff Archer",
+            "title": "MICROPSIA (APT-C-23)",
+            "categories": [
+                "Micropsia"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/apt-attack-middle-east-big-bang/",
+            "date": "2018-07-08",
+            "organization": "Check Point Research",
+            "author": "Check Point Research",
+            "title": "APT Attack In the Middle East: The Big Bang",
+            "categories": [
+                "Micropsia",
+                "The Big Bang"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
+            "date": "2017-06-19",
+            "organization": "Cisco Talos",
+            "author": "Paul Rascagn\u00e8res",
+            "title": "Delphi Used To Score Against Palestine",
+            "categories": [
+                "Micropsia",
+                "AridViper"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/04/unit42-targeted-attacks-middle-east-using-kasperagent-micropsia/",
+            "date": "2017-04-05",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Tomer Bar",
+            "title": "Targeted Attacks in the Middle East Using KASPERAGENT and MICROPSIA",
+            "categories": [
+                "KasperAgent",
+                "Micropsia"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "micropsia",
@@ -281,85 +360,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "micropsia can download and execute an executable from the c2 server.[291][292]"
                 }
-            ]
-        }
-    ],
-    "file_name": "micropsia",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mantis-palestinian-attacks",
-            "date": "2023-04-04",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Mantis: New Tooling Used in Attacks Against Palestinian Targets",
-            "categories": [
-                "Arid Gopher",
-                "Micropsia"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2022/02/arid-viper-targets-palestine.html",
-            "date": "2022-02-02",
-            "organization": "Cisco",
-            "author": "Asheer Malhotra",
-            "title": "Arid Viper APT targets Palestine with new wave of politically themed phishing attacks, malware",
-            "categories": [
-                "Micropsia"
-            ]
-        },
-        {
-            "data_url": "https://about.fb.com/wp-content/uploads/2021/04/Technical-threat-report-Arid-Viper-April-2021.pdf",
-            "date": "2021-04-21",
-            "organization": "Facebook",
-            "author": "Michael Flossman",
-            "title": "Technical Paper // Taking Action Against Arid Viper",
-            "categories": [
-                "Viper RAT",
-                "Micropsia"
-            ]
-        },
-        {
-            "data_url": "https://github.com/jeFF0Falltrades/IoCs/blob/master/APT/micropsia_apt_c_23.md",
-            "date": "2019-08-15",
-            "organization": "Github (jeFF0Falltrades)",
-            "author": "Jeff Archer",
-            "title": "MICROPSIA (APT-C-23)",
-            "categories": [
-                "Micropsia"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/apt-attack-middle-east-big-bang/",
-            "date": "2018-07-08",
-            "organization": "Check Point Research",
-            "author": "Check Point Research",
-            "title": "APT Attack In the Middle East: The Big Bang",
-            "categories": [
-                "Micropsia",
-                "The Big Bang"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/06/palestine-delphi.html",
-            "date": "2017-06-19",
-            "organization": "Cisco Talos",
-            "author": "Paul Rascagn\u00e8res",
-            "title": "Delphi Used To Score Against Palestine",
-            "categories": [
-                "Micropsia",
-                "AridViper"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2017/04/unit42-targeted-attacks-middle-east-using-kasperagent-micropsia/",
-            "date": "2017-04-05",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Tomer Bar",
-            "title": "Targeted Attacks in the Middle East Using KASPERAGENT and MICROPSIA",
-            "categories": [
-                "KasperAgent",
-                "Micropsia"
             ]
         }
     ]

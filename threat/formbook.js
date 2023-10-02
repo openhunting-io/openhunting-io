@@ -58,29 +58,29 @@ var threatdata = {
             "malware": "win.formbook",
             "last_update": "2023-09-21 15:11:18",
             "tags": [
-                "exe",
-                "Guloader",
                 "s0s2",
+                "xloader",
+                "xmrig",
+                "TempleLoader",
+                "opendir",
                 "pzb5",
                 "stealer",
-                "xloader",
-                "TempleLoader",
-                "BitRAT",
-                "opendir",
-                "nqs9",
-                "rtf",
-                "malspam",
-                "8o3b",
-                "dropped-by-GuLoader",
-                "FormBook",
-                "Xloader",
-                "xmrig",
                 "gh0n",
-                "\u4e0d\u5be9\u30e1\u30fc\u30eb",
+                "FormBook",
+                "malspam",
                 "qugo",
                 "DMG",
+                "\u4e0d\u5be9\u30e1\u30fc\u30eb",
+                "Guloader",
+                "Formbook",
+                "rtf",
+                "Xloader",
+                "nqs9",
+                "exe",
+                "dropped-by-GuLoader",
+                "8o3b",
                 "formbook",
-                "Formbook"
+                "BitRAT"
             ],
             "ioc": {
                 "domain": [
@@ -13760,7 +13760,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-21 15:11:18",
-    "mitre": [],
     "file_name": "formbook",
     "analysis": null,
     "articles": [
@@ -14614,5 +14613,6 @@ var threatdata = {
                 "Formbook"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

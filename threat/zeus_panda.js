@@ -59,6 +59,220 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "zeus_panda",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
+            "date": "2021-09-03",
+            "organization": "Trend Micro",
+            "author": "Mohamad Mokbel",
+            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
+            "categories": [
+                "AdWind",
+                "ostap",
+                "AsyncRAT",
+                "BazarBackdoor",
+                "BitRAT",
+                "Buer",
+                "Chthonic",
+                "CloudEyE",
+                "Cobalt Strike",
+                "DCRat",
+                "Dridex",
+                "FindPOS",
+                "GootKit",
+                "Gozi",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "Orcus RAT",
+                "PandaBanker",
+                "Qadars",
+                "QakBot",
+                "Quasar RAT",
+                "Rockloader",
+                "ServHelper",
+                "Shifu",
+                "SManager",
+                "TorrentLocker",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus",
+                "Zloader"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/@crovax/panda-banker-analysis-part-1-d08b3a855847",
+            "date": "2021-08-21",
+            "organization": "Medium Crovax",
+            "author": "Crovax",
+            "title": "Panda Banker Analysis Part 1",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
+            "date": "2020-08-09",
+            "organization": "F5 Labs",
+            "author": "Remi Cohen",
+            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
+            "categories": [
+                "BackSwap",
+                "Carberp",
+                "Citadel",
+                "DanaBot",
+                "Dridex",
+                "Dyre",
+                "Emotet",
+                "Gozi",
+                "Kronos",
+                "PandaBanker",
+                "Ramnit",
+                "Shylock",
+                "SpyEye",
+                "Tinba",
+                "TrickBot",
+                "Vawtrak",
+                "Zeus"
+            ]
+        },
+        {
+            "data_url": "https://www.youtube.com/watch?v=J7VOfAJvxEY",
+            "date": "2020-05-20",
+            "organization": "Youtube (nonepizza)",
+            "author": "nonepizza",
+            "title": "(PandaBanker Analysis) Fixing Corrupted PE Headers and Unmapping an Executable",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
+            "date": "2019-12-12",
+            "organization": "FireEye",
+            "author": "Chi-en Shen",
+            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
+            "categories": [
+                "Cerberus",
+                "TSCookie",
+                "Cobalt Strike",
+                "Dtrack",
+                "Emotet",
+                "Formbook",
+                "IcedID",
+                "Icefog",
+                "IRONHALO",
+                "Loki Password Stealer (PWS)",
+                "PandaBanker",
+                "PLEAD",
+                "poisonplug",
+                "TrickBot",
+                "BlackTech"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta544-targets-geographies-italy-japan-range-malware",
+            "date": "2019-07-11",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Threat Insight Team",
+            "title": "Threat Actor Profile: TA544 targets geographies from Italy to Japan with a range of malware",
+            "categories": [
+                "ISFB",
+                "PandaBanker",
+                "UrlZone",
+                "NARWHAL SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://github.com/JR0driguezB/malware_configs/tree/master/PandaBanker",
+            "date": "2018-10-09",
+            "organization": "Github (JR0driguezB)",
+            "author": "JR0driguezB",
+            "title": "Malware Configs - Pandabanker",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "https://www.vkremez.com/2018/08/lets-learn-dissecting-panda-banker.html",
+            "date": "2018-08-20",
+            "organization": "Vitali Kremez Blog",
+            "author": "Vitali Kremez",
+            "title": "Let's Learn: Dissecting Panda Banker & Modules: Webinject, Grabber & Keylogger DLL Modules",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/holiday-lull-not-so-much",
+            "date": "2018-01-12",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Holiday lull? Not so much",
+            "categories": [
+                "Dridex",
+                "Emotet",
+                "GlobeImposter",
+                "ISFB",
+                "Necurs",
+                "PandaBanker",
+                "UrlZone",
+                "NARWHAL SPIDER"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/threat-insight/post/zeus-panda-banking-trojan-targets-online-holiday-shoppers",
+            "date": "2017-12-14",
+            "organization": "Proofpoint",
+            "author": "Proofpoint Staff",
+            "title": "Zeus Panda Banking Trojan Targets Online Holiday Shoppers",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/11/zeus-panda-campaign.html",
+            "date": "2017-11-02",
+            "organization": "Talos",
+            "author": "Edmund Brumaghin",
+            "title": "Poisoning the Well: Banking Trojan Targets Google Search Results",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf",
+            "date": "2017-06-22",
+            "organization": "G Data",
+            "author": "Luca Ebach",
+            "title": "Analysis Results of Zeus.Variant.Panda",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "https://cyber.wtf/2017/03/13/zeus-panda-webinjects-dont-trust-your-eyes/",
+            "date": "2017-03-13",
+            "organization": "",
+            "author": "Manuel K.-B.",
+            "title": "Zeus Panda Webinjects: Don\u2019t trust your eyes",
+            "categories": [
+                "PandaBanker"
+            ]
+        },
+        {
+            "data_url": "https://cyber.wtf/2017/02/03/zeus-panda-webinjects-a-case-study/",
+            "date": "2017-02-03",
+            "organization": "",
+            "author": "Manuel K.-B.",
+            "title": "Zeus Panda Webinjects: a case study",
+            "categories": [
+                "PandaBanker"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "zeus panda",
@@ -390,220 +604,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "zeus panda can download additional malware plug-in modules and execute them on the victim\u2019s machine.[490]"
                 }
-            ]
-        }
-    ],
-    "file_name": "zeus_panda",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
-            "date": "2021-09-03",
-            "organization": "Trend Micro",
-            "author": "Mohamad Mokbel",
-            "title": "The State of SSL/TLS Certificate Usage in  Malware C&C Communications",
-            "categories": [
-                "AdWind",
-                "ostap",
-                "AsyncRAT",
-                "BazarBackdoor",
-                "BitRAT",
-                "Buer",
-                "Chthonic",
-                "CloudEyE",
-                "Cobalt Strike",
-                "DCRat",
-                "Dridex",
-                "FindPOS",
-                "GootKit",
-                "Gozi",
-                "IcedID",
-                "ISFB",
-                "Nanocore RAT",
-                "Orcus RAT",
-                "PandaBanker",
-                "Qadars",
-                "QakBot",
-                "Quasar RAT",
-                "Rockloader",
-                "ServHelper",
-                "Shifu",
-                "SManager",
-                "TorrentLocker",
-                "TrickBot",
-                "Vawtrak",
-                "Zeus",
-                "Zloader"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/@crovax/panda-banker-analysis-part-1-d08b3a855847",
-            "date": "2021-08-21",
-            "organization": "Medium Crovax",
-            "author": "Crovax",
-            "title": "Panda Banker Analysis Part 1",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "https://www.f5.com/labs/articles/education/banking-trojans-a-reference-guide-to-the-malware-family-tree",
-            "date": "2020-08-09",
-            "organization": "F5 Labs",
-            "author": "Remi Cohen",
-            "title": "Banking Trojans: A Reference Guide to the Malware Family Tree",
-            "categories": [
-                "BackSwap",
-                "Carberp",
-                "Citadel",
-                "DanaBot",
-                "Dridex",
-                "Dyre",
-                "Emotet",
-                "Gozi",
-                "Kronos",
-                "PandaBanker",
-                "Ramnit",
-                "Shylock",
-                "SpyEye",
-                "Tinba",
-                "TrickBot",
-                "Vawtrak",
-                "Zeus"
-            ]
-        },
-        {
-            "data_url": "https://www.youtube.com/watch?v=J7VOfAJvxEY",
-            "date": "2020-05-20",
-            "organization": "Youtube (nonepizza)",
-            "author": "nonepizza",
-            "title": "(PandaBanker Analysis) Fixing Corrupted PE Headers and Unmapping an Executable",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "https://www.slideshare.net/codeblue_jp/cb19-cyber-threat-landscape-in-japan-revealing-threat-in-the-shadow-by-chi-en-shen-ashley-oleg-bondarenko",
-            "date": "2019-12-12",
-            "organization": "FireEye",
-            "author": "Chi-en Shen",
-            "title": "Cyber Threat Landscape in Japan \u2013 Revealing Threat in the Shadow",
-            "categories": [
-                "Cerberus",
-                "TSCookie",
-                "Cobalt Strike",
-                "Dtrack",
-                "Emotet",
-                "Formbook",
-                "IcedID",
-                "Icefog",
-                "IRONHALO",
-                "Loki Password Stealer (PWS)",
-                "PandaBanker",
-                "PLEAD",
-                "poisonplug",
-                "TrickBot",
-                "BlackTech"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/threat-actor-profile-ta544-targets-geographies-italy-japan-range-malware",
-            "date": "2019-07-11",
-            "organization": "Proofpoint",
-            "author": "Proofpoint Threat Insight Team",
-            "title": "Threat Actor Profile: TA544 targets geographies from Italy to Japan with a range of malware",
-            "categories": [
-                "ISFB",
-                "PandaBanker",
-                "UrlZone",
-                "NARWHAL SPIDER"
-            ]
-        },
-        {
-            "data_url": "https://github.com/JR0driguezB/malware_configs/tree/master/PandaBanker",
-            "date": "2018-10-09",
-            "organization": "Github (JR0driguezB)",
-            "author": "JR0driguezB",
-            "title": "Malware Configs - Pandabanker",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "https://www.vkremez.com/2018/08/lets-learn-dissecting-panda-banker.html",
-            "date": "2018-08-20",
-            "organization": "Vitali Kremez Blog",
-            "author": "Vitali Kremez",
-            "title": "Let's Learn: Dissecting Panda Banker & Modules: Webinject, Grabber & Keylogger DLL Modules",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/holiday-lull-not-so-much",
-            "date": "2018-01-12",
-            "organization": "Proofpoint",
-            "author": "Proofpoint Staff",
-            "title": "Holiday lull? Not so much",
-            "categories": [
-                "Dridex",
-                "Emotet",
-                "GlobeImposter",
-                "ISFB",
-                "Necurs",
-                "PandaBanker",
-                "UrlZone",
-                "NARWHAL SPIDER"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/threat-insight/post/zeus-panda-banking-trojan-targets-online-holiday-shoppers",
-            "date": "2017-12-14",
-            "organization": "Proofpoint",
-            "author": "Proofpoint Staff",
-            "title": "Zeus Panda Banking Trojan Targets Online Holiday Shoppers",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/11/zeus-panda-campaign.html",
-            "date": "2017-11-02",
-            "organization": "Talos",
-            "author": "Edmund Brumaghin",
-            "title": "Poisoning the Well: Banking Trojan Targets Google Search Results",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "https://cyberwtf.files.wordpress.com/2017/07/panda-whitepaper.pdf",
-            "date": "2017-06-22",
-            "organization": "G Data",
-            "author": "Luca Ebach",
-            "title": "Analysis Results of Zeus.Variant.Panda",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "https://cyber.wtf/2017/03/13/zeus-panda-webinjects-dont-trust-your-eyes/",
-            "date": "2017-03-13",
-            "organization": "",
-            "author": "Manuel K.-B.",
-            "title": "Zeus Panda Webinjects: Don\u2019t trust your eyes",
-            "categories": [
-                "PandaBanker"
-            ]
-        },
-        {
-            "data_url": "https://cyber.wtf/2017/02/03/zeus-panda-webinjects-a-case-study/",
-            "date": "2017-02-03",
-            "organization": "",
-            "author": "Manuel K.-B.",
-            "title": "Zeus Panda Webinjects: a case study",
-            "categories": [
-                "PandaBanker"
             ]
         }
     ]

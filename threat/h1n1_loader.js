@@ -37,6 +37,20 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "h1n1_loader",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities",
+            "date": "2016-09-13",
+            "organization": "Cisco",
+            "author": "Josh Reynolds",
+            "title": "H1N1: Technical analysis reveals new capabilities",
+            "categories": [
+                "H1N1 Loader"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "h1n1",
@@ -224,20 +238,6 @@ var threatdata = {
                     "technique_description": "adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery. this may deny access to available backups and recovery options.",
                     "procedure_description": "h1n1 disable recovery options and deletes shadow copies from the victim.[31]"
                 }
-            ]
-        }
-    ],
-    "file_name": "h1n1_loader",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blogs.cisco.com/security/h1n1-technical-analysis-reveals-new-capabilities",
-            "date": "2016-09-13",
-            "organization": "Cisco",
-            "author": "Josh Reynolds",
-            "title": "H1N1: Technical analysis reveals new capabilities",
-            "categories": [
-                "H1N1 Loader"
             ]
         }
     ]

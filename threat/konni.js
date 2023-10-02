@@ -45,11 +45,11 @@ var threatdata = {
             "malware": "win.konni",
             "last_update": "2023-09-14 13:56:56",
             "tags": [
-                "APT37",
-                "APT",
-                "KONNI",
                 "APT Konni",
-                "Konni"
+                "APT",
+                "Konni",
+                "APT37",
+                "KONNI"
             ],
             "ioc": {
                 "domain": [
@@ -266,6 +266,218 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-09-14 13:56:56",
+    "file_name": "konni",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2022/09/06/malware-tricks-23.html",
+            "date": "2022-09-06",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development tricks: parent PID spoofing. Simple C++ example.",
+            "categories": [
+                "Cobalt Strike",
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/north-korean-hackers-attack-eu-targets-with-konni-rat-malware/",
+            "date": "2022-07-23",
+            "organization": "BleepingComputer",
+            "author": "Bill Toulas",
+            "title": "North Korean hackers attack EU targets with Konni RAT malware",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://www.securonix.com/blog/stiffbizon-detection-new-attack-campaign-observed/",
+            "date": "2022-07-20",
+            "organization": "Securonix Threat Labs",
+            "author": "D. Iuzvyk",
+            "title": "STIFF#BIZON Detection Using Securonix \u2013 New Attack Campaign Observed Possibly Linked to Konni/APT37 (North Korea) - Securonix",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/02/malware-pers-3.html",
+            "date": "2022-05-02",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development: persistence - part 3. COM DLL hijack. Simple C++ example",
+            "categories": [
+                "Agent.BTZ",
+                "Ave Maria",
+                "Konni",
+                "Mosquito",
+                "TurlaRPC"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-intelligence/2022/01/konni-evolves-into-stealthier-rat/",
+            "date": "2022-01-26",
+            "organization": "Malwarebytes",
+            "author": "Roberto Santos",
+            "title": "KONNI evolves into stealthier RAT",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://www.bleepingcomputer.com/news/security/hackers-take-over-diplomats-email-target-russian-deputy-minister/",
+            "date": "2022-01-12",
+            "organization": "BleepingComputer",
+            "author": "Ionut Ilascu",
+            "title": "Hackers take over diplomat's email, target Russian deputy minister",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://blog.lumen.com/new-konni-campaign-targeting-russian-ministry-of-foreign-affairs/",
+            "date": "2022-01-05",
+            "organization": "Lumen",
+            "author": "Danny Adamitis",
+            "title": "New Konni Campaign Kicks Off the New Year by Targeting Russian Ministry of Foreign Affairs",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://cluster25.io/wp-content/uploads/2022/01/Konni_targeting_Russian_diplomatic_sector.pdf",
+            "date": "2022-01-03",
+            "organization": "Cluster25",
+            "author": "Cluster25",
+            "title": "North Korean Group \u201cKONNI\u201d Targets The Russian Diplomatic Sector With New Versions Of Malware Implants",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
+            "date": "2021-09-06",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "AV engines evasion for C++ simple malware: part 2",
+            "categories": [
+                "Agent Tesla",
+                "Amadey",
+                "Anchor",
+                "AnchorMTea",
+                "Carbanak",
+                "Carberp",
+                "Cardinal RAT",
+                "Felixroot",
+                "Konni",
+                "Loki Password Stealer (PWS)",
+                "Maze"
+            ]
+        },
+        {
+            "data_url": "https://blog.malwarebytes.com/threat-intelligence/2021/08/new-variant-of-konni-malware-used-in-campaign-targetting-russia/",
+            "date": "2021-08-20",
+            "organization": "Malwarebytes",
+            "author": "Hossein Jazi",
+            "title": "New variant of Konni malware used in campaign targetting Russia",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-227a",
+            "date": "2020-08-14",
+            "organization": "Department of Homeland Security",
+            "author": "US-CERT",
+            "title": "Alert (AA20-227A): Phishing Emails Used to Deploy KONNI Malware",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://e.cyberint.com/hubfs/Cyberint_Konni%20Malware%202019%20Campaign_Report.pdf",
+            "date": "2020-01-27",
+            "organization": "CyberInt",
+            "author": "CyberInt",
+            "title": "Konni Malware 2019 Campaign",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/d-hunter/a-look-into-konni-2019-campaign-b45a0f321e9b",
+            "date": "2020-01-04",
+            "organization": "Medium d-hunter",
+            "author": "Doron Karmi",
+            "title": "A Look Into Konni 2019 Campaign",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://blog.alyac.co.kr/2474",
+            "date": "2019-08-19",
+            "organization": "EST Security",
+            "author": "East Security Response Center",
+            "title": "Konni APT organization emerges as an attack disguised as Russian document",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/",
+            "date": "2019-05-13",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "ScarCruft continues to evolve, introduces Bluetooth harvester",
+            "categories": [
+                "Konni",
+                "RokRAT",
+                "UACMe",
+                "APT37"
+            ]
+        },
+        {
+            "data_url": "https://blog.fortinet.com/2017/08/15/a-quick-look-at-a-new-konni-rat-variant",
+            "date": "2017-08-15",
+            "organization": "Fortinet",
+            "author": "Jasper Manuel",
+            "title": "A Quick Look at a New KONNI RAT Variant",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/07/konni-references-north-korean-missile-capabilities.html",
+            "date": "2017-07-06",
+            "organization": "Cisco Talos",
+            "author": "Paul Rascagn\u00e8res",
+            "title": "New KONNI Campaign References North Korean Missile Capabilities",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "https://vallejo.cc/2017/07/08/analysis-of-new-variant-of-konni-rat/",
+            "date": "2017-07",
+            "organization": "vallejo.cc",
+            "author": "vallejocc",
+            "title": "Analysis of new variant of Konni RAT",
+            "categories": [
+                "Konni"
+            ]
+        },
+        {
+            "data_url": "http://blog.talosintelligence.com/2017/05/konni-malware-under-radar-for-years.html",
+            "date": "2017-05-03",
+            "organization": "Cisco Talos",
+            "author": "Paul Rascagn\u00e8res",
+            "title": "KONNI: A Malware Under The Radar For Years",
+            "categories": [
+                "Konni"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "konni",
@@ -837,218 +1049,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an existing command and control channel. stolen data is encoded into the normal communications channel using the same protocol as command and control communications.",
                     "procedure_description": "konni has sent data and files to its c2 server.[69][70][71]"
                 }
-            ]
-        }
-    ],
-    "file_name": "konni",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://cocomelonc.github.io/malware/2022/09/06/malware-tricks-23.html",
-            "date": "2022-09-06",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development tricks: parent PID spoofing. Simple C++ example.",
-            "categories": [
-                "Cobalt Strike",
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/north-korean-hackers-attack-eu-targets-with-konni-rat-malware/",
-            "date": "2022-07-23",
-            "organization": "BleepingComputer",
-            "author": "Bill Toulas",
-            "title": "North Korean hackers attack EU targets with Konni RAT malware",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://www.securonix.com/blog/stiffbizon-detection-new-attack-campaign-observed/",
-            "date": "2022-07-20",
-            "organization": "Securonix Threat Labs",
-            "author": "D. Iuzvyk",
-            "title": "STIFF#BIZON Detection Using Securonix \u2013 New Attack Campaign Observed Possibly Linked to Konni/APT37 (North Korea) - Securonix",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2022/05/02/malware-pers-3.html",
-            "date": "2022-05-02",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "Malware development: persistence - part 3. COM DLL hijack. Simple C++ example",
-            "categories": [
-                "Agent.BTZ",
-                "Ave Maria",
-                "Konni",
-                "Mosquito",
-                "TurlaRPC"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-intelligence/2022/01/konni-evolves-into-stealthier-rat/",
-            "date": "2022-01-26",
-            "organization": "Malwarebytes",
-            "author": "Roberto Santos",
-            "title": "KONNI evolves into stealthier RAT",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://www.bleepingcomputer.com/news/security/hackers-take-over-diplomats-email-target-russian-deputy-minister/",
-            "date": "2022-01-12",
-            "organization": "BleepingComputer",
-            "author": "Ionut Ilascu",
-            "title": "Hackers take over diplomat's email, target Russian deputy minister",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://blog.lumen.com/new-konni-campaign-targeting-russian-ministry-of-foreign-affairs/",
-            "date": "2022-01-05",
-            "organization": "Lumen",
-            "author": "Danny Adamitis",
-            "title": "New Konni Campaign Kicks Off the New Year by Targeting Russian Ministry of Foreign Affairs",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://cluster25.io/wp-content/uploads/2022/01/Konni_targeting_Russian_diplomatic_sector.pdf",
-            "date": "2022-01-03",
-            "organization": "Cluster25",
-            "author": "Cluster25",
-            "title": "North Korean Group \u201cKONNI\u201d Targets The Russian Diplomatic Sector With New Versions Of Malware Implants",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://cocomelonc.github.io/tutorial/2021/09/06/simple-malware-av-evasion-2.html",
-            "date": "2021-09-06",
-            "organization": "cocomelonc",
-            "author": "cocomelonc",
-            "title": "AV engines evasion for C++ simple malware: part 2",
-            "categories": [
-                "Agent Tesla",
-                "Amadey",
-                "Anchor",
-                "AnchorMTea",
-                "Carbanak",
-                "Carberp",
-                "Cardinal RAT",
-                "Felixroot",
-                "Konni",
-                "Loki Password Stealer (PWS)",
-                "Maze"
-            ]
-        },
-        {
-            "data_url": "https://blog.malwarebytes.com/threat-intelligence/2021/08/new-variant-of-konni-malware-used-in-campaign-targetting-russia/",
-            "date": "2021-08-20",
-            "organization": "Malwarebytes",
-            "author": "Hossein Jazi",
-            "title": "New variant of Konni malware used in campaign targetting Russia",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://us-cert.cisa.gov/ncas/alerts/aa20-227a",
-            "date": "2020-08-14",
-            "organization": "Department of Homeland Security",
-            "author": "US-CERT",
-            "title": "Alert (AA20-227A): Phishing Emails Used to Deploy KONNI Malware",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://e.cyberint.com/hubfs/Cyberint_Konni%20Malware%202019%20Campaign_Report.pdf",
-            "date": "2020-01-27",
-            "organization": "CyberInt",
-            "author": "CyberInt",
-            "title": "Konni Malware 2019 Campaign",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://medium.com/d-hunter/a-look-into-konni-2019-campaign-b45a0f321e9b",
-            "date": "2020-01-04",
-            "organization": "Medium d-hunter",
-            "author": "Doron Karmi",
-            "title": "A Look Into Konni 2019 Campaign",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://blog.alyac.co.kr/2474",
-            "date": "2019-08-19",
-            "organization": "EST Security",
-            "author": "East Security Response Center",
-            "title": "Konni APT organization emerges as an attack disguised as Russian document",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/",
-            "date": "2019-05-13",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "ScarCruft continues to evolve, introduces Bluetooth harvester",
-            "categories": [
-                "Konni",
-                "RokRAT",
-                "UACMe",
-                "APT37"
-            ]
-        },
-        {
-            "data_url": "https://blog.fortinet.com/2017/08/15/a-quick-look-at-a-new-konni-rat-variant",
-            "date": "2017-08-15",
-            "organization": "Fortinet",
-            "author": "Jasper Manuel",
-            "title": "A Quick Look at a New KONNI RAT Variant",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/07/konni-references-north-korean-missile-capabilities.html",
-            "date": "2017-07-06",
-            "organization": "Cisco Talos",
-            "author": "Paul Rascagn\u00e8res",
-            "title": "New KONNI Campaign References North Korean Missile Capabilities",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "https://vallejo.cc/2017/07/08/analysis-of-new-variant-of-konni-rat/",
-            "date": "2017-07",
-            "organization": "vallejo.cc",
-            "author": "vallejocc",
-            "title": "Analysis of new variant of Konni RAT",
-            "categories": [
-                "Konni"
-            ]
-        },
-        {
-            "data_url": "http://blog.talosintelligence.com/2017/05/konni-malware-under-radar-for-years.html",
-            "date": "2017-05-03",
-            "organization": "Cisco Talos",
-            "author": "Paul Rascagn\u00e8res",
-            "title": "KONNI: A Malware Under The Radar For Years",
-            "categories": [
-                "Konni"
             ]
         }
     ]

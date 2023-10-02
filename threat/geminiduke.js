@@ -37,6 +37,21 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "geminiduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog-assets.f-secure.com/wp-content/uploads/2020/03/18122307/F-Secure_Dukes_Whitepaper.pdf",
+            "date": "2015-08-17",
+            "organization": "F-Secure Labs",
+            "author": "Noora Hyv\u00e4rinen",
+            "title": "THE DUKES 7 YEARS OF RUSSIAN CYBERESPIONAGE",
+            "categories": [
+                "COZYDUKE",
+                "GeminiDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "miniduke",
@@ -232,21 +247,6 @@ var threatdata = {
                     "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
                     "procedure_description": "geminiduke uses http and https for command and control.[66]"
                 }
-            ]
-        }
-    ],
-    "file_name": "geminiduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog-assets.f-secure.com/wp-content/uploads/2020/03/18122307/F-Secure_Dukes_Whitepaper.pdf",
-            "date": "2015-08-17",
-            "organization": "F-Secure Labs",
-            "author": "Noora Hyv\u00e4rinen",
-            "title": "THE DUKES 7 YEARS OF RUSSIAN CYBERESPIONAGE",
-            "categories": [
-                "COZYDUKE",
-                "GeminiDuke"
             ]
         }
     ]

@@ -34,6 +34,86 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "keyplug",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0330.pdf",
+            "date": "2023-03-30",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "With KEYPLUG, China\u2019s RedGolf Spies On, Steals From Wide Field of Targets",
+            "categories": [
+                "KEYPLUG",
+                "Cobalt Strike",
+                "PlugX"
+            ]
+        },
+        {
+            "data_url": "https://i.blackhat.com/Asia-22/Thursday-Materials/AS-22-LeonSilvia-NextGenPlugXShadowPad.pdf",
+            "date": "2022-05-12",
+            "organization": "TEAMT5",
+            "author": "Leon Chang",
+            "title": "The Next Gen PlugX/ShadowPad? A Dive into the Emerging China-Nexus Modular Trojan, Pangolin8RAT (slides)",
+            "categories": [
+                "KEYPLUG",
+                "Cobalt Strike",
+                "CROSSWALK",
+                "FunnySwitch",
+                "PlugX",
+                "ShadowPad",
+                "Winnti",
+                "SLIME29",
+                "TianWu"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/mobileiron-log4shell-exploitation",
+            "date": "2022-03-28",
+            "organization": "Mandiant",
+            "author": "Geoff Ackerman",
+            "title": "Forged in Fire: A Survey of MobileIron Log4Shell Exploitation",
+            "categories": [
+                "KEYPLUG"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/CyberJack42/status/1501290277864046595",
+            "date": "2022-03-08",
+            "organization": "Twitter (@CyberJack42)",
+            "author": "CyberJack",
+            "title": "Tweet on ELFSHELF alias for KEYPLUG",
+            "categories": [
+                "KEYPLUG"
+            ]
+        },
+        {
+            "data_url": "https://www.mandiant.com/resources/apt41-us-state-governments",
+            "date": "2022-03-08",
+            "organization": "Mandiant",
+            "author": "Rufus Brown",
+            "title": "Does This Look Infected? A Summary of APT41 Targeting U.S. State Governments",
+            "categories": [
+                "KEYPLUG",
+                "Cobalt Strike",
+                "LOWKEY"
+            ]
+        },
+        {
+            "data_url": "https://experience.mandiant.com/trending-evil/p/1",
+            "date": "2022-02-26",
+            "organization": "Mandiant",
+            "author": "Mandiant",
+            "title": "TRENDING EVIL Q1 2022",
+            "categories": [
+                "KEYPLUG",
+                "FAKEUPDATES",
+                "GootLoader",
+                "BazarBackdoor",
+                "QakBot"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "keyplug",
@@ -137,86 +217,6 @@ var threatdata = {
                     "technique_description": "adversaries may use an existing, legitimate external web service to host information that points to additional command and control (c2) infrastructure. adversaries may post content, known as a dead drop resolver, on web services with embedded (and often obfuscated/encoded) domains or ip addresses. once infected, victims will reach out to and be redirected by these resolvers.",
                     "procedure_description": "the keyplug windows variant has retrieved c2 addresses from encoded data in posts on tech community forums.[9]"
                 }
-            ]
-        }
-    ],
-    "file_name": "keyplug",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0330.pdf",
-            "date": "2023-03-30",
-            "organization": "Recorded Future",
-            "author": "Insikt Group",
-            "title": "With KEYPLUG, China\u2019s RedGolf Spies On, Steals From Wide Field of Targets",
-            "categories": [
-                "KEYPLUG",
-                "Cobalt Strike",
-                "PlugX"
-            ]
-        },
-        {
-            "data_url": "https://i.blackhat.com/Asia-22/Thursday-Materials/AS-22-LeonSilvia-NextGenPlugXShadowPad.pdf",
-            "date": "2022-05-12",
-            "organization": "TEAMT5",
-            "author": "Leon Chang",
-            "title": "The Next Gen PlugX/ShadowPad? A Dive into the Emerging China-Nexus Modular Trojan, Pangolin8RAT (slides)",
-            "categories": [
-                "KEYPLUG",
-                "Cobalt Strike",
-                "CROSSWALK",
-                "FunnySwitch",
-                "PlugX",
-                "ShadowPad",
-                "Winnti",
-                "SLIME29",
-                "TianWu"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/resources/mobileiron-log4shell-exploitation",
-            "date": "2022-03-28",
-            "organization": "Mandiant",
-            "author": "Geoff Ackerman",
-            "title": "Forged in Fire: A Survey of MobileIron Log4Shell Exploitation",
-            "categories": [
-                "KEYPLUG"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/CyberJack42/status/1501290277864046595",
-            "date": "2022-03-08",
-            "organization": "Twitter (@CyberJack42)",
-            "author": "CyberJack",
-            "title": "Tweet on ELFSHELF alias for KEYPLUG",
-            "categories": [
-                "KEYPLUG"
-            ]
-        },
-        {
-            "data_url": "https://www.mandiant.com/resources/apt41-us-state-governments",
-            "date": "2022-03-08",
-            "organization": "Mandiant",
-            "author": "Rufus Brown",
-            "title": "Does This Look Infected? A Summary of APT41 Targeting U.S. State Governments",
-            "categories": [
-                "KEYPLUG",
-                "Cobalt Strike",
-                "LOWKEY"
-            ]
-        },
-        {
-            "data_url": "https://experience.mandiant.com/trending-evil/p/1",
-            "date": "2022-02-26",
-            "organization": "Mandiant",
-            "author": "Mandiant",
-            "title": "TRENDING EVIL Q1 2022",
-            "categories": [
-                "KEYPLUG",
-                "FAKEUPDATES",
-                "GootLoader",
-                "BazarBackdoor",
-                "QakBot"
             ]
         }
     ]

@@ -30,6 +30,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "foundcore",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "rainyday",
@@ -399,8 +402,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "foundcore",
-    "analysis": null,
-    "articles": []
+    ]
 };

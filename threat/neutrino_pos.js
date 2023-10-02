@@ -33,7 +33,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "neutrino_pos",
     "analysis": null,
     "articles": [
@@ -57,5 +56,6 @@ var threatdata = {
                 "Neutrino POS"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

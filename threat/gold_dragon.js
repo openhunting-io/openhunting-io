@@ -38,6 +38,58 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "gold_dragon",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/en/31089/",
+            "date": "2022-02-08",
+            "organization": "ASEC",
+            "author": "ASEC",
+            "title": "Distribution of Kimsuky Group\u2019s xRAT (Quasar RAT) Confirmed",
+            "categories": [
+                "GoldDragon",
+                "Quasar RAT"
+            ]
+        },
+        {
+            "data_url": "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
+            "date": "2021-11-10",
+            "organization": "Cisco Talos",
+            "author": "Jungsoo An",
+            "title": "North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets",
+            "categories": [
+                "GoldDragon"
+            ]
+        },
+        {
+            "data_url": "https://i.blackhat.com/asia-21/Friday-Handouts/as-21-Kuo-We-Are-About-To-Land-How-CloudDragon-Turns-A-Nightmare-Into-Reality.pdf",
+            "date": "2021-05-07",
+            "organization": "TEAMT5",
+            "author": "Jhih-Lin Kuo",
+            "title": "\"We Are About to Land\": How CloudDragon Turns a Nightmare Into Reality",
+            "categories": [
+                "FlowerPower",
+                "Appleseed",
+                "BabyShark",
+                "GoldDragon",
+                "NavRAT"
+            ]
+        },
+        {
+            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
+            "date": "2020-11-02",
+            "organization": "Cybereason",
+            "author": "Assaf Dahan",
+            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
+            "categories": [
+                "BabyShark",
+                "GoldDragon",
+                "KGH_SPY",
+                "Kimsuky"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "gold dragon",
@@ -225,58 +277,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "gold dragon can download additional components from the c2 server.[198]"
                 }
-            ]
-        }
-    ],
-    "file_name": "gold_dragon",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://asec.ahnlab.com/en/31089/",
-            "date": "2022-02-08",
-            "organization": "ASEC",
-            "author": "ASEC",
-            "title": "Distribution of Kimsuky Group\u2019s xRAT (Quasar RAT) Confirmed",
-            "categories": [
-                "GoldDragon",
-                "Quasar RAT"
-            ]
-        },
-        {
-            "data_url": "https://blog.talosintelligence.com/2021/11/kimsuky-abuses-blogs-delivers-malware.html",
-            "date": "2021-11-10",
-            "organization": "Cisco Talos",
-            "author": "Jungsoo An",
-            "title": "North Korean attackers use malicious blogs to deliver malware to high-profile South Korean targets",
-            "categories": [
-                "GoldDragon"
-            ]
-        },
-        {
-            "data_url": "https://i.blackhat.com/asia-21/Friday-Handouts/as-21-Kuo-We-Are-About-To-Land-How-CloudDragon-Turns-A-Nightmare-Into-Reality.pdf",
-            "date": "2021-05-07",
-            "organization": "TEAMT5",
-            "author": "Jhih-Lin Kuo",
-            "title": "\"We Are About to Land\": How CloudDragon Turns a Nightmare Into Reality",
-            "categories": [
-                "FlowerPower",
-                "Appleseed",
-                "BabyShark",
-                "GoldDragon",
-                "NavRAT"
-            ]
-        },
-        {
-            "data_url": "https://www.cybereason.com/blog/back-to-the-future-inside-the-kimsuky-kgh-spyware-suite",
-            "date": "2020-11-02",
-            "organization": "Cybereason",
-            "author": "Assaf Dahan",
-            "title": "Back to the Future: Inside the Kimsuky KGH Spyware Suite",
-            "categories": [
-                "BabyShark",
-                "GoldDragon",
-                "KGH_SPY",
-                "Kimsuky"
             ]
         }
     ]

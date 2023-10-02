@@ -36,6 +36,50 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "glancelove",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.clearskysec.com/glancelove/",
+            "date": "2018-07-03",
+            "organization": "ClearSky",
+            "author": "ClearSky Research Team",
+            "title": "Infrastructure and Samples of Hamas\u2019 Android Malware Targeting Israeli Soldiers",
+            "categories": [
+                "GlanceLove"
+            ]
+        },
+        {
+            "data_url": "https://www.haaretz.com/israel-news/hamas-cyber-ops-spied-on-israeli-soldiers-using-fake-world-cup-app-1.6241773",
+            "date": "2018-07-03",
+            "organization": "Haaretz",
+            "author": "Yaniv Kubovich",
+            "title": "Hamas Cyber Ops Spied on Hundreds of Israeli Soldiers Using Fake World Cup, Dating Apps",
+            "categories": [
+                "GlanceLove"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/breaking-the-weakest-link-of-the-strongest-chain/77562/",
+            "date": "2017-02-16",
+            "organization": "Kaspersky Labs",
+            "author": "IDF C4I",
+            "title": "Breaking The Weakest Link Of The Strongest Chain",
+            "categories": [
+                "GlanceLove"
+            ]
+        },
+        {
+            "data_url": "https://www.idf.il/en/minisites/hamas/hamas-uses-fake-facebook-profiles-to-target-israeli-soldiers/",
+            "date": "2017-02-05",
+            "organization": "IDF",
+            "author": "IDF",
+            "title": "Hamas Uses Fake Facebook Profiles to Target Israeli Soldiers",
+            "categories": [
+                "GlanceLove"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -79,50 +123,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "glancelove",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.clearskysec.com/glancelove/",
-            "date": "2018-07-03",
-            "organization": "ClearSky",
-            "author": "ClearSky Research Team",
-            "title": "Infrastructure and Samples of Hamas\u2019 Android Malware Targeting Israeli Soldiers",
-            "categories": [
-                "GlanceLove"
-            ]
-        },
-        {
-            "data_url": "https://www.haaretz.com/israel-news/hamas-cyber-ops-spied-on-israeli-soldiers-using-fake-world-cup-app-1.6241773",
-            "date": "2018-07-03",
-            "organization": "Haaretz",
-            "author": "Yaniv Kubovich",
-            "title": "Hamas Cyber Ops Spied on Hundreds of Israeli Soldiers Using Fake World Cup, Dating Apps",
-            "categories": [
-                "GlanceLove"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/breaking-the-weakest-link-of-the-strongest-chain/77562/",
-            "date": "2017-02-16",
-            "organization": "Kaspersky Labs",
-            "author": "IDF C4I",
-            "title": "Breaking The Weakest Link Of The Strongest Chain",
-            "categories": [
-                "GlanceLove"
-            ]
-        },
-        {
-            "data_url": "https://www.idf.il/en/minisites/hamas/hamas-uses-fake-facebook-profiles-to-target-israeli-soldiers/",
-            "date": "2017-02-05",
-            "organization": "IDF",
-            "author": "IDF",
-            "title": "Hamas Uses Fake Facebook Profiles to Target Israeli Soldiers",
-            "categories": [
-                "GlanceLove"
             ]
         }
     ]

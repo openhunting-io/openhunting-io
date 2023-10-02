@@ -31,6 +31,47 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "atmitch",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://securelist.com/atm-pos-malware-landscape-2017-2019/96750/",
+            "date": "2020-04-23",
+            "organization": "Kaspersky Labs",
+            "author": "Kaspersky",
+            "title": "A look at the ATM/PoS malware landscape from 2017-2019",
+            "categories": [
+                "ATMitch",
+                "WinPot"
+            ]
+        },
+        {
+            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-cashing-in-on-atm-malware.pdf",
+            "date": "2018-03-30",
+            "organization": "Trend Micro",
+            "author": "David Sancho",
+            "title": "Cashing in on ATM Malware: A Comprehensive Look at Various Attack Types",
+            "categories": [
+                "Project Alice",
+                "ATMitch",
+                "Ploutus ATM",
+                "Ripper ATM",
+                "Skimer",
+                "SUCEFUL",
+                "Tyupkin"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/blog/sas/77918/atmitch-remote-administration-of-atms/",
+            "date": "2017-04-04",
+            "organization": "Kaspersky Labs",
+            "author": "Sergey Golovanov",
+            "title": "ATMitch: remote administration of ATMs",
+            "categories": [
+                "ATMitch"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -74,47 +115,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "atmitch",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://securelist.com/atm-pos-malware-landscape-2017-2019/96750/",
-            "date": "2020-04-23",
-            "organization": "Kaspersky Labs",
-            "author": "Kaspersky",
-            "title": "A look at the ATM/PoS malware landscape from 2017-2019",
-            "categories": [
-                "ATMitch",
-                "WinPot"
-            ]
-        },
-        {
-            "data_url": "https://documents.trendmicro.com/assets/white_papers/wp-cashing-in-on-atm-malware.pdf",
-            "date": "2018-03-30",
-            "organization": "Trend Micro",
-            "author": "David Sancho",
-            "title": "Cashing in on ATM Malware: A Comprehensive Look at Various Attack Types",
-            "categories": [
-                "Project Alice",
-                "ATMitch",
-                "Ploutus ATM",
-                "Ripper ATM",
-                "Skimer",
-                "SUCEFUL",
-                "Tyupkin"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/blog/sas/77918/atmitch-remote-administration-of-atms/",
-            "date": "2017-04-04",
-            "organization": "Kaspersky Labs",
-            "author": "Sergey Golovanov",
-            "title": "ATMitch: remote administration of ATMs",
-            "categories": [
-                "ATMitch"
             ]
         }
     ]

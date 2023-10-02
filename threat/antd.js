@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "antd",
     "analysis": null,
     "articles": [
@@ -47,5 +46,6 @@ var threatdata = {
                 "Rocke"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

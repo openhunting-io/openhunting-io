@@ -51,12 +51,12 @@ var threatdata = {
             "malware": "win.betabot",
             "last_update": "2023-04-26 18:30:05",
             "tags": [
-                "mx",
-                "BetaBot",
-                "MEX",
-                "geo",
                 "Neurevt",
-                "betabot"
+                "mx",
+                "geo",
+                "MEX",
+                "betabot",
+                "BetaBot"
             ],
             "ioc": {
                 "url": [
@@ -307,7 +307,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-04-26 18:30:05",
-    "mitre": [],
     "file_name": "betabot",
     "analysis": null,
     "articles": [
@@ -461,5 +460,6 @@ var threatdata = {
                 "BetaBot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

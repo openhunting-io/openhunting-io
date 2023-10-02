@@ -37,6 +37,22 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "yahoyah",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/11/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/",
+            "date": "2016-11-22",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Vicky Ray",
+            "title": "Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy",
+            "categories": [
+                "Winsloader",
+                "Yahoyah",
+                "APT23"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "yahoyah",
@@ -116,22 +132,6 @@ var threatdata = {
                     "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
                     "procedure_description": "yahoyah uses http get requests to download other files that are executed in memory.[486]"
                 }
-            ]
-        }
-    ],
-    "file_name": "yahoyah",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2016/11/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/",
-            "date": "2016-11-22",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Vicky Ray",
-            "title": "Tropic Trooper Targets Taiwanese Government and Fossil Fuel Provider With Poison Ivy",
-            "categories": [
-                "Winsloader",
-                "Yahoyah",
-                "APT23"
             ]
         }
     ]

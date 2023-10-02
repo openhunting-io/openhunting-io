@@ -34,7 +34,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "artradownloader",
     "analysis": null,
     "articles": [
@@ -124,5 +123,6 @@ var threatdata = {
                 "Artra Downloader"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

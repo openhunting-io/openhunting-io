@@ -37,6 +37,69 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "onionduke",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://blog.f-secure.com/podcast-dukes-apt29/",
+            "date": "2020-05-06",
+            "organization": "F-Secure Labs",
+            "author": "Melissa Michael",
+            "title": "039| Deconstructing the Dukes: A Researcher\u2019s Retrospective of APT29",
+            "categories": [
+                "OnionDuke"
+            ]
+        },
+        {
+            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
+            "date": "2020-03-26",
+            "organization": "VMWare Carbon Black",
+            "author": "Scott Knight",
+            "title": "The Dukes of Moscow",
+            "categories": [
+                "Cobalt Strike",
+                "LiteDuke",
+                "MiniDuke",
+                "OnionDuke",
+                "PolyglotDuke",
+                "PowerDuke"
+            ]
+        },
+        {
+            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
+            "date": "2020",
+            "organization": "Secureworks",
+            "author": "SecureWorks",
+            "title": "IRON HEMLOCK",
+            "categories": [
+                "FatDuke",
+                "MiniDuke",
+                "OnionDuke",
+                "PolyglotDuke",
+                "APT29"
+            ]
+        },
+        {
+            "data_url": "http://contagiodump.blogspot.com/2014/11/onionduke-samples.html",
+            "date": "2014-11-15",
+            "organization": "Contagio Dump",
+            "author": "Mila Parkour",
+            "title": "OnionDuke samples",
+            "categories": [
+                "OnionDuke"
+            ]
+        },
+        {
+            "data_url": "https://www.f-secure.com/weblog/archives/00002764.html",
+            "date": "2014-11-14",
+            "organization": "F-Secure",
+            "author": "F-Secure Labs",
+            "title": "OnionDuke: APT Attacks Via the Tor Network",
+            "categories": [
+                "OnionDuke"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "onionduke",
@@ -104,69 +167,6 @@ var threatdata = {
                     "technique_description": "adversaries may perform endpoint denial of service (dos) attacks to degrade or block the availability of services to users. endpoint dos can be performed by exhausting the system resources those services are hosted on or exploiting the system to cause a persistent crash condition. example services include websites, email services, dns, and web-based applications. adversaries have been observed conducting dos attacks for political purposes and to support other malicious activities, including distraction, hacktivism, and extortion.",
                     "procedure_description": "onionduke has the capability to use a denial of service module.[6]"
                 }
-            ]
-        }
-    ],
-    "file_name": "onionduke",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://blog.f-secure.com/podcast-dukes-apt29/",
-            "date": "2020-05-06",
-            "organization": "F-Secure Labs",
-            "author": "Melissa Michael",
-            "title": "039| Deconstructing the Dukes: A Researcher\u2019s Retrospective of APT29",
-            "categories": [
-                "OnionDuke"
-            ]
-        },
-        {
-            "data_url": "https://www.carbonblack.com/2020/03/26/the-dukes-of-moscow/",
-            "date": "2020-03-26",
-            "organization": "VMWare Carbon Black",
-            "author": "Scott Knight",
-            "title": "The Dukes of Moscow",
-            "categories": [
-                "Cobalt Strike",
-                "LiteDuke",
-                "MiniDuke",
-                "OnionDuke",
-                "PolyglotDuke",
-                "PowerDuke"
-            ]
-        },
-        {
-            "data_url": "https://www.secureworks.com/research/threat-profiles/iron-hemlock",
-            "date": "2020",
-            "organization": "Secureworks",
-            "author": "SecureWorks",
-            "title": "IRON HEMLOCK",
-            "categories": [
-                "FatDuke",
-                "MiniDuke",
-                "OnionDuke",
-                "PolyglotDuke",
-                "APT29"
-            ]
-        },
-        {
-            "data_url": "http://contagiodump.blogspot.com/2014/11/onionduke-samples.html",
-            "date": "2014-11-15",
-            "organization": "Contagio Dump",
-            "author": "Mila Parkour",
-            "title": "OnionDuke samples",
-            "categories": [
-                "OnionDuke"
-            ]
-        },
-        {
-            "data_url": "https://www.f-secure.com/weblog/archives/00002764.html",
-            "date": "2014-11-14",
-            "organization": "F-Secure",
-            "author": "F-Secure Labs",
-            "title": "OnionDuke: APT Attacks Via the Tor Network",
-            "categories": [
-                "OnionDuke"
             ]
         }
     ]

@@ -34,6 +34,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "ixeshe",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "ixeshe",
@@ -235,8 +238,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "ixeshe",
-    "analysis": null,
-    "articles": []
+    ]
 };

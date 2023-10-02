@@ -49,7 +49,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-05-03 14:05:06",
-    "mitre": [],
     "file_name": "artfulpie",
     "analysis": null,
     "articles": [
@@ -79,5 +78,6 @@ var threatdata = {
                 "ARTFULPIE"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

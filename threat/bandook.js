@@ -42,9 +42,9 @@ var threatdata = {
             "malware": "win.bandook",
             "last_update": "2023-08-02 06:09:14",
             "tags": [
-                "DarkCaracal",
+                "APT",
                 "Bandook",
-                "APT"
+                "DarkCaracal"
             ],
             "ioc": {
                 "ip:port": [
@@ -293,6 +293,94 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2023-08-02 06:09:14",
+    "file_name": "bandook",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.eff.org/deeplinks/2023/02/uncle-sow-dark-caracal-latin-america",
+            "date": "2023-02-10",
+            "organization": "Electronic Frontier Foundation",
+            "author": "Cooper Quintin",
+            "title": "Uncle Sow: Dark Caracal in Latin America",
+            "categories": [
+                "Bandook"
+            ]
+        },
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/new-threat-actor-uses-spanish-language-lures-distribute-seldom-observed-bandook",
+            "date": "2021-07-19",
+            "organization": "Proofpoint",
+            "author": "Joe Wise",
+            "title": "New Threat Actor Uses Spanish Language Lures to Distribute Seldom Observed Bandook Malware",
+            "categories": [
+                "Bandook"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2021/07/07/bandidos-at-large-spying-campaign-latin-america/",
+            "date": "2021-07-07",
+            "organization": "ESET Research",
+            "author": "Fernando Tavella",
+            "title": "Bandidos at large: A spying campaign in Latin America",
+            "categories": [
+                "Bandook"
+            ]
+        },
+        {
+            "data_url": "https://www.eff.org/deeplinks/2020/12/dark-caracal-you-missed-spot",
+            "date": "2020-12-10",
+            "organization": "Electronic Frontier Foundation",
+            "author": "Cooper Quintin",
+            "title": "Dark Caracal: You Missed a Spot",
+            "categories": [
+                "Bandook"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2020/bandook-signed-delivered",
+            "date": "2020-11-26",
+            "organization": "Check Point",
+            "author": "Checkpoint Research",
+            "title": "Bandook: Signed & Delivered",
+            "categories": [
+                "Bandook",
+                "Dark Caracal"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2020/bandook-signed-delivered/",
+            "date": "2020-11-26",
+            "organization": "Checkpoint",
+            "author": "Check Point Research",
+            "title": "Bandook: Signed & Delivered",
+            "categories": [
+                "Bandook"
+            ]
+        },
+        {
+            "data_url": "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
+            "date": "2018-01-18",
+            "organization": "Lookout",
+            "author": "Andrew Blaich",
+            "title": "Dark Caracal: Cyber-espionage at a Global Scal",
+            "categories": [
+                "CrossRAT",
+                "Bandook",
+                "Dark Caracal"
+            ]
+        },
+        {
+            "data_url": "https://www.eff.org/files/2018/01/29/operation-manul.pdf",
+            "date": "2016-08",
+            "organization": "Electronic Frontier Foundation",
+            "author": "Eva Galperin",
+            "title": "Operation Manul",
+            "categories": [
+                "jRAT",
+                "Bandook"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "bandook",
@@ -836,94 +924,6 @@ var threatdata = {
                     "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
                     "procedure_description": "dok exfiltrates logs of its execution stored in the /tmp folder over ftp using the curl command.[17]"
                 }
-            ]
-        }
-    ],
-    "file_name": "bandook",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.eff.org/deeplinks/2023/02/uncle-sow-dark-caracal-latin-america",
-            "date": "2023-02-10",
-            "organization": "Electronic Frontier Foundation",
-            "author": "Cooper Quintin",
-            "title": "Uncle Sow: Dark Caracal in Latin America",
-            "categories": [
-                "Bandook"
-            ]
-        },
-        {
-            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/new-threat-actor-uses-spanish-language-lures-distribute-seldom-observed-bandook",
-            "date": "2021-07-19",
-            "organization": "Proofpoint",
-            "author": "Joe Wise",
-            "title": "New Threat Actor Uses Spanish Language Lures to Distribute Seldom Observed Bandook Malware",
-            "categories": [
-                "Bandook"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2021/07/07/bandidos-at-large-spying-campaign-latin-america/",
-            "date": "2021-07-07",
-            "organization": "ESET Research",
-            "author": "Fernando Tavella",
-            "title": "Bandidos at large: A spying campaign in Latin America",
-            "categories": [
-                "Bandook"
-            ]
-        },
-        {
-            "data_url": "https://www.eff.org/deeplinks/2020/12/dark-caracal-you-missed-spot",
-            "date": "2020-12-10",
-            "organization": "Electronic Frontier Foundation",
-            "author": "Cooper Quintin",
-            "title": "Dark Caracal: You Missed a Spot",
-            "categories": [
-                "Bandook"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2020/bandook-signed-delivered",
-            "date": "2020-11-26",
-            "organization": "Check Point",
-            "author": "Checkpoint Research",
-            "title": "Bandook: Signed & Delivered",
-            "categories": [
-                "Bandook",
-                "Dark Caracal"
-            ]
-        },
-        {
-            "data_url": "https://research.checkpoint.com/2020/bandook-signed-delivered/",
-            "date": "2020-11-26",
-            "organization": "Checkpoint",
-            "author": "Check Point Research",
-            "title": "Bandook: Signed & Delivered",
-            "categories": [
-                "Bandook"
-            ]
-        },
-        {
-            "data_url": "https://info.lookout.com/rs/051-ESQ-475/images/Lookout_Dark-Caracal_srr_20180118_us_v.1.0.pdf",
-            "date": "2018-01-18",
-            "organization": "Lookout",
-            "author": "Andrew Blaich",
-            "title": "Dark Caracal: Cyber-espionage at a Global Scal",
-            "categories": [
-                "CrossRAT",
-                "Bandook",
-                "Dark Caracal"
-            ]
-        },
-        {
-            "data_url": "https://www.eff.org/files/2018/01/29/operation-manul.pdf",
-            "date": "2016-08",
-            "organization": "Electronic Frontier Foundation",
-            "author": "Eva Galperin",
-            "title": "Operation Manul",
-            "categories": [
-                "jRAT",
-                "Bandook"
             ]
         }
     ]

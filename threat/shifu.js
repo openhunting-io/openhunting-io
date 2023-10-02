@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "shifu",
     "analysis": null,
     "articles": [
@@ -184,5 +183,6 @@ var threatdata = {
                 "Shifu"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

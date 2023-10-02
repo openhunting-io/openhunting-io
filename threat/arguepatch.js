@@ -28,6 +28,34 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "arguepatch",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/gru-rise-telegram-minions",
+            "date": "2022-09-23",
+            "organization": "Mandiant",
+            "author": "Mandiant Intelligence",
+            "title": "GRU: Rise of the (Telegram) MinIOns",
+            "categories": [
+                "ArguePatch",
+                "CaddyWiper"
+            ]
+        },
+        {
+            "data_url": "https://www.welivesecurity.com/2022/04/12/industroyer2-industroyer-reloaded/",
+            "date": "2022-04-12",
+            "organization": "ESET Research",
+            "author": "ESET Research",
+            "title": "Industroyer2: Industroyer reloaded",
+            "categories": [
+                "ArguePatch",
+                "CaddyWiper",
+                "Industroyer",
+                "INDUSTROYER2"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "at",
@@ -71,34 +99,6 @@ var threatdata = {
                     "technique_description": "adversaries may abuse the at utility to perform task scheduling for initial or recurring execution of malicious code. the at utility exists as an executable within windows, linux, and macos for scheduling tasks at a specified time and date. although deprecated in favor of scheduled task's schtasks in windows environments, using at requires that the task scheduler service be running, and the user to be logged on as a member of the local administrators group.",
                     "procedure_description": "at can be used to schedule a task on a system to be executed at a specific date or time.[4][1]"
                 }
-            ]
-        }
-    ],
-    "file_name": "arguepatch",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.mandiant.com/resources/blog/gru-rise-telegram-minions",
-            "date": "2022-09-23",
-            "organization": "Mandiant",
-            "author": "Mandiant Intelligence",
-            "title": "GRU: Rise of the (Telegram) MinIOns",
-            "categories": [
-                "ArguePatch",
-                "CaddyWiper"
-            ]
-        },
-        {
-            "data_url": "https://www.welivesecurity.com/2022/04/12/industroyer2-industroyer-reloaded/",
-            "date": "2022-04-12",
-            "organization": "ESET Research",
-            "author": "ESET Research",
-            "title": "Industroyer2: Industroyer reloaded",
-            "categories": [
-                "ArguePatch",
-                "CaddyWiper",
-                "Industroyer",
-                "INDUSTROYER2"
             ]
         }
     ]

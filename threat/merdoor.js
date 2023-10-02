@@ -26,7 +26,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "merdoor",
     "analysis": null,
     "articles": [
@@ -43,5 +42,6 @@ var threatdata = {
                 "ZXShell"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

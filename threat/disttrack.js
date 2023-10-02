@@ -47,6 +47,347 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "disttrack",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-3/",
+            "date": "2022-09-26",
+            "organization": "CrowdStrike",
+            "author": "Ioan Iacob",
+            "title": "The Anatomy of Wiper Malware, Part 3: Input/Output Controls",
+            "categories": [
+                "CaddyWiper",
+                "DEADWOOD",
+                "DistTrack",
+                "DoubleZero",
+                "DUSTMAN",
+                "HermeticWiper",
+                "IsaacWiper",
+                "Meteor",
+                "Petya",
+                "Sierra(Alfa,Bravo, ...)",
+                "StoneDrill",
+                "WhisperGate",
+                "ZeroCleare"
+            ]
+        },
+        {
+            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-1/",
+            "date": "2022-08-12",
+            "organization": "CrowdStrike",
+            "author": "Ioan Iacob",
+            "title": "The Anatomy of Wiper Malware, Part 1: Common Techniques",
+            "categories": [
+                "Apostle",
+                "CaddyWiper",
+                "DEADWOOD",
+                "DistTrack",
+                "DoubleZero",
+                "DUSTMAN",
+                "HermeticWiper",
+                "IsaacWiper",
+                "IsraBye",
+                "KillDisk",
+                "Meteor",
+                "Olympic Destroyer",
+                "Ordinypt",
+                "Petya",
+                "Sierra(Alfa,Bravo, ...)",
+                "StoneDrill",
+                "WhisperGate",
+                "ZeroCleare"
+            ]
+        },
+        {
+            "data_url": "https://www.fortinet.com/blog/threat-research/the-increasing-wiper-malware-threat",
+            "date": "2022-04-28",
+            "organization": "Fortinet",
+            "author": "Gergely Revay",
+            "title": "An Overview of the Increasing Wiper Malware Threat",
+            "categories": [
+                "AcidRain",
+                "CaddyWiper",
+                "DistTrack",
+                "DoubleZero",
+                "EternalPetya",
+                "HermeticWiper",
+                "IsaacWiper",
+                "Olympic Destroyer",
+                "Ordinypt",
+                "WhisperGate",
+                "ZeroCleare"
+            ]
+        },
+        {
+            "data_url": "https://resources.cylera.com/hubfs/Cylera%20Labs/Cylera%20Labs%20Kwampirs%20Shamoon%20Technical%20Report.pdf",
+            "date": "2022-03-08",
+            "organization": "Cylera",
+            "author": "Cylera",
+            "title": "The link between Kwampirs (Orangeworm) and Shamoon APTs",
+            "categories": [
+                "DistTrack",
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://symantec.broadcom.com/hubfs/Attacks-Against-Critical_Infrastructrure.pdf",
+            "date": "2021-08-05",
+            "organization": "Symantec",
+            "author": "Threat Hunter Team",
+            "title": "Attacks Against Critical Infrastructure: A Global Concern",
+            "categories": [
+                "BlackEnergy",
+                "DarkSide",
+                "DistTrack",
+                "Stuxnet"
+            ]
+        },
+        {
+            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
+            "date": "2020-02-13",
+            "organization": "Qianxin",
+            "author": "Qi Anxin Threat Intelligence Center",
+            "title": "APT Report 2019",
+            "categories": [
+                "Chrysaor",
+                "Exodus",
+                "Dacls",
+                "VPNFilter",
+                "DNSRat",
+                "Griffon",
+                "KopiLuwak",
+                "More_eggs",
+                "SQLRat",
+                "AppleJeus",
+                "BONDUPDATER",
+                "Agent.BTZ",
+                "Anchor",
+                "AndroMut",
+                "AppleJeus",
+                "BOOSTWRITE",
+                "Brambul",
+                "Carbanak",
+                "Cobalt Strike",
+                "Dacls",
+                "DistTrack",
+                "DNSpionage",
+                "Dtrack",
+                "ELECTRICFISH",
+                "FlawedAmmyy",
+                "FlawedGrace",
+                "Get2",
+                "Grateful POS",
+                "HOPLIGHT",
+                "Imminent Monitor RAT",
+                "jason",
+                "Joanap",
+                "KerrDown",
+                "KEYMARBLE",
+                "Lambert",
+                "LightNeuron",
+                "LoJax",
+                "MiniDuke",
+                "PolyglotDuke",
+                "PowerRatankba",
+                "Rising Sun",
+                "SDBbot",
+                "ServHelper",
+                "Snatch",
+                "Stuxnet",
+                "TinyMet",
+                "tRat",
+                "TrickBot",
+                "Volgmer",
+                "X-Agent",
+                "Zebrocy"
+            ]
+        },
+        {
+            "data_url": "https://www.zdnet.com/article/fbi-warns-about-ongoing-attacks-against-software-supply-chain-companies/",
+            "date": "2020-02-10",
+            "organization": "ZDNet",
+            "author": "Catalin Cimpanu",
+            "title": "FBI warns about ongoing attacks against software supply chain companies",
+            "categories": [
+                "DistTrack",
+                "Kwampirs"
+            ]
+        },
+        {
+            "data_url": "https://malwareindepth.com/shamoon-2012/",
+            "date": "2019-12-21",
+            "organization": "MalwareInDepth",
+            "author": "Myrtus 0x0",
+            "title": "Shamoon 2012 Complete Analysis",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/shamoon-destructive-threat-re-emerges-new-sting-its-tail",
+            "date": "2018-12-14",
+            "organization": "Symantec",
+            "author": "Critical Attack Discovery and Intelligence Team",
+            "title": "Shamoon: Destructive Threat Re-Emerges with New Sting in its Tail",
+            "categories": [
+                "DistTrack",
+                "Filerase",
+                "StoneDrill",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/shamoon-3-targets-oil-gas-organization/",
+            "date": "2018-12-13",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Shamoon 3 Targets Oil and Gas Organization",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2017/03/unit42-shamoon-2-delivering-disttrack/",
+            "date": "2017-03-26",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Shamoon 2: Delivering Disttrack",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "https://content.fireeye.com/m-trends/rpt-m-trends-2017",
+            "date": "2017-03-14",
+            "organization": "FireEye",
+            "author": "FireEye",
+            "title": "M-Trend 2017: A View From the Front Lines",
+            "categories": [
+                "DistTrack",
+                "Powersniff",
+                "FIN8"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=5758557d-6e3a-4174-90f3-fa92a712ecd9&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2017-02-27",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Shamoon: Multi-staged destructive attacks limited to specific targets",
+            "categories": [
+                "DistTrack",
+                "MimiKatz",
+                "Rocket Kitten"
+            ]
+        },
+        {
+            "data_url": "http://www.vinransomware.com/blog/detailed-threat-analysis-of-shamoon-2-0-malware",
+            "date": "2017-02-05",
+            "organization": "VinRansomware",
+            "author": "Gregory Paul",
+            "title": "Detailed threat analysis of Shamoon 2.0 Malware",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20190331181353/https://www.symantec.com/connect/blogs/greenbug-cyberespionage-group-targeting-middle-east-possible-links-shamoon",
+            "date": "2017-01-23",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Greenbug cyberespionage group targeting Middle East, possible links to Shamoon",
+            "categories": [
+                "DistTrack",
+                "ISMDoor",
+                "Greenbug"
+            ]
+        },
+        {
+            "data_url": "https://www.symantec.com/connect/blogs/greenbug-cyberespionage-group-targeting-middle-east-possible-links-shamoon",
+            "date": "2017-01-23",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "Greenbug cyberespionage group targeting Middle East, possible links to Shamoon",
+            "categories": [
+                "DistTrack",
+                "ISMDoor",
+                "Greenbug"
+            ]
+        },
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/unit42-second-wave-shamoon-2-attacks-identified/",
+            "date": "2017-01-09",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Second Wave of Shamoon 2 Attacks Identified",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "https://www.codeandsec.com/Sophisticated-CyberWeapon-Shamoon-2-Malware-Analysis",
+            "date": "2016-12-03",
+            "organization": "Coding and Security",
+            "author": "Coding",
+            "title": "\"Sophisticated\" and \"Genius\" Shamoon 2.0 Malware Analysis",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/?adbsc=social68389776&adbid=804134348374970368&adbpl=tw&adbpr=4487645412",
+            "date": "2016-11-30",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Robert Falcone",
+            "title": "Shamoon 2: Return of the Disttrack Wiper",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ad6f8259-2bb4-4f7f-b8e1-710b35a4cbed&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
+            "date": "2016-11-30",
+            "organization": "Symantec",
+            "author": "A L Johnson",
+            "title": "Shamoon: Back from the dead and destructive as ever",
+            "categories": [
+                "DistTrack",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "http://contagiodump.blogspot.com/2012/08/shamoon-or-disttracka-samples.html",
+            "date": "2012-08-17",
+            "organization": "Contagiodump Blog",
+            "author": "Mila Parkour",
+            "title": "Shamoon or DistTrack.A samples",
+            "categories": [
+                "DistTrack"
+            ]
+        },
+        {
+            "data_url": "https://web.archive.org/web/20120818235442/https://www.symantec.com/connect/blogs/shamoon-attacks",
+            "date": "2012-08-16",
+            "organization": "Symantec",
+            "author": "Symantec Security Response",
+            "title": "The Shamoon Attacks",
+            "categories": [
+                "DistTrack",
+                "OilRig"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/shamoon-the-wiper-copycats-at-work/",
+            "date": "2012-08-16",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Shamoon the Wiper \u2013 Copycats at Work",
+            "categories": [
+                "DistTrack"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "shamoon",
@@ -438,347 +779,6 @@ var threatdata = {
                     "technique_description": "adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. operating systems may contain commands to initiate a shutdown/reboot of a machine or network device. in some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer or network device via network device cli (e.g. reload).",
                     "procedure_description": "shamoon will reboot the infected system once the wiping functionality has been completed.[17][18]"
                 }
-            ]
-        }
-    ],
-    "file_name": "disttrack",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-3/",
-            "date": "2022-09-26",
-            "organization": "CrowdStrike",
-            "author": "Ioan Iacob",
-            "title": "The Anatomy of Wiper Malware, Part 3: Input/Output Controls",
-            "categories": [
-                "CaddyWiper",
-                "DEADWOOD",
-                "DistTrack",
-                "DoubleZero",
-                "DUSTMAN",
-                "HermeticWiper",
-                "IsaacWiper",
-                "Meteor",
-                "Petya",
-                "Sierra(Alfa,Bravo, ...)",
-                "StoneDrill",
-                "WhisperGate",
-                "ZeroCleare"
-            ]
-        },
-        {
-            "data_url": "https://www.crowdstrike.com/blog/the-anatomy-of-wiper-malware-part-1/",
-            "date": "2022-08-12",
-            "organization": "CrowdStrike",
-            "author": "Ioan Iacob",
-            "title": "The Anatomy of Wiper Malware, Part 1: Common Techniques",
-            "categories": [
-                "Apostle",
-                "CaddyWiper",
-                "DEADWOOD",
-                "DistTrack",
-                "DoubleZero",
-                "DUSTMAN",
-                "HermeticWiper",
-                "IsaacWiper",
-                "IsraBye",
-                "KillDisk",
-                "Meteor",
-                "Olympic Destroyer",
-                "Ordinypt",
-                "Petya",
-                "Sierra(Alfa,Bravo, ...)",
-                "StoneDrill",
-                "WhisperGate",
-                "ZeroCleare"
-            ]
-        },
-        {
-            "data_url": "https://www.fortinet.com/blog/threat-research/the-increasing-wiper-malware-threat",
-            "date": "2022-04-28",
-            "organization": "Fortinet",
-            "author": "Gergely Revay",
-            "title": "An Overview of the Increasing Wiper Malware Threat",
-            "categories": [
-                "AcidRain",
-                "CaddyWiper",
-                "DistTrack",
-                "DoubleZero",
-                "EternalPetya",
-                "HermeticWiper",
-                "IsaacWiper",
-                "Olympic Destroyer",
-                "Ordinypt",
-                "WhisperGate",
-                "ZeroCleare"
-            ]
-        },
-        {
-            "data_url": "https://resources.cylera.com/hubfs/Cylera%20Labs/Cylera%20Labs%20Kwampirs%20Shamoon%20Technical%20Report.pdf",
-            "date": "2022-03-08",
-            "organization": "Cylera",
-            "author": "Cylera",
-            "title": "The link between Kwampirs (Orangeworm) and Shamoon APTs",
-            "categories": [
-                "DistTrack",
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://symantec.broadcom.com/hubfs/Attacks-Against-Critical_Infrastructrure.pdf",
-            "date": "2021-08-05",
-            "organization": "Symantec",
-            "author": "Threat Hunter Team",
-            "title": "Attacks Against Critical Infrastructure: A Global Concern",
-            "categories": [
-                "BlackEnergy",
-                "DarkSide",
-                "DistTrack",
-                "Stuxnet"
-            ]
-        },
-        {
-            "data_url": "https://ti.qianxin.com/uploads/2020/02/13/cb78386a082f465f259b37dae5df4884.pdf",
-            "date": "2020-02-13",
-            "organization": "Qianxin",
-            "author": "Qi Anxin Threat Intelligence Center",
-            "title": "APT Report 2019",
-            "categories": [
-                "Chrysaor",
-                "Exodus",
-                "Dacls",
-                "VPNFilter",
-                "DNSRat",
-                "Griffon",
-                "KopiLuwak",
-                "More_eggs",
-                "SQLRat",
-                "AppleJeus",
-                "BONDUPDATER",
-                "Agent.BTZ",
-                "Anchor",
-                "AndroMut",
-                "AppleJeus",
-                "BOOSTWRITE",
-                "Brambul",
-                "Carbanak",
-                "Cobalt Strike",
-                "Dacls",
-                "DistTrack",
-                "DNSpionage",
-                "Dtrack",
-                "ELECTRICFISH",
-                "FlawedAmmyy",
-                "FlawedGrace",
-                "Get2",
-                "Grateful POS",
-                "HOPLIGHT",
-                "Imminent Monitor RAT",
-                "jason",
-                "Joanap",
-                "KerrDown",
-                "KEYMARBLE",
-                "Lambert",
-                "LightNeuron",
-                "LoJax",
-                "MiniDuke",
-                "PolyglotDuke",
-                "PowerRatankba",
-                "Rising Sun",
-                "SDBbot",
-                "ServHelper",
-                "Snatch",
-                "Stuxnet",
-                "TinyMet",
-                "tRat",
-                "TrickBot",
-                "Volgmer",
-                "X-Agent",
-                "Zebrocy"
-            ]
-        },
-        {
-            "data_url": "https://www.zdnet.com/article/fbi-warns-about-ongoing-attacks-against-software-supply-chain-companies/",
-            "date": "2020-02-10",
-            "organization": "ZDNet",
-            "author": "Catalin Cimpanu",
-            "title": "FBI warns about ongoing attacks against software supply chain companies",
-            "categories": [
-                "DistTrack",
-                "Kwampirs"
-            ]
-        },
-        {
-            "data_url": "https://malwareindepth.com/shamoon-2012/",
-            "date": "2019-12-21",
-            "organization": "MalwareInDepth",
-            "author": "Myrtus 0x0",
-            "title": "Shamoon 2012 Complete Analysis",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "https://symantec-blogs.broadcom.com/blogs/threat-intelligence/shamoon-destructive-threat-re-emerges-new-sting-its-tail",
-            "date": "2018-12-14",
-            "organization": "Symantec",
-            "author": "Critical Attack Discovery and Intelligence Team",
-            "title": "Shamoon: Destructive Threat Re-Emerges with New Sting in its Tail",
-            "categories": [
-                "DistTrack",
-                "Filerase",
-                "StoneDrill",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/shamoon-3-targets-oil-gas-organization/",
-            "date": "2018-12-13",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Shamoon 3 Targets Oil and Gas Organization",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2017/03/unit42-shamoon-2-delivering-disttrack/",
-            "date": "2017-03-26",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Shamoon 2: Delivering Disttrack",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "https://content.fireeye.com/m-trends/rpt-m-trends-2017",
-            "date": "2017-03-14",
-            "organization": "FireEye",
-            "author": "FireEye",
-            "title": "M-Trend 2017: A View From the Front Lines",
-            "categories": [
-                "DistTrack",
-                "Powersniff",
-                "FIN8"
-            ]
-        },
-        {
-            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=5758557d-6e3a-4174-90f3-fa92a712ecd9&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
-            "date": "2017-02-27",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Shamoon: Multi-staged destructive attacks limited to specific targets",
-            "categories": [
-                "DistTrack",
-                "MimiKatz",
-                "Rocket Kitten"
-            ]
-        },
-        {
-            "data_url": "http://www.vinransomware.com/blog/detailed-threat-analysis-of-shamoon-2-0-malware",
-            "date": "2017-02-05",
-            "organization": "VinRansomware",
-            "author": "Gregory Paul",
-            "title": "Detailed threat analysis of Shamoon 2.0 Malware",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20190331181353/https://www.symantec.com/connect/blogs/greenbug-cyberespionage-group-targeting-middle-east-possible-links-shamoon",
-            "date": "2017-01-23",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Greenbug cyberespionage group targeting Middle East, possible links to Shamoon",
-            "categories": [
-                "DistTrack",
-                "ISMDoor",
-                "Greenbug"
-            ]
-        },
-        {
-            "data_url": "https://www.symantec.com/connect/blogs/greenbug-cyberespionage-group-targeting-middle-east-possible-links-shamoon",
-            "date": "2017-01-23",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "Greenbug cyberespionage group targeting Middle East, possible links to Shamoon",
-            "categories": [
-                "DistTrack",
-                "ISMDoor",
-                "Greenbug"
-            ]
-        },
-        {
-            "data_url": "https://unit42.paloaltonetworks.com/unit42-second-wave-shamoon-2-attacks-identified/",
-            "date": "2017-01-09",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Second Wave of Shamoon 2 Attacks Identified",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "https://www.codeandsec.com/Sophisticated-CyberWeapon-Shamoon-2-Malware-Analysis",
-            "date": "2016-12-03",
-            "organization": "Coding and Security",
-            "author": "Coding",
-            "title": "\"Sophisticated\" and \"Genius\" Shamoon 2.0 Malware Analysis",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "http://researchcenter.paloaltonetworks.com/2016/11/unit42-shamoon-2-return-disttrack-wiper/?adbsc=social68389776&adbid=804134348374970368&adbpl=tw&adbpr=4487645412",
-            "date": "2016-11-30",
-            "organization": "Palo Alto Networks Unit 42",
-            "author": "Robert Falcone",
-            "title": "Shamoon 2: Return of the Disttrack Wiper",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=ad6f8259-2bb4-4f7f-b8e1-710b35a4cbed&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments",
-            "date": "2016-11-30",
-            "organization": "Symantec",
-            "author": "A L Johnson",
-            "title": "Shamoon: Back from the dead and destructive as ever",
-            "categories": [
-                "DistTrack",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "http://contagiodump.blogspot.com/2012/08/shamoon-or-disttracka-samples.html",
-            "date": "2012-08-17",
-            "organization": "Contagiodump Blog",
-            "author": "Mila Parkour",
-            "title": "Shamoon or DistTrack.A samples",
-            "categories": [
-                "DistTrack"
-            ]
-        },
-        {
-            "data_url": "https://web.archive.org/web/20120818235442/https://www.symantec.com/connect/blogs/shamoon-attacks",
-            "date": "2012-08-16",
-            "organization": "Symantec",
-            "author": "Symantec Security Response",
-            "title": "The Shamoon Attacks",
-            "categories": [
-                "DistTrack",
-                "OilRig"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/shamoon-the-wiper-copycats-at-work/",
-            "date": "2012-08-16",
-            "organization": "Kaspersky Labs",
-            "author": "GReAT",
-            "title": "Shamoon the Wiper \u2013 Copycats at Work",
-            "categories": [
-                "DistTrack"
             ]
         }
     ]

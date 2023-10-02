@@ -77,7 +77,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2021-04-30 12:55:36",
-    "mitre": [],
     "file_name": "qadars",
     "analysis": null,
     "articles": [
@@ -201,5 +200,6 @@ var threatdata = {
                 "Qadars"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -25,6 +25,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "torn_rat",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "at",
@@ -102,8 +105,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "torn_rat",
-    "analysis": null,
-    "articles": []
+    ]
 };

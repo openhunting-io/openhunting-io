@@ -55,7 +55,6 @@ var threatdata = {
         }
     ],
     "last_ioc_update": "2022-08-18 17:41:15",
-    "mitre": [],
     "file_name": "dreambot",
     "analysis": null,
     "articles": [
@@ -175,5 +174,6 @@ var threatdata = {
                 "DreamBot"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

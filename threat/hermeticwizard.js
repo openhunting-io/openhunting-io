@@ -31,6 +31,99 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "hermeticwizard",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://www.youtube.com/watch?v=mrTdSdMMgnk",
+            "date": "2022-10-24",
+            "organization": "Youtube (Virus Bulletin)",
+            "author": "Alexander Adamov",
+            "title": "Russian wipers in the cyberwar against Ukraine",
+            "categories": [
+                "AcidRain",
+                "CaddyWiper",
+                "DesertBlade",
+                "DoubleZero",
+                "EternalPetya",
+                "HermeticWiper",
+                "HermeticWizard",
+                "INDUSTROYER2",
+                "IsaacWiper",
+                "KillDisk",
+                "PartyTicket",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://inquest.net/blog/2022/04/07/ukraine-cyberwar-overview",
+            "date": "2022-04-07",
+            "organization": "InQuest",
+            "author": "Will MacArthur",
+            "title": "Ukraine CyberWar Overview",
+            "categories": [
+                "CyclopsBlink",
+                "Cobalt Strike",
+                "GraphSteel",
+                "GrimPlant",
+                "HermeticWiper",
+                "HermeticWizard",
+                "MicroBackdoor",
+                "PartyTicket",
+                "Saint Bot",
+                "Scieron",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://securelist.com/webinar-on-cyberattacks-in-ukraine-summary-and-qa/106075/",
+            "date": "2022-03-14",
+            "organization": "Kaspersky",
+            "author": "GReAT",
+            "title": "Webinar on cyberattacks in Ukraine \u2013 summary and Q&A",
+            "categories": [
+                "HermeticWiper",
+                "HermeticWizard",
+                "IsaacWiper",
+                "PartyTicket",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/ET_Labs/status/1502494650640351236",
+            "date": "2022-03-12",
+            "organization": "Twitter (@ET_Labs)",
+            "author": "ET Labs",
+            "title": "A quick thread examining the network artifacts of the  HermeticWizard spreading",
+            "categories": [
+                "HermeticWizard"
+            ]
+        },
+        {
+            "data_url": "https://www.brighttalk.com/webcast/15591/534324",
+            "date": "2022-03-10",
+            "organization": "BrightTALK (Kaspersky GReAT)",
+            "author": "Costin Raiu",
+            "title": "BrightTALK: A look at current cyberattacks in Ukraine",
+            "categories": [
+                "HermeticWiper",
+                "HermeticWizard",
+                "IsaacWiper",
+                "PartyTicket",
+                "WhisperGate"
+            ]
+        },
+        {
+            "data_url": "https://twitter.com/silascutler/status/1501668345640366091",
+            "date": "2022-03-09",
+            "organization": "Twitter (@silascutler)",
+            "author": "Silas Cutler",
+            "title": "Tweet on HermeticWizard's self-spreading mechanism",
+            "categories": [
+                "HermeticWizard"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "hermeticwizard",
@@ -230,99 +323,6 @@ var threatdata = {
                     "technique_description": "adversaries may use valid accounts to interact with a remote network share using server message block (smb). the adversary may then perform actions as the logged-on user.",
                     "procedure_description": "hermeticwizard can use a list of hardcoded credentials to to authenticate via ntlmssp to the smb shares on remote systems.[29]"
                 }
-            ]
-        }
-    ],
-    "file_name": "hermeticwizard",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://www.youtube.com/watch?v=mrTdSdMMgnk",
-            "date": "2022-10-24",
-            "organization": "Youtube (Virus Bulletin)",
-            "author": "Alexander Adamov",
-            "title": "Russian wipers in the cyberwar against Ukraine",
-            "categories": [
-                "AcidRain",
-                "CaddyWiper",
-                "DesertBlade",
-                "DoubleZero",
-                "EternalPetya",
-                "HermeticWiper",
-                "HermeticWizard",
-                "INDUSTROYER2",
-                "IsaacWiper",
-                "KillDisk",
-                "PartyTicket",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://inquest.net/blog/2022/04/07/ukraine-cyberwar-overview",
-            "date": "2022-04-07",
-            "organization": "InQuest",
-            "author": "Will MacArthur",
-            "title": "Ukraine CyberWar Overview",
-            "categories": [
-                "CyclopsBlink",
-                "Cobalt Strike",
-                "GraphSteel",
-                "GrimPlant",
-                "HermeticWiper",
-                "HermeticWizard",
-                "MicroBackdoor",
-                "PartyTicket",
-                "Saint Bot",
-                "Scieron",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://securelist.com/webinar-on-cyberattacks-in-ukraine-summary-and-qa/106075/",
-            "date": "2022-03-14",
-            "organization": "Kaspersky",
-            "author": "GReAT",
-            "title": "Webinar on cyberattacks in Ukraine \u2013 summary and Q&A",
-            "categories": [
-                "HermeticWiper",
-                "HermeticWizard",
-                "IsaacWiper",
-                "PartyTicket",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/ET_Labs/status/1502494650640351236",
-            "date": "2022-03-12",
-            "organization": "Twitter (@ET_Labs)",
-            "author": "ET Labs",
-            "title": "A quick thread examining the network artifacts of the  HermeticWizard spreading",
-            "categories": [
-                "HermeticWizard"
-            ]
-        },
-        {
-            "data_url": "https://www.brighttalk.com/webcast/15591/534324",
-            "date": "2022-03-10",
-            "organization": "BrightTALK (Kaspersky GReAT)",
-            "author": "Costin Raiu",
-            "title": "BrightTALK: A look at current cyberattacks in Ukraine",
-            "categories": [
-                "HermeticWiper",
-                "HermeticWizard",
-                "IsaacWiper",
-                "PartyTicket",
-                "WhisperGate"
-            ]
-        },
-        {
-            "data_url": "https://twitter.com/silascutler/status/1501668345640366091",
-            "date": "2022-03-09",
-            "organization": "Twitter (@silascutler)",
-            "author": "Silas Cutler",
-            "title": "Tweet on HermeticWizard's self-spreading mechanism",
-            "categories": [
-                "HermeticWizard"
             ]
         }
     ]

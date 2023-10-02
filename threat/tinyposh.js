@@ -27,8 +27,8 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "tinyposh",
     "analysis": null,
-    "articles": []
+    "articles": [],
+    "mitre": []
 };

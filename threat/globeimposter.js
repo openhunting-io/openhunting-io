@@ -44,7 +44,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "globeimposter",
     "analysis": null,
     "articles": [
@@ -368,5 +367,6 @@ var threatdata = {
                 "GlobeImposter"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

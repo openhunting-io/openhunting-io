@@ -31,7 +31,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "crypticconvo",
     "analysis": null,
     "articles": [
@@ -46,5 +45,6 @@ var threatdata = {
                 "Scarlet Mimic"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

@@ -74,116 +74,45 @@ var threatdata = {
             "malware_printable": "Agent Tesla",
             "malware_alias": "AgenTesla,AgentTesla,Negasteal",
             "malware": "win.agent_tesla",
-            "last_update": "2023-09-26 13:36:08",
+            "last_update": "2023-10-02 06:36:09",
             "tags": [
-                "AgentTesla",
-                "exe",
-                "cve201711882",
-                "ftp",
-                "classic",
-                "malware",
                 "AgentTeslaV3",
-                "Agent Tesla",
-                "guloader",
-                "stealer",
-                "hagga",
-                "opendir",
-                "Aggah",
-                "agenttesla",
-                "DHLTeslaGu",
-                "malspam",
-                "turkey",
-                "maldoc",
-                "smtp",
-                "img",
-                "mana",
                 "ViriBack",
                 "agent tesla",
+                "turkey",
+                "opendir",
+                "stealer",
+                "32",
                 "aggah",
+                "classic",
+                "trojan",
+                "malspam",
+                "cve201711882",
+                "img",
+                "AgentTesla",
                 "Hagga",
+                "mana",
+                "panel",
+                "Aggah",
+                "maldoc",
+                "Agent Tesla",
+                "ftp",
+                "hagga",
+                "rat",
+                "agenttesla",
                 "RAT",
-                "panel"
+                "malware",
+                "DHLTeslaGu",
+                "exe",
+                "guloader",
+                "smtp"
             ],
             "ioc": {
-                "ip:port": [
-                    {
-                        "value": "47.87.211.157:443",
-                        "timestamp": "2023-09-24 07:04:24"
-                    },
-                    {
-                        "value": "137.184.5.20:80",
-                        "timestamp": "2023-08-20 23:48:13"
-                    },
-                    {
-                        "value": "139.99.153.90:80",
-                        "timestamp": "2023-08-11 23:48:17"
-                    },
-                    {
-                        "value": "80.85.153.31:80",
-                        "timestamp": "2023-08-10 23:48:17"
-                    },
-                    {
-                        "value": "185.246.220.60:80",
-                        "timestamp": "2023-05-19 10:38:50"
-                    },
-                    {
-                        "value": "171.22.30.147:80",
-                        "timestamp": "2023-05-19 10:38:50"
-                    },
-                    {
-                        "value": "190.107.177.239:21",
-                        "timestamp": "2023-05-19 10:24:19"
-                    },
-                    {
-                        "value": "95.214.27.98:80",
-                        "timestamp": "2023-06-11 23:48:10"
-                    },
-                    {
-                        "value": "209.141.53.247:80",
-                        "timestamp": "2023-04-20 23:48:25"
-                    },
-                    {
-                        "value": "185.225.74.69:80",
-                        "timestamp": "2023-02-18 23:48:18"
-                    },
-                    {
-                        "value": "198.98.55.114:80",
-                        "timestamp": "2023-03-03 23:48:18"
-                    },
-                    {
-                        "value": "185.246.220.133:80",
-                        "timestamp": "2022-12-30 23:48:17"
-                    },
-                    {
-                        "value": "195.178.120.64:63388",
-                        "timestamp": "2022-12-06 21:42:21"
-                    },
-                    {
-                        "value": "78.138.105.142:21",
-                        "timestamp": "2022-06-21 10:50:52"
-                    },
-                    {
-                        "value": "95.140.125.76:4580",
-                        "timestamp": "2022-05-30 23:27:19"
-                    },
-                    {
-                        "value": "162.222.225.29:587",
-                        "timestamp": "2022-04-23 11:45:05"
-                    },
-                    {
-                        "value": "79.133.41.250:587",
-                        "timestamp": "2022-04-23 11:44:20"
-                    },
-                    {
-                        "value": "103.125.190.248:80",
-                        "timestamp": "2021-11-09 03:11:02"
-                    },
-                    {
-                        "value": "107.152.108.114:587",
-                        "timestamp": "2021-08-24 20:46:29"
-                    }
-                ],
                 "url": [
+                    {
+                        "value": "https://dispatchweekly.com/bot.php",
+                        "timestamp": "2023-09-27 10:36:06"
+                    },
                     {
                         "value": "https://d9e1c3dd-1fee-48c1-9089-09a70580408e.usrfiles.com/ugd/d9e1c3_19830a6c88a241afb553beb7a3e2c941.txt",
                         "timestamp": "2023-09-19 06:13:52"
@@ -309,10 +238,6 @@ var threatdata = {
                         "timestamp": "2023-06-14 22:07:04"
                     },
                     {
-                        "value": "https://api.telegram.org/bot5083863399:AAH9g72QTdN88jNOd6_tBrE8gEd-FpXnfHE/sendDocument",
-                        "timestamp": "2023-06-03 18:52:37"
-                    },
-                    {
                         "value": "https://api.telegram.org/bot6272036226:AAE-NMCN6wm6pB8NevxLxncr1cZIIJkq-10/",
                         "timestamp": "2023-06-03 18:52:36"
                     },
@@ -347,10 +272,6 @@ var threatdata = {
                     {
                         "value": "https://api.telegram.org/bot6019964522:AAF4GL7tiulCBCd_CdLMmgPQ-2YhOYdHGMo/",
                         "timestamp": "2023-05-28 16:35:50"
-                    },
-                    {
-                        "value": "https://api.telegram.org/bot5083863399:AAH9g72QTdN88jNOd6_tBrE8gEd-FpXnfHE/sendDocument",
-                        "timestamp": "2023-05-28 16:35:49"
                     },
                     {
                         "value": "https://api.telegram.org/bot2100759405:AAFzA0s7LpNOhvzQJo2bUlDpzSqnB8ir69o/",
@@ -411,10 +332,6 @@ var threatdata = {
                     {
                         "value": "http://172.174.176.153/dll/new_rump_vb.net.txt",
                         "timestamp": "2023-05-11 23:21:43"
-                    },
-                    {
-                        "value": "https://api.telegram.org/bot5083863399:AAH9g72QTdN88jNOd6_tBrE8gEd-FpXnfHE/sendDocument",
-                        "timestamp": "2023-04-24 21:42:36"
                     },
                     {
                         "value": "https://api.telegram.org/bot5678941731:AAHuT6ry1HeTpvo1csjgif_TAWF-WtH0QZk/",
@@ -499,10 +416,6 @@ var threatdata = {
                     {
                         "value": "http://catknock.com//inc/2455818bc570ff.php",
                         "timestamp": "2023-02-13 09:30:22"
-                    },
-                    {
-                        "value": "https://api.telegram.org/bot5083863399:AAH9g72QTdN88jNOd6_tBrE8gEd-FpXnfHE/sendDocument",
-                        "timestamp": "2023-02-03 09:14:56"
                     },
                     {
                         "value": "https://cdn.discordapp.com/attachments/1070589251781136486/1070966893948706897/Fedex_AWB.iso",
@@ -1117,10 +1030,92 @@ var threatdata = {
                         "timestamp": "2021-03-11 14:58:38"
                     }
                 ],
+                "ip:port": [
+                    {
+                        "value": "67.225.131.68:80",
+                        "timestamp": "2023-09-27 08:06:33"
+                    },
+                    {
+                        "value": "47.87.211.157:443",
+                        "timestamp": "2023-09-24 07:04:24"
+                    },
+                    {
+                        "value": "137.184.5.20:80",
+                        "timestamp": "2023-08-20 23:48:13"
+                    },
+                    {
+                        "value": "139.99.153.90:80",
+                        "timestamp": "2023-08-11 23:48:17"
+                    },
+                    {
+                        "value": "80.85.153.31:80",
+                        "timestamp": "2023-08-10 23:48:17"
+                    },
+                    {
+                        "value": "185.246.220.60:80",
+                        "timestamp": "2023-05-19 10:38:50"
+                    },
+                    {
+                        "value": "171.22.30.147:80",
+                        "timestamp": "2023-05-19 10:38:50"
+                    },
+                    {
+                        "value": "190.107.177.239:21",
+                        "timestamp": "2023-05-19 10:24:19"
+                    },
+                    {
+                        "value": "95.214.27.98:80",
+                        "timestamp": "2023-06-11 23:48:10"
+                    },
+                    {
+                        "value": "209.141.53.247:80",
+                        "timestamp": "2023-04-20 23:48:25"
+                    },
+                    {
+                        "value": "185.225.74.69:80",
+                        "timestamp": "2023-02-18 23:48:18"
+                    },
+                    {
+                        "value": "198.98.55.114:80",
+                        "timestamp": "2023-03-03 23:48:18"
+                    },
+                    {
+                        "value": "185.246.220.133:80",
+                        "timestamp": "2022-12-30 23:48:17"
+                    },
+                    {
+                        "value": "195.178.120.64:63388",
+                        "timestamp": "2022-12-06 21:42:21"
+                    },
+                    {
+                        "value": "78.138.105.142:21",
+                        "timestamp": "2022-06-21 10:50:52"
+                    },
+                    {
+                        "value": "95.140.125.76:4580",
+                        "timestamp": "2023-09-27 18:36:44"
+                    },
+                    {
+                        "value": "162.222.225.29:587",
+                        "timestamp": "2022-04-23 11:45:05"
+                    },
+                    {
+                        "value": "79.133.41.250:587",
+                        "timestamp": "2022-04-23 11:44:20"
+                    },
+                    {
+                        "value": "103.125.190.248:80",
+                        "timestamp": "2021-11-09 03:11:02"
+                    },
+                    {
+                        "value": "107.152.108.114:587",
+                        "timestamp": "2021-08-24 20:46:29"
+                    }
+                ],
                 "domain": [
                     {
                         "value": "suchitanandanmahavidyalaya.org",
-                        "timestamp": "2023-09-26 13:36:08"
+                        "timestamp": "2023-10-02 06:36:09"
                     },
                     {
                         "value": "www.upadte-reviewer-online.live",
@@ -39746,533 +39741,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-26 13:36:08",
-    "mitre": [
-        {
-            "procedure_name": "agent tesla",
-            "procedure_code": "s0331",
-            "procedure_type": "software",
-            "procedure_link": "https://attack.mitre.org/software/S0331",
-            "techniques": [
-                {
-                    "tactic_code": "ta0001",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
-                    "tactic_name": "initial access",
-                    "tactic_alias": "initial_access",
-                    "tactic_description": "The adversary is trying to get into your network.",
-                    "technique_code": "t1566.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
-                    "technique_name": "phishing : spearphishing attachment",
-                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
-                    "procedure_description": "the primary delivered mechanism for agent tesla is through email phishing messages.[2]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1203",
-                    "technique_link": "https://attack.mitre.org/techniques/T1203",
-                    "technique_name": "exploitation for client execution",
-                    "technique_description": "adversaries may exploit software vulnerabilities in client applications to execute code. vulnerabilities can exist in software due to unsecure coding practices that can lead to unanticipated behavior. adversaries can take advantage of certain vulnerabilities through targeted exploitation for the purpose of arbitrary code execution. oftentimes the most valuable exploits to an offensive toolkit are those that can be used to obtain code execution on a remote system because they can be used to gain access to that system. users will expect to see files related to the applications they commonly used to do work, so they are a useful target for exploit research and development because of their high utility.",
-                    "procedure_description": "agent tesla has exploited office vulnerabilities such as cve-2017-11882 and cve-2017-8570 for execution during delivery.[2]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1053.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
-                    "technique_name": "scheduled task/job : scheduled task",
-                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
-                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1204.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
-                    "technique_name": "user execution : malicious file",
-                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
-                    "procedure_description": "agent tesla has been executed through malicious e-mail attachments [3]"
-                },
-                {
-                    "tactic_code": "ta0002",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
-                    "tactic_name": "execution",
-                    "tactic_alias": "execution",
-                    "tactic_description": "The adversary is trying to run malicious code.",
-                    "technique_code": "t1047",
-                    "technique_link": "https://attack.mitre.org/techniques/T1047",
-                    "technique_name": "windows management instrumentation",
-                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
-                    "procedure_description": "agent tesla has used wmi queries to gather information from the system.[6]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "agent tesla can add itself to the registry as a startup program to establish persistence.[8][9]"
-                },
-                {
-                    "tactic_code": "ta0003",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
-                    "tactic_name": "persistence",
-                    "tactic_alias": "persistence",
-                    "tactic_description": "The adversary is trying to maintain their foothold.",
-                    "technique_code": "t1053.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
-                    "technique_name": "scheduled task/job : scheduled task",
-                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
-                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1547.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
-                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
-                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
-                    "procedure_description": "agent tesla can add itself to the registry as a startup program to establish persistence.[8][9]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1055",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055",
-                    "technique_name": "process injection",
-                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
-                    "procedure_description": "agent tesla can inject into known, vulnerable binaries on targeted hosts.[2]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1055.012",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
-                    "technique_name": "process injection : process hollowing",
-                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
-                    "procedure_description": "agent tesla has used process hollowing to create and manipulate processes through sections of unmapped memory by reallocating that space with its malicious code.[3]"
-                },
-                {
-                    "tactic_code": "ta0004",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
-                    "tactic_name": "privilege escalation",
-                    "tactic_alias": "privilege_escalation",
-                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
-                    "technique_code": "t1053.005",
-                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
-                    "technique_name": "scheduled task/job : scheduled task",
-                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
-                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1140",
-                    "technique_link": "https://attack.mitre.org/techniques/T1140",
-                    "technique_name": "deobfuscate/decode files or information",
-                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
-                    "procedure_description": "agent tesla has the ability to decrypt strings encrypted with the rijndael symmetric encryption algorithm.[6]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1564.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
-                    "technique_name": "hide artifacts : hidden files and directories",
-                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
-                    "procedure_description": "agent tesla has created hidden folders.[4]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1564.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1564/003",
-                    "technique_name": "hide artifacts : hidden window",
-                    "technique_description": "adversaries may use hidden windows to conceal malicious activity from the plain sight of users. in some cases, windows that would typically be displayed when an application carries out an operation can be hidden. this may be utilized by system administrators to avoid disrupting user work environments when carrying out administrative tasks.",
-                    "procedure_description": "agent tesla has used processwindowstyle.hidden to hide windows.[3]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1562.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
-                    "technique_name": "impair defenses : disable or modify tools",
-                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
-                    "procedure_description": "agent tesla has the capability to kill any running analysis processes and av software.[10]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1112",
-                    "technique_link": "https://attack.mitre.org/techniques/T1112",
-                    "technique_name": "modify registry",
-                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
-                    "procedure_description": "agent tesla can achieve persistence by modifying registry key entries.[8]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1027",
-                    "technique_link": "https://attack.mitre.org/techniques/T1027",
-                    "technique_name": "obfuscated files or information",
-                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
-                    "procedure_description": "agent tesla has had its code obfuscated in an apparent attempt to make analysis difficult.[11] agent tesla has used the rijndael symmetric encryption algorithm to encrypt strings.[12]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1055",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055",
-                    "technique_name": "process injection",
-                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
-                    "procedure_description": "agent tesla can inject into known, vulnerable binaries on targeted hosts.[2]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1055.012",
-                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
-                    "technique_name": "process injection : process hollowing",
-                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
-                    "procedure_description": "agent tesla has used process hollowing to create and manipulate processes through sections of unmapped memory by reallocating that space with its malicious code.[3]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1218.009",
-                    "technique_link": "https://attack.mitre.org/techniques/T1218/009",
-                    "technique_name": "system binary proxy execution : regsvcs/regasm",
-                    "technique_description": "adversaries may abuse regsvcs and regasm to proxy execution of code through a trusted windows utility. regsvcs and regasm are windows command-line utilities that are used to register .net component object model (com) assemblies. both are binaries that may be digitally signed by microsoft.",
-                    "procedure_description": "agent tesla has dropped regasm.exe onto systems for performing malicious activity.[5]"
-                },
-                {
-                    "tactic_code": "ta0005",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
-                    "tactic_name": "defense evasion",
-                    "tactic_alias": "defense_evasion",
-                    "tactic_description": "The adversary is trying to avoid being detected.",
-                    "technique_code": "t1497",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497",
-                    "technique_name": "virtualization/sandbox evasion",
-                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
-                    "procedure_description": "agent tesla has he ability to perform anti-sandboxing and anti-virtualization checks.[3]"
-                },
-                {
-                    "tactic_code": "ta0006",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
-                    "tactic_name": "credential access",
-                    "tactic_alias": "credential_access",
-                    "tactic_description": "The adversary is trying to steal account names and passwords.",
-                    "technique_code": "t1555",
-                    "technique_link": "https://attack.mitre.org/techniques/T1555",
-                    "technique_name": "credentials from password stores",
-                    "technique_description": "adversaries may search for common password storage locations to obtain user credentials. passwords are stored in several places on a system, depending on the operating system or application holding the credentials. there are also specific applications that store passwords to make it easier for users manage and maintain. once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
-                    "procedure_description": "agent tesla has the ability to steal credentials from ftp clients and wireless profiles.[1]"
-                },
-                {
-                    "tactic_code": "ta0006",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
-                    "tactic_name": "credential access",
-                    "tactic_alias": "credential_access",
-                    "tactic_description": "The adversary is trying to steal account names and passwords.",
-                    "technique_code": "t1555.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1555/003",
-                    "technique_name": "credentials from password stores : credentials from web browsers",
-                    "technique_description": "adversaries may acquire credentials from web browsers by reading files specific to the target browser. web browsers commonly save credentials such as website usernames and passwords so that they do not need to be entered manually in the future. web browsers typically store the credentials in an encrypted format within a credential store; however, methods exist to extract plaintext credentials from web browsers.",
-                    "procedure_description": "agent tesla can gather credentials from a number of browsers.[6]"
-                },
-                {
-                    "tactic_code": "ta0006",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
-                    "tactic_name": "credential access",
-                    "tactic_alias": "credential_access",
-                    "tactic_description": "The adversary is trying to steal account names and passwords.",
-                    "technique_code": "t1056.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
-                    "technique_name": "input capture : keylogging",
-                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
-                    "procedure_description": "agent tesla can log keystrokes on the victim\u2019s machine.[5][6][7][8][9]"
-                },
-                {
-                    "tactic_code": "ta0006",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
-                    "tactic_name": "credential access",
-                    "tactic_alias": "credential_access",
-                    "tactic_description": "The adversary is trying to steal account names and passwords.",
-                    "technique_code": "t1552.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1552/001",
-                    "technique_name": "unsecured credentials : credentials in files",
-                    "technique_description": "adversaries may search local file systems and remote file shares for files containing insecurely stored credentials. these can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.",
-                    "procedure_description": "agent tesla has the ability to extract credentials from configuration or support files.[7]"
-                },
-                {
-                    "tactic_code": "ta0006",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
-                    "tactic_name": "credential access",
-                    "tactic_alias": "credential_access",
-                    "tactic_description": "The adversary is trying to steal account names and passwords.",
-                    "technique_code": "t1552.002",
-                    "technique_link": "https://attack.mitre.org/techniques/T1552/002",
-                    "technique_name": "unsecured credentials : credentials in registry",
-                    "technique_description": "adversaries may search the registry on compromised systems for insecurely stored credentials. the windows registry stores configuration information that can be used by the system or other programs. adversaries may query the registry looking for credentials and passwords that have been stored for use by other programs or services. sometimes these credentials are used for automatic logons.",
-                    "procedure_description": "agent tesla has the ability to extract credentials from the registry.[2]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1087.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1087/001",
-                    "technique_name": "account discovery : local account",
-                    "technique_description": "adversaries may attempt to get a listing of local system accounts. this information can help adversaries determine which local accounts exist on a system to aid in follow-on behavior.",
-                    "procedure_description": "agent tesla can collect account information from the victim\u2019s machine.[2]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1057",
-                    "technique_link": "https://attack.mitre.org/techniques/T1057",
-                    "technique_name": "process discovery",
-                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "agent tesla can list the current running processes on the system.[5]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1082",
-                    "technique_link": "https://attack.mitre.org/techniques/T1082",
-                    "technique_name": "system information discovery",
-                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "agent tesla can collect the system's computer name and also has the capability to collect information on the processor, memory, os, and video card from the system.[12][13][14]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1016",
-                    "technique_link": "https://attack.mitre.org/techniques/T1016",
-                    "technique_name": "system network configuration discovery",
-                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
-                    "procedure_description": "agent tesla can collect the ip address of the victim machine and spawn instances of netsh.exe to enumerate wireless settings.[8][9]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1033",
-                    "technique_link": "https://attack.mitre.org/techniques/T1033",
-                    "technique_name": "system owner/user discovery",
-                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
-                    "procedure_description": "agent tesla can collect the username from the victim\u2019s machine.[4][5][6]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1124",
-                    "technique_link": "https://attack.mitre.org/techniques/T1124",
-                    "technique_name": "system time discovery",
-                    "technique_description": "an adversary may gather the system time and/or time zone from a local or remote system. the system time is set and stored by the windows time service within a domain to maintain time synchronization between systems and services in an enterprise network.",
-                    "procedure_description": "agent tesla can collect the timestamp from the victim\u2019s machine.[6]"
-                },
-                {
-                    "tactic_code": "ta0007",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
-                    "tactic_name": "discovery",
-                    "tactic_alias": "discovery",
-                    "tactic_description": "The adversary is trying to figure out your environment.",
-                    "technique_code": "t1497",
-                    "technique_link": "https://attack.mitre.org/techniques/T1497",
-                    "technique_name": "virtualization/sandbox evasion",
-                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
-                    "procedure_description": "agent tesla has he ability to perform anti-sandboxing and anti-virtualization checks.[3]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1560",
-                    "technique_link": "https://attack.mitre.org/techniques/T1560",
-                    "technique_name": "archive collected data",
-                    "technique_description": "an adversary may compress and/or encrypt data that is collected prior to exfiltration. compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender.",
-                    "procedure_description": "agent tesla can encrypt data with 3des before sending it over to a c2 server.[2]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1185",
-                    "technique_link": "https://attack.mitre.org/techniques/T1185",
-                    "technique_name": "browser session hijacking",
-                    "technique_description": "adversaries may take advantage of security vulnerabilities and inherent functionality in browser software to change content, modify user-behaviors, and intercept information as part of various browser session hijacking techniques.",
-                    "procedure_description": "agent tesla has the ability to use form-grabbing to extract data from web data forms.[5]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1115",
-                    "technique_link": "https://attack.mitre.org/techniques/T1115",
-                    "technique_name": "clipboard data",
-                    "technique_description": "adversaries may collect data stored in the clipboard from users copying information within or between applications.",
-                    "procedure_description": "agent tesla can steal data from the victim\u2019s clipboard.[6][7][8][9]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1056.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
-                    "technique_name": "input capture : keylogging",
-                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
-                    "procedure_description": "agent tesla can log keystrokes on the victim\u2019s machine.[5][6][7][8][9]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1113",
-                    "technique_link": "https://attack.mitre.org/techniques/T1113",
-                    "technique_name": "screen capture",
-                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
-                    "procedure_description": "agent tesla can capture screenshots of the victim\u2019s desktop.[3][4][5][6][7]"
-                },
-                {
-                    "tactic_code": "ta0009",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
-                    "tactic_name": "collection",
-                    "tactic_alias": "collection",
-                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
-                    "technique_code": "t1125",
-                    "technique_link": "https://attack.mitre.org/techniques/T1125",
-                    "technique_name": "video capture",
-                    "technique_description": "an adversary can leverage a computer's peripheral devices (e.g., integrated cameras or webcams) or applications (e.g., video call services) to capture video recordings for the purpose of gathering information. images may also be captured from devices or applications, potentially in specified intervals, in lieu of video files.",
-                    "procedure_description": "agent tesla can access the victim\u2019s webcam and record video.[2][3]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.001",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
-                    "technique_name": "application layer protocol : web protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "agent tesla has used http for c2 communications.[6][7]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1071.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1071/003",
-                    "technique_name": "application layer protocol : mail protocols",
-                    "technique_description": "adversaries may communicate using application layer protocols associated with electronic mail delivery to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
-                    "procedure_description": "agent tesla has used smtp for c2 communications.[1][2][3]"
-                },
-                {
-                    "tactic_code": "ta0011",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
-                    "tactic_name": "command and control",
-                    "tactic_alias": "command_and_control",
-                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
-                    "technique_code": "t1105",
-                    "technique_link": "https://attack.mitre.org/techniques/T1105",
-                    "technique_name": "ingress tool transfer",
-                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
-                    "procedure_description": "agent tesla can download additional files for execution on the victim\u2019s machine.[5][6]"
-                },
-                {
-                    "tactic_code": "ta0010",
-                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
-                    "tactic_name": "exfiltration",
-                    "tactic_alias": "exfiltration",
-                    "tactic_description": "The adversary is trying to steal data.",
-                    "technique_code": "t1048.003",
-                    "technique_link": "https://attack.mitre.org/techniques/T1048/003",
-                    "technique_name": "exfiltration over alternative protocol : exfiltration over unencrypted non-c2 protocol",
-                    "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
-                    "procedure_description": "agent tesla has routines for exfiltration over smtp, ftp, and http.[2][3][4]"
-                }
-            ]
-        }
-    ],
+    "last_ioc_update": "2023-10-02 06:36:09",
     "file_name": "agent_tesla",
     "analysis": null,
     "articles": [
@@ -41933,6 +41402,532 @@ var threatdata = {
             "title": "Agent Tesla Keylogger delivered using cybersquatting",
             "categories": [
                 "Agent Tesla"
+            ]
+        }
+    ],
+    "mitre": [
+        {
+            "procedure_name": "agent tesla",
+            "procedure_code": "s0331",
+            "procedure_type": "software",
+            "procedure_link": "https://attack.mitre.org/software/S0331",
+            "techniques": [
+                {
+                    "tactic_code": "ta0001",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0001",
+                    "tactic_name": "initial access",
+                    "tactic_alias": "initial_access",
+                    "tactic_description": "The adversary is trying to get into your network.",
+                    "technique_code": "t1566.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1566/001",
+                    "technique_name": "phishing : spearphishing attachment",
+                    "technique_description": "adversaries may send spearphishing emails with a malicious attachment in an attempt to gain access to victim systems. spearphishing attachment is a specific variant of spearphishing. spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. all forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. in this scenario, adversaries attach a file to the spearphishing email and usually rely upon user execution to gain execution. spearphishing may also involve social engineering techniques, such as posing as a trusted source.",
+                    "procedure_description": "the primary delivered mechanism for agent tesla is through email phishing messages.[2]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1203",
+                    "technique_link": "https://attack.mitre.org/techniques/T1203",
+                    "technique_name": "exploitation for client execution",
+                    "technique_description": "adversaries may exploit software vulnerabilities in client applications to execute code. vulnerabilities can exist in software due to unsecure coding practices that can lead to unanticipated behavior. adversaries can take advantage of certain vulnerabilities through targeted exploitation for the purpose of arbitrary code execution. oftentimes the most valuable exploits to an offensive toolkit are those that can be used to obtain code execution on a remote system because they can be used to gain access to that system. users will expect to see files related to the applications they commonly used to do work, so they are a useful target for exploit research and development because of their high utility.",
+                    "procedure_description": "agent tesla has exploited office vulnerabilities such as cve-2017-11882 and cve-2017-8570 for execution during delivery.[2]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1204.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1204/002",
+                    "technique_name": "user execution : malicious file",
+                    "technique_description": "an adversary may rely upon a user opening a malicious file in order to gain execution. users may be subjected to social engineering to get them to open a file that will lead to code execution. this user action will typically be observed as follow-on behavior from spearphishing attachment. adversaries may use several types of files that require a user to execute them, including .doc, .pdf, .xls, .rtf, .scr, .exe, .lnk, .pif, and .cpl.",
+                    "procedure_description": "agent tesla has been executed through malicious e-mail attachments [3]"
+                },
+                {
+                    "tactic_code": "ta0002",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0002",
+                    "tactic_name": "execution",
+                    "tactic_alias": "execution",
+                    "tactic_description": "The adversary is trying to run malicious code.",
+                    "technique_code": "t1047",
+                    "technique_link": "https://attack.mitre.org/techniques/T1047",
+                    "technique_name": "windows management instrumentation",
+                    "technique_description": "adversaries may abuse windows management instrumentation (wmi) to execute malicious commands and payloads. wmi is an administration feature that provides a uniform environment to access windows system components. the wmi service enables both local and remote access, though the latter is facilitated by remote services such as distributed component object model (dcom) and windows remote management (winrm). remote wmi over dcom operates using port 135, whereas wmi over winrm operates over port 5985 when using http and 5986 for https.",
+                    "procedure_description": "agent tesla has used wmi queries to gather information from the system.[6]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "agent tesla can add itself to the registry as a startup program to establish persistence.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0003",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0003",
+                    "tactic_name": "persistence",
+                    "tactic_alias": "persistence",
+                    "tactic_description": "The adversary is trying to maintain their foothold.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1547.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1547/001",
+                    "technique_name": "boot or logon autostart execution : registry run keys / startup folder",
+                    "technique_description": "adversaries may achieve persistence by adding a program to a startup folder or referencing it with a registry run key. adding an entry to the \"run keys\" in the registry or startup folder will cause the program referenced to be executed when a user logs in. these programs will be executed under the context of the user and will have the account's associated permissions level.",
+                    "procedure_description": "agent tesla can add itself to the registry as a startup program to establish persistence.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "agent tesla can inject into known, vulnerable binaries on targeted hosts.[2]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "agent tesla has used process hollowing to create and manipulate processes through sections of unmapped memory by reallocating that space with its malicious code.[3]"
+                },
+                {
+                    "tactic_code": "ta0004",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0004",
+                    "tactic_name": "privilege escalation",
+                    "tactic_alias": "privilege_escalation",
+                    "tactic_description": "The adversary is trying to gain higher-level permissions.",
+                    "technique_code": "t1053.005",
+                    "technique_link": "https://attack.mitre.org/techniques/T1053/005",
+                    "technique_name": "scheduled task/job : scheduled task",
+                    "technique_description": "adversaries may abuse the windows task scheduler to perform task scheduling for initial or recurring execution of malicious code. there are multiple ways to access the task scheduler in windows. the schtasks utility can be run directly on the command line, or the task scheduler can be opened through the gui within the administrator tools section of the control panel. in some cases, adversaries have used a .net wrapper for the windows task scheduler, and alternatively, adversaries have used the windows netapi32 library to create a scheduled task.",
+                    "procedure_description": "agent tesla  has achieved persistence via scheduled tasks.[5]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1140",
+                    "technique_link": "https://attack.mitre.org/techniques/T1140",
+                    "technique_name": "deobfuscate/decode files or information",
+                    "technique_description": "adversaries may use obfuscated files or information to hide artifacts of an intrusion from analysis. they may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. methods for doing that include built-in functionality of malware or by using utilities present on the system.",
+                    "procedure_description": "agent tesla has the ability to decrypt strings encrypted with the rijndael symmetric encryption algorithm.[6]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/001",
+                    "technique_name": "hide artifacts : hidden files and directories",
+                    "technique_description": "adversaries may set files and directories to be hidden to evade detection mechanisms. to prevent normal users from accidentally changing special files on a system, most operating systems have the concept of a \u2018hidden\u2019 file. these files don\u2019t show up when a user browses the file system with a gui or when using normal commands on the command line. users must explicitly ask to show the hidden files either via a series of graphical user interface (gui) prompts or with command line switches (dir /a for windows and ls \u2013a for linux and macos).",
+                    "procedure_description": "agent tesla has created hidden folders.[4]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1564.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1564/003",
+                    "technique_name": "hide artifacts : hidden window",
+                    "technique_description": "adversaries may use hidden windows to conceal malicious activity from the plain sight of users. in some cases, windows that would typically be displayed when an application carries out an operation can be hidden. this may be utilized by system administrators to avoid disrupting user work environments when carrying out administrative tasks.",
+                    "procedure_description": "agent tesla has used processwindowstyle.hidden to hide windows.[3]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1562.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1562/001",
+                    "technique_name": "impair defenses : disable or modify tools",
+                    "technique_description": "adversaries may modify and/or disable security tools to avoid possible detection of their malware/tools and activities. this may take many forms, such as killing security software processes or services, modifying / deleting registry keys or configuration files so that tools do not operate properly, or other methods to interfere with security tools scanning or reporting information. adversaries may also disable updates to prevent the latest security patches from reaching tools on victim systems.",
+                    "procedure_description": "agent tesla has the capability to kill any running analysis processes and av software.[10]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1112",
+                    "technique_link": "https://attack.mitre.org/techniques/T1112",
+                    "technique_name": "modify registry",
+                    "technique_description": "adversaries may interact with the windows registry to hide configuration information within registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.",
+                    "procedure_description": "agent tesla can achieve persistence by modifying registry key entries.[8]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1027",
+                    "technique_link": "https://attack.mitre.org/techniques/T1027",
+                    "technique_name": "obfuscated files or information",
+                    "technique_description": "adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. this is common behavior that can be used across different platforms and the network to evade defenses.",
+                    "procedure_description": "agent tesla has had its code obfuscated in an apparent attempt to make analysis difficult.[11] agent tesla has used the rijndael symmetric encryption algorithm to encrypt strings.[12]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055",
+                    "technique_name": "process injection",
+                    "technique_description": "adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. process injection is a method of executing arbitrary code in the address space of a separate live process. running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.",
+                    "procedure_description": "agent tesla can inject into known, vulnerable binaries on targeted hosts.[2]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1055.012",
+                    "technique_link": "https://attack.mitre.org/techniques/T1055/012",
+                    "technique_name": "process injection : process hollowing",
+                    "technique_description": "adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. process hollowing is a method of executing arbitrary code in the address space of a separate live process.",
+                    "procedure_description": "agent tesla has used process hollowing to create and manipulate processes through sections of unmapped memory by reallocating that space with its malicious code.[3]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1218.009",
+                    "technique_link": "https://attack.mitre.org/techniques/T1218/009",
+                    "technique_name": "system binary proxy execution : regsvcs/regasm",
+                    "technique_description": "adversaries may abuse regsvcs and regasm to proxy execution of code through a trusted windows utility. regsvcs and regasm are windows command-line utilities that are used to register .net component object model (com) assemblies. both are binaries that may be digitally signed by microsoft.",
+                    "procedure_description": "agent tesla has dropped regasm.exe onto systems for performing malicious activity.[5]"
+                },
+                {
+                    "tactic_code": "ta0005",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0005",
+                    "tactic_name": "defense evasion",
+                    "tactic_alias": "defense_evasion",
+                    "tactic_description": "The adversary is trying to avoid being detected.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "agent tesla has he ability to perform anti-sandboxing and anti-virtualization checks.[3]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555",
+                    "technique_name": "credentials from password stores",
+                    "technique_description": "adversaries may search for common password storage locations to obtain user credentials. passwords are stored in several places on a system, depending on the operating system or application holding the credentials. there are also specific applications that store passwords to make it easier for users manage and maintain. once credentials are obtained, they can be used to perform lateral movement and access restricted information.",
+                    "procedure_description": "agent tesla has the ability to steal credentials from ftp clients and wireless profiles.[1]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1555.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1555/003",
+                    "technique_name": "credentials from password stores : credentials from web browsers",
+                    "technique_description": "adversaries may acquire credentials from web browsers by reading files specific to the target browser. web browsers commonly save credentials such as website usernames and passwords so that they do not need to be entered manually in the future. web browsers typically store the credentials in an encrypted format within a credential store; however, methods exist to extract plaintext credentials from web browsers.",
+                    "procedure_description": "agent tesla can gather credentials from a number of browsers.[6]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1056.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
+                    "technique_name": "input capture : keylogging",
+                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
+                    "procedure_description": "agent tesla can log keystrokes on the victim\u2019s machine.[5][6][7][8][9]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/001",
+                    "technique_name": "unsecured credentials : credentials in files",
+                    "technique_description": "adversaries may search local file systems and remote file shares for files containing insecurely stored credentials. these can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.",
+                    "procedure_description": "agent tesla has the ability to extract credentials from configuration or support files.[7]"
+                },
+                {
+                    "tactic_code": "ta0006",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0006",
+                    "tactic_name": "credential access",
+                    "tactic_alias": "credential_access",
+                    "tactic_description": "The adversary is trying to steal account names and passwords.",
+                    "technique_code": "t1552.002",
+                    "technique_link": "https://attack.mitre.org/techniques/T1552/002",
+                    "technique_name": "unsecured credentials : credentials in registry",
+                    "technique_description": "adversaries may search the registry on compromised systems for insecurely stored credentials. the windows registry stores configuration information that can be used by the system or other programs. adversaries may query the registry looking for credentials and passwords that have been stored for use by other programs or services. sometimes these credentials are used for automatic logons.",
+                    "procedure_description": "agent tesla has the ability to extract credentials from the registry.[2]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1087.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1087/001",
+                    "technique_name": "account discovery : local account",
+                    "technique_description": "adversaries may attempt to get a listing of local system accounts. this information can help adversaries determine which local accounts exist on a system to aid in follow-on behavior.",
+                    "procedure_description": "agent tesla can collect account information from the victim\u2019s machine.[2]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1057",
+                    "technique_link": "https://attack.mitre.org/techniques/T1057",
+                    "technique_name": "process discovery",
+                    "technique_description": "adversaries may attempt to get information about running processes on a system. information obtained could be used to gain an understanding of common software/applications running on systems within the network. adversaries may use the information from process discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "agent tesla can list the current running processes on the system.[5]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1082",
+                    "technique_link": "https://attack.mitre.org/techniques/T1082",
+                    "technique_name": "system information discovery",
+                    "technique_description": "an adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. adversaries may use the information from system information discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "agent tesla can collect the system's computer name and also has the capability to collect information on the processor, memory, os, and video card from the system.[12][13][14]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1016",
+                    "technique_link": "https://attack.mitre.org/techniques/T1016",
+                    "technique_name": "system network configuration discovery",
+                    "technique_description": "adversaries may look for details about the network configuration and settings, such as ip and/or mac addresses, of systems they access or through information discovery of remote systems. several operating system administration utilities exist that can be used to gather this information. examples include arp, ipconfig/ifconfig, nbtstat, and route.",
+                    "procedure_description": "agent tesla can collect the ip address of the victim machine and spawn instances of netsh.exe to enumerate wireless settings.[8][9]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1033",
+                    "technique_link": "https://attack.mitre.org/techniques/T1033",
+                    "technique_name": "system owner/user discovery",
+                    "technique_description": "adversaries may attempt to identify the primary user, currently logged in user, set of users that commonly uses a system, or whether a user is actively using the system. they may do this, for example, by retrieving account usernames or by using os credential dumping. the information may be collected in a number of different ways using other discovery techniques, because user and username details are prevalent throughout a system and include running process ownership, file/directory ownership, session information, and system logs. adversaries may use the information from system owner/user discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+                    "procedure_description": "agent tesla can collect the username from the victim\u2019s machine.[4][5][6]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1124",
+                    "technique_link": "https://attack.mitre.org/techniques/T1124",
+                    "technique_name": "system time discovery",
+                    "technique_description": "an adversary may gather the system time and/or time zone from a local or remote system. the system time is set and stored by the windows time service within a domain to maintain time synchronization between systems and services in an enterprise network.",
+                    "procedure_description": "agent tesla can collect the timestamp from the victim\u2019s machine.[6]"
+                },
+                {
+                    "tactic_code": "ta0007",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0007",
+                    "tactic_name": "discovery",
+                    "tactic_alias": "discovery",
+                    "tactic_description": "The adversary is trying to figure out your environment.",
+                    "technique_code": "t1497",
+                    "technique_link": "https://attack.mitre.org/techniques/T1497",
+                    "technique_name": "virtualization/sandbox evasion",
+                    "technique_description": "adversaries may employ various means to detect and avoid virtualization and analysis environments. this may include changing behaviors based on the results of checks for the presence of artifacts indicative of a virtual machine environment (vme) or sandbox. if the adversary detects a vme, they may alter their malware to disengage from the victim or conceal the core functions of the implant. they may also search for vme artifacts before dropping secondary or additional payloads. adversaries may use the information learned from virtualization/sandbox evasion during automated discovery to shape follow-on behaviors.",
+                    "procedure_description": "agent tesla has he ability to perform anti-sandboxing and anti-virtualization checks.[3]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1560",
+                    "technique_link": "https://attack.mitre.org/techniques/T1560",
+                    "technique_name": "archive collected data",
+                    "technique_description": "an adversary may compress and/or encrypt data that is collected prior to exfiltration. compressing the data can help to obfuscate the collected data and minimize the amount of data sent over the network. encryption can be used to hide information that is being exfiltrated from detection or make exfiltration less conspicuous upon inspection by a defender.",
+                    "procedure_description": "agent tesla can encrypt data with 3des before sending it over to a c2 server.[2]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1185",
+                    "technique_link": "https://attack.mitre.org/techniques/T1185",
+                    "technique_name": "browser session hijacking",
+                    "technique_description": "adversaries may take advantage of security vulnerabilities and inherent functionality in browser software to change content, modify user-behaviors, and intercept information as part of various browser session hijacking techniques.",
+                    "procedure_description": "agent tesla has the ability to use form-grabbing to extract data from web data forms.[5]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1115",
+                    "technique_link": "https://attack.mitre.org/techniques/T1115",
+                    "technique_name": "clipboard data",
+                    "technique_description": "adversaries may collect data stored in the clipboard from users copying information within or between applications.",
+                    "procedure_description": "agent tesla can steal data from the victim\u2019s clipboard.[6][7][8][9]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1056.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1056/001",
+                    "technique_name": "input capture : keylogging",
+                    "technique_description": "adversaries may log user keystrokes to intercept credentials as the user types them. keylogging is likely to be used to acquire credentials for new access opportunities when os credential dumping efforts are not effective, and may require an adversary to intercept keystrokes on a system for a substantial period of time before credentials can be successfully captured.",
+                    "procedure_description": "agent tesla can log keystrokes on the victim\u2019s machine.[5][6][7][8][9]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1113",
+                    "technique_link": "https://attack.mitre.org/techniques/T1113",
+                    "technique_name": "screen capture",
+                    "technique_description": "adversaries may attempt to take screen captures of the desktop to gather information over the course of an operation. screen capturing functionality may be included as a feature of a remote access tool used in post-compromise operations. taking a screenshot is also typically possible through native utilities or api calls, such as copyfromscreen, xwd, or screencapture.",
+                    "procedure_description": "agent tesla can capture screenshots of the victim\u2019s desktop.[3][4][5][6][7]"
+                },
+                {
+                    "tactic_code": "ta0009",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0009",
+                    "tactic_name": "collection",
+                    "tactic_alias": "collection",
+                    "tactic_description": "The adversary is trying to gather data of interest to their goal.",
+                    "technique_code": "t1125",
+                    "technique_link": "https://attack.mitre.org/techniques/T1125",
+                    "technique_name": "video capture",
+                    "technique_description": "an adversary can leverage a computer's peripheral devices (e.g., integrated cameras or webcams) or applications (e.g., video call services) to capture video recordings for the purpose of gathering information. images may also be captured from devices or applications, potentially in specified intervals, in lieu of video files.",
+                    "procedure_description": "agent tesla can access the victim\u2019s webcam and record video.[2][3]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.001",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/001",
+                    "technique_name": "application layer protocol : web protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "agent tesla has used http for c2 communications.[6][7]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1071.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1071/003",
+                    "technique_name": "application layer protocol : mail protocols",
+                    "technique_description": "adversaries may communicate using application layer protocols associated with electronic mail delivery to avoid detection/network filtering by blending in with existing traffic. commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.",
+                    "procedure_description": "agent tesla has used smtp for c2 communications.[1][2][3]"
+                },
+                {
+                    "tactic_code": "ta0011",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0011",
+                    "tactic_name": "command and control",
+                    "tactic_alias": "command_and_control",
+                    "tactic_description": "The adversary is trying to communicate with compromised systems to control them.",
+                    "technique_code": "t1105",
+                    "technique_link": "https://attack.mitre.org/techniques/T1105",
+                    "technique_name": "ingress tool transfer",
+                    "technique_description": "adversaries may transfer tools or other files from an external system into a compromised environment. tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as ftp. once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. lateral tool transfer).",
+                    "procedure_description": "agent tesla can download additional files for execution on the victim\u2019s machine.[5][6]"
+                },
+                {
+                    "tactic_code": "ta0010",
+                    "tactic_link": "https://attack.mitre.org/tactics/TA0010",
+                    "tactic_name": "exfiltration",
+                    "tactic_alias": "exfiltration",
+                    "tactic_description": "The adversary is trying to steal data.",
+                    "technique_code": "t1048.003",
+                    "technique_link": "https://attack.mitre.org/techniques/T1048/003",
+                    "technique_name": "exfiltration over alternative protocol : exfiltration over unencrypted non-c2 protocol",
+                    "technique_description": "adversaries may steal data by exfiltrating it over an un-encrypted network protocol other than that of the existing command and control channel. the data may also be sent to an alternate network location from the main command and control server.",
+                    "procedure_description": "agent tesla has routines for exfiltration over smtp, ftp, and http.[2][3][4]"
+                }
             ]
         }
     ]

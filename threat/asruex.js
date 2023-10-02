@@ -32,7 +32,6 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
-    "mitre": [],
     "file_name": "asruex",
     "analysis": null,
     "articles": [
@@ -60,5 +59,6 @@ var threatdata = {
                 "Asruex"
             ]
         }
-    ]
+    ],
+    "mitre": []
 };

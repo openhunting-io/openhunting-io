@@ -28,6 +28,9 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "powerstallion",
+    "analysis": null,
+    "articles": [],
     "mitre": [
         {
             "procedure_name": "powerstallion",
@@ -97,8 +100,5 @@ var threatdata = {
                 }
             ]
         }
-    ],
-    "file_name": "powerstallion",
-    "analysis": null,
-    "articles": []
+    ]
 };

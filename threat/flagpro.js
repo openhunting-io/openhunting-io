@@ -35,6 +35,77 @@ var threatdata = {
     },
     "ioc_data": [],
     "last_ioc_update": null,
+    "file_name": "flagpro",
+    "analysis": null,
+    "articles": [
+        {
+            "data_url": "https://jp.security.ntt/resources/EN-BlackTech_2021.pdf",
+            "date": "2022-09-29",
+            "organization": "NTT",
+            "author": "NTT Security Holdings Corporation",
+            "title": "Report on APT Attacks by  BlackTech",
+            "categories": [
+                "Bifrost",
+                "PLEAD",
+                "TSCookie",
+                "Flagpro",
+                "Gh0stTimes",
+                "SelfMake Loader",
+                "SPIDERPIG RAT"
+            ]
+        },
+        {
+            "data_url": "https://jsac.jpcert.or.jp/archive/2022/pdf/JSAC2022_8_hara_en.pdf",
+            "date": "2022-01-25",
+            "organization": "Trend Micro",
+            "author": "Hara Hiroaki",
+            "title": "Ambiguously Black: The Current State of Earth Hundun's Arsenal",
+            "categories": [
+                "Flagpro",
+                "SPIDERPIG RAT"
+            ]
+        },
+        {
+            "data_url": "https://insight-jp.nttsecurity.com/post/102hf3q/flagpro-the-new-malware-used-by-blacktech",
+            "date": "2021-12-28",
+            "organization": "NTT",
+            "author": "Hiroki Hada",
+            "title": "Flagpro: The new malware used by BlackTech",
+            "categories": [
+                "Flagpro"
+            ]
+        },
+        {
+            "data_url": "https://cyberandramen.net/2021/12/12/more-flagpro-more-problems/",
+            "date": "2021-12-12",
+            "organization": "Cyber And Ramen blog",
+            "author": "Mike R",
+            "title": "More Flagpro, More Problems",
+            "categories": [
+                "Flagpro"
+            ]
+        },
+        {
+            "data_url": "https://insight-jp.nttsecurity.com/post/102h7vx/blacktechflagpro",
+            "date": "2021-10-08",
+            "organization": "NTT",
+            "author": "Hiroki Hada",
+            "title": "Malware Flagpro used by targeted attack group BlackTech",
+            "categories": [
+                "Flagpro"
+            ]
+        },
+        {
+            "data_url": "https://vblocalhost.com/uploads/VB2021-50.pdf",
+            "date": "2021-10-07",
+            "organization": "VB Localhost",
+            "author": "Sveva Vittoria Scenarelli",
+            "title": "Back to Black(Tech): an analysis of recent BlackTech operations and an open directory full of exploits",
+            "categories": [
+                "Flagpro"
+            ]
+        }
+    ],
     "mitre": [
         {
             "procedure_name": "flagpro",
@@ -342,77 +413,6 @@ var threatdata = {
                     "technique_description": "adversaries may schedule data exfiltration to be performed only at certain times of day or at certain intervals. this could be done to blend traffic patterns with normal activity or availability.",
                     "procedure_description": "flagpro has the ability to wait for a specified time interval between communicating with and executing commands from c2.[6]"
                 }
-            ]
-        }
-    ],
-    "file_name": "flagpro",
-    "analysis": null,
-    "articles": [
-        {
-            "data_url": "https://jp.security.ntt/resources/EN-BlackTech_2021.pdf",
-            "date": "2022-09-29",
-            "organization": "NTT",
-            "author": "NTT Security Holdings Corporation",
-            "title": "Report on APT Attacks by  BlackTech",
-            "categories": [
-                "Bifrost",
-                "PLEAD",
-                "TSCookie",
-                "Flagpro",
-                "Gh0stTimes",
-                "SelfMake Loader",
-                "SPIDERPIG RAT"
-            ]
-        },
-        {
-            "data_url": "https://jsac.jpcert.or.jp/archive/2022/pdf/JSAC2022_8_hara_en.pdf",
-            "date": "2022-01-25",
-            "organization": "Trend Micro",
-            "author": "Hara Hiroaki",
-            "title": "Ambiguously Black: The Current State of Earth Hundun's Arsenal",
-            "categories": [
-                "Flagpro",
-                "SPIDERPIG RAT"
-            ]
-        },
-        {
-            "data_url": "https://insight-jp.nttsecurity.com/post/102hf3q/flagpro-the-new-malware-used-by-blacktech",
-            "date": "2021-12-28",
-            "organization": "NTT",
-            "author": "Hiroki Hada",
-            "title": "Flagpro: The new malware used by BlackTech",
-            "categories": [
-                "Flagpro"
-            ]
-        },
-        {
-            "data_url": "https://cyberandramen.net/2021/12/12/more-flagpro-more-problems/",
-            "date": "2021-12-12",
-            "organization": "Cyber And Ramen blog",
-            "author": "Mike R",
-            "title": "More Flagpro, More Problems",
-            "categories": [
-                "Flagpro"
-            ]
-        },
-        {
-            "data_url": "https://insight-jp.nttsecurity.com/post/102h7vx/blacktechflagpro",
-            "date": "2021-10-08",
-            "organization": "NTT",
-            "author": "Hiroki Hada",
-            "title": "Malware Flagpro used by targeted attack group BlackTech",
-            "categories": [
-                "Flagpro"
-            ]
-        },
-        {
-            "data_url": "https://vblocalhost.com/uploads/VB2021-50.pdf",
-            "date": "2021-10-07",
-            "organization": "VB Localhost",
-            "author": "Sveva Vittoria Scenarelli",
-            "title": "Back to Black(Tech): an analysis of recent BlackTech operations and an open directory full of exploits",
-            "categories": [
-                "Flagpro"
             ]
         }
     ]
