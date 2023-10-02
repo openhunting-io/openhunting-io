@@ -365,33 +365,7 @@
           </button>
         </div>
         <div class="modal-body modal-fullheight">
-          <pre><code id="codeArea" class="yaml" contenteditable="false">
-id: a317f7b4
-info:
-    name: ' X-Files Stealer Malware Rule'
-    author: AndreGironda
-    date: '2022-08-02 16:52:11'
-    modified: Not Available
-    severity: Critical
-    category: botnet_cc
-    description: null
-    tags:
-    - XfilesStealer
-    - win.xfilesstealer
-    references:
-    - https://bazaar.abuse.ch/sample/bb6e3bb232cdd16773464d14e3f6ba292f9e2031c9b2eb46cfe86dfb352989e5/
-    reporter: AndreGironda
-    confidence_level: 100
-method:
-- query: select * from process_open_sockets
-    column_master: remote_address
-    signature:
-    - name: domain
-    indicator:
-    - 185.225.73.217
-    - 185.225.73.216
-            
-          </code></pre>
+          <pre><code id="codeArea" class="yaml" contenteditable="false"></code></pre>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -423,6 +397,7 @@ method:
     <script src="assets/dp/mail/jqBootstrapValidation.min.js"></script>
     <script src="assets/dp/mail/contact.js"></script>
     <script src="searchbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
 
     <script>
         // This function will extract the 'data' parameter from the URL
@@ -1093,6 +1068,23 @@ method:
 
             };
             document.body.appendChild(script);
+
+            /////////////////////////////
+            /////// FOR RULES ///////////
+            /////////////////////////////
+
+            var scriptrules = document.createElement('script');
+            scriptrules.src = 'rules/hunt_'+dataFile + '.js'; // Assuming the JS file has the same name as the data parameter value
+            scriptrules.onload = function() {
+                // Convert JS object to YAML string
+                const yamlString = jsyaml.dump(rule);
+                // Displaying the YAML string in the <pre> element
+                document.getElementById('codeArea').textContent = yamlString;
+                // Apply syntax highlighting
+                hljs.highlightBlock(codeArea);
+
+            }
+            document.body.appendChild(scriptrules);
            
         } else{
             window.location.href = "threat-library.html";
