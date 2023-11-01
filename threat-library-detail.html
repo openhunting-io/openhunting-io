@@ -358,7 +358,7 @@
 
 <!-- Modal -->
 <!-- Modal -->
-<div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="codeModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="codeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -376,7 +376,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 <!--  -->
@@ -423,8 +423,8 @@
                 var threatdataName_text = document.getElementById('threatdataName');
                 threatdataName_text.textContent = nameThreat;
 
-                var detectionTitle_text = document.getElementById('detectionTitle');
-                detectionTitle_text.textContent = "Detection: "+nameThreat;
+                // var detectionTitle_text = document.getElementById('detectionTitle');
+                // detectionTitle_text.textContent = "Detection: "+nameThreat;
 
                 var infoAlias_text = document.getElementById('infoAlias');
                 infoAlias_text.textContent = aliasThreat;
@@ -1076,18 +1076,7 @@
             /////// FOR RULES ///////////
             /////////////////////////////
 
-            var scriptrules = document.createElement('script');
-            scriptrules.src = 'rules/hunt_'+dataFile + '.js'; // Assuming the JS file has the same name as the data parameter value
-            scriptrules.onload = function() {
-                // Convert JS object to YAML string
-                const yamlString = jsyaml.dump(rule);
-                // Displaying the YAML string in the <pre> element
-                document.getElementById('codeArea').textContent = yamlString;
-                // Apply syntax highlighting
-                hljs.highlightBlock(codeArea);
-
-            }
-            document.body.appendChild(scriptrules);
+            
            
         } else{
             window.location.href = "threat-library.html";
@@ -1099,19 +1088,19 @@
     <!-- <script src="assets/dp/js/main.js"></script> -->
     <script src="assets/lp/vendor/wow/wow.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            hljs.highlightBlock(document.getElementById('codeArea'));
-        });
+        // document.addEventListener('DOMContentLoaded', (event) => {
+        //     hljs.highlightBlock(document.getElementById('codeArea'));
+        // });
 
-        function copyCode() {
-            let range = document.createRange();
-            range.selectNode(document.getElementById('codeArea'));
-            window.getSelection().removeAllRanges();
-            window.getSelection().addRange(range);
-            document.execCommand("copy");
-            window.getSelection().removeAllRanges();
-            // alert("Code copied to clipboard!");
-        }
+        // function copyCode() {
+        //     let range = document.createRange();
+        //     range.selectNode(document.getElementById('codeArea'));
+        //     window.getSelection().removeAllRanges();
+        //     window.getSelection().addRange(range);
+        //     document.execCommand("copy");
+        //     window.getSelection().removeAllRanges();
+        //     // alert("Code copied to clipboard!");
+        // }
 
         const searchBox = document.getElementById("customSearchBox");
         const suggestionList = document.getElementById("suggestionList");
