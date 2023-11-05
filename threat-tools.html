@@ -143,13 +143,13 @@
     card.innerHTML = `
       <div class="card product-item border-0 mb-4">
         <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0" style="color: black;">
-          <h6 class="text-center pt-2">${item.title}</h6>
+          <a href="${item.downloadLink}" class="btn btn-sm text-dark p-0"><h6 class="text-center pt-2">${item.title}</h6></a>
           <div class="d-flex justify-content-center">
               <h6></h6>
           </div>
         </div>
         <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-          <img class="img-fluid w-30" width="200px" src="${item.imageSrc}" alt="">
+          <a href="${item.downloadLink}" class="btn btn-sm text-dark p-0"><img class="img-fluid w-30" width="200px" src="${item.imageSrc}" alt=""></a>
         </div>
         <div class="card-footer d-flex justify-content-between bg-light border">
           <a href="${item.downloadLink}" class="btn btn-sm text-dark p-0">Download Tools</a>
