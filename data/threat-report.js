@@ -1,17 +1,10 @@
 var threatReport = [
     {
-        date: '23 January 2023',
-        title: 'Analyst Reporting Cyber Security Awareness',
-        category: 'Malware',
+        date: '16 November 2023',
+        title: 'A COMPREHENSIVE EXAMINATION OF COMMON VULNERABILITY & EXPOSURE TRENDS IN ISRAEL PALESTINE',
+        category: 'Common Vulnerability Exposure',
         analyst: 'Rizqy Rionaldy',
-        action: '<a href="">Download</a>'
-    },
-    {
-        date: '24 January 2023',
-        title: 'Test',
-        category: 'Malware',
-        analyst: 'Rizqy Rionaldy',
-        action: '<a href="">Download</a>'
+        action: '<a href="data/file-threat-report/A COMPREHENSIVE EXAMINATION OF COMMON VULNERABILITY & EXPOSURE TRENDS IN ISRAEL PALESTINE.pdf">Download</a>'
     },
     
   ];
