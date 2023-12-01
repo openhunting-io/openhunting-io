@@ -37,23 +37,47 @@ var threatdata = {
             "malware_printable": "SystemBC",
             "malware_alias": "Coroxy,DroxiDat",
             "malware": "win.systembc",
-            "last_update": "2023-09-18 06:30:22",
+            "last_update": "2023-12-01 05:51:16",
             "tags": [
-                "c2",
-                "ViceSociety",
-                "Backdoor",
-                "SystemBC",
-                "panel",
                 "ViriBack",
-                "systembc",
-                "Ransomware",
-                "backdoor",
+                "SystemBC",
                 "viaAmadey",
-                "Epoch5",
-                "Emotet"
+                "Ransomware",
+                "panel",
+                "backdoor",
+                "c2",
+                "Emotet",
+                "Backdoor",
+                "ViceSociety",
+                "systembc",
+                "Epoch5"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "2.57.149.230:4357",
+                        "timestamp": "2023-12-01 05:51:16"
+                    },
+                    {
+                        "value": "2.57.149.230:49705",
+                        "timestamp": "2023-12-01 05:51:15"
+                    },
+                    {
+                        "value": "2.57.149.230:4970",
+                        "timestamp": "2023-12-01 05:51:15"
+                    },
+                    {
+                        "value": "37.220.86.73:4001",
+                        "timestamp": "2023-11-18 05:15:13"
+                    },
+                    {
+                        "value": "62.173.140.37:4001",
+                        "timestamp": "2023-11-16 13:45:09"
+                    },
+                    {
+                        "value": "185.17.0.166:4001",
+                        "timestamp": "2023-10-19 06:00:18"
+                    },
                     {
                         "value": "45.131.66.83:4044",
                         "timestamp": "2023-09-18 06:30:22"
@@ -1678,7 +1702,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-18 06:30:22",
+    "last_ioc_update": "2023-12-01 05:51:16",
     "file_name": "systembc",
     "analysis": null,
     "articles": [

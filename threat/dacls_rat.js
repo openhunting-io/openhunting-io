@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Dacls RAT, Dacls",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-29",
+    "modified": "2023-10-18",
     "all_data": {
         "tool": "Dacls RAT",
         "names": [
@@ -40,6 +40,28 @@ var threatdata = {
     "file_name": "dacls_rat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2023/10/18092216/Updated-MATA-attacks-Eastern-Europe_full-report_ENG.pdf",
+            "date": "2023-10-18",
+            "organization": "Kaspersky Labs",
+            "author": "GReAT",
+            "title": "Updated MATA attacks industrial companies in Eastern Europe",
+            "categories": [
+                "Dacls",
+                "Unidentified 106"
+            ]
+        },
+        {
+            "data_url": "https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/dark-river-you-can-t-see-them-but-they-re-there/",
+            "date": "2023-09-27",
+            "organization": "Positive Technologies",
+            "author": "Denis Kuvshinov",
+            "title": "Dark River. You can't see them, but they're there",
+            "categories": [
+                "Dacls",
+                "Unidentified 106"
+            ]
+        },
         {
             "data_url": "https://blogs.vmware.com/security/2022/11/threat-analysis-active-c2-discovery-using-protocol-emulation-part4-dacls-aka-mata.html",
             "date": "2022-11-21",

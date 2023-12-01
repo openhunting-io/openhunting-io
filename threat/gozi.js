@@ -57,33 +57,291 @@ var threatdata = {
             "malware_printable": "Gozi",
             "malware_alias": "CRM,Gozi CRM,Papras,Snifula,Ursnif",
             "malware": "win.gozi",
-            "last_update": "2023-09-27 21:02:10",
+            "last_update": "2023-11-25 16:13:58",
             "tags": [
-                "c2",
-                "historicalandnew",
-                "IFSB",
-                "ITA",
-                "geo",
-                "LDR4",
-                "RM3Loader",
-                "Gozi",
+                "censys",
+                "ITRESHENIYA-AS",
                 "Ursnif",
-                "TA551",
-                "zip",
-                "ursnif",
-                "cutwail",
-                "panel",
-                "gozi",
-                "202108021",
-                "rat",
-                "ISFB",
-                "RM3",
+                "RM3Loader",
                 "exe",
+                "rat",
+                "ITLDC-NL",
+                "LDR4",
+                "HOSTKEY-RU-AS",
+                "202108021",
+                "geo",
+                "RACKPLACE",
+                "Banker",
+                "AS-HOSTINGER",
+                "Gozi",
+                "IFSB",
+                "ursnif",
+                "RU-JSCIOT",
+                "AS-SOFTPLUS",
+                "gozi",
+                "panel",
+                "RigEK",
+                "c2",
+                "AS-REG",
+                "zip",
                 "js",
-                "RigEK"
+                "GIR-AS",
+                "cutwail",
+                "ITA",
+                "PROTON66",
+                "historicalandnew",
+                "agenziaentrate",
+                "TA551",
+                "C2",
+                "RM3",
+                "ISFB"
             ],
             "ioc": {
                 "domain": [
+                    {
+                        "value": "azzoodijdhgdr.com",
+                        "timestamp": "2023-11-25 16:13:58"
+                    },
+                    {
+                        "value": "gqx21mcou.com",
+                        "timestamp": "2023-11-25 16:13:58"
+                    },
+                    {
+                        "value": "rwoodrowyioay.com",
+                        "timestamp": "2023-11-25 16:13:58"
+                    },
+                    {
+                        "value": "methodalapaisdd.com",
+                        "timestamp": "2023-11-25 16:13:57"
+                    },
+                    {
+                        "value": "nfyuabel.com",
+                        "timestamp": "2023-11-25 16:13:57"
+                    },
+                    {
+                        "value": "fertikalossf.com",
+                        "timestamp": "2023-11-25 16:13:56"
+                    },
+                    {
+                        "value": "gagorun.website",
+                        "timestamp": "2023-11-07 13:07:13"
+                    },
+                    {
+                        "value": "gdsgwefewrewr.ru",
+                        "timestamp": "2023-11-07 13:07:13"
+                    },
+                    {
+                        "value": "markuami.com",
+                        "timestamp": "2023-11-25 16:13:48"
+                    },
+                    {
+                        "value": "hfdhdfgrre.ru",
+                        "timestamp": "2023-11-07 13:07:12"
+                    },
+                    {
+                        "value": "hfdhfdhdfhdfa.ru",
+                        "timestamp": "2023-11-07 13:07:11"
+                    },
+                    {
+                        "value": "rubalasksigysmanlkavayssstezya.website",
+                        "timestamp": "2023-10-27 12:30:02"
+                    },
+                    {
+                        "value": "monbruusr2aqr.com",
+                        "timestamp": "2023-10-27 12:30:02"
+                    },
+                    {
+                        "value": "trackingg2-protectioon.cdn4.mozilla.net",
+                        "timestamp": "2023-10-27 12:30:01"
+                    },
+                    {
+                        "value": "trackingg1-protectioon.cdn5.mozilla.net",
+                        "timestamp": "2023-10-27 12:30:01"
+                    },
+                    {
+                        "value": "pssiofrotms1q.com",
+                        "timestamp": "2023-10-27 12:30:00"
+                    },
+                    {
+                        "value": "dgokmertli23q.com",
+                        "timestamp": "2023-10-27 12:30:00"
+                    },
+                    {
+                        "value": "onlinepoints.top",
+                        "timestamp": "2023-10-27 12:30:00"
+                    },
+                    {
+                        "value": "nalgysmanurmaskmikluhasya.website",
+                        "timestamp": "2023-10-27 12:29:59"
+                    },
+                    {
+                        "value": "mifrutty.com",
+                        "timestamp": "2023-10-27 12:29:59"
+                    },
+                    {
+                        "value": "gnalmgysmanask4ermanderezya.website",
+                        "timestamp": "2023-10-27 12:29:58"
+                    },
+                    {
+                        "value": "rutramagysmanskkmoderatordstezya.website",
+                        "timestamp": "2023-10-27 12:29:58"
+                    },
+                    {
+                        "value": "glamrgysmanaskdkambibatstezya.space",
+                        "timestamp": "2023-10-27 12:29:58"
+                    },
+                    {
+                        "value": "rramaskkmigysmanleronurzya.website",
+                        "timestamp": "2023-10-27 12:29:57"
+                    },
+                    {
+                        "value": "rubymgysmanmaskrufinurtdrfezya.website",
+                        "timestamp": "2023-10-27 12:29:57"
+                    },
+                    {
+                        "value": "sramrmaskgysmanproteploszya.space",
+                        "timestamp": "2023-10-27 12:29:56"
+                    },
+                    {
+                        "value": "rufgysmanymrmaskbteyryeuliliezya.website",
+                        "timestamp": "2023-10-27 12:29:55"
+                    },
+                    {
+                        "value": "rbabamrgysmanmaskriserdfnstezya.space",
+                        "timestamp": "2023-10-27 12:29:55"
+                    },
+                    {
+                        "value": "rusitmgysmanaskpikabyatezya.website",
+                        "timestamp": "2023-10-27 12:29:54"
+                    },
+                    {
+                        "value": "rurprgysmanamskprikchinhdncstezya.space",
+                        "timestamp": "2023-10-27 12:29:54"
+                    },
+                    {
+                        "value": "rmonaasgysmankktxubastaezya.live",
+                        "timestamp": "2023-10-27 12:29:53"
+                    },
+                    {
+                        "value": "rzipaurgysmanmaskssmastaezya.abkhazia.su",
+                        "timestamp": "2023-10-27 12:29:44"
+                    },
+                    {
+                        "value": "systemcheck.top",
+                        "timestamp": "2023-10-27 12:29:43"
+                    },
+                    {
+                        "value": "rsiskmasgysmankbzfdrosterzya.com",
+                        "timestamp": "2023-10-27 12:29:43"
+                    },
+                    {
+                        "value": "rrakomaskpgysmancdakirgitushkanchikzya.adygeya.su",
+                        "timestamp": "2023-10-27 12:29:42"
+                    },
+                    {
+                        "value": "slammagysmanskkapsulrttezya.website",
+                        "timestamp": "2023-10-27 12:29:41"
+                    },
+                    {
+                        "value": "rutichhdaskgysmanoltogorovidsnstezya.space",
+                        "timestamp": "2023-10-27 12:29:41"
+                    },
+                    {
+                        "value": "incontroler.com",
+                        "timestamp": "2023-10-27 12:29:41"
+                    },
+                    {
+                        "value": "whofos.com",
+                        "timestamp": "2023-10-27 12:29:41"
+                    },
+                    {
+                        "value": "rurparagysmanmaskstreptokokusstezya.space",
+                        "timestamp": "2023-10-27 12:29:40"
+                    },
+                    {
+                        "value": "rkovkagysmanmasksemyanastezya.adygeya.su",
+                        "timestamp": "2023-10-27 12:29:40"
+                    },
+                    {
+                        "value": "runyanmgysmanaskklasgindtezya.space",
+                        "timestamp": "2023-10-27 12:29:39"
+                    },
+                    {
+                        "value": "onlinepoints.online",
+                        "timestamp": "2023-10-27 12:29:39"
+                    },
+                    {
+                        "value": "skumrmgysmanaskihglassdzya.website",
+                        "timestamp": "2023-10-27 12:29:38"
+                    },
+                    {
+                        "value": "www.topmoonstart.cloud",
+                        "timestamp": "2023-10-17 16:19:14"
+                    },
+                    {
+                        "value": "epidine.com",
+                        "timestamp": "2023-10-17 16:19:14"
+                    },
+                    {
+                        "value": "www.admarseb.click",
+                        "timestamp": "2023-10-17 16:19:13"
+                    },
+                    {
+                        "value": "mail.45-93-139-24.cprapid.com",
+                        "timestamp": "2023-10-17 16:19:13"
+                    },
+                    {
+                        "value": "adoring-driscoll.31-214-157-11.plesk.page",
+                        "timestamp": "2023-10-17 16:19:12"
+                    },
+                    {
+                        "value": "www.csmakrjet.pw",
+                        "timestamp": "2023-10-17 16:19:12"
+                    },
+                    {
+                        "value": "mail.fabsolution.net",
+                        "timestamp": "2023-10-17 16:19:11"
+                    },
+                    {
+                        "value": "expirew.com",
+                        "timestamp": "2023-10-27 12:26:48"
+                    },
+                    {
+                        "value": "t3.irconnect.online",
+                        "timestamp": "2023-10-17 16:19:10"
+                    },
+                    {
+                        "value": "extrawebty.com",
+                        "timestamp": "2023-10-17 16:19:10"
+                    },
+                    {
+                        "value": "45-93-139-24.cprapid.com",
+                        "timestamp": "2023-10-17 16:19:10"
+                    },
+                    {
+                        "value": "grovdow.com",
+                        "timestamp": "2023-10-17 16:19:09"
+                    },
+                    {
+                        "value": "cpanel.fabsolution.net",
+                        "timestamp": "2023-10-17 16:19:08"
+                    },
+                    {
+                        "value": "vwm.fvds.ru",
+                        "timestamp": "2023-10-17 16:19:08"
+                    },
+                    {
+                        "value": "topmoonstart.cloud",
+                        "timestamp": "2023-10-17 16:19:07"
+                    },
+                    {
+                        "value": "www.fabsolution.net",
+                        "timestamp": "2023-10-17 16:19:06"
+                    },
+                    {
+                        "value": "cpcalendars.fabsolution.net",
+                        "timestamp": "2023-10-17 16:19:06"
+                    },
                     {
                         "value": "liemuteste.com",
                         "timestamp": "2023-09-27 21:02:10"
@@ -154,7 +412,7 @@ var threatdata = {
                     },
                     {
                         "value": "twinean.com",
-                        "timestamp": "2023-09-27 21:02:08"
+                        "timestamp": "2023-10-17 16:19:07"
                     },
                     {
                         "value": "othersandtyrantpeoplebe.info",
@@ -378,7 +636,7 @@ var threatdata = {
                     },
                     {
                         "value": "weseens.com",
-                        "timestamp": "2023-09-27 21:01:59"
+                        "timestamp": "2023-10-17 16:19:11"
                     },
                     {
                         "value": "origstimeoutsoltimeout.biz",
@@ -726,7 +984,7 @@ var threatdata = {
                     },
                     {
                         "value": "mimemoa.com",
-                        "timestamp": "2023-09-27 21:01:46"
+                        "timestamp": "2023-10-17 16:19:08"
                     },
                     {
                         "value": "3rdpart2.ru",
@@ -1182,7 +1440,7 @@ var threatdata = {
                     },
                     {
                         "value": "whofoxy.com",
-                        "timestamp": "2023-09-27 21:01:29"
+                        "timestamp": "2023-10-17 16:19:12"
                     },
                     {
                         "value": "silniygrom.su",
@@ -2015,6 +2273,62 @@ var threatdata = {
                 ],
                 "url": [
                     {
+                        "value": "https://liset.ched3ck.bi1ng.com",
+                        "timestamp": "2023-10-27 12:29:52"
+                    },
+                    {
+                        "value": "http://94.247.42.215",
+                        "timestamp": "2023-10-27 12:29:52"
+                    },
+                    {
+                        "value": "https://listwhfidte.check3.yaho1o.com",
+                        "timestamp": "2023-10-27 12:29:51"
+                    },
+                    {
+                        "value": "https://lisfwhidte.ch2eck.yaheoo.com",
+                        "timestamp": "2023-10-27 12:29:51"
+                    },
+                    {
+                        "value": "http://91.242.217.120",
+                        "timestamp": "2023-10-27 12:29:50"
+                    },
+                    {
+                        "value": "https://list.check.bin1g.com",
+                        "timestamp": "2023-10-27 12:29:49"
+                    },
+                    {
+                        "value": "https://listwhite.che1ck.yah1oo.com",
+                        "timestamp": "2023-10-27 12:29:49"
+                    },
+                    {
+                        "value": "http://iextrawebty.com",
+                        "timestamp": "2023-10-27 12:29:47"
+                    },
+                    {
+                        "value": "http://170.130.55.65",
+                        "timestamp": "2023-10-27 12:29:46"
+                    },
+                    {
+                        "value": "http://igrovdow.com",
+                        "timestamp": "2023-10-27 12:29:45"
+                    },
+                    {
+                        "value": "http://94.247.42.100",
+                        "timestamp": "2023-10-27 12:29:45"
+                    },
+                    {
+                        "value": "http://sms.essmatrix.in/centro/ZTBkqrBEigSGkg",
+                        "timestamp": "2023-10-12 15:11:23"
+                    },
+                    {
+                        "value": "http://ercyazilim.com/centro/MSvZZEHkNvHEvDBf",
+                        "timestamp": "2023-10-12 20:40:59"
+                    },
+                    {
+                        "value": "http://202.28.69.138/centro/BSLiZTnMOCmLs",
+                        "timestamp": "2023-10-12 20:40:59"
+                    },
+                    {
                         "value": "http://45.155.249.94",
                         "timestamp": "2023-09-27 20:54:27"
                     },
@@ -2781,6 +3095,62 @@ var threatdata = {
                 ],
                 "ip:port": [
                     {
+                        "value": "193.203.163.96:443",
+                        "timestamp": "2023-10-17 16:19:22"
+                    },
+                    {
+                        "value": "176.10.111.79:443",
+                        "timestamp": "2023-10-17 16:19:22"
+                    },
+                    {
+                        "value": "222.92.64.208:10443",
+                        "timestamp": "2023-10-17 16:19:22"
+                    },
+                    {
+                        "value": "31.214.157.11:443",
+                        "timestamp": "2023-10-17 16:19:21"
+                    },
+                    {
+                        "value": "185.247.184.139:443",
+                        "timestamp": "2023-10-17 16:19:20"
+                    },
+                    {
+                        "value": "83.217.9.90:443",
+                        "timestamp": "2023-10-17 16:19:20"
+                    },
+                    {
+                        "value": "91.212.166.70:443",
+                        "timestamp": "2023-10-17 16:19:19"
+                    },
+                    {
+                        "value": "154.56.40.58:443",
+                        "timestamp": "2023-10-17 16:19:19"
+                    },
+                    {
+                        "value": "45.93.139.24:443",
+                        "timestamp": "2023-10-17 16:19:18"
+                    },
+                    {
+                        "value": "193.203.162.14:443",
+                        "timestamp": "2023-10-17 16:19:18"
+                    },
+                    {
+                        "value": "95.163.233.114:443",
+                        "timestamp": "2023-10-17 16:19:17"
+                    },
+                    {
+                        "value": "185.14.30.10:8443",
+                        "timestamp": "2023-10-17 16:19:17"
+                    },
+                    {
+                        "value": "91.218.114.34:8443",
+                        "timestamp": "2023-10-17 16:19:16"
+                    },
+                    {
+                        "value": "91.218.114.34:443",
+                        "timestamp": "2023-10-17 16:19:15"
+                    },
+                    {
                         "value": "45.11.182.38:443",
                         "timestamp": "2023-07-18 16:40:18"
                     },
@@ -3538,7 +3908,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-27 21:02:10",
+    "last_ioc_update": "2023-11-25 16:13:58",
     "file_name": "gozi",
     "analysis": null,
     "articles": [

@@ -46,8 +46,8 @@ var threatdata = {
             "malware": "apk.badpatch",
             "last_update": "2022-07-09 23:31:58",
             "tags": [
-                "android",
                 "apk",
+                "android",
                 "malware"
             ],
             "ioc": {

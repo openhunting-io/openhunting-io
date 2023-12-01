@@ -46,29 +46,101 @@ var threatdata = {
             "malware_printable": "Mekotio",
             "malware_alias": null,
             "malware": "win.mekotio",
-            "last_update": "2023-09-24 07:04:20",
+            "last_update": "2023-11-10 19:18:04",
             "tags": [
-                "CHL",
-                "c2",
-                "C2",
-                "AutoHotKey",
                 "payload",
-                "Loaders",
-                "Mekotio",
-                "BRA",
-                "mekotio",
-                "geo",
-                "MSI",
                 "ARG",
+                "Mekotio",
                 "Malvertising",
                 "brazil",
-                "payloads",
                 "banker",
-                "LATAM",
-                "loader"
+                "Loaders",
+                "loader",
+                "geo",
+                "BRA",
+                "AutoHotKey",
+                "c2",
+                "CHL",
+                "payloads",
+                "C2",
+                "mekotio",
+                "MSI",
+                "LATAM"
             ],
             "ioc": {
                 "domain": [
+                    {
+                        "value": "nightscoutsergi.mooo.com",
+                        "timestamp": "2023-11-10 19:18:04"
+                    },
+                    {
+                        "value": "01invoicefull234.dnsdojo.com",
+                        "timestamp": "2023-11-10 19:18:03"
+                    },
+                    {
+                        "value": "advertenciactc2023.dnsdojo.com",
+                        "timestamp": "2023-11-10 19:18:02"
+                    },
+                    {
+                        "value": "adjuntodocumento3224.from-mt.com",
+                        "timestamp": "2023-11-10 19:18:01"
+                    },
+                    {
+                        "value": "01advertenciactc2023.dnsdojo.com",
+                        "timestamp": "2023-11-10 19:18:01"
+                    },
+                    {
+                        "value": "citaadju23nta.likes-pie.com",
+                        "timestamp": "2023-11-10 19:18:00"
+                    },
+                    {
+                        "value": "advertenciactc2023.selfip.com",
+                        "timestamp": "2023-11-10 19:17:59"
+                    },
+                    {
+                        "value": "comprobantepagoectonico.selfip.com",
+                        "timestamp": "2023-11-10 19:17:59"
+                    },
+                    {
+                        "value": "jetmailx.ddnsguru.com",
+                        "timestamp": "2023-11-10 19:17:56"
+                    },
+                    {
+                        "value": "maypainer.loseyourip.com",
+                        "timestamp": "2023-11-10 19:17:56"
+                    },
+                    {
+                        "value": "myinfo2.giize.com",
+                        "timestamp": "2023-11-10 19:17:54"
+                    },
+                    {
+                        "value": "mysystem2102account.dnsalias.com",
+                        "timestamp": "2023-11-10 19:17:54"
+                    },
+                    {
+                        "value": "advertenciact.from-wy.com",
+                        "timestamp": "2023-11-10 19:17:49"
+                    },
+                    {
+                        "value": "advertenciactc2023.from-wy.com",
+                        "timestamp": "2023-11-10 19:17:49"
+                    },
+                    {
+                        "value": "gamesstartf.xyz",
+                        "timestamp": "2023-10-28 14:29:35"
+                    },
+                    {
+                        "value": "nuevo2gameslop.xyz",
+                        "timestamp": "2023-10-28 14:29:35"
+                    },
+                    {
+                        "value": "nuevoconceti.xyz",
+                        "timestamp": "2023-10-28 14:29:32"
+                    },
+                    {
+                        "value": "repicdominic.xyz",
+                        "timestamp": "2023-10-28 14:29:31"
+                    },
                     {
                         "value": "servgameslupi.hopto.org",
                         "timestamp": "2023-09-24 07:04:20"
@@ -163,6 +235,18 @@ var threatdata = {
                     }
                 ],
                 "ip:port": [
+                    {
+                        "value": "34.74.162.235:8007",
+                        "timestamp": "2023-11-10 19:17:54"
+                    },
+                    {
+                        "value": "146.0.79.23:11224",
+                        "timestamp": "2023-10-28 14:29:36"
+                    },
+                    {
+                        "value": "146.0.79.25:11223",
+                        "timestamp": "2023-10-28 14:29:34"
+                    },
                     {
                         "value": "31.192.107.193:7321",
                         "timestamp": "2023-09-24 07:04:19"
@@ -725,7 +809,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-24 07:04:20",
+    "last_ioc_update": "2023-11-10 19:18:04",
     "file_name": "mekotio",
     "analysis": null,
     "articles": [

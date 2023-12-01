@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Bisonal, Korlia",
     "category": "Malware",
     "type": "Backdoor, Info stealer, Exfiltration, Downloader",
-    "modified": "2022-07-07",
+    "modified": "2023-09-19",
     "all_data": {
         "tool": "Bisonal",
         "names": [
@@ -366,6 +366,16 @@ var threatdata = {
     "file_name": "bisonal",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://go.recordedfuture.com/hubfs/reports/cta-2023-0919.pdf",
+            "date": "2023-09-19",
+            "organization": "Recorded Future",
+            "author": "Insikt Group",
+            "title": "Multi-year Chinese APT Campaign Targets South Korean Academic, Government, and Political Entities",
+            "categories": [
+                "Korlia"
+            ]
+        },
         {
             "data_url": "https://www.sentinelone.com/labs/targets-of-interest-russian-organizations-increasingly-under-attack-by-chinese-apts/",
             "date": "2022-07-07",

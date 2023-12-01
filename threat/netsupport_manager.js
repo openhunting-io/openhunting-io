@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "NetSupport Manager, NetSupport Manager RAT, NetSupportManager RAT, NetSupport",
     "category": "Tools",
     "type": "Backdoor",
-    "modified": "2023-03-29",
+    "modified": "2023-10-27",
     "all_data": {
         "tool": "NetSupport Manager",
         "names": [
@@ -42,6 +42,31 @@ var threatdata = {
     "file_name": "netsupport_manager",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.elastic.co/security-labs/ghostpulse-haunts-victims-using-defense-evasion-bag-o-tricks",
+            "date": "2023-10-27",
+            "organization": "Elastic",
+            "author": "Joe Desimone",
+            "title": "GHOSTPULSE haunts victims using defense evasion bag o' tricks",
+            "categories": [
+                "HijackLoader",
+                "Lumma Stealer",
+                "NetSupportManager RAT",
+                "Rhadamanthys",
+                "SectopRAT",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://medium.com/walmartglobaltech/smartapesg-4605157a5b80",
+            "date": "2023-10-26",
+            "organization": "Medium walmartglobaltech",
+            "author": "Jonathan Mccay",
+            "title": "SmartApeSG",
+            "categories": [
+                "NetSupportManager RAT"
+            ]
+        },
         {
             "data_url": "https://www.trendmicro.com/en_us/research/23/c/new-opcjacker-malware-distributed-via-fake-vpn-malvertising.html",
             "date": "2023-03-29",

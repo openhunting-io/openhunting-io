@@ -45,9 +45,9 @@ var threatdata = {
             "malware": "win.cutwail",
             "last_update": "2022-11-10 11:06:37",
             "tags": [
+                "Cutwail",
                 "maldoc",
-                "cutwail",
-                "Cutwail"
+                "cutwail"
             ],
             "ioc": {
                 "md5_hash": [

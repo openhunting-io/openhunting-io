@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BokBot, IcedID, IceID",
     "category": "Malware",
     "type": "Banking trojan",
-    "modified": "2023-08-28",
+    "modified": "2023-10-12",
     "all_data": {
         "tool": "BokBot",
         "names": [
@@ -55,6 +55,47 @@ var threatdata = {
     "file_name": "bokbot",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.netresec.com/?page=Blog&month=2023-10&post=Forensic-Timeline-of-an-IcedID-Infection",
+            "date": "2023-10-12",
+            "organization": "Netresec",
+            "author": "Erik Hjelmvik",
+            "title": "Forensic Timeline of an IcedID Infection",
+            "categories": [
+                "Cobalt Strike",
+                "IcedID",
+                "IcedID Downloader"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-10-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2023",
+            "categories": [
+                "FluBot",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Stealc",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
         {
             "data_url": "https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/",
             "date": "2023-08-28",

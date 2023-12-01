@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "QuasarRAT, Quasar RAT, CinaRAT, Yggdrasil",
     "category": "Tools",
     "type": "Reconnaissance, Backdoor, Keylogger, Credential stealer, Info stealer, Exfiltration, Tunneling",
-    "modified": "2023-09-08",
+    "modified": "2023-10-12",
     "all_data": {
         "tool": "QuasarRAT",
         "names": [
@@ -64,6 +64,35 @@ var threatdata = {
     "file_name": "quasarrat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-10-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2023",
+            "categories": [
+                "FluBot",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Stealc",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
         {
             "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
             "date": "2023-09-08",

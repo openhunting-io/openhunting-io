@@ -94,8 +94,8 @@ var threatdata = {
             "malware": "win.bahamut",
             "last_update": "2023-06-09 23:48:11",
             "tags": [
-                "ViriBack",
-                "Bahamut"
+                "Bahamut",
+                "ViriBack"
             ],
             "ioc": {
                 "domain": [

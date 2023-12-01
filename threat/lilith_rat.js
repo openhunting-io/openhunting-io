@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Lilith RAT, Lilith",
     "category": "Tools",
     "type": "Backdoor, Keylogger, Info stealer",
-    "modified": "2022-10-05",
+    "modified": "2023-11-10",
     "all_data": {
         "tool": "Lilith RAT",
         "names": [
@@ -36,6 +36,17 @@ var threatdata = {
     "file_name": "lilith_rat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/ko/58215/",
+            "date": "2023-11-10",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Detection of attacks exploiting asset management software (Andariel Group)",
+            "categories": [
+                "Lilith",
+                "Tiger RAT"
+            ]
+        },
         {
             "data_url": "https://www.zscaler.com/blogs/security-research/analysis-lilithbot-malware-and-eternity-threat-group",
             "date": "2022-10-05",

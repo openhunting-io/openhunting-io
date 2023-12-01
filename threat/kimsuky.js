@@ -33,10 +33,10 @@ var threatdata = {
             "malware": "win.kimsuky",
             "last_update": "2023-09-19 16:37:44",
             "tags": [
-                "APT",
-                "thallium",
-                "kimsuky",
                 "Kimsuky",
+                "kimsuky",
+                "thallium",
+                "APT",
                 "Kimusky"
             ],
             "ioc": {

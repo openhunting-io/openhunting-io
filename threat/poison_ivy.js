@@ -70,9 +70,27 @@ var threatdata = {
             "malware_printable": "Poison Ivy",
             "malware_alias": "SPIVY,pivy,poisonivy",
             "malware": "win.poison_ivy",
-            "last_update": "2022-10-03 13:10:02",
+            "last_update": "2023-11-25 10:05:29",
             "tags": [],
             "ioc": {
+                "ip:port": [
+                    {
+                        "value": "5.153.123.11:3460",
+                        "timestamp": "2023-11-25 10:05:29"
+                    },
+                    {
+                        "value": "94.98.183.32:3460",
+                        "timestamp": "2023-11-23 18:05:34"
+                    },
+                    {
+                        "value": "94.98.229.240:3460",
+                        "timestamp": "2023-11-19 01:06:30"
+                    },
+                    {
+                        "value": "94.49.183.29:3460",
+                        "timestamp": "2023-11-10 14:06:12"
+                    }
+                ],
                 "md5_hash": [
                     {
                         "value": "c616002f3cce0fd52d6ead8621a9f1f1",
@@ -82,7 +100,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2022-10-03 13:10:02",
+    "last_ioc_update": "2023-11-25 10:05:29",
     "file_name": "poison_ivy",
     "analysis": null,
     "articles": [

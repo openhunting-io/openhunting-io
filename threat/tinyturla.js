@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "TinyTurla",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-30",
+    "modified": "2023-09-22",
     "all_data": {
         "tool": "TinyTurla",
         "names": [
@@ -34,6 +34,16 @@ var threatdata = {
     "file_name": "tinyturla",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://infosec.exchange/@SophosXOps/111109357153515214",
+            "date": "2023-09-22",
+            "organization": "Sophos X-Ops",
+            "author": "Sophos X-Ops",
+            "title": "Mastodon Thread on observed activity involving TinyTurla",
+            "categories": [
+                "TinyTurla"
+            ]
+        },
         {
             "data_url": "https://cybergeeks.tech/a-step-by-step-analysis-of-the-russian-apt-turla-backdoor-called-tinyturla/",
             "date": "2022-03-28",

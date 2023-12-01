@@ -76,12 +76,12 @@ var threatdata = {
             "malware": "apk.lokibot",
             "last_update": "2023-09-11 08:51:44",
             "tags": [
-                "c2",
+                "Lokibot",
+                "exe",
                 "panel",
                 "reverse",
-                "exe",
+                "c2",
                 "upsidown",
-                "Lokibot",
                 "lokibot"
             ],
             "ioc": {

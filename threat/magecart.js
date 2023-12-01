@@ -34,16 +34,40 @@ var threatdata = {
             "malware_printable": "magecart",
             "malware_alias": null,
             "malware": "js.magecart",
-            "last_update": "2023-08-30 18:45:25",
+            "last_update": "2023-10-10 12:49:11",
             "tags": [
-                "magecart",
-                "pdns",
-                "web-skimmer",
                 "Magecart",
-                "js"
+                "pdns",
+                "js",
+                "web-skimmer",
+                "magecart"
             ],
             "ioc": {
                 "domain": [
+                    {
+                        "value": "anality-cdn.com",
+                        "timestamp": "2023-10-10 12:49:11"
+                    },
+                    {
+                        "value": "tool-cdn.net",
+                        "timestamp": "2023-10-10 12:49:11"
+                    },
+                    {
+                        "value": "adsometric.com",
+                        "timestamp": "2023-10-10 12:49:11"
+                    },
+                    {
+                        "value": "cngresearch.com",
+                        "timestamp": "2023-10-10 12:49:11"
+                    },
+                    {
+                        "value": "pmdresearch.com",
+                        "timestamp": "2023-10-10 12:49:11"
+                    },
+                    {
+                        "value": "secures-tool.com",
+                        "timestamp": "2023-10-10 12:49:11"
+                    },
                     {
                         "value": "dispatchweekly.com",
                         "timestamp": "2023-08-30 18:45:25"
@@ -716,7 +740,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-08-30 18:45:25",
+    "last_ioc_update": "2023-10-10 12:49:11",
     "file_name": "magecart",
     "analysis": null,
     "articles": [],

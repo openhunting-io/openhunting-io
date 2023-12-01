@@ -48,28 +48,148 @@ var threatdata = {
             "malware_printable": "Azorult",
             "malware_alias": "PuffStealer,Rultazo",
             "malware": "win.azorult",
-            "last_update": "2023-10-02 06:36:11",
+            "last_update": "2023-11-30 19:20:08",
             "tags": [
-                "c2",
+                "ViriBack",
                 "historicalandnew",
                 "active",
+                "Trojan",
+                "exe",
+                "panel",
                 "malspam",
                 "AZORult",
-                "panel",
-                "ViriBack",
-                "exe",
-                "azorult",
-                "Azorult",
-                "known threat",
+                "c2",
                 "opendir",
-                "Trojan",
-                "AZORult C2"
+                "AZORult C2",
+                "Azorult",
+                "azorult",
+                "known threat"
             ],
             "ioc": {
                 "url": [
                     {
+                        "value": "http://hoswell.shop/RUT341/index.php",
+                        "timestamp": "2023-11-30 19:20:08"
+                    },
+                    {
+                        "value": "http://gqc4.shop/C4341/index.php",
+                        "timestamp": "2023-11-26 22:40:02"
+                    },
+                    {
+                        "value": "http://51.15.208.114/3EF47870-330C-447F-822F-7397E2DA4ED6/index.php",
+                        "timestamp": "2023-11-25 16:43:38"
+                    },
+                    {
+                        "value": "http://d4gj.shop/GJ341/index.php",
+                        "timestamp": "2023-11-24 00:40:12"
+                    },
+                    {
+                        "value": "http://blazh.shop/ZH341/index.php",
+                        "timestamp": "2023-11-23 16:20:11"
+                    },
+                    {
+                        "value": "http://185.29.10.12/2023/Panel/index.php",
+                        "timestamp": "2023-11-25 16:20:16"
+                    },
+                    {
+                        "value": "http://51.15.208.114/3EF47870-330C-447F-822F-7397E2DA4ED6/index.php",
+                        "timestamp": "2023-11-07 14:12:51"
+                    },
+                    {
+                        "value": "http://buuuzar.ru/index.php",
+                        "timestamp": "2023-11-25 16:20:17"
+                    },
+                    {
+                        "value": "http://pois.in:8010/_az/",
+                        "timestamp": "2023-10-30 05:28:58"
+                    },
+                    {
+                        "value": "http://serviceadminwebmailboxupgrace.biz.wf/index.php",
+                        "timestamp": "2023-10-30 05:28:58"
+                    },
+                    {
+                        "value": "http://37.72.175.157:8080/chi/index.php",
+                        "timestamp": "2023-10-30 05:28:57"
+                    },
+                    {
+                        "value": "http://josebrazuca-44072.portmap.host:44072/index.php",
+                        "timestamp": "2023-10-30 05:28:56"
+                    },
+                    {
+                        "value": "http://74.201.28.62:4444/index.php",
+                        "timestamp": "2023-10-30 05:28:56"
+                    },
+                    {
+                        "value": "http://149.56.173.78:8080/break/",
+                        "timestamp": "2023-10-30 05:28:55"
+                    },
+                    {
+                        "value": "http://209.61.195.213:8080/cass/index.php",
+                        "timestamp": "2023-10-30 05:28:55"
+                    },
+                    {
+                        "value": "http://up908.viewdns.net:8034/87778/index.php",
+                        "timestamp": "2023-10-30 05:28:55"
+                    },
+                    {
+                        "value": "http://209.61.195.213:8080/naz/index.php",
+                        "timestamp": "2023-10-30 05:28:54"
+                    },
+                    {
+                        "value": "http://work.wrklantc.in:9050/_az/",
+                        "timestamp": "2023-10-30 05:28:54"
+                    },
+                    {
+                        "value": "http://104.152.185.198:8080/calm/index.php",
+                        "timestamp": "2023-10-30 05:28:53"
+                    },
+                    {
+                        "value": "http://178.216.50.18:8080/007/index.php",
+                        "timestamp": "2023-10-30 05:28:52"
+                    },
+                    {
+                        "value": "http://104.171.121.51:8080/cool/index.php",
+                        "timestamp": "2023-10-30 05:28:52"
+                    },
+                    {
+                        "value": "http://ruiw.shop/ML341/index.php",
+                        "timestamp": "2023-11-25 16:20:13"
+                    },
+                    {
+                        "value": "http://darkmago.ac.ug/index.php",
+                        "timestamp": "2023-10-26 13:25:45"
+                    },
+                    {
+                        "value": "http://lrvsd.shop/NOV22/index.php",
+                        "timestamp": "2023-10-24 16:00:40"
+                    },
+                    {
+                        "value": "http://m1chs.shop/LB341/index.php",
+                        "timestamp": "2023-10-23 14:25:16"
+                    },
+                    {
+                        "value": "http://drivers573.byethost17.com/index.php",
+                        "timestamp": "2023-11-25 16:20:15"
+                    },
+                    {
+                        "value": "http://dbxo.shop/DBL341/index.php",
+                        "timestamp": "2023-11-25 16:20:16"
+                    },
+                    {
+                        "value": "http://lqr1.shop/B01341/index.php",
+                        "timestamp": "2023-10-18 17:05:44"
+                    },
+                    {
+                        "value": "http://dbxo.shop/PL341/index.php",
+                        "timestamp": "2023-10-29 21:03:10"
+                    },
+                    {
+                        "value": "http://bcl1.shop/BL821/index.php",
+                        "timestamp": "2023-10-29 21:03:05"
+                    },
+                    {
                         "value": "http://dw4b.shop/DL432/index.php",
-                        "timestamp": "2023-10-02 05:20:14"
+                        "timestamp": "2023-10-29 21:03:02"
                     },
                     {
                         "value": "http://j892370.myjino.ru/83169.php",
@@ -5717,11 +5837,11 @@ var threatdata = {
                     },
                     {
                         "value": "http://185.28.39.18:7777/asiamandarin.buzz/deval/index.php",
-                        "timestamp": "2023-09-18 03:25:13"
+                        "timestamp": "2023-10-29 21:03:05"
                     },
                     {
                         "value": "http://ruiw.shop/RL341/index.php",
-                        "timestamp": "2023-09-18 02:15:15"
+                        "timestamp": "2023-10-29 21:03:11"
                     },
                     {
                         "value": "http://lrvsd.shop/MOP341/index.php",
@@ -5737,7 +5857,7 @@ var threatdata = {
                     },
                     {
                         "value": "http://185.28.39.17:7777/asiamandarin.buzz/deval/index.php",
-                        "timestamp": "2023-09-12 07:50:04"
+                        "timestamp": "2023-10-29 21:03:05"
                     },
                     {
                         "value": "http://m2ch.shop/PL341/index.php",
@@ -7653,7 +7773,7 @@ var threatdata = {
                     },
                     {
                         "value": "http://0x21.in:8000/_az/",
-                        "timestamp": "2021-04-04 05:45:17"
+                        "timestamp": "2023-10-29 21:03:05"
                     },
                     {
                         "value": "http://f0528018.xsph.ru/index.php",
@@ -7955,11 +8075,11 @@ var threatdata = {
                 "ip:port": [
                     {
                         "value": "46.183.220.70:80",
-                        "timestamp": "2023-10-02 06:36:09"
+                        "timestamp": "2023-10-13 23:48:13"
                     },
                     {
                         "value": "185.29.11.60:80",
-                        "timestamp": "2023-10-02 06:36:09"
+                        "timestamp": "2023-10-13 23:48:13"
                     },
                     {
                         "value": "198.98.54.161:80",
@@ -7985,7 +8105,7 @@ var threatdata = {
                 "domain": [
                     {
                         "value": "www.mixz.shop",
-                        "timestamp": "2023-10-02 06:36:11"
+                        "timestamp": "2023-10-10 23:48:14"
                     },
                     {
                         "value": "oldhorse.info",
@@ -8709,7 +8829,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-10-02 06:36:11",
+    "last_ioc_update": "2023-11-30 19:20:08",
     "file_name": "azorult",
     "analysis": null,
     "articles": [],

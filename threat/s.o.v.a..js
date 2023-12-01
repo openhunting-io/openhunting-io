@@ -43,10 +43,10 @@ var threatdata = {
             "last_update": "2023-03-24 09:04:51",
             "tags": [
                 "Nexus",
-                "SOVA",
                 "Android",
-                "Banking",
                 "Botnet",
+                "SOVA",
+                "Banking",
                 "C2panel"
             ],
             "ioc": {

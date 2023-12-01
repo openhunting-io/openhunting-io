@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "FamousSparrow, Earth Estries",
     "category": "APT",
     "type": "-",
-    "modified": "2023-09-06",
+    "modified": "2023-09-21",
     "all_data": {
         "actor": "FamousSparrow",
         "names": [
@@ -62,6 +62,17 @@ var threatdata = {
     "last_ioc_update": null,
     "file_name": "famoussparrow",
     "analysis": null,
-    "articles": [],
+    "articles": [
+        {
+            "data_url": "https://www.sentinelone.com/labs/cyber-soft-power-chinas-continental-takeover/",
+            "date": "2023-09-21",
+            "organization": "Sentinel LABS",
+            "author": "Tom Hegel",
+            "title": "Cyber Soft Power | China\u2019s Continental Takeover",
+            "categories": [
+                "Earth Estries"
+            ]
+        }
+    ],
     "mitre": []
 };

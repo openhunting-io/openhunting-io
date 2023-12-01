@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Smoke Loader, SmokeLoader, Smoke, Dofoil, Sharik",
     "category": "Malware",
     "type": "Botnet, Downloader, Miner",
-    "modified": "2023-09-06",
+    "modified": "2023-11-19",
     "all_data": {
         "tool": "Smoke Loader",
         "names": [
@@ -66,6 +66,55 @@ var threatdata = {
     "file_name": "smoke_loader",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://embee-research.ghost.io/combining-pivot-points-to-identify-malware-infrastructure-redline-smokeloader-and-cobalt-strike/",
+            "date": "2023-11-19",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Combining Pivot Points to Identify Malware Infrastructure - Redline, Smokeloader and Cobalt Strike",
+            "categories": [
+                "Amadey",
+                "Cobalt Strike",
+                "RedLine Stealer",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.rnbo.gov.ua/files/2023_YEAR/CYBERCENTER/october/The%20Surge%20in%20Smokeloader%20Attacks%20on%20Ukrainian%20Institutions%20UA.pdf",
+            "date": "2023-10-24",
+            "organization": "National Security and Defense Council of Ukraine",
+            "author": "Organization of the National Security and Defense Council of Ukraine",
+            "title": "The Surge in SmokeLoader Attacks on Ukrainian Institutions",
+            "categories": [
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://blog.cluster25.duskrise.com/2023/10/12/cve-2023-38831-russian-attack",
+            "date": "2023-10-12",
+            "organization": "Cluster25",
+            "author": "Cluster25 Threat Intel Team",
+            "title": "CVE-2023-38831 Exploited by Pro-Russia Hacking Groups in RU-UA Conflict Zone for Credential Harvesting Operations",
+            "categories": [
+                "Agent Tesla",
+                "Crimson RAT",
+                "Nanocore RAT",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://inside.harfanglab.io/blog/articles/cyber-threat-intelligence/loader-galore-taskloader-at-the-start-of-a-pay-per-install-infection-chain/",
+            "date": "2023-09-28",
+            "organization": "HarfangLab",
+            "author": "Claudio Teixeira",
+            "title": "Loader Galore - TaskLoader at the start of a Pay-per-Install Infection Chain",
+            "categories": [
+                "CustomerLoader",
+                "Fabookie",
+                "LgoogLoader",
+                "SmokeLoader"
+            ]
+        },
         {
             "data_url": "https://www.logpoint.com/en/blog/emerging-threat/defending-against-8base/",
             "date": "2023-08-23",

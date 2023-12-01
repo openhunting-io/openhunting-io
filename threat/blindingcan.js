@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BLINDINGCAN, DRATzarus RAT",
     "category": "Malware",
     "type": "Reconnaissance, Backdoor, Dropper, Loader, Downloader",
-    "modified": "2023-04-12",
+    "modified": "2023-10-04",
     "all_data": {
         "tool": "BLINDINGCAN",
         "names": [
@@ -44,6 +44,28 @@ var threatdata = {
     "file_name": "blindingcan",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.virusbulletin.com/uploads/pdf/conference/vb2023/papers/Lazarus-campaigns-and-backdoors-in-2022-2023.pdf",
+            "date": "2023-10-04",
+            "organization": "Virus Bulletin",
+            "author": "Peter K\u00e1lnai",
+            "title": "Lazarus Campaigns and Backdoors in 2022-23",
+            "categories": [
+                "3CX Backdoor",
+                "BLINDINGCAN",
+                "CLOUDBURST",
+                "DRATzarus",
+                "ForestTiger",
+                "ImprudentCook",
+                "LambLoad",
+                "LightlessCan",
+                "miniBlindingCan",
+                "PostNapTea",
+                "SnatchCrypto",
+                "WebbyTea",
+                "WinInetLoader"
+            ]
+        },
         {
             "data_url": "https://securelist.com/the-lazarus-group-deathnote-campaign/109490/",
             "date": "2023-04-12",

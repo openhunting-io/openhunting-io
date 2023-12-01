@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "lightSpy",
     "category": "Malware",
     "type": "Reconnaissance, Backdoor, Info stealer, Exfiltration",
-    "modified": "2021-04-24",
+    "modified": "2023-10-02",
     "all_data": {
         "tool": "lightSpy",
         "names": [
@@ -36,6 +36,18 @@ var threatdata = {
     "file_name": "lightspy",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack",
+            "date": "2023-10-02",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "LightSpy mAPT Mobile Payment System Attack",
+            "categories": [
+                "DragonEgg",
+                "WyrmSpy",
+                "lightSpy"
+            ]
+        },
         {
             "data_url": "https://securelist.com/ios-exploit-chain-deploys-lightspy-malware/96407/",
             "date": "2020-03-26",

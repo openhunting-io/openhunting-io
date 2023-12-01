@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Kazuar",
     "category": "Malware",
     "type": "Backdoor, Info stealer, Exfiltration, Loader",
-    "modified": "2023-07-19",
+    "modified": "2023-10-31",
     "all_data": {
         "tool": "Kazuar",
         "names": [
@@ -41,6 +41,16 @@ var threatdata = {
     "file_name": "kazuar",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://unit42.paloaltonetworks.com/pensive-ursa-uses-upgraded-kazuar-backdoor/",
+            "date": "2023-10-31",
+            "organization": "Palo Alto Networks Unit 42",
+            "author": "Daniel Frank",
+            "title": "Over the Kazuar\u2019s Nest: Cracking Down on a Freshly Hatched Backdoor Used by Pensive Ursa (Aka Turla)",
+            "categories": [
+                "Kazuar"
+            ]
+        },
         {
             "data_url": "https://twitter.com/msftsecintel/status/1681695399084539908",
             "date": "2023-07-19",

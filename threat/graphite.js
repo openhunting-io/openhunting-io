@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Graphite",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-27",
+    "modified": "2023-10-26",
     "all_data": {
         "tool": "Graphite",
         "names": [
@@ -32,6 +32,22 @@ var threatdata = {
     "file_name": "graphite",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-009.pdf",
+            "date": "2023-10-26",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "Attack Campaigns of APT28 since 2021",
+            "categories": [
+                "CredoMap",
+                "DriveOcean",
+                "Empire Downloader",
+                "Graphite",
+                "MimiKatz",
+                "Mocky LNK",
+                "reGeorg"
+            ]
+        },
         {
             "data_url": "https://blog.cluster25.duskrise.com/2022/09/23/in-the-footsteps-of-the-fancy-bear-powerpoint-graphite/",
             "date": "2022-09-23",

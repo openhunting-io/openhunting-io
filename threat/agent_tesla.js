@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Agent Tesla, AgentTesla, AgenTesla, Origin Logger, Negasteal",
     "category": "Malware",
     "type": "Keylogger, Info stealer",
-    "modified": "2023-09-06",
+    "modified": "2023-10-12",
     "all_data": {
         "tool": "Agent Tesla",
         "names": [
@@ -74,41 +74,373 @@ var threatdata = {
             "malware_printable": "Agent Tesla",
             "malware_alias": "AgenTesla,AgentTesla,Negasteal",
             "malware": "win.agent_tesla",
-            "last_update": "2023-10-02 06:36:09",
+            "last_update": "2023-12-01 17:36:15",
             "tags": [
-                "AgentTeslaV3",
-                "ViriBack",
-                "agent tesla",
-                "turkey",
-                "opendir",
-                "stealer",
+                "mana",
+                "PL",
+                "exe",
+                "smtp",
+                "RAT",
                 "32",
+                "rat",
+                "ftp",
+                "turkey",
+                "AGENTTESLA",
+                "maldoc",
+                "trojan",
+                "Agent Tesla",
+                "agenttesla",
+                "img",
+                "malware",
+                "guloader",
                 "aggah",
                 "classic",
-                "trojan",
+                "ViriBack",
                 "malspam",
-                "cve201711882",
-                "img",
-                "AgentTesla",
                 "Hagga",
-                "mana",
                 "panel",
-                "Aggah",
-                "maldoc",
-                "Agent Tesla",
-                "ftp",
+                "cve201711882",
+                "AgentTesla",
+                "Media Antar Nusa PT.",
                 "hagga",
-                "rat",
-                "agenttesla",
-                "RAT",
-                "malware",
+                "agent tesla",
+                "infostealer",
+                "stealer",
                 "DHLTeslaGu",
-                "exe",
-                "guloader",
-                "smtp"
+                "opendir",
+                "Aggah",
+                "AgentTeslaV3"
             ],
             "ioc": {
+                "domain": [
+                    {
+                        "value": "ftp.atelierzolotas.gr",
+                        "timestamp": "2023-11-29 13:47:26"
+                    },
+                    {
+                        "value": "ftp.siscop.com.co",
+                        "timestamp": "2023-11-24 09:02:00"
+                    },
+                    {
+                        "value": "mail.amtechcards.com",
+                        "timestamp": "2023-10-19 05:24:57"
+                    },
+                    {
+                        "value": "kenesrakishev.net",
+                        "timestamp": "2023-10-12 06:11:20"
+                    },
+                    {
+                        "value": "poituox.fr",
+                        "timestamp": "2023-11-02 23:48:15"
+                    },
+                    {
+                        "value": "rakishev.net",
+                        "timestamp": "2023-10-03 20:25:40"
+                    },
+                    {
+                        "value": "suchitanandanmahavidyalaya.org",
+                        "timestamp": "2023-10-14 23:48:14"
+                    },
+                    {
+                        "value": "www.upadte-reviewer-online.live",
+                        "timestamp": "2023-09-23 23:48:11"
+                    },
+                    {
+                        "value": "upadte-reviewer-online.live",
+                        "timestamp": "2023-09-04 23:48:08"
+                    },
+                    {
+                        "value": "macarty.ydns.eu",
+                        "timestamp": "2023-08-29 23:48:11"
+                    },
+                    {
+                        "value": "caeser.ydns.eu",
+                        "timestamp": "2023-08-29 23:48:11"
+                    },
+                    {
+                        "value": "chibb.ydns.eu",
+                        "timestamp": "2023-08-24 23:48:11"
+                    },
+                    {
+                        "value": "jimbo.ydns.eu",
+                        "timestamp": "2023-08-23 23:48:11"
+                    },
+                    {
+                        "value": "valerehandstand.com",
+                        "timestamp": "2023-06-25 17:10:34"
+                    },
+                    {
+                        "value": "server1.sqsendy.shop",
+                        "timestamp": "2023-06-25 17:06:57"
+                    },
+                    {
+                        "value": "valvulasthermovalve.cl",
+                        "timestamp": "2023-05-19 10:24:53"
+                    },
+                    {
+                        "value": "cp5ua.hyperhost.ua",
+                        "timestamp": "2023-04-05 19:20:28"
+                    },
+                    {
+                        "value": "smtp.obynnehhhan.com",
+                        "timestamp": "2023-04-05 19:20:28"
+                    },
+                    {
+                        "value": "chasamloriger.su",
+                        "timestamp": "2023-04-28 23:48:25"
+                    },
+                    {
+                        "value": "lku7.tk",
+                        "timestamp": "2023-03-25 23:48:18"
+                    },
+                    {
+                        "value": "catknock.com",
+                        "timestamp": "2023-03-22 23:48:20"
+                    },
+                    {
+                        "value": "alpatrik.com",
+                        "timestamp": "2023-08-16 23:48:15"
+                    },
+                    {
+                        "value": "dropbuyinc.ga",
+                        "timestamp": "2023-05-23 06:38:31"
+                    },
+                    {
+                        "value": "cletonmy.com",
+                        "timestamp": "2023-07-14 07:10:24"
+                    },
+                    {
+                        "value": "mail.montanapremiersenggigi.com",
+                        "timestamp": "2022-10-17 14:25:36"
+                    },
+                    {
+                        "value": "mail.morabitur.com",
+                        "timestamp": "2022-06-27 11:47:27"
+                    },
+                    {
+                        "value": "mail.dipiluminacion.com",
+                        "timestamp": "2021-08-22 20:45:07"
+                    },
+                    {
+                        "value": "ftp.adpfr.ro",
+                        "timestamp": "2021-08-17 22:33:21"
+                    }
+                ],
+                "ip:port": [
+                    {
+                        "value": "51.222.104.17:21",
+                        "timestamp": "2023-11-24 09:02:01"
+                    },
+                    {
+                        "value": "185.80.2.120:21",
+                        "timestamp": "2023-11-22 12:57:33"
+                    },
+                    {
+                        "value": "162.144.23.32:21",
+                        "timestamp": "2023-11-22 12:57:32"
+                    },
+                    {
+                        "value": "192.185.152.133:21",
+                        "timestamp": "2023-11-22 09:16:32"
+                    },
+                    {
+                        "value": "188.241.222.22:21",
+                        "timestamp": "2023-11-22 09:16:32"
+                    },
+                    {
+                        "value": "43.230.131.138:57745",
+                        "timestamp": "2023-11-12 18:14:05"
+                    },
+                    {
+                        "value": "43.230.131.138:21",
+                        "timestamp": "2023-11-12 18:14:05"
+                    },
+                    {
+                        "value": "91.92.255.16:80",
+                        "timestamp": "2023-12-01 17:36:14"
+                    },
+                    {
+                        "value": "31.220.2.200:80",
+                        "timestamp": "2023-12-01 17:36:15"
+                    },
+                    {
+                        "value": "141.98.6.154:80",
+                        "timestamp": "2023-11-08 23:48:17"
+                    },
+                    {
+                        "value": "5.253.38.46:80",
+                        "timestamp": "2023-10-31 23:48:14"
+                    },
+                    {
+                        "value": "67.225.131.68:80",
+                        "timestamp": "2023-09-27 08:06:33"
+                    },
+                    {
+                        "value": "47.87.211.157:443",
+                        "timestamp": "2023-09-24 07:04:24"
+                    },
+                    {
+                        "value": "137.184.5.20:80",
+                        "timestamp": "2023-08-20 23:48:13"
+                    },
+                    {
+                        "value": "139.99.153.90:80",
+                        "timestamp": "2023-08-11 23:48:17"
+                    },
+                    {
+                        "value": "80.85.153.31:80",
+                        "timestamp": "2023-08-10 23:48:17"
+                    },
+                    {
+                        "value": "185.246.220.60:80",
+                        "timestamp": "2023-05-19 10:38:50"
+                    },
+                    {
+                        "value": "171.22.30.147:80",
+                        "timestamp": "2023-05-19 10:38:50"
+                    },
+                    {
+                        "value": "190.107.177.239:21",
+                        "timestamp": "2023-05-19 10:24:19"
+                    },
+                    {
+                        "value": "95.214.27.98:80",
+                        "timestamp": "2023-06-11 23:48:10"
+                    },
+                    {
+                        "value": "209.141.53.247:80",
+                        "timestamp": "2023-04-20 23:48:25"
+                    },
+                    {
+                        "value": "185.225.74.69:80",
+                        "timestamp": "2023-02-18 23:48:18"
+                    },
+                    {
+                        "value": "198.98.55.114:80",
+                        "timestamp": "2023-03-03 23:48:18"
+                    },
+                    {
+                        "value": "185.246.220.133:80",
+                        "timestamp": "2022-12-30 23:48:17"
+                    },
+                    {
+                        "value": "195.178.120.64:63388",
+                        "timestamp": "2022-12-06 21:42:21"
+                    },
+                    {
+                        "value": "78.138.105.142:21",
+                        "timestamp": "2022-06-21 10:50:52"
+                    },
+                    {
+                        "value": "95.140.125.76:4580",
+                        "timestamp": "2023-09-27 18:36:44"
+                    },
+                    {
+                        "value": "162.222.225.29:587",
+                        "timestamp": "2022-04-23 11:45:05"
+                    },
+                    {
+                        "value": "79.133.41.250:587",
+                        "timestamp": "2022-04-23 11:44:20"
+                    },
+                    {
+                        "value": "103.125.190.248:80",
+                        "timestamp": "2021-11-09 03:11:02"
+                    },
+                    {
+                        "value": "107.152.108.114:587",
+                        "timestamp": "2021-08-24 20:46:29"
+                    }
+                ],
                 "url": [
+                    {
+                        "value": "https://www.rakishevkenes.com/WebPanel/login.php",
+                        "timestamp": "2023-11-14 06:40:10"
+                    },
+                    {
+                        "value": "http://91.92.255.16/mana/inc/61b46e405d2c1c.php",
+                        "timestamp": "2023-11-06 13:10:12"
+                    },
+                    {
+                        "value": "http://31.220.2.200/~gollpree/4/inc/80c2d1651b23ae.php",
+                        "timestamp": "2023-11-02 17:50:14"
+                    },
+                    {
+                        "value": "https://atelierzolotas.com/work/83461806.IMG",
+                        "timestamp": "2023-10-30 15:43:07"
+                    },
+                    {
+                        "value": "https://discordapp.com/api/webhooks/1166302871613087784/nCg-9BRiGEVs0MiVwMTqq2QpA1zjZAVmt6WwJeafNmLmk88WIG2BMzUo6OyGTXikDTY9",
+                        "timestamp": "2023-10-24 14:56:51"
+                    },
+                    {
+                        "value": "https://api.telegram.org/bot6357654685:AAFiKfbD5-YBSFCVzqybSStRmGTBTAvfm00/",
+                        "timestamp": "2023-10-24 14:56:51"
+                    },
+                    {
+                        "value": "https://api.telegram.org/bot6965219356:AAHyrA1bIgaLJof2YxCIzYRgbH23pVjvG0U/",
+                        "timestamp": "2023-10-24 14:56:50"
+                    },
+                    {
+                        "value": "http://cloudhost.myfirewall.org:2180/xlsx/inc/04a95340139b93.php",
+                        "timestamp": "2023-10-23 21:35:24"
+                    },
+                    {
+                        "value": "http://89.47.1.10/autdolorem.php",
+                        "timestamp": "2023-10-15 06:51:50"
+                    },
+                    {
+                        "value": "http://89.47.1.10/news.php",
+                        "timestamp": "2023-10-15 06:51:50"
+                    },
+                    {
+                        "value": "http://89.47.1.10/bin/omegle.php",
+                        "timestamp": "2023-10-15 03:25:16"
+                    },
+                    {
+                        "value": "http://89.47.1.10/eaipsa.php",
+                        "timestamp": "2023-10-15 00:45:16"
+                    },
+                    {
+                        "value": "http://kenesrakishev.net/wp-admin/admin-ajax.php",
+                        "timestamp": "2023-10-12 06:11:20"
+                    },
+                    {
+                        "value": "http://141.98.6.154/b/inc/bbc7e6ad6814b3.php",
+                        "timestamp": "2023-10-10 10:20:36"
+                    },
+                    {
+                        "value": "http://141.98.6.154/b/login.php",
+                        "timestamp": "2023-10-10 03:45:36"
+                    },
+                    {
+                        "value": "http://rakishev.net/wp-admin/admin-ajax.php",
+                        "timestamp": "2023-10-04 11:05:16"
+                    },
+                    {
+                        "value": "http://107.175.91.120/cdg/inc/15328d36eedec1.php",
+                        "timestamp": "2023-10-04 10:10:15"
+                    },
+                    {
+                        "value": "http://rakishev.net/wp-load.php",
+                        "timestamp": "2023-10-04 06:08:16"
+                    },
+                    {
+                        "value": "http://poituox.fr/xls/dd/inc/ba4d1581aebc19.php",
+                        "timestamp": "2023-10-03 15:00:40"
+                    },
+                    {
+                        "value": "http://rakishev.org/ok.php",
+                        "timestamp": "2023-10-03 04:50:23"
+                    },
+                    {
+                        "value": "http://rakishev.org/wp-load.php",
+                        "timestamp": "2023-10-03 04:49:43"
+                    },
+                    {
+                        "value": "http://rakishev.org/wp-admin/admin-ajax.php",
+                        "timestamp": "2023-10-03 04:49:42"
+                    },
                     {
                         "value": "https://dispatchweekly.com/bot.php",
                         "timestamp": "2023-09-27 10:36:06"
@@ -1030,179 +1362,31 @@ var threatdata = {
                         "timestamp": "2021-03-11 14:58:38"
                     }
                 ],
-                "ip:port": [
-                    {
-                        "value": "67.225.131.68:80",
-                        "timestamp": "2023-09-27 08:06:33"
-                    },
-                    {
-                        "value": "47.87.211.157:443",
-                        "timestamp": "2023-09-24 07:04:24"
-                    },
-                    {
-                        "value": "137.184.5.20:80",
-                        "timestamp": "2023-08-20 23:48:13"
-                    },
-                    {
-                        "value": "139.99.153.90:80",
-                        "timestamp": "2023-08-11 23:48:17"
-                    },
-                    {
-                        "value": "80.85.153.31:80",
-                        "timestamp": "2023-08-10 23:48:17"
-                    },
-                    {
-                        "value": "185.246.220.60:80",
-                        "timestamp": "2023-05-19 10:38:50"
-                    },
-                    {
-                        "value": "171.22.30.147:80",
-                        "timestamp": "2023-05-19 10:38:50"
-                    },
-                    {
-                        "value": "190.107.177.239:21",
-                        "timestamp": "2023-05-19 10:24:19"
-                    },
-                    {
-                        "value": "95.214.27.98:80",
-                        "timestamp": "2023-06-11 23:48:10"
-                    },
-                    {
-                        "value": "209.141.53.247:80",
-                        "timestamp": "2023-04-20 23:48:25"
-                    },
-                    {
-                        "value": "185.225.74.69:80",
-                        "timestamp": "2023-02-18 23:48:18"
-                    },
-                    {
-                        "value": "198.98.55.114:80",
-                        "timestamp": "2023-03-03 23:48:18"
-                    },
-                    {
-                        "value": "185.246.220.133:80",
-                        "timestamp": "2022-12-30 23:48:17"
-                    },
-                    {
-                        "value": "195.178.120.64:63388",
-                        "timestamp": "2022-12-06 21:42:21"
-                    },
-                    {
-                        "value": "78.138.105.142:21",
-                        "timestamp": "2022-06-21 10:50:52"
-                    },
-                    {
-                        "value": "95.140.125.76:4580",
-                        "timestamp": "2023-09-27 18:36:44"
-                    },
-                    {
-                        "value": "162.222.225.29:587",
-                        "timestamp": "2022-04-23 11:45:05"
-                    },
-                    {
-                        "value": "79.133.41.250:587",
-                        "timestamp": "2022-04-23 11:44:20"
-                    },
-                    {
-                        "value": "103.125.190.248:80",
-                        "timestamp": "2021-11-09 03:11:02"
-                    },
-                    {
-                        "value": "107.152.108.114:587",
-                        "timestamp": "2021-08-24 20:46:29"
-                    }
-                ],
-                "domain": [
-                    {
-                        "value": "suchitanandanmahavidyalaya.org",
-                        "timestamp": "2023-10-02 06:36:09"
-                    },
-                    {
-                        "value": "www.upadte-reviewer-online.live",
-                        "timestamp": "2023-09-23 23:48:11"
-                    },
-                    {
-                        "value": "upadte-reviewer-online.live",
-                        "timestamp": "2023-09-04 23:48:08"
-                    },
-                    {
-                        "value": "macarty.ydns.eu",
-                        "timestamp": "2023-08-29 23:48:11"
-                    },
-                    {
-                        "value": "caeser.ydns.eu",
-                        "timestamp": "2023-08-29 23:48:11"
-                    },
-                    {
-                        "value": "chibb.ydns.eu",
-                        "timestamp": "2023-08-24 23:48:11"
-                    },
-                    {
-                        "value": "jimbo.ydns.eu",
-                        "timestamp": "2023-08-23 23:48:11"
-                    },
-                    {
-                        "value": "valerehandstand.com",
-                        "timestamp": "2023-06-25 17:10:34"
-                    },
-                    {
-                        "value": "server1.sqsendy.shop",
-                        "timestamp": "2023-06-25 17:06:57"
-                    },
-                    {
-                        "value": "valvulasthermovalve.cl",
-                        "timestamp": "2023-05-19 10:24:53"
-                    },
-                    {
-                        "value": "cp5ua.hyperhost.ua",
-                        "timestamp": "2023-04-05 19:20:28"
-                    },
-                    {
-                        "value": "smtp.obynnehhhan.com",
-                        "timestamp": "2023-04-05 19:20:28"
-                    },
-                    {
-                        "value": "chasamloriger.su",
-                        "timestamp": "2023-04-28 23:48:25"
-                    },
-                    {
-                        "value": "lku7.tk",
-                        "timestamp": "2023-03-25 23:48:18"
-                    },
-                    {
-                        "value": "catknock.com",
-                        "timestamp": "2023-03-22 23:48:20"
-                    },
-                    {
-                        "value": "alpatrik.com",
-                        "timestamp": "2023-08-16 23:48:15"
-                    },
-                    {
-                        "value": "dropbuyinc.ga",
-                        "timestamp": "2023-05-23 06:38:31"
-                    },
-                    {
-                        "value": "cletonmy.com",
-                        "timestamp": "2023-07-14 07:10:24"
-                    },
-                    {
-                        "value": "mail.montanapremiersenggigi.com",
-                        "timestamp": "2022-10-17 14:25:36"
-                    },
-                    {
-                        "value": "mail.morabitur.com",
-                        "timestamp": "2022-06-27 11:47:27"
-                    },
-                    {
-                        "value": "mail.dipiluminacion.com",
-                        "timestamp": "2021-08-22 20:45:07"
-                    },
-                    {
-                        "value": "ftp.adpfr.ro",
-                        "timestamp": "2021-08-17 22:33:21"
-                    }
-                ],
                 "sha256_hash": [
+                    {
+                        "value": "64557f9bcd5a7f58c3c978edd13c2e8742632f29f4f753f248891c99e03081b9",
+                        "timestamp": "2023-10-31 08:51:01"
+                    },
+                    {
+                        "value": "f94d2b089c250e8ff7d1398e6f107867255aabfe28d79dff8532e2895e0c6e9d",
+                        "timestamp": "2023-10-31 08:51:01"
+                    },
+                    {
+                        "value": "0faa8438b97ba137f50e7b05f40c32ff51cb100655dd472908200cbd6db5f648",
+                        "timestamp": "2023-10-15 06:51:48"
+                    },
+                    {
+                        "value": "9688528dbaf75125004db4392eef3a26774f3b41eebfd88092075f1c7357ea36",
+                        "timestamp": "2023-10-15 06:51:48"
+                    },
+                    {
+                        "value": "4023d96589970420857763ffa1f1fd0eb79668344e095f9e81f851e479e776cc",
+                        "timestamp": "2023-10-15 06:51:47"
+                    },
+                    {
+                        "value": "81751fd143f583fb66397738eb42f092e149726212e9607aa4d80fbefa0bfd99",
+                        "timestamp": "2023-10-10 09:54:17"
+                    },
                     {
                         "value": "8985a53cef92eac267f0a66fd6fd2695404de1f859dc2d530e15b9e5033ae5a8",
                         "timestamp": "2023-06-27 10:45:44"
@@ -39741,10 +39925,34 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-10-02 06:36:09",
+    "last_ioc_update": "2023-12-01 17:36:15",
     "file_name": "agent_tesla",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://blog.cluster25.duskrise.com/2023/10/12/cve-2023-38831-russian-attack",
+            "date": "2023-10-12",
+            "organization": "Cluster25",
+            "author": "Cluster25 Threat Intel Team",
+            "title": "CVE-2023-38831 Exploited by Pro-Russia Hacking Groups in RU-UA Conflict Zone for Credential Harvesting Operations",
+            "categories": [
+                "Agent Tesla",
+                "Crimson RAT",
+                "Nanocore RAT",
+                "SmokeLoader"
+            ]
+        },
+        {
+            "data_url": "https://www.intrinsec.com/wp-content/uploads/2023/09/TLP-CLEAR-20230912-EN-GuLoader-Information-report.pdf",
+            "date": "2023-09-29",
+            "organization": "Intrinsec",
+            "author": "CTI Intrinsec",
+            "title": "Ongoing threats targeting the energy industry",
+            "categories": [
+                "Agent Tesla",
+                "CloudEyE"
+            ]
+        },
         {
             "data_url": "https://embee-research.ghost.io/agenttesla-full-analysis-api-hashing/",
             "date": "2023-05-07",

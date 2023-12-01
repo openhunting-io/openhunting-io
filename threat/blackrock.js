@@ -44,8 +44,8 @@ var threatdata = {
             "malware": "apk.blackrock",
             "last_update": "2021-03-08 20:45:28",
             "tags": [
-                "android",
                 "blackrock",
+                "android",
                 "banker"
             ],
             "ioc": {

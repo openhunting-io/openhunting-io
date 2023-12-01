@@ -31,15 +31,60 @@ var threatdata = {
             "malware_printable": "SparkRAT",
             "malware_alias": null,
             "malware": "win.spark_rat",
-            "last_update": "2023-09-07 06:40:25",
+            "last_update": "2023-10-12 06:11:16",
             "tags": [
+                "TransparentTribe",
+                "SparkRAT",
                 "APT36",
+                "trojan",
+                "spyware",
                 "RAT",
                 "APT",
-                "TransparentTribe",
-                "SparkRAT"
+                "gorat",
+                "spark",
+                "rat"
             ],
             "ioc": {
+                "url": [
+                    {
+                        "value": "http://www.rakishevkenes.com/search/ws",
+                        "timestamp": "2023-10-12 06:11:16"
+                    },
+                    {
+                        "value": "http://www.rakishevkenes.com/ws/ws",
+                        "timestamp": "2023-10-12 06:11:15"
+                    },
+                    {
+                        "value": "http://www.rakishevkenes.com/bin/ws",
+                        "timestamp": "2023-10-12 06:11:15"
+                    },
+                    {
+                        "value": "http://www.rakishevkenes.com/ws",
+                        "timestamp": "2023-10-12 06:11:15"
+                    },
+                    {
+                        "value": "https://www.rakishevkenes.com:443/search/ws/ws",
+                        "timestamp": "2023-10-12 06:11:14"
+                    },
+                    {
+                        "value": "https://www.rakishevkenes.com/",
+                        "timestamp": "2023-10-12 06:11:13"
+                    }
+                ],
+                "domain": [
+                    {
+                        "value": "rakishevkenes.com",
+                        "timestamp": "2023-10-12 06:11:13"
+                    },
+                    {
+                        "value": "www.rakishevkenes.com",
+                        "timestamp": "2023-10-12 06:11:12"
+                    },
+                    {
+                        "value": "6jxbmkpe.torontobotdns.com",
+                        "timestamp": "2023-07-24 12:02:10"
+                    }
+                ],
                 "ip:port": [
                     {
                         "value": "43.140.252.169:8000",
@@ -75,17 +120,11 @@ var threatdata = {
                         "value": "2e66189aa1b6fd345a9c13124844ebbc",
                         "timestamp": "2023-07-24 12:00:04"
                     }
-                ],
-                "domain": [
-                    {
-                        "value": "6jxbmkpe.torontobotdns.com",
-                        "timestamp": "2023-07-24 12:02:10"
-                    }
                 ]
             }
         }
     ],
-    "last_ioc_update": "2023-09-07 06:40:25",
+    "last_ioc_update": "2023-10-12 06:11:16",
     "file_name": "sparkrat",
     "analysis": null,
     "articles": [

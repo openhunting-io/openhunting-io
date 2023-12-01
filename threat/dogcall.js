@@ -36,17 +36,21 @@ var threatdata = {
             "malware_printable": "RokRAT",
             "malware_alias": "DOGCALL",
             "malware": "win.rokrat",
-            "last_update": "2023-09-13 15:43:07",
+            "last_update": "2023-10-10 14:37:44",
             "tags": [
+                "RokRat",
+                "RokRAT",
+                "APT37",
                 "RAT",
                 "APT",
-                "GOLDBACKDOOR",
-                "APT37",
-                "RokRAT",
-                "RokRat"
+                "GOLDBACKDOOR"
             ],
             "ioc": {
                 "md5_hash": [
+                    {
+                        "value": "cc96ba45dd2b6a6d7aa300d77e49c095",
+                        "timestamp": "2023-10-10 14:37:44"
+                    },
                     {
                         "value": "fd67ad03cc71d3397f962896365ed510",
                         "timestamp": "2023-09-13 15:43:07"
@@ -91,7 +95,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-13 15:43:07",
+    "last_ioc_update": "2023-10-10 14:37:44",
     "file_name": "dogcall",
     "analysis": null,
     "articles": [],

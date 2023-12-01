@@ -55,23 +55,331 @@ var threatdata = {
             "malware_printable": "Nanocore RAT",
             "malware_alias": "Nancrat,NanoCore",
             "malware": "win.nanocore",
-            "last_update": "2023-09-29 07:10:06",
+            "last_update": "2023-12-01 09:00:29",
             "tags": [
-                "historicalandnew",
-                "c2",
-                "RAT",
-                "Nancore",
                 "NanoCore",
+                "historicalandnew",
+                "Nanocore",
+                "nanocore",
+                "Nancore",
                 "exe",
+                "c2",
                 "GuLoader",
+                "RAT",
                 "NanoCore RAT",
                 "Boredfluff",
-                "rat",
-                "Nanocore",
-                "nanocore"
+                "rat"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "3.14.182.203:14849",
+                        "timestamp": "2023-12-01 09:00:29"
+                    },
+                    {
+                        "value": "3.134.125.175:14849",
+                        "timestamp": "2023-12-01 09:00:27"
+                    },
+                    {
+                        "value": "3.134.39.220:14849",
+                        "timestamp": "2023-12-01 09:00:24"
+                    },
+                    {
+                        "value": "3.17.7.232:14849",
+                        "timestamp": "2023-12-01 09:00:21"
+                    },
+                    {
+                        "value": "3.13.191.225:14849",
+                        "timestamp": "2023-12-01 09:00:18"
+                    },
+                    {
+                        "value": "3.22.30.40:14849",
+                        "timestamp": "2023-12-01 09:00:11"
+                    },
+                    {
+                        "value": "103.114.106.29:6696",
+                        "timestamp": "2023-11-29 15:36:43"
+                    },
+                    {
+                        "value": "62.146.226.202:54984",
+                        "timestamp": "2023-11-29 03:05:16"
+                    },
+                    {
+                        "value": "194.107.126.86:54984",
+                        "timestamp": "2023-11-29 01:06:26"
+                    },
+                    {
+                        "value": "91.92.248.204:6696",
+                        "timestamp": "2023-11-28 06:22:59"
+                    },
+                    {
+                        "value": "147.185.221.17:25786",
+                        "timestamp": "2023-11-27 20:55:05"
+                    },
+                    {
+                        "value": "194.147.140.186:3636",
+                        "timestamp": "2023-11-27 12:01:38"
+                    },
+                    {
+                        "value": "31.214.243.202:54984",
+                        "timestamp": "2023-11-26 16:17:17"
+                    },
+                    {
+                        "value": "34.100.137.129:80",
+                        "timestamp": "2023-11-24 20:05:15"
+                    },
+                    {
+                        "value": "91.92.241.178:54984",
+                        "timestamp": "2023-11-24 17:04:36"
+                    },
+                    {
+                        "value": "103.97.209.13:54984",
+                        "timestamp": "2023-11-24 05:05:00"
+                    },
+                    {
+                        "value": "139.84.139.29:1620",
+                        "timestamp": "2023-11-24 01:00:51"
+                    },
+                    {
+                        "value": "91.92.249.11:54984",
+                        "timestamp": "2023-11-23 16:04:38"
+                    },
+                    {
+                        "value": "78.92.97.220:54984",
+                        "timestamp": "2023-11-22 19:05:10"
+                    },
+                    {
+                        "value": "91.92.244.198:6696",
+                        "timestamp": "2023-11-23 13:27:21"
+                    },
+                    {
+                        "value": "45.61.128.201:54984",
+                        "timestamp": "2023-11-21 21:05:16"
+                    },
+                    {
+                        "value": "89.231.229.193:54984",
+                        "timestamp": "2023-11-21 09:05:03"
+                    },
+                    {
+                        "value": "82.64.87.168:54984",
+                        "timestamp": "2023-11-20 10:06:01"
+                    },
+                    {
+                        "value": "91.92.242.192:54357",
+                        "timestamp": "2023-11-20 09:04:10"
+                    },
+                    {
+                        "value": "149.56.101.42:54984",
+                        "timestamp": "2023-11-17 01:04:12"
+                    },
+                    {
+                        "value": "188.241.39.165:54984",
+                        "timestamp": "2023-11-15 11:03:53"
+                    },
+                    {
+                        "value": "130.51.20.126:37190",
+                        "timestamp": "2023-11-14 06:40:12"
+                    },
+                    {
+                        "value": "91.92.247.217:9003",
+                        "timestamp": "2023-11-13 13:00:56"
+                    },
+                    {
+                        "value": "182.188.78.114:54984",
+                        "timestamp": "2023-11-12 02:06:14"
+                    },
+                    {
+                        "value": "201.229.167.115:54984",
+                        "timestamp": "2023-11-11 20:05:46"
+                    },
+                    {
+                        "value": "194.33.191.126:54984",
+                        "timestamp": "2023-11-11 20:05:44"
+                    },
+                    {
+                        "value": "194.49.94.45:54984",
+                        "timestamp": "2023-11-11 02:04:48"
+                    },
+                    {
+                        "value": "82.165.201.41:54984",
+                        "timestamp": "2023-11-10 19:05:58"
+                    },
+                    {
+                        "value": "89.230.242.182:54984",
+                        "timestamp": "2023-11-10 00:05:58"
+                    },
+                    {
+                        "value": "95.164.22.207:54984",
+                        "timestamp": "2023-11-09 05:05:19"
+                    },
+                    {
+                        "value": "194.147.140.185:23591",
+                        "timestamp": "2023-11-08 12:48:04"
+                    },
+                    {
+                        "value": "45.120.177.164:54984",
+                        "timestamp": "2023-11-08 00:01:07"
+                    },
+                    {
+                        "value": "156.96.44.204:9866",
+                        "timestamp": "2023-11-07 06:33:08"
+                    },
+                    {
+                        "value": "147.185.221.17:10524",
+                        "timestamp": "2023-11-07 06:33:05"
+                    },
+                    {
+                        "value": "43.155.118.60:54984",
+                        "timestamp": "2023-11-07 01:07:03"
+                    },
+                    {
+                        "value": "210.204.137.38:54984",
+                        "timestamp": "2023-11-06 07:06:01"
+                    },
+                    {
+                        "value": "41.140.148.78:54984",
+                        "timestamp": "2023-11-04 17:11:51"
+                    },
+                    {
+                        "value": "103.212.81.160:23591",
+                        "timestamp": "2023-11-03 08:15:40"
+                    },
+                    {
+                        "value": "193.161.193.99:28278",
+                        "timestamp": "2023-11-03 06:55:27"
+                    },
+                    {
+                        "value": "54.219.247.190:18488",
+                        "timestamp": "2023-11-03 06:55:26"
+                    },
+                    {
+                        "value": "158.69.40.137:54984",
+                        "timestamp": "2023-11-03 04:08:49"
+                    },
+                    {
+                        "value": "3.13.191.225:15432",
+                        "timestamp": "2023-11-02 17:05:14"
+                    },
+                    {
+                        "value": "3.134.125.175:15432",
+                        "timestamp": "2023-11-02 17:05:14"
+                    },
+                    {
+                        "value": "3.14.182.203:15432",
+                        "timestamp": "2023-11-02 17:05:13"
+                    },
+                    {
+                        "value": "3.17.7.232:15432",
+                        "timestamp": "2023-11-02 17:05:12"
+                    },
+                    {
+                        "value": "3.22.30.40:15432",
+                        "timestamp": "2023-11-02 17:05:11"
+                    },
+                    {
+                        "value": "3.134.39.220:15432",
+                        "timestamp": "2023-11-02 17:05:11"
+                    },
+                    {
+                        "value": "24.152.38.230:54984",
+                        "timestamp": "2023-11-02 11:06:17"
+                    },
+                    {
+                        "value": "94.156.64.212:54984",
+                        "timestamp": "2023-11-02 07:06:20"
+                    },
+                    {
+                        "value": "194.87.217.31:54984",
+                        "timestamp": "2023-11-02 06:07:06"
+                    },
+                    {
+                        "value": "54.176.73.138:12288",
+                        "timestamp": "2023-11-01 05:54:23"
+                    },
+                    {
+                        "value": "3.79.242.82:54984",
+                        "timestamp": "2023-11-01 03:07:28"
+                    },
+                    {
+                        "value": "93.242.233.250:54984",
+                        "timestamp": "2023-10-31 23:06:59"
+                    },
+                    {
+                        "value": "74.77.124.104:54984",
+                        "timestamp": "2023-10-31 22:52:56"
+                    },
+                    {
+                        "value": "103.114.104.79:54984",
+                        "timestamp": "2023-10-31 22:52:54"
+                    },
+                    {
+                        "value": "58.27.212.38:54984",
+                        "timestamp": "2023-10-31 22:52:52"
+                    },
+                    {
+                        "value": "67.207.161.208:50720",
+                        "timestamp": "2023-10-23 16:00:20"
+                    },
+                    {
+                        "value": "173.212.199.134:555",
+                        "timestamp": "2023-10-23 01:00:31"
+                    },
+                    {
+                        "value": "91.193.75.195:23591",
+                        "timestamp": "2023-10-20 15:07:17"
+                    },
+                    {
+                        "value": "3.6.30.85:18792",
+                        "timestamp": "2023-10-18 11:46:16"
+                    },
+                    {
+                        "value": "3.6.115.64:18792",
+                        "timestamp": "2023-10-18 11:46:16"
+                    },
+                    {
+                        "value": "64.44.156.43:50720",
+                        "timestamp": "2023-10-17 19:00:22"
+                    },
+                    {
+                        "value": "193.42.33.27:4242",
+                        "timestamp": "2023-10-17 03:00:25"
+                    },
+                    {
+                        "value": "3.134.125.175:11674",
+                        "timestamp": "2023-10-16 21:00:46"
+                    },
+                    {
+                        "value": "3.17.7.232:11674",
+                        "timestamp": "2023-10-16 21:00:46"
+                    },
+                    {
+                        "value": "3.14.182.203:11674",
+                        "timestamp": "2023-10-16 21:00:45"
+                    },
+                    {
+                        "value": "3.13.191.225:11674",
+                        "timestamp": "2023-10-16 21:00:42"
+                    },
+                    {
+                        "value": "94.156.6.14:6110",
+                        "timestamp": "2023-10-16 18:21:41"
+                    },
+                    {
+                        "value": "95.214.27.6:4984",
+                        "timestamp": "2023-10-16 05:00:20"
+                    },
+                    {
+                        "value": "45.66.230.22:54984",
+                        "timestamp": "2023-10-04 06:08:26"
+                    },
+                    {
+                        "value": "45.67.229.4:54984",
+                        "timestamp": "2023-10-04 03:05:20"
+                    },
+                    {
+                        "value": "104.250.181.155:9036",
+                        "timestamp": "2023-10-03 02:00:56"
+                    },
                     {
                         "value": "2.59.254.205:3078",
                         "timestamp": "2023-09-29 07:10:06"
@@ -5622,7 +5930,7 @@ var threatdata = {
                     },
                     {
                         "value": "103.114.107.108:54984",
-                        "timestamp": "2022-06-23 21:02:52"
+                        "timestamp": "2023-11-07 16:07:21"
                     },
                     {
                         "value": "37.0.8.61:7650",
@@ -6650,7 +6958,7 @@ var threatdata = {
                     },
                     {
                         "value": "136.243.111.71:54984",
-                        "timestamp": "2022-02-06 08:24:29"
+                        "timestamp": "2023-11-03 04:08:48"
                     },
                     {
                         "value": "84.51.52.166:54984",
@@ -9631,6 +9939,58 @@ var threatdata = {
                 ],
                 "domain": [
                     {
+                        "value": "rn72836.sytes.net",
+                        "timestamp": "2023-11-28 06:23:00"
+                    },
+                    {
+                        "value": "6coinc.zapto.org",
+                        "timestamp": "2023-11-23 13:26:57"
+                    },
+                    {
+                        "value": "us3.localto.net",
+                        "timestamp": "2023-11-14 06:40:12"
+                    },
+                    {
+                        "value": "days-jd.gl.at.ply.gg",
+                        "timestamp": "2023-11-07 06:33:05"
+                    },
+                    {
+                        "value": "safe242-28278.portmap.host",
+                        "timestamp": "2023-11-03 06:55:27"
+                    },
+                    {
+                        "value": "4.tcp.us-cal-1.ngrok.io",
+                        "timestamp": "2023-11-03 06:55:25"
+                    },
+                    {
+                        "value": "6.tcp.us-cal-1.ngrok.io",
+                        "timestamp": "2023-11-01 05:54:24"
+                    },
+                    {
+                        "value": "uilovee.ddns.net",
+                        "timestamp": "2023-10-17 05:47:19"
+                    },
+                    {
+                        "value": "29122021.sytes.net",
+                        "timestamp": "2023-11-20 19:42:25"
+                    },
+                    {
+                        "value": "fgudhiiugiufgifufgihdhuidfxgd.duckdns.org",
+                        "timestamp": "2023-10-29 21:26:48"
+                    },
+                    {
+                        "value": "backupcraft.ddns.net",
+                        "timestamp": "2023-10-29 21:26:47"
+                    },
+                    {
+                        "value": "supercraft123.serveminecraft.net",
+                        "timestamp": "2023-10-04 06:08:27"
+                    },
+                    {
+                        "value": "titus.casacam.net",
+                        "timestamp": "2023-10-03 04:49:59"
+                    },
+                    {
                         "value": "newnanpeople.duckdns.org",
                         "timestamp": "2023-09-29 07:10:06"
                     },
@@ -11200,7 +11560,7 @@ var threatdata = {
                     },
                     {
                         "value": "dephantomz.ddns.net",
-                        "timestamp": "2023-09-27 18:43:43"
+                        "timestamp": "2023-11-08 02:54:46"
                     },
                     {
                         "value": "groups.us.to",
@@ -17012,7 +17372,7 @@ var threatdata = {
                     },
                     {
                         "value": "allonsy.hopto.org",
-                        "timestamp": "2023-09-27 18:44:27"
+                        "timestamp": "2023-11-20 19:42:25"
                     },
                     {
                         "value": "wekeepworking12.sytes.net",
@@ -17932,7 +18292,7 @@ var threatdata = {
                     },
                     {
                         "value": "nonoise.duckdns.org",
-                        "timestamp": "2023-09-27 18:43:01"
+                        "timestamp": "2023-11-21 14:46:16"
                     },
                     {
                         "value": "sneakerpop.bounceme.net",
@@ -17976,7 +18336,7 @@ var threatdata = {
                     },
                     {
                         "value": "faq.medecinsansfrontiere.fr",
-                        "timestamp": "2023-09-27 18:40:22"
+                        "timestamp": "2023-11-20 17:04:00"
                     },
                     {
                         "value": "jasonbourneblack.ddns.net",
@@ -18088,7 +18448,7 @@ var threatdata = {
                     },
                     {
                         "value": "work2020.ddns.net",
-                        "timestamp": "2023-09-27 18:42:28"
+                        "timestamp": "2023-11-20 19:36:41"
                     },
                     {
                         "value": "wsnan2js.duckdns.org",
@@ -18444,7 +18804,7 @@ var threatdata = {
                     },
                     {
                         "value": "kraldeli.linkpc.net",
-                        "timestamp": "2023-09-27 18:43:21"
+                        "timestamp": "2023-11-20 19:36:35"
                     },
                     {
                         "value": "kris119.duckdns.org",
@@ -18468,7 +18828,7 @@ var threatdata = {
                     },
                     {
                         "value": "mansengco778.ddns.net",
-                        "timestamp": "2023-09-27 18:43:21"
+                        "timestamp": "2023-11-20 19:36:36"
                     },
                     {
                         "value": "maxlogs.webhop.me",
@@ -18560,7 +18920,7 @@ var threatdata = {
                     },
                     {
                         "value": "graceofgod.myftp.biz",
-                        "timestamp": "2023-09-27 18:39:20"
+                        "timestamp": "2023-11-20 19:36:34"
                     },
                     {
                         "value": "greatman.hopto.org",
@@ -18568,7 +18928,7 @@ var threatdata = {
                     },
                     {
                         "value": "grosjeangerard.hopto.org",
-                        "timestamp": "2023-09-27 18:39:20"
+                        "timestamp": "2023-10-29 21:08:47"
                     },
                     {
                         "value": "hadkhadma.freeddns.org",
@@ -18712,7 +19072,7 @@ var threatdata = {
                     },
                     {
                         "value": "cloudhost.myfirewall.org",
-                        "timestamp": "2023-09-27 18:44:41"
+                        "timestamp": "2023-11-21 23:48:23"
                     },
                     {
                         "value": "coconuthead.ddns.net",
@@ -18768,7 +19128,7 @@ var threatdata = {
                     },
                     {
                         "value": "bigmoney2020.ath.cx",
-                        "timestamp": "2023-09-27 13:54:09"
+                        "timestamp": "2023-11-20 19:36:31"
                     },
                     {
                         "value": "billie4.ddns.net",
@@ -18964,7 +19324,7 @@ var threatdata = {
                     },
                     {
                         "value": "nibiru3.duckdns.org",
-                        "timestamp": "2023-09-27 18:43:31"
+                        "timestamp": "2023-11-20 16:58:54"
                     },
                     {
                         "value": "6.tcp.eu.ngrok.io",
@@ -19096,7 +19456,7 @@ var threatdata = {
                     },
                     {
                         "value": "sempersim.su",
-                        "timestamp": "2023-04-20 23:48:25"
+                        "timestamp": "2023-10-06 09:12:04"
                     },
                     {
                         "value": "anglemanagement.ddns.net",
@@ -19388,11 +19748,11 @@ var threatdata = {
                     },
                     {
                         "value": "chinomso.duckdns.org",
-                        "timestamp": "2023-09-27 18:43:23"
+                        "timestamp": "2023-11-06 14:11:36"
                     },
                     {
                         "value": "iyhto.ddns.net",
-                        "timestamp": "2023-09-27 18:42:51"
+                        "timestamp": "2023-11-20 19:36:35"
                     },
                     {
                         "value": "justinalwhitedd554.duckdns.org",
@@ -19501,6 +19861,68 @@ var threatdata = {
                     {
                         "value": "gshwjnkiyrgdhavczmlopnbvcdtrjhbcxzuiopweazxbwqmnbf.ydns.eu",
                         "timestamp": "2023-09-27 18:40:21"
+                    }
+                ],
+                "url": [
+                    {
+                        "value": "http://zang1.almashreaq.top/_errorpages/plugmanzx.exe",
+                        "timestamp": "2023-11-29 14:10:27"
+                    },
+                    {
+                        "value": "http://tradeguru.com.pk/enc.txt",
+                        "timestamp": "2022-08-22 15:44:27"
+                    },
+                    {
+                        "value": "http://tradeguru.com.pk/Server.txt",
+                        "timestamp": "2022-08-22 15:44:27"
+                    },
+                    {
+                        "value": "https://xp230522.ddns.net",
+                        "timestamp": "2022-07-07 08:20:44"
+                    },
+                    {
+                        "value": "https://vpnozo.hopto.org",
+                        "timestamp": "2022-06-02 07:32:26"
+                    },
+                    {
+                        "value": "https://cherpa.eu/pogba/ifeaka.exe",
+                        "timestamp": "2022-05-24 10:01:49"
+                    },
+                    {
+                        "value": "https://danteyy.ddns.net",
+                        "timestamp": "2022-05-24 09:57:29"
+                    },
+                    {
+                        "value": "http://rich4eva.ddns.net",
+                        "timestamp": "2022-04-28 11:54:20"
+                    },
+                    {
+                        "value": "http://pp.specterlogisitics.com/pp.exe",
+                        "timestamp": "2022-04-25 08:55:08"
+                    },
+                    {
+                        "value": "http://lowspeed.ddns.net",
+                        "timestamp": "2022-04-08 08:13:10"
+                    },
+                    {
+                        "value": "http://megalogs2022.duckdns.org",
+                        "timestamp": "2022-04-07 08:37:17"
+                    },
+                    {
+                        "value": "http://btmebd.ddns.net",
+                        "timestamp": "2022-03-14 10:43:42"
+                    },
+                    {
+                        "value": "http://2.58.149.41/catzx.exe",
+                        "timestamp": "2022-03-14 10:37:30"
+                    },
+                    {
+                        "value": "http://norly419.ddns.net",
+                        "timestamp": "2022-03-09 10:54:42"
+                    },
+                    {
+                        "value": "http://gervenneoil.buzz/plugmanzx.exe",
+                        "timestamp": "2022-02-24 11:14:47"
                     }
                 ],
                 "md5_hash": [
@@ -31843,64 +32265,6 @@ var threatdata = {
                         "timestamp": "2021-03-10 23:00:42"
                     }
                 ],
-                "url": [
-                    {
-                        "value": "http://tradeguru.com.pk/enc.txt",
-                        "timestamp": "2022-08-22 15:44:27"
-                    },
-                    {
-                        "value": "http://tradeguru.com.pk/Server.txt",
-                        "timestamp": "2022-08-22 15:44:27"
-                    },
-                    {
-                        "value": "https://xp230522.ddns.net",
-                        "timestamp": "2022-07-07 08:20:44"
-                    },
-                    {
-                        "value": "https://vpnozo.hopto.org",
-                        "timestamp": "2022-06-02 07:32:26"
-                    },
-                    {
-                        "value": "https://cherpa.eu/pogba/ifeaka.exe",
-                        "timestamp": "2022-05-24 10:01:49"
-                    },
-                    {
-                        "value": "https://danteyy.ddns.net",
-                        "timestamp": "2022-05-24 09:57:29"
-                    },
-                    {
-                        "value": "http://rich4eva.ddns.net",
-                        "timestamp": "2022-04-28 11:54:20"
-                    },
-                    {
-                        "value": "http://pp.specterlogisitics.com/pp.exe",
-                        "timestamp": "2022-04-25 08:55:08"
-                    },
-                    {
-                        "value": "http://lowspeed.ddns.net",
-                        "timestamp": "2022-04-08 08:13:10"
-                    },
-                    {
-                        "value": "http://megalogs2022.duckdns.org",
-                        "timestamp": "2022-04-07 08:37:17"
-                    },
-                    {
-                        "value": "http://btmebd.ddns.net",
-                        "timestamp": "2022-03-14 10:43:42"
-                    },
-                    {
-                        "value": "http://2.58.149.41/catzx.exe",
-                        "timestamp": "2022-03-14 10:37:30"
-                    },
-                    {
-                        "value": "http://norly419.ddns.net",
-                        "timestamp": "2022-03-09 10:54:42"
-                    },
-                    {
-                        "value": "http://gervenneoil.buzz/plugmanzx.exe",
-                        "timestamp": "2022-02-24 11:14:47"
-                    }
-                ],
                 "sha1_hash": [
                     {
                         "value": "ee47c20aa9beb067098ab9a076b9d8decb12ee24",
@@ -31924,7 +32288,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-29 07:10:06",
+    "last_ioc_update": "2023-12-01 09:00:29",
     "file_name": "nanocore_rat",
     "analysis": null,
     "articles": [],

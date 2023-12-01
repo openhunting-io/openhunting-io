@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "LockBit, ABCD Ransomware, LockBit Black",
     "category": "Malware",
     "type": "Ransomware, Big Game Hunting, Reconnaissance, Remote command",
-    "modified": "2023-09-07",
+    "modified": "2023-10-03",
     "all_data": {
         "tool": "LockBit",
         "names": [
@@ -121,14 +121,14 @@ var threatdata = {
             "malware": "win.lockbit",
             "last_update": "2023-06-01 19:03:24",
             "tags": [
-                "ransomware",
-                "KOR",
+                "Lockbit",
+                "lockbit",
+                "Ransomware",
                 "geo",
                 "spyware",
-                "Ransomware",
-                "LockBit",
-                "Lockbit",
-                "lockbit"
+                "KOR",
+                "ransomware",
+                "LockBit"
             ],
             "ioc": {
                 "md5_hash": [
@@ -241,6 +241,19 @@ var threatdata = {
     "last_ioc_update": "2023-06-01 19:03:24",
     "file_name": "lockbit",
     "articles": [
+        {
+            "data_url": "https://medium.com/@lcam/lighting-the-exfiltration-infrastructure-of-a-lockbit-affiliate-and-more-f57fbb7a4e79",
+            "date": "2023-10-03",
+            "organization": "",
+            "author": "Luca Mella",
+            "title": "Lighting the Exfiltration Infrastructure of a LockBit Affiliate (and more)",
+            "categories": [
+                "LockBit",
+                "LockBit",
+                "Conti",
+                "LockBit"
+            ]
+        },
         {
             "data_url": "https://github.com/prodaft/malware-ioc/tree/master/PTI-257",
             "date": "2023-09-07",

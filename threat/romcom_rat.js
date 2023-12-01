@@ -36,8 +36,8 @@ var threatdata = {
             "malware": "win.romcom_rat",
             "last_update": "2023-05-09 08:13:15",
             "tags": [
-                "RomCom",
-                "RAT"
+                "RAT",
+                "RomCom"
             ],
             "ioc": {
                 "ip:port": [

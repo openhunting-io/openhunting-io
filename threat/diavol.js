@@ -44,8 +44,8 @@ var threatdata = {
             "malware": "win.diavol",
             "last_update": "2021-12-29 05:59:45",
             "tags": [
-                "Diavol",
-                "Ransomware"
+                "Ransomware",
+                "Diavol"
             ],
             "ioc": {
                 "sha256_hash": [

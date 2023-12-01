@@ -47,11 +47,17 @@ var threatdata = {
             "malware_printable": "FlawedAmmyy",
             "malware_alias": null,
             "malware": "win.flawedammyy",
-            "last_update": "2021-06-24 03:00:24",
+            "last_update": "2023-10-31 14:09:41",
             "tags": [
                 "flawedammyy"
             ],
             "ioc": {
+                "ip:port": [
+                    {
+                        "value": "136.243.104.235:443",
+                        "timestamp": "2023-10-31 14:09:41"
+                    }
+                ],
                 "sha256_hash": [
                     {
                         "value": "9a7c58bd98d70631aa1473f7b57b426db367d72429a5455b433a05ee251f3236",
@@ -89,7 +95,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2021-06-24 03:00:24",
+    "last_ioc_update": "2023-10-31 14:09:41",
     "file_name": "flawedammyy",
     "analysis": null,
     "articles": [

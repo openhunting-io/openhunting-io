@@ -45,18 +45,18 @@ var threatdata = {
             "malware_printable": "TeamSpy",
             "malware_alias": "TVSPY,TeamViewerENT,TVRAT",
             "malware": "win.teamspy",
-            "last_update": "2023-10-02 06:36:11",
+            "last_update": "2023-11-20 17:08:45",
             "tags": [
-                "ViaPrivateLoader",
-                "TeamSpy",
-                "RAT",
-                "ViaPRivateLoader",
                 "VIAPRIVATELOADER",
-                "teamspy",
-                "ViaPrivateloader",
+                "TeamSpy",
                 "Viaprivateloader",
-                "Teamspy",
-                "teamSpy"
+                "ViaPrivateLoader",
+                "teamspy",
+                "RAT",
+                "ViaPrivateloader",
+                "teamSpy",
+                "ViaPRivateLoader",
+                "Teamspy"
             ],
             "ioc": {
                 "url": [
@@ -124,13 +124,13 @@ var threatdata = {
                 "ip:port": [
                     {
                         "value": "185.141.63.172:80",
-                        "timestamp": "2023-10-02 06:36:11"
+                        "timestamp": "2023-11-20 17:08:45"
                     }
                 ]
             }
         }
     ],
-    "last_ioc_update": "2023-10-02 06:36:11",
+    "last_ioc_update": "2023-11-20 17:08:45",
     "file_name": "teamspy",
     "analysis": null,
     "articles": [

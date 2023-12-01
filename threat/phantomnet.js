@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "PhantomNet, SManager",
     "category": "Malware",
     "type": "Reconnaissance, Backdoor, Loader",
-    "modified": "2021-09-03",
+    "modified": "2023-10-03",
     "all_data": {
         "tool": "PhantomNet",
         "names": [
@@ -55,6 +55,19 @@ var threatdata = {
     "file_name": "phantomnet",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.elastic.co/security-labs/introducing-the-ref5961-intrusion-set",
+            "date": "2023-10-03",
+            "organization": "Elastic",
+            "author": "Daniel Stepanic",
+            "title": "Introducing the REF5961 intrusion set (RUDEBIRD, DOWNTOWN, and EAGERBEE)",
+            "categories": [
+                "EagerBee",
+                "SManager",
+                "REF2924",
+                "REF5961"
+            ]
+        },
         {
             "data_url": "https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/i/ssl-tls-technical-brief/ssl-tls-technical-brief.pdf",
             "date": "2021-09-03",

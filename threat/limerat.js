@@ -44,15 +44,19 @@ var threatdata = {
             "malware_printable": "LimeRAT",
             "malware_alias": null,
             "malware": "win.limerat",
-            "last_update": "2023-09-27 18:37:25",
+            "last_update": "2023-11-03 17:35:24",
             "tags": [
-                "limerat",
                 "RAT",
+                "Limerat",
                 "LimeRAT",
-                "Limerat"
+                "limerat"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "82.115.223.14:8030",
+                        "timestamp": "2023-11-03 17:35:24"
+                    },
                     {
                         "value": "95.214.27.6:14982",
                         "timestamp": "2023-09-02 14:20:07"
@@ -743,7 +747,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-27 18:37:25",
+    "last_ioc_update": "2023-11-03 17:35:24",
     "file_name": "limerat",
     "analysis": null,
     "articles": [

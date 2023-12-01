@@ -122,16 +122,56 @@ var threatdata = {
             "malware_printable": "SideWinder",
             "malware_alias": null,
             "malware": "win.sidewinder",
-            "last_update": "2023-08-15 19:15:38",
+            "last_update": "2023-10-16 18:21:47",
             "tags": [
                 "APT",
+                "SideWinder",
                 "13-213-47-21",
                 "apt",
-                "sidewinder",
-                "SideWinder"
+                "sidewinder"
             ],
             "ioc": {
                 "domain": [
+                    {
+                        "value": "mail-mofagovpk.servehalflife.com",
+                        "timestamp": "2023-10-16 18:21:47"
+                    },
+                    {
+                        "value": "mail-mofagovpk.serveirc.com",
+                        "timestamp": "2023-10-16 18:21:47"
+                    },
+                    {
+                        "value": "mail-pmogovpk.servehttp.com",
+                        "timestamp": "2023-10-16 18:21:46"
+                    },
+                    {
+                        "value": "ntc-govpk.servehttp.com",
+                        "timestamp": "2023-10-16 18:21:46"
+                    },
+                    {
+                        "value": "ntdc-govpk.viewdns.net",
+                        "timestamp": "2023-10-16 18:21:46"
+                    },
+                    {
+                        "value": "sharepakistanmofa.servehttp.com",
+                        "timestamp": "2023-10-16 18:21:45"
+                    },
+                    {
+                        "value": "vibe-ptclnetpk.servehalflife.com",
+                        "timestamp": "2023-10-16 18:21:45"
+                    },
+                    {
+                        "value": "complaints-ntcgovpk.viewdns.net",
+                        "timestamp": "2023-10-16 18:21:44"
+                    },
+                    {
+                        "value": "mail-mofagovpk.viewdns.net",
+                        "timestamp": "2023-10-16 18:21:44"
+                    },
+                    {
+                        "value": "cloud-ptclnetpk.servehttp.com",
+                        "timestamp": "2023-10-16 18:21:43"
+                    },
                     {
                         "value": "csd-govpk.servehttp.com",
                         "timestamp": "2023-08-15 19:15:38"
@@ -270,7 +310,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-08-15 19:15:38",
+    "last_ioc_update": "2023-10-16 18:21:47",
     "file_name": "sidewinder_rattlesnake",
     "analysis": null,
     "articles": [

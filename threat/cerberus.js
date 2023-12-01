@@ -52,11 +52,11 @@ var threatdata = {
             "malware": "apk.cerberus",
             "last_update": "2023-09-15 06:16:17",
             "tags": [
-                "Cerberus",
-                "cerberus",
                 "Android",
+                "iran",
                 "apk",
-                "iran"
+                "cerberus",
+                "Cerberus"
             ],
             "ioc": {
                 "url": [

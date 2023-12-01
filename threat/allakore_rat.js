@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Allakore RAT, AllaKore",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-04-19",
+    "modified": "2023-11-06",
     "all_data": {
         "tool": "Allakore RAT",
         "names": [
@@ -40,6 +40,17 @@ var threatdata = {
     "file_name": "allakore_rat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.seqrite.com/blog/sidecopys-multi-platform-onslaught-leveraging-winrar-zero-day-and-linux-variant-of-ares-rat/",
+            "date": "2023-11-06",
+            "organization": "Seqrite",
+            "author": "Sathwik Ram Prakki",
+            "title": "SideCopy\u2019s Multi-platform Onslaught: Leveraging WinRAR Zero-Day and Linux Variant of Ares RAT",
+            "categories": [
+                "Action RAT",
+                "AllaKore"
+            ]
+        },
         {
             "data_url": "https://www.team-cymru.com/post/allakore-d-the-sidecopy-train",
             "date": "2023-04-19",

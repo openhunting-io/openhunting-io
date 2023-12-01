@@ -50,10 +50,6 @@ var threatdata = {
                         "timestamp": "2023-09-30 08:58:11"
                     },
                     {
-                        "value": "inovea-engineering.com",
-                        "timestamp": "2023-09-30 16:20:55"
-                    },
-                    {
                         "value": "ipmonitor.services",
                         "timestamp": "2023-09-30 08:58:11"
                     },
@@ -104,18 +100,6 @@ var threatdata = {
                     {
                         "value": "idai2babd1.xyz",
                         "timestamp": "2023-09-30 08:58:11"
-                    },
-                    {
-                        "value": "i-app4.online",
-                        "timestamp": "2023-09-30 16:20:44"
-                    },
-                    {
-                        "value": "i-app5.online",
-                        "timestamp": "2023-09-30 16:20:44"
-                    },
-                    {
-                        "value": "i-app1.online",
-                        "timestamp": "2023-09-30 16:20:43"
                     },
                     {
                         "value": "hr81ha8ah.ch",
@@ -414,10 +398,6 @@ var threatdata = {
                         "timestamp": "2023-09-30 08:58:12"
                     },
                     {
-                        "value": "secure-ingdirect.top",
-                        "timestamp": "2023-09-30 16:19:32"
-                    },
-                    {
                         "value": "securitybitches1.at",
                         "timestamp": "2023-09-30 08:58:12"
                     },
@@ -472,10 +452,6 @@ var threatdata = {
                     {
                         "value": "thhausgajk.com",
                         "timestamp": "2023-09-30 08:58:12"
-                    },
-                    {
-                        "value": "track-google.at",
-                        "timestamp": "2023-09-30 16:19:22"
                     },
                     {
                         "value": "trackgoogle.at",
@@ -562,14 +538,6 @@ var threatdata = {
                         "timestamp": "2023-09-30 08:58:12"
                     },
                     {
-                        "value": "coupon-online.fr",
-                        "timestamp": "2023-09-30 16:19:09"
-                    },
-                    {
-                        "value": "i-app1.online",
-                        "timestamp": "2023-09-30 16:19:08"
-                    },
-                    {
                         "value": "dnscheck.club",
                         "timestamp": "2023-09-30 08:58:10"
                     },
@@ -592,10 +560,6 @@ var threatdata = {
                     {
                         "value": "dfjdgxm3753u744h.at",
                         "timestamp": "2023-09-30 08:58:10"
-                    },
-                    {
-                        "value": "coupon-online.fr",
-                        "timestamp": "2023-09-30 16:18:57"
                     },
                     {
                         "value": "cpsxz1.at",
@@ -752,26 +716,6 @@ var threatdata = {
                     {
                         "value": "smartcontractlicense.info",
                         "timestamp": "2023-09-30 08:58:12"
-                    },
-                    {
-                        "value": "i-app4.online",
-                        "timestamp": "2023-09-30 16:11:49"
-                    },
-                    {
-                        "value": "i-app5.online",
-                        "timestamp": "2023-09-30 16:11:48"
-                    },
-                    {
-                        "value": "inovea-engineering.com",
-                        "timestamp": "2023-09-30 16:11:48"
-                    },
-                    {
-                        "value": "secure-ingdirect.top",
-                        "timestamp": "2023-09-30 16:11:47"
-                    },
-                    {
-                        "value": "track-google.at",
-                        "timestamp": "2023-09-30 16:11:45"
                     }
                 ]
             }

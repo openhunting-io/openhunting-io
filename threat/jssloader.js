@@ -38,10 +38,10 @@ var threatdata = {
             "malware": "win.jssloader",
             "last_update": "2023-05-11 17:22:47",
             "tags": [
-                "JSSLoader",
                 "fin7",
                 "Jssloader",
-                "jssloader"
+                "jssloader",
+                "JSSLoader"
             ],
             "ioc": {
                 "domain": [

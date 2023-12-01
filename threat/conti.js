@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Conti",
     "category": "Malware",
     "type": "Ransomware, Big Game Hunting",
-    "modified": "2023-09-12",
+    "modified": "2023-10-03",
     "all_data": {
         "tool": "Conti",
         "names": [
@@ -107,9 +107,9 @@ var threatdata = {
             "malware": "win.conti",
             "last_update": "2023-04-25 18:49:31",
             "tags": [
+                "Ransomware",
                 "Conti",
-                "conti",
-                "Ransomware"
+                "conti"
             ],
             "ioc": {
                 "sha256_hash": [
@@ -960,6 +960,19 @@ var threatdata = {
     "last_ioc_update": "2023-04-25 18:49:31",
     "file_name": "conti",
     "articles": [
+        {
+            "data_url": "https://medium.com/@lcam/lighting-the-exfiltration-infrastructure-of-a-lockbit-affiliate-and-more-f57fbb7a4e79",
+            "date": "2023-10-03",
+            "organization": "",
+            "author": "Luca Mella",
+            "title": "Lighting the Exfiltration Infrastructure of a LockBit Affiliate (and more)",
+            "categories": [
+                "LockBit",
+                "LockBit",
+                "Conti",
+                "LockBit"
+            ]
+        },
         {
             "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-007.pdf",
             "date": "2023-09-12",

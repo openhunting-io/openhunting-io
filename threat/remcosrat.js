@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "RemcosRAT, Remcos, Remvio, Socmer",
     "category": "Tools",
     "type": "Backdoor, Info stealer, Exfiltration",
-    "modified": "2023-09-06",
+    "modified": "2023-10-27",
     "all_data": {
         "tool": "RemcosRAT",
         "names": [
@@ -61,6 +61,56 @@ var threatdata = {
     "file_name": "remcosrat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://embee-research.ghost.io/decoding-a-remcos-loader-script-visual-basic-deobfuscation/",
+            "date": "2023-10-27",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Remcos Downloader Analysis - Manual Deobfuscation of Visual Basic and Powershell",
+            "categories": [
+                "Remcos"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-10-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2023",
+            "categories": [
+                "FluBot",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Stealc",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/unveiling-the-shadows-the-dark-alliance-between-guloader-and-remcos/",
+            "date": "2023-09-19",
+            "organization": "Checkpoint",
+            "author": "Alexey  Bukhteyev",
+            "title": "Unveiling the Shadows: The Dark Alliance between GuLoader and Remcos",
+            "categories": [
+                "CloudEyE",
+                "Remcos"
+            ]
+        },
         {
             "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q2%20Botnet%20Threat%20Update.pdf",
             "date": "2023-07-11",

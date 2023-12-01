@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BlackCat, ALPHV, ALPHVM, Noberus",
     "category": "Malware",
     "type": "Ransomware, Big Game Hunting",
-    "modified": "2023-09-12",
+    "modified": "2023-11-16",
     "all_data": {
         "tool": "BlackCat",
         "names": [
@@ -96,9 +96,9 @@ var threatdata = {
             "last_update": "2022-05-10 22:56:56",
             "tags": [
                 "BlackCat",
+                "Ransomware",
                 "linux",
-                "Windows",
-                "Ransomware"
+                "Windows"
             ],
             "ioc": {
                 "md5_hash": [
@@ -247,6 +247,42 @@ var threatdata = {
     "last_ioc_update": "2022-05-10 22:56:56",
     "file_name": "blackcat",
     "articles": [
+        {
+            "data_url": "https://www.cisa.gov/sites/default/files/2023-11/aa23-320a_scattered_spider.pdf",
+            "date": "2023-11-16",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Scattered Spider",
+            "categories": [
+                "BlackCat",
+                "Ave Maria",
+                "Raccoon",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://www.theregister.com/2023/11/16/blackcat_ransomware_luring_corporate_targets/",
+            "date": "2023-11-16",
+            "organization": "The Register",
+            "author": "Connor Jones",
+            "title": "BlackCat plays with malvertising traps to lure corporate victims",
+            "categories": [
+                "BlackCat"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
+            "date": "2023-11-16",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Scattered Spider",
+            "categories": [
+                "Ave Maria",
+                "BlackCat",
+                "Raccoon",
+                "Vidar"
+            ]
+        },
         {
             "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-007.pdf",
             "date": "2023-09-12",

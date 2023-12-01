@@ -48,31 +48,30 @@ var threatdata = {
             "malware_printable": "DanaBot",
             "malware_alias": null,
             "malware": "win.danabot",
-            "last_update": "2023-07-31 21:02:53",
+            "last_update": "2023-11-16 04:15:08",
             "tags": [
-                "c2",
-                "dropped-by-smokeloader",
-                "2718",
                 "Danabot",
+                "danabot",
                 "DanaBot",
-                "danabot"
+                "ViaPrivateLoader",
+                "c2",
+                "2718",
+                "dropped-by-smokeloader"
             ],
             "ioc": {
-                "domain": [
-                    {
-                        "value": "lugbara.top",
-                        "timestamp": "2023-07-21 08:48:19"
-                    },
-                    {
-                        "value": "naagara.top",
-                        "timestamp": "2023-01-12 13:11:32"
-                    },
-                    {
-                        "value": "koumbasara.top",
-                        "timestamp": "2023-01-05 16:39:34"
-                    }
-                ],
                 "ip:port": [
+                    {
+                        "value": "142.11.242.31:443",
+                        "timestamp": "2023-11-16 04:15:08"
+                    },
+                    {
+                        "value": "173.214.169.17:443",
+                        "timestamp": "2023-10-03 16:04:47"
+                    },
+                    {
+                        "value": "195.123.224.82:443",
+                        "timestamp": "2023-10-03 16:04:47"
+                    },
                     {
                         "value": "213.252.245.80:443",
                         "timestamp": "2023-06-04 11:00:12"
@@ -488,6 +487,20 @@ var threatdata = {
                     {
                         "value": "192.210.198.12:443",
                         "timestamp": "2021-05-05 22:02:53"
+                    }
+                ],
+                "domain": [
+                    {
+                        "value": "lugbara.top",
+                        "timestamp": "2023-07-21 08:48:19"
+                    },
+                    {
+                        "value": "naagara.top",
+                        "timestamp": "2023-01-12 13:11:32"
+                    },
+                    {
+                        "value": "koumbasara.top",
+                        "timestamp": "2023-01-05 16:39:34"
                     }
                 ],
                 "md5_hash": [
@@ -5449,7 +5462,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-07-31 21:02:53",
+    "last_ioc_update": "2023-11-16 04:15:08",
     "file_name": "danabot",
     "analysis": null,
     "articles": [

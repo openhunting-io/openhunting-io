@@ -33,8 +33,8 @@ var threatdata = {
             "malware": "win.colibri",
             "last_update": "2023-02-13 10:45:28",
             "tags": [
-                "MarsWallet",
                 "Colibri",
+                "MarsWallet",
                 "ColibriLoader"
             ],
             "ioc": {

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Gozi ISFB, ISFB, Pandemyia",
     "category": "Malware",
     "type": "Banking trojan, Info stealer, Credential stealer, Botnet",
-    "modified": "2023-07-31",
+    "modified": "2023-10-13",
     "all_data": {
         "tool": "Gozi ISFB",
         "names": [
@@ -63,6 +63,46 @@ var threatdata = {
     "file_name": "gozi_isfb",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://twitter.com/JAMESWT_MHT/status/1712783250446328114?t=iLKXzsZuS1TTa0i9sZFkQA&s=19",
+            "date": "2023-10-13",
+            "organization": "Twitter (@JAMESWT_MHT)",
+            "author": "JamesWT",
+            "title": "Tweets on Wikiloader delivering ISFB",
+            "categories": [
+                "ISFB",
+                "WikiLoader"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-10-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2023",
+            "categories": [
+                "FluBot",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Stealc",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
         {
             "data_url": "https://www.proofpoint.com/us/blog/threat-insight/out-sandbox-wikiloader-digs-sophisticated-evasion",
             "date": "2023-07-31",

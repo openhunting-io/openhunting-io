@@ -69,8 +69,8 @@ var threatdata = {
             "malware": "win.zeus",
             "last_update": "2021-10-07 10:27:34",
             "tags": [
-                "Zeus",
-                "zeus"
+                "zeus",
+                "Zeus"
             ],
             "ioc": {
                 "sha1_hash": [

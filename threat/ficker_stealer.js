@@ -35,9 +35,9 @@ var threatdata = {
             "last_update": "2023-03-21 23:48:21",
             "tags": [
                 "Ficker Stealer",
-                "C2Panel",
                 "Fickerstealer",
-                "FickerStealer"
+                "FickerStealer",
+                "C2Panel"
             ],
             "ioc": {
                 "ip:port": [

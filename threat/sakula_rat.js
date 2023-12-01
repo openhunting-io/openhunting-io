@@ -46,8 +46,28 @@ var threatdata = {
         "last-card-change": "2022-12-30",
         "source": "https://apt.etda.or.th/cgi-bin/listtools.cgi"
     },
-    "ioc_data": [],
-    "last_ioc_update": null,
+    "ioc_data": [
+        {
+            "malware_printable": "Sakula RAT",
+            "malware_alias": "Sakurel",
+            "malware": "win.sakula_rat",
+            "last_update": "2023-11-07 06:33:42",
+            "tags": [],
+            "ioc": {
+                "url": [
+                    {
+                        "value": "http://www.we11point.com:443/view.asp?cookie=%s&type=%d&vid=%d",
+                        "timestamp": "2023-11-07 06:33:42"
+                    },
+                    {
+                        "value": "http://www.we11point.com:443/photo/%s.jpg?vid=%d",
+                        "timestamp": "2023-11-07 06:33:41"
+                    }
+                ]
+            }
+        }
+    ],
+    "last_ioc_update": "2023-11-07 06:33:42",
     "file_name": "sakula_rat",
     "analysis": null,
     "articles": [

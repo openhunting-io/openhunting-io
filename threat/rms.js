@@ -38,13 +38,26 @@ var threatdata = {
             "malware_printable": "RMS",
             "malware_alias": "Gussdoor,Remote Manipulator System,RuRAT",
             "malware": "win.rms",
-            "last_update": "2023-09-25 17:50:12",
+            "last_update": "2023-11-30 09:05:05",
             "tags": [
-                "RemoteManipulator",
-                "RMS"
+                "RMS",
+                "ViriBack",
+                "RemoteManipulator"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "91.191.236.61:49847",
+                        "timestamp": "2023-11-30 09:05:05"
+                    },
+                    {
+                        "value": "90.188.7.217:5655",
+                        "timestamp": "2023-10-17 07:50:30"
+                    },
+                    {
+                        "value": "213.59.132.218:5655",
+                        "timestamp": "2023-10-07 20:00:08"
+                    },
                     {
                         "value": "217.12.206.218:5655",
                         "timestamp": "2023-09-25 17:50:12"
@@ -325,11 +338,17 @@ var threatdata = {
                         "value": "213.252.246.63:5655",
                         "timestamp": "2021-03-13 08:16:21"
                     }
+                ],
+                "domain": [
+                    {
+                        "value": "vip22gr.ru",
+                        "timestamp": "2023-11-05 23:48:15"
+                    }
                 ]
             }
         }
     ],
-    "last_ioc_update": "2023-09-25 17:50:12",
+    "last_ioc_update": "2023-11-30 09:05:05",
     "file_name": "rms",
     "analysis": null,
     "articles": [

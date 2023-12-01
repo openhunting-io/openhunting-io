@@ -39,8 +39,8 @@ var threatdata = {
             "malware": "win.parallax",
             "last_update": "2022-02-06 20:15:37",
             "tags": [
-                "ParallaxRAT",
                 "RAT",
+                "ParallaxRAT",
                 "parallax"
             ],
             "ioc": {

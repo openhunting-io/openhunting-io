@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "RevengeRAT, Revenge RAT, Revenge, Revetrat",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-28",
+    "modified": "2023-10-05",
     "all_data": {
         "tool": "RevengeRAT",
         "names": [
@@ -49,6 +49,16 @@ var threatdata = {
     "file_name": "revengerat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://embee-research.ghost.io/introduction-to-dotnet-configuration-extraction-revengerat/",
+            "date": "2023-10-05",
+            "organization": "Twitter (@embee_research)",
+            "author": "Embee_research",
+            "title": "Introduction to DotNet Configuration Extraction - RevengeRAT",
+            "categories": [
+                "Revenge RAT"
+            ]
+        },
         {
             "data_url": "https://www.proofpoint.com/us/blog/threat-insight/reservations-requested-ta558-targets-hospitality-and-travel",
             "date": "2022-08-18",

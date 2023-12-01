@@ -48,16 +48,16 @@ var threatdata = {
             "malware": "win.hancitor",
             "last_update": "2022-07-04 11:00:16",
             "tags": [
+                "Hancitor",
+                "html",
+                "doc",
+                "exe",
                 "Doc",
-                "C2",
                 "EXE",
                 "malware",
-                "exe",
-                "Hancitor",
                 "HTML",
                 "hancitor",
-                "doc",
-                "html"
+                "C2"
             ],
             "ioc": {
                 "ip:port": [

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Grandoreiro",
     "category": "Malware",
     "type": "Banking trojan, Credential stealer",
-    "modified": "2023-01-13",
+    "modified": "2023-10-23",
     "all_data": {
         "tool": "Grandoreiro",
         "names": [
@@ -42,52 +42,26 @@ var threatdata = {
             "malware_printable": "Grandoreiro",
             "malware_alias": null,
             "malware": "win.grandoreiro",
-            "last_update": "2023-06-19 12:27:15",
+            "last_update": "2023-11-21 08:47:09",
             "tags": [
-                "LatentBot",
                 "ViriBack",
                 "brazil",
-                "BRA",
-                "geo",
                 "banker",
-                "Grandoreiro"
+                "geo",
+                "BRA",
+                "Grandoreiro",
+                "LatentBot"
             ],
             "ioc": {
-                "ip:port": [
-                    {
-                        "value": "15.228.57.146:30722",
-                        "timestamp": "2023-06-19 12:27:15"
-                    },
-                    {
-                        "value": "15.229.47.198:9719",
-                        "timestamp": "2023-06-19 12:25:03"
-                    },
-                    {
-                        "value": "18.231.154.55:56590",
-                        "timestamp": "2023-06-19 12:25:03"
-                    },
-                    {
-                        "value": "15.228.233.242:9719",
-                        "timestamp": "2023-06-19 12:21:37"
-                    },
-                    {
-                        "value": "51.77.193.20:80",
-                        "timestamp": "2023-02-27 23:48:20"
-                    },
-                    {
-                        "value": "185.191.228.227:80",
-                        "timestamp": "2023-01-01 23:48:16"
-                    },
-                    {
-                        "value": "192.95.6.196:80",
-                        "timestamp": "2023-01-01 23:48:16"
-                    },
-                    {
-                        "value": "172.96.137.108:54242",
-                        "timestamp": "2021-04-16 13:29:42"
-                    }
-                ],
                 "domain": [
+                    {
+                        "value": "jghskd9kfx7.brazilsouth.cloudapp.azure.com",
+                        "timestamp": "2023-11-21 08:47:09"
+                    },
+                    {
+                        "value": "remember-and.forgot.her.name",
+                        "timestamp": "2023-11-04 19:32:32"
+                    },
                     {
                         "value": "wiwi.from-wi.com",
                         "timestamp": "2023-06-19 12:26:48"
@@ -481,6 +455,48 @@ var threatdata = {
                         "timestamp": "2021-08-10 18:27:42"
                     }
                 ],
+                "ip:port": [
+                    {
+                        "value": "18.230.74.51:4318",
+                        "timestamp": "2023-11-04 19:32:33"
+                    },
+                    {
+                        "value": "18.230.74.51:4899",
+                        "timestamp": "2023-11-04 19:32:32"
+                    },
+                    {
+                        "value": "15.228.57.146:30722",
+                        "timestamp": "2023-06-19 12:27:15"
+                    },
+                    {
+                        "value": "15.229.47.198:9719",
+                        "timestamp": "2023-06-19 12:25:03"
+                    },
+                    {
+                        "value": "18.231.154.55:56590",
+                        "timestamp": "2023-06-19 12:25:03"
+                    },
+                    {
+                        "value": "15.228.233.242:9719",
+                        "timestamp": "2023-06-19 12:21:37"
+                    },
+                    {
+                        "value": "51.77.193.20:80",
+                        "timestamp": "2023-02-27 23:48:20"
+                    },
+                    {
+                        "value": "185.191.228.227:80",
+                        "timestamp": "2023-01-01 23:48:16"
+                    },
+                    {
+                        "value": "192.95.6.196:80",
+                        "timestamp": "2023-01-01 23:48:16"
+                    },
+                    {
+                        "value": "172.96.137.108:54242",
+                        "timestamp": "2021-04-16 13:29:42"
+                    }
+                ],
                 "url": [
                     {
                         "value": "https://nfeconsumidor.s3.ir-thr-at1.arvanstorage.ir/Nfe-Faturada19042023exp.html",
@@ -520,10 +536,20 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-06-19 12:27:15",
+    "last_ioc_update": "2023-11-21 08:47:09",
     "file_name": "grandoreiro",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.proofpoint.com/us/blog/threat-insight/copacabana-barcelona-cross-continental-threat-brazilian-banking-malware",
+            "date": "2023-10-23",
+            "organization": "Proofpoint",
+            "author": "Jared Peck",
+            "title": "From Copacabana to Barcelona: The Cross-Continental Threat of Brazilian Banking Malware",
+            "categories": [
+                "Grandoreiro"
+            ]
+        },
         {
             "data_url": "https://www.metabaseq.com/grandoreiro-banking-malware-deciphering-the-dga/",
             "date": "2023-01-13",

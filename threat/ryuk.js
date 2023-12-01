@@ -73,9 +73,9 @@ var threatdata = {
             "malware": "win.ryuk",
             "last_update": "2021-04-03 06:08:28",
             "tags": [
-                "Ryuk",
                 "Ransomware",
-                "UNC1878"
+                "UNC1878",
+                "Ryuk"
             ],
             "ioc": {
                 "url": [

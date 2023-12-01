@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "reGeorg",
     "category": "Tools",
     "type": "Backdoor, Tunneling",
-    "modified": "2023-06-14",
+    "modified": "2023-10-26",
     "all_data": {
         "tool": "reGeorg",
         "names": [
@@ -36,6 +36,22 @@ var threatdata = {
     "file_name": "regeorg",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2023-CTI-009.pdf",
+            "date": "2023-10-26",
+            "organization": "ANSSI",
+            "author": "ANSSI",
+            "title": "Attack Campaigns of APT28 since 2021",
+            "categories": [
+                "CredoMap",
+                "DriveOcean",
+                "Empire Downloader",
+                "Graphite",
+                "MimiKatz",
+                "Mocky LNK",
+                "reGeorg"
+            ]
+        },
         {
             "data_url": "https://www.microsoft.com/en-us/security/blog/2023/06/14/cadet-blizzard-emerges-as-a-novel-and-distinct-russian-threat-actor/",
             "date": "2023-06-14",

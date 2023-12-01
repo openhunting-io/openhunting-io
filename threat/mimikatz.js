@@ -44,8 +44,8 @@ var threatdata = {
             "last_update": "2023-08-15 15:58:09",
             "tags": [
                 "Gh0stRAT",
-                "sodinokibi",
-                "Mimikatz"
+                "Mimikatz",
+                "sodinokibi"
             ],
             "ioc": {
                 "sha256_hash": [

@@ -39,14 +39,18 @@ var threatdata = {
             "malware_printable": "SharkBot",
             "malware_alias": null,
             "malware": "apk.sharkbot",
-            "last_update": "2023-08-01 15:31:01",
+            "last_update": "2023-12-01 11:34:41",
             "tags": [
-                "sharkbot",
                 "SharkBot",
+                "sharkbot",
                 "C2"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "67.223.117.90:80",
+                        "timestamp": "2023-12-01 11:34:41"
+                    },
                     {
                         "value": "45.11.180.20:80",
                         "timestamp": "2023-06-28 11:34:19"
@@ -89,7 +93,7 @@ var threatdata = {
                     },
                     {
                         "value": "91.241.93.150:80",
-                        "timestamp": "2023-08-01 15:31:01"
+                        "timestamp": "2023-12-01 11:34:41"
                     },
                     {
                         "value": "45.11.180.240:80",
@@ -97,7 +101,7 @@ var threatdata = {
                     },
                     {
                         "value": "45.11.180.82:80",
-                        "timestamp": "2023-08-01 15:31:00"
+                        "timestamp": "2023-12-01 11:34:41"
                     },
                     {
                         "value": "37.10.71.172:80",
@@ -529,7 +533,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-08-01 15:31:01",
+    "last_ioc_update": "2023-12-01 11:34:41",
     "file_name": "sharkbot",
     "analysis": null,
     "articles": [

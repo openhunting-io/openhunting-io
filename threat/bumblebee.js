@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "BumbleBee",
     "category": "Malware",
     "type": "Backdoor, Downloader, Exfiltration",
-    "modified": "2023-09-07",
+    "modified": "2023-10-04",
     "all_data": {
         "tool": "BumbleBee",
         "names": [
@@ -45,28 +45,52 @@ var threatdata = {
             "malware_printable": "BumbleBee",
             "malware_alias": "COLDTRAIN,SHELLSTING,Shindig",
             "malware": "win.bumblebee",
-            "last_update": "2023-10-01 17:15:06",
+            "last_update": "2023-12-01 17:15:32",
             "tags": [
+                "dll",
                 "eCWmZKkpVE",
-                "0310",
-                "BLACK",
+                "0510",
                 "Bumblebee",
+                "BLACK",
+                "html",
+                "2809",
+                "1105a",
+                "0310",
                 "0610",
                 "25r",
-                "vJsNUnGwEw",
-                "2809",
-                "1309",
                 "BUMBLEBEE",
-                "1105a",
-                "dll",
                 "bumblebee",
-                "zip",
+                "1309",
                 "BumbleBee",
-                "0510",
-                "html"
+                "zip",
+                "vJsNUnGwEw"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "149.28.109.119:443",
+                        "timestamp": "2023-12-01 17:15:32"
+                    },
+                    {
+                        "value": "185.226.116.226:443",
+                        "timestamp": "2023-12-01 17:15:30"
+                    },
+                    {
+                        "value": "164.52.216.101:443",
+                        "timestamp": "2023-12-01 17:15:31"
+                    },
+                    {
+                        "value": "43.155.161.152:443",
+                        "timestamp": "2023-12-01 17:15:32"
+                    },
+                    {
+                        "value": "20.22.18.80:443",
+                        "timestamp": "2023-11-03 17:16:28"
+                    },
+                    {
+                        "value": "95.214.56.243:443",
+                        "timestamp": "2023-11-29 17:15:42"
+                    },
                     {
                         "value": "95.177.215.71:443",
                         "timestamp": "2023-09-22 17:21:30"
@@ -77,7 +101,7 @@ var threatdata = {
                     },
                     {
                         "value": "170.187.142.12:443",
-                        "timestamp": "2023-10-01 17:15:05"
+                        "timestamp": "2023-10-12 17:15:07"
                     },
                     {
                         "value": "164.52.223.235:443",
@@ -85,7 +109,7 @@ var threatdata = {
                     },
                     {
                         "value": "62.4.17.47:443",
-                        "timestamp": "2023-10-01 17:15:05"
+                        "timestamp": "2023-11-24 17:15:56"
                     },
                     {
                         "value": "165.227.8.47:443",
@@ -117,7 +141,7 @@ var threatdata = {
                     },
                     {
                         "value": "8.222.182.83:443",
-                        "timestamp": "2023-10-01 17:15:06"
+                        "timestamp": "2023-11-27 17:15:38"
                     },
                     {
                         "value": "176.111.174.65:443",
@@ -6555,10 +6579,20 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-10-01 17:15:06",
+    "last_ioc_update": "2023-12-01 17:15:32",
     "file_name": "bumblebee",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://twitter.com/Intrinsec/status/1709609529070010447",
+            "date": "2023-10-04",
+            "organization": "Twitter (@Intrisec)",
+            "author": "CTI Intrinsec",
+            "title": "Tweet about new Bumblebee campaign leveraging CVE-2023-38831",
+            "categories": [
+                "BumbleBee"
+            ]
+        },
         {
             "data_url": "https://twitter.com/Intrinsec/status/1699779830294970856",
             "date": "2023-09-07",

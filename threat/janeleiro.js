@@ -37,8 +37,8 @@ var threatdata = {
             "malware": "win.janeleiro",
             "last_update": "2021-07-22 17:22:41",
             "tags": [
-                "brazil",
                 "janeleiro",
+                "brazil",
                 "banker"
             ],
             "ioc": {

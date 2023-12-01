@@ -37,20 +37,36 @@ var threatdata = {
             "malware_printable": "Vjw0rm",
             "malware_alias": null,
             "malware": "win.vjw0rm",
-            "last_update": "2023-09-28 09:30:22",
+            "last_update": "2023-11-24 09:00:34",
             "tags": [
-                "c2",
                 "VjW0rm",
-                "vjworm",
                 "WSHRAT",
-                "Vjw0rm",
-                "Houdini",
-                "N-W0rm",
+                "vjworm",
                 "Nanocore",
+                "N-W0rm",
+                "c2",
+                "Houdini",
+                "Vjw0rm",
                 "vjw0rm"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "91.92.242.192:6390",
+                        "timestamp": "2023-11-24 09:00:34"
+                    },
+                    {
+                        "value": "194.147.140.138:1604",
+                        "timestamp": "2023-10-27 11:20:19"
+                    },
+                    {
+                        "value": "156.96.44.166:3609",
+                        "timestamp": "2023-10-23 12:50:43"
+                    },
+                    {
+                        "value": "81.161.229.224:1604",
+                        "timestamp": "2023-10-03 08:10:27"
+                    },
                     {
                         "value": "81.161.229.224:3609",
                         "timestamp": "2023-09-28 09:30:22"
@@ -456,69 +472,15 @@ var threatdata = {
                         "timestamp": "2021-11-02 21:06:17"
                     }
                 ],
-                "domain": [
-                    {
-                        "value": "sundayjs7250.duckdns.org",
-                        "timestamp": "2023-08-28 13:20:50"
-                    },
-                    {
-                        "value": "ghnas79.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:28"
-                    },
-                    {
-                        "value": "hopdhosjd.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:28"
-                    },
-                    {
-                        "value": "htoday476.duckdns.org",
-                        "timestamp": "2023-09-10 21:57:42"
-                    },
-                    {
-                        "value": "jdfodl45.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:27"
-                    },
-                    {
-                        "value": "legendtime09.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:27"
-                    },
-                    {
-                        "value": "moneykope4.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:27"
-                    },
-                    {
-                        "value": "lopemoney8.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:26"
-                    },
-                    {
-                        "value": "nyanmoney02.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:26"
-                    },
-                    {
-                        "value": "nyantime66.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:26"
-                    },
-                    {
-                        "value": "opmejf.duckdns.org",
-                        "timestamp": "2023-08-01 06:58:25"
-                    },
-                    {
-                        "value": "franmhort.duia.ro",
-                        "timestamp": "2023-09-10 21:57:36"
-                    },
-                    {
-                        "value": "wormtoday.duckdns.org",
-                        "timestamp": "2022-02-07 17:05:15"
-                    },
-                    {
-                        "value": "y6gsh.duckdns.org",
-                        "timestamp": "2022-01-21 18:00:36"
-                    },
-                    {
-                        "value": "8723yuoistzkk.xyz",
-                        "timestamp": "2021-06-06 15:35:56"
-                    }
-                ],
                 "url": [
+                    {
+                        "value": "http://172.245.244.118:7070/Vre",
+                        "timestamp": "2023-10-21 10:35:58"
+                    },
+                    {
+                        "value": "http://jemyy.theworkpc.com:5401/Vre",
+                        "timestamp": "2023-10-09 04:40:25"
+                    },
                     {
                         "value": "http://jsgrouplimited.duckdns.org:9614/Vre",
                         "timestamp": "2023-08-04 21:26:30"
@@ -1484,6 +1446,68 @@ var threatdata = {
                         "timestamp": "2021-03-24 07:52:09"
                     }
                 ],
+                "domain": [
+                    {
+                        "value": "sundayjs7250.duckdns.org",
+                        "timestamp": "2023-08-28 13:20:50"
+                    },
+                    {
+                        "value": "ghnas79.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:28"
+                    },
+                    {
+                        "value": "hopdhosjd.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:28"
+                    },
+                    {
+                        "value": "htoday476.duckdns.org",
+                        "timestamp": "2023-09-10 21:57:42"
+                    },
+                    {
+                        "value": "jdfodl45.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:27"
+                    },
+                    {
+                        "value": "legendtime09.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:27"
+                    },
+                    {
+                        "value": "moneykope4.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:27"
+                    },
+                    {
+                        "value": "lopemoney8.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:26"
+                    },
+                    {
+                        "value": "nyanmoney02.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:26"
+                    },
+                    {
+                        "value": "nyantime66.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:26"
+                    },
+                    {
+                        "value": "opmejf.duckdns.org",
+                        "timestamp": "2023-08-01 06:58:25"
+                    },
+                    {
+                        "value": "franmhort.duia.ro",
+                        "timestamp": "2023-09-10 21:57:36"
+                    },
+                    {
+                        "value": "wormtoday.duckdns.org",
+                        "timestamp": "2022-02-07 17:05:15"
+                    },
+                    {
+                        "value": "y6gsh.duckdns.org",
+                        "timestamp": "2022-01-21 18:00:36"
+                    },
+                    {
+                        "value": "8723yuoistzkk.xyz",
+                        "timestamp": "2021-06-06 15:35:56"
+                    }
+                ],
                 "sha256_hash": [
                     {
                         "value": "9005a39c203e068daa077fe244e2608d36852dbef6f6ce8b28cc5cc015b89b1b",
@@ -1507,7 +1531,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-28 09:30:22",
+    "last_ioc_update": "2023-11-24 09:00:34",
     "file_name": "vjw0rm",
     "analysis": null,
     "articles": [

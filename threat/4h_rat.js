@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "4H RAT, 4h_rat",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2022-12-28",
+    "modified": "2023-09-25",
     "all_data": {
         "tool": "4H RAT",
         "names": [
@@ -37,6 +37,17 @@ var threatdata = {
     "file_name": "4h_rat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://cocomelonc.github.io/malware/2023/09/25/malware-trick-36.html",
+            "date": "2023-09-25",
+            "organization": "cocomelonc",
+            "author": "cocomelonc",
+            "title": "Malware development trick - part 36: Enumerate process modules. Simple C++ example.",
+            "categories": [
+                "4h_rat",
+                "Aria-body"
+            ]
+        },
         {
             "data_url": "https://cocomelonc.github.io/tutorial/2021/09/04/simple-malware-av-evasion.html",
             "date": "2021-09-04",

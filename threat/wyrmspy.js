@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "WyrmSpy",
     "category": "Malware",
     "type": "Reconnaissance, Backdoor, Info stealer, Credential stealer, Exfiltration",
-    "modified": "2023-09-05",
+    "modified": "2023-10-02",
     "all_data": {
         "tool": "WyrmSpy",
         "names": [
@@ -32,6 +32,18 @@ var threatdata = {
     "file_name": "wyrmspy",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack",
+            "date": "2023-10-02",
+            "organization": "ThreatFabric",
+            "author": "ThreatFabric",
+            "title": "LightSpy mAPT Mobile Payment System Attack",
+            "categories": [
+                "DragonEgg",
+                "WyrmSpy",
+                "lightSpy"
+            ]
+        },
         {
             "data_url": "https://www.lookout.com/threat-intelligence/article/wyrmspy-dragonegg-surveillanceware-apt41",
             "date": "2023-07-19",

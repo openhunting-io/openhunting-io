@@ -35,28 +35,46 @@ var threatdata = {
             "malware_printable": "ReverseRAT",
             "malware_alias": null,
             "malware": "win.reverse_rat",
-            "last_update": "2023-02-01 08:36:07",
+            "last_update": "2023-10-16 08:30:32",
             "tags": [
                 "RAT",
                 "ReverseRAT"
             ],
             "ioc": {
+                "domain": [
+                    {
+                        "value": "mazagondoc.com",
+                        "timestamp": "2023-10-16 08:30:32"
+                    }
+                ],
+                "md5_hash": [
+                    {
+                        "value": "1325ff46b5ae1bce48ad444ea3d3f7cb",
+                        "timestamp": "2023-10-16 08:29:50"
+                    },
+                    {
+                        "value": "f0f322dcfe9953991c03746984b923ed",
+                        "timestamp": "2023-10-16 08:29:50"
+                    },
+                    {
+                        "value": "eb7da7abb0254469d4db4f85d8d91c6b",
+                        "timestamp": "2023-10-16 08:29:50"
+                    },
+                    {
+                        "value": "0baa1d0cc20d80fa47eeb764292b9e98",
+                        "timestamp": "2023-02-01 08:35:34"
+                    }
+                ],
                 "ip:port": [
                     {
                         "value": "185.174.102.54:443",
                         "timestamp": "2023-02-01 08:36:07"
                     }
-                ],
-                "md5_hash": [
-                    {
-                        "value": "0baa1d0cc20d80fa47eeb764292b9e98",
-                        "timestamp": "2023-02-01 08:35:34"
-                    }
                 ]
             }
         }
     ],
-    "last_ioc_update": "2023-02-01 08:36:07",
+    "last_ioc_update": "2023-10-16 08:30:32",
     "file_name": "reverserat",
     "analysis": null,
     "articles": [

@@ -49,9 +49,9 @@ var threatdata = {
             "last_update": "2022-12-28 18:02:59",
             "tags": [
                 "blackmatter",
-                "BlackMatter",
+                "pe",
                 "checkin",
-                "pe"
+                "BlackMatter"
             ],
             "ioc": {
                 "md5_hash": [
@@ -112,11 +112,11 @@ var threatdata = {
             "malware": "win.darkside",
             "last_update": "2022-08-01 01:00:56",
             "tags": [
+                "DarkSide",
                 "Ransomware",
-                "fsecurec3",
                 "darkside",
                 "Darkside",
-                "DarkSide"
+                "fsecurec3"
             ],
             "ioc": {
                 "sha256_hash": [

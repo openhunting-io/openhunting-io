@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Lazarus Group, Labyrinth Chollima, Group 77, Hastati Group, Whois Hacking Team, NewRomanic Cyber Army Team, Zinc, Hidden Cobra, Appleworm, APT-C-26, ATK 3, SectorA01, ITG03, TA404, DEV-0139, Guardians of Peace, Gods Apostles, Gods Disciples, UNC577, UNC2970, UNC4034, UNC4736, UNC4899, Diamond Sleet, Jade Sleet, TraderTraitor",
     "category": "APT",
     "type": "-",
-    "modified": "2023-09-06",
+    "modified": "2023-10-10",
     "all_data": {
         "actor": "Lazarus Group, Hidden Cobra, Labyrinth Chollima",
         "names": [
@@ -733,6 +733,16 @@ var threatdata = {
     "file_name": "lazarus_group_hidden_cobra_labyrinth_chollima",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/north-korea-cyber-structure-alignment-2023",
+            "date": "2023-10-10",
+            "organization": "Mandiant",
+            "author": "Michael Barnhart",
+            "title": "Assessed Cyber Structure and Alignments of North Korea in 2023",
+            "categories": [
+                "TraderTraitor"
+            ]
+        },
         {
             "data_url": "https://blogs.jpcert.or.jp/en/2021/01/Lazarus_malware2.html",
             "date": "2021-01-26",

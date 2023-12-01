@@ -97,8 +97,8 @@ var threatdata = {
             "malware": "js.evilnum",
             "last_update": "2022-08-01 20:06:39",
             "tags": [
-                "EVILNUM",
-                "EvilNum"
+                "EvilNum",
+                "EVILNUM"
             ],
             "ioc": {
                 "md5_hash": [

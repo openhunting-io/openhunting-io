@@ -47,8 +47,8 @@ var threatdata = {
             "malware": "elf.wellmail",
             "last_update": "2021-07-13 14:41:10",
             "tags": [
-                "apt29",
                 "golang",
+                "apt29",
                 "wellmail"
             ],
             "ioc": {

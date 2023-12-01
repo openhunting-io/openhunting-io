@@ -32,18 +32,60 @@ var threatdata = {
             "malware_printable": "BlackNET RAT",
             "malware_alias": null,
             "malware": "win.blacknet_rat",
-            "last_update": "2023-09-25 23:48:14",
+            "last_update": "2023-12-01 17:36:04",
             "tags": [
-                "RAT",
-                "panel",
-                "ViriBack",
-                "BlackNet",
                 "blacknet",
+                "censys",
+                "ViriBack",
+                "KAMATERA",
+                "247RACK",
+                "panel",
+                "RAT",
+                "HETZNER-AS",
                 "BlackNET",
-                "rat"
+                "C2",
+                "AS-REG",
+                "GO-DADDY-COM-LLC",
+                "BlackNet",
+                "ORACLE-BMC-31898",
+                "MICROSOFT-CORP-MSN-AS-BLOCK",
+                "rat",
+                "LABIXE"
             ],
             "ioc": {
                 "domain": [
+                    {
+                        "value": "freepalestine.top",
+                        "timestamp": "2023-12-01 17:36:04"
+                    },
+                    {
+                        "value": "ts.bagelswap.site",
+                        "timestamp": "2023-11-05 15:00:09"
+                    },
+                    {
+                        "value": "www.ts.bagelswap.site",
+                        "timestamp": "2023-11-04 17:24:14"
+                    },
+                    {
+                        "value": "www.auth08-verify3.dynamic-dns.net",
+                        "timestamp": "2023-10-17 19:21:02"
+                    },
+                    {
+                        "value": "auth08-verify3.dynamic-dns.net",
+                        "timestamp": "2023-10-17 19:21:01"
+                    },
+                    {
+                        "value": "p.kcchann.com",
+                        "timestamp": "2023-10-17 19:21:00"
+                    },
+                    {
+                        "value": "bot.gsmgit.com",
+                        "timestamp": "2023-10-17 19:21:00"
+                    },
+                    {
+                        "value": "whywishyouweredead.us",
+                        "timestamp": "2023-10-17 19:21:00"
+                    },
                     {
                         "value": "crypromo.com",
                         "timestamp": "2023-09-25 23:48:14"
@@ -61,7 +103,49 @@ var threatdata = {
                         "timestamp": "2021-12-31 06:32:47"
                     }
                 ],
+                "ip:port": [
+                    {
+                        "value": "20.163.158.142:443",
+                        "timestamp": "2023-11-06 18:07:09"
+                    },
+                    {
+                        "value": "20.163.158.142:80",
+                        "timestamp": "2023-11-06 18:07:08"
+                    },
+                    {
+                        "value": "2.57.19.173:443",
+                        "timestamp": "2023-10-17 19:21:02"
+                    },
+                    {
+                        "value": "2.57.19.173:80",
+                        "timestamp": "2023-10-17 19:21:01"
+                    },
+                    {
+                        "value": "103.90.161.122:80",
+                        "timestamp": "2023-10-17 19:20:59"
+                    },
+                    {
+                        "value": "103.90.161.122:443",
+                        "timestamp": "2023-10-17 19:20:59"
+                    },
+                    {
+                        "value": "146.19.191.190:80",
+                        "timestamp": "2023-05-15 23:48:14"
+                    },
+                    {
+                        "value": "80.85.157.98:80",
+                        "timestamp": "2023-01-28 23:48:35"
+                    },
+                    {
+                        "value": "45.133.1.98:80",
+                        "timestamp": "2021-03-25 15:16:44"
+                    }
+                ],
                 "url": [
+                    {
+                        "value": "http://clearmu.top/blacknet/receive.php",
+                        "timestamp": "2023-10-15 09:15:22"
+                    },
                     {
                         "value": "http://f0575824.xsph.ru/blacknet/receive.php",
                         "timestamp": "2023-06-18 07:31:28"
@@ -195,20 +279,6 @@ var threatdata = {
                         "timestamp": "2021-04-16 22:25:25"
                     }
                 ],
-                "ip:port": [
-                    {
-                        "value": "146.19.191.190:80",
-                        "timestamp": "2023-05-15 23:48:14"
-                    },
-                    {
-                        "value": "80.85.157.98:80",
-                        "timestamp": "2023-01-28 23:48:35"
-                    },
-                    {
-                        "value": "45.133.1.98:80",
-                        "timestamp": "2021-03-25 15:16:44"
-                    }
-                ],
                 "md5_hash": [
                     {
                         "value": "a94970a63494de9eecb666dd6a91b43d",
@@ -236,7 +306,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-25 23:48:14",
+    "last_ioc_update": "2023-12-01 17:36:04",
     "file_name": "blacknet_rat",
     "analysis": null,
     "articles": [

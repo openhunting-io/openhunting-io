@@ -35,12 +35,16 @@ var threatdata = {
             "malware_printable": "xmrig",
             "malware_alias": null,
             "malware": "win.xmrig",
-            "last_update": "2023-08-27 20:12:23",
+            "last_update": "2023-11-17 14:55:26",
             "tags": [
                 "POST"
             ],
             "ioc": {
                 "url": [
+                    {
+                        "value": "http://135.181.11.36/api/endpoint.php",
+                        "timestamp": "2023-11-17 14:55:26"
+                    },
                     {
                         "value": "http://77.105.147.158:5001/upload/",
                         "timestamp": "2023-08-27 20:12:23"
@@ -49,7 +53,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-08-27 20:12:23",
+    "last_ioc_update": "2023-11-17 14:55:26",
     "file_name": "xmrig",
     "analysis": null,
     "articles": [],

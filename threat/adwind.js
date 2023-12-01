@@ -89,11 +89,11 @@ var threatdata = {
             "malware": "jar.adwind",
             "last_update": "2023-09-07 05:55:41",
             "tags": [
-                "RAT",
                 "geo",
+                "RAT",
+                "TUR",
                 "adwind",
-                "Adwind",
-                "TUR"
+                "Adwind"
             ],
             "ioc": {
                 "ip:port": [

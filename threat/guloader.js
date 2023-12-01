@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "GuLoader, vbdropper, CloudEyE",
     "category": "Malware",
     "type": "Loader",
-    "modified": "2023-09-06",
+    "modified": "2023-09-29",
     "all_data": {
         "tool": "GuLoader",
         "names": [
@@ -54,6 +54,28 @@ var threatdata = {
     "file_name": "guloader",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.intrinsec.com/wp-content/uploads/2023/09/TLP-CLEAR-20230912-EN-GuLoader-Information-report.pdf",
+            "date": "2023-09-29",
+            "organization": "Intrinsec",
+            "author": "CTI Intrinsec",
+            "title": "Ongoing threats targeting the energy industry",
+            "categories": [
+                "Agent Tesla",
+                "CloudEyE"
+            ]
+        },
+        {
+            "data_url": "https://research.checkpoint.com/2023/unveiling-the-shadows-the-dark-alliance-between-guloader-and-remcos/",
+            "date": "2023-09-19",
+            "organization": "Checkpoint",
+            "author": "Alexey  Bukhteyev",
+            "title": "Unveiling the Shadows: The Dark Alliance between GuLoader and Remcos",
+            "categories": [
+                "CloudEyE",
+                "Remcos"
+            ]
+        },
         {
             "data_url": "https://asec.ahnlab.com/en/55978/",
             "date": "2023-08-10",

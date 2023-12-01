@@ -57,11 +57,29 @@ var threatdata = {
             "malware_printable": "Sality",
             "malware_alias": null,
             "malware": "win.sality",
-            "last_update": "2021-09-26 20:30:29",
+            "last_update": "2023-10-30 05:29:00",
             "tags": [
                 "sality"
             ],
             "ioc": {
+                "url": [
+                    {
+                        "value": "http://89.119.67.154/testo5/",
+                        "timestamp": "2023-10-30 05:29:00"
+                    },
+                    {
+                        "value": "http://kukutrustnet777888.info/",
+                        "timestamp": "2023-10-30 05:29:00"
+                    },
+                    {
+                        "value": "http://klkjwre77638dfqwieuoi888.info/",
+                        "timestamp": "2023-10-30 05:28:59"
+                    },
+                    {
+                        "value": "http://www.klkjwre9fqwieluoi.info/",
+                        "timestamp": "2023-10-30 05:28:59"
+                    }
+                ],
                 "sha256_hash": [
                     {
                         "value": "2eb74de9b3c016d03b96378e59557a6524918745c9c48df2a5a7ea5ca92d375a",
@@ -111,7 +129,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2021-09-26 20:30:29",
+    "last_ioc_update": "2023-10-30 05:29:00",
     "file_name": "sality",
     "analysis": null,
     "articles": [

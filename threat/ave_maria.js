@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Ave Maria, AVE_MARIA, AveMariaRAT, avemaria",
     "category": "Malware",
     "type": "Backdoor, Info stealer",
-    "modified": "2023-09-08",
+    "modified": "2023-11-16",
     "all_data": {
         "tool": "Ave Maria",
         "names": [
@@ -48,2571 +48,185 @@ var threatdata = {
             "malware_printable": "Ave Maria",
             "malware_alias": "AVE_MARIA,AveMariaRAT,Warzone RAT,WarzoneRAT,avemaria",
             "malware": "win.ave_maria",
-            "last_update": "2023-09-30 22:19:58",
+            "last_update": "2023-11-30 19:15:11",
             "tags": [
-                "c2",
-                "historicalandnew",
-                "WarzoneRAT",
-                "AveMariaRAT",
+                "ave maria",
+                "warzone",
+                "AVEMARIA",
+                "AveMaria",
+                "DbatLoader",
+                "RAT",
                 "LLDLoader",
-                "Ave Maria",
-                "avemaria",
-                "malspam",
-                "ModiLoader",
-                "avemariarat",
+                "AveMariaRAT",
                 "AutoIT",
                 "Warzone",
-                "AVEMARIA",
-                "AsyncRat",
-                "warzonerat",
+                "avemariarat",
+                "ModiLoader",
+                "Ave Maria",
                 "Nanocore",
-                "AveMaria",
-                "RAT",
-                "warzone",
+                "malspam",
+                "c2",
+                "AsyncRat",
+                "WarzoneRAT",
+                "historicalandnew",
+                "warzonerat",
                 "WarzoneRat",
-                "ave maria",
-                "DbatLoader"
+                "avemaria"
             ],
             "ioc": {
-                "domain": [
-                    {
-                        "value": "ifedinma.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:33"
-                    },
-                    {
-                        "value": "satusdei.ddns.net",
-                        "timestamp": "2023-09-27 13:54:33"
-                    },
-                    {
-                        "value": "www.warkarwaka.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:33"
-                    },
-                    {
-                        "value": "revive147.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:32"
-                    },
-                    {
-                        "value": "victorycolum.ddns.net",
-                        "timestamp": "2023-09-27 18:38:38"
-                    },
-                    {
-                        "value": "lesbianporn.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:32"
-                    },
-                    {
-                        "value": "macrim.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:32"
-                    },
-                    {
-                        "value": "ijogaa.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:32"
-                    },
-                    {
-                        "value": "just-fax207.home-webserver.de",
-                        "timestamp": "2023-09-27 13:54:31"
-                    },
-                    {
-                        "value": "udooiuyt.dynamic-dns.net",
-                        "timestamp": "2023-09-27 13:54:31"
-                    },
-                    {
-                        "value": "helpme20.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:31"
-                    },
-                    {
-                        "value": "iron66.ddns.net",
-                        "timestamp": "2023-09-27 13:54:31"
-                    },
-                    {
-                        "value": "karmakoin.gotdns.ch",
-                        "timestamp": "2023-09-27 13:54:30"
-                    },
-                    {
-                        "value": "imunstoppable.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:30"
-                    },
-                    {
-                        "value": "boobsy.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:30"
-                    },
-                    {
-                        "value": "www.asnbanks.nl",
-                        "timestamp": "2023-09-27 13:54:30"
-                    },
-                    {
-                        "value": "ozcall.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:30"
-                    },
-                    {
-                        "value": "kinosoft.hopto.org",
-                        "timestamp": "2023-09-27 13:54:30"
-                    },
-                    {
-                        "value": "binancino.hopto.org",
-                        "timestamp": "2023-09-27 13:54:29"
-                    },
-                    {
-                        "value": "hongphilxxx.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:29"
-                    },
-                    {
-                        "value": "workbro.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:29"
-                    },
-                    {
-                        "value": "chrisle79.ddns.net",
-                        "timestamp": "2023-09-27 13:54:29"
-                    },
-                    {
-                        "value": "faith.zapto.org",
-                        "timestamp": "2023-09-27 13:54:29"
-                    },
-                    {
-                        "value": "suitehvd2.home-webserver.de",
-                        "timestamp": "2023-09-27 13:54:29"
-                    },
-                    {
-                        "value": "favour.ddnsgeek.com",
-                        "timestamp": "2023-09-27 13:54:28"
-                    },
-                    {
-                        "value": "chefdnshost.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:28"
-                    },
-                    {
-                        "value": "maxibrainz.warzonedns.com",
-                        "timestamp": "2023-09-27 13:54:28"
-                    },
-                    {
-                        "value": "agent47.ddns.net",
-                        "timestamp": "2023-09-27 13:54:28"
-                    },
-                    {
-                        "value": "telenaxty.ddns.net",
-                        "timestamp": "2023-09-27 18:39:03"
-                    },
-                    {
-                        "value": "billionaire.ddns.net",
-                        "timestamp": "2023-09-27 18:41:35"
-                    },
-                    {
-                        "value": "smilecat.ddns.net",
-                        "timestamp": "2023-09-27 13:54:27"
-                    },
-                    {
-                        "value": "shawgod1.sytes.net",
-                        "timestamp": "2023-09-27 13:54:27"
-                    },
-                    {
-                        "value": "kali123.hopto.org",
-                        "timestamp": "2023-09-27 13:54:27"
-                    },
-                    {
-                        "value": "ihttree.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:27"
-                    },
-                    {
-                        "value": "jaiban.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:26"
-                    },
-                    {
-                        "value": "checkingss.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:26"
-                    },
-                    {
-                        "value": "ijele22.ooguy.com",
-                        "timestamp": "2023-09-27 13:54:25"
-                    },
-                    {
-                        "value": "chardomin.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:25"
-                    },
-                    {
-                        "value": "jackpiaau.ddns.net",
-                        "timestamp": "2023-09-27 18:44:32"
-                    },
-                    {
-                        "value": "bovigar.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:25"
-                    },
-                    {
-                        "value": "danbochie.dynv6.net",
-                        "timestamp": "2023-09-27 13:54:25"
-                    },
-                    {
-                        "value": "warzonecastro.ddns.net",
-                        "timestamp": "2023-09-27 13:54:24"
-                    },
-                    {
-                        "value": "accessability042.ddns.net",
-                        "timestamp": "2023-09-27 13:54:24"
-                    },
-                    {
-                        "value": "wizzydd.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:24"
-                    },
-                    {
-                        "value": "steam9.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:24"
-                    },
-                    {
-                        "value": "lag.ddns.net",
-                        "timestamp": "2023-09-27 13:54:24"
-                    },
-                    {
-                        "value": "greatr.warzonedns.com",
-                        "timestamp": "2023-09-27 13:54:24"
-                    },
-                    {
-                        "value": "u875455.nvpn.to",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "jude77.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "asscum.ddns.net",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "MYWARSWARW.ddnsfree.com",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "just-fax303.home-webserver.de",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "yetye.ddns.net",
-                        "timestamp": "2023-09-27 13:54:22"
-                    },
-                    {
-                        "value": "dns.rusetinz.xyz",
-                        "timestamp": "2023-09-27 13:54:22"
-                    },
-                    {
-                        "value": "byx.z86.ru",
-                        "timestamp": "2023-09-27 13:54:22"
-                    },
-                    {
-                        "value": "elboasin.ddns.net",
-                        "timestamp": "2023-09-27 13:54:22"
-                    },
-                    {
-                        "value": "newwarr.ddns.net",
-                        "timestamp": "2023-09-27 13:54:22"
-                    },
-                    {
-                        "value": "speedballing.warzonedns.com",
-                        "timestamp": "2023-09-27 13:54:21"
-                    },
-                    {
-                        "value": "blessthychild.ddns.net",
-                        "timestamp": "2023-09-27 13:54:21"
-                    },
-                    {
-                        "value": "n.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:54:21"
-                    },
-                    {
-                        "value": "normanaman.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:21"
-                    },
-                    {
-                        "value": "1988life.myq-see.com",
-                        "timestamp": "2023-09-27 13:54:21"
-                    },
-                    {
-                        "value": "asdfwrkhl.warzonedns.com",
-                        "timestamp": "2023-09-27 13:54:21"
-                    },
-                    {
-                        "value": "dhkwufrsfhrgrsw.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "newzone.from-ne.com",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "wrzone-srvr-connector-port.windows-updates.co",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "resultbox0147logs.ddns.net",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "febnew3.ddns.net",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "moseslogs2022.ddns.net",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "arronsterritfamilyplan.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "msteelwar.ddns.net",
-                        "timestamp": "2023-09-27 13:54:19"
-                    },
-                    {
-                        "value": "nojonxn.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:19"
-                    },
-                    {
-                        "value": "minerz.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:19"
-                    },
-                    {
-                        "value": "dompe.awsmppl.com",
-                        "timestamp": "2023-09-27 13:54:19"
-                    },
-                    {
-                        "value": "pastorcc.duckdns.org",
-                        "timestamp": "2023-09-27 18:39:26"
-                    },
-                    {
-                        "value": "publicvm.casacam.net",
-                        "timestamp": "2023-09-27 13:54:18"
-                    },
-                    {
-                        "value": "kk101.ddns.net",
-                        "timestamp": "2023-09-27 13:54:18"
-                    },
-                    {
-                        "value": "urchy.duckdns.org",
-                        "timestamp": "2023-09-27 18:44:18"
-                    },
-                    {
-                        "value": "herold.gotdns.ch",
-                        "timestamp": "2023-09-27 13:54:18"
-                    },
-                    {
-                        "value": "sgzi.e20.ru",
-                        "timestamp": "2023-09-27 13:54:18"
-                    },
-                    {
-                        "value": "bryandatabase.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:17"
-                    },
-                    {
-                        "value": "benztel.hopto.org",
-                        "timestamp": "2023-09-27 18:43:58"
-                    },
-                    {
-                        "value": "mydomain007.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:17"
-                    },
-                    {
-                        "value": "windows2012.theworkpc.com",
-                        "timestamp": "2023-09-27 13:54:17"
-                    },
-                    {
-                        "value": "barr2.ddns.net",
-                        "timestamp": "2023-09-27 13:54:17"
-                    },
-                    {
-                        "value": "mykassa.zapto.org",
-                        "timestamp": "2023-09-27 13:54:17"
-                    },
-                    {
-                        "value": "metroboomiin.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:16"
-                    },
-                    {
-                        "value": "minekroft.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:16"
-                    },
-                    {
-                        "value": "warwin.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:16"
-                    },
-                    {
-                        "value": "32w4tgef4ehyr5t564rthy.from-nc.com",
-                        "timestamp": "2023-09-27 13:54:16"
-                    },
-                    {
-                        "value": "warzonlicen1304.ddns.net",
-                        "timestamp": "2023-09-27 13:54:16"
-                    },
-                    {
-                        "value": "sams1234.ddns.net",
-                        "timestamp": "2023-09-27 18:44:48"
-                    },
-                    {
-                        "value": "dar123.hopto.org",
-                        "timestamp": "2023-09-27 13:54:15"
-                    },
-                    {
-                        "value": "officedesktop004018.webredirect.org",
-                        "timestamp": "2023-09-27 13:54:15"
-                    },
-                    {
-                        "value": "anthonyveeder.com",
-                        "timestamp": "2023-09-27 13:54:15"
-                    },
-                    {
-                        "value": "killabean.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:15"
-                    },
-                    {
-                        "value": "bc.gta5modmenu.net",
-                        "timestamp": "2023-09-27 13:54:15"
-                    },
-                    {
-                        "value": "jeron7.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:14"
-                    },
-                    {
-                        "value": "smartupdater.lignarn.com",
-                        "timestamp": "2023-09-27 13:54:14"
-                    },
-                    {
-                        "value": "cxww2.ddns.net",
-                        "timestamp": "2023-09-27 13:54:14"
-                    },
-                    {
-                        "value": "kkkindo.ddns.net",
-                        "timestamp": "2023-09-27 13:54:14"
-                    },
-                    {
-                        "value": "expressdelivery.info",
-                        "timestamp": "2023-09-27 13:54:14"
-                    },
-                    {
-                        "value": "ch12345.hopto.org",
-                        "timestamp": "2023-09-27 13:54:14"
-                    },
-                    {
-                        "value": "warzzz.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:13"
-                    },
-                    {
-                        "value": "zaki29.ddns.net",
-                        "timestamp": "2023-09-27 13:54:13"
-                    },
-                    {
-                        "value": "pato01.ddns.net",
-                        "timestamp": "2023-09-27 13:54:13"
-                    },
-                    {
-                        "value": "www.sgstgfahdg7126edha.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:13"
-                    },
-                    {
-                        "value": "warzonne.publicvm.com",
-                        "timestamp": "2023-09-27 13:54:13"
-                    },
-                    {
-                        "value": "eiuthwr5436dr.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:12"
-                    },
-                    {
-                        "value": "tokyooffice1.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:12"
-                    },
-                    {
-                        "value": "RetrieverConnection.ga",
-                        "timestamp": "2023-09-27 13:54:12"
-                    },
-                    {
-                        "value": "blessingscomemyway.ddns.net",
-                        "timestamp": "2023-09-27 13:54:12"
-                    },
-                    {
-                        "value": "none0468.ddns.net",
-                        "timestamp": "2023-09-27 13:54:11"
-                    },
-                    {
-                        "value": "acommand.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:11"
-                    },
-                    {
-                        "value": "yulanda.hopto.org",
-                        "timestamp": "2023-09-27 13:54:11"
-                    },
-                    {
-                        "value": "blessnbwz.istmein.de",
-                        "timestamp": "2023-09-27 13:54:11"
-                    },
-                    {
-                        "value": "warzone109983runnerhacker.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:10"
-                    },
-                    {
-                        "value": "eazeeflo.warzonedns.com",
-                        "timestamp": "2023-09-27 13:54:10"
-                    },
-                    {
-                        "value": "konkation.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:10"
-                    },
-                    {
-                        "value": "eccoclean.hopto.org",
-                        "timestamp": "2023-09-27 13:54:10"
-                    },
-                    {
-                        "value": "adebaree.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:10"
-                    },
-                    {
-                        "value": "rajsavindia.hopto.org",
-                        "timestamp": "2023-09-27 13:54:09"
-                    },
-                    {
-                        "value": "balayinkudi.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:09"
-                    },
-                    {
-                        "value": "alliedofficewarz.ddns.net",
-                        "timestamp": "2023-09-27 13:54:09"
-                    },
-                    {
-                        "value": "stoic.gleeze.com",
-                        "timestamp": "2023-09-27 13:54:09"
-                    },
-                    {
-                        "value": "www.turdtaco.xyz",
-                        "timestamp": "2023-09-27 13:54:08"
-                    },
-                    {
-                        "value": "iron19.ddns.net",
-                        "timestamp": "2023-09-27 13:54:08"
-                    },
-                    {
-                        "value": "niggalips.hopto.org",
-                        "timestamp": "2023-09-27 13:54:08"
-                    },
-                    {
-                        "value": "nightmare4666.ddns.net",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "myserversmp.ddns.net",
-                        "timestamp": "2023-09-27 13:54:08"
-                    },
-                    {
-                        "value": "jeffdfehjhsda.ddns.net",
-                        "timestamp": "2023-09-27 13:54:08"
-                    },
-                    {
-                        "value": "untyaru.casacam.net",
-                        "timestamp": "2023-09-27 13:54:08"
-                    },
-                    {
-                        "value": "gbotowaya.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:08"
-                    },
-                    {
-                        "value": "bestme.mywire.org",
-                        "timestamp": "2023-09-27 13:54:07"
-                    },
-                    {
-                        "value": "dominion46.ddns.net",
-                        "timestamp": "2023-09-27 13:54:07"
-                    },
-                    {
-                        "value": "efiigbo9.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:07"
-                    },
-                    {
-                        "value": "darkfox.ddns.net",
-                        "timestamp": "2023-09-27 13:54:07"
-                    },
-                    {
-                        "value": "captainkwado.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:06"
-                    },
-                    {
-                        "value": "obyhost.ddns.net",
-                        "timestamp": "2023-09-27 13:54:06"
-                    },
-                    {
-                        "value": "zone.facebook-shoping.com",
-                        "timestamp": "2023-09-27 13:54:06"
-                    },
-                    {
-                        "value": "light319.warzonedns.com",
-                        "timestamp": "2023-09-27 13:54:06"
-                    },
-                    {
-                        "value": "atifgabuying.ddns.net",
-                        "timestamp": "2023-09-27 13:54:06"
-                    },
-                    {
-                        "value": "rencos121.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:06"
-                    },
-                    {
-                        "value": "chukwuoma.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:06"
-                    },
-                    {
-                        "value": "kingmeth.ddns.net",
-                        "timestamp": "2023-09-27 13:54:05"
-                    },
-                    {
-                        "value": "shallom2022server.sytes.net",
-                        "timestamp": "2023-09-27 13:54:05"
-                    },
-                    {
-                        "value": "bedahogs.100chickens.me",
-                        "timestamp": "2023-09-27 13:54:05"
-                    },
-                    {
-                        "value": "flytin.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:05"
-                    },
-                    {
-                        "value": "mitty1.freemyip.com",
-                        "timestamp": "2023-09-27 13:54:05"
-                    },
-                    {
-                        "value": "aidsweden.serveblog.net",
-                        "timestamp": "2023-09-27 13:54:05"
-                    },
-                    {
-                        "value": "cbngroup.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:05"
-                    },
-                    {
-                        "value": "mcavy.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:04"
-                    },
-                    {
-                        "value": "mosesmanservernew.hopto.org",
-                        "timestamp": "2023-09-27 13:54:04"
-                    },
-                    {
-                        "value": "pradeepprabhu705.ddns.net",
-                        "timestamp": "2023-09-27 13:54:04"
-                    },
-                    {
-                        "value": "1000usd.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:04"
-                    },
-                    {
-                        "value": "blackpyramid.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:04"
-                    },
-                    {
-                        "value": "oficina3030.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:03"
-                    },
-                    {
-                        "value": "obibryme.ddns.net",
-                        "timestamp": "2023-09-27 13:54:03"
-                    },
-                    {
-                        "value": "alexxaan.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:03"
-                    },
-                    {
-                        "value": "cornerload.dynu.net",
-                        "timestamp": "2023-09-27 13:54:03"
-                    },
-                    {
-                        "value": "asiumasium.ddns.net",
-                        "timestamp": "2023-09-27 13:54:03"
-                    },
-                    {
-                        "value": "tonymaris7342.ddns.net",
-                        "timestamp": "2023-09-27 13:54:03"
-                    },
-                    {
-                        "value": "onlythefamily.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:02"
-                    },
-                    {
-                        "value": "afada.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:02"
-                    },
-                    {
-                        "value": "cowboyd.ddns.net",
-                        "timestamp": "2023-09-27 13:54:02"
-                    },
-                    {
-                        "value": "clientss777.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:02"
-                    },
-                    {
-                        "value": "411184r.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:02"
-                    },
-                    {
-                        "value": "phaz6434325328.redirectme.net",
-                        "timestamp": "2023-09-27 13:54:02"
-                    },
-                    {
-                        "value": "warzone33.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:01"
-                    },
-                    {
-                        "value": "avira-antivirus.ydns.eu",
-                        "timestamp": "2023-09-27 13:54:01"
-                    },
-                    {
-                        "value": "mokoolm.gleeze.com",
-                        "timestamp": "2023-09-27 13:54:00"
-                    },
-                    {
-                        "value": "newsfeed.msoftupdate.me",
-                        "timestamp": "2023-09-27 13:54:00"
-                    },
-                    {
-                        "value": "4410.fhpaul.com",
-                        "timestamp": "2023-09-27 13:54:00"
-                    },
-                    {
-                        "value": "ugo123.hopto.org",
-                        "timestamp": "2023-09-27 13:54:00"
-                    },
-                    {
-                        "value": "mohbeebnew.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:00"
-                    },
-                    {
-                        "value": "war.servebeer.com",
-                        "timestamp": "2023-09-27 13:53:59"
-                    },
-                    {
-                        "value": "oklahamaa.ydns.eu",
-                        "timestamp": "2023-09-27 13:53:59"
-                    },
-                    {
-                        "value": "icey.awsmppl.com",
-                        "timestamp": "2023-09-27 13:53:59"
-                    },
-                    {
-                        "value": "windows2023update.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:59"
-                    },
-                    {
-                        "value": "eeddfr.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:59"
-                    },
-                    {
-                        "value": "godhlep.ddns.net",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "helloworld.ddnsking.com",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "eriwauwa.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "samirsana2019.myftp.biz",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "chefdnshost.ddns.net",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "zcv2ngnfg69354253.3utilities.com",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "newpart.cam",
-                        "timestamp": "2023-09-27 13:53:57"
-                    },
-                    {
-                        "value": "hsfdhhoop.ooguy.com",
-                        "timestamp": "2023-09-27 13:53:57"
-                    },
-                    {
-                        "value": "peggy.ddnsgeek.com",
-                        "timestamp": "2023-09-27 13:53:57"
-                    },
-                    {
-                        "value": "4610215325.redirectme.net",
-                        "timestamp": "2023-09-27 13:53:57"
-                    },
-                    {
-                        "value": "privatexpo.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:57"
-                    },
-                    {
-                        "value": "desireblex.ddns.net",
-                        "timestamp": "2023-09-27 18:38:58"
-                    },
-                    {
-                        "value": "warmoni147.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:56"
-                    },
-                    {
-                        "value": "godismyhope.ddns.net",
-                        "timestamp": "2023-09-27 13:53:56"
-                    },
-                    {
-                        "value": "mobibagugu.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:56"
-                    },
-                    {
-                        "value": "wizzycheddah1.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:56"
-                    },
-                    {
-                        "value": "sheb.ddns.net",
-                        "timestamp": "2023-09-27 13:53:56"
-                    },
-                    {
-                        "value": "godwin12.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:56"
-                    },
-                    {
-                        "value": "officeday2022.ddns.net",
-                        "timestamp": "2023-09-27 13:53:56"
-                    },
-                    {
-                        "value": "grounderwarone.rapiddns.ru",
-                        "timestamp": "2023-09-27 13:53:55"
-                    },
-                    {
-                        "value": "warzon.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:55"
-                    },
-                    {
-                        "value": "general.wifi-app.net",
-                        "timestamp": "2023-09-27 13:53:55"
-                    },
-                    {
-                        "value": "cx212x.ddns.net",
-                        "timestamp": "2023-09-27 13:53:55"
-                    },
-                    {
-                        "value": "charlesdnsoh.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:55"
-                    },
-                    {
-                        "value": "8e3d-wzr.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:54"
-                    },
-                    {
-                        "value": "smartconnect.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:54"
-                    },
-                    {
-                        "value": "kurtangle082.publicvm.com",
-                        "timestamp": "2023-09-27 13:53:54"
-                    },
-                    {
-                        "value": "afair.ddns.net",
-                        "timestamp": "2023-09-27 13:53:54"
-                    },
-                    {
-                        "value": "smcxzhu.ddnsking.com",
-                        "timestamp": "2023-09-27 13:53:54"
-                    },
-                    {
-                        "value": "mechenchan.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:53"
-                    },
-                    {
-                        "value": "goodies.dynamic-dns.net",
-                        "timestamp": "2023-09-27 13:53:53"
-                    },
-                    {
-                        "value": "bigissssss.zzux.com",
-                        "timestamp": "2023-09-27 13:53:53"
-                    },
-                    {
-                        "value": "lati10.ddns.net",
-                        "timestamp": "2023-09-27 14:12:58"
-                    },
-                    {
-                        "value": "paiveio123.ddns.com.br",
-                        "timestamp": "2023-09-27 18:39:34"
-                    },
-                    {
-                        "value": "epiclauncher.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:52"
-                    },
-                    {
-                        "value": "thedonaldman77.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:52"
-                    },
-                    {
-                        "value": "blessed232.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:52"
-                    },
-                    {
-                        "value": "blackbenz.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:52"
-                    },
-                    {
-                        "value": "amallasal.com",
-                        "timestamp": "2023-09-27 13:53:52"
-                    },
-                    {
-                        "value": "blackish.hopto.org",
-                        "timestamp": "2023-09-27 13:53:51"
-                    },
-                    {
-                        "value": "vtzjnphtvnpckznxhxpb.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:51"
-                    },
-                    {
-                        "value": "patront.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:51"
-                    },
-                    {
-                        "value": "rikpoman.mywire.org",
-                        "timestamp": "2023-09-27 13:53:51"
-                    },
-                    {
-                        "value": "marknagy44565-36386.portmap.host",
-                        "timestamp": "2023-09-27 13:53:51"
-                    },
-                    {
-                        "value": "ofenja.zapto.org",
-                        "timestamp": "2023-09-27 13:53:51"
-                    },
-                    {
-                        "value": "office101.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:51"
-                    },
-                    {
-                        "value": "www.thatd6whnhdyd56jd.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:50"
-                    },
-                    {
-                        "value": "marionpreet.ddnsfree.com",
-                        "timestamp": "2023-09-27 13:53:50"
-                    },
-                    {
-                        "value": "omc2015asm.ddns.net",
-                        "timestamp": "2023-09-27 13:53:50"
-                    },
-                    {
-                        "value": "dubem2021.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:50"
-                    },
-                    {
-                        "value": "hive01.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:50"
-                    },
-                    {
-                        "value": "wakar.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "u868328.nvpn.so",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "officelogs20.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "4catalyzer.cam",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "iphanyi.ddns.net",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "macsucc.ddns.net",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "graceandfavour.ddns.net",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "warzonez.linkpc.net",
-                        "timestamp": "2023-09-27 13:54:01"
-                    },
-                    {
-                        "value": "emaildayo24.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:48"
-                    },
-                    {
-                        "value": "linelink-linesn.com",
-                        "timestamp": "2023-09-27 13:53:48"
-                    },
-                    {
-                        "value": "items.myq-see.com",
-                        "timestamp": "2023-09-27 13:53:48"
-                    },
-                    {
-                        "value": "cmark.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:48"
-                    },
-                    {
-                        "value": "hotelbr.minhacasa.tv",
-                        "timestamp": "2023-09-27 13:53:47"
-                    },
-                    {
-                        "value": "osas212.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:47"
-                    },
-                    {
-                        "value": "jsbcdns.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:47"
-                    },
-                    {
-                        "value": "nonyserver001.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:47"
-                    },
-                    {
-                        "value": "value747.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:46"
-                    },
-                    {
-                        "value": "masterprof.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:46"
-                    },
-                    {
-                        "value": "osas212.ddns.net",
-                        "timestamp": "2023-09-27 13:53:46"
-                    },
-                    {
-                        "value": "kawasapi.co.in",
-                        "timestamp": "2023-09-27 13:53:46"
-                    },
-                    {
-                        "value": "Securedbag2021-48502.portmap.host",
-                        "timestamp": "2023-09-27 13:53:46"
-                    },
-                    {
-                        "value": "trenchesrelax.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:46"
-                    },
-                    {
-                        "value": "wealthyme.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:45"
-                    },
-                    {
-                        "value": "papiguy1.ddns.net",
-                        "timestamp": "2023-09-27 13:53:45"
-                    },
-                    {
-                        "value": "warzone05b.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:45"
-                    },
-                    {
-                        "value": "vasticbless.hopto.org",
-                        "timestamp": "2023-09-27 18:39:48"
-                    },
-                    {
-                        "value": "georgerandome253.hopto.org",
-                        "timestamp": "2023-09-27 13:53:45"
-                    },
-                    {
-                        "value": "wealth.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:45"
-                    },
-                    {
-                        "value": "macking.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:44"
-                    },
-                    {
-                        "value": "newar21.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:44"
-                    },
-                    {
-                        "value": "safe2202.ddns.net",
-                        "timestamp": "2023-09-27 13:53:48"
-                    },
-                    {
-                        "value": "xpwarzonlicns2.ddns.net",
-                        "timestamp": "2023-09-27 13:53:44"
-                    },
-                    {
-                        "value": "backupson.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:44"
-                    },
-                    {
-                        "value": "bestgrace.mywire.org",
-                        "timestamp": "2023-09-27 13:53:43"
-                    },
-                    {
-                        "value": "54369253290033.sytes.net",
-                        "timestamp": "2023-09-27 13:53:43"
-                    },
-                    {
-                        "value": "fbi101.ddns.net",
-                        "timestamp": "2023-09-27 13:53:43"
-                    },
-                    {
-                        "value": "telegrammylink.ddns.net",
-                        "timestamp": "2023-09-27 13:53:43"
-                    },
-                    {
-                        "value": "onielnfo.ddns.net",
-                        "timestamp": "2023-09-27 13:53:42"
-                    },
-                    {
-                        "value": "gameofthrone.ddns.net",
-                        "timestamp": "2023-09-27 13:53:42"
-                    },
-                    {
-                        "value": "peggyboo.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:42"
-                    },
-                    {
-                        "value": "gratiyupo.ddnsfree.com",
-                        "timestamp": "2023-09-27 13:53:42"
-                    },
-                    {
-                        "value": "lindsaystewart113.hopto.org",
-                        "timestamp": "2023-09-27 13:53:42"
-                    },
-                    {
-                        "value": "mitty.ultraddns.com",
-                        "timestamp": "2023-09-27 13:54:20"
-                    },
-                    {
-                        "value": "sdafsdffssffs.ydns.eu",
-                        "timestamp": "2023-09-27 13:53:41"
-                    },
-                    {
-                        "value": "fukfndru.ddns.net",
-                        "timestamp": "2023-09-27 13:53:41"
-                    },
-                    {
-                        "value": "dephantomz.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:41"
-                    },
-                    {
-                        "value": "m1.swooptopnet.com",
-                        "timestamp": "2023-09-27 13:53:41"
-                    },
-                    {
-                        "value": "ranggamuffin.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:40"
-                    },
-                    {
-                        "value": "subwayhost2022.ddns.net",
-                        "timestamp": "2023-09-27 13:53:40"
-                    },
-                    {
-                        "value": "warzone2020.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:40"
-                    },
-                    {
-                        "value": "ls.pickzznoz.bar",
-                        "timestamp": "2023-09-27 13:53:40"
-                    },
-                    {
-                        "value": "blowblue.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:39"
-                    },
-                    {
-                        "value": "batashoes.ddns.net",
-                        "timestamp": "2023-09-27 14:05:41"
-                    },
-                    {
-                        "value": "ca-fax123.home-webserver.de",
-                        "timestamp": "2023-09-27 13:53:39"
-                    },
-                    {
-                        "value": "ydess.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:39"
-                    },
-                    {
-                        "value": "rentals.insidedns.com",
-                        "timestamp": "2023-09-27 13:53:39"
-                    },
-                    {
-                        "value": "hilipizie.hopto.org",
-                        "timestamp": "2023-09-27 13:53:39"
-                    },
-                    {
-                        "value": "warkarwaka.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:38"
-                    },
-                    {
-                        "value": "evakarpati.ddns.net",
-                        "timestamp": "2023-09-27 13:53:38"
-                    },
-                    {
-                        "value": "ghjklhgteg.strangled.net",
-                        "timestamp": "2023-09-27 13:53:38"
-                    },
-                    {
-                        "value": "Businessdministration.webredirect.org",
-                        "timestamp": "2023-09-27 13:53:38"
-                    },
-                    {
-                        "value": "port15e.zapto.org",
-                        "timestamp": "2023-09-27 13:53:37"
-                    },
-                    {
-                        "value": "mywarswarw.ddns.net",
-                        "timestamp": "2023-09-27 13:53:37"
-                    },
-                    {
-                        "value": "windows453update.ddns.net",
-                        "timestamp": "2023-09-27 13:53:37"
-                    },
-                    {
-                        "value": "0b3c.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:37"
-                    },
-                    {
-                        "value": "noxbot.ddns.net",
-                        "timestamp": "2023-09-27 13:53:36"
-                    },
-                    {
-                        "value": "kw9d0w.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:36"
-                    },
-                    {
-                        "value": "masterhugo231.servecounterstrike.com",
-                        "timestamp": "2023-09-27 13:54:24"
-                    },
-                    {
-                        "value": "jasphet.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:36"
-                    },
-                    {
-                        "value": "eldragon.ooguy.com",
-                        "timestamp": "2023-09-27 18:39:15"
-                    },
-                    {
-                        "value": "kellerwarzone.ddns.net",
-                        "timestamp": "2023-09-27 13:53:36"
-                    },
-                    {
-                        "value": "ogodoswar.ddns.net",
-                        "timestamp": "2023-09-27 13:53:35"
-                    },
-                    {
-                        "value": "baramac.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:35"
-                    },
-                    {
-                        "value": "bluemail-fax.home-webserver.de",
-                        "timestamp": "2023-09-27 13:53:35"
-                    },
-                    {
-                        "value": "sept5th.ddns.net",
-                        "timestamp": "2023-09-27 13:53:49"
-                    },
-                    {
-                        "value": "septembre.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:35"
-                    },
-                    {
-                        "value": "anglekeys.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:34"
-                    },
-                    {
-                        "value": "cx212xc.ddns.net",
-                        "timestamp": "2023-09-27 13:53:34"
-                    },
-                    {
-                        "value": "govcbn.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:34"
-                    },
-                    {
-                        "value": "benson12.ddns.net",
-                        "timestamp": "2023-09-27 13:53:34"
-                    },
-                    {
-                        "value": "tamidem.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:34"
-                    },
-                    {
-                        "value": "kimlee11.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:34"
-                    },
-                    {
-                        "value": "wzxbrian.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:33"
-                    },
-                    {
-                        "value": "promotrans54185.ddns.net",
-                        "timestamp": "2023-09-27 13:53:33"
-                    },
-                    {
-                        "value": "ebase.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:33"
-                    },
-                    {
-                        "value": "oneness.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:33"
-                    },
-                    {
-                        "value": "tresor2020.ddns.net",
-                        "timestamp": "2023-09-27 13:53:33"
-                    },
-                    {
-                        "value": "luckynovember4good.ddns.net",
-                        "timestamp": "2023-09-27 13:53:33"
-                    },
-                    {
-                        "value": "warzonnee.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:32"
-                    },
-                    {
-                        "value": "kingsdoggy12.hopto.org",
-                        "timestamp": "2023-09-27 13:53:32"
-                    },
-                    {
-                        "value": "au.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:32"
-                    },
-                    {
-                        "value": "blaq56491.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:53:32"
-                    },
-                    {
-                        "value": "tef-co-ir.com",
-                        "timestamp": "2023-09-27 13:53:32"
-                    },
-                    {
-                        "value": "story43.ddns.net",
-                        "timestamp": "2023-09-27 13:53:31"
-                    },
-                    {
-                        "value": "chefdnshot.ddns.net",
-                        "timestamp": "2023-09-27 13:54:15"
-                    },
-                    {
-                        "value": "love.pure-luck.xyz",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "delta212.ddns.net",
-                        "timestamp": "2023-09-27 13:53:31"
-                    },
-                    {
-                        "value": "waromo6700.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:31"
-                    },
-                    {
-                        "value": "wealthymanr.kozow.com",
-                        "timestamp": "2023-09-27 13:53:31"
-                    },
-                    {
-                        "value": "hightense.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:30"
-                    },
-                    {
-                        "value": "naval.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:30"
-                    },
-                    {
-                        "value": "xpcehopsford.ddns.net",
-                        "timestamp": "2023-09-27 13:53:30"
-                    },
-                    {
-                        "value": "newnex.3utilities.com",
-                        "timestamp": "2023-09-27 18:41:57"
-                    },
-                    {
-                        "value": "udokakingsley08064153012.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:30"
-                    },
-                    {
-                        "value": "fileservices.ddns.net",
-                        "timestamp": "2023-09-27 13:53:30"
-                    },
-                    {
-                        "value": "provent.ddns.net",
-                        "timestamp": "2023-09-27 13:53:29"
-                    },
-                    {
-                        "value": "babajay.ddns.net",
-                        "timestamp": "2023-09-27 13:53:29"
-                    },
-                    {
-                        "value": "blacice24.hopto.org",
-                        "timestamp": "2023-09-27 13:53:45"
-                    },
-                    {
-                        "value": "absolut7.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:29"
-                    },
-                    {
-                        "value": "worrynot.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:29"
-                    },
-                    {
-                        "value": "hijodelavida.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "seencroundercontroller.webredirect.org",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "tain.rapiddns.ru",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "pussy12.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "casasma.casacam.net",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "anyinew.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "bestsuccess.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "cjlumberslimited.ddns.net",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "osairus.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:27"
-                    },
-                    {
-                        "value": "simpol.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:27"
-                    },
-                    {
-                        "value": "dkhurams.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:27"
-                    },
-                    {
-                        "value": "msteel1759.ddns.net",
-                        "timestamp": "2023-09-27 13:53:27"
-                    },
-                    {
-                        "value": "frdedsgf.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:27"
-                    },
-                    {
-                        "value": "omerlan.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:27"
-                    },
-                    {
-                        "value": "dnmpbczm0963fxtdplc.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:26"
-                    },
-                    {
-                        "value": "feeders.ninqshing.net",
-                        "timestamp": "2023-09-27 13:53:26"
-                    },
-                    {
-                        "value": "dreams2reality.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:52"
-                    },
-                    {
-                        "value": "skyrocket.ooguy.com",
-                        "timestamp": "2023-09-27 13:53:26"
-                    },
-                    {
-                        "value": "danngh.ddns.net",
-                        "timestamp": "2023-09-27 13:53:26"
-                    },
-                    {
-                        "value": "septubandas.sytes.net",
-                        "timestamp": "2023-09-27 13:53:26"
-                    },
-                    {
-                        "value": "hannoyputa.giize.com",
-                        "timestamp": "2023-09-27 13:53:58"
-                    },
-                    {
-                        "value": "ugob.ddns.net",
-                        "timestamp": "2023-09-27 13:53:25"
-                    },
-                    {
-                        "value": "lumberr.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:25"
-                    },
-                    {
-                        "value": "oluwabless.ddns.net",
-                        "timestamp": "2023-09-27 13:53:25"
-                    },
-                    {
-                        "value": "yggtccccchgr.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:25"
-                    },
-                    {
-                        "value": "warzone12.ddns.net",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "instac.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "pstericdd.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "phllka.com",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "windowsupdater64x.theworkpc.com",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "tiger22.ddns.net",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "livinglogs.servehalflife.com",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "wzefi.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:23"
-                    },
-                    {
-                        "value": "makavi.hopto.org",
-                        "timestamp": "2023-09-27 13:53:23"
-                    },
-                    {
-                        "value": "gerogexcsdf234234sdfsvxc341242324.publicvm.com",
-                        "timestamp": "2023-09-27 13:53:23"
-                    },
-                    {
-                        "value": "vladisdns.rapiddns.ru",
-                        "timestamp": "2023-09-27 13:53:23"
-                    },
-                    {
-                        "value": "winvins.3utilities.com",
-                        "timestamp": "2023-09-27 13:53:23"
-                    },
-                    {
-                        "value": "smartconnect1.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:23"
-                    },
-                    {
-                        "value": "pliblu-fax.home-webserver.de",
-                        "timestamp": "2023-09-27 13:53:22"
-                    },
-                    {
-                        "value": "pc.khenz-pc.com",
-                        "timestamp": "2023-09-27 13:53:22"
-                    },
-                    {
-                        "value": "meduska.ddns.net",
-                        "timestamp": "2023-09-27 13:53:22"
-                    },
-                    {
-                        "value": "apponfly.mywire.org",
-                        "timestamp": "2023-09-27 13:53:22"
-                    },
-                    {
-                        "value": "grotomniponmyte.sytes.net",
-                        "timestamp": "2023-09-27 13:53:24"
-                    },
-                    {
-                        "value": "war101.ddns.net",
-                        "timestamp": "2023-09-27 13:53:22"
-                    },
-                    {
-                        "value": "xilogrid.info",
-                        "timestamp": "2023-09-27 13:53:21"
-                    },
-                    {
-                        "value": "remotes1338.hopto.org",
-                        "timestamp": "2023-09-27 13:53:21"
-                    },
-                    {
-                        "value": "thankme.ddns.net",
-                        "timestamp": "2023-09-27 13:53:21"
-                    },
-                    {
-                        "value": "kempes.ddns.net",
-                        "timestamp": "2023-09-27 13:53:21"
-                    },
-                    {
-                        "value": "caebd.ddns.net",
-                        "timestamp": "2023-09-27 13:53:21"
-                    },
-                    {
-                        "value": "davewarzone22.ddns.net",
-                        "timestamp": "2023-09-27 13:53:21"
-                    },
-                    {
-                        "value": "amaraciiiiiiii.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:20"
-                    },
-                    {
-                        "value": "mondaynew22.3utilities.com",
-                        "timestamp": "2023-09-27 18:44:28"
-                    },
-                    {
-                        "value": "iphanyi.entrydns.org",
-                        "timestamp": "2023-09-27 13:53:20"
-                    },
-                    {
-                        "value": "ccnewcdt.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:20"
-                    },
-                    {
-                        "value": "genasispony.hopto.org",
-                        "timestamp": "2023-09-27 13:53:20"
-                    },
-                    {
-                        "value": "wazminister.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:20"
-                    },
-                    {
-                        "value": "chinagov.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:20"
-                    },
-                    {
-                        "value": "4kr4m0.ddns.net",
-                        "timestamp": "2023-09-27 13:53:19"
-                    },
-                    {
-                        "value": "unload.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:19"
-                    },
-                    {
-                        "value": "ngray.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:19"
-                    },
-                    {
-                        "value": "bar2020.ddns.net",
-                        "timestamp": "2023-09-27 13:53:19"
-                    },
-                    {
-                        "value": "williamz20.ddns.net",
-                        "timestamp": "2023-09-27 13:53:19"
-                    },
-                    {
-                        "value": "savagesquad.ooguy.com",
-                        "timestamp": "2023-09-27 13:53:18"
-                    },
-                    {
-                        "value": "ugblackblessing2022.ddns.net",
-                        "timestamp": "2023-09-27 13:53:18"
-                    },
-                    {
-                        "value": "jabsgu.kozow.com",
-                        "timestamp": "2023-09-27 13:54:27"
-                    },
-                    {
-                        "value": "hamzzaogolozar77.toythieves.com",
-                        "timestamp": "2023-09-27 13:53:18"
-                    },
-                    {
-                        "value": "dfdgdsasedw.ydns.eu",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "smsv4.ufcfan.org",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "warzone121.hopto.org",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "opaqueslots.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "hannijelrt.myddns.me",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "21421412515215.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "cfr.eur-import.com",
-                        "timestamp": "2023-09-27 13:53:16"
-                    },
-                    {
-                        "value": "logcollector.xyz",
-                        "timestamp": "2023-09-27 13:53:16"
-                    },
-                    {
-                        "value": "iphanyi.mywire.org",
-                        "timestamp": "2023-09-27 13:53:16"
-                    },
-                    {
-                        "value": "medicosta.linkpc.net",
-                        "timestamp": "2023-09-27 13:53:16"
-                    },
-                    {
-                        "value": "ekuroekuro.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:16"
-                    },
-                    {
-                        "value": "global22.ddns.net",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "mercenarywarzone.ddns.net",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "mamased.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "shawcn1.sytes.net",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "wizzyfdgod.gotdns.com",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "ast3rhost.ddns.net",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "kazt.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "ugoguy01.ddns.net",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "iron65.ddns.net",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "olodofries88.ddns.net",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "papi1.ddns.net",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "goodyear21.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "guykj.ddns.net",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "dfgedee.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "mobibatubobo.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:13"
-                    },
-                    {
-                        "value": "remote.isubi.sbs",
-                        "timestamp": "2023-09-27 13:53:13"
-                    },
-                    {
-                        "value": "baotao.3utilities.com",
-                        "timestamp": "2023-09-27 13:53:13"
-                    },
-                    {
-                        "value": "samguys2.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:13"
-                    },
-                    {
-                        "value": "donstan.ddns.net",
-                        "timestamp": "2023-09-27 13:53:13"
-                    },
-                    {
-                        "value": "blackroots7.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:13"
-                    },
-                    {
-                        "value": "luckyfavour2022.ddns.net",
-                        "timestamp": "2023-09-27 13:53:12"
-                    },
-                    {
-                        "value": "zingx1.ddns.net",
-                        "timestamp": "2023-09-27 13:53:12"
-                    },
-                    {
-                        "value": "donafriend.ddns.net",
-                        "timestamp": "2023-09-27 13:53:12"
-                    },
-                    {
-                        "value": "healings.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:12"
-                    },
-                    {
-                        "value": "wz-patient001.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:12"
-                    },
-                    {
-                        "value": "uhie2021.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:12"
-                    },
-                    {
-                        "value": "KTS666.PUBLICVM.COM",
-                        "timestamp": "2023-09-27 13:53:11"
-                    },
-                    {
-                        "value": "esureforme100.myddns.rocks",
-                        "timestamp": "2023-09-27 13:54:27"
-                    },
-                    {
-                        "value": "crossedward26.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:11"
-                    },
-                    {
-                        "value": "designed-nodes.at.ply.gg",
-                        "timestamp": "2023-09-27 13:53:11"
-                    },
-                    {
-                        "value": "maxcoopart80.ddns.net",
-                        "timestamp": "2023-09-27 13:53:11"
-                    },
-                    {
-                        "value": "xls.medicelcoolers.cn",
-                        "timestamp": "2023-09-27 13:53:11"
-                    },
-                    {
-                        "value": "waz.no-ip.ca",
-                        "timestamp": "2023-09-27 13:53:10"
-                    },
-                    {
-                        "value": "jamesxx.dynu.net",
-                        "timestamp": "2023-09-27 13:53:10"
-                    },
-                    {
-                        "value": "mit.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:10"
-                    },
-                    {
-                        "value": "newvic.myvnc.com",
-                        "timestamp": "2023-09-27 13:53:10"
-                    },
-                    {
-                        "value": "windowsupdate.ligrnan.com",
-                        "timestamp": "2023-09-27 13:53:10"
-                    },
-                    {
-                        "value": "jeffreyrobertsrnama.ddns.net",
-                        "timestamp": "2023-09-27 13:53:09"
-                    },
-                    {
-                        "value": "smila.ddns.net",
-                        "timestamp": "2023-09-27 13:53:09"
-                    },
-                    {
-                        "value": "tawk.duckdns.org",
-                        "timestamp": "2023-09-27 18:41:39"
-                    },
-                    {
-                        "value": "buzornn.ddns.net",
-                        "timestamp": "2023-09-27 13:53:16"
-                    },
-                    {
-                        "value": "putmein.zapto.org",
-                        "timestamp": "2023-09-27 13:53:08"
-                    },
-                    {
-                        "value": "gpent.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:30"
-                    },
-                    {
-                        "value": "fagbishop.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:08"
-                    },
-                    {
-                        "value": "gecisdiktatura.chickenkiller.com",
-                        "timestamp": "2023-09-27 13:53:07"
-                    },
-                    {
-                        "value": "8830.sygcarpets.com",
-                        "timestamp": "2023-09-27 13:53:07"
-                    },
-                    {
-                        "value": "ankarab.ddns.net",
-                        "timestamp": "2023-09-27 13:53:07"
-                    },
-                    {
-                        "value": "princsa.ddns.net",
-                        "timestamp": "2023-09-27 13:53:07"
-                    },
-                    {
-                        "value": "vodahelp.myvnc.com",
-                        "timestamp": "2023-09-27 13:53:07"
-                    },
-                    {
-                        "value": "speedfoxx1.hopto.org",
-                        "timestamp": "2023-09-27 13:53:07"
-                    },
-                    {
-                        "value": "crow1234.ddns.net",
-                        "timestamp": "2023-09-27 13:53:06"
-                    },
-                    {
-                        "value": "rasiones.ddns.net",
-                        "timestamp": "2023-09-27 13:53:06"
-                    },
-                    {
-                        "value": "rex1010.duckdns.org",
-                        "timestamp": "2023-09-27 18:44:14"
-                    },
-                    {
-                        "value": "tain77.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:06"
-                    },
-                    {
-                        "value": "renajazi.linkpc.net",
-                        "timestamp": "2023-09-27 13:53:06"
-                    },
-                    {
-                        "value": "mutaalofomaha.com",
-                        "timestamp": "2023-09-27 13:54:22"
-                    },
-                    {
-                        "value": "kkemopes.ddns.net",
-                        "timestamp": "2023-09-27 13:53:05"
-                    },
-                    {
-                        "value": "wapt.myhome-server.de",
-                        "timestamp": "2023-09-27 13:54:10"
-                    },
-                    {
-                        "value": "bugsy.ddnsgeek.com",
-                        "timestamp": "2023-09-27 13:53:05"
-                    },
-                    {
-                        "value": "thankme1.ddns.net",
-                        "timestamp": "2023-09-27 13:53:04"
-                    },
-                    {
-                        "value": "sapsurro.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:04"
-                    },
-                    {
-                        "value": "danseeeee.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:04"
-                    },
-                    {
-                        "value": "vieir.warzonedns.com",
-                        "timestamp": "2023-09-27 13:53:04"
-                    },
-                    {
-                        "value": "obilafia.giize.com",
-                        "timestamp": "2023-09-27 13:53:03"
-                    },
-                    {
-                        "value": "jeanellasimonsxxx.ddns.net",
-                        "timestamp": "2023-09-27 13:53:03"
-                    },
-                    {
-                        "value": "warz.viewdns.net",
-                        "timestamp": "2023-09-27 13:53:03"
-                    },
-                    {
-                        "value": "online-3450.home-webserver.de",
-                        "timestamp": "2023-09-27 13:53:03"
-                    },
-                    {
-                        "value": "gds1733.my.to",
-                        "timestamp": "2023-09-27 13:53:39"
-                    },
-                    {
-                        "value": "favormelord.ddns.net",
-                        "timestamp": "2023-09-27 13:53:02"
-                    },
-                    {
-                        "value": "mailporty.ddns.net",
-                        "timestamp": "2023-09-27 13:53:02"
-                    },
-                    {
-                        "value": "ontmintuejio.sytes.net",
-                        "timestamp": "2023-09-27 13:53:02"
-                    },
-                    {
-                        "value": "willia2.ddns.net",
-                        "timestamp": "2023-09-27 13:53:44"
-                    },
-                    {
-                        "value": "trendyfela.myftp.biz",
-                        "timestamp": "2023-09-27 13:53:02"
-                    },
-                    {
-                        "value": "andronmatskiv20.sytes.net",
-                        "timestamp": "2023-09-27 13:53:01"
-                    },
-                    {
-                        "value": "genasispony.publicvm.com",
-                        "timestamp": "2023-09-27 13:53:01"
-                    },
-                    {
-                        "value": "taker1234.hopto.org",
-                        "timestamp": "2023-09-27 13:53:01"
-                    },
-                    {
-                        "value": "evet.mywire.org",
-                        "timestamp": "2023-09-27 13:53:00"
-                    },
-                    {
-                        "value": "mylab.wshrt.sbs",
-                        "timestamp": "2023-09-27 13:53:00"
-                    },
-                    {
-                        "value": "zoppw.mywire.org",
-                        "timestamp": "2023-09-27 13:53:00"
-                    },
-                    {
-                        "value": "6620.jianhong356.com",
-                        "timestamp": "2023-09-27 13:53:00"
-                    },
-                    {
-                        "value": "spamworzon.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:00"
-                    },
-                    {
-                        "value": "nonsomawardns.ddns.net",
-                        "timestamp": "2023-09-27 13:52:59"
-                    },
-                    {
-                        "value": "warzoneburky.ddns.net",
-                        "timestamp": "2023-09-27 18:42:33"
-                    },
-                    {
-                        "value": "boomooil.com",
-                        "timestamp": "2023-09-27 13:52:59"
-                    },
-                    {
-                        "value": "akubig1.ath.cx",
-                        "timestamp": "2023-09-27 13:54:22"
-                    },
-                    {
-                        "value": "1140.ninqshing.net",
-                        "timestamp": "2023-09-27 13:52:59"
-                    },
-                    {
-                        "value": "cachepallioniwarznpa.icu",
-                        "timestamp": "2023-09-27 13:52:58"
-                    },
-                    {
-                        "value": "group.loseyourip.com",
-                        "timestamp": "2023-09-27 13:52:58"
-                    },
-                    {
-                        "value": "2x5v.2p.fm",
-                        "timestamp": "2023-09-27 13:52:58"
-                    },
-                    {
-                        "value": "badnulls.warzonedns.com",
-                        "timestamp": "2023-09-27 13:52:58"
-                    },
-                    {
-                        "value": "esserc.ooguy.com",
-                        "timestamp": "2023-09-27 13:52:58"
-                    },
-                    {
-                        "value": "sanchuza.warzonedns.com",
-                        "timestamp": "2023-09-27 13:52:57"
-                    },
-                    {
-                        "value": "kaymt.ddns.net",
-                        "timestamp": "2023-09-27 13:52:57"
-                    },
-                    {
-                        "value": "glorylnter.hopto.org",
-                        "timestamp": "2023-09-27 13:52:57"
-                    },
-                    {
-                        "value": "hjjhjkk.ydns.eu",
-                        "timestamp": "2023-09-27 13:52:57"
-                    },
-                    {
-                        "value": "miner.fckinpwned.cn",
-                        "timestamp": "2023-09-27 13:52:57"
-                    },
-                    {
-                        "value": "myblessingsfor2022.ddns.net",
-                        "timestamp": "2023-09-27 13:52:56"
-                    },
-                    {
-                        "value": "netw.infiinite.com",
-                        "timestamp": "2023-09-27 13:52:56"
-                    },
-                    {
-                        "value": "nchijindu2.hopto.org",
-                        "timestamp": "2023-09-27 13:52:56"
-                    },
-                    {
-                        "value": "nyambe.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:56"
-                    },
-                    {
-                        "value": "windows.wshrt.sbs",
-                        "timestamp": "2023-09-27 13:52:56"
-                    },
-                    {
-                        "value": "toomuchego.ydns.eu",
-                        "timestamp": "2023-09-27 13:52:55"
-                    },
-                    {
-                        "value": "blessing.maximos.quest",
-                        "timestamp": "2023-09-27 13:54:27"
-                    },
-                    {
-                        "value": "update.aquaholic.dev",
-                        "timestamp": "2023-09-27 18:41:04"
-                    },
-                    {
-                        "value": "rootsec.linkpc.net",
-                        "timestamp": "2023-09-27 13:52:55"
-                    },
-                    {
-                        "value": "xpwarzonlin2.ddns.net",
-                        "timestamp": "2023-09-27 13:52:54"
-                    },
-                    {
-                        "value": "crossllc.ddns.net",
-                        "timestamp": "2023-09-27 13:52:54"
-                    },
-                    {
-                        "value": "jiaxin.ddns.net",
-                        "timestamp": "2023-09-27 13:53:03"
-                    },
-                    {
-                        "value": "morggy11.ooguy.com",
-                        "timestamp": "2023-09-27 13:52:56"
-                    },
-                    {
-                        "value": "wtwrrtxhssbqsm-fk.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:54"
-                    },
-                    {
-                        "value": "blasterblast.warzonedns.com",
-                        "timestamp": "2023-09-27 13:52:54"
-                    },
-                    {
-                        "value": "millionways.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:53"
-                    },
-                    {
-                        "value": "maulo.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:53"
-                    },
-                    {
-                        "value": "warnonmobina.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:53"
-                    },
-                    {
-                        "value": "p2.is-by.us",
-                        "timestamp": "2023-09-27 13:52:53"
-                    },
-                    {
-                        "value": "subwayblessings2022.ddns.net",
-                        "timestamp": "2023-09-27 13:52:53"
-                    },
-                    {
-                        "value": "panchak.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:53"
-                    },
-                    {
-                        "value": "hustle.treatwellshome.xyz",
-                        "timestamp": "2023-09-27 13:52:52"
-                    },
-                    {
-                        "value": "wz.servehttp.com",
-                        "timestamp": "2023-09-27 13:52:52"
-                    },
-                    {
-                        "value": "2c04mm.hopto.org",
-                        "timestamp": "2023-09-27 13:52:52"
-                    },
-                    {
-                        "value": "micasamiwedding.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:52"
-                    },
-                    {
-                        "value": "bigleaks3.ddns.net",
-                        "timestamp": "2023-09-27 13:52:52"
-                    },
-                    {
-                        "value": "xmowa.ddns.net",
-                        "timestamp": "2023-09-27 13:53:53"
-                    },
-                    {
-                        "value": "year2021best.mine.nu",
-                        "timestamp": "2023-09-27 13:52:51"
-                    },
-                    {
-                        "value": "santzo.warzonedns.com",
-                        "timestamp": "2023-09-27 13:52:51"
-                    },
-                    {
-                        "value": "richiealvin2021.ddns.net",
-                        "timestamp": "2023-09-27 13:52:51"
-                    },
-                    {
-                        "value": "war3785host.ddns.net",
-                        "timestamp": "2023-09-27 13:52:51"
-                    },
-                    {
-                        "value": "remote.msoftupdate.me",
-                        "timestamp": "2023-09-27 13:53:16"
-                    },
-                    {
-                        "value": "msdos.treatwellshome.xyz",
-                        "timestamp": "2023-09-27 13:52:51"
-                    },
-                    {
-                        "value": "avarian717.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:50"
-                    },
-                    {
-                        "value": "sirbanty.ddnsgeek.com",
-                        "timestamp": "2023-09-27 13:52:50"
-                    },
-                    {
-                        "value": "dezember22.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:50"
-                    },
-                    {
-                        "value": "pubg.ddns.net",
-                        "timestamp": "2023-09-27 14:09:26"
-                    },
-                    {
-                        "value": "xxxanonymoussom.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:50"
-                    },
-                    {
-                        "value": "subwaynovember4good.ddns.net",
-                        "timestamp": "2023-09-27 13:52:50"
-                    },
-                    {
-                        "value": "divy.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:52:50"
-                    },
-                    {
-                        "value": "amospete26.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:49"
-                    },
-                    {
-                        "value": "jevron.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:49"
-                    },
-                    {
-                        "value": "nestssow.ddns.net",
-                        "timestamp": "2023-09-27 13:52:49"
-                    },
-                    {
-                        "value": "kezlkelz.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:49"
-                    },
-                    {
-                        "value": "spicydojo.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:49"
-                    },
-                    {
-                        "value": "vigo147.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:48"
-                    },
-                    {
-                        "value": "santa.hopto.org",
-                        "timestamp": "2023-09-27 13:52:48"
-                    },
-                    {
-                        "value": "goldfiner.dyn-ip24.de",
-                        "timestamp": "2023-09-27 18:39:53"
-                    },
-                    {
-                        "value": "jenniferhong.publicvm.com",
-                        "timestamp": "2023-09-27 13:52:48"
-                    },
-                    {
-                        "value": "apiv1.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:48"
-                    },
-                    {
-                        "value": "brf1.secondaryservicelog.cloudns.cx",
-                        "timestamp": "2023-09-27 13:52:48"
-                    },
-                    {
-                        "value": "mubbibun.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:15"
-                    },
-                    {
-                        "value": "aeasc541ac56sa65c.hopto.org",
-                        "timestamp": "2023-09-27 13:52:47"
-                    },
-                    {
-                        "value": "uomz1.ddns.net",
-                        "timestamp": "2023-09-27 13:52:47"
-                    },
-                    {
-                        "value": "soft.maximos.quest",
-                        "timestamp": "2023-09-27 13:54:09"
-                    },
-                    {
-                        "value": "mvp.shzhouheng.com",
-                        "timestamp": "2023-09-27 13:52:47"
-                    },
-                    {
-                        "value": "maine007.hopto.org",
-                        "timestamp": "2023-09-27 13:52:47"
-                    },
-                    {
-                        "value": "weurtdgfjs.rapiddns.ru",
-                        "timestamp": "2023-09-27 13:52:47"
-                    },
-                    {
-                        "value": "nasas.dnsupdate.info",
-                        "timestamp": "2023-09-27 13:52:47"
-                    },
-                    {
-                        "value": "rodasiter.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:46"
-                    },
-                    {
-                        "value": "chezam.giize.com",
-                        "timestamp": "2023-09-27 13:52:46"
-                    },
-                    {
-                        "value": "ojo123.ddns.net",
-                        "timestamp": "2023-09-27 13:52:46"
-                    },
-                    {
-                        "value": "guiller.ddns.net",
-                        "timestamp": "2023-09-27 13:52:46"
-                    },
-                    {
-                        "value": "syncronize.3utilities.com",
-                        "timestamp": "2023-09-27 13:52:46"
-                    },
-                    {
-                        "value": "grekris.freeddns.org",
-                        "timestamp": "2023-09-27 13:52:45"
-                    },
-                    {
-                        "value": "MYWARSWAR.ddnsfree.com",
-                        "timestamp": "2023-09-27 13:52:45"
-                    },
-                    {
-                        "value": "warsone.duckdns.org",
-                        "timestamp": "2023-09-27 18:40:45"
-                    },
-                    {
-                        "value": "moneybank.ddns.net",
-                        "timestamp": "2023-09-27 13:54:01"
-                    },
-                    {
-                        "value": "juner234.ddns.net",
-                        "timestamp": "2023-09-27 13:52:58"
-                    },
-                    {
-                        "value": "hussanmohammed.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:44"
-                    },
-                    {
-                        "value": "warvm.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:44"
-                    },
-                    {
-                        "value": "steam007.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:44"
-                    },
-                    {
-                        "value": "forcema002.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:44"
-                    },
-                    {
-                        "value": "meeti.hopto.org",
-                        "timestamp": "2023-09-27 18:42:56"
-                    },
-                    {
-                        "value": "adaisreal.ddns.net",
-                        "timestamp": "2023-09-27 13:53:50"
-                    },
-                    {
-                        "value": "testing1212.ddns.net",
-                        "timestamp": "2023-09-27 13:53:07"
-                    },
-                    {
-                        "value": "backup1212.ddns.net",
-                        "timestamp": "2023-09-27 13:53:41"
-                    },
-                    {
-                        "value": "bluemoon7.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:55"
-                    },
-                    {
-                        "value": "mcmac.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "jayurbf.gleeze.com",
-                        "timestamp": "2023-09-27 13:53:17"
-                    },
-                    {
-                        "value": "windnsch.freeddns.org",
-                        "timestamp": "2023-09-27 13:53:57"
-                    },
-                    {
-                        "value": "kashbilly.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:59"
-                    },
-                    {
-                        "value": "warzone.ddns.net",
-                        "timestamp": "2023-09-27 13:54:23"
-                    },
-                    {
-                        "value": "guest.maximos.quest",
-                        "timestamp": "2023-09-27 13:53:14"
-                    },
-                    {
-                        "value": "mynewserver2022.ddns.net",
-                        "timestamp": "2022-06-30 15:02:58"
-                    },
-                    {
-                        "value": "cusomtamon.freeddns.org",
-                        "timestamp": "2023-09-27 13:54:29"
-                    },
-                    {
-                        "value": "banta.ddns.net",
-                        "timestamp": "2023-09-27 13:54:14"
-                    },
-                    {
-                        "value": "mgc2090.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:58"
-                    },
-                    {
-                        "value": "zoneproess.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:26"
-                    },
-                    {
-                        "value": "divine2022.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:53"
-                    },
-                    {
-                        "value": "iphy.strangled.net",
-                        "timestamp": "2023-09-27 13:54:19"
-                    },
-                    {
-                        "value": "pentester01.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:32"
-                    },
-                    {
-                        "value": "godblessking.ddns.net",
-                        "timestamp": "2023-09-27 13:53:55"
-                    },
-                    {
-                        "value": "nweke.ddnsgeek.com",
-                        "timestamp": "2023-09-27 13:54:26"
-                    },
-                    {
-                        "value": "grace2nation.ddns.net",
-                        "timestamp": "2023-09-27 13:53:33"
-                    },
-                    {
-                        "value": "bakuzamokala.duckdns.org",
-                        "timestamp": "2022-04-04 20:55:14"
-                    },
-                    {
-                        "value": "hotboy01.ddns.net",
-                        "timestamp": "2023-09-27 13:53:43"
-                    },
-                    {
-                        "value": "verifysec0.myftp.biz",
-                        "timestamp": "2023-09-27 13:52:52"
-                    },
-                    {
-                        "value": "hafiznor336.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:29"
-                    },
-                    {
-                        "value": "iphanyi.chickenkiller.com",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "iphanyi.webredirect.org",
-                        "timestamp": "2023-09-27 13:53:52"
-                    },
-                    {
-                        "value": "lefteriskkokkiskikinew.ydns.eu",
-                        "timestamp": "2022-01-19 01:59:57"
-                    },
-                    {
-                        "value": "buy.teamviewsoft.com",
-                        "timestamp": "2023-09-27 13:53:45"
-                    },
-                    {
-                        "value": "blaq.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:53:41"
-                    },
-                    {
-                        "value": "nan.ydns.eu",
-                        "timestamp": "2023-09-27 13:53:05"
-                    },
-                    {
-                        "value": "diamante.mywire.org",
-                        "timestamp": "2022-01-19 01:59:56"
-                    },
-                    {
-                        "value": "lionleee.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:54:26"
-                    },
-                    {
-                        "value": "rtyui.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:53:37"
-                    },
-                    {
-                        "value": "lionlee.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:52:52"
-                    },
-                    {
-                        "value": "latua.nsupdate.info",
-                        "timestamp": "2023-09-27 13:53:27"
-                    },
-                    {
-                        "value": "fghj.nerdpol.ovh",
-                        "timestamp": "2023-09-27 13:54:03"
-                    },
-                    {
-                        "value": "jerenyankipong.duckdns.org",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "newmanserverug.ddns.net",
-                        "timestamp": "2023-09-27 13:54:19"
-                    },
-                    {
-                        "value": "huhuhu.ooguy.com",
-                        "timestamp": "2023-09-27 13:54:04"
-                    },
-                    {
-                        "value": "darkworldblackerlocker.dumb1.com",
-                        "timestamp": "2023-09-27 13:53:35"
-                    },
-                    {
-                        "value": "enginekeysmoney.ddns.net",
-                        "timestamp": "2023-09-27 13:53:29"
-                    },
-                    {
-                        "value": "membership.myddns.rocks",
-                        "timestamp": "2023-09-27 13:53:28"
-                    },
-                    {
-                        "value": "warzonepw.ddns.net",
-                        "timestamp": "2023-09-27 13:54:25"
-                    },
-                    {
-                        "value": "googleservers.org",
-                        "timestamp": "2023-09-27 13:54:26"
-                    },
-                    {
-                        "value": "princekelvin.ddns.net",
-                        "timestamp": "2023-09-27 13:54:17"
-                    }
-                ],
                 "ip:port": [
+                    {
+                        "value": "213.65.233.25:5200",
+                        "timestamp": "2023-11-30 19:15:11"
+                    },
+                    {
+                        "value": "45.61.171.47:8901",
+                        "timestamp": "2023-11-24 04:05:12"
+                    },
+                    {
+                        "value": "103.212.81.154:6028",
+                        "timestamp": "2023-11-21 06:53:08"
+                    },
+                    {
+                        "value": "155.94.136.130:5200",
+                        "timestamp": "2023-11-21 06:53:07"
+                    },
+                    {
+                        "value": "173.249.196.201:5077",
+                        "timestamp": "2023-11-21 06:53:06"
+                    },
+                    {
+                        "value": "194.147.140.186:5200",
+                        "timestamp": "2023-11-21 06:53:06"
+                    },
+                    {
+                        "value": "23.227.199.39:1976",
+                        "timestamp": "2023-11-21 06:53:05"
+                    },
+                    {
+                        "value": "45.133.235.148:5200",
+                        "timestamp": "2023-11-21 06:53:05"
+                    },
+                    {
+                        "value": "46.183.223.122:29873",
+                        "timestamp": "2023-11-21 06:53:04"
+                    },
+                    {
+                        "value": "91.193.75.147:6789",
+                        "timestamp": "2023-11-21 06:53:03"
+                    },
+                    {
+                        "value": "91.92.248.59:5201",
+                        "timestamp": "2023-11-17 10:55:12"
+                    },
+                    {
+                        "value": "79.134.225.6:7910",
+                        "timestamp": "2023-11-13 09:40:15"
+                    },
+                    {
+                        "value": "194.147.140.205:1994",
+                        "timestamp": "2023-11-10 10:56:39"
+                    },
+                    {
+                        "value": "194.147.140.140:1769",
+                        "timestamp": "2023-11-08 07:35:20"
+                    },
+                    {
+                        "value": "91.92.252.13:4244",
+                        "timestamp": "2023-11-07 14:20:33"
+                    },
+                    {
+                        "value": "94.156.64.213:5200",
+                        "timestamp": "2023-11-20 19:30:08"
+                    },
+                    {
+                        "value": "91.92.247.146:14977",
+                        "timestamp": "2023-11-01 06:15:09"
+                    },
+                    {
+                        "value": "130.51.42.169:7702",
+                        "timestamp": "2023-11-20 19:30:06"
+                    },
+                    {
+                        "value": "185.254.37.81:5200",
+                        "timestamp": "2023-11-20 19:30:07"
+                    },
+                    {
+                        "value": "173.212.199.134:4411",
+                        "timestamp": "2023-11-20 19:30:06"
+                    },
+                    {
+                        "value": "46.183.222.97:5555",
+                        "timestamp": "2023-11-20 19:30:07"
+                    },
+                    {
+                        "value": "45.151.122.57:5200",
+                        "timestamp": "2023-10-25 04:56:05"
+                    },
+                    {
+                        "value": "45.138.16.214:5200",
+                        "timestamp": "2023-10-22 05:50:42"
+                    },
+                    {
+                        "value": "38.255.42.252:5678",
+                        "timestamp": "2023-11-20 19:30:07"
+                    },
+                    {
+                        "value": "163.123.143.8:8901",
+                        "timestamp": "2023-11-20 19:30:06"
+                    },
+                    {
+                        "value": "103.212.81.156:1751",
+                        "timestamp": "2023-10-17 21:25:59"
+                    },
+                    {
+                        "value": "5.2.68.90:1198",
+                        "timestamp": "2023-10-17 09:15:31"
+                    },
+                    {
+                        "value": "194.169.175.232:5200",
+                        "timestamp": "2023-10-15 14:25:25"
+                    },
+                    {
+                        "value": "170.130.165.120:5200",
+                        "timestamp": "2023-10-13 14:35:11"
+                    },
+                    {
+                        "value": "130.51.42.8:7890",
+                        "timestamp": "2023-10-09 19:30:28"
+                    },
+                    {
+                        "value": "185.216.71.8:1990",
+                        "timestamp": "2023-10-08 16:20:14"
+                    },
+                    {
+                        "value": "66.70.247.194:5890",
+                        "timestamp": "2023-10-08 16:05:12"
+                    },
+                    {
+                        "value": "45.42.45.245:5890",
+                        "timestamp": "2023-10-07 06:30:19"
+                    },
+                    {
+                        "value": "45.66.230.22:5200",
+                        "timestamp": "2023-10-06 14:20:14"
+                    },
+                    {
+                        "value": "64.188.20.119:5200",
+                        "timestamp": "2023-10-05 01:30:17"
+                    },
+                    {
+                        "value": "185.216.71.13:1993",
+                        "timestamp": "2023-10-04 04:05:30"
+                    },
+                    {
+                        "value": "185.236.228.161:4345",
+                        "timestamp": "2023-10-03 14:00:41"
+                    },
+                    {
+                        "value": "185.225.74.106:5200",
+                        "timestamp": "2023-10-02 15:55:16"
+                    },
                     {
                         "value": "46.183.222.93:49159",
                         "timestamp": "2023-09-27 13:50:52"
@@ -7354,6 +4968,2652 @@ var threatdata = {
                         "timestamp": "2023-09-27 13:51:45"
                     }
                 ],
+                "domain": [
+                    {
+                        "value": "8e3d-wzr.duckdns.org",
+                        "timestamp": "2023-11-21 06:53:03"
+                    },
+                    {
+                        "value": "avira-antivirus.ydns.eu",
+                        "timestamp": "2023-11-21 06:53:02"
+                    },
+                    {
+                        "value": "bluemail-fax.home-webserver.de",
+                        "timestamp": "2023-11-21 06:53:01"
+                    },
+                    {
+                        "value": "centurygift.myq-see.com",
+                        "timestamp": "2023-11-21 06:53:01"
+                    },
+                    {
+                        "value": "cfr.eur-import.com",
+                        "timestamp": "2023-11-21 06:53:00"
+                    },
+                    {
+                        "value": "donpapajay.ddns.net",
+                        "timestamp": "2023-11-21 06:53:00"
+                    },
+                    {
+                        "value": "grace.adds-only.xyz",
+                        "timestamp": "2023-11-21 06:53:00"
+                    },
+                    {
+                        "value": "info1.dynamic-dns.net",
+                        "timestamp": "2023-11-21 06:52:59"
+                    },
+                    {
+                        "value": "items.myq-see.com",
+                        "timestamp": "2023-11-21 06:52:59"
+                    },
+                    {
+                        "value": "jilnsmclein.3utilities.com",
+                        "timestamp": "2023-11-21 06:52:57"
+                    },
+                    {
+                        "value": "just-fax303.home-webserver.de",
+                        "timestamp": "2023-11-21 06:52:57"
+                    },
+                    {
+                        "value": "linelink-linesn.com",
+                        "timestamp": "2023-11-21 06:52:56"
+                    },
+                    {
+                        "value": "love.pure-luck.xyz",
+                        "timestamp": "2023-11-21 06:52:55"
+                    },
+                    {
+                        "value": "marknagy44565-36386.portmap.host",
+                        "timestamp": "2023-11-21 06:52:55"
+                    },
+                    {
+                        "value": "members-path.at.ply.gg",
+                        "timestamp": "2023-11-21 06:52:54"
+                    },
+                    {
+                        "value": "microsoft-update-tool.duckdns.org",
+                        "timestamp": "2023-11-21 06:52:54"
+                    },
+                    {
+                        "value": "p2.is-by.us",
+                        "timestamp": "2023-11-21 06:52:53"
+                    },
+                    {
+                        "value": "qgexserver.hopto.org",
+                        "timestamp": "2023-11-21 06:52:49"
+                    },
+                    {
+                        "value": "soon-lp.at.ply.gg",
+                        "timestamp": "2023-11-21 06:52:49"
+                    },
+                    {
+                        "value": "segun.ddns.net",
+                        "timestamp": "2023-11-21 06:52:48"
+                    },
+                    {
+                        "value": "Sanael-62946.portmap.host",
+                        "timestamp": "2023-11-21 06:52:47"
+                    },
+                    {
+                        "value": "suitehvd2.home-webserver.de",
+                        "timestamp": "2023-11-21 06:52:45"
+                    },
+                    {
+                        "value": "tende.dvrdns.org",
+                        "timestamp": "2023-11-21 06:52:45"
+                    },
+                    {
+                        "value": "wapt.myhome-server.de",
+                        "timestamp": "2023-11-21 06:52:44"
+                    },
+                    {
+                        "value": "waswift.ddns.net",
+                        "timestamp": "2023-11-21 06:52:43"
+                    },
+                    {
+                        "value": "wz-patient001.duckdns.org",
+                        "timestamp": "2023-11-21 06:52:43"
+                    },
+                    {
+                        "value": "xxxxza.dynamic-dns.net",
+                        "timestamp": "2023-11-21 06:52:43"
+                    },
+                    {
+                        "value": "ifedinma.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "satusdei.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "www.warkarwaka.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "revive147.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "victorycolum.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "lesbianporn.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "macrim.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "ijogaa.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:32"
+                    },
+                    {
+                        "value": "just-fax207.home-webserver.de",
+                        "timestamp": "2023-09-27 13:54:31"
+                    },
+                    {
+                        "value": "udooiuyt.dynamic-dns.net",
+                        "timestamp": "2023-09-27 13:54:31"
+                    },
+                    {
+                        "value": "helpme20.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "iron66.ddns.net",
+                        "timestamp": "2023-09-27 13:54:31"
+                    },
+                    {
+                        "value": "karmakoin.gotdns.ch",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "imunstoppable.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "boobsy.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "www.asnbanks.nl",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "ozcall.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "kinosoft.hopto.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "binancino.hopto.org",
+                        "timestamp": "2023-09-27 13:54:29"
+                    },
+                    {
+                        "value": "hongphilxxx.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "workbro.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "chrisle79.ddns.net",
+                        "timestamp": "2023-09-27 13:54:29"
+                    },
+                    {
+                        "value": "faith.zapto.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "suitehvd2.home-webserver.de",
+                        "timestamp": "2023-09-27 13:54:29"
+                    },
+                    {
+                        "value": "favour.ddnsgeek.com",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "chefdnshost.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "maxibrainz.warzonedns.com",
+                        "timestamp": "2023-09-27 13:54:28"
+                    },
+                    {
+                        "value": "agent47.ddns.net",
+                        "timestamp": "2023-09-27 13:54:28"
+                    },
+                    {
+                        "value": "telenaxty.ddns.net",
+                        "timestamp": "2023-09-27 18:39:03"
+                    },
+                    {
+                        "value": "billionaire.ddns.net",
+                        "timestamp": "2023-09-27 18:41:35"
+                    },
+                    {
+                        "value": "smilecat.ddns.net",
+                        "timestamp": "2023-09-27 13:54:27"
+                    },
+                    {
+                        "value": "shawgod1.sytes.net",
+                        "timestamp": "2023-09-27 13:54:27"
+                    },
+                    {
+                        "value": "kali123.hopto.org",
+                        "timestamp": "2023-09-27 13:54:27"
+                    },
+                    {
+                        "value": "ihttree.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:27"
+                    },
+                    {
+                        "value": "jaiban.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:26"
+                    },
+                    {
+                        "value": "checkingss.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:26"
+                    },
+                    {
+                        "value": "ijele22.ooguy.com",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "chardomin.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "jackpiaau.ddns.net",
+                        "timestamp": "2023-09-27 18:44:32"
+                    },
+                    {
+                        "value": "bovigar.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:25"
+                    },
+                    {
+                        "value": "danbochie.dynv6.net",
+                        "timestamp": "2023-09-27 13:54:25"
+                    },
+                    {
+                        "value": "warzonecastro.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "accessability042.ddns.net",
+                        "timestamp": "2023-09-27 13:54:24"
+                    },
+                    {
+                        "value": "wizzydd.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:24"
+                    },
+                    {
+                        "value": "steam9.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "lag.ddns.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "greatr.warzonedns.com",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "u875455.nvpn.to",
+                        "timestamp": "2023-09-27 13:54:23"
+                    },
+                    {
+                        "value": "jude77.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:23"
+                    },
+                    {
+                        "value": "asscum.ddns.net",
+                        "timestamp": "2023-09-27 13:54:23"
+                    },
+                    {
+                        "value": "MYWARSWARW.ddnsfree.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "just-fax303.home-webserver.de",
+                        "timestamp": "2023-09-27 13:54:23"
+                    },
+                    {
+                        "value": "yetye.ddns.net",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "dns.rusetinz.xyz",
+                        "timestamp": "2023-09-27 13:54:22"
+                    },
+                    {
+                        "value": "byx.z86.ru",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "elboasin.ddns.net",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "newwarr.ddns.net",
+                        "timestamp": "2023-09-27 13:54:22"
+                    },
+                    {
+                        "value": "speedballing.warzonedns.com",
+                        "timestamp": "2023-09-27 13:54:21"
+                    },
+                    {
+                        "value": "blessthychild.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "n.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "normanaman.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "1988life.myq-see.com",
+                        "timestamp": "2023-09-27 13:54:21"
+                    },
+                    {
+                        "value": "asdfwrkhl.warzonedns.com",
+                        "timestamp": "2023-09-27 13:54:21"
+                    },
+                    {
+                        "value": "dhkwufrsfhrgrsw.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:20"
+                    },
+                    {
+                        "value": "newzone.from-ne.com",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "wrzone-srvr-connector-port.windows-updates.co",
+                        "timestamp": "2023-09-27 13:54:20"
+                    },
+                    {
+                        "value": "resultbox0147logs.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "febnew3.ddns.net",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "moseslogs2022.ddns.net",
+                        "timestamp": "2023-09-27 13:54:20"
+                    },
+                    {
+                        "value": "arronsterritfamilyplan.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:20"
+                    },
+                    {
+                        "value": "msteelwar.ddns.net",
+                        "timestamp": "2023-09-27 13:54:19"
+                    },
+                    {
+                        "value": "nojonxn.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "minerz.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:19"
+                    },
+                    {
+                        "value": "dompe.awsmppl.com",
+                        "timestamp": "2023-09-27 13:54:19"
+                    },
+                    {
+                        "value": "pastorcc.duckdns.org",
+                        "timestamp": "2023-09-27 18:39:26"
+                    },
+                    {
+                        "value": "publicvm.casacam.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "kk101.ddns.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "urchy.duckdns.org",
+                        "timestamp": "2023-09-27 18:44:18"
+                    },
+                    {
+                        "value": "herold.gotdns.ch",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "sgzi.e20.ru",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "bryandatabase.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "benztel.hopto.org",
+                        "timestamp": "2023-09-27 18:43:58"
+                    },
+                    {
+                        "value": "mydomain007.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:17"
+                    },
+                    {
+                        "value": "windows2012.theworkpc.com",
+                        "timestamp": "2023-09-27 13:54:17"
+                    },
+                    {
+                        "value": "barr2.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "mykassa.zapto.org",
+                        "timestamp": "2023-09-27 13:54:17"
+                    },
+                    {
+                        "value": "metroboomiin.duckdns.org",
+                        "timestamp": "2023-11-20 19:42:26"
+                    },
+                    {
+                        "value": "minekroft.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "warwin.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:16"
+                    },
+                    {
+                        "value": "32w4tgef4ehyr5t564rthy.from-nc.com",
+                        "timestamp": "2023-09-27 13:54:16"
+                    },
+                    {
+                        "value": "warzonlicen1304.ddns.net",
+                        "timestamp": "2023-09-27 13:54:16"
+                    },
+                    {
+                        "value": "sams1234.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "dar123.hopto.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "officedesktop004018.webredirect.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "anthonyveeder.com",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "killabean.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "bc.gta5modmenu.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "jeron7.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "smartupdater.lignarn.com",
+                        "timestamp": "2023-09-27 13:54:14"
+                    },
+                    {
+                        "value": "cxww2.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "kkkindo.ddns.net",
+                        "timestamp": "2023-09-27 13:54:14"
+                    },
+                    {
+                        "value": "expressdelivery.info",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "ch12345.hopto.org",
+                        "timestamp": "2023-09-27 13:54:14"
+                    },
+                    {
+                        "value": "warzzz.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:13"
+                    },
+                    {
+                        "value": "zaki29.ddns.net",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "pato01.ddns.net",
+                        "timestamp": "2023-09-27 13:54:13"
+                    },
+                    {
+                        "value": "www.sgstgfahdg7126edha.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:13"
+                    },
+                    {
+                        "value": "warzonne.publicvm.com",
+                        "timestamp": "2023-09-27 13:54:13"
+                    },
+                    {
+                        "value": "eiuthwr5436dr.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "tokyooffice1.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "RetrieverConnection.ga",
+                        "timestamp": "2023-09-27 13:54:12"
+                    },
+                    {
+                        "value": "blessingscomemyway.ddns.net",
+                        "timestamp": "2023-09-27 13:54:12"
+                    },
+                    {
+                        "value": "none0468.ddns.net",
+                        "timestamp": "2023-09-27 13:54:11"
+                    },
+                    {
+                        "value": "acommand.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:11"
+                    },
+                    {
+                        "value": "yulanda.hopto.org",
+                        "timestamp": "2023-09-27 13:54:11"
+                    },
+                    {
+                        "value": "blessnbwz.istmein.de",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "warzone109983runnerhacker.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "eazeeflo.warzonedns.com",
+                        "timestamp": "2023-09-27 13:54:10"
+                    },
+                    {
+                        "value": "konkation.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "eccoclean.hopto.org",
+                        "timestamp": "2023-09-27 13:54:10"
+                    },
+                    {
+                        "value": "adebaree.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:10"
+                    },
+                    {
+                        "value": "rajsavindia.hopto.org",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "balayinkudi.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "alliedofficewarz.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "stoic.gleeze.com",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "www.turdtaco.xyz",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "iron19.ddns.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "niggalips.hopto.org",
+                        "timestamp": "2023-09-27 13:54:08"
+                    },
+                    {
+                        "value": "nightmare4666.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "myserversmp.ddns.net",
+                        "timestamp": "2023-09-27 13:54:08"
+                    },
+                    {
+                        "value": "jeffdfehjhsda.ddns.net",
+                        "timestamp": "2023-09-27 13:54:08"
+                    },
+                    {
+                        "value": "untyaru.casacam.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "gbotowaya.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "bestme.mywire.org",
+                        "timestamp": "2023-09-27 13:54:07"
+                    },
+                    {
+                        "value": "dominion46.ddns.net",
+                        "timestamp": "2023-09-27 13:54:07"
+                    },
+                    {
+                        "value": "efiigbo9.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:07"
+                    },
+                    {
+                        "value": "darkfox.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "captainkwado.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:06"
+                    },
+                    {
+                        "value": "obyhost.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "zone.facebook-shoping.com",
+                        "timestamp": "2023-09-27 13:54:06"
+                    },
+                    {
+                        "value": "light319.warzonedns.com",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "atifgabuying.ddns.net",
+                        "timestamp": "2023-09-27 13:54:06"
+                    },
+                    {
+                        "value": "rencos121.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "chukwuoma.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "kingmeth.ddns.net",
+                        "timestamp": "2023-09-27 13:54:05"
+                    },
+                    {
+                        "value": "shallom2022server.sytes.net",
+                        "timestamp": "2023-09-27 13:54:05"
+                    },
+                    {
+                        "value": "bedahogs.100chickens.me",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "flytin.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:05"
+                    },
+                    {
+                        "value": "mitty1.freemyip.com",
+                        "timestamp": "2023-09-27 13:54:05"
+                    },
+                    {
+                        "value": "aidsweden.serveblog.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "cbngroup.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:05"
+                    },
+                    {
+                        "value": "mcavy.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "mosesmanservernew.hopto.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "pradeepprabhu705.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "1000usd.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:04"
+                    },
+                    {
+                        "value": "blackpyramid.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:04"
+                    },
+                    {
+                        "value": "oficina3030.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "obibryme.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "alexxaan.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:03"
+                    },
+                    {
+                        "value": "cornerload.dynu.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "asiumasium.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "tonymaris7342.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "onlythefamily.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "afada.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "cowboyd.ddns.net",
+                        "timestamp": "2023-09-27 13:54:02"
+                    },
+                    {
+                        "value": "clientss777.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "411184r.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "phaz6434325328.redirectme.net",
+                        "timestamp": "2023-09-27 13:54:02"
+                    },
+                    {
+                        "value": "warzone33.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:01"
+                    },
+                    {
+                        "value": "avira-antivirus.ydns.eu",
+                        "timestamp": "2023-09-27 13:54:01"
+                    },
+                    {
+                        "value": "mokoolm.gleeze.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "newsfeed.msoftupdate.me",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "4410.fhpaul.com",
+                        "timestamp": "2023-09-27 13:54:00"
+                    },
+                    {
+                        "value": "ugo123.hopto.org",
+                        "timestamp": "2023-09-27 13:54:00"
+                    },
+                    {
+                        "value": "mohbeebnew.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:00"
+                    },
+                    {
+                        "value": "war.servebeer.com",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "oklahamaa.ydns.eu",
+                        "timestamp": "2023-09-27 13:53:59"
+                    },
+                    {
+                        "value": "icey.awsmppl.com",
+                        "timestamp": "2023-09-27 13:53:59"
+                    },
+                    {
+                        "value": "windows2023update.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:59"
+                    },
+                    {
+                        "value": "eeddfr.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:59"
+                    },
+                    {
+                        "value": "godhlep.ddns.net",
+                        "timestamp": "2023-09-27 13:53:58"
+                    },
+                    {
+                        "value": "helloworld.ddnsking.com",
+                        "timestamp": "2023-09-27 13:53:58"
+                    },
+                    {
+                        "value": "eriwauwa.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:58"
+                    },
+                    {
+                        "value": "samirsana2019.myftp.biz",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "chefdnshost.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "zcv2ngnfg69354253.3utilities.com",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "newpart.cam",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "hsfdhhoop.ooguy.com",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "peggy.ddnsgeek.com",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "4610215325.redirectme.net",
+                        "timestamp": "2023-09-27 13:53:57"
+                    },
+                    {
+                        "value": "privatexpo.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:57"
+                    },
+                    {
+                        "value": "desireblex.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "warmoni147.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:56"
+                    },
+                    {
+                        "value": "godismyhope.ddns.net",
+                        "timestamp": "2023-09-27 13:53:56"
+                    },
+                    {
+                        "value": "mobibagugu.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "wizzycheddah1.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:56"
+                    },
+                    {
+                        "value": "sheb.ddns.net",
+                        "timestamp": "2023-09-27 13:53:56"
+                    },
+                    {
+                        "value": "godwin12.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:56"
+                    },
+                    {
+                        "value": "officeday2022.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "grounderwarone.rapiddns.ru",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "warzon.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "general.wifi-app.net",
+                        "timestamp": "2023-09-27 13:53:55"
+                    },
+                    {
+                        "value": "cx212x.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "charlesdnsoh.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "8e3d-wzr.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:54"
+                    },
+                    {
+                        "value": "smartconnect.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "kurtangle082.publicvm.com",
+                        "timestamp": "2023-09-27 13:53:54"
+                    },
+                    {
+                        "value": "afair.ddns.net",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "smcxzhu.ddnsking.com",
+                        "timestamp": "2023-09-27 13:53:54"
+                    },
+                    {
+                        "value": "mechenchan.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "goodies.dynamic-dns.net",
+                        "timestamp": "2023-09-27 13:53:53"
+                    },
+                    {
+                        "value": "bigissssss.zzux.com",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "lati10.ddns.net",
+                        "timestamp": "2023-09-27 14:12:58"
+                    },
+                    {
+                        "value": "paiveio123.ddns.com.br",
+                        "timestamp": "2023-09-27 18:39:34"
+                    },
+                    {
+                        "value": "epiclauncher.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:52"
+                    },
+                    {
+                        "value": "thedonaldman77.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:52"
+                    },
+                    {
+                        "value": "blessed232.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:52"
+                    },
+                    {
+                        "value": "blackbenz.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "amallasal.com",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "blackish.hopto.org",
+                        "timestamp": "2023-09-27 13:53:51"
+                    },
+                    {
+                        "value": "vtzjnphtvnpckznxhxpb.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:51"
+                    },
+                    {
+                        "value": "patront.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:51"
+                    },
+                    {
+                        "value": "rikpoman.mywire.org",
+                        "timestamp": "2023-09-27 13:53:51"
+                    },
+                    {
+                        "value": "marknagy44565-36386.portmap.host",
+                        "timestamp": "2023-09-27 13:53:51"
+                    },
+                    {
+                        "value": "ofenja.zapto.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "office101.warzonedns.com",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "www.thatd6whnhdyd56jd.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "marionpreet.ddnsfree.com",
+                        "timestamp": "2023-09-27 13:53:50"
+                    },
+                    {
+                        "value": "omc2015asm.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "dubem2021.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "hive01.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "wakar.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "u868328.nvpn.so",
+                        "timestamp": "2023-09-27 13:53:49"
+                    },
+                    {
+                        "value": "officelogs20.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:49"
+                    },
+                    {
+                        "value": "4catalyzer.cam",
+                        "timestamp": "2023-09-27 13:53:49"
+                    },
+                    {
+                        "value": "iphanyi.ddns.net",
+                        "timestamp": "2023-09-27 13:53:49"
+                    },
+                    {
+                        "value": "macsucc.ddns.net",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "graceandfavour.ddns.net",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "warzonez.linkpc.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "emaildayo24.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:48"
+                    },
+                    {
+                        "value": "linelink-linesn.com",
+                        "timestamp": "2023-09-27 13:53:48"
+                    },
+                    {
+                        "value": "items.myq-see.com",
+                        "timestamp": "2023-09-27 13:53:48"
+                    },
+                    {
+                        "value": "cmark.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:48"
+                    },
+                    {
+                        "value": "hotelbr.minhacasa.tv",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "osas212.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "jsbcdns.warzonedns.com",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "nonyserver001.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:47"
+                    },
+                    {
+                        "value": "value747.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:46"
+                    },
+                    {
+                        "value": "masterprof.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:46"
+                    },
+                    {
+                        "value": "osas212.ddns.net",
+                        "timestamp": "2023-09-27 13:53:46"
+                    },
+                    {
+                        "value": "kawasapi.co.in",
+                        "timestamp": "2023-09-27 13:53:46"
+                    },
+                    {
+                        "value": "Securedbag2021-48502.portmap.host",
+                        "timestamp": "2023-09-27 13:53:46"
+                    },
+                    {
+                        "value": "trenchesrelax.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "wealthyme.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:45"
+                    },
+                    {
+                        "value": "papiguy1.ddns.net",
+                        "timestamp": "2023-09-27 13:53:45"
+                    },
+                    {
+                        "value": "warzone05b.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "vasticbless.hopto.org",
+                        "timestamp": "2023-09-27 18:39:48"
+                    },
+                    {
+                        "value": "georgerandome253.hopto.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "wealth.warzonedns.com",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "macking.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "newar21.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:44"
+                    },
+                    {
+                        "value": "safe2202.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "xpwarzonlicns2.ddns.net",
+                        "timestamp": "2023-09-27 13:53:44"
+                    },
+                    {
+                        "value": "backupson.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:44"
+                    },
+                    {
+                        "value": "bestgrace.mywire.org",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "54369253290033.sytes.net",
+                        "timestamp": "2023-09-27 13:53:43"
+                    },
+                    {
+                        "value": "fbi101.ddns.net",
+                        "timestamp": "2023-09-27 13:53:43"
+                    },
+                    {
+                        "value": "telegrammylink.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "onielnfo.ddns.net",
+                        "timestamp": "2023-09-27 13:53:42"
+                    },
+                    {
+                        "value": "gameofthrone.ddns.net",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "peggyboo.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:42"
+                    },
+                    {
+                        "value": "gratiyupo.ddnsfree.com",
+                        "timestamp": "2023-09-27 13:53:42"
+                    },
+                    {
+                        "value": "lindsaystewart113.hopto.org",
+                        "timestamp": "2023-09-27 13:53:42"
+                    },
+                    {
+                        "value": "mitty.ultraddns.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "sdafsdffssffs.ydns.eu",
+                        "timestamp": "2023-09-27 13:53:41"
+                    },
+                    {
+                        "value": "fukfndru.ddns.net",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "dephantomz.duckdns.org",
+                        "timestamp": "2023-11-26 13:22:11"
+                    },
+                    {
+                        "value": "m1.swooptopnet.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "ranggamuffin.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "subwayhost2022.ddns.net",
+                        "timestamp": "2023-09-27 13:53:40"
+                    },
+                    {
+                        "value": "warzone2020.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "ls.pickzznoz.bar",
+                        "timestamp": "2023-09-27 13:53:40"
+                    },
+                    {
+                        "value": "blowblue.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:39"
+                    },
+                    {
+                        "value": "batashoes.ddns.net",
+                        "timestamp": "2023-09-27 14:05:41"
+                    },
+                    {
+                        "value": "ca-fax123.home-webserver.de",
+                        "timestamp": "2023-09-27 13:53:39"
+                    },
+                    {
+                        "value": "ydess.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "rentals.insidedns.com",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "hilipizie.hopto.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "warkarwaka.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:38"
+                    },
+                    {
+                        "value": "evakarpati.ddns.net",
+                        "timestamp": "2023-09-27 13:53:38"
+                    },
+                    {
+                        "value": "ghjklhgteg.strangled.net",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "Businessdministration.webredirect.org",
+                        "timestamp": "2023-09-27 13:53:38"
+                    },
+                    {
+                        "value": "port15e.zapto.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "mywarswarw.ddns.net",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "windows453update.ddns.net",
+                        "timestamp": "2023-09-27 13:53:37"
+                    },
+                    {
+                        "value": "0b3c.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:37"
+                    },
+                    {
+                        "value": "noxbot.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "kw9d0w.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:36"
+                    },
+                    {
+                        "value": "masterhugo231.servecounterstrike.com",
+                        "timestamp": "2023-09-27 13:54:24"
+                    },
+                    {
+                        "value": "jasphet.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "eldragon.ooguy.com",
+                        "timestamp": "2023-09-27 18:39:15"
+                    },
+                    {
+                        "value": "kellerwarzone.ddns.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "ogodoswar.ddns.net",
+                        "timestamp": "2023-09-27 13:53:35"
+                    },
+                    {
+                        "value": "baramac.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:35"
+                    },
+                    {
+                        "value": "bluemail-fax.home-webserver.de",
+                        "timestamp": "2023-09-27 13:53:35"
+                    },
+                    {
+                        "value": "sept5th.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "septembre.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "anglekeys.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:34"
+                    },
+                    {
+                        "value": "cx212xc.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "govcbn.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "benson12.ddns.net",
+                        "timestamp": "2023-09-27 13:53:34"
+                    },
+                    {
+                        "value": "tamidem.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:34"
+                    },
+                    {
+                        "value": "kimlee11.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "wzxbrian.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "promotrans54185.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "ebase.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:33"
+                    },
+                    {
+                        "value": "oneness.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:33"
+                    },
+                    {
+                        "value": "tresor2020.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "luckynovember4good.ddns.net",
+                        "timestamp": "2023-09-27 13:53:33"
+                    },
+                    {
+                        "value": "warzonnee.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "kingsdoggy12.hopto.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "au.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:32"
+                    },
+                    {
+                        "value": "blaq56491.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "tef-co-ir.com",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "story43.ddns.net",
+                        "timestamp": "2023-09-27 13:53:31"
+                    },
+                    {
+                        "value": "chefdnshot.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "love.pure-luck.xyz",
+                        "timestamp": "2023-09-27 13:54:23"
+                    },
+                    {
+                        "value": "delta212.ddns.net",
+                        "timestamp": "2023-09-27 13:53:31"
+                    },
+                    {
+                        "value": "waromo6700.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:31"
+                    },
+                    {
+                        "value": "wealthymanr.kozow.com",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "hightense.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "naval.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "xpcehopsford.ddns.net",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "newnex.3utilities.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "udokakingsley08064153012.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:30"
+                    },
+                    {
+                        "value": "fileservices.ddns.net",
+                        "timestamp": "2023-09-27 13:53:30"
+                    },
+                    {
+                        "value": "provent.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "babajay.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "blacice24.hopto.org",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "absolut7.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "worrynot.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:29"
+                    },
+                    {
+                        "value": "hijodelavida.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "seencroundercontroller.webredirect.org",
+                        "timestamp": "2023-09-27 13:53:28"
+                    },
+                    {
+                        "value": "tain.rapiddns.ru",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "pussy12.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:28"
+                    },
+                    {
+                        "value": "casasma.casacam.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "anyinew.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:58"
+                    },
+                    {
+                        "value": "bestsuccess.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:28"
+                    },
+                    {
+                        "value": "cjlumberslimited.ddns.net",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "osairus.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "simpol.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:27"
+                    },
+                    {
+                        "value": "dkhurams.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:27"
+                    },
+                    {
+                        "value": "msteel1759.ddns.net",
+                        "timestamp": "2023-09-27 13:53:27"
+                    },
+                    {
+                        "value": "frdedsgf.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:27"
+                    },
+                    {
+                        "value": "omerlan.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:27"
+                    },
+                    {
+                        "value": "dnmpbczm0963fxtdplc.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "feeders.ninqshing.net",
+                        "timestamp": "2023-09-27 13:53:26"
+                    },
+                    {
+                        "value": "dreams2reality.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "skyrocket.ooguy.com",
+                        "timestamp": "2023-09-27 13:53:26"
+                    },
+                    {
+                        "value": "danngh.ddns.net",
+                        "timestamp": "2023-09-27 13:53:26"
+                    },
+                    {
+                        "value": "septubandas.sytes.net",
+                        "timestamp": "2023-09-27 13:53:26"
+                    },
+                    {
+                        "value": "hannoyputa.giize.com",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "ugob.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "lumberr.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:25"
+                    },
+                    {
+                        "value": "oluwabless.ddns.net",
+                        "timestamp": "2023-09-27 13:53:25"
+                    },
+                    {
+                        "value": "yggtccccchgr.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "warzone12.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "instac.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "pstericdd.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:24"
+                    },
+                    {
+                        "value": "phllka.com",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "windowsupdater64x.theworkpc.com",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "tiger22.ddns.net",
+                        "timestamp": "2023-09-27 13:53:24"
+                    },
+                    {
+                        "value": "livinglogs.servehalflife.com",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "wzefi.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "makavi.hopto.org",
+                        "timestamp": "2023-09-27 13:53:23"
+                    },
+                    {
+                        "value": "gerogexcsdf234234sdfsvxc341242324.publicvm.com",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "vladisdns.rapiddns.ru",
+                        "timestamp": "2023-09-27 13:53:23"
+                    },
+                    {
+                        "value": "winvins.3utilities.com",
+                        "timestamp": "2023-09-27 13:53:23"
+                    },
+                    {
+                        "value": "smartconnect1.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:23"
+                    },
+                    {
+                        "value": "pliblu-fax.home-webserver.de",
+                        "timestamp": "2023-09-27 13:53:22"
+                    },
+                    {
+                        "value": "pc.khenz-pc.com",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "meduska.ddns.net",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "apponfly.mywire.org",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "grotomniponmyte.sytes.net",
+                        "timestamp": "2023-09-27 13:53:24"
+                    },
+                    {
+                        "value": "war101.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "xilogrid.info",
+                        "timestamp": "2023-09-27 13:53:21"
+                    },
+                    {
+                        "value": "remotes1338.hopto.org",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "thankme.ddns.net",
+                        "timestamp": "2023-09-27 13:53:21"
+                    },
+                    {
+                        "value": "kempes.ddns.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "caebd.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "davewarzone22.ddns.net",
+                        "timestamp": "2023-09-27 13:53:21"
+                    },
+                    {
+                        "value": "amaraciiiiiiii.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:20"
+                    },
+                    {
+                        "value": "mondaynew22.3utilities.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "iphanyi.entrydns.org",
+                        "timestamp": "2023-09-27 13:53:20"
+                    },
+                    {
+                        "value": "ccnewcdt.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "genasispony.hopto.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "wazminister.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "chinagov.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:20"
+                    },
+                    {
+                        "value": "4kr4m0.ddns.net",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "unload.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "ngray.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:19"
+                    },
+                    {
+                        "value": "bar2020.ddns.net",
+                        "timestamp": "2023-09-27 13:53:19"
+                    },
+                    {
+                        "value": "williamz20.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "savagesquad.ooguy.com",
+                        "timestamp": "2023-09-27 13:53:18"
+                    },
+                    {
+                        "value": "ugblackblessing2022.ddns.net",
+                        "timestamp": "2023-09-27 13:53:18"
+                    },
+                    {
+                        "value": "jabsgu.kozow.com",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "hamzzaogolozar77.toythieves.com",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "dfdgdsasedw.ydns.eu",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "smsv4.ufcfan.org",
+                        "timestamp": "2023-09-27 13:53:17"
+                    },
+                    {
+                        "value": "warzone121.hopto.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "opaqueslots.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:17"
+                    },
+                    {
+                        "value": "hannijelrt.myddns.me",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "21421412515215.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "cfr.eur-import.com",
+                        "timestamp": "2023-09-27 13:53:16"
+                    },
+                    {
+                        "value": "logcollector.xyz",
+                        "timestamp": "2023-09-27 13:53:16"
+                    },
+                    {
+                        "value": "iphanyi.mywire.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "medicosta.linkpc.net",
+                        "timestamp": "2023-09-27 13:53:16"
+                    },
+                    {
+                        "value": "ekuroekuro.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:16"
+                    },
+                    {
+                        "value": "global22.ddns.net",
+                        "timestamp": "2023-09-27 13:53:15"
+                    },
+                    {
+                        "value": "mercenarywarzone.ddns.net",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "mamased.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "shawcn1.sytes.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "wizzyfdgod.gotdns.com",
+                        "timestamp": "2023-09-27 13:53:15"
+                    },
+                    {
+                        "value": "ast3rhost.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "kazt.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "ugoguy01.ddns.net",
+                        "timestamp": "2023-09-27 13:53:14"
+                    },
+                    {
+                        "value": "iron65.ddns.net",
+                        "timestamp": "2023-09-27 13:53:14"
+                    },
+                    {
+                        "value": "olodofries88.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "papi1.ddns.net",
+                        "timestamp": "2023-09-27 13:53:14"
+                    },
+                    {
+                        "value": "goodyear21.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "guykj.ddns.net",
+                        "timestamp": "2023-09-27 13:53:14"
+                    },
+                    {
+                        "value": "dfgedee.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:14"
+                    },
+                    {
+                        "value": "mobibatubobo.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:13"
+                    },
+                    {
+                        "value": "remote.isubi.sbs",
+                        "timestamp": "2023-09-27 13:53:13"
+                    },
+                    {
+                        "value": "baotao.3utilities.com",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "samguys2.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:13"
+                    },
+                    {
+                        "value": "donstan.ddns.net",
+                        "timestamp": "2023-09-27 13:53:13"
+                    },
+                    {
+                        "value": "blackroots7.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:13"
+                    },
+                    {
+                        "value": "luckyfavour2022.ddns.net",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "zingx1.ddns.net",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "donafriend.ddns.net",
+                        "timestamp": "2023-09-27 13:53:12"
+                    },
+                    {
+                        "value": "healings.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:12"
+                    },
+                    {
+                        "value": "wz-patient001.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:12"
+                    },
+                    {
+                        "value": "uhie2021.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:12"
+                    },
+                    {
+                        "value": "KTS666.PUBLICVM.COM",
+                        "timestamp": "2023-09-27 13:53:11"
+                    },
+                    {
+                        "value": "esureforme100.myddns.rocks",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "crossedward26.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:11"
+                    },
+                    {
+                        "value": "designed-nodes.at.ply.gg",
+                        "timestamp": "2023-09-27 13:53:11"
+                    },
+                    {
+                        "value": "maxcoopart80.ddns.net",
+                        "timestamp": "2023-09-27 13:53:11"
+                    },
+                    {
+                        "value": "xls.medicelcoolers.cn",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "waz.no-ip.ca",
+                        "timestamp": "2023-09-27 13:53:10"
+                    },
+                    {
+                        "value": "jamesxx.dynu.net",
+                        "timestamp": "2023-09-27 13:53:10"
+                    },
+                    {
+                        "value": "mit.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:10"
+                    },
+                    {
+                        "value": "newvic.myvnc.com",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "windowsupdate.ligrnan.com",
+                        "timestamp": "2023-09-27 13:53:10"
+                    },
+                    {
+                        "value": "jeffreyrobertsrnama.ddns.net",
+                        "timestamp": "2023-09-27 13:53:09"
+                    },
+                    {
+                        "value": "smila.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "tawk.duckdns.org",
+                        "timestamp": "2023-09-27 18:41:39"
+                    },
+                    {
+                        "value": "buzornn.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "putmein.zapto.org",
+                        "timestamp": "2023-09-27 13:53:08"
+                    },
+                    {
+                        "value": "gpent.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "fagbishop.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:08"
+                    },
+                    {
+                        "value": "gecisdiktatura.chickenkiller.com",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "8830.sygcarpets.com",
+                        "timestamp": "2023-09-27 13:53:07"
+                    },
+                    {
+                        "value": "ankarab.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "princsa.ddns.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "vodahelp.myvnc.com",
+                        "timestamp": "2023-09-27 13:53:07"
+                    },
+                    {
+                        "value": "speedfoxx1.hopto.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "crow1234.ddns.net",
+                        "timestamp": "2023-09-27 13:53:06"
+                    },
+                    {
+                        "value": "rasiones.ddns.net",
+                        "timestamp": "2023-09-27 13:53:06"
+                    },
+                    {
+                        "value": "rex1010.duckdns.org",
+                        "timestamp": "2023-10-23 01:00:32"
+                    },
+                    {
+                        "value": "tain77.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "renajazi.linkpc.net",
+                        "timestamp": "2023-09-27 13:53:06"
+                    },
+                    {
+                        "value": "mutaalofomaha.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "kkemopes.ddns.net",
+                        "timestamp": "2023-09-27 13:53:05"
+                    },
+                    {
+                        "value": "wapt.myhome-server.de",
+                        "timestamp": "2023-09-27 13:54:10"
+                    },
+                    {
+                        "value": "bugsy.ddnsgeek.com",
+                        "timestamp": "2023-09-27 13:53:05"
+                    },
+                    {
+                        "value": "thankme1.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "sapsurro.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "danseeeee.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "vieir.warzonedns.com",
+                        "timestamp": "2023-09-27 13:53:04"
+                    },
+                    {
+                        "value": "obilafia.giize.com",
+                        "timestamp": "2023-09-27 13:53:03"
+                    },
+                    {
+                        "value": "jeanellasimonsxxx.ddns.net",
+                        "timestamp": "2023-09-27 13:53:03"
+                    },
+                    {
+                        "value": "warz.viewdns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "online-3450.home-webserver.de",
+                        "timestamp": "2023-09-27 13:53:03"
+                    },
+                    {
+                        "value": "gds1733.my.to",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "favormelord.ddns.net",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "mailporty.ddns.net",
+                        "timestamp": "2023-09-27 13:53:02"
+                    },
+                    {
+                        "value": "ontmintuejio.sytes.net",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "willia2.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "trendyfela.myftp.biz",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "andronmatskiv20.sytes.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "genasispony.publicvm.com",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "taker1234.hopto.org",
+                        "timestamp": "2023-09-27 13:53:01"
+                    },
+                    {
+                        "value": "evet.mywire.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "mylab.wshrt.sbs",
+                        "timestamp": "2023-09-27 13:53:00"
+                    },
+                    {
+                        "value": "zoppw.mywire.org",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "6620.jianhong356.com",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "spamworzon.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "nonsomawardns.ddns.net",
+                        "timestamp": "2023-09-27 13:52:59"
+                    },
+                    {
+                        "value": "warzoneburky.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "boomooil.com",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "akubig1.ath.cx",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "1140.ninqshing.net",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "cachepallioniwarznpa.icu",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "group.loseyourip.com",
+                        "timestamp": "2023-09-27 13:52:58"
+                    },
+                    {
+                        "value": "2x5v.2p.fm",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "badnulls.warzonedns.com",
+                        "timestamp": "2023-09-27 13:52:58"
+                    },
+                    {
+                        "value": "esserc.ooguy.com",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "sanchuza.warzonedns.com",
+                        "timestamp": "2023-09-27 13:52:57"
+                    },
+                    {
+                        "value": "kaymt.ddns.net",
+                        "timestamp": "2023-09-27 13:52:57"
+                    },
+                    {
+                        "value": "glorylnter.hopto.org",
+                        "timestamp": "2023-09-27 13:52:57"
+                    },
+                    {
+                        "value": "hjjhjkk.ydns.eu",
+                        "timestamp": "2023-09-27 13:52:57"
+                    },
+                    {
+                        "value": "miner.fckinpwned.cn",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "myblessingsfor2022.ddns.net",
+                        "timestamp": "2023-09-27 13:52:56"
+                    },
+                    {
+                        "value": "netw.infiinite.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "nchijindu2.hopto.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "nyambe.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "windows.wshrt.sbs",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "toomuchego.ydns.eu",
+                        "timestamp": "2023-09-27 13:52:55"
+                    },
+                    {
+                        "value": "blessing.maximos.quest",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "update.aquaholic.dev",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "rootsec.linkpc.net",
+                        "timestamp": "2023-09-27 13:52:55"
+                    },
+                    {
+                        "value": "xpwarzonlin2.ddns.net",
+                        "timestamp": "2023-09-27 13:52:54"
+                    },
+                    {
+                        "value": "crossllc.ddns.net",
+                        "timestamp": "2023-09-27 13:52:54"
+                    },
+                    {
+                        "value": "jiaxin.ddns.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "morggy11.ooguy.com",
+                        "timestamp": "2023-09-27 13:52:56"
+                    },
+                    {
+                        "value": "wtwrrtxhssbqsm-fk.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:54"
+                    },
+                    {
+                        "value": "blasterblast.warzonedns.com",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "millionways.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:53"
+                    },
+                    {
+                        "value": "maulo.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "warnonmobina.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:53"
+                    },
+                    {
+                        "value": "p2.is-by.us",
+                        "timestamp": "2023-09-27 13:52:53"
+                    },
+                    {
+                        "value": "subwayblessings2022.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "panchak.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:53"
+                    },
+                    {
+                        "value": "hustle.treatwellshome.xyz",
+                        "timestamp": "2023-09-27 13:52:52"
+                    },
+                    {
+                        "value": "wz.servehttp.com",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "2c04mm.hopto.org",
+                        "timestamp": "2023-09-27 13:52:52"
+                    },
+                    {
+                        "value": "micasamiwedding.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "bigleaks3.ddns.net",
+                        "timestamp": "2023-09-27 13:52:52"
+                    },
+                    {
+                        "value": "xmowa.ddns.net",
+                        "timestamp": "2023-09-27 13:53:53"
+                    },
+                    {
+                        "value": "year2021best.mine.nu",
+                        "timestamp": "2023-11-20 19:36:41"
+                    },
+                    {
+                        "value": "santzo.warzonedns.com",
+                        "timestamp": "2023-09-27 13:52:51"
+                    },
+                    {
+                        "value": "richiealvin2021.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "war3785host.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "remote.msoftupdate.me",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "msdos.treatwellshome.xyz",
+                        "timestamp": "2023-09-27 13:52:51"
+                    },
+                    {
+                        "value": "avarian717.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:50"
+                    },
+                    {
+                        "value": "sirbanty.ddnsgeek.com",
+                        "timestamp": "2023-09-27 13:52:50"
+                    },
+                    {
+                        "value": "dezember22.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:50"
+                    },
+                    {
+                        "value": "pubg.ddns.net",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "xxxanonymoussom.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:50"
+                    },
+                    {
+                        "value": "subwaynovember4good.ddns.net",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "divy.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "amospete26.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:49"
+                    },
+                    {
+                        "value": "jevron.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:49"
+                    },
+                    {
+                        "value": "nestssow.ddns.net",
+                        "timestamp": "2023-09-27 13:52:49"
+                    },
+                    {
+                        "value": "kezlkelz.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:49"
+                    },
+                    {
+                        "value": "spicydojo.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "vigo147.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:48"
+                    },
+                    {
+                        "value": "santa.hopto.org",
+                        "timestamp": "2023-09-27 13:52:48"
+                    },
+                    {
+                        "value": "goldfiner.dyn-ip24.de",
+                        "timestamp": "2023-09-27 18:39:53"
+                    },
+                    {
+                        "value": "jenniferhong.publicvm.com",
+                        "timestamp": "2023-09-27 13:52:48"
+                    },
+                    {
+                        "value": "apiv1.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:48"
+                    },
+                    {
+                        "value": "brf1.secondaryservicelog.cloudns.cx",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "mubbibun.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:15"
+                    },
+                    {
+                        "value": "aeasc541ac56sa65c.hopto.org",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "uomz1.ddns.net",
+                        "timestamp": "2023-09-27 13:52:47"
+                    },
+                    {
+                        "value": "soft.maximos.quest",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "mvp.shzhouheng.com",
+                        "timestamp": "2023-09-27 13:52:47"
+                    },
+                    {
+                        "value": "maine007.hopto.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "weurtdgfjs.rapiddns.ru",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "nasas.dnsupdate.info",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "rodasiter.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:46"
+                    },
+                    {
+                        "value": "chezam.giize.com",
+                        "timestamp": "2023-09-27 13:52:46"
+                    },
+                    {
+                        "value": "ojo123.ddns.net",
+                        "timestamp": "2023-09-27 13:52:46"
+                    },
+                    {
+                        "value": "guiller.ddns.net",
+                        "timestamp": "2023-09-27 13:52:46"
+                    },
+                    {
+                        "value": "syncronize.3utilities.com",
+                        "timestamp": "2023-11-20 19:36:39"
+                    },
+                    {
+                        "value": "grekris.freeddns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "MYWARSWAR.ddnsfree.com",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "warsone.duckdns.org",
+                        "timestamp": "2023-09-27 18:40:45"
+                    },
+                    {
+                        "value": "moneybank.ddns.net",
+                        "timestamp": "2023-09-27 13:54:01"
+                    },
+                    {
+                        "value": "juner234.ddns.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "hussanmohammed.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "warvm.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "steam007.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:44"
+                    },
+                    {
+                        "value": "forcema002.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "meeti.hopto.org",
+                        "timestamp": "2023-09-27 18:42:56"
+                    },
+                    {
+                        "value": "adaisreal.ddns.net",
+                        "timestamp": "2023-11-20 19:36:30"
+                    },
+                    {
+                        "value": "testing1212.ddns.net",
+                        "timestamp": "2023-09-27 13:53:07"
+                    },
+                    {
+                        "value": "backup1212.ddns.net",
+                        "timestamp": "2023-09-27 13:53:41"
+                    },
+                    {
+                        "value": "bluemoon7.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:55"
+                    },
+                    {
+                        "value": "mcmac.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:17"
+                    },
+                    {
+                        "value": "jayurbf.gleeze.com",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "windnsch.freeddns.org",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "kashbilly.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "warzone.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "guest.maximos.quest",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "mynewserver2022.ddns.net",
+                        "timestamp": "2022-06-30 15:02:58"
+                    },
+                    {
+                        "value": "cusomtamon.freeddns.org",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "banta.ddns.net",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "mgc2090.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:36"
+                    },
+                    {
+                        "value": "zoneproess.duckdns.org",
+                        "timestamp": "2023-09-27 13:54:26"
+                    },
+                    {
+                        "value": "divine2022.duckdns.org",
+                        "timestamp": "2023-09-27 13:52:53"
+                    },
+                    {
+                        "value": "iphy.strangled.net",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "pentester01.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "godblessking.ddns.net",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "nweke.ddnsgeek.com",
+                        "timestamp": "2023-11-20 19:36:37"
+                    },
+                    {
+                        "value": "grace2nation.ddns.net",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "bakuzamokala.duckdns.org",
+                        "timestamp": "2022-04-04 20:55:14"
+                    },
+                    {
+                        "value": "hotboy01.ddns.net",
+                        "timestamp": "2023-09-27 13:53:43"
+                    },
+                    {
+                        "value": "verifysec0.myftp.biz",
+                        "timestamp": "2023-09-27 13:52:52"
+                    },
+                    {
+                        "value": "hafiznor336.duckdns.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "iphanyi.chickenkiller.com",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "iphanyi.webredirect.org",
+                        "timestamp": "2023-09-27 13:53:52"
+                    },
+                    {
+                        "value": "lefteriskkokkiskikinew.ydns.eu",
+                        "timestamp": "2022-01-19 01:59:57"
+                    },
+                    {
+                        "value": "buy.teamviewsoft.com",
+                        "timestamp": "2023-09-27 13:53:45"
+                    },
+                    {
+                        "value": "blaq.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:31"
+                    },
+                    {
+                        "value": "nan.ydns.eu",
+                        "timestamp": "2023-09-27 13:53:05"
+                    },
+                    {
+                        "value": "diamante.mywire.org",
+                        "timestamp": "2022-01-19 01:59:56"
+                    },
+                    {
+                        "value": "lionleee.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "rtyui.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:38"
+                    },
+                    {
+                        "value": "lionlee.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "latua.nsupdate.info",
+                        "timestamp": "2023-11-20 19:36:35"
+                    },
+                    {
+                        "value": "fghj.nerdpol.ovh",
+                        "timestamp": "2023-11-20 19:36:33"
+                    },
+                    {
+                        "value": "jerenyankipong.duckdns.org",
+                        "timestamp": "2023-09-27 13:53:28"
+                    },
+                    {
+                        "value": "newmanserverug.ddns.net",
+                        "timestamp": "2023-09-27 13:54:19"
+                    },
+                    {
+                        "value": "huhuhu.ooguy.com",
+                        "timestamp": "2023-09-27 13:54:04"
+                    },
+                    {
+                        "value": "darkworldblackerlocker.dumb1.com",
+                        "timestamp": "2023-11-20 19:36:32"
+                    },
+                    {
+                        "value": "enginekeysmoney.ddns.net",
+                        "timestamp": "2023-09-27 13:53:29"
+                    },
+                    {
+                        "value": "membership.myddns.rocks",
+                        "timestamp": "2023-09-27 13:53:28"
+                    },
+                    {
+                        "value": "warzonepw.ddns.net",
+                        "timestamp": "2023-11-20 19:36:40"
+                    },
+                    {
+                        "value": "googleservers.org",
+                        "timestamp": "2023-11-20 19:36:34"
+                    },
+                    {
+                        "value": "princekelvin.ddns.net",
+                        "timestamp": "2023-09-27 13:54:17"
+                    }
+                ],
                 "url": [
                     {
                         "value": "http://51.79.49.73/crc/Play.exe",
@@ -10079,10 +10339,65 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-30 22:19:58",
+    "last_ioc_update": "2023-11-30 19:15:11",
     "file_name": "ave_maria",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.cisa.gov/sites/default/files/2023-11/aa23-320a_scattered_spider.pdf",
+            "date": "2023-11-16",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Scattered Spider",
+            "categories": [
+                "BlackCat",
+                "Ave Maria",
+                "Raccoon",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
+            "date": "2023-11-16",
+            "organization": "CISA",
+            "author": "CISA",
+            "title": "Scattered Spider",
+            "categories": [
+                "Ave Maria",
+                "BlackCat",
+                "Raccoon",
+                "Vidar"
+            ]
+        },
+        {
+            "data_url": "https://info.spamhaus.com/hubfs/Botnet%20Reports/2023%20Q3%20Botnet%20Threat%20Update.pdf",
+            "date": "2023-10-12",
+            "organization": "Spamhaus",
+            "author": "Spamhaus Malware Labs",
+            "title": "Spamhaus Botnet Threat Update Q3 2023",
+            "categories": [
+                "FluBot",
+                "AsyncRAT",
+                "Ave Maria",
+                "Cobalt Strike",
+                "DCRat",
+                "Havoc",
+                "IcedID",
+                "ISFB",
+                "Nanocore RAT",
+                "NjRAT",
+                "QakBot",
+                "Quasar RAT",
+                "RecordBreaker",
+                "RedLine Stealer",
+                "Remcos",
+                "Rhadamanthys",
+                "Sliver",
+                "Stealc",
+                "Tofsee",
+                "Vidar"
+            ]
+        },
         {
             "data_url": "https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4",
             "date": "2023-09-08",

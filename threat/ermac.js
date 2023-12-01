@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "ERMAC",
     "category": "Malware",
     "type": "Banking trojan, Backdoor, Info stealer, Credential stealer, Botnet",
-    "modified": "2023-02-15",
+    "modified": "2023-10-03",
     "all_data": {
         "tool": "ERMAC",
         "names": [
@@ -38,17 +38,69 @@ var threatdata = {
             "malware_printable": "ERMAC",
             "malware_alias": null,
             "malware": "apk.ermac",
-            "last_update": "2023-09-06 13:29:54",
+            "last_update": "2023-11-25 13:39:41",
             "tags": [
+                "ERMAC 3.0",
+                "censys",
+                "STARK-INDUSTRIES",
+                "HOOKBOT",
+                "Android",
+                "c2",
+                "ERMAC",
+                "HOOKBOT PANEL",
                 "C2Panel",
                 "C2",
-                "ERMAC 3.0",
-                "Android",
-                "ERMAC",
-                "HOOKBOT PANEL"
+                "ADMAN-AS",
+                "LIMENET"
             ],
             "ioc": {
+                "url": [
+                    {
+                        "value": "http://89.116.227.245/",
+                        "timestamp": "2023-11-25 13:39:41"
+                    },
+                    {
+                        "value": "http://79.137.207.52/",
+                        "timestamp": "2023-11-24 17:31:37"
+                    },
+                    {
+                        "value": "http://91.222.236.50/",
+                        "timestamp": "2023-11-24 15:51:00"
+                    },
+                    {
+                        "value": "http://84.32.214.56",
+                        "timestamp": "2023-09-06 13:29:53"
+                    },
+                    {
+                        "value": "http://185.225.75.134",
+                        "timestamp": "2023-08-26 07:12:11"
+                    },
+                    {
+                        "value": "http://91.228.10.228/",
+                        "timestamp": "2023-07-14 06:57:40"
+                    },
+                    {
+                        "value": "http://91.215.85.213/",
+                        "timestamp": "2023-07-14 06:50:50"
+                    }
+                ],
                 "ip:port": [
+                    {
+                        "value": "91.92.246.222:80",
+                        "timestamp": "2023-11-09 04:05:44"
+                    },
+                    {
+                        "value": "91.92.240.173:8082",
+                        "timestamp": "2023-11-04 19:32:33"
+                    },
+                    {
+                        "value": "94.131.111.119:80",
+                        "timestamp": "2023-11-01 14:04:36"
+                    },
+                    {
+                        "value": "82.147.85.136:80",
+                        "timestamp": "2023-10-14 10:16:50"
+                    },
                     {
                         "value": "84.32.214.56:3434",
                         "timestamp": "2023-09-06 13:29:54"
@@ -90,31 +142,41 @@ var threatdata = {
                         "timestamp": "2022-08-29 16:24:57"
                     }
                 ],
-                "url": [
+                "domain": [
                     {
-                        "value": "http://84.32.214.56",
-                        "timestamp": "2023-09-06 13:29:53"
+                        "value": "whereisyoursnewtoporder.com",
+                        "timestamp": "2023-10-09 16:24:52"
                     },
                     {
-                        "value": "http://185.225.75.134",
-                        "timestamp": "2023-08-26 07:12:11"
+                        "value": "whereisyours-toporder.com",
+                        "timestamp": "2023-10-09 16:24:52"
                     },
                     {
-                        "value": "http://91.228.10.228/",
-                        "timestamp": "2023-07-14 06:57:40"
+                        "value": "82-147-85-84.networktube.net",
+                        "timestamp": "2023-10-09 16:24:52"
                     },
                     {
-                        "value": "http://91.215.85.213/",
-                        "timestamp": "2023-07-14 06:50:50"
+                        "value": "serene-leakey.193-149-129-7.plesk.page",
+                        "timestamp": "2023-10-09 16:24:52"
                     }
                 ]
             }
         }
     ],
-    "last_ioc_update": "2023-09-06 13:29:54",
+    "last_ioc_update": "2023-11-25 13:39:41",
     "file_name": "ermac",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://twitter.com/ShilpeshTrivedi/status/1709096404835356883",
+            "date": "2023-10-03",
+            "organization": "Twitter (@ShilpeshTrivedi)",
+            "author": "Shilpesh Trivedi",
+            "title": "Tweet about possible Rebranding/Deriviate for ERMAC called Rusty Droid",
+            "categories": [
+                "ERMAC"
+            ]
+        },
         {
             "data_url": "https://www.threatfabric.com/blogs/zombinder-ermac-and-desktop-stealers.html",
             "date": "2022-12-08",

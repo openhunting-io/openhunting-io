@@ -56,34 +56,41 @@ var threatdata = {
             "malware_printable": "Formbook",
             "malware_alias": "win.xloader",
             "malware": "win.formbook",
-            "last_update": "2023-09-21 15:11:18",
+            "last_update": "2023-11-08 16:17:01",
             "tags": [
-                "s0s2",
-                "xloader",
-                "xmrig",
-                "TempleLoader",
-                "opendir",
-                "pzb5",
-                "stealer",
-                "gh0n",
-                "FormBook",
-                "malspam",
-                "qugo",
-                "DMG",
-                "\u4e0d\u5be9\u30e1\u30fc\u30eb",
-                "Guloader",
-                "Formbook",
-                "rtf",
-                "Xloader",
-                "nqs9",
                 "exe",
-                "dropped-by-GuLoader",
+                "BitRAT",
+                "Xloader",
+                "pzb5",
+                "cloudflare",
+                "US",
+                "rtf",
+                "Formbook",
                 "8o3b",
+                "xmrig",
+                "dropped-by-GuLoader",
+                "s0s2",
+                "DMG",
+                "malspam",
+                "c2",
+                "FormBook",
+                "\u4e0d\u5be9\u30e1\u30fc\u30eb",
+                "gh0n",
+                "stealer",
+                "TempleLoader",
+                "Guloader",
+                "xloader",
                 "formbook",
-                "BitRAT"
+                "nqs9",
+                "opendir",
+                "qugo"
             ],
             "ioc": {
                 "domain": [
+                    {
+                        "value": "zang1.almashreaq.top",
+                        "timestamp": "2023-11-08 16:17:01"
+                    },
                     {
                         "value": "vrezvrez.com",
                         "timestamp": "2023-09-21 15:11:18"
@@ -13759,7 +13766,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-21 15:11:18",
+    "last_ioc_update": "2023-11-08 16:17:01",
     "file_name": "formbook",
     "analysis": null,
     "articles": [

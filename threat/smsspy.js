@@ -34,17 +34,17 @@ var threatdata = {
             "malware": "apk.smsspy",
             "last_update": "2022-08-14 11:07:54",
             "tags": [
-                "Spyware",
-                "malware",
                 "android",
+                "spy",
+                "Spyware",
                 "Phishing",
+                "malware",
                 "spyware",
+                "iran",
                 "Android",
                 "smsspy",
-                "phishing",
-                "spy",
                 "apk",
-                "iran",
+                "phishing",
                 "sms"
             ],
             "ioc": {

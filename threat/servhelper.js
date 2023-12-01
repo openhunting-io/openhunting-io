@@ -43,8 +43,8 @@ var threatdata = {
             "last_update": "2021-12-18 08:10:07",
             "tags": [
                 "servhelper",
-                "ServHelper",
-                "ServHelpe"
+                "ServHelpe",
+                "ServHelper"
             ],
             "ioc": {
                 "domain": [

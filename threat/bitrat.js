@@ -38,25 +38,74 @@ var threatdata = {
             "malware_printable": "BitRAT",
             "malware_alias": null,
             "malware": "win.bit_rat",
-            "last_update": "2023-09-27 22:00:12",
+            "last_update": "2023-11-28 21:03:04",
             "tags": [
-                "c2",
-                "historicalandnew",
-                "RAT",
-                "BitRat",
-                "Port8092",
+                "censys",
                 "exe",
-                "iso",
                 "DbatLoader",
-                "ModiLoader",
-                "AsyncRAT",
-                "zip",
-                "xenarmor",
+                "RAT",
+                "iso",
                 "BitRAT",
-                "bitrat"
+                "PRIVACYFIRST",
+                "bitrat",
+                "Port8092",
+                "BitRat",
+                "xenarmor",
+                "ModiLoader",
+                "c2",
+                "zip",
+                "historicalandnew",
+                "AS_DELIS",
+                "SERVERIUS-AS",
+                "AsyncRAT",
+                "C2"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "185.31.111.198:25001",
+                        "timestamp": "2023-11-21 15:08:01"
+                    },
+                    {
+                        "value": "185.157.162.241:1302",
+                        "timestamp": "2023-11-21 15:08:01"
+                    },
+                    {
+                        "value": "213.142.151.240:8181",
+                        "timestamp": "2023-11-09 13:08:13"
+                    },
+                    {
+                        "value": "179.43.142.55:1995",
+                        "timestamp": "2023-10-30 05:26:56"
+                    },
+                    {
+                        "value": "2.59.254.205:9005",
+                        "timestamp": "2023-10-29 18:06:27"
+                    },
+                    {
+                        "value": "2.59.254.206:9005",
+                        "timestamp": "2023-10-29 18:06:25"
+                    },
+                    {
+                        "value": "2.59.254.206:2022",
+                        "timestamp": "2023-10-26 12:12:41"
+                    },
+                    {
+                        "value": "2.59.254.205:2022",
+                        "timestamp": "2023-10-25 11:54:06"
+                    },
+                    {
+                        "value": "46.175.146.21:9300",
+                        "timestamp": "2023-10-19 02:58:46"
+                    },
+                    {
+                        "value": "194.147.140.172:9300",
+                        "timestamp": "2023-10-19 02:58:46"
+                    },
+                    {
+                        "value": "193.42.32.25:1234",
+                        "timestamp": "2023-10-19 02:58:45"
+                    },
                     {
                         "value": "95.217.41.220:443",
                         "timestamp": "2023-09-27 22:00:12"
@@ -423,11 +472,11 @@ var threatdata = {
                     },
                     {
                         "value": "199.127.60.151:8889",
-                        "timestamp": "2023-09-05 01:20:20"
+                        "timestamp": "2023-11-28 21:03:04"
                     },
                     {
                         "value": "104.223.91.190:1234",
-                        "timestamp": "2023-09-10 20:57:18"
+                        "timestamp": "2023-10-29 18:06:24"
                     },
                     {
                         "value": "47.87.136.103:400",
@@ -1908,6 +1957,18 @@ var threatdata = {
                 ],
                 "domain": [
                     {
+                        "value": "adata.hopto.org",
+                        "timestamp": "2023-11-21 15:00:44"
+                    },
+                    {
+                        "value": "bitnow7005.duckdns.org",
+                        "timestamp": "2023-10-30 05:26:56"
+                    },
+                    {
+                        "value": "ip-2-56-212-66-82743.vps.hosted-by-mvps.net",
+                        "timestamp": "2023-10-19 02:58:45"
+                    },
+                    {
                         "value": "xdjnibkfm366vswudhfwb5gaihqxkxvov7q6gv3fqcm3bw46b5rydsqd.onion",
                         "timestamp": "2023-09-10 20:59:17"
                     },
@@ -1921,7 +1982,7 @@ var threatdata = {
                     },
                     {
                         "value": "eichelberger.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:18"
+                        "timestamp": "2023-11-20 19:36:33"
                     },
                     {
                         "value": "gfeqqgeag.duckdns.org",
@@ -2021,7 +2082,7 @@ var threatdata = {
                     },
                     {
                         "value": "xpert.dyndns.biz",
-                        "timestamp": "2023-09-10 22:38:23"
+                        "timestamp": "2023-11-26 13:26:56"
                     },
                     {
                         "value": "gordon6.hopto.org",
@@ -2213,7 +2274,7 @@ var threatdata = {
                     },
                     {
                         "value": "engkaa.ddns.net",
-                        "timestamp": "2023-09-27 13:53:24"
+                        "timestamp": "2023-11-20 19:36:33"
                     },
                     {
                         "value": "bit9090.duckdns.org",
@@ -2317,7 +2378,7 @@ var threatdata = {
                     },
                     {
                         "value": "sheet.duckdns.org",
-                        "timestamp": "2023-09-27 13:52:47"
+                        "timestamp": "2023-11-20 19:36:39"
                     },
                     {
                         "value": "privatelayer.ddnsgeek.com",
@@ -2461,7 +2522,7 @@ var threatdata = {
                     },
                     {
                         "value": "winwin76997708nk.awsmppl.com",
-                        "timestamp": "2023-09-27 13:53:37"
+                        "timestamp": "2023-11-20 19:36:40"
                     },
                     {
                         "value": "regidis.mooo.com",
@@ -2513,7 +2574,7 @@ var threatdata = {
                     },
                     {
                         "value": "reyhrwwet4y.duckdns.org",
-                        "timestamp": "2023-09-25 11:28:59"
+                        "timestamp": "2023-11-07 13:20:03"
                     },
                     {
                         "value": "biret.linkpc.net",
@@ -2665,7 +2726,7 @@ var threatdata = {
                     },
                     {
                         "value": "windows.theworkpc.com",
-                        "timestamp": "2023-09-10 20:58:58"
+                        "timestamp": "2023-11-21 14:46:16"
                     },
                     {
                         "value": "yosire.duckdns.org",
@@ -3799,7 +3860,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-27 22:00:12",
+    "last_ioc_update": "2023-11-28 21:03:04",
     "file_name": "bitrat",
     "analysis": null,
     "articles": [

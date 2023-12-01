@@ -8,116 +8,220 @@ const suggestions = [
         "url": "threat-library-detail?data=cobalt_strike"
     },
     {
-        "text": "Amadey (Amadey)",
-        "url": "threat-library-detail?data=amadey"
-    },
-    {
-        "text": "AZORult (AZORult, PuffStealer, Rultazo)",
-        "url": "threat-library-detail?data=azorult"
-    },
-    {
-        "text": "TeamSpy (TeamSpy, TVSpy, TVRAT, SpY-Agent, TeamViewerENT)",
-        "url": "threat-library-detail?data=teamspy"
-    },
-    {
         "text": "Agent Tesla (Agent Tesla, AgentTesla, AgenTesla, Origin Logger, Negasteal)",
         "url": "threat-library-detail?data=agent_tesla"
     },
     {
-        "text": "VIDAR (VIDAR)",
-        "url": "threat-library-detail?data=vidar"
+        "text": "Amadey (Amadey)",
+        "url": "threat-library-detail?data=amadey"
     },
     {
-        "text": "Meterpreter (Meterpreter)",
-        "url": "threat-library-detail?data=meterpreter"
-    },
-    {
-        "text": "Sliver (Sliver)",
-        "url": "threat-library-detail?data=sliver"
-    },
-    {
-        "text": "DarkCrystal RAT (DarkCrystal RAT, DCRat)",
-        "url": "threat-library-detail?data=darkcrystal_rat"
-    },
-    {
-        "text": "Get2 (Get2, FRIENDSPEAK, GetandGo)",
-        "url": "threat-library-detail?data=get2"
-    },
-    {
-        "text": "Responder (Responder, SpiderLabs Responder)",
-        "url": "threat-library-detail?data=responder"
-    },
-    {
-        "text": "BumbleBee (BumbleBee)",
-        "url": "threat-library-detail?data=bumblebee"
-    },
-    {
-        "text": "AsyncRAT (AsyncRAT)",
-        "url": "threat-library-detail?data=asyncrat"
-    },
-    {
-        "text": "Ave Maria (Ave Maria, AVE_MARIA, AveMariaRAT, avemaria)",
-        "url": "threat-library-detail?data=ave_maria"
-    },
-    {
-        "text": "ExoBot (ExoBot)",
-        "url": "threat-library-detail?data=exobot"
-    },
-    {
-        "text": "NanoCore RAT (NanoCore RAT, NanoCore, Nancrat, Zurten, Atros2.CKPN)",
-        "url": "threat-library-detail?data=nanocore_rat"
-    },
-    {
-        "text": "njRAT (njRAT, Bladabindi, Jorik)",
-        "url": "threat-library-detail?data=njrat"
-    },
-    {
-        "text": "Vjw0rm (Vjw0rm, Vengeance Justice Worm)",
-        "url": "threat-library-detail?data=vjw0rm"
-    },
-    {
-        "text": "BitRAT (BitRAT)",
-        "url": "threat-library-detail?data=bitrat"
-    },
-    {
-        "text": "Gozi (Gozi, CRM, Gozi CRM, Papras, Ursnif, Snifula)",
-        "url": "threat-library-detail?data=gozi"
-    },
-    {
-        "text": "NetWire RC (NetWire RC, NetWire RAT, NetWired RC, NetWire, NetWeird, Recam)",
-        "url": "threat-library-detail?data=netwire_rc"
-    },
-    {
-        "text": "LimeRAT (LimeRAT)",
-        "url": "threat-library-detail?data=limerat"
+        "text": "VBREVSHELL (VBREVSHELL)",
+        "url": "threat-library-detail?data=vbrevshell"
     },
     {
         "text": "BlackNET RAT (BlackNET RAT)",
         "url": "threat-library-detail?data=blacknet_rat"
     },
     {
+        "text": "BumbleBee (BumbleBee)",
+        "url": "threat-library-detail?data=bumblebee"
+    },
+    {
+        "text": "njRAT (njRAT, Bladabindi, Jorik)",
+        "url": "threat-library-detail?data=njrat"
+    },
+    {
+        "text": "DarkCrystal RAT (DarkCrystal RAT, DCRat)",
+        "url": "threat-library-detail?data=darkcrystal_rat"
+    },
+    {
+        "text": "Sliver (Sliver)",
+        "url": "threat-library-detail?data=sliver"
+    },
+    {
+        "text": "QakBot (QakBot, QuakBot, QuackBot, Qbot, PinkSlip, Pinkslipbot, Oakboat)",
+        "url": "threat-library-detail?data=qakbot"
+    },
+    {
+        "text": "AsyncRAT (AsyncRAT)",
+        "url": "threat-library-detail?data=asyncrat"
+    },
+    {
+        "text": "Meterpreter (Meterpreter)",
+        "url": "threat-library-detail?data=meterpreter"
+    },
+    {
+        "text": "SharkBot (SharkBot)",
+        "url": "threat-library-detail?data=sharkbot"
+    },
+    {
+        "text": "NanoCore RAT (NanoCore RAT, NanoCore, Nancrat, Zurten, Atros2.CKPN)",
+        "url": "threat-library-detail?data=nanocore_rat"
+    },
+    {
+        "text": "VIDAR (VIDAR)",
+        "url": "threat-library-detail?data=vidar"
+    },
+    {
+        "text": "Responder (Responder, SpiderLabs Responder)",
+        "url": "threat-library-detail?data=responder"
+    },
+    {
+        "text": "SystemBC (SystemBC, Coroxy)",
+        "url": "threat-library-detail?data=systembc"
+    },
+    {
+        "text": "DarkComet (DarkComet, DarkKomet, Fynloski, FYNLOS, klovbot, Krademok, Breut)",
+        "url": "threat-library-detail?data=darkcomet"
+    },
+    {
+        "text": "AZORult (AZORult, PuffStealer, Rultazo)",
+        "url": "threat-library-detail?data=azorult"
+    },
+    {
+        "text": "Ave Maria (Ave Maria, AVE_MARIA, AveMariaRAT, avemaria)",
+        "url": "threat-library-detail?data=ave_maria"
+    },
+    {
         "text": "RMS (RMS, Remote Manipulator System, Gussdoor)",
         "url": "threat-library-detail?data=rms"
     },
     {
-        "text": "Mekotio (Mekotio, Metamorfo, Casbaneiro)",
-        "url": "threat-library-detail?data=mekotio"
+        "text": "Get2 (Get2, FRIENDSPEAK, GetandGo)",
+        "url": "threat-library-detail?data=get2"
+    },
+    {
+        "text": "Crimson RAT (Crimson RAT, Crimson, SEEDOOR, Scarimson, MSIL, MSIL/Crimson)",
+        "url": "threat-library-detail?data=crimson_rat"
+    },
+    {
+        "text": "PlugX (PlugX, Destroy RAT, DestroyRAT, Korplug, Sogu, Kaba, Xamtrav, Agent.dhwf, RedDelta, TIGERPLUG, Thoper, TVT)",
+        "url": "threat-library-detail?data=plugx"
+    },
+    {
+        "text": "BitRAT (BitRAT)",
+        "url": "threat-library-detail?data=bitrat"
     },
     {
         "text": "Orcus RAT (Orcus RAT, Orcus, Schnorchel)",
         "url": "threat-library-detail?data=orcus_rat"
     },
     {
+        "text": "Gozi (Gozi, CRM, Gozi CRM, Papras, Ursnif, Snifula)",
+        "url": "threat-library-detail?data=gozi"
+    },
+    {
+        "text": "ERMAC (ERMAC)",
+        "url": "threat-library-detail?data=ermac"
+    },
+    {
+        "text": "Poison Ivy (Poison Ivy, pivy, poisonivy, Gen:Trojan.Heur.PT, Darkmoon, Chymine, SPIVY)",
+        "url": "threat-library-detail?data=poison_ivy"
+    },
+    {
+        "text": "Vjw0rm (Vjw0rm, Vengeance Justice Worm)",
+        "url": "threat-library-detail?data=vjw0rm"
+    },
+    {
+        "text": "Ares (Ares)",
+        "url": "threat-library-detail?data=ares"
+    },
+    {
+        "text": "PoshC2 (PoshC2)",
+        "url": "threat-library-detail?data=poshc2"
+    },
+    {
+        "text": "Grandoreiro (Grandoreiro)",
+        "url": "threat-library-detail?data=grandoreiro"
+    },
+    {
+        "text": "NetWire RC (NetWire RC, NetWire RAT, NetWired RC, NetWire, NetWeird, Recam)",
+        "url": "threat-library-detail?data=netwire_rc"
+    },
+    {
+        "text": "TeamSpy (TeamSpy, TVSpy, TVRAT, SpY-Agent, TeamViewerENT)",
+        "url": "threat-library-detail?data=teamspy"
+    },
+    {
         "text": "BazarBackdoor (BazarBackdoor, BazarLoader, BEERBOT, BazarCall, KEGTAP, Team9Backdoor, bazaloader)",
         "url": "threat-library-detail?data=bazarbackdoor"
+    },
+    {
+        "text": "XMRig (XMRig)",
+        "url": "threat-library-detail?data=xmrig"
+    },
+    {
+        "text": "DanaBot (DanaBot)",
+        "url": "threat-library-detail?data=danabot"
+    },
+    {
+        "text": "Loda (Loda, Loda RAT, LodaRAT, Nymeria)",
+        "url": "threat-library-detail?data=loda"
+    },
+    {
+        "text": "Mekotio (Mekotio, Metamorfo, Casbaneiro)",
+        "url": "threat-library-detail?data=mekotio"
     },
     {
         "text": "Formbook (Formbook, win.xloader)",
         "url": "threat-library-detail?data=formbook"
     },
     {
-        "text": "Crimson RAT (Crimson RAT, Crimson, SEEDOOR, Scarimson, MSIL, MSIL/Crimson)",
-        "url": "threat-library-detail?data=crimson_rat"
+        "text": "Sakula RAT (Sakula RAT, Sakula, Sakurel, VIPER)",
+        "url": "threat-library-detail?data=sakula_rat"
+    },
+    {
+        "text": "Pony (Pony, Pony Loader, Siplog, Fareit)",
+        "url": "threat-library-detail?data=pony"
+    },
+    {
+        "text": "LimeRAT (LimeRAT)",
+        "url": "threat-library-detail?data=limerat"
+    },
+    {
+        "text": "FlawedAmmyy (FlawedAmmyy, AmmyyRAT)",
+        "url": "threat-library-detail?data=flawedammyy"
+    },
+    {
+        "text": "Sality (Sality, Sector, Kuku, SalLoad, Kookoo, SaliCode, Kukacka)",
+        "url": "threat-library-detail?data=sality"
+    },
+    {
+        "text": "Raspberry Robin (Raspberry Robin, RaspberryRobin, LINK_MSIEXEC, QNAP-Worm)",
+        "url": "threat-library-detail?data=raspberry_robin"
+    },
+    {
+        "text": "SideWinder, Rattlesnake (SideWinder, Rattlesnake, Razor Tiger, T-APT-04, APT-C-17, Hardcore Nationalist, HN2, APT-Q-39, BabyElephant, GroupA21)",
+        "url": "threat-library-detail?data=sidewinder_rattlesnake"
+    },
+    {
+        "text": "ReverseRAT (ReverseRAT)",
+        "url": "threat-library-detail?data=reverserat"
+    },
+    {
+        "text": "DarkVNC (DarkVNC)",
+        "url": "threat-library-detail?data=darkvnc"
+    },
+    {
+        "text": "SparkRAT (SparkRAT)",
+        "url": "threat-library-detail?data=sparkrat"
+    },
+    {
+        "text": "DOGCALL (DOGCALL)",
+        "url": "threat-library-detail?data=dogcall"
+    },
+    {
+        "text": "RokRAT (RokRAT)",
+        "url": "threat-library-detail?data=rokrat"
+    },
+    {
+        "text": "Magecart (Magecart)",
+        "url": "threat-library-detail?data=magecart"
+    },
+    {
+        "text": "ExoBot (ExoBot)",
+        "url": "threat-library-detail?data=exobot"
     },
     {
         "text": "Bisonal (Bisonal, Korlia)",
@@ -136,32 +240,12 @@ const suggestions = [
         "url": "threat-library-detail?data=godfather"
     },
     {
-        "text": "Pony (Pony, Pony Loader, Siplog, Fareit)",
-        "url": "threat-library-detail?data=pony"
-    },
-    {
-        "text": "SystemBC (SystemBC, Coroxy)",
-        "url": "threat-library-detail?data=systembc"
-    },
-    {
         "text": "Cerberus (Cerberus)",
         "url": "threat-library-detail?data=cerberus"
     },
     {
         "text": "Konni (Konni)",
         "url": "threat-library-detail?data=konni"
-    },
-    {
-        "text": "DOGCALL (DOGCALL)",
-        "url": "threat-library-detail?data=dogcall"
-    },
-    {
-        "text": "RokRAT (RokRAT)",
-        "url": "threat-library-detail?data=rokrat"
-    },
-    {
-        "text": "DarkComet (DarkComet, DarkKomet, Fynloski, FYNLOS, klovbot, Krademok, Breut)",
-        "url": "threat-library-detail?data=darkcomet"
     },
     {
         "text": "LokiBot (LokiBot, Loki, LokiPWS, Loki.Rat, ForeIT)",
@@ -176,14 +260,6 @@ const suggestions = [
         "url": "threat-library-detail?data=silence_contract_crew"
     },
     {
-        "text": "Loda (Loda, Loda RAT, LodaRAT, Nymeria)",
-        "url": "threat-library-detail?data=loda"
-    },
-    {
-        "text": "SparkRAT (SparkRAT)",
-        "url": "threat-library-detail?data=sparkrat"
-    },
-    {
         "text": "Adwind (Adwind, Adwind RAT, Frutas, jFrutas, UnReCoM, Alien Spy, AlienSpy, JSocket, Sockrat, jBiFrost, JBifrost RAT, Unknown RAT, jConnectPro RAT, Unrecom, Trojan.Maljava)",
         "url": "threat-library-detail?data=adwind"
     },
@@ -192,40 +268,16 @@ const suggestions = [
         "url": "threat-library-detail?data=emotet"
     },
     {
-        "text": "ERMAC (ERMAC)",
-        "url": "threat-library-detail?data=ermac"
-    },
-    {
         "text": "Spyder (Spyder)",
         "url": "threat-library-detail?data=spyder"
-    },
-    {
-        "text": "Magecart (Magecart)",
-        "url": "threat-library-detail?data=magecart"
-    },
-    {
-        "text": "QakBot (QakBot, QuakBot, QuackBot, Qbot, PinkSlip, Pinkslipbot, Oakboat)",
-        "url": "threat-library-detail?data=qakbot"
-    },
-    {
-        "text": "XMRig (XMRig)",
-        "url": "threat-library-detail?data=xmrig"
     },
     {
         "text": "TrickBot (TrickBot, Trickster, The Trick, TheTrick, Totbrick, TrickLoader, TSPY_TRICKLOAD)",
         "url": "threat-library-detail?data=trickbot"
     },
     {
-        "text": "SideWinder, Rattlesnake (SideWinder, Rattlesnake, Razor Tiger, T-APT-04, APT-C-17, Hardcore Nationalist, HN2, APT-Q-39, BabyElephant, GroupA21)",
-        "url": "threat-library-detail?data=sidewinder_rattlesnake"
-    },
-    {
         "text": "Mimikatz (Mimikatz)",
         "url": "threat-library-detail?data=mimikatz"
-    },
-    {
-        "text": "DarkVNC (DarkVNC)",
-        "url": "threat-library-detail?data=darkvnc"
     },
     {
         "text": "DIRTCLEANER (DIRTCLEANER, CCleaner Backdoor)",
@@ -236,20 +288,8 @@ const suggestions = [
         "url": "threat-library-detail?data=bandook"
     },
     {
-        "text": "SharkBot (SharkBot)",
-        "url": "threat-library-detail?data=sharkbot"
-    },
-    {
-        "text": "DanaBot (DanaBot)",
-        "url": "threat-library-detail?data=danabot"
-    },
-    {
         "text": "TinyNuke (TinyNuke, NukeBot, Nuclear Bot, MicroBankingTrojan, Xbot)",
         "url": "threat-library-detail?data=tinynuke"
-    },
-    {
-        "text": "Grandoreiro (Grandoreiro)",
-        "url": "threat-library-detail?data=grandoreiro"
     },
     {
         "text": "HyperBro (HyperBro)",
@@ -262,10 +302,6 @@ const suggestions = [
     {
         "text": "Bahamut (Bahamut)",
         "url": "threat-library-detail?data=bahamut"
-    },
-    {
-        "text": "Raspberry Robin (Raspberry Robin, RaspberryRobin, LINK_MSIEXEC, QNAP-Worm)",
-        "url": "threat-library-detail?data=raspberry_robin"
     },
     {
         "text": "LockBit (LockBit, ABCD Ransomware, LockBit Black)",
@@ -300,10 +336,6 @@ const suggestions = [
         "url": "threat-library-detail?data=conti"
     },
     {
-        "text": "PlugX (PlugX, Destroy RAT, DestroyRAT, Korplug, Sogu, Kaba, Xamtrav, Agent.dhwf, RedDelta, TIGERPLUG, Thoper, TVT)",
-        "url": "threat-library-detail?data=plugx"
-    },
-    {
         "text": "Xenomorph (Xenomorph)",
         "url": "threat-library-detail?data=xenomorph"
     },
@@ -326,10 +358,6 @@ const suggestions = [
     {
         "text": "Colibri Loader (Colibri Loader)",
         "url": "threat-library-detail?data=colibri_loader"
-    },
-    {
-        "text": "ReverseRAT (ReverseRAT)",
-        "url": "threat-library-detail?data=reverserat"
     },
     {
         "text": "Titan (Titan)",
@@ -362,18 +390,6 @@ const suggestions = [
     {
         "text": "CryptoLocker (CryptoLocker)",
         "url": "threat-library-detail?data=cryptolocker"
-    },
-    {
-        "text": "PoshC2 (PoshC2)",
-        "url": "threat-library-detail?data=poshc2"
-    },
-    {
-        "text": "Poison Ivy (Poison Ivy, pivy, poisonivy, Gen:Trojan.Heur.PT, Darkmoon, Chymine, SPIVY)",
-        "url": "threat-library-detail?data=poison_ivy"
-    },
-    {
-        "text": "Ares (Ares)",
-        "url": "threat-library-detail?data=ares"
     },
     {
         "text": "ZeroCleare (ZeroCleare)",
@@ -564,10 +580,6 @@ const suggestions = [
         "url": "threat-library-detail?data=zeus"
     },
     {
-        "text": "Sality (Sality, Sector, Kuku, SalLoad, Kookoo, SaliCode, Kukacka)",
-        "url": "threat-library-detail?data=sality"
-    },
-    {
         "text": "RDAT (RDAT, GREYSTUFF)",
         "url": "threat-library-detail?data=rdat"
     },
@@ -622,10 +634,6 @@ const suggestions = [
     {
         "text": "Imminent Monitor RAT (Imminent Monitor RAT, Imminent Monitor)",
         "url": "threat-library-detail?data=imminent_monitor_rat"
-    },
-    {
-        "text": "FlawedAmmyy (FlawedAmmyy, AmmyyRAT)",
-        "url": "threat-library-detail?data=flawedammyy"
     },
     {
         "text": "Nefilim (Nefilim, Nephilim)",
@@ -5920,10 +5928,6 @@ const suggestions = [
         "url": "threat-library-detail?data=sakabota"
     },
     {
-        "text": "Sakula RAT (Sakula RAT, Sakula, Sakurel, VIPER)",
-        "url": "threat-library-detail?data=sakula_rat"
-    },
-    {
         "text": "Salgorea (Salgorea, BadCake)",
         "url": "threat-library-detail?data=salgorea"
     },
@@ -7170,10 +7174,6 @@ const suggestions = [
     {
         "text": "Vawtrak (Vawtrak, Catch, grabnew, NeverQuest)",
         "url": "threat-library-detail?data=vawtrak"
-    },
-    {
-        "text": "VBREVSHELL (VBREVSHELL)",
-        "url": "threat-library-detail?data=vbrevshell"
     },
     {
         "text": "VBShower (VBShower)",

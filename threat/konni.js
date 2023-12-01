@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Konni",
     "category": "Malware",
     "type": "Backdoor, Info stealer",
-    "modified": "2022-09-06",
+    "modified": "2023-11-10",
     "all_data": {
         "tool": "Konni",
         "names": [
@@ -45,11 +45,11 @@ var threatdata = {
             "malware": "win.konni",
             "last_update": "2023-09-14 13:56:56",
             "tags": [
+                "KONNI",
                 "APT Konni",
-                "APT",
-                "Konni",
                 "APT37",
-                "KONNI"
+                "APT",
+                "Konni"
             ],
             "ioc": {
                 "domain": [
@@ -110,10 +110,6 @@ var threatdata = {
                     {
                         "value": "88.119.169.93:80",
                         "timestamp": "2023-08-31 08:22:32"
-                    },
-                    {
-                        "value": "88.119.175.109:80",
-                        "timestamp": "2023-07-17 13:19:58"
                     },
                     {
                         "value": "213.252.244.251:80",
@@ -269,6 +265,17 @@ var threatdata = {
     "file_name": "konni",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://nsfocusglobal.com/the-new-apt-group-darkcasino-and-the-global-surge-in-winrar-0-day-exploits/",
+            "date": "2023-11-10",
+            "organization": "NSFOCUS",
+            "author": "NSFOCUS",
+            "title": "The New APT Group DarkCasino and the Global Surge in WinRAR 0-Day Exploits",
+            "categories": [
+                "Cobalt Strike",
+                "Konni"
+            ]
+        },
         {
             "data_url": "https://cocomelonc.github.io/malware/2022/09/06/malware-tricks-23.html",
             "date": "2022-09-06",

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "GOLDBACKDOOR",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-06-22",
+    "modified": "2023-09-25",
     "all_data": {
         "tool": "GOLDBACKDOOR",
         "names": [
@@ -31,6 +31,16 @@ var threatdata = {
     "file_name": "goldbackdoor",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.0x0v1.com/rearchive-goldbackdoor/",
+            "date": "2023-09-25",
+            "organization": "0x0v1",
+            "author": "Ovi",
+            "title": "REArchive: Reverse engineering APT37\u2019s GOLDBACKDOOR dropper",
+            "categories": [
+                "GOLDBACKDOOR"
+            ]
+        },
         {
             "data_url": "https://stairwell.com/wp-content/uploads/2022/04/Stairwell-threat-report-The-ink-stained-trail-of-GOLDBACKDOOR.pdf",
             "date": "2022-04-21",

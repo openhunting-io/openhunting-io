@@ -39,11 +39,11 @@ var threatdata = {
             "malware": "aix.fastcash",
             "last_update": "2023-04-26 18:30:06",
             "tags": [
-                "Cerberus",
-                "Gozi",
-                "Hancitor",
                 "Amadey",
-                "ISFB"
+                "Hancitor",
+                "Gozi",
+                "ISFB",
+                "Cerberus"
             ],
             "ioc": {
                 "url": [

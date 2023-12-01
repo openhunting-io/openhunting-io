@@ -45,8 +45,8 @@ var threatdata = {
             "malware": "win.qadars",
             "last_update": "2021-04-30 12:55:36",
             "tags": [
-                "qakbot",
-                "qadars"
+                "qadars",
+                "qakbot"
             ],
             "ioc": {
                 "sha3_384_hash": [

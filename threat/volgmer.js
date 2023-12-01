@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Volgmer, Manuscrypt",
     "category": "Malware",
     "type": "Reconnaissance, Backdoor, Info stealer, Exfiltration, Botnet",
-    "modified": "2023-08-31",
+    "modified": "2023-10-13",
     "all_data": {
         "tool": "Volgmer",
         "names": [
@@ -45,6 +45,18 @@ var threatdata = {
     "file_name": "volgmer",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/en/57685/",
+            "date": "2023-10-13",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Analysis Report on Lazarus Threat Group\u2019s Volgmer and Scout Malware",
+            "categories": [
+                "JessieConTea",
+                "Scout",
+                "Volgmer"
+            ]
+        },
         {
             "data_url": "https://asec.ahnlab.com/en/56405/",
             "date": "2023-08-31",

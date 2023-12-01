@@ -58,10 +58,10 @@ var threatdata = {
             "malware": "win.zloader",
             "last_update": "2022-03-07 17:56:47",
             "tags": [
-                "zloader",
+                "dll",
                 "nut",
                 "spelevoek",
-                "dll",
+                "zloader",
                 "Zloader",
                 "ZLoader"
             ],

@@ -31,20 +31,18 @@ var threatdata = {
             "malware_printable": "DarkVNC",
             "malware_alias": null,
             "malware": "win.darkvnc",
-            "last_update": "2023-08-14 06:07:11",
+            "last_update": "2023-10-13 13:17:02",
             "tags": [
+                "hvnc",
                 "rat",
-                "DarkVNC",
-                "hvnc"
+                "DarkVNC"
             ],
             "ioc": {
-                "domain": [
-                    {
-                        "value": "aimtech.ddns.net",
-                        "timestamp": "2023-08-14 06:07:11"
-                    }
-                ],
                 "ip:port": [
+                    {
+                        "value": "20.211.121.138:9982",
+                        "timestamp": "2023-10-13 13:17:02"
+                    },
                     {
                         "value": "2.152.208.135:5500",
                         "timestamp": "2023-08-14 04:53:45"
@@ -65,11 +63,17 @@ var threatdata = {
                         "value": "91.238.50.80:8080",
                         "timestamp": "2022-06-29 05:53:22"
                     }
+                ],
+                "domain": [
+                    {
+                        "value": "aimtech.ddns.net",
+                        "timestamp": "2023-08-14 06:07:11"
+                    }
                 ]
             }
         }
     ],
-    "last_ioc_update": "2023-08-14 06:07:11",
+    "last_ioc_update": "2023-10-13 13:17:02",
     "file_name": "darkvnc",
     "analysis": null,
     "articles": [

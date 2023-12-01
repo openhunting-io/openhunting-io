@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "EnvyScout, ROOTSAW",
     "category": "Malware",
     "type": "Dropper",
-    "modified": "2023-06-22",
+    "modified": "2023-09-22",
     "all_data": {
         "tool": "EnvyScout",
         "names": [
@@ -62,6 +62,22 @@ var threatdata = {
     "file_name": "envyscout",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://www.mandiant.com/resources/blog/apt29-evolving-diplomatic-phishing",
+            "date": "2023-09-22",
+            "organization": "Mandiant",
+            "author": "Luke Jenkins",
+            "title": "Backchannel Diplomacy: APT29\u2019s Rapidly Evolving Diplomatic Phishing Operations",
+            "categories": [
+                "Brute Ratel C4",
+                "Cobalt Strike",
+                "EnvyScout",
+                "GraphDrop",
+                "QUARTERRIG",
+                "sRDI",
+                "Unidentified 107 (APT29)"
+            ]
+        },
         {
             "data_url": "https://cert.pl/posts/2023/04/kampania-szpiegowska-apt29/",
             "date": "2023-04-13",

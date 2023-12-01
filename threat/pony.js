@@ -47,13 +47,21 @@ var threatdata = {
             "malware_printable": "Pony",
             "malware_alias": "Siplog,Fareit",
             "malware": "win.pony",
-            "last_update": "2023-09-18 11:00:22",
+            "last_update": "2023-11-03 17:35:44",
             "tags": [
                 "ViriBack",
                 "Pony"
             ],
             "ioc": {
                 "url": [
+                    {
+                        "value": "http://seelend.com/man/panelnew/gate.php",
+                        "timestamp": "2023-11-03 17:35:44"
+                    },
+                    {
+                        "value": "http://biogenx.net/forum/viewtopic.php",
+                        "timestamp": "2023-10-18 08:20:38"
+                    },
                     {
                         "value": "http://v-kolgotkah.ru/gate.php",
                         "timestamp": "2023-09-18 11:00:22"
@@ -1894,7 +1902,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-18 11:00:22",
+    "last_ioc_update": "2023-11-03 17:35:44",
     "file_name": "pony",
     "analysis": null,
     "articles": [

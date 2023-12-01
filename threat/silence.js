@@ -44,9 +44,9 @@ var threatdata = {
             "malware": "win.silence",
             "last_update": "2023-09-11 07:20:20",
             "tags": [
-                "truebot",
                 "Silence",
-                "TrueBot"
+                "TrueBot",
+                "truebot"
             ],
             "ioc": {
                 "domain": [

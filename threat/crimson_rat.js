@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Crimson RAT, Crimson, SEEDOOR, Scarimson, MSIL, MSIL/Crimson",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-05-02",
+    "modified": "2023-10-12",
     "all_data": {
         "tool": "Crimson RAT",
         "names": [
@@ -54,20 +54,52 @@ var threatdata = {
             "malware_printable": "Crimson RAT",
             "malware_alias": "SEEDOOR,Scarimson",
             "malware": "win.crimson",
-            "last_update": "2023-09-21 12:14:16",
+            "last_update": "2023-11-29 09:24:28",
             "tags": [
-                "APT36",
-                "Crimson RAT",
-                "RAT",
-                "Crimson",
-                "CrimsonRAT",
-                "APT",
+                "Transparenttribe",
                 "TransparentTribe",
+                "CrimsonRAT",
+                "APT36",
+                "RAT",
+                "APT",
                 "crimson",
-                "Transparenttribe"
+                "Crimson RAT",
+                "Crimson"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "66.235.175.91:1051",
+                        "timestamp": "2023-11-29 09:24:28"
+                    },
+                    {
+                        "value": "66.235.175.91:23001",
+                        "timestamp": "2023-11-29 09:24:27"
+                    },
+                    {
+                        "value": "164.68.112.101:14684",
+                        "timestamp": "2023-11-29 09:24:26"
+                    },
+                    {
+                        "value": "38.242.211.87:8143",
+                        "timestamp": "2023-11-29 09:24:26"
+                    },
+                    {
+                        "value": "45.14.194.253:10243",
+                        "timestamp": "2023-11-29 09:24:26"
+                    },
+                    {
+                        "value": "84.46.251.145:901",
+                        "timestamp": "2023-11-29 09:24:25"
+                    },
+                    {
+                        "value": "84.46.251.145:1717",
+                        "timestamp": "2023-11-29 09:24:25"
+                    },
+                    {
+                        "value": "185.137.122.104:8484",
+                        "timestamp": "2023-11-29 09:24:24"
+                    },
                     {
                         "value": "162.245.190.24:10108",
                         "timestamp": "2023-09-21 12:14:16"
@@ -610,10 +642,23 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-21 12:14:16",
+    "last_ioc_update": "2023-11-29 09:24:28",
     "file_name": "crimson_rat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://blog.cluster25.duskrise.com/2023/10/12/cve-2023-38831-russian-attack",
+            "date": "2023-10-12",
+            "organization": "Cluster25",
+            "author": "Cluster25 Threat Intel Team",
+            "title": "CVE-2023-38831 Exploited by Pro-Russia Hacking Groups in RU-UA Conflict Zone for Credential Harvesting Operations",
+            "categories": [
+                "Agent Tesla",
+                "Crimson RAT",
+                "Nanocore RAT",
+                "SmokeLoader"
+            ]
+        },
         {
             "data_url": "https://www.seqrite.com/blog/transparent-tribe-apt-actively-lures-indian-army-amidst-increased-targeting-of-educational-institutions",
             "date": "2023-05-02",

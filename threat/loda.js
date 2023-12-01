@@ -41,20 +41,32 @@ var threatdata = {
             "malware_printable": "Loda",
             "malware_alias": "LodaRAT,Nymeria",
             "malware": "win.loda",
-            "last_update": "2023-09-10 22:08:44",
+            "last_update": "2023-11-13 12:58:41",
             "tags": [
                 "LodaRAT",
-                "PDF",
-                "Loda"
+                "Loda",
+                "PDF"
             ],
             "ioc": {
                 "domain": [
+                    {
+                        "value": "microsoft.net.linkpc.net",
+                        "timestamp": "2023-11-13 12:58:41"
+                    },
+                    {
+                        "value": "storageapis.gotdns.ch",
+                        "timestamp": "2023-11-13 12:58:40"
+                    },
                     {
                         "value": "presh147osidufhj.ddns.net",
                         "timestamp": "2023-09-10 21:55:53"
                     }
                 ],
                 "ip:port": [
+                    {
+                        "value": "194.187.251.115:62848",
+                        "timestamp": "2023-11-13 12:58:40"
+                    },
                     {
                         "value": "37.0.14.214:35152",
                         "timestamp": "2023-09-10 14:34:52"
@@ -193,7 +205,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-10 22:08:44",
+    "last_ioc_update": "2023-11-13 12:58:41",
     "file_name": "loda",
     "analysis": null,
     "articles": [

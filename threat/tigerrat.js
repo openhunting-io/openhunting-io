@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "TigerRAT, Tiger RAT",
     "category": "Malware",
     "type": "Backdoor",
-    "modified": "2023-08-31",
+    "modified": "2023-11-10",
     "all_data": {
         "tool": "TigerRAT",
         "names": [
@@ -34,6 +34,17 @@ var threatdata = {
     "file_name": "tigerrat",
     "analysis": null,
     "articles": [
+        {
+            "data_url": "https://asec.ahnlab.com/ko/58215/",
+            "date": "2023-11-10",
+            "organization": "AhnLab",
+            "author": "ASEC Analysis Team",
+            "title": "Detection of attacks exploiting asset management software (Andariel Group)",
+            "categories": [
+                "Lilith",
+                "Tiger RAT"
+            ]
+        },
         {
             "data_url": "https://asec.ahnlab.com/en/56405/",
             "date": "2023-08-31",

@@ -3,7 +3,7 @@ var threatdata = {
     "alias": "Carderbee",
     "category": "APT",
     "type": "-",
-    "modified": "2023-09-06",
+    "modified": "2023-10-05",
     "all_data": {
         "actor": "Carderbee",
         "names": [
@@ -39,6 +39,18 @@ var threatdata = {
     "last_ioc_update": null,
     "file_name": "carderbee",
     "analysis": null,
-    "articles": [],
+    "articles": [
+        {
+            "data_url": "https://blog.eclecticiq.com/chinese-state-sponsored-cyber-espionage-activity-targeting-semiconductor-industry-in-east-asia",
+            "date": "2023-10-05",
+            "organization": "EclecticIQ",
+            "author": "Arda B\u00fcy\u00fckkaya",
+            "title": "Chinese State-Sponsored Cyber Espionage Activity Targeting Semiconductor Industry in East Asia",
+            "categories": [
+                "ChargeWeapon",
+                "Carderbee"
+            ]
+        }
+    ],
     "mitre": []
 };

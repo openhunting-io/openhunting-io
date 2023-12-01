@@ -62,19 +62,23 @@ var threatdata = {
             "malware_printable": "NetWire RC",
             "malware_alias": "NetWeird,NetWire,Recam",
             "malware": "win.netwire",
-            "last_update": "2023-09-27 18:37:46",
+            "last_update": "2023-11-20 19:36:33",
             "tags": [
                 "rar",
-                "NetWire",
-                "RAT",
-                "7z",
-                "exe",
                 "NetWire RAT",
-                "netwire",
-                "Netwire"
+                "NetWire",
+                "exe",
+                "7z",
+                "RAT",
+                "Netwire",
+                "netwire"
             ],
             "ioc": {
                 "ip:port": [
+                    {
+                        "value": "180.235.137.45:8773",
+                        "timestamp": "2023-11-04 00:15:22"
+                    },
                     {
                         "value": "192.169.69.26:9002",
                         "timestamp": "2023-06-25 21:35:12"
@@ -1979,7 +1983,7 @@ var threatdata = {
                     },
                     {
                         "value": "exportmunic007.duckdns.org",
-                        "timestamp": "2023-09-27 13:54:31"
+                        "timestamp": "2023-11-20 19:36:33"
                     },
                     {
                         "value": "info1.dynamic-dns.net",
@@ -2015,7 +2019,7 @@ var threatdata = {
             }
         }
     ],
-    "last_ioc_update": "2023-09-27 18:37:46",
+    "last_ioc_update": "2023-11-20 19:36:33",
     "file_name": "netwire_rc",
     "analysis": null,
     "articles": [
