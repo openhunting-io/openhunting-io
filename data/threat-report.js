@@ -1,7 +1,7 @@
 var threatReport = [
     {
         date: '3 December 2023',
-        title: 'Threat Hunting Malware Infrastructure',
+        title: 'THREAT HUNTING MALWARE INFRASTRUCTURE',
         category: 'Threat Hunting',
         analyst: 'Rizqy Rionaldy',
         action: '<a href="data/file-threat-report/Threat Hunting Ransomware Infrastructure.pdf">Download</a>'
