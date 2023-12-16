@@ -1,5 +1,12 @@
 var threatReport = [
     {
+        date: '16 December 2023',
+        title: 'KNOCK, KNOCK! WHO’S THERE? IT’S YOUR RANSOMWARE CHAT – LESSON LEARNING FROM RANSOMWARE NEGOTIATION',
+        category: 'Threat Intelligence',
+        analyst: 'Rizqy Rionaldy',
+        action: '<a href="data/file-threat-report/ITS YOUR RANSOMWARE CHAT - LESSON LEARNING.pdf">Download</a>'
+    },
+    {
         date: '3 December 2023',
         title: 'THREAT HUNTING MALWARE INFRASTRUCTURE',
         category: 'Threat Hunting',
